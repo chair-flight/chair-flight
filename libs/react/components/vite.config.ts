@@ -23,7 +23,7 @@ export default defineConfig({
       provider: "istanbul",
     },
     environment: "jsdom",
-    setupFiles: "./src/__tests__/setup-tests.js",
+    setupFiles: "./src/__tests__/setup-tests.ts",
     include: ["src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
   },
 });
