@@ -28,31 +28,6 @@
           "tsc -p libs/react/components/tsconfig.spec.json --noEmit"
         ]
       }
-    },
-    "dev": {
-      "executor": "@nx/storybook:storybook",
-      "options": {
-        "port": 4250,
-        "configDir": "libs/react/components/.storybook"
-      },
-      "configurations": {
-        "ci": {
-          "quiet": true
-        }
-      }
-    },
-    "build": {
-      "executor": "@nx/storybook:build",
-      "outputs": ["{options.outputDir}"],
-      "options": {
-        "outputDir": "apps/next-app/public/storybook",
-        "configDir": "libs/react/components/.storybook"
-      },
-      "configurations": {
-        "ci": {
-          "quiet": true
-        }
-      }
     }
   }
 }
