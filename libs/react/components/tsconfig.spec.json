@@ -1,13 +1,8 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "outDir": "../../../dist/out-tsc",
-    "types": ["vitest/globals", "node", "@testing-library/jest-dom"]
+    "types": ["node", "vitest"],
+    "jsx": "react"
   },
-  "include": [
-    "__tests__/**/*.ts",
-    "vite.config.ts",
-    "src/**/*.test.*",
-    "src/**/*.spec.*"
-  ]
+  "include": ["src/**/*.test.ts", "src/**/*.test.tsx", "vite.config.ts"]
 }
