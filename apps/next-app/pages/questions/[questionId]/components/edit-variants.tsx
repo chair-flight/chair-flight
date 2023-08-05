@@ -24,7 +24,7 @@ const ListContainer = styled(Box)`
   overflow: scroll;
   margin: 0;
   padding: ${({ theme }) => theme.spacing(0, 2, 0, 0)};
-`;
+` as typeof Box;
 
 type DraggableVariantProps = {
   error: boolean;
