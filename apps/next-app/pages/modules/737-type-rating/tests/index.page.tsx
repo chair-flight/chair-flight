@@ -4,7 +4,6 @@ import {
   LayoutModule737,
   TestMaker,
 } from "@chair-flight/react/containers";
-import { trpc } from "@chair-flight/trpc/client";
 import { getTrpcHelper } from "@chair-flight/trpc/server";
 import type { GetStaticProps, NextPage } from "next";
 
@@ -16,13 +15,11 @@ const TestsIndexPage: NextPage = () => {
       <AppHead />
       <TestMaker
         component="section"
-        createTest={trpc.questionBank737.createTest}
-        getAllSubjects={trpc.questionBank737.getAllSubjects}
-        testPersistenceKey="cf-test-maker-737"
+        questionBank="737"
         sx={{ height: "100%" }}
-        onSuccessfulTestCreation={(test) =>
-          router.push(`./${test.id}/${test.mode}`)
-        }
+        onSuccessfulTestCreation={(test) => {
+          router.push(`/modules/737-type-rating/tests/${test.id}/${test.mode}`);
+        }}
       />
     </LayoutModule737>
   );
