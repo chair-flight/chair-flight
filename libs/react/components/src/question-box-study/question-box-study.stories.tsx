@@ -1,10 +1,10 @@
 import { default as dedent } from "ts-dedent";
 import { QuestionMultipleChoice } from "../question-multiple-choice/question-multiple-choice";
 import { Playground as QuestionMultipleChoicePlayground } from "../question-multiple-choice/question-multiple-choice.stories";
-import { QuestionBoxReview } from "./question-box-review";
+import { QuestionBoxStudy } from "./question-box-study";
 import type { Meta, StoryObj } from "@storybook/react";
 
-type Story = StoryObj<typeof QuestionBoxReview>;
+type Story = StoryObj<typeof QuestionBoxStudy>;
 
 export const Playground: Story = {
   args: {
@@ -20,9 +20,9 @@ export const Playground: Story = {
   },
 };
 
-const meta: Meta<typeof QuestionBoxReview> = {
-  title: "Components/QuestionBoxReview",
-  component: QuestionBoxReview,
+const meta: Meta<typeof QuestionBoxStudy> = {
+  title: "Components/QuestionBoxStudy",
+  component: QuestionBoxStudy,
   tags: ["autodocs"],
   argTypes: {
     question: {

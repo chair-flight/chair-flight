@@ -76,7 +76,7 @@ const StyledTabs = styled(Tabs)`
 
 type TabName = "question" | "explanation" | "meta" | "preview";
 
-export type QuestionBoxReviewProps = {
+export type QuestionBoxStudyProps = {
   /**
    * Should be an instance of `QuestionMultiple` or other question formats.
    */
@@ -98,16 +98,16 @@ export type QuestionBoxReviewProps = {
   }>;
 } & Pick<SheetProps, "sx" | "className" | "style" | "variant" | "component">;
 
-export type QuestionBoxReviewRef = HTMLDivElement & {
+export type QuestionBoxStudyRef = HTMLDivElement & {
   change?: (name: TabName) => void;
 };
 
 /**
  * Question wrapper designed for stand alone question review or test review
  */
-export const QuestionBoxReview = forwardRef<
-  QuestionBoxReviewRef,
-  QuestionBoxReviewProps
+export const QuestionBoxStudy = forwardRef<
+  QuestionBoxStudyRef,
+  QuestionBoxStudyProps
 >(
   (
     {
@@ -123,7 +123,7 @@ export const QuestionBoxReview = forwardRef<
     },
     ref,
   ) => {
-    const localRef = useRef<QuestionBoxReviewRef>();
+    const localRef = useRef<QuestionBoxStudyRef>();
     const [value, setValue] = useState<TabName>("question");
 
     if (localRef.current) {
@@ -211,4 +211,4 @@ export const QuestionBoxReview = forwardRef<
   },
 );
 
-QuestionBoxReview.displayName = "QuestionBoxReview";
+QuestionBoxStudy.displayName = "QuestionBoxStudy";
