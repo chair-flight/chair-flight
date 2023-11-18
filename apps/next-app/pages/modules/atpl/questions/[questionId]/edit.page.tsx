@@ -11,9 +11,9 @@ export const EditQuestionPage: NextPage = () => {
   const router = useRouter();
   const questionId = router.query["questionId"] as string;
   return (
-    <LayoutModuleAtpl noPadding fixedHeight>
+    <LayoutModuleAtpl fixedHeight noPadding>
       <AppHead title={questionId} />
-      <QuestionEditor />
+      <QuestionEditor questionBank="Atpl" />
     </LayoutModuleAtpl>
   );
 };
