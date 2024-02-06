@@ -1,6 +1,6 @@
 import * as fs from "node:fs/promises";
-import { questionBankQuestionSchema } from "@chair-flight/core/question-bank";
-import { QuestionBank } from "./question-bank-provider";
+import { questionTemplateSchema } from "@chair-flight/core/question-bank";
+import { QuestionBank } from "./question-bank";
 import type { QuestionBankName } from "@chair-flight/core/question-bank";
 
 const questionBanks: Record<QuestionBankName, QuestionBank> = {
@@ -21,6 +21,7 @@ describe("QuestionBank", async () => {
     "prep",
     "atpl",
   ] satisfies QuestionBankName[];
+
   const allQuestions = await Promise.all(
     modulesWithQuestions
       .map((b) => questionBanks[b])
@@ -28,10 +29,6 @@ describe("QuestionBank", async () => {
   ).then((qs) => qs.flat().map((q) => [q.id, q] as const));
 
   const questionIds = allQuestions.map(([id]) => id);
-  const variantIds = allQuestions.flatMap(([, q]) => Object.keys(q.variants));
-  const variantIds2 = allQuestions.flatMap(([, q]) =>
-    Object.values(q.variants).map((v) => v.id),
-  );
 
   test("QuestionBankType has correct config", async () => {
     expect(questionBanks["type"].getName()).toBe("type");
@@ -64,20 +61,10 @@ describe("QuestionBank", async () => {
     expect(questionIds).toHaveLength(new Set(questionIds).size);
   });
 
-  test("Variants have no duplicate ids", () => {
-    expect(variantIds).toHaveLength(new Set(variantIds).size);
-  });
-
-  test("Variant Ids match the ids on the variant map", () => {
-    variantIds.forEach((vId, i) =>
-      expect.soft(vId).toStrictEqual(variantIds2[i]),
-    );
-  });
-
   test("Questions are valid", () => {
     allQuestions.forEach(([, question]) =>
       expect
-        .soft(questionBankQuestionSchema.safeParse(question))
+        .soft(questionTemplateSchema.safeParse(question))
         .toStrictEqual({ success: true, data: question }),
     );
   });

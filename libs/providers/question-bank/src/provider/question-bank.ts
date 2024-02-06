@@ -1,12 +1,12 @@
 import { getUrlPathOnServer } from "@chair-flight/base/env";
 import { NotFoundError } from "@chair-flight/base/errors";
 import type {
-  QuestionBankName,
-  QuestionBankResource,
   QuestionBankProvider,
+  QuestionBankName,
+  QuestionBankNameToType,
+  QuestionBankResource,
   QuestionBankResourceArrays,
   QuestionBankResourceMaps,
-  QuestionBankNameToType,
 } from "@chair-flight/core/question-bank";
 
 const resources: QuestionBankResource[] = [
@@ -22,12 +22,15 @@ const resources: QuestionBankResource[] = [
 export class QuestionBank implements QuestionBankProvider {
   private questionBankName: QuestionBankName;
 
-  private resourceArrays = resources.reduce((s, r) => {
-    s[r] = undefined;
-    return s;
-  }, {} as QuestionBankResourceArrays);
+  private resourceArrays: QuestionBankResourceArrays = resources.reduce(
+    (s, r) => {
+      s[r] = undefined;
+      return s;
+    },
+    {} as QuestionBankResourceArrays,
+  );
 
-  private resourceMaps = resources.reduce((s, r) => {
+  private resourceMaps: QuestionBankResourceMaps = resources.reduce((s, r) => {
     s[r] = undefined;
     return s;
   }, {} as QuestionBankResourceMaps);

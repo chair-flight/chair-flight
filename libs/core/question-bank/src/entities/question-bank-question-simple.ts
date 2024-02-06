@@ -1,8 +1,21 @@
 import { z } from "zod";
+import { assertType } from "@chair-flight/base/utils";
+import type { QuestionOptionId } from "./ids";
+import type { IsEqual } from "@chair-flight/base/utils";
 
-export const questionSimpleSchema = z.object({
+export type QuestionVariantSimple = {
+  type: "simple";
+  question: string;
+  options: Array<{
+    id: QuestionOptionId;
+    text: string;
+    correct: boolean;
+    why: string;
+  }>;
+};
+
+export const questionVariantSimpleSchema = z.object({
   type: z.literal("simple"),
-  id: z.string(),
   question: z.string().min(3),
   options: z
     .object({
@@ -35,7 +48,7 @@ export const questionSimpleSchema = z.object({
         });
       }
     }),
-  annexes: z.string().array(),
-  externalIds: z.string().array(),
-  explanation: z.string(),
 });
+
+type IVariantSimple = z.infer<typeof questionVariantSimpleSchema>;
+assertType<IsEqual<IVariantSimple, QuestionVariantSimple>>();
