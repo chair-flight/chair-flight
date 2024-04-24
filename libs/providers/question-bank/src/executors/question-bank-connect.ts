@@ -1,6 +1,6 @@
 import { keepUnique, makeMap } from "@cf/base/utils";
 import {
-  questionBankValidation,
+  questionBankSchema,
   type Annex,
   type Course,
   type Doc,
@@ -105,7 +105,7 @@ export const connectQuestionBank = ({
 
   // Link learning Objectives to Docs
   learningObjectives.forEach((lo) => {
-    let docId: string | undefined = lo.id;
+    let docId: string | null = lo.id;
     while (docId) {
       if (docsMap[docId]) {
         lo.doc = docId;
@@ -253,13 +253,14 @@ export const connectQuestionBank = ({
     }
   });
 
-  questionBankValidation.parse({
+  questionBankSchema.parse({
     questionTemplates,
     docs,
     annexes,
     learningObjectives,
     subjects,
     courses,
+    flashcardCollections: [],
   });
 
   return {
