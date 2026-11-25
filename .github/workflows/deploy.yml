@@ -38,7 +38,7 @@ jobs:
           node-version: 24
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - run: pnpm migrate
+      - run: pnpm exec drizzle-kit migrate --config src/database/drizzle.config.ts
 
   deploy:
     if: github.event_name == 'push'
