@@ -554,7 +554,8 @@
   templates:
     - type: simple
       question: "During the cruise, modern large jet aeroplanes normally fly at speeds faster than MCRIT since the increase in speed is more significant than the increase in drag. This is achieved:"
-      explanation: ""
+      explanation: |-
+        MCRIT is reached when the airflow first becomes sonic somewhere on the wing. A supercritical aerofoil limits the strength of the shock and delays the sharp rise in wave drag, making cruise above MCRIT practical.
       presets:
         - correctAnswers:
             - text: By fitting supercritical wings.

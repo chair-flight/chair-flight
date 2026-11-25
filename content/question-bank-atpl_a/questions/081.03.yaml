@@ -2534,7 +2534,8 @@
   templates:
     - type: simple
       question: Just after take-off, a pilot inadvertently retracts the flaps instead of the landing gear. What are the consequences?
-      explanation: ""
+      explanation: |-
+        Retracting the flaps lowers the maximum lift coefficient and raises the stall speed. If the aeroplane is below the clean stall speed for the load factor required, the clean wing cannot supply the required lift.
       presets:
         - correctAnswers:
             - text: The aeroplane will stall if the speed is lower than the stall speed in clean configuration.

@@ -1784,7 +1784,8 @@
   templates:
     - type: simple
       question: "In twin engine aeroplanes with propellers turning clockwise as seen from behind:"
-      explanation: ""
+      explanation: |-
+        At positive angle of attack, P-factor shifts the effective thrust of each clockwise-turning propeller to the right of its hub as seen from behind. With the left engine failed, the remaining right engine therefore has the larger yawing moment arm. That makes the left engine critical.
       presets:
         - correctAnswers:
             - text: the left engine is the critical engine.

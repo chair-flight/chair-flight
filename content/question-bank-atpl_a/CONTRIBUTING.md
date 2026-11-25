@@ -128,7 +128,7 @@ Copy these when writing a new question: maths explanation layout and rendering: 
 
 ## State
 
-Questions with every template explained, by subject and chapter (1,396 of 6,639 in total). A question without an explanation carries `explanation: ""`.
+Questions with every template explained, by subject and chapter (1,408 of 6,639 in total). A question without an explanation carries `explanation: ""`.
 
 | Chapter | Explained |
 |---------|-----------|

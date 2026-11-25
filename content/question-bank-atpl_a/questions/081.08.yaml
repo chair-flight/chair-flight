@@ -88,7 +88,8 @@
         no wind, bank or sideslip
 
         The relationship between these three parameters is:
-      explanation: ""
+      explanation: |-
+        Pitch attitude θ is measured from the horizon, and flight-path angle γ is measured from the same horizon. Angle of attack α is the angle from the flight path to the reference chord in this diagram convention. Adding the angles gives θ = γ + α.
       presets:
         - correctAnswers:
             - text: theta = gamma + alpha.
@@ -1316,7 +1317,8 @@
   templates:
     - type: simple
       question: After losing all engines and starting a glide descent, the pilot lowers the flaps in an attempt to increase the glide range. The pilot acted...
-      explanation: ""
+      explanation: |-
+        In a steady glide, the glide angle depends on the lift-to-drag ratio. Extending the flaps in this example adds drag and lowers that ratio, so the glide becomes steeper and covers less horizontal distance from the same height in still air.
       presets:
         - correctAnswers:
             - text: Incorrectly, because lowering the flaps decreases glide range and increases glide angle.
@@ -1430,7 +1432,8 @@
   templates:
     - type: simple
       question: In a coordinated banked turn, the centripetal force is equal to...
-      explanation: ""
+      explanation: |-
+        Banking tilts the lift vector by the bank angle φ. Its horizontal component, L sin φ, points towards the centre of the turn and provides the centripetal force. In a level turn, the vertical component, L cos φ, balances weight.
       presets:
         - correctAnswers:
             - text: L x sin(bank angle)
