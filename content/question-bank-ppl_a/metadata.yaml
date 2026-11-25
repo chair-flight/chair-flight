@@ -277,53 +277,91 @@ annexes:
       Point 1 is in the outflow before the centre, point 2 is in the downdraught
       at the centre, point 3 is in the outflow after the centre.
     source: ""
-courses: []
+courses:
+  - id: PPL_A
+    text: PPL(A)
 subjects:
   - id: "01"
     learningObjective: "01"
     longName: Air law and ATC procedures
     shortName: Air law and ATC procedures
-    exams: []
+    exams:
+      - course: PPL_A
+        minutes: 45
+        questions: 20
+        chapters: null
   - id: "02"
     learningObjective: "02"
     longName: Human performance
     shortName: Human performance
-    exams: []
+    exams:
+      - course: PPL_A
+        minutes: 30
+        questions: 20
+        chapters: null
   - id: "03"
     learningObjective: "03"
     longName: Meteorology
     shortName: Meteorology
-    exams: []
+    exams:
+      - course: PPL_A
+        minutes: 45
+        questions: 20
+        chapters: null
   - id: "04"
     learningObjective: "04"
     longName: Communications
     shortName: Communications
-    exams: []
+    exams:
+      - course: PPL_A
+        minutes: 30
+        questions: 20
+        chapters: null
   - id: "05"
     learningObjective: "05"
     longName: Principles of flight
     shortName: Principles of flight
-    exams: []
+    exams:
+      - course: PPL_A
+        minutes: 45
+        questions: 20
+        chapters: null
   - id: "06"
     learningObjective: "06"
     longName: Operational procedures
     shortName: Operational procedures
-    exams: []
+    exams:
+      - course: PPL_A
+        minutes: 30
+        questions: 20
+        chapters: null
   - id: "07"
     learningObjective: "07"
     longName: Flight performance and planning
     shortName: Flight performance and planning
-    exams: []
+    exams:
+      - course: PPL_A
+        minutes: 95
+        questions: 20
+        chapters: null
   - id: "08"
     learningObjective: "08"
     longName: Aircraft general knowledge
     shortName: Aircraft general knowledge
-    exams: []
+    exams:
+      - course: PPL_A
+        minutes: 35
+        questions: 20
+        chapters: null
   - id: "09"
     learningObjective: "09"
     longName: Navigation
     shortName: Navigation
-    exams: []
+    exams:
+      - course: PPL_A
+        minutes: 65
+        questions: 20
+        chapters: null
 chapters:
   - id: "01.01"
     subject: "01"
