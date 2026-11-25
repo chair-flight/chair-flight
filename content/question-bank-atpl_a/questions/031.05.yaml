@@ -1,0 +1,3840 @@
+- id: QMFRU
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-312376
+    - AVEXAM-32955
+    - BGS-310876
+    - AVEXAM-49528
+    - AVEXAM-44332
+    - AVEXAM-17071
+    - ATPLQ-319565
+    - ATPLQ-319093
+    - ATPLQ-319374
+    - ATPLQ-311045
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.01.01.01
+  templates:
+    - type: simple
+      question: |-
+        You are departing for a flight with a planned landing fuel of {{lf}} kg. According to aircraft limitations, the centre tank fuel must be used prior to the wing tank fuel. Given the following information, the location of the CG on landing will be how many metres aft of the datum?
+
+        - Maximum Take-Off Mass: {{mtom}} kg
+        - Actual Take-Off Mass: {{tom}} kg
+        - Take-off CG location: {{cg}} m aft of the datum
+        - Fuel in centre tank at take-off: {{c}} kg
+        - Fuel in wing tanks at take-off: {{w}} kg
+        - Centre fuel tank centroid: {{carm}} m aft of the datum
+        - Wing fuel tank centroid: {{warm}} m aft of the datum
+      explanation: |-
+        The landing CG follows from the moment balance: take-off moment minus the moments of the fuel burned, divided by the landing mass. Centre-tank fuel is burned first, so all of it is gone and the rest comes from the wing tanks.
+
+        **Solution**
+
+        Fuel burned = {{macro1}} kg (centre {{c}} kg, wing {{macro2}} kg)
+        Landing mass = {{macro3}} kg
+        Landing moment = {{macro4}} kg·m
+        Landing CG = {{macro4}} / {{macro3}} = **{{answer}} m**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} m**: Burns the wing tank fuel first, leaving centre tank fuel at landing.
+        - **{{d2}} m**: Is the unchanged take-off CG.
+        - **{{d3}} m**: Treats the burned fuel as taken from the mean of both tank centroids.
+        - **{{d4}} m**: Divides the landing moment by the take-off mass instead of the landing mass.
+      presets:
+        - variables:
+            lf: 1800
+            mtom: 99800
+            tom: 59500
+            cg: 16.26
+            c: 10000
+            w: 18000
+            carm: 15.38
+            warm: 17.79
+            macro1: 26200
+            macro2: 16200
+            macro3: 33300
+            macro4: 525472
+            answer: 15.78
+            d1: 15.65
+            d2: 16.26
+            d3: 16
+            d4: 8.83
+          correctAnswers:
+            - text: 15.78 m
+          wrongAnswers:
+            - text: 15.65 m
+            - text: 16 m
+            - text: 8.83 m
+            - text: 16.26 m
+        - variables:
+            lf: 2000
+            mtom: 99800
+            tom: 62000
+            cg: 16.4
+            c: 9000
+            w: 17000
+            carm: 15.4
+            warm: 17.8
+            macro1: 24000
+            macro2: 15000
+            macro3: 38000
+            macro4: 611200
+            answer: 16.08
+            d1: 15.96
+            d2: 16.4
+            d3: 16.27
+            d4: 9.86
+          correctAnswers:
+            - text: 16.08 m
+          wrongAnswers:
+            - text: 15.96 m
+            - text: 16.27 m
+            - text: 9.86 m
+            - text: 16.4 m
+- id: QPWEV
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-318016
+    - AVEXAM-9241
+    - BGS-310822
+    - BGS-310549
+    - AVEXAM-88870
+    - BGS-310685
+    - BGS-310684
+    - ATPLQ-316978
+    - ATPLQ-311733
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.01.01.01
+  templates:
+    - type: simple
+      question: A loaded aircraft has its Centre of Gravity (CG) {{cg}} inches forward of the datum, and its mass is {{mass}} lb. If a last minute load of {{add}} lb is added {{arm}} inches aft of the datum, what is the new position of the CG?
+      explanation: |-
+        The new CG is the total moment divided by the total mass. Taking distances aft of the datum as positive, a CG forward of the datum has a negative arm, so the initial moment is negative. A negative result means the CG is still forward of the datum.
+
+        **Solution**
+
+        Initial moment = -{{cg}} × {{mass}} = {{macro1}} lb·in
+        Added moment = {{arm}} × {{add}} = {{macro2}} lb·in
+        New mass = {{mass}} + {{add}} = {{macro3}} lb
+
+        New CG = {{macro4}} / {{macro3}} = {{macro5}} in, i.e. **{{answer}} inches forward of the datum**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} inches**: ignores the moment of the added load.
+        - **{{d2}} inches**: uses the arm of the added load times the mass ratio as the shift and forgets to subtract the original CG position.
+        - **{{d3}} inches**: divides the moment change by the original mass instead of the new mass.
+        - **{{d4}} inches**: adds the two moments with the same sign, ignoring that the original CG is forward of the datum.
+      presets:
+        - variables:
+            cg: 48
+            mass: 2966
+            add: 128
+            arm: 28
+            macro1: -142368
+            macro2: 3584
+            macro3: 3094
+            macro4: -138784
+            macro5: -44.86
+            answer: 44.86
+            d1: 46.01
+            d2: 46.84
+            d3: 44.72
+            d4: 47.17
+          correctAnswers:
+            - text: 44.86 inches
+          wrongAnswers:
+            - text: 46.01 inches
+            - text: 44.72 inches
+            - text: 47.17 inches
+            - text: 46.84 inches
+        - variables:
+            cg: 58
+            mass: 2906
+            add: 182
+            arm: 23
+            macro1: -168548
+            macro2: 4186
+            macro3: 3088
+            macro4: -164362
+            macro5: -53.23
+            answer: 53.23
+            d1: 54.58
+            d2: 56.64
+            d3: 52.93
+            d4: 55.94
+          correctAnswers:
+            - text: 53.23 inches
+          wrongAnswers:
+            - text: 54.58 inches
+            - text: 52.93 inches
+            - text: 55.94 inches
+            - text: 56.64 inches
+        - variables:
+            cg: 52
+            mass: 3050
+            add: 140
+            arm: 32
+            macro1: -158600
+            macro2: 4480
+            macro3: 3190
+            macro4: -154120
+            macro5: -48.31
+            answer: 48.31
+            d1: 49.72
+            d2: 50.6
+            d3: 48.14
+            d4: 51.12
+          correctAnswers:
+            - text: 48.31 inches
+          wrongAnswers:
+            - text: 49.72 inches
+            - text: 48.14 inches
+            - text: 51.12 inches
+            - text: 50.6 inches
+- id: QGHRG
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-314776
+    - BGS-310773
+    - AVEXAM-64471
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.01.01.01
+  templates:
+    - type: simple
+      question: |-
+        The standard configuration for a light aircraft is single pilot operations, which gives an aircraft's DOM of 3380 lb and a CG of 88.35 in. 
+
+        For a particular flight operation, and they are seated at arm position 85.5 in. Determine the new CG position:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 88.21 in
+          wrongAnswers:
+            - text: 91.05 in
+            - text: 80.02 in
+            - text: 84.05 in
+- id: QHPAJ
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-316163
+    - BGS-310654
+    - BGS-310693
+    - ATPLQ-313622
+    - BGS-310267
+  annexes:
+    - id: AJCU
+  learningObjectiveIds:
+    - 031.05.01.01.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Where is the centre of gravity of the aeroplane in the diagram?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 26.57 cm forward of datum.
+          wrongAnswers:
+            - text: 32.29 cm forward of datum.
+            - text: 32.29 cm aft of datum.
+            - text: 26.57 cm aft of datum.
+    - type: simple
+      question: |-
+        Refer to figure. 
+         Calculate the loaded centre of gravity (CG) using the given information in the annex.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 56.61 cm aft of datum.
+          wrongAnswers:
+            - text: 53.35 cm in front of datum.
+            - text: 60.16 cm aft of datum.
+            - text: 56.35 cm in front of datum.
+    - type: simple
+      question: |-
+        (Refer to Annex) 
+        Given the following information, calculate the loaded centre of gravity (cg).
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 56.53 cm aft datum.
+          wrongAnswers:
+            - text: 56.35 cm aft datum.
+            - text: 60.16 cm aft datum.
+            - text: 53.35 cm aft datum.
+- id: QIMJR
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-315163
+    - BGS-310757
+    - AVEXAM-65843
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.01.01.01
+  templates:
+    - type: simple
+      question: The Basic Empty Mass (BEM) of a light aircraft used for aerial photography is {{bem}} lb and its Centre of Gravity is located {{cg}} inches aft of datum. What will be the new CG of the BEM, if a camera which weighs {{cam}} lb is installed {{arm}} in aft of datum?
+      explanation: |-
+        Installing equipment changes both the mass and the total moment. The new CG is the new total moment divided by the new total mass.
+
+        **Solution**
+
+        New mass = {{bem}} + {{cam}} = {{macro1}} lb
+
+        New moment = {{bem}} x {{cg}} + {{cam}} x {{arm}} = {{macro2}} lb in
+
+        $$
+        \frac{\text{BEM}\times \text{BEM CG}+\text{Camera mass}\times \text{Camera arm}}{\text{BEM}+\text{Camera mass}} = \frac{ {{bem}}\times {{cg}}+{{cam}}\times {{arm}} }{ {{bem}}+{{cam}} } = \mathbf{ {{answer}}\ \text{in} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} in**: the moment of the camera was added but its mass was not included in the divisor.
+        - **{{d2}} in**: the camera moment was subtracted instead of added.
+        - **{{d3}} in**: the camera moment was subtracted and its mass was left out of the divisor.
+      presets:
+        - variables:
+            bem: 2415
+            cg: 77.7
+            cam: 190
+            arm: 108
+            macro1: 2605
+            macro2: 208165.5
+            answer: 79.9
+            d1: 86.2
+            d2: 64.2
+            d3: 69.2
+          correctAnswers:
+            - text: 79.9 in
+          wrongAnswers:
+            - text: 69.2 in
+            - text: 86.2 in
+            - text: 64.2 in
+        - variables:
+            bem: 2380
+            cg: 78.4
+            cam: 150
+            arm: 112
+            macro1: 2530
+            macro2: 203392
+            answer: 80.4
+            d1: 85.5
+            d2: 67.1
+            d3: 71.3
+          correctAnswers:
+            - text: 80.4 in
+          wrongAnswers:
+            - text: 71.3 in
+            - text: 85.5 in
+            - text: 67.1 in
+        - variables:
+            bem: 2500
+            cg: 76.9
+            cam: 210
+            arm: 105
+            macro1: 2710
+            macro2: 214300
+            answer: 79.1
+            d1: 85.7
+            d2: 62.8
+            d3: 68.1
+          correctAnswers:
+            - text: 79.1 in
+          wrongAnswers:
+            - text: 68.1 in
+            - text: 85.7 in
+            - text: 62.8 in
+- id: QMWOP
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds:
+    - QTCYN
+  externalQuestionIds:
+    - ATPLQ-319421
+    - AVEXAM-75238
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.01.01.01
+  templates:
+    - type: simple
+      question: The mass of an aircraft is {{mass}} kg and {{added}} kg of freight is added to a hold {{dist}} m aft of the present CG position. By how many metres does the CG move aft?
+      explanation: |-
+        Adding a mass at a distance from the CG shifts the CG towards it by the added moment divided by the new total mass.
+
+        **Solution**
+
+        $$\frac{\text{Added freight}\times \text{Distance of hold aft of CG}}{\text{Aircraft mass}+\text{Added freight}} = \frac{ {{added}}\times {{dist}} }{ {{mass}}+{{added}} } = \mathbf{ {{answer}}\ \text{m} }$$ aft
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} m**: the added mass is not included in the new total mass.
+        - **{{d2}} m**: the added mass is subtracted instead of added.
+        - **{{d3}} m**: the wrong mass is used in the numerator.
+        - **{{d4}} m**: the CG moves in the wrong direction (forward instead of aft).
+      presets:
+        - variables:
+            mass: 2000
+            added: 400
+            dist: 2
+            answer: 0.33
+            d1: 0.4
+            d2: 0.5
+            d3: 1.67
+            d4: -0.33
+          correctAnswers:
+            - text: 0.33 m
+          wrongAnswers:
+            - text: 0.4 m
+            - text: 1.67 m
+            - text: -0.33 m
+            - text: 0.5 m
+        - variables:
+            mass: 1800
+            added: 300
+            dist: 2.5
+            answer: 0.36
+            d1: 0.42
+            d2: 0.5
+            d3: 2.14
+            d4: -0.36
+          correctAnswers:
+            - text: 0.36 m
+          wrongAnswers:
+            - text: 0.42 m
+            - text: 2.14 m
+            - text: -0.36 m
+            - text: 0.5 m
+- id: QUDAV
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-312573
+    - AVEXAM-65028
+  annexes:
+    - id: AVKK
+  learningObjectiveIds:
+    - 031.05.01.01.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure or CAP 696 Figure 2.5. During dispatch you perform mass and balance calculations. Given the following information, what is the zero fuel mass CG position, in inches aft of the datum?
+
+        - Basic empty mass: {{bem}} lb
+        - Basic empty mass moment: {{bemm}} in·lb
+        - Front seat occupant: {{fm}} lb, arm {{fa}} in
+        - Aft seat occupant: {{am}} lb, arm {{aa}} in
+        - Block fuel: {{fuel}} lb, arm {{fuela}} in
+
+        Disregard start-up and taxi fuel.
+      explanation: |-
+        The zero fuel mass (ZFM) is the basic empty mass plus the payload, without fuel. The ZFM CG is the sum of the moments divided by the ZFM.
+
+        **Solution**
+
+        ZFM = {{macro1}} lb; moment = {{macro2}} in·lb
+
+        $$
+        \frac{\text{BEM moment}+\text{Front seat occupant mass}\times \text{Front seat arm}+\text{Aft seat occupant mass}\times \text{Aft seat arm}}{\text{Basic empty mass}+\text{Front seat occupant mass}+\text{Aft seat occupant mass}} = \frac{ {{bemm}}+{{fm}}\times {{fa}}+{{am}}\times {{aa}} }{ {{bem}}+{{fm}}+{{am}} } = \mathbf{ {{answer}}\ \text{in} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} in**: includes the fuel, which gives the take-off (ramp) CG instead of the ZFM CG.
+        - **{{d2}} in**: includes the fuel mass in the divisor but not its moment.
+        - **{{d3}} in**: leaves out the aft seat occupant.
+        - **{{d4}} in**: takes the plain average of the seat arms.
+      presets:
+        - variables:
+            bem: 2415
+            bemm: 187645.5
+            fm: 200
+            fa: 79
+            am: 90
+            aa: 117
+            fuel: 600
+            fuela: 70
+            macro1: 2705
+            macro2: 213975.5
+            answer: 79.1
+            d1: 77.45
+            d2: 64.74
+            d3: 77.8
+            d4: 98
+          correctAnswers:
+            - text: 79.1 in
+          wrongAnswers:
+            - text: 77.45 in
+            - text: 77.8 in
+            - text: 98 in
+            - text: 64.74 in
+        - variables:
+            bem: 2380
+            bemm: 185000
+            fm: 180
+            fa: 80
+            am: 120
+            aa: 118
+            fuel: 550
+            fuela: 71
+            macro1: 2680
+            macro2: 213560
+            answer: 79.69
+            d1: 78.21
+            d2: 66.12
+            d3: 77.89
+            d4: 99
+          correctAnswers:
+            - text: 79.69 in
+          wrongAnswers:
+            - text: 78.21 in
+            - text: 77.89 in
+            - text: 99 in
+            - text: 66.12 in
+- id: QSBBI
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds:
+    - QXQSH
+  externalQuestionIds:
+    - ATPLQ-315663
+    - BGS-310661
+    - AVEXAM-96346
+    - BGS-310491
+  annexes:
+    - id: AQTS
+  learningObjectiveIds:
+    - 031.05.01.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. Using the graph, and given the following parameters, what is the loaded Centre of Gravity (in m) of this aircraft?
+
+        - BEM: {{bem}} kg
+        - BEM CG: {{bem_cg}} m
+        - Front pax: {{front}} kg
+        - Rear pax: {{rear}} kg
+        - Fuel: {{fuel}} kg
+
+        The total moment of front pax, rear pax and fuel read from the graph is {{load_moment}} kg.m (value read from the figure).
+      explanation: |-
+        The loaded CG is the total moment divided by the total mass. The moment of each load is read from the graph (mass versus moment), and the BEM moment is BEM times BEM CG.
+
+        **Solution**
+
+        Total mass = {{macro1}} kg
+
+        Total moment = {{macro2}} kg.m
+
+        CG = total moment / total mass = **{{answer}} m**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} m**: the BEM CG is given as the answer; the loads are ignored.
+        - **{{d2}} m**: the load moment is forgotten but the load mass is added.
+        - **{{d3}} m**: the load mass is not added to the total mass.
+        - **{{d4}} m**: the fuel mass is forgotten in the total mass.
+      presets:
+        - variables:
+            bem: 1100
+            bem_cg: 3.1
+            front: 150
+            rear: 200
+            fuel: 200
+            load_moment: 1507
+            macro1: 1650
+            macro2: 4917
+            answer: 2.98
+            d1: 3.1
+            d2: 2.07
+            d3: 4.47
+            d4: 3.39
+          correctAnswers:
+            - text: 2.98 m
+          wrongAnswers:
+            - text: 3.1 m
+            - text: 4.47 m
+            - text: 3.39 m
+            - text: 2.07 m
+        - variables:
+            bem: 1150
+            bem_cg: 3.05
+            front: 170
+            rear: 180
+            fuel: 220
+            load_moment: 1450
+            macro1: 1720
+            macro2: 4957.5
+            answer: 2.88
+            d1: 3.05
+            d2: 2.04
+            d3: 4.31
+            d4: 3.31
+          correctAnswers:
+            - text: 2.88 m
+          wrongAnswers:
+            - text: 3.05 m
+            - text: 4.31 m
+            - text: 3.31 m
+            - text: 2.04 m
+- id: QXQSH
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds:
+    - QSBBI
+  externalQuestionIds:
+    - ATPLQ-318391
+    - BGS-310664
+    - AVEXAM-51645
+  annexes:
+    - id: ATKQ
+  learningObjectiveIds:
+    - 031.05.01.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. Using the graph, and given the following parameters, what is the loaded Centre of Gravity (CG) of this aircraft (in m)?
+
+        - BEM: {{bem}} kg
+        - BEM CG: {{bem_cg}} m
+        - Front pax: {{front}} kg
+        - Cargo on the floor: {{cargo}} kg
+        - Fuel: {{fuel}} kg
+
+        The total moment of front pax, cargo and fuel read from the graph is {{load_moment}} kg.m (value read from the figure).
+      explanation: |-
+        The loaded CG is the total moment divided by the total mass. The moment of the loads is read from the graph, and the BEM moment is BEM times BEM CG.
+
+        **Solution**
+
+        Total mass = {{macro1}} kg
+
+        Total moment = {{macro2}} kg.m
+
+        CG = total moment / total mass = **{{answer}} m**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} m**: the BEM CG is given as the answer; the loads are ignored.
+        - **{{d2}} m**: the load moment is forgotten but the load mass is added.
+        - **{{d3}} m**: the load mass is not added to the total mass.
+        - **{{d4}} m**: the fuel mass is forgotten in the total mass.
+      presets:
+        - variables:
+            bem: 1200
+            bem_cg: 3
+            front: 200
+            cargo: 50
+            fuel: 250
+            load_moment: 1449
+            macro1: 1700
+            macro2: 5049
+            answer: 2.97
+            d1: 3
+            d2: 2.12
+            d3: 4.21
+            d4: 3.48
+          correctAnswers:
+            - text: 2.97 m
+          wrongAnswers:
+            - text: 3 m
+            - text: 4.21 m
+            - text: 3.48 m
+            - text: 2.12 m
+        - variables:
+            bem: 1250
+            bem_cg: 3.02
+            front: 180
+            cargo: 60
+            fuel: 240
+            load_moment: 1400
+            macro1: 1730
+            macro2: 5175
+            answer: 2.99
+            d1: 3.02
+            d2: 2.18
+            d3: 4.14
+            d4: 3.47
+          correctAnswers:
+            - text: 2.99 m
+          wrongAnswers:
+            - text: 3.02 m
+            - text: 4.14 m
+            - text: 3.47 m
+            - text: 2.18 m
+- id: QDHUM
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-311561
+    - BGS-310722
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.01.03.01
+  templates:
+    - type: simple
+      question: What is the principle of the Index method?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To divide high-magnitude moments by a constant and make them more user-friendly.
+          wrongAnswers:
+            - text: To determine the CG position by reference to the Mean Aerodynamic Chord.
+            - text: To compute the CG position and stabiliser trim setting without completing a load sheet.
+            - text: To refer every item of the aircraft to a position called the BA (Balance Arm).
+- id: QQOBQ
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-314759
+    - AVEXAM-14580
+    - BGS-310787
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        Determine the Dry Operating Index (DOI) of the aircraft, given:
+
+        - BEM: {{bem}} kg
+        - CG at BEM: {{cg_bem}} inches aft of datum
+        - 2 crew members: {{crew}} kg
+        - Crew seats: {{crew_arm}} inches aft of datum
+
+        DOI = (mass (kg) x CG (inches) / 5000) - 30
+      explanation: |-
+        The DOI uses the total moment (BEM moment plus crew moment) of the aircraft, divided by 5000 and reduced by a constant of 30. Each item contributes mass times its own arm.
+
+        **Solution**
+
+        Total moment = {{macro1}} kg.in
+
+        $$
+        \frac{\text{BEM}\times \text{CG at BEM}+\text{Crew mass}\times \text{Crew seat arm}}{5000}-30 = \frac{ {{bem}}\times {{cg_bem}}+{{crew}}\times {{crew_arm}} }{5000}-30 = \mathbf{ {{answer}} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} **: the crew is not included.
+        - **{{d2}} **: the constant of 30 is not subtracted.
+        - **{{d3}} **: the crew mass is placed at the BEM CG instead of at the crew seat arm.
+        - **{{d4}} **: the crew moment is subtracted instead of added.
+      presets:
+        - variables:
+            bem: 3208
+            cg_bem: 129.7
+            crew: 160
+            crew_arm: 47.5
+            macro1: 423677.6
+            answer: 54.74
+            d1: 53.22
+            d2: 84.74
+            d3: 57.37
+            d4: 51.7
+          correctAnswers:
+            - text: "54.74 "
+          wrongAnswers:
+            - text: "53.22 "
+            - text: "57.37 "
+            - text: "51.7 "
+            - text: "84.74 "
+        - variables:
+            bem: 3100
+            cg_bem: 128
+            crew: 170
+            crew_arm: 45
+            macro1: 404450
+            answer: 50.89
+            d1: 49.36
+            d2: 80.89
+            d3: 53.71
+            d4: 47.83
+          correctAnswers:
+            - text: "50.89 "
+          wrongAnswers:
+            - text: "49.36 "
+            - text: "53.71 "
+            - text: "47.83 "
+            - text: "80.89 "
+- id: QDSUC
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-319745
+    - BGS-310714
+    - AVEXAM-77281
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.01.03.02
+  templates:
+    - type: simple
+      question: "The dry operating index is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The reduced moment of the dry operating mass.
+          wrongAnswers:
+            - text: The arm used for the moment calculation.
+            - text: The centre of gravity of the dry operating mass.
+            - text: The reference point for the moment calculation.
+- id: QMEFE
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds:
+    - QQMNO
+  externalQuestionIds:
+    - ATPLQ-316036
+    - AVEXAM-33643
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.01.03.02
+  templates:
+    - type: simple
+      question: How can you calculate the Dry Operating Index (DOI)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: DOM x CG arm / constant
+          wrongAnswers:
+            - text: OM x constant
+            - text: DOM x CG arm + constant
+            - text: DOM + constant
+- id: QQMNO
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds:
+    - QMEFE
+  externalQuestionIds:
+    - ATPLQ-311795
+    - AVEXAM-80253
+    - BGS-310772
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.01.03.02
+  templates:
+    - type: simple
+      question: How can the Dry Operating Index (DOI) be calculated?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: DOI = Sum of the moments of the DOM / 12 000
+          wrongAnswers:
+            - text: DOI = Sum of the moments of the DOM / DOM
+            - text: DOI = CG of the DOM / 10 000
+            - text: DOI = Basic Empty mass + crew + operational items
+- id: QVYTJ
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-316506
+    - BGS-310743
+    - ATPLQ-313965
+    - AVEXAM-64003
+    - ATPLQ-318747
+    - BGS-310863
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The Dry Operating Index (DOI) calculation and basic index correction information from an aeroplane load and trim sheet are shown in the annex.
+
+        Calculate the DOI for an aeroplane mass of {{ac_mass}} kg and {{mac_pct}}% MAC, corrected for one additional crew member with a mass of {{mass}} kg.
+
+        The uncorrected DOI read from the table is {{table_doi}} and the zone index of the crew member’s zone is {{zone_index}} per kg (both values read from the figure).
+      explanation: |-
+        The DOI of the aeroplane is the table value for its mass and CG position, corrected by the index of any crew added: added mass times the zone index per kg.
+
+        **Solution**
+
+        Correction = {{macro1}}
+
+        $$
+        \text{Table DOI read from the figure}+\text{Mass of additional crew member}\times \text{Zone index per kg read from the figure} = {{table_doi}}+{{mass}}\times {{zone_index}} = \mathbf{ {{answer}} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} **: the correction for the additional crew member is not applied.
+        - **{{d2}} **: the correction is subtracted instead of added.
+        - **{{d3}} **: the correction is applied twice.
+        - **{{d4}} **: the correction is multiplied by 10 (decimal slip).
+      presets:
+        - variables:
+            ac_mass: 112600
+            mac_pct: 30.7
+            mass: 75
+            table_doi: 118.9
+            zone_index: 0.0053
+            macro1: 0.4
+            answer: 119.3
+            d1: 118.9
+            d2: 118.5
+            d3: 119.7
+            d4: 122.9
+          correctAnswers:
+            - text: "119.3 "
+          wrongAnswers:
+            - text: "118.9 "
+            - text: "119.7 "
+            - text: "122.9 "
+            - text: "118.5 "
+        - variables:
+            ac_mass: 110800
+            mac_pct: 31.6
+            mass: 85
+            table_doi: 120
+            zone_index: 0.0047
+            macro1: 0.4
+            answer: 120.4
+            d1: 120
+            d2: 119.6
+            d3: 120.8
+            d4: 124
+          correctAnswers:
+            - text: "120.4 "
+          wrongAnswers:
+            - text: "120 "
+            - text: "120.8 "
+            - text: "124 "
+            - text: "119.6 "
+    - type: simple
+      question: |-
+        Refer to figure. 
+        The annex shows the formula for calculating the Dry Operating Index (DOI) and any necessary Index corrections for an MRJT aeroplane. Using the following information, determine the correct DOI for the flight when one additional cabin crew is positioned at the AFT cabin door.Dry Operating Mass (DOM): 35 325 kg 
+        Lcg (balance arm of the initial DOM): 658 in
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "48.3"
+          wrongAnswers:
+            - text: "46.8"
+            - text: "31.8"
+            - text: "45.5"
+    - type: simple
+      question: |-
+        The formula for calculating the Index and the Index corrections for an MRJT aeroplane are shown in the annex. Given the following information, determine the correct Dry Operating Index (DOI) for the flight when one additional cabin crew is positioned at the AFT cabin door. 
+        Dry Operating Mass (DOM): 35325 kg 
+        Lcg (balance arm of the initial DOM): 658 in
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "48.3"
+          wrongAnswers:
+            - text: "45.5"
+            - text: "46.8"
+            - text: "31.8"
+- id: QQTKL
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-315823
+    - BGS-310810
+    - AVEXAM-16400
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.01.03.03
+  templates:
+    - type: simple
+      question: For mass and balance calculations, an index is given which is determined by...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: dividing the sum of the moments by a factor, to reduce its value.
+          wrongAnswers:
+            - text: dividing the balance arm of the centre of gravity by a constant.
+            - text: multiplying the sum of the moments by a constant, to increase its value.
+            - text: multiplying the mass by a factor.
+    - type: simple
+      question: For mass and balance charts, an index is obtained by...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: dividing the sum of the moments by a factor, to reduce its value.
+          wrongAnswers:
+            - text: multiplying the mass by a factor.
+            - text: dividing the balance arm of the centre of gravity by a constant.
+            - text: multiplying the sum of the moments by a constant, to increase its value.
+- id: QNGHR
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-317558
+    - AVEXAM-82096
+    - BGS-310655
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.01.03.03
+  templates:
+    - type: simple
+      question: The Index method in mass and balance calculations is used for...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: reducing the magnitude of the moment.
+          wrongAnswers:
+            - text: reducing the magnitude of the centre of gravity.
+            - text: increasing the magnitude of the useful load.
+            - text: increasing the magnitude of the moment.
+- id: QTTJE
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-314103
+    - BGS-310721
+    - AVEXAM-32174
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.01.03.03
+  templates:
+    - type: simple
+      question: What are the advantages of using the Index method to determine moments? It..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: reduces the magnitude of moments, making it less time-consuming to compute.
+          wrongAnswers:
+            - text: is digitalised and can be automatically uploaded to the aircraft FMC to determine stabiliser trim.
+            - text: regroups different loading zones in single indexes, reducing the complexity of the load and trim sheet.
+            - text: directly produces the position of the CG and the stabiliser trim setting.
+- id: QYRMQ
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-317001
+    - AVEXAM-8546
+    - BGS-310750
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.01.03.03
+  templates:
+    - type: simple
+      question: To calculate the Centre of Gravity of a large aircraft, the practical use of the Index Method is to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: reduce the size of the moment values and to simplify calculations.
+          wrongAnswers:
+            - text: visually indicate the CG on a CG limit chart WITHOUT using calculations.
+            - text: determine the CG by using an index table covering ranges of passengers (e.g. groups of 10) instead of individual counts.
+            - text: simplify the calculations by taking standard masses for passengers and cargo.
+- id: QDIIC
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-312102
+    - AVEXAM-57999
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.02.01.01
+  templates:
+    - type: simple
+      question: After the loading of the aeroplane is completed, the \_\_\_\_\_ accepts with their signature the load sheet.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The pilot in command.
+          wrongAnswers:
+            - text: The flight dispatcher.
+            - text: Authorised personnel.
+            - text: Maintenance personnel.
+- id: QGUDD
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-311370
+    - AVEXAM-91671
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.02.01.01
+  templates:
+    - type: simple
+      question: The captain has received a calculated load sheet with his pre-flight package. The ground handler now hands over a final load sheet. In this scenario, which one does the captain have to use?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The final load sheet provided by the ground handler.
+          wrongAnswers:
+            - text: Neither one. It is his responsibility to calculate the load sheet himself.
+            - text: It depends on the operator’s SOPs which one the captain has to use.
+            - text: The load sheet he has received with his pre-flight package.
+- id: QZZWT
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-311532
+    - AVEXAM-62714
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.02.01.01
+  templates:
+    - type: simple
+      question: In which of the following situations must a pilot calculate the take-off mass and the centre of gravity and check the values against the limits?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Always before each flight
+          wrongAnswers:
+            - text: As soon as the load is different to the load from the last flight.
+            - text: Always after each flight.
+            - text: In predetermined intervals.
+- id: QIGTH
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-318924
+    - BGS-310556
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.02.01.02
+  templates:
+    - type: simple
+      question: What is the purpose of the trim sheet in Mass and Balance?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a graphical reasoning to determine the CG position of operational masses.
+          wrongAnswers:
+            - text: an arithmetical reasoning to determine various operational masses.
+            - text: a graphical method to determine various operational masses.
+            - text: an arithmetical reasoning to determine the CG position of operational masses.
+- id: QSMYJ
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds:
+    - QSLUQ
+  externalQuestionIds:
+    - ATPLQ-315967
+  annexes:
+    - id: AIVA
+  learningObjectiveIds:
+    - 031.05.02.02.01
+    - 031.05.02.02.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.   
+        An aircraft is loaded as indicated in the annex. What is the Gross Mass and the Centre of Gravity, WITHOUT the copilot?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 830 kg and 4 340 mm
+          wrongAnswers:
+            - text: 2 815 kg and 4 160 mm
+            - text: 2 775 kg and 4 255 mm
+            - text: 3 130 kg and 4 255 mm.
+- id: QSZGW
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-317922
+    - AVEXAM-18200
+    - AVEXAM-80969
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.02.02.02
+  templates:
+    - type: simple
+      question: |-
+        A loaded aircraft has its centre of gravity (CG) {{cg}} inches aft of the datum, and its mass is {{mass}} lb.
+
+        A last minute load of {{add}} lb is placed on board {{fwd}} inches forward of the datum.
+
+        Determine the new position of the CG, in inches aft of the datum.
+      explanation: |-
+        The new CG is the total moment divided by the new total mass. A mass placed forward of the datum has a negative arm, so it reduces the total moment.
+
+        **Solution**
+
+        $$
+        \frac{\text{Aircraft mass}\times \text{CG position}-\text{Added mass}\times \text{Distance of added mass forward of datum}}{\text{Aircraft mass}+\text{Added mass}} = \frac{ {{mass}}\times {{cg}}-{{add}}\times {{fwd}} }{ {{mass}}+{{add}} } = \mathbf{ {{answer}}\ \text{in aft of the datum} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} in**: the added moment is added instead of subtracted (arm treated as aft of the datum).
+        - **{{d2}} in**: the added mass is left out of the total mass.
+        - **{{d3}} in**: the added mass is subtracted from the total mass.
+        - **{{d4}} in**: the arm is subtracted from the CG instead of computing moments.
+      presets:
+        - variables:
+            cg: 35
+            mass: 4500
+            add: 334
+            fwd: 20
+            answer: 31.2
+            d1: 34
+            d2: 33.5
+            d3: 36.2
+            d4: 15
+          correctAnswers:
+            - text: 31.2 in
+          wrongAnswers:
+            - text: 34 in
+            - text: 36.2 in
+            - text: 15 in
+            - text: 33.5 in
+        - variables:
+            cg: 42
+            mass: 3800
+            add: 250
+            fwd: 30
+            answer: 37.6
+            d1: 41.3
+            d2: 40
+            d3: 42.8
+            d4: 12
+          correctAnswers:
+            - text: 37.6 in
+          wrongAnswers:
+            - text: 41.3 in
+            - text: 42.8 in
+            - text: 12 in
+            - text: 40 in
+        - variables:
+            cg: 28
+            mass: 6000
+            add: 400
+            fwd: 15
+            answer: 25.3
+            d1: 27.2
+            d2: 27
+            d3: 28.9
+            d4: 13
+          correctAnswers:
+            - text: 25.3 in
+          wrongAnswers:
+            - text: 27.2 in
+            - text: 28.9 in
+            - text: 13 in
+            - text: 27 in
+- id: QAIAK
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-319614
+    - BGS-310551
+    - ATPLQ-312663
+    - AVEXAM-85216
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.02.02.02
+  templates:
+    - type: simple
+      question: |-
+        During dispatch, you perform the Mass and Balance calculations. Given the following information, calculate the Take-Off Mass CG in inches aft of the datum.
+
+        - Basic Empty Mass: {{bem}} lb
+        - Basic Empty Mass Moment: {{bem_moment}} in.lb
+        - Front Seat Occupant's Mass: {{front_mass}} lb
+        - Front Seat Occupant's Arm: {{front_arm}} in
+        - Aft Seat Occupant's Mass: {{aft_mass}} lb
+        - Aft Seat Occupant's Arm: {{aft_arm}} in
+        - Block Fuel: {{block}} lb
+        - Taxi Fuel: {{taxi}} lb
+        - Fuel Arm: {{fuel_arm}} in
+      explanation: |-
+        The CG is the total moment divided by the total mass. Take-off mass excludes the taxi fuel, which is burned before the take-off, so only block fuel minus taxi fuel counts.
+
+        **Solution**
+
+        Take-off fuel: {{macro1}} lb
+
+        Total mass = {{macro2}} lb
+
+        Total moment = {{macro3}} in.lb
+
+        CG = **{{answer}} in** aft of datum
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} in**: the full block fuel was used, ignoring that the taxi fuel is burned before take-off.
+        - **{{d2}} in**: only the taxi fuel was used for the fuel load.
+        - **{{d3}} in**: the taxi fuel was added to the block fuel instead of subtracted.
+      presets:
+        - variables:
+            bem: 2635
+            bem_moment: 204397.5
+            front_mass: 93
+            front_arm: 78
+            aft_mass: 186
+            aft_arm: 119
+            block: 850
+            taxi: 320
+            fuel_arm: 83
+            macro1: 530
+            macro2: 3444
+            macro3: 277775.5
+            answer: 80.65
+            d1: 80.85
+            d2: 80.5
+            d3: 81.02
+          correctAnswers:
+            - text: 80.65 in
+          wrongAnswers:
+            - text: 81.02 in
+            - text: 80.85 in
+            - text: 80.5 in
+        - variables:
+            bem: 2500
+            bem_moment: 195000
+            front_mass: 170
+            front_arm: 78
+            aft_mass: 140
+            aft_arm: 119
+            block: 800
+            taxi: 250
+            fuel_arm: 83
+            macro1: 550
+            macro2: 3360
+            macro3: 270570
+            answer: 80.53
+            d1: 80.7
+            d2: 80.28
+            d3: 80.85
+          correctAnswers:
+            - text: 80.53 in
+          wrongAnswers:
+            - text: 80.85 in
+            - text: 80.7 in
+            - text: 80.28 in
+        - variables:
+            bem: 2700
+            bem_moment: 210600
+            front_mass: 190
+            front_arm: 78
+            aft_mass: 90
+            aft_arm: 119
+            block: 700
+            taxi: 200
+            fuel_arm: 83
+            macro1: 500
+            macro2: 3480
+            macro3: 277630
+            answer: 79.78
+            d1: 79.95
+            d2: 79.47
+            d3: 80.11
+          correctAnswers:
+            - text: 79.78 in
+          wrongAnswers:
+            - text: 80.11 in
+            - text: 79.95 in
+            - text: 79.47 in
+    - type: simple
+      question: |-
+        During dispatch, you perform the Mass and Balance calculations. Given the following information, calculate the Zero Fuel Mass CG in inches aft of the datum.Basic Empty Mass: 2635 lb 
+        Basic Empty Mass Moment: 204 397.5 in.lb 
+        Front Seat Occupant's Mass: 93 lb 
+        Front Seat Occupant's Arm: 78 in 
+        Aft Seat Occupant's Mass: 186 lb 
+        Aft Seat Occupant's Arm: 119 in 
+        Block Fuel: 850 lb 
+        Taxi Fuel: 320 lb 
+        Fuel Arm: 83 in
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "80.22"
+          wrongAnswers:
+            - text: "79.84"
+            - text: "81.35"
+            - text: "84.76"
+        - correctAnswers:
+            - text: 77.6 inches
+          wrongAnswers:
+            - text: 80.6 inches
+            - text: 79.8 inches
+            - text: 74.2 inches
+- id: QRSIW
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-319280
+    - ATPLQ-312355
+    - AVEXAM-92196
+    - ATPLQ-314636
+    - ATPLQ-313355
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.02.02.02
+  templates:
+    - type: simple
+      question: |-
+        Given the following information, determine the CG position (in inches aft of the datum) for the take-off mass:
+
+        - Basic Empty Mass: {{bem}} lb, with associated moment: {{bem_moment}} in.lb
+        - Forward seat passenger: {{m_front}} lb at an arm of {{arm_front}} in
+        - Aft seat passenger: {{m_aft}} lb at an arm of {{arm_aft}} in
+        - Block fuel: {{block}} lb
+        - Taxi fuel: {{taxi}} lb
+        - Fuel tank arm: {{fuel_arm}} in
+      explanation: |-
+        The take-off mass excludes the taxi fuel, which is burnt before the take-off run. The CG is the sum of all moments divided by the take-off mass.
+
+        **Solution**
+
+        Take-off fuel = {{macro1}} lb
+
+        Take-off mass = {{macro2}} lb
+
+        Total moment = {{macro3}} in.lb
+
+        CG = total moment / take-off mass = **{{answer}} in** aft of the datum
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} in**: the full block fuel is used, although the taxi fuel is burnt before take-off.
+        - **{{d2}} in**: the taxi fuel is added instead of subtracted.
+        - **{{d3}} in**: the fuel is left out completely.
+        - **{{d4}} in**: the fuel moment is correct but the taxi fuel is not subtracted from the total mass.
+      presets:
+        - variables:
+            bem: 2635
+            bem_moment: 204379.5
+            m_front: 93
+            arm_front: 79
+            m_aft: 180
+            arm_aft: 119
+            block: 830
+            taxi: 230
+            fuel_arm: 86
+            macro1: 600
+            macro2: 3508
+            macro3: 284746.5
+            answer: 81.17
+            d1: 81.47
+            d2: 81.73
+            d3: 80.17
+            d4: 76.18
+          correctAnswers:
+            - text: 81.17 in
+          wrongAnswers:
+            - text: 81.47 in
+            - text: 80.17 in
+            - text: 76.18 in
+            - text: 81.73 in
+        - variables:
+            bem: 2635
+            bem_moment: 204793.5
+            m_front: 90
+            arm_front: 78
+            m_aft: 186
+            arm_aft: 117
+            block: 850
+            taxi: 85
+            fuel_arm: 86
+            macro1: 765
+            macro2: 3676
+            macro3: 299365.5
+            answer: 81.44
+            d1: 81.54
+            d2: 81.64
+            d3: 80.24
+            d4: 79.6
+          correctAnswers:
+            - text: 81.44 in
+          wrongAnswers:
+            - text: 81.54 in
+            - text: 80.24 in
+            - text: 79.6 in
+            - text: 81.64 in
+    - type: simple
+      question: |-
+        Given the following information, determine the take-off fuel mass CG...Basic Empty Mass: 2635 lb and its associated moment: 204 379.5 in.lb 
+        Forward seat passenger: 93 lb and the balance arm: 79 in 
+        Aft seat passenger : 180 lb and the balance arm: 119 in 
+        Block fuel : 830 lb 
+        Taxi fuel: 230 lb 
+        Fuel tank balance arm: 86 in
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 86.0 in
+          wrongAnswers:
+            - text: 81.17 in
+            - text: 88.0 in
+            - text: 81.47 in
+    - type: simple
+      question: |-
+        Calculate the centre of gravity location for the take-off mass, given:BEM: 2 635 lb 
+         BEM moment: 204 793.5 in.lb 
+         Mass on front seat: 90 lb 
+         Arm on front seat: 78 in 
+         Mass on aft seat: 186 lb 
+         Arm on aft seat: 117 in 
+         Block fuel: 850 lb 
+         Taxi fuel: 230 lb 
+         Fuel arm: 86 in
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 81.25 inches aft of datum
+          wrongAnswers:
+            - text: 81.80 inches aft of datum
+            - text: 81.54 inches aft of datum
+            - text: 80.66 inches aft of datum
+- id: QSLUQ
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds:
+    - QSMYJ
+  externalQuestionIds:
+    - ATPLQ-311212
+    - AVEXAM-68788
+    - BGS-310777
+  annexes:
+    - id: AIVA
+  learningObjectiveIds:
+    - 031.05.02.02.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. 
+
+        An aircraft is loaded as indicated in the annex. What is the Gross Mass and the Centre of Gravity, WITHOUT the Aft Passengers?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 775 kg and 4 255 mm
+          wrongAnswers:
+            - text: 2 865 kg and 4 355 mm
+            - text: 2 910 kg and 4 235 mm
+            - text: 2 590 kg and 4 370 mm
+        - correctAnswers:
+            - text: 2775 kg and 4255 mm
+          wrongAnswers:
+            - text: 2590 kg and 4370 mm
+            - text: 2865 kg and 4355 mm
+            - text: 2910 kg and 4235 mm
+- id: QUICF
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-316586
+    - BGS-310695
+    - AVEXAM-73136
+    - AVEXAM-88223
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.02.02.02
+  templates:
+    - type: simple
+      question: |-
+        Using the annex, determine the CG position and the moment at Basic Empty Mass. The CG position is...
+
+        | Item | Mass (lb) | Arm aft of datum (in) | Moment (in.lb) |
+        | --- | ---: | ---: | ---: |
+        | Basic Empty Mass | 3,124 |  |  |
+        | Pilot and Front Passenger | 200 | 85.5 |  |
+        | Passengers (Center) | 380 | 118.5 |  |
+        | Passengers (Aft) |  | 157.6 |  |
+        | Baggage Zone 1 | 55 | 23.0 |  |
+        | Baggage Zone 3 |  | 178.7 |  |
+        | Zero Fuel Mass | 3,759 | 113.4 |  |
+        | Fuel |  | 93.6 |  |
+        | Ramp Mass |  |  |  |
+        | Taxi Fuel | 45 | 93.6 |  |
+        | Take-off Mass |  |  |  |
+        | Trip Fuel | 542 | 93.6 |  |
+        | Landing Mass | 3,913 |  |  |
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 116.2 in aft of datum and the moment is 362 876 in.lb.
+          wrongAnswers:
+            - text: 156.7 in aft of datum and the moment is 489666 in.lb.
+            - text: 117.1 in aft of datum and the moment is 365 820 in.lb.
+            - text: 112.7 in aft of datum and the moment is 351 950 in.lb.
+- id: QBKSV
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-312644
+    - AVEXAM-99034
+    - BGS-310752
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.02.02.03
+  templates:
+    - type: simple
+      question: |-
+        During the pre-flight, the pilot assumed that the only passenger weighing 170 lb would sit at the front-row seat (located 85 inches aft of datum).
+
+        The calculations gave a Take-Off Mass of 4100 lb and a take-off CG located at 94 inches aft of datum.
+
+        When the passenger arrives, they sit at the rear seat, located 158 inches aft of datum.
+
+        The CG limits are from 86 inches to 95 inches aft of datum.
+
+        Determine if the new CG within limits:
+      explanation: Moving the 170 lb passenger back by 158 − 85 = 73 inches shifts the centre of gravity by 170 × 73 ÷ 4 100 = 3.0 inches aft. The new position is about 97 inches, behind the 95 inch limit, so it is **out of the rear limit**.
+      presets:
+        - correctAnswers:
+            - text: No, it is out of the rear limit.
+          wrongAnswers:
+            - text: Yes, it is within the CG envelope.
+            - text: No, it is out of the forward limit.
+            - text: Yes, as the CG moves rearwards.
+- id: QXFZP
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-317204
+    - BGS-310668
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.02.02.03
+  templates:
+    - type: simple
+      question: When does the centre of gravity position and Take-off Mass have to be calculated and checked against the limits?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Before each flight.
+          wrongAnswers:
+            - text: If the load is different from the last flight.
+            - text: In specified intervals.
+            - text: After each flight.
+- id: QOJUW
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-311304
+    - AVEXAM-73101
+    - BGS-310543
+  annexes:
+    - id: ASRW
+  learningObjectiveIds:
+    - 031.05.02.03.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What is correct concerning the limit masses in the section 3 of the attached load sheet?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The actual ZFM, TOM and LM must be lower or equal to the respective limit mass.
+          wrongAnswers:
+            - text: The actual ZFM, actual TOM or actual LM could exceptionally exceed the respective limit mass.
+            - text: The maximum LM boxes should be recorded with the regulated TOM.
+            - text: The maximum LM boxes should be recorded with the MLM plus Trip Fuel.
+- id: QXJDR
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-317290
+    - BGS-310814
+    - AVEXAM-88516
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.02.03.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. 
+         
+        Based on the data provided in the annex, what is the underload before Last Minute Change (LMC)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1100 kg
+          wrongAnswers:
+            - text: 12 800 kg
+            - text: 1500 kg
+            - text: 1300 kg
+    - type: simple
+      question: Please refer to the annex. Using the information in the annex, complete the appropriate sections of the load sheet and calculate how much the Underload before Last Minute Change ( LMC ) is, in kg.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1100 kg
+          wrongAnswers:
+            - text: 1500 kg
+            - text: 1300 kg
+            - text: 12800 kg
+    - type: simple
+      question: |-
+        Refer to figure 031-103.
+        What is the underload value prior to Last Minute Change (LMC) as per the annex data?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 100 kg
+          wrongAnswers:
+            - text: 1 300 kg
+            - text: 12 800 kg
+            - text: 1 500 kg
+- id: QLOSK
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-319982
+    - BGS-310550
+  annexes:
+    - id: ARWI
+  learningObjectiveIds:
+    - 031.05.02.03.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Cross-check the information contained in the load/trim sheet of a Medium Range Jet Commercial Air Transport (MRJT) aeroplane. Which of the following masses/loads is correctly computed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ZFM
+          wrongAnswers:
+            - text: TOM
+            - text: Underload before LMC
+            - text: LM
+- id: QMWGO
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-311562
+    - AVEXAM-14015
+    - BGS-310798
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.02.04.01
+  templates:
+    - type: simple
+      question: Prior to every Commercial Air Transport flight of a large aircraft, the Operator uses an electronic or a paper format trim sheet to determine the Centre of Gravity of the actual Zero Fuel Mass, Take-Off Mass and Landing Mass. What is the purpose of the trim sheet?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: This is to ensure that the CGs are within the certified envelope, and is achieved by using the index method.
+          wrongAnswers:
+            - text: This is done by computing the balance arm of the actual operational masses and the results are given in metres or inches.
+            - text: This is done by referring to the stations of various fuselage sectors defined in mass and balance documentation.
+            - text: This is to check that they are below the limits published in the Aircraft flight Manual, and is achieved by calculating the moments.
+- id: QKPFH
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-315201
+    - AVEXAM-21685
+  annexes:
+    - id: ASRW
+  learningObjectiveIds:
+    - 031.05.02.04.02
+  templates:
+    - type: simple
+      question: Refer to the figure or CAP 696 file 4.12. The ZFM index is {{index}} and ZFM = {{zfm}} kg. Is the ZFM CG within the limit?
+      explanation: |-
+        Plot the ZFM and its index on the CG envelope. The point lies outside the envelope, beyond the forward limit.
+
+        ## Why the other answers are wrong
+
+        - **It can't be determined.**: the envelope and the index give enough data to decide.
+        - **Yes it is.**: the point lies outside the envelope.
+        - **No, it is outside of the aft limit.**: the point lies beyond the forward limit, not the aft limit.
+      presets:
+        - variables:
+            index: 16
+            zfm: 51000
+          correctAnswers:
+            - text: No, it is outside of the forward limit.
+          wrongAnswers:
+            - text: No, it is outside of the aft limit.
+            - text: It can't be determined.
+            - text: Yes it is.
+- id: QPWTM
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-311117
+  annexes:
+    - id: AAAU
+  learningObjectiveIds:
+    - 031.05.02.04.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure or CAP696 file 4.11\.   
+         Is the aircraft configuration within limits if it possesses a Zero Fuel Mass (ZFM) of 50 000 kg and its Center of Gravity (CG) is positioned at 28% of the Mean Aerodynamic Chord (MAC)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No, the CG exceeds the aft limit.
+          wrongAnswers:
+            - text: No, the ZFM exceeds the ZFM limit.
+            - text: Yes, the configuration is within limits.
+            - text: No, the CG exceeds the forward limit.
+- id: QKQKS
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-316773
+    - BGS-310742
+    - BGS-310296
+    - AVEXAM-17167
+  annexes:
+    - id: ASCC
+  learningObjectiveIds:
+    - 031.05.02.04.03
+  templates:
+    - type: simple
+      question: Refer to figure. Using the data given in the load and trim sheet, determine from the following the correct values for the Take-off Mass and the position of the Centre of Gravity at that mass if the fuel index correction to be applied is given as -0.9.
+      explanation: |-
+        The take-off mass and the centre of gravity are read from the load and trim sheet in the figure, with the fuel index correction of -0.9 applied.
+
+        **Solution**
+
+        - Read the centre of gravity from the load and trim sheet at the take-off mass.
+        - Result: **17.5%**.
+      presets:
+        - correctAnswers:
+            - text: 17.5%
+          wrongAnswers:
+            - text: 20.1%
+            - text: 22.6%
+            - text: 20.3%
+- id: QPUYC
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-319048
+    - BGS-310299
+    - AVEXAM-27072
+    - BGS-310856
+  annexes:
+    - id: ALRA
+  learningObjectiveIds:
+    - 031.05.02.04.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure.
+
+        From the data given in the appendix, and assuming a fuel index shift of -5.7 from the ZFM loaded index, determine the CG position at take-off mass in % MAC.
+
+        The value read from the graph at the take-off index (ZFM index plus fuel index shift) is {{cgfig}} % MAC.
+
+        Give the CG in % MAC.
+      explanation: |-
+        The take-off index is the ZFM index shifted by the fuel index shift of -5.7. The CG in % MAC at take-off mass is read from the loading graph at that index and mass.
+
+        **Solution**
+
+        Take-off index = ZFM index - 5.7; graph reading: **{{answer}} % MAC**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} % MAC**: a misread of the graph, about 3 % too low.
+        - **{{d2}} % MAC**: a misread of the graph, 1 % too high.
+        - **{{d3}} % MAC**: a misread of the graph, 4 % too low.
+        - **{{d4}} % MAC**: a misread of the graph, 5 % too high.
+      presets:
+        - variables:
+            cgfig: 18
+            answer: 18
+            d1: 15
+            d2: 19
+            d3: 14
+            d4: 23
+          correctAnswers:
+            - text: 18 % MAC
+          wrongAnswers:
+            - text: 15 % MAC
+            - text: 14 % MAC
+            - text: 23 % MAC
+            - text: 19 % MAC
+- id: QQKBD
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-317949
+    - BGS-310741
+    - ATPLQ-312003
+    - AVEXAM-52511
+  annexes:
+    - id: ADMS
+  learningObjectiveIds:
+    - 031.05.02.04.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure (index chart). Given the following indexes and masses, determine the take-off CG position as % MAC.
+
+        - Dry operating index and mass: {{doi}} and {{dom}} kg
+        - Passenger load index and mass: {{pi}} and {{pm}} kg
+        - Cargo load index and mass: {{ci}} and {{cm}} kg
+        - Take-off fuel index and mass: {{fi}} and {{fm}} kg
+
+        The total index is the sum of the four indices. The CG in % MAC read from the chart at the total mass and total index is {{cgchart}}%.
+      explanation: |-
+        The total index is the sum of the dry operating index and the load indices. The total mass and the total index are then entered in the index chart of the load sheet, from which the CG in % MAC is read.
+
+        **Solution**
+
+        Total index = $$\text{Dry operating index}+3.141593+\text{Cargo index}+\text{Take-off fuel index}$$ = $${{doi}}+3.141593+{{ci}}+{{fi}}$$ = {{macro3}}
+
+        Total mass = {{macro4}} kg
+
+        CG read from the chart at this mass and index: **{{answer}} % MAC**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} % MAC**: the total index is mistaken for the CG position.
+        - **{{d2}} % MAC**: the chart is misread (point read too far forward).
+        - **{{d3}} % MAC**: the chart is misread (point read too far aft).
+        - **{{d4}} % MAC**: the chart is misread by a large amount.
+      presets:
+        - variables:
+            doi: 50
+            dom: 35000
+            pi: -1.56
+            pm: 11508
+            ci: 1.45
+            cm: 1248
+            fi: 10.94
+            fm: 7800
+            cgchart: 24
+            macro3: 65.5
+            macro4: 55556
+            answer: 24
+            d1: 65.5
+            d2: 20
+            d3: 28
+            d4: 36
+          correctAnswers:
+            - text: 24 % MAC
+          wrongAnswers:
+            - text: 65.5 % MAC
+            - text: 28 % MAC
+            - text: 36 % MAC
+            - text: 20 % MAC
+        - variables:
+            doi: 54
+            dom: 39000
+            pi: -2.21
+            pm: 10715
+            ci: 1.95
+            cm: 3355
+            fi: 11.84
+            fm: 8900
+            cgchart: 25
+            macro3: 70.9
+            macro4: 61970
+            answer: 25
+            d1: 70.9
+            d2: 21
+            d3: 29
+            d4: 37.5
+          correctAnswers:
+            - text: 25 % MAC
+          wrongAnswers:
+            - text: 70.9 % MAC
+            - text: 29 % MAC
+            - text: 37.5 % MAC
+            - text: 21 % MAC
+- id: QCYCY
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-313292
+  annexes:
+    - id: ARVD
+  learningObjectiveIds:
+    - 031.05.02.04.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        For the MRJT1 with a CG at 21% MAC, Flaps 5°, what is the stabiliser trim setting for take-off?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3.5 units
+          wrongAnswers:
+            - text: 3 units
+            - text: 4 units
+            - text: 2.5 units
+- id: QFVLQ
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-319376
+  annexes:
+    - id: AMVH
+  learningObjectiveIds:
+    - 031.05.02.04.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.  
+        The trim sheet for a twin-engined jet airplane is finalized using the following data:
+
+        CG for Zero Fuel Mass: 30%  
+        MAC CG for Take-off Mass: 24%  
+        MAC CG for Landing Mass: 26%
+
+        If the crew opts for flaps 15 for take-off, what would be the corresponding stabilizer trim setting?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "3.25"
+          wrongAnswers:
+            - text: "4"
+            - text: "2.5"
+            - text: "3.0"
+- id: QODSL
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-312809
+    - AVEXAM-86120
+    - AVEXAM-85741
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.02.04.06
+  templates:
+    - type: simple
+      question: The operator can determine (1) \_\_\_\_\_ to the Centre-of-Gravity limits, to be (2) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) own limitations; (2) more restrictive
+          wrongAnswers:
+            - text: (1) own limitations; (2) less restrictive
+            - text: (1) an additional 15 % margin; (2) less restrictive
+            - text: (1) an additional 15 % margin; (2) more restrictive
+- id: QQIPS
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-312806
+    - AVEXAM-16273
+    - BGS-310847
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.02.04.06
+  templates:
+    - type: simple
+      question: Due to variations in the actual passenger distribution, cargo loading, or fuel distribution in comparison with the data used during the pre-flight preparation of the mass and balance documentation, the Operator (1) \_\_\_\_\_ which is/are (2) \_\_\_\_\_ restrictive than the certified CG limits.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) defines operational CG limits; (2) more
+          wrongAnswers:
+            - text: (1) defines operational limits; (2) less
+            - text: (1) applies a CG margin of 15%; (2) less
+            - text: (1) applies a CG margin of 15%; (2) more
+- id: QXALZ
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-317092
+    - AVEXAM-92965
+    - ATPLQ-314969
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.02.04.06
+  templates:
+    - type: simple
+      question: With regard to the Centre of Gravity limits of an aircraft, which one of the following statements is true?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The aircraft operator’s CG limitations can be more restrictive than the manufacturer’s CG limitations.
+          wrongAnswers:
+            - text: The manufacturer’s CG limitations can be more restrictive than the aircraft operator’s CG limitations.
+            - text: The CG limitations of the operator always have to be the same as the manufacturer’s limitations.
+            - text: It depends on the state of registry whether the manufacturer’s or the aircraft operator’s limitations on CG are more restrictive.
+- id: QBRSX
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-315535
+    - BGS-310359
+    - AVEXAM-12365
+  annexes:
+    - id: AKHS
+  learningObjectiveIds:
+    - 031.05.02.04.07
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Using the data given in the Load & Trim sheet, determine which of the following gives the correct values for the Zero Fuel Mass and position of the centre of gravity (% MAC) at that mass.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 46130 kg and 17.8%
+          wrongAnswers:
+            - text: 46130 kg and 20.8%
+            - text: 41300 kg and 17.8%
+            - text: 51300 kg and 20.8%
+- id: QWCNW
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-319180
+    - AVEXAM-6172
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.02.04.07
+  templates:
+    - type: simple
+      question: |-
+        You are tasked with determining the Takeoff Mass CG with the following data provided:
+
+        Takeoff fuel: 9400 lbs 
+         
+        Actual takeoff mass: 56 800 lbs 
+         
+        Fuel index chart: 
+         
+        For 9360 lbs: -0.3 
+         
+        For 9600 lbs: -0.9 
+         
+        For 9850 lbs: -1.1 
+         
+        Instruction: If the fuel mass does not match the chart values, use the next higher mass.
+
+        Given this, what is the correct fuel index to use in determining the Takeoff Mass CG?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "-0.9"
+          wrongAnswers:
+            - text: "-0.3"
+            - text: "-1.1"
+            - text: "0"
+    - type: simple
+      question: |-
+        You are tasked with finding the correct fuel index for determining the Takeoff Mass CG given:
+
+         
+
+         
+         
+         Takeoff fuel:
+         9 400 lbs
+         
+         
+         Actual takeoff mass:
+         56 800 lbs
+         
+         
+         
+
+         Fuel index chart:
+         
+         
+         
+         For 9 360 lbs:
+         -0.3
+         
+         
+         For 9 600 lbs:
+         -0.9
+         
+         
+         For 9 850 lbs:
+         -1.1
+         
+         
+         Instruction:
+         If the fuel mass does not match the chart values, use the next higher mass.
+         
+         
+
+
+
+        What is the correct fuel index to use in determining the Takeoff Mass CG?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "-0.9"
+          wrongAnswers:
+            - text: "0"
+            - text: "-0.3"
+            - text: "-1.1"
+- id: QUFNM
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-317389
+    - AVEXAM-7806
+    - BGS-310504
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.02.04.08
+  templates:
+    - type: simple
+      question: For a take-off in a large aeroplane, what is the relationship between the CG and the stabiliser trim setting?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: With a more aft CG, a lower nose-up stabiliser trim setting is required.
+          wrongAnswers:
+            - text: With a more forward CG, a more nose-down stabiliser trim setting is required.
+            - text: With a more aft CG, the greater nose-up stabiliser trim setting is required.
+            - text: The location of the CG does NOT affect the stabiliser trim setting for take-off.
+- id: QYXKV
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-319244
+    - BGS-310781
+    - AVEXAM-49599
+    - AVEXAM-26693
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.02.04.08
+  templates:
+    - type: simple
+      question: |-
+        The flight crew by mistake sets the stabiliser trim to 4.0 and flaps 15\. Which of the following statements is correct regarding the effect this will have on the aeroplane during the take-off acceleration up to VR (rotation speed), given the following data?
+
+        Forward CG limit: 6 % MAC   
+         Aft CG limit: 34 % MAC   
+         Actual CG position: 7% MAC   
+         Actual Take-Off Mass: 80 000 kg   
+         For flaps 15, with the actual CG position, the required stabiliser trim setting: 5 - 5.1
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The aeroplane will be "nose heavy" and need a longer take-off run.
+          wrongAnswers:
+            - text: The aeroplane will be "tail heavy" and the take-off run will be longer.
+            - text: This will move the actual CG position to 4 % and the aircraft will be out of limits.
+            - text: The trim settings will still be within limits and the aeroplane will feel "normal".
+- id: QFWNC
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-319019
+    - BGS-310303
+    - AVEXAM-93971
+    - AVEXAM-7121
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        Given:
+
+        Aeroplane mass = 36 000 kg 
+         
+        Centre of gravity (cg) is located at station 17 m
+
+        What is the effect on cg location if you move 20 passengers (total mass = 1 600 kg) from station 16 to station 23?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It moves aft by 0.31 m.
+          wrongAnswers:
+            - text: It moves forward by 0.157 m.
+            - text: It moves aft by 0.157 m.
+            - text: It moves aft by 3.22 m.
+    - type: simple
+      question: |-
+        Given:
+
+
+
+        Aeroplane mass = 36 000 kg
+
+        Centre of gravity (CG) is located at station 17 m
+
+
+
+        What is the CG location if you move 20 passengers (Total Mass = 1 600 kg) from station 16 to station 23?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It moves aft to 17.31 m.
+          wrongAnswers:
+            - text: It moves forward to 16.843 m.
+            - text: It moves aft to 17.157 m.
+            - text: It moves aft to 20.22 m.
+- id: QCZNT
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-318801
+    - BGS-310301
+    - AVEXAM-68635
+    - AVEXAM-42505
+    - BGS-310608
+    - ATPLQ-319967
+    - ATPLQ-316685
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.01.01
+  templates:
+    - type: simple
+      question: An aeroplane has a take-off mass of {{tom}} kg and its centre of gravity is located {{cg_cur}} m aft of the datum. Calculate the mass that must be moved aft by a distance of {{dist}} m in order to move the CG to {{cg_tgt}} m aft of the datum.
+      explanation: |-
+        Moving a mass over a distance changes the total moment, so the CG moves by (mass moved x distance) / total mass. Rearranged, the mass to move equals the total mass times the required CG shift divided by the distance over which it is moved.
+
+        **Solution**
+
+        $$
+        \frac{\text{Take-off mass}\times |\text{Target CG position}-\text{Current CG position}|}{\text{Distance the mass is moved}} = \frac{ {{tom}}\times |{{cg_tgt}}-{{cg_cur}}|}{ {{dist}} } = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: the CG shift is divided by twice the distance moved.
+        - **{{d2}} kg**: the distance moved is wrongly added to the current CG position.
+        - **{{d3}} kg**: the CG shift is multiplied by the distance instead of divided.
+        - **{{d4}} kg**: the CG shift is wrongly subtracted from the distance moved.
+      presets:
+        - variables:
+            tom: 12500
+            cg_cur: 4.2
+            dist: 15
+            cg_tgt: 4.5
+            answer: 250
+            d1: 125
+            d2: 195
+            d3: 56250
+            d4: 255
+          correctAnswers:
+            - text: 250 kg
+          wrongAnswers:
+            - text: 125 kg
+            - text: 56250 kg
+            - text: 255 kg
+            - text: 195 kg
+        - variables:
+            tom: 6030
+            cg_cur: 2.8
+            dist: 2.9
+            cg_tgt: 2.9
+            answer: 208
+            d1: 104
+            d2: 106
+            d3: 1749
+            d4: 215
+          correctAnswers:
+            - text: 208 kg
+          wrongAnswers:
+            - text: 104 kg
+            - text: 1749 kg
+            - text: 215 kg
+            - text: 106 kg
+        - variables:
+            tom: 9000
+            cg_cur: 3.1
+            dist: 12
+            cg_tgt: 3.4
+            answer: 225
+            d1: 112
+            d2: 179
+            d3: 32400
+            d4: 231
+          correctAnswers:
+            - text: 225 kg
+          wrongAnswers:
+            - text: 112 kg
+            - text: 32400 kg
+            - text: 231 kg
+            - text: 179 kg
+- id: QQUBR
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-311764
+    - AVEXAM-12135
+    - BGS-310791
+    - ATPLQ-311593
+    - AVEXAM-44793
+    - AVEXAM-17869
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        Determine the mass that must be moved aft by a distance of {{dist}} m, in order to establish a CG at {{tgt}} m aft of the datum. Given:
+
+        - Current CG position: {{cur}} m aft of the datum
+        - Actual Take-off Mass: {{mass}} kg
+      explanation: |-
+        Moving a mass over a distance shifts the total moment. The CG shift times the total mass must equal the moved mass times the distance it is moved, so the moved mass is the required CG shift multiplied by the aircraft mass and divided by the distance moved.
+
+        **Solution**
+
+        CG shift = {{tgt}} - {{cur}} = {{macro1}} m
+
+        $$
+        \frac{(\text{Target CG}-\text{Current CG})\times \text{Take-off mass}}{\text{Distance moved}} = \frac{({{dist}}-{{cur}})\times {{mass}} }{ {{dist}} } = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: divides the distance moved by the target CG position, which has no physical meaning.
+        - **{{d2}} kg**: multiplies the mass by the CG shift and forgets to divide by the distance moved.
+        - **{{d3}} kg**: divides the mass by the product of the two CG positions instead of using the CG shift and the distance moved.
+      presets:
+        - variables:
+            dist: 2.9
+            tgt: 2.9
+            cur: 2.8
+            mass: 6603
+            macro1: 0
+            answer: 228
+            d1: 1
+            d2: 660
+            d3: 813
+          correctAnswers:
+            - text: 228 kg
+          wrongAnswers:
+            - text: 813 kg
+            - text: 1 kg
+            - text: 660 kg
+        - variables:
+            dist: 2.8
+            tgt: 2.8
+            cur: 2.7
+            mass: 6630
+            macro1: 0
+            answer: 237
+            d1: 1
+            d2: 663
+            d3: 877
+          correctAnswers:
+            - text: 237 kg
+          wrongAnswers:
+            - text: 877 kg
+            - text: 1 kg
+            - text: 663 kg
+        - variables:
+            dist: 2.6
+            tgt: 2.6
+            cur: 2.5
+            mass: 5800
+            macro1: 0
+            answer: 223
+            d1: 1
+            d2: 580
+            d3: 892
+          correctAnswers:
+            - text: 223 kg
+          wrongAnswers:
+            - text: 892 kg
+            - text: 1 kg
+            - text: 580 kg
+- id: QVWTU
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-313405
+    - AVEXAM-38607
+    - AVEXAM-39840
+    - ATPLQ-314987
+    - BGS-310305
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        A twin-engine aeroplane has an actual mass of {{mass}} kg.
+
+        Its CG is located {{cg_cur}} m aft of the datum.
+
+        How much mass must be transferred from a cargo compartment {{arm_from}} m aft of the datum to a compartment {{arm_to}} m aft of the datum to establish a CG at {{cg_tgt}} m aft of the datum?
+      explanation: |-
+        Shifting cargo between two compartments changes the total moment by mass x (distance between the arms). The CG shift equals that change divided by the total mass, so the mass to transfer is total mass x CG shift / distance between the compartments.
+
+        **Solution**
+
+        $$
+        \frac{\text{Aeroplane mass}\times |\text{Target CG position}-\text{Current CG position}|}{|\text{Arm of the compartment receiving mass}-\text{Arm of the compartment losing mass}|} = \frac{ {{mass}}\times |{{cg_tgt}}-{{cg_cur}}|}{|{{arm_to}}-{{arm_from}}|} = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: only the arm of the receiving compartment is used as the distance.
+        - **{{d2}} kg**: only the arm of the giving compartment is used as the distance.
+        - **{{d3}} kg**: the arms are added instead of subtracted.
+        - **{{d4}} kg**: the distance between the compartments is forgotten.
+      presets:
+        - variables:
+            mass: 6063
+            cg_cur: 2.7
+            arm_from: 1.2
+            arm_to: 4.1
+            cg_tgt: 2.8
+            answer: 209
+            d1: 148
+            d2: 505
+            d3: 114
+            d4: 606
+          correctAnswers:
+            - text: 209 kg
+          wrongAnswers:
+            - text: 148 kg
+            - text: 114 kg
+            - text: 606 kg
+            - text: 505 kg
+        - variables:
+            mass: 5200
+            cg_cur: 2.5
+            arm_from: 1.2
+            arm_to: 4
+            cg_tgt: 2.65
+            answer: 279
+            d1: 195
+            d2: 650
+            d3: 150
+            d4: 780
+          correctAnswers:
+            - text: 279 kg
+          wrongAnswers:
+            - text: 195 kg
+            - text: 150 kg
+            - text: 780 kg
+            - text: 650 kg
+        - variables:
+            mass: 7000
+            cg_cur: 3
+            arm_from: 0.8
+            arm_to: 4.4
+            cg_tgt: 3.1
+            answer: 194
+            d1: 159
+            d2: 875
+            d3: 135
+            d4: 700
+          correctAnswers:
+            - text: 194 kg
+          wrongAnswers:
+            - text: 159 kg
+            - text: 135 kg
+            - text: 700 kg
+            - text: 875 kg
+    - type: simple
+      question: |-
+        Given:
+
+        Actual mass 116 500 lb 
+         
+        Original CG station 435.0 
+         
+        Compartment A station 285.5 
+         
+        Compartment B station 792.5
+
+        If 390 lb of cargo is moved from compartment B (aft) to compartment A (forward), what is the station number of the new CG?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "433.3"
+          wrongAnswers:
+            - text: "506.3"
+            - text: "463.7"
+            - text: "423.3"
+- id: QRHIP
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-314484
+    - AVEXAM-19895
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.01.01
+  templates:
+    - type: simple
+      question: A pallet of 1 500 kg needs to be removed from the cargo hold situated at the position of 1 650 cm. The new total mass after removal of the pallet will be 19 340 kg and the new CG at 1 270 cm. The CG forward CG limit is at 860 cm and the aft limit is at 1 360 cm. By mistake another package of 1 500 kg is removed from a position of 680 cm and the original pallet at 1 650 cm is left on board. What is the new CG?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 15 cm forward of the aft CG limit.
+          wrongAnswers:
+            - text: 40 cm aft of the aft CG limit.
+            - text: 40 cm forward of the aft CG limit.
+            - text: 15 cm aft of the aft CG limit.
+    - type: simple
+      question: |-
+        A pallet with a mass of 1 500 kg has to be removed from the cargo hold, which is located at 1 650 cm. The new total mass after removal of the pallet is 19 340 kg and the new CG is located at 1 270 cm. The forward CG limit is at 860 cm and the aft limit is at 1 360 cm. Due to a mistake, a different package of 1 500 kg is removed from a position of 680 cm and the original pallet at 1 650 cm is left on board.
+
+
+
+        Calculate the new CG:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 15 cm forward of the aft CG limit.
+          wrongAnswers:
+            - text: 15 cm aft of the aft CG limit.
+            - text: 40 cm aft of the aft CG limit.
+            - text: 40 cm forward of the aft CG limit.
+- id: QMKPB
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-312675
+    - BGS-310375
+    - AVEXAM-65533
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        The loaded mass of an aircraft is {{mass}} kg.
+
+        The aft CG limit is {{limit}} inches aft of the datum.
+
+        If the CG as loaded is {{cg}} inches aft of the datum, how many rows forward must two passengers move from the rear seat row to bring the CG on to the aft limit, if the seat pitch is {{pitch}} inches? (Assume a passenger mass of {{pax_mass}} kg each.)
+      explanation: |-
+        Moving mass forward shifts the CG by (moved mass x distance moved) / total mass. The CG must move from {{cg}} in to {{limit}} in, so the required shift is the difference. The distance each passenger moves is a whole number of rows times the seat pitch, so the number of rows is rounded up to make sure the CG ends up at or forward of the limit.
+
+        **Solution**
+
+        CG shift = {{macro1}} in
+
+        Required distance = {{macro2}} in
+
+        Rows = {{macro3}}, rounded up = **{{answer}} rows**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} rows**: rounds the result down, which leaves the CG slightly aft of the limit.
+        - **{{d2}} rows**: rounds up and then adds an extra row.
+        - **{{d3}} rows**: rounds down and then subtracts another row.
+      presets:
+        - variables:
+            mass: 12400
+            limit: 102
+            cg: 104.5
+            pitch: 33
+            pax_mass: 75
+            macro1: 3
+            macro2: 207
+            macro3: 6
+            answer: 7
+            d1: 6
+            d2: 8
+            d3: 5
+          correctAnswers:
+            - text: 7 rows
+          wrongAnswers:
+            - text: 5 rows
+            - text: 6 rows
+            - text: 8 rows
+        - variables:
+            mass: 11800
+            limit: 100
+            cg: 103
+            pitch: 30
+            pax_mass: 80
+            macro1: 3
+            macro2: 221
+            macro3: 7
+            answer: 8
+            d1: 7
+            d2: 9
+            d3: 6
+          correctAnswers:
+            - text: 8 rows
+          wrongAnswers:
+            - text: 6 rows
+            - text: 7 rows
+            - text: 9 rows
+        - variables:
+            mass: 13000
+            limit: 101
+            cg: 103.2
+            pitch: 32
+            pax_mass: 75
+            macro1: 2
+            macro2: 191
+            macro3: 6
+            answer: 6
+            d1: 5
+            d2: 7
+            d3: 4
+          correctAnswers:
+            - text: 6 rows
+          wrongAnswers:
+            - text: 4 rows
+            - text: 5 rows
+            - text: 7 rows
+- id: QNGBO
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-319304
+    - BGS-310308
+    - AVEXAM-57321
+    - AVEXAM-92899
+    - ATPLQ-312033
+    - AVEXAM-21164
+    - BGS-310476
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        The mean aerodynamic chord (MAC) is {{mac}} m long.
+
+        The moment arm of the forward hold is {{arm_from}} m and that of the aft hold is {{arm_to}} m.
+
+        The aircraft mass is {{mass}} kg and its CG is at {{cg_from}} % MAC.
+
+        Which mass has to be transferred from the forward to the aft hold to move the CG to {{cg_to}} % MAC?
+      explanation: |-
+        A CG shift in % MAC is first converted into a length by multiplying by the MAC length. The mass to move is then the total mass times that CG shift divided by the distance between the two holds.
+
+        **Solution**
+
+        CG shift = ({{cg_to}} - {{cg_from}}) / 100 x {{mac}} m = {{macro1}} m
+
+        $$
+        \frac{\frac{\text{Aircraft mass}\times (\text{Target CG}-\text{Current CG})}{100}\times \text{MAC length}}{\text{Arm of the aft hold}-\text{Arm of the forward hold}} = \frac{\frac{ {{mass}}\times ({{cg_to}}-{{cg_from}})}{100}\times {{mac}} }{ {{arm_to}}-({{arm_from}})} = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: the arms are added instead of subtracted.
+        - **{{d2}} kg**: only the arm of the aft hold is used as the distance.
+        - **{{d3}} kg**: the MAC and the hold distance are swapped (inverted ratio).
+        - **{{d4}} kg**: the CG shift in % MAC is not divided by 100.
+      presets:
+        - variables:
+            mac: 1
+            arm_from: -0.5
+            arm_to: 2.5
+            mass: 2200
+            cg_from: 25
+            cg_to: 40
+            macro1: 0
+            answer: 110
+            d1: 165
+            d2: 132
+            d3: 990
+            d4: 11000
+          correctAnswers:
+            - text: 110 kg
+          wrongAnswers:
+            - text: 165 kg
+            - text: 990 kg
+            - text: 11000 kg
+            - text: 132 kg
+        - variables:
+            mac: 7.5
+            arm_from: -4.5
+            arm_to: 2.75
+            mass: 22000
+            cg_from: 25
+            cg_to: 40
+            macro1: 1
+            answer: 3414
+            d1: 14143
+            d2: 9000
+            d3: 3190
+            d4: 341379
+          correctAnswers:
+            - text: 3414 kg
+          wrongAnswers:
+            - text: 14143 kg
+            - text: 3190 kg
+            - text: 341379 kg
+            - text: 9000 kg
+        - variables:
+            mac: 2
+            arm_from: -1
+            arm_to: 3
+            mass: 3000
+            cg_from: 20
+            cg_to: 30
+            macro1: 0
+            answer: 150
+            d1: 300
+            d2: 200
+            d3: 600
+            d4: 15000
+          correctAnswers:
+            - text: 150 kg
+          wrongAnswers:
+            - text: 300 kg
+            - text: 600 kg
+            - text: 15000 kg
+            - text: 200 kg
+    - type: simple
+      question: |-
+        Given:
+        Length of the mean aerodynamic chord 7.5m
+        Moment arm of hold 1: -4.50m
+        Moment arm of hold 2: -1.50m
+        Moment arm of hold 3: 2.75m
+        Moment arm of hold 4: 5.5m
+
+        The aircraft mass is 22000kg and its CG is at 25%MAC.
+        Calculate the mass that needs to be moved from hold 1 to 3 to relocate the CG to 40%MAC
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3415 kgs
+          wrongAnswers:
+            - text: 3330 kgs
+            - text: 5550 kgs
+            - text: 5876 kgs
+- id: QATPD
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-311503
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.01.02
+  templates:
+    - type: simple
+      question: |-
+        During pre-flight calculations the pilot finds out that the take-off CG position is {{shift}} cm aft of the take-off CG aft limit.
+
+        The TOM is {{tom}} kg.
+
+        Determine the minimum distance forwards that they should move a box with a mass of {{mass}} kg to change the CG to within the take-off limits:
+      explanation: |-
+        Moving a mass m over a distance d changes the total moment by m x d, which shifts the CG by that amount divided by the (unchanged) take-off mass. To bring the CG forward by the required shift, solve for the distance.
+
+        **Solution**
+
+        CG shift = {{shift}} cm = {{macro1}} m
+
+        $$
+        \frac{\frac{\text{Required CG shift}}{100}\times \text{TOM}}{\text{Box mass}} = \frac{\frac{ {{shift}} }{100}\times {{tom}} }{ {{mass}} } = \mathbf{ {{answer}}\ \text{m} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}**: the result was left in cm (a factor 100 too large) but labelled as metres.
+        - **{{d2}}**: the box mass was subtracted from the take-off mass before dividing.
+        - **{{d3}}**: the box mass was added to the take-off mass before dividing.
+      presets:
+        - variables:
+            shift: 8
+            tom: 7312
+            mass: 362
+            macro1: 0.08
+            answer: 1.616
+            d1: 161.591
+            d2: 153.591
+            d3: 169.591
+          correctAnswers:
+            - text: 1.616 m
+          wrongAnswers:
+            - text: 169.591 m
+            - text: 161.591 m
+            - text: 153.591 m
+        - variables:
+            shift: 6
+            tom: 6850
+            mass: 290
+            macro1: 0.06
+            answer: 1.417
+            d1: 141.724
+            d2: 135.724
+            d3: 147.724
+          correctAnswers:
+            - text: 1.417 m
+          wrongAnswers:
+            - text: 147.724 m
+            - text: 141.724 m
+            - text: 135.724 m
+        - variables:
+            shift: 10
+            tom: 8200
+            mass: 410
+            macro1: 0.1
+            answer: 2
+            d1: 200
+            d2: 190
+            d3: 210
+          correctAnswers:
+            - text: 2 m
+          wrongAnswers:
+            - text: 210 m
+            - text: 200 m
+            - text: 190 m
+- id: QHRQX
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-316364
+    - AVEXAM-4663
+    - ATPLQ-316738
+    - AVEXAM-88163
+    - BGS-310493
+    - BGS-310503
+    - AVEXAM-94434
+    - ATPLQ-318613
+    - ATPLQ-313443
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.01.02
+  templates:
+    - type: simple
+      question: |-
+        When preparing for the flight, you note that the take-off CG is {{err}} cm beyond the CG limit.
+
+        The aircraft take-off mass is {{mass}} kg.
+
+        A {{moved}} kg load is moved within the aircraft to bring the CG within limits.
+
+        What is the minimum distance this load must be shifted, in metres?
+      explanation: |-
+        A load shift changes the moment by moved mass times distance. This must equal the aircraft mass times the CG error, so the shift distance is mass × error / moved mass.
+
+        **Solution**
+
+        $$\frac{\text{Aircraft mass}\times \text{CG error}}{\text{Moved mass}} = \frac{ {{mass}}\times {{err}} }{ {{moved}} }$$ cm = **{{answer}} m**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} m**: the result in cm is given as if it were metres (no unit conversion).
+        - **{{d2}} m**: the ratio of masses is inverted.
+        - **{{d3}} m**: the conversion from cm uses 1000 instead of 100.
+        - **{{d4}} m**: the moved mass is added to the aircraft mass in the denominator.
+      presets:
+        - variables:
+            err: 8
+            mass: 7132
+            moved: 320
+            answer: 1.783
+            d1: 178.3
+            d2: 0.004
+            d3: 0.178
+            d4: 0.077
+          correctAnswers:
+            - text: 1.783 m
+          wrongAnswers:
+            - text: 178.3 m
+            - text: 0.178 m
+            - text: 0.077 m
+            - text: 0.004 m
+        - variables:
+            err: 8
+            mass: 7231
+            moved: 302
+            answer: 1.915
+            d1: 191.55
+            d2: 0.003
+            d3: 0.192
+            d4: 0.077
+          correctAnswers:
+            - text: 1.915 m
+          wrongAnswers:
+            - text: 191.55 m
+            - text: 0.192 m
+            - text: 0.077 m
+            - text: 0.003 m
+        - variables:
+            err: 5
+            mass: 6500
+            moved: 250
+            answer: 1.3
+            d1: 130
+            d2: 0.002
+            d3: 0.13
+            d4: 0.048
+          correctAnswers:
+            - text: 1.3 m
+          wrongAnswers:
+            - text: 130 m
+            - text: 0.13 m
+            - text: 0.048 m
+            - text: 0.002 m
+    - type: simple
+      question: When preparing for the flight, you note that the take-off CG is 8 cm beyond the CG limit. The aircraft weight is 7132 kg. A 302 kg container in the hold is moved to bring the CG within limits. What is the minimum value of this load shift to the aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 188.9 cm
+          wrongAnswers:
+            - text: 1.989 m
+            - text: 209 cm
+            - text: 1.789 m
+- id: QASHJ
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-318653
+    - BGS-310797
+    - AVEXAM-31452
+    - AVEXAM-42106
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.01.04
+  templates:
+    - type: simple
+      question: |-
+        An aeroplane, with its CG limits from 638 inches to 658 inches aft of the datum, should have been loaded so as to give a calculated Take-Off Mass of 64 200 kg and the CG located at 640 inches aft of the datum, with 750 kg loaded into the front cargo hold and 500 kg into the rear cargo hold.
+
+        Unfortunately, the ground staff incorrectly loaded all the cargo into the forward cargo hold.
+
+        If the distance between the cargo holds is 517 inches, is the aeroplane's CG within limits?
+      explanation: The 500 kg meant for the rear hold went forward by 517 inches. The centre of gravity moves forward by 500 × 517 ÷ 64 200 = 4.0 inches, from 640 to about 636 inches. That is ahead of the 638 inch forward limit, so it is **out of the forward limit**.
+      presets:
+        - correctAnswers:
+            - text: No, it is out of the forward limit.
+          wrongAnswers:
+            - text: Yes, it is within limits.
+            - text: Yes, it moves rearwards but is within limits.
+            - text: No, it is out of the rear limit.
+- id: QKHRG
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-316957
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.01.04
+  templates:
+    - type: simple
+      question: |-
+        An aeroplane should have been loaded so as to give a TOM of 57 600 kg and a CG located 646 inches aft of datum (CG limits are from 640 inches to 661 inches aft of datum).
+
+        However, the ground crew incorrectly loaded 900 kg of baggage into the rear cargo hold instead of the front.
+
+        If the distance between the front cargo hold and the rear cargo hold is 517 inches, is the new CG still within limits?
+      explanation: Moving 900 kg backwards by 517 inches shifts the centre of gravity by 900 × 517 ÷ 57 600 = 8.1 inches aft. The new position is 646 + 8.1 = 654.1 inches, between 640 and 661 inches, so it is **within limits**.
+      presets:
+        - correctAnswers:
+            - text: Yes, it is within limits.
+          wrongAnswers:
+            - text: No, it is out of the forward limit.
+            - text: No, it is out of the rear limit.
+            - text: Yes, it has moved forward and is within limits.
+- id: QTOUS
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-313533
+    - AVEXAM-11473
+    - AVEXAM-95066
+    - BGS-310304
+    - BGS-310311
+    - ATPLQ-315378
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.02.01
+  templates:
+    - type: simple
+      question: |-
+        The total mass of an aeroplane is {{m}} kg with the CG at {{cg}} m aft of the datum.
+
+        The CG limits are between {{fwd}} m and {{aft}} m aft of the datum.
+
+        How much mass must be removed from the rear hold ({{arm}} m aft of the datum) to move the CG to the middle of the limits?
+      explanation: |-
+        The target CG is the mid-point of the limits. Removing mass x at the hold arm moves the CG: m x cg - x x arm = (m - x) x target, so x = m x (cg - target) / (arm - target).
+
+        **Solution**
+
+        Target CG = {{macro1}} m
+
+        $$
+        \frac{\text{Total mass}\times (\text{Current CG}-\frac{\text{Forward CG limit}+\text{Aft CG limit}}{2})}{\text{Rear hold arm}-\frac{\text{Forward CG limit}+\text{Aft CG limit}}{2}} = \frac{ {{m}}\times ({{cg}}-\frac{ {{fwd}}+{{aft}} }{2})}{ {{arm}}-\frac{ {{fwd}}+{{aft}} }{2}} = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: Moves the CG to the aft limit instead of the middle.
+        - **{{d2}} kg**: Moves the CG to the forward limit instead of the middle.
+        - **{{d3}} kg**: Divides by the hold arm instead of its distance from the target CG.
+        - **{{d4}} kg**: Uses the distance from the hold to the current CG instead of the target.
+      presets:
+        - variables:
+            m: 112000
+            cg: 22.62
+            fwd: 18
+            aft: 22
+            arm: 30
+            macro1: 20
+            answer: 29344
+            d1: 8680
+            d2: 43120
+            d3: 9781
+            d4: 39762
+          correctAnswers:
+            - text: 29344 kg
+          wrongAnswers:
+            - text: 8680 kg
+            - text: 9781 kg
+            - text: 39762 kg
+            - text: 43120 kg
+        - variables:
+            m: 90000
+            cg: 23.1
+            fwd: 18
+            aft: 22
+            arm: 28
+            macro1: 20
+            answer: 34875
+            d1: 16500
+            d2: 45900
+            d3: 9964
+            d4: 56939
+          correctAnswers:
+            - text: 34875 kg
+          wrongAnswers:
+            - text: 16500 kg
+            - text: 9964 kg
+            - text: 56939 kg
+            - text: 45900 kg
+        - variables:
+            m: 100000
+            cg: 22.5
+            fwd: 17
+            aft: 21
+            arm: 30
+            macro1: 19
+            answer: 31818
+            d1: 16667
+            d2: 42308
+            d3: 11667
+            d4: 46667
+          correctAnswers:
+            - text: 31818 kg
+          wrongAnswers:
+            - text: 16667 kg
+            - text: 11667 kg
+            - text: 46667 kg
+            - text: 42308 kg
+- id: QUGDU
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-315639
+    - BGS-310485
+    - AVEXAM-38783
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.02.01
+  templates:
+    - type: simple
+      question: "An aeroplane has a total mass of {{mass}} kg with a CG at {{cg}} m aft of the datum line. Determine the amount of additional load to be loaded at station {{arm}} m aft of the datum line, to establish a new CG of {{newcg}} m aft of the datum line:"
+      explanation: |-
+        Moments about the datum are conserved: the old moment plus the moment of the added load equals the new total mass times the new CG. Solving for the added mass x gives x = M (new CG - CG) / (arm - new CG).
+
+        **Solution**
+
+        $$
+        \frac{\text{total mass}\times (\text{new CG}-\text{current CG})}{\text{load station}-\text{new CG}} = \frac{ {{mass}}\times ({{newcg}}-{{cg}})}{ {{arm}}-{{newcg}} } = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: divides by the distance from the old CG instead of from the new CG.
+        - **{{d2}} kg**: subtracts the CG shift from the load arm instead of the new CG.
+        - **{{d3}} kg**: divides by the new CG value instead of by the lever arm to the new CG.
+      presets:
+        - variables:
+            mass: 3927
+            cg: 4.28
+            arm: 5.8
+            newcg: 4.37
+            answer: 247
+            d1: 233
+            d2: 62
+            d3: 81
+          correctAnswers:
+            - text: 247 kg
+          wrongAnswers:
+            - text: 81 kg
+            - text: 233 kg
+            - text: 62 kg
+        - variables:
+            mass: 4200
+            cg: 4.1
+            arm: 6
+            newcg: 4.2
+            answer: 233
+            d1: 221
+            d2: 71
+            d3: 100
+          correctAnswers:
+            - text: 233 kg
+          wrongAnswers:
+            - text: 100 kg
+            - text: 221 kg
+            - text: 71 kg
+        - variables:
+            mass: 3500
+            cg: 4
+            arm: 5.9
+            newcg: 4.12
+            answer: 236
+            d1: 221
+            d2: 73
+            d3: 102
+          correctAnswers:
+            - text: 236 kg
+          wrongAnswers:
+            - text: 102 kg
+            - text: 221 kg
+            - text: 73 kg
+- id: QPVKO
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-315446
+    - AVEXAM-34836
+    - BGS-310826
+    - AVEXAM-38952
+    - ATPLQ-313513
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.02.01
+  templates:
+    - type: simple
+      question: |-
+        You are operating a light aircraft for humanitarian operations.
+
+        Today, you will transport food parcels of {{parcel}} kg each, stored in the cargo bay with a CG of {{arm}} m aft of the datum line.
+
+        Before loading the cargo, the total mass of the aircraft is {{mass}} kg and its CG is {{cg}} m aft of the datum line.
+
+        To be within the aft CG limit of {{lim}} m, what is the maximum number of food parcels you can load today?
+      explanation: |-
+        Loading cargo moves the CG towards the cargo arm. Setting the new CG equal to the aft limit, (mass × CG + m × arm) / (mass + m) = limit, gives the maximum cargo mass m. The number of parcels must be a whole number, so it is rounded down.
+
+        **Solution**
+
+        m = mass × (limit - CG) / (arm - limit) = {{macro1}} kg
+
+        Number of parcels = {{macro1}} / {{parcel}} = {{macro2}} → **{{answer}} parcels**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} parcels**: rounds the result up, which would put the CG beyond the aft limit.
+        - **{{d2}} parcels**: rounds down and then removes one parcel unnecessarily.
+        - **{{d3}} parcels**: rounds down and then removes two parcels unnecessarily.
+      presets:
+        - variables:
+            parcel: 10
+            arm: 7.8
+            mass: 3645
+            cg: 5.62
+            lim: 5.7
+            macro1: 139
+            macro2: 14
+            answer: 13
+            d1: 14
+            d2: 12
+            d3: 11
+          correctAnswers:
+            - text: 13 parcels
+          wrongAnswers:
+            - text: 11 parcels
+            - text: 14 parcels
+            - text: 12 parcels
+        - variables:
+            parcel: 12
+            arm: 8.2
+            mass: 4120
+            cg: 6.1
+            lim: 6.2
+            macro1: 206
+            macro2: 17
+            answer: 17
+            d1: 18
+            d2: 16
+            d3: 15
+          correctAnswers:
+            - text: 17 parcels
+          wrongAnswers:
+            - text: 15 parcels
+            - text: 18 parcels
+            - text: 16 parcels
+- id: QLVWS
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-312824
+    - ATPLQ-314691
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.02.01
+  templates:
+    - type: simple
+      question: |-
+        An aircraft has its datum at the nose.
+
+        The front seats are 65 inches aft of datum, the passenger seats are 105 inches aft and the separate baggage compartment is 145 inches aft.
+
+        The aft CG limit is {{limit}} inches aft.
+
+        The current mass is {{mass}} lb.
+
+        Three passengers are in the rear seats, with the baggage compartment full, and the front seat is empty.
+
+        In this situation the CG is {{excess}} inches behind the aft limit.
+
+        Ignoring maximum mass limits, how much extra ballast, in lb, must be secured in the front seat (arm {{arm}} inches) to bring the CG to the aft limit?
+      explanation: |-
+        Adding ballast m at the front seat arm moves the CG forward. The new CG must equal the aft limit: (M * (limit + excess) + m * arm) / (M + m) = limit, which gives m = M * excess / (limit - arm).
+
+        **Solution**
+
+        $$\frac{\text{Current mass}\times \text{CG excess behind the aft limit}}{\text{Aft CG limit}-\text{Front seat arm}}$$ = $$\frac{ {{mass}}\times 3}{ {{limit}}-65}$$ = {{macro3}} lb, rounded: **{{answer}} lb**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} lb**: divides by the distance from the front seat to the current (out-of-limit) CG instead of to the limit.
+        - **{{d2}} lb**: divides by the arm of the seat instead of the lever arm to the limit.
+        - **{{d3}} lb**: divides by the aft limit instead of the lever arm.
+        - **{{d4}} lb**: uses the lever arm to a point forward of the limit.
+      presets:
+        - variables:
+            limit: 147
+            mass: 2750
+            excess: 3
+            arm: 65
+            macro3: 101
+            answer: 101
+            d1: 97
+            d2: 127
+            d3: 56
+            d4: 104
+          correctAnswers:
+            - text: 101 lb
+          wrongAnswers:
+            - text: 97 lb
+            - text: 56 lb
+            - text: 104 lb
+            - text: 127 lb
+        - variables:
+            limit: 149
+            mass: 2570
+            excess: 3
+            arm: 65
+            macro3: 92
+            answer: 92
+            d1: 89
+            d2: 119
+            d3: 52
+            d4: 95
+          correctAnswers:
+            - text: 92 lb
+          wrongAnswers:
+            - text: 89 lb
+            - text: 52 lb
+            - text: 95 lb
+            - text: 119 lb
+- id: QMZZM
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-317534
+    - AVEXAM-74476
+    - BGS-310480
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.02.01
+  templates:
+    - type: simple
+      question: |-
+        An aircraft has its datum at the nose.
+
+        The front seats are {{front_arm}} inches aft of datum, the passenger seats are {{pass_arm}} inches aft and the separate baggage compartment is 145 inches aft.
+
+        The aft limit is {{limit}} inches aft.
+
+        The current mass is {{mass}} lb.
+
+        Three passengers are in the rear seats, with the baggage compartment full, and they all want to sit together so the front seat is empty.
+
+        However, the pilot is very light and, in this situation, the Centre of Gravity (CG) of the aircraft is {{excess}} inches behind the aft limit.
+
+        Ignoring maximum mass limits, how much extra ballast must be secured in the front seat to bring the CG to the authorised limit?
+      explanation: |-
+        Ballast added at the front seat moves the CG forward. Taking moments about the datum, the new CG must equal the aft limit: (mass x (limit + excess) + ballast x front arm) / (mass + ballast) = limit. Solving for the ballast gives the formula below.
+
+        **Solution**
+
+        The CG is currently {{macro1}} in aft of datum.
+
+        $$
+        \frac{\text{Current mass}\times \text{CG excess behind limit}}{\text{Aft CG limit}-\text{Front seat arm}} = \frac{ {{mass}}\times 3}{ {{limit}}-65} = \mathbf{ {{answer}}\ \text{lb} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} lb**: divided by the front seat arm instead of the distance from the front seat to the limit.
+        - **{{d2}} lb**: used the distance from the front seat to the current CG instead of to the limit.
+        - **{{d3}} lb**: used the distance from the passenger seats to the limit.
+        - **{{d4}} lb**: used the arm difference between passenger and front seats.
+      presets:
+        - variables:
+            front_arm: 65
+            pass_arm: 105
+            limit: 157
+            mass: 2570
+            excess: 3
+            macro1: 160
+            answer: 84
+            d1: 119
+            d2: 81
+            d3: 148
+            d4: 193
+          correctAnswers:
+            - text: 84 lb
+          wrongAnswers:
+            - text: 119 lb
+            - text: 148 lb
+            - text: 193 lb
+            - text: 81 lb
+        - variables:
+            front_arm: 65
+            pass_arm: 105
+            limit: 147
+            mass: 2750
+            excess: 3
+            macro1: 150
+            answer: 101
+            d1: 127
+            d2: 97
+            d3: 196
+            d4: 206
+          correctAnswers:
+            - text: 101 lb
+          wrongAnswers:
+            - text: 127 lb
+            - text: 196 lb
+            - text: 206 lb
+            - text: 97 lb
+        - variables:
+            front_arm: 65
+            pass_arm: 105
+            limit: 150
+            mass: 2400
+            excess: 3
+            macro1: 153
+            answer: 85
+            d1: 111
+            d2: 82
+            d3: 160
+            d4: 180
+          correctAnswers:
+            - text: 85 lb
+          wrongAnswers:
+            - text: 111 lb
+            - text: 160 lb
+            - text: 180 lb
+            - text: 82 lb
+- id: QORGU
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-316407
+    - AVEXAM-30167
+    - BGS-310884
+    - AVEXAM-97520
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.02.01
+  templates:
+    - type: simple
+      question: |-
+        An aircraft has {{ballast}} lb of ballast installed in the forward cargo hold located {{arm}} in aft of the datum.
+
+        The load and balance calculation gives a TOM of {{m}} lb and the CG at {{cg}} in aft of the datum.
+
+        How many pounds of ballast must be removed to move the CG to {{tgt}} in aft of the datum?
+      explanation: |-
+        Removing forward ballast moves the CG aft. With moments: m x cg - x x arm = (m - x) x tgt, which gives x = m x (tgt - cg) / (tgt - arm).
+
+        **Solution**
+
+        $$
+        \frac{\text{Take-off mass}\times |\text{Target CG}-\text{Current CG}|}{|\text{Target CG}-\text{Ballast arm}|} = \frac{ {{m}}\times |{{tgt}}-{{cg}}|}{|{{tgt}}-{{arm}}|} = \mathbf{ {{answer}}\ \text{lb} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} lb**: Uses the arm distance to the current CG instead of the target CG.
+        - **{{d2}} lb**: Divides by the target CG instead of the lever arm.
+        - **{{d3}} lb**: Divides by the ballast arm instead of the lever arm relative to the target CG.
+        - **{{d4}} lb**: Gives the ballast that would remain installed instead of the amount to remove.
+      presets:
+        - variables:
+            ballast: 100
+            arm: 22.5
+            m: 4000
+            cg: 85
+            tgt: 86
+            answer: 63
+            d1: 64
+            d2: 47
+            d3: 178
+            d4: 37
+          correctAnswers:
+            - text: 63 lb
+          wrongAnswers:
+            - text: 64 lb
+            - text: 178 lb
+            - text: 37 lb
+            - text: 47 lb
+        - variables:
+            ballast: 80
+            arm: 25
+            m: 3500
+            cg: 83
+            tgt: 84
+            answer: 59
+            d1: 60
+            d2: 42
+            d3: 140
+            d4: 21
+          correctAnswers:
+            - text: 59 lb
+          wrongAnswers:
+            - text: 60 lb
+            - text: 140 lb
+            - text: 21 lb
+            - text: 42 lb
+        - variables:
+            ballast: 90
+            arm: 20
+            m: 4500
+            cg: 86
+            tgt: 87
+            answer: 67
+            d1: 68
+            d2: 52
+            d3: 225
+            d4: 23
+          correctAnswers:
+            - text: 67 lb
+          wrongAnswers:
+            - text: 68 lb
+            - text: 225 lb
+            - text: 23 lb
+            - text: 52 lb
+- id: QTCYN
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds:
+    - QMWOP
+  externalQuestionIds:
+    - ATPLQ-311777
+    - AVEXAM-83241
+    - BGS-310310
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.02.01
+  templates:
+    - type: simple
+      question: The mass of an aircraft is {{mass}} kg. If {{added}} kg is added to a cargo hold {{dist}} metres from the loaded Centre of Gravity (CG), by how many centimetres will the loaded CG move?
+      explanation: |-
+        Adding a mass at a distance from the CG shifts the CG towards it by the added moment divided by the new total mass (including the added mass).
+
+        **Solution**
+
+        $$
+        \frac{\text{Added cargo}\times \text{Distance of hold from CG}\times 100}{\text{Aircraft mass}+\text{Added cargo}} = \frac{ {{added}}\times {{dist}}\times 100}{ {{mass}}+{{added}} } = \mathbf{ {{answer}}\ \text{cm} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} cm**: the added mass is not included in the new total mass.
+        - **{{d2}} cm**: the added mass is subtracted instead of added.
+        - **{{d3}} cm**: the wrong mass is used in the numerator.
+        - **{{d4}} cm**: the CG moves in the wrong direction.
+      presets:
+        - variables:
+            mass: 1950
+            added: 450
+            dist: 1.75
+            answer: 33
+            d1: 40
+            d2: 53
+            d3: 142
+            d4: -33
+          correctAnswers:
+            - text: 33 cm
+          wrongAnswers:
+            - text: 40 cm
+            - text: 142 cm
+            - text: -33 cm
+            - text: 53 cm
+        - variables:
+            mass: 2100
+            added: 350
+            dist: 2.2
+            answer: 31
+            d1: 37
+            d2: 44
+            d3: 189
+            d4: -31
+          correctAnswers:
+            - text: 31 cm
+          wrongAnswers:
+            - text: 37 cm
+            - text: 189 cm
+            - text: -31 cm
+            - text: 44 cm
+- id: QVJXY
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-311871
+    - BGS-310763
+    - AVEXAM-33364
+    - ATPLQ-316379
+    - BGS-310183
+    - AVEXAM-12337
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.02.01
+  templates:
+    - type: simple
+      question: |-
+        An aircraft has a mass of {{m}} lb and its CG is at {{cg}} in aft of the datum.
+
+        The CG has to be moved to {{tgt}} in aft of the datum by loading mass in a compartment located {{arm}} in aft of the datum.
+
+        How many pounds have to be loaded in that compartment?
+      explanation: |-
+        Moment balance: the mass x added at the arm shifts the CG, so (m + x) x tgt = m x cg + x x arm. Solving for x gives x = m x (cg - tgt) / (tgt - arm) in absolute terms.
+
+        **Solution**
+
+        $$
+        \frac{\text{Aircraft mass}\times |\text{Current CG}-\text{Target CG (or limit)}|}{|\text{Compartment arm}-\text{Target CG (or limit)}|} = \frac{ {{m}}\times |{{cg}}-{{tgt}}|}{|{{arm}}-{{tgt}}|} = \mathbf{ {{answer}}\ \text{lb} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} lb**: Uses the distance from the compartment to the current CG instead of to the target CG.
+        - **{{d2}} lb**: Divides by the arm instead of the lever arm relative to the target CG.
+        - **{{d3}} lb**: Adds the target CG to the arm instead of subtracting.
+        - **{{d4}} lb**: Wrong combination of the terms (arm distance times CG shift divided by mass).
+      presets:
+        - variables:
+            m: 3800
+            cg: 95
+            tgt: 93
+            arm: 22.5
+            answer: 107.8
+            d1: 104.83
+            d2: 337.78
+            d3: 65.8
+            d4: 0.04
+          correctAnswers:
+            - text: 107.8 lb
+          wrongAnswers:
+            - text: 104.83 lb
+            - text: 65.8 lb
+            - text: 0.04 lb
+            - text: 337.78 lb
+        - variables:
+            m: 5000
+            cg: 80
+            tgt: 80.5
+            arm: 150
+            answer: 35.97
+            d1: 35.71
+            d2: 16.67
+            d3: 10.85
+            d4: 0.01
+          correctAnswers:
+            - text: 35.97 lb
+          wrongAnswers:
+            - text: 35.71 lb
+            - text: 10.85 lb
+            - text: 0.01 lb
+            - text: 16.67 lb
+- id: QDWHY
+  subjectId: "031"
+  chapterId: "031.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-317821
+    - BGS-310786
+    - AVEXAM-51590
+    - AVEXAM-31249
+    - BGS-310499
+    - ATPLQ-316898
+    - BGS-310482
+    - ATPLQ-314369
+    - AVEXAM-99025
+    - BGS-310611
+    - AVEXAM-53925
+  annexes: []
+  learningObjectiveIds:
+    - 031.05.03.02.02
+  templates:
+    - type: simple
+      question: |-
+        An aircraft has a mass of {{m0}} kg with the CG at {{cg0}} m aft of the datum.
+
+        An additional load of {{madd}} kg is loaded and the new CG is at {{cg1}} m aft of the datum.
+
+        At what distance aft of the datum was the additional load placed?
+      explanation: |-
+        The moment of the aircraft after loading equals the moment before plus the moment of the added load. Solving for the arm of the added load gives the formula below.
+
+        **Solution**
+
+        New mass = {{macro1}} kg
+
+        $$
+        \frac{(\text{Mass before loading}+\text{Added load})\times \text{New CG}-\text{Mass before loading}\times \text{CG before loading}}{\text{Added load}} = \frac{({{m0}}+{{madd}})\times {{cg1}}-{{m0}}\times {{cg0}} }{ {{madd}} } = \mathbf{ {{answer}}\ \text{m} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} m**: Forgets the added mass in the new total mass.
+        - **{{d2}} m**: Assumes the load is placed at the new CG.
+        - **{{d3}} m**: Divides the moment difference by the old mass instead of the added load.
+        - **{{d4}} m**: Wrong sign: gives the arm forward of the datum.
+      presets:
+        - variables:
+            m0: 6224.25
+            cg0: 9.8
+            madd: 144.75
+            cg1: 9.9
+            macro1: 6369
+            answer: 14.2
+            d1: 4.3
+            d2: 9.9
+            d3: 0.33
+            d4: -14.2
+          correctAnswers:
+            - text: 14.2 m
+          wrongAnswers:
+            - text: 4.3 m
+            - text: 0.33 m
+            - text: -14.2 m
+            - text: 9.9 m
+        - variables:
+            m0: 5430
+            cg0: 5.43
+            madd: 210
+            cg1: 5.56
+            macro1: 5640
+            answer: 8.92
+            d1: 3.36
+            d2: 5.56
+            d3: 0.35
+            d4: -8.92
+          correctAnswers:
+            - text: 8.92 m
+          wrongAnswers:
+            - text: 3.36 m
+            - text: 0.35 m
+            - text: -8.92 m
+            - text: 5.56 m
+        - variables:
+            m0: 7220
+            cg0: 4.16
+            madd: 170
+            cg1: 4.31
+            macro1: 7390
+            answer: 10.68
+            d1: 6.37
+            d2: 4.31
+            d3: 0.25
+            d4: -10.68
+          correctAnswers:
+            - text: 10.68 m
+          wrongAnswers:
+            - text: 6.37 m
+            - text: 0.25 m
+            - text: -10.68 m
+            - text: 4.31 m
+    - type: simple
+      question: An aircraft is to carry a wild animal and has four small cargo bays available for an animal cage. The caged animal has a mass of 102.25 kg. Before loading the caged animal, the aircraft had an initial take-off mass of 6 850 kg and a CG positioned 10.2 m aft of the datum. To displace the CG to 10.3 m aft of datum, in which cargo bay position must the animal be loaded?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 17.0 m
+          wrongAnswers:
+            - text: 16.2 m
+            - text: 18.5 m
+            - text: 18.8 m

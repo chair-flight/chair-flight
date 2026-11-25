@@ -1,0 +1,759 @@
+- id: QELUX
+  subjectId: "090"
+  chapterId: "090.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-929361
+    - BGS-920308
+  annexes: []
+  learningObjectiveIds:
+    - 090.06.01.01.01
+  templates:
+    - type: simple
+      question: Where does the VHF band fit within the radio frequency spectrum?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Immediately above the HF band and immediately below the UHF band.
+          wrongAnswers:
+            - text: Immediately below the SHF band and immediately above the HF band.
+            - text: Immediately above the HF band and immediately below the EHF band.
+            - text: Immediately above the MF band and immediately below the UHF band.
+- id: QXPYP
+  subjectId: "090"
+  chapterId: "090.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-909476
+    - BGS-900379
+    - ATPLQ-903190
+    - AVEXAM-17123
+  annexes: []
+  learningObjectiveIds:
+    - 090.06.01.01.02
+  templates:
+    - type: simple
+      question: An aeroplane is approaching the aerodrome and the Tower expects a (1) \_\_\_\_\_ approach whose station transmits on the (2) \_\_\_\_\_ frequency band with a wavelength of (3) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) VOR; (2) Very high; (3) 5 m.
+          wrongAnswers:
+            - text: (1) NDB; (2) Medium; (3) 5 m.
+            - text: (1) VOR; (2) Very high; (3) 100 m.
+            - text: (1) ILS; (2) Low; (3) 10 m.
+        - correctAnswers:
+            - text: (1) NDB; (2) Medium
+          wrongAnswers:
+            - text: (1) ILS; (2) Low
+            - text: (1) DME; (2) Ultra high
+            - text: (1) VOR; (2) Very high
+- id: QOAXG
+  subjectId: "090"
+  chapterId: "090.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-905886
+    - AVEXAM-39177
+    - BGS-900210
+  annexes: []
+  learningObjectiveIds:
+    - 090.06.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        Complete the following sentence:
+
+        London control instructs you to contact Solent radar on 120.225. Solent tells you to expect an ILS approach into runway 20 at Southampton. Solent radar transmits on the (1) \_\_\_\_\_ frequency band and the ILS transmits on the (2) \_\_\_\_\_ frequency band.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) very high; (2) very high.
+          wrongAnswers:
+            - text: (1) very high; (2) high.
+            - text: (1) high; (2) very high.
+            - text: (1) high; (2) high.
+- id: QSWSQ
+  subjectId: "090"
+  chapterId: "090.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-928586
+    - BGS-900114
+    - ATPLQ-919310
+    - BGS-920251
+    - ATPLQ-911253
+    - AVEXAM-7807
+    - ATPLQ-905548
+  annexes: []
+  learningObjectiveIds:
+    - 090.06.01.01.02
+    - 090.06.01.01.03
+  templates:
+    - type: simple
+      question: VHF is the radio frequency range from..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 30 to 300 MHz.
+          wrongAnswers:
+            - text: 3000 to 30 000 MHz.
+            - text: 3 to 30 MHz.
+            - text: 300 to 3000 MHz.
+    - type: simple
+      question: The radio frequency spectrum is divided into various bands. What is the range of frequencies that corresponds to the Very High Frequency (VHF) band?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 30 MHz to 300 MHz
+          wrongAnswers:
+            - text: 3 MHz to 30 MHz
+            - text: 300 kHz to 3000 kHz
+            - text: 300 MHz to 3000 MHz
+        - correctAnswers:
+            - text: 3 MHz to 30 MHz
+          wrongAnswers:
+            - text: 300 MHz to 3000 MHz
+            - text: 30 MHz to 300 MHz
+            - text: 300 kHz to 3000 kHz
+    - type: simple
+      question: Which is the High Frequency (HF) radio frequency band?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3 MHz to 30 MHz
+          wrongAnswers:
+            - text: 30 MHz to 300 MHz
+            - text: 300 kHz to 3000 kHz
+            - text: 300 MHz to 3000 MHz
+- id: QXFJL
+  subjectId: "090"
+  chapterId: "090.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-909298
+    - AVEXAM-22392
+  annexes: []
+  learningObjectiveIds:
+    - 090.06.01.01.02
+  templates:
+    - type: simple
+      question: "Choose the correct combination of Navstation, its frequency area, and the approximate wavelength:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VOR, VHF, 5 m
+          wrongAnswers:
+            - text: VOR, HF, 50 NM
+            - text: NDB, MF, 20 NM
+            - text: NDB, LF, 15 NM
+- id: QOTIH
+  subjectId: "090"
+  chapterId: "090.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-922118
+    - AVEXAM-91783
+    - AVEXAM-13889
+    - BGS-900144
+    - BGS-920307
+    - AVEXAM-70864
+    - BGS-920146
+    - BGS-920102
+    - ATPLQ-923090
+    - AVEXAM-72359
+    - ATPLQ-915181
+    - ATPLQ-928446
+  annexes: []
+  learningObjectiveIds:
+    - 090.06.01.01.03
+  templates:
+    - type: simple
+      question: Which of the following pairs of frequencies are both included in the VHF band?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 45 MHz and 291 MHz.
+          wrongAnswers:
+            - text: 119 kHz and 134 kHz.
+            - text: 134 kHz and 29 MHz.
+            - text: 119 MHz and 29 MHz.
+    - type: simple
+      question: Which of the following pairs of frequencies can both be found in the VHF band?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 49 MHz and 295 MHz.
+          wrongAnswers:
+            - text: 108 GHz and 133 GHz.
+            - text: 122 kHz and 112 kHz.
+            - text: 132 MHz and 29 MHz.
+    - type: simple
+      question: Among these frequencies, which one would be a correct range for VHF?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 90 MHz, 295 MHz
+          wrongAnswers:
+            - text: 90 kHz, 295 kHz
+            - text: 29 GHz, 132 GHz
+            - text: 29 MHz, 132 MHz
+    - type: simple
+      question: Which of the following frequency ranges are within the VHF band?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 45 MHz - 291 MHz
+          wrongAnswers:
+            - text: 29 MHz - 191 MHz
+            - text: 29 MHz - 191 kHz
+            - text: 191 MHz - 29 kHz
+- id: QBYVP
+  subjectId: "090"
+  chapterId: "090.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-926237
+    - AVEXAM-60919
+    - AVEXAM-65620
+    - BGS-900219
+    - BGS-900349
+    - AVEXAM-12141
+    - ATPLQ-908696
+    - BGS-900410
+    - AVEXAM-30936
+    - ATPLQ-905341
+    - ATPLQ-907430
+    - AVEXAM-51897
+    - ATPLQ-902313
+    - ATPLQ-903356
+    - ATPLQ-904424
+    - AVEXAM-242
+    - ATPLQ-912736
+    - BGS-910277
+    - AVEXAM-73154
+    - ATPLQ-917711
+    - BGS-900357
+    - BGS-3
+    - BGS-910271
+    - AVEXAM-90844
+    - ATPLQ-919193
+    - BGS-900589
+  annexes: []
+  learningObjectiveIds:
+    - 090.06.01.01.03
+    - 090.06.01.01.04
+    - 090.06.01.01.05
+  templates:
+    - type: simple
+      question: Which of the following is a VHF voice communication frequency?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 124.855 MHz
+          wrongAnswers:
+            - text: 116.300 MHz
+            - text: 110.800 MHz
+            - text: 146.000 MHz
+    - type: simple
+      question: "The following are VHF radio communication frequencies that are used in aviation:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 119.900 MHz, 135.692 MHz, and 123.450 MHz.
+          wrongAnswers:
+            - text: 108.000 MHz, 117.975 MHz, and 136.992 MHz.
+            - text: 108.833 MHz, 110.250 MHz, and 243.00 MHz.
+            - text: 112.775 MHz, 116.358 MHz, and 121.500 MHz.
+        - correctAnswers:
+            - text: 119, 135, 121
+          wrongAnswers:
+            - text: 108, 117, 136
+            - text: 112, 117, 122
+            - text: 136, 140, 243
+    - type: simple
+      question: Which of the following frequencies can be used as a VHF voice communication frequency?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "124.285"
+          wrongAnswers:
+            - text: "108.988"
+            - text: "139.00"
+            - text: "143.00"
+    - type: simple
+      question: The frequency band allocated to VHF radio communications and navigation, often called the "air band," extends from...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 108.000 MHz to 136.975 MHz.
+          wrongAnswers:
+            - text: 118.005 MHz to 136.975 MHz.
+            - text: 108.000 MHz to 117.975 MHz.
+            - text: 121.500 MHz to 243.00 MHz.
+    - type: simple
+      question: Which of the following frequencies are used for navigation and radio communications?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 118-136 MHz
+          wrongAnswers:
+            - text: 137-150 MHz
+            - text: 90-100 MHz
+            - text: 105-116 MHz
+    - type: simple
+      question: Which of the following indicates the VHF voice communication frequency range?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 118.00 - 137.00 MHz
+          wrongAnswers:
+            - text: 108.00 - 137.00 MHz
+            - text: 118.00 - 137.00 Hz
+            - text: 108.00 - 146.00 Hz
+    - type: simple
+      question: Which is the frequency band containing frequencies of the Aeronautical Mobile Service?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 118.000 – 136.975 MHz
+          wrongAnswers:
+            - text: 11650 – 13200 kHz
+            - text: 108.000 – 117.975 MHz
+            - text: 1810 – 2850 KHz
+    - type: simple
+      question: To which frequency band does the frequency 118.075 MHz correspond?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VHF (Very High Frequency).
+          wrongAnswers:
+            - text: UHF (Ultra High Frequency).
+            - text: HF (High Frequency).
+            - text: MF (Medium Frequency).
+    - type: simple
+      question: What is the frequency range of that part of the VHF band currently used for Aeronautical Mobile Service air-ground voice communication?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 117.975 MHz to 137 MHz
+          wrongAnswers:
+            - text: 108 MHz to 137 MHz
+            - text: 108 MHz to 117.975 MHz
+            - text: 117.975 MHz to 132 MHz
+- id: QZMEF
+  subjectId: "090"
+  chapterId: "090.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-907208
+    - BGS-900212
+    - AVEXAM-88345
+  annexes: []
+  learningObjectiveIds:
+    - 090.06.01.01.03
+  templates:
+    - type: simple
+      question: "A pilot is on a VFR navigation flight to FREETOWN, which is a controlled aerodrome. They carefully prepared all radio COM and NAV frequencies on a piece of paper, but they CANNOT find the paper any more. Luckily, on the VFR map, they find the following frequencies: FRT TWR 126.305 FRT GND 118.680 FREETOWN FRT 116.35. Which frequency must they select in order to use the radio navigation aid to FREETOWN?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 116.350 MHz.
+          wrongAnswers:
+            - text: 118.680 MHz.
+            - text: 126.305 MHz or 118.680 MHz, depending on the CTR entry point.
+            - text: 126.305 MHz.
+- id: QBVGM
+  subjectId: "090"
+  chapterId: "090.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-923246
+    - AVEXAM-3530
+    - BGS-920193
+    - ATPLQ-917554
+    - BGS-900239
+    - ATPLQ-907687
+    - AVEXAM-14948
+    - ATPLQ-909987
+    - ATPLQ-918525
+    - BGS-900387
+    - AVEXAM-64935
+    - ATPLQ-911951
+    - AVEXAM-93784
+  annexes: []
+  learningObjectiveIds:
+    - 090.06.01.01.04
+    - 090.06.01.01.05
+  templates:
+    - type: simple
+      question: What is the spacing between allocated communication frequencies in the VHF band?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 8.33 kHz
+          wrongAnswers:
+            - text: 8.33 MHz
+            - text: 25 kHz
+            - text: 25 MHz
+    - type: simple
+      question: Which is the minimum separation between assignable frequencies in the Aeronautical Mobile Service VHF band?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 8.33 kHz
+          wrongAnswers:
+            - text: 83.3kHz
+            - text: 25 kHz
+            - text: 2.5kHz
+    - type: simple
+      question: What is the frequency spacing in Europe above FL250?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 8.33 kHz
+          wrongAnswers:
+            - text: 8.33 MHz
+            - text: 25 kHz
+            - text: 25 MHz
+    - type: simple
+      question: What frequency spacing and band is used in aeronautical communication?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 8.33 kHz VHF
+          wrongAnswers:
+            - text: 8.33 MHz VHF
+            - text: 25 kHz VHF
+            - text: 25 MHz VHF
+    - type: simple
+      question: What is the frequency band, and the spacing between allocated frequencies, used for voice communications by the Aeronautical Mobile Service?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VHF, 8.33 kHz spacing.
+          wrongAnswers:
+            - text: VHF, 8.33 MHz spacing.
+            - text: HF, 25 kHz spacing.
+            - text: HF, 8.33 kHz spacing.
+- id: QHVHM
+  subjectId: "090"
+  chapterId: "090.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-908568
+    - AVEXAM-83740
+    - BGS-900259
+  annexes: []
+  learningObjectiveIds:
+    - 090.06.01.01.04
+  templates:
+    - type: simple
+      question: You are on one of your first solo navigation missions to destination Freetown. In the cockpit the usual radio and navigation frequencies are listed on a small card. Being a little stressed by the situation (solo flight, radio communication etc), you look for the tower frequency and find FREETOWN FRT 112.25 MHz on the frequency card. You start changing to this frequency on the radio. Which of the following is true?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 112.25 is a VOR frequency, which cannot be selected on the VHF radio.
+          wrongAnswers:
+            - text: A radio frequency has been entered, but instead of contacting Freetown Tower it appears to be the Ground frequency.
+            - text: 112.25 is an obsolete 25 kHz radio frequency, which has to be converted first to 8.33 kHz.
+            - text: The correct frequency has been entered for the pilot to contact Freetown Tower.
+- id: QNEET
+  subjectId: "090"
+  chapterId: "090.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-908834
+    - AVEXAM-52658
+  annexes: []
+  learningObjectiveIds:
+    - 090.06.01.01.04
+  templates:
+    - type: simple
+      question: An aircraft is flying towards an aerodrome that is used for military and civil operations. If the aircraft uses a VHF radio, which of the following frequencies could the pilot use to communicate with this aerodrome?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 126.325 MHz
+          wrongAnswers:
+            - text: 121.575 MHz
+            - text: 6500 kHz
+            - text: 339 MHz
+    - type: simple
+      question: An aircraft is approaching an aerodrome used for both military and civil purposes. What VHF frequency might the pilot use to establish communication with the aerodrome?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 126.325 MHz
+          wrongAnswers:
+            - text: 121.575 MHz
+            - text: 6 500 kHz
+            - text: 339 MHz
+- id: QYNXJ
+  subjectId: "090"
+  chapterId: "090.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-908228
+    - AVEXAM-86175
+  annexes: []
+  learningObjectiveIds:
+    - 090.06.01.01.05
+  templates:
+    - type: simple
+      question: "A Pilot wants to contact frequency 118.0333 MHz, but selects 118.035\\. The frequency spacing is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 8.33 kHz
+          wrongAnswers:
+            - text: 25 kHz
+            - text: 3.333 kHz
+            - text: 8.35 kHz
+- id: QPCAY
+  subjectId: "090"
+  chapterId: "090.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-902142
+    - BGS-900231
+    - AVEXAM-40048
+  annexes: []
+  learningObjectiveIds:
+    - 090.06.01.01.06
+  templates:
+    - type: simple
+      question: When will the effective range and quality of VHF radio transmissions be optimum for an aircraft in flight and in contact with a control tower on a VHF frequency?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: High in altitude and close to the control tower.
+          wrongAnswers:
+            - text: High in altitude and far from the control tower.
+            - text: Low in altitude and close to the control tower.
+            - text: Low in Altitude and far from the control tower.
+- id: QPTCG
+  subjectId: "090"
+  chapterId: "090.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-908468
+    - AVEXAM-88492
+    - BGS-900131
+    - AVEXAM-47883
+  annexes: []
+  learningObjectiveIds:
+    - 090.06.01.01.06
+  templates:
+    - type: simple
+      question: Which one of the following factors affects VHF radio waves propagation the most?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Terrain.
+          wrongAnswers:
+            - text: The spherical shape of the Earth.
+            - text: Precipitation and other meteorological phenomenon.
+            - text: Atmosphere
+- id: QGHBU
+  subjectId: "090"
+  chapterId: "090.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-911940
+    - AVEXAM-88819
+    - ATPLQ-915464
+    - BGS-910278
+    - AVEXAM-43998
+  annexes: []
+  learningObjectiveIds:
+    - 090.06.01.01.06
+  templates:
+    - type: simple
+      question: Which factor reduces the effective range of ground-to-air VHF transmissions?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: High terrain interrupting the line of sight.
+          wrongAnswers:
+            - text: Raising the height of the ground transmitter aerial.
+            - text: Increasing the aircraft's altitude.
+            - text: Duct propagation, also called super-refraction.
+    - type: simple
+      question: Which phenomena will normally influence the reception of VHF transmission?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Level of aircraft and terrain elevations.
+          wrongAnswers:
+            - text: The ionosphere.
+            - text: Electrical discharges as they happen frequently in thunderstorms.
+            - text: Day- and night effect.
+- id: QJDZA
+  subjectId: "090"
+  chapterId: "090.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-906485
+    - AVEXAM-28406
+    - ATPLQ-908167
+    - BGS-900399
+  annexes: []
+  learningObjectiveIds:
+    - 090.06.01.01.06
+  templates:
+    - type: simple
+      question: There are two aircraft overflying the same area, one is at 5 000 ft and the other one is at 15 000 ft. Both are 80 NM from the station. Which aircraft experiences the best reception of VHF transmission?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The aircraft at 15 000 ft.
+          wrongAnswers:
+            - text: The aircraft at 5 000 ft.
+            - text: Altitude does not influence VHF radio communications.
+            - text: It cannot be determined.
+    - type: simple
+      question: Two aircraft are flying overhead a VOR. Aircraft X is at 1500 ft and aircraft Y is at 15 000 ft. Both are 80 NM away from the destination airfield. Both aircraft have tuned their VHF radio to the ATIS frequency of the destination. The quality and reception of the receiver signal…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: will be better for aircraft Y because it is flying higher.
+          wrongAnswers:
+            - text: will be better for aircraft X because it is flying lower.
+            - text: altitude does not influence VHF radio communications.
+            - text: it cannot be determined.
+    - type: simple
+      question: Two aircraft are flying overhead a VOR beacon. Aircraft X is at 1500 ft, aircraft Y is at 15000 ft. The distance to the destination is 80 NM. Both aircraft have tuned their VHF radio to the ATIS frequency of the destination aerodrome. The reception and quality of the received signal...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: will be better for aircraft Y because it is flying higher.
+          wrongAnswers:
+            - text: will be better for aircraft X because it is flying lower.
+            - text: CANNOT be determined because we need the actual atmospheric conditions to determine the quality of a VHF signal.
+            - text: will be equal for both aircraft because the distance to the destination is the same.
+- id: QJWNZ
+  subjectId: "090"
+  chapterId: "090.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-905556
+    - ATPLQ-902633
+    - AVEXAM-50377
+    - AVEXAM-29652
+  annexes: []
+  learningObjectiveIds:
+    - 090.06.01.01.06
+  templates:
+    - type: simple
+      question: Which of the following configurations would result in the LEAST effective range of the VHF transmitter?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 5 W - 500 ft
+          wrongAnswers:
+            - text: 10 W - 800 ft
+            - text: 10 W - 3800 ft
+            - text: 5 W - 3800 ft
+    - type: simple
+      question: |-
+        Which of the following configurations would result in the LEAST effective range of the VHF transmitter? 1) 10 W 
+        2) 5 W 
+        3) 800 ft 
+        4) 3800 ft
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 and 3
+          wrongAnswers:
+            - text: 1 and 3
+            - text: 1 and 4
+            - text: 2 and 4
+    - type: simple
+      question: Which configuration results in the least effective range of the VHF transmitter?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 5 W - 500 ft
+          wrongAnswers:
+            - text: 10 W - 3 800 ft
+            - text: 5 W - 3 800 ft
+            - text: 10 W - 800 ft
+    - type: simple
+      question: |-
+        Which configuration would result in the LEAST effective range of the VHF transmitter?
+
+         10 watt (W)
+         5 watt (W)
+         800 ft
+         3 800 ft
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 and 3
+          wrongAnswers:
+            - text: 2 and 4
+            - text: 1 and 4
+            - text: 1 and 3
+- id: QWJPY
+  subjectId: "090"
+  chapterId: "090.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-905919
+    - ATPLQ-924062
+    - AVEXAM-52033
+    - AVEXAM-64804
+    - AVEXAM-80690
+  annexes: []
+  learningObjectiveIds:
+    - 090.06.01.01.06
+  templates:
+    - type: simple
+      question: Propagation of the radio waves is influenced by different factors in the atmosphere. What will increase attenuation of radio waves?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: High air density and low wavelength.
+          wrongAnswers:
+            - text: Low air density and low wavelength.
+            - text: Low air density and high wavelength.
+            - text: High air density and high wavelength.
+        - correctAnswers:
+            - text: lower temperature and higher frequency.
+          wrongAnswers:
+            - text: higher temperature and lower frequency.
+            - text: higher temperature and higher frequency.
+            - text: lower temperature and lower frequency.
+    - type: simple
+      question: Atmospheric attenuation of VHF radio transmissions is affected by the characteristics of the transmission and of the air through which it travels. Attenuation increases as..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: air density increases and wavelength decreases.
+          wrongAnswers:
+            - text: wavelength and air density both increase.
+            - text: wavelength increases and air density decreases.
+            - text: air density and wavelength both decrease.
+- id: QZEUS
+  subjectId: "090"
+  chapterId: "090.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-906825
+    - AVEXAM-66696
+    - BGS-900161
+  annexes: []
+  learningObjectiveIds:
+    - 090.06.01.01.06
+  templates:
+    - type: simple
+      question: An aircraft is flying at a cruise altitude of 2 000 ft and at a distance of about 60 nm from its destination the pilot wants to listen to the ATIS. The message is very distorted and only parts of it can be received. What should the pilot do in order to have better reception?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Fly at a higher altitude to increase the range of the reception.
+          wrongAnswers:
+            - text: Increase the volume of the receiver.
+            - text: Increase the volume of their headset.
+            - text: Select the frequency of APPROACH because they are responsible for the higher airspace.

@@ -1,0 +1,314 @@
+- id: QGAVA
+  subjectId: "010"
+  chapterId: "010.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103430
+    - AVEXAM-89518
+    - BGS-100795
+  annexes: []
+  learningObjectiveIds:
+    - 010.10.02.01.01
+  templates:
+    - type: simple
+      question: According to ICAO Annex 9, what is correct regarding a General Declaration?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It must be presented to all contracting states requiring it.
+          wrongAnswers:
+            - text: It includes nature of cargo and waybill number.
+            - text: It shall be required by all states.
+            - text: It includes passenger names and point of embarkment.
+- id: QRRNW
+  subjectId: "010"
+  chapterId: "010.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107956
+  annexes: []
+  learningObjectiveIds:
+    - 010.10.02.01.01
+  templates:
+    - type: simple
+      question: A state requiring the submission of a general declaration may use it for which of the following purposes?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To check passengers and crew for communicable diseases.
+          wrongAnswers:
+            - text: To check the cargo manifest, airway bills, number of packages and their contents.
+            - text: To check passenger number and their identities.
+            - text: To check the aircraft and its mandatory certificates.
+- id: QPFQT
+  subjectId: "010"
+  chapterId: "010.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108515
+  annexes: []
+  learningObjectiveIds:
+    - 010.10.02.02.01
+  templates:
+    - type: simple
+      question: The ICAO Contracting States establish border controls for the entry and departure of persons. – Regarding the entry requirements for crew arriving on duty on an international flight,..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: States shall establish measures to expedite inspection of crew members and their baggage.
+          wrongAnswers:
+            - text: crew must be in uniform in order to be allowed temporary entry into the Contracting State.
+            - text: crew members are subject to the same entry requirements as passengers.
+            - text: States shall ensure that the Flight Crew Licence is accepted as a valid document of identity.
+- id: QXDHY
+  subjectId: "010"
+  chapterId: "010.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107667
+    - BGS-101435
+    - AVEXAM-63531
+  annexes: []
+  learningObjectiveIds:
+    - 010.10.02.02.01
+  templates:
+    - type: simple
+      question: "According to ICAO annex 9, when crew members enter or leave a member state, the contracting state shall:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Facilitate and expedite their inspection as well as their baggage by checking their CMCs.
+          wrongAnswers:
+            - text: Facilitate and expedite their luggage inspection, but not the inspection of the crew members, who are subject to the same provisions which apply for the passengers.
+            - text: Facilitate and expedite their inspection, but not the inspection of the crew members baggage, which is subject to the same provisions which apply for the passengers baggage.
+            - text: Request a full visa in order to check if the person is a real crew member or not.
+- id: QHUZV
+  subjectId: "010"
+  chapterId: "010.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105077
+    - AVEXAM-43701
+    - ATPLQ-104772
+    - ATPLQ-103763
+  annexes: []
+  learningObjectiveIds:
+    - 010.10.02.02.02
+    - 010.10.02.02.03
+  templates:
+    - type: simple
+      question: How is a Crew Member Certificate (CMC) issued?
+      explanation: The crew member certificate is a card in a standard format, and it is issued as a machine readable card only, not on paper.
+      presets:
+        - correctAnswers:
+            - text: As a machine readable card only.
+          wrongAnswers:
+            - text: Either as a machine readable card or a paper.
+            - text: As a paper only.
+            - text: As a passport members.
+    - type: simple
+      question: "The Crew Member Certificate (CMC) is used for identification of aircrew:"
+      explanation: The crew member certificate is a card in a standard format, and it is issued as a machine readable card only, not on paper.
+      presets:
+        - correctAnswers:
+            - text: without needing any of the other documents listed, such as a passport, visa or flight crew licence.
+          wrongAnswers:
+            - text: together with a valid flight crew licence.
+            - text: together with a visa if required.
+            - text: together with a valid passport.
+- id: QFXGR
+  subjectId: "010"
+  chapterId: "010.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104770
+    - AVEXAM-38851
+  annexes: []
+  learningObjectiveIds:
+    - 010.10.02.03.01
+  templates:
+    - type: simple
+      question: When a passenger and their luggage arrive at an aerodrome, in ICAO Annex 9 provisions request the State to…
+      explanation: Annex 9 asks States to adopt border control regulations suited to air transport and to avoid unnecessary delay, without giving priority by ticket class.
+      presets:
+        - correctAnswers:
+            - text: Adopt border control regulations appropriate to the air transport environment and prevent unnecessary delays.
+          wrongAnswers:
+            - text: Give passengers with first class tickets priority over other passengers for their inspections as well as their luggage.
+            - text: Perform at least a double border control. For security reasons, the delays caused by these measures have NO limitation.
+            - text: Prevent any delays for passengers due to the increase of the border and luggage controls.
+- id: QKOVG
+  subjectId: "010"
+  chapterId: "010.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105757
+    - AVEXAM-67625
+    - BGS-100458
+    - AVEXAM-26618
+  annexes: []
+  learningObjectiveIds:
+    - 010.10.02.03.02
+  templates:
+    - type: simple
+      question: Unaccompanied baggage to be carried by air shall be cleared under the procedures applicable for..
+      explanation: Unaccompanied baggage is cleared under the procedures that apply to accompanied baggage, or under another simplified customs procedure distinct from the one for cargo.
+      presets:
+        - correctAnswers:
+            - text: accompanied baggage, or under another simplified customs procedure distinct from that normally applied to cargo.
+          wrongAnswers:
+            - text: cargo when covered by a traffic document.
+            - text: cargo but shall be not subject to any kind of declaration forms.
+            - text: cargo but the requested customs clearance documents provided by airlines shall be completed by the passenger prior to shipment.
+- id: QDNMH
+  subjectId: "010"
+  chapterId: "010.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108550
+    - BGS-101490
+    - AVEXAM-35247
+  annexes: []
+  learningObjectiveIds:
+    - 010.10.02.03.02
+  templates:
+    - type: simple
+      question: According to ICAO Annex 9 and in the case of customs clearance, when a passenger's baggage is delayed or mishandled, their unaccompanied baggage will...
+      explanation: Baggage that is delayed or mishandled travels separately from its owner. Annex 9 requires it to be cleared under simplified customs arrangements.
+      presets:
+        - correctAnswers:
+            - text: be cleared under simplified arrangements.
+          wrongAnswers:
+            - text: NOT be loaded in the cargo hold and returned to the owner because baggage must travel with their owner.
+            - text: NOT be cleared and will be subject to the taxes of the Contracting State.
+            - text: be cleared if it weighs less than 12 kg.
+- id: QJLWW
+  subjectId: "010"
+  chapterId: "010.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102590
+    - AVEXAM-81451
+    - AVEXAM-96602
+  annexes: []
+  learningObjectiveIds:
+    - 010.10.02.03.03
+  templates:
+    - type: simple
+      question: Which of the following should be used by the general public for identification purposes to facilitate and expedite the process when entering a contracting state?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: passport with visa
+          wrongAnswers:
+            - text: general declaration document
+            - text: resident card
+            - text: national card
+- id: QNFQE
+  subjectId: "010"
+  chapterId: "010.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102690
+    - AVEXAM-71140
+  annexes: []
+  learningObjectiveIds:
+    - 010.10.02.03.03
+  templates:
+    - type: simple
+      question: "You are a passenger travelling internationally for a holiday in an ICAO contracting state. You have a valid passport and a visa recognized by the state you seek to enter. Upon arrival, according to Annex 9:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The state shall not require from you any other document of identification.
+          wrongAnswers:
+            - text: The state may require you to hold a CMC before granting you access into the state.
+            - text: The state may require from you a general declaration signed by the pilot-in-command.
+            - text: If your passport should expire and you are found inadmissible the state is required to remove you and fly you to your state of residence.
+- id: QSPGH
+  subjectId: "010"
+  chapterId: "010.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101272
+    - AVEXAM-11101
+    - BGS-100459
+    - AVEXAM-54479
+    - ATPLQ-103215
+  annexes: []
+  learningObjectiveIds:
+    - 010.10.02.03.04
+  templates:
+    - type: simple
+      question: Facilitation Inadmissible passengers – When a person is found inadmissible, and is returned to the aircraft operator for transport away from the territory of the State, the aircraft operator shall remove the inadmissible person to..
+      explanation: An inadmissible person returned to the operator is removed to the point where they commenced their journey, or to any place where they are admissible. The State of the operator is not the default.
+      presets:
+        - correctAnswers:
+            - text: the point where they commenced their journey, or to any place where they are admissible.
+          wrongAnswers:
+            - text: the State of the aircraft operator, or to any place where the person is admissible.
+            - text: the point where they commenced their journey, or the person's State of origin.
+            - text: the State of the aircraft operator, or the person's State of origin.
+- id: QNRXK
+  subjectId: "010"
+  chapterId: "010.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107552
+    - AVEXAM-42961
+  annexes: []
+  learningObjectiveIds:
+    - 010.10.02.03.04
+  templates:
+    - type: simple
+      question: Should a State consult an operator about the period of time needed for deportation of inadmissible person?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes, the State should consult an operator to provide necessary amount of time.
+          wrongAnswers:
+            - text: No, the airport will inform the Operator about the time frame for removal.
+            - text: No, the State determines the time frame for the removal, which is binding on the aircraft Operator.
+            - text: No, the time frame for the removal is specified in ICAO Annex 9 (Facilitation).
+- id: QIZLT
+  subjectId: "010"
+  chapterId: "010.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103853
+    - AVEXAM-98455
+  annexes: []
+  learningObjectiveIds:
+    - 010.10.02.04.01
+  templates:
+    - type: simple
+      question: With respect to ICAO Annex 9 - Facilitation, who is responsible for producing an air waybill?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The operator or an authorised agent on behalf of the operator.
+          wrongAnswers:
+            - text: The owner of the goods or the operator.
+            - text: The owner of the goods or an authorised agent on the behalf of the operator.
+            - text: The operator.
+- id: QKDFG
+  subjectId: "010"
+  chapterId: "010.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101624
+    - AVEXAM-23775
+  annexes: []
+  learningObjectiveIds:
+    - 010.10.02.04.01
+  templates:
+    - type: simple
+      question: When cargo, unaccompanied baggage or stores were not unloaded at their intended destination but instead were unloaded at a different international airport, the Contracting State where the unloading takes place, if satisfied that there is a valid reason for the change...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: shall not impose penalties, fines, customs duties and taxes on the operator.
+          wrongAnswers:
+            - text: shall not impose penalties, fines and custom duties but may impose taxes on the operator.
+            - text: shall not impose penalties and fines but may impose customs duties and taxes on the operator.
+            - text: shall not impose penalties, fines and taxes but may impose custom duties on the operator.

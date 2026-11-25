@@ -1,0 +1,726 @@
+- id: QOLZS
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212554
+    - ATPLQ-219401
+    - BGS-211175
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.01.01.02
+  templates:
+    - type: multiple-correct
+      question: Consider a piston-engined aircraft. Which of the systems listed below can potentially make use of air from the pneumatic system?
+      explanation: ""
+      options:
+        - text: Cabin heating
+          correct: true
+        - text: Electrical power generation
+          correct: false
+        - text: Hydraulic pumps
+          correct: false
+        - text: De-icing system
+          correct: true
+        - text: Gyroscopic instruments
+          correct: true
+        - text: Pitot-static instruments
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+    - type: simple
+      question: "Consider a piston-engined aircraft. Which of the systems listed below can potentially make use of air from the pneumatic system?\ 
+
+        \r\rCabin heating\rElectrical power generation\rHydraulic pumps\rDe-icing system\rGyroscopic instruments\rPitot-static instruments"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 4, and 5
+          wrongAnswers:
+            - text: 4, 5, and 6
+            - text: 1, 3, 4, and 6
+            - text: 2, 3, 5, and 6
+- id: QXJTV
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217239
+    - AVEXAM-86814
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.01.02.01
+  templates:
+    - type: simple
+      question: A hydraulic demand pump in a large jet transport aeroplane adjusts its (1) _____ to meet system demand and usually operates in the range of (2) _____.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) flow rate; (2) 3000 - 4000 psi
+          wrongAnswers:
+            - text: (1) RPM; (2) 1000 - 2000 psi
+            - text: (1) RPM; (2) 3000 - 4000 psi
+            - text: (1) flow rate; (2) 1000 - 2000 psi
+    - type: simple
+      question: A hydraulic demand pump in a large jet transport aeroplane adjusts its (1) ___ to meet system requirements and usually operates within the range of (2) ___.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) flow rate; (2) 3 000 - 4 000 psi
+          wrongAnswers:
+            - text: (1) flow rate; (2) 1 000 - 2 000 psi
+            - text: (1) RPM; (2) 3 000 - 4 000 psi
+            - text: (1) RPM; (2) 1 000 - 2 000 psi
+- id: QHHLL
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215036
+    - AVEXAM-67547
+    - BGS-210246
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.01.02.01
+  templates:
+    - type: simple
+      question: In flight, the cabin air for large jet transport aeroplanes is usually supplied by ..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: engine compressors.
+          wrongAnswers:
+            - text: single radial compressors.
+            - text: ram air intakes.
+            - text: piston compressors.
+- id: QVKUW
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216961
+    - AVEXAM-4187
+    - BGS-210247
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.01.02.01
+  templates:
+    - type: simple
+      question: Cabin air for large aeroplanes is usually taken from the ..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: HP compressor.
+          wrongAnswers:
+            - text: LP compressor.
+            - text: HP compressor and from the LP compressor if necessary.
+            - text: second fan stage.
+- id: QGPPE
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212548
+    - AVEXAM-38271
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.01.02.02
+  templates:
+    - type: simple
+      question: Anti-ice systems in turbine type engines, in commercial aviation, uses (1)\_\_\_\_\_ to (2)\_\_\_\_\_ ice formation.
+      explanation: Turbine engine anti-ice systems use hot engine bleed air to prevent ice forming on the intake and cowl. Anti-icing prevents, de-icing removes.
+      presets:
+        - correctAnswers:
+            - text: (1) engine bleed air; (2) prevent.
+          wrongAnswers:
+            - text: (1) ram air; (2) prevent.
+            - text: (1) electric systems; (2) remove.
+            - text: (1) engine bleed air; (2) remove.
+- id: QDCZQ
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds:
+    - QISVB
+  externalQuestionIds:
+    - ATPLQ-219706
+    - AVEXAM-93112
+    - BGS-210668
+    - BGS-211028
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.01.02.02
+    - 021.07.01.01.04
+  templates:
+    - type: simple
+      question: "The heat for the anti-icing system of a turbofan engine intake is provided by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: bleed air from the HP compressor.
+          wrongAnswers:
+            - text: a dedicated generator on the gearbox of that engine.
+            - text: bleed air from the LP compressor.
+            - text: the electrical system of the aircraft.
+- id: QIFEI
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214136
+    - BGS-212443
+    - AVEXAM-39747
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.01.02.02
+  templates:
+    - type: simple
+      question: Bleed air systems use a (1) _____, which normally stays (2) _____ but in abnormal situations (3) _____.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) Isolation Valve; (2) closed, (3) opens.
+          wrongAnswers:
+            - text: (1) Non-Return Valve; (2) open; (3) closes.
+            - text: (1) Non-Return Valve; (2) closed; (3) opens.
+            - text: (1) Isolation Valve; (2) open; (3) closes.
+    - type: simple
+      question: Bleed-air systems may be kept separate by using (1). These are normally (2) but may be (3) in abnormal operations.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) isolation valves; (2) opened; (3) closed
+          wrongAnswers:
+            - text: (1) non-return valves; (2) closed; (3) opened
+            - text: (1) non-return valves; (2) opened; (3) closed
+            - text: (1) isolation valves; (2) closed; (3) open
+    - type: simple
+      question: Bleed air systems utilise (1) ___ that typically remains (2) ___, however in unusual circumstances it (3) ___.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) an isolation valve; (2) closed, (3) opens
+          wrongAnswers:
+            - text: (1) a non-return valve; (2) closed; (3) opens
+            - text: (1) an isolation valve; (2) open; (3) closes
+            - text: (1) a non-return valve; (2) open; (3) closes
+- id: QNSFQ
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds:
+    - QVGGB
+  externalQuestionIds:
+    - ATPLQ-218483
+    - BGS-212129
+    - AVEXAM-33418
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.03
+  templates:
+    - type: simple
+      question: In an aircraft's pressurisation system, excessive cabin pressure would normally be alleviated automatically by the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: opening of a positive pressure relief valve.
+          wrongAnswers:
+            - text: closing of the outflow valve.
+            - text: opening of the outflow valve.
+            - text: opening of a negative pressure relief valve.
+- id: QVGGB
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds:
+    - QNSFQ
+  externalQuestionIds:
+    - ATPLQ-217951
+    - AVEXAM-26604
+    - BGS-210274
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.03
+  templates:
+    - type: simple
+      question: If the pressure in the cabin tends to become lower than the outside ambient air pressure the ..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: negative pressure relief valve will open.
+          wrongAnswers:
+            - text: outflow valve open completely.
+            - text: negative pressure relief valve will close.
+            - text: air cycle machine will stop.
+- id: QHMLO
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214252
+    - AVEXAM-81339
+    - BGS-210230
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.04
+  templates:
+    - type: simple
+      question: The purpose of an air conditioning pack inlet flow valve (pack valve) is to ..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: maintain a constant and sufficient air mass flow to ventilate the cabin.
+          wrongAnswers:
+            - text: discharge cabin air to atmosphere if cabin pressure rises above the selected altitude.
+            - text: regulate cabin pressure to the selected altitude.
+            - text: regulate cabin pressure at the maximum cabin pressure differential.
+- id: QPDHR
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215223
+    - AVEXAM-60436
+    - BGS-210273
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.04
+  templates:
+    - type: simple
+      question: The main function of an air cycle machine is to ..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: cool the bleed air.
+          wrongAnswers:
+            - text: pump the conditioned air into the cabin.
+            - text: decrease the pressure of the bleed air.
+            - text: remove the water from the bleed air.
+- id: QRBSR
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds:
+    - QSQIQ
+  externalQuestionIds:
+    - ATPLQ-217813
+    - AVEXAM-23204
+    - BGS-210258
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.04
+  templates:
+    - type: simple
+      question: In a bootstrap cooling system, the bleed air is compressed to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ensure an adequate temperature drop in the secondary heat exchanger.
+          wrongAnswers:
+            - text: maintain a constant cabin mass air flow.
+            - text: increase the cabin air supply pressure when the inlet pressure is too low.
+            - text: ensure an adequate air flow across the secondary heat exchanger.
+- id: QRFDC
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds:
+    - QSQIQ
+  externalQuestionIds:
+    - ATPLQ-213184
+    - BGS-210253
+    - AVEXAM-2262
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.04
+  templates:
+    - type: simple
+      question: In an air cycle machine (bootstrap system), bleed air downstream of the first heat exchanger is ..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: compressed, passed through the second heat exchanger and then passed across an expansion turbine.
+          wrongAnswers:
+            - text: passed across an expansion turbine, compressed and then passed through the second heat exchanger.
+            - text: passed across an expansion turbine, then directly passed to the second heat exchanger.
+            - text: compressed, then passed across an expansion turbine and finally passed across the second heat exchanger.
+- id: QSQIQ
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds:
+    - QRFDC
+    - QRBSR
+  externalQuestionIds:
+    - ATPLQ-212602
+    - BGS-210267
+    - AVEXAM-12485
+    - ATPLQ-214271
+    - BGS-210254
+    - BGS-211338
+    - AVEXAM-18946
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.04
+  templates:
+    - type: simple
+      question: In a typical bootstrap cooling system, the supply air is..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: compressed, passed through a secondary heat exchanger, and then across an expansion turbine.
+          wrongAnswers:
+            - text: passed across an expansion turbine, then directly to the heat exchanger.
+            - text: passed across an expansion turbine, then compressed and passed through a secondary heat exchanger.
+            - text: passed across an expansion turbine, then through a secondary heat exchanger and then across a compressor.
+    - type: simple
+      question: In a bootstrap air-conditioning system, the mass air flow is routed through the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: secondary heat exchanger outlet to the turbine inlet.
+          wrongAnswers:
+            - text: secondary heat exchanger outlet to the compressor inlet.
+            - text: compressor outlet to the primary heat exchanger inlet.
+            - text: turbine outlet to the primary heat exchanger inlet.
+- id: QTYQS
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216883
+    - BGS-211448
+    - AVEXAM-44301
+    - BGS-210252
+    - ATPLQ-212514
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.04
+  templates:
+    - type: simple
+      question: The term bootstrap, when used to identify a cabin air conditioning and pressurisation system, refers to the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: air cycle machine.
+          wrongAnswers:
+            - text: means by which pressurisation is controlled.
+            - text: air supply across the intercooler heat exchanger.
+            - text: source of the air supply.
+        - correctAnswers:
+            - text: air cycle machine arrangement.
+          wrongAnswers:
+            - text: cooling air across the inter-cooler heat exchanger.
+            - text: means by which pressurisation is controlled.
+            - text: source of the air supply.
+- id: QWPNE
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds:
+    - QPTRR
+  externalQuestionIds:
+    - ATPLQ-213299
+    - AVEXAM-86780
+    - BGS-211443
+    - BGS-210238
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.06
+  templates:
+    - type: simple
+      question: Cabin altitude is the..
+      explanation: Cabin altitude is the cabin pressure expressed as an altitude in the standard atmosphere. For example, a cabin pressure of 800 hPa corresponds to a cabin altitude of about 6 000 ft.
+      presets:
+        - correctAnswers:
+            - text: cabin pressure expressed as altitude.
+          wrongAnswers:
+            - text: flight level at which the aeroplane is flying.
+            - text: altitude at maximum differential pressure.
+            - text: difference in height between the cabin floor and ceiling.
+- id: QEOJV
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211494
+    - AVEXAM-18320
+    - BGS-210271
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.06
+  templates:
+    - type: simple
+      question: Assuming cabin pressure decreases, the cabin rate of climb indicator should indicate
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a rate of climb.
+          wrongAnswers:
+            - text: zero.
+            - text: a rate of descent of approximately 300 feet per minute.
+            - text: a rate of descent, dependent upon the cabin differential pressure.
+- id: QPVEF
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215204
+    - BGS-211449
+    - BGS-210243
+    - AVEXAM-46983
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.06
+  templates:
+    - type: simple
+      question: "A cabin rate of descent:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: results in a cabin pressure increase.
+          wrongAnswers:
+            - text: results in a cabin pressure decrease.
+            - text: is not possible at constant aeroplane altitudes.
+            - text: is always the same as the aeroplane's rate of descent.
+- id: QZYUF
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218171
+    - BGS-211822
+    - AVEXAM-87922
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.06
+  templates:
+    - type: simple
+      question: When does the pressurization start during the flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: During start-up/taxi.
+          wrongAnswers:
+            - text: When the altitude of 8 000 ft is reached.
+            - text: When the pressure controller senses that the aircraft is airborne.
+            - text: During climbout.
+- id: QUZEG
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217294
+    - BGS-210240
+    - AVEXAM-23747
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.07
+  templates:
+    - type: simple
+      question: On most large aeroplanes, the cabin pressure is controlled by regulating the ..
+      explanation: On most large aeroplanes the air supply into the cabin is nearly constant. The cabin pressure is controlled by regulating the airflow leaving the cabin through the outflow valve.
+      presets:
+        - correctAnswers:
+            - text: airflow leaving the cabin.
+          wrongAnswers:
+            - text: RPM of the engine.
+            - text: airflow entering the cabin.
+            - text: bleed air valve.
+- id: QUEBE
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212661
+    - BGS-211332
+    - AVEXAM-97850
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.08
+  templates:
+    - type: simple
+      question: The manual mode of a typical aeroplane's pressurisation control system
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: uses a separate circuit to control the operation of the outflow valve(s).
+          wrongAnswers:
+            - text: uses a separate circuit to control the operation of the safety relief valve(s).
+            - text: is only used to fully open or close the outflow valve(s).
+            - text: is only available for ground operations.
+- id: QHOFT
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-321515
+    - AVEXAM-389
+    - BGS-320323
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.10
+  templates:
+    - type: simple
+      question: The maximum operating altitude for a certain aeroplane with a pressurised cabin…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is the highest pressure altitude certified for normal operation.
+          wrongAnswers:
+            - text: is dependent on aerodynamic ceiling.
+            - text: is only certified for four engine aeroplanes.
+            - text: is dependent on the OAT.
+- id: QKJOM
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215928
+    - AVEXAM-97810
+    - BGS-210262
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.11
+  templates:
+    - type: simple
+      question: During level cruising flight, an aeroplane experiences a malfunction of the pressure controller. If the cabin vertical speed indicator reads 200 ft/min rate of descent..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the differential pressure will rise to its maximum value, thus causing the safety relief valves to open.
+          wrongAnswers:
+            - text: a descent must be initiated to prevent the oxygen masks dropping when the cabin altitude reaches 14000 ft.
+            - text: the aircraft has to climb to a higher flight level in order to reduce the cabin altitude to its initial value.
+            - text: the crew has to intermittently cut off the incoming air flow in order to maintain a zero cabin altitude.
+- id: QVJAY
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211062
+    - AVEXAM-57853
+    - BGS-210272
+    - BGS-211341
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.11
+  templates:
+    - type: simple
+      question: When all outflow valves close during cruise flight with air-conditioning packs ON, the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: pressure differential would go to the maximum value.
+          wrongAnswers:
+            - text: skin of the cabin would be overstressed.
+            - text: cabin pressure would become equal to the ambient pressure.
+            - text: air supply would automatically be stopped.
+- id: QPTRR
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds:
+    - QWPNE
+  externalQuestionIds:
+    - ATPLQ-218266
+    - AVEXAM-86161
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.13
+  templates:
+    - type: simple
+      question: Which indication shows how quickly cabin altitude is changing?
+      explanation: The cabin vertical speed indication shows the rate of change of cabin pressure altitude, usually in feet per minute. It may be grouped with cabin altitude and differential pressure on the pressurisation display.
+      presets:
+        - correctAnswers:
+            - text: Cabin vertical speed.
+          wrongAnswers:
+            - text: Cabin altitude.
+            - text: Cabin differential pressure.
+            - text: Aeroplane vertical speed.
+    - type: simple
+      question: Where is cabin vertical speed displayed?
+      explanation: The cabin vertical speed indication shows the rate of change of cabin pressure altitude, usually in feet per minute. It may be grouped with cabin altitude and differential pressure on the pressurisation display.
+      presets:
+        - correctAnswers:
+            - text: On the cabin altitude indicator.
+          wrongAnswers:
+            - text: On the standby altimeter.
+            - text: On the cabin altitude warning light.
+            - text: On the altimeter integrated into the primary flight display.
+- id: QCFKC
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215517
+    - AVEXAM-44343
+    - AVEXAM-26896
+    - ATPLQ-216979
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.14
+  templates:
+    - type: simple
+      question: In comparison with the use of a conventional bleed air pneumatic system, an aircraft fitted with an electrical pneumatic system has…
+      explanation: An electrical pneumatic system does not take bleed air from the engines, so the engines give more of their output as thrust. This transfers energy more efficiently and increases range.
+      presets:
+        - correctAnswers:
+            - text: increased range due to the more efficient transfer of energy.
+          wrongAnswers:
+            - text: increased take-off performance due to a higher available thrust.
+            - text: reduced anti-icing capabilities due to reduced air available.
+            - text: a higher ceiling due to a higher maximum differential pressure.
+    - type: simple
+      question: What advantage does an aeroplane fitted with an electric-pneumatic system have compared to one fitted with an engine bleed air source?
+      explanation: Without bleed air, the engines give more thrust and less fuel is used for the same flight, since electric power transfers energy more efficiently. The result is longer range.
+      presets:
+        - correctAnswers:
+            - text: Longer range due to increased efficiency.
+          wrongAnswers:
+            - text: Shorter take-off distance with reduced climb gradient.
+            - text: Better de-icing capabilities.
+            - text: Cheaper and easier to use solution.
+- id: QBPEE
+  subjectId: "021"
+  chapterId: "021.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217890
+    - AVEXAM-74705
+  annexes: []
+  learningObjectiveIds:
+    - 021.06.03.01.14
+  templates:
+    - type: simple
+      question: Which of the following may warn the pilots of a leak in an aircraft's pneumatic system?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A duct leak sensor.
+          wrongAnswers:
+            - text: A rise shown on the bleed air temperature gauge.
+            - text: A rise shown on the bleed air pressure gauge.
+            - text: A rising oil temperature indication.

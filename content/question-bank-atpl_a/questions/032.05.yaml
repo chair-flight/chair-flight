@@ -1,0 +1,1728 @@
+- id: QCKAR
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-328231
+    - BGS-321211
+    - BGS-321205
+    - BGS-320838
+  annexes:
+    - id: AYJO
+  learningObjectiveIds:
+    - 032.05.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure (CAP698 figure 4.5).
+
+        Determine the climb limited take-off mass, given: OAT +{{oat}} °C, pressure altitude {{pa}} ft, flaps 5°, A/C pack OFF, anti-icing OFF, PMC OFF.
+
+        Use the value read from the chart.
+      explanation: |-
+        The climb limited take-off mass is read from the climb limit chart using OAT and pressure altitude for the given flap setting and bleed configuration.
+
+        **Solution**
+
+        The value read from the chart is {{climb_chart}} kg, so the answer is **{{answer}} kg**.
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: using the chart for packs on or a different flap setting.
+        - **{{d2}} kg**: a misread of the temperature curve.
+        - **{{d3}} kg**: using the wrong altitude curve.
+      presets:
+        - variables:
+            oat: 35
+            pa: 2000
+            climb_chart: 57900
+            answer: 57900
+            d1: 53700
+            d2: 57000
+            d3: 52800
+          correctAnswers:
+            - text: 57900 kg
+          wrongAnswers:
+            - text: 52800 kg
+            - text: 53700 kg
+            - text: 57000 kg
+- id: QLPGA
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322595
+    - BGS-321181
+    - BGS-320988
+    - BGS-321253
+    - BGS-321186
+    - BGS-321058
+    - BGS-321041
+  annexes:
+    - id: AYJO
+  learningObjectiveIds:
+    - 032.05.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure or CAP 698 Figure 4.5. Find the climb limited take-off mass for a medium range jet transport (MRJT) aeroplane, given:
+
+        - Airport OAT: {{oat}} °C
+        - Airport pressure altitude: {{pa}} ft
+        - Take-off flap setting: {{flap}}°
+        - Air conditioning packs: off
+
+        What is the climb limited take-off mass?
+      explanation: |-
+        The climb limited take-off mass is read from the chart in CAP 698 Figure 4.5 for the airport pressure altitude, the temperature and the flap setting, with the packs off.
+
+        **Solution**
+
+        - Enter the chart at {{pa}} ft, +{{oat}} °C and flap {{flap}}.
+        - The chart gives 55 500 kg.
+
+        ## Why the other answers are wrong
+
+        - **60 100 kg** and **59 200 kg**: values read from a flap line or temperature that allows more mass.
+        - **54 600 kg**: a value read from a neighbouring line, close to the answer.
+      presets:
+        - variables:
+            oat: 30
+            pa: 2000
+            flap: 15
+          correctAnswers:
+            - text: 55 500 kg
+          wrongAnswers:
+            - text: 54 600 kg
+            - text: 60 100 kg
+            - text: 59 200 kg
+- id: QZOAJ
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325438
+    - AVEXAM-67366
+    - BGS-320826
+    - BGS-321266
+  annexes:
+    - id: AKWV
+  learningObjectiveIds:
+    - 032.05.01.01.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure (CAP 698 Figure 4.7). Given the following conditions, at what mass is the maximum take-off mass (MTOM) limited by VMBE?
+
+        - Airfield elevation: {{elev}} ft
+        - Slope: {{slope}} % upslope
+        - QNH: {{qnh}} hPa
+        - OAT: {{oat}} °C
+        - V1: {{v1}} kt
+        - Headwind: {{headwind}} kt
+      explanation: |-
+        VMBE is the maximum brake energy speed. The chart shows the mass at which the brake energy limit starts to restrict the take-off mass for the given runway and weather conditions.
+
+        **Solution**
+
+        With an elevation of {{elev}} ft, a {{slope}} % upslope, QNH {{qnh}} hPa, OAT {{oat}} °C, V1 {{v1}} kt and a {{headwind}} kt headwind, the chart gives a VMBE limit only above **68 000 kg**.
+
+        ## Why the other answers are wrong
+
+        - **VMBE can NOT be lower than V1**: VMBE is not compared with V1 this way, so the take-off is not blocked by it.
+        - **The same as the maximum structural take-off mass of 62 800 kg**: confuses the VMBE limit with the structural limit.
+        - **It cannot be determined**: the chart gives a result for these conditions, so the value can be determined.
+      presets:
+        - variables:
+            elev: 111
+            slope: 0.5
+            qnh: 1013
+            oat: 41
+            v1: 149
+            headwind: 10
+          correctAnswers:
+            - text: In excess of 68 000 kg.
+          wrongAnswers:
+            - text: It cannot be determined.
+            - text: VMBE can NOT be lower than V1 thus a take-off can NOT be commenced in these conditions.
+            - text: The same as the maximum structural take-off mass of 62 800 kg.
+- id: QEPCJ
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-328537
+  annexes:
+    - id: AKWV
+  learningObjectiveIds:
+    - 032.05.01.01.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure or CAP 4.7. Determine the brake release weight, given:
+
+        - V1: {{v1}} kt
+        - Pressure altitude: {{pa}} ft
+        - OAT: +{{oat}} °C
+        - Runway slope: {{slope}}% up
+        - Wind: {{wind}} kt headwind
+
+        What is the brake release weight?
+      explanation: |-
+        The brake release weight is read from the brake release weight chart. The chart uses the V1 speed, the pressure altitude, the temperature, the runway slope and the wind together.
+
+        **Solution**
+
+        - Enter the chart at V1 {{v1}} kt, pressure altitude {{pa}} ft, OAT +{{oat}} °C, a slope of {{slope}}% up and a headwind of {{wind}} kt.
+        - For these conditions the chart gives a weight above the maximum shown, so the answer is an excess of 68 000 kg.
+
+        ## Why the other answers are wrong
+
+        - **The same as the MSTOM 62 800 kg.**: quotes the maximum structural take-off mass instead of the chart reading.
+        - **Cannot be determined.**: the chart does give a result for these conditions.
+        - **V1 can't be higher than VMBE.**: a speed limit statement that does not answer the weight question.
+      presets:
+        - variables:
+            v1: 149
+            pa: 1487
+            oat: 19
+            slope: 0.5
+            wind: 10
+          correctAnswers:
+            - text: Excess of 68 000 kg.
+          wrongAnswers:
+            - text: V1 can't be higher than VMBE.
+            - text: The same as the MSTOM 62 800 kg.
+            - text: Cannot be determined.
+- id: QUWRY
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324694
+  annexes:
+    - id: AKWV
+  learningObjectiveIds:
+    - 032.05.01.01.05
+  templates:
+    - type: simple
+      question: "Refer to figure. Determine the brake release weight, given: V1 = 148 kt, pressure altitude 1 487 ft, OAT +19°C, slope 0.4% down, tailwind 10 kt."
+      explanation: |-
+        The brake release weight is read directly from the figure for the given V1 speed, pressure altitude, temperature, slope and tailwind.
+
+        The correct answer is **approximately 64 000 kg**.
+
+        ## Why the other answers are wrong
+
+        - **Excess of 68 000 kg**: the figure does not allow this weight for these conditions.
+        - **The same as the MSTOM 62 800 kg**: the brake release weight is not limited to the maximum structural take-off mass here.
+        - **Cannot be determined**: the figure does give a value for these conditions.
+      presets:
+        - correctAnswers:
+            - text: Approximately 64 000 kg
+          wrongAnswers:
+            - text: Cannot be determined
+            - text: Excess of 68 000 kg
+            - text: The same as the MSTOM 62 800 kg
+- id: QNPOM
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-327535
+    - ATPLQ-328915
+  annexes:
+    - id: AYDU
+    - id: AIEJ
+    - id: AIMD
+  learningObjectiveIds:
+    - 032.05.01.01.06
+  templates:
+    - type: simple
+      question: |-
+        An MRJT is scheduled to take off from Madrid airport. Refer to CAP 698 figures 4.8 and 4.9. Determine the V1, VR and V2 take-off speeds, given:
+
+        - Airport elevation: {{elev}} ft
+        - OAT: {{oat}} °C
+        - Actual take-off mass: {{tom}} kg
+        - Flaps: {{flaps}}°
+        - Runway slope: {{slope}} % down
+        - Headwind component: {{hw}} kt (negative for tailwind)
+
+        What are the V1, VR and V2 take-off speeds?
+      explanation: "{{explanation}}"
+      presets:
+        - variables:
+            elev: 1998
+            oat: 10
+            tom: 62800
+            flaps: 15
+            slope: 0.8
+            hw: -5
+            explanation: |-
+              Take-off speeds for an MRJT depend on the airport elevation, temperature, take-off mass, flap setting, runway slope and wind. They are read from the CAP 698 figures 4.8 and 4.9.
+
+              **Solution**
+
+              Apply 62 800 kg, +10 °C, 0.8 % down and a 5 kt tailwind to the figures: **V1 140 kt, VR 143 kt and V2 149 kt**.
+
+              ## Why the other answers are wrong
+
+              - **V1 = 142 kt, VR = 143 kt and V2 = 149 kt**: does not match the figure for these conditions. It is a misreading of a neighbouring line, column or scale.
+              - **V1 = 143 kt, VR = 146 kt and V2 = 151 kt**: does not match the figure for these conditions. It is a misreading of a neighbouring line, column or scale.
+              - **V1 = 136 kt, VR = 140 kt and V2 = 151 kt**: does not match the figure for these conditions. It is a misreading of a neighbouring line, column or scale.
+          correctAnswers:
+            - text: V1 = 140 kt, VR = 143 kt and V2 = 149 kt
+          wrongAnswers:
+            - text: V1 = 136 kt, VR = 140 kt and V2 = 151 kt
+            - text: V1 = 142 kt, VR = 143 kt and V2 = 149 kt
+            - text: V1 = 143 kt, VR = 146 kt and V2 = 151 kt
+        - variables:
+            elev: 1998
+            oat: 38
+            tom: 54750
+            flaps: 15
+            slope: 0.2
+            hw: 10
+            explanation: |-
+              Take-off speeds for an MRJT depend on the airport elevation, temperature, take-off mass, flap setting, runway slope and wind. They are read from the CAP 698 figures 4.8 and 4.9.
+
+              **Solution**
+
+              Apply 54 750 kg, +38 °C, 0.2 % down and a 10 kt headwind to the figures: **V1 131 kt, VR 133 kt and V2 140 kt**.
+
+              ## Why the other answers are wrong
+
+              - **V1:138 kt, VR:140 kt and V2:146 kt**: does not match the figure for these conditions. It is a misreading of a neighbouring line, column or scale.
+              - **V1:134 kt, VR:134 kt and V2:140 kt**: does not match the figure for these conditions. It is a misreading of a neighbouring line, column or scale.
+              - **V1:139 kt, VR:140 kt and V2:146 kt**: does not match the figure for these conditions. It is a misreading of a neighbouring line, column or scale.
+          correctAnswers:
+            - text: V1:131 kt, VR:133 kt and V2:140 kt
+          wrongAnswers:
+            - text: V1:139 kt, VR:140 kt and V2:146 kt
+            - text: V1:138 kt, VR:140 kt and V2:146 kt
+            - text: V1:134 kt, VR:134 kt and V2:140 kt
+- id: QOHLY
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324815
+  annexes:
+    - id: AYLV
+    - id: AIMD
+  learningObjectiveIds:
+    - 032.05.01.01.06
+  templates:
+    - type: simple
+      question: |-
+        Refer to the CAP 698 MRJT take-off density sub-graph and file 4.9. Determine the V1, VR and V2 take-off speeds for an MRJT aeroplane, given:
+
+        - Runway heading: {{rwy}}°
+        - Wind: {{wdir}}° / {{wspd}} kt
+        - Runway slope: {{slope}} % down
+        - OAT: {{oat}} °C
+        - Pressure altitude: {{pa}} ft
+        - Reference take-off mass: {{rtom}} kg
+        - Take-off mass: {{tom}} kg
+        - Flaps: {{flaps}}°
+
+        What are the V1, VR and V2 take-off speeds?
+      explanation: |-
+        Take-off speeds for an MRJT depend on the take-off mass, pressure altitude, temperature, wind, runway slope and flap setting. They are read from the CAP 698 figures and file 4.9.
+
+        **Solution**
+
+        Apply the runway slope, the wind and the take-off mass 50 810 kg to the figures: **V1 125 kt, VR 126 kt and V2 135 kt**.
+
+        ## Why the other answers are wrong
+
+        - **V1 - 139 kt, VR - 140 kt, V2 - 146 kt.**: does not match the figure for these conditions. It is a misreading of a neighbouring line, column or scale.
+        - **V1 - 146 kt, VR - 149 kt, V2 - 155 kt.**: does not match the figure for these conditions. It is a misreading of a neighbouring line, column or scale.
+        - **V1 - 132 kt, VR - 134 kt, V2 - 143 kt.**: does not match the figure for these conditions. It is a misreading of a neighbouring line, column or scale.
+      presets:
+        - variables:
+            rwy: 270
+            wdir: 180
+            wspd: 10
+            slope: 0.1
+            oat: 42
+            pa: 111
+            rtom: 59300
+            tom: 50810
+            flaps: 15
+          correctAnswers:
+            - text: V1 - 125 kt, VR - 126 kt, V2 - 135 kt.
+          wrongAnswers:
+            - text: V1 - 132 kt, VR - 134 kt, V2 - 143 kt.
+            - text: V1 - 139 kt, VR - 140 kt, V2 - 146 kt.
+            - text: V1 - 146 kt, VR - 149 kt, V2 - 155 kt.
+- id: QZXNR
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-323777
+    - AVEXAM-76029
+    - AVEXAM-83159
+  annexes:
+    - id: AYLV
+    - id: AIEJ
+  learningObjectiveIds:
+    - 032.05.01.01.06
+  templates:
+    - type: simple
+      question: |-
+        Refer to figures or CAP 698 figure 4.8. An MRJT aircraft is intending to perform a flight from an airport with the data shown below. Calculate the V1, VR and V2 for this take-off.
+
+        - Runway: 01
+        - Pressure altitude: 328 ft
+        - Slope: 1% upslope
+        - OAT: 0°C
+        - Wind: 190°/10 kt
+        - Take-off mass: 61 430 kg
+        - Flaps 5
+      explanation: |-
+        The three take-off speeds are read from the figure for the runway, slope, wind, temperature, pressure altitude, mass and flap setting given.
+
+        The correct speeds are **V1 145 kt, VR 150 kt and V2 157 kt**.
+
+        ## Why the other answers are wrong
+
+        - **V1 147 kt; VR 151 kt; V2 158 kt**: all three speeds are read too high from the figure.
+        - **V1 146 kt; VR 150 kt; V2 157 kt**: the V1 value is read one knot too high.
+        - **V1 145 kt; VR 149 kt; V2 156 kt**: VR and V2 are both read one knot too low.
+      presets:
+        - correctAnswers:
+            - text: "V1: 145 kt; VR: 150 kt; V2: 157 kt"
+          wrongAnswers:
+            - text: "V1: 145 kt; VR: 149 kt; V2: 156 kt"
+            - text: "V1: 147 kt; VR: 151 kt; V2: 158 kt"
+            - text: "V1: 146 kt; VR: 150 kt; V2: 157 kt"
+- id: QCGWE
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324817
+    - BGS-321008
+    - BGS-321231
+    - ATPLQ-325393
+    - ATPLQ-323924
+    - BGS-321270
+    - BGS-321062
+  annexes:
+    - id: ACZO
+  learningObjectiveIds:
+    - 032.05.01.01.07
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. The annex shows a Regulated Take-Off Weight (RTOW) table for runway 23L from take-off position VB. Use the data below to determine the RTOW for departure. For this question do NOT interpolate. Choose the most conservative figures at all times.
+
+        W/V: 230°/5 kt
+        Moderate rain
+        OAT: +12 °C
+        QNH: 1015 hPa
+        Engine anti-ice: OFF
+        Packs: OFF
+        Quick line-up
+
+        (The value is read from the table.)
+      explanation: |-
+        The regulated take-off mass (RTOM) is read from the RTOW table for the given runway, wind component and temperature; corrections for QNH, air conditioning/anti-ice, runway condition and line-up are then applied exactly as indicated in the table notes (most conservative values when not interpolating).
+
+        **Solution**
+
+        Entering the figure with the given conditions gives regulated take-off mass = **{{answer}} kg**.
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: a neighbouring cell of the table (wrong wind or temperature column) or a wrongly applied correction.
+        - **{{d2}} kg**: a neighbouring cell of the table (wrong wind or temperature column) or a wrongly applied correction.
+        - **{{d3}} kg**: a neighbouring cell of the table or a wrongly applied correction.
+        - **{{d4}} kg**: a neighbouring cell of the table or a wrongly applied correction.
+      presets:
+        - variables:
+            answer: 77570
+            d1: 78270
+            d2: 78570
+            d3: 79270
+            d4: 76870
+          correctAnswers:
+            - text: 77570 kg
+          wrongAnswers:
+            - text: 78270 kg
+            - text: 79270 kg
+            - text: 76870 kg
+            - text: 78570 kg
+    - type: simple
+      question: |-
+        Please refer to the annex which shows a Regulated Take-Off Mass (RTOM) table for runway 23L from take-off position VB. Use the data below to determine the Maximum Allowed Take-Off Mass for departure. 
+        QNH: 1013 hPa
+        OAT: +10°C
+        W/V: 230°/15 kt   
+        Engine anti-ice: OFF 
+        Packs: OFF 
+        Quick line-up
+        NOTE: For this question do NOT interpolate. Choose the most conservative figures at all times.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 79000 kg
+          wrongAnswers:
+            - text: 79700 kg
+            - text: 80000 kg
+            - text: 80700 kg
+    - type: simple
+      question: "Refer to the annex which shows a Regulated Take-Off Weight (RTOW) table for runway 23L from take-off position VB. Use the data below to determine the Maximum Take-Off Weight (MTOW) for a full thrust take-off. For this question do NOT interpolate. Choose the most conservative figures at all times.\r\r\r\rW/V: Calm\rOAT: +24°C\rQNH: 1028 hPa\rEngine anti-ice: OFF\rPacks: ON\rRunway Condition: DRY\rQuick line-up"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 76450 kg
+          wrongAnswers:
+            - text: 78150 kg
+            - text: 78270 kg
+            - text: 76570 kg
+- id: QGIQJ
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-329879
+  annexes:
+    - id: ACZO
+  learningObjectiveIds:
+    - 032.05.01.01.07
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. The annex shows a regulated take-off mass (RTOM) table for runway 23L from take-off position VB. In each RTOM chart box, the following information is provided for a given wind component, and a given outside air temperature: MTOW / limit code / V1/VR/V2 (+100 kt). For this question do NOT interpolate, use the most conservative data at ALL times. Given the following information, determine the RTOM for departure:
+
+        W/V: 230/10 kt
+        WX: CAVOK
+        OAT: -3 °C
+        QNH: 999 hPa
+        Engine anti-ice: ON
+        Packs: OFF
+        Quick line up
+
+        (The value is read from the table.)
+      explanation: |-
+        The regulated take-off mass (RTOM) is read from the RTOW table for the given runway, wind component and temperature; corrections for QNH, air conditioning/anti-ice, runway condition and line-up are then applied exactly as indicated in the table notes (most conservative values when not interpolating).
+
+        **Solution**
+
+        Entering the figure with the given conditions gives regulated take-off mass = **{{answer}} kg**.
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: a neighbouring cell of the table (wrong wind or temperature column) or a wrongly applied correction.
+        - **{{d2}} kg**: a neighbouring cell of the table (wrong wind or temperature column) or a wrongly applied correction.
+        - **{{d3}} kg**: a neighbouring cell of the table or a wrongly applied correction.
+        - **{{d4}} kg**: a neighbouring cell of the table or a wrongly applied correction.
+      presets:
+        - variables:
+            answer: 79160
+            d1: 78860
+            d2: 78160
+            d3: 79860
+            d4: 78460
+          correctAnswers:
+            - text: 79160 kg
+          wrongAnswers:
+            - text: 78860 kg
+            - text: 79860 kg
+            - text: 78460 kg
+            - text: 78160 kg
+- id: QMJFO
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324326
+    - BGS-320993
+    - BGS-321199
+    - AVEXAM-37814
+    - AVEXAM-48557
+    - ATPLQ-327106
+    - ATPLQ-327223
+    - ATPLQ-321667
+  annexes:
+    - id: ACZO
+  learningObjectiveIds:
+    - 032.05.01.01.07
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. NOTE: For this question do NOT interpolate, choose the most conservative figures at ALL times. The annex shows a regulated take-off mass (RTOM) table for runway 23L from take-off position VB. In each RTOM chart box, the following information is provided for a given wind component / outside air temperature combination: MTOM / limitation code / V1/VR/V2 (+100 kt). Given the following information, determine the RTOM for departure.
+
+        W/V: 050°/4 kt
+        OAT: +21 °C
+        QNH: 1028 hPa
+        Runway: DRY
+        Engine anti-ice: OFF
+        Packs: ON
+        Quick line-up
+
+        (The value is read from the table.)
+      explanation: |-
+        The regulated take-off mass (RTOM) is read from the RTOW table for the given runway, wind component and temperature; corrections for QNH, air conditioning/anti-ice, runway condition and line-up are then applied exactly as indicated in the table notes (most conservative values when not interpolating).
+
+        **Solution**
+
+        Entering the figure with the given conditions gives regulated take-off mass = **{{answer}} kg**.
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: a neighbouring cell of the table (wrong wind or temperature column) or a wrongly applied correction.
+        - **{{d2}} kg**: a neighbouring cell of the table (wrong wind or temperature column) or a wrongly applied correction.
+        - **{{d3}} kg**: a neighbouring cell of the table or a wrongly applied correction.
+        - **{{d4}} kg**: a neighbouring cell of the table or a wrongly applied correction.
+      presets:
+        - variables:
+            answer: 75350
+            d1: 76450
+            d2: 76050
+            d3: 77150
+            d4: 74650
+          correctAnswers:
+            - text: 75350 kg
+          wrongAnswers:
+            - text: 76450 kg
+            - text: 77150 kg
+            - text: 74650 kg
+            - text: 76050 kg
+- id: QYZEA
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325852
+  annexes:
+    - id: ACZO
+  learningObjectiveIds:
+    - 032.05.01.01.07
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. NOTE: For this question do NOT interpolate, choose the most conservative figures at ALL times. The annex shows a regulated take-off mass (RTOM) table for runway 23L from take-off position VB. In each RTOM chart box, the following information is provided for a given wind component / outside air temperature combination: MTOM / limitation code / V1/VR/V2 (+100 kt). Given the following information, determine the RTOM for departure.
+
+        W/V: 140°/14 kt
+        OAT: +10 °C
+        QNH: 1008 hPa
+        Runway: WET
+        Engine anti-ice: ON
+        Packs: OFF
+        Quick line-up
+
+        (The value is read from the table.)
+      explanation: |-
+        The regulated take-off mass (RTOM) is read from the RTOW table for the given runway, wind component and temperature; corrections for QNH, air conditioning/anti-ice, runway condition and line-up are then applied exactly as indicated in the table notes (most conservative values when not interpolating).
+
+        **Solution**
+
+        Entering the figure with the given conditions gives regulated take-off mass = **{{answer}} kg**.
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: a neighbouring cell of the table (wrong wind or temperature column) or a wrongly applied correction.
+        - **{{d2}} kg**: a neighbouring cell of the table (wrong wind or temperature column) or a wrongly applied correction.
+        - **{{d3}} kg**: a neighbouring cell of the table or a wrongly applied correction.
+        - **{{d4}} kg**: a neighbouring cell of the table or a wrongly applied correction.
+      presets:
+        - variables:
+            answer: 77110
+            d1: 78110
+            d2: 78810
+            d3: 77810
+            d4: 76410
+          correctAnswers:
+            - text: 77110 kg
+          wrongAnswers:
+            - text: 78110 kg
+            - text: 77810 kg
+            - text: 76410 kg
+            - text: 78810 kg
+- id: QHRCM
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds:
+    - QRFXJ
+  externalQuestionIds:
+    - ATPLQ-329669
+  annexes:
+    - id: ACZO
+  learningObjectiveIds:
+    - 032.05.01.01.08
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure. The annex shows a regulated take-off mass (RTOM) table for runway 23L from take-off position VB. Using the additional data below, determine the appropriate V1, VR and V2 speeds for a reduced thrust take-off on a wet runway. For this question do not interpolate. Choose the most conservative figures at all times.
+
+        - Wind: {{wdir}}° / {{wspd}} kt
+        - OAT: +{{oat}} °C
+        - QNH: {{qnh}} hPa
+        - Runway: wet
+        - Engine anti-ice: OFF
+        - Packs: OFF
+        - Take-off mass: {{tom}} kg
+        - Assumed/FLEX temperature: {{flex}} °C
+
+        What are the V1, VR and V2 speeds?
+      explanation: |-
+        The V speeds are read from the regulated take-off mass table for runway 23L from position VB. Find the row for the assumed temperature and the wet runway column, taking the most conservative row without interpolating.
+
+        **Solution**
+
+        With an assumed temperature of {{flex}} °C and a take-off mass of {{tom}} kg on a wet runway, the table gives **V1 123 kt, VR 126 kt and V2 132 kt**.
+
+        ## Why the other answers are wrong
+
+        - **V1 142 kt, VR 142 kt and V2 146 kt**: reads a lower assumed temperature row, which gives higher speeds.
+        - **V1 136 kt, VR 139 kt and V2 145 kt**: interpolates between two rows instead of taking the conservative one.
+        - **V1 126 kt, VR 129 kt and V2 135 kt**: reads the row for a higher take-off mass.
+      presets:
+        - variables:
+            wdir: 50
+            wspd: 6
+            oat: 14
+            qnh: 1003
+            tom: 67050
+            flex: 63
+          correctAnswers:
+            - text: V1 = 123kt , VR=126kt, and V2=132kt
+          wrongAnswers:
+            - text: V1 = 126kt , VR=129kt, and V2=135kt
+            - text: V1 = 142kt , VR=142kt, and V2=146kt
+            - text: V1 = 136kt , VR=139kt, and V2=145kt
+- id: QOUZJ
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds:
+    - QOSMJ
+  externalQuestionIds:
+    - ATPLQ-325181
+    - AVEXAM-79587
+    - AVEXAM-39850
+    - BGS-320871
+    - BGS-321133
+    - BGS-321128
+    - ATPLQ-321904
+  annexes: []
+  learningObjectiveIds:
+    - 032.05.01.01.08
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure. The annex shows a regulated take-off weight (RTOW) table for runway 23L from take-off position VB. Use the data below to determine the appropriate V1, VR and V2 speeds for a reduced thrust take-off on a dry runway. For this question do not interpolate. Choose the most conservative figures at all times.
+
+        - Wind: {{wdir}}° / {{wspd}} kt
+        - OAT: {{oat}} °C
+        - QNH: {{qnh}} hPa
+        - Engine anti-ice: ON
+        - Packs: ON
+        - Line-up: quick
+        - Take-off mass: {{tom}} kg
+        - Assumed/FLEX temperature: {{flex}} °C
+
+        What are the V1, VR and V2 speeds?
+      explanation: |-
+        The V speeds are read from the RTOW table for runway 23L from position VB, for the assumed FLEX temperature and the take-off mass. The table is used without interpolation, so the most conservative row is chosen.
+
+        **Solution**
+
+        With an assumed FLEX temperature of {{flex}} °C, a take-off mass of {{tom}} kg, anti-ice and packs on and a dry runway, the table gives **V1 135 kt, VR 136 kt and V2 140 kt**.
+
+        ## Why the other answers are wrong
+
+        - **V1 138 kt, VR 138 kt and V2 143 kt**: reads the row for a higher take-off mass.
+        - **V1 151 kt, VR 151 kt and V2 156 kt**: reads the speeds for a much lower take-off mass.
+        - **V1 148 kt, VR 149 kt and V2 153 kt**: a misread of the V speeds by one row.
+      presets:
+        - variables:
+            wdir: 230
+            wspd: 10
+            oat: -3
+            qnh: 1046
+            tom: 71180
+            flex: 61
+          correctAnswers:
+            - text: V1 135 kt, VR 136 kt, and V2 140 kt.
+          wrongAnswers:
+            - text: V1 148 kt, VR 149 kt, and V2 153 kt.
+            - text: V1 138 kt, VR 138 kt, and V2 143 kt.
+            - text: V1 151 kt, VR 151 kt, and V2 156 kt.
+- id: QLDRD
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324830
+  annexes:
+    - id: AEQF
+  learningObjectiveIds:
+    - 032.05.01.01.09
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure. The annex shows a regulated take-off weight (RTOW) table for runway 05L from intersection VB. Use the data below and determine the appropriate assumed/FLEX temperature and V speeds. For this question do not interpolate. Choose the most conservative figures at all times.
+
+        - Wind: {{wdir}}° / {{wspd}} kt
+        - OAT: +{{oat}} °C
+        - QNH: {{qnh}} hPa
+        - Runway: dry
+        - Anti-ice (engine only): OFF
+        - Packs: OFF
+        - Line-up: quick
+        - Take-off mass: {{tom}} kg
+
+        What are the assumed/FLEX temperature and the V1, VR and V2 speeds?
+      explanation: |-
+        The FLEX temperature and V speeds are read from the RTOW table for runway 05L from intersection VB. The table is used without interpolation, so the row that is the most conservative for the wind, temperature and runway condition is chosen.
+
+        **Solution**
+
+        With a wind of {{wdir}}° / {{wspd}} kt, an OAT of +{{oat}} °C and a take-off mass of {{tom}} kg on a dry runway, the table gives a FLEX temperature of **59°C** with **V1 138 kt, VR 138 kt and V2 144 kt**.
+
+        ## Why the other answers are wrong
+
+        - **61° with V1 / VR / V2 = 137 / 137 / 142**: a higher FLEX temperature, which the mass does not allow.
+        - **59° with V1 / VR / V2 = 138 / 138 / 143**: a misread of the V2 value.
+        - **57° with V1 / VR / V2 = 139 / 139 / 144**: a lower FLEX temperature with V1 and VR higher than the conservative row.
+      presets:
+        - variables:
+            wdir: 50
+            wspd: 16
+            oat: 12
+            qnh: 1008
+            tom: 71480
+          correctAnswers:
+            - text: 59° with V1 / VR / V2 = 138 / 138 / 144
+          wrongAnswers:
+            - text: 57° with V1 / VR / V2 = 139 / 139 / 144
+            - text: 61° with V1 / VR / V2 = 137 / 137 / 142
+            - text: 59° with V1 / VR / V2 = 138 / 138 / 143
+- id: QOSMJ
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds:
+    - QOUZJ
+  externalQuestionIds:
+    - ATPLQ-329838
+    - BGS-321214
+    - BGS-320997
+  annexes:
+    - id: ACZO
+  learningObjectiveIds:
+    - 032.05.01.01.09
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure. The annex shows a regulated take-off weight (RTOW) table for runway 23L from take-off position VB. Use the data below and determine the appropriate assumed/FLEX temperature and V1, VR and V2 speeds. For this question do not interpolate. Choose the most conservative figures at all times.
+
+        - Wind: {{wdir}}° / {{wspd}} kt
+        - OAT: +{{oat}} °C
+        - QNH: {{qnh}} hPa
+        - Runway: dry
+        - Engine anti-ice: OFF
+        - Packs: OFF
+        - Take-off mass: {{tom}} kg
+
+        What are the assumed/FLEX temperature and the V1, VR and V2 speeds?
+      explanation: |-
+        The assumed FLEX temperature and the V speeds are read together from the RTOW table for runway 23L from position VB. Take the most conservative row for the wind, temperature and dry runway, without interpolating.
+
+        **Solution**
+
+        With a wind of {{wdir}}° / {{wspd}} kt, an OAT of +{{oat}} °C, QNH {{qnh}} hPa and a take-off mass of {{tom}} kg on a dry runway, the table gives an assumed FLEX temperature of **57°C** with **V1 139 kt, VR 139 kt and V2 145 kt**.
+
+        ## Why the other answers are wrong
+
+        - **59°C and V1 138 kt, VR 138 kt and V2 144 kt**: a higher FLEX temperature, which the mass does not allow.
+        - **53°C and V1 138 kt, VR 138 kt and V2 143 kt**: a lower FLEX temperature row with the wrong speed values.
+        - **63°C and V1 140 kt, VR 140 kt and V2 146 kt**: a much higher FLEX temperature, not allowed at this mass.
+      presets:
+        - variables:
+            wdir: 230
+            wspd: 16
+            oat: 10
+            qnh: 1008
+            tom: 71840
+          correctAnswers:
+            - text: 57°C and V1 139 kt, VR 139 kt, and V2 145 kt
+          wrongAnswers:
+            - text: 63°C and V1 140 kt, VR 140 kt, and V2 146 kt
+            - text: 59°C and V1 138 kt, VR 138 kt, and V2 144 kt
+            - text: 53°C and V1 138 kt, VR 138 kt, and V2 143 kt
+- id: QRFXJ
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds:
+    - QHRCM
+  externalQuestionIds:
+    - ATPLQ-325427
+    - AVEXAM-92337
+    - BGS-320848
+    - BGS-321140
+    - AVEXAM-11246
+    - AVEXAM-74024
+    - BGS-321187
+    - AVEXAM-42870
+    - AVEXAM-9358
+    - AVEXAM-35696
+    - AVEXAM-6699
+  annexes:
+    - id: ACZO
+  learningObjectiveIds:
+    - 032.05.01.01.09
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure. The annex shows a regulated take-off mass (RTOM) table for runway 23L from take-off position VB. Use the data below to determine the appropriate assumed FLEX temperature and the V1, VR and V2 speeds. For this question do not interpolate. Choose the most conservative data at all times.
+
+        - Wind: {{wdir}}° / {{wspd}} kt
+        - OAT: +{{oat}} °C
+        - QNH: {{qnh}} hPa
+        - Runway: wet
+        - Engine anti-ice: OFF
+        - Packs: OFF
+        - Take-off mass: {{tom}} kg
+
+        What are the assumed FLEX temperature and the V1, VR and V2 speeds?
+      explanation: |-
+        The assumed FLEX temperature and the V speeds are read together from the RTOM table for runway 23L from position VB. Take the most conservative row for the wind, temperature and wet runway, without interpolating, so the take-off mass stays within the regulated limit.
+
+        **Solution**
+
+        With a wind of {{wdir}}° / {{wspd}} kt, an OAT of +{{oat}} °C, QNH {{qnh}} hPa and a take-off mass of {{tom}} kg on a wet runway, the table gives an assumed FLEX temperature of **39°C** with **V1 134 kt, VR 137 kt and V2 142 kt**.
+
+        ## Why the other answers are wrong
+
+        - **41°C and V1 140 kt, VR 140 kt and V2 144 kt**: a higher FLEX temperature, which is not allowed for this mass.
+        - **39°C and V1 133 kt, VR 136 kt and V2 142 kt**: a misread of the speed row by one step.
+        - **43°C and V1 140 kt, VR 140 kt and V2 144 kt**: a FLEX temperature that is too high for the take-off mass.
+      presets:
+        - variables:
+            wdir: 50
+            wspd: 4
+            oat: 13
+            qnh: 1016
+            tom: 72820
+          correctAnswers:
+            - text: 39°C and V1 134 kt, VR 137 kt and V2 142 kt
+          wrongAnswers:
+            - text: 43°C and V1 140 kt, VR 140 kt and V2 144 kt
+            - text: 41°C and V1 140 kt, VR 140 kt and V2 144 kt
+            - text: 39°C and V1 133 kt, VR 136 kt and V2 142 kt
+- id: QKHHA
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325391
+    - BGS-320942
+  annexes:
+    - id: ARMT
+  learningObjectiveIds:
+    - 032.05.01.01.10
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure or CAP 698 Figure 4.31. Due to a predictive wind shear warning, a take-off at Madrid airport is rejected. Using the data below, when can another take-off be attempted?
+
+        - Take-off mass: {{mass}} kg
+        - Aerodrome elevation: {{elev}} ft
+        - OAT: +{{oat}} °C
+        - Wind: calm
+        - Speed at rejection: {{speed}} kt
+
+        Which statement is correct?
+      explanation: |-
+        After a rejected take-off, the brakes must cool before another take-off. The cooling time is read from the brake cooling chart, using the take-off mass, the elevation, the temperature and the speed at rejection. Credit for reverse thrust is not taken here.
+
+        **Solution**
+
+        - Enter the chart with {{mass}} kg, {{elev}} ft, +{{oat}} °C and a speed at rejection of {{speed}} kt, with no wind.
+        - The chart shows that cooling is recommended and takes about 45 minutes.
+
+        ## Why the other answers are wrong
+
+        - **Cooling is recommended and it requires approximately 30 minutes when giving credit for reverse.**: uses the reverse credit, which is not part of this case, and gives a shorter time.
+        - **The fuse plugs may melt and the take-off must be delayed by approximately 40 minutes.**: the fuse plug warning is a different consequence, not the cooling time.
+        - **Cooling is recommended and it requires approximately 40 minutes when giving credit for reverse.**: a time read with reverse credit, which gives a different value.
+      presets:
+        - variables:
+            mass: 61300
+            elev: 2000
+            oat: 34
+            speed: 80
+          correctAnswers:
+            - text: Cooling is recommended and it will require approximately 45 minutes to achieve this.
+          wrongAnswers:
+            - text: Cooling is recommended and it requires approximately 40 minutes when giving credit for reverse.
+            - text: Cooling is recommended and it requires approximately 30 minutes when giving credit for reverse.
+            - text: The fuse plugs may melt and the take-off must be delayed by approximately 40 minutes.
+- id: QUQBB
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-329513
+  annexes:
+    - id: ACTU
+  learningObjectiveIds:
+    - 032.05.02.01.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure. A crew plans a flight over a mountain range. What is the one-engine-inoperative maximum cruise altitude (value read from the figure)?
+
+        - Expected gross weight: {{wt}} lb
+        - Temperature: ISA +{{isa}}°C
+
+        Anti-ice: OFF
+      explanation: |-
+        The one-engine-inoperative maximum cruise altitude chart gives the altitude that can be maintained with one engine out for a given weight and ISA deviation.
+
+        **Solution**
+
+        Enter the chart with {{wt}} lb and ISA +{{isa}}°C: **{{answer}} ft**.
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft**: the service ceiling instead of the one-engine-inoperative altitude.
+        - **{{d2}} ft**: a reading from a heavier weight line.
+        - **{{d3}} ft**: a reading from the wrong temperature curve.
+        - **{{d4}} ft**: a small misread of the temperature curve.
+      presets:
+        - variables:
+            wt: 31000
+            isa: 5
+            answer: 29100
+            d1: 30000
+            d2: 26300
+            d3: 27150
+            d4: 29500
+          correctAnswers:
+            - text: 29100 ft
+          wrongAnswers:
+            - text: 30000 ft
+            - text: 27150 ft
+            - text: 29500 ft
+            - text: 26300 ft
+- id: QPSXR
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-323791
+    - AVEXAM-69708
+    - BGS-320470
+  annexes:
+    - id: AZNX
+  learningObjectiveIds:
+    - 032.05.02.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure. Determine the maximum mass that gives the statutory clearance over an obstacle following an engine failure in stabilised flight (mass read from the figure: {{massread}} kg). Given:
+
+        OAT: ISA +{{isa}}°C
+        Engine anti-ice ON
+        Obstacle pressure altitude: {{pa}} ft
+      explanation: |-
+        The net level-off chart gives the maximum mass for which the one-engine-inoperative net flight path clears the obstacle altitude at the given ISA deviation and anti-ice setting.
+
+        **Solution**
+
+        Enter the chart at {{pa}} ft and ISA +{{isa}}°C, anti-ice ON: **{{answer}} kg**.
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: a mass read from the wrong temperature curve.
+        - **{{d2}} kg**: a reading that neglects the anti-ice correction.
+        - **{{d3}} kg**: a small misread of the altitude line.
+        - **{{d4}} kg**: a mass read at too high an altitude.
+      presets:
+        - variables:
+            massread: 49250
+            isa: 10
+            pa: 17000
+            answer: 49250
+            d1: 47700
+            d2: 51250
+            d3: 49650
+            d4: 45500
+          correctAnswers:
+            - text: 49250 kg
+          wrongAnswers:
+            - text: 47700 kg
+            - text: 49650 kg
+            - text: 45500 kg
+            - text: 51250 kg
+- id: QRPCQ
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326238
+    - BGS-320966
+    - AVEXAM-18901
+    - ATPLQ-324541
+    - BGS-321112
+    - AVEXAM-12833
+    - ATPLQ-323488
+    - ATPLQ-321580
+  annexes:
+    - id: AZNX
+  learningObjectiveIds:
+    - 032.05.02.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure (CAP 698 file 4.23, one-engine-inoperative net level-off chart) for the Medium Range Jet Transport. Determine the maximum net mass that allows a safe net level-off at the highest relevant obstacle or MSA, given:
+
+        - Minimum off-route pressure altitude / MSA: {{alt}} ft
+        - Temperature: ISA +{{isa}}°C
+
+        A/C: AUTO (HIGH)
+        Anti-ice: all OFF
+
+        The maximum net mass read from the chart is {{massread}} kg (value read from the figure); state it as the answer.
+      explanation: |-
+        The net level-off chart gives, for a given ISA deviation and level-off altitude, the maximum mass at which the one-engine-inoperative net flight path clears the obstacle. Enter the chart with the altitude, go to the ISA deviation (anti-ice off, A/C auto high) and read the mass.
+
+        **Solution**
+
+        Enter the chart at {{alt}} ft and ISA +{{isa}}°C: **{{answer}} kg**.
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: a mass from the wrong (colder) temperature curve of the chart.
+        - **{{d2}} kg**: a misread of the altitude line, which gives too high a mass.
+        - **{{d3}} kg**: a misread by a large margin of the net level-off line.
+        - **{{d4}} kg**: a mass read from the wrong (warmer) temperature curve.
+      presets:
+        - variables:
+            alt: 16000
+            isa: 15
+            massread: 52300
+            answer: 52300
+            d1: 54100
+            d2: 56600
+            d3: 59100
+            d4: 50300
+          correctAnswers:
+            - text: 52300 kg
+          wrongAnswers:
+            - text: 54100 kg
+            - text: 59100 kg
+            - text: 50300 kg
+            - text: 56600 kg
+        - variables:
+            alt: 12100
+            isa: 14
+            massread: 58400
+            answer: 58400
+            d1: 60200
+            d2: 62700
+            d3: 65200
+            d4: 56400
+          correctAnswers:
+            - text: 58400 kg
+          wrongAnswers:
+            - text: 60200 kg
+            - text: 65200 kg
+            - text: 56400 kg
+            - text: 62700 kg
+        - variables:
+            alt: 16000
+            isa: 10
+            massread: 54100
+            answer: 54100
+            d1: 55900
+            d2: 58400
+            d3: 60900
+            d4: 52100
+          correctAnswers:
+            - text: 54100 kg
+          wrongAnswers:
+            - text: 55900 kg
+            - text: 60900 kg
+            - text: 52100 kg
+            - text: 58400 kg
+        - variables:
+            alt: 12000
+            isa: 15
+            massread: 58250
+            answer: 58250
+            d1: 60050
+            d2: 62550
+            d3: 65050
+            d4: 56250
+          correctAnswers:
+            - text: 58250 kg
+          wrongAnswers:
+            - text: 60050 kg
+            - text: 65050 kg
+            - text: 56250 kg
+            - text: 62550 kg
+- id: QNLUQ
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326155
+    - AVEXAM-69805
+    - AVEXAM-67849
+    - BGS-320685
+    - ATPLQ-326536
+    - BGS-320958
+    - AVEXAM-36799
+    - ATPLQ-327138
+    - BGS-321036
+    - ATPLQ-322853
+    - AVEXAM-86716
+    - BGS-321025
+    - ATPLQ-326488
+    - BGS-320949
+    - ATPLQ-325010
+    - ATPLQ-329920
+  annexes:
+    - id: AXVN
+  learningObjectiveIds:
+    - 032.05.02.01.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure or CAP 698 file 4.25. Given the following information and assuming a drift down after engine failure:
+
+        - Drift down from pressure altitude: {{alt_from}} ft
+        - Drift down to pressure altitude: {{alt_to}} ft
+        - Gross mass at engine failure: {{mass}} kg
+        - ISA conditions
+        - No wind
+
+        What are the time travelled and the fuel burned during the drift down?
+      explanation: |-
+        The drift down time and fuel are read from the drift down chart in CAP 698 file 4.25. The chart uses the start and end pressure altitudes and the gross mass at engine failure.
+
+        **Solution**
+
+        - Enter the chart from {{alt_from}} ft down to {{alt_to}} ft at a gross mass of {{mass}} kg, in ISA with no wind.
+        - The chart gives 23 min and 750 kg.
+
+        ## Why the other answers are wrong
+
+        - **2 min, 50 kg.**: far too short a time and fuel, a misread of the time scale.
+        - **130 min, 750 kg.**: the fuel is right but the time is far too long, a misread of the time scale.
+        - **23 min, 70 kg.**: the time is right but the fuel is read on the wrong scale.
+      presets:
+        - variables:
+            alt_from: 33000
+            alt_to: 20000
+            mass: 55000
+          correctAnswers:
+            - text: 23 min, 750 kg.
+          wrongAnswers:
+            - text: 23 min, 70 kg.
+            - text: 2 min, 50 kg.
+            - text: 130 min, 750 kg.
+    - type: simple
+      question: |-
+        Refer to figure. Consider the following information and assume a drift down after engine failure. Determine the time travelled, ground distance travelled and fuel burned from engine failure.
+
+        - Drift down from pressure altitude: 33 000 ft
+        - Drift down to pressure altitude: 16 000 ft
+        - Gross mass at engine failure: 58 050 kg
+        - OAT: ISA -20°C
+        - Tailwind: 25 kt
+        - Bleed configuration: engine anti-ice on, A/C auto (high)
+      explanation: |-
+        The time, ground distance and fuel burned during the drift down are read from the figure for the given altitudes, mass, temperature, wind and bleed configuration.
+
+        The correct answer is **31 min, 182 NM and 1 150 kg**.
+
+        ## Why the other answers are wrong
+
+        - **22 min, 135 NM and 800 kg**: all three values are read too low from the figure.
+        - **60 min, more than 300 NM and 2 200 kg**: all three values are read far too high from the figure.
+        - **36 min, 208 NM and 1 300 kg**: all three values are read too high from the figure.
+      presets:
+        - correctAnswers:
+            - text: 31 min, 182 NM, and 1 150 kg.
+          wrongAnswers:
+            - text: 36 min, 208 NM, and 1 300 kg.
+            - text: 22 min, 135 NM, and 800 kg.
+            - text: 60 min, more than 300 NM, and 2 200 kg.
+    - type: simple
+      question: |-
+        Refer to figure or CAP figure 4.24. Consider the following information and assume a driftdown procedure after an engine failure during the cruise phase. What is the flight time travelled, the ground distance covered and the fuel burned during the driftdown?
+
+        - Driftdown from pressure altitude: 37 000 ft
+        - Driftdown to pressure altitude: 21 000 ft
+        - Gross mass at engine failure: 50 000 kg
+        - OAT: ISA +20°C
+        - Headwind: 50 kt
+        - Bleed configuration: engine and wing anti-ice off
+        - A/C: auto (high)
+      explanation: |-
+        The time, ground distance and fuel burned during the driftdown are read from the figure for the given altitudes, mass, temperature, headwind and bleed configuration.
+
+        The correct answer is **27 min, 124 NM and 800 kg**.
+
+        ## Why the other answers are wrong
+
+        - **16 min, 78 NM and 450 kg**: all three values are read too low from the figure.
+        - **23 min, 112 NM and 700 kg**: all three values are read too low from the figure.
+        - **35 min, 163 NM and 1100 kg**: all three values are read too high from the figure.
+      presets:
+        - correctAnswers:
+            - text: 27 min, 124 NM and 800 kg
+          wrongAnswers:
+            - text: 35 min, 163 NM and 1100 kg
+            - text: 16 min, 78 NM and 450 kg
+            - text: 23 min, 112 NM and 700 kg
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Determine the time, distance, and fuel required to descend to the drift-down altitude using the attached table. Consider the following data:
+
+        Altitude at engine failure: 39 000 ft   
+         Weight at engine failure: 36 000 lb
+      explanation: In the drift-down table, take the block for 39 000 ft at engine failure and the fifth column, for a weight of 36 000 lb at engine failure. The row gives a time of 34 minutes, a distance of 156 NM and a fuel used of 830 lb.
+      presets:
+        - correctAnswers:
+            - text: 34 min; 156 NM; 830 lb
+          wrongAnswers:
+            - text: 32 min; 145 NM; 740 lb
+            - text: 36 min; 140 NM; 760 lb
+            - text: 30 min; 150 NM; 800 lb
+    - type: simple
+      question: Use the [drift-down table](annex:AXVN). Find the elapsed time, distance travelled and fuel used after engine failure at 36 000 ft with a mass of 34 000 lb.
+      explanation: Read down the 34 000 lb column. The starting altitude of 36 000 ft is halfway between the 35 000 ft and 37 000 ft rows. Interpolating gives 29 minutes, 128 NM and 675 lb.
+      presets:
+        - correctAnswers:
+            - text: 29 minutes, 128 NM and 675 lb
+          wrongAnswers:
+            - text: 30 minutes, 134 NM and 700 lb
+            - text: 26 minutes, 114 NM and 620 lb
+            - text: 28 minutes, 122 NM and 650 lb
+    - type: simple
+      question: Use the [drift-down table](annex:AXVN). Find the elapsed time, distance travelled and fuel used after engine failure at {{altitude}} ft with a mass of 35 000 lb.
+      explanation: Read the table for the weight of 35 000 lb, halfway between the 34 000 lb and 36 000 lb columns, and interpolate between the rows for the altitudes bracketing {{altitude}} ft. This gives **{{answer}}**.
+      presets:
+        - variables:
+            altitude: 40 000
+            answer: 34 minutes, 155 NM and 795 lb
+          correctAnswers:
+            - text: 34 minutes, 155 NM and 795 lb
+          wrongAnswers:
+            - text: 34 minutes, 795 NM and 155 lb
+            - text: 36 minutes, 167 NM and 887 lb
+            - text: 36 minutes, 887 NM and 167 lb
+        - variables:
+            altitude: 41 000
+            answer: 35 minutes, 160 NM and 805 lb
+          correctAnswers:
+            - text: 35 minutes, 160 NM and 805 lb
+          wrongAnswers:
+            - text: 35 minutes, 805 NM and 155 lb
+            - text: 29 minutes, 165 NM and 780 lb
+            - text: 27 minutes, 165 NM and 170 lb
+- id: QAYIV
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-329384
+  annexes:
+    - id: AIMQ
+  learningObjectiveIds:
+    - 032.05.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to CAP 698 Figure 4.28. Given the following information for a Commercial Air Transport jet aircraft:
+
+        - Landing mass: {{mass}} kg
+        - Flaps position: 30°
+        - Runway condition: dry
+        - Wind component: {{tail}} kt tailwind
+        - Pressure altitude: {{pa}} ft
+        - Anti-skid: operative
+        - Spoilers: automatic
+
+        What is the minimum field length required?
+      explanation: |-
+        The minimum field length required is read from the landing distance chart in CAP 698 Figure 4.28. The chart uses the landing mass, the flap setting, the runway condition, the wind, the pressure altitude and the braking configuration.
+
+        **Solution**
+
+        - Enter the chart at a landing mass of {{mass}} kg and {{pa}} ft, with a tailwind of {{tail}} kt.
+        - The chart gives a minimum field length of 5 725 ft.
+
+        ## Why the other answers are wrong
+
+        - **5 350 ft**: a value read for a lower wind or mass, which gives a shorter field.
+        - **8 200 ft**: a value read for a higher altitude or mass, which gives a longer field.
+        - **4 700 ft**: far too short, usually from reading the headwind line instead of the tailwind line.
+      presets:
+        - variables:
+            mass: 51000
+            tail: 10
+            pa: 2000
+          correctAnswers:
+            - text: 5 725 ft
+          wrongAnswers:
+            - text: 4 700 ft
+            - text: 5 350 ft
+            - text: 8 200 ft
+- id: QEYCC
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324077
+    - AVEXAM-46352
+  annexes:
+    - id: AIMQ
+  learningObjectiveIds:
+    - 032.05.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to CAP 698 Figure 4.28.   
+         Given the following information for a Commercial Air Transport jet aircraft, what is the minimum field length required?
+
+        Landing mass: 51 000 kg   
+         Flaps position: 30⁰   
+         RWY condition: DRY   
+         Wind component: 10 kt headwind   
+         Pressure Altitude: 2 000 ft   
+         Anti-skid: OPERATIVE   
+         Spoilers: AUTOMATIC
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 4 700 ft
+          wrongAnswers:
+            - text: 1 450 ft
+            - text: 8 200 ft
+            - text: 5 350 ft
+- id: QFYZN
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-328741
+    - ATPLQ-329950
+    - BGS-321015
+    - AVEXAM-86504
+    - BGS-321257
+    - BGS-321234
+  annexes:
+    - id: AHZX
+  learningObjectiveIds:
+    - 032.05.03.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure or CAP 698 Figure 4.29. Given the following information:
+
+        - Airport OAT: {{oat}} °C
+        - Airport pressure altitude: {{pa}} ft
+        - Flap position: 30°
+        - Air conditioning packs: auto
+        - Anti-ice: engine and wing on
+
+        What is the climb limited landing mass?
+      explanation: "{{explanation}}"
+      presets:
+        - variables:
+            oat: 10
+            pa: 2000
+            explanation: |-
+              The climb limited landing mass is read from the chart in CAP 698 Figure 4.29 for the airport pressure altitude and temperature, with flaps 30, the packs on auto and engine and wing anti-ice on.
+
+              **Solution**
+
+              - Enter the chart at 2000 ft and +10 °C with these settings.
+              - The chart gives 59 050 kg.
+
+              ## Why the other answers are wrong
+
+              - **54 320 kg** and **54 400 kg**: values from a neighbouring chart line or a misread of the temperature.
+              - **69 760 kg**: a value that is far too high for this altitude and temperature, usually from reading the wrong column.
+          correctAnswers:
+            - text: 59 050 kg
+          wrongAnswers:
+            - text: 69 760 kg
+            - text: 54 320 kg
+            - text: 54 400 kg
+        - variables:
+            oat: 20
+            pa: 3000
+            explanation: |-
+              The airport elevation of 3000 ft with a QNH of 1013 hPa gives a pressure altitude of 3000 ft. Read the climb limited landing mass from CAP 698 Figure 4.29 with flaps 30, the packs on auto and engine and wing anti-ice on.
+
+              **Solution**
+
+              - Enter the chart at 3000 ft and +20 °C with these settings.
+              - The chart gives 57 450 kg.
+
+              ## Why the other answers are wrong
+
+              - **62 800 kg** and **68 150 kg**: values read from a higher altitude or a different anti-ice setting.
+              - **58 860 kg**: a value close to the answer, read from a neighbouring line of the chart.
+          correctAnswers:
+            - text: 57 450 kg
+          wrongAnswers:
+            - text: 58 860 kg
+            - text: 62 800 kg
+            - text: 68 150 kg
+    - type: simple
+      question: |-
+        Please refer to the annex or to CAP 698 Figure 4.29. Given the information below, what is the Climb-Limited Landing Mass based on operating in icing conditions?
+        OAT: 0°C
+        Pressure Altitude: 4000 ft
+        Flap Position: 15
+        Air-conditioning Packs: OFF
+        Anti-Ice: Engine only ON
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 61330 kg
+          wrongAnswers:
+            - text: 56180 kg
+            - text: 72550 kg
+            - text: 55630 kg
+    - type: simple
+      question: |-
+        Please refer to the annex or to CAP 698 Figure 4.29. Given the information below, what is the Climb-Limited Landing Mass? Airport Pressure Altitude: 2000 ft,
+        Airport OAT: 10° C,
+        Flap Position: 30,
+        Airconditioning Packs: AUTO,
+        Anti-Ice: ENGINE and WING ON.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 59050 kg
+          wrongAnswers:
+            - text: 64400 kg
+            - text: 54320 kg
+            - text: 69750 kg
+- id: QPMII
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325993
+    - AVEXAM-40364
+  annexes: []
+  learningObjectiveIds:
+    - 032.05.03.01.03
+  templates:
+    - type: simple
+      question: "The flight crew of an MRJT aeroplane have calculated the following landing performance figures for each of the aircraft's allowable landing flap settings... | **Flap settings:** | **Flaps 5** | **Flaps 15** | **Flaps 30** | | -------------------------------- | ----------- | ------------ | ------------ | | **Landing climb limited mass:** | 56 430 kg | 55 500 kg | 50 300 kg | | **Approach climb limited mass:** | 57 400 kg | 56 140 kg | 52 740 kg | | **Runway length limited mass:** | 51 780 kg | 54 100 kg | 56 000 kg | Actual landing mass: 53450 kg Maximum structural landing mass: 56000 kg Select the correct flap setting to use for landing."
+      explanation: |-
+        The landing mass of 53 450 kg must not exceed any of the limits for the chosen flap setting:
+
+        - Flaps 5: runway length limit 51 780 kg, too low.
+        - Flaps 15: all limits (55 500, 56 140, 54 100 and 56 000 kg) are above 53 450 kg.
+        - Flaps 30: landing climb limit 50 300 kg, too low.
+
+        Use **Flaps 15**.
+      presets:
+        - correctAnswers:
+            - text: Flaps 15
+          wrongAnswers:
+            - text: Flaps 30
+            - text: Flaps 5
+            - text: All the flap settings are compatible with this landing
+- id: QAFAH
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-321376
+    - AVEXAM-46649
+    - BGS-321131
+    - BGS-321061
+  annexes: []
+  learningObjectiveIds:
+    - 032.05.03.01.03
+  templates:
+    - type: simple
+      question: |-
+        During the pre-flight planning procedure, the pilot of a Commercial Air Transport flight has calculated various performance-limited landing masses. Given the following limit masses, determine the maximum performance limited landing mass which complies with the operational requirements.
+
+        - Approach climb limit mass: {{acl}} lb
+        - Landing climb limit mass: {{lcl}} lb
+        - Field length limit mass: {{fll}} lb
+        - Structural limit landing mass: {{slm}} lb
+      explanation: |-
+        The landing mass must satisfy every limitation at the same time: structural, approach climb, landing climb and field length. The maximum permitted landing mass is therefore the smallest of all the limit masses.
+
+        **Solution**
+
+        $$
+        \text{min}(\text{Approach climb limit mass},\text{Landing climb limit mass},\text{Field length limit mass},\text{Structural limit landing mass}) = \text{min}({{acl}},{{lcl}},{{fll}},{{slm}}) = \mathbf{ {{answer}}\ \text{lb} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} lb**: the structural limit only, which ignores the more restrictive performance limits.
+        - **{{d2}} lb**: the field length limit only, which is not the smallest limit.
+        - **{{d3}} lb**: the landing climb limit only, which is not the smallest limit.
+      presets:
+        - variables:
+            acl: 32250
+            lcl: 38300
+            fll: 34500
+            slm: 39300
+            answer: 32250
+            d1: 39300
+            d2: 34500
+            d3: 38300
+          correctAnswers:
+            - text: 32250 lb
+          wrongAnswers:
+            - text: 38300 lb
+            - text: 39300 lb
+            - text: 34500 lb
+        - variables:
+            acl: 35200
+            lcl: 36800
+            fll: 37900
+            slm: 39300
+            answer: 35200
+            d1: 39300
+            d2: 37900
+            d3: 36800
+          correctAnswers:
+            - text: 35200 lb
+          wrongAnswers:
+            - text: 36800 lb
+            - text: 39300 lb
+            - text: 37900 lb
+        - variables:
+            acl: 34900
+            lcl: 40100
+            fll: 36600
+            slm: 41000
+            answer: 34900
+            d1: 41000
+            d2: 36600
+            d3: 40100
+          correctAnswers:
+            - text: 34900 lb
+          wrongAnswers:
+            - text: 40100 lb
+            - text: 41000 lb
+            - text: 36600 lb
+    - type: simple
+      question: During pre-flight planning the flight crew have calculated various performance limiting landing masses which are listed in the table in the annex. The maximum performance limiting-landing mass to ensure compliance with the applicable operational requirements for Commercial Air Transport is ....
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 16250 kg
+          wrongAnswers:
+            - text: 16800 kg
+            - text: 17800 kg
+            - text: 15500 kg
+- id: QCYYO
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322974
+    - AVEXAM-55471
+    - BGS-321196
+  annexes:
+    - id: ARMT
+  learningObjectiveIds:
+    - 032.05.03.01.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure or CAP698 file 4.31.  
+        An MRJT aeroplane is landing on runway 25 at an airport which has a long, dry runway with no performance restrictions. The runway has been chosen because of its negligible taxi distance after landing. The planned turnaround time is 25 minutes. Given the following information, is this turnaround time achievable?
+
+        Landing mass: 51 000 kg  
+        V**REF**: 132 kt  
+        Surface Wind: 070°/6 kt (use 50% of headwind component or 150% of tailwind component as applicable)  
+        Airfield Elevation: 280 ft  
+        QNH: 1013 hPa  
+        OAT: +19°C
+      explanation: "In Figure 4.31, enter with the landing mass of 51 000 kg and VREF 132 kt, then the pressure altitude and OAT of 19 °C, then the braking configuration. The brake energy gives a cooling time on the scale below. With reverse #2 detent and autobrake 1 or 2, the cooling time is under 25 minutes, so the turnaround is achievable."
+      presets:
+        - correctAnswers:
+            - text: "Yes, provided reverse #2 detent is used with autobrake #1 or #2."
+          wrongAnswers:
+            - text: No, reverse thrust cannot be used for credit during landing and most conservative braking must be accounted for, requiring an inspection of the fuse plugs after 30 minutes.
+            - text: "Yes, provided reverse #2 detent is used with any autobrake setting."
+            - text: "No, reverse thrust cannot be used for credit during landing resulting in a minimum cooling time of approximately 60 minutes for the lowest autobrake settings #1 and #2."
+- id: QAKZS
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322377
+    - BGS-321221
+  annexes:
+    - id: ARMT
+  learningObjectiveIds:
+    - 032.05.03.01.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure or to CAP 698 figure 4.31.
+
+        An MRJT (Medium Range Jet Transport) aircraft is performing circuits as part of pilot training.
+
+        So far, 17.6 Million foot-pounds of energy have been absorbed by the brakes, and the pilots now want to make a final landing without any reverse thrust, which shall add a further 10 Million foot-pounds of energy.
+
+        Which of the following is the best procedure to follow?
+      explanation: |-
+        The brakes would hold 17.6 + 10 = 27.6 million ft-lb after the landing. On Figure 4.31 this is above the limit for landing straight away, so the brakes must be cooled first.
+
+        The chart gives a procedure of flying with the **gear down for 6 minutes** before landing, then parking for at least 60 minutes.
+      presets:
+        - correctAnswers:
+            - text: Fly around with the gear down for 6 minutes, then land. Park the aircraft for at least 60 minutes.
+          wrongAnswers:
+            - text: Land as soon as required, there is no brake cooling requirement.
+            - text: Land, then cool the brakes for no more than 80 minutes before the next take-off.
+            - text: Fly around with the gear up for 30 minutes, then land.
+- id: QXFRI
+  subjectId: "032"
+  chapterId: "032.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322614
+    - BGS-321178
+    - AVEXAM-29892
+    - AVEXAM-15394
+    - ATPLQ-324978
+    - ATPLQ-326650
+    - ATPLQ-328001
+    - ATPLQ-329462
+    - BGS-321245
+  annexes:
+    - id: ARMT
+  learningObjectiveIds:
+    - 032.05.03.01.04
+  templates:
+    - type: simple
+      question: "Refer to figure or use CAP 698 Figure 4.31. Determine the advised cooling schedule and minimum brake cooling time after landing for the following performance data: Estimated landing mass: 90 000 lb VREF: 125 kt Corrections to VREF for landing speed: (VREF – 3 kt) Corrections to VREF for wind component: minus 50% of a headwind or plus 150% for a tailwind Headwind component: 4 kt Pressure Altitude: 2 000 ft OAT: + 10°C Braking configuration: Autobrake 2 Reverse Thrust: Normal #2 Detent Taxi miles: 1 mile Add one million foot pounds for each taxi mile to obtain total energy."
+      explanation: "Work out the landing energy from the corrected VREF, the wind and the mass, then add 1 million ft-lb for the taxi mile. Reading Figure 4.31 with that total, the point falls in the lowest region of the chart: **Cooling Schedule I normal**, with no special cooling procedure needed."
+      presets:
+        - correctAnswers:
+            - text: Cooling Schedule I normal, NO special cooling procedure required.
+          wrongAnswers:
+            - text: Cooling Schedule II, cooling recommended, recommended 8 minutes ground cooling before take-off.
+            - text: Cooling Schedule II, cooling recommended, recommended 25 minutes ground cooling before take-off.
+            - text: Cooling Schedule II, cooling recommended, recommended 16 minutes ground cooling before take-off.

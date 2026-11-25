@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="1016" viewBox="0 0 700 1016" role="img" aria-labelledby="title desc" xml:lang="en-GB">
+<title id="title">737-800 Yaw Control Schematic</title>
+<desc id="desc">Rudder trim, rudder feel and centering, main and standby rudder power control units and their hydraulic and yaw damper control paths.</desc>
+<metadata>Boeing 737-800 FCOM Rev 40, 9.20.15. Redrawn as SVG.</metadata>
+<defs>
+  <marker id="arrow" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="13" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto">
+    <path d="M0 0 12 5 0 10Z" fill="#ededed"/>
+  </marker>
+  <g id="toggle-body">
+    <circle r="18" fill="#a6a6a6" stroke="#393939" stroke-width="2"/>
+    <circle r="13" fill="#676767" stroke="#393939" stroke-width="2"/>
+    <circle r="9" fill="#8c8c8c" stroke="#393939" stroke-width="1.6"/>
+  </g>
+  <g id="toggle-lever" stroke="#393939" stroke-width="1.7">
+    <path d="M-4 0a4 4 0 0 1 8 0l2 10H-6z" fill="#b7b7b7"/>
+    <circle cy="12" r="6.6" fill="#cecece"/>
+  </g>
+  <g id="toggle"><use href="#toggle-body"/><use href="#toggle-lever"/></g>
+  <g id="junction"><circle r="4.5" fill="#ededed"/></g>
+</defs>
+<style>
+  svg {background:#080808;color:#ededed}
+  text {font-family:Menlo,Consolas,"Liberation Mono",monospace}
+  .wire,.signal {fill:none;stroke:#ededed;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round}
+  .signal {stroke-dasharray:19 10 3 10}
+  .arr {marker-end:url(#arrow)}
+  .duct-edge,.duct {fill:none;stroke-linecap:butt;stroke-linejoin:round}
+  .duct-edge {stroke:#ededed;stroke-width:15}
+  .duct {stroke:#c41c1c;stroke-width:12}
+  .component {fill:#080808;stroke:#ededed;stroke-width:2.1}
+</style>
+<rect x="0" y="0" width="700" height="1016" fill="#080808"/>
+<g fill="#ededed">
+<path class="signal" d="M69 96v33h245V96m-179 0v33m113-33v33"/>
+<path class="signal" d="M190 129v243m0 62v503h244"/>
+<path class="signal" d="M132 304v67"/>
+<path class="signal" d="M435 108v20h179v-20m-93 20v203h-50v40"/>
+<path class="signal" d="M501 432v420"/>
+<path class="signal" d="M489 632h59V495"/>
+<path class="signal" d="M563 924h16V495"/>
+<path class="signal" d="M189 567h69m-69 139h207m-207 231h244"/>
+<path class="signal" d="M371 696v82m-45 15H112v121m214-95h-73"/>
+<path class="wire" d="M277 304v27h89v41"/>
+<path class="wire" d="M417 293v79"/>
+<path class="wire" d="M334 434v48h-76v108"/>
+<path class="wire" d="M126 910h236v-39h72m-308 49h308m0-38h-62v28h62"/>
+<path d="M105 632h101m-48 0V520h171v30" fill="none" stroke="#ededed" stroke-width="10" stroke-linejoin="round"/>
+<path d="M105 632h101m-48 0V520h171v30" fill="none" stroke="#38b53e" stroke-width="7" stroke-linejoin="round"/>
+<path d="M105 747h333v-30" fill="none" stroke="#ededed" stroke-width="10" stroke-linejoin="round"/>
+<path d="M105 747h333v-30" fill="none" stroke="#ec2422" stroke-width="7" stroke-linejoin="round"/>
+<path d="M65 915h32" fill="none" stroke="#ededed" stroke-width="10" stroke-linejoin="round"/>
+<path d="M65 915h32" fill="none" stroke="#58429a" stroke-width="7" stroke-linejoin="round"/>
+<path class="wire arr" d="M132 352v18"/>
+<path class="wire arr" d="M366 351v18"/>
+<path class="wire arr" d="M417 351v18"/>
+<path class="wire arr" d="M471 351v18"/>
+<path class="wire arr" d="M501 821v18"/>
+<path class="wire arr" d="M548 512v-16"/>
+<path class="wire arr" d="M579 512v-16"/>
+<path class="wire arr" d="M371 759v18"/>
+<path class="wire arr" d="M112 878v18"/>
+<path class="wire arr" d="M75 632h25"/>
+<path class="wire arr" d="M75 747h25"/>
+<path class="wire arr" d="M39 915h23"/>
+<path class="wire arr" d="M258 561v26"/>
+<path class="wire arr" d="M259 567h29"/>
+<path class="wire arr" d="M373 706h22"/>
+<path class="wire arr" d="M278 819h-24"/>
+<path class="wire arr" d="M410 937h22"/>
+<use href="#junction" transform="translate(135 129)"/>
+<use href="#junction" transform="translate(190 129)"/>
+<use href="#junction" transform="translate(248 129)"/>
+<use href="#junction" transform="translate(521 128)"/>
+<use href="#junction" transform="translate(188 567)"/>
+<use href="#junction" transform="translate(188 706)"/>
+<rect x="50" y="45" width="38" height="52" rx="3" fill="#aaa" stroke="#555" stroke-width="1.8"/>
+<path d="M51 85h36m-36 5h36" stroke="#555" stroke-width="1.8"/>
+<rect x="56" y="50" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="72" y="50" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="56" y="61" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="72" y="61" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="56" y="72" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="72" y="72" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="116" y="45" width="38" height="52" rx="3" fill="#aaa" stroke="#555" stroke-width="1.8"/>
+<path d="M117 85h36m-36 5h36" stroke="#555" stroke-width="1.8"/>
+<rect x="122" y="50" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="138" y="50" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="122" y="61" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="138" y="61" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="122" y="72" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="138" y="72" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="229" y="45" width="38" height="52" rx="3" fill="#aaa" stroke="#555" stroke-width="1.8"/>
+<path d="M230 85h36m-36 5h36" stroke="#555" stroke-width="1.8"/>
+<rect x="235" y="50" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="251" y="50" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="235" y="61" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="251" y="61" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="235" y="72" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="251" y="72" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="295" y="45" width="38" height="52" rx="3" fill="#aaa" stroke="#555" stroke-width="1.8"/>
+<path d="M296 85h36m-36 5h36" stroke="#555" stroke-width="1.8"/>
+<rect x="301" y="50" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="317" y="50" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="301" y="61" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="317" y="61" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="301" y="72" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="317" y="72" width="9" height="8" fill="none" stroke="#555" stroke-width="1.5"/>
+<g transform="translate(435 48) scale(0.92)">
+<path d="M-62-4q6-10-1-21-7-14 4-18 9-4 12 8l3 11-7 4 4 7-6 5 4 7-4 7 5 7q6 4 20-2l16-6 3-46h37l3 46 18 6q16 6 20-2l3-8-5-7 5-7-5-6 3-5-7-7q-8-13 5-16 14-4 14 11l-2 14q10 27-3 40-6 5-23 5h-80q-32 0-26-32Z" fill="#aaa" stroke="#454545" stroke-width="2"/>
+<path d="M-18-41h36l-6 79h-24Z" fill="#bbb" stroke="#454545" stroke-width="2"/>
+<rect x="-6" y="38" width="12" height="26" rx="2" fill="#aaa" stroke="#454545" stroke-width="2"/>
+<path d="M-14-38h28m-25 4h22" stroke="#454545" stroke-width="1.7"/>
+</g>
+<g transform="translate(614 48) scale(0.92)">
+<path d="M-62-4q6-10-1-21-7-14 4-18 9-4 12 8l3 11-7 4 4 7-6 5 4 7-4 7 5 7q6 4 20-2l16-6 3-46h37l3 46 18 6q16 6 20-2l3-8-5-7 5-7-5-6 3-5-7-7q-8-13 5-16 14-4 14 11l-2 14q10 27-3 40-6 5-23 5h-80q-32 0-26-32Z" fill="#aaa" stroke="#454545" stroke-width="2"/>
+<path d="M-18-41h36l-6 79h-24Z" fill="#bbb" stroke="#454545" stroke-width="2"/>
+<rect x="-6" y="38" width="12" height="26" rx="2" fill="#aaa" stroke="#454545" stroke-width="2"/>
+<path d="M-14-38h28m-25 4h22" stroke="#454545" stroke-width="1.7"/>
+</g>
+<rect x="350" y="148" width="140" height="158" fill="#777"/>
+<text x="420" y="173" font-size="17" text-anchor="middle">YAW DAMPER</text>
+<rect x="381" y="182" width="80" height="39" fill="#080808" stroke="#ffbc17" stroke-width="1.5"/>
+<text x="421" y="198.44" font-size="12" text-anchor="middle" fill="#ffbc17"><tspan x="421" dy="0">YAW</tspan><tspan x="421" dy="13.8">DAMPER</tspan></text>
+<use href="#toggle" transform="translate(418 267) scale(1.36)"/>
+<text x="366" y="253" font-size="11" text-anchor="start">OFF</text>
+<text x="376" y="289" font-size="11" text-anchor="start">ON</text>
+<path d="M516 493 651 229l-20-5 10-24h46l-91 293Z" fill="#c3c3c3" stroke="#555" stroke-width="2"/>
+<text x="560" y="487" font-size="15" text-anchor="middle" fill="#111">RUDDER</text>
+<rect class="component" x="208" y="559" width="26" height="16"/>
+<path class="wire" d="M208 559l26 16"/>
+<rect class="component" x="208" y="698" width="26" height="16"/>
+<path class="wire" d="M208 698l26 16"/>
+<rect class="component" x="208" y="929" width="26" height="16"/>
+<path class="wire" d="M208 929l26 16"/>
+<rect class="component" x="95" y="263" width="74" height="42"/>
+<text x="132" y="280.57" font-size="14" text-anchor="middle"><tspan x="132" dy="0">RUDDER</tspan><tspan x="132" dy="16.1">TRIM</tspan></text>
+<rect class="component" x="233" y="245" width="89" height="59"/>
+<text x="277.5" y="271.07" font-size="14" text-anchor="middle"><tspan x="277.5" dy="0">L/ADIRU</tspan><tspan x="277.5" dy="16.1">R/ADIRU</tspan></text>
+<rect class="component" x="95" y="373" width="168" height="60"/>
+<text x="179" y="391.52" font-size="14" text-anchor="middle"><tspan x="179" dy="0">RUDDER FEEL</tspan><tspan x="179" dy="16.1">AND CENTERING</tspan><tspan x="179" dy="16.1">UNIT</tspan></text>
+<rect class="component" x="319" y="373" width="198" height="61"/>
+<text x="418" y="392.02" font-size="14" text-anchor="middle"><tspan x="418" dy="0">STALL MANAGEMENT</tspan><tspan x="418" dy="16.1">YAW DAMPER</tspan><tspan x="418" dy="16.1">COMPUTERS</tspan></text>
+<rect class="component" x="289" y="551" width="81" height="39"/>
+<text x="329.5" y="567.315" font-size="13" text-anchor="middle"><tspan x="329.5" dy="0">CONTROL</tspan><tspan x="329.5" dy="14.95">VALVE</tspan></text>
+<rect class="component" x="207" y="590" width="79" height="88"/>
+<text x="246.5" y="622.52" font-size="14" text-anchor="middle"><tspan x="246.5" dy="0">MAIN</tspan><tspan x="246.5" dy="16.1">YAW</tspan><tspan x="246.5" dy="16.1">DAMPER</tspan></text>
+<rect class="component" x="286" y="590" width="204" height="88"/>
+<text x="388" y="638.95" font-size="15" text-anchor="middle">MAIN RUDDER PCU</text>
+<rect class="component" x="355" y="678" width="36" height="20"/>
+<text x="373" y="692.29" font-size="13" text-anchor="middle">FFM</text>
+<rect class="component" x="397" y="678" width="82" height="39"/>
+<text x="438" y="694.315" font-size="13" text-anchor="middle"><tspan x="438" dy="0">CONTROL</tspan><tspan x="438" dy="14.95">VALVE</tspan></text>
+<rect class="component" x="326" y="777" width="93" height="59"/>
+<text x="372.5" y="795.02" font-size="14" text-anchor="middle"><tspan x="372.5" dy="0">STBY HYD</tspan><tspan x="372.5" dy="16.1">AUTO-ON</tspan><tspan x="372.5" dy="16.1">LOGIC</tspan></text>
+<rect class="component" x="434" y="853" width="129" height="47"/>
+<text x="498.5" y="873.07" font-size="14" text-anchor="middle"><tspan x="498.5" dy="0">STANDBY</tspan><tspan x="498.5" dy="16.1">YAW DAMPER</tspan></text>
+<rect class="component" x="434" y="900" width="129" height="48"/>
+<text x="498.5" y="920.57" font-size="14" text-anchor="middle"><tspan x="498.5" dy="0">STANDBY</tspan><tspan x="498.5" dy="16.1">RUDDER PCU</tspan></text>
+<path class="wire" d="M233 275h89"/>
+<circle class="component" cx="112" cy="915" r="15"/>
+<path d="M107 901h9v28h-9Z" fill="#ededed"/>
+<text x="16" y="638" font-size="15" text-anchor="start">HYD B</text>
+<text x="16" y="752" font-size="15" text-anchor="start">HYD A</text>
+<text x="13" y="892" font-size="15" text-anchor="start">STANDBY</text>
+<text x="75" y="948" font-size="14" text-anchor="start"><tspan x="75" dy="0">STANDBY</tspan><tspan x="75" dy="18">RUDDER</tspan><tspan x="75" dy="18">SHUTOFF</tspan><tspan x="75" dy="18">VALVE</tspan></text>
+<text x="205" y="827" font-size="14" text-anchor="start"><tspan x="205" dy="0">STBY</tspan><tspan x="205" dy="18">HYD</tspan><tspan x="205" dy="18">PUMP</tspan></text>
+</g>
+</svg>

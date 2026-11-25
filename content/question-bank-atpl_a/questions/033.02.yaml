@@ -1,0 +1,4211 @@
+- id: QFJGG
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QHDVW
+    - QPYRX
+  externalQuestionIds:
+    - ATPLQ-333847
+    - BGS-331242
+  annexes:
+    - id: ADXN
+  learningObjectiveIds:
+    - 033.02.01.01.01
+    - 033.02.01.01.02
+  templates:
+    - type: simple
+      question: Refer to E(LO)6 chart from the Jeppesen GSPRM 2017\. An aircraft is flying from VALENCIA (VLC) VOR/DME (39° 29'N, 000° 29'W) to ALMERIA (AMR) VOR/DME (36° 49'N, 002° 15'W) with the LE(R)-63 activated, using a conventional ATS route. What is the best route to avoid passing through this area?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VLC - B28 - VIBAS - N865 - AMR
+          wrongAnswers:
+            - text: VLC - G850 - AMR
+            - text: VLC - A34 - ALT - W810 - VSJ - W820 - AMR
+            - text: VLC - B28 - BAZAS - M192 - AMR
+- id: QHDVW
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QPYRX
+    - QFJGG
+  externalQuestionIds:
+    - ATPLQ-331004
+  annexes:
+    - id: ADXN
+  learningObjectiveIds:
+    - 033.02.01.01.01
+    - 033.02.01.01.02
+  templates:
+    - type: simple
+      question: Refer to E(LO)6 chart from the Jeppesen GSPRM 2017\. What is the best route for an aircraft flying from VALENCIA (VLC) VOR/DME (39° 29'N, 000° 29'W) to ALMERIA (AMR) VOR/DME (36° 49'N, 002° 15'W) with the LE(R)-63 not activated?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VLC - A34 - ALT - D - AMR
+          wrongAnswers:
+            - text: VLC - G850 - AMR
+            - text: VLC - B28 - R47- BLN - M192 - AMR
+            - text: VLC - B28 - BAZAS - M192 - AMR
+- id: QPBJS
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334554
+    - BGS-331426
+  annexes:
+    - id: AXXW
+  learningObjectiveIds:
+    - 033.02.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to E(LO)6 chart from the Jeppesen GSPRM 2017.   
+         You want to join an airway via waypoint DOPEL and fly at 178° on FL70. What kind of airway is this?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Non RNAV-route
+          wrongAnswers:
+            - text: Conditional route
+            - text: RNAV route
+            - text: P-RNAV
+- id: QPYRX
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QHDVW
+    - QFJGG
+  externalQuestionIds:
+    - ATPLQ-337893
+    - AVEXAM-53924
+    - AVEXAM-69678
+    - AVEXAM-6126
+    - BGS-331437
+  annexes:
+    - id: ADXN
+  learningObjectiveIds:
+    - 033.02.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to E(LO)6 chart from the Jeppesen GSPRM 2017.  
+        You are doing a VFR flight from VALENCIA (VLC) VOR/DME (39° 29'N, 000° 29'W) to ALMERIA (AMR) VOR/DME (36° 49'N, 002° 15'W). The LE(R)-63 is not activated and you choose to fly an ATS conditional route. What is the best route?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VLC - G850 - AMR
+          wrongAnswers:
+            - text: VLC - B28 - R47- BLN - M192 - AMR
+            - text: VLC - A34 - ALT - W810 - VSJ - W820 - AMR
+            - text: VLC - A34 - ALT - D - AMR
+- id: QHNXM
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334924
+    - BGS-331348
+    - AVEXAM-39141
+  annexes:
+    - id: AGEQ
+    - id: ADKV
+  learningObjectiveIds:
+    - 033.02.01.02.01
+    - 033.02.01.07.07
+  templates:
+    - type: simple
+      question: |-
+        Refer to figures and/or to chart E(LO)13 from the Jeppesen GSPRM 2017.
+
+        You are planning a flight from Ajaccio (LFKJ) to Marina di Campo (LIRJ), routing along airways A9 and L146.
+
+        Extract the information from the chart and complete the navigation plan.
+
+        What will be the total distance and estimated flight time?
+      explanation: The distance and time for airway A9 and airway L146 are read from chart E(LO)13 and added together, which gives 123 nm and 57 minutes.
+      presets:
+        - correctAnswers:
+            - text: 123 nm and 57 minutes
+          wrongAnswers:
+            - text: 18 nm and 7 minutes
+            - text: 118 nm and 55 minutes
+            - text: 135 nm and 52 minutes
+- id: QJLDJ
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QTAIA
+  externalQuestionIds:
+    - ATPLQ-332694
+    - BGS-331182
+    - AVEXAM-17359
+  annexes:
+    - id: AQIT
+  learningObjectiveIds:
+    - 033.02.01.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to Jeppesen GSPRM Training Route Manual - Chart "E(LO) 2".  
+        An aircraft is planned to fly from the reporting point NORBO (N55°36', W004°46') to Dean Cross DME (DCS) (N54°43', W003°20') along airway T256. Select the appropriate magnetic course(s) and distances(s) to be entered into the navigation flight plan.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "NORBO - T256 - NGY: 144°, 32 NM and NGY - T256 - DCS: 136°, 39 NM."
+          wrongAnswers:
+            - text: "NORBO - T256 - DCS: 144°, 61 NM. It changes into 136 M along T256 after NGY."
+            - text: "NORBO - T256 - DCS: 144°, 68 NM."
+            - text: "NORBO - T256 - OSMEG: 144°, 35 NM and OSMEG - T256 - DCS: 136°, 36 NM."
+- id: QTAIA
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QJLDJ
+  externalQuestionIds:
+    - ATPLQ-332524
+    - AVEXAM-75872
+  annexes:
+    - id: ATAE
+  learningObjectiveIds:
+    - 033.02.01.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to E(LO)2 chart from the Jeppesen GSPRM 2017.  
+        A pilot is planning an IFR flight from NORBO (N55°36' W004°46') to Dean Cross DME (DCS, N54°43' W003°20') via airway T256\. Select the corresponding distances which should be entered in the navigation flight plan.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: NORBO - 35NM - OSMEG - 36NM - DEAN CROSS
+          wrongAnswers:
+            - text: NORBO - 36 NM - OSMEG - 35 NM - DEAN CROSS
+            - text: NORBO - 32 NM - OSMEG - 39 NM - DEAN CROSS
+            - text: NORBO - 35 NM - OSMEG - 19 NM - DEAN CROSS
+- id: QUIJD
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338545
+    - AVEXAM-64411
+    - BGS-331225
+    - ATPLQ-333193
+    - ATPLQ-338712
+    - BGS-331432
+    - BGS-331375
+    - BGS-331045
+    - AVEXAM-1259
+    - ATPLQ-337049
+    - BGS-331308
+  annexes:
+    - id: ATNS
+    - id: AASQ
+    - id: ARMA
+  learningObjectiveIds:
+    - 033.02.01.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to the Jeppesen GSPRM chart for the area. Find the distance between two points given by their coordinates:
+
+        - Point 1: latitude N {{la1d}}° {{la1m}}', longitude {{lo1d}}° {{lo1m}}'
+        - Point 2: latitude N {{la2d}}° {{la2m}}', longitude {{lo2d}}° {{lo2m}}'
+
+        (Longitude is positive East and negative West, applied to both degrees and minutes.)
+
+        Give the distance in NM.
+      explanation: |-
+        The distance between two points is the great-circle distance. The central angle between them in degrees, multiplied by 60, gives the distance in NM (1 arc minute = 1 NM). Over short distances this is nearly the same as the plane approximation using the mean latitude to compress the difference of longitude.
+
+        **Solution**
+
+        Latitudes and longitudes are first converted to decimal degrees (degrees + minutes / 60).
+
+        $$
+        60\times \text{acos}(\text{sin}(\text{Point 1 latitude degrees}+\frac{\text{Point 1 latitude minutes}}{60})\times \text{sin}(\text{Point 2 latitude degrees}+\frac{\text{Point 2 latitude minutes}}{60})+\text{cos}(\text{Point 1 latitude degrees}+\frac{\text{Point 1 latitude minutes}}{60})\times \text{cos}(\text{Point 2 latitude degrees}+\frac{\text{Point 2 latitude minutes}}{60})\times \text{cos}(\text{Point 2 longitude degrees}+\frac{\text{Point 2 longitude minutes}}{60}-(\text{Point 1 longitude degrees}+\frac{\text{Point 1 longitude minutes}}{60}))) = \mathbf{ {{answer}}\ \text{NM} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: the convergence of the meridians was ignored (difference of longitude not multiplied by the cosine of the latitude).
+        - **{{d2}} NM**: the north-south and east-west components were added instead of combined as the hypotenuse.
+        - **{{d3}} NM**: the result was converted to statute miles.
+        - **{{d4}} NM**: the result was converted to km.
+      presets:
+        - variables:
+            la1d: 53
+            la1m: 36
+            lo1d: -1
+            lo1m: -5
+            la2d: 53
+            la2m: 45
+            lo2d: -2
+            lo2m: -6
+            answer: 37.2
+            d1: 61.7
+            d2: 45.2
+            d3: 42.9
+            d4: 69
+          correctAnswers:
+            - text: 37.2 NM
+          wrongAnswers:
+            - text: 61.7 NM
+            - text: 42.9 NM
+            - text: 69 NM
+            - text: 45.2 NM
+        - variables:
+            la1d: 53
+            la1m: 3
+            lo1d: -1
+            lo1m: -40
+            la2d: 53
+            la2m: 11
+            lo2d: 0
+            lo2m: -2
+            answer: 59.4
+            d1: 98.3
+            d2: 66.9
+            d3: 68.3
+            d4: 109.9
+          correctAnswers:
+            - text: 59.4 NM
+          wrongAnswers:
+            - text: 98.3 NM
+            - text: 68.3 NM
+            - text: 109.9 NM
+            - text: 66.9 NM
+        - variables:
+            la1d: 47
+            la1m: 54
+            lo1d: 13
+            lo1m: 56
+            la2d: 47
+            la2m: 30
+            lo2d: 14
+            lo2m: 30
+            answer: 33.2
+            d1: 41.6
+            d2: 46.8
+            d3: 38.2
+            d4: 61.4
+          correctAnswers:
+            - text: 33.2 NM
+          wrongAnswers:
+            - text: 41.6 NM
+            - text: 38.2 NM
+            - text: 61.4 NM
+            - text: 46.8 NM
+    - type: simple
+      question: "(See image or refer to Jeppesen GSPRM (2017)  chart E(LO)2)\rWhat is the magnetic track and distance from GOLES (N53° 36', W001° 05') to Pole Hill VOR (POL) (N53° 45', W002° 06')?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 284° / 37 NM
+          wrongAnswers:
+            - text: 104° / 27 NM
+            - text: 104° / 37 NM
+            - text: 284° / 27 NM
+    - type: simple
+      question: |-
+        Refer to Jeppesen GSPRM Training Route Manual - Chart "E LO 2"
+
+        What is the magnetic track and distance from waypoint GOLES (N53°36', W001°05') to POLE HILL (POL) VOR/DME (N53°45' W002°06')?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 284° and 37 NM
+          wrongAnswers:
+            - text: 284° and 27 NM
+            - text: 104° and 27 NM
+            - text: 104° and 37 NM
+    - type: simple
+      question: |-
+        Refer to chart E(LO)2 from Jeppesen GSPRM 2017. 
+        Find the magnetic bearing and distance from Trent (TNT) VOR/DME (53°03'N 001°40'W) to waypoint TIMPO (52°33'N 001°10'W).
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 149°M / 35 NM
+          wrongAnswers:
+            - text: 329°M / 35 NM
+            - text: 149°M / 25 NM
+            - text: 329°M / 25 NM
+    - type: simple
+      question: |-
+        (See image or refer to Jeppesen GSPRM (2017) chart E(LO)2)
+        The magnetic bearing and distance of waypoint TIPIL (N53°10', W001'44") from TRENT VORI DME (TNT) (N53°03', W001°40") are...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 341° and 7 NM.
+          wrongAnswers:
+            - text: 329° and 13 NM.
+            - text: 329° and 62 NM.
+            - text: 341° and 44 NM.
+- id: QNAIB
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339025
+    - AVEXAM-30777
+  annexes:
+    - id: ACJR
+  learningObjectiveIds:
+    - 033.02.01.02.02
+    - 033.02.01.04.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure or AMSTERDAM EHAM STAR 10-2B chart from the Jeppesen GSPRM 2017.  
+        Where is the initial Approach Fix (IAF)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: On the 292 radial and at 31 DME from SPL VOR/DME.
+          wrongAnswers:
+            - text: On the 241 radial and at 41.3 NM DME from SPL VORDME.
+            - text: As directed by ATC.
+            - text: Either at SUGOL or ROBVI.
+- id: QYHMX
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339949
+    - AVEXAM-10595
+  annexes:
+    - id: AASQ
+  learningObjectiveIds:
+    - 033.02.01.02.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to chart 'E LO 2' from Jeppesen GSPRM 2017.
+
+        Determine the magnetic course and distance from TRENT VOR/DME (TNT) to waypoint TIPIL.
+
+        Both locations can be found in chart section 7 C of the original GSPRM.
+      explanation: Measure the course from TRENT VOR/DME to TIPIL on the chart and convert it to magnetic. The distance is the short leg on the chart between the two points, so only the answer with the matching course and distance is correct.
+      presets:
+        - correctAnswers:
+            - text: 341° / 7 NM
+          wrongAnswers:
+            - text: 329° / 13 NM
+            - text: 340° / 5 NM
+            - text: 161° / 23 NM
+- id: QGRGH
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335130
+    - BGS-331376
+    - BGS-331312
+    - AVEXAM-75127
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.01
+  templates:
+    - type: simple
+      question: |-
+        An aircraft follows an IFR route between two airports. If one of the flight segments along the route has the following limiting altitudes specified below, how can the pilot correctly apply them?
+
+        MEA: 4500 ft   
+         MOCA: 1500 ft
+      explanation: The MEA ensures adequate navigation signal reception and communications as well as obstacle clearance. It is above the MOCA, so the flight must be planned at or above the MEA. With an MEA of 4 500 ft, 5 000 ft or above is correct.
+      presets:
+        - correctAnswers:
+            - text: Plan to fly at 5 000 ft or above to clear obstacles and to have adequate reception of radio navigation aids and communications.
+          wrongAnswers:
+            - text: Use the MEA value as the minimum altitude to achieve the required obstacle clearance for IFR flight as the MOCA value is for VFR flight.
+            - text: Plan to fly between 2 000 ft and 4 000 ft in order to remain within the protected and authorised dimensions of the route segment.
+            - text: Use the MOCA value as the minimum safe altitude within the dimensions of the route and MEA if flying within 25 NM of the route centreline.
+- id: QOLAB
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332276
+    - AVEXAM-58389
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.01
+  templates:
+    - type: simple
+      question: What is the difference between the Grid MORA and the Route MORA?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The Route MORA provides sufficient terrain clearance 10 nm each side of the route, the grid MORA provides sufficient terrain clearance for a particular segment of the latitude/longitude grid.
+          wrongAnswers:
+            - text: The Route MORA provides sufficient terrain clearance 5 nm on each side of the route, the Grid MORA provides it out to 25 nm in each direction from the route.
+            - text: The Route MORA only ever provides 1000 ft clearance with the highest terrain, whereas the Grid MORA provides 2000 ft terrain clearance over mountainous areas.
+            - text: The Grid MORA cannot be used when flying off a published airway, but the Route MORA can be.
+- id: QPBJW
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337472
+    - AVEXAM-65175
+    - ATPLQ-332409
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.01
+  templates:
+    - type: simple
+      question: "The lowest altitude between radio navigation aids, providing an acceptable coverage and fulfils obstacle clearance requirements between such fixes is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: MEA (Minimum Enroute Altitude)
+          wrongAnswers:
+            - text: MOCA (Minimum Obstacle Clearance Altitude)
+            - text: MORA (Minimum Off Route Altitude)
+            - text: MSA (Minimum Sector Altitude)
+    - type: simple
+      question: Mark the altitude which is defined as the lowest altitude between radio navigation fixes that assures acceptable navigation signal coverage and meets obstacle clearance requirements between those fixes.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Minimum En-route Altitude (MEA).
+          wrongAnswers:
+            - text: Minimum Off Route Altitude (MORA).
+            - text: Minimum Obstacle Clearance Altitude (MOCA).
+            - text: Minimum Sector Altitude (MSA).
+- id: QPZCW
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339339
+    - BGS-330858
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.01
+  templates:
+    - type: simple
+      question: According to ICAO, what is the lowest altitude that may be used which provides a minimum clearance of 300 m 1000 ft above all objects located in the area contained within a sector of a circle of 46 km (25 NM) radius centred on a radio aid to navigation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: MSA.
+          wrongAnswers:
+            - text: MOCA.
+            - text: MCA.
+            - text: MEA.
+- id: QSCHK
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335138
+    - AVEXAM-84137
+    - BGS-330092
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.01
+  templates:
+    - type: simple
+      question: "On an instrument approach chart, a minimum sector altitude (MSA) is defined in relation to a radio navigation facility. Without any particular specification on distance, this altitude is valid to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 25 NM
+          wrongAnswers:
+            - text: 10 NM
+            - text: 15 NM
+            - text: 20 NM
+- id: QTZUU
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335132
+    - AVEXAM-79662
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.01
+  templates:
+    - type: simple
+      question: During a flight, a pilot decides to make an unplanned diversion due to passenger illness. The route to the alternate requires them to turn 90 degrees away from the planned track and fly for 50 nm. What altitude should the pilot choose to ensure a safe clearance from terrain and man-made structures?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Grid Minimum Off-Route Altitude (GRID MORA), because it provides clearance from terrain and man-made obstacles over a wider area.
+          wrongAnswers:
+            - text: GRID MORA only provides a clearance of 1000 ft in areas where the highest elevations are 5000 ft MSL or lower.
+            - text: MORA, because it provides clearance over terrain and man-made structures on either side of the route centreline up to 2000 ft.
+            - text: Minimum Off-Route Altitude (MORA).
+- id: QULOB
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331647
+    - BGS-330720
+    - AVEXAM-63109
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.01
+  templates:
+    - type: simple
+      question: The Minimum Off-Route Altitude MORA according to the Jeppesen formula provides known obstruction clearance within which distance from the route centreline?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 10 NM
+          wrongAnswers:
+            - text: 20 NM
+            - text: 15 NM
+            - text: 5 NM
+- id: QGEMW
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334498
+    - BGS-331313
+  annexes:
+    - id: AHXO
+  learningObjectiveIds:
+    - 033.02.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to Alicante (LEAL) chart 13-4 from the Jeppesen GSPRM 2017.  
+        An aircraft is approaching aerodrome Alicante (LEAL) following the 243° radial onto the ALT VOR/DME and receives clearance for the VOR Y Rwy 28 procedure. What is the Minimum Safe (Sector) Altitude (MSA)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 5 900 ft
+          wrongAnswers:
+            - text: 3 500 ft
+            - text: 3 000 ft
+            - text: 6 900 ft
+- id: QJJIH
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QXCVZ
+    - QSYKT
+  externalQuestionIds:
+    - ATPLQ-339622
+    - AVEXAM-10388
+    - BGS-330126
+    - AVEXAM-33979
+    - BGS-330122
+    - BGS-330608
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.02
+  templates:
+    - type: simple
+      question: "An airway is marked FL80 1500a. This indicates that:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the minimum enroute altitude (MEA) is FL80.
+          wrongAnswers:
+            - text: the airway base is 1500 ft MSL.
+            - text: the airway extends from 1500 ft MSL to FL80.
+            - text: 1500 ft MSL is the minimum radio reception altitude (MRA).
+- id: QLSFG
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338387
+    - AVEXAM-77248
+    - BGS-331309
+  annexes:
+    - id: AGVL
+  learningObjectiveIds:
+    - 033.02.01.03.02
+    - 033.02.01.03.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to E(LO)5 chart from the Jeppesen GSPRM 2017.  
+        What must be the highest altitude of an obstacle without affecting the route segment from AKUTI (43°14'N, 008°56'E) to TORTU (43°23'N, 008°58'E) for an aircraft flying on airway A9?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 600 ft or less
+          wrongAnswers:
+            - text: 6 000 ft or less
+            - text: 5 000 ft or less
+            - text: 1 600 ft or less
+- id: QSYKT
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QJJIH
+  externalQuestionIds:
+    - ATPLQ-335424
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.02
+  templates:
+    - type: simple
+      question: An airway is marked 3500T 2100 a. This indicates that
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the minimum obstacle clearance altitude MOCA is 3500 ft.
+          wrongAnswers:
+            - text: the airway is a low level link route 2100 ft 3500 ft MSL.
+            - text: the airway base is 3500 ft MSL.
+            - text: the minimum enroute altitude MEA is 3500 ft.
+- id: QXCVZ
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QJJIH
+  externalQuestionIds:
+    - ATPLQ-337866
+    - AVEXAM-33011
+    - BGS-330128
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.02
+  templates:
+    - type: simple
+      question: "An airway is marked 5000 2900a. The notation 5000 is the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: minimum enroute altitude (MEA).
+          wrongAnswers:
+            - text: maximum authorised altitude (MAA).
+            - text: minimum holding altitude (MHA).
+            - text: base of the airway (AGL).
+- id: QCPDW
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334729
+    - BGS-331108
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.03
+  templates:
+    - type: simple
+      question: An incident with respect to safe terrain separation occurs during night VMC in Class G airspace. The aircraft involved in the incident is operating on an IFR flight plan. Considering this scenario, which of the statements below is correct with respect to terrain separation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In uncontrolled airspace, the Pilot-in-Command is solely responsible for ensuring safe terrain separation.
+          wrongAnswers:
+            - text: For all IFR flights, irrespective of the airspace class, maintaining safe terrain separation is the combined responsibility of the Pilot in Command and the Air Traffic Controller.
+            - text: Only during VMC is the Pilot-In-Command responsible for safe terrain separation.
+            - text: When operating at night in class G airspace, safe terrain separation is the responsibility of the Air Traffic Controller issuing radar vectors.
+- id: QDVWR
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335566
+    - BGS-331159
+    - AVEXAM-53044
+    - AVEXAM-50104
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.03
+  templates:
+    - type: simple
+      question: A light twin engined aircraft departs La Fleche aerodrome (LFAL) in France to route across to Nantes Airport (LFRS). Due to weather conditions the aircraft receives clearance to cross Nantes control zone, Class D airspace, IFR at 2000 ft with the pilot's own routing. Which of the following is correct regarding the responsibility for terrain separation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The Pilot-in-Command is always responsible for terrain separation, except when following vectors under IFR.
+          wrongAnswers:
+            - text: The Pilot-in-Command is always responsible for terrain separation.
+            - text: The Air Traffic Controller is responsible for terrain separation for all IFR flights in Class A, B, C or D airspace.
+            - text: The Air Traffic Controller is responsible for terrain separation when giving the aircraft an altitude to fly under IFR.
+- id: QEHDX
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QXYTI
+  externalQuestionIds:
+    - ATPLQ-333260
+    - AVEXAM-43429
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.03
+  templates:
+    - type: simple
+      question: An IFR flight has been given descent instructions below the Minimum Safe Altitude (MSA) but above the Minimum Vectoring Altitude (MVA). The temperature is ISA -10°C. Who is responsible for terrain separation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The PIC and the routing should not be accepted.
+          wrongAnswers:
+            - text: The PIC and the PIC should accept the routing.
+            - text: The Controller and the PIC should not accept the routing.
+            - text: The Controller and the PIC should accept the routing.
+    - type: simple
+      question: When an IFR flight under radar vectors is instructed to descend below the Minimum Safe Altitude (MSA) but above the Minimum Vectoring Altitude (MVA) in ISA -10°C conditions, who assumes responsibility for terrain separation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The Controller, but the PIC should NOT accept the clearance if its unsuitable due to low temperature.
+          wrongAnswers:
+            - text: The PIC, but the PIC should NOT accept the clearance if its unsuitable due to low temperature.
+            - text: The Controller, and the PIC should accept the clearance.
+            - text: The PIC, and the PIC should accept the clearance.
+- id: QKPCF
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332053
+    - AVEXAM-10032
+    - BGS-331148
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.03
+  templates:
+    - type: simple
+      question: Who is responsible for terrain separation during an IFR flight on an ATS route?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The Pilot-in-Command.
+          wrongAnswers:
+            - text: The aircraft owner.
+            - text: The Operator.
+            - text: Air Traffic Control service.
+- id: QXYTI
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QEHDX
+  externalQuestionIds:
+    - ATPLQ-332457
+    - ATPLQ-336167
+    - AVEXAM-32993
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.03
+  templates:
+    - type: simple
+      question: A pilot is being vectored in controlled airspace and is told to descend below the Minimum Safe Altitude (MSA) but not below the Minimum Radar Vectoring Altitude (MRVA). What should the pilot do?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Follow the commands of the controller ONLY if the commander thinks it is safe regarding terrain separation.
+          wrongAnswers:
+            - text: Declare an emergency and climb back to MSA.
+            - text: Turn around and leave the controlled airspace.
+            - text: Follow the commands of the controller who is fully responsible for terrain separation.
+    - type: simple
+      question: A pilot is being radar vectored in controlled airspace below the Minimum Safe Altitude (MSA) but above the Minimum Vectoring Altitude (MVA). The temperature is ISA -10°C. Who is responsible for terrain separation and what should the commander do?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ATC is responsible and commander should reject instruction if it is dangerous, because temperature below ISA.
+          wrongAnswers:
+            - text: Commander is responsible for terrain separation and commander should accept.
+            - text: ATC is responsible and commander should always accept.
+            - text: Commander is responsible and commander should always accept.
+    - type: simple
+      question: A pilot in controlled airspace, receiving radar vectors, is instructed to descend below the Minimum Safe Altitude (MSA) but not below the Minimum Radar Vectoring Altitude (MRVA). How should the pilot proceed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Follow the commands of the controller ONLY if the commander thinks it is safe regarding terrain separation.
+          wrongAnswers:
+            - text: Declare an emergency and climb back to MSA.
+            - text: Follow the commands of the controller who is fully responsible for terrain separation.
+            - text: Turn around and leave the controlled airspace.
+- id: QRERM
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-333423
+    - BGS-330003
+    - AVEXAM-49563
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.04
+  templates:
+    - type: simple
+      question: "VFR flights shall not be flown over the congested areas of cities at a height less than:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 000 ft above the highest obstacle within a radius of 600 m from the aircraft.
+          wrongAnswers:
+            - text: 2 000 ft above the highest obstacle within a radius of 600 ft from the aircraft.
+            - text: 500 ft above the highest obstacle.
+            - text: the highest obstacle.
+        - correctAnswers:
+            - text: 1000 ft above the highest obstacle within a radius of 600 m from the aircraft.
+          wrongAnswers:
+            - text: 2000 ft above the highest obstacle within a radius of 600 ft from the aircraft.
+            - text: 500 ft above the highest obstacle.
+            - text: the highest obstacle.
+- id: QMLHO
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QZZBT
+  externalQuestionIds:
+    - ATPLQ-334231
+    - AVEXAM-44448
+    - AVEXAM-93697
+    - BGS-331149
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.04
+  templates:
+    - type: simple
+      question: "The MOC value to be applied in the primary area for the en-route phase of an IFR flight in mountainous areas, where the variation in terrain elevation is greater than 1 500 m, is:"
+      explanation: For en-route IFR flight, the minimum obstacle clearance in the primary area is 300 m. In mountainous areas it is 450 m where the variation in terrain elevation is 900 m to 1 500 m, and 600 m where it is greater than 1 500 m.
+      presets:
+        - correctAnswers:
+            - text: 600 m
+          wrongAnswers:
+            - text: 1 000 m
+            - text: 300 m
+            - text: 0 m
+- id: QPBHS
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-336106
+    - AVEXAM-57098
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.04
+  templates:
+    - type: simple
+      question: "The minimum obstacle clearance (MOC) value to be applied in the primary area of a mountainous area during the en-route phase of an IFR flight is:"
+      explanation: In the primary area of a mountainous area, the en-route MOC is 1 500 ft (450 m) where the variation in terrain elevation is below 5 000 ft, and 2 000 ft (600 m) where the variation is greater.
+      presets:
+        - correctAnswers:
+            - text: "If variation in terrain elevation is less than 5 000 ft: 1 500 ft, if variation is greater than 5 000 ft: 2 000 ft."
+          wrongAnswers:
+            - text: Always 1 000 ft.
+            - text: "If variation in terrain elevation is less than 5 000 ft: 2 000 ft, if variation is greater than 5 000 ft: 1 500 ft."
+            - text: Always 2 000 ft.
+- id: QZZBT
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QMLHO
+  externalQuestionIds:
+    - ATPLQ-335794
+    - AVEXAM-18125
+    - AVEXAM-39826
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.04
+  templates:
+    - type: simple
+      question: What is the MOC value to be applied in the primary area for the en-route phase of an IFR flight in mountainous areas, where the variation in terrain elevation is 2 000 ft?
+      explanation: A terrain elevation variation of 2 000 ft is below the mountainous thresholds, so the standard en-route MOC of 300 m (1 000 ft) applies. The 600 m value is for variations greater than 1 500 m.
+      presets:
+        - correctAnswers:
+            - text: 300 m
+          wrongAnswers:
+            - text: 1 000 m
+            - text: 600 m
+            - text: 450 m
+- id: QCKPM
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QLQZV
+  externalQuestionIds:
+    - ATPLQ-335903
+    - BGS-331084
+    - AVEXAM-80970
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.04
+  templates:
+    - type: simple
+      question: Except for a take-off or landing, an IFR flight has to be flown at a level which is not below the minimum flight altitude established by the State overflown. If no such minimum flight altitude has been established, what is the minimum altitude of an aircraft above the highest obstacle over high terrain, or in mountainous areas?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: At least 2000 ft above the highest obstacle located within 8 km of the estimated position of the aircraft.
+          wrongAnswers:
+            - text: At least 1000 ft above the highest obstacle located within 6 km of the estimated position of the aircraft.
+            - text: At least 2000 ft above the highest obstacle located within 6 km of the estimated position of the aircraft.
+            - text: At least 1000 ft above the highest obstacle located within 8 km of the estimated position of the aircraft.
+- id: QLQZV
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QCKPM
+  externalQuestionIds:
+    - ATPLQ-339320
+    - BGS-331085
+    - AVEXAM-92267
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.04
+  templates:
+    - type: simple
+      question: Except when necessary for take-off or landing, or except when specifically authorised by the competent authority, an IFR flight shall be flown over high terrain or in mountainous areas at a level which is at least (1)..... above the highest obstacle located within (2)..... of the estimated position of the aircraft.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) 600 m (2000 ft); (2) 8 km
+          wrongAnswers:
+            - text: (1) 300 m (1000 ft); (2) 5 km
+            - text: (1) 600 m (2000 ft); (2) 5 km
+            - text: (1) 300 m (1000 ft); (2) 8 km
+- id: QRSBK
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334492
+    - BGS-331151
+    - AVEXAM-57457
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.04
+    - 033.02.01.03.08
+  templates:
+    - type: simple
+      question: |-
+        How much is the clearance passing the highest obstacle in the following scenario?
+
+        An aircraft is flying at FL{{fl}} in mountainous terrain on the northern side of the Alps and the charted minimum grid-area altitude is {{mga}} ft.
+
+        The outside air temperature at FL{{fl}} is {{oat}}°C.
+
+        The QNH is {{qnh}} hPa, given by a meteorological station with an elevation of {{elev}} ft.
+
+        Assume 1 hPa = 30 ft. (The minimum grid-area altitude includes a 2 000 ft obstacle clearance in mountainous terrain.)
+      explanation: |-
+        The altimeter at a flight level reads against 1013.25 hPa, so with a lower QNH the true altitude is lower; every hPa below standard is 30 ft. In cold air the true altitude is further reduced by 4 ft per 1 000 ft (above the station elevation) per °C below ISA. The highest obstacle is the minimum grid-area altitude minus the 2 000 ft clearance included in it.
+
+        **Solution**
+
+        Altitude with QNH = {{macro1}} - ({{macro2}} * 30) = {{macro3}} ft
+        ISA deviation = {{oat}} - ({{macro4}}) = {{macro5}} °C
+        Temperature correction = 0.004 * {{macro5}} * ({{macro3}} - {{elev}}) = {{macro6}} ft
+        True altitude = {{macro7}} ft
+        Highest obstacle = {{macro8}} ft
+
+        Clearance = **{{answer}} ft**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft**: ignores the QNH correction.
+        - **{{d2}} ft**: ignores the temperature correction.
+        - **{{d3}} ft**: forgets the 2 000 ft clearance already contained in the minimum grid-area altitude.
+        - **{{d4}} ft**: applies the QNH correction with the wrong sign.
+        - **{{d5}} ft**: applies the temperature correction with the wrong sign.
+      presets:
+        - variables:
+            fl: 170
+            mga: 16200
+            oat: -29
+            qnh: 1000.25
+            elev: 13500
+            macro1: 17000
+            macro2: 13
+            macro3: 16610
+            macro4: -19
+            macro5: -10
+            macro6: -124
+            macro7: 16486
+            macro8: 14200
+            answer: 2286
+            d1: 2660
+            d2: 2410
+            d3: 286
+            d4: 3066
+            d5: 2534
+          correctAnswers:
+            - text: 2286 ft
+          wrongAnswers:
+            - text: 286 ft
+            - text: 3066 ft
+            - text: 2660 ft
+            - text: 2410 ft
+            - text: 2534 ft
+        - variables:
+            fl: 120
+            mga: 12500
+            oat: -12
+            qnh: 1005
+            elev: 8000
+            macro1: 12000
+            macro2: 8
+            macro3: 11753
+            macro4: -9
+            macro5: -3
+            macro6: -45
+            macro7: 11707
+            macro8: 10500
+            answer: 1207
+            d1: 1452
+            d2: 1253
+            d3: -793
+            d4: 1702
+            d5: 1298
+          correctAnswers:
+            - text: 1207 ft
+          wrongAnswers:
+            - text: -793 ft
+            - text: 1702 ft
+            - text: 1452 ft
+            - text: 1253 ft
+            - text: 1298 ft
+        - variables:
+            fl: 190
+            mga: 17800
+            oat: -35
+            qnh: 995.25
+            elev: 9000
+            macro1: 19000
+            macro2: 18
+            macro3: 18460
+            macro4: -23
+            macro5: -12
+            macro6: -454
+            macro7: 18006
+            macro8: 15800
+            answer: 2206
+            d1: 2720
+            d2: 2660
+            d3: 206
+            d4: 3286
+            d5: 3114
+          correctAnswers:
+            - text: 2206 ft
+          wrongAnswers:
+            - text: 206 ft
+            - text: 3286 ft
+            - text: 2720 ft
+            - text: 2660 ft
+            - text: 3114 ft
+- id: QZEQP
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339004
+    - BGS-331122
+    - BGS-330994
+    - BGS-330841
+    - ATPLQ-334774
+    - BGS-331510
+    - BGS-331530
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.04
+  templates:
+    - type: simple
+      question: For Commercial Air Transport operations over a mountainous area where the terrain elevation is up to 7000 ft, what is the minimum obstacle clearance guaranteed by MOCA?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 600 m
+          wrongAnswers:
+            - text: 900 m
+            - text: 450 m
+            - text: 300 m
+    - type: simple
+      question: An airway in mountainous terrain is designed so that the lowest level is above the Minimum Obstacle Clearance Altitude (MOCA). What is the approximate minimum clearance used in calculating the MOCA?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1000 ft clearance over obstacles up to and including 5000 ft; and 2000 ft clearance for obstacles over 5000 ft in elevation.
+          wrongAnswers:
+            - text: 1000 ft for all mountainous terrain.
+            - text: 1500 ft for terrain elevations less than 5000 ft; 2000 ft for terrain elevations greater than 5000 ft.
+            - text: 1500 ft for all mountainous terrain.
+        - correctAnswers:
+            - text: 1000 ft for terrain elevations less than 6000 ft; 2000 ft for terrain elevations greater than 6000 ft.
+          wrongAnswers:
+            - text: 1500 ft for terrain elevations less than 5000 ft; 2000 ft for terrain elevations greater than 5000 ft.
+            - text: 1000 ft for all mountainous terrain.
+            - text: 1500 ft for all mountainous terrain.
+- id: QOTBC
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - BGS-330085
+    - BGS-330080
+    - BGS-330084
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.04
+  templates:
+    - type: simple
+      question: Refer to the annex  - An aircraft has to fly on airways from ODIN (55°35'N 010°39'E) to BOTTNA (57°45'N 013°48'E). - Which of the following is an acceptable route for this flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ODN UR156 SKA UH42 BTD
+          wrongAnswers:
+            - text: ODN UR12 PER UG5 SHG UH42 BTD
+            - text: ODN UR156 LAV D17 CINDY UR46 BTD
+            - text: ODN UR12/UN872 HIL UV30 BTD
+    - type: simple
+      question: Refer to the annex  - An aircraft has to fly on airways from SVEDA (56°10'N 012°34'E) to SKARA (58°23'N 013°15'E). - Which of the following is the correct route?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SVD UH40 PAPER UA9 BAK UB44 SKA
+          wrongAnswers:
+            - text: SVD UB45 LAV UR156 SKA
+            - text: UR1 HIL UV30 BTD UH42 SKA
+            - text: SVD UH40 PAPER UA9 BAK UR156 SKA
+    - type: simple
+      question: Refer to the annex  - An aircraft has to fly on airways from SKARA (58°23'N 013°15'E) to SVEDA (56°10'N 012°34'E). - Which of the following is an acceptable route for this flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SKA UH42 BTD UV30 HIL UR1 SVD
+          wrongAnswers:
+            - text: SKA UB44 BAK UA9 PAPER UH40 SVD
+            - text: SKA UR156 LAV UB45 SVD
+            - text: SKA DCT SVD
+- id: QQLGV
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339109
+    - BGS-331028
+    - AVEXAM-18690
+    - ATPLQ-337572
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.05
+  templates:
+    - type: simple
+      question: An aircraft is making a 2D (LNAV) approach under IMC, to an aerodrome where the temperature is significantly different from ISA. Which of the following is correct regarding temperature corrections to the MDA?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The Pilot-In-Command is responsible for making a correction if the temperature is much lower than ISA.
+          wrongAnswers:
+            - text: The Controller will pass on a correction when the temperature is much lower than ISA.
+            - text: The Pilot-In-Command is responsible for making a correction if the temperature is much higher than ISA.
+            - text: The Controller will pass on a correction when the temperature is much higher than ISA.
+- id: QSGHA
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332054
+    - AVEXAM-59063
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.05
+  templates:
+    - type: simple
+      question: "The temperature correction in a instrument approach must be applied when it is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Colder than ISA and correction is added to the DH.
+          wrongAnswers:
+            - text: Colder than ISA and correction is subtracted from the DH.
+            - text: Warmer than ISA and correction is subtracted from the DH.
+            - text: Warmer than ISA and correction is added to the DH.
+- id: QCABI
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334890
+    - BGS-331377
+    - BGS-331325
+    - AVEXAM-68703
+  annexes:
+    - id: AXVE
+  learningObjectiveIds:
+    - 033.02.01.03.06
+  templates:
+    - type: simple
+      question: |-
+        Refer to Aberdeen Chart 10-1R from the Jeppesen GSPRM 2017.  
+        What is the Radar Minimum Altitude for an aircraft on a magnetic bearing of 100° from the Aberdeen aerodrome (EGPD) and at a distance of 13 NM from the aerodrome?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 500 ft
+          wrongAnswers:
+            - text: 2 300 ft
+            - text: 2 800 ft
+            - text: 4 100 ft
+- id: QIEOA
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337243
+    - AVEXAM-94071
+    - BGS-331439
+    - BGS-331221
+  annexes:
+    - id: AXVE
+  learningObjectiveIds:
+    - 033.02.01.03.06
+  templates:
+    - type: simple
+      question: |-
+        Refer to ABERDEEN - Chart 10-1R from Jeppesen GSPRM 2017.  
+        You are approaching Aberdeen airport from 18 NM SW. What minimum radar altitudes are you passing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 4 100 ft to 3 200 ft to 2 800 ft to 2 300 ft.
+          wrongAnswers:
+            - text: 2 500 ft to 2 300 ft to 1 700 ft.
+            - text: 2 300 ft to 2 000 ft to 2 300 ft.
+            - text: 4 100 ft to 2 800 ft to 2 300 ft to 1 700 ft.
+    - type: simple
+      question: |-
+        (See image or refer to Jeppesen GSPRM (2017) Aberdeen (EGPD) chart 10-1R)
+        What are the minimum radar altitudes when approaching the Aberdeen VOR, ADN, on the 090° radial?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2000 ft reducing to 1700 ft.
+          wrongAnswers:
+            - text: 2800 ft reducing to 1700 ft.
+            - text: 2800 ft reducing to 2300 ft then 1700 ft.
+            - text: 3200 ft reducing to 2300 ft then 1700 ft.
+    - type: simple
+      question: |-
+        (See image or refer to Jeppesen GSPRM Aberdeen (EGPD) chart 10-1R )
+        What are the minimum radar altitudes when approaching Aberdeen airport from the south-west at a range of 18 NM?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 4100 ft reducing to 3200 ft, 2800 ft and then 2300 ft.
+          wrongAnswers:
+            - text: 2500 ft reducing to 2000 ft then increasing to 2300 ft.
+            - text: 3200 ft reducing to 2300 ft and then 1700 ft.
+            - text: 4100 ft reducing to 2800 ft, 2300 ft and then 1700 ft.
+- id: QAEIL
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334872
+    - BGS-331391
+    - ATPLQ-339780
+    - ATPLQ-334059
+    - AVEXAM-11912
+    - BGS-331175
+    - BGS-331077
+    - AVEXAM-93020
+    - AVEXAM-37934
+    - AVEXAM-22975
+    - ATPLQ-339171
+    - ATPLQ-334865
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.07
+  templates:
+    - type: simple
+      question: |-
+        Determine the lowest usable IFR flight level that gives the required obstacle clearance over high terrain.
+
+        - Highest terrain elevation: {{terrain}} ft
+        - Required obstacle clearance: {{clearance}} ft
+        - QNH: {{qnh}} hPa
+        - Temperature: ISA {{dev}} °C
+
+        Use 30 ft per hPa and a height correction of 4 % per 10 °C deviation from ISA. Round up to the next 1 000 ft and give the answer as a flight level.
+      explanation: |-
+        The lowest usable flight level must clear the terrain by the required obstacle clearance. The QNH and the temperature both change the height. A QNH below 1013 hPa means the aircraft is higher than its flight level indicates, so 30 ft per hPa is added. In cold air the true height is lower than the pressure altitude, so the terrain height is increased by 4 % per 10 °C below ISA.
+
+        **Solution**
+
+        Terrain corrected for temperature: $$\text{Terrain elevation}\times (1-0.004\times \text{ISA deviation})$$ = {{macro2}} ft
+
+        QNH correction: $$(1013-\text{QNH})\times 30$$ = {{macro4}} ft
+
+        Required height: {{macro5}} ft, rounded up to the next 1 000 ft gives **FL{{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **FL{{d1}}**: leaves out the obstacle clearance.
+        - **FL{{d2}}**: adds the obstacle clearance twice.
+        - **FL{{d3}}**: adds one more 1 000 ft of margin than required.
+        - **FL{{d4}}**: rounds down instead of up to the next 1 000 ft.
+      presets:
+        - variables:
+            terrain: 7220
+            clearance: 2000
+            qnh: 990
+            dev: -10
+            macro2: 7509
+            macro4: 690
+            macro5: 10199
+            answer: 110
+            d1: 90
+            d2: 130
+            d3: 120
+            d4: 100
+          correctAnswers:
+            - text: 110 FL
+          wrongAnswers:
+            - text: 90 FL
+            - text: 120 FL
+            - text: 100 FL
+            - text: 130 FL
+        - variables:
+            terrain: 6240
+            clearance: 2000
+            qnh: 1000
+            dev: -12
+            macro2: 6540
+            macro4: 390
+            macro5: 8930
+            answer: 90
+            d1: 70
+            d2: 110
+            d3: 100
+            d4: 80
+          correctAnswers:
+            - text: 90 FL
+          wrongAnswers:
+            - text: 70 FL
+            - text: 100 FL
+            - text: 80 FL
+            - text: 110 FL
+        - variables:
+            terrain: 5880
+            clearance: 2000
+            qnh: 1003
+            dev: -18
+            macro2: 6303
+            macro4: 300
+            macro5: 8603
+            answer: 90
+            d1: 70
+            d2: 110
+            d3: 100
+            d4: 80
+          correctAnswers:
+            - text: 90 FL
+          wrongAnswers:
+            - text: 70 FL
+            - text: 100 FL
+            - text: 80 FL
+            - text: 110 FL
+- id: QBEMV
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334435
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.07
+  templates:
+    - type: simple
+      question: |-
+        Determine the lowest usable flight level for an IFR flight provided that the MOCA is 3 300 ft and the transition altitude is 3 000 ft, given:
+
+        QNH: 1020 hPa   
+         Temperature: -7°C   
+         The airport elevation is: 27 ft   
+         Magnetic course: 182°   
+         Variation: 8°E
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL40
+          wrongAnswers:
+            - text: FL45
+            - text: FL50
+            - text: FL60
+- id: QCLNX
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337501
+    - AVEXAM-60222
+    - BGS-331216
+    - BGS-331436
+    - AVEXAM-99399
+    - BGS-331040
+    - ATPLQ-336652
+    - ATPLQ-339725
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.07
+  templates:
+    - type: simple
+      question: |-
+        An aircraft on a magnetic track of 130° has to overfly an obstacle of {{obst}} ft with a clearance of {{clr}} ft.
+
+        The QNH is {{qnh}} hPa and OAT is ISA + 10 °C.
+
+        What is the minimum flight level (number, e.g. 290 for FL290) at which the aircraft may fly in RVSM airspace?
+
+        Assume 1 hPa = 30 ft.
+      explanation: |-
+        The minimum altitude is obstacle plus clearance, corrected for QNH (30 ft per hPa below 1013 hPa). Warm air (above ISA) makes the real altitude higher than indicated, so no temperature margin is required. On an easterly magnetic track (000-179°) IFR levels in RVSM airspace are odd thousands (FL290, 310, ...), so the result is rounded up to the next one.
+
+        **Solution**
+
+        Required pressure altitude = $$\text{Obstacle elevation}+\text{Required clearance}$$ + {{macro2}} = {{macro3}} ft
+
+        Next odd flight level: **FL{{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} **: even levels (westerly semicircle) were used.
+        - **{{d2}} **: no semicircular rounding was applied.
+        - **{{d3}} **: rounded up one odd level too high.
+        - **{{d4}} **: even level one step too high.
+      presets:
+        - variables:
+            obst: 26500
+            clr: 2000
+            qnh: 1003
+            macro2: 300
+            macro3: 28800
+            answer: 290
+            d1: 300
+            d2: 288
+            d3: 310
+            d4: 320
+          correctAnswers:
+            - text: 290 FL
+          wrongAnswers:
+            - text: 300 FL
+            - text: 310 FL
+            - text: 320 FL
+            - text: 288 FL
+        - variables:
+            obst: 24300
+            clr: 2000
+            qnh: 1020
+            macro2: -210
+            macro3: 26090
+            answer: 270
+            d1: 280
+            d2: 261
+            d3: 290
+            d4: 300
+          correctAnswers:
+            - text: 270 FL
+          wrongAnswers:
+            - text: 280 FL
+            - text: 290 FL
+            - text: 300 FL
+            - text: 261 FL
+    - type: simple
+      question: An aircraft on a track of 240°(M) has to overfly an obstacle of 26 500 ft with a clearance of 2000 ft. The QNH is 1013 hPa and OAT is ISA + 10°C. What is the minimum Flight Level (FL) at which the aircraft may fly in RVSM airspace?Assume 1 hPa = 30 ft
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL300
+          wrongAnswers:
+            - text: FL290
+            - text: FL310
+            - text: FL320
+    - type: simple
+      question: An aircraft on a track of 140°(M) has to overfly an obstacle of 8400 ft with a clearance of 2000 ft. The QNH is 1005 hPa and the OAT is ISA -15°C. What is the minimum flight level (FL) at which the aircraft may fly in non-RVSM airspace?Assume 1 hPa = 30 ft
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL130
+          wrongAnswers:
+            - text: FL120
+            - text: FL110
+            - text: FL100
+- id: QFSLY
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-333015
+    - ATPLQ-333054
+    - AVEXAM-81609
+    - AVEXAM-84975
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.07
+  templates:
+    - type: simple
+      question: |-
+        An aircraft is following a route outside controlled airspace where the MOCA is 3300 ft and the transition altitude is 3000 ft. Given the following information, what is the minimum flight level for the aircraft in IFR?
+
+        Magnetic Track: 182º  
+        Magnetic Variation: 8ºW  
+        Nearby Aerodrome Elevation: 27 ft  
+        Nearby Aerodrome QNH: 991 hPa  
+        Nearby Aerodrome Temperature: -7ºC
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL60
+          wrongAnswers:
+            - text: FL65
+            - text: FL45
+            - text: FL50
+- id: QIPDM
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334350
+    - BGS-331480
+    - BGS-331201
+    - AVEXAM-26818
+    - ATPLQ-339968
+    - AVEXAM-38571
+    - BGS-330090
+    - ATPLQ-332692
+    - BGS-331231
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.07
+  templates:
+    - type: simple
+      question: |-
+        An IFR aircraft on a track between 180° and 359° (magnetic) has to clear an obstacle of {{obst}} ft with a minimum obstacle clearance of {{clr}} ft.
+
+        The QNH received from a nearby airport at sea level is {{qnh}} hPa and the temperature is ISA -{{cold}} °C.
+
+        What is the lowest flight level (number, e.g. 140 for FL140) at which the aircraft may fly?
+
+        Assume 1 hPa = 30 ft and a temperature correction of 4 ft per °C of ISA deviation per 1000 ft of height.
+      explanation: |-
+        The minimum altitude is obstacle elevation plus clearance. A QNH above 1013 hPa lowers the required flight level, and a temperature below ISA calls for an additional margin because pressure levels lie lower. On a westerly magnetic track (180-359°) IFR flight levels are even thousands (FL80, 100, 120, 140...), so the result is rounded up to the next one.
+
+        **Solution**
+
+        Minimum altitude = {{macro1}} ft
+
+        QNH correction = {{macro2}} ft, temperature correction = {{macro3}} ft
+
+        Required pressure altitude = {{macro4}} ft, next even level: **FL{{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} **: the odd-thousand levels of the easterly semicircle were used.
+        - **{{d2}} **: no semicircular rounding was applied (next flight level only).
+        - **{{d3}} **: the temperature correction was forgotten.
+        - **{{d4}} **: one level too high (rounded up twice).
+        - **{{d5}} **: rounded to the next 500 ft only, ignoring the even-thousand rule.
+      presets:
+        - variables:
+            obst: 10600
+            clr: 1500
+            qnh: 1035
+            cold: 15
+            macro1: 12100
+            macro2: -660
+            macro3: 726
+            macro4: 12166
+            answer: 140
+            d1: 130
+            d2: 122
+            d3: 120
+            d4: 160
+            d5: 125
+          correctAnswers:
+            - text: 140 FL
+          wrongAnswers:
+            - text: 120 FL
+            - text: 160 FL
+            - text: 130 FL
+            - text: 122 FL
+            - text: 125 FL
+        - variables:
+            obst: 6600
+            clr: 1500
+            qnh: 1030
+            cold: 15
+            macro1: 8100
+            macro2: -510
+            macro3: 486
+            macro4: 8076
+            answer: 100
+            d1: 90
+            d2: 81
+            d3: 80
+            d4: 120
+            d5: 85
+          correctAnswers:
+            - text: 100 FL
+          wrongAnswers:
+            - text: 80 FL
+            - text: 120 FL
+            - text: 90 FL
+            - text: 81 FL
+            - text: 85 FL
+        - variables:
+            obst: 11800
+            clr: 2000
+            qnh: 1013
+            cold: 7
+            macro1: 13800
+            macro2: 0
+            macro3: 386
+            macro4: 14186
+            answer: 160
+            d1: 150
+            d2: 142
+            d3: 140
+            d4: 180
+            d5: 145
+          correctAnswers:
+            - text: 160 FL
+          wrongAnswers:
+            - text: 140 FL
+            - text: 180 FL
+            - text: 150 FL
+            - text: 142 FL
+            - text: 145 FL
+    - type: simple
+      question: |-
+        An aircraft on a track of 046º(M) has to fly over an obstacle of 4600 ft with a clearance of 1000 ft. The QNH is 990 hPa and the temperature is ISA -15°C. What is the minimum safe flight level at which the aircraft may fly?
+
+        Assume 30ft per hPa.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL70
+          wrongAnswers:
+            - text: FL80
+            - text: FL50
+            - text: FL60
+        - correctAnswers:
+            - text: FL 70
+          wrongAnswers:
+            - text: FL 80
+            - text: FL 50
+            - text: FL 60
+- id: QRLAE
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335661
+    - AVEXAM-42964
+    - BGS-330089
+    - BGS-330761
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.07
+  templates:
+    - type: simple
+      question: |-
+        You must fly IFR on an airway oriented {{track}}° magnetic with a minimum sector altitude (MSA) of {{msa}} ft.
+
+        - QNH: {{qnh}} hPa
+        - Temperature: ISA {{isa}}°C
+
+        What is the minimum flight level you must fly at?
+      explanation: |-
+        A minimum sector altitude is a height above sea level. The height is corrected for the temperature (4 ft per degree per 1000 ft) and for the QNH (30 ft per hPa), and then the lowest IFR flight level for the track that clears the result is chosen. For tracks of 000° to 179° magnetic the levels are odd thousands of feet, and for 180° to 359° they are even thousands.
+
+        **Solution**
+
+        - Height corrected for temperature: {{macro1}} ft
+        - Height corrected for QNH: {{macro2}} ft
+        - Lowest IFR level for the track at or above that height: **FL{{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **FL{{d1}}**: rounds the MSA up to the next even thousand without any corrections.
+        - **FL{{d2}}**: applies the QNH correction only and does not pick a valid level for the track.
+        - **FL{{d3}}**: applies the temperature correction only and does not pick a valid level for the track.
+      presets:
+        - variables:
+            track: 135
+            msa: 7800
+            qnh: 1025
+            isa: 10
+            macro1: 7500
+            macro2: 7148
+            answer: 90
+            d1: 80
+            d2: 74
+            d3: 75
+          correctAnswers:
+            - text: 90 FL
+          wrongAnswers:
+            - text: 75 FL
+            - text: 80 FL
+            - text: 74 FL
+        - variables:
+            track: 250
+            msa: 6000
+            qnh: 1005
+            isa: 5
+            macro1: 5882
+            macro2: 6130
+            answer: 80
+            d1: 60
+            d2: 62
+            d3: 59
+          correctAnswers:
+            - text: 80 FL
+          wrongAnswers:
+            - text: 59 FL
+            - text: 60 FL
+            - text: 62 FL
+        - variables:
+            track: 90
+            msa: 4500
+            qnh: 1018
+            isa: 0
+            macro1: 4500
+            macro2: 4358
+            answer: 50
+            d1: 60
+            d2: 44
+            d3: 45
+          correctAnswers:
+            - text: 50 FL
+          wrongAnswers:
+            - text: 45 FL
+            - text: 60 FL
+            - text: 44 FL
+- id: QCTMC
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331931
+    - ATPLQ-334373
+    - BGS-330088
+    - BGS-330087
+    - BGS-330598
+    - AVEXAM-27416
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.07
+  templates:
+    - type: simple
+      question: "Excluding RVSM an appropriate flight level for IFR flight in accordance with semi-circular height rules on a magnetic course of 200° is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL310
+          wrongAnswers:
+            - text: FL290
+            - text: FL320
+            - text: FL300
+    - type: simple
+      question: Excluding RVSM an appropriate flight level for an IFR flight in accordance with the semi circular height rules on a course of 180°M is
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL100
+          wrongAnswers:
+            - text: FL90
+            - text: FL95
+            - text: FL105
+    - type: simple
+      question: "Excluding RVSM an appropriate flight level for IFR flight in accordance with semi-circular height rules on a course of 180° (M) is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL100
+          wrongAnswers:
+            - text: FL90
+            - text: FL95
+            - text: FL105
+- id: QGOBN
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331948
+    - AVEXAM-89664
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.08
+  templates:
+    - type: simple
+      question: Given an LNAV/VNAV approach with a temperature deviation of ISA -15, a charted Decision Altitude (DA) of 530 ft, and a Decision Height (DH) of approximately 432 ft, calculate the new Decision Altitude.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Higher than 550 ft.
+          wrongAnswers:
+            - text: 550 ft
+            - text: 530 ft
+            - text: Around 430 ft
+    - type: simple
+      question: For an LNAV/VNAV approach with ISA -15 temperature deviation and charted DA of 530 ft, DH of about 432 ft, what is the new Decision Altitude?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Higher than 550 ft.
+          wrongAnswers:
+            - text: 550 ft
+            - text: 530 ft
+            - text: Around 430 ft
+- id: QOPAW
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-336447
+    - BGS-331031
+    - AVEXAM-58339
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.08
+  templates:
+    - type: simple
+      question: |-
+        The crew of an aircraft flying at FL{{fl_ref}} in IMC in mountainous terrain wishes to descend to FL{{fl}}. Given the following, what is the true altitude at FL{{fl}} that the crew needs to use to confirm terrain clearance?
+
+        - OAT at FL{{fl_ref}}: {{oat}} °C
+        - QNH: {{qnh}} hPa (report from a nearby airport close to sea level)
+
+        Pressure correction: 1 hPa = 30 ft
+      explanation: |-
+        The true altitude is the pressure altitude corrected for the QNH (30 ft per hPa below/above 1013 hPa) and for temperature (about 4 ft per 1000 ft per °C of ISA deviation). The ISA deviation follows from the OAT given at the current level, where ISA is 15 - 2 * FL/10 °C.
+
+        **Solution**
+
+        ISA deviation = {{macro1}} °C
+
+        Altitude corrected for QNH = {{macro2}} ft
+
+        {{macro2}} * (1 + 0.004 * {{macro1}}) = **{{answer}} ft**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft**: the temperature correction was omitted.
+        - **{{d2}} ft**: the temperature correction has the wrong sign.
+        - **{{d3}} ft**: the OAT itself was used as the ISA deviation instead of OAT minus ISA temperature.
+        - **{{d4}} ft**: the QNH correction was applied with the wrong sign.
+      presets:
+        - variables:
+            fl_ref: 100
+            fl: 70
+            oat: -20
+            qnh: 975
+            macro1: -15
+            macro2: 5860
+            answer: 5508
+            d1: 5860
+            d2: 6212
+            d3: 5391
+            d4: 7652
+          correctAnswers:
+            - text: 5508 ft
+          wrongAnswers:
+            - text: 5860 ft
+            - text: 5391 ft
+            - text: 7652 ft
+            - text: 6212 ft
+        - variables:
+            fl_ref: 120
+            fl: 90
+            oat: -30
+            qnh: 990
+            macro1: -21
+            macro2: 8310
+            answer: 7612
+            d1: 8310
+            d2: 9008
+            d3: 7313
+            d4: 8876
+          correctAnswers:
+            - text: 7612 ft
+          wrongAnswers:
+            - text: 8310 ft
+            - text: 7313 ft
+            - text: 8876 ft
+            - text: 9008 ft
+        - variables:
+            fl_ref: 80
+            fl: 50
+            oat: -5
+            qnh: 1000
+            macro1: -4
+            macro2: 4610
+            answer: 4536
+            d1: 4610
+            d2: 4684
+            d3: 4518
+            d4: 5304
+          correctAnswers:
+            - text: 4536 ft
+          wrongAnswers:
+            - text: 4610 ft
+            - text: 4518 ft
+            - text: 5304 ft
+            - text: 4684 ft
+- id: QPVNK
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339747
+    - ATPLQ-339408
+    - AVEXAM-73561
+    - AVEXAM-59789
+    - BGS-331037
+    - BGS-331107
+    - BGS-331093
+    - ATPLQ-331289
+    - ATPLQ-336560
+    - ATPLQ-337554
+    - ATPLQ-335377
+    - ATPLQ-339630
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.08
+  templates:
+    - type: simple
+      question: |-
+        An aircraft is cruising at FL{{fl}}.
+
+        The OAT is ISA {{dev}} °C (ISA deviation), the QNH given by a station with an elevation of {{elev}} ft is {{qnh}} hPa.
+
+        Assume 1 hPa = 30 ft and a temperature correction of 4 ft per 1000 ft of height above the station per °C of ISA deviation.
+
+        Calculate the true altitude of the aircraft.
+      explanation: |-
+        The altimeter reads pressure altitude at FL; the true altitude is found by first correcting for the difference between the actual QNH and 1013 hPa (30 ft per hPa), then correcting for temperature: in air colder than ISA the true altitude is lower than indicated, in warmer air it is higher (4 ft per 1000 ft of height above the station per °C).
+
+        **Solution**
+
+        Altitude corrected for QNH = {{macro1}} + ({{qnh}} - 1013) * 30 = {{macro2}} ft
+
+        Height above the station = {{macro3}} ft
+
+        Temperature correction = 4 * {{dev}} * {{macro3}} / 1000 = {{macro4}} ft
+
+        True altitude = **{{answer}} ft**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft**: the temperature correction was omitted.
+        - **{{d2}} ft**: the temperature correction was applied with the wrong sign.
+        - **{{d3}} ft**: the temperature correction was applied to the whole altitude instead of the height above the station.
+        - **{{d4}} ft**: the QNH correction was applied with the wrong sign (QNH above 1013 hPa raises the true altitude).
+      presets:
+        - variables:
+            fl: 60
+            dev: -15
+            elev: 2430
+            qnh: 995
+            macro1: 6000
+            macro2: 5460
+            macro3: 3030
+            macro4: -182
+            answer: 5278
+            d1: 5460
+            d2: 5642
+            d3: 5132
+            d4: 6293
+          correctAnswers:
+            - text: 5278 ft
+          wrongAnswers:
+            - text: 5460 ft
+            - text: 5132 ft
+            - text: 6293 ft
+            - text: 5642 ft
+        - variables:
+            fl: 200
+            dev: 10
+            elev: 1000
+            qnh: 1010
+            macro1: 20000
+            macro2: 19910
+            macro3: 18910
+            macro4: 756
+            answer: 20666
+            d1: 19910
+            d2: 19154
+            d3: 20706
+            d4: 20854
+          correctAnswers:
+            - text: 20666 ft
+          wrongAnswers:
+            - text: 19910 ft
+            - text: 20706 ft
+            - text: 20854 ft
+            - text: 19154 ft
+        - variables:
+            fl: 90
+            dev: -10
+            elev: 2480
+            qnh: 1002
+            macro1: 9000
+            macro2: 8670
+            macro3: 6190
+            macro4: -248
+            answer: 8422
+            d1: 8670
+            d2: 8918
+            d3: 8323
+            d4: 9056
+          correctAnswers:
+            - text: 8422 ft
+          wrongAnswers:
+            - text: 8670 ft
+            - text: 8323 ft
+            - text: 9056 ft
+            - text: 8918 ft
+        - variables:
+            fl: 50
+            dev: -15
+            elev: 1500
+            qnh: 1004
+            macro1: 5000
+            macro2: 4730
+            macro3: 3230
+            macro4: -194
+            answer: 4536
+            d1: 4730
+            d2: 4924
+            d3: 4446
+            d4: 5044
+          correctAnswers:
+            - text: 4536 ft
+          wrongAnswers:
+            - text: 4730 ft
+            - text: 4446 ft
+            - text: 5044 ft
+            - text: 4924 ft
+        - variables:
+            fl: 80
+            dev: -20
+            elev: 2500
+            qnh: 1040
+            macro1: 8000
+            macro2: 8810
+            macro3: 6310
+            macro4: -505
+            answer: 8305
+            d1: 8810
+            d2: 9315
+            d3: 8105
+            d4: 6815
+          correctAnswers:
+            - text: 8305 ft
+          wrongAnswers:
+            - text: 8810 ft
+            - text: 8105 ft
+            - text: 6815 ft
+            - text: 9315 ft
+        - variables:
+            fl: 80
+            dev: -18
+            elev: 300
+            qnh: 1020
+            macro1: 8000
+            macro2: 8210
+            macro3: 7910
+            macro4: -570
+            answer: 7640
+            d1: 8210
+            d2: 8780
+            d3: 7619
+            d4: 7251
+          correctAnswers:
+            - text: 7640 ft
+          wrongAnswers:
+            - text: 8210 ft
+            - text: 7619 ft
+            - text: 7251 ft
+            - text: 8780 ft
+    - type: simple
+      question: |-
+        Determine the true altitude to make sure that the Minimum Obstacle Clearance Altitude (MOCA) is maintained. Given:MOCA: 3 950 ft 
+         Cruising level: FL050 
+         OAT: ISA-15ºC 
+         QNH: 1 004 hPa 
+         Aerodrome elevation: 1 340 ft
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 4 530 ft
+          wrongAnswers:
+            - text: 4 750 ft
+            - text: 4 900 ft
+            - text: 5 030 ft
+- id: QQLPW
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-333138
+    - AVEXAM-67393
+    - BGS-331120
+    - BGS-331089
+    - AVEXAM-38798
+    - BGS-331104
+    - AVEXAM-27450
+    - AVEXAM-37123
+    - AVEXAM-97378
+    - BGS-331232
+    - AVEXAM-4110
+    - AVEXAM-46683
+    - BGS-331191
+    - BGS-330804
+    - BGS-331368
+    - BGS-331314
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.03.08
+  templates:
+    - type: simple
+      question: |-
+        Determine the vertical distance between the departure aerodrome and the aircraft at the cruise level (the true height above the ground), given:
+
+        - Aerodrome elevation: {{elev}} ft
+        - Cruise level: FL{{fl}}
+        - QNH at departure aerodrome: {{qnh}} hPa
+
+        _Assume 30 ft per 1 hPa._ Round to the nearest 100 ft.
+      explanation: |-
+        A flight level is referenced to 1013 hPa. When the QNH is higher than 1013 hPa the true altitude is higher than the flight level by the pressure difference times 30 ft/hPa. The height above the aerodrome is then the true altitude minus the aerodrome elevation.
+
+        **Solution**
+
+        True altitude = {{macro1}} ft + ({{qnh}} - 1013) hPa x 30 ft/hPa = {{macro2}} ft
+
+        Height above the aerodrome = {{macro2}} ft - {{elev}} ft = {{macro3}} ft, i.e. **{{answer}} ft** to the nearest 100 ft.
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft**: the aerodrome elevation was not subtracted, so this is the true altitude, not the height above the aerodrome.
+        - **{{d2}} ft**: the QNH correction was applied with the wrong sign (QNH above 1013 hPa lowers the altitude instead of raising it).
+        - **{{d3}} ft**: the aerodrome elevation was added instead of subtracted.
+      presets:
+        - variables:
+            elev: 3500
+            fl: 250
+            qnh: 1030
+            macro1: 25000
+            macro2: 25510
+            macro3: 22010
+            answer: 22000
+            d1: 25500
+            d2: 21000
+            d3: 29000
+          correctAnswers:
+            - text: 22000 ft
+          wrongAnswers:
+            - text: 29000 ft
+            - text: 25500 ft
+            - text: 21000 ft
+        - variables:
+            elev: 2000
+            fl: 200
+            qnh: 1025
+            macro1: 20000
+            macro2: 20360
+            macro3: 18360
+            answer: 18400
+            d1: 20400
+            d2: 17600
+            d3: 22400
+          correctAnswers:
+            - text: 18400 ft
+          wrongAnswers:
+            - text: 22400 ft
+            - text: 20400 ft
+            - text: 17600 ft
+- id: QWQGP
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339651
+    - BGS-330857
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.04.01
+  templates:
+    - type: simple
+      question: What is the primary reason for the pre-flight study of the anticipated SID and STAR? To ensure that..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the aircraft is guided along the correct lateral and vertical profiles.
+          wrongAnswers:
+            - text: the most economical routes are flown.
+            - text: pre-planned in-flight deviations from the published procedures can be accommodated.
+            - text: noise abatement procedures are complied with.
+- id: QXQCI
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-336210
+    - BGS-331117
+    - ATPLQ-331409
+    - AVEXAM-3276
+  annexes:
+    - id: AEOY
+  learningObjectiveIds:
+    - 033.02.01.04.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure or to ALICANTE (LEAL) STAR 10-2B from Jeppesen GSPRM 2017\.   
+         You are briefing the VLC2L STAR into LEAL, and your captain asks you for the MEA and the distance between Valencia VOR and your IAF. What do you reply?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL80 and 59 NM.
+          wrongAnswers:
+            - text: 6 600 ft and 59 NM.
+            - text: 6 100 ft and 61 NM.
+            - text: FL70 and 70 NM.
+- id: QXTZJ
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339130
+    - BGS-331342
+    - BGS-331341
+    - AVEXAM-91939
+  annexes:
+    - id: ARQM
+  learningObjectiveIds:
+    - 033.02.01.04.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to Tromso, Norway (ENTC) SID chart 10-3F from the Jeppesen GSPRM 2017.  
+        An aircraft has been cleared to depart Tromso runway 01 to follow the AMIMO 1A RNAV SID. What waypoints must be programmed into the RNAV system and what are the speed restrictions for this SID?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: TC603, TC604, ROSKO, and AMIMO with a maximum speed restriction of 230 kt to TC604.
+          wrongAnswers:
+            - text: TC683, TC604, ROSKO, GILGU and AMIMO with a maximum speed restriction of 230 kt to TC604.
+            - text: TC603, TC684, ROSKO, and AMIMO with a maximum speed restriction of 250 kt to TC684.
+            - text: TC604, ROSKO, and AMIMO with a maximum speed restriction of 230 kt to TC603.
+- id: QNNNI
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339211
+    - BGS-330988
+    - BGS-331548
+  annexes:
+    - id: APWK
+    - id: AMXS
+  learningObjectiveIds:
+    - 033.02.01.04.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to ALICANTE charts 10-3C, 10-3E from the Jeppesen GSPRM 2017.  
+        An aircraft is departing from Alicante (LEAL) towards the north-east. The aircraft is fully P-RNAV equipped and operational. What is a suitable SID if departing from Runway 10?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: MITOS 2A
+          wrongAnswers:
+            - text: MITOS 1C
+            - text: SOPET 1G
+            - text: SOPET 1F
+- id: QTXET
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331746
+    - BGS-331030
+    - AVEXAM-4475
+    - ATPLQ-335042
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.04.05
+  templates:
+    - type: simple
+      question: Which is a correct statement with reference to an RNAV SID?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The RNAV SID can be flown without ground-based radio navigation aids.
+          wrongAnswers:
+            - text: The aircraft must be fitted with an auto-flight system to follow the RNAV SID.
+            - text: An RNAV SID is a departure procedure that is limited by the transition altitude.
+            - text: RNAV SIDs are unavailable if a ground-based radio navigation aid is used.
+- id: QFUEZ
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QGSQP
+    - QYNTA
+  externalQuestionIds:
+    - ATPLQ-339005
+    - AVEXAM-16033
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.04.06
+  templates:
+    - type: simple
+      question: What is the difference between an RNAV STAR and RNAV STAR overlay?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The RNAV STAR allows for efficient sequencing of the traffic flow, thus reducing the workload of the ATC.
+          wrongAnswers:
+            - text: The RNAV STAR overlay is a shorter route than the RNAV STAR.
+            - text: The RNAV STAR is designed to replace the conventional navigation systems routing.
+            - text: The RNAV STAR overlay is a longer route than the RNAV STAR.
+- id: QGSQP
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QFUEZ
+    - QYNTA
+  externalQuestionIds:
+    - ATPLQ-332090
+    - AVEXAM-9765
+    - ATPLQ-331008
+    - AVEXAM-68036
+    - BGS-970089
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.04.06
+  templates:
+    - type: simple
+      question: What is the difference between an RNAV SID and an RNAV overlay SID?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The RNAV overlay SID will follow the same track as the conventional procedure.
+          wrongAnswers:
+            - text: The RNAV overlay SID will take more time due to less constraints.
+            - text: The RNAV overlay SID will take less time due to less constraints.
+            - text: The RNAV overlay SID is a longer route than the RNAV SID.
+    - type: simple
+      question: Which of the following describes an RNAV STAR overlay?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: RNAV information to assist in flying a conventional STAR.
+          wrongAnswers:
+            - text: A plate giving RNAV information to safely depart an aerodrome with NO approved STAR available.
+            - text: RNAV used to completely replace conventional navigation to follow a conventional STAR.
+            - text: A STAR procedure designed to be used only with RNAV equipment.
+- id: QYNTA
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QGSQP
+    - QFUEZ
+  externalQuestionIds:
+    - ATPLQ-333514
+    - AVEXAM-77424
+    - BGS-331389
+    - AVEXAM-21904
+    - AVEXAM-95502
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.04.06
+  templates:
+    - type: simple
+      question: What statement below is correct regarding the difference between an RNAV STAR and an RNAV STAR overlay?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An RNAV STAR overlay will follow the same route as a STAR that is defined by ground based navigation aids.
+          wrongAnswers:
+            - text: An RNAV STAR overlay CANNOT follow the same route as a STAR that is defined by ground based navigation aids.
+            - text: An RNAV STAR overlay will have a longer route distance than an RNAV STAR as it has less constraints.
+            - text: An RNAV STAR overlay will have a shorter route distance than an RNAV STAR as it has less constraints.
+    - type: simple
+      question: How is an RNAV STAR different from an RNAV STAR overlay? An RNAV STAR overlay…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: has ground based equipment to provide guidance.
+          wrongAnswers:
+            - text: does not have ground based equipment to provide guidance.
+            - text: covers more distance than an RNAV STAR.
+            - text: covers less distance than an RNAV STAR.
+- id: QLBTV
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331667
+    - AVEXAM-38332
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.05.02
+  templates:
+    - type: simple
+      question: |-
+        An aircraft being operated for a Commercial Air Transport flight has an Approach Climb Gradient (ACG) capability of 3.7%. Three instrument approach procedures are available and listed below. Which of these could be selected for that flight?
+
+        1\. ILS/DME APP, minimum ACG required is 3.0%  
+        2\. LOC/DME APP, minimum ACG required is 3.7%  
+        3\. VOR/DME APP, minimum ACG required is 4.2%
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 or 2
+          wrongAnswers:
+            - text: 2 only
+            - text: 1 only
+            - text: 2 or 3
+- id: QABUG
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332334
+    - AVEXAM-61273
+    - AVEXAM-56538
+    - ATPLQ-333305
+    - BGS-331605
+  annexes:
+    - id: AJAL
+  learningObjectiveIds:
+    - 033.02.01.05.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to Jeppesen GSPRM Training Route Manual - AMSTERDAM - Chart 16-2.  
+        What is the MDA for the NDB approach on runway 18C?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 690 ft
+          wrongAnswers:
+            - text: 1310 ft
+            - text: 702 ft
+            - text: 880 ft
+        - correctAnswers:
+            - text: 702 ft
+          wrongAnswers:
+            - text: 880 ft
+            - text: 1 310 ft
+            - text: 690 ft
+    - type: simple
+      question: Please refer to the annex or to AMSTERDAM (EHAM) chart 16-2 from the Jeppesen GSPRM 2017. What is the Minimum Descent Height on an NDB approach to Runway 18C at Amsterdam Schiphol (EHAM)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 702 ft
+          wrongAnswers:
+            - text: 700 ft
+            - text: 690 ft
+            - text: 711 ft
+- id: QEJKQ
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337721
+    - BGS-330794
+    - AVEXAM-67167
+  annexes:
+    - id: AJCY
+  learningObjectiveIds:
+    - 033.02.01.05.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to ALICANTE - chart 11-1 from Jeppesen GSPRM 2017.  
+        What is the elevation of the highest obstacle - natural or man-made on the chart?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 4252 ft
+          wrongAnswers:
+            - text: 7000 ft
+            - text: 625 ft
+            - text: 3718 ft
+    - type: simple
+      question: |-
+        Refer to Jeppesen GSPRM Training Route Manual - ALICANTE - Charts 19-1, 19-2, 19-3
+
+        What is the elevation of the highest obstacle - natural or man-made - on the chart?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 4 252 ft AMSL
+          wrongAnswers:
+            - text: 5 000 ft AGL
+            - text: FL75
+            - text: 1 821 ft AMSL
+- id: QPVNE
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331016
+    - AVEXAM-70623
+    - BGS-331236
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.05.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to the NOTAM.
+
+        ```text
+        ORIGINAL MESSAGE TO NOTAM LFFA A
+
+        A6768/14 NOTAMR A6307/14
+        Q) LFBB/QPMCH/I /NBO/A /000 /999 /4338N0012E005
+        A) LFBO B) 1411071055 C) 1507312359
+        E) MINIMA OF LNAV RWY 32R PROC CHANGED:
+        OCH: 428
+        CAT MDA(H) RVR
+        A   930 (430) 1500
+        B   930 (430) 1500
+        C   930 (430) 2000
+        D   930 (430) 2000
+        DL  930 (430) 2000
+        REF AD2 LFBO IAC 18
+        ```
+
+        What is the Minimum Descent Altitude (MDA) for a Cat A aircraft executing
+        an LNAV approach to runway 32R at Toulouse Blagnac aerodrome (LFBO)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 930 ft
+          wrongAnswers:
+            - text: 1 500 ft
+            - text: 430 ft
+            - text: 428 ft
+- id: QWLXL
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335074
+    - BGS-331408
+    - AVEXAM-37738
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.05.03
+  templates:
+    - type: simple
+      question: Some procedures are designated as RNP AR APCH. Which of the following is an example of how to identify, on an instrument approach chart, a procedure which necessitates this designation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A procedure with a curved final approach segment.
+          wrongAnswers:
+            - text: A procedure using a GNSS Landing System (GLS) with CAT minima.
+            - text: Any procedure with LNAV/VNAV minima.
+            - text: Any procedure with LPV minima.
+- id: QYKDZ
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-333345
+    - BGS-331470
+    - AVEXAM-11189
+  annexes:
+    - id: AVCK
+  learningObjectiveIds:
+    - 033.02.01.05.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure or to Stuttgart (EDDS) chart 12-2 RNP Rwy 25 from the Jeppesen GSPRM 2017.   
+         The LNAV/VNAV decision altitude for the RNP approach to runway 25 for aircraft approach categories A, B or C is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 590 ft
+          wrongAnswers:
+            - text: 439 ft
+            - text: 409 ft
+            - text: 1 620 ft
+- id: QMOSC
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339316
+    - BGS-331113
+    - AVEXAM-92150
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.05.04
+  templates:
+    - type: simple
+      question: The legend for a chart states that the procedure is an APV Baro or APV SBAS instrument approach procedure. The significance of this is that the approach is an approach procedure with vertical guidance, which is....
+      explanation: APV (approach procedure with vertical guidance), whether Baro or SBAS, is a 3D approach. Its minima are published as LNAV/VNAV or LPV, while LNAV and LP minima belong to 2D non-precision approaches flown to an MDA.
+      presets:
+        - correctAnswers:
+            - text: 3D approach down to minima published as LNAV/VNAV or LPV.
+          wrongAnswers:
+            - text: 2D non - precision approach down to minima published as LNAV or LP.
+            - text: 2D non - precision approach down to minima published as MDA, LNAV or LP.
+            - text: 3D precision approach down to minima published as DA or DH.
+- id: QBBDK
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QDRUW
+  externalQuestionIds:
+    - ATPLQ-334689
+    - BGS-331453
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.05.04
+  templates:
+    - type: simple
+      question: A particular GNSS RNP APCH chart for a runway has two types of published minima, LNAV and LP. Which of the following options accurately describes the minima?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The LP minima are based on Localiser Performance requiring equipment beyond a standard GNSS receiver in the aircraft.
+          wrongAnswers:
+            - text: There is NO difference as both use GNSS as reference throughout the procedure and the pilot may choose the lowest minima.
+            - text: The LP minima apply to a 3D precision approach with both horizontal and vertical guidance, similar to VNAV.
+            - text: The LNAV minima are based on horizontal and vertical guidance being provided on board the aircraft.
+- id: QDRUW
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QBBDK
+  externalQuestionIds:
+    - ATPLQ-338619
+    - AVEXAM-15423
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.05.04
+  templates:
+    - type: simple
+      question: What is the difference between an LNAV and an LP approach to the same runway?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: LP follows the Localiser Performance standards, which requires additional equipment on board the aircraft, beyond the standard GNSS.
+          wrongAnswers:
+            - text: LP is a 3D approach, similar to VNAV.
+            - text: There is no significant difference as both use GNSS as reference, so the pilot may choose the one with lowest minima.
+            - text: LNAV offers both lateral and vertical guidance.
+- id: QJKRE
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-333371
+    - BGS-330979
+    - AVEXAM-72034
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.05.04
+  templates:
+    - type: multiple-correct
+      question: Which of the following RNP Approaches (RNP APCH) are approaches without vertical guidance?
+      explanation: ""
+      options:
+        - text: LNAV
+          correct: true
+        - text: LPV
+          correct: false
+        - text: LNAV/VNAV
+          correct: false
+        - text: LP
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+    - type: simple
+      question: |-
+        The following RNP Approaches (RNP APCH) are given:
+
+         LNAV
+         LPV
+         LNAV/VNAV
+         LP
+
+        Those without vertical guidance are:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 4
+          wrongAnswers:
+            - text: 1, 2, 3
+            - text: 1, 2
+            - text: 2, 4
+- id: QKBJW
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338144
+    - AVEXAM-42784
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.05.04
+  templates:
+    - type: simple
+      question: LPV gives (1)\_\_\_ guidance with the performance of a localizer, and the protected area is (2)\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) Lateral; (2) Smaller
+          wrongAnswers:
+            - text: (1) Vertical; (2) Smaller
+            - text: (1) Vertical; (2) Greater
+            - text: (1) Lateral; (2) Greater
+- id: QSQGP
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334661
+    - BGS-330124
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.05.04
+  templates:
+    - type: simple
+      question: The approach plate of a 3D RNAV approach procedure to RWY 23 at Cambridge airport has a Decision Height of 360 ft. What Category and Type of approach is this?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No Category & Type A
+          wrongAnswers:
+            - text: Category II & Type B
+            - text: Category I & Type A
+            - text: Category I & Type B
+- id: QSTSJ
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335070
+    - AVEXAM-50677
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.05.04
+  templates:
+    - type: simple
+      question: Your vertical autopilot guidance is down, you choose to do LNAV instead of LNAV/VNAV. This final is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: non-precision with 2D guidance.
+          wrongAnswers:
+            - text: precision with 2D guidance.
+            - text: non-precision with 3D guidance.
+            - text: precision with 3D guidance.
+- id: QWYQX
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339421
+    - ATPLQ-334797
+    - AVEXAM-43893
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.05.04
+  templates:
+    - type: definition
+      question: What is a {term}?
+      explanation: ""
+      options:
+        - id: OVMAJJOUX
+          term: non-precision approach
+          definition: An instrument procedure with 2D guidance, type A.
+        - id: OKMIPTFLV
+          term: LPV approach
+          definition: An approach with vertical guidance based on GNSS augmented by a space based facility.
+      fakeOptions:
+        - id: FGRUG0CTJ0
+          definition: An instrument procedure with 3D guidance, type A.
+        - id: FGRUG0CTJ1
+          definition: An instrument procedure (ILS, MLS, GLS, GNSS with SBAS), either type A or B.
+        - id: FGRUG0CTJ2
+          definition: A PBN approach procedure.
+        - id: FGRUG0CTJ3
+          definition: An approach with vertical guidance based only on BaroVNAV.
+        - id: FGRUG0CTJ4
+          definition: An approach with LNAV minima that is flown using the CDFA technique.
+        - id: FGRUG0CTJ5
+          definition: An approach with LNAV/VNAV minima in reference with ground based facility.
+- id: QCQOX
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331304
+    - AVEXAM-98340
+  annexes:
+    - id: AHUE
+  learningObjectiveIds:
+    - 033.02.01.06.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to AMSTERDAM - Chart 10-2 from Jeppesen GSPRM 2017\.   
+         You are approaching AMSTERDAM via REKKEN 2A. Which of the following frequencies can be used to receive an ATIS shortly before passing ARTIP?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 108.4 MHz
+          wrongAnswers:
+            - text: 112.5 MHz
+            - text: 116.8 MHz
+            - text: 113.3 MHz
+- id: QPAMS
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337571
+    - AVEXAM-21831
+  annexes:
+    - id: AIAB
+  learningObjectiveIds:
+    - 033.02.01.06.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to ALICANTE - chart 10-2B from Jeppesen GSPRM 2017\.   
+         The ATIS frequency is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 120.075 MHz
+          wrongAnswers:
+            - text: 117.55 MHz
+            - text: 114.65 MHz
+            - text: 113.8 MHz
+- id: QTAZF
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-333264
+    - BGS-331381
+    - BGS-330812
+  annexes:
+    - id: ASNU
+  learningObjectiveIds:
+    - 033.02.01.06.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to E(LO)2 chart from Jeppesen GSPRM 2017\.   
+         You are flying a Commercial Air Transport operation close to LELYSTAD aerodrome (EHLE, N52°28' E005°32'). To get your distance from the aerodrome, you want to tune in to the radio navigation aid at the aerodrome. What value do you to tune into and what is the identifier of this aid?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The frequency is 111.4 MHz, and the identifier is FRO.
+          wrongAnswers:
+            - text: The frequency is 123.67 MHz, and the identifier is AFIS
+            - text: The channel is 51, and the identifier is FRO
+            - text: The frequency is 326 kHz, and the identifier is LLS
+- id: QYDSQ
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335975
+    - AVEXAM-42188
+    - BGS-330954
+  annexes:
+    - id: ASWU
+  learningObjectiveIds:
+    - 033.02.01.06.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to Chart "E LO 1" from Jeppesen GSPRM 2017\.   
+         Which of the following is a correctly specified navaid from which you can get a bearing at KIRKWALL (EGPA, N58°58' W002°54')?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: NDB KW, 395 kHz
+          wrongAnswers:
+            - text: VOR/DME KWL, 118.3 MHz
+            - text: VOR channel 58 - 47
+            - text: VOR KW, 108.6 MHz
+- id: QWEIN
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338384
+    - AVEXAM-47360
+  annexes:
+    - id: AEOY
+  learningObjectiveIds:
+    - 033.02.01.07.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to Jeppesen GSPRM Training Route Manual - ALICANTE - Chart 10-2B.   
+         The distance from KOVAM to BESOR is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 61 NM
+          wrongAnswers:
+            - text: 70 NM
+            - text: 82 NM
+            - text: 37 NM
+- id: QMQZT
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332038
+    - BGS-331383
+    - AVEXAM-42669
+  annexes:
+    - id: AJAQ
+  learningObjectiveIds:
+    - 033.02.01.07.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure or ALICANTE 10-2B chart from the Jeppesen GSPRM 2017.   
+        Which arrival route would you expect, due to a sea breeze in Alicante?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: CLS 1L and VLC 2L
+          wrongAnswers:
+            - text: VLC 2L and VLC 2N
+            - text: CLS 1L and CLS 2N
+            - text: CLS 2N and VLC 2L
+- id: QCCBG
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337553
+    - BGS-330178
+    - AVEXAM-10181
+    - BGS-330222
+    - AVEXAM-6733
+  annexes:
+    - id: AQZV
+  learningObjectiveIds:
+    - 033.02.01.07.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure (Flight Planning Manual MRJT 1, Figure 4.5.1). Planning an IFR flight from Paris to London for a twin jet aeroplane. Given: estimated take-off mass 52 000 kg, airport elevation 387 ft, FL 280, ISA deviation -10° C, W/V {{wd}}°/{{ws}} kt, average true course {{tc}}°.
+
+        Values read from the chart: still air distance to the top of climb {{nam}} NAM, climb time {{time}} min.
+
+        Find the ground distance to the top of climb (NM).
+      explanation: |-
+        The chart gives the still air distance for the climb. The head wind component (wind speed times the cosine of the angle between wind direction and course) shortens the ground distance over the climb time.
+
+        **Solution**
+
+        Head wind component = {{macro1}} kt
+
+        $$
+        \text{Still air climb distance (read from chart)}-\frac{\text{Wind speed}\times \text{cos}(\text{Wind direction}-\text{True course})\times \text{Climb time (read from chart)}}{60} = {{nam}}-\frac{ {{ws}}\times \text{cos}({{wd}}-{{tc}})\times {{time}} }{60} = \mathbf{ {{answer}}\ \text{NM} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: The still air distance, with no wind correction.
+        - **{{d2}} NM**: The head wind was treated as a tail wind.
+        - **{{d3}} NM**: The full wind speed was used instead of the head wind component.
+        - **{{d4}} NM**: The full wind speed was used as a tail wind.
+      presets:
+        - variables:
+            wd: 280
+            ws: 40
+            tc: 340
+            nam: 54
+            time: 12
+            macro1: 20
+            answer: 50
+            d1: 54
+            d2: 58
+            d3: 46
+            d4: 62
+          correctAnswers:
+            - text: 50 NM
+          wrongAnswers:
+            - text: 54 NM
+            - text: 46 NM
+            - text: 62 NM
+            - text: 58 NM
+        - variables:
+            wd: 250
+            ws: 30
+            tc: 290
+            nam: 62
+            time: 14
+            macro1: 23
+            answer: 57
+            d1: 62
+            d2: 67
+            d3: 55
+            d4: 69
+          correctAnswers:
+            - text: 57 NM
+          wrongAnswers:
+            - text: 62 NM
+            - text: 55 NM
+            - text: 69 NM
+            - text: 67 NM
+        - variables:
+            wd: 230
+            ws: 50
+            tc: 200
+            nam: 58
+            time: 13
+            macro1: 43
+            answer: 49
+            d1: 58
+            d2: 67
+            d3: 47
+            d4: 69
+          correctAnswers:
+            - text: 49 NM
+          wrongAnswers:
+            - text: 58 NM
+            - text: 47 NM
+            - text: 69 NM
+            - text: 67 NM
+    - type: simple
+      question: |-
+        (Refer to the annex or Flight Planning Manual MRJT 1 Figure 4.5.1)  Planning an IFR(Flight from Paris to London for the twin jet aeroplane. 
+        Given: Estimated Take-Off Mass -TOM: 52000 kg , Airport elevation: 387 ft
+        FL 280 W/V: 280°/40 kt,  ISA Deviation: -10° C  Average True Course: 340°
+        Find: Fuel to the top of climb (TOC)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1000 kg
+          wrongAnswers:
+            - text: 1000 lb
+            - text: 1100 kg
+            - text: 1500 lb
+    - type: simple
+      question: |-
+        Refer to figure 033-16.
+        Planning an IFR flight from Paris to London for the twin jet aeroplane. Given:
+
+         
+
+         
+         
+         Estimated Take-off Mass (TOM):
+         52 000 kg
+         
+         
+         Airport elevation:
+         387 ft
+         
+         
+         Cruise:
+         FL280
+         
+         
+         W/V:
+         280°/40 kt
+         
+         
+         ISA Deviation:
+         -10 °C
+         
+         
+         Average True Course:
+         340°
+         
+         
+
+
+
+        Find fuel to the top of climb (TOC).
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 000 kg
+          wrongAnswers:
+            - text: 1 000 lb
+            - text: 1 500 lb
+            - text: 1 100 kg
+- id: QGSZT
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337652
+    - BGS-331087
+    - ATPLQ-337970
+  annexes:
+    - id: ANWM
+  learningObjectiveIds:
+    - 033.02.01.07.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure, a partially completed navigation plan from an aerodrome with elevation {{elev}} ft. The rate of climb is {{roc}} ft/min and the ground speed during the climb, read from the figure, is {{gs}} kt.
+
+        At what distance from the aerodrome will you reach FL {{fl}}? Answer in NM.
+      explanation: |-
+        The climb distance is the climb time times the ground speed. The climb time is the height to climb (target level minus aerodrome elevation) divided by the rate of climb. The ground speed is taken from the figure.
+
+        **Solution**
+
+        Height to climb = {{macro1}} ft - {{elev}} ft = {{macro2}} ft
+
+        Time = {{macro2}} ft / {{roc}} ft/min = {{macro3}} min
+
+        $$
+        \frac{\frac{\text{Target flight level}\times 100-\text{Aerodrome elevation}}{\text{Rate of climb}}\times \text{Ground speed in climb (read from figure)}}{60} = \frac{\frac{ {{fl}}\times 100-{{elev}} }{ {{roc}} }\times {{gs}} }{60} = \mathbf{ {{answer}}\ \text{NM} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: this is the climb time in minutes, not a distance.
+        - **{{d2}} NM**: the ground speed was not divided by 60.
+        - **{{d3}} NM**: the distance was converted with the 1.15 statute mile factor.
+        - **{{d4}} NM**: time and ground speed were combined as a ratio instead of a product.
+      presets:
+        - variables:
+            elev: 17
+            roc: 1000
+            gs: 83
+            fl: 130
+            macro1: 13000
+            macro2: 12983
+            macro3: 13
+            answer: 18
+            d1: 13
+            d2: 1078
+            d3: 21
+            d4: 9
+          correctAnswers:
+            - text: 18 NM
+          wrongAnswers:
+            - text: 13 NM
+            - text: 21 NM
+            - text: 9 NM
+            - text: 1078 NM
+        - variables:
+            elev: 17
+            roc: 800
+            gs: 95
+            fl: 110
+            macro1: 11000
+            macro2: 10983
+            macro3: 14
+            answer: 22
+            d1: 14
+            d2: 1304
+            d3: 25
+            d4: 9
+          correctAnswers:
+            - text: 22 NM
+          wrongAnswers:
+            - text: 14 NM
+            - text: 25 NM
+            - text: 9 NM
+            - text: 1304 NM
+        - variables:
+            elev: 100
+            roc: 1200
+            gs: 100
+            fl: 90
+            macro1: 9000
+            macro2: 8900
+            macro3: 7
+            answer: 12
+            d1: 7
+            d2: 742
+            d3: 14
+            d4: 4
+          correctAnswers:
+            - text: 12 NM
+          wrongAnswers:
+            - text: 7 NM
+            - text: 14 NM
+            - text: 4 NM
+            - text: 742 NM
+    - type: simple
+      question: |-
+        Refer to figure. 
+        The figure shows a partially completed navigation plan from Ajaccio aerodrome (LFKJ) in Corsica with elevation 17 ft. If your rate of climb is 925 ft/min, at what distance from AJO will you reach FL130?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 20 NM
+          wrongAnswers:
+            - text: 18 NM
+            - text: 22 NM
+            - text: 24 NM
+- id: QKMZD
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338014
+    - BGS-330180
+    - AVEXAM-27390
+  annexes:
+    - id: AGGS
+    - id: ANPI
+  learningObjectiveIds:
+    - 033.02.01.07.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to the CAP 697 descent tables. Planning an IFR flight from Paris to London for the twin jet aeroplane. Given:
+
+        - Estimated landing mass: 49 700 kg
+        - Flight level: FL 280
+        - Wind (W/V): 280°/40 kt
+        - Average true course: 320°
+        - Descent procedure: 0.74 M / 250 KIAS
+
+        Determine the ground distance from the top of descent to London, elevation 80 ft.
+      explanation: The top of descent is the point where the descent starts. The ground distance it covers depends on the descent path and the wind. Here the wind has a headwind component along the track, which slows progress over the ground, so the ground distance from the top of descent to London is shorter than the still-air figure. The other options ignore the headwind or use the wrong altitude to lose.
+      presets:
+        - correctAnswers:
+            - text: 76 NM
+          wrongAnswers:
+            - text: 65 NM
+            - text: 97 NM
+            - text: 87 NM
+- id: QQKUU
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331677
+    - AVEXAM-73680
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.07.03
+    - 033.02.01.07.06
+  templates:
+    - type: simple
+      question: You are flying at {{alt1}} ft on track {{trk}}°(T) and you want to be at {{alt2}} ft {{dist}} NM before you reach the waypoint. If the TAS is {{tas}} kt, the average wind is {{wdir}}°(T)/{{wspd}} kt and the rate of descent is {{rod}} ft/min, how far is the ToD from the waypoint?
+      explanation: |-
+        The top of descent is the point where the descent must start so that the aircraft reaches the target altitude {{dist}} NM before the waypoint. Its distance from the waypoint is the distance covered during the descent plus the distance still to be flown at the target altitude. The descent distance needs the ground speed, which comes from the wind triangle.
+
+        **Solution**
+
+        Wind angle relative to track: {{macro1}}°
+        Drift correction: asin({{wspd}} × sin({{macro1}}°) / {{tas}}) = {{macro2}}°
+        Ground speed = {{macro3}} kt
+        Descent time = ({{alt1}} - {{alt2}}) / {{rod}} = {{macro4}} min
+        Descent distance = {{macro4}} min × {{macro3}} kt / 60 = {{macro5}} NM
+        ToD distance = {{macro5}} + {{dist}} = **{{answer}} NM**
+
+        ## Why the other answers are wrong
+        - **{{d1}} NM**: only the descent distance; the {{dist}} NM before the waypoint is forgotten.
+        - **{{d2}} NM**: the {{dist}} NM is subtracted instead of added.
+        - **{{d3}} NM**: the descent distance is counted twice and the {{dist}} NM is forgotten.
+      presets:
+        - variables:
+            alt1: 7000
+            trk: 270
+            alt2: 2000
+            dist: 10
+            tas: 168
+            wdir: 40
+            wspd: 20
+            rod: 1000
+            macro1: -230
+            macro2: 5
+            macro3: 180
+            macro4: 5
+            macro5: 15
+            answer: 25
+            d1: 15
+            d2: 5
+            d3: 30
+          correctAnswers:
+            - text: 25 NM
+          wrongAnswers:
+            - text: 30 NM
+            - text: 15 NM
+            - text: 5 NM
+        - variables:
+            alt1: 9000
+            trk: 270
+            alt2: 3000
+            dist: 8
+            tas: 200
+            wdir: 100
+            wspd: 30
+            rod: 1500
+            macro1: -170
+            macro2: -1
+            macro3: 229
+            macro4: 4
+            macro5: 15
+            answer: 23
+            d1: 15
+            d2: 7
+            d3: 31
+          correctAnswers:
+            - text: 23 NM
+          wrongAnswers:
+            - text: 31 NM
+            - text: 15 NM
+            - text: 7 NM
+        - variables:
+            alt1: 12000
+            trk: 90
+            alt2: 4000
+            dist: 12
+            tas: 150
+            wdir: 320
+            wspd: 25
+            rod: 800
+            macro1: 230
+            macro2: -7
+            macro3: 165
+            macro4: 10
+            macro5: 27
+            answer: 39
+            d1: 27
+            d2: 15
+            d3: 55
+          correctAnswers:
+            - text: 39 NM
+          wrongAnswers:
+            - text: 55 NM
+            - text: 27 NM
+            - text: 15 NM
+- id: QSYJT
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QLHUP
+  externalQuestionIds:
+    - ATPLQ-339387
+    - BGS-339584
+    - ATPLQ-339497
+    - BGS-330243
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.07.03
+  templates:
+    - type: simple
+      question: |-
+        An aircraft cruises at FL {{fl}} with a ground speed of {{gs}} kt. The true airspeed stays constant in the descent, the wind is negligible and the temperature is ISA. The pilot wants to arrive overhead the aerodrome at {{alt}} ft (QNH {{qnh}} hPa) with a rate of descent of {{rod}} ft/min.
+
+        At what distance from the aerodrome should the descent be commenced? (Use 1 hPa = 30 ft and standard pressure 1013 hPa; answer in NM.)
+      explanation: |-
+        The descent distance is the time needed to lose the height multiplied by the ground speed. The height to lose is measured from the true altitude at cruise level: a flight level is flown on the standard setting (1013 hPa), so with QNH {{qnh}} hPa the aeroplane is {{macro1}} ft ({{macro2}} hPa × 30 ft/hPa) higher above the QNH datum than the flight level suggests.
+
+        **Solution**
+
+        Height to lose = {{macro3}} ft + {{macro1}} ft - {{alt}} ft = {{macro4}} ft
+
+        Time = {{macro5}} ft / {{rod}} ft/min = {{macro6}} min
+
+        $$
+        \frac{\frac{\text{Cruise flight level}\times 100+(\text{QNH}-1013)\times 30-\text{Altitude to reach}}{\text{Rate of descent}}\times \text{Ground speed}}{60} = \frac{\frac{ {{fl}}\times 100+({{qnh}}-1013)\times 30-{{alt}} }{500}\times {{gs}} }{60} = \mathbf{ {{answer}}\ \text{NM} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: the QNH correction was ignored and the descent was planned from the flight level as if it were altitude.
+        - **{{d2}} NM**: the QNH correction was subtracted instead of added.
+        - **{{d3}} NM**: the target altitude was not subtracted, so too much height was assumed.
+        - **{{d4}} NM**: this is the descent time in minutes, not multiplied by the ground speed.
+      presets:
+        - variables:
+            fl: 85
+            gs: 140
+            alt: 2000
+            qnh: 1030
+            rod: 500
+            macro1: 510
+            macro2: 17
+            macro3: 8500
+            macro4: 7010
+            macro5: 7010
+            macro6: 14
+            answer: 33
+            d1: 30
+            d2: 28
+            d3: 42
+            d4: 14
+          correctAnswers:
+            - text: 33 NM
+          wrongAnswers:
+            - text: 30 NM
+            - text: 42 NM
+            - text: 14 NM
+            - text: 28 NM
+        - variables:
+            fl: 95
+            gs: 155
+            alt: 2000
+            qnh: 1030
+            rod: 500
+            macro1: 510
+            macro2: 17
+            macro3: 9500
+            macro4: 8010
+            macro5: 8010
+            macro6: 16
+            answer: 41
+            d1: 39
+            d2: 36
+            d3: 52
+            d4: 16
+          correctAnswers:
+            - text: 41 NM
+          wrongAnswers:
+            - text: 39 NM
+            - text: 52 NM
+            - text: 16 NM
+            - text: 36 NM
+        - variables:
+            fl: 110
+            gs: 150
+            alt: 1500
+            qnh: 1020
+            rod: 500
+            macro1: 210
+            macro2: 7
+            macro3: 11000
+            macro4: 9710
+            macro5: 9710
+            macro6: 19
+            answer: 49
+            d1: 48
+            d2: 46
+            d3: 56
+            d4: 19
+          correctAnswers:
+            - text: 49 NM
+          wrongAnswers:
+            - text: 48 NM
+            - text: 56 NM
+            - text: 19 NM
+            - text: 46 NM
+- id: QOZEP
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331929
+    - ATPLQ-338203
+    - BGS-331155
+    - BGS-331361
+    - ATPLQ-339172
+    - ATPLQ-334087
+    - AVEXAM-59282
+  annexes:
+    - id: ASWU
+    - id: AHNI
+    - id: AHGJ
+  learningObjectiveIds:
+    - 033.02.01.07.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure / chart.
+
+        Determine the magnetic track for a direct flight from position 1 (latitude {{lat1}}° N, longitude {{lon1}}° E) to position 2 (latitude {{lat2}}° N, longitude {{lon2}}° E).
+
+        Coordinates are in decimal degrees (west longitude negative).
+
+        The magnetic variation read from the chart is {{var_e}}° (east positive, west negative).
+
+        Give the magnetic track in degrees.
+      explanation: |-
+        The true track is found from the difference in latitude (north-south) and the difference in longitude multiplied by the cosine of the mean latitude (east-west, in nautical-mile equivalent). The magnetic track is the true track minus easterly variation (or plus westerly variation).
+
+        **Solution**
+
+        North-south difference = {{macro1}}°, east-west difference = {{macro2}}°
+
+        True track = {{macro3}}°
+
+        Magnetic track = {{macro3}} - ({{var_e}}) = **{{answer}}°**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} °**: the variation is not applied (true track).
+        - **{{d2}} °**: the variation is applied with the wrong sign.
+        - **{{d3}} °**: the reciprocal track (direction from position 2 to position 1) is used.
+        - **{{d4}} °**: the convergence of meridians is ignored (longitude difference not multiplied by cos of latitude).
+      presets:
+        - variables:
+            lat1: 48.9
+            lon1: 12.5183
+            lat2: 48.8233
+            lon2: 13.3667
+            var_e: 3
+            macro1: 0
+            macro2: 1
+            macro3: 98
+            answer: 95
+            d1: 98
+            d2: 101
+            d3: 275
+            d4: 92
+          correctAnswers:
+            - text: 95 °
+          wrongAnswers:
+            - text: 98 °
+            - text: 275 °
+            - text: 92 °
+            - text: 101 °
+        - variables:
+            lat1: 48.5
+            lon1: 9.6333
+            lat2: 48.05
+            lon2: 9.3667
+            var_e: 1.5
+            macro1: 0
+            macro2: 0
+            macro3: 202
+            answer: 200
+            d1: 202
+            d2: 203
+            d3: 20
+            d4: 209
+          correctAnswers:
+            - text: 200 °
+          wrongAnswers:
+            - text: 202 °
+            - text: 20 °
+            - text: 209 °
+            - text: 203 °
+        - variables:
+            lat1: 48.4167
+            lon1: 9.8
+            lat2: 48.2667
+            lon2: 9.0667
+            var_e: 4
+            macro1: 0
+            macro2: 0
+            macro3: 253
+            answer: 249
+            d1: 253
+            d2: 257
+            d3: 69
+            d4: 254
+          correctAnswers:
+            - text: 249 °
+          wrongAnswers:
+            - text: 253 °
+            - text: 69 °
+            - text: 254 °
+            - text: 257 °
+        - variables:
+            lat1: 58.95
+            lon1: -2.9
+            lat2: 58.45
+            lon2: -3.1
+            var_e: -3
+            macro1: -1
+            macro2: 0
+            macro3: 192
+            answer: 195
+            d1: 192
+            d2: 189
+            d3: 15
+            d4: 205
+          correctAnswers:
+            - text: 195 °
+          wrongAnswers:
+            - text: 192 °
+            - text: 15 °
+            - text: 205 °
+            - text: 189 °
+- id: QIORD
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332618
+    - AVEXAM-71090
+    - BGS-330182
+    - ATPLQ-332761
+    - AVEXAM-92810
+    - ATPLQ-331779
+    - ATPLQ-336519
+    - BGS-331388
+    - BGS-331178
+  annexes:
+    - id: AGWH
+  learningObjectiveIds:
+    - 033.02.01.07.05
+  templates:
+    - type: simple
+      question: |-
+        Planning an IFR flight for a twin jet aeroplane. Given:
+
+        - Flight level: FL{{fl}}
+        - ISA deviation: {{isa_dev}} °C
+        - Cruise procedure: Mach 0.{{mach_h}}
+
+        Determine the TAS in knots.
+      explanation: |-
+        The ISA temperature falls by 1.98 °C per 1000 ft below the tropopause, so at flight level FL the ISA temperature is 15 - 0.198 x FL °C. Adding the ISA deviation and converting to kelvin gives the static temperature 288.15 - 0.198 x FL + ISA deviation (K). The TAS is the Mach number multiplied by the speed of sound at that temperature.
+
+        **Solution**
+
+        $$
+        \frac{\text{Mach number (x 100)}}{100}\times 38.97\times \sqrt{288.15-0.198\times \text{Flight level}+\text{ISA deviation}} = \frac{ {{mach_h}} }{100}\times 38.97\times \sqrt{288.15-0.198\times {{fl}}+({{isa_dev}})} = \mathbf{ {{answer}}\ \text{kt} }
+        $$
+
+        ## Why the other answers are wrong
+        - **{{d1}} kt**: ignores the ISA deviation, so the standard temperature for the flight level is used.
+        - **{{d2}} kt**: uses the sea-level temperature and ignores the altitude.
+        - **{{d3}} kt**: reverses the sign of the ISA deviation.
+        - **{{d4}} kt**: gives the speed of sound and forgets to multiply by the Mach number.
+      presets:
+        - variables:
+            fl: 280
+            isa_dev: -10
+            mach_h: 74
+            answer: 430
+            d1: 440
+            d2: 481
+            d3: 449
+            d4: 582
+          correctAnswers:
+            - text: 430 kt
+          wrongAnswers:
+            - text: 440 kt
+            - text: 449 kt
+            - text: 582 kt
+            - text: 481 kt
+        - variables:
+            fl: 350
+            isa_dev: -10
+            mach_h: 78
+            answer: 439
+            d1: 450
+            d2: 507
+            d3: 460
+            d4: 563
+          correctAnswers:
+            - text: 439 kt
+          wrongAnswers:
+            - text: 450 kt
+            - text: 460 kt
+            - text: 563 kt
+            - text: 507 kt
+        - variables:
+            fl: 240
+            isa_dev: 5
+            mach_h: 80
+            answer: 489
+            d1: 484
+            d2: 534
+            d3: 479
+            d4: 611
+          correctAnswers:
+            - text: 489 kt
+          wrongAnswers:
+            - text: 484 kt
+            - text: 479 kt
+            - text: 611 kt
+            - text: 534 kt
+    - type: simple
+      question: |-
+        Given the following data, what is the TAS of the aeroplane?FL390 
+        OAT: -40°C 
+        Mach number : M 0.82 
+        Wind component : -42 kt
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 488 kt
+          wrongAnswers:
+            - text: 460 kt
+            - text: 440 kt
+            - text: 452 kt
+        - correctAnswers:
+            - text: 460 kt
+          wrongAnswers:
+            - text: 482 kt
+            - text: 452 kt
+            - text: 440 kt
+- id: QGSUF
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338525
+    - BGS-330602
+    - BGS-330064
+    - AVEXAM-59050
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.07.06
+  templates:
+    - type: simple
+      question: "On a given flight path, it is possible to choose between four flight levels FL, each associated with a mandatory flight Mach number M. The flight conditions, static air temperature SAT and headwind component HWC are given below: FL 370: M = 0.80, SAT = -60° C, HWC = 15 kt FL 330: M = 0.78, SAT = -60° C, HWC= 5 kt FL 290: M = 0.80, SAT = -55° C, HWC = 15 kt FL 270: M = 0.76, SAT = -43° C, HWC = 0 The Flight Level allowing the highest Ground Speed is.."
+      explanation: |-
+        The TAS is Mach × local speed of sound (38.95 × √(temperature in kelvin)), and the ground speed is TAS minus the headwind:
+
+        - FL370: 455 − 15 = 440 kt.
+        - FL330: 444 − 5 = 439 kt.
+        - FL290: 460 − 15 = 445 kt.
+        - FL270: 449 − 0 = 449 kt.
+
+        **FL270** gives the highest ground speed.
+      presets:
+        - correctAnswers:
+            - text: FL270.
+          wrongAnswers:
+            - text: FL330.
+            - text: FL290.
+            - text: FL370.
+- id: QOTPD
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-333936
+    - AVEXAM-81806
+    - AVEXAM-10933
+    - AVEXAM-26587
+    - AVEXAM-68487
+    - BGS-331207
+    - AVEXAM-8351
+    - AVEXAM-70758
+    - BGS-330995
+    - ATPLQ-331784
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.07.07
+  templates:
+    - type: simple
+      question: |-
+        Given the following information for a Commercial Air Transport flight:
+
+        - Missed Approach at destination: {{ma}} min
+        - Climb to cruise level: {{climb}} min
+        - Cruise distance: {{dist}} NM
+        - Cruise TAS: {{tas}} kt
+        - Tailwind component: {{tw}} kt
+        - Anticipated hold at alternate: {{hold}} min
+        - Descent to alternate: {{desc}} min
+        - Approach to alternate: {{appr}} min
+
+        What is the time (in minutes) needed from the destination to the alternate aerodrome?
+      explanation: |-
+        The time from the destination to the alternate is the sum of every phase flown after the decision to divert: missed approach, climb, cruise, descent, approach and the anticipated hold at the alternate. Cruise time uses the ground speed, i.e. TAS plus the tailwind component.
+
+        **Solution**
+
+        Cruise time = {{dist}} / ({{tas}} + {{tw}}) × 60 = {{macro1}} min
+        Total = {{ma}} + {{climb}} + {{macro1}} + {{hold}} + {{desc}} + {{appr}} = **{{answer}} minutes**
+
+        ## Why the other answers are wrong
+        - **{{d1}} minutes**: the anticipated hold at the alternate is left out.
+        - **{{d2}} minutes**: the tailwind is subtracted from the TAS (treated as headwind).
+        - **{{d3}} minutes**: tailwind treated as headwind and the hold is left out.
+      presets:
+        - variables:
+            ma: 6
+            climb: 7
+            dist: 85
+            tas: 165
+            tw: 10
+            hold: 10
+            desc: 6
+            appr: 7
+            macro1: 29
+            answer: 65
+            d1: 55
+            d2: 69
+            d3: 59
+          correctAnswers:
+            - text: 65 minutes
+          wrongAnswers:
+            - text: 59 minutes
+            - text: 55 minutes
+            - text: 69 minutes
+        - variables:
+            ma: 5
+            climb: 8
+            dist: 120
+            tas: 180
+            tw: 20
+            hold: 15
+            desc: 7
+            appr: 6
+            macro1: 36
+            answer: 77
+            d1: 62
+            d2: 86
+            d3: 71
+          correctAnswers:
+            - text: 77 minutes
+          wrongAnswers:
+            - text: 71 minutes
+            - text: 62 minutes
+            - text: 86 minutes
+        - variables:
+            ma: 4
+            climb: 6
+            dist: 60
+            tas: 150
+            tw: 15
+            hold: 8
+            desc: 5
+            appr: 9
+            macro1: 22
+            answer: 54
+            d1: 46
+            d2: 59
+            d3: 51
+          correctAnswers:
+            - text: 54 minutes
+          wrongAnswers:
+            - text: 51 minutes
+            - text: 46 minutes
+            - text: 59 minutes
+    - type: simple
+      question: |-
+        Given:
+
+         Missed approach at the destination:
+         6 min
+
+         Climb to cruise level:
+         8 min
+
+         Cruise distance:
+         55 NM
+
+         Cruise TAS:
+         165 kt
+
+         Headwind:
+         10 kt
+
+         Expected holding at the alternate:
+         10 min
+
+         Descent to the alternate:
+         6 min
+
+         Approach to the alternate:
+         6 min
+
+        Calculate the time from the destination to the alternate for this commercial flight.
+      explanation: Determine cruise groundspeed by applying the wind component to TAS. Divide cruise distance by groundspeed and convert to minutes. Then add the missed approach, climb, holding, descent and approach times stated in the question.
+      presets:
+        - correctAnswers:
+            - text: 57 min
+          wrongAnswers:
+            - text: 55 min
+            - text: 47 min
+            - text: 51 min
+    - type: simple
+      question: |-
+        Given:
+
+         Type of flight:
+         commercial
+
+         Missed approach at the destination:
+         6 minutes 
+
+         Climb to cruise level:
+         8 minutes  
+
+         Cruise distance:
+         75 NM  
+
+         Cruise TAS:
+         145 kt  
+
+         Wind component:
+         10 kt headwind  
+
+         Anticipated hold at the alternate:
+         12 minutes  
+
+         Descent to the alternate:
+         7 minutes
+
+         Approach to the alternate:
+         6 minutes
+
+        The flight time from the destination to the alternate is…
+      explanation: Determine cruise groundspeed by applying the wind component to TAS. Divide cruise distance by groundspeed and convert to minutes. Then add the missed approach, climb, holding, descent and approach times stated in the question.
+      presets:
+        - correctAnswers:
+            - text: 72 minutes
+          wrongAnswers:
+            - text: 68 minutes
+            - text: 66 minutes
+            - text: 60 minutes
+    - type: simple
+      question: |-
+        Given the following information, confirm the time from the destination to the alternate.
+        Missed approach at the destination: 5 min 
+        Climb to cruise level: 5 min 
+        Cruise distance: 65 NM 
+        Cruise TAS: 145 kt 
+        Wind component: +18 kt 
+        Anticipated hold at the alternate: 20 min 
+        Descent to the alternate: 4 min 
+        Approach to the alternate: 5 min
+      explanation: Determine cruise groundspeed by applying the wind component to TAS. Divide cruise distance by groundspeed and convert to minutes. Then add the missed approach, climb, holding, descent and approach times stated in the question.
+      presets:
+        - correctAnswers:
+            - text: 63 min
+          wrongAnswers:
+            - text: 43 min
+            - text: 70 min
+            - text: 58 min
+- id: QQNIM
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337871
+    - BGS-331007
+    - AVEXAM-86028
+    - BGS-331559
+  annexes:
+    - id: ARAF
+  learningObjectiveIds:
+    - 033.02.01.07.07
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        According to the extract from a typical flight plan produced by an airline flight planning tool, what is the total flight time from Skiathos (LGSK) to Kavala (LGKV)? In order to calculate this total flight time, find the EET to THESSALONIKI (TSL).
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 38 minutes
+          wrongAnswers:
+            - text: 20 minutes
+            - text: 25 minutes
+            - text: 32 minutes
+- id: QWRWQ
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339536
+    - AVEXAM-72226
+    - BGS-330223
+    - ATPLQ-332725
+    - BGS-330181
+    - AVEXAM-70697
+  annexes:
+    - id: AGGS
+    - id: ANPI
+  learningObjectiveIds:
+    - 033.02.01.07.07
+    - 033.03.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to the CAP 697 descent tables.
+        Planning an IFR flight from Paris to London for the twin jet aeroplane. Given:
+
+        Estimated Landing Mass: 49700 kg   
+        FL 280   
+        W/V: 280°/40 kt   
+        Average True Course: 320°   
+        Procedure for descent 0.74 M/250 KIAS
+
+        Determine the fuel consumption from the top of descent to London elevation 80 ft
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 273 kg
+          wrongAnswers:
+            - text: 320 kg
+            - text: 263 kg
+            - text: 210 kg
+        - correctAnswers:
+            - text: 19 min
+          wrongAnswers:
+            - text: 10 min
+            - text: 8 min
+            - text: 17 min
+- id: QCHLR
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QIZGU
+  externalQuestionIds:
+    - ATPLQ-332064
+    - BGS-331218
+    - AVEXAM-94522
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.07.08
+  templates:
+    - type: simple
+      question: An aircraft is flying under IFR using its FMS for area navigation and intends to enter a controlled airspace via waypoint OSLEL. The aircraft is cleared to approach OSLEL at 1346Z. The current Estimated Time Overhead (ETO) OSLEL is 1343Z and the pilot decreases the groundspeed accordingly. What is the appropriate way of checking that the new speed is suitable to arrive overhead OSLEL at 1346Z?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The FMS will give the crew a new ETO at OSLEL, which can be checked against the time in the clearance.
+          wrongAnswers:
+            - text: The FMS will give the crew groundspeed, and the change in groundspeed can be used to adjust the ETO at OSLEL.
+            - text: The FMS will give the crew a distance and groundspeed, which can be used to calculate ETO at OSLEL to check against the clearance.
+            - text: The FMS will give the crew a time to run to OSLEL, from which they can confirm the ETO is correct.
+- id: QDZVS
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-333572
+    - AVEXAM-33270
+    - BGS-331114
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.07.08
+  templates:
+    - type: simple
+      question: If the actual in-flight wind produces a greater headwind than the forecast wind input into the FMC, what should be expected?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Speeds will be increased to maintain ETAs.
+          wrongAnswers:
+            - text: The optimum level will be lowered.
+            - text: Earlier ETAs will be generated by the FMC.
+            - text: A new cruise level will be generated by the FMC.
+- id: QIAIX
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331625
+    - AVEXAM-92865
+    - BGS-331137
+    - ATPLQ-339103
+    - AVEXAM-42052
+    - BGS-331240
+    - BGS-331033
+    - AVEXAM-91856
+    - ATPLQ-336392
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.07.08
+  templates:
+    - type: simple
+      question: What is an advantage of using GNSS FMC equipment in flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The in-flight position of the aircraft can be continuously displayed.
+          wrongAnswers:
+            - text: There is NO need for a route check as this is an automatic function.
+            - text: The aircraft systems require less data from the Air Data Computer.
+            - text: In-flight weather is more easily detected and avoided.
+        - correctAnswers:
+            - text: Additional aeronautical information can be stored in the database.
+          wrongAnswers:
+            - text: Visual Meteorological conditions limitations are reduced.
+            - text: Limitations imposed by the Instrument Flight Rules can be disregarded in uncontrolled airspace.
+            - text: Great circle routes CANNOT be flown without GNSS/FMC equipment.
+- id: QIZGU
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds:
+    - QCHLR
+  externalQuestionIds:
+    - ATPLQ-333207
+    - AVEXAM-35752
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.07.08
+    - 033.06.01.01.06
+  templates:
+    - type: simple
+      question: An aircraft is flying under IFR using its FMS for area navigation. According to its FMS, the Estimated Time Over (ETO) a waypoint is 1443, but ATC has cleared the aircraft at 1446\. After decreasing the groundspeed accordingly, what is the appropriate way of checking that the new speed is suitable to arrive overhead the waypoint at 1446?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The FMS will give a new ETO which can be compared against the ATC clearance.
+          wrongAnswers:
+            - text: The FMS gives a new speed and distance which can be used to calculate the ETO.
+            - text: The FMS gives a new transit time for the leg, which can be used to calculate the ETO.
+            - text: The FMS gives only a speed, which can be used to calculate the ETO.
+- id: QFQPW
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-336180
+    - BGS-331229
+    - AVEXAM-2304
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.07.09
+  templates:
+    - type: simple
+      question: What will be the effect of an incorrect cruise level entry into the FMC?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The FMC will calculate incorrect speeds, times and fuel flows.
+          wrongAnswers:
+            - text: The incorrect entry will be detected and the input will be prevented.
+            - text: There will be NO effect as the FMC will make an automatic correction.
+            - text: The aircraft will NOT be able to reach the ATC assigned cruise level.
+- id: QUZVM
+  subjectId: "033"
+  chapterId: "033.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331080
+    - BGS-331129
+    - AVEXAM-98578
+    - AVEXAM-87140
+  annexes: []
+  learningObjectiveIds:
+    - 033.02.01.07.09
+  templates:
+    - type: simple
+      question: What will be the effect on the FMC fuel and time predictions if the aircraft is in a non-standard configuration?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No fuel or time predictions will be correct.
+          wrongAnswers:
+            - text: Only the next waypoint eta and remaining fuel will be accurate.
+            - text: There will be no effect as FMC will make an automatic correction.
+            - text: The FMC will not be able to provide ETAs or remaining fuel prediction.

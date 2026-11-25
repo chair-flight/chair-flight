@@ -1,0 +1,1332 @@
+- id: QLHXB
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds:
+    - QQAQR
+  externalQuestionIds:
+    - ATPLQ-816021
+    - BGS-810792
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.01.01.02
+  templates:
+    - type: simple
+      question: An aeroplane's bank angle is defined as the angle between its...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: lateral axis and the horizon.
+          wrongAnswers:
+            - text: longitudinal axis and the horizon.
+            - text: lateral axis and the relative airflow.
+            - text: longitudinal axis and the relative airflow.
+- id: QQAQR
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds:
+    - QLHXB
+  externalQuestionIds:
+    - ATPLQ-814264
+    - AVEXAM-54263
+    - AVEXAM-14081
+    - BGS-810176
+    - AVEXAM-5867
+    - BGS-810793
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.01.01.02
+  templates:
+    - type: simple
+      question: "An aeroplane's pitch angle is defined as the angle between its:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: longitudinal axis and the horizontal plane.
+          wrongAnswers:
+            - text: speed vector and its longitudinal axis.
+            - text: speed vector and the horizontal plane.
+            - text: lateral axis and the horizontal plane.
+- id: QJHLS
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813353
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.01.01.04
+  templates:
+    - type: simple
+      question: Fly-by-wire flight control systems convert pilot control inputs into electrical signals, which are processed and sent to electrically controlled hydraulic actuators, operating the control surfaces. Which control surface is operated when the pilot inputs a pitch command?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Elevators
+          wrongAnswers:
+            - text: CG
+            - text: Rudder
+            - text: Ailerons
+- id: QZFBF
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819264
+    - AVEXAM-38013
+    - BGS-810838
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.01.01.04
+  templates:
+    - type: simple
+      question: "Rotation about the longitudinal axis of an aeroplane can be achieved by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: aileron deflection and/or rudder deflection.
+          wrongAnswers:
+            - text: elevator deflection and/or slat extension.
+            - text: speed brake extension or wing flap deflection.
+            - text: symmetrical spoiler deflection and/or elevator deflection.
+- id: QPIJS
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816301
+    - BGS-812445
+    - AVEXAM-55122
+    - AVEXAM-58962
+    - ATPLQ-819931
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.01.02.01
+  templates:
+    - type: simple
+      question: Consider a symmetrical wing with a control surface in the trailing edge. When the control surface is deflected downwards, it (1) \_\_\_\_\_ the camber, producing a force in the (2) \_\_\_\_\_ direction of the deflection.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) increases; (2) opposite
+          wrongAnswers:
+            - text: (1) decreases; (2) same
+            - text: (1) decreases; (2) opposite
+            - text: (1) increases; (2) same
+- id: QCGWW
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819207
+    - AVEXAM-38503
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.02.01.01
+  templates:
+    - type: simple
+      question: In flight, a weight shift causes the CG to move forwards. The distance between the CG position and centre of pressure (CP) has increased. In order to maintain pitch, the elevator must deflect (1) _____ to (2) _____ the downforce on the tailplane.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) upwards; (2) increase
+          wrongAnswers:
+            - text: (1) downwards; (2) increase
+            - text: (1) downwards; (2) decrease
+            - text: (1) upwards; (2) decrease
+    - type: simple
+      question: During flight, a shift in weight causes the center of gravity (CG) to move forward, increasing the distance between the CG and the center of pressure (CP). To maintain pitch, the elevator must deflect (1) ___ in order to (2) ___ the downward force produced by the tailplane.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) upwards; (2) increase
+          wrongAnswers:
+            - text: (1) downwards; (2) decrease
+            - text: (1) upwards; (2) decrease
+            - text: (1) downwards; (2) increase
+- id: QLSQV
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811391
+    - AVEXAM-73624
+    - BGS-812203
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.02.01.01
+  templates:
+    - type: simple
+      question: When you pull the yoke backwards, what happens?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Elevator goes up and increases the tailplanes negative angle of attack
+          wrongAnswers:
+            - text: Elevator goes down and increase the tailplane positive angle of attack
+            - text: Elevator goes down and increase the tailplanes negative angle of attack
+            - text: Elevator goes up and increases the tailplanes positive angle of attack
+- id: QPPYP
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814274
+    - AVEXAM-64962
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.02.01.01
+  templates:
+    - type: simple
+      question: When the elevator is deflected upwards, it creates a moment around the centre of (1) \_\_\_\_\_ which will result in the aeroplane pitching (2) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) gravity; (2) up
+          wrongAnswers:
+            - text: (1) gravity; (2) down
+            - text: (1) pressure; (2) down
+            - text: (1) pressure; (2) up
+- id: QOJUJ
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816992
+    - BGS-812368
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.02.02.01
+  templates:
+    - type: simple
+      question: Considering the effect of wing downwash on the direction of the airflow approaching the tailplane, when flaps are extended the tailplane’s negative angle of attack...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: increases, increasing the tailplane’s effectiveness.
+          wrongAnswers:
+            - text: increases, decreasing the tailplane’s effectiveness.
+            - text: decreases, decreasing the tailplane’s effectiveness.
+            - text: decreases, increasing the tailplane’s effectiveness.
+- id: QQWME
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816208
+    - BGS-812020
+    - AVEXAM-85884
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.02.02.01
+  templates:
+    - type: simple
+      question: When an aeroplane wing’s angle of attack is increased, downwash causes the horizontal tailplane to experience...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a lower increase in angle of attack.
+          wrongAnswers:
+            - text: an initial lower angle of attack which then increases.
+            - text: the same increase in angle of attack.
+            - text: a higher increase in angle of attack.
+- id: QNCEF
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818263
+    - AVEXAM-40108
+    - BGS-811727
+    - AVEXAM-44559
+    - BGS-810808
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.02.04.01
+  templates:
+    - type: simple
+      question: "When the CG position is moved forward, the elevator deflection to achieve an increase in load factor will be:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: larger.
+          wrongAnswers:
+            - text: unchanged.
+            - text: smaller.
+            - text: dependent on trim position.
+- id: QUSUT
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817993
+    - BGS-811726
+    - BGS-811728
+    - ATPLQ-815960
+    - AVEXAM-62346
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.02.04.01
+  templates:
+    - type: simple
+      question: When the CG position is moved aft, the elevator deflection required to achieve a given reduction in load factor will be...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: smaller.
+          wrongAnswers:
+            - text: larger.
+            - text: the same.
+            - text: larger or smaller, depending on the position of the trim tab.
+- id: QDZRL
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816214
+    - BGS-810813
+    - AVEXAM-93343
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.02.04.02
+  templates:
+    - type: simple
+      question: Which statement about CG limits is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The forward CG limit is mainly determined by the amount of pitch control available from the elevator.
+          wrongAnswers:
+            - text: If the aft CG limit is correctly chosen, the forward CG limit is automatically determined as well.
+            - text: The aft CG limit is determined by the maximum elevator deflection available.
+            - text: The forward CG limit is determined by stability considerations only.
+- id: QBOYZ
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815751
+    - BGS-810816
+    - AVEXAM-44575
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.02.05.01
+  templates:
+    - type: simple
+      question: On a jet aeroplane (engines mounted below the low wing) the thrust is suddenly increased. Which of these statements is correct about the elevator deflection required to maintain zero pitching moment?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The elevator must be deflected downward.
+          wrongAnswers:
+            - text: The elevator must be deflected upwards.
+            - text: No elevator deflection will be required because the thrust line of the engines remains unchanged.
+            - text: The amount of elevator deflection is independent of CG location.
+- id: QCQAM
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815130
+    - AVEXAM-14346
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.02.05.01
+  templates:
+    - type: simple
+      question: If the thrust line is above the CG, how will this affect the airplane?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pitch down, stabilising.
+          wrongAnswers:
+            - text: Pitch down, destabilising.
+            - text: Pitch up, stabilizing.
+            - text: Pitch up, destabilising.
+- id: QYBUZ
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815588
+    - BGS-811259
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.03.01.01
+  templates:
+    - type: simple
+      question: "To side slip an aircraft to the right, the pilot would apply:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Control column right, rudder left.
+          wrongAnswers:
+            - text: Control column right, rudder right.
+            - text: Control column left, rudder right.
+            - text: Control column left, rudder left.
+- id: QYYTZ
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815002
+    - AVEXAM-72789
+    - BGS-812743
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.03.01.01
+  templates:
+    - type: simple
+      question: In a sideslip, rudder effectiveness may be reduced. Deflection of which control surface will aid, through secondary or coupled aerodynamic effects, the rudder yawing moment?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ailerons
+          wrongAnswers:
+            - text: Elevators
+            - text: Flaps
+            - text: Slats
+- id: QKTVW
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813450
+    - AVEXAM-57379
+    - BGS-811377
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.03.02.01
+  templates:
+    - type: simple
+      question: When large transport aeroplanes are flying at high speed, full rudder deflection would cause excessive loads on the structure. What system is fitted to the rudder to prevent this happening?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Rudder ratio or rudder travel changer.
+          wrongAnswers:
+            - text: Yaw damper system.
+            - text: Fully powered rudder control.
+            - text: Rudder trim system.
+- id: QDECL
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817951
+    - BGS-812037
+    - AVEXAM-1503
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.03.02.01
+  templates:
+    - type: simple
+      question: Why is there a limit on the full rudder deflection as airspeed (IAS) increases on transport aeroplanes?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Because full rudder deflection could create an excessive load on the structure.
+          wrongAnswers:
+            - text: To reduce the risk of entering a spiral divergence in cruise.
+            - text: Full rudder deflection is not to be limited on transport aeroplanes as airspeed increases.
+            - text: To reduce the directional stability at high airspeed.
+- id: QEHVR
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818942
+    - BGS-810819
+    - AVEXAM-34716
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.04.01.01
+  templates:
+    - type: simple
+      question: "Aileron deflection causes a rotation around the longitudinal axis by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: changing the wing camber and the two wings therefore produce different lift values resulting in a moment about the longitudinal axis.
+          wrongAnswers:
+            - text: changing the wing drag and the two wings therefore produce different lift values resulting in a moment about the longitudinal axis.
+            - text: aileron secondary effect.
+            - text: causing sideslip, which generates a rolling moment.
+- id: QSTSX
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812362
+    - AVEXAM-11827
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.04.01.01
+  templates:
+    - type: simple
+      question: On a wing, the downgoing aileron will produce a(n) (1) \_\_\_\_\_ in (2) \_\_\_\_\_, thus creating roll.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) increase; (2) lift
+          wrongAnswers:
+            - text: (1) decrease; (2) lift
+            - text: (1) increase; (2) drag
+            - text: (1) decrease; (2) drag
+- id: QJXMU
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813747
+    - AVEXAM-9269
+    - BGS-812362
+    - AVEXAM-89671
+    - ATPLQ-819831
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.04.01.04
+  templates:
+    - type: simple
+      question: Outboard ailerons are (1)\_\_\_\_\_ at (2)\_\_\_\_\_ speeds, to prevent (3)\_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) locked; (2) high; (3) aileron reversal.
+          wrongAnswers:
+            - text: (1) unlocked; (2) high; (3) aeroelastic phenomena.
+            - text: (1) locked; (2) low; (3) aeroelastic phenomena.
+            - text: (1) unlocked; (2) low; (3) aileron reversal.
+    - type: simple
+      question: On a jet transport aircraft flying at (1) \_\_\_\_\_ speeds, the outboard ailerons are (2) \_\_\_\_\_ to prevent (3) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) high; (2) locked; (3) control reversal
+          wrongAnswers:
+            - text: (1) high; (2) unlocked; (3) control reversal
+            - text: (1) low, (2) unlocked; (3) geometric washout
+            - text: (1) low; (2) locked; (3) geometric washout
+- id: QQTXB
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811233
+    - AVEXAM-10426
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.04.01.05
+  templates:
+    - type: simple
+      question: Which control surfaces are most affected by shockwaves on the wing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ailerons
+          wrongAnswers:
+            - text: Elevator
+            - text: Spoilers
+            - text: Rudder
+    - type: simple
+      question: Which flight control surfaces experience the greatest impact from shockwaves occurring on the wing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ailerons
+          wrongAnswers:
+            - text: Elevator
+            - text: Rudder
+            - text: Spoilers
+- id: QJPBH
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819727
+    - AVEXAM-86207
+    - BGS-810823
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.04.01.05
+  templates:
+    - type: simple
+      question: "Outboard ailerons (if present) are normally used:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: in low speed flight only.
+          wrongAnswers:
+            - text: at transonic and supersonic speeds only.
+            - text: when the landing gear is up.
+            - text: in high speed flight only.
+- id: QBGTU
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819810
+    - AVEXAM-82632
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.04.01.07
+  templates:
+    - type: simple
+      question: A given aileron deflection affects...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: roll rate and is dependent on IAS
+          wrongAnswers:
+            - text: bank angle and is dependent on IAS
+            - text: roll rate and is dependent on TAS
+            - text: bank angle and is dependent on TAS
+- id: QQGPK
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819721
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.04.01.07
+  templates:
+    - type: simple
+      question: "Aeroplane manoeuvrability decreases for a given control surface deflection when:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: IAS decreases.
+          wrongAnswers:
+            - text: the CG moves aft.
+            - text: IAS increases.
+            - text: flaps are retracted at constant IAS.
+- id: QDZQT
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819275
+    - BGS-810818
+    - AVEXAM-31691
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.04.01.08
+  templates:
+    - type: simple
+      question: "Flaperons are controls, which combine the function of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ailerons and flaps.
+          wrongAnswers:
+            - text: ailerons and elevator.
+            - text: flaps and elevator.
+            - text: flaps and speed brakes.
+- id: QVEFY
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817670
+    - AVEXAM-81151
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.04.03.01
+  templates:
+    - type: simple
+      question: Consider an aircraft equipped with roll spoilers during a turn. Which spoilers are most likely to extend, and on which wing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The outboard spoilers on the downgoing wing.
+          wrongAnswers:
+            - text: The inboard spoilers on the downgoing wing
+            - text: The outboard spoilers on the upgoing wing
+            - text: The inboard spoilers on the up-going wing
+- id: QKJLF
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds:
+    - QSLII
+  externalQuestionIds:
+    - ATPLQ-815206
+    - BGS-812032
+    - AVEXAM-67695
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.04.04.01
+  templates:
+    - type: simple
+      question: The use of ailerons induces adverse (aileron) yaw. This occurs as a result of the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: up-going wing producing more drag than the down-going wing.
+          wrongAnswers:
+            - text: up-going wing being subjected to more aerodynamic damping than the down-going wing.
+            - text: up-going wing having a higher rate of roll when compared to the down-going wing.
+            - text: down-going wing producing more drag than the up-going wing.
+- id: QSLII
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds:
+    - QKJLF
+  externalQuestionIds:
+    - ATPLQ-814421
+    - AVEXAM-6427
+    - BGS-811366
+    - AVEXAM-43029
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.04.05.01
+  templates:
+    - type: simple
+      question: Frise ailerons are used to reduce adverse aileron yaw. To achieve this the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: leading edge of the up-going aileron protrudes below the lower surface of the wing, causing more drag.
+          wrongAnswers:
+            - text: up-going aileron moves through a larger angle than the down-going aileron.
+            - text: leading edge of the down-going aileron protrudes above the upper surface of the wing, causing more drag.
+            - text: down-going aileron moves through a larger angle than the up-going aileron.
+- id: QFHGT
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813456
+    - BGS-810839
+    - AVEXAM-54695
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.05.01.02
+  templates:
+    - type: simple
+      question: "Yaw is followed by roll because the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: yawing motion generated by rudder deflection causes a speed increase of the outer wing, which increases the lift on that wing so that the aeroplane starts to roll in the same direction as the yaw.
+          wrongAnswers:
+            - text: yawing motion generated by rudder deflection causes a speed increase of the inner wing, which increase the lift on that wing so that the aeroplane starts to roll in the same direction as the yaw.
+            - text: rolling motion generated by rudder deflection causes a speed increase of the outer wing which increases the lift on that wing so the aeroplane starts to roll in the direction of the turn.
+            - text: rudder is located above the longitudinal axis and when it is deflected, it causes a rolling moment in the same direction as the yaw.
+- id: QICIV
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817508
+    - BGS-810837
+    - AVEXAM-49086
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.05.01.02
+  templates:
+    - type: simple
+      question: "If the nose of an aeroplane yaws left, this causes:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a roll to the left.
+          wrongAnswers:
+            - text: an increase in lift on the left wing.
+            - text: a roll to the right.
+            - text: a decrease in relative airspeed on the right wing.
+- id: QJACI
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819708
+    - BGS-810849
+    - AVEXAM-59834
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.06.01.01
+  templates:
+    - type: simple
+      question: "Examples of aerodynamic balancing of control surfaces are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: servo tab, spring tab, seal between the wing trailing edge and the leading edge of control surface.
+          wrongAnswers:
+            - text: balance tab, horn balance, and mass balance.
+            - text: spring tab, servo tab, and power assisted control.
+            - text: mass in the nose of the control surface, horn balance and mass balance.
+- id: QKTLJ
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817150
+    - AVEXAM-29642
+    - BGS-811413
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.06.01.02
+  templates:
+    - type: simple
+      question: The horn balance is used for aerodynamic balancing. It consists...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: in locating part of the control surface ahead of the hinge line to protrude in the airflow.
+          wrongAnswers:
+            - text: of a tab which moves opposite to the movement of the main control surface.
+            - text: in locating part of the control surface behind the hinge line to protrude in the airflow.
+            - text: of a downspring which contributes to stick force stability.
+- id: QEYGH
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds:
+    - QOVVY
+  externalQuestionIds:
+    - ATPLQ-812681
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.06.01.04
+  templates:
+    - type: simple
+      question: Which of the following tabs increases the effectiveness of the whole rudder?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Anti balance tab.
+          wrongAnswers:
+            - text: Spring tab.
+            - text: Balance tab.
+            - text: Trim tab.
+- id: QOVVY
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds:
+    - QEYGH
+  externalQuestionIds:
+    - ATPLQ-818787
+    - BGS-811329
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.06.01.04
+  templates:
+    - type: simple
+      question: Which of the following tab devices contributes positively to the effectiveness of a control surface?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An anti-balance tab.
+          wrongAnswers:
+            - text: A balance tab.
+            - text: A servo tab.
+            - text: A trim tab.
+- id: QVLLI
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819878
+    - BGS-811734
+    - AVEXAM-8622
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.06.02.01
+  templates:
+    - type: simple
+      question: In a fully powered flight control system, the pilot supplies the force to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: move the servo valve.
+          wrongAnswers:
+            - text: move the servo tab.
+            - text: move the spring tab.
+            - text: provide the "aerodynamic feel".
+- id: QWICB
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818121
+    - BGS-811408
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.06.02.02
+  templates:
+    - type: simple
+      question: In a power-assisted flight control system, most of the force is provided by the…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: hydraulic system.
+          wrongAnswers:
+            - text: servo tab.
+            - text: servo valve.
+            - text: pilot.
+- id: QDWFN
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818873
+    - BGS-810855
+    - AVEXAM-62022
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.06.02.03
+  templates:
+    - type: simple
+      question: What is the primary input for an artificial feel system?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: IAS
+          wrongAnswers:
+            - text: Mach number
+            - text: Static pressure
+            - text: TAS
+- id: QMQWK
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811317
+    - BGS-812683
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.06.02.03
+  templates:
+    - type: simple
+      question: Artificial feel systems are installed in aircraft with (1) \_\_\_\_\_, which prevent the pilot from (2) \_\_\_\_\_ the aircraft.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) fully-powered controls, (2) overstressing
+          wrongAnswers:
+            - text: (1) reversable controls, (2) stalling
+            - text: (1) fully-powered controls, (2) stalling
+            - text: (1) reversable controls, (2) overstressing
+- id: QQHVE
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811562
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.07.01.02
+  templates:
+    - type: simple
+      question: Consider a Fly-By-Wire (FBW) large transport aircraft on the cruise, with its CG more aft than initially calculated. What could be a possible consequence of this?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The calculated forces for a given pitch input can be too large, potentially exceeding limits.
+          wrongAnswers:
+            - text: The aircraft's pitch authority will decrease, leading to decreased manoeuvrability.
+            - text: The aircraft's stability will be improved due to the more aft CG.
+            - text: The aircraft's roll control will become more sensitive, improving handling.
+- id: QSRFQ
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815224
+    - AVEXAM-35991
+    - BGS-812169
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.07.01.03
+  templates:
+    - type: simple
+      question: Consider a modern large aeroplane fitted with a Fly-By-Wire (FBW) system. Following a failure, the Flight Control System Control Laws fall one level to the first level of degradation. What would be one of the most noticeable consequences?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The autopilot may or may not be available, depending on the specific failure.
+          wrongAnswers:
+            - text: The autopilot is NOT available, but all protections remain in place.
+            - text: A reversion to the mechanical back-up mode.
+            - text: The autopilot is required to remain available according to airworthiness regulations but, depending on the specific failure, some protections may be lost.
+- id: QWKOF
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817860
+    - AVEXAM-92454
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.07.01.04
+  templates:
+    - type: simple
+      question: "In the fly-by-wire flight envelope protection system, the protections which can be overridden are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Soft protections.
+          wrongAnswers:
+            - text: Hard protections.
+            - text: Neither hard nor soft protections.
+            - text: Both hard and soft protections.
+- id: QGXDR
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812635
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.08.01.01
+  templates:
+    - type: multiple-correct
+      question: Which of the following are reasons for trimming an aircraft in pitch?
+      explanation: ""
+      options:
+        - text: Changes of speed
+          correct: true
+        - text: Changes of power
+          correct: true
+        - text: Varying CG positions
+          correct: true
+        - text: Lateral displacement of CG
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QEMDC
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814392
+    - BGS-812287
+    - AVEXAM-55125
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.08.01.02
+  templates:
+    - type: simple
+      question: When comparing a trim tab with an anti-balance tab, which of the following statements is correct?The trim tab...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: moves in the opposite direction to the control surface and the anti-balance tab moves in the same direction as the control surface.
+          wrongAnswers:
+            - text: increases control effectiveness and the anti-balance tab reduces it.
+            - text: is moved by pilot input and the anti-balance tab is moved by an electrical input.
+            - text: moves in the same direction as the control surface and the anti-balance tab moves in the opposite direction to the control surface.
+- id: QNFRG
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811630
+    - BGS-810860
+    - BGS-810858
+    - AVEXAM-17936
+    - AVEXAM-34371
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.08.02.01
+  templates:
+    - type: simple
+      question: "In straight flight, as speed is increased, whilst trimming to keep the stick force zero:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the elevator is deflected further downwards and the trim tab further upwards.
+          wrongAnswers:
+            - text: the elevator is deflected further upwards and the trim tab further downwards.
+            - text: both elevator and trim tab are deflected further downwards.
+            - text: the elevator and trim tab do not move.
+- id: QZHAR
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811851
+    - BGS-811742
+    - AVEXAM-63901
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.08.02.01
+  templates:
+    - type: simple
+      question: "If the elevator becomes jammed, then the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Elevator trim tab’s effect will be reversed.
+          wrongAnswers:
+            - text: Static longitudinal stability is reduced.
+            - text: Aeroplane can only be controlled by the use of a stabiliser trim.
+            - text: Elevator trim will become inoperative.
+- id: QMDXC
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812322
+    - BGS-811361
+    - AVEXAM-82245
+    - AVEXAM-34456
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.08.03.01
+  templates:
+    - type: simple
+      question: When an aircraft with stabiliser trim is trimmed "nose up", what is the position of the stabiliser and elevator compared to the horizontal axis of the aircraft? Consider the stabiliser movement to be that occurring at its trailing edge.The stabiliser will be...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: deflected up with the elevator in line with it.
+          wrongAnswers:
+            - text: parallel to the horizontal axis, with the elevator in line with it.
+            - text: deflected up with the elevator down.
+            - text: deflected down with the elevator in line with it.
+- id: QVGVJ
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819972
+    - BGS-810874
+    - BGS-810896
+    - AVEXAM-5818
+    - AVEXAM-81794
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.08.03.01
+  templates:
+    - type: simple
+      question: What is the position of the elevator in relation to the trimmable horizontal stabiliser of an aeroplane with fully hydraulically operated flight controls that is in trim?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Elevator deflection is zero.
+          wrongAnswers:
+            - text: At a forward CG, the elevator is deflected upward and at an aft CG, it is deflected downward.
+            - text: The elevator is always deflected slightly downward in order to have sufficient remaining flare capability.
+            - text: The position depends on speed, the position of flaps and slats and the position of the centre of gravity.
+- id: QCBLB
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814702
+    - BGS-810712
+    - BGS-810711
+    - AVEXAM-47348
+    - AVEXAM-71539
+    - ATPLQ-819011
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.08.03.02
+  templates:
+    - type: simple
+      question: |-
+        Consider two elevator control systems:
+
+        1\. is fitted with a trim tab   
+         2\. is fitted with fully powered hydraulic controls and an adjustable horizontal stabiliser.
+
+        For both cases and starting from a trimmed condition, how will the neutral position of the control column change, after trimming for a speed increase?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 moves forward, 2 does not change.
+          wrongAnswers:
+            - text: 1 does not change, 2 moves forward.
+            - text: 1 moves forward, 2 moves forward.
+            - text: 1 does not change, 2 does not change.
+        - correctAnswers:
+            - text: 1 moves aft, 2 does not change.
+          wrongAnswers:
+            - text: 1 does not change, 2 moves aft.
+            - text: 1 moves forward, 2 moves forward.
+            - text: 1 does not change, 2 does not change.
+- id: QJTHF
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811308
+    - ATPLQ-812280
+    - ATPLQ-813065
+    - ATPLQ-814036
+    - ATPLQ-814065
+    - ATPLQ-814821
+    - ATPLQ-815008
+    - ATPLQ-815037
+    - ATPLQ-815793
+    - ATPLQ-815822
+    - ATPLQ-816764
+    - ATPLQ-816793
+    - ATPLQ-817549
+    - ATPLQ-818551
+    - ATPLQ-819051
+    - AVEXAM-11984
+    - AVEXAM-20987
+    - AVEXAM-26511
+    - AVEXAM-27468
+    - AVEXAM-35020
+    - AVEXAM-40475
+    - AVEXAM-43499
+    - AVEXAM-5254
+    - AVEXAM-52741
+    - AVEXAM-61864
+    - AVEXAM-66342
+    - AVEXAM-68642
+    - AVEXAM-78560
+    - AVEXAM-83707
+    - AVEXAM-91267
+    - AVEXAM-96969
+    - BGS-810877
+    - BGS-810881
+    - BGS-810883
+    - BGS-810884
+    - BGS-810887
+    - BGS-810888
+    - BGS-810889
+    - BGS-811741
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.08.03.02
+    - 081.05.08.03.05
+  templates:
+    - type: one-two
+      question: Comparing the differences between a horizontal trimmable stabiliser and an elevator trim tab which of these statements are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - A stabiliser trim is more suitable to cope with the large trim changes generated by the high lift devices on most jet transport aeroplanes.
+            - A trim tab is less suitable for jet transport aeroplanes because of their large speed range.
+          wrong:
+            - An elevator trim tab is more suitable to cope with the large trim changes generated by the high lift devices on most jet transport aeroplanes.
+        - right:
+            - When trimmed for zero elevator stick force an elevator trim tab causes more drag.
+          wrong:
+            - When trimmed for zero elevator stick force a horizontal trimmable stabiliser causes more drag.
+        - right:
+            - The effects of a stabiliser trim runaway are more serious.
+            - A trim tab runaway causes less control difficulty.
+          wrong:
+            - The effects of a trim tab runaway are more serious.
+            - A stabiliser trim runaway causes less control difficulty.
+        - right:
+            - A horizontal trimmable stabiliser enables a larger CG range.
+          wrong:
+            - An elevator trim tab enables a larger CG range.
+        - right:
+            - A jammed trim tab causes less control difficulty.
+          wrong:
+            - A jammed stabiliser trim causes less control difficulty.
+        - right:
+            - A stabiliser trim is a more powerful means of trimming.
+          wrong: []
+- id: QDHYY
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813925
+    - AVEXAM-33821
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.08.03.03
+  templates:
+    - type: simple
+      question: A last minute change to the weight and balance of an aircraft adds more weight in a forward area. The aircraft remains within limits after the weight addition; what will happen to the stabiliser trim for take-off?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Set trim nose-up, leading edge down.
+          wrongAnswers:
+            - text: Set trim nose-down, leading edge up.
+            - text: Set trim nose-up, leading edge up.
+            - text: Set trim nose-down, leading edge down.
+- id: QOGXQ
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811768
+    - BGS-811735
+    - BGS-810893
+    - AVEXAM-91713
+    - AVEXAM-82321
+    - AVEXAM-46813
+    - BGS-810895
+    - AVEXAM-45333
+    - BGS-811752
+    - BGS-810873
+    - BGS-810894
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.08.03.03
+  templates:
+    - type: simple
+      question: "When a jet transport aeroplane takes off with the CG at the forward limit and the trimmable horizontal stabiliser (THS) is positioned at the maximum allowable nose up position for take-off:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: rotation will be normal using the normal rotation technique.
+          wrongAnswers:
+            - text: early nose wheel raising will take place.
+            - text: rotation will require a higher than normal stick force.
+            - text: there will be a tendency to over-rotate.
+- id: QARRR
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816522
+    - AVEXAM-82614
+    - BGS-812234
+    - ATPLQ-815543
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.08.03.04
+  templates:
+    - type: simple
+      question: The pilots prepare and trim the aircraft for take-off, setting the trim for a CG position at 24% of the MAC. But due to an error, the real position of the CG is at 12% of the MAC. What could this cause?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Large stick forces are required to achieve rotation.
+          wrongAnswers:
+            - text: Risk of over rotation that can lead to a tail strike.
+            - text: Reduced climb performance after take-off.
+            - text: The length of the runway may not be sufficient to take-off.
+        - correctAnswers:
+            - text: Risk of over rotation that can lead to a tail strike.
+          wrongAnswers:
+            - text: Large stick forces are required to achieve rotation.
+            - text: The length of the runway may not be sufficient to take-off.
+            - text: Reduced climb performance after take-off.
+- id: QDEUQ
+  subjectId: "081"
+  chapterId: "081.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811889
+    - AVEXAM-80892
+  annexes: []
+  learningObjectiveIds:
+    - 081.05.08.03.06
+  templates:
+    - type: simple
+      question: Just after rotation, an aircraft suffers a stabiliser jam. What are the consequences?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The consequences are minor until the pilots change speed or configuration
+          wrongAnswers:
+            - text: The aircraft will pitch immediate nose down
+            - text: The aircraft will pitch immediate nose up
+            - text: The aircraft will become uncontrollable, the control column is jammed

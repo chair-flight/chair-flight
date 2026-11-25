@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1387 1535" width="1387" height="1535">
+  <title>Four attitude-indicator readings</title>
+  <defs>
+    <linearGradient id="rim" x2="0%" y2="100%">
+      <stop stop-color="#b2b5b4"/>
+      <stop offset="1" stop-color="#777979"/>
+    </linearGradient>
+    <radialGradient id="screw" cx=".38" cy=".3" r=".72">
+      <stop stop-color="#f8faf9"/>
+      <stop offset=".65" stop-color="#969c9d"/>
+      <stop offset="1" stop-color="#4b5153"/>
+    </radialGradient>
+    <g id="fastener">
+      <circle r="15.5" fill="url(#screw)" stroke="#4b5153" stroke-width="1.5"/>
+      <path fill="#505557" d="m-3-7 3 2 3-2 2 3 3 1-1 3 1 3-3 1-2 3-3-2-3 2-2-3-3-1 1-3-1-3 3-1z"/>
+      <circle r="2" fill="#a6abad"/>
+    </g>
+    <g id="case">
+      <rect x="-325" y="-325" width="650" height="650" rx="56" fill="#8e94a5"/>
+      <use href="#fastener" x="-282" y="-294"/>
+      <use href="#fastener" x="282" y="-294"/>
+      <use href="#fastener" x="-282" y="291"/>
+      <use href="#fastener" x="282" y="291"/>
+      <circle r="277" fill="url(#rim)"/>
+      <circle r="263" fill="#343434"/>
+      <circle r="250" fill="#050505"/>
+      <circle r="238" fill="none" stroke="#fff" stroke-width="3.5"/>
+      <g fill="none" stroke="#fff" stroke-width="3.4">
+        <path id="bank-ticks" d="M0-238v38"/>
+        <use href="#bank-ticks" transform="rotate(-60)"/>
+        <path d="M0-222v22" transform="rotate(-50)"/>
+        <path d="M0-222v22" transform="rotate(-40)"/>
+        <use href="#bank-ticks" transform="rotate(-30)"/>
+        <path d="M0-222v22" transform="rotate(-20)"/>
+        <path d="M0-222v22" transform="rotate(-10)"/>
+        <path d="M0-222v22" transform="rotate(10)"/>
+        <path d="M0-222v22" transform="rotate(20)"/>
+        <use href="#bank-ticks" transform="rotate(30)"/>
+        <path d="M0-222v22" transform="rotate(40)"/>
+        <path d="M0-222v22" transform="rotate(50)"/>
+        <use href="#bank-ticks" transform="rotate(60)"/>
+      </g>
+      <path d="m-13-249 13 46 13-46z" fill="#ff4b22"/>
+    </g>
+    <g id="reference" fill="#fff" stroke="#231f1c" stroke-width="1.5">
+      <path d="M-123 0h91v4a32 32 0 0 0 64 0V0h91v8H40C38 29 21 45 0 45S-38 29-40 8h-83z"/>
+      <circle cy="2" r="8"/>
+    </g>
+    <clipPath id="dial">
+      <circle r="201"/>
+    </clipPath>
+    <path id="bank-pointer" d="m0-201-12 21h24z" fill="#f4ffff"/>
+  </defs>
+  <path fill="#fff" d="M0 0h1387v1535H0z"/>
+  <g transform="translate(345 334)">
+    <use href="#case"/>
+    <g clip-path="url(#dial)">
+      <circle r="201" fill="#1cb4d3"/>
+      <path d="M-285-74h570v360h-570z" fill="#907051" transform="rotate(40)"/>
+      <path d="m73-168 80 67m-73-29 34 29m-73-29 80 68m-73-29 34 29m-68 10 35 29m-73-29 80 67m-112-28 79 67m-73-29 35 29m-74-29 80 67m-73-28 35 29m-74-29 80 67m-73-28 35 28m-74-28 80 67" fill="none" stroke="#fff8e8" stroke-width="2.5"/>
+      <use href="#bank-pointer" transform="rotate(40)"/>
+    </g>
+    <use href="#reference" y="2"/>
+  </g>
+  <g transform="translate(1044 334)">
+    <use href="#case"/>
+    <g clip-path="url(#dial)">
+      <circle r="201" fill="#1cb4d3"/>
+      <path d="M-285-94h570v380h-570z" fill="#907051" transform="rotate(20)"/>
+      <path d="M3-163l98 36M23-129l41 15M5-81l41 15M-32-68l98 37M-12-34l41 15M-49-21l98 36M-29 13l41 15M-67 26l98 36M-47 60l41 15M-84 73l98 36M-64 107l41 15M-101 120l98 36M-84 153l41 15" fill="none" stroke="#fff8e8" stroke-width="2.5"/>
+      <use href="#bank-pointer" transform="rotate(20)"/>
+    </g>
+    <use href="#reference" y="-19"/>
+  </g>
+  <g transform="translate(344 1075)">
+    <use href="#case"/>
+    <g clip-path="url(#dial)">
+      <circle r="201" fill="#1cb4d3"/>
+      <path d="M-285-38h570v325h-570z" fill="#907051" transform="rotate(-40)"/>
+      <path d="m-154-103 80-67m-42 67 35-29m-41 65 80-67m-41 67 35-29m-41 68 80-68m-41 68 35-29m-7 61 35-29m-38 71 79-68m-41 67 35-29m-41 68 80-68m-41 67 35-29m-41 68 80-68m-41 68 35-29m-39 65 80-68" fill="none" stroke="#fff8e8" stroke-width="2.5"/>
+      <use href="#bank-pointer" transform="rotate(-40)"/>
+    </g>
+    <use href="#reference" y="2"/>
+  </g>
+  <g transform="translate(1044 1075)">
+    <use href="#case"/>
+    <g clip-path="url(#dial)">
+      <circle r="201" fill="#1cb4d3"/>
+      <path d="M-285 75h570v210h-570z" fill="#907051" transform="rotate(40)"/>
+      <path d="m73-168 80 67m-73-29 34 29m-73-29 80 68m-73-29 34 29m-74-30 80 68m-73-29 35 29m-74-29 80 68m-73-29 35 29m-74-29 80 67m-73-28 35 28m-68 10 34 29m-73-29 80 67m-73-28 35 29m-74-30 80 68" fill="none" stroke="#fff8e8" stroke-width="2.5"/>
+      <use href="#bank-pointer" transform="rotate(40)"/>
+    </g>
+    <use href="#reference" y="2"/>
+  </g>
+  <g fill="#111" font-family="Arial, sans-serif" font-size="60" text-anchor="middle">
+    <text x="345" y="723">1</text>
+    <text x="1044" y="723">2</text>
+    <text x="344" y="1468">3</text>
+    <text x="1044" y="1468">4</text>
+  </g>
+</svg>

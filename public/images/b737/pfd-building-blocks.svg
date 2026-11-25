@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="500" viewBox="0 0 700 500" role="img" aria-labelledby="title desc" xml:lang="en-GB">
+  <title id="title">737 NG PFD building blocks</title>
+  <desc id="desc">Reusable SVG groups for the selected-altitude, selected-speed and selected-heading bugs, the fixed aircraft symbol, the roll scale pointer and the bank pointer with slip/skid indicator.</desc>
+  <metadata>For standalone annex SVGs, inline the relevant definitions and place them with local use elements. Altitude and speed anchor at their tape tick, heading at the centre notch on the compass edge, aircraft at the pipper, and both roll pointers at their horizontal centre. Geometry based on the supplied PFD detail references.</metadata>
+  <defs>
+    <g id="selected-altitude-bug" fill="none" stroke="#ff00a0" stroke-width="1.8">
+      <path d="M-6-24H28V24H-6V7L0 0l-6-7z"/>
+    </g>
+    <g id="selected-speed-bug" fill="none" stroke="#ff00a0" stroke-width="1.8">
+      <path d="M0 0l14-7h18V7H14z"/>
+    </g>
+    <g id="selected-heading-bug" fill="none" stroke="#ff00a0" stroke-width="1.8">
+      <path d="M-15 0v-17h8L0 0l7-17h8V0"/>
+    </g>
+    <g id="fixed-aircraft-symbol" fill="#080808" stroke="#eee" stroke-width="1.5">
+      <path d="M-108-4h64v25h-8V4h-56zM108-4H44v25h8V4h56z"/>
+      <rect x="-4" y="-4" width="8" height="8"/>
+    </g>
+    <g id="fixed-roll-pointer" fill="#eee">
+      <path d="M-9 0H9L0 11z"/>
+    </g>
+    <g id="bank-and-slip-skid-pointer" fill="none" stroke="#eee" stroke-width="1.5">
+      <path d="M0 0l-11 14h22z"/>
+      <rect x="-11" y="14" width="22" height="5"/>
+    </g>
+  </defs>
+  <rect width="700" height="500" fill="#202020"/>
+  <g fill="#080808" stroke="#707070">
+    <rect x="20" y="60" width="208" height="135" rx="3"/>
+    <rect x="246" y="60" width="208" height="135" rx="3"/>
+    <rect x="472" y="60" width="208" height="135" rx="3"/>
+    <rect x="20" y="243" width="660" height="105" rx="3"/>
+    <rect x="20" y="398" width="321" height="82" rx="3"/>
+    <rect x="359" y="398" width="321" height="82" rx="3"/>
+  </g>
+  <g font-family="monospace" font-size="16" fill="#f2f2f2">
+    <text x="20" y="31" font-size="20">737 NG PFD BUILDING BLOCKS</text>
+    <text x="20" y="215">Selected altitude</text>
+    <text x="246" y="215">Selected speed</text>
+    <text x="472" y="215">Selected heading</text>
+    <text x="20" y="367">Fixed aircraft symbol and square pipper</text>
+    <text x="40" y="427">Fixed roll pointer</text>
+    <text x="379" y="427">Bank and slip/skid pointer</text>
+  </g>
+  <path d="M124 61h103v133H124zM247 61h113v133H247zM473 136q119-23 206 22v36H473z" fill="#414141"/>
+  <path d="M21 244h658v51H21z" fill="#326398"/>
+  <path d="M21 295h658v52H21z" fill="#755d40"/>
+  <path d="M124 127h34m167 0h35m225 6v15M21 295h658" fill="none" stroke="#eee" stroke-width="2"/>
+  <use href="#selected-altitude-bug" transform="translate(124 127) scale(2)"/>
+  <use href="#selected-speed-bug" transform="translate(325 127) scale(2.25)"/>
+  <use href="#selected-heading-bug" transform="translate(585 130) rotate(9) scale(2)"/>
+  <use href="#fixed-aircraft-symbol" transform="translate(350 295) scale(1.65)"/>
+  <use href="#fixed-roll-pointer" transform="translate(178 444) scale(1.8)"/>
+  <use href="#bank-and-slip-skid-pointer" transform="translate(520 439) scale(1.6)"/>
+</svg>

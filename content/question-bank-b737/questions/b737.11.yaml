@@ -1,0 +1,781 @@
+- id: QRLKO
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 11.20.5, Loss of Alignment
+
+        > If an IRS loses both AC and DC power, the alignment is lost. Alignment can be lost if the MSU switch is moved out of the NAV position.
+        >
+        > If alignment is lost in–flight, **the navigation mode (including present position and ground speed outputs) is inoperative for the remainder of the flight.** However, selecting ATT allows the attitude mode to be used to relevel the system and provide an attitude reference.
+      statements:
+        - text: If IRS alignment is lost in flight, the navigation mode becomes inoperative for the remainder of the flight.
+          answer: true
+- id: QXCAO
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: On later aircraft YW059 through YW164, what is the default Vertical Required Navigational Performance (VRNP) used by the FMC for oceanic, en route, and terminal phases of flight?
+      explanation: |-
+        ### FCOM 11.31.9, Vertical Required Navigation Performance (VRNP)
+
+        > The FMC uses **400 feet** as a default Vertical Required Navigation Performance (VRNP) value for oceanic, en route, and terminal phases of flight.
+      presets:
+        - correctAnswers:
+            - text: 400 feet.
+          wrongAnswers:
+            - text: 400 feet below, 250 feet above the aircraft planned altitude.
+            - text: 250 feet below, 400 feet above the aircraft planned altitude.
+            - text: 250 feet.
+- id: QMWUD
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Where on the FMC CDU are the GPS latitude and longitude displayed?
+      explanation: |-
+        ### FCOM 11.20.2, GPS Displays
+
+        > **POS REF page 2/3 shows the left and right GPS latitude and longitude position.** POS SHIFT page 3/3 shows the left and right GPS position relative to the FMC position. NAV STATUS page 1/2 shows the GPS currently in use by the FMC for position calculation.
+      presets:
+        - correctAnswers:
+            - text: POS REF page 2
+          wrongAnswers:
+            - text: POS INIT page 1
+            - text: NAV DATA
+            - text: INIT REF
+- id: QYCGC
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What colour is the route on the Nav display when you activate a route by pressing the R6 switch?
+      explanation: |-
+        ### FCOM 11.31.16, Navigation Displays
+
+        > • an inactive route is displayed as a cyan dashed line • **an activated but not yet executed route is displayed as a cyan dashed line** • the active route is displayed in magenta • modifications to an active route are displayed as dashed white lines
+
+        Pressing R6 (ACTIVATE) makes the route activated, but it only becomes the active route, in magenta, once EXEC is pushed.
+      presets:
+        - correctAnswers:
+            - text: Dashed Cyan
+          wrongAnswers:
+            - text: White
+            - text: Magenta.
+            - text: Dashed Magenta
+- id: QHHCS
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The image below shows the IRS panel located on the AFT overhead panel, for later aircraft YW130 through YW164.  Other than OFF, what are the switch positions in the clockwise order?
+      explanation: |-
+        ### FCOM 11.10.21, Inertial Reference System (IRS) Mode Selector
+
+        > OFF – • alignment is lost
+        >
+        > **ALIGN** – • rotating the selector from OFF to ALIGN initiates the alignment cycle
+        >
+        > **NAV** (detent position) – • system enters the NAV mode after completion of the alignment cycle and entry of present position
+        >
+        > **ATT** – provides only attitude and heading information
+
+        Clockwise from OFF the positions are ALIGN, NAV, ATT.
+      presets:
+        - correctAnswers:
+            - text: ALIGN, NAV, ATT.
+          wrongAnswers:
+            - text: NAV, ALIGN, ATT.
+            - text: NAV, ALIGN, GLS
+            - text: ATT, ALIGN, NAV.
+- id: QHQYZ
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 11.31.16, Greater Than 99 Numbered Waypoints
+
+        > When the quantity of numbered waypoints **exceeds 99** the identifier will use the first two characters of the entry followed by the smallest three-digit sequence number beginning with 100. Examples: • SEA104/74 becomes SE100 • SEA104/OLM064 becomes SE101.
+
+        The FMC carries on past 99, so the limit does not exist.
+      statements:
+        - text: A total of 99 numbered waypoints cannot be exceeded for any single route.
+          answer: false
+- id: QJPGR
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does the GPS light illuminating indicate when either annunciator panel is pushed to initiate a recall?
+      explanation: |-
+        ### FCOM 11.20.2, GPS Displays
+
+        > An amber GPS light illuminates to indicate a failure of both GPS sensor units. **Failure of a single GPS sensor causes the light to illuminate when either system annunciator panel is pushed.**
+      presets:
+        - correctAnswers:
+            - text: Single GPS sensor unit failure.
+          wrongAnswers:
+            - text: IRS left or right selector switch selected to ATT.
+            - text: Failure of both GPS sensor units
+            - text: GPS left and right system running in degraded mode.
+- id: QJTWO
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: On later aircraft YW130 through YW164, the VHF NAV switch changes the source of the data that the DEUs use for the NDs.  What data is transferred by this switch?
+      explanation: |-
+        ### FCOM 11.10.30, VHF NAV Transfer Switch
+
+        > YW130 - YW164 The VHF NAV transfer switch changes the source of the data that the DEUs use for the navigation displays. The switch transfers the following data: **DME, ILS/GLS, VOR, and MCP course.**
+
+        On earlier aircraft (YA573 to YW129) the list is DME, ILS, VOR and MCP course.
+      presets:
+        - correctAnswers:
+            - text: DME, ILS/GLS, VOR, MCP course
+          wrongAnswers:
+            - text: DME, ILS, VOR, MCP course.
+            - text: VOR, GBAS, MCP course
+            - text: DME, GBAS, VOR, Autothrottle, MCP Course.
+- id: QBBIB
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How long are the navigation databases valid for?
+      explanation: |-
+        ### FCOM 11.32.2, FMC Databases
+
+        > The FMC contains two sets of navigation data, **each valid for 28 days.** Each set corresponds to the normal navigation chart revision cycle. The FMC uses the active set for navigation calculations.
+      presets:
+        - correctAnswers:
+            - text: 28 Days
+          wrongAnswers:
+            - text: 21 Days
+            - text: 48 Hours
+            - text: Valid until next update
+- id: QMVMW
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which indications are correct for a single FMC failure (left FMC fails)?
+      explanation: |-
+        ### FCOM 11.32.5, Single FMC Failure
+
+        > If the left FMC fails, the FMC alert light will illuminate. **The FMC/CDU FAIL light will appear on both CDUs**, and both CDUs will display failure modes. VTK will appear on the left navigation display. **LNAV and VNAV will disengage**, but can be reengaged if autopilot B is in use or is selected. **After 25 to 30 seconds, the left navigation display will display failure information.**
+
+        From YW140 the MENU page appears on both CDUs in place of the FAIL light.
+      presets:
+        - correctAnswers:
+            - text: FMC P/RST amber light illuminates, FAIL light on FMC CDU illuminates, LNAV and VNAV disconnect if engaged, failure information displayed on left ND after delay of 25 to 30 seconds.
+          wrongAnswers:
+            - text: FMC P/RST amber light illuminates, A/P P/RST light illuminates, LNAV and VNAV disconnect if engaged, left ND not available.
+            - text: FMC CDU FAIL light illuminates, left FMC CDU screen blanks, left ND screen blanks, LNAV disengages with VNAV remaining available.
+            - text: FMC P/RST amber light illuminates, normal operation continues with remaining functioning FMC automatically driving both ND screens.
+- id: QDKTL
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When setting up the FMC, what Pre-flight information is required.
+      explanation: |-
+        ### FCOM 11.31.1, Preflight
+
+        > Required preflight information consists of: • **initial position** • **route of flight** • **performance data** • **takeoff data.**
+        >
+        > […] Optional preflight data includes: • navigation database • SID • STAR • Route 2 • RTA data • cruise wind • reduced takeoff and climb thrust limits.
+      presets:
+        - correctAnswers:
+            - text: Initial Position, Performance Data, Route, Takeoff Data.
+          wrongAnswers:
+            - text: Initial Position, Takeoff and Climb Thrust Limits, Route, Cruise Wind.
+            - text: Performance Data, Navigation Database, Route, Takeoff Data.
+            - text: Initial Position, SID, Route, Performance Data, Takeoff Data.
+- id: QDHYE
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What are the 2 databases the FMC uses for operation?
+      explanation: |-
+        ### FCOM 11.32.1, FMC Databases
+
+        > The FMC contains two databases: • **performance database** • **navigation database.**
+      presets:
+        - correctAnswers:
+            - text: Navigation and Performance
+          wrongAnswers:
+            - text: Terrain and Airports
+            - text: Navigation and Airports
+            - text: Performance and Terrain
+- id: QOLEP
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: On the DEP/ARR page on the FMC, more than one Arrival be entered.
+          answer: true
+- id: QVAZI
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: On which page of the FMC is the IRS position initially set?
+      explanation: |-
+        ### FCOM 11.20.5, IRS Entries
+
+        > Manual IRS entries of present position or magnetic heading are normally accomplished on the **POS INIT page** of the FMC/CDU. The ISDU may also be used.
+      presets:
+        - correctAnswers:
+            - text: POS INIT page
+          wrongAnswers:
+            - text: DEP ARR page.
+            - text: INIT REF page.
+            - text: RTE page.
+- id: QSPOS
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: On aircraft with a mode selector selection of TEST, WX, WX/TURB and MAP,  selecting WX/TURB displays what?
+      explanation: |-
+        ### FCOM 11.10.34, Weather Radar Control Panel
+
+        > WX/TURB (turbulence) – • **shows weather radar returns** • **shows turbulence within 40 miles.**
+      presets:
+        - correctAnswers:
+            - text: Weather radar returns and turbulence within 40 miles.
+          wrongAnswers:
+            - text: Weather radar returns, and turbulence out to 10 miles whilst on the ground only.
+            - text: Weather radar returns, turbulence out to 40 miles, and windshear out to 20 miles.
+            - text: Weather radar returns, and windshear out to 40 miles.
+- id: QRHSO
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 11.20.10, Weather Radar
+
+        > When the radar detects a horizontal flow of precipitation with velocities of **5 or more meters per second** toward or away from the radar antenna, that target display becomes magenta. This magenta area is associated with heavy turbulence. **The detection of turbulence is automatically limited to a 40 nautical mile range, regardless of the selected range.**
+      statements:
+        - text: Regardless of what range you select on the Navigation Display, the range at which turbulence is detected is automatically limited to 40 nautical miles.
+          answer: true
+- id: QEWMG
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: In turbulence mode, at what velocity of horizontal flow of precipitation towards or away from the weather radar will the target display turn magenta?
+      explanation: |-
+        ### FCOM 11.20.10, Weather Radar
+
+        > When the radar detects a horizontal flow of precipitation with velocities of **5 or more meters per second** toward or away from the radar antenna, that target display becomes magenta. This magenta area is associated with heavy turbulence. **The detection of turbulence is automatically limited to a 40 nautical mile range, regardless of the selected range.**
+      presets:
+        - correctAnswers:
+            - text: 5 meters per second or greater.
+          wrongAnswers:
+            - text: 10 meters per second or greater.
+            - text: 7.5 meters per second or greater
+            - text: 2.5 meters per second or greater
+- id: QUNKO
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What forward arc does the weather radar antenna sweep?
+      explanation: |-
+        ### FCOM 11.20.10, Weather Radar
+
+        > The radar antenna sweeps **a forward arc of 180 degrees.**
+      presets:
+        - correctAnswers:
+            - text: "180"
+          wrongAnswers:
+            - text: "165"
+            - text: "160"
+            - text: "185"
+- id: QBKHA
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Below what altitude are windshear alerts available for aircraft fitted with IntuVue weather radar?
+      explanation: |-
+        ### FCOM 11.20.13, Windshear
+
+        > Windshear detection mode operates automatically below 1800 ft. Above Ground Level (AGL), **with alerts available at 1200 ft. AGL and below.**
+      presets:
+        - correctAnswers:
+            - text: 1200 feet RA and below.
+          wrongAnswers:
+            - text: 1500 feet AGL and below.
+            - text: 1800 feet RA and below
+            - text: 2300 feet AGL and below.
+- id: QBCST
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The IntuVue weather radar fitted in aircraft gives clutter-free viewing of significant weather out to what range?
+      explanation: |-
+        ### FCOM 11.20.11, RDR-4000 IntuVue Radar
+
+        > Special software eliminates ground clutter resulting in **clutter-free viewing of significant weather out to 320 nm.**
+      presets:
+        - correctAnswers:
+            - text: 320 nautical miles
+          wrongAnswers:
+            - text: 120 nautical miles.
+            - text: 220 nautical miles
+            - text: 420 nautical miles.
+- id: QQRMY
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: For the IntuVue  Radar, Predictive Windshear mode is automatically turned on in which of the following specific aircraft conditions?
+      explanation: |-
+        ### FCOM 11.10.36, Weather Radar Control Panel
+
+        > Automatic Windshear Activation – The Windshear mode will automatically be turned on under the following specific aircraft condition: **in the air below 1800 ft. AGL or on the ground with the engine throttles at a take-off position setting.**
+      presets:
+        - correctAnswers:
+            - text: In flight below 1800 feet AGL, on ground with throttle levers set for takeoff.
+          wrongAnswers:
+            - text: In flight below 2300 feet AGL, on ground with throttle levers at takeoff position setting.
+            - text: In flight above 1200 feet RA, on ground with throttle levers at takeoff position setting.
+            - text: In flight below 1500 feet AGL, on ground with both engines running.
+- id: QMSJW
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Some weather radar (WXR) panels have a manual altitude control switch (ALT) - when in MAN mode, this can be used to achieve which of the following:"
+      explanation: |-
+        ### FCOM 11.10.35, Weather Radar Control Panel
+
+        > MANUAL ALTITUDE CONTROL • ALT – controls weather analysis altitude **from 0 to 60,000 ft. MSL in increments of 1000 ft.** Selected altitude is shown on the Electronic Flight Display. Active when MAN mode selected.
+      presets:
+        - correctAnswers:
+            - text: Controls weather analysis altitude from 0 - 60,000 MSL in 1000 feet increments
+          wrongAnswers:
+            - text: Manual altitude control is NOT available on any WXR control panels.
+            - text: Controls weather analysis altitude from 0 - 41,000 feet MSL in 100 feet increments
+            - text: Controls weather analysis altitude from 500 - 60,000 feet MSL in 100 feet increments
+- id: QQOKV
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 11.20.4, IRS Alignment
+
+        > The present position is normally entered through the FMC CDU. **If the present position cannot be entered through the FMC CDU, it may be entered through the ISDU keyboard.**
+      statements:
+        - text: If the aircraft present position cannot be entered through the FMC CDU, it can be entered using the ISDU keyboard.
+          answer: true
+- id: QZOYU
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Setting the ADF mode selector switch to ANT has what effect?
+      explanation: |-
+        ### FCOM 11.10.23, Automatic Direction Finding (ADF) Control
+
+        > ANT – • **audio reception optimized** • **no ADF bearing data available.**
+      presets:
+        - correctAnswers:
+            - text: No ADF bearing data available and audio reception optimised.
+          wrongAnswers:
+            - text: ADF bearing pointer slews to 135 degrees relative bearing.
+            - text: ADF bearing data switched to keel antenna only, to minimise multipath interference.
+            - text: ADF bearing data sent to Standby Radio Magnetic Indicator as well as the DUs
+- id: QSMJJ
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 11.10.22, DC FAIL Light
+
+        > DC FAIL Light Illuminated (amber) – • **DC power for the related IRS is not normal** • if the other lights are extinguished, the IRS is operating normally on AC power.
+
+        Alignment is lost only if the IRS loses both AC and DC power (FCOM 11.20.5). With the IRS still on AC power, the alignment is kept.
+      statements:
+        - text: On the IRS panel, if the DC FAIL light illuminates in flight all alignment data is lost and the system cannot be re-set until the aircraft is parked on the ground.
+          answer: false
+- id: QCRTH
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What colour is the Outer Marker Beacon (OM) displayed on the PFD?
+      explanation: |-
+        ### FCOM 11.10.26, Marker Beacon Annunciations
+
+        > Marker Beacon Lights **OM (cyan)** – illuminates over an outer marker beacon. MM (amber) – illuminates over a middle marker beacon. IM (white) – illuminates over an inner marker beacon.
+      presets:
+        - correctAnswers:
+            - text: OM appears Cyan in top right corner of AI.
+          wrongAnswers:
+            - text: OM appears White in top right corner of AI
+            - text: OM appears Magenta in lower right corner of Attitude Indicator.
+            - text: OM appears in Magenta in top right corner of the Attitude Indicator.
+- id: QTRYU
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If alignment is lost in flight, what action can be taken?
+      explanation: |-
+        
+
+        ---
+
+        > ## Loss of Alignment
+
+        > If alignment is lost in–flight, the navigation mode (including present position and ground speed outputs) is inoperative for the remainder of the flight. However, selecting ATT allows the attitude mode to be used to relevel the system and provide an attitude reference.
+      presets:
+        - correctAnswers:
+            - text: The navigation mode remains unavailable for the rest of the flight, but ATT mode can be selected to provide attitude reference.
+          wrongAnswers:
+            - text: ATT mode can be selected to relevel the system and attain attitude reference, the system can then be returned to ALIGN for the 30 second Fast Align, then returned to NAV once the ALIGN light extinguishes.
+            - text: IRS mode selector can be selected to ALIGN for 30 seconds then back to NAV to reset the system.
+            - text: The IRS mode selectors must be moved to OFF to allow FMC to hold all GPS and navigation data for remainder of the flight.
+            - text: The navigation mode remains unavailable for the rest of the flight, but ALIGN mode can be selected to provide attitude reference.
+- id: QGNQL
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What components comprise the Flight Management System?
+      explanation: |-
+        ### FCOM 11.20.1, Flight Management System
+
+        > The flight management system (FMS) is comprised of the following components: • **flight management computer system (FMCS)** • **autopilot/flight director system (AFDS)** • **autothrottle (A/T)** • **inertial reference systems (IRS)** • **global positioning system (GPS).**
+      presets:
+        - correctAnswers:
+            - text: FMCS, AFDS, A/T, IRS, GPS.
+          wrongAnswers:
+            - text: FMCS, AFDS, A/T, MCP, EFIS, ADIRS.
+            - text: FMCS, AFDS, MCP, IRS, GPS.
+            - text: FMCS, A/P, A/T, MCP, EFIS, IRS.
+- id: QIWEP
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: In addition to the ON DC light, what other indication is there that an IRS is operating on DC power?
+      explanation: |-
+        ### FCOM 11.10.22, ON DC Light
+
+        > Illuminated (amber) – • the related IRS is operating on DC power from the switched hot battery bus (AC power not normal) • **if on the ground, the ground–call horn in the nose wheel well sounds**, providing an alert that a battery drain condition exists • momentary illumination is normal during alignment self–test.
+      presets:
+        - correctAnswers:
+            - text: On the ground, the ground-call horn sounds.
+          wrongAnswers:
+            - text: IRS L appears in amber on both navigation displays.
+            - text: ON DC appears in the HDG/STS window on the IRS panel.
+            - text: IRS PWR appears in amber on the captain's navigation display.
+- id: QYLUF
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does the amber FAULT light on the IRS panel mean?
+      explanation: |-
+        ### FCOM 11.10.21, FAULT Light
+
+        > Illuminated (amber) – **a system fault affecting the related IRS ATT and/or NAV modes has been detected.**
+      presets:
+        - correctAnswers:
+            - text: A system fault affecting the related IRS ATT and/or NAV modes has been detected.
+          wrongAnswers:
+            - text: The selector knob is in the ATT position.
+            - text: DC power to the IRS is not present.
+            - text: AC power to the IRS is not present.
+- id: QBQNW
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does a flashing white ALIGN light on the IRS panel tell you?
+      explanation: |-
+        ### FCOM 11.10.21, ALIGN Light
+
+        > Illuminated (white) – • steady – the related IRS is operating in the ALIGN mode, the initial ATT mode, or the shutdown cycle • **flashing – alignment cannot be completed due to IRS detection of:** • **significant difference between previous and entered positions or an unreasonable present position entry** • no present position entry.
+      presets:
+        - correctAnswers:
+            - text: The position entered is significantly different from the previous position, or is unreasonable.
+          wrongAnswers:
+            - text: All power to the IRS has been lost and it is using its internal battery.
+            - text: The selector is in ATT and the alignment will not give position data.
+            - text: The alignment has started and the light flashes for two more minutes.
+- id: QAHJN
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What causes the ANP bars to reach the centre of the scale and to turn amber?
+      explanation: |-
+        ### FCOM 10.11.14, Actual Navigation Performance (ANP) Bars
+
+        > • originate from outer scale and expand inward as a function of increasing ANP relative to RNP • **will just touch at center of scale when ANP equals RNP** • **turn from white to amber if current deviation is within the ANP bar limits for 5 continuous seconds.**
+      presets:
+        - correctAnswers:
+            - text: ANP equals RNP, and the bars turn amber once the deviation is within the ANP bar limits for 5 continuous seconds.
+          wrongAnswers:
+            - text: Loss of one GPS.
+            - text: Loss of one GPS and one IRS.
+            - text: Loss of one GPS, one IRS and one DME.
+- id: QNJBF
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: In flight, LNAV and VNAV disengage, the FMC alert light illuminates, the FMC/CDU FAIL light shows on the left CDU and VTK appears in amber on the left navigation display. What is the most likely cause?
+      explanation: |-
+        ### FCOM 11.32.5, Single FMC Failure
+
+        > If the left FMC fails, the FMC alert light will illuminate. **The FMC/CDU FAIL light will appear on both CDUs**, and both CDUs will display failure modes. VTK will appear on the left navigation display. **LNAV and VNAV will disengage**, but can be reengaged if autopilot B is in use or is selected. **After 25 to 30 seconds, the left navigation display will display failure information.**
+      presets:
+        - correctAnswers:
+            - text: Failure of the left FMC.
+          wrongAnswers:
+            - text: Loss of power to both ADIRUs.
+            - text: Loss of both IRSs.
+            - text: End of descent deleted from the active route.
+- id: QDEKF
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Power to the FMC is lost for more than 10 seconds in flight while using LNAV and VNAV. What must you do once power is restored?
+      explanation: |-
+        ### FCOM 11.32.5, Loss of FMC Electrical Power
+
+        > If power is lost for more than ten seconds in flight: • LNAV and VNAV disengage • all entered data is retained by the FMC, and when power is restored the RTE LEGS page is displayed with the scratchpad message **SELECT ACTIVE WPT/LEG.**
+        >
+        > **Before LNAV can engage, the FMC must be instructed how to return to the route. Select the desired active waypoint and proceed direct or intercept a course to the waypoint.**
+      presets:
+        - correctAnswers:
+            - text: Select the active waypoint, then proceed direct or intercept a course, and re-engage the modes.
+          wrongAnswers:
+            - text: Continue the rest of the flight without LNAV or VNAV, as they are no longer available.
+            - text: Re-enter the whole route, as all FMC data is lost.
+- id: QTAYM
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How are the flight crew alerted that the present position and heading will not allow LNAV to engage?
+      explanation: |-
+        ### FCOM 11.60.20, FMC Messages
+
+        > NOT ON INTERCEPT HEADING Airplane is not within the LNAV capture criteria for the active leg (**LNAV disengages**).
+      presets:
+        - correctAnswers:
+            - text: The FMC displays the message NOT ON INTERCEPT HEADING.
+          wrongAnswers:
+            - text: A ROUTE DISCONTINUITY message.
+            - text: The LNAV button does not illuminate.
+            - text: There is no indication.
+- id: QWECR
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What are the LNAV engagement criteria when more than 3 nm from the active route leg?
+      explanation: |-
+        ### FCOM 11.31.10, Lateral Navigation (LNAV)
+
+        > If selected, LNAV engages when laterally within 3 nautical miles of the active route leg. **If outside of 3 nautical miles of the active route leg, LNAV engages if on an intercept heading of 90 degrees or less and the intercept will occur before the active waypoint.**
+      presets:
+        - correctAnswers:
+            - text: The aircraft must be on an intercept heading of 90 degrees or less, with the intercept before the active waypoint.
+          wrongAnswers:
+            - text: The aircraft can be on any heading.
+            - text: The aircraft must be on an intercept heading, but not necessarily before the active waypoint.
+            - text: LNAV cannot be engaged more than 3 nm from the active route.
+- id: QRQOG
+  subjectId: b737
+  chapterId: "11"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: With VNAV SPD engaged and climbing towards an AT altitude restriction, what FMA transition occurs?
+      explanation: |-
+        ### FCOM 11.31.19, VNAV Climb
+
+        > The VNAV climb profile uses VNAV SPD at the default climb speed or pilot selected climb speed to remain within all airspeed and altitude restrictions that are part of the SID entered into the active route.
+        >
+        > […]
+        >
+        > **VNAV enters the VNAV PTH mode to remain within departure or waypoint restrictions.**
+      presets:
+        - correctAnswers:
+            - text: Transition to VNAV PTH.
+          wrongAnswers:
+            - text: It remains in VNAV SPD.
+            - text: Transition to ALT HLD.

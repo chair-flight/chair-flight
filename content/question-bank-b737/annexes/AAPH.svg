@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="1016" viewBox="0 0 700 1016" role="img" aria-labelledby="title desc" xml:lang="en-GB">
+<title id="title">737-800 Pitch Control Schematic (YF501–YW164)</title>
+<desc id="desc">The control-column override mechanism, elevator feel and centering, mach trim, elevator feel shift and stabilizer trim circuits. YF501–YW164 configuration.</desc>
+<metadata>Boeing 737-800 FCOM Rev 40, 9.20.11. Redrawn as SVG.</metadata>
+<defs>
+  <marker id="arrow" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="13" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto">
+    <path d="M0 0 12 5 0 10Z" fill="#ededed"/>
+  </marker>
+  <g id="junction"><circle r="4.5" fill="#ededed"/></g>
+</defs>
+<style>
+  svg {background:#080808;color:#ededed}
+  text {font-family:Menlo,Consolas,"Liberation Mono",monospace}
+  .wire,.signal {fill:none;stroke:#ededed;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round}
+  .signal {stroke-dasharray:19 10 3 10}
+  .arr {marker-end:url(#arrow)}
+  .duct-edge,.duct {fill:none;stroke-linecap:butt;stroke-linejoin:round}
+  .duct-edge {stroke:#ededed;stroke-width:15}
+  .duct {stroke:#c41c1c;stroke-width:12}
+  .component {fill:#080808;stroke:#ededed;stroke-width:2.1}
+</style>
+<rect x="0" y="0" width="700" height="1016" fill="#080808"/>
+<g fill="#ededed">
+<path class="signal" d="M114 238v456h467V238"/>
+<path class="signal" d="M241 694v13m219-13v13"/>
+<path class="signal" d="M114 134h473m-473 35h473"/>
+<path class="signal" d="M151 305H75v18h76m-76 0v206"/>
+<path class="signal" d="M75 552v56h103v-40"/>
+<path class="signal" d="M405 322h161V634h-92"/>
+<path class="signal" d="M565 597H438m-210-75h119v16"/>
+<path class="signal" d="M261 753h30v177h118V753h29"/>
+<path class="signal" d="M350 809v72M245 881h219m-201 49h28m118 0h39"/>
+<path class="wire" d="M194 376v39q0 12 13 12h20m-39-51v49q0 14 15 14h24"/>
+<path class="wire" d="M506 376v39q0 12-13 12h-20m39-51v49q0 14-15 14h-24"/>
+<path class="wire" d="M295 286h-18v-60m127 60h13v-60"/>
+<path class="wire" d="M82 198v29q0 15 15 15h71v-11H99q-5 0-5-6v-27Zm530 0v29q0 15-15 15h-71v-11h69q5 0 5-6v-27Z"/>
+<path d="M65 485H227m-97 0v268h80m-32-268v31m56-16v40h-23m25-32v96m0-44h29" fill="none" stroke="#ededed" stroke-width="10" stroke-linejoin="round"/>
+<path d="M65 485H227m-97 0v268h80m-32-268v31m56-16v40h-23m25-32v96m0-44h29" fill="none" stroke="#ec2422" stroke-width="7" stroke-linejoin="round"/>
+<path d="M632 485H474m41 0v268h-27m-26-253v105m0-45h-28" fill="none" stroke="#ededed" stroke-width="10" stroke-linejoin="round"/>
+<path d="M632 485H474m41 0v268h-27m-26-253v105m0-45h-28" fill="none" stroke="#38b53e" stroke-width="7" stroke-linejoin="round"/>
+<path class="wire arr" d="M43 485h20"/>
+<path class="wire arr" d="M662 485h-26"/>
+<path class="wire arr" d="M201 466h23"/>
+<path class="wire arr" d="M231 305h61"/>
+<path class="wire arr" d="M231 322h61"/>
+<path class="wire arr" d="M277 256v-28"/>
+<path class="wire arr" d="M417 256v-28"/>
+<path class="wire arr" d="M75 460v68"/>
+<path class="wire arr" d="M178 598v-28"/>
+<path class="wire arr" d="M347 524v20"/>
+<path class="wire arr" d="M270 563h36"/>
+<path class="wire arr" d="M429 563h-38"/>
+<path class="wire arr" d="M460 598h-21"/>
+<g transform="translate(94 55) scale(1)">
+<path d="M-62-4q6-10-1-21-7-14 4-18 9-4 12 8l3 11-7 4 4 7-6 5 4 7-4 7 5 7q6 4 20-2l16-6 3-46h37l3 46 18 6q16 6 20-2l3-8-5-7 5-7-5-6 3-5-7-7q-8-13 5-16 14-4 14 11l-2 14q10 27-3 40-6 5-23 5h-80q-32 0-26-32Z" fill="#aaa" stroke="#454545" stroke-width="2"/>
+<path d="M-18-41h36l-6 79h-24Z" fill="#bbb" stroke="#454545" stroke-width="2"/>
+<rect x="-6" y="38" width="12" height="26" rx="2" fill="#aaa" stroke="#454545" stroke-width="2"/>
+<path d="M-14-38h28m-25 4h22" stroke="#454545" stroke-width="1.7"/>
+</g>
+<circle cx="94" cy="151" r="25" fill="#a8a8a8" stroke="#555" stroke-width="2"/>
+<circle cx="94" cy="151" r="17.5" fill="#a8a8a8" stroke="#555" stroke-width="1.6"/>
+<circle cx="94" cy="151" r="2" fill="#444"/>
+<g transform="translate(608 55) scale(1)">
+<path d="M-62-4q6-10-1-21-7-14 4-18 9-4 12 8l3 11-7 4 4 7-6 5 4 7-4 7 5 7q6 4 20-2l16-6 3-46h37l3 46 18 6q16 6 20-2l3-8-5-7 5-7-5-6 3-5-7-7q-8-13 5-16 14-4 14 11l-2 14q10 27-3 40-6 5-23 5h-80q-32 0-26-32Z" fill="#aaa" stroke="#454545" stroke-width="2"/>
+<path d="M-18-41h36l-6 79h-24Z" fill="#bbb" stroke="#454545" stroke-width="2"/>
+<rect x="-6" y="38" width="12" height="26" rx="2" fill="#aaa" stroke="#454545" stroke-width="2"/>
+<path d="M-14-38h28m-25 4h22" stroke="#454545" stroke-width="1.7"/>
+</g>
+<circle cx="608" cy="151" r="25" fill="#a8a8a8" stroke="#555" stroke-width="2"/>
+<circle cx="608" cy="151" r="17.5" fill="#a8a8a8" stroke="#555" stroke-width="1.6"/>
+<circle cx="608" cy="151" r="2" fill="#444"/>
+<use href="#junction" transform="translate(75 323)"/>
+<use href="#junction" transform="translate(240 694)"/>
+<use href="#junction" transform="translate(350 694)"/>
+<use href="#junction" transform="translate(460 694)"/>
+<use href="#junction" transform="translate(566 598)"/>
+<use href="#junction" transform="translate(291 930)"/>
+<use href="#junction" transform="translate(409 930)"/>
+<use href="#junction" transform="translate(350 880)"/>
+<g transform="translate(234 754) rotate(90) scale(1.5)">
+<path class="wire" d="M0-19v8"/>
+<rect class="component" x="-7" y="-11" width="14" height="22"/>
+<rect class="component" x="-11" y="10" width="22" height="6"/>
+</g>
+<g transform="translate(463 754) rotate(-90) scale(1.5)">
+<path class="wire" d="M0-19v8"/>
+<rect class="component" x="-7" y="-11" width="14" height="22"/>
+<rect class="component" x="-11" y="10" width="22" height="6"/>
+</g>
+<path d="M48 994l-2-34 184-130 35 113Z M443 947l35-113 183 126 2 11-2 29Z" fill="#c6c6c6" stroke="#505050" stroke-width="2"/>
+<path d="M79 985l-2-18 12-6 4 8 160-58m202 6 161 56 4-8 12 6-3 21" fill="none" stroke="#555" stroke-width="2"/>
+<path d="M251 555q4-5 8 2 4-7 9-2v13q-4 7-9 0-4 7-8 0Z" fill="#ec2422" stroke="#ededed" stroke-width="1.2"/>
+<path d="M430 555q4-5 8 2 4-7 9-2v13q-4 7-9 0-4 7-8 0Z" fill="#38b53e" stroke="#ededed" stroke-width="1.2"/>
+<rect x="238" y="189" width="80" height="36" fill="#080808" stroke="#ffbc17" stroke-width="1.5"/>
+<text x="278" y="203.94" font-size="12" text-anchor="middle" fill="#ffbc17"><tspan x="278" dy="0">MACH TRIM</tspan><tspan x="278" dy="13.8">FAIL</tspan></text>
+<rect x="378" y="189" width="80" height="36" fill="#080808" stroke="#ffbc17" stroke-width="1.5"/>
+<text x="418" y="203.94" font-size="12" text-anchor="middle" fill="#ffbc17"><tspan x="418" dy="0">SPEED TRIM</tspan><tspan x="418" dy="13.8">FAIL</tspan></text>
+<rect x="308" y="546" width="80" height="35" fill="#080808" stroke="#ffbc17" stroke-width="1.5"/>
+<text x="348" y="560.44" font-size="12" text-anchor="middle" fill="#ffbc17"><tspan x="348" dy="0">FEEL DIFF</tspan><tspan x="348" dy="13.8">PRESS</tspan></text>
+<rect class="component" x="52" y="530" width="45" height="23"/>
+<text x="74.5" y="545.79" font-size="13" text-anchor="middle">SMYD</text>
+<rect class="component" x="145" y="516" width="66" height="50"/>
+<text x="178" y="537.57" font-size="14" text-anchor="middle"><tspan x="178" dy="0">EFS</tspan><tspan x="178" dy="16.1">MODULE</tspan></text>
+<rect class="component" x="295" y="267" width="110" height="76"/>
+<text x="350" y="292.7" font-size="15" text-anchor="middle"><tspan x="350" dy="0">FLIGHT</tspan><tspan x="350" dy="17.25">CONTROL</tspan><tspan x="350" dy="17.25">COMPUTER</tspan></text>
+<rect class="component" x="226" y="421" width="248" height="79"/>
+<text x="350" y="448.2" font-size="15" text-anchor="middle"><tspan x="350" dy="0">ELEVATOR</tspan><tspan x="350" dy="17.25">FEEL</tspan><tspan x="350" dy="17.25">COMPUTER</tspan></text>
+<rect class="component" x="249" y="587" width="189" height="18"/>
+<text x="343.5" y="600.62" font-size="14" text-anchor="middle">MACH TRIM ACTUATOR</text>
+<rect class="component" x="227" y="605" width="247" height="58"/>
+<text x="350.5" y="630.325" font-size="15" text-anchor="middle"><tspan x="350.5" dy="0">ELEVATOR FEEL</tspan><tspan x="350.5" dy="17.25">&amp; CENTERING UNIT</tspan></text>
+<rect class="component" x="295" y="765" width="111" height="42"/>
+<text x="350.5" y="782.57" font-size="14" text-anchor="middle"><tspan x="350.5" dy="0">STABILIZER</tspan><tspan x="350.5" dy="16.1">TRIM</tspan></text>
+<text x="235" y="149" font-size="14" text-anchor="start"><tspan x="235" dy="0">ELEVATOR CONTROL COLUMN</tspan><tspan x="235" dy="18">OVERRIDE MECHANISM</tspan></text>
+<text x="158" y="309" font-size="14" text-anchor="start"><tspan x="158" dy="0">L/ADIRU</tspan><tspan x="158" dy="18">R/ADIRU</tspan></text>
+<text x="157" y="352" font-size="14" text-anchor="start"><tspan x="157" dy="0">L PITOT</tspan><tspan x="157" dy="18">PROBE</tspan></text>
+<text x="475" y="352" font-size="14" text-anchor="start"><tspan x="475" dy="0">R PITOT</tspan><tspan x="475" dy="18">PROBE</tspan></text>
+<text x="120" y="454" font-size="14" text-anchor="start"><tspan x="120" dy="0">STABILIZER</tspan><tspan x="120" dy="18">POSITION</tspan></text>
+<text x="24" y="492" font-size="14" text-anchor="start">A</text>
+<text x="665" y="492" font-size="14" text-anchor="start">B</text>
+</g>
+</svg>

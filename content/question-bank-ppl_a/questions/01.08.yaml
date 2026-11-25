@@ -1,0 +1,139 @@
+- id: QWOMK
+  subjectId: "01"
+  chapterId: "01.08"
+  relatedQuestionIds:
+    - QBJQD
+    - QGVXQ
+    - QWBGU
+  annexes: []
+  learningObjectiveIds:
+    - "01.08.02"
+  templates:
+    - type: simple
+      question: Which area could be crossed with certain restrictions?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Restricted area
+          wrongAnswers:
+            - text: Prohibited area
+            - text: No-fly zone
+            - text: Dangerous area
+- id: QUZZY
+  subjectId: "01"
+  chapterId: "01.08"
+  relatedQuestionIds:
+    - QIEYT
+    - QSADX
+  annexes: []
+  learningObjectiveIds:
+    - "01.08.02"
+  templates:
+    - type: simple
+      question: What information is provided in the general part (GEN) of the AIP?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Map icons, list of radio nav aids, time for sunrise and sunset, airport fees, air traffic control fees
+          wrongAnswers:
+            - text: Warnings for aviation, ATS airspaces and routes, restricted and dangerous airspaces
+            - text: Table of content, classification of airfields with corresponding maps, approach charts, taxi charts, restricted and dangerous airspaces
+            - text: Access restrictions for airfields, passenger controls, requirements for pilots, license samples and validity periods
+- id: QPCKR
+  subjectId: "01"
+  chapterId: "01.08"
+  relatedQuestionIds:
+    - QIEYT
+  annexes: []
+  learningObjectiveIds:
+    - "01.08.02"
+  templates:
+    - type: simple
+      question: Where can the type of restriction for a restricted airspace be found?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: AIP
+          wrongAnswers:
+            - text: "ICAO chart 1:"
+            - text: NOTAM
+            - text: AIC
+- id: QIEYT
+  subjectId: "01"
+  chapterId: "01.08"
+  relatedQuestionIds:
+    - QUZZY
+    - QSADX
+    - QPCKR
+  annexes: []
+  learningObjectiveIds:
+    - "01.08.02"
+  templates:
+    - type: simple
+      question: Which are the different parts of the Aeronautical Information Publication (AIP)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: GEN, ENR, AD
+          wrongAnswers:
+            - text: GEN MET RAC
+            - text: GEN AGA COM
+            - text: GEN COM MET
+- id: QSADX
+  subjectId: "01"
+  chapterId: "01.08"
+  relatedQuestionIds:
+    - QUZZY
+    - QIEYT
+  annexes: []
+  learningObjectiveIds:
+    - "01.08.02"
+  templates:
+    - type: simple
+      question: What information is provided in the part "AD" of the AIP?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Table of content, classification of airfields with corresponding maps, approach charts, taxi charts.
+          wrongAnswers:
+            - text: Warnings for aviation, ATS airspaces and routes, restricted and dangerous airspaces.
+            - text: Map icons, list of radio nav aids, time for sunrise and sunset, airport fees, air traffic control fees.
+            - text: Access restrictions for airfields, passenger controls, requirements for pilots, license samples and validity periods.
+- id: QNCXE
+  subjectId: "01"
+  chapterId: "01.08"
+  relatedQuestionIds:
+    - QKBAS
+  annexes: []
+  learningObjectiveIds:
+    - "01.08.02"
+  templates:
+    - type: simple
+      question: The shown NOTAM is valid until... A1024/13 A) LOWW B) 1305211200 C) 1305211400 E) STOCKERAU VOR STO 113.00 UNSERVICEABLE.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 21/05/2013 14:00 UTC
+          wrongAnswers:
+            - text: 13/05/2013 12:00 UTC
+            - text: 21/05/2014 13:00 UTC
+            - text: 13/10/2013 00:00 UTC
+- id: QKBAS
+  subjectId: "01"
+  chapterId: "01.08"
+  relatedQuestionIds:
+    - QNCXE
+  annexes: []
+  learningObjectiveIds:
+    - "01.08.02"
+  templates:
+    - type: simple
+      question: A Pre-Flight Information Bulletin (PIB) is a presentation of current...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: NOTAM information of operational significance prepared prior to flight.
+          wrongAnswers:
+            - text: ICAO information of operational significance prepared after the flight.
+            - text: AIP information of operational significance prepared prior to flight.
+            - text: AIC information of operational significance prepared after the flight.

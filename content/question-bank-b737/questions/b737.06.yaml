@@ -1,0 +1,1000 @@
+- id: QEIZH
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which of the following is NOT powered by the standby Power system?
+      explanation: |
+        ![Electrical power schematic](annex:AVWS)
+      presets:
+        - correctAnswers:
+            - text: Transformer Rectifier 1.
+          wrongAnswers:
+            - text: AC Standby Bus
+            - text: Battery Bus.
+            - text: Static Inverter
+- id: QLZQO
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the normal source of power for the Battery Bus?
+      explanation: |-
+        ### FCOM 6.20.7, DC Power
+
+        > Under normal conditions, DC bus 1, DC bus 2, and the DC standby bus are connected via the cross bus tie relay. In this condition, **TR1 and TR2 are each powering DC bus 1, DC bus 2, and the DC standby bus. TR3 powers the battery bus** and serves as a backup power source for TR1 and TR2.
+
+        ![DC power](annex:AYGR)
+      presets:
+        - correctAnswers:
+            - text: TR3
+          wrongAnswers:
+            - text: The hot battery bus
+            - text: the switched hot battery bus
+            - text: The battery
+- id: QSFGD
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 6.20.11, Standby Power System
+
+        > Under normal conditions the **AC standby bus is powered from AC transfer bus 1**. The **DC standby bus is powered by TR1, TR2, and TR3**; the battery bus is powered by TR3; the hot battery bus and switched hot battery bus are powered by the battery chargers.
+
+        ![Standby power](annex:AQRY)
+      statements:
+        - text: "The DC standby Bus is powered from the batteries through the static Inverter.  Select one:"
+          answer: false
+- id: QTNJC
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the voltage of the DC Busses under normal circumstances?
+      explanation: |-
+        ### FCOM 6.20.7, DC Power
+
+        > 28 volt DC power is supplied by three TR units, which are energized from the AC transfer busses.
+
+        22 to 30 V is the battery voltage range, 24 V is the nominal battery voltage and 115 V is AC.
+      presets:
+        - correctAnswers:
+            - text: 28v
+          wrongAnswers:
+            - text: 24v
+            - text: 115v
+            - text: 22-30v
+- id: QAAOZ
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If all AC generated power fails, how long can the batteries (if fully charged) supply standby power?
+      explanation: |-
+        ### FCOM 6.20.8, Dual Battery
+
+        > Two fully charged batteries have sufficient capacity to provide standby power for **a minimum of 60 minutes.** Battery voltage range is 22–30 volts.
+      presets:
+        - correctAnswers:
+            - text: A minimum of 60 minutes.
+          wrongAnswers:
+            - text: Up to 60 minutes.
+            - text: A minimum of 30 minutes.
+            - text: Up to 30 minutes.
+- id: QPIVO
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If an IDG fails and the APU is not available to power the related Transfer Bus, what occurs first if an electrical overload is sensed?
+      explanation: |-
+        ### FCOM 6.20.4, Automatic Load Shedding (Engine Generators)
+
+        > For single generator operation, the system is designed to shed electrical load incrementally based on actual load sensing. **The galleys and main bus on transfer bus 2 are shed first**; if an overload is still sensed, the galleys and main bus on transfer bus 1 are shed; if overload still exists, the IFE buses are shed.
+
+        ![AC power](annex:APMC)
+
+        ![Electrical power schematic](annex:AVWS)
+      presets:
+        - correctAnswers:
+            - text: Automatic load shedding of the galleys and main bus on Transfer Bus 2
+          wrongAnswers:
+            - text: Automatic load shedding of the galleys and main bus on Transfer Bus 1.
+            - text: Automatic load shedding of the IFE Busses.
+            - text: Automatic load shedding of the galley and main busses on both Transfer Busses.
+- id: QDPWU
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: With the BUS TRANSFER switch in the AUTO position; how do the BTBs operate?
+      explanation: |-
+        ### FCOM 6.10.6, BUS TRANSFER Switch
+
+        > AUTO (guarded position) – **BTBs operate automatically to maintain power to AC transfer busses from any operating generator or external power** • DC cross tie relay automatically provides normal or isolated operation OFF – isolates AC transfer bus 1 from AC transfer bus 2 if one IDG is supplying • DC cross tie relay opens to isolate DC bus 1 from DC bus 2
+
+        ![AC power](annex:APMC)
+
+        ![Electrical power schematic](annex:AVWS)
+      presets:
+        - correctAnswers:
+            - text: BTBs automatically maintain power to AC Transfer busses from any operating generator or external power.
+          wrongAnswers:
+            - text: BTBs automatically maintain power to DC Bus 1 and DC Bus 2 through the DC Cross Tie Relay.
+            - text: BTBs isolate Transfer Bus 1 from Transfer Bus 2, if only 1 IDG is supplying power, DC Cross Tie Relay closes to connect DC Bus 1 to DC Bus 2.
+            - text: BTBs isolate Transfer Bus 1 from Transfer Bus 2, if only 1 IDG is supplying power, DC Cross Tie Relay opens to isolate DC Bus 1 from DC Bus 2.
+- id: QNUQN
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which bus(ses) will be automatically shed if the APU is the only source of electrical power in flight?
+      explanation: |-
+        ### FCOM 6.20.4, APU Automatic Load Shedding
+
+        > In flight, if the APU is the only source of electrical power, **all galley busses and main buses are automatically shed.** If electrical load still exceeds design limits, both IFE busses are also automatically shed.
+
+        ![AC power](annex:APMC)
+      presets:
+        - correctAnswers:
+            - text: All galley and main busses
+          wrongAnswers:
+            - text: Transfer bus 2
+            - text: The galley busses
+            - text: The main busses
+- id: QLSGH
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The amber TR UNIT light illuminated while in-flight indicates if?
+      explanation: |-
+        In–flight, an amber TR UNIT light illuminates if TR1, or TR2 and TR3 has failed.
+
+        On the ground, any TR fault causes the light to illuminate
+
+        ---
+
+        ![DC power](annex:AYGR)
+      presets:
+        - correctAnswers:
+            - text: TR1 has failed, or TR2 and TR3 have failed.
+          wrongAnswers:
+            - text: TR1 and TR2 have failed, or TR3 has failed.
+            - text: One TR has failed.
+            - text: All three TRs have failed.
+    - type: simple
+      question: "The TR UNIT light illuminated when in the air indicates:"
+      explanation: |-
+        TR UNIT Light Illuminated (amber)
+        - on the ground:
+          - any TR has failed.
+        - in flight:
+          - TR1 failed; or
+          - TR2 and TR3 failed.
+
+        ---
+
+        ![DC power](annex:AYGR)
+      presets:
+        - correctAnswers:
+            - text: TR1 has failed or TR2 and TR3 have failed
+          wrongAnswers:
+            - text: any two TRs have failed
+            - text: any TR has failed
+            - text: All three TRs have failed
+- id: QSQHV
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The amber TR UNIT light illuminated while on the ground indicates if?
+      explanation: |-
+        In–flight, an amber TR UNIT light illuminates if TR1, or TR2 and TR3 has failed.
+
+        On the ground, any TR fault causes the light to illuminate
+
+        ---
+
+        ![DC power](annex:AYGR)
+      presets:
+        - correctAnswers:
+            - text: One TR has failed.
+          wrongAnswers:
+            - text: TR1 and TR2 have failed, or TR3 has failed.
+            - text: TR1 has failed, or TR2 and TR3 have failed.
+            - text: All three TRs have failed.
+    - type: simple
+      question: "The TR UNIT light illuminated when on the ground indicates:"
+      explanation: |-
+        TR UNIT Light Illuminated (amber)
+        - on the ground:
+          - any TR has failed.
+        - in flight:
+          - TR1 failed; or
+          - TR2 and TR3 failed.
+
+        ---
+
+        ![DC power](annex:AYGR)
+      presets:
+        - correctAnswers:
+            - text: any TR has failed
+          wrongAnswers:
+            - text: any two TRs have failed
+            - text: TR1 has failed or TR2 and TR3 have failed
+            - text: All three TRs have failed
+- id: QDNKS
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 6.20.12, Static Inverter
+
+        > The static inverter converts **24 volt DC power from the battery to 115V AC power** to supply the AC standby bus during the loss of normal electrical power.
+
+        ![Standby power](annex:AQRY)
+      statements:
+        - text: The Static Inverter, converts the Battery's 22-30V DC voltage range to a constant 24V.
+          answer: false
+- id: QCXUI
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Under what conditions are DC bus 1 and DC bus 2 isolated.
+      explanation: |-
+        ### FCOM 6.20.7, DC Power
+
+        > The cross bus tie relay automatically opens, isolating DC bus 1 from DC bus 2, [...] • **At glide slope capture during a flight director or autopilot ILS approach.** This isolates the DC busses during approach to prevent a single failure from affecting both navigation receivers and flight control computers
+
+        The BUS TRANSFER switch OFF also opens the DC cross tie relay (FCOM 6.10.6).
+
+        ![DC power](annex:AYGR)
+      presets:
+        - correctAnswers:
+            - text: All the other answers are true.
+          wrongAnswers:
+            - text: Switching the Bus Transfer switch to OFF.
+            - text: When the cross bus tie relay opens.
+            - text: At glide slope capture during a flight director or autopilot ILS approach.
+- id: QVZMK
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 6.10.7, Ground Power Available (GRD POWER AVAILABLE) Light
+
+        > Illuminated (blue) – ground power is connected and meets airplane power quality standards.
+
+        The light says only that ground power is connected and meets the quality standards.
+      statements:
+        - text: When external ground power is connected to the aircraft through the External AC Receptacle, the GRD POWER AVAILABLE light does not illuminate unless the power supplied meets the quality requirements of 115v AC, 200 Hz, 3 phase.
+          answer: false
+- id: QAMNO
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: An illuminated amber ELEC light on the AC and DC Metering Panel indicates?
+      explanation: |-
+        ### FCOM 6.20.7, DC Power
+
+        > On the ground, an amber ELEC light comes on to indicate that **a fault exists in DC power system or standby power system.** The ELEC light is inhibited in flight.
+      presets:
+        - correctAnswers:
+            - text: A fault exists in the DC power system or the Standby power system
+          wrongAnswers:
+            - text: A fault exists in the AC power system or the DC power system
+            - text: A fault exists in the AC power system and the DC power system
+            - text: A fault exists in the DC power system and the Standby power system
+- id: QYWZS
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: With the STANDBY POWER switch (located on the Generator Drive and Standby Power Panel)  in the AUTO position, will the loss of a single DC Bus result in automatic switching from normal to alternate power?
+      explanation: |-
+        ### FCOM 6.20.11, Standby Power
+
+        > In the AUTO position, automatic switching from normal to alternate power occurs if **power from either AC transfer bus 1 or DC bus 1 is lost.**
+
+        The loss of AC transfer bus 2 or of DC bus 2 does not cause the switching.
+
+        ![Standby power](annex:AQRY)
+      presets:
+        - correctAnswers:
+            - text: Only if power from DC Bus 1 is lost
+          wrongAnswers:
+            - text: Only if power from DC Bus 2 is lost
+            - text: Only if power from from DC Bus 1 is lost and power from AC Transfer Bus 1 is also lost
+            - text: No, for automatic switching to occur power must be lost from both DC Busses
+- id: QYOLU
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which electrical bus is always connected and powered whenever the aircraft battery is fitted?
+      explanation: |-
+        ### FCOM 6.20.8, Dual Battery
+
+        > The hot battery bus is always connected to the battery. There is no switch in this circuit.
+
+        The switched hot battery bus is powered only with the battery switch ON.
+      presets:
+        - correctAnswers:
+            - text: Hot Battery Bus - power immediately available to important systems such as fire extinguishers.
+          wrongAnswers:
+            - text: DC Standby bus - power to important systems that require to be in standby mode.
+            - text: Battery bus - power immediately available to important systems such as fire extinguishers.
+            - text: AC standby bus- powered through Transformer Rectifier to ensure no power interruption to GPS system.
+- id: QFBIQ
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Why are the covers on the Drive DISCONNECT switches red?
+      explanation: |-
+        ### FCOM 6.20.6, Generator Drive
+
+        > A generator drive disconnect switch is installed. This switch disconnects the generator from the engine in the event of a generator drive malfunction. **Reactivation of the generator may be accomplished only on the ground** by maintenance personnel.
+
+        The red cover warns that the action cannot be reversed in flight.
+      presets:
+        - correctAnswers:
+            - text: To identify switch action is irreversible in flight.
+          wrongAnswers:
+            - text: For easy identification of an emergency operation in low light conditions.
+            - text: To identify an emergency operation control switch.
+            - text: To identify a NNP memory item.
+- id: QXBKZ
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If the APU is powering Transfer Bus 1 and GEN 2 is powering Transfer Bus 2, what will occur when the Ground Power (GRD PWR) Switch is turned to ON?
+      explanation: |-
+        ### FCOM 6.20.3, AC Power
+
+        > With the airplane on the ground and both generator control switches OFF, or with both engines shut down, selecting the GRD PWR switch ON **connects external power to both transfer busses.** Likewise, selecting either APU GEN switch ON connects APU power to both transfer busses. **Whichever source is selected last powers both busses.** It is not possible to power one transfer bus with external power and one transfer bus with APU power.
+
+        ### FCOM 6.10.7, SOURCE OFF Lights
+
+        > Illuminated (amber) – no source has been manually selected to power the related transfer bus, or the manually selected source has been disconnected
+
+        ![AC power](annex:APMC)
+
+        ![Electrical power schematic](annex:AVWS)
+      presets:
+        - correctAnswers:
+            - text: Ground Power will power both Transfer Busses. The SOURCE OFF lights will remain extinguished.
+          wrongAnswers:
+            - text: Ground Power will power Transfer Bus 1 and GEN 2 will power Transfer Bus 2.
+            - text: Ground Power will power both Transfer Busses and the SOURCE OFF lights will illuminate.
+            - text: The APU will power Transfer Bus 1 and Ground Power will power Transfer Bus 2.
+- id: QBAUT
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the normal source of power for the DC Standby bus?
+      explanation: |-
+        ### FCOM 6.20.11, Standby Power System
+
+        > Under normal conditions the **AC standby bus is powered from AC transfer bus 1**. The **DC standby bus is powered by TR1, TR2, and TR3**; the battery bus is powered by TR3; the hot battery bus and switched hot battery bus are powered by the battery chargers.
+
+        ![Standby power](annex:AQRY)
+
+        ![Electrical power schematic](annex:AVWS)
+      presets:
+        - correctAnswers:
+            - text: TR1, TR2 and TR3
+          wrongAnswers:
+            - text: The battery
+            - text: DC bus 1 and DC bus 2
+            - text: TR2 and TR3
+- id: QCKVH
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the purpose of the Ground Service switch on the forward attendant's panel?
+      explanation: |-
+        ### FCOM 6.20.2, Ground Service
+
+        > The switch provides **ground power directly to the AC ground service busses for utility outlets, cabin lighting and the battery charger without powering all airplane electrical busses.** The ground service switch is a momentary push button and is overridden when both AC transfer busses are powered.
+      presets:
+        - correctAnswers:
+            - text: Provides ground power directly to the AC ground services bus for utility outlets, cabin lighting, and battery charger without powering all aircraft electrical busses.
+          wrongAnswers:
+            - text: Energises the No1 and No2 115V GND SERVICE BUS, to allow the galleys water heaters to be powered whilst the aircraft is connected to ground power.
+            - text: Powers and sounds external horn through the AC ground services bus to attract attention of ground servicing personnel.
+            - text: Provides power to external services used by ground servicing personnel.
+- id: QVAPI
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the normal AC power source for TR3?
+      explanation: |-
+        ### FCOM 6.20.7, DC Power
+
+        > The TRs convert 115 volt AC to 28 volt DC, and are identified as TR1, TR2, and TR3. TR1 receives AC power from transfer bus 1. TR2 receives AC power from transfer bus 2. When Transfer Bus switch is set to AUTO, **TR3 normally receives AC power from transfer bus 2** and has a backup source of AC power from transfer bus 1.
+
+        ![DC power](annex:AYGR)
+
+        ![Electrical power schematic](annex:AVWS)
+      presets:
+        - correctAnswers:
+            - text: Transfer Bus 2
+          wrongAnswers:
+            - text: Main Bus 2
+            - text: Transfer Bus 1
+            - text: Main Bus 1
+- id: QTDUP
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the effect of selecting the Drive Disconnect switch to DISCONNECT?
+      explanation: |
+        Generator Drive Disconnect (DISCONNECT) Switches (guarded)
+
+        Disconnects IDG if electrical power is available and engine start lever is in IDLE. IDG cannot be reconnected in the air.
+
+        ---
+
+      presets:
+        - correctAnswers:
+            - text: IDG is disconnected if running, and DRIVE light illuminates.
+          wrongAnswers:
+            - text: AC Standby Bus is immediately powered by Inverter from batteries.
+            - text: No effects take place until STANBY POWER switch is also moved to BAT.
+            - text: DRIVE light illuminates, AC electrical power is lost on associated Transfer Bus, AC Standby Bus powered from opposite Transfer Bus.
+- id: QZJXJ
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the source of power for the AC Standby bus if all AC power is lost.
+      explanation: |-
+        ### FCOM 6.20.11, Standby Power
+
+        > With the standby power switch in the AUTO position, the loss of all engine or APU electrical power causes the batteries to power the standby loads, both in the air and on the ground. **The AC standby bus is powered from the batteries via the static inverter.** The DC standby bus, battery bus, hot battery bus, and switched hot battery bus are powered directly from the batteries.
+
+        ![Standby power](annex:AQRY)
+      presets:
+        - correctAnswers:
+            - text: The Static Inverter
+          wrongAnswers:
+            - text: The TRs
+            - text: The DC Standby Bus
+            - text: The Battery Charger
+- id: QFQXT
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The main battery charger is powered by?
+      explanation: |-
+        ### FCOM 6.20.9, Battery Charger Transformer/Rectifier
+
+        > The main battery charger is powered through **AC ground service bus 2**. The auxiliary battery charger is powered through **AC ground service bus 1**.
+
+        ![Electrical power schematic](annex:AVWS)
+      presets:
+        - correctAnswers:
+            - text: AC Ground Service Bus 2
+          wrongAnswers:
+            - text: AC Ground Service Bus 1
+            - text: Transfer Bus 1
+            - text: Transfer Bus 2
+- id: QPVYL
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 6.20.2, Electrical Power
+
+        > There are two basic principles of operation for the 737 electrical system: • **There is no paralleling of the AC sources of power** • **The source of power being connected to a transfer bus automatically disconnects the existing source**
+
+        ![Electrical power](annex:AVWS)
+      statements:
+        - text: "The 2 basic rules of the B737-800 electrical system are:  Only one AC power source can be connected at one time.  A second source connecting to a transfer bus will automatically disconnect the existing source."
+          answer: true
+- id: QFBJF
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What indications will you see on the electrical panel when selecting GRD PWR ON?
+      explanation: |-
+        ### FCOM 6.20.3, AC Power
+
+        > With the airplane on the ground and both generator control switches OFF, or with both engines shut down, selecting the GRD PWR switch ON **connects external power to both transfer busses.** Likewise, selecting either APU GEN switch ON connects APU power to both transfer busses. **Whichever source is selected last powers both busses.** It is not possible to power one transfer bus with external power and one transfer bus with APU power.
+
+        ### FCOM 6.10.7, Generator Off Bus (GEN OFF BUS) Lights
+
+        > Illuminated (blue) – IDG is not supplying power to the related transfer bus.
+
+        ### FCOM 6.10.7, SOURCE OFF Lights
+
+        > Illuminated (amber) – no source has been manually selected to power the related transfer bus, or the manually selected source has been disconnected
+
+        ![Electrical power](annex:AVWS)
+      presets:
+        - correctAnswers:
+            - text: GRD POWER AVAILABLE light illuminated, SOURCE OFF lights extinguished, GEN OFF BUS lights illuminated, TRANSFER BUS OFF lights extinguished, APU GEN OFF BUS light extinguished.
+          wrongAnswers:
+            - text: GRD POWER light extinguished, SOURCE OFF lights illuminated, GEN OFF BUS lights illuminated, TRANSFER BUS OFF lights extinguished, APU GEN OFF BUS light illuminated.
+            - text: GRD POWER AVAILABLE light extinguished, SOURCE OFF lights extinguished, GEN OFF BUS lights illuminated, TRANSFER BUS OFF lights extinguished, APU GEN OFF BUS light illuminated.
+            - text: GRD POWER AVAILABLE light illuminated, SOURCE OFF lights extinguished, GEN OFF BUS lights illuminated, TRANSFER BUS OFF lights extinguished, APU GEN OFF BUS light illuminated.
+- id: QEBDR
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 6.20.4, Automatic Load Shedding (Engine Generators)
+
+        > For single generator operation, the system is designed to shed electrical load incrementally based on actual load sensing. **The galleys and main bus on transfer bus 2 are shed first**; if an overload is still sensed, the galleys and main bus on transfer bus 1 are shed; if overload still exists, the IFE buses are shed.
+
+        The order is transfer bus 2 first, then transfer bus 1.
+
+        ![AC power](annex:APMC)
+      statements:
+        - text: If operating on a single IDG and an overload is sensed, the electrical system will shed the galleys and main bus from Transfer Bus 1 and then Transfer Bus 2 before then shedding the IFE busses if an overload is still sensed.
+          answer: false
+- id: QYVMB
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Under normal conditions, what powers DC Bus 1?
+      explanation: |
+        > Under normal conditions, DC bus 1, DC bus 2, and the DC standby bus are connected via the cross bus tie relay. In this condition, TR1 and TR2 are each powering DC bus 1, DC bus 2, and the DC standby bus. TR3 powers the battery bus and serves as a backup power source for TR1 and TR2
+
+        Do not confuse with AC tie bus breaker. AC Power sources cannot be parallelized. The same does not apply to DC Power sources.
+      presets:
+        - correctAnswers:
+            - text: TR1 and TR2
+          wrongAnswers:
+            - text: TR2
+            - text: TR1
+            - text: TR2 and TR3
+- id: QTLJM
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which air conditioning system will not operate unless the CAB/UTIL switch is ON?
+      explanation: |-
+        ### FCOM 6.10.4, CAB/UTIL Switch
+
+        > OFF – removes electrical power from galley and cabin equipment systems including: • all 115V AC galley busses • **left & right recirculation fans** • fwd and aft door area heaters • drain mast heaters
+
+        The packs and the temperature controls are not powered through the CAB/UTIL switch.
+      presets:
+        - correctAnswers:
+            - text: Left & right Recirculation fans
+          wrongAnswers:
+            - text: Temperature controls
+            - text: Air conditioning packs
+            - text: All 115V AC galley busses
+- id: QCULN
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How is the auxiliary battery charger powered?
+      explanation: |-
+        ### FCOM 6.20.9, Battery Charger Transformer/Rectifier
+
+        > The main battery charger is powered through **AC ground service bus 2**. The auxiliary battery charger is powered through **AC ground service bus 1**.
+      presets:
+        - correctAnswers:
+            - text: Through the AC Ground Service Bus
+          wrongAnswers:
+            - text: Through the AC Standby Bus
+            - text: Through Ground Service Bus 2
+            - text: Through DC Bus 1
+- id: QQENL
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: With the STANDBY POWER switch (located on the Generator Drive and Standby Power Panel)  in the AUTO position, will the loss of a single AC Transfer Bus result in automatic switching from normal to alternate power?
+      explanation: |-
+        ### FCOM 6.20.11, Standby Power
+
+        > In the AUTO position, automatic switching from normal to alternate power occurs if **power from either AC transfer bus 1 or DC bus 1 is lost.**
+
+        The loss of AC transfer bus 2 or of DC bus 2 does not cause the switching.
+
+        ![Standby power](annex:AQRY)
+      presets:
+        - correctAnswers:
+            - text: Only if power from AC Transfer Bus 1 is lost
+          wrongAnswers:
+            - text: Only if power from AC Transfer Bus 1 is lost and power from DC Bus 1 is also lost
+            - text: Only if power from AC Transfer Bus 2 is lost
+            - text: No, for automatic switching to occur power must be lost from both AC Transfer Busses
+- id: QRORI
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: In the event of the loss of  all engine and APU IDGs, the Standby Power system will provide what electrical power?
+      explanation: |-
+        ### FCOM 6.20.11, Standby Power System
+
+        > The standby system provides **115V AC and 24V DC** power to essential systems in the event of loss of all engine or APU–driven AC power.
+
+        ![Standby power](annex:AQRY)
+      presets:
+        - correctAnswers:
+            - text: 115V AC and 24V DC
+          wrongAnswers:
+            - text: 115V AC and 22 to 30V DC.
+            - text: 24V DC .
+            - text: 22-30V DC
+- id: QAKFD
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If Ground power is powering both Transfer Busses, the APU is available, and is selected to power Transfer Bus 1, which statement is correct?
+      explanation: |-
+        ### FCOM 6.20.3, AC Power
+
+        > With the airplane on the ground and both generator control switches OFF, or with both engines shut down, selecting the GRD PWR switch ON **connects external power to both transfer busses.** Likewise, selecting either APU GEN switch ON connects APU power to both transfer busses. **Whichever source is selected last powers both busses.** It is not possible to power one transfer bus with external power and one transfer bus with APU power.
+
+        ![AC power](annex:APMC)
+      presets:
+        - correctAnswers:
+            - text: Ground power will be automatically disconnected and the APU will power both Transfer Busses.
+          wrongAnswers:
+            - text: Ground power will be automatically disconnected and the APU will power Transfer Bus 1. Transfer Bus 2 is unpowered.
+            - text: The APU will power Transfer Bus 1 and Ground power will power Transfer Bus 2
+            - text: Ground power will continue to power the Transfer Busses until the APU is selected to power both Transfer Busses.
+- id: QSTPD
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the normal source of power for the AC Standby Bus?
+      explanation: |-
+        ### FCOM 6.20.11, Standby Power System
+
+        > Under normal conditions the **AC standby bus is powered from AC transfer bus 1**. The **DC standby bus is powered by TR1, TR2, and TR3**; the battery bus is powered by TR3; the hot battery bus and switched hot battery bus are powered by the battery chargers.
+
+        ![Standby power](annex:AQRY)
+      presets:
+        - correctAnswers:
+            - text: AC Transfer Bus 1
+          wrongAnswers:
+            - text: The Static Inverter
+            - text: Ground Service Bus 1
+            - text: AC Transfer Bus 2
+- id: QJDDD
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 6.10.7, SOURCE OFF Lights
+
+        > Illuminated (amber) – no source has been manually selected to power the related transfer bus, or the manually selected source has been disconnected
+
+        The light does not signal an IDG overheat trip. An IDG that has disconnected for high oil temperature shows the DRIVE light (FCOM 6.20.6).
+      statements:
+        - text: The SOURCE OFF light illuminates whenever an IDG has tripped offline due to overheating.
+          answer: false
+- id: QAIKF
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Maintaining uninterrupted power on both AC Transfer Busses is primarily the function of:"
+      explanation: |-
+        ### FCOM 6.20.3, AC Power
+
+        > In flight, each engine generator normally powers its own transfer bus. If an engine generator is no longer supplying power, **the BTBs automatically close** to allow the other engine generator to supply both transfer busses through the tie bus and BTBs. The APU can power either or both busses through the BTBs.
+
+        ![AC power](annex:APMC)
+      presets:
+        - correctAnswers:
+            - text: The Bus Tie Breakers (BTBs)
+          wrongAnswers:
+            - text: The IDGs
+            - text: The Ground Service Busses
+            - text: The Transfer Busses
+- id: QOANL
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: With the BUS TRANSFER switch in AUTO, if one IDG fails in flight, what happens next?
+      explanation: |-
+        ### FCOM 6.20.3, AC Power
+
+        > Either generator or the APU can supply power to both transfer busses. If the BUS TRANS switch is in the AUTO position and the source powering the transfer bus is disconnected or fails, **the source powering the opposite transfer bus automatically picks up the unpowered transfer bus through the BTBs.**
+
+        ![AC power](annex:APMC)
+      presets:
+        - correctAnswers:
+            - text: The generator circuit breaker on the failed side opens, bus tie breakers 1 and 2 close and both AC transfer buses are powered by the remaining IDG.
+          wrongAnswers:
+            - text: The generator circuit breaker on the failed side opens, the bus tie breaker on the failed side opens and the bus tie breaker on the functional side closes. The transfer bus on the failed side is powered by the AC standby system.
+            - text: The generator circuit breaker on the failed side opens. The transfer bus on the failed side stays unpowered until the generator on the failed side is selected OFF.
+            - text: The generator circuit breaker on the failed side opens. The transfer bus on the failed side stays unpowered until the APU is selected to that side.
+- id: QWYKG
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If the TR UNIT light illuminates in flight, why should you not use the AFDS approach mode on an ILS approach?
+      explanation: |-
+        ### FCOM 6.20.7, DC Power
+
+        > The cross bus tie relay automatically opens, isolating DC bus 1 from DC bus 2, [...] • **At glide slope capture during a flight director or autopilot ILS approach.**
+
+        With a TR failed, opening the relay leaves part of the DC system without power.
+
+        ![DC power](annex:AYGR)
+      presets:
+        - correctAnswers:
+            - text: On glideslope capture the cross bus tie relay opens, which leaves part of the DC system without power.
+          wrongAnswers:
+            - text: The light indicates that the standby DC system is unavailable.
+            - text: The ILS receivers are fed directly from TR1 and TR2.
+            - text: The autopilot may disengage on localiser capture.
+- id: QWMFA
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If a GEN OFF BUS light illuminates in flight, what may occur as an indirect consequence?
+      explanation: |-
+        ### FCOM 4.20.3, AFS Failures
+
+        > **Power interruption or loss may cause disengagement of the AFDS and/or A/T.** [...] Dual channel A/P operation is possible only when two generators are powering the busses.
+      presets:
+        - correctAnswers:
+            - text: If the autopilot is engaged on the affected side, it may disconnect due to the momentary loss of power.
+          wrongAnswers:
+            - text: Only the captain's and standby instruments will be available.
+            - text: The autopilot cannot be engaged in APP mode.
+            - text: The AC fuel pumps in the main tank on the affected side will not be available.
+- id: QWCOY
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which of these conditions would cause an IDG DRIVE light to illuminate in flight?
+      explanation: |-
+        ### FCOM 6.20.6, Generator Drive
+
+        > The generator drive (DRIVE) amber caution light is illuminated when **low oil pressure** is sensed in the IDG.
+      presets:
+        - correctAnswers:
+            - text: IDG low oil pressure.
+          wrongAnswers:
+            - text: IDG low oil temperature.
+            - text: Generator overload.
+- id: QAMTL
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: After a normal engine start, what indication shows that GEN 1 has connected successfully when selected to ON?
+      explanation: |-
+        ### FCOM 6.10.7, Generator Off Bus (GEN OFF BUS) Lights
+
+        > Illuminated (blue) – **IDG is not supplying power to the related transfer bus.**
+
+        With the generator connected, the related GEN OFF BUS light extinguishes.
+      presets:
+        - correctAnswers:
+            - text: The related blue GEN OFF BUS light extinguishes.
+          wrongAnswers:
+            - text: The SOURCE OFF light illuminates.
+            - text: The TRANSFER BUS OFF light extinguishes.
+            - text: The blue APU GEN OFF BUS light extinguishes.
+- id: QIZIP
+  subjectId: b737
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When ground power is available and selected ON, which AC transfer buses are powered?
+      explanation: |-
+        ### FCOM 6.20.3, AC Power
+
+        > With the airplane on the ground and both generator control switches OFF, or with both engines shut down, selecting the GRD PWR switch ON **connects external power to both transfer busses.** Likewise, selecting either APU GEN switch ON connects APU power to both transfer busses. **Whichever source is selected last powers both busses.** It is not possible to power one transfer bus with external power and one transfer bus with APU power.
+
+        ![Electrical power](annex:AVWS)
+      presets:
+        - correctAnswers:
+            - text: AC transfer bus 1 and AC transfer bus 2.
+          wrongAnswers:
+            - text: AC standby bus only.
+            - text: AC transfer bus 1 only.
+            - text: AC transfer bus 2 only.

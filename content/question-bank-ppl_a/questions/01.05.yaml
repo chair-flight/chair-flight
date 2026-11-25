@@ -1,0 +1,610 @@
+- id: QCWME
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QAKBB
+    - QOXTW
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: What is the meaning of the abbreviation "SERA"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Standardised European Rules of the Air
+          wrongAnswers:
+            - text: Selective Radar Altimeter
+            - text: Standard European Routes of the Air
+            - text: Specialized Radar Approach
+- id: QAKBB
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QCWME
+    - QPIGH
+    - QOXTW
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: What is the meaning of the abbreviation "IFR"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Instrument Flight Rules
+          wrongAnswers:
+            - text: Instrument Meteorological Conditions
+            - text: Bad Weather Flight Rules
+            - text: Commercial Flight Rules
+- id: QOXTW
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QCWME
+    - QAKBB
+    - QPIGH
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: What is the meaning of the abbreviation "VMC"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Visual meteorological conditions
+          wrongAnswers:
+            - text: Instrument flight conditions
+            - text: Visual flight rules
+            - text: Variable meteorological conditions
+- id: QPIGH
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QAKBB
+    - QOXTW
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: A flight is called a "visual flight", if the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Flight is conducted under visual flight rules.
+          wrongAnswers:
+            - text: Visibility in flight is more than 8 km.
+            - text: Visibility in flight is more than 5 km.
+            - text: Flight is conducted in visual meteorological conditions.
+- id: QRMRY
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: The term "ceiling" is defined as the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Height of the base of the lowest layer of clouds covering more than half of the sky below 20000 ft.
+          wrongAnswers:
+            - text: Height of the base of the lowest layer of clouds covering more than half of the sky below 10000 ft.
+            - text: Height of the base of the highest layer of clouds covering more than half of the sky below 20000 ft.
+            - text: Altitude of the base of the lowest layer of clouds covering more than half of the sky below 20000 ft.
+- id: QIYEN
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QTRWT
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: What must be considered regarding bridges or similar buildings?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: I must not fly below these buildings in any case.
+          wrongAnswers:
+            - text: I must fly below them if they are designated accordingly.
+            - text: I may fly below them if the lateral and vertical distance is at least 20 m.
+            - text: I may fly below them if the flight altitude is at least 150 m AGL.
+- id: QTRWT
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QIYEN
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: Which of the following options is NOT a sufficient reason to fly below the required minimum height?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Bad weather conditions in the vicinity of an aerodrome
+          wrongAnswers:
+            - text: The drop of towed objects at an aerodrome
+            - text: An approach without landing at an aerodrome
+            - text: Take-off or landing at an aerodrome
+- id: QGFAC
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QFLOX
+    - QTWZF
+    - QOALA
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: What is the minimum flight visibility in airspace C for an aircraft operating under VFR at FL110?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 8000 m
+          wrongAnswers:
+            - text: 3000 m
+            - text: 1500 m
+            - text: 5000 m
+    - type: simple
+      question: What is the minimum flight visibility in airspace C for an aircraft operating under VFR at FL125?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 8000 m
+          wrongAnswers:
+            - text: 5000 m
+            - text: 3000 m
+            - text: 1500 m
+    - type: simple
+      question: What is the minimum flight visibility in airspace C at and above FL100 for an aircraft operating under VFR?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 8 km
+          wrongAnswers:
+            - text: 5 km
+            - text: 1.5 km
+            - text: 10 km
+- id: QFLOX
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QGFAC
+    - QOALA
+    - QTWZF
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: What is the minimum flight visibility in airspace C below FL 100 for an aircraft operating under VFR?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 5 km
+          wrongAnswers:
+            - text: 8 km
+            - text: 1.5 km
+            - text: 10 km
+    - type: simple
+      question: What is the minimum flight visibility in airspace "C" for an aircraft operating under VFR at 5000 ft MSL?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 5000 m
+          wrongAnswers:
+            - text: 1500 m
+            - text: 3000 m
+            - text: 8000 m
+- id: QOALA
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QGFAC
+    - QFLOX
+    - QTWZF
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: What is the minimum flight visibility in airspace "E" for an aircraft operating under VFR at FL75?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 5000 m
+          wrongAnswers:
+            - text: 3000 m
+            - text: 8000 m
+            - text: 1500 m
+- id: QTWZF
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QGFAC
+    - QFLOX
+    - QOALA
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: The minimum flight visibility at 5000 ft MSL in airspace B for VFR flights is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 5000 m
+          wrongAnswers:
+            - text: 8000 m
+            - text: 1500 m
+            - text: 3000 m
+- id: QGYZZ
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QPHZZ
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: Which distances to clouds have to be maintained during a VFR flight in airspaces C, D and E?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1500 m horizontally, 1000 ft vertically
+          wrongAnswers:
+            - text: 1000 m horizontally, 300 m vertically
+            - text: 1000 m horizontally, 1500 ft vertically
+            - text: 1500 m horizontally, 1000 m vertically
+- id: QPHZZ
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QGYZZ
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: What are the minimum distances to clouds for a VFR flight in airspace "B"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Horizontally 1500 m, vertically 300 m
+          wrongAnswers:
+            - text: Horizontally 1.500 m, vertically 1.000 m
+            - text: Horizontally 1.000 m, vertically 300 m
+            - text: Horizontally 1.000 m, vertically 1.500 ft
+- id: QHUQH
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QATCN
+    - QHMVE
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: Two aeroplanes are flying on crossing tracks. Which one has to divert?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The aircraft which flies from right to left has the right of priority.
+          wrongAnswers:
+            - text: Both have to divert to the left.
+            - text: Both have to divert to the right.
+            - text: The aircraft which flies from left to right has the right of priority.
+    - type: simple
+      question: In airspace D a Boeing 737 and a Cessna 152 are flying on crossing courses. Which aeroplane has to divert?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The aeroplane flying from right to left has priority, the other one has to divert.
+          wrongAnswers:
+            - text: The Boeing 737, because an airliner has greater power reserves.
+            - text: The air traffic control (ATC) has to decide which one has to divert.
+            - text: The Cessna 152, because IFR and commercial flights have priority.
+- id: QATCN
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QHUQH
+    - QHMVE
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: Two engine-powered aeroplanes are converging at approximately the same level. Which must give way?
+      explanation: |-
+        ### Regulation (EU) No 923/2012, SERA.3210(c)(2)
+
+        > […] the aircraft that has the other on its right shall give way […]
+      presets:
+        - correctAnswers:
+            - text: The aeroplane that has the other on its right.
+          wrongAnswers:
+            - text: The aeroplane that has the other on its left.
+            - text: Both aeroplanes must turn right.
+            - text: Both aeroplanes must turn left.
+- id: QHMVE
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QATCN
+    - QHUQH
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: A single-engine piston and a turboprop aeroplane are approaching each other opposite at the same altitude. Which aeroplane has to change its track to avoid a collision?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both aircraft have to alter their tracks to the right.
+          wrongAnswers:
+            - text: The single-engine piston aircraft has to give way to the turboprop aircraft.
+            - text: The turboprop aircraft has to give way to the single-engine piston aircraft.
+            - text: Both aircraft have to alter their tracks to the left.
+- id: QNUNB
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QJZLY
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: What condition has to be met during a Special VFR flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Visual reference to the terrain
+          wrongAnswers:
+            - text: Speed not above 115 kt IAS
+            - text: A minimum distance to clouds of 2000 m
+            - text: At least 500 m ground visibilty
+- id: QJZLY
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QNUNB
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: State the minimum weather conditions to enter a control zone (airspace D) under special VFR conditions for a fixed-wing aircraft.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ground visibility at least 1.5 km; flight visibility at least 1.5 km; ceiling not below 600 ft; visual contact to the ground must be maintained; the aircraft must remain always clear of clouds.
+          wrongAnswers:
+            - text: Ground visibility at least 800 m Flight visibility at least 800 m Ceiling not below 600 ft Visual contact to the ground must be maintained The aircraft must remain always clear of clouds.
+            - text: Ground visibility at least 1,5 km Flight visibility at least 1,5 km Ceiling not below 1000 ft Visual contact to the ground must be maintained The aircraft must remain always clear of clouds.
+            - text: Ground visibility at least 5 km Flight visibility at least 5 km Ceiling not below 1500 ft Visual contact to the ground must be maintained The aircraft must remain always clear of clouds.
+- id: QJVGR
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QMNRK
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: "Being intercepted by a military aircraft at daytime, what is the meaning of the following signal: alternating movement of the ailerons, normally left of the intercepted aircraft, followed by a smooth turn to the left?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Follow me.
+          wrongAnswers:
+            - text: You are entering a restricted area, leave the airspace immediately.
+            - text: Prepare for a safety landing, you have entered a prohibited area.
+            - text: You are clear of any restricted or reserved airspaces, you can continue on your heading.
+- id: QMNRK
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QJVGR
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: "Being intercepted by a military aircraft at daytime, what is the meaning of the following signal: a sudden heading change of 90 degrees or more and a pull-up of the aircraft without crossing the track of the intercepted aircraft?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: You may continue your flight.
+          wrongAnswers:
+            - text: Prepare for a safety landing, you have entered a prohibited area.
+            - text: Follow me, I will bring you to the next suitable airfield.
+            - text: You are entering a restricted area, leave the airspace immediately.
+- id: QTDUS
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: What is the purpose of the semi-circular rule?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To avoid collisions by reducing the probability of opposing traffic at the same altitude.
+          wrongAnswers:
+            - text: To allow safe climbing or descending in a holding pattern.
+            - text: To avoid collisions by suspending turning manoeuvres.
+            - text: To fly without a filed flight plan in prescribed zones published in the AIP.
+- id: QTZND
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QMHEV
+    - QXZQT
+    - QYIDL
+    - QKLVA
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: definition
+      question: What is the meaning of a {term} signal at a controlled aerodrome directed to an aircraft in flight?
+      explanation: ""
+      options:
+        - id: flashing-red
+          term: flashing red light
+          definition: Airport unsafe, do not land
+        - id: flashing-green
+          term: flashing green light
+          definition: Return for landing, followed by steady green at the appropriate time
+        - id: steady-green
+          term: steady green light
+          definition: Cleared to land
+      fakeOptions:
+        - id: give-way
+          definition: Give way to other aircraft and continue circling
+- id: QMHEV
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QXZQT
+    - QYIDL
+    - QKLVA
+    - QTZND
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: What is the meaning of a flashing white light signal at a controlled aerodrome directed to an aircraft on ground?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Return to starting point
+          wrongAnswers:
+            - text: Clear the taxiway / runway
+            - text: Cleared to taxi
+            - text: Cleared for take-off
+- id: QXZQT
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QMHEV
+    - QYIDL
+    - QKLVA
+    - QTZND
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: What is the meaning of a flashing red light signal at a controlled aerodrome directed to an aircraft on ground?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Immediately taxi clear of runway in use
+          wrongAnswers:
+            - text: Cleared for take-off
+            - text: Return to starting point
+            - text: Cleared to taxi
+- id: QKLVA
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QMHEV
+    - QXZQT
+    - QYIDL
+    - QTZND
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: What is the meaning of a steady red light signal at a controlled aerodrome directed to an aircraft on ground?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Stop
+          wrongAnswers:
+            - text: Clear the taxiway / runway
+            - text: Land at this airport and proceed to apron
+            - text: Return to starting point
+- id: QYIDL
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QMHEV
+    - QXZQT
+    - QKLVA
+    - QTZND
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: What is the meaning of a flashing green light signal at a controlled aerodrome directed to an aircraft on ground?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cleared to taxi
+          wrongAnswers:
+            - text: Land at this airport and proceed to the apron
+            - text: Cleared for take-off
+            - text: Return to starting point
+- id: QIKOL
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds:
+    - QDAKO
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: In which way should a pilot confirm received light signals in flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Rock the wings (in the daytime)
+          wrongAnswers:
+            - text: Apply some changes of RPM
+            - text: Apply some fast pitch changes
+            - text: Apply some changes of the rudder
+- id: QSLDK
+  subjectId: "01"
+  chapterId: "01.05"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "01.05.01"
+  templates:
+    - type: simple
+      question: "During a night flight, an observer located in the cockpit, seeing an aircraft coming from front left on approximate opposite parallel track, will first see the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: red steady light
+          wrongAnswers:
+            - text: green steady light
+            - text: white steady light
+            - text: green and white flashing light

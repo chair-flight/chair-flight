@@ -1,0 +1,2314 @@
+- id: QBAPM
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508946
+    - BGS-500172
+    - AVEXAM-58529
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.01.01.02
+  templates:
+    - type: simple
+      question: Which units are used for the forecast wind at higher levels?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Direction in degrees relative to true north and speed in knots.
+          wrongAnswers:
+            - text: Direction in degrees relative to magnetic north and speed in knots.
+            - text: Direction in degrees relative to grid north and speed in km/h.
+            - text: Direction in degrees relative to magnetic north and speed in km/h.
+- id: QMVAQ
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504428
+    - BGS-502915
+    - AVEXAM-70091
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.01.01.02
+  templates:
+    - type: simple
+      question: METAR reports (1) _____ wind direction and over (2) _____; Control tower reports (3) _____ wind direction over (4) _____.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) True North; (2) 10 minutes; (3) Magnetic North; (4) 2 minutes.
+          wrongAnswers:
+            - text: (1) Magnetic North; (2) 2 minutes; (3) True North; (4) 10 minutes.
+            - text: (1) True North; (2) 10 minutes; (3) Magnetic North; (4) 5 minutes.
+            - text: (1) Magnetic North; (2) 10 minutes; (3) True North; (4) 2 minutes.
+    - type: simple
+      question: For a METAR, the wind direction is reported with reference to (1), averaged over a period of (2) minutes. Reports from the Control Tower give the wind direction referenced to (3), averaged over a period of (4) minute(s).
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) True North; (2) 10; (3) Magnetic North; (4) 2
+          wrongAnswers:
+            - text: (1) True North; (2) 10; (3) Magnetic North; (4) 5
+            - text: (1) Magnetic North; (2) 5; (3) True North; (4) 2
+            - text: (1) True North; (2) 2; (3) Magnetic North; (4) 1
+- id: QRCSB
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507189
+    - BGS-500175
+    - AVEXAM-90991
+    - ATPLQ-505433
+    - BGS-500173
+    - ATPLQ-506217
+    - ATPLQ-503676
+    - BGS-500176
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.01.01.02
+  templates:
+    - type: simple
+      question: What is the approximate speed of a {{kt}}-knot wind, expressed in m/s?
+      explanation: |-
+        One knot is about 0.5144 m/s, so half the speed in knots gives a quick approximation of the speed in m/s.
+
+        **Solution**
+
+        $$
+        \frac{\text{Wind speed}}{2} = \frac{ {{kt}} }{2} = \mathbf{ {{answer}}\ \text{m/s} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} m/s**: the value in knots is copied without any conversion.
+        - **{{d2}} m/s**: the speed is doubled instead of halved.
+        - **{{d3}} m/s**: knots are multiplied by 1.852, the factor to km/h, which gives a value in km/h and not in m/s.
+        - **{{d4}} m/s**: the speed is divided by 4 instead of 2.
+      presets:
+        - variables:
+            kt: 20
+            answer: 10
+            d1: 20
+            d2: 40
+            d3: 37
+            d4: 5
+          correctAnswers:
+            - text: 10 m/s
+          wrongAnswers:
+            - text: 20 m/s
+            - text: 37 m/s
+            - text: 5 m/s
+            - text: 40 m/s
+        - variables:
+            kt: 40
+            answer: 20
+            d1: 40
+            d2: 80
+            d3: 74
+            d4: 10
+          correctAnswers:
+            - text: 20 m/s
+          wrongAnswers:
+            - text: 40 m/s
+            - text: 74 m/s
+            - text: 10 m/s
+            - text: 80 m/s
+        - variables:
+            kt: 30
+            answer: 15
+            d1: 30
+            d2: 60
+            d3: 56
+            d4: 8
+          correctAnswers:
+            - text: 15 m/s
+          wrongAnswers:
+            - text: 30 m/s
+            - text: 56 m/s
+            - text: 8 m/s
+            - text: 60 m/s
+    - type: simple
+      question: What is the approximate speed of a 25-knot wind, expressed in kilometres per hour?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 45 km/h
+          wrongAnswers:
+            - text: 55 km/h
+            - text: 35 km/h
+            - text: 60 km/h
+    - type: simple
+      question: What is the approximate speed of a 90 km/h wind, expressed in knots?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 50 kt
+          wrongAnswers:
+            - text: 70 kt
+            - text: 60 kt
+            - text: 55 kt
+- id: QPGWQ
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508752
+    - BGS-502489
+    - AVEXAM-62335
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.01.01.03
+  templates:
+    - type: simple
+      question: Which of the following options regarding the reporting of surface winds could potentially explain the slight difference observed between the surface wind speed reported on the ATIS and the METAR, despite having the same report time?
+      explanation: The wind in a METAR is an average over the 10 minutes before the observation, while the ATIS wind is averaged over 2 minutes. Different averaging periods explain a small difference in speed.
+      presets:
+        - correctAnswers:
+            - text: ATIS surface wind is averaged over a two-minute period, whereas METAR surface wind is averaged over a ten-minute period.
+          wrongAnswers:
+            - text: METAR surface wind is averaged over a five-minute period just prior to the report, whereas ATIS surface wind is averaged over a two-minute period.
+            - text: "ATIS surface wind is reported from the instantaneous wind reading immediately before the report, whereas METAR surface wind is averaged over a rolling ten-minute period at the time of issue. "
+            - text: METAR surface wind is averaged over a five-minute period just prior to the report, whereas ATIS surface wind is averaged over one-minute period.
+- id: QLNJY
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506119
+    - AVEXAM-69007
+  annexes:
+    - id: AFDB
+  learningObjectiveIds:
+    - 050.02.02.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The pressure gradient force acts in the direction of:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Arrow 2.
+          wrongAnswers:
+            - text: Arrow 1.
+            - text: Arrow 4.
+            - text: Arrow 3.
+- id: QPOBJ
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506454
+    - AVEXAM-27081
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.01.02
+  templates:
+    - type: simple
+      question: Wind is caused by?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Horizontal pressure difference.
+          wrongAnswers:
+            - text: Earth rotation.
+            - text: Surface friction.
+            - text: Mixing of fronts.
+- id: QZZHS
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501367
+    - AVEXAM-57859
+    - BGS-502377
+    - AVEXAM-18018
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.01.03
+  templates:
+    - type: simple
+      question: The coriolis force is proportional to (1) \_\_\_\_\_ and it acts at a 90º to (2) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) wind speed; (2) the actual wind direction.
+          wrongAnswers:
+            - text: (1) the pressure gradient force, (2) the isobar.
+            - text: (1) wind speed; (2) the pressure gradient force.
+            - text: (1) the pressure gradient force; (2) the thermal wind.
+- id: QUDNM
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504675
+    - AVEXAM-55828
+    - BGS-500183
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.01.04
+  templates:
+    - type: simple
+      question: Geostrophic wind is the wind when isobars are
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: straight lines and no surface friction is involved.
+          wrongAnswers:
+            - text: curved lines and surface friction is involved.
+            - text: curved lines and no surface friction is involved.
+            - text: straight lines and surface friction is involved.
+- id: QVEKP
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506985
+    - BGS-502144
+  annexes:
+    - id: AWMB
+  learningObjectiveIds:
+    - 050.02.02.01.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Choose the option which correctly describes the attached figure:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) Pressure Gradient Force; (2) Geostrophic wind; (3) Coriolis Force.
+          wrongAnswers:
+            - text: (1) Geostrophic wind; (2) Coriolis Force; (3) Pressure Gradient Force.
+            - text: (1) Coriolis Force; (2) Pressure Gradient Force; (3) Geostrophic wind.
+            - text: (1) Coriolis Force; (2) Geostrophic wind; (3) Pressure Gradient Force.
+- id: QWAZP
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506404
+    - AVEXAM-90719
+    - BGS-500179
+    - ATPLQ-509315
+    - AVEXAM-39023
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.01.04
+  templates:
+    - type: simple
+      question: Which forces are balanced in the case of geostrophic winds?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pressure gradient force, Coriolis force.
+          wrongAnswers:
+            - text: Pressure gradient force, Coriolis force, centrifugal force.
+            - text: Pressure gradient force, centrifugal force, friction force.
+            - text: Friction force, pressure gradient force, Coriolis force.
+    - type: simple
+      question: Which statement accurately depicts the formation of geostrophic winds in the Southern Hemisphere?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The pressure gradient force accelerates air at right angle to the isobars, with increasing wind speed, Coriolis force increasingly deflects the air to the left, until the Coriolis force is directly opposed to pressure gradient force with equal strength and air flowing parallel to the isobars.
+          wrongAnswers:
+            - text: The pressure gradient force accelerates air at right angle to the isobars, with increasing wind speed, Coriolis force increasingly deflects the air to the right, until the Coriolis force is directly opposed to pressure gradient force with equal strength and air flowing parallel to the isobars.
+            - text: The pressure gradient force accelerates air parallel to the isobars, with increasing wind speed, Coriolis force increasingly deflects the air to the left, until the Coriolis force is directly opposed to pressure gradient force with equal strength and air flowing at right angle to the isobars.
+            - text: The pressure gradient force accelerates air parallel to the isobars, with increasing wind speed, Coriolis force increasingly deflects the air to the right, until the Coriolis force is directly opposed to pressure gradient force with equal strength and air flowing parallel to the isobars.
+- id: QHVRQ
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501417
+    - BGS-500153
+    - AVEXAM-85719
+    - ATPLQ-507216
+    - BGS-500201
+    - AVEXAM-91529
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.01.05
+  templates:
+    - type: simple
+      question: Assume that an aircraft is flying in the northern hemisphere at the 500 hPa pressure surface on a heading of 270 degrees. Which of the following statements is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: If in this pressure surface the wind comes from the direction 360 degrees, then true altitude is increasing
+          wrongAnswers:
+            - text: If in this pressure surface the wind comes from the direction 090 degrees, then true altitude is increasing
+            - text: If in this pressure surface the wind comes from the direction 180 degrees, then true altitude is increasing
+            - text: If in this pressure surface the wind comes from the direction 270 degrees, then true altitude is increasing
+    - type: simple
+      question: You are flying from east to west in the northern hemisphere at the 500 hPa pressure surface. Which of the following statements is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: If the wind is from the north you are gaining altitude.
+          wrongAnswers:
+            - text: If the wind is from the south you are gaining altitude.
+            - text: If you have a tail wind you are losing altitude.
+            - text: If you have a head wind you are gaining altitude.
+        - correctAnswers:
+            - text: If the wind is from the north you are gaining altitude.
+          wrongAnswers:
+            - text: If you have a tailwind you are losing altitude.
+            - text: If the wind is from the south you are gaining altitude.
+            - text: If you have a headwind you are gaining altitude.
+- id: QNFQX
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds:
+    - QYCOB
+  externalQuestionIds:
+    - ATPLQ-502900
+    - BGS-502542
+  annexes:
+    - id: AVOG
+  learningObjectiveIds:
+    - 050.02.02.01.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.   
+        Over the area of the Scandinavian peninsula and over the north eastern part of Europe, the geostrophic wind flows (1) \_\_\_\_\_ to the isobars and in (2) \_\_\_\_\_ direction.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) parallel; (2) a clockwise.
+          wrongAnswers:
+            - text: (1) parallel; (2) an anticlockwise.
+            - text: (1) perpendicular; (2) an anticlockwise.
+            - text: (1) perpendicular; (2) a clockwise.
+- id: QQDEJ
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505514
+    - BGS-500679
+    - BGS-501246
+    - AVEXAM-7451
+    - AVEXAM-35458
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.01.05
+  templates:
+    - type: simple
+      question: An observer on the northern hemisphere is under influence of the wind system of a depression, which is moving from west to east. The centre of the depression passes to the south of the observer. For this observer the wind direction is..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: continuously backing
+          wrongAnswers:
+            - text: initially backing, then veering
+            - text: continuously veering
+            - text: initially veering, then backing
+- id: QYCOB
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds:
+    - QNFQX
+  externalQuestionIds:
+    - ATPLQ-501432
+    - BGS-501912
+  annexes:
+    - id: AIFO
+  learningObjectiveIds:
+    - 050.02.02.01.05
+    - 050.02.02.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.  
+        The schematic view of the earth shows some isobars (short black lines) and the corresponding areas of lower and higher pressure at the surface. What are the approximate wind directions aloft between 2000 and 3000 ft above ground at the two red points shown on the diagram?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1: SW, 2: NE."
+          wrongAnswers:
+            - text: "1: SW, 2: SW."
+            - text: "1: NE, 2: SW."
+            - text: "1: NW, 2: SE."
+- id: QMHIS
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504668
+    - BGS-500202
+    - AVEXAM-20101
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.01.06
+  templates:
+    - type: simple
+      question: "For the same pressure gradient at 60°N, 50°N and 40°N the speed of the geostrophic wind will be:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: greatest at 40°N.
+          wrongAnswers:
+            - text: the same at all latitudes.
+            - text: least at 50°N.
+            - text: greatest at 60°N.
+- id: QQFKN
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502912
+    - AVEXAM-4335
+    - BGS-500214
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.01.06
+  templates:
+    - type: simple
+      question: "For a similar pressure gradient and air density, the geostrophic wind speed will be:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: greater at 30°N than at 60°N.
+          wrongAnswers:
+            - text: equivalent to gradient wind ± thermal component.
+            - text: greater at 60°N than at 30°N.
+            - text: the same at all latitudes north or south of 15°.
+- id: QAATA
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501456
+    - AVEXAM-3222
+    - BGS-500207
+    - BGS-501812
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.01.07
+  templates:
+    - type: simple
+      question: In this question the wind speed with straight isobars (vst), the wind speed around a high-pressure system (vhigh) and the wind speed around a low-pressure system (vlow) in the southern hemisphere are being compared while pressure gradient and latitude are constant. Which statement is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VST < VHigh and VST >VLow.
+          wrongAnswers:
+            - text: vst < VHigh and VST < VLow.
+            - text: VST > VHigh and VST < VLow.
+            - text: VST > VHigh and VST > VLow.
+- id: QCTUF
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509917
+    - BGS-500185
+    - AVEXAM-96432
+    - ATPLQ-507359
+    - AVEXAM-25578
+    - BGS-500186
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.01.07
+  templates:
+    - type: simple
+      question: At the same latitude the geostrophic wind is greater than the gradient wind around a low-pressure system with equal pressure gradient because the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: centrifugal force opposes the pressure gradient.
+          wrongAnswers:
+            - text: coriolis force opposes the centrifugal force.
+            - text: coriolis force is added to the pressure gradient.
+            - text: centrifugal force is added to the pressure gradient.
+    - type: simple
+      question: At the same latitude the geostrophic wind is less than the gradient wind around an anticyclone with equal pressure gradient because the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: centrifugal force is added to the pressure gradient.
+          wrongAnswers:
+            - text: centrifugal force opposes the pressure gradient.
+            - text: effect of coriolis is added to friction.
+            - text: coriolis effect opposes the centrifugal force.
+- id: QTFXH
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502127
+    - BGS-500197
+    - AVEXAM-32049
+    - ATPLQ-509344
+    - BGS-502774
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.01.07
+  templates:
+    - type: simple
+      question: "Under anticyclone conditions in the northern hemisphere, with curved isobars the speed of the gradient wind is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: greater than the geostrophic wind.
+          wrongAnswers:
+            - text: less than the geostrophic wind.
+            - text: proportional only to the Coriolis force.
+            - text: the same as the thermal component.
+    - type: simple
+      question: Consider an anticyclone. If the geostrophic wind speed is 40 kt, the gradient wind speed for the same isobar interval is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: greater than 40 kt.
+          wrongAnswers:
+            - text: 40 kt during the night and decreases by day.
+            - text: less than 40 kt.
+            - text: 40 kt during the day and decreases by night.
+- id: QWRYH
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509182
+    - AVEXAM-8436
+    - BGS-500180
+    - ATPLQ-506611
+    - BGS-502386
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.01.07
+  templates:
+    - type: simple
+      question: "The difference between geostrophic wind and gradient wind is caused by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: curvature of isobars.
+          wrongAnswers:
+            - text: horizontal temperature gradients.
+            - text: friction.
+            - text: slope of pressure surfaces.
+    - type: simple
+      question: Wind speed in case of gradient wind is..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: depending on curvature of the isobars.
+          wrongAnswers:
+            - text: always higher than geostrophic wind speed.
+            - text: affected by surface roughness.
+            - text: only depending on the horizontal pressure gradient.
+- id: QHABK
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503404
+    - AVEXAM-22126
+    - BGS-500225
+    - BGS-500236
+    - BGS-500231
+    - BGS-500223
+    - ATPLQ-507899
+    - ATPLQ-505161
+    - ATPLQ-506142
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.02.01
+    - 050.02.02.02.04
+  templates:
+    - type: simple
+      question: If Paris reports a wind of 190/15KT on the METAR, what wind velocity would you expect to encounter at a height of 2000 feet above the ground?
+      explanation: In the friction layer of the northern hemisphere, the wind veers with height and its speed increases. At 2 000 ft the wind is about 30° further to the right and roughly twice the surface speed, so 190/15 becomes 220/30.
+      presets:
+        - correctAnswers:
+            - text: 220/30KT
+          wrongAnswers:
+            - text: 160/20KT
+            - text: 220/10KT
+            - text: 250/25KT
+    - type: simple
+      question: If Paris reports a wind of 300/12KT on the METAR, what wind velocity would you expect to encounter at a height of 2000 feet above the ground?
+      explanation: Surface friction backs the wind and reduces its speed. Going up to 2 000 ft the wind veers by about 30° and the speed doubles, so 300/12 becomes about 330/25.
+      presets:
+        - correctAnswers:
+            - text: 330/25KT
+          wrongAnswers:
+            - text: 270/20KT
+            - text: 230/30KT
+            - text: 300/25KT
+    - type: simple
+      question: If Paris reports a wind of 080/10KT on the METAR, what wind velocity would you expect to encounter at a height of 2000 feet above the ground?
+      explanation: "The wind at 2 000 ft is not affected by friction as much as at the surface: it veers about 30° and has about twice the speed. 080/10 therefore becomes about 110/20."
+      presets:
+        - correctAnswers:
+            - text: 110/20KT
+          wrongAnswers:
+            - text: 050/20KT
+            - text: 080/05KT
+            - text: 080/15KT
+    - type: simple
+      question: A Paris METAR gives a surface wind of 16020KT. Using the standard friction-layer approximation over land, what wind would you expect at about 2 000 ft AGL?
+      explanation: For this approximation in the Northern Hemisphere, the wind veers about 30° and its speed roughly doubles as the effect of surface friction decreases. This is an estimate for the question, not a substitute for the forecast wind.
+      presets:
+        - correctAnswers:
+            - text: 190° / 40 kt
+          wrongAnswers:
+            - text: 130° / 40 kt
+            - text: 190° / 20 kt
+            - text: 160° / 40 kt
+- id: QOHDD
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506622
+    - BGS-502464
+    - AVEXAM-94934
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.02.02
+  templates:
+    - type: simple
+      question: |-
+        A student pilot carried out two identical cross-country flights at 2 000 ft, one in the afternoon and the other just after sunrise. On returning from the early morning cross-country flight the student asked why the flight was so much smoother and easier to fly.
+
+        How can this observation be explained?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The increased stability and reduced convection likely decreased the upper limit of the turbulent friction layer to below 2 000 ft on the early morning cross-country flight.
+          wrongAnswers:
+            - text: In the early morning, the changes in stability and the lighter winds lift the friction layer to well above 2 000 ft.
+            - text: The strong nocturnal inversion present in the early morning most likely stopped turbulence and wind shear.
+            - text: The low-level winds at night, and in the early morning, are usually much stronger and more laminar compared to those in the afternoon.
+- id: QYEYS
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505170
+    - AVEXAM-5711
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.02.02
+  templates:
+    - type: simple
+      question: When conducting a cross-country flight within a high-pressure region at a consistent altitude of 2 500 feet and following the same route, what kind of turbulence should one anticipate when flying once in the early morning and once in the afternoon?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When flying early in the morning, increased stability still keeps the turbulent ground layer below the flight altitude of 2 000 ft.
+          wrongAnswers:
+            - text: When flying early in the afternoon. increased convection processes will smooth out any turbulence in layers up to 2 000 ft.
+            - text: When flying early in the morning, strong convection from night time will reduce stability and produce turbulence up to 5 000 ft.
+            - text: When flying in the afternoon, increased stability will keep the turbulent ground layer below the flight altitude of 2 000 ft.
+    - type: simple
+      question: What type of turbulence can be expected when flying at a consistent altitude of 2 500 ft within a high-pressure region during early morning and afternoon cross-country flights?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When flying early in the morning, increased stability keeps the turbulent ground layer below the flight altitude of 2 500 ft.
+          wrongAnswers:
+            - text: When flying in the afternoon, increased stability keeps the turbulent ground layer below the flight altitude of 2 500 ft.
+            - text: When flying early in the morning, strong convection from the night will reduce stability and cause turbulence up to 5 000 ft.
+            - text: When flying early in the afternoon, increased convection processes will smooth out any turbulence in layers up to 2 500 ft.
+- id: QESXQ
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502880
+    - AVEXAM-56798
+    - BGS-500224
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.02.03
+  templates:
+    - type: simple
+      question: The vertical extent of the friction layer depends primarily on..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: stability, wind speed, and roughness of surface.
+          wrongAnswers:
+            - text: wind speed, roughness of surface, and temperature.
+            - text: roughness of surface, temperature, and local time.
+            - text: temperature, local time, and environmental lapse rate.
+- id: QNEUB
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507609
+    - AVEXAM-61802
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.02.03
+  templates:
+    - type: simple
+      question: "The height of the friction layer is the largest under the following conditions:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Rough terrain, high wind speed, unstable air, during a warm summer afternoon.
+          wrongAnswers:
+            - text: Rough terrain, high wind speed, unstable air, during a warm summer morning.
+            - text: Flat terrain, high wind speed, stable air, during a warm summer morning.
+            - text: Flat terrain, low wind speed, unstable air, during a warm summer afternoon.
+- id: QBKAZ
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502344
+    - BGS-501910
+    - ATPLQ-506334
+  annexes:
+    - id: AVDS
+  learningObjectiveIds:
+    - 050.02.02.02.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        If all 4 of the aircraft in the diagram are flying close to the surface, which is experiencing the most headwind?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Aircraft B
+          wrongAnswers:
+            - text: Aircraft D
+            - text: Aircraft C
+            - text: Aircraft A
+- id: QVKLH
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507914
+    - AVEXAM-62984
+    - BGS-500232
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.02.04
+  templates:
+    - type: simple
+      question: In relation to the wind speed and direction at the top of the friction layer, which change in wind will a pilot normally experience during descent to the surface over land in the northern hemisphere?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Backing ca. 30 degrees, speed is reduced by ca. 50%.
+          wrongAnswers:
+            - text: Backing ca. 10 degrees, speed is reduced by ca. 30%.
+            - text: Veering ca. 10 degrees, speed is reduced by ca. 30%.
+            - text: Veering ca. 30 degrees, speed is reduced by ca. 50%.
+- id: QYXWG
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508150
+    - AVEXAM-48654
+    - AVEXAM-79559
+    - BGS-502579
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.02.04
+  templates:
+    - type: simple
+      question: The reported surface wind for Brussels airport, located in Belgium is 250°/9 kt. What is the expected wind at approximately 2000 ft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 280°/18 kt
+          wrongAnswers:
+            - text: 280°/13 kt
+            - text: 220°/15 kt
+            - text: 260°/5 kt
+- id: QTGUL
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501253
+    - BGS-502507
+    - AVEXAM-31194
+    - ATPLQ-501146
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.03.01
+  templates:
+    - type: simple
+      question: With regards to atmospheric divergence on synoptic charts, which of the following is correct? The net flow of air is...
+      explanation: Divergence is an outflow of air from an area. The net flow is away from the area and, because of friction, across the isobars towards lower pressure rather than along them.
+      presets:
+        - correctAnswers:
+            - text: away from the area of divergence, across the isobars marked on the chart.
+          wrongAnswers:
+            - text: towards the area of divergence on the chart, along diverging isobars marked on the chart.
+            - text: away from the area of divergence, along diverging isobars marked on the chart.
+            - text: towards the area of divergence, across the isobars marked on the chart.
+- id: QYBIC
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502073
+    - ATPLQ-504343
+    - AVEXAM-22960
+    - BGS-500341
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.03.01
+    - 050.03.01.03.01
+  templates:
+    - type: definition
+      question: What does {term} mean?
+      explanation: ""
+      options:
+        - id: ODEWJD9ZK
+          term: divergence at ground
+          definition: Vertical movement of the air is dissipating clouds and produces a convergence aloft.
+        - id: OBMZUF0YC
+          term: dew point
+          definition: The temperature to which a mass of air must be cooled in order to reach saturation.
+      fakeOptions:
+        - id: F9JLO5UEG0
+          definition: It creates a low-pressure system and produces mostly good weather.
+        - id: F9JLO5UEG1
+          definition: Instability is associated with divergence at ground level.
+        - id: F9JLO5UEG2
+          definition: Horizontal movement of the air is dissipating clouds and produces a convergence aloft.
+        - id: F9JLO5UEG3
+          definition: The temperature at which ice melts.
+        - id: F9JLO5UEG4
+          definition: The freezing level (danger of icing).
+        - id: F9JLO5UEG5
+          definition: The temperature at which the relative humidity and saturation vapour pressure are the same.
+- id: QWPGY
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505797
+    - AVEXAM-7675
+    - AVEXAM-7114
+    - BGS-502068
+    - ATPLQ-504040
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.03.02
+  templates:
+    - type: simple
+      question: Divergence over a uniform surface is caused by..
+      explanation: Over uniform terrain, friction turns the flow across the isobars towards low pressure. With anticyclonic curvature of the isobars, this leads to a net outflow, which is divergence. Cyclonic curvature gives convergence.
+      presets:
+        - correctAnswers:
+            - text: frictional force together with anti-cyclonic curvature of the isobars.
+          wrongAnswers:
+            - text: frictional force together with straight isobars.
+            - text: frictional force together with cyclonic curvature of the isobars.
+            - text: frictional force only.
+- id: QBQOW
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds:
+    - QRNUE
+  externalQuestionIds:
+    - ATPLQ-504490
+    - BGS-502360
+    - AVEXAM-69232
+    - BGS-502090
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.03.02
+  templates:
+    - type: simple
+      question: |-
+        What conditions could you expect if a weather forecast for part of Europe reports "atmospheric convergence at low levels"?
+
+        Low level wind:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Backed relative to the isobars on the surface chart, cloud forming in the rising vertical currents, and atmospheric divergence close to the tropopause.
+          wrongAnswers:
+            - text: Backed relative to the isobars on the surface chart, cloud dissipating in the sinking vertical currents, and atmospheric convergence close to the tropopause.
+            - text: Veered relative to the isobars on the surface chart, cloud forming in the rising vertical currents, and atmospheric convergence close to the tropopause.
+            - text: Veered relative to the isobars on the surface chart, cloud dissipating in the rising vertical currents, and atmospheric divergence close to the tropopause.
+- id: QRNUE
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds:
+    - QBQOW
+  externalQuestionIds:
+    - ATPLQ-505995
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.02.03.02
+  templates:
+    - type: simple
+      question: Which of the following conditions can you expect if the weather reports mention "low-level atmospheric divergence".
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Increased surface pressure with a possible inversion due to the sinking vertical currents, and atmospheric convergence close to the tropopause.
+          wrongAnswers:
+            - text: Increased surface pressure and cloud formation within the rising vertical currents, and atmospheric divergence close to the tropopause.
+            - text: Reduced surface pressure, with clouds forming in the rising vertical currents, and atmospheric divergence close to the tropopause.
+            - text: Reduced surface pressure, clouds dissipating due to the sinking vertical currents, and atmospheric convergence close to the tropopause.
+- id: QYFZR
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504993
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.03.01.01
+  templates:
+    - type: simple
+      question: Which statement is correct? The Ferrel cell..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is the connecting cell between the tropical Hadley cell and the polar cell.
+          wrongAnswers:
+            - text: extends from the subtropical jet stream towards the Equator.
+            - text: is located closest to the Equator with the highest moisture content of all the cells.
+            - text: is, of all the cells, the one with the lowest temperature and is located closest to the Pole.
+- id: QMJJV
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507553
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.03.01.02
+  templates:
+    - type: simple
+      question: At about what average geographical latitude is the zone of prevailing westerlies assumed to be located?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 60° N
+          wrongAnswers:
+            - text: 10° N
+            - text: 30° N
+            - text: 80° N
+- id: QYFLH
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503078
+    - AVEXAM-6632
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.03.01.02
+  templates:
+    - type: simple
+      question: "Trade winds originate from:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Sub-tropical high.
+          wrongAnswers:
+            - text: Polar high.
+            - text: Sub-tropical depression.
+            - text: Polar depression.
+- id: QPDWF
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508996
+    - AVEXAM-99622
+  annexes:
+    - id: AXJO
+  learningObjectiveIds:
+    - 050.02.03.01.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Considering a route from Rome to Nairobi - the portion of this route from 10°N to Nairobi, during January the upper winds at the 300 hPa level are most likely to be:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: light easterlies.
+          wrongAnswers:
+            - text: easterly jet streams in excess of 70 kts.
+            - text: westerlies at 40 kts.
+            - text: westerlies in excess of 60 kts.
+- id: QRWAE
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507210
+    - BGS-500290
+    - AVEXAM-28763
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.03.01.03
+  templates:
+    - type: simple
+      question: In the month of August you prepare a flight (cruising level FL370) from Mumbai (19°N 73°E) to Bangkok (13°N 100°E). What wind conditions can you expect?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Headwinds.
+          wrongAnswers:
+            - text: Light winds diagonal to the route.
+            - text: Tailwinds.
+            - text: Strong northerly winds.
+- id: QQAOW
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505160
+    - AVEXAM-38215
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.04.01.01
+  templates:
+    - type: simple
+      question: Distinguish between katabatic and anabatic winds. The anabatic wind flows _____ and is _____ compared to the katabatic wind, which flows _____.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Upslope, weaker, downslope.
+          wrongAnswers:
+            - text: Upslope, stronger, downslope.
+            - text: Downslope, weaker, upslope.
+            - text: Downslope, stronger, upslope.
+    - type: simple
+      question: |-
+        What is the difference between anabatic and katabatic winds?
+
+
+
+        Anabatic winds blow (1) ___ and they are generally (2) ___ compared to katabatic winds, which blow (3) ___.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: upslope, weaker, downslope.
+          wrongAnswers:
+            - text: downslope, weaker, upslope.
+            - text: downslope, stronger, upslope.
+            - text: upslope, stronger, downslope.
+- id: QZTHL
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507902
+    - BGS-502481
+    - BGS-502558
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.04.01.01
+  templates:
+    - type: simple
+      question: "What is correct regarding an anabatic wind? It can be described as a wind that blows:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Upslope due to warming of air in a valley.
+          wrongAnswers:
+            - text: Downslope due to cold air that slides down a valley.
+            - text: Upslope caused by instability due the adiabatic heating in a valley.
+            - text: Downslope due to the radiation of heat from the Earth’s surface.
+- id: QXHED
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504601
+    - BGS-500262
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.04.01.02
+  templates:
+    - type: simple
+      question: The most frequent wind direction in a valley near the ground caused by thermal effects is..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: up the valley during daylight hours.
+          wrongAnswers:
+            - text: up the valley at night.
+            - text: down the valley during daylight hours.
+            - text: down the valley during daylight as much as at night.
+- id: QZQPE
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502326
+    - BGS-502193
+    - AVEXAM-84699
+    - BGS-502717
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.04.01.03
+  templates:
+    - type: simple
+      question: |-
+        You are approaching an airport located in strong wind conditions. The visual approach procedure requires you to fly into this wind through a valley on the final approach at 1500 ft.
+
+        When flying through the valley, the wind speed will (1) \_\_\_\_\_ due to convergence and the true altitude will be (2) \_\_\_\_\_ than the indicated altitude.
+      explanation: When the air is channelled into a valley, the flow converges and the wind speed increases. Strong wind over rough terrain lowers the pressure, so the altimeter reads higher than the real altitude and the true altitude is less than the indicated altitude.
+      presets:
+        - correctAnswers:
+            - text: (1) increase; (2) less.
+          wrongAnswers:
+            - text: (1) increase; (2) greater.
+            - text: (1) decrease; (2) less.
+            - text: (1) decrease; (2) greater.
+- id: QQGVY
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502329
+    - AVEXAM-57820
+    - AVEXAM-48834
+    - AVEXAM-78721
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.04.01.04
+    - 050.07.02.01.08
+  templates:
+    - type: one-two
+      question: Which of the following statements is correct?
+      explanation: ""
+      pairs:
+        - right:
+            - A blocking anticyclone is a warm high pressure.
+          wrong:
+            - A blocking anticyclone is a cold high pressure.
+        - right:
+            - Sea-breeze fronts can occur in mid-latitudes as well as other latitudes.
+          wrong:
+            - Sea-breeze fronts can only occur in tropical latitudes.
+- id: QWXLD
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509306
+    - AVEXAM-4426
+    - BGS-501888
+    - BGS-502411
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.04.01.04
+    - 050.07.02.01.08
+  templates:
+    - type: one-two
+      question: Check the correctness of the following statements.
+      explanation: ""
+      pairs:
+        - right:
+            - A blocking high must be a cold high
+          wrong:
+            - A blocking high must be a warm high
+        - right:
+            - Sea-breeze fronts can occur at any latitude
+          wrong:
+            - Sea-breeze fronts only occur at mid-latitudes
+- id: QDAND
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503846
+    - AVEXAM-26223
+    - BGS-502058
+    - BGS-970006
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.04.01.05
+  templates:
+    - type: simple
+      question: After a sunny spring day and a cloudless night, you depart from an inland airport with calm winds just before sunrise. Soon after takeoff, the wind direction changes sharply and significantly increases in speed, and your cockpit wind shear warning sounds. What meteorological phenomena is most likely to have caused this?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Nocturnal low-level jet.
+          wrongAnswers:
+            - text: A low-level sting jet.
+            - text: The polar night jet.
+            - text: A squall line jet.
+- id: QWGJN
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505618
+    - AVEXAM-2662
+    - BGS-501835
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.04.01.05
+  templates:
+    - type: simple
+      question: "Low level jet streams at relatively low altitudes may form:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: At night just above the inversion created by the cooling of the air closest to the surface in the atmosphere
+          wrongAnswers:
+            - text: In the middle of the eye of a TRS
+            - text: In very unstable atmospheres during the day when convection is strongest
+            - text: Inside large Cb clouds during the dissipating stage
+- id: QYVOZ
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501429
+    - BGS-502593
+    - AVEXAM-57686
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.04.01.05
+  templates:
+    - type: simple
+      question: In which of the following circumstances would the formation of a low-level jet stream in the evening be most likely?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An inflow of cold air over land or strong radiation cooling in the evening can lead to an inversion; at or just below the top of the inversion a low-level jet stream can form.
+          wrongAnswers:
+            - text: The inflow of air into the base of a CB or TS at night can result, occasionally, in the concentration of the wind near the cold surface, which leads to the formation of a low-level jet stream.
+            - text: When warm air in the evening moves into the friction layer near the surface, a low-level jet stream can sometimes form, within or above the top of the layer.
+            - text: When the airflow near the surface is forced against a mass of cold air ahead of a warm front at night, the low-level wind increases and can occasionally form a low-level jet stream.
+- id: QVBTX
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501203
+    - AVEXAM-64392
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.05.01.02
+  templates:
+    - type: simple
+      question: Name the most important conditions for the formation of significant lee waves within a mountain range.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A strong large-scale wind increase up to high levels and blowing approximately perpendicular towards the mountain range under a stable thermal stratification.
+          wrongAnswers:
+            - text: Lee waves form when strong winds blow parallel to the mountain range and split up into two branches. The wind shear across the crest causes lee waves.
+            - text: A strong heating of the air on the windward side, contrasting with strong cooling on the leeward side of the mountain range.
+            - text: Warm moist air arrives under an unstable thermal stratification on the windward side. Lee waves develop in the unstable stratification on the leeward side.
+- id: QHAVU
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503900
+    - BGS-500854
+    - AVEXAM-18910
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.05.01.03
+  templates:
+    - type: simple
+      question: Which of the following statements is true with regard to mountain waves?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Flight with headwind toward high ground is likely to be more hazardous than flight with tailwind toward high ground
+          wrongAnswers:
+            - text: Flight with tailwind toward high ground is likely to be more hazardous than flight with headwind toward high ground
+            - text: Mountain waves are not experienced beyond 100 miles downwind from initiating high ground, regardless of the height of the ground
+            - text: The absence of cloud over high ground indicates the absence of mountain waves
+- id: QLFOR
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509230
+    - BGS-500267
+    - AVEXAM-30547
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.05.01.03
+  templates:
+    - type: simple
+      question: Mountain waves should be expected..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: on the downwind side of the mountain range.
+          wrongAnswers:
+            - text: when instability is high.
+            - text: on the upwind side of the mountain range.
+            - text: directly over the mountain range.
+- id: QHZSU
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501734
+    - AVEXAM-38214
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.05.01.04
+  templates:
+    - type: simple
+      question: An aircraft is flying to the east in a moderate headwind. As it approaches a mountain range, running north-south, at 8 000 ft, the pilot notices lenticular clouds. What should they do?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Request an alternate routing to avoid the area of clouds passing around the mountains to the east.
+          wrongAnswers:
+            - text: Advise passengers to fasten their seatbelts, since you can anticipate moderate turbulence in this situation.
+            - text: Continue on the same track, but request FL120 from ATC to stay above the leeward turbulence.
+            - text: Continue, as these clouds indicate smooth air and there are no hazards to be anticipated.
+- id: QTEDL
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508258
+  annexes:
+    - id: ACWT
+  learningObjectiveIds:
+    - 050.02.05.01.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What weather phenomenon caused the clouds to form over Scandinavia?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Mountain Waves or Foehn Winds.
+          wrongAnswers:
+            - text: Tropical Revolving Storm
+            - text: Typhoon
+            - text: Jet stream
+- id: QEBYV
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505222
+    - AVEXAM-40756
+    - BGS-502106
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.05.01.05
+  templates:
+    - type: simple
+      question: Which of the following is correct regarding mountain waves?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The airflow in a mountain-wave system is often smooth but vertical currents can be strong enough to exceed the performance capability of an aircraft.
+          wrongAnswers:
+            - text: In a mountain-wave system at medium to high level the smooth outline of any associated cloud indicates that turbulence and strong vertical currents are NOT likely to be present.
+            - text: Mountain waves tend to occur at low level, where the wave motion is severely weakened by the terrain and therefore the wave flow is NOT likely to be a hazard to aircraft.
+            - text: For an aircraft entering in a mountain-wave system, the most likely hazard in the wave flow is severe turbulence in the area upwind of the mountain range.
+- id: QUWNF
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502065
+    - BGS-501876
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.05.01.05
+    - 050.09.08.02.01
+  templates:
+    - type: simple
+      question: Air moving over or around large ground obstacles such as mountains can create turbulence in the lee of the terrain feature, which..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: may produce violent and, for smaller aircraft, potentially uncontrollable effects resulting in pitch and / or roll to extreme positions.
+          wrongAnswers:
+            - text: can be relatively easily recognised as the rotor manifests itself in the form of a cirrus cloud, making it possible to evade the associated turbulence.
+            - text: may be strong but as it is very localised it is sufficient if the pilot holds firmly onto the controls for a few seconds to prevent any sudden upset of the aircraft.
+            - text: is best counteracted by lowering the altitude so that the aircraft flies close to the ground, as this is where the turbulence will be very weak.
+- id: QPQEA
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505936
+    - BGS-502416
+    - AVEXAM-6099
+    - BGS-502151
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.05.01.06
+  templates:
+    - type: simple
+      question: Which is correct regarding the propagation of mountain wave effects from low to high level?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When winds from a consistent direction, approximately perpendicular to a mountain range or high plateau, increase in speed with height within a deep, stable layer, mountain waves and their effects can extend from low to high level.
+          wrongAnswers:
+            - text: A strong westerly airflow that increases in speed with height, when combined with a deep, unstable layer in the vicinity of a mountain range, can often result in the wave motion, and its associated turbulence, extending from low through to high level.
+            - text: The presence of a jet stream passing over a mountain range tends to reinforce a mountain wave system that has developed at lower levels. This reinforcement provides the optimum conditions for the mountain waves to extend up to the level of the jet stream.
+            - text: A deep, stable layer combined with a consistent, strong, westerly flow at low level over a mountain range can result in a mountain wave system developing up to high level, when the decrease in air density with height is matched by a similar decrease in wind speed with height.
+    - type: simple
+      question: Which of the following options correctly describes the propagation of mountain wave effects?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Mountain wave effects can propagate from low to high level.
+          wrongAnswers:
+            - text: Mountain wave effects are confined to the altitude of the standing wave.
+            - text: Mountain wave effects can propagate from the leeward side to windward side of mountain ranges.
+            - text: The propagation of mountain wave effects is restricted to the windward side.
+- id: QCTSO
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507531
+    - AVEXAM-82410
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.06.01.01
+  templates:
+    - type: simple
+      question: What do you understand by “gustiness”?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It describes the frequency and strength of gusts.
+          wrongAnswers:
+            - text: It is based on an assessment of strength of variation in measured wind speed and direction.
+            - text: It is a very light type of turbulence.
+            - text: It can be perceived as a steady strong wind blowing from a given direction.
+- id: QUFPG
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507674
+    - AVEXAM-12280
+    - BGS-501956
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.06.01.01
+  templates:
+    - type: simple
+      question: What is correct regarding the general description of turbulence?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It is defined as irregular and instantaneous motions of air, which can be made up of a number of small eddies that travel in the general air current.
+          wrongAnswers:
+            - text: It is defined as a rapid change of wind velocity (speed and /or direction) above the prevailing strength, with a duration of less than one minute.
+            - text: It is defined as the horizontal (NOT vertical) motion of air around obstacles on the surface, and below and between the surfaces of two air masses.
+            - text: It is defined as the vertical (NOT horizontal) motion of air up and down that is caused by instability, particularly above a warm surface below.
+- id: QECTJ
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505688
+    - AVEXAM-67455
+    - AVEXAM-92131
+    - BGS-500276
+    - BGS-500280
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.06.02.01
+  templates:
+    - type: simple
+      question: What kind of turbulence is dependent on the sun\`s radiation and therefore follows a pronounced diurnal pattern?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Convective turbulence.
+          wrongAnswers:
+            - text: Turbulence induced by wind speed.
+            - text: Orographic turbulence.
+            - text: Mechanical turbulence.
+- id: QONGC
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503126
+    - BGS-502366
+    - AVEXAM-26046
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.06.02.01
+  templates:
+    - type: simple
+      question: On a calm day with cumulus clouds, which of these locations is likely to have the worst turbulence?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Just beneath the cloud.
+          wrongAnswers:
+            - text: 1 NM upwind of cloud.
+            - text: 1 NM downwind of cloud.
+            - text: 4000 ft above the cloud tops.
+- id: QDFMC
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502803
+    - BGS-502146
+    - AVEXAM-5861
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.06.02.02
+  templates:
+    - type: simple
+      question: Under which of the following circumstances will turbulence at a height of 500 m AGL be greatest around noon?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Wind speed 25 kt, rough terrain, 2/8 CU.
+          wrongAnswers:
+            - text: Wind speed 25 kt, flat terrain, clear skies.
+            - text: Calm wind, hilly terrain, clear skies.
+            - text: Calm wind, flat terrain, 2/8 CU.
+- id: QGKHR
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503506
+    - BGS-501510
+    - AVEXAM-90877
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.06.02.02
+  templates:
+    - type: simple
+      question: Which of the below situations is most likely to yield the most turbulence on final approach?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: |-
+                Time: in the afternoon;   
+                 Winds aloft: strong;   
+                 Airport: lacking in uniformity, rough terrain.
+          wrongAnswers:
+            - text: |-
+                Time: early in the morning;   
+                 Winds aloft: weak;   
+                 Airport: at the bottom of a basin, overcast sky.
+            - text: |-
+                Time: in the afternoon;   
+                 Winds aloft: weak;   
+                 Airport: flat terrain, rain reported by the ATIS.
+            - text: |-
+                Time: early in the morning;   
+                 Winds aloft: weak;   
+                 Airport: slightly hilly terrain, patches of fog.
+- id: QSVUI
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503638
+    - AVEXAM-16258
+    - BGS-503103
+    - BGS-502340
+  annexes:
+    - id: AFQK
+  learningObjectiveIds:
+    - 050.02.06.02.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which of the following wind directions would give the strongest turbulence at the airport, assuming a stable atmosphere?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 070°
+          wrongAnswers:
+            - text: 340°
+            - text: 160°
+            - text: 250°
+- id: QGUQW
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds:
+    - QVGTV
+  externalQuestionIds:
+    - ATPLQ-503753
+    - AVEXAM-78318
+    - BGS-502112
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.06.03.01
+  templates:
+    - type: simple
+      question: CAT can be described as turbulence...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: occurring in clear air without any visual warning in the form of clouds.
+          wrongAnswers:
+            - text: within thunderstorms.
+            - text: within the clouds leading a warm front.
+            - text: in the core of a jet stream, without any clouds present.
+- id: QOWYL
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503935
+    - ATPLQ-503791
+    - BGS-500954
+    - AVEXAM-87414
+    - ATPLQ-503291
+    - AVEXAM-77513
+    - BGS-501121
+    - ATPLQ-509422
+    - BGS-501952
+    - AVEXAM-93246
+    - ATPLQ-508671
+    - AVEXAM-33470
+    - BGS-502104
+    - ATPLQ-508287
+    - ATPLQ-508445
+    - BGS-501836
+    - ATPLQ-501613
+    - BGS-500835
+    - AVEXAM-17783
+    - ATPLQ-506018
+    - AVEXAM-19602
+    - BGS-501125
+    - ATPLQ-508473
+    - AVEXAM-89876
+    - BGS-501199
+    - ATPLQ-508102
+    - AVEXAM-33340
+    - BGS-501215
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.06.03.01
+    - 050.10.03.01.01
+    - 050.10.03.02.01
+  templates:
+    - type: definition
+      question: What is a {term}?
+      explanation: ""
+      options:
+        - id: OGTGA8X2V
+          term: Polar Depression
+          definition: Small depression over the sea with wintery showery precipitation.
+        - id: OZTXH7UEQ
+          term: stormscope
+          definition: An instrument on board an aircraft to detect electrical discharges.
+        - id: ODFDRVL04
+          term: SPECI
+          definition: A special aerodrome weather report, issued when a significant change of the weather conditions have been observed.
+        - id: OXUB4B3BY
+          term: Surface wind
+          definition: It is the airflow near to the surface that is reduced in strength by the effect of friction.
+        - id: OWD7L2K2J
+          term: Clear Air Turbulence
+          definition: The erratic movement of air in the absence of any significant visual clues is caused by bodies of air moving at very different speeds.
+        - id: OFBTRKDNJ
+          term: CAT
+          definition: Turbulence at high levels in clear air.
+        - id: OIFNAXS1T
+          term: cold-air drop
+          definition: A low pressure area with colder air compared to its surroundings. It can be found by looking at upper contour charts.
+        - id: OKB07RBGF
+          term: Foehn wind
+          definition: It is an adiabatically heated wind blowing down a mountain side. The temperature on the lee side is normally higher than on the windward side of the mountain at the same level.
+        - id: OKIT0GXFR
+          term: trend forecast
+          definition: A landing forecast appended to METAR/SPECI, valid for 2 hours
+        - id: OLRYKZLGY
+          term: VOLMET broadcast
+          definition: Provision, as appropriate, of current METAR, SPECI, TAF and SIGMET by means of continuous and repetitive voice broadcast.
+        - id: OQA3BMUEF
+          term: aerodrome warning
+          definition: A message issued by a meteorological office concerning the meteorological conditions which could adversely affect aircraft on the ground, including parked aircraft, and the aerodrome facilities and services.
+      fakeOptions:
+        - id: F8VWCLVV40
+          definition: Small depression over the north pole with wintery shower precipitation
+        - id: F8VWCLVV41
+          definition: Large depression over the south pole with wintery shower precipitation
+        - id: F8VWCLVV42
+          definition: Large depression over the sea with clear weather
+        - id: F8VWCLVV43
+          definition: An instrument to detect wind shear by means of the Doppler-effect during flight.
+        - id: F8VWCLVV44
+          definition: An instrument to measure wind velocity.
+        - id: F8VWCLVV45
+          definition: The technical term (jargon) for a radar scope showing thunderstorms.
+        - id: F8VWCLVV46
+          definition: A routine aerodrome weather report issued every 3 hours.
+        - id: F8VWCLVV47
+          definition: A warning of meteorological dangers at an aerodrome, issued only when required.
+        - id: F8VWCLVV48
+          definition: An aerodrome forecast issued every 9 hours.
+        - id: F8VWCLVV49
+          definition: It is the wind that experiences an increase in the Coriolis effect brought about by the increase in friction near to the surface.
+        - id: F8VWCLVV410
+          definition: It is the wind that results when the pressure gradient in the layer of air near to the surface is reduced by the effect of friction.
+        - id: F8VWCLVV411
+          definition: It is the airflow near to the surface that slows down due to the effect of an increase in air density.
+        - id: F8VWCLVV412
+          definition: The violent interaction of different airflows, and it is encountered only in the upper troposphere around jet streams.
+        - id: F8VWCLVV413
+          definition: Principally an invisible vertical wind shear formed only when adjacent air currents have significantly different directions.
+        - id: F8VWCLVV414
+          definition: A rare phenomenon involving wind shear; It is usually found in the lower levels of the troposphere and is associated with strong inversions and thunderstorms.
+        - id: F8VWCLVV415
+          definition: Turbulence in the core of a jet stream in clear air, without clouds that indicate this threat.
+        - id: F8VWCLVV416
+          definition: Turbulence in the cloudy area above the frontal plane of a depression's warm front.
+        - id: F8VWCLVV417
+          definition: Turbulence in clouds, especially in thunderstorms where hail is formed by vertical wind shear.
+        - id: F8VWCLVV418
+          definition: A high pressure area with colder air compared to its surroundings. It can be found by looking at lower contour charts.
+        - id: F8VWCLVV419
+          definition: A low pressure area with colder air compared to its surroundings. It can be found by looking at lower contour charts.
+        - id: F8VWCLVV420
+          definition: A high pressure area with colder air compared to its surroundings. It can be found by looking at upper contour charts.
+        - id: F8VWCLVV421
+          definition: It is a flow of warm air up a slope of a hill caused by surface heating.
+        - id: F8VWCLVV422
+          definition: It is an adiabatically heated wind blowing down a mountain side. The temperature on the lee side is normally lower than on the windward side of the mountain at the same level.
+        - id: F8VWCLVV423
+          definition: It is a warm and moist anabatic wind that usually carries precipitation.
+        - id: F8VWCLVV424
+          definition: A route forecast valid for 24 hours
+        - id: F8VWCLVV425
+          definition: An aerodrome forecast valid for 9 hours
+        - id: F8VWCLVV426
+          definition: A routine report
+        - id: F8VWCLVV427
+          definition: That part of an ATIS which is concerned to meteorological information.
+        - id: F8VWCLVV428
+          definition: Information issued by a meteorological watch office concerning the occurrence or expected occurrence of specified enroute weather phenomena which may affect the safety of aircraft operations.
+        - id: F8VWCLVV429
+          definition: Weather information transmitted continuously via radio (special broadcast), containing weather information for one airport.
+        - id: F8VWCLVV430
+          definition: A message issued by a meteorological watch office concerning the occurrence and/or expected occurrence of specified en-route weather phenomena, which may affect the safety of aircraft operations.
+        - id: F8VWCLVV431
+          definition: A message prepared by a meteorological office concerning wind shear which could adversely affect aircraft on the approach or take-off path, or during a circling approach, between the runway level and a specified upper level, and aircraft on the runway during the landing roll or take-off run.
+        - id: F8VWCLVV432
+          definition: The part of a METAR message that is called supplementary information.
+- id: QVGTV
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds:
+    - QGUQW
+  externalQuestionIds:
+    - ATPLQ-502725
+    - AVEXAM-73703
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.06.03.01
+  templates:
+    - type: simple
+      question: CAT refers to turbulence encountered..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: at high altitude in clear air.
+          wrongAnswers:
+            - text: when flaps are extended or retracted.
+            - text: in cumulonimbus clouds.
+            - text: at high speeds on delta-wing aircraft.
+- id: QXVLQ
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507150
+    - AVEXAM-92301
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.06.03.01
+  templates:
+    - type: simple
+      question: What is correct regarding clear-air turbulence?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It is an unpredictable variation in air movement which is not accompanied by any warnings of clouds.
+          wrongAnswers:
+            - text: It is mainly associated with stratus clouds and it is found at lower levels.
+            - text: It is found mainly above the tropopause and essentially a vertical wind shear associated with differing movement of air between two air masses.
+            - text: It is mainly associated with inversions and ground fog.
+- id: QBLYK
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501992
+    - AVEXAM-79507
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.06.03.03
+  templates:
+    - type: simple
+      question: A jet aeroplane is cruising in a stable atmosphere, with a route that crosses a mountainous area and a jet stream at the same time. Which of the following weather phenomena is most likely to be experienced in that area?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Clear air turbulence
+          wrongAnswers:
+            - text: Altocumulus
+            - text: Mountain waves
+            - text: Cumulonimbus activity
+- id: QPISB
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506316
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.06.03.03
+  templates:
+    - type: one-two
+      question: Which of these statements about turbulence are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - At 500 ft/AGL mechanical turbulence occurs more often than at 5000 ft/AGL.
+          wrong:
+            - Severe CAT may be expected in the core of a jet stream.
+        - right: []
+          wrong:
+            - At 500 ft/AGL mechanical turbulence occurs less often than at 5000 ft/AGL.
+- id: QDCMG
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501951
+    - BGS-502205
+    - AVEXAM-66473
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.06.03.04
+  templates:
+    - type: simple
+      question: Which of the following statements is true with regards to the forecasting and detection of Clear Air Turbulence (CAT)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Satellite sensors are unable to detect CAT, therefore precise forecasting of such a phenomenon is difficult.
+          wrongAnswers:
+            - text: Ultra-violet sensors on satellites can accurately detect the presence of CAT, which can assist in forecasting the occurrence of such areas.
+            - text: Infra-red sensors on satellites can accurately detect the presence of CAT, which can assist in forecasting the occurrence of such areas.
+            - text: CAT detection and subsequent forecasting requires a combination of information from both infra-red and ultraviolet satellite sensors.
+- id: QPSLF
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508977
+    - AVEXAM-42264
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.06.03.04
+  templates:
+    - type: simple
+      question: "The main limitations regarding CAT areas forecasting are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: CAT forecasting is limited as they cannot be sensed via satellites and rely only on special AIREPs.
+          wrongAnswers:
+            - text: The CAT areas can easily be spotted due to new NASA technologies through analysis of the cloud patterns.
+            - text: CAT areas are always accompanied by heavy precipitations, which makes them easy to forecast.
+            - text: They can only be forecasted over populated areas.
+- id: QFRTW
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502955
+    - AVEXAM-39364
+    - ATPLQ-507173
+    - AVEXAM-51665
+    - ATPLQ-501397
+    - BGS-502581
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.06.03.05
+  templates:
+    - type: simple
+      question: What is the primary source of information for determining the presence and intensity of clear air turbulence (CAT)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Reports from pilots who are experiencing CAT.
+          wrongAnswers:
+            - text: Information from meteorological (weather) balloon ascents.
+            - text: Information from satellite sensors.
+            - text: Information from ground radar returns.
+    - type: simple
+      question: Which of the following options is a main source of information regarding the location and strength of Clear Air Turbulence (CAT) areas?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Reports from pilots who are experiencing CAT.
+          wrongAnswers:
+            - text: Information from meteorological (weather) balloon ascents.
+            - text: Information from satellite images.
+            - text: Information from ground radar returns.
+- id: QYOZF
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504931
+  annexes:
+    - id: AFZX
+  learningObjectiveIds:
+    - 050.02.07.01.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which of these figures correctly represents a jet stream in the Northern Hemisphere?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1"
+          wrongAnswers:
+            - text: "2"
+            - text: "3"
+            - text: "4"
+- id: QCSID
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507288
+    - BGS-500174
+    - AVEXAM-97515
+    - AVEXAM-66359
+    - BGS-500284
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.07.01.02
+  templates:
+    - type: simple
+      question: What is the minimum speed for a wind to be classified as a jet stream?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 60 kt.
+          wrongAnswers:
+            - text: 70 kt.
+            - text: 100 kt.
+            - text: 50 kt.
+- id: QGJVG
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds:
+    - QWSLC
+  externalQuestionIds:
+    - ATPLQ-507780
+    - AVEXAM-62345
+    - BGS-502545
+    - BGS-502338
+  annexes:
+    - id: ARDH
+  learningObjectiveIds:
+    - 050.02.07.01.03
+    - 050.10.02.01.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What is the extent of the vertical development of the jet stream located at 43°N, 090°W?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 39 000 ft
+          wrongAnswers:
+            - text: 19 000 ft.
+            - text: 34 000 ft
+            - text: 53 000 ft
+        - correctAnswers:
+            - text: 39000 ft.
+          wrongAnswers:
+            - text: 34000 ft.
+            - text: 53000 ft.
+            - text: 19000 ft.
+    - type: simple
+      question: (See Image) The extent of the vertical development of the jet stream located at 43°N, 090°W is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 39000 ft.
+          wrongAnswers:
+            - text: 34000 ft.
+            - text: 19000 ft.
+            - text: 53000 ft.
+- id: QWSLC
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds:
+    - QGJVG
+  externalQuestionIds:
+    - ATPLQ-503227
+  annexes:
+    - id: AAKR
+  learningObjectiveIds:
+    - 050.02.07.01.03
+    - 050.10.02.01.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What is the vertical extent of the jet stream located around 38.5ºN 25ºW?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 26 000 ft
+          wrongAnswers:
+            - text: 32 000 ft
+            - text: 34 000 ft
+            - text: 48 000 ft
+- id: QCEHV
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds:
+    - QGTKZ
+  externalQuestionIds:
+    - ATPLQ-502773
+  annexes:
+    - id: ASQO
+  learningObjectiveIds:
+    - 050.02.07.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What name is given to the jet stream lying across India (A)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Tropical jet stream.
+          wrongAnswers:
+            - text: Polar front jet stream.
+            - text: Arctic jet stream.
+            - text: Subtropical jet stream.
+- id: QGTKZ
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds:
+    - QCEHV
+    - QKJVN
+  externalQuestionIds:
+    - ATPLQ-503745
+    - BGS-501284
+    - BGS-500302
+    - BGS-500303
+    - BGS-500308
+    - BGS-500299
+    - AVEXAM-7150
+    - BGS-500310
+    - AVEXAM-90564
+    - AVEXAM-24742
+    - AVEXAM-9903
+  annexes:
+    - id: ASQO
+  learningObjectiveIds:
+    - 050.02.07.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What name is given to the jet stream lying over Scandinavia (C)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Polar front jet stream.
+          wrongAnswers:
+            - text: Low level jet stream.
+            - text: Subtropical jet stream.
+            - text: Tropical jet stream.
+- id: QKJVN
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds:
+    - QGTKZ
+  externalQuestionIds:
+    - ATPLQ-504717
+    - AVEXAM-18708
+    - BGS-500306
+    - AVEXAM-66426
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.07.02.01
+  templates:
+    - type: simple
+      question: Which of the following types of jet streams can be observed all year round?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Subtropical jet stream / polar front jet stream.
+          wrongAnswers:
+            - text: Arctic jet stream / subtropical jet stream.
+            - text: Equatorial jet stream / arctic jet stream.
+            - text: Equatorial jet stream / polar front jet stream.
+- id: QYVSP
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506473
+    - AVEXAM-89295
+    - BGS-500298
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.07.02.01
+  templates:
+    - type: simple
+      question: A wind speed of 350 kt within a jet stream core should be regarded as..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: possible but a rare phenomenon.
+          wrongAnswers:
+            - text: a common occurrence.
+            - text: not unusual in polar regions.
+            - text: not possible.
+- id: QUVXO
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.07.03.01
+  templates:
+    - type: simple
+      question: An Arctic-front jet stream is associated with which boundary?
+      explanation: The Arctic front separates very cold Arctic air from the relatively milder air of polar origin. The jet is associated with the sharp horizontal temperature gradient near that front.
+      presets:
+        - correctAnswers:
+            - text: The boundary between Arctic and polar air.
+          wrongAnswers:
+            - text: The boundary between tropical and equatorial air.
+            - text: The boundary between polar and tropical air.
+            - text: The boundary between two equatorial air masses.
+- id: QCSYW
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508701
+    - AVEXAM-3307
+    - BGS-500312
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.07.03.01
+  templates:
+    - type: simple
+      question: Where, as a general rule, is the core of the polar front jet stream to be found?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In the tropical air mass.
+          wrongAnswers:
+            - text: Just below the cold-air tropopause.
+            - text: Just above the warm-air tropopause.
+            - text: In the polar air mass.
+- id: QFPCI
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501645
+    - BGS-500325
+    - AVEXAM-41593
+    - ATPLQ-502954
+    - AVEXAM-69611
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.07.03.01
+  templates:
+    - type: simple
+      question: On a particular day part of a polar front jet stream runs from north to south in the northern hemisphere. This means that..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the polar air is below and to the east of the core of the jet.
+          wrongAnswers:
+            - text: below the core of the jet the horizontal temperature gradient runs from north to south.
+            - text: above the core of the jet the horizontal temperature gradient runs from north to south.
+            - text: the polar air is on the eastern side and above the core of the jet.
+    - type: simple
+      question: The location of which jet stream is largely dependent on the position of weather fronts?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The polar front jet.
+          wrongAnswers:
+            - text: The subtropical front jet.
+            - text: Equatorial Easterly Jet.
+            - text: Arctic Jet stream.
+- id: QVAVK
+  subjectId: "050"
+  chapterId: "050.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505345
+    - AVEXAM-15171
+    - BGS-501530
+    - BGS-502139
+  annexes: []
+  learningObjectiveIds:
+    - 050.02.07.03.02
+  templates:
+    - type: simple
+      question: In the proximity of the polar jet stream, where do wind shear and clear air turbulence (CAT) occur?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Most CAT areas are found on the cyclonic side of the jet stream.
+          wrongAnswers:
+            - text: The largest vertical wind shears are found at the jet stream core.
+            - text: CAT is generated by horizontal wind shear only.
+            - text: In units of kt/1000 ft, horizontal wind shears near the jet stream are larger than vertical wind shears.

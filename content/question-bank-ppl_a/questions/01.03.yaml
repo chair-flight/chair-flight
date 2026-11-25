@@ -1,0 +1,38 @@
+- id: QRMJM
+  subjectId: "01"
+  chapterId: "01.03"
+  relatedQuestionIds:
+    - QHWCH
+  annexes: []
+  learningObjectiveIds:
+    - "01.03.02"
+  templates:
+    - type: simple
+      question: Under which circumstances are aircraft obliged to carry the national flag?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: On every flight.
+          wrongAnswers:
+            - text: Only for international flights.
+            - text: Only on flights outside the EU countries.
+            - text: This is not necessary.
+- id: QHWCH
+  subjectId: "01"
+  chapterId: "01.03"
+  relatedQuestionIds:
+    - QRMJM
+  annexes: []
+  learningObjectiveIds:
+    - "01.03.02"
+  templates:
+    - type: simple
+      question: The registration mark must be placed clearly visible on...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The fuselage or on the body-mounted engine nacelles (both sides) and at the lower side of the left wing.
+          wrongAnswers:
+            - text: The upper side of the right wing, on the fuselage or on the body-mounted engine nacelles (both sides).
+            - text: The lower part of the fuselage, on one side of the fuselage and on the upper side of one wing.
+            - text: Both wings and at least one side of the fuselage and on the body-mounted engine nacelles.

@@ -1,0 +1,134 @@
+- id: QUOMK
+  subjectId: "022"
+  chapterId: "022.15"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222465
+    - BGS-221401
+  annexes: []
+  learningObjectiveIds:
+    - 022.15.01.01.01
+  templates:
+    - type: simple
+      question: A computer memory can consist of..
+      explanation: A computer memory cell stores a bit as a charge held on a capacitor, with a transistor to switch it. Resistors and diodes do not store the state.
+      presets:
+        - correctAnswers:
+            - text: capacitors
+          wrongAnswers:
+            - text: resistors
+            - text: diodes
+            - text: central processing units
+- id: QGMPA
+  subjectId: "022"
+  chapterId: "022.15"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224474
+    - BGS-222248
+    - AVEXAM-856
+    - BGS-222241
+  annexes: []
+  learningObjectiveIds:
+    - 022.15.01.01.02
+  templates:
+    - type: one-two
+      question: In computer architecture, which of these statements about a bus are correct or incorrect?
+      explanation: A bus is the set of wires or fibres that carries addresses, data and control signals between the parts of a computer. Sequencing and coordination of operations is the job of the control unit, not the bus.
+      pairs:
+        - right: []
+          wrong:
+            - A bus ensures sequencing and coordination of operations
+        - right:
+            - A bus transfers data between computer components
+          wrong: []
+- id: QIALS
+  subjectId: "022"
+  chapterId: "022.15"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225671
+    - AVEXAM-5350
+    - BGS-221272
+  annexes: []
+  learningObjectiveIds:
+    - 022.15.01.01.02
+  templates:
+    - type: simple
+      question: A modern computer makes use of different internal buses to..
+      explanation: Internal buses carry address, data and control signals between the processor, memory and the other parts of a computer. They are not about separating hardware from software or supplying power.
+      presets:
+        - correctAnswers:
+            - text: transfer address, data and control signals.
+          wrongAnswers:
+            - text: separate the hardware from the software.
+            - text: supply electrical power to the different devices.
+            - text: send and receive analogue and digital data.
+- id: QGDNC
+  subjectId: "022"
+  chapterId: "022.15"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222620
+    - BGS-221975
+  annexes: []
+  learningObjectiveIds:
+    - 022.15.01.01.02
+  templates:
+    - type: one-two
+      question: Which of the following statements is correct regarding data buses?
+      explanation: A data bus is also used to carry data between computers or units, as in an aircraft data bus. It is not limited to inside a single computer.
+      pairs:
+        - right:
+            - It carries data between computers.
+          wrong:
+            - It does not carry data between computers.
+        - right:
+            - It organizes the series and operations.
+          wrong:
+            - It does not organize the series and operations.
+- id: QTBVV
+  subjectId: "022"
+  chapterId: "022.15"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224990
+    - AVEXAM-79959
+    - BGS-222215
+  annexes: []
+  learningObjectiveIds:
+    - 022.15.01.01.03
+  templates:
+    - type: simple
+      question: What is, in computer terminology, an operating system?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The programme that controls a computer's basic functions.
+          wrongAnswers:
+            - text: The central processing unit's control unit.
+            - text: The control display unit that allows computer control.
+            - text: The bus structure that allows data communication.
+- id: QNRCE
+  subjectId: "022"
+  chapterId: "022.15"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - BGS-222535
+    - BGS-220829
+    - AVEXAM-54360
+    - ATPLQ-229640
+  annexes: []
+  learningObjectiveIds:
+    - 022.15.01.01.04
+  templates:
+    - type: simple
+      question: Which peripheral lets the user enter data into a computer?
+      explanation: A keyboard sends input to the computer. A loudspeaker and printer receive output. The central processing unit performs computations inside the computer.
+      presets:
+        - correctAnswers:
+            - text: Keyboard
+          wrongAnswers:
+            - text: Printer
+            - text: Loudspeaker
+            - text: Central processing unit

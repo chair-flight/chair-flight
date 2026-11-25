@@ -1,0 +1,1307 @@
+- id: QHTIA
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-921628
+    - ATPLQ-912765
+    - BGS-910261
+    - BGS-920108
+    - AVEXAM-85191
+    - AVEXAM-97456
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.01
+  templates:
+    - type: simple
+      question: A signal sent by radiotelephony consisting of the words "MAYDAY MAYDAY MAYDAY" means..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: imminent danger threatens the aircraft and immediate assistance is required.
+          wrongAnswers:
+            - text: the aircraft has a very urgent message to transmit concerning the safety of a ship, aircraft or vehicle.
+            - text: the aircraft is forced to perform a fuel dumping procedure.
+            - text: the aircraft has a message to transmit concerning adverse weather conditions along its route.
+    - type: simple
+      question: Which signal should a radiotelephony distress message start with?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: MAYDAY, MAYDAY, MAYDAY
+          wrongAnswers:
+            - text: DISTRESS, DISTRESS, DISTRESS
+            - text: URGENCY, URGENCY, URGENCY
+            - text: PAN PAN, PAN PAN, PAN PAN
+    - type: simple
+      question: "An aircraft in distress shall send the following signal by radiotelephony:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: MAYDAY, MAYDAY, MAYDAY
+          wrongAnswers:
+            - text: DETRESFA, DETRESFA, DETRESFA
+            - text: URGENCY, URGENCY, URGENCY
+            - text: PAN PAN, PAN PAN, PAN PAN
+    - type: simple
+      question: A radiotelephony distress message should start with the following signal
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Mayday, Mayday, Mayday
+          wrongAnswers:
+            - text: Monday, Monday ,Monday
+            - text: Distress, Distress, Distress
+            - text: Urgency, Urgency, Urgency
+- id: QNATX
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-905098
+    - BGS-900223
+    - AVEXAM-78926
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.01
+  templates:
+    - type: simple
+      question: "A single-engined aircraft experiences engine fire. In order to have priority, the most appropriate radio call for the pilot to make is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Distress (MAYDAY)
+          wrongAnswers:
+            - text: Urgency (MAYDAY)
+            - text: Distress (PAN PAN)
+            - text: Urgency (PAN PAN)
+- id: QEQFA
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-915326
+    - BGS-920235
+    - AVEXAM-82675
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.02
+  templates:
+    - type: simple
+      question: Regarding radiotelephony procedures, a distress condition is one..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: of serious and/or imminent danger requiring immediate assistance.
+          wrongAnswers:
+            - text: that requires a PAN PAN broadcast.
+            - text: concerning the safety of an aircraft, but which does not require immediate assistance.
+            - text: that requires setting the transponder code 7600.
+- id: QADBX
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-902779
+    - AVEXAM-44077
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.03
+  templates:
+    - type: simple
+      question: What are the nearest available frequencies next to the emergency frequency, 121.5 MHz?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 121.450 - 121.550
+          wrongAnswers:
+            - text: 121.400 - 121.600
+            - text: 121.425 - 121.575
+            - text: 121.475 - 121.525
+    - type: simple
+      question: What frequency range is protected for emergency use on 121.500 MHz?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 121.475 - 121.525 MHz
+          wrongAnswers:
+            - text: 121.450 - 121.550 MHz
+            - text: 121.400 - 121.600 MHz
+            - text: 121.425 - 121.575 MHz
+- id: QGWVE
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-906164
+    - AVEXAM-95782
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.03
+  templates:
+    - type: simple
+      question: |-
+        An aircraft is conducting a VFR flight and a two-way communication with Europe information on 126.930 is established. The departure aerodrome is Bonn, destination is Spa, and alternative is Luxembourg, using the following frequencies: 
+
+        Bonn Tower: 134.930   
+         Spa Radio: 124.540   
+         Luxembourg Tower: 118.105
+
+        The pilot suddenly experiences an engine failure. Which frequency shall be used for the first transmission of a "MAYDAY" call?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "126.930"
+          wrongAnswers:
+            - text: "124.540"
+            - text: "118.105"
+            - text: "134.930"
+- id: QPEWC
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-904503
+    - BGS-900411
+    - AVEXAM-52136
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.03
+  templates:
+    - type: simple
+      question: An aircraft departed from Zurich has established two-way communication with Europa Control on 119.205. Its destination is Brussels, and the alternate aerodrome is Amsterdam. Zurich Departure frequency is 125.950, Brussels Arrival frequency is 118.255 and Amsterdam Arrival frequency is 118.405. The pilot encounters an engine failure and needs to declare an emergency. What is the appropriate frequency to declare it?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "119.205"
+          wrongAnswers:
+            - text: "125.95"
+            - text: "118.255"
+            - text: "118.405"
+    - type: simple
+      question: "You are on an IFR flight, and a two-way communication with Europa Control on 119.205 is established. Your departure aerodrome is Zurich, destination is Brussels, and alternate is Amsterdam, using the following frequencies: Zurich Departure: 125.950, Brussels Arrival: 118.255, Amsterdam Arrival: 118.405. You suddenly experience an engine failure. The frequency to use if you want to declare an emergency is..."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "119.205"
+          wrongAnswers:
+            - text: "125.95"
+            - text: "118.255"
+            - text: "118.405"
+    - type: simple
+      question: |-
+        An aircraft departing from Bern has established two-way communication with Europa Control on 119.205. Its destination is Berlin, and the alternate aerodrome is Hamburg.
+
+         Bern departure frequency is 125.950,
+         Berlin Arrival frequency is 118.255 and
+         Hamburg Arrival frequency is 118.405.
+
+        After encountering an engine failure the pilot needs to declare an emergency. From the following options choose the appropriate frequency to declare it:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "119.205"
+          wrongAnswers:
+            - text: "118.405"
+            - text: "118.255"
+            - text: "125.95"
+- id: QCMUH
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-901552
+    - BGS-900186
+    - AVEXAM-8397
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.04
+  templates:
+    - type: simple
+      question: During the cruise, the senior cabin crew member notifies the flight crew that two armed men are threatening the cabin crew and the passengers. Which SSR code should be used by the flight crew in this scenario?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "7500"
+          wrongAnswers:
+            - text: "7000"
+            - text: "7700"
+            - text: "7600"
+- id: QJBTL
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-917250
+    - BGS-910267
+    - AVEXAM-42710
+    - ATPLQ-915494
+    - BGS-910263
+    - AVEXAM-38347
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.04
+  templates:
+    - type: simple
+      question: Under which circumstances shall an aircraft squawk 7700?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In distress.
+          wrongAnswers:
+            - text: When following a SID.
+            - text: When passing the transition level.
+            - text: When flying within controlled airspace.
+    - type: simple
+      question: An aircraft in state of emergency shall squawk..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "7700."
+          wrongAnswers:
+            - text: "7600."
+            - text: "6700."
+            - text: "7500."
+- id: QKDMN
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-902430
+    - AVEXAM-16633
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.04
+  templates:
+    - type: simple
+      question: "An aircraft which is equipped with SSR transponder is intercepted by another aircraft. It shall, unless otherwise instructed by the appropriate air traffic service unit, select the following transponder code and mode:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Code 7700 Mode A
+          wrongAnswers:
+            - text: Code 7600 Mode C
+            - text: Code 7500 Mode A
+            - text: Code 7700 Mode C
+- id: QKUZG
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-902113
+    - AVEXAM-98168
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.04
+  templates:
+    - type: simple
+      question: An aircraft experiences an engine failure which requires a down-drift. Even though the pilot does not expect anything to be wrong with their radio, they cannot seem to communicate with the ATC. What shall they squawk?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "7700"
+          wrongAnswers:
+            - text: "7000"
+            - text: "7600"
+            - text: "7500"
+- id: QOVDY
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-922344
+    - BGS-900356
+    - AVEXAM-82238
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.04
+  templates:
+    - type: simple
+      question: 'A pilot hears the following transmission on the active frequency: "G-AFRD, squawk 7700." What does that particular squawk code signify?'
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A distress situation.
+          wrongAnswers:
+            - text: An urgency situation.
+            - text: An intra-european flight.
+            - text: A delay situation.
+- id: QAWWF
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-905579
+    - AVEXAM-96497
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.05
+  templates:
+    - type: simple
+      question: An aircraft in distress normally remains in contact with ATC on the current frequency in use. What measures can ATC employ to offer improved assistance to the aircraft in distress?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Request the crew to change frequency.
+          wrongAnswers:
+            - text: All other aircraft will be directed to a new frequency.
+            - text: Direct all other aircraft to change their course immediately without providing a reason.
+            - text: Instruct the distressed aircraft to ascend to a higher altitude for better signal reception.
+- id: QYTAI
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-903885
+    - AVEXAM-82866
+    - ATPLQ-907254
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.05
+  templates:
+    - type: simple
+      question: In a DISCRETE frequency, you hear a distress message, what should you do?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Acknowledge the distress.
+          wrongAnswers:
+            - text: Remain silent until the distress is transferred.
+            - text: Relay the distress message to the international emergency.
+            - text: Immediately proceed to the position given in the transmission.
+        - correctAnswers:
+            - text: Immediately acknowledge the Distress Call.
+          wrongAnswers:
+            - text: Relay Distress Call to Company Ground Frequency.
+            - text: Relay Distress Call to International Guard Frequency.
+            - text: Maintain radio silence until the traffic is transferred.
+- id: QITHT
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-914139
+    - BGS-910437
+    - AVEXAM-57237
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.06
+  templates:
+    - type: simple
+      question: A pilot hears the start of a distress message from another aircraft to an ATS unit. What should he/she do immediately?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Stop transmitting, write the message down, and listen to check if assistance is provided.
+          wrongAnswers:
+            - text: Transmit to the ATS unit, giving his/her position, and offer to help.
+            - text: Leave the frequency and call the ATS unit on another frequency.
+            - text: Transmit to the distress aircraft, giving his/her position, and offer to help.
+- id: QNBAJ
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-907167
+    - AVEXAM-67351
+    - BGS-900238
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.06
+  templates:
+    - type: simple
+      question: "A pilot is performing a VFR flight. They are just about to contact ATC for clearance to cross controlled airspace when they hear the following radio transmission: “Mayday, Mayday, Mayday, Langen Radar, D-ILAA, engine failure, request vectors to nearest airport, position 20 nm west of Augsburg”. What should they do?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Do not transmit on the frequency until the distress traffic is terminated or transferred to another frequency. Stay outside of controlled airspace.
+          wrongAnswers:
+            - text: Contact ATC and request your clearance immediately to avoid blocking the frequency. Inform ATC of your intention to stay outside of controlled airspace.
+            - text: Change frequency to 121.5, and stand by for further instructions.
+            - text: Immediately respond to the Mayday message and ask for further details.
+- id: QNQFM
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-903956
+    - AVEXAM-51830
+    - BGS-900184
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.06
+  templates:
+    - type: simple
+      question: 'The pilot of a single engined piston engine aircraft on an IFR flight experiences an engine failure. They have just finished transmitting a distress message to Bern radar, which has been acknowledged already. The pilot suddenly hears the following transmission from Bern radar: "All stations stop transmitting, mayday". What does this mean to them?'
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: They should continue talking to Bern radar and provide updates on their intentions.
+          wrongAnswers:
+            - text: They should stop transmitting until all other aircraft have left the frequency.
+            - text: They should stop transmitting until they hear the message "Distress traffic ended" on the frequency.
+            - text: Only if the situation becomes worse should they continue talking to Bern radar.
+- id: QDXAY
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-904514
+    - AVEXAM-73242
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.06
+  templates:
+    - type: simple
+      question: "It is acceptable to interrupt distress communications: "
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To render assistance to the distressed traffic.
+          wrongAnswers:
+            - text: To request headings.
+            - text: "To report your position. "
+            - text: To request a descent to land.
+- id: QFLLX
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-916111
+    - BGS-910429
+    - AVEXAM-7496
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.06
+  templates:
+    - type: simple
+      question: When distress communications are in progress, what action should all other stations on the concerned frequency take?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Stop transmitting on the frequency.
+          wrongAnswers:
+            - text: Change to the next sector frequency.
+            - text: Return to the previous assigned frequency.
+            - text: Relay distress messages to the ground station.
+- id: QOKWD
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-905466
+    - AVEXAM-20883
+    - ATPLQ-927899
+    - ATPLQ-927928
+    - BGS-920114
+    - AVEXAM-40190
+    - AVEXAM-33334
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.06
+  templates:
+    - type: simple
+      question: Which unit other than the ATSU is allowed to impose radio silence on the current frequency?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The aircraft in distress.
+          wrongAnswers:
+            - text: The SAR operation.
+            - text: The Rescue Coordination Unit.
+            - text: Any aircraft in the vicinity of the distress situation.
+    - type: simple
+      question: Which entity other than the ATSU can enforce radio silence on the current frequency?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The aircraft in distress.
+          wrongAnswers:
+            - text: The Rescue Coordination Unit.
+            - text: Any aircraft in the vicinity of the distress situation.
+            - text: The SAR operation.
+    - type: simple
+      question: When distress communications and silence conditions have been terminated, which message shall the controlling station transmit?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Distress traffic ended.
+          wrongAnswers:
+            - text: Disregard distress communication, OUT.
+            - text: MAYDAY traffic ended.
+            - text: Emergency communication finished.
+    - type: simple
+      question: Which of the following messages shall a station in control of distress use to impose silence?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Stop transmitting, MAYDAY.
+          wrongAnswers:
+            - text: Break transmission, MAYDAY.
+            - text: All stations in this frequency, MAYDAY traffic.
+            - text: Stop communications, MAYDAY.
+    - type: simple
+      question: The distress communication and silence conditions shall be terminated by transmitting a message. Which words shall this message include?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: DISTRESS TRAFFIC ENDED.
+          wrongAnswers:
+            - text: EMERGENCY COMMUNICATION FINISHED.
+            - text: MAYDAY TRAFFIC ENDED.
+            - text: DISREGARD DISTRESS COMMUNICATION, OUT.
+- id: QPUYO
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-909484
+    - BGS-900198
+    - AVEXAM-37533
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.06
+  templates:
+    - type: simple
+      question: |-
+        Complete the following sentence:
+
+        A Controller receives a (1) \_\_\_\_\_ call that takes priority over all other messages and instructs all other stations to (2) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) MAYDAY; (2) stop transmitting.
+          wrongAnswers:
+            - text: (1) MAYDAY; (2) change frequency.
+            - text: (1) PAN PAN; (2) stop transmitting.
+            - text: (1) PAN PAN; (2) change frequency.
+- id: QTKLM
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-917239
+    - AVEXAM-78495
+    - BGS-910341
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.06
+  templates:
+    - type: simple
+      question: |-
+        A distress communication is in progress and the ATS unit has already acknowledged the distress message. Which of the following conditions must be met in order for you to transmit on the concerned frequency?
+
+        1\. The distress is cancelled.   
+        2\. The distress traffic has been transferred to other frequencies.   
+        3\. The ATS unit gives you permission to transmit.   
+        4\. You reach your next reporting point.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, 3.
+          wrongAnswers:
+            - text: 1, 3, 4.
+            - text: 2, 3, 4.
+            - text: 1, 2, 4.
+- id: QYYIF
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-929843
+    - AVEXAM-16645
+    - BGS-920347
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.06
+  templates:
+    - type: multiple-correct
+      question: Following a distress call by other traffic to ATC, under what conditions is a pilot allowed to transmit a message?
+      explanation: ""
+      options:
+        - text: To transmit a flight safety message.
+          correct: false
+        - text: The distress is cancelled or the distress traffic is terminated.
+          correct: true
+        - text: All distress traffic has been transferred to other frequencies.
+          correct: true
+        - text: When approaching the edge of the area under the ATC unit's responsibility.
+          correct: false
+        - text: The station controlling communications gives permission.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QEFZO
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-903764
+    - AVEXAM-23237
+    - BGS-900215
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.07
+  templates:
+    - type: simple
+      question: "Flight OAL 136 has just departed Bern aerodrome, flying the MOLUS 4A RNAV departure, when it experiences a total electrical failure. The flight crew is flying with reference to its standby instruments in IMC. Select the option which constitutes a correct DISTRESS message to Bern Departure:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: MAYDAY, Bern Departure, OAL 136, unable RNAV due equipment, experiencing total electrical failure, turning left heading 100 climbing to 7 000 ft.
+          wrongAnswers:
+            - text: PAN PAN (x3), Bern Departure, OAL 136, unable RNAV due equipment, turning left heading 100 climbing to 7 000 ft.
+            - text: MAYDAY, MAYDAY, MAYDAY, OAL 136, turning left heading 100 climbing to 7 000 ft.
+            - text: PAN PAN, PAN PAN, PAN PAN, OAL 136, unable RNAV due equipment, experiencing total electrical failure, turning left heading 100 climbing to 7 000 ft.
+- id: QEEDA
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-909751
+    - AVEXAM-64006
+    - ATPLQ-909013
+    - BGS-900470
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.07
+  templates:
+    - type: simple
+      question: Your call sign is AIRFLY12345. You are in contact with Barcelona approach flying at FL350 passing overhead BCN VOR. The aircraft suffers a depressurisation. How do you communicate the distress situation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Mayday, mayday, mayday, Barcelona approach, AIRFLY12345, depressurisation problem, descending FL100, passing BCN VOR.
+          wrongAnswers:
+            - text: Mayday, mayday, mayday, Barcelona approach, AIRFLY12345, depressurisation problem, descending FL100, passing VOR, mayday.
+            - text: Mayday, mayday, mayday, Barcelona approach, AIRFLY12345, passing BCN VOR, descending FL100, depressurisation problem.
+            - text: Barcelona Approach AIRFLY12345 depressurisation problem descending FL100, VOR passed, mayday.
+- id: QYZUT
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-906056
+    - BGS-900116
+    - AVEXAM-81985
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.07
+  templates:
+    - type: simple
+      question: |-
+        An aircraft with the call sign Flugprop 565 is in the cruise at FL180 heading south, passing the waypoint RODRI, in contact with Brussels Control. Suddenly a fire develops on board and immediately the pilot decides to descend to FL 70 and divert to the nearest suitable airport Brussels-Charleroi (EBCI), located to the right of track.   
+         What is the recommended order to communicate this emergency situation to ATC?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Mayday, Mayday, Mayday, Brussels Control, Flugprop 565, fire on board, diverting to Charleroi, position RODRI, descending FL 70, heading 180°.
+          wrongAnswers:
+            - text: Mayday, Mayday, Mayday, Brussels Control, Flugprop 565, passing RODRI, fire on board, descending FL 70 and turning right to Charleroi, diverting, Mayday, Mayday, Mayday.
+            - text: Mayday, Mayday, Mayday, Brussels Control, turning right to Charleroi due to fire on board, descending FL 70, passing RODRI, diverting, Flugprop 565.
+            - text: Brussels Control, Flugprop 565, Mayday, Mayday, Mayday, descending FL 70, turning right to Charleroi, passing RODRI, fire on board.
+- id: QCNUI
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-904190
+    - AVEXAM-47113
+    - BGS-900162
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.08
+  templates:
+    - type: simple
+      question: You have declared an emergency, and landed. ATC then transfers you to another frequency. What is the primary reason for such frequency transfer?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To allow for direct contact between the emergency aircraft and rescue and firefighting services on a discrete frequency.
+          wrongAnswers:
+            - text: The support from ATC for the emergency traffic ends once the emergency aircraft has landed.
+            - text: To ensure confidentiality, a special frequency is used that cannot be monitored by 'Live ATC' services or aviation band scanners.
+            - text: ATC removes the emergency aircraft from the Tower frequency in order to restore the regular flow of traffic.
+- id: QHNCM
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-908833
+    - AVEXAM-84823
+    - ATPLQ-904724
+    - BGS-900401
+    - AVEXAM-61841
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.08
+  templates:
+    - type: simple
+      question: Who can be allowed to communicate on a discrete frequency on the ground after an aircraft has declared an emergency?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ATC and the officer of the firefighters.
+          wrongAnswers:
+            - text: ATC and every firefighter.
+            - text: ATC, all firefighters.
+            - text: The dispatch ATC.
+    - type: simple
+      question: If a discrete frequency is used for distress traffic, who is allowed to communicate on this frequency?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The air traffic controller and the officer of the emergency operation.
+          wrongAnswers:
+            - text: The air traffic controller and everyone involved in rescue and firefighting only.
+            - text: The air traffic controller, the officer responsible for the rescue and firefighting services and the dispatcher of the company of the aircraft in distress.
+            - text: The air traffic controller, the officer responsible for the rescue and firefighting services and ground operations.
+    - type: simple
+      question: Who is authorized to transmit on the discrete frequency (DEF) of an airport when an aircraft is experiencing an emergency?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ATC and fire rescue officers.
+          wrongAnswers:
+            - text: ATC and all fire rescue personnel.
+            - text: Everybody involved in the emergency at that airport.
+            - text: ATC, fire rescue officers, and flight dispatchers of the emergency aircraft.
+- id: QNGTX
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-905792
+    - AVEXAM-96390
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.08
+  templates:
+    - type: simple
+      question: At what point should a flight crew switch to a discrete frequency (DEF) following their landing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ATC will transfer you when they deem it appropriate.
+          wrongAnswers:
+            - text: When on the ground on the frequency stated in AIP.
+            - text: When emergency ground crew believe that the aircraft can use it.
+            - text: When on the ground on the frequency stated in the aerodrome charts.
+- id: QOEVZ
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-903125
+    - BGS-900098
+    - AVEXAM-1650
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.08
+  templates:
+    - type: simple
+      question: |-
+        Complete the following sentence:
+
+        Distress and urgency messages shall normally be maintained on the air-ground frequency used at the time, until\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It is considered that better assistance can be provided by transferring that traffic to another frequency.
+          wrongAnswers:
+            - text: The flight crew members are ready to switch over to 243.0 MHz.
+            - text: Search and rescue services take over responsibility for all communications in 121.5 MHz.
+            - text: Company dispatch are ready to take responsibility for and manage the situation on their specific allocated company frequency.
+- id: QIYJW
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-921501
+    - BGS-900105
+    - AVEXAM-63043
+    - BGS-900391
+    - ATPLQ-902492
+    - AVEXAM-40807
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.09
+  templates:
+    - type: simple
+      question: Which category of message has priority over urgency messages?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Distress
+          wrongAnswers:
+            - text: Meteorological
+            - text: Direction-finding
+            - text: Flight safety
+- id: QDHEU
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-901526
+    - BGS-900445
+    - AVEXAM-44132
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.09
+  templates:
+    - type: simple
+      question: An aircraft A deviates from ATC clearance in order to follow an ACAS RA. Simultaneously, an aircraft B declares an emergency. The flight crew of aircraft A is ready to report the ACAS RA to the ATS unit. The flight crew of aircraft A should...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: wait for aircraft B to complete its message, as a DISTRESS message takes priority over all other messages.
+          wrongAnswers:
+            - text: wait for the other aircraft to complete its message, because aircraft B commenced its transmission earlier.
+            - text: interfere in order to Immediately report the ACAS RA, as similar messages take priority over all other messages.
+            - text: interfere in order to immediately report the ACAS RA, as this message is considered an URGENCY message.
+- id: QOUFZ
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-906414
+    - BGS-900189
+    - AVEXAM-53577
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.01.09
+    - 090.05.01.02.07
+  templates:
+    - type: simple
+      question: "The Pilot-in-Command of a commercial air transport flight has requested assistance due to a passenger experiencing symptoms of a heart attack. A doctor on board is already attending to the passenger. The flight crew suddenly hears a radio call of a small single-engined piston aircraft that is experiencing an engine failure. The radio calls with the highest priority are those of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The small single-engined piston aircraft experiencing an engine failure.
+          wrongAnswers:
+            - text: The first aircraft on the frequency.
+            - text: All aircraft on the frequency, as they all have the same priority.
+            - text: The commercial air transport aircraft, due to the medical emergency.
+- id: QONEA
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-902069
+    - BGS-900460
+    - AVEXAM-34320
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.02.01
+  templates:
+    - type: simple
+      question: During flight, a pilot experiences technical problems. The decision is to declare a state of urgency on the radio. What is the correct phraseology?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: PAN PAN, PAN PAN, PAN PAN
+          wrongAnswers:
+            - text: MAYDAY, MAYDAY, MAYDAY
+            - text: PAN PAN TECHNICAL
+            - text: URGENCY
+    - type: simple
+      question: A pilot experiences technical problems in flight and intends to declare a state of urgency on the radio. What is the correct phraseology to be used?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: PAN PAN PAN PAN PAN PAN
+          wrongAnswers:
+            - text: URGENCY
+            - text: MAYDAY MAYDAY MAYDAY
+            - text: PAN PAN TECHNICAL
+    - type: simple
+      question: "A flight crew experiences technical problems during the cruise. They decide to declare a state of urgency via radio. The phrase that is used to identify such urgency call is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: PAN PAN PAN PAN PAN PAN
+          wrongAnswers:
+            - text: PAN PAN PAN
+            - text: MAYDAY MAYDAY MAYDAY
+            - text: URGENCY URGENCY URGENCY
+- id: QXXCU
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds:
+    - QEXHB
+  externalQuestionIds:
+    - ATPLQ-928498
+    - BGS-920188
+    - AVEXAM-96424
+    - BGS-910121
+    - BGS-920392
+    - ATPLQ-916465
+    - AVEXAM-25413
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.02.02
+  templates:
+    - type: simple
+      question: On the pilot’s active VHF frequency, another traffic has declared a state of urgency. Urgency is defined as a condition..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: concerning the safety of an aircraft or other vehicle, or of some person on board or within sight, but which does not require immediate assistance.
+          wrongAnswers:
+            - text: concerning the illegal seizure of an aircraft in transit and forcing it to go to a different destination, which requires immediate assistance.
+            - text: concerning the immediate safety of an aircraft or other vehicle, or of some person on board or within sight, which requires immediate assistance.
+            - text: of being in serious and/or imminent danger and of requiring immediate assistance.
+- id: QFGNM
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-924660
+    - AVEXAM-62971
+    - ATPLQ-923316
+    - BGS-900243
+    - ATPLQ-918839
+    - AVEXAM-83520
+    - BGS-910120
+    - AVEXAM-32377
+    - BGS-910266
+    - AVEXAM-43371
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.02.03
+  templates:
+    - type: simple
+      question: After declaring a state of urgency to ATC, on what frequency must the pilot normally maintain listening watch?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The frequency in use at the time, unless advised by the air traffic controller.
+          wrongAnswers:
+            - text: Guard frequency.
+            - text: Company frequency.
+            - text: The international distress frequency.
+    - type: simple
+      question: If a pilot is in a state of urgency, which frequency must they use to transmit such a message to ATC?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Their current air-ground frequency.
+          wrongAnswers:
+            - text: The international guard frequency.
+            - text: Any active frequency in the Flight Information Region (FIR).
+            - text: The pilot-to-pilot frequency.
+    - type: simple
+      question: Which frequency should be used by an aircraft to send an urgency message?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The air-ground frequency in use at the time.
+          wrongAnswers:
+            - text: 125.1 MHz.
+            - text: The local Search-and-Rescue frequency.
+            - text: 121.5 MHz.
+    - type: simple
+      question: Which frequency shall be used for the first transmission of a "MAYDAY" call?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The frequency currently in use.
+          wrongAnswers:
+            - text: Any other international emergency frequency.
+            - text: The distress frequency 121.5 MHz.
+            - text: Any frequency at pilot`s discretion.
+- id: QOUWZ
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds:
+    - QSXPA
+    - QTATR
+  externalQuestionIds:
+    - ATPLQ-918948
+    - AVEXAM-93861
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.02.03
+  templates:
+    - type: simple
+      question: 'F-GTPO is already in contact with Lille Tower and sends the following message: "PAN PAN, PAN PAN, PAN PAN, Lille, F-GTPO, losing engine power, requesting immediate landing runway 20, right hand base for runway 20." Which of the following statements is correct as regards the compliance of the message with the standards for urgency transmissions?'
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Urgency transmissions shall be made on the air-ground frequency in use at the time.
+          wrongAnswers:
+            - text: The urgency standard phrase is MAYDAY instead of PAN PAN.
+            - text: In urgency transmissions the name of the station addressed shall be omitted or abbreviated to save time.
+            - text: Urgency transmissions shall be made on the 121.500 MHz frequency.
+- id: QAQRE
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-908802
+    - AVEXAM-49706
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.02.04
+  templates:
+    - type: simple
+      question: When a station receives a 'PAN' message, it must relay the required information to the appropriate unit and...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the operator.
+          wrongAnswers:
+            - text: the destination aerodrome authority.
+            - text: European Aviation Safety Agency (EASA).
+            - text: the authority of the country of the operator.
+    - type: simple
+      question: When a station receives a 'PAN PAN' message, it is required to promptly relay the relevant information to the appropriate unit or authority, i.e. ___. Additionally, the station must ensure that any further actions or instructions are clearly communicated to all concerned parties in order to facilitate an effective response to the situation.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the operator.
+          wrongAnswers:
+            - text: the destination aerodrome authority.
+            - text: the authority of the country of the operator.
+            - text: European Aviation Safety Agency (EASA).
+- id: QEQBW
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds:
+    - QVVEA
+  externalQuestionIds:
+    - ATPLQ-911597
+    - BGS-910372
+    - AVEXAM-3771
+    - BGS-920189
+    - BGS-910160
+    - AVEXAM-48065
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.02.04
+  templates:
+    - type: simple
+      question: A pilot in flight hears an urgency message but does not hear any station replying. What action must the pilot take?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Acknowledge the urgency message.
+          wrongAnswers:
+            - text: Return to the previous frequency to avoid interfering with urgency communications.
+            - text: Squawk 7700 and re-transmit all urgency messages received on the emergency frequency 121.5 MHz.
+            - text: Stop transmitting on the frequency until the Air Traffic Services provide replies.
+    - type: simple
+      question: You hear an urgency transmission on 121.5 MHz and the transmitting aircraft does not get a response from ATC. What action should you take?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Acknowledge the transmission and immediately relay to ATC.
+          wrongAnswers:
+            - text: Acknowledge the transmission and await further instructions from the pilot.
+            - text: Do not acknowledge the transmission but immediately relay to ATC.
+            - text: Do not acknowledge the transmission and continue to monitor.
+    - type: simple
+      question: On a VHF frequency, you heard an urgency call from another aircraft which was acknowledged by ATC. What do you do?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: You shall take care not to interfere with the transmission of urgency traffic.
+          wrongAnswers:
+            - text: You acknowledge on the international distress frequency.
+            - text: You shall not transmit on the frequency concerned.
+            - text: You give your position to help.
+- id: QNNTO
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-923856
+    - AVEXAM-87328
+    - BGS-900354
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.02.04
+  templates:
+    - type: simple
+      question: Traffic on your current frequency has declared a state of urgency. After several attempts you notice the controller does not seem to be receiving the urgency message. What must you do?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Reply to the urgency message, advise the ATS unit, and if necessary exercise control of communications.
+          wrongAnswers:
+            - text: Confirm receipt of the urgency call with other stations on frequency.
+            - text: Relay the message on the international guard frequency.
+            - text: Maintain radio silence until ATC has acknowledged the call.
+- id: QVVEA
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds:
+    - QEQBW
+  externalQuestionIds:
+    - ATPLQ-916867
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.02.05
+  templates:
+    - type: simple
+      question: A pilot in flight hears an urgency message on an area control frequency that is acknowledged by the area controller. What action must the pilot take?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Take care not to interfere with the transmission of the urgency traffic.
+          wrongAnswers:
+            - text: Immediately inform the controller of their position in order to provide assistance if necessary.
+            - text: Write down the information being transmitted and re-transmit it on the emergency frequency 121.5 MHz.
+            - text: Immediately stop all transmissions on the frequency being used by the urgency traffic.
+- id: QOSLW
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-902117
+    - AVEXAM-9289
+    - AVEXAM-86249
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.02.06
+  templates:
+    - type: simple
+      question: An aircraft is approaching Girona airport (LEGE) passing the IAF BANOL, when the crew notices a warning regarding the extension of the landing gear. The crew requests a low pass of the tower for a visual check of the landing gear extension. What is the correct phraseology?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: PAN PAN, PAN PAN, PAN PAN, Girona tower, Globeair xxx, suspect undercarriage malfunction, request low pass for visual check, passing BANOL.
+          wrongAnswers:
+            - text: PAN PAN, PAN PAN, PAN PAN, Girona tower, Globeair xxx, suspect undercarriage malfunction, request low pass for visual check, going around.
+            - text: MAYDAY MAYDAY MAYDAY, Girona tower, Globeair xxx, suspect undercarriage malfunction, request low pass for visual check, passing BANOL.
+            - text: PAN PAN, PAN PAN, PAN PAN, Girona tower, Globeair xxx, cockpit anomaly, request low pass for visual check, going around.
+- id: QTATR
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds:
+    - QOUWZ
+    - QSXPA
+  externalQuestionIds:
+    - ATPLQ-917191
+    - AVEXAM-42792
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.02.06
+  templates:
+    - type: simple
+      question: 'F-HDJF has already been in contact with Lille Tower, and sends the following message: "PAN PAN, PAN PAN, PAN PAN, Lille Tower, F-HDJF, smoke on board, right hand base for runway 20, requesting immediate landing runway 20." Which of the following statements is correct as regards the compliance of the message with the standards for urgency and emergency transmissions?'
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The order of the elements in this urgency message is incorrect, if possible, the present position shall follow the intentions of the person in command.
+          wrongAnswers:
+            - text: The order of the elements in this emergency message is correct.
+            - text: The order of the elements in this urgency message is correct.
+            - text: The order of the elements in this emergency message is incorrect, if possible, the present position shall follow the intentions of the person in command.
+- id: QTLDE
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-909209
+    - BGS-900250
+    - AVEXAM-52486
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.02.06
+  templates:
+    - type: simple
+      question: |-
+        An aircraft is cruising at its cruising altitude, when suddenly one of the passengers has a heart attack. The pilots decide to land at an en-route aerodrome given the urgency of the situation. Which of the following elements are included in your initial radio message, and in which sequence?
+
+        1\. PAN PAN MEDICAL (x3)   
+         2\. PAN PAN (x3)   
+         3\. Your call sign   
+         4\. Nature of the urgency condition   
+         5\. Stop transmitting   
+         6\. Your intention
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2, 3, 4 and then 6.
+          wrongAnswers:
+            - text: 2, 3, 4, 5 and then 6.
+            - text: 1, 3, 5 and then 6.
+            - text: 1, 3, 4 and then 2.
+- id: QVZVM
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-906330
+    - BGS-900214
+    - AVEXAM-85846
+    - BGS-910200
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.02.06
+  templates:
+    - type: simple
+      question: |-
+        A passenger on board requires medical assistance. What is the correct sequence of transmission for the following elements of the radio call?
+
+        1\. Pan pan (x3)   
+         2\. Air Europe 123   
+         3\. Heading 160 at FL 280   
+         4\. Pan pan medical (x3)   
+         5\. Passenger in need of medical assistance   
+         6\. Zurich Radar   
+         7\. Request radar vectors for Zurich
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 6, 2, 3, 5 and 7.
+          wrongAnswers:
+            - text: 6, 4, 3, 7, 1 and 2.
+            - text: 2, 1, 6, 3, 7 and 5.
+            - text: 4, 6, 2, 3, 5 and 7.
+- id: QHWJQ
+  subjectId: "090"
+  chapterId: "090.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-904558
+    - AVEXAM-18666
+  annexes: []
+  learningObjectiveIds:
+    - 090.05.01.02.07
+  templates:
+    - type: simple
+      question: You are performing a VFR flight and are about to transmit a compulsory report when you hear a PAN PAN message. Which of the following answers are correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Urgency message has higher priority than your message.
+          wrongAnswers:
+            - text: Urgency message has higher priority than all messages.
+            - text: Urgency message has lower priority than your message.
+            - text: Urgency message has higher priority than a distress message.

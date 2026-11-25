@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="570" height="166" viewBox="0 0 570 166">
+  <title>Take-off profiles A and B</title>
+  <rect x="0" y="0" width="570" height="166" fill="#fff"/>
+  <g fill="#161a20" font-family="Arial, sans-serif">
+    <defs>
+    <g id="aircraft" stroke-linejoin="round">
+      <path d="M2 10L7 9 17 11 27 7 47 6 59 9 67 11 83 11 88 1 95 0 92 16 79 18 51 19 30 20 13 19 2 16Z" fill="#e2e7ed" stroke="#29333d" stroke-width="1"/>
+      <path d="M28 10 35 8 47 8 54 11 52 13 30 13Z" fill="#adc4dd" stroke="#29333d" stroke-width=".7"/>
+      <path d="M3 4v17M0 13h15M18 18v5m23-4v5M41 13l15 6-9 1-14-6z" fill="none" stroke="#29333d" stroke-width="1.1"/>
+      <circle cx="18" cy="23" r="2.1" fill="#29333d"/><circle cx="41" cy="24" r="2.3" fill="#29333d"/>
+    </g>
+    <marker id="blue-arrow" viewBox="0 0 8 8" markerWidth="6" markerHeight="6" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#0b6bcb"/></marker>
+    <marker id="red-arrow" viewBox="0 0 8 8" markerWidth="6" markerHeight="6" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#971d1e"/></marker>
+    <marker id="black-arrow" viewBox="0 0 8 8" markerWidth="6" markerHeight="6" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#171b20"/></marker>
+    </defs>
+    <rect x="102" y="150" width="442" height="7" fill="#5d5153"/>
+    <path d="M463 138H227L5 62" fill="none" stroke="#971d1e" stroke-width="1.9" marker-end="url(#red-arrow)"/>
+    <path d="M463 145H154L5 18" fill="none" stroke="#0b6bcb" stroke-width="1.9" marker-end="url(#blue-arrow)"/>
+    <text x="29" y="90" font-size="18" text-anchor="middle" fill="#971d1e" font-weight="700">A</text>
+    <text x="33" y="29" font-size="18" text-anchor="middle" fill="#0b6bcb" font-weight="700">B</text>
+    <use href="#aircraft" transform="translate(462 117) scale(1 .99)"/>
+  </g>
+</svg>

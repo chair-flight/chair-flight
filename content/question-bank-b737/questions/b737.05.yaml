@@ -1,0 +1,722 @@
+- id: QTUSG
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What microphone options are available to the flight crew?
+      explanation: |-
+        ### FCOM 5.20.2, Microphones
+
+        > Hand microphones and boom microphones may be plugged into the related jacks at the flight deck crew stations. Each oxygen mask also has an integral microphone.
+      presets:
+        - correctAnswers:
+            - text: Hand microphone, headset boom microphone, oxygen mask microphone.
+          wrongAnswers:
+            - text: Headset boom microphone, oxygen mask microphone, ceiling speakers microphone.
+            - text: Headset boom microphone and hand microphone.
+            - text: Hand microphone, headset boom microphone, oxygen mask microphone, overhead speaker microphone.
+- id: QLWHS
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When the ALT-NORM switch on the Audio Control Panel (ACP) is selected to ALT, what is the result?
+      explanation: |-
+        ### FCOM 5.20.2, Degraded Audio System Operation
+
+        > Audio system operation can be switched to a degraded mode by placing the ALT–NORM switch to ALT. In this mode, the ACP at that station is inoperative and the crewmember can only communicate on one radio.
+        >
+        > | CREW STATION AUDIO SYSTEM IN DEGRADED MODE | RADIO AVAILABLE FOR TRANSMISSION AND RECEPTION AT DEGRADED STATION |
+        > | ------------------------------------------ | ------------------------------------------------------------------ |
+        > | CAPTAIN                                    | **VHF–1**                                                          |
+        > | FIRST OFFICER                              | **VHF–2**                                                          |
+        > | OBSERVER                                   | **VHF–1**                                                          |
+      presets:
+        - correctAnswers:
+            - text: ACP operates in a degraded mode, VHF-1 for Captain and Observer, VHF-2 for First Officer.
+          wrongAnswers:
+            - text: ACP operates in a degraded mode, VHF-1 for Captain, HF-1 for Observer and VHF-2 for First Officer.
+            - text: All communications are routed through the ACP on the AFT Overhead Panel.
+            - text: ACP operates in a degraded mode, VHF-2 for Captain, HF-2 for Observer, and VHF-1 for First Officer.
+    - type: simple
+      question: The First Officer's ACP ALT-NORM switch is selected to ALT. Which radio can the First Officer transmit and receive on?
+      explanation: |-
+        ### FCOM 5.20.2, Degraded Audio System Operation
+
+        > Audio system operation can be switched to a degraded mode by placing the ALT–NORM switch to ALT. In this mode, the ACP at that station is inoperative and the crewmember can only communicate on one radio.
+        >
+        > | CREW STATION AUDIO SYSTEM IN DEGRADED MODE | RADIO AVAILABLE FOR TRANSMISSION AND RECEPTION AT DEGRADED STATION |
+        > | ------------------------------------------ | ------------------------------------------------------------------ |
+        > | CAPTAIN                                    | **VHF–1**                                                          |
+        > | FIRST OFFICER                              | **VHF–2**                                                          |
+        > | OBSERVER                                   | **VHF–1**                                                          |
+      presets:
+        - correctAnswers:
+            - text: VHF-2 only.
+          wrongAnswers:
+            - text: VHF-1 only.
+            - text: VHF-3 only.
+            - text: Any radio selected with the transmitter selectors.
+- id: QTXAM
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 5.20.3, Degraded Audio System Operation
+
+        > The ACP transmitter selectors are not functional. Any transmission from that station must be from the radio shown on the chart below. [...] The receiver switches are not functional, and only the usable radio is heard at a preset volume, through the headset. The speaker and speaker switch are not functional at that station. In addition, the **flight interphone and service interphone cannot be used**. [...]
+        >
+        > The mask and boom microphones can be used for transmission on the usable radio. The MASK–BOOM switch works normally in the degraded mode. [...] The **hand microphone is not usable** in the degraded mode of operation.
+        >
+        > Audio warnings for altitude alert, GPWS, and windshear are heard on an audio system operating in the degraded mode.
+        >
+        > An audio system operating in the degraded mode cannot access the passenger address system through the audio control panel. The crewmember can still use the service interphone handset and PA microphone if they are installed on the control stand.
+      statements:
+        - text: In the degraded audio mode, the hand microphone cannot be used.
+          answer: true
+        - text: In the degraded audio mode, the hand microphone can be used on the usable radio.
+          answer: false
+        - text: In the degraded audio mode, the flight interphone cannot be used.
+          answer: true
+        - text: In the degraded audio mode, the receiver switches still adjust the volume of the usable radio.
+          answer: false
+        - text: In the degraded audio mode, the MASK-BOOM switch works normally.
+          answer: true
+        - text: In the degraded audio mode, altitude alert, GPWS and windshear audio warnings are not heard.
+          answer: false
+        - text: In the degraded audio mode, the crewmember cannot access the passenger address system through the audio control panel.
+          answer: true
+- id: QWOIV
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Selecting the Cockpit Voice Recorder to ON has what effect?
+      explanation: |-
+        ### FCOM 5.10.13, Cockpit Voice Recorder Switch
+
+        > - **AUTO**: powers the cockpit voice recorder from first engine start until 5 minutes after last engine shutdown
+        > - **ON**: powers the cockpit voice recorder **until first engine start**, then trips the switch to AUTO.
+      presets:
+        - correctAnswers:
+            - text: Powers the cockpit voice recorder until first engine is started, then trips to AUTO.
+          wrongAnswers:
+            - text: Powers the cockpit voice recorder until 5 after the last engine shutdown.
+            - text: Powers the cockpit voice recorder until the switch is moved to OFF
+            - text: Powers the cockpit voice recorder after the first engine is started until 5 minutes after last engine shutdown.
+- id: QQTUY
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 5.20.6, Cockpit Voice Recorder
+
+        > The cockpit voice recorder uses **four independent channels** to record flight deck audio for **120 minutes**. Recordings older than 120 minutes are automatically erased. One channel records flight deck area conversations using the area microphone. The other channels record individual ACP output (headset) audio and transmissions for the pilots and observer. The voice recorder is equipped with a locator beacon operable for 90 days.
+
+        ### FCOM 5.10.12, Cockpit Voice Recorder
+
+        > **Area Microphone**: Activated when an engine is started or the VOICE RECORDER switch is placed in the ON position.
+        >
+        > **ERASE Switch (red)**: Push (2 seconds) – all four channels are erased. Operative only when airplane is on ground and parking brake is set.
+        >
+        > **TEST Switch**: Push – for 5 seconds: STATUS light flashes once. A tone may be heard through a headset plugged into HEADPHONE jack.
+      statements:
+        - text: The cockpit voice recorder records on four independent channels.
+          answer: true
+        - text: The cockpit voice recorder records on two independent channels.
+          answer: false
+        - text: The cockpit voice recorder records the last 120 minutes of flight deck audio.
+          answer: true
+        - text: The cockpit voice recorder records the last 30 minutes of flight deck audio.
+          answer: false
+        - text: The cockpit voice recorder ERASE switch is operative only when the airplane is on the ground with the parking brake set.
+          answer: true
+        - text: The cockpit voice recorder ERASE switch can be used in flight when the VOICE RECORDER switch is AUTO.
+          answer: false
+        - text: The cockpit voice recorder area microphone is activated when an engine is started or the VOICE RECORDER switch is placed to ON.
+          answer: true
+- id: QPSZG
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 5.20.5, VHF Communications
+
+        > Primary short–range voice communications is provided in the VHF range by **three independent radios**. [...] The **VHF–2 and VHF–3 antennae are located on the lower fuselage** and **VHF–1 is on the upper fuselage**.
+        >
+        > Note: VHF antennae located on the lower fuselage are susceptible to multipath interference from nearby structures or vehicles. This may disrupt VHF communications. VHF antennae located on the upper fuselage are not as susceptible to this interference.
+      statements:
+        - text: VHF antennae located on the upper fuselage are susceptible to multipath interference from other air traffic, antennae located on the lower fuselage are not as susceptible to this interference.
+          answer: false
+        - text: VHF antennae located on the lower fuselage are susceptible to multipath interference from nearby structures or vehicles.
+          answer: true
+        - text: The VHF-1 antenna is located on the upper fuselage.
+          answer: true
+        - text: The VHF-1 antenna is located on the lower fuselage.
+          answer: false
+        - text: The VHF-2 and VHF-3 antennae are located on the lower fuselage.
+          answer: true
+        - text: The airplane has three independent VHF radios.
+          answer: true
+- id: QKNHP
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 5.10.11, Interphone and Passenger Address Controls
+
+        > **SERVICE INTERPHONE Switch**
+        > - **OFF**: external jacks are deactivated; **communication between flight deck and flight attendants is still possible**
+        > - **ON**: adds external jacks to service interphone system.
+
+        The switch only affects the external jacks. The flight deck and flight attendant stations stay connected.
+      statements:
+        - text: Communication between the flight deck and flight attendants is still possible with the SERVICE INTERPHONE switch selected OFF.
+          answer: true
+        - text: Communication between the flight deck and flight attendants is not possible with the SERVICE INTERPHONE switch selected OFF.
+          answer: false
+- id: QJPAB
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 5.10.11, Interphone and Passenger Address Controls
+
+        > **SERVICE INTERPHONE Switch**
+        > - **OFF**: external jacks are deactivated
+        > - **ON**: **adds external jacks** to service interphone system.
+
+        ### FCOM 5.20.4, Service Interphone System
+
+        > External jacks for use by maintenance or service personnel can be added to the system by use of the service interphone switch.
+      statements:
+        - text: Selecting the SERVICE INTERPHONE switch ON adds the external jacks to the service interphone system.
+          answer: true
+        - text: Selecting the SERVICE INTERPHONE switch OFF deactivates the external jacks.
+          answer: true
+        - text: Selecting the SERVICE INTERPHONE switch ON deactivates the external jacks.
+          answer: false
+- id: QKENE
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 5.20.3, Flight Interphone System
+
+        > The flight interphone system is an **independent communication network**. Its primary purpose is to provide private communication between flight deck crewmembers without intrusion from the service interphone system. The **ground crew may also use the flight interphone** through a jack at the external power receptacle.
+      statements:
+        - text: The Flight Interphone and Service Interphone are on separate networks.
+          answer: true
+        - text: The Flight Interphone and Service Interphone share the same network.
+          answer: false
+        - text: The Flight Interphone provides private communication between flight deck crewmembers.
+          answer: true
+        - text: The Flight Interphone can be used by ground crew through a jack at the external power receptacle.
+          answer: true
+        - text: The Flight Interphone cannot be used by ground crew.
+          answer: false
+- id: QTVAU
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 5.20.4, Service Interphone System
+
+        > The service interphone system provides intercommunication between the **flight deck, Flight Attendants, and ground personnel**. Flight deck crewmembers communicate using either a separate handset (if installed) or their related ACP and any standard microphone.
+        >
+        > The Flight Attendants communicate between flight attendant stations or with the flight deck using any of the attendant handsets. Anyone who picks up a handset/microphone is automatically connected to the system.
+      statements:
+        - text: The Service Interphone provides communication between the flight deck, flight attendants and ground personnel.
+          answer: true
+        - text: The Service Interphone does not provide communication with ground personnel.
+          answer: false
+        - text: Anyone who picks up a Service Interphone handset is automatically connected to the system.
+          answer: true
+        - text: A Service Interphone handset must be selected on the ACP before it connects to the system.
+          answer: false
+        - text: Flight Attendants can communicate with each other between attendant stations using the Service Interphone.
+          answer: true
+- id: QSCBE
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the effect of pushing the Pilot Call switch?
+      explanation: |-
+        ### FCOM 5.10.14, External Power Connector Panel
+
+        > **PILOT CALL Switch**: Push – sounds a **single–tone chime in flight deck**.
+
+        The attendant handset CAPTAIN call switch does the same. A continuous chime indicates the door access code has been entered.
+      presets:
+        - correctAnswers:
+            - text: Single-tone chime in flight deck.
+          wrongAnswers:
+            - text: Two-tone chime in flight deck.
+            - text: Two-tone chime in passenger cabin, with both pink master call lights illuminated.
+            - text: Single-tone chime in passenger cabin with both pink call lights illuminated.
+- id: QMGOO
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the effect of pushing the ATTEND call switch on the forward overhead panel?
+      explanation: |-
+        ### FCOM 5.10.14, Call System
+
+        > **Attendant Call (ATTEND) Switch**: Push –
+        > - sounds a **two–tone chime in passenger cabin**
+        > - illuminates **pink master call lights**
+        >
+        > **Ground Call (GRD CALL) Switch**: Push – sounds a horn in nose wheel well until released.
+      presets:
+        - correctAnswers:
+            - text: Two-tone chime in the passenger cabin and the pink master call lights illuminate.
+          wrongAnswers:
+            - text: Single-tone chime in the passenger cabin and the pink master call lights illuminate.
+            - text: Two-tone chime in the flight deck and the blue flight deck CALL light illuminates.
+            - text: Horn in the nose wheel well until the switch is released.
+- id: QAFHX
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 5.10.14, Call System
+
+        > **Ground Call (GRD CALL) Switch**: Push – sounds a horn in nose wheel well until released.
+      statements:
+        - text: The GRD CALL switch sounds a horn in the nose wheel well until it is released.
+          answer: true
+        - text: The GRD CALL switch sounds a two-tone chime in the passenger cabin.
+          answer: false
+- id: QAHFP
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 5.20.4, Call System
+
+        > The flight deck may be called from either flight attendant station or by the ground crew. The **ground crew may only be called from the flight deck**. Flight Attendants may be called from the flight deck, the other attendant station, or from any passenger seat or lavatory.
+      statements:
+        - text: The ground crew may only be called from the flight deck.
+          answer: true
+        - text: The ground crew may be called from the flight attendant stations.
+          answer: false
+- id: QTAZC
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes:
+    - id: AAHJ
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 5.10.15, Master Call Lights
+
+        > - **pink** – flight deck or other flight attendant station is calling
+        > - **blue** – a passenger seat call switch is activated
+        > - **amber** – a lavatory call switch is activated
+
+        ### FCOM 5.10.14, Call System
+
+        > **Flight Deck CALL Light**: Illuminated (blue) – flight deck is being called by flight attendants or ground crew.
+
+        ![Master call lights](annex:AAHJ)
+      statements:
+        - text: A blue master call light indicates that a passenger seat call switch is activated.
+          answer: true
+        - text: An amber master call light indicates that a passenger seat call switch is activated.
+          answer: false
+        - text: An amber master call light indicates that a lavatory call switch is activated.
+          answer: true
+        - text: A pink master call light indicates that the flight deck or another flight attendant station is calling.
+          answer: true
+        - text: The blue flight deck CALL light indicates that the flight deck is being called by flight attendants or ground crew.
+          answer: true
+- id: QMWGS
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 5.10.5, Audio Control Panel (ACP)
+
+        > **Receiver Switches**: Illuminated (white) – related switch is active. **Rotate – adjusts volume**. Push – allows reception of related communication system or navigation receiver; multiple switches may be selected.
+
+        ### FCOM 5.20.1, Speakers and Headsets
+
+        > Headset volume is controlled by the receiver switches. Speaker volume is controlled by the receiver switches and also the speaker switch.
+
+        The Radio Tuning Panel selects frequencies. It does not control volume.
+      statements:
+        - text: The volume of received communications can be controlled by rotating the selected RECEIVER SWITCHES on the Radio Tuning Panel.
+          answer: false
+        - text: The volume of received communications can be controlled by rotating the selected RECEIVER SWITCHES on the Audio Control Panel.
+          answer: true
+        - text: Flight deck speaker volume is controlled by the receiver switches and also the speaker switch.
+          answer: true
+- id: QEIFQ
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What are the 3 positions For the Audio Control Panel Filter switch?
+      explanation: |-
+        ### FCOM 5.10.7, Audio Control Panel (ACP)
+
+        > **Filter Switch**
+        > - **V** (Voice) – receive NAV and ADF voice audio.
+        > - **B** (Both) – receive NAV and ADF voice and range audio.
+        > - **R** (Range) – receive NAV and ADF station identifier range (code) audio.
+      presets:
+        - correctAnswers:
+            - text: V, B, R,   Voice, Both, Range.
+          wrongAnswers:
+            - text: Pushed to select filtering ON, Pushed again for filtering OFF, rotated to increase or decrease amount of filtering.
+            - text: V, B, R,    Voice, Both, Radio.
+            - text: R, G, B,   Radio, Ground, Both.
+- id: QTEUD
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 5.10.5, Audio Control Panel (ACP)
+
+        > **Transmitter Selector (MIC SELECTOR) Switches**: Push – selects related communication system for subsequent transmission. **Only one switch may be selected at a time**; pushing a second switch deselects first switch. **Reception possible over selected system regardless of whether related receiver switch is on.**
+        >
+        > **Receiver Switches**: Push – allows reception of related communication system or navigation receiver. **Multiple switches may be selected.** Push again – deselects related system or receiver.
+      statements:
+        - text: Only one transmitter selector switch may be selected at a time on the ACP.
+          answer: true
+        - text: Several transmitter selector switches may be selected at a time on the ACP.
+          answer: false
+        - text: Several receiver switches may be selected at a time on the ACP.
+          answer: true
+        - text: Pushing a second transmitter selector switch deselects the first.
+          answer: true
+        - text: Reception is only possible over the selected transmitter system when the related receiver switch is on.
+          answer: false
+- id: QYQXC
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 5.20.1, Audio Systems and Audio Control Panels
+
+        > Audio warnings for ground proximity warnings, altitude alert warnings, traffic collision avoidance advisories and radar predictive windshear alerts are also heard through the speakers and headsets at preset volumes. **They cannot be controlled or turned off by the crew.**
+
+        ### FCOM 5.20.1, Speakers and Headsets
+
+        > The Captain and First Officer have speakers on the ceiling above their seats. **There is no speaker at the observer station.** [...] The speakers always operate during ground proximity warnings, altitude alert warnings, traffic collision avoidance advisories and radar predictive windshear alerts.
+
+        ### FCOM 5.20.2, Speakers and Headsets
+
+        > The two flight compartment speakers are **muted for the captain's and first officer's push-to-talk microphone operation**. The speakers are **not muted for oxygen mask microphone operation**.
+      statements:
+        - text: There is no flight deck speaker at the observer station.
+          answer: true
+        - text: There is a flight deck speaker at the observer station.
+          answer: false
+        - text: The flight deck speakers are muted for the Captain's and First Officer's push-to-talk microphone operation.
+          answer: true
+        - text: The flight deck speakers are not muted for oxygen mask microphone operation.
+          answer: true
+        - text: The flight deck speakers are muted for oxygen mask microphone operation.
+          answer: false
+        - text: Audio warnings for GPWS, altitude alert, TCAS and windshear can be turned off by the crew.
+          answer: false
+        - text: Audio warnings for GPWS, altitude alert, TCAS and windshear are heard at preset volumes.
+          answer: true
+- id: QFFZW
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Approximately how long can a VHF transmission last before the keyline timer stops it?
+      explanation: |-
+        ### FCOM 5.10.6, Audio Control Panel (ACP)
+
+        > The **keyline timer limits VHF transmission to approximately 35 seconds**. Approximately 25 to 30 seconds after any PTT is selected, the transceiver makes an aural tone (or, side-tone) in the headset. This tone continues for approximately five seconds. When the tone stops, the RF transmission also stops, and the radio is set to receive mode automatically. The radio remains in receive mode until the PTT is released, and selected again.
+      presets:
+        - correctAnswers:
+            - text: About 35 seconds.
+          wrongAnswers:
+            - text: About 15 seconds.
+            - text: About 60 seconds.
+            - text: About 120 seconds.
+- id: QHYOR
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the meaning of the Offside Tuning Light, the white light on the Radio Tuning Panel?
+      explanation: |-
+        ### FCOM 5.10.2, Radio Tuning Panel
+
+        > **Offside Tuning Light**: Illuminated (white) –
+        > - the radio normally associated with this panel is being tuned by another radio tuning panel, or
+        > - the radio tuning panel is being used to tune a radio not normally associated with this radio tuning panel
+      presets:
+        - correctAnswers:
+            - text: The radio normally associated with this panel is being tuned by another radio tuning panel, or this panel is being used to tune a radio not normally associated with it.
+          wrongAnswers:
+            - text: The selected radio has failed.
+            - text: The radio tuning panel has failed.
+            - text: The selected radio is in the data mode.
+- id: QFYRZ
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the effect of pushing the OFF switch on the Radio Tuning Panel?
+      explanation: |-
+        ### FCOM 5.10.2, Radio Tuning Panel
+
+        > **Radio Tuning Panel OFF Switch**: Push – disconnects the panel from the communication radios.
+      presets:
+        - correctAnswers:
+            - text: Disconnects the panel from the communication radios.
+          wrongAnswers:
+            - text: Switches off the selected radio only.
+            - text: Transfers the standby frequency to the active window.
+            - text: Removes the automatic squelch.
+    - type: simple
+      question: The digital displays on the Radio Tuning Panel are blank and the OFF button is illuminated. What is the problem?
+      explanation: |-
+        ### FCOM 5.10.2, Radio Tuning Panel
+
+        > **Radio Tuning Panel OFF Switch**: Push – disconnects the panel from the communication radios.
+      presets:
+        - correctAnswers:
+            - text: The panel has been switched off with the OFF switch.
+          wrongAnswers:
+            - text: The panel has failed, PANEL FAIL is displayed.
+            - text: The selected radio has failed.
+            - text: The panel is being used as an offside tuning panel.
+- id: QXHJE
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the effect of pushing the VHF TEST switch on the Radio Tuning Panel?
+      explanation: |-
+        ### FCOM 5.10.2, Radio Tuning Panel
+
+        > **VHF TEST Switch**: Push –
+        > - removes automatic squelch feature, permitting reception of background noise and thereby testing receiver operation
+        > - **improves reception of weak signals**
+      presets:
+        - correctAnswers:
+            - text: Removes the automatic squelch, permitting reception of background noise.
+          wrongAnswers:
+            - text: Increases the transmitter power.
+            - text: Tests the transmitter and sounds a tone in the headset.
+            - text: Switches the radio to the standby frequency.
+    - type: simple
+      question: How can the reception of weak VHF signals be improved?
+      explanation: |-
+        ### FCOM 5.10.2, Radio Tuning Panel
+
+        > **VHF TEST Switch**: Push –
+        > - removes automatic squelch feature, permitting reception of background noise and thereby testing receiver operation
+        > - **improves reception of weak signals**
+      presets:
+        - correctAnswers:
+            - text: Push the VHF TEST switch on the Radio Tuning Panel.
+          wrongAnswers:
+            - text: Select the MASK microphone on the ACP.
+            - text: Push the frequency transfer switch.
+            - text: Rotate the HF sensitivity control.
+- id: QDBHP
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 5.20.4, Passenger Address System
+
+        > The highest priority audio input source is selected when the **flight crew selects "PA" on the audio control panel** and speaks through the boom microphone on a headset, the oxygen mask microphone or the hand-held microphone connected to the Passenger Address microphone jack. These methods will **preempt all music and other announcements**, including announcements in-progress being made using any Flight Attendant handset.
+        >
+        > The second priority level is announcements made using the **Flight Attendant handsets**. A Flight Attendant handset announcement has priority over the PRAM and entertainment systems.
+        >
+        > The third priority level is the **PRAM**. [...] Manually generated messages have priority over automatically generated messages, and both of these have priority over music being provided by the PRAM.
+      statements:
+        - text: A flight crew PA announcement preempts a Flight Attendant handset announcement in progress.
+          answer: true
+        - text: A Flight Attendant handset announcement in progress cannot be preempted by a flight crew PA announcement.
+          answer: false
+        - text: A Flight Attendant handset announcement has priority over PRAM messages.
+          answer: true
+        - text: Automatically generated PRAM messages have priority over manually generated PRAM messages.
+          answer: false
+        - text: Flight crew PA announcements preempt all music.
+          answer: true
+- id: QVMIM
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: A radio transmits continuously without crew input (stuck microphone switch). What is the first action of the checklist?
+      explanation: |-
+        ### QRH NNC 5.2, Radio Transmit Continuous (Stuck Microphone Switch)
+
+        > Condition: A radio transmits continuously without crew input.
+        >
+        > **MIC SELECTOR switches (all audio selector panels) ... FLT INT** This deselects radios and stops radio transmissions.
+        >
+        > The associated audio selector panel should stay on flight interphone. All other audio selector panels may be used normally.
+      presets:
+        - correctAnswers:
+            - text: MIC SELECTOR switches, all audio selector panels, FLT INT.
+          wrongAnswers:
+            - text: ALT-NORM switch, ALT.
+            - text: RTP OFF switch, push.
+            - text: SERVICE INTERPHONE switch, OFF.
+- id: QSBZA
+  subjectId: b737
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: ACARS AC power is lost. What is the result?
+      explanation: |-
+        ### QRH NNC 5.1, ACARS Electrical Power Loss
+
+        > Condition: ACARS AC power is lost.
+        >
+        > Note: The ACARS automatically **reverts to VOX MODE**. The **DATA MODE is inoperative**.
+        >
+        > Use normal voice procedures for reporting.
+      presets:
+        - correctAnswers:
+            - text: ACARS reverts to VOX mode and the data mode is inoperative.
+          wrongAnswers:
+            - text: ACARS reverts to data mode and the voice mode is inoperative.
+            - text: ACARS is transferred to the standby AC bus and works normally.
+            - text: ACARS reverts to SATCOM data mode.

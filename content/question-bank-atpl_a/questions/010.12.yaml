@@ -1,0 +1,547 @@
+- id: QMQEF
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109940
+    - AVEXAM-8861
+    - BGS-101795
+    - BGS-700225
+    - AVEXAM-79053
+    - ATPLQ-716914
+    - ATPLQ-701541
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.01.01.01
+  templates:
+    - type: simple
+      question: |-
+        According to ICAO Annex 17, to what does the following definition correspond to?
+
+        "An inspection of the interior of an aircraft to which passengers may have had access and an inspection of the hold for the purposes of discovering suspicious objects, weapons, explosives or other dangerous devices, articles and substances."
+      explanation: An aircraft security check is an inspection of the interior of an aircraft to which passengers may have had access, and of the hold, to find suspicious objects, weapons, explosives or other dangerous articles.
+      presets:
+        - correctAnswers:
+            - text: Aircraft security check.
+          wrongAnswers:
+            - text: Aircraft pre-flight check.
+            - text: Security control.
+            - text: Screening.
+- id: QHWSI
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106000
+    - AVEXAM-25779
+    - AVEXAM-88811
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.01.01.01
+  templates:
+    - type: simple
+      question: According to ICAO Annex 17, what is the definition of ‘Security Control’?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A means by which the introduction of weapons, explosives or other dangerous devices, articles or substances which may be used to commit an act of unlawful interference can be prevented.
+          wrongAnswers:
+            - text: A secret or public trial of an aviation security measure which simulates an attempt to commit an unlawful act.
+            - text: A check on a person’s identity and previous experience including where legally permissible, any criminal history.
+            - text: The application of technical or other means which are intended to identify and/or detect weapons, explosives or other dangerous devices, articles or substances which may be used to commit an act of unlawful interference.
+    - type: simple
+      question: What is meant by the term 'security control' when referring to (EC) No 300/2008 or ICAO Annex 17?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Security control means the application of means by which the introduction of prohibited articles may be prevented.
+          wrongAnswers:
+            - text: Security control an examination of the implementation of relevant national civil aviation security programme requirements by an airline, airport, or other entity involved in security.
+            - text: Security control means the application of technical or other means which are intended to identify and/or detect prohibited articles.
+            - text: Security control means the application of means by which the entry of unauthorised persons or unauthorised vehicles, or both, may be prevented.
+- id: QPZJK
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104628
+    - BGS-101657
+    - AVEXAM-3264
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.02.01.01
+  templates:
+    - type: simple
+      question: According to ICAO Annex 17, the primary objective of States as regards safeguarding civil aviation against acts of unlawful interference is the..
+      explanation: The primary objective of States under Annex 17 is the safety of passengers, crew, ground personnel and the general public in all matters related to safeguarding civil aviation against unlawful interference.
+      presets:
+        - correctAnswers:
+            - text: safety of passengers, crew, ground personnel, and the general public.
+          wrongAnswers:
+            - text: safety of aerodrome facilities, including landside and airside buildings.
+            - text: safe application of immigration and customs procedures.
+            - text: safety of aircraft engaged in international civil operations.
+- id: QONIY
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds:
+    - QSHIS
+  externalQuestionIds:
+    - ATPLQ-104650
+    - AVEXAM-7369
+    - BGS-101510
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.04.01.01
+  templates:
+    - type: multiple-correct
+      question: For security reasons, what objects listed below shall NOT be introduced, by any means whatsoever, on board an aircraft that is engaged in international civil aviation according to ICAO Annex 17?
+      explanation: Weapons whose carriage is not authorised and explosives that may be used for an unlawful act must never be brought on board. Partially charged electronic devices and liquids bought outside the airside zone are not in the prohibited list.
+      options:
+        - text: Weapons, the carriage of which is NOT authorised.
+          correct: true
+        - text: Electronic devices with partially charged batteries.
+          correct: false
+        - text: Explosives that may be used to commit an unlawful act.
+          correct: true
+        - text: Liquids purchased outside of the airside zone of the aerodrome.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QSHIS
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds:
+    - QONIY
+  externalQuestionIds:
+    - ATPLQ-101086
+    - BGS-101419
+    - AVEXAM-43882
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.04.01.01
+    - 010.12.04.01.04
+  templates:
+    - type: simple
+      question: The carriage of weapons on a civil aviation aircraft is only allowed under certain conditions. Which of the following is a condition that permits a weapon to be carried on board?
+      explanation: A weapon may be carried only under strict conditions, one being that it is unloaded and stowed where no one can reach it during the flight. Flight crew holding a permit, or officers not notifying the crew, do not meet the conditions.
+      presets:
+        - correctAnswers:
+            - text: When it is unloaded and stowed in a place inaccessible to any person during the flight.
+          wrongAnswers:
+            - text: When carried by a flight crew member, provided they hold a valid firearms permit.
+            - text: When carried by in-flight security-officers without notification to the flight crew.
+            - text: When carried by a professional hunter who holds a firearms permit with an ICAO endorsement.
+- id: QNZOH
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101871
+    - BGS-101757
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.04.01.02
+  templates:
+    - type: simple
+      question: Each Contracting State shall ensure that passengers and their cabin baggage which have been screened are protected from unauthorised interference from the point of screening until they board their aircraft. If mixing or contact does take place, what considerations are to be made?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The passengers concerned and their cabin baggage shall be re-screened before boarding the aircraft.
+          wrongAnswers:
+            - text: The passengers concerned, their cabin baggage and their checked baggage shall be re-screened before boarding the aircraft.
+            - text: Only the cabin baggage shall be re-screened before boarding the aircraft.
+            - text: Only the passengers concerned shall be re-screened before boarding the aircraft.
+- id: QWYIZ
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109256
+    - BGS-101501
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.04.01.03
+  templates:
+    - type: simple
+      question: According to ICAO Annex 17, when a passenger is obliged to travel because they have been the subject of judicial proceedings, the Competent Authority shall ensure that the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: aircraft operator and the Pilot-in-Command are informed.
+          wrongAnswers:
+            - text: aircraft operator and the relevant ATC services are informed.
+            - text: aircraft operator and the Civil Aviation Authority are informed.
+            - text: relevant ATC services and the Pilot-in-Command are informed.
+- id: QYCUW
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107168
+    - AVEXAM-3170
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.04.01.03
+  templates:
+    - type: simple
+      question: What should be done on a flight with a lawful person on board?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Inform the PIC and the company.
+          wrongAnswers:
+            - text: Ask the PIC and the company.
+            - text: Ask the PIC to inform the company.
+            - text: Inform PIC to ask the company.
+- id: QMJTJ
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102842
+    - BGS-101741
+    - AVEXAM-61645
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.05.01.01
+  templates:
+    - type: simple
+      question: Which of the following services shall be provided by Contracting States to aircraft subjected to unlawful seizure?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Air traffic services and permission to land.
+          wrongAnswers:
+            - text: Ground handling services.
+            - text: Exemption from landing and handling fees.
+            - text: Unlimited availability of fuel.
+- id: QQSBZ
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106308
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.05.01.01
+  templates:
+    - type: simple
+      question: What type of compensation is generally mandated in the event of an unlawful seizure of an aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Compensation for damages caused during take-off.
+          wrongAnswers:
+            - text: Compensation for ATC services.
+            - text: Compensation for ground handling fees.
+            - text: Compensation for fuel costs.
+- id: QSRSZ
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103814
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.05.01.02
+  templates:
+    - type: simple
+      question: Each Contracting State shall take measures, as it may find practicable, to ensure that an aircraft subjected to an act of unlawful seizure which has landed in its territory is detained on the ground, except if a departure is necessitated by the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: overriding duty to protect human life.
+          wrongAnswers:
+            - text: overriding duty to protect air traffic services.
+            - text: lack of security at the aerodrome.
+            - text: lack of refuelling capabilities.
+- id: QXUAZ
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106465
+    - AVEXAM-2627
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.06.01.01
+  templates:
+    - type: simple
+      question: How often should crew members undergo security training?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: On initial basis and recurrently.
+          wrongAnswers:
+            - text: Only when incidents occur.
+            - text: Once every year.
+            - text: Only initially.
+    - type: simple
+      question: What is the frequency of security training for crew members ?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: On initial basis and recurrently.
+          wrongAnswers:
+            - text: Once every year.
+            - text: Only when incidents occur.
+            - text: Only initially.
+- id: QTMKR
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109270
+    - AVEXAM-43281
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.06.01.01
+  templates:
+    - type: simple
+      question: Appropriate actions of crew members can minimise the consequences of acts of unlawful interference if the operator..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: establishes and maintains an approved security training programme.
+          wrongAnswers:
+            - text: includes, for each flight, law enforcement officers or in-flight security officers carrying weapons.
+            - text: establishes effective corrective action after each unlawful incident.
+            - text: provides crew members with adequate training for using weapons, if these are authorised for carriage onboard.
+- id: QTSAX
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105040
+    - BGS-101408
+    - AVEXAM-19819
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.06.01.01
+  templates:
+    - type: simple
+      question: According to ICAO Annex 17 (Security), a German airline must establish an operator security programme in writing and...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: implement and maintain it. The programme must comply with the national civil aviation security programme of Germany.
+          wrongAnswers:
+            - text: hand deliver it to the competent authority. The programme must comply with the international civil aviation transport airline security programme of IATA.
+            - text: implement and maintain it. The programme must comply with the European aviation security programme of EASA.
+            - text: hand deliver it to the competent authority. The programme must comply with the international aviation security programme of ICAO.
+- id: QUKKD
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103517
+    - AVEXAM-95190
+    - BGS-101203
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.07.01.01
+  templates:
+    - type: simple
+      question: When an aircraft is subjected to unlawful interference, what is the commander's primary goal?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To land the aircraft as soon as possible.
+          wrongAnswers:
+            - text: To overpower the unlawful people involved.
+            - text: To avoid damage and preserve the life of the aircraft.
+            - text: To protect both the crew and human life by continuing to the assigned destination.
+- id: QVNBB
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103788
+    - AVEXAM-1991
+    - BGS-101212
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.07.01.01
+    - 010.12.07.03.01
+  templates:
+    - type: simple
+      question: A pilot is taxiing when someone tries to enter the cockpit. What shall the pilot do?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: they must remain as far away from other aircraft as possible and taxi to a designated or isolated parking area in accordance with local instructions.
+          wrongAnswers:
+            - text: they must taxi towards the terminal areas so that help can be obtained as soon as possible.
+            - text: they must always immediately initiate an emergency evacuation.
+            - text: they must take-off and fly towards an isolated airfield.
+- id: QKLAH
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108904
+    - AVEXAM-353
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.07.01.02
+    - 010.12.07.01.03
+  templates:
+    - type: simple
+      question: What should a pilot do if they are unable to contact ATC in the case of an unlawful interference at FL290 in RVSM airspace?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Climb or descend 500 ft.
+          wrongAnswers:
+            - text: Climb or descend 1 000 ft.
+            - text: Climb 1 000 ft or descend 500 ft.
+            - text: Descend to 10 000 ft.
+- id: QVVOB
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108299
+    - AVEXAM-57809
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.07.01.02
+    - 010.12.07.01.03
+  templates:
+    - type: simple
+      question: An aircraft is being subjected to unlawful interference in non RVSM airspace. The pilot is forced to divert from the cleared track and/or cruising level without being able to communicate this to ATS. The pilot should attempt to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: proceed at a level which differs from the cruising level normally used for IFR flights in that area by 1 000 ft above FL 290, or 500 ft below FL 290.
+          wrongAnswers:
+            - text: fly the emergency triangle and try to establish radiotelephony contact with the interference coordinator of the appropriate ATS unit on 121.5 MHz.
+            - text: slow the speed of the aircraft down to minimum, squawk A 7700 and declare emergency on 121.5 MHz.
+            - text: commence as soon as possible an emergency descent in order to minimise the difference between cabin pressure and outside pressure.
+- id: QPVYE
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101079
+    - AVEXAM-54803
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.07.01.03
+  templates:
+    - type: simple
+      question: During cruise, a climbing RA is triggered showing the instruction to climb at 1500 ft/min. The pilot realises that the other aircraft is climbing as well. How should the pilot respond?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Climb according to RA, 1500 ft/min or slightly higher.
+          wrongAnswers:
+            - text: Visually maneuver and avoid the traffic.
+            - text: Make a shallow descent.
+            - text: Climb according to RA, but at the maximum vertical speed.
+    - type: simple
+      question: During cruise, a climbing RA is triggered showing the instruction to climb at 1 500 ft/min. The pilot realises that the other aircraft is also climbing. What action should the pilot take?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Climb according to RA, 1 500 ft/min or slightly higher.
+          wrongAnswers:
+            - text: Climb according to RA, but at a maximum vertical speed.
+            - text: Make a shallow descent.
+            - text: Visually maneuver and avoid the traffic.
+- id: QBOCC
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103465
+    - BGS-102090
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.07.01.03
+  templates:
+    - type: simple
+      question: |-
+        An aircraft is hijacked and is NOT in contact with ATC. No applicable regional procedures have been established.  
+        According to ICAO Annex 2\. The pilot should try to climb or descend by (1) \_\_\_\_\_ in an area where a vertical separation minimum of (2) \_\_\_\_\_ is applied.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) 500 ft; (2) 1 000 ft
+          wrongAnswers:
+            - text: (1) 1 000 ft; (2) 1 000 ft
+            - text: (1) 500 ft; (2) 2 000 ft
+            - text: (1) 1 500 ft; (2) 2 000 ft
+- id: QFCBI
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107996
+    - BGS-101686
+    - AVEXAM-59230
+    - ATPLQ-103240
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.07.01.03
+  templates:
+    - type: simple
+      question: In a situation of unlawful interference, an aircraft has had to depart from its assigned routing or cruising level. In accordance with ICAO Annex 2 (and where no special procedures for in-flight contingencies are established), the PIC should proceed whenever possible at a flight level which differs from the cruising levels normally used for IFR flights by...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 500 ft where a minimum vertical separation of 1000 ft is applied, or 1000 ft where a minimum separation of 2000 ft is applied.
+          wrongAnswers:
+            - text: 250 ft, independent of the minimum vertical separation in the current airspace.
+            - text: 500 ft, independent of the minimum vertical separation in the current airspace.
+            - text: 500 ft if its magnetic track is comprised between 000° and 179°, or 1000 ft if its magnetic track is between 180° and 359°.
+- id: QBHTR
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107013
+    - BGS-101643
+    - AVEXAM-1261
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.07.03.01
+    - 010.12.07.04.01
+  templates:
+    - type: simple
+      question: If an unlawfully interfered aircraft arrives at an aerodrome, where shall the aerodrome control tower advise that aircraft to park?
+      explanation: An aircraft known or believed to be subjected to unlawful interference is directed to an isolated aircraft parking position, away from other aircraft and buildings, where it can be dealt with safely.
+      presets:
+        - correctAnswers:
+            - text: At an isolated aircraft parking position.
+          wrongAnswers:
+            - text: At the gate closest from the control tower.
+            - text: On the taxiway closest to the rescue and firefighting service station.
+            - text: At the first available gate.
+- id: QFSMU
+  subjectId: "010"
+  chapterId: "010.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109759
+    - AVEXAM-23581
+  annexes: []
+  learningObjectiveIds:
+    - 010.12.07.03.01
+  templates:
+    - type: simple
+      question: How far away from other aircraft and buildings should the pilot park the aircraft if a bomb threat is suspected?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 100 m
+          wrongAnswers:
+            - text: 500 m
+            - text: 200 m
+            - text: 350 m

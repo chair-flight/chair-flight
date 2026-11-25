@@ -1,0 +1,3585 @@
+id: atpl_a
+title: EASA ATPL Theory
+shortTitle: ATPL
+subtitle: EASA ECQB 2026
+description: Explore questions and take practice tests from the EASA QB ATPL exams.
+annexes:
+  - id: AAAU
+    format: svg
+    description: "CAP 696 Mass and Balance Manual, PDF page 34, Section 4 - MRJT1
+      Page 8: Figure 4.11 CG Envelope - MRJT1"
+    source: ""
+  - id: AABF
+    format: svg
+    description: "Excerpt from flight log: waypoints ALPHA, BETA, GAMMA, DELTA,
+      SIERRA, MIKE with ETA, ATA, planned remaining fuel (3400, 3220, 2770,
+      2140, 1780, 1510 kg) and actual remaining fuel for first three"
+    source: ""
+  - id: AAIB
+    format: svg
+    description: "Twin-engine AC/DC electrical system single-line diagram: GEN 1,
+      GEN 2, APU GEN, EXT PWR, breakers GB1/GB2/AGB/EPB, BTB 1/2, AC 1, AC 2,
+      ESS AC, EMER AC, TRU 1, TRU 2, ESS TRU, BAT CHGR 1/2, INV, DC 1, DC 2, ESS
+      DC, EMER DC, BAT 1, BAT 2, DC X-TIE"
+    source: ""
+  - id: AAII
+    format: webp
+    description: Aircraft with three gyro assemblies labelled A, B, C on the three
+      axes (roll, pitch, yaw gyro identification; C in fuselage tail, A in nose,
+      B across wings); correct matching 1B, 2C, 3A
+    source: ""
+  - id: AAIZ
+    format: webp
+    description: "Jeppesen VFR chart (ICAO 1:500,000 style) southern Germany,
+      Swabian Jura: Reutlingen, Albstadt-Degerfeld, Sigmaringen (EDTM),
+      Tuttlingen, Saulgau, Ulm, Biberach, Stuttgart C/D airspace, restricted
+      area ED-R 132 A/B, Langen Information 128.95; quadrants 4-3 to 4-8"
+    source: ""
+  - id: AAJH
+    format: webp
+    description: HSI display with glideslope scale (GS), compass card with heading
+      about 350, yellow course arrow and deviation bar, TO/FROM triangle, HDG
+      and CRS knobs
+    source: ""
+  - id: AAKR
+    format: webp
+    description: ICAO SIGWX fixed time prognostic chart, area EURO, FL 100-450, WAFC
+      London, PGDE14 EGRR, valid 12 UTC 17 Feb 2016. Jet streams FL300-FL370, CB
+      areas (ISOL EMBD, OCNL), CAT areas 1-9, icing and turbulence boxes,
+      tropopause heights 220 L, 400, 450
+    source: ""
+  - id: AAKS
+    format: svg
+    description: "ND (navigation display) expanded ILS mode: HDG 280 M, DME 16.5 NM,
+      ILS 110.9, selected heading 260, course pointer 27 and 30 track bars,
+      localizer deviation dots, glideslope pointer, wind arrow 30; aircraft
+      right of localizer and below glidepath, track 272° M"
+    source: ""
+  - id: AALH
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 29, Section 3 -
+      MEP1 Page 5: Figure 3.2 Accelerate/Stop Distance – Flaps 0°"
+    source: ""
+  - id: AALS
+    format: svg
+    description: Vertical cross-section of cold front (left, triangles) and warm
+      front (right, semicircles), columns A to E and rows 1 to 3, heights 35.000
+      ft tropopause, 18.000 ft, 7.000 ft, 0 C isotherm, surface
+    source: ""
+  - id: AAML
+    format: svg
+    description: "Long Range Cruise table, two engine jet aeroplane: pressure
+      altitude 38000, 37000, 36000 ft vs mass 70000-50000 kg, giving %N1, IAS,
+      Mach, fuel flow per engine (kg/h) and TAS; notes on TAT corrections"
+    source: ""
+  - id: AANJ
+    format: webp
+    description: ADF and HI (heading indicator) pair, ADF needle pointing to about
+      225 relative bearing, HI heading about 300 degrees, HDG knob
+    source: ""
+  - id: AAPJ
+    format: svg
+    description: Weather chart symbol
+    source: ""
+  - id: AAPK
+    format: webp
+    description: Axial compressor rotor and stator blade arrangements, Figures 1 to
+      4, incoming airflow, rotor moving down, stator position and blade
+      curvature (compressor stage velocity diagram)
+    source: ""
+  - id: AASA
+    format: webp
+    description: IFR en-route low altitude chart (Jeppesen) Ireland/Northern Ireland
+      W011°-W007°, N54°-N55°, 1 inch=15 NM scale, Shannon FIR, Shanwick OCA,
+      Belfast BEL 117.2, Londonderry/Eglinton, Sligo SLG, Ireland West Knock,
+      Dublin 127.00, Machrihanish warning, section markers A and B
+    source: ""
+  - id: AASQ
+    format: webp
+    description: "Jeppesen en-route chart excerpt, English Midlands / Yorkshire:
+      Pole Hill POL 112.1, Trent TNT 115.7, Manchester MCT 113.55, Honiley HON
+      113.65, Daventry DTY 116.4, Leeds Bradford CTA, East Midlands CTA,
+      Doncaster Sheffield CTA, Midlands CTA, airways Y70, L975, N859"
+    source: ""
+  - id: AAST
+    format: webp
+    description: Marshaller with one arm raised and a hand showing a thumb up
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AATP
+    format: webp
+    description: Two views of a marshaller with arms raised, one arm sweeping a wand
+      across in an arc
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AAUK
+    format: webp
+    description: "Null-seeking slotted probe angle of attack (AOA) sensor, figures A
+      to D: slots aligned with relative airflow (A), slots tilted (B, C) and
+      reversed probe (D); correct answer figure B, rotates anti-clockwise"
+    source: ""
+  - id: AAVS
+    format: webp
+    description: "Twin-engine electrical system diagram with contactors: GEN 1, GEN
+      2, EXT PWR, ACTIE, ACMON1/2, AC1/AC2 primary, monitored, anti-ice and EMER
+      buses, INV, TRU 1/2/3, BAT 1, BAT 2, BAT1, BAT2, BAT TIE, B1, B2, DCTIE,
+      DCMON1/2, DC1/DC2 primary, essential and monitored buses"
+    source: ""
+  - id: ABCN
+    format: svg
+    description: "Standard times (corrected to September 1993) List III places slow
+      on UTC (west of Greenwich): Jamaica 05, Mexico 06, Peru 05, Puerto Rico
+      04, USA states (Alabama 06, California 08, Hawaii 10, New York 05 etc.),
+      Uruguay 03, Venezuela 04; subtract from UTC for Standard Time"
+    source: ""
+  - id: ABDJ
+    format: webp
+    description: World map (050-053) with Dakar, Recife, Nairobi, Mumbai, Melbourne
+      marked, a line joining Dakar and Recife, latitude and longitude graticule
+    source: ""
+  - id: ABFG
+    format: webp
+    description: Aeroplane in climb with angles X (angle between aircraft
+      longitudinal axis/ nose and flight path vector = angle of attack), Y
+      (flight path angle between flight path vector and horizon), Z (pitch
+      attitude between longitudinal axis and horizon); Horizon, Flight path
+      vector
+    source: ""
+  - id: ABFW
+    format: svg
+    description: Table of flight level 40, 80, 120, 160, 200 with TAS (190-220 kt)
+      and hourly fuel flow (210-156 l/hr)
+    source: ""
+  - id: ABGH
+    format: webp
+    description: "Four trailing edge flap types 1-4: 1 plain/split flap, 2 blown
+      flap (jet of air over flap), 3 slotted flap, 4 Fowler/ double slotted
+      flap"
+    source: ""
+  - id: ABGP
+    format: svg
+    description: "Wet runway speed tables: take-off speeds V1, VR, V2 at 70000 kg
+      for flaps 5, 10, 15, 25 (e.g. flaps 5: 129/138/148) and landing Vref at
+      45000 kg for flaps 40/30/15 (104/106/111). Rejected take-off on flooded
+      runway question"
+    source: ""
+  - id: ABHP
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 89, Section 4 -
+      MRJT1 Page 41: Figure 4.24 Driftdown Profiles – Net Flight Path"
+    source: ""
+  - id: ABIF
+    format: webp
+    description: EFIS navigation display with a compass arc, magnetic heading 280°,
+      and DME reading 30.0 NM.
+    source: ""
+  - id: ABKS
+    format: webp
+    description: EFIS ND arc mode HDG 121 M, range 27.5 NM, time 1222.3z, wind
+      110/56, weather cell red/yellow/green, flight plan waypoints BUGLE 1222Z
+      CAMPO 1306Z SADIM 1344Z
+    source: ""
+  - id: ABLF
+    format: svg
+    description: "Flight log fuel planning section: trip 3:20 1800 kg, contingency
+      90, alternate 1100, final reserve 210, minimum TOF 3200, extra 990, TOF
+      4190, taxi 50, ramp 4240; mass DOM 4370, payload 500, ZFM 4870, TOM 9060,
+      est landing mass 7260"
+    source: ""
+  - id: ABLI
+    format: webp
+    description: Turn coordinator / turn and slip indicator with L and R marks,
+      needle deflected right to R index, ball displaced to the right (slipping),
+      label 2 MIN TURN
+    source: ""
+  - id: ABLJ
+    format: webp
+    description: Mountain with wind arrows from the left and positions 1 to 6 around
+      the peak, upwind and downwind side. Mountain wave, lee waves, rotor,
+      lenticular cloud and turbulence position
+    source: ""
+  - id: ABPM
+    format: webp
+    description: ND map mode TRK 073 M with flight plan GHT, AST, GVS, YTB, EDI;
+      off-route airports KABC, KLKN, KEFJ, KNTR, KLMI shown as circles; VOR/DME
+      symbols TBX OLV HSM FGL QTX; ILS 110.9; wind arrow 20
+    source: ""
+  - id: ABSM
+    format: webp
+    description: "Jeppesen ILS or LOC Rwy 19, Tromso Langnes ENTC/TOS Norway, 18 Aug
+      17: ATIS 126.125, Approach 123.750, Tower 118.3, LOC TR 109.9, final
+      approach course 185 degrees, GS 1934 ft (1919), apt elev 32 ft, DA(H) A
+      289 B 309 C 322 D 339, missed approach climb straight ahead to 3000 ft or
+      D7.7 TR; steep GS 4.00 degrees; MSA KV Lctr; racetrack 005, BAXAS,
+      KVALSUND 362 KV, TROMSO 113.8 TRO"
+    source: ""
+  - id: ABUB
+    format: svg
+    description: "CAA page 13 Runway State Group in METAR/SPECI, eight figure group:
+      (a) runway designator, (b) runway deposits, (c) extent of contamination,
+      (d) depth of deposit, (e) friction coefficient or braking action. CLRD,
+      SNOCLO"
+    source: ""
+  - id: ABVL
+    format: svg
+    description: "Twin turboprop / MEP take-off performance table, pressure altitude
+      0 ft, flaps clean: gross mass 9.0-12.5 x1000 lb vs OAT -20 to 40C giving
+      stop/go distances (ft) and V2/Vy/gradient; correction flaps 10 reduce GO
+      2%, altitude +10C per 1000 ft. Used for ASD/AGD and regulated take-off
+      mass"
+    source: ""
+  - id: ABYI
+    format: webp
+    description: Road-holding position sign, red STOP octagon with DO NOT PROCEED
+      CONTACT ATC plate
+    source: ""
+  - id: ACBC
+    format: webp
+    description: Hydraulic brake system diagrams 1 to 4, pump, reservoir,
+      accumulator, brakes, check (non-return) valve position
+    source: ""
+  - id: ACDA
+    format: webp
+    description: "Jeppesen VFR chart 19-1 Nantes/Atlantique (LFRS), France, scale
+      1:250,000: VFR reporting points (W1-W4, NW, NE, E1-E3, SW, E, W), CTR/TMA
+      Nantes (class D) limits and altitudes, ATC clearance routes, VOR/DME NTS
+      115.50, Nantes Tower 118.650, ATIS 126.925, elevation 90 ft"
+    source: ""
+  - id: ACDW
+    format: webp
+    description: "Fuel price ratio graph: fuel price ratio (0.83-0.98) vs optimum
+      aircraft weight (160-210 x 1000 kg / 360-460 x 1000 lb) by air distance
+      500-5000 NM, example line at 0.89 ratio"
+    source: ""
+  - id: ACEF
+    format: svg
+    description: Drag vs speed curve with horizontal thrust line, speeds A-F marked.
+      Thrust meets drag at A and D, minimum drag at C (best angle of climb
+      speed), E and F on the back side. Used for max angle of climb / speed
+      stability questions
+    source: ""
+  - id: ACET
+    format: svg
+    description: "Excerpt from flight log: waypoints ALPHA, BETA, GAMMA, DELTA,
+      SIERRA, MIKE with ETA, ATA, planned remaining fuel (3400, 3010, 2685,
+      2230, 1645, 1450 kg) and actual remaining fuel (3400, 2950, 2575 kg)"
+    source: ""
+  - id: ACHZ
+    format: webp
+    description: ADF and HI (heading indicator) pair, ADF needle pointing to about
+      125 degrees relative bearing, HI heading about 075 degrees, HDG knob
+    source: ""
+  - id: ACIK
+    format: svg
+    description: "CAP 697 Flight Planning Manual, PDF page 85, Section 4 -
+      MRJT1  Page 53: Figure 4.5.3.2"
+    source: ""
+  - id: ACJR
+    format: webp
+    description: "Jeppesen EHAM/AMS Amsterdam Schiphol STAR chart LAMSO 2A, MOLIX 2A
+      and REDFA 1A arrivals: waypoints MOLIX, LAMSO, REDFA, EPTOS, SULUT, LUTEX,
+      ROBVI, SUGOL IAF, jet speed 260-280 KT at FL230, max 250 KT below FL100"
+    source: ""
+  - id: ACKM
+    format: webp
+    description: Globe diagram NP to SP with latitude zones R, S, T, U, V, W, X, Y,
+      Z bounded at 70N, 40N, 20N, 0, 20S, 40S, 70S (climate zones and pressure
+      belts)
+    source: ""
+  - id: ACLK
+    format: webp
+    description: Marshaller with one arm sweeping a wand in a large arc from the
+      side up to overhead
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: ACNB
+    format: webp
+    description: "Photo of a cumulonimbus (Cb) with anvil, labelled 1 to 5: 1 anvil
+      top, 2 cumulus congestus, 3 main updraft or mature cell, 4 mammatus or
+      outflow cloud, 5 base. Identify parts of a thunderstorm cloud"
+    source: ""
+  - id: ACQL
+    format: webp
+    description: "Satellite cloud image of Scandinavia, the Baltic and Finland with
+      city names: Oslo, Stockholm, Bergen, Trondheim, Helsinki, Oulu, Lulea,
+      Umea, Tampere, Gavle, Sundsvall. Cloud cover, no route drawn. Satellite
+      weather imagery interpretation"
+    source: ""
+  - id: ACTD
+    format: webp
+    description: "MRJT correction of DOM and DOI: flight deck pilot +85 kg index
+      -1.7, cabin crew +75 kg at forward door -1.3, emergency exit 0.0, aft door
+      +1.5; catering index correction per 100 kg forward galley -2.2, aft galley
+      +2.0"
+    source: ""
+  - id: ACTU
+    format: svg
+    description: "One engine inoperative maximum cruise altitude table, air cond on,
+      one engine MCT, L/G up: mass (24000-44000 lb) and IAS vs ISA-5 to ISA+20,
+      cruise altitude with anti-ice off (top) and anti-ice on (bold)"
+    source: ""
+  - id: ACTV
+    format: svg
+    description: Weather chart symbol
+    source: ""
+  - id: ACUU
+    format: webp
+    description: RMI display with two needles (single yellow ADF/VOR 2 and double
+      green VOR 1), compass card, ADF and NAV selector labels
+    source: ""
+  - id: ACVY
+    format: svg
+    description: Four figures 1 to 4 of isobaric surfaces 500, 700, 850, 1000 hPa
+      between cold and warm air, surface, pressure surfaces bulging up or down
+      over warm air (thickness, thermal wind)
+    source: ""
+  - id: ACWI
+    format: webp
+    description: Four cross-section sketches 1 to 4 of fronts with cold (blue) and
+      warm (pink) air, arrow showing direction of movement, warm sector in
+      occlusion (cold, warm, warm-type occlusion)
+    source: ""
+  - id: ACWT
+    format: webp
+    description: Satellite image of north-west Europe, UK, North Sea, Scandinavia
+      and cloud spiral, pink arrow pointing to a cloud band, stations marked
+      with red dots and letters (cloud pattern, front or depression)
+    source: ""
+  - id: ACZC
+    format: webp
+    description: NOAA OPC 72-hour surface forecast, North Atlantic, issued 19:29 UTC
+      25 Jul 2023, valid 12:00 UTC 28 Jul 2023. Isobars, highs and lows (984,
+      994, 1016, 1027 hPa), cold, warm and occluded fronts, gale warnings
+    source: ""
+  - id: ACZO
+    format: svg
+    description: "Take-off performance sheet runway 23L-VB (TORA 2955 m, TODA 3255,
+      ASDA 2955, slope -0.4%, elev 257 ft, ISA+14, QNH 1013), T/O CONFIG T/O 1,
+      dry: MTOM (100 kg) and limitation code, V1-VR-V2 by OAT 67 to -15C and
+      tailwind -10/-5, 0, headwind +10/+20 kt; corrections for packs, anti-ice,
+      QNH, line-up, wet; limitation codes 1-9"
+    source: ""
+  - id: ADAC
+    format: webp
+    description: Marshaller seen from the side making a circular motion with the
+      forearm in front of the chest
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: ADAS
+    format: webp
+    description: "Cargo compartment smoke detection logic diagram: sensors C1, C2,
+      C3, C4 into two OR gates feeding an AND gate to Alert (alert needs one of
+      C1/C3 and one of C2/C4)"
+    source: ""
+  - id: ADBF
+    format: svg
+    description: "Graph Motion versus Time: divergent oscillation with increasing
+      amplitude (dynamic instability, e.g. phugoid or dutch roll diverging)"
+    source: ""
+  - id: ADBM
+    format: webp
+    description: Photo of a thunderstorm at night, purple sky, lightning bolt
+      between dark clouds above a green landscape. Lightning, cloud to cloud
+      discharge
+    source: ""
+  - id: ADBU
+    format: webp
+    description: Simple approach lighting system, centre line with crossbar at 300
+      m, 420 m minimum, runway threshold, ICAO Annex 14
+    source: ""
+  - id: ADDW
+    format: webp
+    description: "Jeppesen Nantes Atlantique LFRS/NTE (10-9) airport chart: RWY
+      03/21 9514' (2900m), taxiways, hot spot HS, general aviation apron, taxi
+      restrictions for AN124, usable lengths, take-off minima table, runway
+      elevation 90'"
+    source: ""
+  - id: ADEI
+    format: webp
+    description: "Four antenna types Figures 1-4: parabolic dish, circular Doppler
+      VOR array (DVOR), loop/patch element, flat panel (phased array) antenna"
+    source: ""
+  - id: ADHS
+    format: svg
+    description: Short trip fuel and time planning by ground distance, wind and
+      landing weight
+    source: ""
+  - id: ADJY
+    format: webp
+    description: Glass cockpit PFD and HSI/GPS map, speed 0 kt, altitude 14000 ft,
+      TAS 157 kt GS 136 kt OAT -7C, wind 222/21 kt, HDG 005, baro 30.12 in, GPSS
+      MAP 360 MIN TPS, Vfo Vlo
+    source: ""
+  - id: ADKV
+    format: webp
+    description: "Jeppesen en-route chart excerpt, Corsica / Tuscany / Tyrrhenian
+      Sea: Ajaccio AJO 114.8, Bastia BTA 114.15, Elba ELB 114.7, Grosseto GRO
+      109.85, Calvi CV 375, Marseille/Rome FIR boundary, Bastia TMA, Ajaccio
+      TMA, airways L146, L127, A9, G116"
+    source: ""
+  - id: ADML
+    format: webp
+    description: "Wing planform diagram with dimensions: span 12.5 m, root chord 1.5
+      m, tip chord 1.0 m (tapered, swept trailing edge) used to compute wing
+      area, aspect ratio, mean chord"
+    source: ""
+  - id: ADMS
+    format: webp
+    description: "Load & trim CG envelope chart (index 20-90 vs mass 35000-70000 kg,
+      % MAC lines 12-28%): max take-off mass 69999 kg, max landing mass 57999
+      kg, max zero fuel mass 54999 kg, operational limits"
+    source: ""
+  - id: ADSV
+    format: webp
+    description: IFR en-route low altitude chart (Jeppesen) Ireland, Dublin DUB,
+      Shannon SHA, Cork CRK, Belfast BEL, Isle of Man, Shannon FIR/CTA, airways,
+      section markers C and D
+    source: ""
+  - id: ADTP
+    format: svg
+    description: VOR indicators Figure 1-4, OBS, TO/FR flags, red GS flag, CDI
+      centred, selected courses 150, 060, 300 and 240 respectively
+    source: ""
+  - id: ADVI
+    format: webp
+    description: Marshaller with arms extended down and outwards, wands moving up
+      and down in small arcs
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: ADWE
+    format: webp
+    description: "Completed flight log D-KEIN LOWZ to EDNL (15/7, take-off 08:09
+      UTC): legs Saalfelden, TOC, Chiemsee Island, Seeshaupt, Tall mast, EDNL
+      with track, wind, heading, GS, distance, time, ETA and planned fuel; ramp,
+      take-off and landing mass"
+    source: ""
+  - id: ADWQ
+    format: webp
+    description: En-route low altitude chart extract Corsica/Sardinia/Italy, Ajaccio
+      AJO 114.8, Alghero ALG 113.8, Rome FIR, airways M601 M603 M858 Y19 Z240
+      O714 O123, waypoints LOKDU OBOBO GOPAT EPIKU GINOX ELSAG ORKUM KUPIM
+      SODIO, N40-N42 E007-E009
+    source: ""
+  - id: ADXN
+    format: webp
+    description: "Jeppesen en-route chart excerpt, south-eastern Spain (Albacete,
+      Valencia, Alicante, Murcia, San Javier, Almeria, Granada, Ibiza): airways,
+      VORs, TMAs, Oran/Algiers FIR boundary"
+    source: ""
+  - id: ADYX
+    format: webp
+    description: HSI display (TO flag, course about 200 degrees) and four RMI
+      options A-D, question to select the RMI needle indication
+    source: ""
+  - id: AECT
+    format: webp
+    description: "Photos of four ground antennas 1-4: localiser array (log-periodic
+      dipoles), radar dish, glide path / VOR-type circular antenna on shelter,
+      Doppler VOR antenna with many elements"
+    source: ""
+  - id: AEDL
+    format: webp
+    description: "Four diagrams of 50 kt wind over a mountain ridge with dashed
+      airflow streamline: 1 small lift over the ridge, 2 mountain wave with
+      lee-side oscillations, 3 straight undisturbed flow, 4 dip on the lee side"
+    source: ""
+  - id: AEFO
+    format: webp
+    description: Marshaller with right arm extended sideways and left arm sweeping
+      the wand across the body
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AEHJ
+    format: webp
+    description: Aerodrome markings and signs, symbols 1 to 5, runway holding
+      position patterns A and B, intersection, 11 CAT II/III holding position
+      sign
+    source: ""
+  - id: AEIS
+    format: webp
+    description: "Inertial Reference System (IRS) control and display panel: DATA
+      selector (TEST, TK/GS, PPOS, WIND, HDG, STS), SYS selector, keyboard N 2,
+      W 4, H 5, E 6, S 8, ENT, CLR, IR1 IR2 IR3 lights, three mode selector
+      switches OFF/NAV/ATT set to NAV, ADR1 ADR2 ADR3, display N 37371 W 122235"
+    source: ""
+  - id: AEKM
+    format: svg
+    description: Weather chart symbol
+    source: ""
+  - id: AEOY
+    format: webp
+    description: "Jeppesen Alicante LEAL/ALC (10-2A) STAR chart: MABUX 3L, MABUX 1N,
+      MABUX 1P arrivals RWY 10 and RWY 28, KOVAM, VILNA, BESOR, D45.3 ALT, speed
+      max 250 KT below FL100, 220 KT leaving IAF"
+    source: ""
+  - id: AEQF
+    format: svg
+    description: "Take-off performance sheet runway 05L-VB (TORA 2890 m, TODA 3190,
+      ASDA 2890, slope -0.5%, elev 1000 ft, ISA+13, QNH 1013), T/O CONFIG T/O 1,
+      dry: MTOM (1000 kg), limitation code, V1-VR-V2 by OAT 67 to -25C and
+      tailwind -10/-5, 0, headwind +10/+20 kt; corrections for packs, anti-ice,
+      QNH, line-up, wet; limitation codes 1-9"
+    source: ""
+  - id: AEUS
+    format: webp
+    description: Surface pressure analysis valid 0000 UTC Mon 06 Feb 2017, North
+      Atlantic and Europe, cold, warm and occluded fronts, lows 979, 977, 998,
+      highs 1033, 1040, 1011, line A to B
+    source: ""
+  - id: AEXH
+    format: webp
+    description: "Jeppesen VFR chart excerpt, eastern Bavaria and Czech border:
+      Regensburg, Straubing EDMS, Deggendorf, Passau, Landshut, Vilshofen,
+      Eggenfelden, Munich control zone edge, quadrant numbers 3-2, 5-4, 7-2,
+      5-9, 3-8, 3-9"
+    source: ""
+  - id: AEZL
+    format: webp
+    description: Frontal cross-section sketches 1 to 4 between A and B
+      (ECQB-050-007) for a warm and cold front occlusion with plan view showing
+      line A to B across the fronts, cloud and frontal surfaces, cumulonimbus
+      anvil
+    source: ""
+  - id: AFAB
+    format: svg
+    description: Thrust available vs IAS, four figures A-D comparing one engine
+      (solid) and both engines (dashed) with arrows showing the change after
+      engine failure; Figure A (thrust drops, same IAS range) is the correct one
+    source: ""
+  - id: AFBG
+    format: webp
+    description: Diagram of a cumulonimbus cloud with labelled ovals A to H, 0°
+      isotherm, direction of movement arrow, anvil on the upwind side, rain
+      below the cloud base. Thunderstorm structure, identify parts of a Cb
+    source: ""
+  - id: AFBX
+    format: webp
+    description: VFR chart Bavaria Straubing area (E012°30' to E013°00', N49°00'),
+      EDMS Straubing 1054 1350m 127.15 ATIS 135.52, EDPG Griesau, EDMW
+      Deggendorf, EDNB Arnbruck, Roding RDG 114.70 VOR, Cham Janahof, restricted
+      area ED R-139, Danube
+    source: ""
+  - id: AFCF
+    format: webp
+    description: Pilot in the cockpit window with both arms crossed in front of the
+      face and arrows pointing inwards
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AFCS
+    format: webp
+    description: Marshaller with one arm raised overhead and a pilot shown in a
+      cockpit window pointing, arrows pointing down
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AFDB
+    format: webp
+    description: Surface pressure map near Tromso, Hammerfest and Murmansk, isobars
+      981 to 1014 hPa, four numbered arrows 1 to 4 showing directions relative
+      to isobars (wind, pressure gradient directions)
+    source: ""
+  - id: AFEC
+    format: webp
+    description: Aeroplane top view with relative airflow arrows flowing downward
+      and angle alpha between longitudinal axis and relative airflow (angle of
+      attack)
+    source: ""
+  - id: AFQE
+    format: svg
+    description: Weather chart symbol
+    source: ""
+  - id: AMIC
+    format: svg
+    description: Weather chart symbol
+    source: ""
+  - id: AMTB
+    format: svg
+    description: Weather chart symbol
+    source: ""
+  - id: AFQK
+    format: webp
+    description: Terrain contour map with airport runway 15/33 near coast, contours
+      1000 to 5000 ft, spot height 5950 ft, north arrow (terrain, mountain
+      wave/obstacle)
+    source: ""
+  - id: AFUC
+    format: webp
+    description: "Airfield diagram for obstacle clearance: crossing runways 09/27
+      and 18/36, control tower 250 ft AMSL 1 NM west, power lines 400 ft AMSL
+      1.5 NM east, trees 800 ft AMSL 2 NM south; table all runways sea level, 0%
+      slope. Single-engine take-off obstacle clearance"
+    source: ""
+  - id: AFUU
+    format: svg
+    description: "Fuel tank layout diagram, large twin-aisle aircraft: outer tank,
+      inner tank, inner tank division, vent tank, trim tank; usable fuel table
+      in litres, US gallons, kg and lb (total 97530 l, 25764 US gal, 76561 kg,
+      168788 lb; fuel specific gravity 0.785)"
+    source: ""
+  - id: AFXR
+    format: svg
+    description: "CAP 696 Mass and Balance Manual, PDF page 17, Section 2 - SEP1
+      Page 1: Figure 2.1 Location Diagram"
+    source: ""
+  - id: AFYW
+    format: webp
+    description: "Load limitations for lower deck cargo compartments (MRJT, lb and
+      kg): forward compartment BA 228-500 in, aft compartment BA 731-1096 in;
+      maximum running load lb/in (kg/in), distribution load intensity 150 lb/ft2
+      (68 kg/ft2), compartment load, centroid, total load 7288 lb / 9232 lb,
+      hold volume 607 / 766 ft3"
+    source: ""
+  - id: AFZX
+    format: webp
+    description: Four sketches 1 to 4 of a curved route with dot and flight levels
+      F300, F350 and F370 labelled on either side (jet stream / wind side of
+      track, cross-section options)
+    source: ""
+  - id: AGBA
+    format: webp
+    description: "ND expanded ILS mode: HDG 280 M, selected heading bug 260, DME
+      16.5 NM, ILS 110.9, localizer 27 and 30, wind arrow 30, drift shown by
+      track line offset from heading (drift 8° left)"
+    source: ""
+  - id: AGBU
+    format: svg
+    description: Tables CAT.OP.MPA.185 planning minima IFR flights aeroplanes (DEST
+      ALTN, ERA; CAT I, NPA +1000 m, circling) and CAT.OP.MPA.186 helicopters,
+      with Aerodrome B (elevation 1180 ft, VOR/DME MDA 1590 ft, circling 1980
+      ft) and Aerodrome C (elevation 250 ft, ILS CAT I DA 1590 ft RVR 1200 m,
+      VOR/DME MDA 800 ft, circling 1250 ft)
+    source: ""
+  - id: AGCQ
+    format: svg
+    description: Air Operator Certificate (AOC) template, approval schedule for air
+      transport operators, Annex V Regulation (EU) 2018/1139
+    source: ""
+  - id: AGEQ
+    format: svg
+    description: "VFR navigation flight log legs LKFJ to LIRJ via AJO, LIBLO, BTA,
+      MOULE, XOPTA, ELB: safety altitude 11200 ft, TAS 130/170 kt, track, wind
+      050/15 and 070/20, magnetic variation 2°E, heading, GS, distance and time,
+      blank ETA/ATA"
+    source: ""
+  - id: AGGS
+    format: svg
+    description: "CAP 697 Flight Planning Manual, PDF page 101, Section 4 -
+      MRJT1  Page 69: Figure 4.5.4a Descent Table M.74/250 KIAS"
+    source: ""
+  - id: AGJO
+    format: svg
+    description: "Flight log excerpt (variant of TOC/WYPT 1-8 table): level 350,
+      tropopause, temperature, wind/velocity, TAS, GS, PRC, planned remaining
+      fuel 8.4 to 7.2 tonnes, with legend of abbreviations"
+    source: ""
+  - id: AGKK
+    format: webp
+    description: ILS approach vertical profile, outer marker D4.5 GS 1512 ft (1484
+      ft), middle marker D1.0, D7.5, D0.5, 2400 ft (2372), track 229 degrees,
+      APT elevation 28 ft, distances 3.0 3.5 1.0, missed approach point
+    source: ""
+  - id: AGKY
+    format: webp
+    description: Met Office surface analysis chart valid 18 UTC Tue 01 Nov 2016,
+      North Atlantic and Europe, geostrophic wind scale, fronts, lettered points
+      T U V W Y Z, highs 1037 1035 1030, lows 996 1012 1013 1015
+    source: ""
+  - id: AGMM
+    format: webp
+    description: "MRJT maximum structural masses: taxi 63,060 kg, take-off 62,800
+      kg, landing 54,900 kg, zero fuel 51,300 kg (Loading Manual MRJT 1
+      paragraph 3.1)"
+    source: ""
+  - id: AGNS
+    format: webp
+    description: Photograph of cumulus humilis and mediocris, fair weather cumulus
+      against deep blue sky
+    source: ""
+  - id: AGOD
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 37, Section 3 -
+      MEP1 Page 13: Figure 3.6 Take-Off Climb Performance – Gear Retracted"
+    source: ""
+  - id: AGSG
+    format: svg
+    description: Dangerous goods list extract, lithium ion batteries, UN number
+      3480, class 9, special provisions A88 A99 A154 A164 A183, packing group II
+    source: ""
+  - id: AGUP
+    format: webp
+    description: Aeroplane side view with reference datum at nose and variable arms
+      X (datum to MAC leading edge), Y (MAC length), and Z (datum to centre of
+      gravity).
+    source: ""
+  - id: AGVL
+    format: webp
+    description: "Jeppesen en-route chart excerpt, north-west Italy, south-east
+      France and Corsica (Nice, Genoa, Milan FIR, Marseille FIR, Bastia,
+      Ajaccio, Calvi): airways, Italian airspace classification note, Corsica
+      inset"
+    source: ""
+  - id: AGWA
+    format: webp
+    description: ILS approach vertical profile, outer marker D4.5 GS 1517 ft (1484
+      ft), middle marker D1.0, D7.5, D0.5, 2400 ft (2367 ft), track 232 degrees,
+      APT elevation 33 ft, distances 3.0 3.5 1.0, missed approach point M
+    source: ""
+  - id: AGWH
+    format: svg
+    description: "CAP 697 Flight Planning Manual, PDF page 76, Section 4 -
+      MRJT1  Page 44: Figure 4.5.3.2 Mach 0.74 Cruise, Pressure Altitude 28,000
+      ft"
+    source: ""
+  - id: AGXF
+    format: webp
+    description: EFIS ND rose mode, GS 360 TAS 462, wind 252/152, VOR 2 113.20 PSE
+      110 NM, VOR1 CVO 64 NM, dashed range ring 10 and 20 NM, CRS ---
+    source: ""
+  - id: AGYR
+    format: webp
+    description: Marshaller with both arms raised, wands horizontal and moving apart
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AHCC
+    format: webp
+    description: CDI displays A-D, four options with TO/FROM flags and course
+      deviation bar left or right of centre, compass card S-W-N-E, CRS knob
+    source: ""
+  - id: AHCG
+    format: svg
+    description: Eleven numbered weather chart symbols
+    source: ""
+  - id: AHDP
+    format: webp
+    description: "Route diagram for decision point (DP) fuel planning: DEP to DP 900
+      NM, DP to DEST 300 NM, DP to A 70 NM (elevation 1000 ft) then Alternate,
+      DEST elevation 1000 ft with DEST Alternate"
+    source: ""
+  - id: AHGJ
+    format: webp
+    description: "Jeppesen VFR chart (ICAO 1:500,000 style) southern Germany,
+      Swabian Jura / Lake Constance: Reutlingen, Albstadt-Degerfeld, Sigmaringen
+      (EDTM), Tuttlingen, Saulgau, Friedrichshafen (EDNY), Zurich TMA,
+      restricted area ED-R 132 A/B, Langen and Munchen FIS boundary; quadrants
+      4-3 to 5-9; not for navigation use"
+    source: ""
+  - id: AHHE
+    format: svg
+    description: Sunrise and morning civil twilight table, Dec 30 and January 2 5 8
+      11 14 17 20 23 26 29, February 1 4 7 10 13, latitudes N72 to S60, times
+      h/m
+    source: ""
+  - id: AHIF
+    format: webp
+    description: "Four shapes 1-4 in airflow V: semicircle (flat face upstream),
+      thin flat plate/rectangle, ellipse, circle; compare drag/form drag
+      (streamlining)"
+    source: ""
+  - id: AHLF
+    format: webp
+    description: Fuselage cross sections 1 to 4, square, circle, double bubble,
+      circle with floor, structural suitability for pressurised cabin
+    source: ""
+  - id: AHMY
+    format: svg
+    description: "Excerpt from flight log: waypoints ALPHA, BETA, GAMMA, DELTA,
+      SIERRA, MIKE with ETA, ATA, planned remaining fuel 3400, 3070, 2542, 1992,
+      1332, 1002 kg and actual remaining fuel for first three"
+    source: ""
+  - id: AHNI
+    format: webp
+    description: "Jeppesen VFR chart excerpt, Bavaria / Czech border: Straubing
+      EDMS, Deggendorf EDMW, Griesau EDPG, Arnbruck EDNB, Cham, Regen, Grafenau
+      EDNF, Vilshofen EDMV; ED-R 139, ED-3, FIS Munich/Praha boundary, quadrant
+      numbers 5-4, 7-2, 5-9"
+    source: ""
+  - id: AHSM
+    format: webp
+    description: "Jeppesen Alicante LEAL/ALC (13-1) VOR Z Rwy 10 approach chart: ATE
+      VOR 114.65, final approach course 100°, minimum alt D5.5 ATE 2200', DA(H)
+      730' (588'), descent angle 3.20°, VILNA IAF, 19 DME arc ATE, D17.0 ATE IF,
+      circle-to-land minima, missed approach to MAGAL"
+    source: ""
+  - id: AHSM
+    format: webp
+    description: "Jeppesen Alicante LEAL/ALC (13-1) VOR Z Rwy 10 approach chart: ATE
+      VOR 114.65, final approach course 100°, minimum alt D5.5 ATE 2200', DA(H)
+      730' (588'), descent angle 3.20°, VILNA IAF, 19 DME arc ATE, D17.0 ATE IF,
+      circle-to-land minima, missed approach to MAGAL"
+    source: ""
+  - id: AHTU
+    format: svg
+    description: Weather chart symbol
+    source: ""
+  - id: AHUE
+    format: webp
+    description: "Jeppesen Amsterdam Schiphol EHAM/AMS (10-2) STAR chart: EELDE 1A,
+      NORKU 2A, REKKEN 2A, EELDE 1B, NORKU 2B, REKKEN 2B arrivals, ARTIP IAF,
+      NARSO holding, EEL 112.4, RKN 116.8, jet 260-280 KT, max 250 KT below
+      FL100"
+    source: ""
+  - id: AHUT
+    format: webp
+    description: Photo of a cumulonimbus at night lit by internal lightning,
+      cauliflower-like towering cloud with an anvil shape. Thunderstorm cloud,
+      intra-cloud lightning
+    source: ""
+  - id: AHWG
+    format: webp
+    description: 061-11993 A diagram of points X Y Z on straight line, X to Y 30 NM,
+      Y to Z 20 NM
+    source: ""
+  - id: AHWS
+    format: webp
+    description: Marshaller with both arms down, wands pointing down and moving up and down
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AHXO
+    format: webp
+    description: "Jeppesen Alicante LEAL/ALC (13-4) VOR Y Rwy 28 approach chart: ALT
+      VOR 113.8, final approach course 260°, holding procedure, MDA(H) 820', no
+      FAF, missed approach turn left 080° to 4000', max 220 KT, circle-to-land
+      not authorized north"
+    source: ""
+  - id: AHYE
+    format: svg
+    description: "Drag versus TAS curves, Figures 1-4, solid and dashed curve with
+      arrows: figure 1 shifts up and left, figure 2 shifts right, figure 3
+      shifts up and right, figure 4 shifts up; drag curve shift with weight,
+      altitude, flaps, gear"
+    source: ""
+  - id: AHYU
+    format: webp
+    description: Plan view of depression with isobars, cold front, warm front and
+      occluded front, points A, B, C, D, E, F, compass rose N E S W, A-B-C line
+      across warm sector
+    source: ""
+  - id: AHZA
+    format: svg
+    description: Piston-engine power versus mixture ratio (air mass flow divided by
+      fuel mass flow) at a fixed RPM and manifold pressure, with five labelled
+      points from rich to lean
+    source: ""
+  - id: AHZV
+    format: webp
+    description: "Turn and slip indicator (needle and ball) diagrams 1 to 4 showing
+      needle deflection and ball position: 1 straight and level, 2 left turn
+      with ball displaced right (too much rudder, skid), 3 and 4 other turn
+      conditions"
+    source: ""
+  - id: AHZX
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 95, Section 4 -
+      MRJT1 Page 47: Figure 4.29  Landing Performance – Climb Limit"
+    source: ""
+  - id: AIAB
+    format: webp
+    description: "Jeppesen Alicante LEAL/ALC (10-2B) STAR chart: CALLES 1L, VALENCIA
+      2L, CALLES 2N, VALENCIA 2N arrivals RWY 10 and RWY 28, VLC 116.1, KOVAM,
+      VILNA, BESOR, speed max 250 KT below FL100, 220 KT leaving IAF"
+    source: ""
+  - id: AIEJ
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 66, Section 4 -
+      MRJT1 Page 18: Figure 4.8 Take-Off Speeds"
+    source: ""
+  - id: AIFM
+    format: svg
+    description: "Flight log / fuel planning form with stages A-TOC-B-C-D at FL40:
+      wind, track, TAS, GS, distance, time, fuel flow 30 kg/hr and planned fuel;
+      totals trip and taxi 34, contingency 2, holding 15, final reserve 10,
+      block fuel 61, alternate 30 min"
+    source: ""
+  - id: AIFO
+    format: webp
+    description: Globe with graticule and equator EQ, two pressure patterns 1
+      (northern hemisphere) and 2 (southern hemisphere) with L and H and isobar
+      lines, red dot at position, geostrophic wind direction in each hemisphere
+    source: ""
+  - id: AIGH
+    format: webp
+    description: "Six EFIS/ND displays Figures 1 to 6: 1 full VOR HDG 201 M 114.75
+      DME 21.0, 2 map mode TRK 073, 3 map mode with flight plan, 4 expanded VOR
+      HDG 280 M 114.75 DME 30.0, 5 expanded ILS 110.9 HDG 280, 6 full ILS rose
+      HDG 201 M 110.9 DME 8.0 (full ILS with ILS frequency selected is Figure
+      6)"
+    source: ""
+  - id: AIJW
+    format: svg
+    description: "Planned fuel page of a flight plan: trip fuel EGCC 59045,
+      contingency 3% 1261, alternate EGGP 2066, final reserve 2284, minimum
+      take-off fuel 64656, taxi 500, block fuel 65156, extra, operational
+      impacts (weight, FL, speed change) and unit notes"
+    source: ""
+  - id: AIMD
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 67, Section 4 -
+      MRJT1 Page 19: Figure 4.9 Take-Off Speeds"
+    source: ""
+  - id: AIMQ
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 94, Section 4 -
+      MRJT1 Page 46: Figure 4.28 Landing Performance – Field Length Limit"
+    source: ""
+  - id: AIOP
+    format: svg
+    description: Graph CL versus alpha with points A (zero-lift angle, CL=0), B
+      (alpha = 0, CL positive), C (CL max, stall angle), D (post-stall, reduced
+      CL)
+    source: ""
+  - id: AIQO
+    format: webp
+    description: Route diagram Paris to Istanbul, four numbered routes 1 2 3 4, CB
+      areas with times 3 am-7 am, 9 am-2 pm, 4 am-12 pm
+    source: ""
+  - id: AIQQ
+    format: webp
+    description: Marshaller with the other arm sweeping a wand in a large arc from
+      the side up to overhead
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AISC
+    format: webp
+    description: "Croatia VFR Manual LDLO AD 2-10 (Losinj): AD 2.22 flight
+      procedures, VFR procedures outside / during ATS hours, after take-off,
+      arriving aircraft, aerodrome traffic circuit height 800 ft AGL, IFR to VFR
+      change, communication failure; AD 2.24 charts related to the aerodrome
+      (ADC, VOC)"
+    source: ""
+  - id: AISU
+    format: webp
+    description: Marshaller with both arms raised, wands horizontal and moving
+      towards each other
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AISX
+    format: webp
+    description: Simple approach lighting system runway 11, centre line length (1)
+      and crossbar width (2), threshold lights green, runway end lights red
+    source: ""
+  - id: AITY
+    format: webp
+    description: EFIS ND arc mode TRK 081 MAG, GS 539 TAS 484, wind 223/71, RESIL
+      1016.4z 39 NM, waypoints SIRRI RESIL ELSIR, RNP 1.00 ANP 1.36, TFC
+    source: ""
+  - id: AIVA
+    format: webp
+    description: CG envelope graph gross mass (kg) versus fuselage station (mm) with
+      loading points empty mass, pilot, copilot, fwd passengers, aft passengers,
+      baggage, fuel; envelope between about 4180 and 4570 mm, 1500 to 3120 kg
+      (gross mass and CG without aft passengers)
+    source: ""
+  - id: AIVN
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 84, Section 4 -
+      MRJT1 Page 36: Figure 4.20 Obstacle Limits - Flaps 5 degrees."
+    source: ""
+  - id: AIYY
+    format: webp
+    description: "Magnetic compass deviation card: For N 030 060 E 120 150 steer 001
+      032 061 089 118 148; For S 210 240 W 300 330 steer 180 209 239 270 302
+      332"
+    source: ""
+  - id: AIZX
+    format: svg
+    description: Free power turbine with a centrifugal compressor and independent
+      propeller drive
+    source: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/16_afh_ch15.pdf
+  - id: AJAL
+    format: webp
+    description: "Jeppesen Amsterdam Schiphol EHAM/AMS (16-2) NDB Rwy 18C approach
+      chart: Lctr OA 395, final approach course 183°, DA(H) 690', D6.2 ZWA, SPL
+      VOR, minimum altitude 2000', descent angle 3.00°, circle-to-land minima"
+    source: ""
+  - id: AJAQ
+    format: webp
+    description: "Jeppesen LEAL/ALC Alicante-Elche STAR plate 10-2B: CALLES 1L and
+      VALENCIA 2L arrivals."
+    source: ""
+  - id: AJBM
+    format: svg
+    description: "Usable fuel diagram and table: outer tanks 880 l x2, inner 6924 l
+      x2, centre 8250 l, total 23858 l; US gal 232x2, 1829x2, 2180, total 6302;
+      kg 691x2, 5435x2, 6476, total 18728; lb; fuel density 0.785 kg/l or 6.551
+      lb/US gal; wing, centre, vent tanks"
+    source: ""
+  - id: AJCU
+    format: webp
+    description: Light aeroplane side view with datum, nose to datum distances 1.0 m
+      (nosewheel) and 2.5 m (main wheels), nosewheel weight 1750 N, left main
+      wheel 4050 N, right main wheel 4080 N (weighing to find centre of gravity)
+    source: ""
+  - id: AJCY
+    format: webp
+    description: "Jeppesen Alicante LEAL/ALC (11-1) ILS Z Rwy 10 or LOC A approach
+      chart: IAT 110.3, final approach course 100°, GS 1504', DA(H) A 392' B
+      404' C 412' D 423', VILNA IAF, 20 DME arc ALT, glide path 3.00°/LOC 3.47°,
+      circle-to-land minima, missed approach MAGAL 4000'"
+    source: ""
+  - id: AJEO
+    format: webp
+    description: Marshaller with right arm raised, elbow bent and wand held horizontally
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AJGK
+    format: svg
+    description: "Flight log fuel planning section: trip 2:00 1440 kg, contingency
+      72, alternate 495, final reserve 270, minimum TOF 2277, extra 960, TOF
+      3237, taxi 50, ramp 3287; mass DOM 4720, payload 520, ZFM 5240, TOM 8477,
+      est landing mass 7037"
+    source: ""
+  - id: AJHC
+    format: svg
+    description: Graph Drag versus TAS with four curves A, B, C, D (induced drag,
+      parasite drag, total drag, thrust/power curves); identify which curve is
+      which
+    source: ""
+  - id: AJHS
+    format: webp
+    description: "Four aerofoil sections 1-4 with relative airflow: 1
+      symmetric/thin-cambered section at 0 degrees, 2 same at 10 degrees angle
+      of attack, 3 aerofoil with flap or camber at 0 degrees, 4 same at 10
+      degrees angle of attack; compare chord and camber"
+    source: ""
+  - id: AJII
+    format: webp
+    description: Pilot in the cockpit window with raised fingers showing the number
+      of the engine
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AJJA
+    format: webp
+    description: Photograph of fair weather cumulus (cumulus humilis) over hills and
+      grassland, blue sky
+    source: ""
+  - id: AJNK
+    format: svg
+    description: "Data sheet LRJT 1 Flight Planning Ground Distance/Air Distance,
+      long range cruise above FL250: ground distance 10-10000 NM vs air distance
+      for tailwind +150 to headwind -150 kt wind component"
+    source: ""
+  - id: AJQO
+    format: webp
+    description: Four CDI course deviation indicator displays A B C D, course 060
+      selected, TO/FROM flag, needle deflected left or right, aircraft symbol,
+      CRS knob
+    source: ""
+  - id: AJSW
+    format: webp
+    description: North Atlantic organised track system map, orange tracks and blue
+      routes near Iceland and Greenland, entry waypoints ERAKA GOMUP SUNOT PIKIL
+      ETARI RESNO DOGAL RATSU ATSIX, KFV OZN DA, inset enlargement
+    source: ""
+  - id: AJTA
+    format: svg
+    description: Twin-spool turbofan engine cross-section with station numbers 1, 2,
+      2.5, 3, 4, 5, 6, 7, 8 (fan, low and high pressure compressors, combustor,
+      turbines, nozzle)
+    source: ""
+  - id: AJUO
+    format: webp
+    description: Obstacle clearance cross-section of a straight track segment,
+      primary and secondary areas, four options A to D, option D primary area
+      1/2 and secondary areas 1/4 of total width each
+    source: ""
+  - id: AJZB
+    format: webp
+    description: Aeroplane from above over clouds with three curved flight paths 1,
+      2, 3 diverging from the tail; wake or turn path comparison (trajectory
+      curvature)
+    source: ""
+  - id: AJZQ
+    format: svg
+    description: "Excerpt from flight log: waypoints ALPHA, BETA, GAMMA, DELTA,
+      SIERRA, MIKE with ETA, ATA, planned remaining fuel 3400, 3202, 2770, 2158,
+      2068, 1852 kg and actual remaining fuel 3400, 3180, 2700 kg"
+    source: ""
+  - id: AKAB
+    format: webp
+    description: Dangerous goods class 5.1 label, oxidizing substances, flame over
+      circle, yellow diamond with number 5.1
+    source: ""
+  - id: AKAT
+    format: webp
+    description: EFIS navigation display with a 360° compass rose, magnetic heading
+      195°, and DME reading 21.0 NM.
+    source: ""
+  - id: AKDC
+    format: webp
+    description: Marshaller with both arms raised sweeping wands outwards and
+      upwards in arcs
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AKEV
+    format: webp
+    description: "Jeppesen VFR chart 19-1 Alicante-Elche (LEAL), Spain, 25 Aug 17,
+      scale 1:200,000: North and South Corridors, Tabarca route, VFR reporting
+      points N, NE, NE1, E1, S, SE, SW, CTR (D) SFC/5000 ft, TMA Valencia 2, ATZ
+      2500 ft, MAX FL 75 / 2000 ft limits; Alicante Tower 118.150, VOR/DME ALT
+      113.80, elevation 142 ft"
+    source: ""
+  - id: AKFC
+    format: webp
+    description: Navigation display (ND) compass mode, HDG 137 MAG, GS 209 TAS 220,
+      wind 090/15, ADF 1 ORJ, VOR 2 KAJ
+    source: ""
+  - id: AKFK
+    format: svg
+    description: Cross-section of a front or air mass with direction of movement
+      arrow, numbered positions 1 to 4 along the ground (warm sector between
+      cold and warm front, weather at each position)
+    source: ""
+  - id: AKHB
+    format: svg
+    description: Amplitude modulated (AM) carrier wave diagram, varying amplitude
+      envelope with constant frequency, transmitter antenna
+    source: ""
+  - id: AKHS
+    format: webp
+    description: "JAA FCL Twin Jet Load & Trim Sheet (filled): DOM 34900, take-off
+      fuel 9500, max ZFM 51300, MTOM 62800, landing 52900, trip fuel 6500,
+      operating mass 44400, traffic load 11230, distribution masses 1300 / 2370
+      / 7560, DOI 33.5; used for zero fuel mass and CG % MAC"
+    source: ""
+  - id: AKIC
+    format: svg
+    description: "CAP 697 Flight Planning Manual, PDF page 20, Section 2 -
+      SEP1  Page 6: Figure 2.2 Recommended Cruise Power Settings, Table 2.2.3"
+    source: ""
+  - id: AKIF
+    format: svg
+    description: Sunset 2017 table, October 2-29 and November 1-19, latitudes N72 to
+      S60, times h m
+    source: ""
+  - id: AKIQ
+    format: webp
+    description: Surface pressure chart 050-077, Europe, low over UK with cold front
+      and warm front, fronts through Q and Z points, highs and lows, occluded
+      front east
+    source: ""
+  - id: AKKW
+    format: webp
+    description: "JAA FCL Twin Jet Load & Trim Sheet (partly filled, red numbers):
+      DOM 35750, take-off fuel 13700, max ZFM 53070, take-off 68038, landing
+      54245, trip fuel 7355; used for maximum allowable take-off mass and
+      traffic load"
+    source: ""
+  - id: AKNJ
+    format: webp
+    description: No entry sign, red square with white circle and horizontal white bar
+    source: ""
+  - id: AKNQ
+    format: webp
+    description: Marshaller with both hands held to the ears and a pilot shown in a
+      cockpit window
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AKQM
+    format: svg
+    description: "A318/A319/A320/A321 Performance Training Manual 2.2 Take-Off
+      Charts (RTOW), A320-214 CFM56-5B4, Paris Orly LFPO runway 08 dry: MTOW and
+      V1/VR/V2 by OAT for CONF 1+F, 2, 3 and wind -10/0/+10 kt, with influence
+      of runway condition (wet), delta QNH and air conditioning"
+    source: ""
+  - id: AKSG
+    format: svg
+    description: "Standard mass values (JAR-OPS 1): passengers 20 seats or more
+      (male 88 kg, female 70 kg, all adult 84 kg for 30 or more, holiday
+      charters 83/69/76, children 35 kg); 19 seats or less (male 104/96/92 kg,
+      female 86/78/74 kg); baggage 20 seats or more: domestic 11 kg, European 13
+      kg, intercontinental 15 kg, other 13 kg"
+    source: ""
+  - id: AKSJ
+    format: webp
+    description: Diagram with two isobars 995 hPa and 1000 hPa at 45° South, axes
+      crossing at the origin. Southern Hemisphere geostrophic wind, pressure
+      gradient and wind direction question
+    source: ""
+  - id: AKVT
+    format: svg
+    description: "CAP 697 Flight Planning Manual, PDF page 37, Section 4 -
+      MRJT1  Page 5: Figure 4.3.1a"
+    source: ""
+  - id: AKWA
+    format: webp
+    description: Globe diagram North Pole with latitude bands 60, 30, 0, 30, 60 and
+      zones labelled T, U, V, W, X, Y (general circulation, pressure belts and
+      wind zones by latitude)
+    source: ""
+  - id: AKWP
+    format: svg
+    description: Frequency modulated (FM) carrier wave diagram, constant amplitude
+      with varying frequency, transmitter antenna (modulation types question)
+    source: ""
+  - id: AKWQ
+    format: svg
+    description: Single-shaft turboprop with a common drive for the compressor and
+      propeller gearbox
+    source: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/16_afh_ch15.pdf
+  - id: AKWV
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 63, Section 4 -
+      MRJT1 Page 15: Figure 4.7 Take-Off Brake Energy Limit"
+    source: ""
+  - id: AKYY
+    format: webp
+    description: Marshaller with one hand raised to the forehead in a salute, wand
+      held in the other hand
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: ALDA
+    format: webp
+    description: Four sketches 1 to 4 of cold front symbols with isobars or wind
+      direction lines, wind veering/backing at a cold front, isobar kink at
+      front
+    source: ""
+  - id: ALEU
+    format: svg
+    description: Twin-spool turbojet engine cross-section with station numbers 1 to
+      8 (compressors, combustion chamber, turbines, exhaust)
+    source: ""
+  - id: ALGR
+    format: svg
+    description: "Jeppesen VFR airport chart page 19-3 Alicante-Elche (Spain), 25
+      Aug 17: arrivals via North/South/Tabarca routes (REP NE-N, SW-S, SE),
+      departures, COM failure, VFR overflights corridors (North/South), HEL
+      operations, taxiing (English)"
+    source: ""
+  - id: ALJS
+    format: svg
+    description: "Flight log excerpt (033-125): waypoints ALPHA, BETA, GAMMA, DELTA
+      with ETA, ATA, planned remaining fuel 5690, 5490, 5410, 5090 kg and actual
+      remaining fuel 5690, 5440, 5340 kg"
+    source: ""
+  - id: ALLV
+    format: webp
+    description: Marshaller with left arm extended sideways and right arm sweeping
+      the wand across the body
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: ALMR
+    format: webp
+    description: Marshaller with arms extended sideways raising wands in arcs until
+      they cross overhead
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: ALND
+    format: svg
+    description: "Vector diagram: Vectors A and B joined at a point
+      (resultant/addition), Vectors 1-4 as candidate answers, double arrowheads"
+    source: ""
+  - id: ALPI
+    format: svg
+    description: Segregation of Packages (sample) table of dangerous goods hazard
+      label/classification vs 1 excl. 1.4S, 1.4S, 2, 3, 4.2, 4.3, 5.1; X means
+      segregation required, - no segregation, notes on 1.4S special provisions
+      (e.g. class 3 and 4.2 segregated from 5.1; class 4.2 vs 5.1 and 3 X)
+    source: ""
+  - id: ALPT
+    format: svg
+    description: "Table of take-off limiting masses for flap/slat setting 1 and 2:
+      field length limit (18250/19000 kg), climb limit (17000/16800), obstacle
+      limit (18250/18000), structural limit (19000/19000). Used to pick optimum
+      flap and maximum TOM"
+    source: ""
+  - id: ALRA
+    format: webp
+    description: "JAA FCL Twin Jet Load & Trim Sheet (filled): DOM 35100, take-off
+      fuel 11200, max ZFM 51300, MTOM 62500/61800/63400, landing 54900, trip
+      fuel 8500, operating mass 46300, allowed traffic load 15500, traffic load
+      13500, passengers 60/60/20, DOI 51.0; fuel index shift -5.7"
+    source: ""
+  - id: ALRB
+    format: webp
+    description: Terrain contour map (colour-shaded 1000 to 5000 ft) with runway
+      15/33 on a coastal strip, a 3645 ft peak west of the runway and a 5950 ft
+      peak to the north-east, north arrow
+    source: ""
+  - id: ALVH
+    format: webp
+    description: Runway designation markings, runway 04 options I to IV, with L
+      suffix and threshold stripes
+    source: ""
+  - id: ALVV
+    format: webp
+    description: "NDB bearing diagram: aircraft, track line and NDB with angles A B
+      C D (relative bearing, magnetic bearing, heading, NDB mountain/coastline
+      effect)"
+    source: ""
+  - id: ALZB
+    format: webp
+    description: Marshaller with wands crossed overhead and arms moving out and in arcs
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: ALZD
+    format: webp
+    description: Marshaller with one arm extended sweeping a wand, with a second
+      marshaller shown in an inset
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: ALZO
+    format: svg
+    description: "Excerpt from flight log: waypoints ALPHA, BETA, GAMMA, DELTA with
+      ETA, ATA, planned remaining fuel 5690, 5270, 4970, 4430 kg and actual
+      remaining fuel 5690, 5200, 4850 kg"
+    source: ""
+  - id: AMBY
+    format: svg
+    description: "Dangerous goods list extract: lithium hypochlorite mixture UN 1471
+      class 5.1 oxidizer, lithium ion batteries UN 3480 class 9 miscellaneous,
+      special provisions A88 A99 A154 A164, packing instruction 965, passenger
+      aircraft 5 kg G, cargo aircraft 35 kg G, columns 1 to 13"
+    source: ""
+  - id: AMIS
+    format: svg
+    description: "Graph coefficient of lift CL versus alpha (angle of attack) -8 to
+      +16 degrees, three curves 1, 2, 3: curve 1 cambered with zero-lift alpha
+      about -4, curve 2 symmetric through zero, curve 3 negative camber with
+      zero lift at about +4 degrees, stall at about +12, +12 and +10"
+    source: ""
+  - id: AMJL
+    format: svg
+    description: Force F versus V (TAS) drag curve D Figures 1-4, solid original
+      curve and dashed new curve with arrows (1 up and left, 2 left, 3 right, 4
+      up); legend F force, D drag curve, V speed; drag curve shift
+    source: ""
+  - id: AMLH
+    format: webp
+    description: ADF and HI (heading indicator) pair, ADF needle pointing to about
+      060 relative bearing, HI heading about 345 degrees, HDG knob
+    source: ""
+  - id: AMMA
+    format: webp
+    description: "Four trailing edge flap types: 1 plain flap, 2 slotted flap, 3
+      split flap, 4 Fowler flap"
+    source: ""
+  - id: AMMI
+    format: webp
+    description: Aircraft weather radar display with two pink arrows pointing at red
+      and yellow cells within green returns, headings 14 to 21, GS 445, wind
+      120/35, range arcs 40 and 60 NM. Weather radar interpretation,
+      thunderstorm cells with strong returns, avoid red areas
+    source: ""
+  - id: AMPA
+    format: svg
+    description: Vertical cross-section of cold front and warm front, columns A to E
+      and rows 1 to 3, heights 35000 ft, 18000 ft, 7000 ft, tropopause, 0 C
+      isotherm, surface
+    source: ""
+  - id: AMPG
+    format: webp
+    description: Jet engine fuel system, LP fuel, LP valve, HP pump 1st and 2nd
+      stage, fuel control unit, metering valve, HP valve, oil to fuel heat
+      exchanger, nozzles primary and secondary, items 1 to 4
+    source: ""
+  - id: AMQO
+    format: svg
+    description: "Flight plan fuel summaries ANKR 737 LFPG-EIDW and ANKR 738
+      EIDW-LFPG (17 MAY): taxi, trip, contingency, alternate EGAA/EFPO, final
+      reserve, FPL fuel, extra, target fuel, fuel carriage cost and 2000 ft
+      above/below trip fuel changes"
+    source: ""
+  - id: AMRU
+    format: svg
+    description: "Excerpt from flight log: waypoints ALPHA, BETA, GAMMA, DELTA with
+      TAS 125 kt, GS, leg and accumulated distance, ETE, ATE, ETA, ATA, planned
+      vs actual remaining fuel (kg) and abbreviation legend"
+    source: ""
+  - id: AMUY
+    format: svg
+    description: "CAP 696 Mass and Balance Manual, PDF page 30, Section 4 - MRJT1
+      Page 4: Figure 4.7 shows the balance arms (in inches) for the distribution
+      of passengers. If the"
+    source: ""
+  - id: AMVH
+    format: svg
+    description: "Take-off horizontal stabiliser trim setting table: CG % MAC 6, 10,
+      14, 18, 22, 26, 30, 34, 38 against stabiliser trim units for flaps 5,
+      flaps 15 and flaps 20 (e.g. CG 26%: 3 3/4, 3, 2 3/4)"
+    source: ""
+  - id: AMWC
+    format: webp
+    description: "ICAO SIGWX fixed time prognostic chart FL 250-630, area INO,
+      issued by MeteoSwiss/WAFC London, valid 12 UTC 19 May 2016. Indian Ocean,
+      Asia and Australia: jet streams FL320-FL400, CB areas, CAT areas 1-11,
+      tropical cyclone TC NN, Dukono volcano 1.6N 127.8E"
+    source: ""
+  - id: AMXS
+    format: webp
+    description: "Jeppesen Alicante LEAL/ALC (10-3E) SID chart: SOPET 1F RWY 28 and
+      SOPET 1G RWY 10 departures, non-RNAV aircraft only, SUMMO, MITOS, SGO
+      Sagunto 356, VSJ, ALT 113.8, max 220 KT, min climb gradient 5.5% table,
+      contingency departure"
+    source: ""
+  - id: AMYZ
+    format: webp
+    description: Marshaller with one arm raised sweeping a wand across the body,
+      with a circular motion arrow
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: ANCA
+    format: webp
+    description: "Chart symbols table symbols 1-12: filled triangle, circled
+      triangle, compass-rose star symbol, circled X, windsock,
+      heliport/direction symbol, aerodrome reference point, cross X, altitude/FL
+      notations FL70 FL50 FL30 with lines above and below"
+    source: ""
+  - id: ANFK
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 19, Section 2 -
+      SEP1 Page 5: Figure 2.2 Take-Off Distance Flaps Approach"
+    source: ""
+  - id: ANHM
+    format: webp
+    description: "Autopilot Mode Control Panel (MCP) with numbered callouts: 1 A/T
+      ARM switch (autothrottle OFF), 2 A/P ENGAGE CMD A and CMD B, 3 F/D ON-OFF
+      switch, 4 SPD INTV; displays COURSE 165, IAS/MACH A380, HEADING 130,
+      ALTITUDE 31700, VERT SPEED +0000"
+    source: ""
+  - id: ANJK
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 43, Section 3 -
+      MEP1 Page 19: Figure 3.8 Balked Landing Climb Performance"
+    source: ""
+  - id: ANLH
+    format: svg
+    description: Evening civil twilight 2017 table, October 2-29 and November 1-19,
+      latitudes N72 to S60, times h/m
+    source: ""
+  - id: ANLK
+    format: webp
+    description: Marshaller with right arm raised and wand vertical, left arm moving
+      the wand out and back towards the body
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: ANOC
+    format: webp
+    description: "Jeppesen VFR chart (ICAO 1:500,000 style) southern Germany, Lake
+      Constance / Swabian Jura area: Tuttlingen, Sigmaringen, Reutlingen,
+      Albstadt-Degerfeld, Friedrichshafen TMA, Zurich TMA, Munich/Langen
+      information FIS; quadrant numbers 4-3 to 5-9; not for navigation use"
+    source: ""
+  - id: ANPI
+    format: svg
+    description: "CAP 697 Flight Planning Manual, PDF page 102, Section 4 -
+      MRJT1  Page 70: Figure 4.5.4b Descent Table M.70/280/250 KIAS"
+    source: ""
+  - id: ANVV
+    format: webp
+    description: "IRS (inertial reference system) mode selector panel, left and
+      right: ALIGN, DC ON, FAULT, DC FAIL lights and OFF/ALIGN/NAV/ATT rotary
+      switches, L IRS R"
+    source: ""
+  - id: ANWM
+    format: svg
+    description: "VFR navigation flight log, route Ajaccio (LFKJ) to Marina di Campo
+      (LIRJ): legs LFKJ-AJO, AJO-LIBLO, LIBLO-BTA, BTA-MOULE, MOULE-XOPTA,
+      XOPTE-ELB, ELB-LIRJ, safety altitude 11200 ft, TAS, track, wind, variation
+      2°E, heading, GS, distance, time"
+    source: ""
+  - id: ANXP
+    format: webp
+    description: "Four front symbols on lines: 1) line with V marks, 2) triangles
+      (cold front), 3) alternating triangles and semicircles (stationary front),
+      4) semicircles (warm front). Identify weather chart fronts symbols"
+    source: ""
+  - id: ANZD
+    format: webp
+    description: United Kingdom AIP EGPF Glasgow AD 2.11 met information, AD 2.12
+      runway physical characteristics, AD 2.13 declared distances TORA TODA ASDA
+      LDA
+    source: ""
+  - id: AODE
+    format: webp
+    description: "Jeppesen en-route chart excerpt, Geneva / Lyon / Chambery area
+      (France, Switzerland border): airways J32, Z66, B16, N871, T47, G5; VORs
+      PAS 116.6, GVA 115.75, LSE 114.75, CBY 115.4, LTP 115.55, FRI 110.85;
+      Geneva TMA, Lyon TMA, Chambery TMA, Alps LTA; chart sectors 80, 81, 138,
+      182"
+    source: ""
+  - id: AODE
+    format: webp
+    description: "Jeppesen en-route chart excerpt, Geneva / Lyon / Chambery area
+      (France, Switzerland border): airways J32, Z66, B16, N871, T47, G5; VORs
+      PAS 116.6, GVA 115.75, LSE 114.75, CBY 115.4, LTP 115.55, FRI 110.85;
+      Geneva TMA, Lyon TMA, Chambery TMA, Alps LTA; chart sectors 80, 81, 138,
+      182"
+    source: ""
+  - id: AOEQ
+    format: webp
+    description: PAPI indications, runway 11, (I) two white two red on slope, (II)
+      three white one red above slope
+    source: ""
+  - id: AOIA
+    format: svg
+    description: Attitude indicator, four options 1 to 4, different bank angles and
+      pitch attitudes
+    source: ""
+  - id: AOJC
+    format: webp
+    description: Three aerofoils A (thick, cambered), B (medium thickness), C (thin)
+      next to graph CL versus alpha with curves 1, 2, 3 (steepest 1 to flattest
+      3); match aerofoil to lift curve (thickness and lift slope)
+    source: ""
+  - id: AOKU
+    format: webp
+    description: Marshaller with one hand held up open, wands pointing down by the sides
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AOLG
+    format: webp
+    description: EFIS ND arc mode TRK 081 MAG, GS 539 TAS 484, wind 223/71, RESIL
+      1016.4z 39 NM, waypoints SIRRI RESIL ELSIR ELPIR (dashed offset route),
+      RNP 2.00 ANP 0.05, TFC
+    source: ""
+  - id: AOLH
+    format: webp
+    description: Four diagrams 1 to 4 each with surface and 700 hPa pressure
+      patterns with highs H and lows L (tilt of pressure systems with height,
+      cold and warm core)
+    source: ""
+  - id: AOMQ
+    format: svg
+    description: Weather chart symbol
+    source: ""
+  - id: AOOI
+    format: svg
+    description: "Data sheet LRJT 1 (JAR-FCL) flight planning integrated cruise,
+      long range cruise at FL370: distance (NM) and time (min) vs fuel consumed
+      (1000 kg) by aircraft weight 174-218 tonnes, TAS, pack flow and anti-ice
+      corrections"
+    source: ""
+  - id: AOQE
+    format: svg
+    description: "Reference 050-003: four temperature (T) and dewpoint (DP) vertical
+      profiles 1 to 4 against height H up to 2000 FT. Inversions and dewpoint
+      spread. Fog, low cloud and visibility profile identification"
+    source: ""
+  - id: AOQS
+    format: webp
+    description: Marshaller with one arm extended and a hand showing a thumb down
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AOSJ
+    format: webp
+    description: EFIS ND VOR APP and PFD, VOR1 115.00 CLT CRS 093, GS 299 TAS 293,
+      wind 018/18, VOR2 CLT, 26 NM, Mach .783, altitude 380 STD, DME 26 NM
+    source: ""
+  - id: AOSM
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 52, Section 4 -
+      MRJT1 Page 4: Figure 4.1 Wind Components for Take-Off and Landing."
+    source: ""
+  - id: AOUA
+    format: webp
+    description: "Four EFIS/navigation display figures 1-4: Figure 1 ILS 110.9 DME
+      16.5 NM HDG 280 runway 27, Figure 2 MAP mode TRK 073 waypoints TBX UOC FGL
+      YTB, Figure 3 plan/map TRK 073 with route and EDI, Figure 4 VOR 114.75 DME
+      30.0 NM HDG 280 TO"
+    source: ""
+  - id: AOUI
+    format: webp
+    description: Topographic contour map, contour interval 10 m, points 1 2 3 4,
+      spot heights 542 and 484, contours 200 300 400 450 500, A and B grid
+      references (terrain/profile question)
+    source: ""
+  - id: AOVH
+    format: svg
+    description: "CAP 697 Flight Planning Manual, PDF page 30, Section 3 -
+      MEP1  Page 6: Figure 3.4"
+    source: ""
+  - id: AOWY
+    format: svg
+    description: "Loading manifest table, light aeroplane (mass lb, arm aft of datum
+      in): basic empty mass 3154, pilot and front passenger 180 at 85.6, centre
+      passengers 420 at 118.2, aft passengers at 158.0, baggage zone 1 40 at
+      21.8, zone 3 at 179.1, zero fuel mass 3794 at 113.6, fuel 94.1, taxi fuel
+      40, trip fuel 498, landing mass 3990"
+    source: ""
+  - id: AOXF
+    format: svg
+    description: "CAP 697 Flight Planning Manual, PDF page 108, Section 4 -
+      MRJT1  Page 76: Figure 4.7.3"
+    source: ""
+  - id: AOXJ
+    format: webp
+    description: Night photo of lightning striking a city, dark storm cloud over lit
+      streets. Cloud to ground lightning, thunderstorm
+    source: ""
+  - id: AOYF
+    format: webp
+    description: "ND expanded rose ILS mode with weather radar: heading 359, DME
+      16.3, ILS 109.70, 33 and 3 compass marks, green/yellow/red precipitation
+      cells, localizer and glideslope deviation"
+    source: ""
+  - id: AOZT
+    format: webp
+    description: Aerofoil with relative wind V, point 1 stagnation point (V1 at
+      leading edge) and point 2 (V2 on upper surface, higher velocity, lower
+      pressure); Bernoulli
+    source: ""
+  - id: AOZY
+    format: svg
+    description: "Maximum allowable weight table: forward cargo hold 9240 lb / 4191
+      kg, max running load 33.0 lb/in (589.3 kg/m), max distribution load 150.0
+      lb/ft2 (732.0 kg/m2); aft cargo hold 10730 lb / 4867 kg, 29.0 lb/in (517.9
+      kg/m), 160.0 lb/ft2 (781.0 kg/m2)"
+    source: ""
+  - id: APAX
+    format: svg
+    description: Globe with latitude zones NP, 70N, 40N, 20N, 0°, 20S, 40S, 70S, SP.
+      Hatched bands and boxes labelled r, s, t, u, v, w, x, y, z. Global
+      pressure belts and general circulation, low and high pressure zones by
+      latitude
+    source: ""
+  - id: APDF
+    format: svg
+    description: "MRJT Alternate Planning Long Range Cruise graph: time to alternate
+      (hr) and alternate fuel (1000 kg) vs distance to alternate (NM), by
+      landing weight 35-70 tonnes and head/tail wind; worked example 243 NM,
+      45.0 t, 50 kt headwind gives 1880 kg and 0:49"
+    source: ""
+  - id: APIG
+    format: webp
+    description: "Jeppesen VFR chart (ICAO 1:500,000 style) eastern Bavaria:
+      Regensburg, Straubing (EDMS), Deggendorf, Passau, Landshut, Ingolstadt,
+      Cham, Muenchen C airspace and Muenchen / Wien FIS boundaries, Bohemian
+      border; quadrants 3-2 to 7-2"
+    source: ""
+  - id: APIJ
+    format: svg
+    description: Blank buffet onset boundary chart, clean configuration, redrawn as
+      vector graphics
+    source: Redrawn for Chair Flight
+  - id: APKG
+    format: svg
+    description: Weather chart symbol
+    source: ""
+  - id: APMX
+    format: webp
+    description: Horizontal situation indicator (HSI), four options A to D, TO/FROM
+      flag, course deviation bar, HDG and CRS knobs
+    source: ""
+  - id: APNU
+    format: svg
+    description: Table 3 guidelines for holdover times for Type II fluid mixtures as
+      a function of weather conditions and OAT, fluid concentration 100/0 75/25
+      50/50, freezing fog, snow, freezing drizzle, light freezing rain, rain on
+      cold soaked wing, times in hours:minutes, LOUT
+    source: ""
+  - id: APQS
+    format: svg
+    description: CDI display (TO flag, bar right of centre, course 210) and four RMI
+      options A-D with yellow needle, question to select the RMI indication
+    source: ""
+  - id: APRN
+    format: webp
+    description: Marshaller with both arms down and outwards, wands pointing down
+      and away from the body
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: APRV
+    format: webp
+    description: Pilot in the cockpit window with one arm extended and a dotted
+      arrow, hand held flat
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: APTG
+    format: svg
+    description: "Flight log fuel planning section: trip 2:00 840 kg, contingency
+      42, alternate 350, final reserve 180, minimum TOF 1412, extra 700, TOF
+      2112, taxi 50, ramp 2162; mass DOM 4567, payload 710, ZFM 5277, TOM 7389,
+      est landing mass 6549"
+    source: ""
+  - id: APTO
+    format: webp
+    description: "CG envelope MRJT1 (CAP 696 Figure 4.11 style): aeroplane gross
+      mass 30000-75000 kg vs CG limits % MAC; MTOM 62800 kg, MLM 54900 kg, MZFM
+      51300 kg, forward and aft CG limits (forward 7.3% and aft 26.8% MAC at the
+      lower mass)"
+    source: ""
+  - id: APWK
+    format: webp
+    description: "Jeppesen Alicante LEAL/ALC (10-3C) SID chart: MITOS 2A and MITOS
+      1C departures, RWY 10 and RWY 28, ALT VOR 113.8, SUMMO, D6.3 ALT, D9.5
+      ALT, max 220 KT, min climb gradient table 5.5% and 7.0%, contingency
+      departure"
+    source: ""
+  - id: APXU
+    format: webp
+    description: Marshaller with one arm extended diagonally upwards, wand pointing
+      up and a circular arrow
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AQAG
+    format: webp
+    description: "Head-up display (HUD) Figures 1 to 4, pilot's perspective: 1
+      engine N1 and FOB 6360 kg, 2 weather radar rose HDG, 3 unusual attitude, 4
+      cruise with autopilot engaged MACH ALT CRZ NAV AP2 1 FD 2 A/THR (correct,
+      Figure 4), speed .794, altitude 375/365, STD"
+    source: ""
+  - id: AQIT
+    format: webp
+    description: "Jeppesen en-route chart excerpt, Scotland, Isle of Man and
+      Northern Ireland (Glasgow, Prestwick, Edinburgh, Talla, Belfast, Isle of
+      Man, Turnberry, Machrihanish, Dean Cross): airways, CTAs, danger areas,
+      Machrihanish DME warning"
+    source: ""
+  - id: AQNM
+    format: svg
+    description: "Flight log fuel planning section: trip 2:00 1500 kg, contingency
+      60, alternate 840, final reserve 240, minimum TOF 2640, extra 1000, TOF
+      3640, taxi 50, ramp 3690; mass DOM 4610, payload 680, ZFM 5290, TOM 8930,
+      est landing mass 7430"
+    source: ""
+  - id: AQSF
+    format: svg
+    description: "CAP 697 Flight Planning Manual, PDF page 39, Section 4 -
+      MRJT1  Page 7: Figure 4.3.1c"
+    source: ""
+  - id: AQTS
+    format: webp
+    description: "Graphical loading chart (CG in metres, mass kg 1050-1900):
+      pilot/copilot or front pax, rear pax, cargo (pax floor and foot rest),
+      hold, fuel, empty weight 1050 kg, forward and aft limits, example total
+      1686 kg."
+    source: ""
+  - id: AQUI
+    format: webp
+    description: ICAO SIGWX fixed time prognostic chart, area EURO, FL 100-450, WAFC
+      London, PGDE14 EGRR, valid 06 UTC 06 Feb 2017. Jet streams FL280-FL370, CB
+      areas, CAT areas 1-4, red route line between M (Madrid) and B over central
+      Europe, circled. Route weather, turbulence along track
+    source: ""
+  - id: AQUQ
+    format: webp
+    description: En-route chart extract, holding pattern at BTO VOR/DME, inbound
+      track 010° outbound 190°, right-hand turns, FL390/FL250, 1.5 min, airways
+      A123 and B456, VAR 1°E
+    source: ""
+  - id: AQWK
+    format: webp
+    description: Pilot in the cockpit window with one arm extended and a dotted
+      arrow in the other direction
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AQXZ
+    format: svg
+    description: Weather chart symbol
+    source: ""
+  - id: AQZV
+    format: svg
+    description: "CAP 697 Flight Planning Manual, PDF page 51, Section 4 -
+      MRJT1  Page 19: Figure 4.5.1 En-route Climb 280/.74 ISA -6°C to -15°C"
+    source: ""
+  - id: ARAF
+    format: svg
+    description: "Flight plan / navigation log (computer flight plan) table: legend
+      EET, TTLT, DIS, RDIS, GS; route LGSK Skiathos to LGKV Kavala via TSLIB,
+      UM603 ARNAS, PEREN, ASKOS; columns FL, IMT, MN, TAS, GS, wind, OAT, EFOB"
+    source: ""
+  - id: ARBS
+    format: webp
+    description: Coverage sector diagrams Figure A-D, antenna on left, +/-35 degrees
+      sector to 10/15 NM and +/-10 degrees sector to 15/20 NM, ranges 10 NM 15
+      NM 20 NM
+    source: ""
+  - id: ARBW
+    format: webp
+    description: "Jeppesen airport chart 10-9 GCLP/LPA Gran Canaria, Canary Islands:
+      parallel runways 03L/21R and 03R/21L (10167 ft 3099 m / 10171 ft 3100 m),
+      taxiways, aprons, hot spots HS1-HS3, frequencies. Take-off planning from
+      runway 21L/21R"
+    source: ""
+  - id: ARDH
+    format: webp
+    description: ICAO SIGWX fixed time prognostic chart FL 250-630, area H, WAFC
+      London, valid 12 UTC 12 Jan 2017, North Pole and Arctic, North Atlantic.
+      Jet streams FL250-FL410, CB areas, CAT areas 1-10, tropopause heights
+      180-500
+    source: ""
+  - id: AREL
+    format: webp
+    description: ND in PLAN mode with a true north arrow and a route through FGL,
+      UOC, TBX and YTB. The track tape shows 073° M.
+    source: ""
+  - id: ARFN
+    format: webp
+    description: Photo of a thunderstorm with a lightning bolt under a large dark
+      cloud above a dirt road and fields. Lightning, supercell storm, shelf
+      cloud
+    source: ""
+  - id: ARHQ
+    format: webp
+    description: EFIS ND arc/rose HDG 137 MAG, GS 209 TAS 220, wind 090/15, ADF 1
+      ORJ, VOR 2 KAJ DME --.-, magenta track line, blue ADF pointer, green VOR
+      pointer
+    source: ""
+  - id: ARJO
+    format: webp
+    description: "MRJT Stepped Climb Cruise graph (step climb to 2000 ft above
+      optimum altitude): trip time and fuel required (1000 kg) vs trip distance
+      1000-4000 NM by brake release weight 45-70 t, ISA deviation and wind"
+    source: ""
+  - id: ARLS
+    format: webp
+    description: "Instrument Approach Chart ICAO, Aberdeen/Dyce VOR/DME RWY 16 (ACFT
+      CAT A,B,C,D): APP 119.050, TWR 118.100, ATIS 114.300 (VOR ADN), AD elev
+      215, THR elev 205, VOR ADN 114.30 IAF/FAF, I-AX 109.90, final track 164,
+      recommended profile gradient 5.3%, OCA(OCH) 940 (735), MAPt ADN DME 4.5
+      (I-AX DME 1.8), transition altitude 6000, LHA 2500"
+    source: ""
+  - id: ARMA
+    format: webp
+    description: "Jeppesen VFR chart (ICAO 1:500,000 style) Austria, Enns valley /
+      Styrian Alps: Steyr, Gmunden, Trieben, Aigen im Ennstal (LOXA), Zeltweg
+      (LOXZ), Leoben, Linz CTA and Wien CTA, Tauern CTA, quadrant numbers 9-8 to
+      12-2; scale 1:500,000"
+    source: ""
+  - id: ARMO
+    format: webp
+    description: "Jeppesen VFR chart (ICAO 1:500,000 style) northern Austria around
+      Linz: Linz TMA (SRA 1-3), Wels (LOLW), Eferding (LOLE), Freistadt (LOLF),
+      Hoersching (LOLH), Enns, Steyr, Amstetten, Passau (EDMF Fuerstenzell);
+      Wien CTA and Linz CTA limits; quadrants 3-9 to 10-8"
+    source: ""
+  - id: ARMT
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 98, Section 4 -
+      MRJT1 Page 50: Figure 4.31  Brake Cooling Schedule"
+    source: ""
+  - id: ARPL
+    format: webp
+    description: "Blank ICAO flight plan form (items 7 to 19: aircraft
+      identification, flight rules, equipment, departure aerodrome, route,
+      destination, EET, alternate, other information, endurance, persons on
+      board, emergency radio)"
+    source: ""
+  - id: ARQM
+    format: webp
+    description: "Jeppesen Tromso ENTC/TOS Langnes (10-3F) RNAV SID chart: AMIMO 1A
+      and GILGU 1A P-RNAV departures RWY 01, TC603, TC604, ROSKO, GILGU, AMIMO,
+      max 230 KT, min climb gradient 7.0% (425'/NM) up to 5000', initial climb
+      FL90, MSA 7100'"
+    source: ""
+  - id: ARRA
+    format: webp
+    description: Four aerofoil profiles a, b, c, d (different thickness and camber)
+      beside graph of drag coefficient CD versus angle of attack with curves 1,
+      2, 3, 4; match aerofoil shape to CD curve
+    source: ""
+  - id: ARSD
+    format: webp
+    description: Main landing gear and bogie parts 1 to 6, wing spar, inboard, axle
+      number 5, side stay, shock absorber
+    source: ""
+  - id: ARVD
+    format: svg
+    description: "CAP 696 Mass and Balance Manual, PDF page 28, Section 4 - MRJT1
+      Page 2: Figure 4.3 Effect of Flap Retraction"
+    source: ""
+  - id: ARVZ
+    format: webp
+    description: "Figures 1 to 4: mountain with cap cloud on the summit and arrows
+      showing airflow up or down the slopes. Anabatic and katabatic flow, large
+      and small cloud cap, mountain winds, cloud on hilltop"
+    source: ""
+  - id: ARWI
+    format: webp
+    description: "JAA FCL Twin Jet Load & Trim Sheet (filled): DOM 39000, take-off
+      fuel 10500, max ZFM 50000, take-off 62800, landing 54000, trip fuel 7500,
+      operating mass 49500, allowed traffic load 13300, total traffic load 5000,
+      underload 8300, ZFM 44000, TOM 51500, LM 41000"
+    source: ""
+  - id: ASAV
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 39, Section 3 -
+      MEP1 Page 15: Figure 3.7 Climb Performance – Gear Retracted Maximum
+      Continuous Power"
+    source: ""
+  - id: ASCC
+    format: webp
+    description: "JAA FCL Twin Jet Load & Trim Sheet (filled): DOM 34900, take-off
+      fuel 9500, max ZFM 51300, MTOM 62800, landing 52900, trip fuel 6500,
+      operating mass 44400, traffic load 11230, passengers 60 male 30 female,
+      dry operating index 33.5; used to compute take-off mass and CG with fuel
+      index -0.9"
+    source: ""
+  - id: ASER
+    format: webp
+    description: "Blank loading manifest, light twin (mass lb, arm in): basic empty
+      mass 3210 at 88.5, pilot/front passenger 85.5, centre seats/baggage zone 2
+      (350 lb max) 118.5, rear seats/zone 3 (400 lb max) 157.6, baggage zone 1
+      22.5, zone 4 178.7, ZFM max 4470, ramp mass 4773, take-off mass 4750,
+      landing mass 4513 lb max"
+    source: ""
+  - id: ASNU
+    format: webp
+    description: "Jeppesen en-route chart excerpt, North Sea / Amsterdam FIR: TOPPA,
+      MONIL, SPY 113.3, PAM 117.8, HDR 115.55 Den Helder, Amsterdam CTA
+      East/West, Schiphol TMA, London/Amsterdam FIR boundary, airways L74, L602,
+      P1, restricted areas EH(R), EH(D), Rotterdam, GODOS CTA"
+    source: ""
+  - id: ASPA
+    format: webp
+    description: EFIS ND arc mode with weather radar WX+T, TRK 227 MAG, GS 250 TAS
+      255, wind 162/10, D270J 0738.5Z 6NM, DECEL, RNP 400 ANP 63, VOR1 CLN DME
+      59.7 FMCL, ADF 2 NH, C127 waypoint, traffic TFC
+    source: ""
+  - id: ASQO
+    format: webp
+    description: Globe showing general circulation wind arrows over Africa, Europe
+      and Asia, labelled A (easterly, around 25N), B (westerly, around 45N) and
+      C (westerly, high latitude), prevailing winds by latitude
+    source: ""
+  - id: ASRC
+    format: webp
+    description: "Leading edge devices 1, 2, 3 (Krueger flap, variable camber/droop
+      nose, slat) next to graph CL versus angle of attack (AoA): clean wing
+      CLmax about 1.5 at 18 degrees, with device dashed curve CLmax about 2.1 at
+      25 degrees, same lift slope"
+    source: ""
+  - id: ASRH
+    format: webp
+    description: Figure I-6-1-2 Entry sectors, holding pattern entry sectors 1, 2
+      and 3 (parallel, offset, direct), 70 degree boundary and 30 degree offset
+      line
+    source: ""
+  - id: ASRW
+    format: svg
+    description: "CAP 696 Mass and Balance Manual, PDF page 35, Section 4 - MRJT1
+      Page 9: Figure 4.12 Load and Trim Sheet (Blank)"
+    source: ""
+  - id: ASSM
+    format: webp
+    description: Marshaller with one arm raised overhead and a pilot shown in a
+      cockpit window pointing, arrows pointing up
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: ASTZ
+    format: svg
+    description: Power required (P_R) vs TAS, 4 figures (Fig 1-4) showing the P_R
+      curve shifting (arrows) when aircraft mass changes. Fig 3 = mass decreased
+      (curve moves down-left), Fig 2 = mass increased (moves up-right)
+    source: ""
+  - id: ASUC
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 27, Section 3 -
+      MEP1 Page 3: Figure 3.1 Take-Off – Normal Procedure"
+    source: ""
+  - id: ASVF
+    format: webp
+    description: "Four aerofoil high-lift devices 1-4: 1 Krueger flap (leading
+      edge), 2 leading edge slat/droop, 3 split or plain trailing edge flap, 4
+      slotted/Fowler type trailing edge flap"
+    source: ""
+  - id: ASWU
+    format: webp
+    description: "Jeppesen en-route chart excerpt, Scotland / northern UK: Stornoway
+      STN 115.1, Wick WIK 113.6, Kirkwall KWL 108.6, Sumburgh SUM 117.35,
+      Aberdeen ADN 114.3, Perth PTH 110.4, Glasgow GOW 115.4, Talla TLA 113.8,
+      Scottish TMA, Aberdeen CTA, Scottish FIR, airways Y904, N560, P600, L602"
+    source: ""
+  - id: ASYM
+    format: svg
+    description: "Flight log excerpt (033-124): waypoints ALPHA, BETA, GAMMA, DELTA
+      with ETA, ATA, planned remaining fuel 5690, 5340, 5240, 4740 kg and actual
+      remaining fuel 5690, 5270, 5150 kg"
+    source: ""
+  - id: ATAE
+    format: webp
+    description: IFR en-route low altitude chart (Jeppesen) Scotland and Northern
+      England with section markers A and B, Glasgow GOW, Prestwick, Edinburgh
+      TLA, Dean Cross DCS, Isle of Man, Warton, Manchester, UK airspace areas
+    source: ""
+  - id: ATAL
+    format: webp
+    description: "Take-off performance output for runway 21L, TORA 3900, CWY 0, SWY
+      0: TOGA thrust (V1 145, V1/VR 0.921, reqTOD 2753, reqASD 2766) vs FLEX
+      thrust 41C (V1 156, V1/VR 0.916, reqTOD 3883, reqASD 3460) with
+      stop/go/all-engine markers on runway diagram. Windshear / TOGA question"
+    source: ""
+  - id: ATFY
+    format: webp
+    description: Met UK wind chart FL050
+    source: ""
+  - id: ATGM
+    format: webp
+    description: World map with latitude and longitude grid (0° to 180°E, 60°N to
+      40°S), Arctic Circle, Tropic of Cancer, Equator, Tropic of Capricorn.
+      Routes London - Mumbai - Bangkok, Mumbai - Melbourne, Karachi - Bangkok,
+      Darwin marked. Great circle routes, Europe to Asia and Australia
+    source: ""
+  - id: ATIC
+    format: svg
+    description: Weather chart symbol
+    source: ""
+  - id: ATKQ
+    format: webp
+    description: "Graphical loading chart (CG in metres, mass kg 1050-1900):
+      pilot/copilot or front pax, rear pax, cargo (pax floor), cargo (pax foot
+      rest), hold, fuel indices, with empty weight 1050 kg, forward and aft
+      limits, worked example (total 1686 kg)."
+    source: ""
+  - id: ATLO
+    format: webp
+    description: "Turn and slip indicator (turn coordinator needle and ball): needle
+      deflected right with ball centred, coordinated turn"
+    source: ""
+  - id: ATNS
+    format: webp
+    description: "Jeppesen IFR en-route low altitude chart, north-west England and
+      Isle of Man: Isle of Man IOM 112.2, Dean Cross DCS, Warton ARA, Manchester
+      MCT, Pole Hill POL, Wallasey WAL, Trent TNT, Liverpool, Dublin, Leeds
+      Bradford, Manchester TMA, Liverpool CTA, Midlands CTA; airways L70 L975
+      L10 N57 Y70"
+    source: ""
+  - id: ATQL
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 57, Section 4 -
+      MRJT1 Page 9: Figure 4.4 Take-Off Performance – Field Length Limit Graph"
+    source: ""
+  - id: ATVD
+    format: svg
+    description: "Graph Cm versus alpha with four lines 1-4: line 1 (green) rising
+      with alpha from pitch down to pitch up, line 2 constant positive, line 3
+      (orange) falling to negative flat, line 4 (purple) falling from positive
+      to negative; longitudinal static stability"
+    source: ""
+  - id: ATWH
+    format: svg
+    description: "Graph pitching moment coefficient CM versus CL (pitch up +, pitch
+      down -) with three lines: Line Y (wing/fuselage, rising then flattening),
+      Line Z (steeper negative slope, tailplane contribution), Aeroplane line
+      (dashed, overall stable negative slope); longitudinal static stability"
+    source: ""
+  - id: ATWP
+    format: svg
+    description: CDI display (TO flag, course 060) and four RMI options A-D with
+      yellow needle, question to select the RMI bearing indication
+    source: ""
+  - id: ATWR
+    format: svg
+    description: Graph of lift coefficient against drag coefficient, with two drag
+      polars labelled 1 (blue) and 2 (red) and tangent lines from the origin
+    source: ""
+  - id: ATZF
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 45, Section 3 -
+      MEP1 Page 21: Figure 3.9 Landing Distance Normal Procedure"
+    source: ""
+  - id: ATZI
+    format: webp
+    description: IFR en-route low altitude chart (Jeppesen) northern England and
+      Scotland with section markers B A C D, Glasgow GOW, Edinburgh TLA, Dean
+      Cross DCS, Manchester MCT, Pole Hill POL, Wallasey WAL, Trent TNT, Warton,
+      Isle of Man (overlapping scan)
+    source: ""
+  - id: AUAA
+    format: svg
+    description: "NOTAM page with five NOTAMs: A1557/14 OMAL cranes, A7408/14 LIRA
+      Rome frequency change, A8236/14 LIRF taxiway C closed, B1144/14 LGKV
+      Kavala hours of service, H5669/14 YSSY taxiway restrictions"
+    source: ""
+  - id: AUCN
+    format: webp
+    description: World map (050-052) with Bermuda, Azores, Mumbai, Hong Kong marked,
+      lines joining Bermuda-Azores and Mumbai-Hong Kong, latitude and longitude
+      graticule
+    source: ""
+  - id: AUDD
+    format: svg
+    description: Weather chart symbol
+    source: ""
+  - id: AUGF
+    format: webp
+    description: HSI display (course 060, TO flag) and four RMI options A-D with
+      yellow needle, question to select the correct RMI indication
+    source: ""
+  - id: AULD
+    format: webp
+    description: Annex 071-2083 North Atlantic chart, Tracks A B C D and E with
+      flight levels 310-390, St John, Shannon, Santa Maria circles (1 HR 45 MIN
+      735 NM), Paris to Washington via NAT A 8 hrs 3 min, NAT B 8 hrs 10 min,
+      NAT C 8 hrs 15 min, NAT D 8 hrs 20 min
+    source: ""
+  - id: AULT
+    format: webp
+    description: Marshaller with one hand held up and clenched, wands pointing down
+      by the sides
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AULX
+    format: svg
+    description: Waypoint table from-to 1-2 2-3 3-4 4-5, leg time 19 26 08 41 min,
+      accumulated time 19 45 53 94 min, TAS 252 256 259 250 kt
+    source: ""
+  - id: AUOS
+    format: webp
+    description: Four VOR/OBS course deviation indicator displays A B C D with
+      TO/FROM flags, CRS selector, needle left or right, course 060, deviation
+      dots
+    source: ""
+  - id: AUQD
+    format: webp
+    description: Marshaller with one arm raised and a finger pointing up, wand held
+      across the chest, inset view of the same signal
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AUSD
+    format: webp
+    description: "PFD during ILS autoland: FMA SPD, LOC ROLL OUT, G/S FLARE, LAND 2,
+      radio altitude 5 ft, speed 130 kt, VREF 130, ILS DME 1.2, 1023 HPA
+      (autopilot and flight director in landing mode)"
+    source: ""
+  - id: AUST
+    format: svg
+    description: "Four figures (1-4) of total drag curve D (force F vs V TAS) with
+      dashed curve movement: up-right, left, right, up; used for effect of
+      increased density altitude on drag"
+    source: ""
+  - id: AUSW
+    format: svg
+    description: "CAP 697 Flight Planning Manual, PDF page 35, Section 4 -
+      MRJT1  Page 3: Figure 4.3.1"
+    source: ""
+  - id: AVAT
+    format: svg
+    description: "CAP 697 Flight Planning Manual, PDF page 53, Section 4 -
+      MRJT1  Page 21: Figure 4.5.1 En-route Climb 280/.74 ISA +6°C to +15°C"
+    source: ""
+  - id: AVCK
+    format: webp
+    description: "Jeppesen Stuttgart EDDS/STR (12-2) RNP Rwy 25 approach chart
+      (scanned): LNAV/VNAV DA(H) 1590' (409'), minimum alt UNSER 4000', LBU IAF,
+      DS512 IF, RW25, 3.00° descent angle, missed approach DS050 DS054,
+      Baro-VNAV not authorized below -15°C"
+    source: ""
+  - id: AVCX
+    format: svg
+    description: "Four graphs CL versus alpha, Figures 1-4, solid new curve and
+      dashed original with arrows: figure 1 lift slope decreases (lower slope,
+      same alpha), figure 2 CLmax and stall angle increase, figure 3 lift slope
+      increases and curve moves up/left, figure 4 CLmax and stall angle
+      decrease; effect of aspect ratio, contamination, sweep, flaps"
+    source: ""
+  - id: AVCZ
+    format: svg
+    description: "CAP 696 file 4.9 MRJT forward cargo compartment (cargo hold 1, BA
+      228-500 in) and aft cargo compartment (hold 4, BA 731-1096 in) load limits
+      in kg: running load kg/in (13.15, 8.47, 13.12; aft 14.65, 7.26, 7.18),
+      distribution load intensity 68 kg/ft2, compartment load, centroid, total
+      load 3305 kg / 4187 kg, hold volume"
+    source: ""
+  - id: AVDJ
+    format: svg
+    description: Twin-spool gas turbine with two concentric compressor drive shafts
+    source: https://www.faa.gov/sites/faa.gov/files/03_amtp_ch1.pdf
+  - id: AVDS
+    format: webp
+    description: Surface analysis, high pressure 1024 hPa with isobars 1004 to 1020,
+      between 30N and 40N and 020W to 010W, aircraft positions A, B, C, D around
+      the high (wind direction clockwise, Northern Hemisphere)
+    source: ""
+  - id: AVKK
+    format: svg
+    description: "CAP 696 Mass and Balance Manual, PDF page 20, Section 2 - SEP1
+      Page 4: Figure 2.5 Blank Centre of Gravity Envelope"
+    source: ""
+  - id: AVMW
+    format: svg
+    description: "Standard times (corrected to September 1993) List I places fast on
+      UTC (east of Greenwich): Afghanistan 04 30, Australia states 10 09 30 08,
+      Austria 01, China 08, Egypt 02, France 01, Germany 01, India 05 30, Japan
+      09, Kenya 03, Italy 01, Hong Kong 08 etc.; add to UTC for Standard Time"
+    source: ""
+  - id: AVNA
+    format: webp
+    description: Fuel system schematic, left main, right main and centre tanks, AC
+      and DC fuel pumps, crossfeed valves, spar valves, engine fuel shut off
+      valves, APU isolation valve, non-return valves
+    source: ""
+  - id: AVNC
+    format: svg
+    description: "Twin-jet fuel tanks configuration and fuel capacity table (usable
+      fuel, density 0.785 kg/l): outer 880 l x2, inner 6925 l x2, centre 8250 l,
+      total without ACT 23860 l / 18730 kg, additional centre tank ACT 2992 l,
+      total with ACT 26852 l / 21079 kg; wing, centre, vent, additional CTR
+      tank"
+    source: ""
+  - id: AVOG
+    format: webp
+    description: Met Office analysis chart valid 00 UTC Mon 06 Feb 2017, North
+      Atlantic and Europe, 929 hPa low, highs 1041, 1030, 1033, fronts,
+      geostrophic wind scale, metoffice.gov.uk
+    source: ""
+  - id: AVWY
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 90, Section 4 -
+      MRJT1 Page 42: Figure 4.25 Driftdown Profiles – Net Flight Path"
+    source: ""
+  - id: AVYN
+    format: webp
+    description: "Take-off calculator app screenshot: conditions OAT 3C, QNH 1027
+      hPa, wind 010/14 (HW 9 kt, XW 11 kt), ATOW 68000 kg, MAC 24%; result MTOW
+      68262 kg, V1 150, VR 150, V2 154"
+    source: ""
+  - id: AWCF
+    format: webp
+    description: "Jeppesen VFR chart (ICAO 1:500,000) Austria, Styrian Alps (Ennstal
+      and Murtal): Aigen im Ennstal (LOXA), Trieben (LOGI), Zeltweg (LOXZ),
+      Leoben-Timmersdorf (LOGT), Trautenfels, Tauern CTA, Zeltweg MTMA, Graz
+      TMA, quadrants 8-5 to 10-8; scale 1:500,000"
+    source: ""
+  - id: AWEC
+    format: webp
+    description: Surface analysis chart valid 00 UTC Mon 06 Feb 2017, North Atlantic
+      and Europe, isobars, fronts, deep low 929 hPa, highs 1041 and 1030,
+      geostrophic wind scale, track A to B (A southwest, B near Ireland/Bay of
+      Biscay)
+    source: ""
+  - id: AWGS
+    format: webp
+    description: Heading indicator (directional gyro, HDG knob, heading 120) and
+      ADF/RMI-type indicator with needle pointing to 270 West, HDG knob
+    source: ""
+  - id: AWKP
+    format: webp
+    description: Leading edge devices 1, 2, 3 (Krueger flap, variable camber droop
+      nose, slat) next to graph CL versus angle of attack (AoA) with clean curve
+      (CLmax about 1.5 at 18 degrees) and dashed curve (CLmax about 2.15 at 21
+      degrees)
+    source: ""
+  - id: AWMB
+    format: webp
+    description: Diagram of low L (left) and high H (right) with three vertical
+      lines labelled 1, 2, 3 and axes, pressure gradient and wind between low
+      and high, positions 1 to 3
+    source: ""
+  - id: AWMI
+    format: webp
+    description: Thirty-nine numbered CAA marshalling illustrations from SERA
+      Appendix 1, section 4
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AWOY
+    format: svg
+    description: "Flight log legs A-B and B-C at FL100: course 095°/245°, CAS 155
+      kt, temperature -15/-20°C, TAS 176/175 kt, wind 180/35 and 165/55,
+      variation 2°E, distances 35 NM and 61 NM, times 00:12 and 00:23, plus
+      winds and temperature aloft forecast tables FL200/150/100/050 valid
+      0601-0900 UTC and 0901-1200 UTC"
+    source: ""
+  - id: AWPA
+    format: webp
+    description: Map of northwest Europe with six numbered air mass trajectories 1
+      to 6 (arrows towards UK from north, east, south, southwest, west,
+      northwest, curved path 5), source regions of air masses
+    source: ""
+  - id: AWTT
+    format: webp
+    description: "LRJT Weight and Balance Manual, forward cargo hold (compartments 1
+      and 2) floor: loose bulk freight prohibited; floor structure running load
+      2070 kg/m, uniformly distributed floor loading 650 kg/m2"
+    source: ""
+  - id: AWZB
+    format: webp
+    description: "Annex 031-007 Mass & Balance CG envelope: aeroplane gross mass
+      30000-75000 kg vs centre of gravity limits % MAC; max taxi mass 63 080 kg,
+      MTOM 62800 kg, max landing mass 54900 kg, max zero fuel mass 51300 kg,
+      forward and aft constrained limits"
+    source: ""
+  - id: AXCG
+    format: webp
+    description: Table of OBS/VOR indicator (column 1) and HSI/CRS indicator with
+      glideslope bar (column 2) options A-D, selected courses 225 and 230,
+      localizer and glideslope deviation combinations
+    source: ""
+  - id: AXEW
+    format: svg
+    description: "Long range cruise table, ISA+20, CG 33%, max cruise thrust,
+      anti-icing off: weight (64-92 t) vs FL290-FL390 giving N1 %, Mach, fuel
+      flow kg/h/engine, IAS, NM/1000 kg and TAS; fuel corrections for econ air
+      conditioning (-0.5%), engine anti-ice (+3%), total anti-ice (+4.5%)"
+    source: ""
+  - id: AXFW
+    format: svg
+    description: "Two fuel planning tables: destination via PISPU (GVAC trip 16239,
+      contingency 3% GCTS 487, taxi 200) and destination alternate via PISPU
+      (GCTS trip 20825, contingency GQNO 625, taxi 200), with time column"
+    source: ""
+  - id: AXGR
+    format: webp
+    description: Chart with 20W, 10W, 0, 10E and 50N, depression with fronts near
+      10W, cold front and warm front, four dashed tracks 1 to 4 (frontal wave
+      path or jet/rain areas)
+    source: ""
+  - id: AXJO
+    format: webp
+    description: Map Atlantic, Africa and Europe 60W to 120E, Arctic Circle,
+      Tropics, Equator, cities Bermuda, Azores, Lisbon, Stockholm, Rome, Dakar,
+      Freetown, Recife, Rio de Janeiro, Nairobi, routes Bermuda-Azores,
+      Lisbon-Freetown, Rome-Nairobi, Dakar-Rio de Janeiro (great circle distance
+      and track)
+    source: ""
+  - id: AXLB
+    format: svg
+    description: "Holding planning table, flaps up: total fuel flow (kg/hr) by
+      weight 30-80 (1000 kg) and pressure altitude 1500-41000 ft, includes 5%
+      additional fuel for racetrack pattern"
+    source: ""
+  - id: AXLR
+    format: webp
+    description: "Mass & Balance CG envelope: aeroplane gross mass 30000-75000 kg vs
+      centre of gravity limits % MAC; max taxi mass 63 080 kg, MTOM 62800 kg,
+      max landing mass 54900 kg, max zero fuel mass 51300 kg, forward and aft
+      constrained limits"
+    source: ""
+  - id: AXLX
+    format: webp
+    description: "Blank Loadsheet & Loadmessage and Load & Trim Sheet VER 132 PAX:
+      index correction zones OA 60 pax and OB 72 pax, cargo holds 1, 4, 5, dry
+      operating index, fuel correction, % MAC vs mass envelope with MSTOM, MSLM,
+      MZFM; LMC section (last minute changes)"
+    source: ""
+  - id: AXOS
+    format: webp
+    description: Aeroplane viewed from behind in turbulent storm cloud with
+      fire/flame from left engine (engine fire, engine failure in flight);
+      stormy conditions
+    source: ""
+  - id: AXPP
+    format: webp
+    description: "Sample electrical system diagram: DC BAT BUS, HOT BUS 1/2, BATTERY
+      1/2, DC BUS 1/2, DC ESS BUS, TRU 1, TRU 2, ESS TRU, STAT INV (static
+      inverter), AC ESS BUS, AC BUS 1/2, EMER GEN, GEN 1/2, EXT PWR, APU GEN,
+      contactors C1-1 to C7-4; not operated in parallel"
+    source: ""
+  - id: AXTM
+    format: webp
+    description: "FMA sequence options FMA-1 to FMA-6 during autoland: FMA-1 MCP
+      SPD, VOR/LOC, G/S, FLARE armed, CMD; FMA-3 FLARE; FMA-4 RETARD, VOR/LOC,
+      FLARE; FMA-5 RETARD, TO/GA; FMA-6 GA; normal sequence after FMA-1 is FMA-3
+      then FMA-4"
+    source: ""
+  - id: AXVC
+    format: svg
+    description: Weather chart symbol
+    source: ""
+  - id: AXVE
+    format: webp
+    description: "Jeppesen Aberdeen EGPD/ABZ (10-1R) Radar Minimum Altitudes chart:
+      sectors with minimum altitudes 1700', 2000', 2300', 2800', 3200', 4100',
+      ADN VOR DME 114.3, ATF NDB, 10 NM and 20 NM rings, loss of communication
+      procedure"
+    source: ""
+  - id: AXVN
+    format: svg
+    description: "Engine failure driftdown table by altitude at engine failure
+      (31000-47000 ft) vs weight at engine failure (20-44 x1000 lb): time (min),
+      distance (NM), fuel used (lb) and final altitude (ft)"
+    source: ""
+  - id: AXWE
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 24, Section 2 -
+      SEP1 Page 10: Figure 2.4 Landing"
+    source: ""
+  - id: AXXW
+    format: webp
+    description: "Jeppesen en-route chart excerpt, Sardinia south / Tunisia /
+      Algiers FIR: TABOT, SALMA, CIRTA, MOUET, SAKET, KAWKA, DOPEL, ELKIS,
+      airways R723, G869, W302, G6, A605, airspace classification within Italy,
+      Tunis TMA, Tabarka TBK 113.3, Carbonara CAR 115.1"
+    source: ""
+  - id: AXYO
+    format: svg
+    description: "CAP 697 Flight Planning Manual, PDF page 83, Section 4 -
+      MRJT1  Page 51: Figure 4.5.3.2 Mach 0.74 Cruise, Pressure Altitude 35,000
+      ft"
+    source: ""
+  - id: AXYQ
+    format: svg
+    description: HSI displays A-D, four options with TO/FROM flags, course bar
+      deviation and heading/course pointer, compass card N-S-E-W, CRS knob
+    source: ""
+  - id: AYDU
+    format: svg
+    description: Instructions for calculating take-off V speeds and checking VMCG,
+      TORA and TORR, with the density sub-graph
+    source: ""
+  - id: AYFS
+    format: svg
+    description: "Altitude (feet, 0 to 40 000) versus temperature (°C, -60 to +40)
+      diagram with dashed lines, green diagonal lines and red curves. Lapse rate
+      diagram: ISA temperature, dry and saturated adiabats, temperature and
+      altitude reading"
+    source: ""
+  - id: AYGU
+    format: webp
+    description: Pilot in the cockpit window with both arms crossed in front of the
+      face and arrows pointing outwards
+    source: https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm
+  - id: AYJO
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 59, Section 4 -
+      MRJT1 Page 11: Figure 4.5 Take-Off Performance – Climb Limit"
+    source: ""
+  - id: AYKO
+    format: webp
+    description: "Four numbered cloud shape sketches 1 to 4: cumulus congestus,
+      lenticular, castellanus, cumulonimbus with anvil"
+    source: ""
+  - id: AYLV
+    format: svg
+    description: Density sub-graph for selecting take-off speed table columns A–F by
+      pressure altitude and temperature
+    source: ""
+  - id: AYMS
+    format: svg
+    description: "Graph drag or thrust required versus velocity with three curves:
+      Line 1 total drag (yellow, U-shaped), Line 2 parasite drag (increasing
+      with speed), Line 3 induced drag (dashed, decreasing with speed)"
+    source: ""
+  - id: AYPU
+    format: webp
+    description: Glass cockpit PFD/MFD (EFIS) VOR 110.40 CRS 045, VLOC 1 nav source,
+      Hdg bug 005, Alt bug 2500 ft, baro 1013, TAS 102 KTS GS 107 KTS OAT 11C,
+      MAP 29.5 RPM 1880 FF 14.3 GPH, wind 037/7, AP RDY
+    source: ""
+  - id: AYQI
+    format: webp
+    description: "Aeroplane pitching up then oscillating flight path about the level
+      reference (dashed) with decreasing amplitude: damped phugoid oscillation"
+    source: ""
+  - id: AYRZ
+    format: svg
+    description: "Flight log fuel planning section: trip 2:30 1200 kg, contingency
+      64, alternate 600, final reserve 240, minimum TOF 2104, extra 880, TOF
+      2984, taxi 50, ramp 3034; mass DOM 4560, payload 490, ZFM 5050, TOM 8034,
+      est landing mass 6834"
+    source: ""
+  - id: AYSQ
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 47, Section 3 -
+      MEP1 Page 23: Figure 3.10 Landing Distance Short Field"
+    source: ""
+  - id: AYTK
+    format: webp
+    description: 050-049 surface pressure chart of Europe with two lows L, high H,
+      cold and warm fronts, points T, G, E, depression with fronts and occlusion
+    source: ""
+  - id: AYVV
+    format: webp
+    description: "Completed VFR flight log D-EASA LPFR to LEMG, 03.05.2021: ATC
+      flight plan route, clearance (left turn Vila Real, alt 4000, squawk 5207),
+      waypoints Vila Real, Mazagon, Sanlucar, VJF 117.8, Tarifa, Estepona, TOD,
+      Benalmadena with wind, TAS, TT, TH, MT, GS, distance, leg times, ETO/ATO,
+      estimated and actual fuel (kg)"
+    source: ""
+  - id: AYWQ
+    format: svg
+    description: "MRJT locations diagram with balance arms (INS) and table to
+      convert body station to balance arm (130 to 500: B.S. - 152, 500A-G, 540
+      to 727, 727A-G, 747 to 1217: B.S. + 148); datum point 540 inches forward
+      of front spar"
+    source: ""
+  - id: AYWZ
+    format: svg
+    description: "Graph of Y versus TAS (true airspeed): a curve that decreases as
+      TAS increases"
+    source: ""
+  - id: AYXC
+    format: webp
+    description: En-route chart extract Pamplona CTA Class D (upper limit FL85), PPN
+      112.3, Pamplona South PAP 113.55, airways G52 G23 T430 R299, waypoints
+      DITOP PODUX MALOB KUDEX MIRPO VEGEL TURPU GOMSO BEGUY, radials 271 303 322
+      351 030 116 207 240, LEPP ATZ
+    source: ""
+  - id: AZAI
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 17, Section 2 -
+      SEP1 Page 3: Figure 2.1  Take-Off Distance Flaps Up"
+    source: ""
+  - id: AZES
+    format: webp
+    description: Met Office forecast weather below 10000 FT (low-level chart), valid
+      121400 to 122300Z MAR 17, fronts valid 121800Z, areas A, B, C, D, E, F,
+      table of surface visibility and weather, cloud and zero degree level, with
+      a red line between B and D in area B. Cross-section line B-D and weather
+      along it
+    source: ""
+  - id: AZGF
+    format: svg
+    description: NAT track message FEB 12 0100Z to 0800Z, tracks U V W X Y Z, TMI
+      043, east flight levels 320-400, waypoints PORTI SOMAX ATSUR SUPRY BEDRA
+      NERTU RAFIN OMOKO GUNSO DOVEY ETIKI REGHI JOBOC SOORY SEPAL LAPEX, remarks
+      ADS-C CPDLC RLATSM, clearance delivery frequencies
+    source: ""
+  - id: AZLL
+    format: svg
+    description: "ICAO Doc 4444 16th Edition 2016, Flight plan Item 10: Equipment
+      and Capabilities: COM/NAV/approach aid letters (N, S, A-Z, J1-J7, M1-M3,
+      P1-P9, R, W, X, Y, Z) and surveillance equipment descriptors (SSR modes A,
+      C, S, ADS-B, ADS-C), with notes 1-6"
+    source: ""
+  - id: AZMI
+    format: webp
+    description: Cargo Aircraft Only label (orange), dangerous goods packages being
+      loaded onto a freighter aircraft, hand symbol
+    source: ""
+  - id: AZNX
+    format: svg
+    description: "CAP 698 Aeroplane Performance Manual, PDF page 88, Section 4 -
+      MRJT1 Page 40: Figure 4.23 Net Level-Off Altitude"
+    source: ""
+  - id: AZOJ
+    format: webp
+    description: Weather radar control panel, mode selector (WX, WX+T, TURB, MAP),
+      PWS mode OFF/AUTO, GAIN knob (MIN CAL MAX), TILT knob (0 5 15 UP/DN), GND
+      CTLR SPRS ON/OFF, controls 1 2 3
+    source: ""
+  - id: AZPY
+    format: webp
+    description: Hand-drawn North Atlantic plotting chart 071-2083A, St John,
+      Shannon and Santa Maria, tracks A B C D across the Atlantic, latitude and
+      longitude grid
+    source: ""
+  - id: AZQE
+    format: webp
+    description: "Airfield diagram for obstacle clearance: crossing runways 09/27
+      and 18/36, control tower 250 ft AMSL 1 NM west, power lines 400 ft AMSL
+      1.5 NM east, trees 800 ft AMSL 2 NM south; all runways sea level, 0%
+      slope. Single-engine take-off obstacle clearance (same as
+      032-airfield-diagram-for-obstacle-clearance)"
+    source: ""
+courses:
+  - id: ATPL_A
+    text: ATPL(A)
+  - id: CPL_A
+    text: CPL(A)
+  - id: IR
+    text: IR
+  - id: CBIR_A
+    text: CBIR(A)
+subjects:
+  - id: "010"
+    learningObjective: "010"
+    longName: Air Law
+    shortName: Air Law
+    exams:
+      - course: ATPL_A
+        minutes: 60
+        questions: 44
+        chapters:
+          - chapter: "010.01"
+            numberOfQuestions: 2
+          - chapter: "010.02"
+            numberOfQuestions: 1
+          - chapter: "010.04"
+            numberOfQuestions: 1
+          - chapter: "010.05"
+            numberOfQuestions: 9
+          - chapter: "010.06"
+            numberOfQuestions: 10
+          - chapter: "010.07"
+            numberOfQuestions: 6
+          - chapter: "010.08"
+            numberOfQuestions: 1
+          - chapter: "010.09"
+            numberOfQuestions: 8
+          - chapter: "010.10"
+            numberOfQuestions: 1
+          - chapter: "010.11"
+            numberOfQuestions: 1
+          - chapter: "010.12"
+            numberOfQuestions: 2
+          - chapter: "010.13"
+            numberOfQuestions: 2
+      - course: CPL_A
+        minutes: 45
+        questions: 33
+        chapters:
+          - chapter: "010.01"
+            numberOfQuestions: 2
+          - chapter: "010.02"
+            numberOfQuestions: 1
+          - chapter: "010.04"
+            numberOfQuestions: 1
+          - chapter: "010.05"
+            numberOfQuestions: 9
+          - chapter: "010.06"
+            numberOfQuestions: 5
+          - chapter: "010.07"
+            numberOfQuestions: 4
+          - chapter: "010.08"
+            numberOfQuestions: 1
+          - chapter: "010.09"
+            numberOfQuestions: 5
+          - chapter: "010.10"
+            numberOfQuestions: 1
+          - chapter: "010.11"
+            numberOfQuestions: 1
+          - chapter: "010.12"
+            numberOfQuestions: 2
+          - chapter: "010.13"
+            numberOfQuestions: 1
+      - course: IR
+        minutes: 45
+        questions: 30
+        chapters:
+          - chapter: "010.04"
+            numberOfQuestions: 1
+          - chapter: "010.05"
+            numberOfQuestions: 6
+          - chapter: "010.06"
+            numberOfQuestions: 8
+          - chapter: "010.07"
+            numberOfQuestions: 6
+          - chapter: "010.08"
+            numberOfQuestions: 2
+          - chapter: "010.09"
+            numberOfQuestions: 7
+      - course: CBIR_A
+        minutes: 30
+        questions: 18
+        chapters:
+          - chapter: "010.04"
+            numberOfQuestions: 1
+          - chapter: "010.05"
+            numberOfQuestions: 5
+          - chapter: "010.06"
+            numberOfQuestions: 6
+          - chapter: "010.07"
+            numberOfQuestions: 3
+          - chapter: "010.08"
+            numberOfQuestions: 1
+          - chapter: "010.09"
+            numberOfQuestions: 2
+  - id: "021"
+    learningObjective: "021"
+    longName: Aircraft General Knowledge
+    shortName: AGK
+    exams:
+      - course: ATPL_A
+        minutes: 120
+        questions: 80
+        chapters:
+          - chapter: "021.01"
+            numberOfQuestions: 2
+          - chapter: "021.02"
+            numberOfQuestions: 2
+          - chapter: "021.03"
+            numberOfQuestions: 5
+          - chapter: "021.04"
+            numberOfQuestions: 5
+          - chapter: "021.05"
+            numberOfQuestions: 8
+          - chapter: "021.06"
+            numberOfQuestions: 5
+          - chapter: "021.07"
+            numberOfQuestions: 2
+          - chapter: "021.08"
+            numberOfQuestions: 5
+          - chapter: "021.09"
+            numberOfQuestions: 15
+          - chapter: "021.10"
+            numberOfQuestions: 6
+          - chapter: "021.11"
+            numberOfQuestions: 19
+          - chapter: "021.12"
+            numberOfQuestions: 3
+          - chapter: "021.13"
+            numberOfQuestions: 3
+      - course: CPL_A
+        minutes: 90
+        questions: 60
+        chapters:
+          - chapter: "021.01"
+            numberOfQuestions: 1
+          - chapter: "021.02"
+            numberOfQuestions: 2
+          - chapter: "021.03"
+            numberOfQuestions: 3
+          - chapter: "021.04"
+            numberOfQuestions: 4
+          - chapter: "021.05"
+            numberOfQuestions: 6
+          - chapter: "021.06"
+            numberOfQuestions: 2
+          - chapter: "021.07"
+            numberOfQuestions: 2
+          - chapter: "021.08"
+            numberOfQuestions: 3
+          - chapter: "021.09"
+            numberOfQuestions: 11
+          - chapter: "021.10"
+            numberOfQuestions: 11
+          - chapter: "021.11"
+            numberOfQuestions: 11
+          - chapter: "021.12"
+            numberOfQuestions: 2
+          - chapter: "021.13"
+            numberOfQuestions: 2
+  - id: "022"
+    learningObjective: "022"
+    longName: Instruments
+    shortName: Instruments
+    exams:
+      - course: ATPL_A
+        minutes: 90
+        questions: 60
+        chapters:
+          - chapter: "022.01"
+            numberOfQuestions: 3
+          - chapter: "022.02"
+            numberOfQuestions: 8
+          - chapter: "022.03"
+            numberOfQuestions: 2
+          - chapter: "022.04"
+            numberOfQuestions: 4
+          - chapter: "022.05"
+            numberOfQuestions: 3
+          - chapter: "022.06"
+            numberOfQuestions: 11
+          - chapter: "022.08"
+            numberOfQuestions: 3
+          - chapter: "022.09"
+            numberOfQuestions: 4
+          - chapter: "022.10"
+            numberOfQuestions: 2
+          - chapter: "022.11"
+            numberOfQuestions: 6
+          - chapter: "022.12"
+            numberOfQuestions: 8
+          - chapter: "022.13"
+            numberOfQuestions: 4
+          - chapter: "022.14"
+            numberOfQuestions: 1
+          - chapter: "022.15"
+            numberOfQuestions: 1
+      - course: CPL_A
+        minutes: 60
+        questions: 40
+        chapters:
+          - chapter: "022.01"
+            numberOfQuestions: 3
+          - chapter: "022.02"
+            numberOfQuestions: 8
+          - chapter: "022.03"
+            numberOfQuestions: 2
+          - chapter: "022.04"
+            numberOfQuestions: 4
+          - chapter: "022.06"
+            numberOfQuestions: 9
+          - chapter: "022.08"
+            numberOfQuestions: 2
+          - chapter: "022.11"
+            numberOfQuestions: 1
+          - chapter: "022.12"
+            numberOfQuestions: 7
+          - chapter: "022.13"
+            numberOfQuestions: 3
+          - chapter: "022.14"
+            numberOfQuestions: 1
+      - course: IR
+        minutes: 30
+        questions: 20
+        chapters:
+          - chapter: "022.02"
+            numberOfQuestions: 4
+          - chapter: "022.03"
+            numberOfQuestions: 1
+          - chapter: "022.04"
+            numberOfQuestions: 2
+          - chapter: "022.06"
+            numberOfQuestions: 2
+          - chapter: "022.08"
+            numberOfQuestions: 1
+          - chapter: "022.11"
+            numberOfQuestions: 3
+          - chapter: "022.12"
+            numberOfQuestions: 3
+          - chapter: "022.13"
+            numberOfQuestions: 3
+          - chapter: "022.15"
+            numberOfQuestions: 1
+      - course: CBIR_A
+        minutes: 20
+        questions: 12
+        chapters:
+          - chapter: "022.02"
+            numberOfQuestions: 4
+          - chapter: "022.03"
+            numberOfQuestions: 1
+          - chapter: "022.04"
+            numberOfQuestions: 2
+          - chapter: "022.11"
+            numberOfQuestions: 1
+          - chapter: "022.13"
+            numberOfQuestions: 3
+          - chapter: "022.15"
+            numberOfQuestions: 1
+  - id: "031"
+    learningObjective: "031"
+    longName: Mass and Balance
+    shortName: Mass and Balance
+    exams:
+      - course: ATPL_A
+        minutes: 75
+        questions: 25
+        chapters:
+          - chapter: "031.01"
+            numberOfQuestions: 1
+          - chapter: "031.02"
+            numberOfQuestions: 8
+          - chapter: "031.04"
+            numberOfQuestions: 5
+          - chapter: "031.05"
+            numberOfQuestions: 9
+          - chapter: "031.06"
+            numberOfQuestions: 2
+      - course: CPL_A
+        minutes: 60
+        questions: 21
+        chapters:
+          - chapter: "031.01"
+            numberOfQuestions: 1
+          - chapter: "031.02"
+            numberOfQuestions: 7
+          - chapter: "031.04"
+            numberOfQuestions: 4
+          - chapter: "031.05"
+            numberOfQuestions: 7
+          - chapter: "031.06"
+            numberOfQuestions: 2
+  - id: "032"
+    learningObjective: "032"
+    longName: Performance
+    shortName: Performance
+    exams:
+      - course: ATPL_A
+        minutes: 120
+        questions: 45
+        chapters:
+          - chapter: "032.01"
+            numberOfQuestions: 12
+          - chapter: "032.02"
+            numberOfQuestions: 6
+          - chapter: "032.03"
+            numberOfQuestions: 3
+          - chapter: "032.04"
+            numberOfQuestions: 18
+          - chapter: "032.05"
+            numberOfQuestions: 6
+      - course: CPL_A
+        minutes: 75
+        questions: 28
+        chapters:
+          - chapter: "032.01"
+            numberOfQuestions: 12
+          - chapter: "032.02"
+            numberOfQuestions: 9
+          - chapter: "032.03"
+            numberOfQuestions: 6
+          - chapter: "032.04"
+            numberOfQuestions: 1
+  - id: "033"
+    learningObjective: "033"
+    longName: Flight Planning and Monitoring
+    shortName: FPM
+    exams:
+      - course: ATPL_A
+        minutes: 120
+        questions: 42
+        chapters:
+          - chapter: "033.01"
+            numberOfQuestions: 6
+          - chapter: "033.02"
+            numberOfQuestions: 13
+          - chapter: "033.03"
+            numberOfQuestions: 11
+          - chapter: "033.04"
+            numberOfQuestions: 6
+          - chapter: "033.05"
+            numberOfQuestions: 1
+          - chapter: "033.06"
+            numberOfQuestions: 5
+      - course: CPL_A
+        minutes: 90
+        questions: 33
+        chapters:
+          - chapter: "033.01"
+            numberOfQuestions: 11
+          - chapter: "033.03"
+            numberOfQuestions: 10
+          - chapter: "033.04"
+            numberOfQuestions: 6
+          - chapter: "033.05"
+            numberOfQuestions: 1
+          - chapter: "033.06"
+            numberOfQuestions: 5
+      - course: IR
+        minutes: 75
+        questions: 27
+        chapters:
+          - chapter: "033.02"
+            numberOfQuestions: 13
+          - chapter: "033.03"
+            numberOfQuestions: 5
+          - chapter: "033.04"
+            numberOfQuestions: 5
+          - chapter: "033.05"
+            numberOfQuestions: 1
+          - chapter: "033.06"
+            numberOfQuestions: 3
+      - course: CBIR_A
+        minutes: 60
+        questions: 22
+        chapters:
+          - chapter: "033.02"
+            numberOfQuestions: 12
+          - chapter: "033.03"
+            numberOfQuestions: 5
+          - chapter: "033.04"
+            numberOfQuestions: 4
+          - chapter: "033.05"
+            numberOfQuestions: 1
+  - id: "040"
+    learningObjective: "040"
+    longName: Human Performance and Limitations
+    shortName: HPL
+    exams:
+      - course: ATPL_A
+        minutes: 90
+        questions: 48
+        chapters:
+          - chapter: "040.01"
+            numberOfQuestions: 4
+          - chapter: "040.02"
+            numberOfQuestions: 24
+          - chapter: "040.03"
+            numberOfQuestions: 20
+      - course: CPL_A
+        minutes: 60
+        questions: 35
+        chapters:
+          - chapter: "040.01"
+            numberOfQuestions: 3
+          - chapter: "040.02"
+            numberOfQuestions: 18
+          - chapter: "040.03"
+            numberOfQuestions: 14
+      - course: IR
+        minutes: 60
+        questions: 35
+        chapters:
+          - chapter: "040.01"
+            numberOfQuestions: 3
+          - chapter: "040.02"
+            numberOfQuestions: 18
+          - chapter: "040.03"
+            numberOfQuestions: 14
+      - course: CBIR_A
+        minutes: 30
+        questions: 16
+        chapters:
+          - chapter: "040.01"
+            numberOfQuestions: 1
+          - chapter: "040.02"
+            numberOfQuestions: 8
+          - chapter: "040.03"
+            numberOfQuestions: 7
+  - id: "050"
+    learningObjective: "050"
+    longName: Meteorology
+    shortName: Meteorology
+    exams:
+      - course: ATPL_A
+        minutes: 120
+        questions: 84
+        chapters:
+          - chapter: "050.01"
+            numberOfQuestions: 10
+          - chapter: "050.02"
+            numberOfQuestions: 10
+          - chapter: "050.03"
+            numberOfQuestions: 3
+          - chapter: "050.04"
+            numberOfQuestions: 8
+          - chapter: "050.05"
+            numberOfQuestions: 2
+          - chapter: "050.06"
+            numberOfQuestions: 7
+          - chapter: "050.07"
+            numberOfQuestions: 6
+          - chapter: "050.08"
+            numberOfQuestions: 8
+          - chapter: "050.09"
+            numberOfQuestions: 14
+          - chapter: "050.10"
+            numberOfQuestions: 16
+      - course: CPL_A
+        minutes: 90
+        questions: 63
+        chapters:
+          - chapter: "050.01"
+            numberOfQuestions: 8
+          - chapter: "050.02"
+            numberOfQuestions: 6
+          - chapter: "050.03"
+            numberOfQuestions: 3
+          - chapter: "050.04"
+            numberOfQuestions: 6
+          - chapter: "050.05"
+            numberOfQuestions: 2
+          - chapter: "050.06"
+            numberOfQuestions: 6
+          - chapter: "050.07"
+            numberOfQuestions: 2
+          - chapter: "050.08"
+            numberOfQuestions: 3
+          - chapter: "050.09"
+            numberOfQuestions: 13
+          - chapter: "050.10"
+            numberOfQuestions: 14
+      - course: IR
+        minutes: 90
+        questions: 63
+        chapters:
+          - chapter: "050.01"
+            numberOfQuestions: 8
+          - chapter: "050.02"
+            numberOfQuestions: 6
+          - chapter: "050.03"
+            numberOfQuestions: 3
+          - chapter: "050.04"
+            numberOfQuestions: 6
+          - chapter: "050.05"
+            numberOfQuestions: 2
+          - chapter: "050.06"
+            numberOfQuestions: 6
+          - chapter: "050.07"
+            numberOfQuestions: 2
+          - chapter: "050.08"
+            numberOfQuestions: 3
+          - chapter: "050.09"
+            numberOfQuestions: 13
+          - chapter: "050.10"
+            numberOfQuestions: 14
+      - course: CBIR_A
+        minutes: 50
+        questions: 35
+        chapters:
+          - chapter: "050.01"
+            numberOfQuestions: 4
+          - chapter: "050.02"
+            numberOfQuestions: 3
+          - chapter: "050.03"
+            numberOfQuestions: 1
+          - chapter: "050.04"
+            numberOfQuestions: 5
+          - chapter: "050.05"
+            numberOfQuestions: 2
+          - chapter: "050.06"
+            numberOfQuestions: 4
+          - chapter: "050.07"
+            numberOfQuestions: 1
+          - chapter: "050.08"
+            numberOfQuestions: 1
+          - chapter: "050.09"
+            numberOfQuestions: 8
+          - chapter: "050.10"
+            numberOfQuestions: 6
+  - id: "061"
+    learningObjective: "061"
+    longName: General Navigation
+    shortName: General Navigation
+    exams:
+      - course: ATPL_A
+        minutes: 135
+        questions: 55
+        chapters:
+          - chapter: "061.01"
+            numberOfQuestions: 28
+          - chapter: "061.02"
+            numberOfQuestions: 7
+          - chapter: "061.03"
+            numberOfQuestions: 5
+          - chapter: "061.04"
+            numberOfQuestions: 12
+          - chapter: "061.05"
+            numberOfQuestions: 3
+      - course: CPL_A
+        minutes: 120
+        questions: 45
+        chapters:
+          - chapter: "061.01"
+            numberOfQuestions: 22
+          - chapter: "061.02"
+            numberOfQuestions: 6
+          - chapter: "061.03"
+            numberOfQuestions: 5
+          - chapter: "061.04"
+            numberOfQuestions: 9
+          - chapter: "061.05"
+            numberOfQuestions: 3
+  - id: "062"
+    learningObjective: "062"
+    longName: Radio Navigation
+    shortName: Radio Navigation
+    exams:
+      - course: ATPL_A
+        minutes: 90
+        questions: 66
+        chapters:
+          - chapter: "062.01"
+            numberOfQuestions: 5
+          - chapter: "062.02"
+            numberOfQuestions: 22
+          - chapter: "062.03"
+            numberOfQuestions: 11
+          - chapter: "062.06"
+            numberOfQuestions: 15
+          - chapter: "062.07"
+            numberOfQuestions: 13
+      - course: CPL_A
+        minutes: 30
+        questions: 22
+        chapters:
+          - chapter: "062.01"
+            numberOfQuestions: 4
+          - chapter: "062.02"
+            numberOfQuestions: 11
+          - chapter: "062.03"
+            numberOfQuestions: 2
+          - chapter: "062.06"
+            numberOfQuestions: 5
+      - course: IR
+        minutes: 60
+        questions: 44
+        chapters:
+          - chapter: "062.01"
+            numberOfQuestions: 3
+          - chapter: "062.02"
+            numberOfQuestions: 22
+          - chapter: "062.03"
+            numberOfQuestions: 5
+          - chapter: "062.06"
+            numberOfQuestions: 8
+          - chapter: "062.07"
+            numberOfQuestions: 6
+      - course: CBIR_A
+        minutes: 40
+        questions: 24
+        chapters:
+          - chapter: "062.02"
+            numberOfQuestions: 13
+          - chapter: "062.03"
+            numberOfQuestions: 3
+          - chapter: "062.06"
+            numberOfQuestions: 4
+          - chapter: "062.07"
+            numberOfQuestions: 4
+  - id: "070"
+    learningObjective: "070"
+    longName: Operational Procedures
+    shortName: Ops
+    exams:
+      - course: ATPL_A
+        minutes: 75
+        questions: 42
+        chapters:
+          - chapter: "071.01"
+            numberOfQuestions: 17
+          - chapter: "071.02"
+            numberOfQuestions: 24
+          - chapter: "071.04"
+            numberOfQuestions: 1
+      - course: CPL_A
+        minutes: 60
+        questions: 30
+        chapters:
+          - chapter: "071.01"
+            numberOfQuestions: 9
+          - chapter: "071.02"
+            numberOfQuestions: 20
+          - chapter: "071.04"
+            numberOfQuestions: 1
+  - id: "081"
+    learningObjective: "081"
+    longName: Principles of Flight
+    shortName: Principles of Flight
+    exams:
+      - course: ATPL_A
+        minutes: 90
+        questions: 46
+        chapters:
+          - chapter: "081.01"
+            numberOfQuestions: 14
+          - chapter: "081.02"
+            numberOfQuestions: 4
+          - chapter: "081.03"
+            numberOfQuestions: 9
+          - chapter: "081.04"
+            numberOfQuestions: 4
+          - chapter: "081.05"
+            numberOfQuestions: 3
+          - chapter: "081.06"
+            numberOfQuestions: 3
+          - chapter: "081.07"
+            numberOfQuestions: 4
+          - chapter: "081.08"
+            numberOfQuestions: 5
+      - course: CPL_A
+        minutes: 75
+        questions: 37
+        chapters:
+          - chapter: "081.01"
+            numberOfQuestions: 13
+          - chapter: "081.03"
+            numberOfQuestions: 7
+          - chapter: "081.04"
+            numberOfQuestions: 3
+          - chapter: "081.05"
+            numberOfQuestions: 3
+          - chapter: "081.06"
+            numberOfQuestions: 3
+          - chapter: "081.07"
+            numberOfQuestions: 4
+          - chapter: "081.08"
+            numberOfQuestions: 4
+  - id: "090"
+    learningObjective: "090"
+    longName: Communications
+    shortName: Communications
+    exams:
+      - course: ATPL_A
+        minutes: 60
+        questions: 34
+        chapters:
+          - chapter: "090.01"
+            numberOfQuestions: 4
+          - chapter: "090.02"
+            numberOfQuestions: 17
+          - chapter: "090.03"
+            numberOfQuestions: 2
+          - chapter: "090.04"
+            numberOfQuestions: 4
+          - chapter: "090.05"
+            numberOfQuestions: 3
+          - chapter: "090.06"
+            numberOfQuestions: 2
+          - chapter: "090.07"
+            numberOfQuestions: 2
+      - course: CPL_A
+        minutes: 60
+        questions: 34
+        chapters:
+          - chapter: "090.01"
+            numberOfQuestions: 4
+          - chapter: "090.02"
+            numberOfQuestions: 17
+          - chapter: "090.03"
+            numberOfQuestions: 2
+          - chapter: "090.04"
+            numberOfQuestions: 4
+          - chapter: "090.05"
+            numberOfQuestions: 3
+          - chapter: "090.06"
+            numberOfQuestions: 2
+          - chapter: "090.07"
+            numberOfQuestions: 2
+      - course: IR
+        minutes: 60
+        questions: 34
+        chapters:
+          - chapter: "090.01"
+            numberOfQuestions: 4
+          - chapter: "090.02"
+            numberOfQuestions: 17
+          - chapter: "090.03"
+            numberOfQuestions: 2
+          - chapter: "090.04"
+            numberOfQuestions: 4
+          - chapter: "090.05"
+            numberOfQuestions: 3
+          - chapter: "090.06"
+            numberOfQuestions: 2
+          - chapter: "090.07"
+            numberOfQuestions: 2
+      - course: CBIR_A
+        minutes: 60
+        questions: 34
+        chapters:
+          - chapter: "090.01"
+            numberOfQuestions: 4
+          - chapter: "090.02"
+            numberOfQuestions: 17
+          - chapter: "090.03"
+            numberOfQuestions: 2
+          - chapter: "090.04"
+            numberOfQuestions: 4
+          - chapter: "090.05"
+            numberOfQuestions: 3
+          - chapter: "090.06"
+            numberOfQuestions: 2
+          - chapter: "090.07"
+            numberOfQuestions: 2
+chapters:
+  - id: "010.01"
+    subject: "010"
+    title: "International law: conventions, agreements and organisations"
+  - id: "010.02"
+    subject: "010"
+    title: Airworthiness of aircraft, aircraft nationality and registration marks
+  - id: "010.04"
+    subject: "010"
+    title: Personnel licensing
+  - id: "010.05"
+    subject: "010"
+    title: Rules of the air according to ICAO Annex 2 and SERA
+  - id: "010.06"
+    subject: "010"
+    title: Aircraft operations
+  - id: "010.07"
+    subject: "010"
+    title: Air traffic services (ATS) and air traffic management (ATM)
+  - id: "010.08"
+    subject: "010"
+    title: Aeronautical information service (AIS)
+  - id: "010.09"
+    subject: "010"
+    title: Aerodromes (ICAO Annex 14 and Regulation (EU) No 139/2014)
+  - id: "010.10"
+    subject: "010"
+    title: Facilitation (ICAO Annex 9)
+  - id: "010.11"
+    subject: "010"
+    title: Search and rescue (SAR)
+  - id: "010.12"
+    subject: "010"
+    title: Security
+  - id: "010.13"
+    subject: "010"
+    title: Aircraft accident and incident investigation
+  - id: "021.01"
+    subject: "021"
+    title: System design, loads, stresses, maintenance
+  - id: "021.02"
+    subject: "021"
+    title: Airframe
+  - id: "021.03"
+    subject: "021"
+    title: Hydraulics
+  - id: "021.04"
+    subject: "021"
+    title: Landing gear, wheels, tyres, brakes
+  - id: "021.05"
+    subject: "021"
+    title: Flight controls
+  - id: "021.06"
+    subject: "021"
+    title: Pneumatics — pressurisation and air-conditioning systems
+  - id: "021.07"
+    subject: "021"
+    title: Anti-icing and de-icing systems
+  - id: "021.08"
+    subject: "021"
+    title: Fuel system
+  - id: "021.09"
+    subject: "021"
+    title: Electrics
+  - id: "021.10"
+    subject: "021"
+    title: Piston engines
+  - id: "021.11"
+    subject: "021"
+    title: Turbine engines
+  - id: "021.12"
+    subject: "021"
+    title: Protection and detection systems
+  - id: "021.13"
+    subject: "021"
+    title: Oxygen systems
+  - id: "022.01"
+    subject: "022"
+    title: Sensors and instruments
+  - id: "022.02"
+    subject: "022"
+    title: Measurement of air-data parameters
+  - id: "022.03"
+    subject: "022"
+    title: Magnetism - direct-reading compass and flux valve
+  - id: "022.04"
+    subject: "022"
+    title: Gyroscopic instruments
+  - id: "022.05"
+    subject: "022"
+    title: Inertial navigation
+  - id: "022.06"
+    subject: "022"
+    title: "Aeroplane: automatic flight control systems"
+  - id: "022.07"
+    subject: "022"
+    title: "Helicopter: automatic flight control systems"
+  - id: "022.08"
+    subject: "022"
+    title: Trims - yaw damper - flight-envelope protection
+  - id: "022.09"
+    subject: "022"
+    title: Autothrust - automatic thrust control system
+  - id: "022.10"
+    subject: "022"
+    title: Communication systems
+  - id: "022.11"
+    subject: "022"
+    title: Flight management system and guidance system
+  - id: "022.12"
+    subject: "022"
+    title: Alerting systems, proximity systems
+  - id: "022.13"
+    subject: "022"
+    title: Integrated instruments - electronic displays
+  - id: "022.14"
+    subject: "022"
+    title: Maintenance, monitoring and recording systems
+  - id: "022.15"
+    subject: "022"
+    title: Digital circuits and computers
+  - id: "031.01"
+    subject: "031"
+    title: Purpose of mass-and-balance considerations
+  - id: "031.02"
+    subject: "031"
+    title: Loading
+  - id: "031.04"
+    subject: "031"
+    title: Mass-and-balance details of aircraft
+  - id: "031.05"
+    subject: "031"
+    title: Determination of CG position
+  - id: "031.06"
+    subject: "031"
+    title: Cargo handling
+  - id: "032.01"
+    subject: "032"
+    title: General
+  - id: "032.02"
+    subject: "032"
+    title: CS-23 Performance Class B Theory
+  - id: "032.03"
+    subject: "032"
+    title: CS-23 Performance Class B Single and Multi-Engine Aeroplanes
+  - id: "032.04"
+    subject: "032"
+    title: CS-25 Performance Class A Theory
+  - id: "032.05"
+    subject: "032"
+    title: CS-25 Performance Class A Use of Aeroplane Performance Data
+  - id: "033.01"
+    subject: "033"
+    title: Flight planning for VFR flights
+  - id: "033.02"
+    subject: "033"
+    title: Flight planning for IFR flights
+  - id: "033.03"
+    subject: "033"
+    title: Fuel planning — operational requirements
+  - id: "033.04"
+    subject: "033"
+    title: Pre-flight preparation
+  - id: "033.05"
+    subject: "033"
+    title: ICAO flight plan (ATS flight plan (FPL))
+  - id: "033.06"
+    subject: "033"
+    title: Flight monitoring and in-flight replanning
+  - id: "040.01"
+    subject: "040"
+    title: "Human factors: basic concepts"
+  - id: "040.02"
+    subject: "040"
+    title: Basics of aviation physiology and health maintenance
+  - id: "040.03"
+    subject: "040"
+    title: Basic aviation psychology
+  - id: "050.01"
+    subject: "050"
+    title: The atmosphere
+  - id: "050.02"
+    subject: "050"
+    title: Wind
+  - id: "050.03"
+    subject: "050"
+    title: Thermodynamics
+  - id: "050.04"
+    subject: "050"
+    title: Clouds and fog
+  - id: "050.05"
+    subject: "050"
+    title: Precipitation
+  - id: "050.06"
+    subject: "050"
+    title: Air masses and fronts
+  - id: "050.07"
+    subject: "050"
+    title: Pressure systems
+  - id: "050.08"
+    subject: "050"
+    title: Climatology
+  - id: "050.09"
+    subject: "050"
+    title: Flight hazards
+  - id: "050.10"
+    subject: "050"
+    title: Meteorological information
+  - id: "061.01"
+    subject: "061"
+    title: Basics of navigation
+  - id: "061.02"
+    subject: "061"
+    title: Visual flight rules (VFR) navigation
+  - id: "061.03"
+    subject: "061"
+    title: Great circles and rhumb lines
+  - id: "061.04"
+    subject: "061"
+    title: Charts
+  - id: "061.05"
+    subject: "061"
+    title: Time
+  - id: "062.01"
+    subject: "062"
+    title: Basic radio propagation theory
+  - id: "062.02"
+    subject: "062"
+    title: Radio aids
+  - id: "062.03"
+    subject: "062"
+    title: Radar
+  - id: "062.06"
+    subject: "062"
+    title: Global navigation satellite systems (GNSSs)
+  - id: "062.07"
+    subject: "062"
+    title: Performance-based navigation (PBN)
+  - id: "071.01"
+    subject: "070"
+    title: Operational procedures
+  - id: "071.02"
+    subject: "070"
+    title: Operational procedures
+  - id: "071.04"
+    subject: "070"
+    title: Operational procedures
+  - id: "081.01"
+    subject: "081"
+    title: Subsonic aerodynamics
+  - id: "081.02"
+    subject: "081"
+    title: High-speed aerodynamics
+  - id: "081.03"
+    subject: "081"
+    title: Stall, Mach tuck and UPRT
+  - id: "081.04"
+    subject: "081"
+    title: Stability
+  - id: "081.05"
+    subject: "081"
+    title: Control
+  - id: "081.06"
+    subject: "081"
+    title: Limitations
+  - id: "081.07"
+    subject: "081"
+    title: Propellers
+  - id: "081.08"
+    subject: "081"
+    title: Flight mechanics
+  - id: "090.01"
+    subject: "090"
+    title: Concepts
+  - id: "090.02"
+    subject: "090"
+    title: General operating procedures
+  - id: "090.03"
+    subject: "090"
+    title: Relevant weather information
+  - id: "090.04"
+    subject: "090"
+    title: Voice communication failure
+  - id: "090.05"
+    subject: "090"
+    title: Distress and urgency procedures
+  - id: "090.06"
+    subject: "090"
+    title: VHF propagation and allocation of frequencies
+  - id: "090.07"
+    subject: "090"
+    title: Other communications

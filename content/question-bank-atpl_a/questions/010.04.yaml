@@ -1,0 +1,1377 @@
+- id: QYHBF
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QRHGB
+  externalQuestionIds:
+    - ATPLQ-107139
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.01.01.01
+  templates:
+    - type: simple
+      question: "The minimum specifications for a crew license to have international validity is contained in:"
+      explanation: Annex 1 to the Chicago Convention is titled Personnel Licensing.
+      presets:
+        - correctAnswers:
+            - text: Annex 1.
+          wrongAnswers:
+            - text: Annex 4.
+            - text: Annex 10.
+            - text: Annex 2.
+- id: QGMQH
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108283
+    - BGS-102279
+    - AVEXAM-730387
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.01.01
+  templates:
+    - type: simple
+      question: Night is the period between the end of (1)\_\_\_\_\_ and the beginning of (2)\_\_\_\_\_ or such other period between (3)\_\_\_\_\_ and (4)\_\_\_\_\_.
+      explanation: |-
+        ### Part-FCL, FCL.010 Definitions
+
+        > ‘Night’ means the period between the **end of evening civil twilight** and the **beginning of morning civil twilight** or such other period between **sunset** and **sunrise** as may be prescribed by the appropriate authority.
+      presets:
+        - correctAnswers:
+            - text: (1) evening civil twilight; (2) morning civil twilight; (3) sunset; (4) sunrise.
+          wrongAnswers:
+            - text: (1) evening civil twilight; (2) morning civil twilight; (3) sunset; (4) morning civil twilight.
+            - text: (1) evening civil twilight; (2) morning civil sunrise; (3) evening civil sunset; (4) sunrise.
+            - text: (1) evening civil sunset; (2) morning civil sunrise; (3) sunset; (4) sunrise.
+- id: QYUPW
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108417
+    - AVEXAM-56209
+    - ATPLQ-108049
+    - AVEXAM-56172
+    - BGS-101373
+    - ATPLQ-105233
+    - BGS-101372
+    - AVEXAM-65830
+    - ATPLQ-102822
+    - BGS-100632
+    - AVEXAM-86543
+    - ATPLQ-107697
+    - AVEXAM-74741
+    - BGS-101370
+    - ATPLQ-109871
+    - BGS-100866
+    - AVEXAM-85594
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.01.01
+  templates:
+    - type: definition
+      question: What does {term} stand for?
+      explanation: Each term is a defined ICAO term. An acceptance checklist is the document used to check the outward appearance of dangerous goods and their paperwork. The manoeuvring area is the part of an aerodrome used for take-off, landing and taxiing, excluding aprons. RESA stands for Runway End Safety Area.
+      options:
+        - id: OFLQZBLOA
+          term: Acceptance Checklist
+          definition: It is a document used to assist in carrying out a check on the external appearance of dangerous goods and their associated paperwork.
+        - id: OF12ERVW2
+          term: Manoeuvring area
+          definition: That part of an aerodrome to be used for the take-off, landing and taxiing of aircraft, excluding aprons.
+        - id: OGPVQBSMF
+          term: RESA
+          definition: Runway End Safety Area
+      fakeOptions:
+        - id: FJS2IWQNW0
+          definition: It is used by Pilots to hand over the aircraft in a fit and proper state to the next duty crew after a commercial flight.
+        - id: FJS2IWQNW1
+          definition: It allows maintenance personnel to accept an aircraft defect until the next scheduled maintenance event if it is not deemed detrimental to flight safety.
+        - id: FJS2IWQNW2
+          definition: It is used when accepting aircraft back into service after a period of routine maintenance.
+        - id: FJS2IWQNW3
+          definition: That part of an aerodrome to be used for the take-off, landing and taxiing of aircraft, consisting of the movement area and the apron.
+        - id: FJS2IWQNW4
+          definition: That part of the aerodrome is suitable for the safe and efficient manoeuvring of aircraft; to include aprons, taxiways and runways.
+        - id: FJS2IWQNW5
+          definition: That part of the aerodrome designated for the manoeuvring of aircraft in front of the hangars only.
+        - id: FJS2IWQNW15
+          definition: Runway Enhanced Safety Area
+        - id: FJS2IWQNW16
+          definition: Runway End Security Area
+        - id: FJS2IWQNW17
+          definition: Runway Excursion Safety Area
+- id: QURZX
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102155
+    - BGS-100675
+    - AVEXAM-23702
+    - AVEXAM-70649
+    - ATPLQ-109398
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.01.01
+  templates:
+    - type: simple
+      question: '"The administrative action taken within the period of validity of a rating or certificate which allows the holder to continue to exercise the privileges of a rating or certificate for a further specified period consequent upon the fulfilment of specified requirements" is the definition for the term.'
+      explanation: |-
+        ### Part-FCL, FCL.010 Definitions
+
+        > ‘Revalidation’ (of, e.g. a rating or certificate) means the administrative action taken **within the period of validity** of a rating or certificate which allows the holder to continue to exercise the privileges of a rating or certificate for a further specified period consequent upon the fulfilment of specified requirements.
+
+        Remember: if it is still **valid**, you re**valid**ate it. If it has expired, you need a **new** one: re**new** it.
+      presets:
+        - correctAnswers:
+            - text: revalidation.
+          wrongAnswers:
+            - text: renewal.
+            - text: fulfilment.
+            - text: extension
+    - type: simple
+      question: '"The administrative action taken after a rating or certificate has lapsed for the purpose of renewing the privileges of the rating or certificate for a further specified period consequent upon the fulfilment of specified requirements" is the definition for the term.'
+      explanation: |-
+        ### Part-FCL, FCL.010 Definitions
+
+        > ‘Renewal’ (of, e.g. a rating or certificate) means the administrative action taken **after a rating or certificate has lapsed** for the purpose of renewing the privileges of the rating or certificate for a further specified period consequent upon the fulfilment of specified requirements.
+
+        Remember: if it is still **valid**, you re**valid**ate it. If it has expired, you need a **new** one: re**new** it.
+      presets:
+        - correctAnswers:
+            - text: renewal.
+          wrongAnswers:
+            - text: extension.
+            - text: fulfilment.
+            - text: revalidation.
+    - type: definition
+      question: What is the definition of "{term}"?
+      explanation: |-
+        ### Part-FCL, FCL.010 Definitions
+
+        > ‘Revalidation’ […] means the administrative action taken **within the period of validity** of a rating or certificate which allows the holder to continue to exercise the privileges of a rating or certificate for a further specified period consequent upon the fulfilment of specified requirements.
+        >
+        > ‘Renewal’ […] means the administrative action taken **after a rating or certificate has lapsed** for the purpose of renewing the privileges of the rating or certificate for a further specified period consequent upon the fulfilment of specified requirements.
+
+        Remember: if it is still **valid**, you re**valid**ate it. If it has expired, you need a **new** one: re**new** it.
+      options:
+        - id: OREVALIDN
+          term: revalidation
+          definition: The administrative action taken within the period of validity of a rating or certificate which allows the holder to continue to exercise the privileges for a further specified period consequent upon the fulfilment of specified requirements.
+        - id: ORENEWALX
+          term: renewal
+          definition: The administrative action taken after a rating or certificate has lapsed for the purpose of renewing the privileges for a further specified period consequent upon the fulfilment of specified requirements.
+      fakeOptions:
+        - id: FEXTENSN1
+          definition: The administrative action taken by the competent authority to withdraw the privileges of a rating or certificate after a failed check.
+        - id: FISSUEXX2
+          definition: The administrative action taken to grant a rating or certificate for the first time consequent upon the fulfilment of specified requirements.
+- id: QNVTI
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QSLVH
+  externalQuestionIds:
+    - ATPLQ-103417
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.01.01
+    - 010.06.09.02.01
+  templates:
+    - type: simple
+      question: A Multi Engine Jet Aircraft with a passenger capacity of less than 9 and a MTOM of less than 5 700 kg belongs to which performance class?
+      explanation: |-
+        ### Air Operations, Annex I (Definitions)
+
+        > (93) ‘performance class A aeroplanes’ means multi-engined aeroplanes powered by turbo-propeller engines with an MOPSC of more than nine or a maximum take-off mass exceeding 5 700 kg, and **all multi-engined turbo-jet powered aeroplanes**;
+      presets:
+        - correctAnswers:
+            - text: Performance class A, because all jet aircraft belong to this performance class.
+          wrongAnswers:
+            - text: Not defined.
+            - text: Performance class C, because this is a special categorisation for jets with fewer than 9 passenger seats.
+            - text: Performance class B, because it has a passenger seating capacity below 9 and MTOM below 5 700 kg.
+- id: QSLVH
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QNVTI
+  externalQuestionIds:
+    - ATPLQ-105789
+    - ATPLQ-106425
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.01.01
+    - 010.06.09.02.01
+  templates:
+    - type: simple
+      question: Which of the following options describes a Performance Class B aircraft?
+      explanation: |-
+        ### Air Operations, Annex I (Definitions)
+
+        > (94) ‘performance class B aeroplanes’ means aeroplanes **powered by propeller engines** with an MOPSC of **nine or less** and a maximum take-off mass of **5 700 kg or less**;
+      presets:
+        - correctAnswers:
+            - text: Propeller engines, 9 persons or less, 5 700 kg or less.
+          wrongAnswers:
+            - text: Jet engines, 9 persons or more, 5 700kg or more.
+            - text: Jet engines, 9 persons or less, 5 700kg or less.
+            - text: Propeller Engines, 9 persons or more, 5 700kg or less.
+    - type: simple
+      question: A performance class B aeroplane is a...
+      explanation: |-
+        ### Air Operations, Annex I (Definitions)
+
+        > (94) ‘performance class B aeroplanes’ means aeroplanes **powered by propeller engines** with an MOPSC of **nine or less** and a maximum take-off mass of **5 700 kg or less**;
+      presets:
+        - correctAnswers:
+            - text: propeller aircraft with MTOM 5700kg or less, MOPSC 9 or less
+          wrongAnswers:
+            - text: propeller aircraft with MTOM 5700kg or more, MOPSC 9 or more.
+            - text: jet aircraft with MTOM 5700kg or less, MOPSC 9 or less.
+            - text: jet aircraft with MTOM 5700kg or more, MOPSC 9 or more.
+- id: QOARJ
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108590
+    - AVEXAM-50529
+    - BGS-101949
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.01.02
+  templates:
+    - type: simple
+      question: According to Part-FCL, Multi-Crew Cooperation (MCC) is...
+      explanation: |-
+        ### Part-FCL, FCL.010 Definitions
+
+        > ‘Multi-crew cooperation’ (MCC) means the functioning of the flight crew as **a team of cooperating members led by the pilot-in-command**.
+      presets:
+        - correctAnswers:
+            - text: the functioning of the flight crew as a team of cooperating members led by the pilot-in-command.
+          wrongAnswers:
+            - text: a method of avoiding undesired aircraft states by identifying and managing threats and errors.
+            - text: a management style where the pilot-in-command controls all the decisions and takes very few inputs from other crew members.
+            - text: a management system in which the flight crew makes optimum use of all the available resources both on ground and in the aircraft.
+- id: QQIHD
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101599
+    - BGS-101628
+    - AVEXAM-52968
+    - BGS-102102
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.01.02
+  templates:
+    - type: simple
+      question: According to Part-FCL, what does the term "rating" mean?
+      explanation: |-
+        ### ICAO Annex 1, Chapter 1 Definitions
+
+        > Rating. **An authorization entered on or associated with a licence and forming part thereof**, stating special conditions, privileges or limitations pertaining to such licence.
+      presets:
+        - correctAnswers:
+            - text: An authorization entered on or associated with a licence and forming part thereof, stating special conditions, privileges or limitations pertaining to such licence.
+          wrongAnswers:
+            - text: Measurement of the performance of a pilot, indicating the level achieved and documenting the skills that the pilot may exercise in accordance with the licence.
+            - text: Classification according to a grade, based on a comparative assessment of quality, and entered on a licence.
+            - text: Designated operating privilege, based on specified conditions.
+- id: QXGTY
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101248
+    - AVEXAM-22112
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.01.02
+  templates:
+    - type: simple
+      question: For a single-pilot multi-engine class rating, how many flight hours are required and what is the period of its validity?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 70 hours, 1 year.
+          wrongAnswers:
+            - text: 200 hours, 2 years.
+            - text: 70 hours, 2 years.
+            - text: 200 hours, 1 year.
+    - type: simple
+      question: What are the required flight time and validity period for a single-pilot multi-engine class rating?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 70 hours, 1 year.
+          wrongAnswers:
+            - text: 200 hours, 1 year.
+            - text: 70 hours, 2 years.
+            - text: 200 hours, 2 years.
+- id: QDZCG
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105277
+    - BGS-101377
+    - AVEXAM-25042
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.02.01
+  templates:
+    - type: simple
+      question: What does EASA Easy Access Rules for Flight Crew Licencing (Part-FCL) consist of?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "Detailed provisions for flight crew licenses and associated ratings, laid down over 3 Annexes. Annex I: Part-FCL (subparts A-K), Annex II: Conversion of National Licenses and Annex III: Acceptance of third country licenses."
+          wrongAnswers:
+            - text: "Detailed provisions for flight crew licenses, operations and procedures, consisting of 4 Annexes. Annex I: Part-FCL, Annex II: Conversion of National Licenses, Annex III: Acceptance of third country licenses, Annex IV: General flight crew rules and procedures."
+            - text: Detailed provisions concerning the medical requirements for flight crew, arranged over 5 Annexes.
+            - text: Detailed provisions for flight crew licensing and training requirements, arranged over 3 Annexes. Annex II consisting of a further 10 sub-parts (A-J).
+- id: QEYMX
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108156
+    - BGS-101709
+    - AVEXAM-98305
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.02.02
+  templates:
+    - type: simple
+      question: A flight crew license shall be issued…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: either in plastic card or in paper form.
+          wrongAnswers:
+            - text: in paper form only.
+            - text: in plastic card form only.
+            - text: as part of a passport.
+- id: QORIT
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QYMCH
+    - QAWEA
+  externalQuestionIds:
+    - ATPLQ-102216
+    - AVEXAM-26949
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.02.03
+    - 010.04.02.05.02
+  templates:
+    - type: simple
+      question: A pilot has completed their type rating and hasn’t flown for the preceding 60 days. Is the pilot allowed to take passengers on a flight?
+      explanation: |-
+        ### Part-FCL, FCL.060 Recent experience
+
+        > (b) […] A pilot shall not operate an aircraft in commercial air transport or for carrying passengers: (1) as PIC or co-pilot unless he or she has carried out, **in the preceding 90 days, at least 3 take-offs, approaches and landings** as a pilot flying in an aircraft of the same type or class or an FFS representing that type or class. […]
+      presets:
+        - correctAnswers:
+            - text: Yes, provided they made 3 take offs and landings in the preceding 90 days.
+          wrongAnswers:
+            - text: No, because they need to make an extra flight before taking passengers.
+            - text: Yes, provided they made 3 take offs and landings in the preceding 120 days.
+            - text: No, because they need to have one take off and landing in the preceding 30 days.
+- id: QRHGB
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QYHBF
+  externalQuestionIds:
+    - ATPLQ-109704
+    - AVEXAM-13890
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.02.03
+  templates:
+    - type: simple
+      question: A license holder may exercise certain privileges that depend on their...
+      explanation: |-
+        ### Part-FCL, FCL.040 Exercise of the privileges of licences
+
+        > The exercise of the privileges granted by a licence shall be dependent upon **the validity of the ratings contained therein**, if applicable, and of the medical certificate as appropriate to the privileges exercised.
+      presets:
+        - correctAnswers:
+            - text: ratings.
+          wrongAnswers:
+            - text: license expiration date.
+            - text: academic qualifications.
+            - text: age.
+- id: QMPDR
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QYXMF
+  externalQuestionIds:
+    - ATPLQ-102184
+    - BGS-100858
+    - AVEXAM-19101
+    - ATPLQ-101371
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.02.05
+  templates:
+    - type: simple
+      question: "According to EASA FCL: The holder of a pilot licence who has attained the age of \\_\\_\\_\\_\\_ years shall not act as a pilot of an aircraft engaged in commercial air transport."
+      explanation: |-
+        ### Part-FCL, FCL.065 Curtailment of privileges of licence holders aged 60 years or more in commercial air transport
+
+        > (b) Age 65. Holders of a pilot licence who has attained the age of **65 years** shall not act as a pilot of an aircraft that is engaged in commercial air transport.
+      presets:
+        - correctAnswers:
+            - text: "65"
+          wrongAnswers:
+            - text: "68"
+            - text: "60"
+            - text: "58"
+    - type: simple
+      question: At what age shall the holder of a pilot licence NOT act as a pilot of an aeroplane or helicopter engaged in commercial air transport?
+      explanation: |-
+        ### Part-FCL, FCL.065 Curtailment of privileges of licence holders aged 60 years or more in commercial air transport
+
+        > (b) Age 65. Holders of a pilot licence who has attained the age of **65 years** shall not act as a pilot of an aircraft that is engaged in commercial air transport.
+      presets:
+        - correctAnswers:
+            - text: 65 years
+          wrongAnswers:
+            - text: 62 years
+            - text: 58 years
+            - text: 60 years
+- id: QYXMF
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QMPDR
+  externalQuestionIds:
+    - ATPLQ-104751
+    - AVEXAM-11270
+    - AVEXAM-56957
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.02.05
+    - 010.04.02.03.01
+  templates:
+    - type: simple
+      question: " According to EASA AIRCREW regulation, the minimum and maximum age of the pilot holding a CPL for aeroplanes or helicopters is:"
+      explanation: |-
+        ### Part-FCL, FCL.300 CPL – Minimum age
+
+        > An applicant for a CPL shall be **at least 18 years of age**.
+
+        ### Part-FCL, FCL.065 Curtailment of privileges of licence holders aged 60 years or more in commercial air transport
+
+        > (b) Age 65. Holders of a pilot licence who has attained the age of **65 years** shall not act as a pilot of an aircraft that is engaged in commercial air transport.
+      presets:
+        - correctAnswers:
+            - text: 18 and 64 years.
+          wrongAnswers:
+            - text: 21 and 65 years.
+            - text: 21 and 64 years.
+            - text: 18 and 60 years.
+- id: QQHWU
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107607
+    - AVEXAM-56462
+    - ATPLQ-106372
+    - AVEXAM-27482
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.02.07
+  templates:
+    - type: simple
+      question: According to Part-FCL, what documents shall always be carried by the pilot when exercising the privileges of the flight crew licence?
+      explanation: |-
+        ### Part-FCL, FCL.045 Obligation to carry and present documents
+
+        > - (a) **A valid licence and a valid medical certificate** shall always be carried by the pilot when exercising the privileges of the licence.
+        > - (b) The pilot shall also carry **a personal identification document containing his/her photo**.
+      presets:
+        - correctAnswers:
+            - text: The pilot’s valid flight crew licence, valid medical certificate, and a personal identification document containing a photo.
+          wrongAnswers:
+            - text: The pilot’s valid flight crew licence, up-to-date flight time records, and a valid personal identification document containing a photo.
+            - text: The pilot’s valid medical certificate, a recent passport photo, and up-to-date flight time records.
+            - text: The pilot’s valid flight crew licence, valid medical certificate, a recent passport photo, and up-to-date flight time records.
+            - text: A valid flight crew licence, updated time records, passport, VISA.
+            - text: A valid flight crew licence, updated time records, a valid photo ID.
+            - text: A valid flight crew licence, updated time records, insurance records.
+- id: QSYER
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QKNQG
+    - QHEFN
+    - QXKWN
+    - QNEMJ
+  externalQuestionIds:
+    - ATPLQ-104883
+    - AVEXAM-14203
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.03.01
+  templates:
+    - type: simple
+      question: The flying training for an applicant of a CPL(A) integrated course shall comprise...
+      explanation: |-
+        ### Part-FCL, Appendix 3, D. CPL integrated course – Aeroplanes
+
+        > 8. The flying training, not including type rating training, shall comprise **a total of at least 150 hours**, to include all progress tests, of which **up to 5 hours for the entire course may be instrument ground time**. […]
+      presets:
+        - correctAnswers:
+            - text: a total of at least 150 flying hours, of which up to 5 hours for the entire course may be instrument ground time.
+          wrongAnswers:
+            - text: a total of at least 200 flying hours, instrument ground time not provided.
+            - text: a total of at least 150 flying hours, instrument ground time not provided.
+            - text: a total of at least 200 flying hours, of which up to 10 hours for the entire course may be instrument ground time.
+- id: QXKWN
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QKNQG
+    - QHEFN
+    - QSYER
+    - QNEMJ
+  externalQuestionIds:
+    - ATPLQ-109174
+    - AVEXAM-86248
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.03.01
+  templates:
+    - type: simple
+      question: "An applicant for a commercial pilot licence aeroplane shall have completed in aeroplanes not less than:"
+      explanation: |-
+        ### Part-FCL, Appendix 3, D. CPL integrated course – Aeroplanes
+
+        > 8. […] Within the total of 150 hours, applicants shall complete at least: […] (c) **20 hours of cross-country flight as PIC, including a VFR cross-country flight of at least 540 km (300 NM)**, in the course of which full stop landings at two aerodromes different from the aerodrome of departure shall be made; […]
+      presets:
+        - correctAnswers:
+            - text: 20 hours of cross country flight time as pilot-in-command including a cross country flight not less than 540 km (300NM)
+          wrongAnswers:
+            - text: 15 hours of cross country flight time as pilot-in-command including a cross country flight not less than 540 km (300NM)
+            - text: 10 hours of cross country flight time as pilot-in-command including a cross country flight not less than 540 km (300NM)
+            - text: 25 hours of cross country flight time as pilot-in-command including a cross country flight not less than 540 km (300NM)
+- id: QHEFN
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QKNQG
+    - QXKWN
+    - QSYER
+  externalQuestionIds:
+    - ATPLQ-103816
+    - BGS-100737
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.03.02
+  templates:
+    - type: simple
+      question: One of the privileges of the holder of a CPL(A) is to exercise all the privileges of the holder of...
+      explanation: |-
+        ### Part-FCL, FCL.305 CPL – Privileges and conditions
+
+        > (a) Privileges. The privileges of the holder of a CPL are, within the appropriate aircraft category, to: (1) **exercise all the privileges of the holder of an LAPL and a PPL**; […]
+      presets:
+        - correctAnswers:
+            - text: an LAPL(A) and a PPL(A).
+          wrongAnswers:
+            - text: an LAPL(A) only.
+            - text: a PPL(A) and an SPL.
+            - text: a PPL(A) only.
+- id: QKNQG
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QHEFN
+    - QXKWN
+    - QSYER
+  externalQuestionIds:
+    - ATPLQ-104099
+    - AVEXAM-49055
+    - BGS-100059
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.03.02
+  templates:
+    - type: simple
+      question: According to the relevant FCL requirements, one of the privileges of the holder of an aeroplane Commercial Pilot Licence is to act as pilot-in-command on any...
+      explanation: |-
+        ### Part-FCL, FCL.305 CPL – Privileges and conditions
+
+        > (a) Privileges. The privileges of the holder of a CPL are, within the appropriate aircraft category, to: […] (2) **act as PIC or co-pilot of any aircraft engaged in operations other than commercial air transport**; […]
+      presets:
+        - correctAnswers:
+            - text: aeroplane engaged in operations other than commercial air transportation.
+          wrongAnswers:
+            - text: aeroplane engaged in commercial air transportation.
+            - text: aeroplane certificated for single pilot operation other than in commercial air transportation.
+            - text: aircraft.
+- id: QNEMJ
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QNUKJ
+    - QCXJG
+    - QXKWN
+    - QSYER
+  externalQuestionIds:
+    - ATPLQ-101647
+    - AVEXAM-84443
+    - ATPLQ-103887
+    - AVEXAM-30812
+    - ATPLQ-106827
+    - AVEXAM-40074
+    - ATPLQ-108301
+    - ATPLQ-108882
+    - AVEXAM-18547
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.04.01
+  templates:
+    - type: simple
+      question: "An applicant for an Airline Transport Pilot Licence aeroplane shall have completed in aeroplanes not less than \\_\\_\\_\\_\\_ hours, either as pilot in command or made up by not less than \\_\\_\\_\\_\\_ hours as pilot-in-command and the additional flight time as co-pilot performing, under the supervision of the pilot-in-command the duties and functions of a pilot in command provided that the method of supervision employed is acceptable to the licensing authority. The stated above hours are respectively:"
+      explanation: |-
+        ### Part-FCL, FCL.510.A ATPL(A) – Prerequisites, experience and crediting
+
+        > - (a) Prerequisites. Applicants for an ATPL(A) shall hold:
+        >   - (1) an MPL; or
+        >   - (2) a CPL(A) and a multi-engine IR for aeroplanes. In this case, the applicant shall also have received instruction in MCC.
+        > - (b) Experience. Applicants for an ATPL(A) shall have completed a minimum of 1 500 hours of flight time in aeroplanes, including at least:
+        >   - (1) 500 hours in multi-pilot operations on aeroplanes;
+        >   - (2) (i) 500 hours as PIC under supervision; or
+        >     - (ii) **250 hours as PIC**; or
+        >     - (iii) **250 hours, including at least 70 hours as PIC**, and the remaining as PIC under supervision;
+        >   - (3) 200 hours of cross-country flight time of which at least 100 hours shall be as PIC or as PIC under supervision;
+        >   - (4) 75 hours of instrument time of which not more than 30 hours may be instrument ground time; and
+        >   - (5) 100 hours of night flight as PIC or co-pilot.
+        >   - Of the 1500 hours of flight time, up to 100 hours of flight time may have been completed in an FFS and FNPT. Of these 100 hours, only a maximum of 25 hours may be completed in an FNPT.
+        > - (c) Crediting.
+        >   - (1) Holders of a pilot licence for other categories of aircraft shall be credited with flight time up to a maximum of:
+        >     - (i) for TMG or sailplanes, 30 hours flown as PIC;
+        >     - (ii) for helicopters, 50 % of all the flight time requirements of paragraph (b).
+        >   - (2) Holders of a flight engineer licence issued in accordance with applicable national rules shall be credited with 50 % of the flight engineer time up to a maximum credit of 250 hours. These 250 hours may be credited against the 1 500 hours requirement of paragraph (b), and the 500 hours requirement of paragraph (b)(1), provided that the total credit given against any of these paragraphs does not exceed 250 hours.
+        >   - (3) Holders of a restricted type rating issued in accordance with point FCL.720.A(c) shall receive credits for their flight time completed while exercising the privileges of that type rating up to a maximum of 250 hours.
+        > - (d) The experience required in (b) shall be completed before the skill test for the ATPL(A) is taken.
+      presets:
+        - correctAnswers:
+            - text: 250; 70
+          wrongAnswers:
+            - text: 150; 75
+            - text: 200; 70
+            - text: 200; 100
+    - type: simple
+      question: Two of the requirements for the issuance of an ATPL(A) licence are...
+      explanation: |-
+        ### Part-FCL, FCL.510.A ATPL(A) – Prerequisites, experience and crediting
+
+        > - (a) Prerequisites. Applicants for an ATPL(A) shall hold:
+        >   - (1) an MPL; or
+        >   - (2) a CPL(A) and a multi-engine IR for aeroplanes. In this case, the applicant shall also have received instruction in MCC.
+        > - (b) Experience. Applicants for an ATPL(A) shall have completed a minimum of 1 500 hours of flight time in aeroplanes, including at least:
+        >   - (1) 500 hours in multi-pilot operations on aeroplanes;
+        >   - (2) (i) 500 hours as PIC under supervision; or
+        >     - (ii) 250 hours as PIC; or
+        >     - (iii) 250 hours, including at least 70 hours as PIC, and the remaining as PIC under supervision;
+        >   - (3) 200 hours of cross-country flight time of which at least 100 hours shall be as PIC or as PIC under supervision;
+        >   - (4) 75 hours of instrument time of which not more than 30 hours may be instrument ground time; and
+        >   - (5) 100 hours of night flight as PIC or co-pilot.
+        >   - **Of the 1500 hours of flight time, up to 100 hours of flight time may have been completed in an FFS and FNPT. Of these 100 hours, only a maximum of 25 hours may be completed in an FNPT.**
+        > - (c) Crediting.
+        >   - (1) Holders of a pilot licence for other categories of aircraft shall be credited with flight time up to a maximum of:
+        >     - (i) for TMG or sailplanes, 30 hours flown as PIC;
+        >     - (ii) for helicopters, 50 % of all the flight time requirements of paragraph (b).
+        >   - (2) Holders of a flight engineer licence issued in accordance with applicable national rules shall be credited with 50 % of the flight engineer time up to a maximum credit of 250 hours. These 250 hours may be credited against the 1 500 hours requirement of paragraph (b), and the 500 hours requirement of paragraph (b)(1), provided that the total credit given against any of these paragraphs does not exceed 250 hours.
+        >   - (3) Holders of a restricted type rating issued in accordance with point FCL.720.A(c) shall receive credits for their flight time completed while exercising the privileges of that type rating up to a maximum of 250 hours.
+        > - (d) The experience required in (b) shall be completed before the skill test for the ATPL(A) is taken.
+      presets:
+        - correctAnswers:
+            - text: 100 hours of flight time in a simulator with a maximum of 25 hours in an FNPT.
+          wrongAnswers:
+            - text: 100 hours of flight time in a simulator with a maximum of 30 hours in an FNPT.
+            - text: 75 hours of flight time in a simulator with a maximum of 30 hours in an FNPT.
+            - text: 250 hours of flight time in a simulator with a maximum of 70 hours in an FNPT.
+    - type: simple
+      question: According to FCL requirements for the issue of the ATPL(A), of the required 1500 hours of total flight time, the minimum instrument time shall be...
+      explanation: |-
+        ### Part-FCL, FCL.510.A ATPL(A) – Prerequisites, experience and crediting
+
+        > - (a) Prerequisites. Applicants for an ATPL(A) shall hold:
+        >   - (1) an MPL; or
+        >   - (2) a CPL(A) and a multi-engine IR for aeroplanes. In this case, the applicant shall also have received instruction in MCC.
+        > - (b) Experience. Applicants for an ATPL(A) shall have completed a minimum of 1 500 hours of flight time in aeroplanes, including at least:
+        >   - (1) 500 hours in multi-pilot operations on aeroplanes;
+        >   - (2) (i) 500 hours as PIC under supervision; or
+        >     - (ii) 250 hours as PIC; or
+        >     - (iii) 250 hours, including at least 70 hours as PIC, and the remaining as PIC under supervision;
+        >   - (3) 200 hours of cross-country flight time of which at least 100 hours shall be as PIC or as PIC under supervision;
+        >   - (4) **75 hours of instrument time of which not more than 30 hours may be instrument ground time**; and
+        >   - (5) 100 hours of night flight as PIC or co-pilot.
+        >   - Of the 1500 hours of flight time, up to 100 hours of flight time may have been completed in an FFS and FNPT. Of these 100 hours, only a maximum of 25 hours may be completed in an FNPT.
+        > - (c) Crediting.
+        >   - (1) Holders of a pilot licence for other categories of aircraft shall be credited with flight time up to a maximum of:
+        >     - (i) for TMG or sailplanes, 30 hours flown as PIC;
+        >     - (ii) for helicopters, 50 % of all the flight time requirements of paragraph (b).
+        >   - (2) Holders of a flight engineer licence issued in accordance with applicable national rules shall be credited with 50 % of the flight engineer time up to a maximum credit of 250 hours. These 250 hours may be credited against the 1 500 hours requirement of paragraph (b), and the 500 hours requirement of paragraph (b)(1), provided that the total credit given against any of these paragraphs does not exceed 250 hours.
+        >   - (3) Holders of a restricted type rating issued in accordance with point FCL.720.A(c) shall receive credits for their flight time completed while exercising the privileges of that type rating up to a maximum of 250 hours.
+        > - (d) The experience required in (b) shall be completed before the skill test for the ATPL(A) is taken.
+      presets:
+        - correctAnswers:
+            - text: 75 hours, of which not more than 30 hours may be instrument ground time.
+          wrongAnswers:
+            - text: 75 hours, of which not more than 20 hours may be instrument ground time.
+            - text: 100 hours, of which not more than 30 hours may be instrument ground time.
+            - text: 150 hours, of which not more than 75 hours may be instrument ground time.
+    - type: simple
+      question: According to FCL requirements for the issue of the ATPL(A) or (H), of the required hours of total flight time, the minimum night flight time as PIC or as co-pilot shall be...
+      explanation: |-
+        ### Part-FCL, FCL.510.A ATPL(A) – Prerequisites, experience and crediting
+
+        > - (a) Prerequisites. Applicants for an ATPL(A) shall hold:
+        >   - (1) an MPL; or
+        >   - (2) a CPL(A) and a multi-engine IR for aeroplanes. In this case, the applicant shall also have received instruction in MCC.
+        > - (b) Experience. Applicants for an ATPL(A) shall have completed a minimum of 1 500 hours of flight time in aeroplanes, including at least:
+        >   - (1) 500 hours in multi-pilot operations on aeroplanes;
+        >   - (2) (i) 500 hours as PIC under supervision; or
+        >     - (ii) 250 hours as PIC; or
+        >     - (iii) 250 hours, including at least 70 hours as PIC, and the remaining as PIC under supervision;
+        >   - (3) 200 hours of cross-country flight time of which at least 100 hours shall be as PIC or as PIC under supervision;
+        >   - (4) 75 hours of instrument time of which not more than 30 hours may be instrument ground time; and
+        >   - (5) **100 hours of night flight as PIC or co-pilot**.
+        >   - Of the 1500 hours of flight time, up to 100 hours of flight time may have been completed in an FFS and FNPT. Of these 100 hours, only a maximum of 25 hours may be completed in an FNPT.
+        > - (c) Crediting.
+        >   - (1) Holders of a pilot licence for other categories of aircraft shall be credited with flight time up to a maximum of:
+        >     - (i) for TMG or sailplanes, 30 hours flown as PIC;
+        >     - (ii) for helicopters, 50 % of all the flight time requirements of paragraph (b).
+        >   - (2) Holders of a flight engineer licence issued in accordance with applicable national rules shall be credited with 50 % of the flight engineer time up to a maximum credit of 250 hours. These 250 hours may be credited against the 1 500 hours requirement of paragraph (b), and the 500 hours requirement of paragraph (b)(1), provided that the total credit given against any of these paragraphs does not exceed 250 hours.
+        >   - (3) Holders of a restricted type rating issued in accordance with point FCL.720.A(c) shall receive credits for their flight time completed while exercising the privileges of that type rating up to a maximum of 250 hours.
+        > - (d) The experience required in (b) shall be completed before the skill test for the ATPL(A) is taken.
+      presets:
+        - correctAnswers:
+            - text: 100 hours.
+          wrongAnswers:
+            - text: 75 hours.
+            - text: 150 hours.
+            - text: 125 hours.
+    - type: simple
+      question: What is the minimum amount of night flight hours as pilot-in-command or as co-pilot that an applicant for an Airline Transport Pilot Licence (ATPL) shall have completed?
+      explanation: |-
+        ### Part-FCL, FCL.510.A ATPL(A) – Prerequisites, experience and crediting
+
+        > - (a) Prerequisites. Applicants for an ATPL(A) shall hold:
+        >   - (1) an MPL; or
+        >   - (2) a CPL(A) and a multi-engine IR for aeroplanes. In this case, the applicant shall also have received instruction in MCC.
+        > - (b) Experience. Applicants for an ATPL(A) shall have completed a minimum of 1 500 hours of flight time in aeroplanes, including at least:
+        >   - (1) 500 hours in multi-pilot operations on aeroplanes;
+        >   - (2) (i) 500 hours as PIC under supervision; or
+        >     - (ii) 250 hours as PIC; or
+        >     - (iii) 250 hours, including at least 70 hours as PIC, and the remaining as PIC under supervision;
+        >   - (3) 200 hours of cross-country flight time of which at least 100 hours shall be as PIC or as PIC under supervision;
+        >   - (4) 75 hours of instrument time of which not more than 30 hours may be instrument ground time; and
+        >   - (5) **100 hours of night flight as PIC or co-pilot**.
+        >   - Of the 1500 hours of flight time, up to 100 hours of flight time may have been completed in an FFS and FNPT. Of these 100 hours, only a maximum of 25 hours may be completed in an FNPT.
+        > - (c) Crediting.
+        >   - (1) Holders of a pilot licence for other categories of aircraft shall be credited with flight time up to a maximum of:
+        >     - (i) for TMG or sailplanes, 30 hours flown as PIC;
+        >     - (ii) for helicopters, 50 % of all the flight time requirements of paragraph (b).
+        >   - (2) Holders of a flight engineer licence issued in accordance with applicable national rules shall be credited with 50 % of the flight engineer time up to a maximum credit of 250 hours. These 250 hours may be credited against the 1 500 hours requirement of paragraph (b), and the 500 hours requirement of paragraph (b)(1), provided that the total credit given against any of these paragraphs does not exceed 250 hours.
+        >   - (3) Holders of a restricted type rating issued in accordance with point FCL.720.A(c) shall receive credits for their flight time completed while exercising the privileges of that type rating up to a maximum of 250 hours.
+        > - (d) The experience required in (b) shall be completed before the skill test for the ATPL(A) is taken.
+      presets:
+        - correctAnswers:
+            - text: 100 hours
+          wrongAnswers:
+            - text: 50 hours
+            - text: 75 hours
+            - text: 70 hours
+- id: QNUKJ
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QNEMJ
+    - QCXJG
+  externalQuestionIds:
+    - ATPLQ-101341
+    - BGS-100072
+    - AVEXAM-66689
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.04.01
+  templates:
+    - type: simple
+      question: According to the relevant FCL requirements, the applicant for an ATPL(A) shall have demonstrated the ability to perform as pilot-in-command, the procedures and manoeuvres of an aeroplane type certificated for...
+      explanation: |-
+        ### Part-FCL, FCL.520.A ATPL(A) – Skill test
+
+        > Applicants for an ATPL(A) shall pass a skill test […] to demonstrate the ability to perform, as PIC of **a multi-pilot aeroplane under IFR**, the relevant procedures and manoeuvres with the competency appropriate to the privileges granted.
+      presets:
+        - correctAnswers:
+            - text: a minimum crew of two pilots under IFR.
+          wrongAnswers:
+            - text: a minimum crew of two pilots plus a flight engineer.
+            - text: the carriage of passengers at night.
+            - text: operations by pilots under training.
+- id: QCXJG
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QNEMJ
+    - QNUKJ
+  externalQuestionIds:
+    - ATPLQ-108121
+    - AVEXAM-14839
+    - AVEXAM-39526
+    - ATPLQ-107799
+    - BGS-101178
+    - ATPLQ-108988
+    - AVEXAM-71798
+    - BGS-101920
+    - AVEXAM-80677
+    - AVEXAM-7600
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.04.02
+  templates:
+    - type: simple
+      question: What are the privileges of a pilot holding an ATPL(A) licence?
+      explanation: |-
+        ### Part-FCL, FCL.505 ATPL – Privileges
+
+        > (a) The privileges of the holder of an ATPL are, within the appropriate aircraft category, to: (1) **exercise all the privileges of the holder of an LAPL, a PPL and a CPL**; (2) **act as PIC of aircraft engaged in commercial air transport**.
+      presets:
+        - correctAnswers:
+            - text: To exercise all the privileges of the holder of an LAPL, a PPL and a CPL, and to act as PIC of aeroplanes engaged in commercial air transport.
+          wrongAnswers:
+            - text: To exercise all the privileges of the holder of an LAPL, a PPL and a CPL, and to act as PIC of single-engine aeroplanes engaged in commercial air transport only.
+            - text: To exercise all the privileges of the holder of an LAPL and a CPL, and to act as PIC of multi-engine aeroplanes engaged in commercial air transport only.
+            - text: To exercise all the privileges of the holder of an LAPL and a PPL, and to act as PIC or co-pilot of aeroplanes engaged in operations other than commercial air transport.
+    - type: simple
+      question: In accordance with Part-FCL requirements, one of the privileges of a holder of an ATPL(A) is to...
+      explanation: |-
+        ### Part-FCL, FCL.505 ATPL – Privileges
+
+        > (a) The privileges of the holder of an ATPL are, within the appropriate aircraft category, to: (1) **exercise all the privileges of the holder of an LAPL, a PPL and a CPL**; (2) **act as PIC of aircraft engaged in commercial air transport**.
+      presets:
+        - correctAnswers:
+            - text: act as PIC of aeroplanes engaged in commercial air transport.
+          wrongAnswers:
+            - text: exercise all the privileges of the holder of an ATPL(H).
+            - text: exercise all the privileges of the holder of an LAPL(A), a PPL(A), a Sailplane Pilot Licence (SPL), and a CPL(A).
+            - text: act as PIC or co-pilot of any category of aircraft engaged in operations other than commercial air transport.
+    - type: simple
+      question: An ATPL(A) gives the same privileges as...
+      explanation: |-
+        ### Part-FCL, FCL.505 ATPL – Privileges
+
+        > (a) The privileges of the holder of an ATPL are, within the appropriate aircraft category, to: (1) **exercise all the privileges of the holder of an LAPL, a PPL and a CPL**; (2) **act as PIC of aircraft engaged in commercial air transport**.
+      presets:
+        - correctAnswers:
+            - text: PPL(A), LAPL(A) and CPL(A).
+          wrongAnswers:
+            - text: SPL.
+            - text: PPL(A) and LAPL(A) only.
+            - text: PPL(A).
+- id: QDBPI
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-718304
+    - ATPLQ-101377
+    - ATPLQ-107185
+    - ATPLQ-101473
+    - BGS-101205
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.04.04
+  templates:
+    - type: simple
+      question: "An MPL (Multi-Crew Pilot License) gives you the right to:"
+      explanation: |-
+        ### Part-FCL, FCL.405.A MPL – Privileges
+
+        > (a) The privileges of the holder of an MPL are to **act as co-pilot in an aeroplane required to be operated with a co-pilot**.
+      presets:
+        - correctAnswers:
+            - text: Act as a co-pilot on airplanes engaged in commercial air travel.
+          wrongAnswers:
+            - text: Act as co-pilot in commercial air travel and only PIC in ultra light aircrafts.
+            - text: Act as PIC in both single and multi engine aircraft.
+            - text: Act as a PIC in non commercial air travel and Co-pilot in cross-atlantic flights.
+        - correctAnswers:
+            - text: Act as co-pilot in an aircraft which requires a co-pilot.
+          wrongAnswers:
+            - text: Act as co-pilot in an aircraft which weighs over 5.7 tonnes.
+            - text: Act as co-pilot in an aircraft with MTOM above 2.7 tonnes.
+            - text: Act as PIC of any aircraft.
+    - type: simple
+      question: A pilot with an MPL licence and an MCC certificate can...
+      explanation: |-
+        ### Part-FCL, FCL.405.A MPL – Privileges
+
+        > (a) The privileges of the holder of an MPL are to **act as co-pilot in an aeroplane required to be operated with a co-pilot**.
+      presets:
+        - correctAnswers:
+            - text: act as a copilot on a plane that requires a copilot.
+          wrongAnswers:
+            - text: act as a commander on a plane that requires a copilot.
+            - text: act as a commander on a plane that does not require a copilot.
+            - text: act as a commander on a plane that requires a single pilot.
+- id: QAWEA
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QYMCH
+    - QORIT
+  externalQuestionIds:
+    - ATPLQ-108270
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.05.02
+  templates:
+    - type: simple
+      question: According to the relevant FCL requirements, the successful completion of multi-crew co-operation (MCC) training in aeroplanes is one of the conditions required for...
+      explanation: |-
+        ### Part-FCL, FCL.720.A Experience requirements and prerequisites for the issue of class or type ratings – aeroplanes
+
+        > (b) Applicants for the issue of the first type rating for a multi-pilot aeroplane […] shall, before starting the type rating training course, comply with the following requirements: […] (4) except when the type rating course is combined with an MCC course: (i) **hold a certificate of satisfactory completion of an MCC course in aeroplanes**; or […]
+      presets:
+        - correctAnswers:
+            - text: a first type rating on multi-pilot aeroplanes.
+          wrongAnswers:
+            - text: any revalidation of a rating on a multi-pilot aeroplane.
+            - text: a professional pilot licence.
+            - text: a first class rating on multi-engine aeroplanes.
+- id: QYMCH
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QAWEA
+    - QORIT
+  externalQuestionIds:
+    - ATPLQ-107623
+    - AVEXAM-22340
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.05.02
+  templates:
+    - type: simple
+      question: "Who endorses a new type rating? "
+      explanation: |-
+        ### Part-FCL, FCL.015 Application and issue, revalidation and renewal of licences, ratings and certificates
+
+        > (b) Unless otherwise specified in this Annex, any limitation or extension of the privileges granted by a licence, rating or certificate shall be **endorsed in the licence or certificate by the competent authority**.
+      presets:
+        - correctAnswers:
+            - text: Competent authority
+          wrongAnswers:
+            - text: The airline company
+            - text: "Competent authority or pilot's residence "
+            - text: Competent authority selected by ICAO
+- id: QDTMV
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104159
+    - AVEXAM-6683
+    - BGS-100074
+    - ATPLQ-109054
+    - ATPLQ-106593
+    - ATPLQ-104069
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.05.03
+  templates:
+    - type: simple
+      question: "According to PART-FCL, an applicant for an IR(A) shall hold a PPL(A) including a night qualification, if the IR privileges will be used at night, or CPL(A) and shall have completed at least 50 hours:"
+      explanation: |-
+        ### Part-FCL, FCL.610 IR – Prerequisites and crediting
+
+        > Applicants for an IR shall: (a) hold: (1) at least a PPL in the appropriate aircraft category, and: (i) the privileges to fly at night in accordance with FCL.810, if the IR privileges will be used at night; […] or (2) a CPL, in the appropriate aircraft category;\
+        > (b) have completed at least **50 hours of cross-country flight time as PIC** in aeroplanes, TMGs, helicopters or airships, of which **at least 10** or, in the case of airships, 20 hours **shall be in the relevant aircraft category**.
+      presets:
+        - correctAnswers:
+            - text: cross-country flight time as pilot-in-command in aeroplanes or helicopters of which at least 10 hours shall be in aeroplanes.
+          wrongAnswers:
+            - text: instructional flight time as student-pilot-in-command of aeroplanes or helicopters of which at least 10 hours shall be in aeroplanes.
+            - text: cross-country flight time as pilot of aeroplanes or helicopters of which at least 10 hours shall be in aeroplanes.
+            - text: instructional flight time as student-pilot-in-command of aeroplanes.
+    - type: simple
+      question: According to the relevant FCL requirements, the applicant for an IR shall hold a PPL including a night qualification, or a CPL, and shall have completed at least 50 hours...
+      explanation: |-
+        ### Part-FCL, FCL.610 IR – Prerequisites and crediting
+
+        > Applicants for an IR shall: (a) hold: (1) at least a PPL in the appropriate aircraft category, and: (i) the privileges to fly at night in accordance with FCL.810, if the IR privileges will be used at night; […] or (2) a CPL, in the appropriate aircraft category;\
+        > (b) have completed at least **50 hours of cross-country flight time as PIC** in aeroplanes, TMGs, helicopters or airships, of which **at least 10** or, in the case of airships, 20 hours **shall be in the relevant aircraft category**.
+      presets:
+        - correctAnswers:
+            - text: cross-country flight time as pilot-in-command in aeroplanes or helicopters of which at least 10 hours shall be in aeroplanes for IR(A), or in helicopters for IR(H).
+          wrongAnswers:
+            - text: cross-country flight time as pilot of aeroplanes or helicopters of which at least 10 hours shall be in aeroplanes for IR(A), or in helicopters for IR(H).
+            - text: instructional flight time as student pilot-in-command of aeroplanes for IR(A), or helicopters for IR(H).
+            - text: instructional flight time as student pilot-in-command of aeroplanes or helicopters of which at least 10 hours shall be in aeroplanes for IR(A), or helicopters for IR(H).
+    - type: simple
+      question: |-
+        Select the option which correctly completes the following statement:
+
+        For the issue of an IR, an applicant holding a CPL, shall have completed (1) \_\_\_\_\_ hours of cross-country flight time, of which not less than (2) \_\_\_\_\_ hours shall be in an adequate aircraft.
+      explanation: |-
+        ### Part-FCL, FCL.610 IR – Prerequisites and crediting
+
+        > Applicants for an IR shall: (a) hold: (1) at least a PPL in the appropriate aircraft category, and: (i) the privileges to fly at night in accordance with FCL.810, if the IR privileges will be used at night; […] or (2) a CPL, in the appropriate aircraft category;\
+        > (b) have completed at least **50 hours of cross-country flight time as PIC** in aeroplanes, TMGs, helicopters or airships, of which **at least 10** or, in the case of airships, 20 hours **shall be in the relevant aircraft category**.
+      presets:
+        - correctAnswers:
+            - text: |-
+                (1) 50 hours;   
+                 (2) 10 hours.
+          wrongAnswers:
+            - text: |-
+                (1) 50 hours;   
+                 (2) 20 hours.
+            - text: |-
+                (1) 70 hours;   
+                 (2) 10 hours.
+            - text: |-
+                (1) 100 hours;   
+                 (2) 12 hours.
+    - type: simple
+      question: For the issue of an instrument rating the holder of a PPL or CPL shall have completed at least 50 hours of cross-country flight time as pilot-in-command, according to the relevant FCL requirements, the minimum required cross country flight hours in the relevant aircraft category are...
+      explanation: |-
+        ### Part-FCL, FCL.610 IR – Prerequisites and crediting
+
+        > Applicants for an IR shall: (a) hold: (1) at least a PPL in the appropriate aircraft category, and: (i) the privileges to fly at night in accordance with FCL.810, if the IR privileges will be used at night; […] or (2) a CPL, in the appropriate aircraft category;\
+        > (b) have completed at least **50 hours of cross-country flight time as PIC** in aeroplanes, TMGs, helicopters or airships, of which **at least 10** or, in the case of airships, 20 hours **shall be in the relevant aircraft category**.
+      presets:
+        - correctAnswers:
+            - text: 10 hours.
+          wrongAnswers:
+            - text: none.
+            - text: 25 hours.
+            - text: 15 hours.
+- id: QRQOF
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106002
+    - AVEXAM-52509
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.05.04
+  templates:
+    - type: simple
+      question: If an applicant wishes to obtain an aeroplane night rating, they shall have completed...
+      explanation: |-
+        ### Part-FCL, FCL.810 Night rating
+
+        > (a) […] (1) […] The course shall comprise: […] (ii) **at least 5 hours of flight time in the appropriate aircraft category at night**, including at least 3 hours of dual instruction, including at least 1 hour of cross-country navigation […] and **5 solo take-offs and 5 solo full-stop landings**.
+      presets:
+        - correctAnswers:
+            - text: at least 5 hours of flight time in the appropriate aircraft category at night and 5 solo take-offs and 5 solo full-stop landings.
+          wrongAnswers:
+            - text: at least 3 hours of flight time in the appropriate aircraft category at night and 3 solo take-offs and 3 solo full-stop landings.
+            - text: at least 3 hours of flight time in the appropriate aircraft category at night and 5 solo take-offs and 5 solo landings (at least 1 full-stop landing).
+            - text: at least 5 hours of flight time in the appropriate aircraft category at night and 5 solo take-offs and 5 solo landings (at least 1 full-stop landing).
+- id: QXFXM
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109677
+    - BGS-101696
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.02.05.04
+  templates:
+    - type: simple
+      question: A pilot's license holder applies for an aerobatic rating. The holder must undergo a training course at an ATO or DTO, and must be aware that the privileges of the aerobatic rating...
+      explanation: |-
+        ### Part-FCL, FCL.800 Aerobatic rating
+
+        > (c) The privileges of the aerobatic rating shall be **limited to aerobatic flight in either aeroplanes or TMGs** flown with engine power, depending on which aircraft the requirements of (b)(1) and (b)(2)(ii) were complied with. […]
+      presets:
+        - correctAnswers:
+            - text: may be exercised for the aircraft category in which the flight instruction was completed.
+          wrongAnswers:
+            - text: include sailplane-towing, and may be exercised on all aircraft categories held by the pilot.
+            - text: may be exercised for all aircraft categories held by the pilot.
+            - text: include banner-towing, and may be exercised on the aircraft category in which the flight instruction was completed.
+- id: QEIBF
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QUMIC
+    - QTIGB
+    - QZQXN
+    - QWZBB
+  externalQuestionIds:
+    - ATPLQ-103755
+    - BGS-100907
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.03.01.01
+  templates:
+    - type: simple
+      question: According to the relevant medical requirements, for the initial medical examination the validity of the medical assessment shall begin at the date the...
+      explanation: |-
+        ### Part-MED, MED.A.045 Validity, revalidation and renewal of medical certificates
+
+        > (5) The validity period of a medical certificate […] shall be calculated **from the date of the aero-medical examination in the case of initial issue** and renewal, and from the expiry date of the previous medical certificate in the case of revalidation.
+      presets:
+        - correctAnswers:
+            - text: medical examination is performed.
+          wrongAnswers:
+            - text: licence is issued or validated.
+            - text: medical certificate is issued or validated.
+            - text: licence is issued or renewed.
+- id: QZQXN
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QUMIC
+    - QTIGB
+    - QEIBF
+    - QWZBB
+  externalQuestionIds:
+    - ATPLQ-105512
+    - AVEXAM-4587
+    - BGS-100088
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.03.01.01
+  templates:
+    - type: simple
+      question: According to the relevant medical requirements, a Class 2 Medical Certificate is valid for...
+      explanation: |-
+        ### Part-MED, MED.A.045 Validity, revalidation and renewal of medical certificates
+
+        >   - (3) Class 2 medical certificates shall be valid for a period of:
+        >     - (i) **60 months, until the licence holder reaches the age of 40**. […]
+        >     - (ii) **24 months, for licence holders aged between 40 and 50**. […]
+        >     - (iii) **12 months, for licence holders aged above 50**.
+      presets:
+        - correctAnswers:
+            - text: 60 months until age of 40, 24 months until age of 50, and 12 months thereafter.
+          wrongAnswers:
+            - text: 24 months until age of 40 and 12 months thereafter.
+            - text: 24 months until age of 40, 12 months until age of 60, and 6 months thereafter.
+            - text: 60 months until age of 30, 24 months until age of 40, and 12 months thereafter.
+- id: QWZBB
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QZQXN
+    - QEIBF
+    - QUMIC
+    - QTIGB
+  externalQuestionIds:
+    - ATPLQ-104501
+    - AVEXAM-36411
+    - AVEXAM-55435
+    - BGS-101469
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.03.01.02
+  templates:
+    - type: simple
+      question: Who can revalidate and renew Class 1 and 2 medical certificates?
+      explanation: |-
+        ### Part-MED, MED.A.040 Issuance, revalidation and renewal of medical certificates
+
+        > (c) Revalidation and renewal: (1) **Class 1 and class 2 medical certificates shall be revalidated and renewed by an AeMC or an AME**. […]
+      presets:
+        - correctAnswers:
+            - text: AeMC or AME.
+          wrongAnswers:
+            - text: AeMC only.
+            - text: AeMC, AME or GMP.
+            - text: GMP only.
+    - type: simple
+      question: According to Part-MED, the issue and revalidation of both Class 1 and Class 2 medical certificates can be performed by...
+      explanation: |-
+        ### Part-MED, MED.A.040 Issuance, revalidation and renewal of medical certificates
+
+        > (c) Revalidation and renewal: (1) **Class 1 and class 2 medical certificates shall be revalidated and renewed by an AeMC or an AME**. […]
+      presets:
+        - correctAnswers:
+            - text: an Aero-Medical Centre (AeMC).
+          wrongAnswers:
+            - text: a General Medical Practitioner (GMP).
+            - text: a European Medical Centre (EMC).
+            - text: an Approved Medical Evaluator (AME).
+- id: QTIGB
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QUMIC
+    - QZQXN
+    - QEIBF
+    - QWZBB
+  externalQuestionIds:
+    - ATPLQ-101732
+    - AVEXAM-30913
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.03.01.03
+  templates:
+    - type: simple
+      question: "According to EASA AIRCREW, Medical Certificates are:"
+      explanation: |-
+        ### Part-MED, AMC1 MED.A.030 Medical certificates
+
+        > - (a) A **class 1** medical certificate includes the privileges and validities of **class 2** and **LAPL** medical certificates.
+        > - (b) A **class 2** medical certificate includes the privileges and validities of a **LAPL** medical certificate.
+      presets:
+        - correctAnswers:
+            - text: Class 1 Medical Certificate, Class 2 Medical Certificate, LAPL Medical Certificate.
+          wrongAnswers:
+            - text: LAPL medical certificate, ATPL medical certificate, CPL medical certificate, IR medical certificate.
+            - text: Class 1 Medical Certificate and Class 2 Medical Certificate.
+            - text: Class 1 Medical Certificate, Class 2 Medical Certificate, Class 3 Medical Certificate.
+- id: QUMIC
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds:
+    - QTIGB
+    - QZQXN
+    - QEIBF
+    - QWZBB
+  externalQuestionIds:
+    - ATPLQ-106712
+    - AVEXAM-41741
+    - ATPLQ-104727
+    - BGS-100089
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.03.01.03
+  templates:
+    - type: simple
+      question: "According to Part-MED, applicants for and holders of pilot licences are required to hold the following class of medical certificates:"
+      explanation: |-
+        ### Part-MED, MED.A.030 Medical certificates
+
+        > (c) When exercising the privileges of a: […] (5) **a commercial pilot licence (CPL), a multi-crew pilot licence (MPL) or an airline transport pilot licence (ATPL), the pilot shall hold a valid class 1 medical certificate**.
+      presets:
+        - correctAnswers:
+            - text: Class 1 for a CPL, MPL, and ATPL.
+          wrongAnswers:
+            - text: Class 1 for a CPL and ATPL, and Class 2 for an MPL.
+            - text: Class 2 for a CPL and MPL, and Class 1 for an ATPL.
+            - text: Class 2 for a CPL, and Class 1 for an MPL and ATPL.
+    - type: simple
+      question: According to the relevant medical requirements, the applicant for a Commercial Pilot Licence shall hold a current...
+      explanation: |-
+        ### Part-MED, MED.A.030 Medical certificates
+
+        > (c) When exercising the privileges of a: […] (5) **a commercial pilot licence (CPL), a multi-crew pilot licence (MPL) or an airline transport pilot licence (ATPL), the pilot shall hold a valid class 1 medical certificate**.
+      presets:
+        - correctAnswers:
+            - text: Class I medical assessment.
+          wrongAnswers:
+            - text: medical assessment as prescribed by the State issuing the licence.
+            - text: Class III medical assessment.
+            - text: Class II medical assessment.
+- id: QGJYV
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103656
+    - BGS-101724
+    - ATPLQ-109599
+    - BGS-101209
+    - AVEXAM-33323
+    - AVEXAM-730388
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.03.01.04
+  templates:
+    - type: simple
+      question: A pilot licence holder with a valid class 1 medical certificate is experiencing a considerable impairment in their visual acuity accompanied by chronic headaches. The pilot must stop...
+      explanation: |-
+        ### Part-MED, MED.A.020 Decrease in medical fitness
+
+        > (a) Licence holders shall not exercise the privileges of their licence and related ratings or certificates […] at any time when they: (1) **are aware of any decrease in their medical fitness which might render them unable to safely exercise those privileges**; […]
+      presets:
+        - correctAnswers:
+            - text: exercising all the privileges of their licence.
+          wrongAnswers:
+            - text: exercising the privileges related to their type ratings but can continue to exercise the remaining privileges.
+            - text: acting as PIC in both commercial and non-commercial air transport but can continue to exercise the remaining privileges of their licence.
+            - text: acting as PIC in commercial air transport but can continue to exercise the remaining privileges of their licence.
+    - type: simple
+      question: A pilot suffers a significant decrease in visual acuity and chronic headaches. They...
+      explanation: |-
+        ### Part-MED, MED.A.020 Decrease in medical fitness
+
+        > (a) Licence holders shall not exercise the privileges of their licence and related ratings or certificates […] at any time when they: (1) **are aware of any decrease in their medical fitness which might render them unable to safely exercise those privileges**; […]
+      presets:
+        - correctAnswers:
+            - text: cannot undertake the privileges of the license.
+          wrongAnswers:
+            - text: cannot be PIC anymore, but can still use their privileges.
+            - text: cannot fly as PIC in commercial and non-commercial transports.
+            - text: cannot fly as PIC in commercial, but in non-commercial transports.
+- id: QRQVE
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-402493
+    - AVEXAM-93834
+    - BGS-401405
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.03.01.04
+  templates:
+    - type: simple
+      question: During a two-week long holiday, a pilot consumes alcoholic drinks every evening with friends, consuming approximately 8 units of alcohol each day. The pilot plans to not drink any more alcohol from the day before starting duty. One day earlier than expected, at 09:00, the pilot is called for night duty, starting at 19:00 that day. The pilot refuses this duty, claiming to be unfit to fly. Considering the rules on the consumption of psychoactive substances, the pilot...
+      explanation: A licence holder must not exercise the privileges of the licence while aware of any decrease in medical fitness that could prevent them from doing so safely. After two weeks of heavy drinking, the pilot cannot be sure of being fit for a night duty starting that evening. Declining the duty is therefore the correct, compliant action. The pilot is responsible for judging their own fitness.
+      presets:
+        - correctAnswers:
+            - text: is compliant, recognising that there could be a decrease in their medical fitness that affects their ability to accomplish the assigned duties.
+          wrongAnswers:
+            - text: is compliant, as the blood alcohol level at 19:00 would be expected to be greater than 0.2 g/l considering the quantity of alcohol consumed over the previous two weeks.
+            - text: is NOT compliant, as the rules require that NO alcohol is consumed 8 hours before the flight, and this time period would be exceeded.
+            - text: is NOT compliant, unless the pilot is assessed as medically unfit by an Aeromedical Examiner, because the rules only require that NO alcohol is consumed 8 hours before the flight.
+- id: QBVQJ
+  subjectId: "010"
+  chapterId: "010.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101969
+  annexes: []
+  learningObjectiveIds:
+    - 010.04.03.01.04
+  templates:
+    - type: simple
+      question: "A pilot received a prescription for anti-depressants containing psychoactive substances from a doctor but failed to consult with an Aviation Medical Examiner (AME). As a result, they:"
+      explanation: |-
+        ### Part-MED, MED.A.020 Decrease in medical fitness
+
+        > - (a) Licence holders shall not exercise the privileges of their licence and related ratings or certificates […] at any time when they: […] (2) **take or use any prescribed or non-prescribed medication which is likely to interfere with the safe exercise of the privileges** of the applicable licence; […]
+        > - (b) In addition, holders of a medical certificate shall, without undue delay and before exercising the privileges of their licence, **seek aero-medical advice** from the AeMC, AME or GMP, as applicable, when they: […] (2) have commenced the regular use of any medication; […]
+      presets:
+        - correctAnswers:
+            - text: CANNOT undertake their function, taking into consideration that human performance is impaired.
+          wrongAnswers:
+            - text: can undertake their function if they act as pilot-in-command for that flight.
+            - text: can undertake their function only if the impact of the substances on the human performance is minor.
+            - text: can undertake their function only if not acting as pilot flying.

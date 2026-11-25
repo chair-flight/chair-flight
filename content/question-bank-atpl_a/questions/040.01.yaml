@@ -1,0 +1,1042 @@
+- id: QCAXX
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-408152
+    - AVEXAM-91728
+    - BGS-401528
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.01.01.01
+  templates:
+    - type: simple
+      question: Consider the training and assessment of pilots. Which of the following is one of the eight core competencies?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Situation awareness
+          wrongAnswers:
+            - text: Captaincy
+            - text: Judgement and determination
+            - text: Synergy
+- id: QIGYO
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-408213
+    - AVEXAM-85078
+    - BGS-401213
+    - BGS-401382
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.01.01.01
+  templates:
+    - type: simple
+      question: Competence of an individual pilot is based on...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: knowledge, skill, and ability.
+          wrongAnswers:
+            - text: age, skill, and determination.
+            - text: rules, character, and upbringing.
+            - text: focus, age, and knowledge.
+    - type: simple
+      question: Competence with regards to pilots depends on...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: their knowledge, skills and attitudes
+          wrongAnswers:
+            - text: the application of rote-based learning.
+            - text: competition for superiority between flight crew members.
+            - text: Rasmussen's skill-based, rule-based, and knowledge-based behaviour model.
+- id: QJJKQ
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-408900
+    - BGS-401335
+    - AVEXAM-91388
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.01.01.01
+  templates:
+    - type: simple
+      question: According to Annex 1 of the Convention on International Civil Aviation, competency is defined as..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a combination of skills, knowledge and attitudes required to perform a task to the prescribed standard.
+          wrongAnswers:
+            - text: a collection of practical and theoretical knowledge, cognitive skills, behaviour and values used to improve performance.
+            - text: a set of behaviours that provide a structured guide for the identification, evaluation and development of the behaviours in individuals.
+            - text: a mental state or quality of being adequately or well qualified, having the ability to perform a specific role.
+- id: QXOAJ
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-408577
+    - BGS-401428
+    - AVEXAM-42123
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.02
+    - 040.01.03.01.04
+  templates:
+    - type: simple
+      question: Considering the Threat and Error Management (TEM), from the perspective of the flight crew, which of the following options is a latent organisational threat?
+      explanation: Latent organisational threats come from the organisation, such as operational pressure from delays, late arrivals and equipment changes. Weather is an environmental threat, and proceeding towards a wrong waypoint is an error, not a threat.
+      presets:
+        - correctAnswers:
+            - text: Operational pressure resulting from delays, late arrivals, equipment changes.
+          wrongAnswers:
+            - text: Adverse weather en route, including thunderstorms, turbulence, wind shear and icing.
+            - text: Proceeding towards a wrong waypoint.
+            - text: Failure to cross-verify automation inputs.
+- id: QEAQB
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-403702
+    - AVEXAM-47654
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.03
+    - 040.01.03.01.06
+  templates:
+    - type: simple
+      question: |-
+        Complete the following statement:
+
+        During an approach with thunderstorms in the vicinity, the pilot notices that the visibility has dropped below minimum. This is a/an (1)\_\_ and it can be (2)\_\_ by a proper briefing.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) Threat; (2) predicted.
+          wrongAnswers:
+            - text: (1) Error; (2) eliminated.
+            - text: (1) Error; (2) predicted.
+            - text: (1) Threat; (2) eliminated.
+- id: QFMQQ
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds:
+    - QMQYJ
+  externalQuestionIds:
+    - ATPLQ-409368
+    - AVEXAM-39779
+    - BGS-400983
+    - AVEXAM-64944
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.03
+  templates:
+    - type: simple
+      question: "A typical example of an environmental threat according to the TEM model would be:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Missing or confusing markings of taxiways and runways.
+          wrongAnswers:
+            - text: Missing readback of clearances between flight deck and ATC.
+            - text: Heavy workload and minimum legal breaks for relaxation.
+            - text: Taxiing on the wrong taxiways.
+- id: QRBDR
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-402727
+    - AVEXAM-96200
+    - BGS-401348
+    - BGS-401139
+    - AVEXAM-61798
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.03
+  templates:
+    - type: simple
+      question: Which of the following is an environmental threat according to the TEM (Threat and Error Management) model?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A contaminated runway.
+          wrongAnswers:
+            - text: A maintenance error.
+            - text: Aircraft hardware design.
+            - text: A crew-scheduling error.
+- id: QMQYJ
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds:
+    - QFMQQ
+  externalQuestionIds:
+    - ATPLQ-408166
+    - BGS-400984
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.04
+  templates:
+    - type: simple
+      question: "A typical example of an organisational threat according to the TEM model would be:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Heavy workload and minimum legal breaks for relaxation.
+          wrongAnswers:
+            - text: Missing or confusing marking on taxiways and runways.
+            - text: Wrong power setting during take-off.
+            - text: Taxiing on the wrong taxiways.
+- id: QSUBX
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-403918
+    - BGS-401653
+    - AVEXAM-292
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.04
+  templates:
+    - type: simple
+      question: Consider TEM. Which of the following is an example of an organisational threat?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Using incorrect or expired charts.
+          wrongAnswers:
+            - text: Flying over mountains, valleys, and built-up areas.
+            - text: Weather en-route including turbulence, ice and wind.
+            - text: Implementing a safety management system.
+- id: QXBSZ
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-408142
+    - AVEXAM-8651
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.05
+  templates:
+    - type: simple
+      question: Considering the Threat and Error Management (TEM) model, which of the following situations is considered an error?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Inadequate control inputs resulting in a hard landing and the collapse of the landing gear.
+          wrongAnswers:
+            - text: A lateral offset from the cleared track as a result of a drifting IRS.
+            - text: A descent below the glide path in wind shear.
+            - text: Take-off with less than the legally required amount of fuel on board due to an erroneous calculation by the dispatch crew.
+- id: QUYWU
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-408550
+    - AVEXAM-22498
+    - BGS-401410
+    - AVEXAM-73967
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.06
+  templates:
+    - type: simple
+      question: "The following is an example of a “hard” systematic-based countermeasure that flight crew use to manage threats, error, and undesired aircraft states:"
+      explanation: A hard, systems-based countermeasure is built into the aircraft or its equipment, such as ACAS, and works independently of crew behaviour. Read-back of clearances is a procedural countermeasure, and a safety reporting scheme is an organisational one.
+      presets:
+        - correctAnswers:
+            - text: Airborne Collision Avoidance System (ACAS).
+          wrongAnswers:
+            - text: The read-back of ATC clearances.
+            - text: The internal safety reporting scheme that is part of the Operator’s Management System.
+            - text: Definition and communication of roles and responsibilities for normal and non-normal situations.
+- id: QUYAS
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-401208
+    - BGS-401662
+    - AVEXAM-91620
+    - AVEXAM-74127
+    - ATPLQ-401886
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.06
+  templates:
+    - type: simple
+      question: In a scenario where a highly experienced Captain, an experienced co-pilot, and a young, inexperienced co-pilot are assigned to fly together and have all received a briefing that includes weather information, what is the recommended course of action next?
+      explanation: Threat management works best when the whole crew shares the same picture. The Captain should discuss the potential threats of the flight with both co-pilots, including the less experienced one, so that all of them contribute and anticipate.
+      presets:
+        - correctAnswers:
+            - text: It is crucial for the Captain to engage in a discussion about potential flight threats with both co-pilots.
+          wrongAnswers:
+            - text: There is no need for further discussion since all members of the flight crew have been provided with the same information.
+            - text: The Captain should specifically have a discussion with the experienced co-pilot only.
+            - text: The co-pilots should follow the Captain's lead and show obedience, considering their Captain's extensive experience flying this route.
+- id: QVFSQ
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-405327
+    - AVEXAM-2681
+    - BGS-401649
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.06
+  templates:
+    - type: simple
+      question: Which of the following statements is an example of a countermeasure that may be used by flight crew in order to manage threats, errors, and undesired aircraft states?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Standard Operating Procedures (SOPs).
+          wrongAnswers:
+            - text: Complacency.
+            - text: Maintaining the aircraft's anti-icing settings OFF during icing conditions.
+            - text: Mismanagement of aircraft systems.
+- id: QVZUE
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-404820
+    - BGS-401529
+    - AVEXAM-65624
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.06
+  templates:
+    - type: simple
+      question: |-
+        The pilot monitoring speaks out loud whenever they change an input setting on a navigation instrument. The pilot flying detects an error in one digit set and immediately point out the mistake so that it can be corrected.
+
+        This is an example of threat and error management (TEM)...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: execution-countermeasure, aimed to help detect possible errors.
+          wrongAnswers:
+            - text: prevention-countermeasure, designed to avoid errors in instrument settings.
+            - text: planning-countermeasure, useful to help prevent latent threats.
+            - text: review-countermeasure, which is required to cross-check actions of the other crew member.
+- id: QZXEU
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-402568
+    - AVEXAM-99696
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.06
+  templates:
+    - type: simple
+      question: "Consider the Threat and Error Management (TEM) model. A flight crew experiences an undesired aircraft state (UAS). The most correct course of action is to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Take immediate countermeasures to recover to a normal operational state.
+          wrongAnswers:
+            - text: Contact the Operator and request to practice this specific situation in the next training session.
+            - text: Continue with the current configuration as an UAS is not an outcome and therefore the safety of the flight remains unaffected.
+            - text: Continue with the current configuration and file a safety report upon landing.
+- id: QCDIJ
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-409185
+    - AVEXAM-25047
+    - BGS-401173
+    - AVEXAM-2896
+    - ATPLQ-403403
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.07
+  templates:
+    - type: simple
+      question: The three basic components of the Threat and Error Management (TEM) model are, from the perspective of flight crews, threats, errors and undesired aircraft states. With regard to errors, the TEM model..
+      explanation: "From the perspective of the flight crew, the TEM model groups errors into three categories: aircraft handling errors, procedural errors and communication errors."
+      presets:
+        - correctAnswers:
+            - text: considers three categories of errors, namely aircraft handling, procedural and communications.
+          wrongAnswers:
+            - text: recognizes three types of human errors, namely anticipated, unanticipated and latent errors.
+            - text: differentiates between three kinds of errors, namely aircraft handling, navigation and aircraft configuration.
+            - text: distinguishes three classes of errors, namely operational, organisational and environmental.
+- id: QXJLK
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-406263
+    - AVEXAM-71974
+    - AVEXAM-45549
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.07
+  templates:
+    - type: simple
+      question: "Choose the correct option regarding environmental threats (TEM model):"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Some environmental threats can be planned for and some will arise spontaneously, but they all have to be managed by flight crews in real time.
+          wrongAnswers:
+            - text: Environmental threats can be controlled (for example removed or, at least, minimised) at source by aviation organisations.
+            - text: Environmental threats refer to weather and terrain only.
+            - text: Environmental threats are usually latent in nature.
+    - type: simple
+      question: Which statement concerning environmental threats is true (TEM model)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Some environmental threats can be planned for and some will arise spontaneously, but they all have to be managed by flight crews in real time.
+          wrongAnswers:
+            - text: Environmental threats, can be controlled (for example removed or, at least, minimised) at source by aviation organisations.
+            - text: Environmental threats refer to weather and terrain only.
+            - text: Environmental threats are usually latent in nature.
+- id: QAONM
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-408225
+    - BGS-400985
+    - AVEXAM-35168
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.07
+  templates:
+    - type: simple
+      question: "Select a typical example of a procedural error according to the TEM model:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Applying a rule not appropriate to the situation.
+          wrongAnswers:
+            - text: Flying below the correct glideslope.
+            - text: Missed call from ATC.
+            - text: Taxiing on the wrong taxiway.
+- id: QDROK
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-409256
+    - AVEXAM-3164
+    - BGS-401397
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.07
+  templates:
+    - type: multiple-correct
+      question: An aircraft departs from a major airport. According to the pre-flight brief, the Commander flies the departure procedure and the Co-Pilot monitors speed, level, and communications. After departure, due to the distraction caused by ATC transmissions, the Co-Pilot retracts the flaps without noticing that the speed is below that required for flap retraction. While responding to the subsequent speed warning, the Commander allows the aircraft to climb above its cleared altitude. What are the error types illustrated in this scenario?
+      explanation: ""
+      options:
+        - text: "Communication error: Co-Pilot fails to inform the Commander of the speed before retracting the flaps"
+          correct: false
+        - text: "Communication error: Co-Pilot fails to tell the Commander about the altitude deviation"
+          correct: false
+        - text: "Handling error: Commander fails to control the speed and fails to control the rate of climb"
+          correct: true
+        - text: "Procedural error: Co-Pilot fails to monitor the speed and altitude"
+          correct: true
+        - text: "Procedural error: Commander fails to achieve the correct flap retraction speed"
+          correct: false
+        - text: "Procedural error: Commander and Co-Pilot fail to level the aircraft at the cleared altitude."
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QGBCB
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-407008
+    - AVEXAM-87640
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.07
+  templates:
+    - type: simple
+      question: "Select the option which is not a Procedural Error (TEM model):"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "Ground navigation: attempting to turn down wrong taxiway or runway, taxi too fast, failure to hold short or missed taxiway or runway."
+          wrongAnswers:
+            - text: "Documentation: wrong weight and balance, fuel information, ATIS, or clearance information recorded, misinterpreted items on paperwork; incorrect logbook entries or incorrect application of MEL procedures."
+            - text: "Checklists: wrong challenge and response; items missed, checklist performed late or at the wrong time."
+            - text: "Callouts: omitted/incorrect callouts."
+- id: QHCPA
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-406072
+    - AVEXAM-32112
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.07
+  templates:
+    - type: simple
+      question: The Commander and Co-Pilot missed an item on the pre-flight checklist, resulting in them taking off with zero flap setting. This incident was the outcome of an error characterized as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: procedural error.
+          wrongAnswers:
+            - text: handling error.
+            - text: weather-related error.
+            - text: communications error.
+- id: QRTUK
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-407302
+    - AVEXAM-53187
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.07
+  templates:
+    - type: simple
+      question: Concerning the TEM model, which of the following statements is correct for a procedural error?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In order to be classified as procedural error, the pilot or flight crew must be interacting with a procedure.
+          wrongAnswers:
+            - text: In order to be classified as procedural error, the pilot or flight crew must be interacting with people and a procedure.
+            - text: In order to be classified as procedural error, the pilot or flight crew must be interacting with the aircraft.
+            - text: In order to be classified as procedural error, the pilot or flight crew must be interacting with a procedure, with people or with the aircraft.
+- id: QEAUF
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-404512
+    - AVEXAM-64868
+    - BGS-400986
+    - BGS-401717
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.08
+  templates:
+    - type: simple
+      question: "A typical example of an undesired aircraft state according to the TEM model would be:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Flying too fast and/or too high during an approach.
+          wrongAnswers:
+            - text: Using an incorrect communication frequency.
+            - text: Approaching a runway with a crosswind component.
+            - text: Missing readback clearances between flight crew and ATC.
+- id: QGHIV
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-407920
+    - AVEXAM-21017
+    - BGS-401200
+    - ATPLQ-409927
+    - BGS-401627
+    - AVEXAM-70515
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.08
+  templates:
+    - type: simple
+      question: According to the Threat and Error Management (TEM) model, What is the correct definition of "undesired aircraft state"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It is an undesired flight situation associated with a reduction in margins of safety.
+          wrongAnswers:
+            - text: It is an event or error that occurs beyond the influence of the flight crew, increases operational complexity and must be managed to maintain an acceptable margin of safety.
+            - text: Accidents that are the result of undesired actions or inactions by the flight crew.
+            - text: Actions or inactions by the flight crew that lead to deviations from organisational or flight crew intentions or expectations.
+    - type: simple
+      question: What is an example of an undesired aircraft state based on Threat and Error Management (TEM) model?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A higher approach speed than cleared by ATC.
+          wrongAnswers:
+            - text: A hard landing resulting in the collapse of the landing gear.
+            - text: An approach attempt to an aerodrome with predicted wind shear.
+            - text: The inadvertent selection of a lower flap setting than recommended by the performance planning tool.
+    - type: simple
+      question: Consider the Threat and Error Management (TEM) model. Which of the following is an example of an undesired aircraft state (undesired flight situation) resulting from aircraft handling?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Exceeding ATC speed restrictions during an approach.
+          wrongAnswers:
+            - text: Damaged landing gear as a result of a hard landing.
+            - text: Accidently omitting several parts of a departure briefing.
+            - text: Flying into an airport where there is a possibility of wind shear.
+    - type: simple
+      question: Consider the Threat and Error Management (TEM) model. Which of the following situations is considered an undesired aircraft state?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A higher approach speed than cleared by ATC.
+          wrongAnswers:
+            - text: An approach attempt to an aerodrome with predicted wind shear.
+            - text: The inadvertent selection of a lower flap setting than recommended by the performance planning tool.
+            - text: A hard landing resulting in the collapse of the landing gear.
+- id: QNPKK
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-408413
+    - AVEXAM-40875
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.08
+  templates:
+    - type: simple
+      question: According to TEM, which undesired aircraft state could lead to runway excursion after touchdown?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Stabilised approach turning unstabilised.
+          wrongAnswers:
+            - text: Checklist challenge improper reaction.
+            - text: Insufficient simulator training.
+            - text: Misunderstanding with ATC.
+- id: QEVQW
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-407625
+    - AVEXAM-56377
+    - BGS-400014
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.09
+  templates:
+    - type: simple
+      question: With reference to the SHELL Model, S represents..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Software (which includes checklists).
+          wrongAnswers:
+            - text: Security (which includes safety).
+            - text: Symbology (which includes safety)
+            - text: Self-awareness (which includes safety).
+- id: QKDWV
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-409381
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.09
+  templates:
+    - type: simple
+      question: Which of the following options lists the elements of the SHELL concept?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Software, hardware, environment, and liveware.
+          wrongAnswers:
+            - text: Concept. Software, hardware, economy, and liveware.
+            - text: Software, hardware, environment, and location.
+            - text: Software, harmony, environment, and location.
+- id: QGGXX
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-405770
+    - BGS-400012
+    - AVEXAM-21503
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.10
+  templates:
+    - type: simple
+      question: The errors resulting from an illogical indexing system in an operations manual are related, according to the SHELL model, to a conflict between..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Liveware – Software.
+          wrongAnswers:
+            - text: Liveware – Hardware.
+            - text: Liveware – Liveware.
+            - text: Liveware – Environment.
+- id: QYBYM
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-407987
+    - AVEXAM-28678
+    - BGS-401420
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.03.01.10
+  templates:
+    - type: simple
+      question: How is the SHELL model relevant to the work in the cockpit?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It helps to identify possible sources of error, and to remove possible causes of error in the performance of flying tasks.
+          wrongAnswers:
+            - text: The Liveware-Environment interface refers to the aircraft environment, and the crew uses standard operating procedures to function there.
+            - text: The Software-Liveware interface refers to cockpit automation only, which can be a source of error where flight crew have insufficient knowledge of computer systems.
+            - text: The hardware-Liveware interface addresses the ability of the crew to adapt to the physical environment, such as seating, placing of the aircraft controls and air quality.
+- id: QBKPM
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-403425
+    - AVEXAM-59723
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.04.01.01
+  templates:
+    - type: simple
+      question: Civil aviation is generally recognised for being..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: an open culture activity.
+          wrongAnswers:
+            - text: an open culture but restricted to maintenance personnel.
+            - text: a closed culture activity.
+            - text: an open culture but restricted to cabin crew.
+- id: QGVWI
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-405350
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.04.01.01
+  templates:
+    - type: simple
+      question: A First Officer forgot to switch the anti-icing off after leaving icing conditions. The Captain realises this and yells at the FO for it. What type of culture is the Captain portraying?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A closed culture.
+          wrongAnswers:
+            - text: A punitive culture.
+            - text: A reporting culture.
+            - text: A democratic culture.
+- id: QUQJT
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-407822
+    - BGS-400995
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.04.01.02
+  templates:
+    - type: simple
+      question: Safety culture is..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: considered to be a sub-set of national culture.
+          wrongAnswers:
+            - text: NOT a sub-set of national culture.
+            - text: NOT a product of national culture.
+            - text: considered to be independent of national culture.
+- id: QZUGE
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-408169
+    - AVEXAM-48682
+    - BGS-401374
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.04.01.02
+  templates:
+    - type: simple
+      question: An executive aircraft is performing an approach to aerodrome A in bad weather. The conditions mean the pilot must divert to aerodrome B. However, the passenger, who is part of senior management in your company, insists that the pilot lands at aerodrome A. What could this be an example of if the pilot is conditioned to obey authority and continue the approach to aerodrome A?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: National culture overriding the safety culture.
+          wrongAnswers:
+            - text: Resignation.
+            - text: Anti-authority.
+            - text: Complacency on the part of the pilot and impulsivity on the part of the passenger.
+- id: QQJQG
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-408527
+    - BGS-401018
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.04.01.04
+  templates:
+    - type: simple
+      question: In the Swiss Cheese model, what do holes represent?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Errors in the system or process.
+          wrongAnswers:
+            - text: Systems or processes designed to prevent harm
+            - text: Missing data in the risk management system.
+            - text: Systems or processes put in place to reduce risk.
+- id: QMPRE
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-403699
+    - BGS-401166
+    - ATPLQ-405317
+    - AVEXAM-29342
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.04.01.05
+  templates:
+    - type: simple
+      question: Which of the following factors contributes to a safety culture?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The highest levels of management making the necessary resources available.
+          wrongAnswers:
+            - text: Developing trust through rewarding good employees and punishing those who make mistakes.
+            - text: Encouraging employees to report errors while taking minimum corrective action.
+            - text: Safety being primarily an issue imposed on the employees by various administrative systems.
+    - type: simple
+      question: Which of the following promotes safety culture in a company?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Upper levels of management provide required resources
+          wrongAnswers:
+            - text: Encouragement to report errors and subsequent minimum action to correct them
+            - text: Encouragement to report errors and punishment of those who make errors
+            - text: Safety imposed by hierarchy and administrative means
+- id: QARHZ
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-407185
+    - BGS-401215
+    - AVEXAM-31931
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.04.01.06
+  templates:
+    - type: simple
+      question: |-
+        The operator of an aircraft takes disciplinary action against the captain of a flight, claiming that they violated established operating procedures by landing with insufficient fuel on board. The captain can plausibly demonstrate that they have only made a mistake when documenting the fuel mass in the technical logbook after the flight, while the actual fuel on board after landing was well within the operational limits. The operator decides to suspend the pilot from work for 10 days.
+
+        Which of the following statements is correct with regard to the operator's safety culture?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "The operator does not apply the principle of “just culture”: to foster trust and collaboration. Such an unintended slip should be reported and discussed to prevent their future re-occurrence, it should not be punished."
+          wrongAnswers:
+            - text: In a “just culture” environment, the punishment of an employee for making an error is an example of bad management; errors and violations should not be punished in order to promote an atmosphere of trust.
+            - text: The operator demonstrates an adequate concern towards safety and considers negligent behavior as unacceptable. Negligence displays a lack of awareness of risks and hazards, probably reducing the safety margin in flight.
+            - text: The operator efficiently applies the principle of “just culture”, fairly punishing negligent behavior as a form of positive control. This can motivate employees to be more careful before taking action and promote risk awareness.
+- id: QGAHI
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-405149
+    - AVEXAM-23625
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.04.01.06
+  templates:
+    - type: simple
+      question: In a company, a safety culture is established where a person is not legally prosecuted when committing an error without intent, but where intentional violation or negligent behavior are not tolerated. This safety culture is called…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Just culture
+          wrongAnswers:
+            - text: Non-punitive culture
+            - text: Flexible culture
+            - text: Open culture
+- id: QRXXI
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-408690
+    - AVEXAM-30286
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.04.01.06
+  templates:
+    - type: simple
+      question: 'An airline with a "non-punitive" safety culture means:'
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: After a pilot makes a slip he should NOT be blamed or punished.
+          wrongAnswers:
+            - text: Punishing a pilot after making a slip or error, in order to encourage reporting.
+            - text: The blame of mistakes is on the management of the company for not encouraging a safe culture.
+            - text: Errors and unsafe acts are not punished if the error was committed unintentionally. However, those who act recklessly, or deliberately take unjustifiable risks, are subject to disciplinary action.
+- id: QILQK
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-405175
+    - BGS-401315
+    - AVEXAM-27872
+    - AVEXAM-78452
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.04.01.07
+  templates:
+    - type: simple
+      question: |-
+        The fatigue risk management system (FRMS) is a data-driven means of continuously monitoring and managing fatigue-related safety risks, based upon scientific principles and knowledge as well as operational experience that aims to ensure relevant personnel are performing at adequate levels of alertness.   
+         Which kind of safety culture is established in a company using a FRMS?
+      explanation: A FRMS relies on continuous data collection, analysis and feedback to improve safety. This is typical of a learning culture, which is one of the five components of safety culture, together with informed, reporting, just and flexible cultures.
+      presets:
+        - correctAnswers:
+            - text: Learning culture.
+          wrongAnswers:
+            - text: Anti-authority.
+            - text: Closed culture.
+            - text: Non-punitive culture.
+- id: QZBOC
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-401658
+    - BGS-400953
+    - AVEXAM-4488
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.04.01.07
+  templates:
+    - type: simple
+      question: According to James Reason, an organisation which collects and analyses relevant data relates to which component of safety culture?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Informed
+          wrongAnswers:
+            - text: Just
+            - text: Reporting
+            - text: Learning
+- id: QOIWN
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds:
+    - QUCUZ
+  externalQuestionIds:
+    - ATPLQ-409115
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.04.01.08
+  templates:
+    - type: simple
+      question: "One major component of an SMS is safety:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Risk Management
+          wrongAnswers:
+            - text: Quality assurance.
+            - text: Threat and error management.
+            - text: Quality control.
+- id: QUCUZ
+  subjectId: "040"
+  chapterId: "040.01"
+  relatedQuestionIds:
+    - QOIWN
+  externalQuestionIds:
+    - ATPLQ-401697
+    - AVEXAM-73233
+    - BGS-401219
+    - AVEXAM-23783
+    - ATPLQ-409392
+    - AVEXAM-33184
+  annexes: []
+  learningObjectiveIds:
+    - 040.01.04.01.08
+  templates:
+    - type: simple
+      question: "One major component of an SMS is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Safety risk management.
+          wrongAnswers:
+            - text: Threat and error management.
+            - text: Quality control.
+            - text: Quality assurance.
+    - type: simple
+      question: What is the SMS component that deals with safety education and communication?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Safety promotion.
+          wrongAnswers:
+            - text: Safety assurance.
+            - text: Safety risk management.
+            - text: Safety policy.

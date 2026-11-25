@@ -1,0 +1,1080 @@
+- id: QHMKR
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221469
+    - AVEXAM-97820
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.01.01.01
+  templates:
+    - type: simple
+      question: "The sideslip indication displayed on the PFD (Primary Flight Display) is a data derived from the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: IRS.
+          wrongAnswers:
+            - text: yaw damper.
+            - text: Automatic Flight Control System (AFCS).
+            - text: stall protection system.
+- id: QWZKA
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227271
+    - AVEXAM-51274
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.01.01.01
+  templates:
+    - type: simple
+      question: In transport aircraft, which of the following is the primary source of attitude data and one of the primary sources of navigation data?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: INS
+          wrongAnswers:
+            - text: GPS
+            - text: Flux valve
+            - text: ADI
+- id: QFESN
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221745
+    - BGS-222217
+    - AVEXAM-52315
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.01.01.02
+  templates:
+    - type: simple
+      question: "An inertial navigation system:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: can operate as stand alone equipment without any interface with other navigation equipment.
+          wrongAnswers:
+            - text: can only operate when interfacing with the GPS equipment.
+            - text: can only operate when interfacing with the radionavigation equipment.
+            - text: can only operate when communicating with ground installations.
+- id: QHEUW
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226498
+    - BGS-221922
+    - AVEXAM-14568
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.01.01.02
+    - 022.05.01.01.07
+  templates:
+    - type: simple
+      question: 'During flight the Commander would like to check whether the actual wind matches what the forecast says. The Commander turns the mode selector knob on the INS CDU to "WIND". The actual wind is displayed on the INS CDU. To calculate the wind, the system uses:'
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: INS/IRS data and TAS.
+          wrongAnswers:
+            - text: Wind information downloaded by data link.
+            - text: ADC data and GPS data.
+            - text: GPS data only.
+- id: QJIEI
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229073
+    - BGS-220380
+    - AVEXAM-70460
+    - ATPLQ-228190
+    - ATPLQ-224834
+    - BGS-220375
+    - BGS-220340
+    - AVEXAM-55354
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.01.01.02
+  templates:
+    - type: simple
+      question: "In an inertial navigation system, the input(s) required to obtain a wind direction and velocity readout is(are):"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: TAS.
+          wrongAnswers:
+            - text: altitude and OAT.
+            - text: Mach number.
+            - text: IAS.
+    - type: simple
+      question: "The purpose of the TAS input to the inertial navigation system is for:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the computation of wind velocity.
+          wrongAnswers:
+            - text: position update in Navigation mode.
+            - text: position update in Attitude mode.
+            - text: the computation of magnetic heading.
+    - type: simple
+      question: "In an inertial navigation systems, a TAS input is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: required to provide a wind direction and velocity read out.
+          wrongAnswers:
+            - text: required for the Automatic Flight Control System (AFCS) to compute a heading according to track.
+            - text: required for polar navigation only.
+            - text: not required.
+    - type: simple
+      question: "The purpose of the TAS input, from the air data computer, to the Inertial Navigation System is for:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the calculation of wind velocity.
+          wrongAnswers:
+            - text: position update in navigation mode.
+            - text: the calculation of drift.
+            - text: position update in attitude mode.
+- id: QNOFN
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229861
+    - BGS-220341
+    - AVEXAM-43742
+    - AVEXAM-39981
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.01.01.02
+  templates:
+    - type: simple
+      question: "As a result of the failure of the ADC, the inertial navigation system will no longer provide information about:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the wind direction and velocity.
+          wrongAnswers:
+            - text: the drift angle.
+            - text: the time (TIME) at the next waypoint (WPT).
+            - text: the ground speed.
+- id: QDIWK
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225611
+    - BGS-221693
+    - AVEXAM-60925
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.01.01.03
+  templates:
+    - type: simple
+      question: An Inertial Reference System (IRS) has...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: solid-state, high-precision, angular rate sensors, and it uses a mathematically maintained stable platform.
+          wrongAnswers:
+            - text: mechanical rate-integrating gyroscopes, and it uses a mechanically stabilised platform.
+            - text: solid-state, high-precision, angular rate sensors, and it supplies data to an Inertial Navigation System (INS).
+            - text: mechanical rate-integrating gyroscopes, and it receives data from the Flight Management Computer (FMC).
+- id: QEEHT
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223300
+    - AVEXAM-495
+    - BGS-222489
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.01.01.04
+  templates:
+    - type: simple
+      question: After entering the starting position, an inertial navigation system provides continuous information on the aircraft's position by measuring the (1) \_\_\_\_\_ in the vertical, horizontal and lateral planes. A first integration over time outputs the (2) \_\_\_\_\_; a second integration over time gives (3) \_\_\_\_\_.
+      explanation: An inertial system measures acceleration. The first integration over time gives velocity, and the second gives distance travelled, which is added to the starting position.
+      presets:
+        - correctAnswers:
+            - text: (1) acceleration; (2) velocity; (3) distance travelled
+          wrongAnswers:
+            - text: (1) distance travelled; (2) velocity; (3) horizontal position
+            - text: (1) acceleration; (2) height; (3) present position
+            - text: (1) velocity; (2) last position; (3) acceleration
+- id: QGBYI
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229084
+    - AVEXAM-38299
+    - BGS-220342
+    - BGS-220344
+    - ATPLQ-223845
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.01.01.04
+  templates:
+    - type: simple
+      question: "Considering a stabilised platform inertial system, the principle of operation requires the use of at least:"
+      explanation: A stabilised platform inertial system needs at least three rate gyros to keep the platform fixed in space, and two accelerometers on the horizontal axes to measure acceleration over the ground.
+      presets:
+        - correctAnswers:
+            - text: 3 rate gyros and 2 accelerometers.
+          wrongAnswers:
+            - text: 3 rate gyros and 4 accelerometers.
+            - text: 2 rate gyros and 2 accelerometers.
+            - text: 2 rate gyros and 3 accelerometers.
+- id: QFAYH
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221528
+    - AVEXAM-33664
+    - BGS-220364
+    - AVEXAM-46287
+    - ATPLQ-224069
+    - ATPLQ-229331
+    - ATPLQ-222626
+    - BGS-220365
+    - BGS-220363
+    - AVEXAM-2052
+    - AVEXAM-78995
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.01.01.04
+  templates:
+    - type: simple
+      question: "To obtain at a given moment the instantaneous speed from the accelerations:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: it is necessary to integrate the acceleration once with respect to time, and to know the initial speed only.
+          wrongAnswers:
+            - text: it is necessary to integrate the acceleration once with respect to time, and to know the initial position only.
+            - text: integrating the acceleration once with respect to time is sufficient.
+            - text: it is necessary to integrate the acceleration once with respect to time, and to know the initial speed and the initial position.
+    - type: simple
+      question: |-
+        To obtain the instantaneous speed from the accelerations, it is necessary to:
+
+        1 – integrate once the acceleration with respect to time 
+         
+        2 – know the initial position 
+         
+        3 – know the initial speed
+
+        The combination that regroups all of the correct statements is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 3.
+          wrongAnswers:
+            - text: 1, 2, 3.
+            - text: "1"
+            - text: 1, 2.
+        - correctAnswers:
+            - text: 1, 2, 3.
+          wrongAnswers:
+            - text: 1, 2.
+            - text: "1."
+            - text: 1, 3.
+    - type: simple
+      question: |-
+        To obtain the instantaneous position from the accelerations, it is necessary to:
+
+         integrate twice the acceleration in time.
+         know the initial position.
+         know the initial speed.
+
+        The combination that regroups all of the correct statements is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, 3
+          wrongAnswers:
+            - text: 1, 3
+            - text: 1 only
+            - text: 1, 2
+- id: QGSNH
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228324
+    - BGS-221679
+    - BGS-222462
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.01.01.04
+  templates:
+    - type: simple
+      question: What is the minimum number of accelerometers required on an INS platform?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Two
+          wrongAnswers:
+            - text: Three
+            - text: Four
+            - text: One
+- id: QYCYM
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222611
+    - AVEXAM-13928
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.01.01.04
+  templates:
+    - type: simple
+      question: The INS of an aircraft in flight calculates its present latitude by doing a (1) _____ integration of accelerations in (2) _____ direction.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) double; (2) north-south
+          wrongAnswers:
+            - text: (1) double; (2) west-east
+            - text: (1) single; (2) north-south
+            - text: (1) single; (2) west-east
+- id: QZXIA
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225041
+    - BGS-220353
+    - AVEXAM-73246
+    - BGS-220352
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.01.01.04
+  templates:
+    - type: simple
+      question: |-
+        In an inertial navigation system, the principle used to obtain position is:
+
+        1 – single integration of acceleration with respect to time   
+         2 – double integration of acceleration with respect to time   
+         3 – double integration of speed with respect to time
+
+        The combination that regroups all of the correct statements is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "2."
+          wrongAnswers:
+            - text: 1 or 3.
+            - text: "1."
+            - text: 1 or 2.
+- id: QYIOM
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225386
+    - BGS-222229
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.01.01.07
+  templates:
+    - type: multiple-correct
+      question: Which of the following items are outputs generated by an Inertial Reference System (IRS)?
+      explanation: ""
+      options:
+        - text: True heading
+          correct: true
+        - text: Magnetic heading
+          correct: true
+        - text: TCAS traffic information
+          correct: false
+        - text: Groundspeed
+          correct: true
+        - text: Latitude and longitude of the position
+          correct: true
+        - text: EGPWS modes
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QXQUQ
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226922
+    - BGS-221714
+    - AVEXAM-13440
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.01.01.08
+  templates:
+    - type: simple
+      question: |-
+        Complete the following sentence:
+
+        A strap-down inertial system uses three (1)\_\_ gyros, which are mounted on (2)\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) Laser ring; (2) the airframe.
+          wrongAnswers:
+            - text: (1) Laser ring; (2) gimbals.
+            - text: (1) Rate integrating; (2) the airframe.
+            - text: (1) Rate integrating; (2) gimbals.
+- id: QTHIG
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228724
+    - BGS-221608
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.01.01.09
+  templates:
+    - type: multiple-correct
+      question: "A Ring Laser Gyro (RLG) is a solid state gyro consisting of:"
+      explanation: ""
+      options:
+        - text: Glass block for the laser pathway
+          correct: true
+        - text: Rotary gimbal mounting
+          correct: false
+        - text: Anode and cathode for the laser
+          correct: true
+        - text: Stable platform mounting
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QWRDM
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229825
+    - BGS-221741
+    - AVEXAM-25877
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.01.01.09
+  templates:
+    - type: multiple-correct
+      question: The ring laser gyro uses which of the following?
+      explanation: ""
+      options:
+        - text: A rotor and a gimbal system
+          correct: false
+        - text: A triangular glass block, also known as cervit glass
+          correct: true
+        - text: A cathode and an anode to excite the lasing medium
+          correct: true
+        - text: A rotor, optically driven by a single laser beam
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QECYW
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221674
+    - BGS-220360
+    - AVEXAM-80380
+    - AVEXAM-24219
+    - AVEXAM-3230
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.02.01.01
+  templates:
+    - type: multiple-correct
+      question: "The positions of the mode selector of an inertial navigation unit are: OFF – STBY – ALIGN – NAV – ATT:"
+      explanation: ""
+      options:
+        - text: – in "STBY", the unit aligns on the local geographic co-ordinate system
+          correct: false
+        - text: – the "ATT" position is used during automatic landing (LAND mode)
+          correct: false
+        - text: – in "NAV" the co-ordinates of the start position can be entered
+          correct: false
+        - text: – the platform is levelled before azimuth alignment
+          correct: true
+        - text: – in cruise, the unit can only be used in "NAV" mode.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+- id: QVIFY
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224216
+    - BGS-220359
+    - AVEXAM-17024
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.02.01.01
+  templates:
+    - type: multiple-correct
+      question: "The alignment phase of an IRS consists of:"
+      explanation: ""
+      options:
+        - text: – searching for the local vertical
+          correct: true
+        - text: – searching for the true North
+          correct: true
+        - text: – searching for the latitude
+          correct: true
+        - text: – searching for the longitude
+          correct: false
+        - text: – comparison between the computed longitude and the one entered by the pilot
+          correct: false
+        - text: – comparison between the computed latitude and the one entered by the pilot.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+- id: QKJUS
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224362
+    - BGS-221597
+    - AVEXAM-97643
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.02.01.02
+  templates:
+    - type: simple
+      question: Approximately how long will the ADIRU alignment take at mid latitudes (30 - 60º North)?
+      explanation: An ADIRU alignment takes about 10 to 20 minutes at mid latitudes, and longer at high latitudes. The aircraft must stay stationary and the position be entered during the alignment.
+      presets:
+        - correctAnswers:
+            - text: 10 - 20 minutes.
+          wrongAnswers:
+            - text: 8 minutes.
+            - text: 5 minutes.
+            - text: Alignment is instantaneous when powered up.
+- id: QPDQI
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224815
+    - BGS-222370
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.02.01.02
+  templates:
+    - type: simple
+      question: How long does an INS/IRS take to align?
+      explanation: An INS or IRS takes about 10 minutes to align at mid latitudes. The aircraft must be stationary, and the position is entered during the alignment.
+      presets:
+        - correctAnswers:
+            - text: About 10 min.
+          wrongAnswers:
+            - text: Up to 30 min.
+            - text: Up to 5 min.
+            - text: About 2 min.
+- id: QAJPL
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224541
+    - AVEXAM-31311
+    - BGS-220393
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.02.01.02
+  templates:
+    - type: multiple-correct
+      question: "Concerning an IRS:"
+      explanation: ""
+      options:
+        - text: – the aircraft may be moved during the alignment
+          correct: false
+        - text: – the aircraft must not be moved during alignment
+          correct: true
+        - text: – exceptionally, the alignment can be done in flight.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+- id: QCBXG
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221134
+    - BGS-220398
+    - AVEXAM-11775
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.02.01.02
+    - 022.05.02.01.05
+  templates:
+    - type: simple
+      question: |-
+        In order to align an IRS, it is required to insert the local geographical co-ordinates. This enables the IRS to:
+
+        1 – compare the computed latitude with the one entered by the pilot   
+        2 – compare the computed longitude with the one entered by the pilot   
+        3 – use the longitude
+
+        The combination that regroups all of the correct statements is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 3.
+          wrongAnswers:
+            - text: 2, 3.
+            - text: 1, 2, 3.
+            - text: 1, 2.
+- id: QUAIF
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223177
+    - AVEXAM-75487
+    - BGS-222475
+    - AVEXAM-62062
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.02.01.03
+  templates:
+    - type: simple
+      question: How can an INS/IRS be realigned in flight if alignment is lost for some reason?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It can NOT, the aircraft must be stationary on the ground for alignment to be performed.
+          wrongAnswers:
+            - text: By setting the INS mode selector to "ALIGN" and waiting for the required time.
+            - text: By setting the INS mode selector to "GPS" and realigning the INS/IRS through the GPS.
+            - text: By setting the INS mode selector to "ALIGN" and then flying straight and level with NO airspeed variations for at least 10 minutes.
+- id: QHZKN
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221842
+    - AVEXAM-13219
+    - BGS-220343
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.02.01.04
+  templates:
+    - type: multiple-correct
+      question: "Considering a stabilised platform inertial system, this platform:"
+      explanation: ""
+      options:
+        - text: – can be servo-controlled in azimuth
+          correct: true
+        - text: – is kept levelled during alignment phase only
+          correct: false
+        - text: – is always kept levelled
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+- id: QENNL
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225890
+    - AVEXAM-84585
+    - BGS-222325
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.02.01.05
+  templates:
+    - type: simple
+      question: What may lead to loss of alignment in an INS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Entering the wrong latitude before initial alignment.
+          wrongAnswers:
+            - text: Flying through or in the vicinity of thunderstorms.
+            - text: Entering the wrong longitude before initial alignment.
+            - text: Sudden aircraft attitude changes due to turbulence or similar disturbances.
+- id: QLFBC
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225764
+    - AVEXAM-96631
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.02.01.06
+  templates:
+    - type: simple
+      question: A horizontally tied gyro will experience (1) _____ at the poles, and at the equator it will experience (2) _____.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) Drift; (2) No Wander
+          wrongAnswers:
+            - text: (1) Drift; (2) Topple
+            - text: (1) Topple; (2) Drift
+            - text: (1) No Wander; (2) Topple
+    - type: simple
+      question: A horizontally tied gyro will undergo (1) ___ at the poles, and at the equator it will undergo (2) ___.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) drift; (2) no error
+          wrongAnswers:
+            - text: (1) drift; (2) topple
+            - text: (1) topple; (2) drift
+            - text: (1) no error; (2) topple
+- id: QGYBN
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224099
+    - AVEXAM-90976
+    - BGS-221629
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.02.01.06
+  templates:
+    - type: multiple-correct
+      question: "A pilot checks the position error of a stand-alone INS against a known position fix, having completed one hour of flying. The error is approximately 2 NM. This error varies and depends on:"
+      explanation: "The drift of a stand-alone INS comes from the sensors and the setup: gyro drift, accelerometer bias, initial misalignment and computational errors. Wind and pilot handling do not affect an inertial system."
+      options:
+        - text: Gyro drift rate.
+          correct: true
+        - text: Wind drift.
+          correct: false
+        - text: Accelerometer bias.
+          correct: true
+        - text: Initial misalignment
+          correct: true
+        - text: Computational errors.
+          correct: true
+        - text: Pilot handling skills.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QCIWW
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds:
+    - QSSBN
+  externalQuestionIds:
+    - ATPLQ-223030
+  annexes:
+    - id: AEIS
+  learningObjectiveIds:
+    - 022.05.02.01.08
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What instrument is shown in the attached figure?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: INS/IRS
+          wrongAnswers:
+            - text: EFIS
+            - text: Transponder
+            - text: FMC
+- id: QSSBN
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds:
+    - QCIWW
+  externalQuestionIds:
+    - ATPLQ-226244
+  annexes:
+    - id: ANVV
+  learningObjectiveIds:
+    - 022.05.02.01.08
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which instrument is represented in the picture?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: IRS
+          wrongAnswers:
+            - text: MCDU
+            - text: ADC
+            - text: ND control panel
+- id: QWOIT
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229340
+    - AVEXAM-44277
+    - BGS-221569
+  annexes:
+    - id: AEIS
+  learningObjectiveIds:
+    - 022.05.02.01.09
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        In flight, the IRS detects a critical fault with excessive position error. Regarding the mode selector switch, what should the crew select?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ATT, to retain attitude information.
+          wrongAnswers:
+            - text: OFF, since the system is unreliable.
+            - text: NAV and monitor the position error.
+            - text: OFF then NAV, to realign the system.
+- id: QZAFT
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226863
+    - BGS-221763
+    - AVEXAM-49809
+  annexes:
+    - id: AEIS
+  learningObjectiveIds:
+    - 022.05.02.01.09
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        In flight, under normal conditions, what should each one of the three IRU mode selector switches be set to?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: NAV, thus providing the outputs of acceleration, attitude and heading.
+          wrongAnswers:
+            - text: NAV, although attitude information is not available in this mode.
+            - text: ATT, as it is the rightmost position, it superimposes NAV and ATT modes.
+            - text: ATT during steep turns, thus providing increased accuracy for pitch and roll.
+- id: QAZZO
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds:
+    - QLHXG
+  externalQuestionIds:
+    - ATPLQ-222606
+    - ATPLQ-227896
+    - BGS-221578
+    - AVEXAM-37903
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.02.01.10
+  templates:
+    - type: simple
+      question: Where is the majority of the output data from the INS/IRS presented on?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: CDU
+          wrongAnswers:
+            - text: ADU
+            - text: ADI
+            - text: CDI
+- id: QCVQZ
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221961
+    - AVEXAM-27057
+    - BGS-221643
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.02.01.10
+  templates:
+    - type: simple
+      question: On a scheduled flight, the ATC asks the pilots to change their route. What action is required for the IRS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: enter the new waypoints into the MCDU of the FMS.
+          wrongAnswers:
+            - text: enter the new waypoints into the control unit of each IRS, ensuring the system in use is updated first.
+            - text: the pilot will need to revert to manual navigation. The aircraft must be stationary to update waypoints in the IRS.
+            - text: modern aircraft have GPS, so the pilot does not need to update waypoints in the IRS.
+- id: QLHXG
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds:
+    - QAZZO
+  externalQuestionIds:
+    - ATPLQ-222564
+    - AVEXAM-31056
+    - BGS-222363
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.02.01.10
+  templates:
+    - type: simple
+      question: Which system is used to enter manual data for the IRS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: CDU/MCDU.
+          wrongAnswers:
+            - text: Non-existent since data cannot be entered manually.
+            - text: ND.
+            - text: PFD.
+- id: QVEJM
+  subjectId: "022"
+  chapterId: "022.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226373
+    - BGS-221725
+    - AVEXAM-44461
+  annexes: []
+  learningObjectiveIds:
+    - 022.05.02.01.11
+  templates:
+    - type: simple
+      question: Before shutdown at the end of the flight, the pilot wants to calculate the drift error of the IRU. What are the two parameters that need to be inserted into an IRU to obtain an error in NM/hr?
+      explanation: The drift error is the difference between the position shown by the IRU and the known ramp position, divided by the hours of operation. The inputs are the ramp coordinates and the operating hours, giving an error in NM per hour.
+      presets:
+        - correctAnswers:
+            - text: Ramp position coordinates and hours of IRU operation.
+          wrongAnswers:
+            - text: Average TAS and average Mach number.
+            - text: Average ground speed and flight time.
+            - text: Average TAS and hours of IRU operation.

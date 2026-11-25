@@ -1,0 +1,599 @@
+- id: QQQJV
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338999
+    - BGS-331487
+    - AVEXAM-7952
+  annexes: []
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: A crew is planning a flight from an airfield with NO ICAO designator and NO IFR procedures. Due to the weather and preferred routing, they intend to join airway L975 at point MALUD soon after departure. The route section of item 15 on the ATS Flight Plan should begin with...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: DCT MALUD L975...
+          wrongAnswers:
+            - text: DCT L975 VIA MALUD
+            - text: MALUD L975...
+            - text: ZZZZ MALUD L975...
+    - type: simple
+      question: When departing from an airfield without an ICAO designator and without any IFR procedures, and planning to join airway L975 at point MALUD after departure due to weather and preferred routing, the route section of item 15 on the ATS Flight Plan should begin with...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: DCT MALUD L975...
+          wrongAnswers:
+            - text: DCT L975 VIA MALUD
+            - text: MALUD L975...
+            - text: ZZZZ MALUD L975...
+- id: QNYFZ
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331879
+    - BGS-330496
+    - AVEXAM-19008
+    - ATPLQ-336505
+    - AVEXAM-99679
+    - BGS-330470
+    - ATPLQ-332422
+  annexes: []
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: "In the ATS flight plan Item 10 (equipment), the letter to indicate the carriage of a serviceable transponder – mode A (4 digits – 4096 codes) and mode C, is:"
+      explanation: In Item 10 of the ATS flight plan, the letter C stands for a transponder with Mode A (4 digits, 4096 codes) and Mode C.
+      presets:
+        - correctAnswers:
+            - text: C
+          wrongAnswers:
+            - text: P
+            - text: B
+            - text: A
+    - type: simple
+      question: "In the appropriate box of an ATC flight plan form, concerning equipment, the letter to be used to indicate that the aircraft is equipped with a mode A 4096 codes transponder with altitude reporting capability is:"
+      explanation: The letter C in the equipment box of the flight plan indicates a Mode A 4096-code transponder with altitude reporting capability, Mode C.
+      presets:
+        - correctAnswers:
+            - text: C
+          wrongAnswers:
+            - text: A
+            - text: P
+            - text: S
+    - type: simple
+      question: "In the ATS flight plan Item 10 (equipment), the letter to indicate the carriage of a serviceable transponder - Mode S with pressure-altitude, aircraft identification and enhanced surveillance capability, is:"
+      explanation: In Item 10 of the ATS flight plan, the letter H stands for a Mode S transponder with aircraft identification, pressure-altitude reporting and enhanced surveillance capability.
+      presets:
+        - correctAnswers:
+            - text: H.
+          wrongAnswers:
+            - text: E.
+            - text: S.
+            - text: X.
+- id: QHPBB
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds:
+    - QOULG
+  externalQuestionIds:
+    - ATPLQ-333194
+    - BGS-330476
+    - AVEXAM-50566
+    - AVEXAM-61633
+  annexes: []
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: "For the purposes of Item 9 (Wake turbulence category) of the ATC flight plan, an aircraft with a maximum certificated take-off mass of 62000 kg is:"
+      explanation: "Wake turbulence categories in Item 9 are based on the maximum certificated take-off mass: L up to 7 000 kg, M above 7 000 kg and below 136 000 kg, H 136 000 kg and above. An aircraft of 62 000 kg is medium (M)."
+      presets:
+        - correctAnswers:
+            - text: medium “M”
+          wrongAnswers:
+            - text: heavy ”H”
+            - text: unclassified “U”
+            - text: light “L”
+- id: QKVQY
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds:
+    - QOLIY
+  externalQuestionIds:
+    - ATPLQ-332579
+    - BGS-330508
+    - AVEXAM-35150
+  annexes: []
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: 'The maximum permissible Take-off Mass of an aircraft for the "L" wake turbulence category on a flight plan is:'
+      explanation: The light (L) wake turbulence category applies to aircraft with a maximum certificated take-off mass of 7 000 kg or less.
+      presets:
+        - correctAnswers:
+            - text: 7 000 kg
+          wrongAnswers:
+            - text: 2 700 kg
+            - text: 5 700 kg
+            - text: 10 000 kg
+- id: QOLIY
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds:
+    - QKVQY
+  externalQuestionIds:
+    - ATPLQ-338703
+  annexes: []
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: 'The letter "L" shall be inserted into "item 9" of the ICAO FPL form (wake turbulence category) when the maximum certificated take-off mass of an aircraft is less than or equal to:'
+      explanation: In Item 9 of the ICAO flight plan, L is entered for a maximum certificated take-off mass of 7 000 kg or less.
+      presets:
+        - correctAnswers:
+            - text: 7 000 kg.
+          wrongAnswers:
+            - text: 30 000 kg.
+            - text: 5 700 kg.
+            - text: 14 000 kg.
+- id: QOULG
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds:
+    - QHPBB
+  externalQuestionIds:
+    - ATPLQ-334951
+    - BGS-330475
+    - AVEXAM-73285
+    - BGS-330462
+    - AVEXAM-90839
+  annexes: []
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: "An aircraft has a maximum certificated take-off mass of 137000 kg but is operating at take-off mass 135000 kg. In Item 9 of the ATC flight plan its wake turbulence category is:"
+      explanation: The wake turbulence category depends on the maximum certificated take-off mass, not the actual mass. At 137 000 kg, above the 136 000 kg limit, the category is heavy (H).
+      presets:
+        - correctAnswers:
+            - text: heavy “H”
+          wrongAnswers:
+            - text: medium plus “M+”
+            - text: heavy/medium “H/M”
+            - text: medium “M”
+- id: QVPSM
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334480
+    - BGS-330486
+    - AVEXAM-16966
+    - BGS-330465
+    - ATPLQ-337476
+    - ATPLQ-339869
+    - AVEXAM-37811
+  annexes: []
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: "When completing an ATC flight plan for a flight commencing under IFR but possibly changing to VFR, the letters entered in Item 8 (FLIGHT RULES) would be:"
+      explanation: In Item 8, Y is entered for a flight that starts under IFR and changes to VFR at one or more points. Z is entered for the reverse. G is general air traffic, and N and S are for non-scheduled and scheduled air transport.
+      presets:
+        - correctAnswers:
+            - text: Y
+          wrongAnswers:
+            - text: G
+            - text: N/S
+            - text: X
+- id: QULLV
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332430
+    - BGS-331126
+    - AVEXAM-63595
+  annexes:
+    - id: ARPL
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What is the meaning of the text below, extracted from ITEM 18 OTHER INFORMATION of an ICAO ATS Flight Plan FPL?
+
+        EET/EISN0210
+      explanation: The EET/ entry in Item 18 gives the estimated elapsed time to a significant point or FIR boundary. EET/EISN0210 means crossing the EISN FIR boundary after 2 hours and 10 minutes.
+      presets:
+        - correctAnswers:
+            - text: Crossing EISN FIR boundary after 2 hours and 10 minutes.
+          wrongAnswers:
+            - text: Altitude change as from EISN to Flight Level 210.
+            - text: Estimated elapsed time to EISN is 210 minutes.
+            - text: Elapsed time to destination EISN is 2 hours and 10 minutes.
+- id: QAGFL
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-333668
+    - ATPLQ-336082
+    - AVEXAM-24573
+    - BGS-331515
+  annexes:
+    - id: ARPL
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.  
+        In ITEM 9 of an ICAO ATS Flight Plan FPL, what does the letter H denote?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Heavy wake turbulence category.
+          wrongAnswers:
+            - text: HF radio equipped.
+            - text: Helicopter Emergency Medical Service.
+            - text: Helicopter traffic.
+        - correctAnswers:
+            - text: Medium wake turbulence.
+          wrongAnswers:
+            - text: MLS equipped.
+            - text: Military traffic.
+            - text: More than one aircraft.
+- id: QDWRG
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338918
+    - AVEXAM-63599
+    - BGS-330463
+  annexes: []
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: "If your destination airport has no ICAO indicator, in the appropriate box of your ATC flight plan, you write:  "
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ZZZZ
+          wrongAnswers:
+            - text: XXXX
+            - text: ////
+            - text: AAAA
+- id: QJZZE
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds:
+    - QMNZG
+  externalQuestionIds:
+    - ATPLQ-334166
+    - BGS-330472
+    - AVEXAM-94469
+  annexes: []
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: "In the appropriate box of an ATC flight plan form, corresponding to the estimated time of departure, the time indicated is that at which the aircraft intends to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: go off blocks
+          wrongAnswers:
+            - text: start-up
+            - text: take-off
+            - text: pass the departure beacon
+- id: QKAEV
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-336993
+    - AVEXAM-10003
+    - BGS-331300
+  annexes:
+    - id: ARPL
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What is the cruising speed of an aircraft when "N0431" is filed in the appropriate section of an ICAO ATS Flight Plan (FPL)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 431 kt TAS
+          wrongAnswers:
+            - text: 431 km/h
+            - text: 431 kt IAS
+            - text: 431 kt GS
+- id: QLYRO
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334764
+    - AVEXAM-9981
+    - BGS-330500
+    - AVEXAM-48740
+    - BGS-330960
+    - ATPLQ-337424
+    - BGS-330501
+  annexes: []
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        The navigation plan reads:
+
+        - Trip fuel: {{trip}} kg
+        - Flight time: {{ftime}} min
+        - Taxi fuel: {{taxi}} kg
+        - Block fuel: {{block}} kg
+
+        What endurance should be entered on the ICAO flight plan? Give the answer in hours and minutes.
+      explanation: |-
+        The endurance is the fuel available for the flight, which is the block fuel minus the taxi fuel. The fuel flow is the trip fuel divided by the flight time, so the endurance is the available fuel divided by that flow.
+
+        **Solution**
+
+        Fuel flow = {{trip}} / {{ftime}} x 60 kg/h
+
+        Endurance = ({{block}} - {{taxi}}) / {{trip}} x {{ftime}} = $$\frac{({{block}}-{{taxi}})\times {{ftime}} }{ {{trip}} }$$ min = **{{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} min**: uses the block fuel without removing the taxi fuel.
+        - **{{d2}} min**: gives the flight time, which is the trip time and not the endurance.
+        - **{{d3}} min**: also removes the trip fuel, which is already used on the planned flight.
+        - **{{d4}} min**: uses the fuel flow in the wrong unit conversion for the endurance.
+      presets:
+        - variables:
+            trip: 100
+            ftime: 95
+            taxi: 3
+            block: 181
+            answer: 2 h 49 min
+            d1: 2 h 52 min
+            d2: 1 h 35 min
+            d3: 1 h 14 min
+            d4: 1 h 47 min
+          correctAnswers:
+            - text: 2 h 49 min
+          wrongAnswers:
+            - text: 2 h 52 min
+            - text: 1 h 14 min
+            - text: 1 h 47 min
+            - text: 1 h 35 min
+        - variables:
+            trip: 150
+            ftime: 130
+            taxi: 5
+            block: 250
+            answer: 3 h 32 min
+            d1: 3 h 37 min
+            d2: 2 h 10 min
+            d3: 1 h 22 min
+            d4: 1 h 38 min
+          correctAnswers:
+            - text: 3 h 32 min
+          wrongAnswers:
+            - text: 3 h 37 min
+            - text: 1 h 22 min
+            - text: 1 h 38 min
+            - text: 2 h 10 min
+    - type: simple
+      question: |-
+        The navigation plan reads:
+
+        Trip fuel: 136 kg 
+         
+        Flight time: 2 hours 45 minutes 
+         
+        Calculated reserve fuel: 30% of trip fuel Fuel in tank is minimum (no extra fuel on board) 
+         
+        Taxi fuel: 3 kg
+
+        The endurance on the ICAO flight plan should read:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3 hours 34 minutes
+          wrongAnswers:
+            - text: 2 hours 45 minutes
+            - text: 3 hours 38 minutes
+            - text: 2 hours 49 minutes
+- id: QMFJB
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335922
+    - AVEXAM-62243
+    - BGS-330471
+  annexes: []
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: When a pilot fills in an ATC flight plan, he/she must indicate the wake turbulence category. This category is a function of which mass?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Maximum certified take-off mass
+          wrongAnswers:
+            - text: Maximum certified landing mass
+            - text: Estimated take-off mass
+            - text: Actual take-off mass
+- id: QMNZG
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds:
+    - QXVEX
+    - QJZZE
+  externalQuestionIds:
+    - ATPLQ-335248
+    - BGS-330467
+    - BGS-330675
+    - AVEXAM-79599
+  annexes: []
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: "For an ATC flight plan filed before the flight, the indicated time of departure is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The estimated off-block time.
+          wrongAnswers:
+            - text: The time at which the flight plan is filed.
+            - text: The time of take-off.
+            - text: The time overhead the first reporting point after take-off.
+- id: QQMNZ
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339337
+  annexes: []
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: "In the ATS Flight Plan Item 10 (Equipment), the letter that indicates the aircraft is equipped with a serviceable SSR Mode A (4 digits-4096 codes) and Mode C transponder is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: C
+          wrongAnswers:
+            - text: A
+            - text: B
+            - text: H
+- id: QTBAE
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338261
+    - BGS-330469
+    - AVEXAM-34298
+    - BGS-330975
+    - BGS-330677
+  annexes: []
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: "On an ATS flight plan, to indicate that you will overfly the waypoint ROMEO at 120 kt at flight level 085, you will write:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ROMEO/N0120F085
+          wrongAnswers:
+            - text: ROMEO/F085N0120
+            - text: ROMEO/FL085N0120
+            - text: ROMEO/K0120FL085
+- id: QWJEK
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-336366
+    - BGS-330991
+    - AVEXAM-2482
+    - BGS-330950
+    - BGS-331230
+    - ATPLQ-333638
+    - AVEXAM-36618
+  annexes:
+    - id: ARPL
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.  
+        following information from Item 15 of an ATS Flight Plan, what information is shown for position ZFP?
+
+        N0476F340 MODRU Z717 GOBNO UZ717 MAS UM617 SOGRI UL608 DENUT UL610 GILDA UL620 SAM/N0472F360 UN20 GAPLI/M081F360 DCT BEDRA/M081F380 DCT 48N020W 46N030W 44N040W 40N050W 36N060W/M081F400 DCT BALOO DCT ANTIG M328 SLEMA DCT ZFP/N0466F400 BR70V TURBO AR10 DHP J79 EYW DCT CANOA UB646 VINKA UB879 CUN DCT
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The speed is planned at 466 kt TAS.
+          wrongAnswers:
+            - text: The planned level changes from FL400 to FL380.
+            - text: The speed is planned at 466 kt GS.
+            - text: The planned level changes from FL380 to FL400.
+        - correctAnswers:
+            - text: The speed is planned at Mach 0.81.
+          wrongAnswers:
+            - text: The aircraft may be cleared direct to CUN from BEDRA.
+            - text: The planned level changes from FL340 to FL380.
+            - text: The temperature forecast is minus 81° F.
+- id: QXIGG
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331019
+    - BGS-330466
+    - BGS-330676
+    - AVEXAM-26773
+  annexes: []
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: "On an ATS flight plan, to indicate that you will overfly the way-point TANGO at 350 kt at flight level 280, the entry at Item 15 should be:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: TANGO/N0350F280
+          wrongAnswers:
+            - text: TANGO/T350F280
+            - text: TANGO/K0350FL280
+            - text: TANGO/FL280N0350
+- id: QXVEX
+  subjectId: "033"
+  chapterId: "033.05"
+  relatedQuestionIds:
+    - QMNZG
+  externalQuestionIds:
+    - ATPLQ-337522
+    - AVEXAM-3347
+    - BGS-330494
+  annexes: []
+  learningObjectiveIds:
+    - 033.05.01.01.02
+  templates:
+    - type: simple
+      question: "In the ATC flight plan Item 13, in a flight plan submitted before departure, the departure time entered is the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: estimated off-block time
+          wrongAnswers:
+            - text: allocated slot time
+            - text: estimated take-off time
+            - text: estimated time over the first point en route

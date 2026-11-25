@@ -1,0 +1,682 @@
+- id: QCQJL
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211329
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.01.01.01
+  templates:
+    - type: simple
+      question: What is a disadvantage of MOGAS in relation to AVGAS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: higher risk of ice in carburettor
+          wrongAnswers:
+            - text: Can ignite without a spark and cause an explosion
+            - text: More expensive
+            - text: Higher risk of becoming wax like and clogging up fuel lines
+- id: QMDHJ
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214026
+    - BGS-211153
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.01.01.01
+  templates:
+    - type: simple
+      question: The use of MOGAS, compared to AVGAS, would lead to a higher risk of..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ice forming in the carburettor.
+          wrongAnswers:
+            - text: fumes in the cockpit.
+            - text: excess manifold pressure.
+            - text: sparking, leading to engine fire.
+- id: QEHJI
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214437
+    - AVEXAM-62930
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.01.02.02
+  templates:
+    - type: multiple-correct
+      question: When are the auxiliary fuel pumps installed on single-engine low-wing aeroplanes typically used?
+      explanation: ""
+      options:
+        - text: during take-off.
+          correct: true
+        - text: during cruise.
+          correct: false
+        - text: during landing.
+          correct: true
+        - text: in emergency situations.
+          correct: true
+        - text: in case of a suspected vapour lock.
+          correct: true
+        - text: in case of failure of the engine fuel pump.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QJVKP
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215225
+    - BGS-211187
+    - BGS-211185
+    - AVEXAM-90010
+    - BGS-211183
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.01.02.02
+  templates:
+    - type: simple
+      question: On a piston engine aircraft, a drain valve is installed on the fuel tank to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: allow a person to take a sample of the fuel and to empty the fuel tank for maintenance.
+          wrongAnswers:
+            - text: allow the excess fuel to flow out of the tank after refuelling.
+            - text: remove particles and impurities from the fuel that could damage the engine.
+            - text: allow atmospheric pressure to enter the fuel tank in order to avoid a vacuum.
+- id: QATTB
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215275
+    - BGS-212173
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.01.02.03
+  templates:
+    - type: simple
+      question: On a multi-engine piston aircraft, one of the features of a pressure-fed fuel system is the capability to do what?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To feed fuel from any fuel tank to any engine.
+          wrongAnswers:
+            - text: To use a small amount of unusable fuel for the purposes of cooling essential engine components.
+            - text: To automatically balance fuel between tanks in case of engine failure.
+            - text: To ensure continuous flow to the engines, without the ability to isolate fuel leaks.
+- id: QNEZU
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218700
+    - AVEXAM-12122
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.01.02.03
+  templates:
+    - type: simple
+      question: Regarding gravity-fed fuel tanks, which of the following statements is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The fuel tank must be located above the engine.
+          wrongAnswers:
+            - text: The fuel tank must be located below the engine.
+            - text: The fuel tank can be at the same level as the engine.
+            - text: The fuel tank should be placed in the tail section of the aircraft.
+    - type: simple
+      question: Which of the following statements about gravity-fed fuel systems is true?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The fuel tanks must be located above the carburettor to provide the correct pressure.
+          wrongAnswers:
+            - text: A fuel gauge is required.
+            - text: It needs an electric pump to operate.
+            - text: The engine cannot be fuel injected.
+- id: QPDHS
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218981
+    - BGS-210323
+    - AVEXAM-81393
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.01.02.04
+  templates:
+    - type: simple
+      question: Integral fuel tanks..
+      explanation: An integral fuel tank is a portion of the aircraft structure, usually in the wing, sealed to hold fuel. It saves weight and gives large capacity.
+      presets:
+        - correctAnswers:
+            - text: comprise a portion of the aircraft structure, which has been sealed to form a fuel tank.
+          wrongAnswers:
+            - text: are small fuel tanks fitted on the engine to ensure a positive supply of fuel to the engine driven fuel pump.
+            - text: is the name given to a group of fuel tanks where several tanks feed a master tank which in turn supplies the engine.
+            - text: is an alternate name for a system of bladder tanks installed within the aircraft structure.
+- id: QUVLP
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215732
+    - ATPLQ-214570
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.01.02.04
+  templates:
+    - type: simple
+      question: An aircraft having "wet wing" fuel storage tanks is equipped with..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: integral fuel tanks.
+          wrongAnswers:
+            - text: rigid fuel tanks.
+            - text: bladder fuel tanks.
+            - text: fuselage fuel tanks.
+- id: QQZPE
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217127
+    - AVEXAM-98424
+    - BGS-211989
+  annexes:
+    - id: AVNA
+  learningObjectiveIds:
+    - 021.08.01.02.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Whilst performing an ordinary flight, the pilots notice a fuel imbalance, with the right wing tank holding more fuel than the left wing tank. The crew manage to confirm that there is no fuel leak causing the imbalance. Which of the following should the crew do to restore the aircraft balance?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Open the cross-feed valve and shut off the left wing tank fuel pump(s).
+          wrongAnswers:
+            - text: Open the jettison valve and dump the excess quantity of fuel.
+            - text: Open the cross-feed valve and shut off the right wing tank fuel pump(s).
+            - text: Force the cross feed valve to open and wait for the system to equalise.
+- id: QZBNY
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216412
+    - BGS-211992
+    - AVEXAM-75653
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.01.02.06
+  templates:
+    - type: simple
+      question: "Consider a turbine engine aeroplane, with two underwing engines, fitted with two wing tanks and one centre tank. If all centre tank fuel booster pumps fail:"
+      explanation: If the centre tank boost pumps fail, the fuel in the centre tank cannot be delivered to the engines, so part or all of it counts as unusable fuel. The engines keep being fed from the wing tanks.
+      presets:
+        - correctAnswers:
+            - text: Part or all of the fuel in the centre tank is considered unusable.
+          wrongAnswers:
+            - text: Fuel starvation may occur, which could lead to engine flame-out.
+            - text: Thrust deterioration may occur at high altitudes.
+            - text: Fuel imbalance shall occur during high thrust settings.
+- id: QXLMA
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215045
+    - AVEXAM-14667
+    - BGS-210299
+    - BGS-210298
+    - BGS-210297
+    - BGS-210296
+    - AVEXAM-94902
+    - AVEXAM-26296
+    - AVEXAM-85447
+    - AVEXAM-31800
+    - AVEXAM-830
+    - BGS-210301
+    - BGS-210300
+    - ATPLQ-216802
+    - ATPLQ-218207
+    - ATPLQ-215830
+    - ATPLQ-219553
+    - ATPLQ-213289
+    - BGS-211155
+    - BGS-211117
+    - ATPLQ-213951
+    - AVEXAM-88302
+    - ATPLQ-219199
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.02.01.02
+  templates:
+    - type: one-two
+      question: Which of the following statements is/are correct?
+      explanation: Jet A freezes at about -40 °C, Jet A-1 at about -47 °C and Jet B at about -50 °C. Jet A therefore has a higher freezing point than Jet B, and Jet B has the lower one.
+      pairs:
+        - right:
+            - The freezing point for Jet A is at a higher temperature than that for Jet B.
+            - The freezing point for Jet B is at a lower temperature than that for Jet A.
+          wrong:
+            - The freezing point for Jet A is at a lower temperature than that for Jet B.
+            - The freezing point for Jet B is at a higher temperature than that for Jet A.
+        - right:
+            - The freezing point for Jet A is at a higher temperature than that for Jet A1.
+            - The freezing point for Jet A1 is at a lower temperature than that for Jet A.
+          wrong:
+            - The freezing point for Jet A is at a lower temperature than that for Jet A1.
+            - The freezing point for Jet A1 is at a higher temperature than that for Jet A.
+        - right:
+            - The freezing point for Jet A1 is at a higher temperature than that for Jet B.
+            - The freezing point for Jet B is at a lower temperature than that for Jet A1.
+          wrong:
+            - The freezing point for Jet A1 is at a lower temperature than that for Jet B.
+            - The freezing point for Jet B is at a higher temperature than that for Jet A1.
+        - right:
+            - The flash point for Jet A is at a higher temperature than that for Jet B.
+            - The flash point for Jet B is at a lower temperature than that for Jet A.
+          wrong:
+            - The flash point for Jet A is at a lower temperature than that for Jet B.
+            - The flash point for Jet B is at a higher temperature than that for Jet A.
+        - right:
+            - The flash point for Jet A1 is at a higher temperature than that for Jet B.
+            - The flash point for Jet B is at a lower temperature than that for Jet A1.
+          wrong:
+            - The flash point for Jet A1 is at a lower temperature than that for Jet B.
+            - The flash point for Jet B is at a higher temperature than that for Jet A1.
+        - right:
+            - The flash point for Jet A is at the same temperature as that for Jet A1.
+            - The flash point for Jet A1 is at the same temperature as that for Jet A.
+          wrong:
+            - The flash point for Jet A is at a higher temperature than that for Jet A1.
+            - The flash point for Jet A1 is at a lower temperature than that for Jet A.
+    - type: simple
+      question: Which statement about Jet A-1 fuel is correct?
+      explanation: Jet A freezes at about -40 °C, Jet A-1 at about -47 °C and Jet B at about -50 °C. Jet A therefore has a higher freezing point than Jet B, and Jet B has the lower one. The flash point of Jet A-1 is a minimum of 38 °C.
+      presets:
+        - correctAnswers:
+            - text: Jet A-1 has a freezing point of -47 °C and a flash point of +38 °C.
+          wrongAnswers:
+            - text: Jet A-1 has a freezing point of -60 °C and a flash point of +38 °C.
+            - text: Jet A-1 has a freezing point of -60 °C and a flash point of -20 °C.
+            - text: Jet A-1 has a freezing point of -47 °C and a flash point of -20 °C.
+    - type: simple
+      question: "The freezing point of Jet A-1 fuel is:"
+      explanation: Jet A freezes at about -40 °C, Jet A-1 at about -47 °C and Jet B at about -50 °C. Jet A therefore has a higher freezing point than Jet B, and Jet B has the lower one.
+      presets:
+        - correctAnswers:
+            - text: -47 °C.
+          wrongAnswers:
+            - text: -45 °C.
+            - text: -60 °C.
+            - text: -40 °C.
+- id: QDLHV
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219549
+    - AVEXAM-32611
+    - BGS-210302
+    - ATPLQ-213723
+    - AVEXAM-1877
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.02.01.02
+  templates:
+    - type: simple
+      question: "The correct order of decreasing freezing points of the three mentioned fuels is:"
+      explanation: "Typical freezing points are about -40 °C for Jet A, -47 °C for Jet A-1 and -50 °C for Jet B. In order of decreasing freezing point: Jet A, Jet A-1, Jet B."
+      presets:
+        - correctAnswers:
+            - text: Jet A, Jet A-1, Jet B.
+          wrongAnswers:
+            - text: Jet B, Jet A, Jet A-1.
+            - text: Jet A-1, Jet A, Jet B.
+            - text: Jet B, Jet A-1, Jet A.
+    - type: simple
+      question: "Select the correct order of these fuels based on their freezing points, from coldest to warmest: Jet A-1, Jet A, Jet B."
+      explanation: "Typical freezing points are about -50 °C for Jet B, -47 °C for Jet A-1 and -40 °C for Jet A. From coldest to warmest: Jet B, Jet A-1, Jet A."
+      presets:
+        - correctAnswers:
+            - text: Jet B, Jet A-1, Jet A.
+          wrongAnswers:
+            - text: Jet A, Jet A-1, Jet B.
+            - text: Jet B, Jet A, Jet A-1.
+            - text: They all freeze at the same temperature.
+- id: QVJEK
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219155
+    - AVEXAM-47729
+    - ATPLQ-218857
+    - AVEXAM-36489
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.02.01.02
+  templates:
+    - type: simple
+      question: What is the specific gravity of Jet A-1 fuel at 15ºC?
+      explanation: The specific gravity of Jet A-1 at 15 °C is about 0.80, with the typical value in the syllabus being 0.82. It is lighter than water.
+      presets:
+        - correctAnswers:
+            - text: "0.82"
+          wrongAnswers:
+            - text: "1.00"
+            - text: "0.95"
+            - text: "0.72"
+- id: QTIRI
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219813
+    - BGS-212395
+    - AVEXAM-9080
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.02.01.02
+  templates:
+    - type: simple
+      question: Which of the following statements is correct about an electrical fuse?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The fuse must be as close as possible to the source to protect against short circuits.
+          wrongAnswers:
+            - text: Upon reaching its nominal amperage, the fuse instantly melts.
+            - text: The rating of a fuse is the amperage at which the fuse will instantly melt.
+            - text: The fuse provides protection against voltage exceedances.
+    - type: simple
+      question: Which statement is correct regarding a fuse?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To protect against short circuits the fuse must be placed as close as possible to the power supply.
+          wrongAnswers:
+            - text: When the nominal amperage is reached the fuse melts instantly.
+            - text: A fuse is a protection against over-voltage by melting when the maximum allowable voltage is exceeded.
+            - text: The rating of the fuse corresponds to the amperage at which the fuse would instantly melt.
+    - type: simple
+      question: What is true regarding an electrical fuse?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The fuse must be as close as possible to the source to protect against short circuits.
+          wrongAnswers:
+            - text: The fuse provides protection against voltage exceedances.
+            - text: Upon reaching its nominal amperage, the fuse instantly melts.
+            - text: The rating of a fuse is the amperage at which the fuse will instantly melt.
+- id: QUPFN
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215518
+    - BGS-211351
+    - AVEXAM-99100
+    - AVEXAM-85093
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.02.01.03
+  templates:
+    - type: simple
+      question: Turbine fuel may contain additives to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: reduce the risk of ice crystals forming at low temperatures.
+          wrongAnswers:
+            - text: increase the flashpoint at high temperatures.
+            - text: enhance the combustion temperature.
+            - text: increase the viscosity across a range of temperatures.
+    - type: simple
+      question: "State the purpose of fuel additives for freezing:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Prevent ice crystals formation in the fuel.
+          wrongAnswers:
+            - text: Prevent solid rock-like state of the fuel.
+            - text: Decrease the flashpoint of the fuel at low temperatures.
+            - text: Increase the flashpoint of the fuel at low temperatures.
+- id: QUFJF
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215468
+    - BGS-210319
+    - AVEXAM-78786
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.02.02.01
+  templates:
+    - type: simple
+      question: The functions of an LP booster pump in a gas turbine fuel system are to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: avoid vapour locking and prevent cavitation of the HP fuel pump.
+          wrongAnswers:
+            - text: increase the pressure during refuelling and prevent cavitation of the HP fuel pump.
+            - text: avoid vapour locking and increase the pressure during refuelling.
+            - text: pressurise the fuel dump system and increase the pressure during refuelling.
+- id: QWXTF
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217005
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.02.02.01
+  templates:
+    - type: simple
+      question: What is the purpose of having a vent in a fuel filler cap?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To allow atmospheric pressure in and prevent a vacuum forming.
+          wrongAnswers:
+            - text: To allow easy de-fuelling.
+            - text: To provide suction to the fuel tank, removing excess air which could cause air bubbles.
+            - text: To allow fast refuelling without removing the cap.
+- id: QFSYC
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211459
+    - BGS-211962
+    - AVEXAM-72842
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.02.02.02
+  templates:
+    - type: simple
+      question: Some turbine-engined aeroplanes are fitted with trim tanks. Where are these normally placed and what is their purpose?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: They are placed in the tail of the aeroplane, and their function is to control the CG location during flight.
+          wrongAnswers:
+            - text: They are placed in the wing tips , and their function is to assist with the lateral stability of the aeroplane.
+            - text: They are placed in the nose of the aeroplanes, and their function is to control pitch attitudes during approach.
+            - text: They are placed in the fuselage close to the CG of the aeroplane, and their function is to extend its range.
+- id: QUEFN
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212740
+    - AVEXAM-57595
+    - BGS-211357
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.02.02.02
+  templates:
+    - type: simple
+      question: Fuel tanks are fitted with baffles to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: damp spanwise fuel motion in the tanks.
+          wrongAnswers:
+            - text: remove air bubbles from the fuel.
+            - text: prevent spanwise fuel motion during constant sideslip.
+            - text: assist in cooling the fuel.
+- id: QVYOR
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214899
+    - BGS-210295
+    - AVEXAM-68894
+  annexes:
+    - id: AMPG
+  learningObjectiveIds:
+    - 021.08.02.02.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The diagram shown in annex represents a jet fuel system. The fuel-flow measurement is carried out.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: after the high pressure valve (item 4).
+          wrongAnswers:
+            - text: after the high pressure pump first stage (item 2).
+            - text: in the fuel control unit (item 3).
+            - text: after the low pressure valve (item 1).
+- id: QGKQH
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219650
+    - AVEXAM-65503
+    - AVEXAM-96392
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.02.02.04
+  templates:
+    - type: simple
+      question: What happens following a total centre tank fuel pump failure?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All or part of the fuel in the centre tank may be unusable.
+          wrongAnswers:
+            - text: The fuel control panel should be placed in manual mode, and fuel fed from the outer wing tanks first.
+            - text: Fuel starvation could lead to an engine flameout.
+            - text: Deployment of the ram air turbine (RAT) should be initiated to activate the back-up fuel pumps.
+- id: QQUGM
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211187
+    - AVEXAM-57339
+    - BGS-211818
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.02.02.04
+  templates:
+    - type: simple
+      question: "To prevent vapour locking, which can lead to fuel starvation, a common type of limitation imposed by the Minimum Equipment List (MEL) in large transport aeroplanes for complete boost pump failure is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Maximum operating altitude limitation.
+          wrongAnswers:
+            - text: Minimum fuel temperature limitation.
+            - text: No fuel may be carried in the affected fuel tank.
+            - text: Extra reserve fuel has to be carried.
+- id: QTTNT
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217489
+    - BGS-211059
+    - AVEXAM-85542
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.02.02.05
+  templates:
+    - type: simple
+      question: When using magnetic-measuring-type dip sticks, the quantity of fuel in the aircraft is determined by using the measurements...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: from the dip sticks and data tables in the aircraft documentation.
+          wrongAnswers:
+            - text: from the dip sticks and the fuel's specific gravity.
+            - text: directly from the dip sticks only.
+            - text: from the dip sticks and the current OAT.
+- id: QUJYH
+  subjectId: "021"
+  chapterId: "021.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215721
+    - AVEXAM-93185
+  annexes: []
+  learningObjectiveIds:
+    - 021.08.02.02.06
+  templates:
+    - type: simple
+      question: "Fuel dump systems are required:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: on all transport category aircraft where the Maximum Take-off Weight (MTOW) is significantly higher than the Maximum Landing Weight (MLW).
+          wrongAnswers:
+            - text: on aircraft with a Maximum Take-off Weight (MTOW) higher than 5.7 tons.
+            - text: "on all transport category aircraft.
+
+
+                \ "
+            - text: on all transport category aircraft with more than 150 seats.

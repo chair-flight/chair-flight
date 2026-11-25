@@ -1,0 +1,1735 @@
+- id: QXPCN
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The pilot can cancel a preset HDG/TRK by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Engaging the NAV mode using the DIR TO
+            - text: Pushing in the HDG/TRK knob (arming NAV mode)
+            - text: Disengaging AP/FD
+- id: QDGJU
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "During takeoff phase:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SRS mode will provide guidance to maintain V2+10 kts (minimum) as a speed reference up to the acceleration  altitude.
+          wrongAnswers:
+            - text: SRS mode is available up to 1500 ft AGL
+            - text: SRS mode will not engage if TOGA is selected.
+            - text: ---
+- id: QNQHS
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The NAV mode disengages when:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Any other lateral mode is engaged.
+            - text: The flight plan is lost or the aircraft enters a flight plan discontinuity.
+            - text: ---
+- id: QWASG
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The descent profile has a repressurization segment. When necessary, this produces a repressurization  rate for the cabin during descent. It is a function of the destination airport altitude and the selected cabin rate  ______________________ .
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (Defaulted to - 350 feet/min but this can be modified)
+          wrongAnswers:
+            - text: (Defaulted to - 150 feet/min but this can be modified)
+            - text: (Defaulted to - 250 feet/min but this can be modified)
+            - text: ---
+- id: QVHSV
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "When OP DES is engaged:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: The FMA displays 'OP DES'
+            - text: The managed LVL/CH dot on the FCU goes out
+            - text: The system arms the ALT mode
+- id: QIQOF
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "When ALT is armed, the FMA displays the ALT message on its second line:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Blue when the target altitude is the FCU selected altitude and magenta if the target altitude is an altitude  constraint.
+          wrongAnswers:
+            - text: Blue when the target altitude is the FCU selected altitude and white if the target altitude is an altitude  constraint.
+            - text: White when the target altitude is the FCU selected altitude and blue if the target altitude is an altitude  constraint.
+            - text: ---
+- id: QKBIL
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The pilot can disengage the V/S mode manually by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Pulling or pushing the altitude selector knob
+            - text: Pushing the EXPED pushbutton or
+            - text: Initiating a go-around
+- id: QWKRR
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If FDs are engaged in DES or OPEN DES mode or EXP DES (if installed) and if the pilot does not follow the  FD bars to maintain the commanded descent _______________, (pitch too high and autothrust in IDLE).
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The aircraft decelerates.
+          wrongAnswers:
+            - text: The aircraft accelerates.
+            - text: ---
+            - text: ---
+- id: QIUKK
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: During Climb, the FMGS automatically decreases the vertical speed to maintain VLS when VLS (or VLS-5 if  the speed target is VLS) is reached. The target V/S does not change but is no longer followed.
+          answer: true
+- id: QSZCM
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The AP/FD common modes on take off are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Runway/Runway track associated to SRS vertical modes
+          wrongAnswers:
+            - text: ILS approach (LAND) or non-ILS approach (APP NAV FINAL)
+            - text: Go around track associated to SRS vertical modes.
+            - text: Only approach and go-around modes
+- id: QIQZV
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: With the autopilot on and the aircraft above the glide path, can it intercept the glide path if its trajectory  does not cross the ILS G/S beam?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No
+          wrongAnswers:
+            - text: Yes
+            - text: ---
+            - text: ---
+- id: QQTKW
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: "Is this statement true or false: Autoland is authorized with CAT1 displayed on the FMA"
+          answer: false
+- id: QGKGC
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: At what approximate altitude will the FLARE mode be engaged (the precise value is a function of V/S) and  the FMA displays 'FLARE' in green ?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 40 feet RA
+          wrongAnswers:
+            - text: 70 feet RA
+            - text: 60 feet RA
+            - text: ---
+- id: QIZCZ
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If the autopilot is engaged while you are using the APP NAV/FINAL modes, it disengages automatically
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: At Missed Approach Point (MAP)
+          wrongAnswers:
+            - text: At 30 feet AGL
+            - text: At 50 feet AGL
+            - text: MDA -50 feet
+- id: QJNGY
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When one thrust lever is in the CL detent and the other one out of the detent, which amber message  comes up until both levers are set in the CL detent (only with both engines operative) ?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: LVR ASYM
+          wrongAnswers:
+            - text: LVR MCT
+            - text: LVR MCT
+            - text: ---
+- id: QQDQC
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When the A/THR is armed for takeoff or go around, the FMA displays 'MAN TOGA' (or 'MAN FLX') in _____  to remind the crew that the thrust levers have been positioned properly.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: white
+          wrongAnswers:
+            - text: cyan
+            - text: ---
+            - text: ---
+- id: QMEYW
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "When the AP is engaged, the FMGS sends orders to the FAC to give:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both answers are correct.
+          wrongAnswers:
+            - text: Yaw damping during approach
+            - text: Yaw control for runway alignment in roll out mode.
+            - text: ---
+- id: QPJUV
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The FMGS automatically strings additional types of legs, when departure or arrival procedures (SID-STAR\x02TRANS) are defined. Some of these legs are specific legs. The pilot ______ create these types of legs"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: cannot
+          wrongAnswers:
+            - text: can
+            - text: ---
+            - text: ---
+- id: QKRTG
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Two minutes after ALT CRZ engages, if the mach mode is operative, SOFT ALT mode engages. This allows  the aircraft to _______ the target altitude, thereby minimizing thrust variations and reducing fuel consumption.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: deviate &plusmn; 50 feet from
+          wrongAnswers:
+            - text: deviate &plusmn; 75 feet from
+            - text: maintain
+            - text: deviate &plusmn; 100 feet from
+- id: QEOMM
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Does the FMGS logic allow the crew to modify the course of an ILS when its frequency is identical to the  ILS selected in the F-PLN ?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: does not allow
+          wrongAnswers:
+            - text: allows
+            - text: ---
+            - text: ---
+- id: QLFSL
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The SELECTED NAVAIDS page lists the navaids being tuned by the onside FMGC. Navaids _______ be  modified on this page.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: cannot
+          wrongAnswers:
+            - text: can
+            - text: ---
+            - text: ---
+- id: QVGFH
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How many minutes does a normal alignment take; and how long does a fast alignment take?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ten minutes / 30 seconds
+          wrongAnswers:
+            - text: Eight minutes / 30 seconds
+            - text: Eight minutes / 20 seconds
+            - text: Ten minutes / 20 seconds
+- id: QOCQY
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "For flight planning, the pilot inserts the following into the FMGS via the MCDU:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The intended lateral and vertical trajectories
+          wrongAnswers:
+            - text: The intended lateral trajectory (lateral flight plan)
+            - text: The intended vertical trajectory, which is a speed and altitude profile (vertical flight plan)
+            - text: The intended cruise TAS/Mach
+- id: QEVBX
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The FMGS computes the aircraft position continually, using stored aircraft performance data and  navigation data. Therefore it can steer the aircraft along a preplanned route and vertical and speed profiles. This  type of guidance is said to be ____
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Managed
+          wrongAnswers:
+            - text: Auto
+            - text: Selected
+            - text: Protected
+- id: QFFEE
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The use of MCDU allows the flight crew to interface with the FMGC by selection of a flight plan for:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Vertical trajectories
+            - text: Speed profiles
+            - text: ---
+- id: QBUCB
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "How many FMGS operation modes are available:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: three
+          wrongAnswers:
+            - text: two
+            - text: four
+            - text: ---
+- id: QQMRJ
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: The Flight Management and Guidance System (FMGS) provides predictions of flight time, mileage, speed,  economy profiles and altitude
+          answer: true
+- id: QOUYL
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: "INDEPENDENT MODE: The system automatically selects this degraded mode under specific abnormal  conditions (e.g. different database validity on both FMGS&acute;s). Both FMGCs work independently and are linked only  to peripherals on their own sides of the flight deck."
+          answer: true
+- id: QLIJG
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: When one FMGC fails, the corresponding MCDU displays 'OPP FMGC IN PROCESS' in white. The ND on the  side with the failed FMGC may be set to a different range and mode as the other ND.
+          answer: false
+- id: QTNFM
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "When a pilot enters a RNP that is larger than the published value, one of the following messages is  displayed: 'PROCEDURE RNP is XX.XX', or 'AREA RNP IS XX.XX'. When this occurs, the crew should:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: verify the RNP value that was manually entered.
+          wrongAnswers:
+            - text: Use the default value.
+            - text: None of the above.
+            - text: ---
+- id: QHYWA
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: When the GPS function is lost, a 'GPS PRIMARY LOST' message is displayed on the ND and MCDU  scratchpads. The MCDU and ND message can be cleared
+          answer: false
+- id: QHADN
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When GPS primary is active, and either of the FMGC positions deviate from the GPS positions 1 or 2 by  more than ________ of latitude or longitude, then the lower ECAM display unit displays the NAV FMS/GPS POS  DISAGREE amber message and A/C POS
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 0.5 minutes
+          wrongAnswers:
+            - text: 0.2 minutes
+            - text: 0.4 minutes
+            - text: ---
+- id: QQQFN
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: ALPHA FLOOR is a protection that commands TOGA thrust, regardless of the thrust levers' positions. This  protection is available on approach from ?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Lift-off to 100 feet RA.
+          wrongAnswers:
+            - text: Five seconds after lift-off to 100 feet RA
+            - text: Lift-off to 500 feet RA
+            - text: ---
+- id: QHJKT
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "What does the autothrust system do, if it is active:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Maintains a specific thrust in THRUST mode
+            - text: Controls the aircraft speed or MACH in SPEED/MACH mode
+            - text: Uses ALPHA FLOOR mode to set maximum thrust when the aircraft angle of attack exceeds a specific threshold
+- id: QLUBL
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The Auto Pilot:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Stabilizes the aircraft around its center of gravity
+            - text: Acquires and tracks a flight path
+            - text: Flies the aircraft to an automatic landing or go-around
+- id: QUKAR
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: The ALT mode disengages when any other vertical mode engages.
+          answer: true
+- id: QOYWK
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The SRS mode automatically engages, when the thrust levers are set to the TOGA detent, or the MCT/FLX  detent, if:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: V2 is inserted in the MCDU PERF TO page.
+            - text: Slats are extended.
+            - text: The aircraft has been on the ground for at least 30 seconds.
+- id: QLNII
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The windshear detection function is operative during takeoff from _________________ and during  approach, from ___________________.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3s after lift-off up to 1300 feet / 1300 feet to 50 feet
+          wrongAnswers:
+            - text: 3s after lift-off up to 1500 feet / 1500 feet to 50 feet
+            - text: 3s after lift-off up to 1300 feet / 1300 feet to touchdown
+            - text: ---
+- id: QRYBI
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Each IRS computes a mixed IRS/GPS position called the GPIRS position. The FMS selects one GPIRS  position based on a figure of merit and priority. The FMS uses the following hierarchy to perform the selection:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Onside GPIRS position, GPIRS 3, Opposite GPIRS position
+          wrongAnswers:
+            - text: GPIRS 1, GPIRS 2, GPIRS 3
+            - text: GPIRS 3, Opposite GPIRS position, Opposite GPIRS position
+            - text: GPIRS 3, Opposite GPIRS position, GPIRS1
+- id: QTFPG
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The system displays the EPU to the crew, and compares it with the required navigation performance  (RNP). (multiple answers possible)
+      explanation: |-
+        
+
+        ---
+
+        FIXME: this question needs to be fixed. Please Open a PR
+      presets:
+        - correctAnswers:
+            - text: If the EPU does not exceed the appropriate criteria, accuracy is HIGH
+          wrongAnswers:
+            - text: If the EPU exceeds the appropriate criteria due to loss of threshold update, accuracy is MED.
+            - text: If the EPU exceeds the appropriate criteria, accuracy is LOW.
+            - text: If the EPU exceeds the appropriate criteria, accuracy is MED.
+- id: QCOMT
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Each FMGC autotunes one ILS frequency
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1,2
+          wrongAnswers:
+            - text: In the PREFLIGHT or TAKEOFF phase, when the takeoff runway has an associated ILS.
+            - text: In the CLIMB-CRUISE-DESCENT, APPROACH, or GO-AROUND phase, when the type of approach in the flight  plan is ILS
+            - text: One DME is linked to the ILS/DME
+- id: QNBSD
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: |-
+            During ILS approaches the system performs a lateral temporary updating using one of the following  modes:
+
+            - IRS-GPS/LOC
+
+            - IRS-DME/DME-LOC
+
+            - IRS-VOR/DME-LOC
+
+            - IRS-LOC
+          answer: true
+- id: QKKJM
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Pilots may create via DATA PAGES in the FMGC:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Waypoints
+            - text: Navaids
+            - text: Runways
+- id: QVRSR
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: After takeoff the A/THR will not become active until...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The thrust levers are placed between CL and IDLE detents
+          wrongAnswers:
+            - text: The thrust levers are moved out of the TO/GA or FLEX/MCT detents
+            - text: The autopilot is engaged
+            - text: The A/THR pb is manually selected ON
+- id: QUKQT
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The Flight Management part of the FMGC controls the following functions:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Navigation, flight planning, prediction and optimization of performance
+          wrongAnswers:
+            - text: Navigation, flight planning and A/THR commands
+            - text: Performance optimization, A/THR and AP commands
+            - text: AP and FD commands and flight envelope computation
+- id: QBTTV
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The FMGS has four modes of operation:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Dual mode, Independent mode, Single mode and Back-up navigation mode
+          wrongAnswers:
+            - text: Triple mode, Dual mode, Single mode and Independent mode
+            - text: Normal mode, Abnormal mode, Emergency mode and Back-up navigation mode
+            - text: Dual mode, Single mode, Normal mode, Abnormal mode
+- id: QXIXB
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If the flight crew performs an automatic approach without autoland, the autopilot must be disengaged at the latest?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 80 ft AGL
+          wrongAnswers:
+            - text: 200 ft AGL
+            - text: 150 ft AGL
+            - text: 100 ft AGL
+- id: QRWSD
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The autoland red warning flashes in LAND mode when the radio altitude goes below ___ and both  autopilots fail.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 200ft
+          wrongAnswers:
+            - text: 500ft
+            - text: 300ft
+            - text: 100ft
+- id: QPYOR
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which computer provides warnings for low-energy and windshear detection?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FAC
+          wrongAnswers:
+            - text: SEC
+            - text: SFCC
+            - text: ELAC
+- id: QBGQK
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "WINDSHEAR detection function is provided by the FAC in takeoff phase in the following conditions:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3s after liftoff, up to 1.300 ft RA
+          wrongAnswers:
+            - text: From 50 ft RA until 1.500 ft RA
+            - text: 5s after liftoff, up to 2.000 ft RA
+            - text: From thrust setting at takeoff until lift-off
+- id: QVROA
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The predicted data for alternates in the FMS are based on:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A flight at FL100 for an alternate F-PLN distance less than 100NM or flight at FL220 for an alternate F-PLN  length between 100 and 200NM or else at FL310 and with a cost index of 0
+          wrongAnswers:
+            - text: A flight at FL100 for an alternate F-PLN distance less than 200NM. Cost index 7
+            - text: A flight at FL150 or an alternate F-PLN distance less than 300NM. Cost index 0
+            - text: Flight at FL100 and standard speed (270/M0.76)
+- id: QLGLS
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What happens if you switch off both FDs while one AP is still ON?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The AP remains engaged and the FDs are no longer displayed
+          wrongAnswers:
+            - text: Both FD are no longer displayed and the AP disengages
+            - text: The AP remains engaged and the onside FD is still displayed
+            - text: The A/THR reverts to SPD/MACH mode
+- id: QSPAV
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The pitch FD bar(s) start to flash permanently. What is the reason?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The transmission of the GLIDE SLOPE data was interrupted when in G/S, G/S* or LAND mode above 100ft GND
+          wrongAnswers:
+            - text: The GLIDE SLOPE tracking is out of tolerance
+            - text: There was a change of vertical mode
+            - text: There was a change of lateral mode
+- id: QPMSS
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "While climbing with the V/S mode and autopilot ON, an excessive rate of climb value for the available  engine thrust is set on the FCU. The indicated airspeed will decrease until:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Vls
+          wrongAnswers:
+            - text: V&alpha;prot
+            - text: V&alpha;max
+            - text: Vls +10 kt
+- id: QGXBR
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: SRS mode is engaged. Which statement is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: A speed of V2+10 in normal engine configuration is maintained
+            - text: A speed of V2 or current speed to max. V2+15 is maintained if an engine failure is detected
+            - text: A pitch of maximum 18&deg; aircraft nose up during normal T/O or maximum 22.5&deg; aircraft nose up in case of  windshear is maintained
+- id: QVFAU
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The Flight Management Guidance System (FMGS) contains the following units:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 FMGC, 2 MCDU, 1 FCU, 2 FAC
+          wrongAnswers:
+            - text: 2 FMGC, 2 MCDU, 2 FCU, 1 FAC
+            - text: 2 FMGC, 2 MCDU, 2 FCU, 2 FAC
+            - text: 2 FMGC, 2 MCDU, 1 FCU, 1 FAC
+- id: QDQRO
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "MCDU annunciators (on the top of keyboard): IND (amber). This means:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The onside FM detects an independent mode of operation while both FM are healthy
+          wrongAnswers:
+            - text: The onside FM is failed
+            - text: The onside FM detects an independent mode of operation while both FM are healthy
+            - text: Indicates that the Multipurpose Control and Display Unit (MCDU) has failed
+- id: QYUSD
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "LOW ENERGY WARNING:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Available between 100 and 2000 ft in CONF &ge; 2
+          wrongAnswers:
+            - text: Available between 100 and 2000 ft in CONF &ge; 1
+            - text: Available between 100 and 2500 ft in CONF &ge; 1
+            - text: Available between 100 and 2500 ft in CONF &ge; 2
+- id: QQUKQ
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Each IRS computes a mixed IRS/GPS position called the GPIRS position. Of the three GPIRS positions that  each FMGC receives, the FMS selects one GPIRS position based on a figure of merit and priority. The FMS uses the  following hierarchy to perform the selection
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Onside GPIRS position - GPIRS 3 - Opposite GPIRS position
+          wrongAnswers:
+            - text: Opposite GPIRS position - GPIRS 3 - Onside GPIRS position
+            - text: GPIRS 3 - Onside GPIRS position - Opposite GPIRS position
+            - text: Onside GPIRS position - Opposite GPIRS position - GPIRS3
+- id: QCJJW
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The FMGS has different FM position update modes. Which has the highest priority?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: IRS-GPS
+          wrongAnswers:
+            - text: IRS only
+            - text: IRS-DME/DME
+            - text: IRS-VOR/DME
+- id: QOHAH
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The INIT B page of the FMS is available during following flight phases:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: On ground, before engine start
+          wrongAnswers:
+            - text: All flight phases
+            - text: During cruise phase
+            - text: Only after engine shut down
+- id: QOBGV
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The wind direction information displayed on the ND is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "True"
+          wrongAnswers:
+            - text: Magnetic
+            - text: Magnetic and true
+            - text: Relative to longitudinal aircraft axis
+- id: QFECT
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What are the indications associated with a LOW ENERGY WARNING ?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A synthetic voice &rdquo;SPEED SPEED SPEED&rdquo; only
+          wrongAnswers:
+            - text: An ECAM message, an AURAL WARNING, a MASTER CAUTION
+            - text: An ECAM message, a Synthetic voice &rdquo;SPEED SPEED SPEED&rdquo;, a MASTER CAUTION
+            - text: A synthetic voice &rdquo;SPEED&rdquo;, a MASTER CAUTION
+- id: QXUEP
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: ALPHA FLOOR is a protection that commands ___ thrust, regardless of the thrust levers&rsquo; positions. This  protection is available from lift-off to ___ ft RA on approach
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: TOGA / 100ft RA
+          wrongAnswers:
+            - text: MCT / 100ft RA
+            - text: MCT / 50ft RA
+            - text: TOGA / 50ft RA
+- id: QRUXJ
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: During an automatic approach with both autopilots engaged, which FMGC is master?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FMGC 1
+          wrongAnswers:
+            - text: FMGC 2
+            - text: FMGC 2 as soon as AP2 is engaged
+            - text: FMGC 1 or 2 alternatively
+- id: QJFED
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: A standard disconnection of the A/THR system
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Triggers a temporary ECAM message and caution light. A single chime sounds
+          wrongAnswers:
+            - text: Triggers a permanent ECAM message and caution light
+            - text: Triggers a temporary master warning light that disappears after 3 seconds
+            - text: Does not trigger any ECAM indication
+- id: QVQXD
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: A non-standard disconnection of the A/THR system
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Triggers a master caution light and an ECAM message removed only by a flight crew action. A single chime  sounds
+          wrongAnswers:
+            - text: Triggers a temporary ECAM message and caution light. A single chime sounds
+            - text: Does not trigger any ECAM indication
+            - text: There is no such thing as a non-standard disconnection of the A/THR system in the Airbus operational manuals
+- id: QBVSQ
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The RETARD mode of the A/THR system:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Is only available during automatic landing (AP engaged in LAND mode)
+          wrongAnswers:
+            - text: Is the mode the A/THR system uses to command the FADEC and ECU channels to unlock and activate the thrust  reversers doors. This mode is not available in flight
+            - text: Generates a RETARD callout at 40 feet during an automatic landing
+            - text: Generates a RETARD callout at 30 feet during a manual landing
+- id: QIUGJ
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement is correct? The ALPHA FLOOR protection mode of the Flight Guidance system
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Is available from lift-off to 100 feet RA on approach
+          wrongAnswers:
+            - text: Is designed to protect the aircraft against high angles of attack in normal and alternate law. This angle of attack  protection is not available in direct and unusual attitudes law
+            - text: Commands MCT, regardless of the thrust levers' position
+            - text: Can be exited by the flight crew by releasing the side stick from the full aft position in normal and alternate law
+- id: QMINV
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: WINDSHEAR warning during T/O
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Is inhibited between 100kts and up to 50ft after lift-off
+          wrongAnswers:
+            - text: Is not inhibited
+            - text: Is inhibited between 80kts and 1&rsquo;500ft after lift-off
+            - text: Is inhibited between 80kts and lift-off
+- id: QYIZA
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The Flight Guidance (FG) part of the FMGC performs the following functions:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Autopilot (AP) command, Flight Director (FD) command, Autothrust (A/THR) command
+          wrongAnswers:
+            - text: Autopilot (AP) command, Multipurpose control and display unit (MCDU) interface, Autothrust (A/THR)  command
+            - text: Autopilot (AP) command, Flight Director (FD) command, Multipurpose control and display unit (MCDU)  navigation in vertical and horizontal
+            - text: Autopilot (AP) command, Aircraft communications addressing and reporting system (ACRAS) communication,  Multipurpose control and display unit (MCDU) navigation in vertical and horizontal
+- id: QEOUX
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The FAC computes the energy level for the low energy with the following inputs:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Aircraft Configuration
+            - text: Horizontal deceleration rate
+            - text: Flight path angle
+- id: QQXNV
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The low energy alert is inhibited when:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: TOGA is selected, or below 100 ft RA, above 2.000 ft RA, or Alpha-floor or GPWS alert is triggered, or in  alternate law, or both radio altimeters fail
+          wrongAnswers:
+            - text: With Landing gear extended
+            - text: With configuration 2, 3 and Full
+            - text: All answers are correct
+- id: QIYDQ
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement about windshear detection function of the FAC is correct
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The windshear detection function is provided with at least CONF 1 selected and below 1.300 ft RA
+          wrongAnswers:
+            - text: The windshear detection function is provided in all configurations below 1.300 ft RA
+            - text: The windshear detection function is provided with at least CONF 2 selected and below 1.300 ft RA
+            - text: The windshear detection function is provided with at least CONF 1 AND gear down selected and below 1.300 ft  RA
+- id: QLBKK
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The flight augmentation computer (FAC):"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: "Controls: rudder, rudder trim and yaw damper inputs"
+            - text: Computes data for the flight envelope and speed functions
+            - text: Provides warning for low-energy and windshear detection if these functions are installed
+- id: QYYWL
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The AMBER Characters displayed in the MCDU are indicating:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Mandatory data (boxes), Flight crew action required, Important messages, Missed constraint
+          wrongAnswers:
+            - text: Mandatory data (boxes), Important messages, Constraints only
+            - text: Mandatory data (boxes), Flight crew action required, Non modifiable data, Missed constraint
+            - text: Minor messages, Flight crew action required, Important messages, Constraint
+- id: QUIDP
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The FMS uses the following hierarchy to perform the selection of the GPIRS position:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1. Onside GPIRS position, 2. GPIRS 3, 3. Opposite GPIRS position
+          wrongAnswers:
+            - text: 1. Opposite GPIRS position, 2. GPIRS 3, 3. Onside GPIRS position
+            - text: 1. GPIRS 3, 2. Opposite GPIRS position, 3. Onside GPIRS position
+            - text: 1. Onside GPIRS position, 2. Opposite GPIRS position, 3. GPIRS 3
+- id: QJVQT
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement about FM position computation is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The FM position update at takeoff is inhibited when GPS PRIMARY is active
+          wrongAnswers:
+            - text: The FM position update at takeoff is performed at setting of takeoff thrust even when GPS PRIMARY is active
+            - text: At takeoff the FM position update is performed automatically at liftoff
+            - text: The FM position update at takeoff is performed at setting of takeoff thrust. When GPS PRIMARY is active the  FM compares the actual GPS position with the stored runway threshold position out of its database and will  generate a MCDU message when the check result is negative
+- id: QZTQQ
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "When GPS Primary mode is lost:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The flight crew must periodically (within cruise)/at 10.000 ft (in descent) check the position accuracy on the  PROG page
+          wrongAnswers:
+            - text: The flight crew must enter the RNP value of 3.0NM on the PROG page
+            - text: The flight crew must tune manually VOR&acute;s along its route to ensure a constant correct position computation of  the FMGC
+            - text: The flight crew must use the UPDATE AT function on the CRZ PAGE of the MCDU to ensure a proper FM position  update
+- id: QJFJO
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The flight crew can cancel an offset routing in the FMGC by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Perform DIR TO a waypoint (the next waypoint, for example)
+            - text: Clear the offset field
+            - text: Enter a zero value in the OFFSET field
+- id: QVAND
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement about the TRIP WIND insertion during F-PLN initialization is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Trip wind function is intended for on-ground predictions only. If it is used for this purpose, the crew should  then enter winds on WIND pages prior to departure.
+            - text: The FMGS does not consider the trip wind for alternate predictions
+            - text: If the wind is inserted on the WIND pages the TRIP WIND field on INIT B page will be dashed
+- id: QWVHF
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If the Database of the FM has expired.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Can cycle the database but must never do this in flight as it will erase the primary and secondary flight plans, as  well as the stored data
+          wrongAnswers:
+            - text: The flight crew has to call the maintenance as they are not allowed to cycle the databases of the FM
+            - text: Can cycle the database (on-ground and in-flight) as long as they can assure they have copied the active flightt  plan to activate it again when the cycle is completed
+            - text: Cycling of database during flight is not possible (prompt is not displayed during flight))
+- id: QRGVT
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement for the interaction between AP/FD and A/THR modes is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: If an AP/FD pitch mode controls a vertical trajectory, the A/THR mode controls the target SPD/MACH
+            - text: If an AP/FD pitch mode controls a target SPD or MACH, the A/THR mode controls the thrust
+            - text: If no pitch mode is engaged, the A/THR mode reverts to controlling the SPD/MACH mode
+- id: QRFXU
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The FDs are removed when the aircraft pitch exceeds ___ &deg; up or ___&deg; down, or Bank angle exceeds ___&deg;
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 25&deg; / 13&deg; / 45&deg;
+          wrongAnswers:
+            - text: 30&deg; / 15&deg; / 45&deg;
+            - text: 45&deg; /20&deg; / 63
+            - text: 45&deg; / 20&deg; / 35&deg;
+- id: QZOLX
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The flight crew can engage AP 1 or AP 2 by pressing the corresponding pushbutton on the FCU if the  aircraft has been airborne for at least:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 5 seconds
+          wrongAnswers:
+            - text: 3 seconds
+            - text: 50 ft RA
+            - text: 100 ft RA
+- id: QPDEF
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The Autoland warning red light:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "Will be active below 200 ft RA and will flash if: Both AP&acute;s fail, difference between both RA greater than 15ft,  Excessive deviation on in/or loss of: LOC (1/4 dot above 15 ft RA) or GLIDE (1 dot above 100ft RA)"
+          wrongAnswers:
+            - text: "Will be active below 100 ft RA and will flash if: Both AP&acute;s fail, difference between both RA greater than 15ft,  Excessive deviation on in/or loss of: LOC (1/4 dot above 15 ft RA) or GLIDE (1 dot above 100ft RA)"
+            - text: "Will be active below 100 ft RA and will flash if: Both AP&acute;s fail, difference between both RA greater than 50 ft,  Excessive deviation on in/or loss of: LOC (1 dot above 15 ft RA) or GLIDE (1 dot above 100ft RA)"
+            - text: "Will be active below 200 ft RA and will flash if: Both AP&acute;s fail, if one RA fails, Excessive deviation on in/or loss of: LOC (1/4 dot above 15 ft RA) or GLIDE (1 dot above 100ft RA)"
+- id: QOHPA
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The aircraft may deviate from the DES profile while DES mode is engaged if:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Unexpected wind conditions are encountered
+            - text: Anti-icing is turned on
+            - text: The lateral flight plan is changed
+- id: QJRZG
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The flightcrew can disengage the EXPEDITE mode manually during climb or descent with:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pulling or pushing (if the conditions are met) the ALT knob on the FCU
+          wrongAnswers:
+            - text: Pushing the EXPED pb on the FCU
+            - text: Clear the EXPED CLB mode on the MCDU PERF Page
+            - text: All answers are correct
+- id: QAZQQ
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: Predictions are computed or displayed on the pages of the temporary flight plan.
+          answer: true
+- id: QFDUF
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: "Five different color navigation compass displays (NDs) can be selected: -Arc (map mode), -Compass rose  NAV (map mode), -Compass rose VOR, -Compass rose ILS, -Plan. Information displayed onto these modes uses  aircraft position as a reference."
+          answer: true
+- id: QHAYM
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: "The pilot uses the thrust levers to do the following: - Manually select engine thrust. - Arm and activate  autothrust (A/THR). - Engage reverse thrust. - Engage the takeoff and go around modes."
+          answer: true
+- id: QHGUN
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: |-
+            The aircraft has two flight augmentation computers (FACs) that perform four main functions:
+
+            - Yaw  function
+
+            - Flight envelope function
+
+            - Low-Energy Warning function
+
+            - Windshear detection function
+          answer: true
+- id: QLLMH
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: The vertical flight plan is divided into the following flight phases. Preflight - Takeoff - Climb - Cruise - Descent-Approach - Go Around - Done. All but preflight and done are associated with speed and altitude profiles.
+          answer: true
+- id: QZXMQ
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Below _____, the FMGS calculates ECON CRZ SPD instead of ECON CRZ MACH.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL250
+          wrongAnswers:
+            - text: FL230
+            - text: FL270
+            - text: FL300
+- id: QUQCF
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "If the pilot does not fly the flight plan, the MCDU predictions assume that:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: The pilot will fly back towards the flight-planned route.
+            - text: The pilot will immediately resume flying the FMGC-managed modes.
+            - text: ---
+- id: QCSSM
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Predictions for alternates are displayed on the ALTERNATES page. They are based on a default cruise  _______, if the airway distance is less than 200 NM. ________________.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Equal to FL220 / Otherwise, it is FL310
+          wrongAnswers:
+            - text: Equal to FL230 / Otherwise, it is FL350
+            - text: Equal to FL210 / Otherwise, it is FL330
+            - text: Equal to FL200 / Otherwise, it is FL300
+- id: QWCWU
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Speed control is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Managed, when the target comes from the FMGS and Selected, when the target comes from the SPD/MACH  FCU window
+          wrongAnswers:
+            - text: All answers are correct
+            - text: Selected, when the target comes from the FMGS
+            - text: Managed, when the target comes from the SPD/MACH FCU window
+- id: QHAUQ
+  subjectId: a320
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The selected speed target disengages:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: When the managed SPD engages.
+            - text: When the aircraft is on the ground at engine start.
+            - text: ---

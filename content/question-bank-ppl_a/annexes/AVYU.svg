@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="255" viewBox="0 0 500 255">
+  <title>Mountain wave and lee-side rotors</title>
+  
+    <defs><marker id="arrow" orient="auto" markerWidth="6" markerHeight="6" refX="5" refY="3"><path d="M0 0 6 3 0 6Z" fill="#2563eb"/></marker></defs>
+    <rect width="500" height="255" fill="#f6faff"/>
+    <path d="M0 202 52 180l54-40 22-12 15 8 15 24 38 43 44 16 95 8 165 13v15H0Z" fill="#ad794f" stroke="#795136" stroke-width="2"/>
+    <g fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M0 135Q105 46 172 61C223 61 235 83 272 73s77-33 119-12 62 20 104 3"/>
+    <path d="M0 157Q100 64 166 79c50 7 60 38 103 19s67-35 108-17 67 30 118 10"/>
+    <path d="M0 180Q94 85 158 98c48 10 59 53 103 34s67-55 109-24 72 47 125 13"/>
+    <path d="M0 199Q92 112 149 118c57 14 65 72 110 58s69-72 112-40 80 51 124 25"/>
+    <path d="M205 210c-29-1-18-32 1-20M351 200c-21-16-3-37 15-26M374 173c17 6 14 26 0 30"/>
+    </g>
+    <g fill="#d7e2ef" stroke="#8598b1"><path d="M66 118q35-20 76 0-35 15-76 0Z"/><path d="M311 99q39-20 81 0-38 13-81 0Z"/></g>
+    <g fill="#14243d" font-family="system-ui,sans-serif" font-size="18" text-anchor="middle"><text x="361" y="173">1</text><text x="350" y="92">2</text><text x="96" y="145">3</text></g>
+</svg>

@@ -1,0 +1,24 @@
+- id: QPLOA
+  subjectId: "01"
+  chapterId: "01.01"
+  relatedQuestionIds:
+    - QZWSB
+  annexes: []
+  learningObjectiveIds:
+    - "01.01.01.01"
+  templates:
+    - type: simple
+      question: Under the Chicago Convention, when must other contracting states recognise a flight crew licence issued or validated by the state of aircraft registration?
+      explanation: |-
+        ### Chicago Convention, Article 33
+
+        > […] provided that the requirements under which such certificates or licences were issued or rendered valid are equal to or above the minimum standards […]
+
+        The licence must be issued or rendered valid by the state of registration. Article 32(b) separately allows a state to refuse recognition of licences granted to its own nationals for flights over its territory.
+      presets:
+        - correctAnswers:
+            - text: When the issuing or validating requirements meet or exceed the ICAO minimum standards.
+          wrongAnswers:
+            - text: Whenever the licence was issued by any flight school in a contracting state.
+            - text: Only when the aircraft is flying within the issuing state.
+            - text: Only when the licence holder is a national of the state of aircraft registration.

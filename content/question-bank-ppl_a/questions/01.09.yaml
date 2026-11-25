@@ -1,0 +1,502 @@
+- id: QSITV
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds:
+    - QMWYY
+    - QQYHQ
+    - QLOMZ
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.01"
+  templates:
+    - type: simple
+      question: 'According to ICAO Annex 2, the term "aerodrome traffic" is defined as:'
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All traffic on the manoeuvring area of an aerodrome and all aircraft flying in the vicinity of an aerodrome.
+          wrongAnswers:
+            - text: All traffic on the manoeuvring area of an aerodrome and all aircraft flying in the vicinity of an aerodrome except aircraft in a visual circuit.
+            - text: All traffic on the movement area of an aerodrome and all aircraft flying in the vicinity of an aerodrome.
+            - text: All traffic on the apron and on the manoeuvring area of an aerodrome and all aircraft flying in the vicinity of an aerodrome.
+- id: QMWYY
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds:
+    - QSITV
+    - QQYHQ
+    - QLOMZ
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.01"
+  templates:
+    - type: simple
+      question: The term "aerodrome elevation" is defined as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The highest point of the landing area.
+          wrongAnswers:
+            - text: The average value of the height of the manoeuvring area.
+            - text: The highest point of the apron.
+            - text: The lowest point of the landing area.
+- id: QQYHQ
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds:
+    - QSITV
+    - QMWYY
+    - QLOMZ
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.01"
+  templates:
+    - type: simple
+      question: The term "runway" is defined as a...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Rectangular area on a land aerodrome prepared for the landing and take-off of aircraft.
+          wrongAnswers:
+            - text: Round area on an aerodrome prepared for the landing and take-off of aircraft.
+            - text: Rectangular area on a land or water aerodrome prepared for the landing and take-off of aircraft.
+            - text: Rectangular area on a land aerodrome prepared for the landing and take-off of helicopters.
+- id: QLOMZ
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds:
+    - QSITV
+    - QMWYY
+    - QQYHQ
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.01"
+  templates:
+    - type: simple
+      question: Which statement is correct with regard to the term "taxi holding point"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A taxi holding point is the point at which the aircraft must stop unless further permission to proceed is given.
+          wrongAnswers:
+            - text: A taxi holding point is designed to indicate the beginning of the safety area and may be crossed when a taxi clearance is given.
+            - text: A taxi holding point is an area where the aircraft must stop unless further permission to proceed is given.
+            - text: A taxi holding point is only to be observed for IFR traffic if instrument weather conditions are prevailing.
+- id: QWVCK
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds:
+    - QJLUX
+    - QKZZQ
+    - QUNGZ
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.02"
+  templates:
+    - type: simple
+      question: Under the global reporting format, what does the runway condition WET mean?
+      explanation: |-
+        ### Regulation (EU) No 139/2014, Article 2, point (49)
+
+        > ‘wet runway’ means a runway whose surface is covered by any visible dampness or water up to and including 3 mm deep within the area intended to be used.
+      presets:
+        - correctAnswers:
+            - text: Visible dampness or water up to and including 3 mm deep
+          wrongAnswers:
+            - text: Water more than 3 mm deep
+            - text: A covering of wet snow
+            - text: No visible moisture or contaminant
+- id: QJLUX
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds:
+    - QWVCK
+    - QKZZQ
+    - QUNGZ
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.02"
+  templates:
+    - type: simple
+      question: Under the global reporting format, how is a visibly damp runway surface classified?
+      explanation: |-
+        ### Regulation (EU) No 139/2014, Article 2, point (49)
+
+        > ‘wet runway’ means a runway whose surface is covered by any visible dampness or water up to and including 3 mm deep within the area intended to be used.
+      presets:
+        - correctAnswers:
+            - text: Wet
+          wrongAnswers:
+            - text: Dry
+            - text: Standing water
+            - text: Slippery wet in every case
+- id: QKZZQ
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds:
+    - QWVCK
+    - QJLUX
+    - QUNGZ
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.02"
+  templates:
+    - type: simple
+      question: Under the global reporting format, when is water on a runway considered standing water?
+      explanation: |-
+        ### Regulation (EU) No 139/2014, Article 2, point (38h)(f)
+
+        > standing water: water of depth greater than 3 mm;
+      presets:
+        - correctAnswers:
+            - text: When it is more than 3 mm deep.
+          wrongAnswers:
+            - text: When it is 3 mm deep.
+            - text: Whenever any dampness is visible.
+            - text: When it is more than 1 mm deep.
+- id: QQYTI
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds:
+    - QHAQR
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.03"
+  templates:
+    - type: simple
+      question: How can a wind direction indicator be marked for better visibility?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The wind direction indicator could be surrounded by a white circle.
+          wrongAnswers:
+            - text: The wind direction indicator could be made from green materials.
+            - text: The wind direction indicator may be mounted on top of the control tower.
+            - text: The wind direction indicator could be located on a big black surface.
+- id: QHAQR
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds:
+    - QQYTI
+    - QDOIW
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.03"
+  templates:
+    - type: simple
+      question: Of what shape is a landing direction indicator?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: T
+          wrongAnswers:
+            - text: L
+            - text: A straight arrow
+            - text: An angled arrow
+- id: QDOIW
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds:
+    - QHAQR
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.03"
+  templates:
+    - type: simple
+      question: What is the purpose of the signal square at an aerodrome?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It contains special symbols to indicate the conditions at the aerodrome visually to over-flying aircraft.
+          wrongAnswers:
+            - text: Aircraft taxi to this square to get light signals for taxi and take-off clearance.
+            - text: It is an illuminated area on which search and rescue and fire fighting vehicles are placed.
+            - text: It is a specially marked area to pick up or drop towing objects.
+- id: QMHFY
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds:
+    - QYXBG
+    - QURNT
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.03"
+  templates:
+    - type: simple
+      question: According to ICAO Annex 14, which is the colour marking of a runway?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: White
+          wrongAnswers:
+            - text: Blue
+            - text: Yellow
+            - text: Green
+- id: QQEET
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.03"
+  templates:
+    - type: simple
+      question: Which runway designators are correct for 2 parallel runways?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: '"06L" and "06R"'
+          wrongAnswers:
+            - text: '"26" and "26R"'
+            - text: '"24" and "25"'
+            - text: '"18" and "18-2"'
+    - type: simple
+      question: How are two parallel runways designated?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The left runway gets the suffix "L", the right runway "R".
+          wrongAnswers:
+            - text: The left runway remains unchanged, the right runway designator is increased by 1.
+            - text: The left runway gets the suffix "-1", the right runway "-2".
+            - text: The left runway gets the suffix "L", the right runway remains unchanged.
+- id: QCZTX
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds:
+    - QKQNH
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.03"
+  templates:
+    - type: simple
+      question: What is a "PAPI" (Precision Approach Path Indicator)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A visual aid that provides guidance information to help a pilot acquire and maintain the correct glidepath to an aerodrome or an airport.
+          wrongAnswers:
+            - text: A visual aid that provides guidance information to help a pilot acquire and maintain the correct departure track when departing from an aerodrome or an airport.
+            - text: A visual aid that provides guidance information to help a tower controller acquire and maintain the correct approach to an aerodrome or an airport.
+            - text: An instrumental aid that provides guidance information to help a pilot acquire and maintain the correct approach to an aerodrome or an airport.
+- id: QKQNH
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds:
+    - QCZTX
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.03"
+  templates:
+    - type: simple
+      question: An aerodrome beacon (ABN) is a...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Fixed beacon installed at an airport or aerodrome to indicate its location to aircraft pilots from the air.
+          wrongAnswers:
+            - text: Rotating beacon installed at an airport or aerodrome to indicate its location to aircraft pilots from the ground.
+            - text: Rotating beacon installed at an airport or aerodrome to indicate its location to aircraft pilots from the air.
+            - text: Rotating beacon installed at the beginning of the final approach to indicate its location to aircraft pilots from the air.
+- id: QYXBG
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds:
+    - QMHFY
+    - QURNT
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.03"
+  templates:
+    - type: simple
+      question: Which is the colour of runway edge lights?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: White
+          wrongAnswers:
+            - text: Blue
+            - text: Red
+            - text: Green
+- id: QURNT
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds:
+    - QMHFY
+    - QYXBG
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.03"
+  templates:
+    - type: simple
+      question: Which is the colour of runway end lights?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Red
+          wrongAnswers:
+            - text: Blue
+            - text: White
+            - text: Green
+- id: QQUUO
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.05"
+  templates:
+    - type: simple
+      question: What is indicated by a pattern of longitudinal stripes of uniform dimensions disposed symmetrically about the centreline of a runway?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Do not touch down before them.
+          wrongAnswers:
+            - text: Do not touch down behind them.
+            - text: At this point the glide path of an ILS hits the runway.
+            - text: A ground roll could be started from this position.
+- id: QIGFI
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds: []
+  annexes:
+    - id: AFHD
+    - id: AYIV
+    - id: AKDD
+    - id: AEAP
+  learningObjectiveIds:
+    - "01.09.03"
+  templates:
+    - type: definition
+      question: |-
+        What is the meaning of this ground signal shown in the signal area of an aerodrome?
+
+        {term}
+      explanation: |-
+        Ground signals in the signal area are white, red or yellow shapes laid out so that pilots can read them from the air.
+
+        {table}
+      options:
+        - id: a
+          term: "![](annex:AFHD)"
+          definition: Caution, the manoeuvring area is poor.
+        - id: b
+          term: "![](annex:AYIV)"
+          definition: Landing is prohibited for a longer period.
+        - id: c
+          term: "![](annex:AKDD)"
+          definition: Glider flying is in progress.
+        - id: d
+          term: "![](annex:AEAP)"
+          definition: After take-off and before landing all turns must be made to the right.
+      fakeOptions:
+        - id: x
+          definition: Ground movement is restricted to hard surfaces.
+        - id: y
+          definition: The aerodrome is closed for all traffic until further notice.
+- id: QIIYZ
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds:
+    - QYGAW
+  annexes:
+    - id: AWGM
+  learningObjectiveIds:
+    - "01.09.03"
+  templates:
+    - type: simple
+      question: |-
+        What is shown on this sign?
+
+        ![Taxiway location sign with a yellow letter A on a black square with a yellow border](annex:AWGM)
+      explanation: A sign with a yellow inscription on a black background is a location sign. It tells the pilot which taxiway or runway they are on, so the letter A on a black square means the aeroplane is on taxiway A.
+      presets:
+        - correctAnswers:
+            - text: Taxiway A
+          wrongAnswers:
+            - text: Parking position A
+            - text: Part A of the runway
+            - text: Point A on a taxiway
+- id: QYGAW
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds:
+    - QIIYZ
+  annexes:
+    - id: ABQN
+  learningObjectiveIds:
+    - "01.09.03"
+  templates:
+    - type: simple
+      question: |-
+        What is shown on this sign?
+
+        ![Direction and distance sign with a black arrow pointing left and the text 2500 m on a](annex:ABQN)
+      explanation: A sign with a black inscription on a yellow background is an information sign. The number with the arrow gives the runway length available from this intersection, in the direction of the arrow.
+      presets:
+        - correctAnswers:
+            - text: From this intersection the available runway length is 2500 m in the stated direction.
+          wrongAnswers:
+            - text: 2500 m in the stated direction till reaching the parking area.
+            - text: The complete length of the runway in the stated direction is 2500 m.
+            - text: 2500 m in the stated direction till reaching the departure point of the runway.
+- id: QLIFM
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.03"
+  templates:
+    - type: simple
+      question: The aerodrome beacon at a civil aerodrome emits which colour?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: white
+          wrongAnswers:
+            - text: yellow
+            - text: green
+            - text: green-white
+- id: QJIWV
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.03"
+  templates:
+    - type: simple
+      question: The aerodrome identification beacon at a land aerodrome emits which colour?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: green
+          wrongAnswers:
+            - text: white
+            - text: yellow
+            - text: green-white
+- id: QMYYD
+  subjectId: "01"
+  chapterId: "01.09"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "01.09.03"
+  templates:
+    - type: simple
+      question: What colour are the centre line lights on an ordinary taxiway away from runway exits and runway proximity markings?
+      explanation: |-
+        ### EASA CS ADR-DSN.M.710(c)(1)
+
+        > […] should be fixed lights showing green […]
+
+        Green and yellow lights alternate in certain runway exit or proximity segments.
+      presets:
+        - correctAnswers:
+            - text: Green
+          wrongAnswers:
+            - text: Yellow
+            - text: Blue
+            - text: White

@@ -1,0 +1,565 @@
+- id: QNJHO
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223538
+    - AVEXAM-81925
+    - BGS-221620
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.01.01.02
+  templates:
+    - type: simple
+      question: You are in the cruise, and approaching a FIR in which CPDLC is available but NOT compulsory. What factors influence whether to use the data link or rely on voice communications?
+      explanation: Where CPDLC is available but not compulsory, datalink reduces the chance of misunderstanding and the workload for both pilots and controllers, since messages are displayed in writing.
+      presets:
+        - correctAnswers:
+            - text: Pilot errors and workload are reduced, and ATC workload is reduced, by using datalink communications.
+          wrongAnswers:
+            - text: Voice communications are more reliable and easier for the controller.
+            - text: Short-cuts and direct routings are easier for both pilots and controllers using voice communications.
+            - text: In remote areas, with datalink there is a greater risk of being out of range of the current controller WITHOUT being handed over to the next controller.
+- id: QEQLZ
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225309
+    - BGS-220593
+    - AVEXAM-35112
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.01.01.04
+  templates:
+    - type: simple
+      question: "Comparing the media used to transmit datalink communications, the appropriate classification from the slowest to the fastest data transmission rate is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: HF datalink, VHF datalink, SATCOM.
+          wrongAnswers:
+            - text: SATCOM, VHF datalink, HF datalink.
+            - text: SATCOM, HF datalink, VHF datalink.
+            - text: HF datalink, SATCOM, VHF datalink.
+- id: QFYAP
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223188
+    - AVEXAM-48108
+    - BGS-220600
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.01.01.04
+  templates:
+    - type: simple
+      question: "The characteristics of the SATCOM transmissions, used for datalink communications are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: no line of sight limitation, no variable quality of signals disturbed by ionospheric conditions.
+          wrongAnswers:
+            - text: line of sight limitation, variable quality of signals depending on ionospheric conditions.
+            - text: line of sight limitation, no variable quality of signals disturbed by ionospheric conditions.
+            - text: no line of sight limitation, variable quality of signals depending on ionospheric conditions.
+- id: QPNQQ
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227467
+    - AVEXAM-41004
+    - AVEXAM-54766
+    - BGS-220595
+    - ATPLQ-223020
+    - BGS-220605
+    - AVEXAM-62453
+    - ATPLQ-225711
+    - BGS-220594
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.01.01.05
+  templates:
+    - type: simple
+      question: "In a datalink system, the uplink communications consist in transmitting data:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: from the ground to the aircraft.
+          wrongAnswers:
+            - text: from the aircraft to the airline maintenance.
+            - text: from the flight deck to the cabin.
+            - text: from the aircraft to the ground.
+        - correctAnswers:
+            - text: from the aircraft to the ground.
+          wrongAnswers:
+            - text: from the ground to the aircraft.
+            - text: from the airline maintenance to the aircraft.
+            - text: from the flight deck to the cabin.
+    - type: simple
+      question: "The datalink communications between the aircraft and the ground can be performed by the following system:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ACARS.
+          wrongAnswers:
+            - text: CVR.
+            - text: FWS (Flight Warning System).
+            - text: EGPWS.
+        - correctAnswers:
+            - text: ACARS
+          wrongAnswers:
+            - text: TCAS
+            - text: EGPWS
+            - text: CVR
+- id: QNWCB
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225273
+    - AVEXAM-42492
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.01.02.02
+  templates:
+    - type: simple
+      question: An airline's AOC can communicate with an aircraft in flight to send information relating to the flight plan, weather, or operational constraints by (1) _____ method, and the technology used is (2) _____.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) Datalink; (2) ACARS
+          wrongAnswers:
+            - text: (1) Voice; (2) ACARS
+            - text: (1) Voice; (2) CPDLC
+            - text: (1) Datalink; (2) CPDLC
+    - type: simple
+      question: Operators are able to communicate with aircraft in flight, e.g. send information relating to the flight plan, weather, or operational constraints. This is done by (1) ___ method, and the technology used is (2) ___.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) Datalink; (2) ACARS
+          wrongAnswers:
+            - text: (1) Voice; (2) CPDLC
+            - text: (1) Voice; (2) ACARS
+            - text: (1) Datalink; (2) CPDLC
+- id: QJUMY
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225416
+    - AVEXAM-37442
+    - BGS-220596
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.01.02.02
+  templates:
+    - type: simple
+      question: "The ACARS allows air/ground datalink communications for:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Airline Operational and Air Traffic Communications (AOC & ATC).
+          wrongAnswers:
+            - text: Airline Operational and Public Communications (AOC & PC).
+            - text: Air Traffic Control Communication only (ATC).
+            - text: Airline Operational Communication only (AOC).
+- id: QGINV
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228006
+    - AVEXAM-80998
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.01.02.03
+  templates:
+    - type: multiple-correct
+      question: "The units that can be connected to the Communication Management Unit (CMU) are:"
+      explanation: "The communication management unit connects the communication units: VHF, HF and SATCOM, as well as the MCDU for the crew. It does not connect to the EGPWS."
+      options:
+        - text: – EGPWS
+          correct: false
+        - text: – HF Communication Unit
+          correct: true
+        - text: – Multipurpose Control and Display Unit (MCDU)
+          correct: true
+        - text: – VHF Communication Unit
+          correct: true
+        - text: – Satcom
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QUVUL
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227172
+    - AVEXAM-6104
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.01.02.03
+  templates:
+    - type: multiple-correct
+      question: "The systems that can be connected to the Communication Management Unit (CMU), are:"
+      explanation: "The communication management unit connects the radios used for datalink: VHF, HF and SATCOM. The flight director is not a communication system."
+      options:
+        - text: – Flight Director
+          correct: false
+        - text: – VHF
+          correct: true
+        - text: – HF
+          correct: true
+        - text: – SATCOM
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QDBCW
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228419
+    - AVEXAM-2487
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.01.02.04
+  templates:
+    - type: simple
+      question: During the cruise phase, how may a pilot compare the actual winds to those forecasted on the flight plan?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Via data uplink on the MCDU.
+          wrongAnswers:
+            - text: From the altimeter setting.
+            - text: From the VOR/DME information.
+            - text: ​Using the FMS wind data.
+- id: QUGME
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229762
+    - BGS-220608
+    - AVEXAM-79898
+    - BGS-221378
+    - AVEXAM-25366
+    - ATPLQ-224120
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.01.02.05
+  templates:
+    - type: simple
+      question: Which of the following ATC clearances can be received via the datalink application?
+      explanation: The datalink can carry the departure clearance (pre-departure clearance) and the oceanic clearance. Take-off, en route and landing clearances are given by voice.
+      presets:
+        - correctAnswers:
+            - text: Departure, Oceanic.
+          wrongAnswers:
+            - text: Departure, Take off, En route.
+            - text: Take off, En route, Landing.
+            - text: Departure, En route, Landing.
+- id: QAWKK
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225230
+    - AVEXAM-4159
+    - BGS-221245
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.02.01.01
+  templates:
+    - type: simple
+      question: FANS was developed by ICAO..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: to allow more aircraft to safely and efficiently utilise a given volume of airspace.
+          wrongAnswers:
+            - text: in order to automate and distribute departure slots.
+            - text: to effectively monitor aircraft systems' status information and fuel consumption.
+            - text: to provide a more efficient, safe, and cost-effective system for communication.
+- id: QBXJC
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221295
+    - AVEXAM-95241
+    - BGS-220607
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.02.01.01
+  templates:
+    - type: simple
+      question: "The FANS concept includes:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a datalink communication between the aircraft and the ATC centres to replace the voice communication.
+          wrongAnswers:
+            - text: an improvement in the accuracy of the navigation systems aiming to carry out RNAV approaches.
+            - text: an enhanced detection of the nearby terrain.
+            - text: an enhanced detection of the Clear Air Turbulence.
+- id: QLGCR
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222400
+    - AVEXAM-57361
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.02.01.01
+  templates:
+    - type: simple
+      question: What is a FANS application that lets the ATC know about the communication capability of an aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: CPDLC
+          wrongAnswers:
+            - text: ADS-B
+            - text: ADS-S
+            - text: ACARS
+    - type: simple
+      question: What FANS concept informs ATC of an aircraft's communication capability?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: CPDLC
+          wrongAnswers:
+            - text: ACARS
+            - text: ADS-S
+            - text: ADS-B
+- id: QNWOU
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds:
+    - QRUFJ
+  externalQuestionIds:
+    - ATPLQ-224926
+    - AVEXAM-94237
+    - BGS-220602
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.02.01.03
+  templates:
+    - type: simple
+      question: "The CPDLC is a FANS application that consists in:"
+      explanation: CPDLC, controller pilot datalink communications, is the application that sends formatted messages between the pilot and the air traffic controller.
+      presets:
+        - correctAnswers:
+            - text: transmitting datalink formatted messages between the pilot and ATC controller.
+          wrongAnswers:
+            - text: sending automatically aircraft surveillance data to the air traffic controller.
+            - text: establishing air/ground connection to verify if the datalink communication can be performed.
+            - text: connecting the aircraft to the appropriate ATC centre.
+- id: QRUFJ
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds:
+    - QNWOU
+  externalQuestionIds:
+    - ATPLQ-226682
+    - AVEXAM-38665
+    - BGS-220598
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.02.01.03
+  templates:
+    - type: simple
+      question: "The ADS is a FANS application which consists in:"
+      explanation: ADS is the application that automatically sends aircraft surveillance data, such as position, to the air traffic controller. CPDLC carries the messages.
+      presets:
+        - correctAnswers:
+            - text: sending automatically aircraft surveillance data to the air traffic controller.
+          wrongAnswers:
+            - text: exchanging messages relative to route modifications and transfer of ATC centre.
+            - text: connecting the aircraft to the appropriate ATC centre.
+            - text: establishing automatic air/ground connection to verify if the datalink communication can be performed.
+- id: QGSDZ
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds:
+    - QQBRE
+  externalQuestionIds:
+    - ATPLQ-222403
+    - BGS-220610
+    - AVEXAM-83635
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.02.01.06
+  templates:
+    - type: simple
+      question: "The notification phase (LOG ON) is a FANS application which consists in transmitting aircraft information and:"
+      explanation: The log on, or notification, phase sends aircraft information and its datalink capability to the ATC unit before any datalink communication, using the ATS facilities notification (AFN).
+      presets:
+        - correctAnswers:
+            - text: associated datalink capability, prior to operating any datalink communications with ATC.
+          wrongAnswers:
+            - text: aircraft position to request the datalink clearance to enter an airspace.
+            - text: park stand to the airport pre-flight controller to request the datalink pre-departure clearance (PDC).
+            - text: aircraft position to the airport ground controller to request the datalink taxi clearance.
+- id: QQBRE
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds:
+    - QGSDZ
+  externalQuestionIds:
+    - ATPLQ-224944
+    - BGS-220611
+    - AVEXAM-31783
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.02.01.06
+  templates:
+    - type: simple
+      question: "The Notification phase (LOG ON) is a FANS application which consists in:"
+      explanation: The log on, or notification, establishes the air-ground connection and checks that datalink communication can be performed. The CPDLC messages come after it.
+      presets:
+        - correctAnswers:
+            - text: establishing air/ground connection to verify if the datalink communication can be performed.
+          wrongAnswers:
+            - text: transmitting datalink messages between the pilot and ATC controller.
+            - text: sending automatically aircraft surveillance data to the ATS facility.
+            - text: requesting to transfer datalink communication to the next ATC centre on the route.
+- id: QLPIQ
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226366
+    - AVEXAM-17223
+    - BGS-220618
+    - ATPLQ-225741
+    - AVEXAM-78136
+    - BGS-220616
+    - BGS-220615
+    - AVEXAM-96143
+    - ATPLQ-224610
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.02.01.07
+  templates:
+    - type: simple
+      question: 'The uplink datalink messages "CLIMB TO REACH [altitude] BY [time]" means:'
+      explanation: '"Climb to reach [altitude] by [time]" is an instruction to climb at a rate that gets to the level at or before the given time. It does not allow reaching it after that time.'
+      presets:
+        - correctAnswers:
+            - text: a climb is to commence at a rate such that the specified level is reached at or before the specified time.
+          wrongAnswers:
+            - text: a climb is to commence at a rate such that the specified level is reached at or after the specified time.
+            - text: a climb is to commence at or after the specified time.
+            - text: a climb is to commence at or before the specified time.
+    - type: simple
+      question: 'The uplink datalink message " AT [time] CLIMB TO AND MAINTAIN [altitude]" means:'
+      explanation: '"At [time] climb to and maintain [altitude]" means that the climb is to begin at the specified time and the altitude is held when reached.'
+      presets:
+        - correctAnswers:
+            - text: at the specified time a climb to the specified altitude is to be started and the specified altitude is to be maintained.
+          wrongAnswers:
+            - text: after the climb the specified altitude is to be maintained from the specified time.
+            - text: after the climb the specified altitude is to be maintained until the specified time.
+            - text: at the specified time the specified altitude is to be reached.
+- id: QEOYD
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223824
+    - AVEXAM-99830
+    - BGS-220606
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.02.01.08
+  templates:
+    - type: multiple-correct
+      question: "The different types of ADS contracts can be:"
+      explanation: ""
+      options:
+        - text: "– periodic: at periodic time intervals"
+          correct: true
+        - text: "– on demand: when asked for by the ATC"
+          correct: true
+        - text: "– on event: whenever a specified event occurs"
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+- id: QZXLW
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629631
+    - AVEXAM-46289
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.02.01.08
+  templates:
+    - type: simple
+      question: When flying at FL290 and having ADS-B with auto-report capability, how frequently are you required to transmit reports?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Every 15 minutes.
+          wrongAnswers:
+            - text: Only when requested by the operator.
+            - text: It is not required because you are below FL290.
+            - text: Every 30 seconds.
+- id: QVKAY
+  subjectId: "022"
+  chapterId: "022.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225581
+    - AVEXAM-2438
+    - BGS-220619
+  annexes: []
+  learningObjectiveIds:
+    - 022.10.02.01.09
+  templates:
+    - type: simple
+      question: "When sent, a MAYDAY datalink message to the ATC has the following effect on ADS:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the ADS contract is switched to high periodic reporting rate.
+          wrongAnswers:
+            - text: the ADS current contract is stopped.
+            - text: the ADS current contract reporting rate is unchanged but includes more data.
+            - text: no change to the current contract in process.

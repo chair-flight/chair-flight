@@ -1,0 +1,173 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Figtree";
+  font-style: normal;
+  font-display: optional;
+  font-weight: 400;
+  src: url("@fontsource/figtree/files/figtree-latin-400-normal.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Figtree";
+  font-style: normal;
+  font-display: optional;
+  font-weight: 500;
+  src: url("@fontsource/figtree/files/figtree-latin-500-normal.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Figtree";
+  font-style: normal;
+  font-display: optional;
+  font-weight: 600;
+  src: url("@fontsource/figtree/files/figtree-latin-600-normal.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Figtree";
+  font-style: normal;
+  font-display: optional;
+  font-weight: 700;
+  src: url("@fontsource/figtree/files/figtree-latin-700-normal.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Figtree";
+  font-style: normal;
+  font-display: optional;
+  font-weight: 800;
+  src: url("@fontsource/figtree/files/figtree-latin-800-normal.woff2")
+    format("woff2");
+}
+
+:root {
+  color-scheme: light dark;
+  --canvas: light-dark(#d9e0e7, #0b0d0e);
+  --paper: light-dark(#eaeff4, #171a1c);
+  --ink: light-dark(#1e2328, #f0f4f8);
+  --muted: light-dark(#555e68, #9fa6ad);
+  --rule: light-dark(#c2ccd6, #32383e);
+  --rule-strong: light-dark(#a9bed4, #434b53);
+  --brand: #0b6bcb;
+  --accent: light-dark(#0b6bcb, #3a86dc);
+  --accent-soft: light-dark(#cddcec, #0f2a45);
+  --success: light-dark(#1f7a1f, #2ea043);
+  --success-soft: light-dark(#cde5cd, #0f2f17);
+  --danger: light-dark(#c41c1c, #e5484d);
+  --danger-soft: light-dark(#ecd0d0, #3a1616);
+  --warning: light-dark(#9a5b13, #f3c46b);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --color-accent: var(--accent);
+  --color-brand: var(--brand);
+  --color-accent-soft: var(--accent-soft);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-warning: var(--warning);
+  --color-teal: var(--teal);
+  --color-teal-soft: var(--teal-soft);
+  --color-rose: var(--rose);
+  --color-rose-soft: var(--rose-soft);
+  --animate-slide: slide 30s linear infinite;
+  --animate-blink: blink 1s step-start infinite;
+  --animate-shake: shake 0.45s ease-in-out;
+  --animate-spin-once: spin-once 0.5s ease-in-out;
+  --animate-nudge: nudge 1.6s ease-in-out infinite;
+
+  @keyframes nudge {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(6px);
+    }
+  }
+
+  @keyframes spin-once {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes shake {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    15% {
+      transform: translateX(-8px) rotate(-0.6deg);
+    }
+    35% {
+      transform: translateX(7px) rotate(0.5deg);
+    }
+    55% {
+      transform: translateX(-5px) rotate(-0.3deg);
+    }
+    75% {
+      transform: translateX(3px);
+    }
+  }
+
+  @keyframes slide {
+    to {
+      transform: translateY(-50%);
+    }
+  }
+
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  --font-ui: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+@layer base {
+  * {
+    scrollbar-width: none;
+  }
+
+  *::-webkit-scrollbar {
+    display: none;
+  }
+
+  html,
+  body {
+    @apply bg-canvas;
+    @apply text-ink font-ui antialiased;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.45;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+}

@@ -1,0 +1,632 @@
+- id: QFKHK
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 12.10.2, Center Tank FUEL PUMP LOW PRESSURE Lights
+
+        > Note: With the Center (CTR) tank FUEL PUMP switches ON, **continuous illumination of one LOW PRESSURE light for 10 seconds** illuminates MASTER CAUTION and FUEL system annunciator lights.
+
+        The lights come on after 10 seconds, not immediately.
+      statements:
+        - text: With the Centre (CTR) tank FUEL PUMP switches ON, if an amber LOW PRESSURE light illuminates, it also immediately illuminates MASTER CAUTION and a FUEL system annunciator lights.
+          answer: false
+- id: QZCJF
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which fuel valves are Flight Crew made aware of their position by means of flight deck indications?
+      explanation: |-
+        ### FCOM 12.10.1, Fuel Control Panel
+
+        > Engine Valve Closed (ENG VALVE CLOSED) and SPAR VALVE CLOSED Lights [...]
+        >
+        > Crossfeed VALVE OPEN Light Extinguished – crossfeed valve is closed. Illuminated (blue) – • bright – crossfeed valve is in transit [...] • dim – crossfeed valve is open.
+
+        The fuel pumps are switched and monitored by their LOW PRESSURE lights, and have no valve position lights.
+
+        ![Fuel system schematic](annex:AQWR)
+      presets:
+        - correctAnswers:
+            - text: Engine Fuel Shutoff valves, Spar Fuel Shutoff valves, Crossfeed valve.
+          wrongAnswers:
+            - text: Fuel valves are automatic with no flight deck indications.
+            - text: Engine Fuel Shutoff valves, Spar Fuel Shutoff valves, Crossfeed valve, Centre, No1 and No2 tanks Fuel Pump valves.
+            - text: Centre, No1 and No2 Tanks Fuel Pump Valves, Engine Fuel Shutoff Valve, Cross Feed valve.
+- id: QCKRH
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: After the Centre Tank has emptied the auto shutoff logic stops the pumps, how do the pumps then function?
+      explanation: |-
+        ### FCOM 12.10.2, FUEL PUMP Switches
+
+        > Note: When a center tank fuel pump switch is set to OFF, **the auto shutoff logic for that pump is reset. When the center tank fuel pump switch is set to ON after being OFF, the pump will again activate** until the switch is set to OFF or auto shutoff logic deactivates it.
+      presets:
+        - correctAnswers:
+            - text: Switching the pumps to OFF and then back to ON recycles the auto shutoff logic and the pumps will again activate.
+          wrongAnswers:
+            - text: There is no shutoff logic, the pumps continue to run with the amber LOW PRESSURE light illuminated until the Flight Crew switch the pumps to OFF.
+            - text: The pumps will not function again until the Centre tank has been refueled above 453 kg.
+            - text: The pumps can be activated if necessary by tripping the auto shutoff circuit breaker on Panel P6-1 behind the First Officer.
+- id: QILID
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the correct sequence regarding the SPAR VALVE CLOSED light during a normal engine start procedure after the START LEVER is positioned to IDLE detent?
+      explanation: |-
+        ### FCOM 12.10.1, Engine Valve Closed and SPAR VALVE CLOSED Lights
+
+        > Extinguished – related engine or spar fuel shutoff valve is open. Illuminated (blue) – • **bright – related engine or spar fuel shutoff valve is in transit**, or valve position and engine start lever or engine fire switch disagree. • **dim – related engine or spar fuel shutoff valve is closed.**
+
+        Moving the start lever to IDLE opens the valve: closed (dim), in transit (bright), open (extinguished). The check is also listed in FCOM SP.12.2, Spar Fuel Shutoff Valve Operational Check During Engine Start.
+      presets:
+        - correctAnswers:
+            - text: Transitions from dim, to bright and then extinguishes.
+          wrongAnswers:
+            - text: Transitions from extinguished to bright.
+            - text: Transitions from extinguished to dim.
+            - text: Transitions from extinguished, to bright and then dim.
+    - type: simple
+      question: During an engine start , when an engine start lever is positioned to IDLE detent, which of the following statements is correct?
+      explanation: |-
+        ### FCOM 12.10.1, Engine Valve Closed and SPAR VALVE CLOSED Lights
+
+        > Extinguished – related engine or spar fuel shutoff valve is open. Illuminated (blue) – • **bright – related engine or spar fuel shutoff valve is in transit**, or valve position and engine start lever or engine fire switch disagree. • **dim – related engine or spar fuel shutoff valve is closed.**
+
+        Moving the start lever to IDLE opens the valve: closed (dim), in transit (bright), open (extinguished). The check is also listed in FCOM SP.12.2, Spar Fuel Shutoff Valve Operational Check During Engine Start.
+      presets:
+        - correctAnswers:
+            - text: The related blue SPAR VALVE CLOSED light transitions from dim, to bright, and then extinguished.
+          wrongAnswers:
+            - text: The related blue SPAR VALVE CLOSED light transitions from dim to extinguished.
+            - text: The related blue SPAR VALVE CLOSED light transitions from extinguished, to bright, and then dim.
+            - text: The related SPAR VALVE CLOSED light is unaffected by the engine start lever position.
+- id: QREBW
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "In flight a fuel imbalance between No1 and No2 tanks can be corrected by:"
+      explanation: |-
+        ### FCOM SP.12.3, Fuel Balancing
+
+        > If the center tank contains fuel: Center tank fuel pump switches ......... OFF Crossfeed selector ......... **Open** Fuel pump switches (low tank) ......... **OFF** When quantities are balanced: Fuel pump switches (main tank) ......... ON Center tank fuel pump switches ......... ON Crossfeed selector ......... Close
+
+        The fuel from the tank with more fuel feeds both engines through the crossfeed valve. Continued crossfeed use produces a progressive imbalance (FCOM 12.20.2), so the crossfeed is closed once the quantities are balanced.
+      presets:
+        - correctAnswers:
+            - text: Open the Crossfeed cock, turn off the pumps on the low side until the Fuel Quantity Indicators are balanced.
+          wrongAnswers:
+            - text: Increase thrust setting on the side with higher amount of fuel and decrease thrust setting on side with lower amount of fuel.
+            - text: Opening the crossfeed valve, turning OFF the fuel pumps for the tank with lower fuel and allowing the pumps from the tank with the higher amount of fuel to transfer fuel to the other tank until the IMBAL amber warning light extinguishes, then close the Crossfeed valve and turn back on the pumps.
+            - text: A Fuel imbalance cannot be rectified in flight, as fuel transfer between tanks can only be carried out on the ground using the Ground Refuelling Panel switches.
+- id: QBYTZ
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 12.10.6, Fuel Imbalance (IMBAL) Alert
+
+        > Displayed (amber) – • main tanks differ by more than 453 kgs • displayed below main tank with lower fuel quantity • **displayed when airplane is on the ground or in the air** • inhibited by fuel LOW indication when both indications exist • displayed until imbalance is reduced to 91 kgs
+      statements:
+        - text: The fuel imbalance alert is only displayed when the aircraft is in the air.
+          answer: false
+- id: QTHNK
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Where is the fuel temperature sensor located?
+      explanation: |-
+        ### FCOM 12.20.3, Fuel Temperature
+
+        > The FUEL TEMP indicator located on the fuel control panel displays fuel temperature. **A sensor in main tank No. 1** allows monitoring of fuel temperature. The temperature indicating system uses AC electrical power.
+      presets:
+        - correctAnswers:
+            - text: In the No1 main tank.
+          wrongAnswers:
+            - text: In each engine Hydro-Mechanical fuel control unit.
+            - text: 1 in the inboard rear of each main tank
+            - text: In each engine supply line adjacent to the Fuel Flow Meter
+- id: QDOWL
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: For landing, what is the maximum fuel imbalance between the No.1 and No.2 main tanks?
+      explanation: |-
+        ### FCOM L.10.10, Fuel Balance
+
+        > Lateral imbalance between main tanks 1 and 2 must be scheduled to be zero. **Random fuel imbalance must not exceed 453 kgs for taxi, takeoff, flight or landing.**
+      presets:
+        - correctAnswers:
+            - text: 453 Kgs.
+          wrongAnswers:
+            - text: 653 Kgs.
+            - text: 553 Kgs.
+            - text: 726 Kgs.
+- id: QGJVR
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How many fuel pumps does each tank have, and where are they located?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The centre tank has 2 AC fuel pumps mounted on the rear wall of the centre tank.  The No1 tank has 2 AC pumps mounted in the centre tank - 1 on the front wall and one on the rear wall.  The No2 tank has 2 AC pumps mounted in the centre tank - 1 on the front wall and 1 on the rear wall.  There is also a Jet pump mounted in the centre tank discharging into No1 tank
+          wrongAnswers:
+            - text: The centre tank has 2 AC pumps located on the forward wall of the centre tank.  The No1 main tank has 2 AC pumps located on the rear wall of the No1 tank.  The No2 main tank has 2 AC pumps located on the rear wall of the No2 tank.
+            - text: The centre tank has 1 AC fuel pump located on the front wall of the centre tank and 1 located on the rear wall of the centre tank.  The No1 main tank has 1 pump located on the rear wall of the No1 tank and 1 pump located on the front wall of the No1 tank .  The No2 tank has 1 pump located on the rear wall of the No2 tank and 1 pump located on the front wall of the No2 tank.
+            - text: The centre tank has 2 AC pumps located on the forward wall of the centre tank.  The No1 main tank has 1 AC pump located on the rear wall of the No1 tank.  The No2 main tank has 1 AC pump located on the rear wall of the No2 tank.
+- id: QABTH
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What are the USABLE FUEL capacities of the aircraft fuel tanks?
+      explanation: |-
+        ### FCOM 12.20.4, Fuel Tanks
+
+        > TANK / LITERS / KILOGRAMS* NO. 1 / 4,876 / **3,915** NO. 2 / 4,876 / **3,915** CENTER / 16,273 / **13,066** TOTAL / 26,025 / 20,896
+        > * Usable fuel at level attitude, fuel density = 0.8029 kilograms per liter
+      presets:
+        - correctAnswers:
+            - text: Centre 13,066kg, No1 = 3,915kg, No2 = 3,915kg.
+          wrongAnswers:
+            - text: Centre = 12,726kg, No1 = 3,453kg, No2 = 3,453kg.
+            - text: Centre = 3915kg, No1 = 13,066kg , No2 = 13,066kg
+            - text: Centre = 20,025 ltr, No1 = 4,876 ltr, No2 = 4,876 ltr
+- id: QMPNH
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does a blue light mean on the Nitrogen Generation System (NGS).
+      explanation: |-
+        ### FCOM 12.10.10, Nitrogen Generation System (NGS)
+
+        > OPERATIONAL Light (green) NGS is fully operational.
+        >
+        > **DEGRADED Light (blue)** **NGS is operational, but is operating in a degraded condition.**
+        >
+        > INOPERATIVE Light (amber) NGS is inoperative.
+      presets:
+        - correctAnswers:
+            - text: NGS system functioning in a degraded condition.
+          wrongAnswers:
+            - text: Dim blue means NGS valve agrees with commanded position.
+            - text: Bright blue means NGS valve closed or disagrees with commanded position
+            - text: Bright blue means NGS valve closed.
+- id: QVGSM
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What operates the spar fuel shutoff valve?
+      explanation: |-
+        ### FCOM 12.20.3, Fuel Shutoff Valves
+
+        > Spar fuel shutoff valves are located at the engine–mounting wing stations. **The valves are DC motor operated from the hot battery bus.** The engine fuel shutoff valves are fuel actuated, solenoid controlled valves powered from the battery bus.
+
+        ![Fuel system schematic](annex:AQWR)
+      presets:
+        - correctAnswers:
+            - text: DC motor from Hot Battery Bus
+          wrongAnswers:
+            - text: Pushrods and cranks
+            - text: Cables and pulleys
+            - text: AC motor from Standby Bus
+- id: QAPEI
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 12.10.5, Fuel Configuration (CONFIG) Alert
+
+        > Displayed (amber) – • either engine running • **center fuel tank quantity greater than 726 kgs; and** • **both center fuel tank pump switches positioned OFF**
+        >
+        > YW064 - YW164 The quantity digits on the **center tank** fuel quantity indicator turn amber.
+
+        The amber digits are on the centre tank indicator, not on the No. 1 and No. 2 indicators.
+      statements:
+        - text: With the engines running, the fuel CONFIG alert will be displayed by the No1 and No2 Fuel Quantity Indicators turning Amber, when the Centre tank quantity is greater than 726kg and the Centre tank pump switches are off
+          answer: false
+- id: QWPWP
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: In the unlikely situation of total generator failure, at high altitude thrust deterioration may occur. Why?
+      explanation: |-
+        ### FCOM 12.20.2, Suction Feed
+
+        > When main tank fuel pump pressure is low, each engine can draw fuel from its corresponding main tank through a suction feed line that bypasses the pumps. As the airplane climbs, **dissolved air is released from the fuel in the tank** due to the decrease in air pressure. **This air may collect in the suction feed line and restrict fuel flow. At high altitude, thrust deterioration or engine flameout may occur** as a result of the fuel flow reduction.
+
+        The fuel pumps are AC powered, so with total generator failure the engines suction feed.
+      presets:
+        - correctAnswers:
+            - text: The fuel will be suction fed, which may cause dissolved air released from the fuel to restrict fuel flow in the suction feed line.
+          wrongAnswers:
+            - text: Loss of AC power will affect the ignition system and therefore create a potential risk of flameout
+            - text: When on STBY power the fuel pumps run a little slower
+            - text: When on STBY power the HMU will be unreliable, therefore thrust deterioration might occur at high altitude
+- id: QQHXW
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "During cruise you note both center tank fuel pumps have failed as indicated by the illumination of both center tank fuel pump LOW PRESSURE lights. You still have 320 kg of fuel in the center tank and both main tanks are full. You will see:"
+      explanation: |-
+        ### FCOM 12.10.5, Fuel Alerts
+
+        > **Fuel LOW Alert** Displayed (amber) – • fuel tank quantity less than 453 kgs in related main tank
+        >
+        > **Fuel Configuration (CONFIG) Alert** Displayed (amber) – • either engine running • center fuel tank quantity greater than 726 kgs; and • both center fuel tank pump switches positioned OFF
+
+        With both main tanks full there is no LOW alert. The CONFIG alert needs both centre pump switches OFF, and the failed pumps are still switched ON. The LOW PRESSURE lights are on the overhead fuel panel, not on the display.
+      presets:
+        - correctAnswers:
+            - text: There will be no indication on CDS
+          wrongAnswers:
+            - text: a CONFIG indication on the CDS
+            - text: a LOW indication on the CDS
+            - text: a pump LOW PRESSURE indication on the CDS
+- id: QLZAZ
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The amber fuel IMBAL alert will remain displayed until the imbalance is reduced to:-
+      explanation: |-
+        ### FCOM 12.10.6, Fuel Imbalance (IMBAL) Alert
+
+        > Displayed (amber) – • main tanks differ by more than 453 kgs [...] • **displayed until imbalance is reduced to 91 kgs**
+      presets:
+        - correctAnswers:
+            - text: 91 kgs
+          wrongAnswers:
+            - text: 726 kgs
+            - text: 363 kgs
+            - text: 453 kgs
+- id: QFYNQ
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the indication of the Crossfeed VALVE OPEN Light when the CROSSFEED selector is positioned OPEN and the crossfeed valve is closed?
+      explanation: |-
+        ### FCOM 12.10.2, Crossfeed VALVE OPEN Light
+
+        > Extinguished – crossfeed valve is closed. Illuminated (blue) – • **bright – crossfeed valve is in transit, or valve position and CROSSFEED selector disagree.** • dim – crossfeed valve is open.
+
+        ![Fuel system schematic](annex:AQWR)
+      presets:
+        - correctAnswers:
+            - text: illuminated bright blue
+          wrongAnswers:
+            - text: illuminated amber
+            - text: illuminated dim blue
+            - text: extinguished
+- id: QPXGA
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The center tank fuel scavenge jet pump operates when:"
+      explanation: |-
+        ### FCOM 12.20.3, Center Tank Fuel Scavenge Jet Pump
+
+        > With the main tank fuel pump No. 1 FWD Switch ON, the center tank fuel scavenge jet pump operates automatically to transfer any remaining center tank fuel to main tank No. 1. **Fuel transfer begins when main tank No. 1 quantity is about one-half.** Once the fuel scavenge process begins, it continues for the remainder of the flight.
+      presets:
+        - correctAnswers:
+            - text: the No. 1 main fuel tank is about 1/2 full
+          wrongAnswers:
+            - text: either engine is operating
+            - text: the center fuel tank is about 3/4 full
+            - text: both Center Tank Fuel Pump Switches are turned OFF
+- id: QCPLY
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How many fuel measuring sticks are installed?
+      explanation: |-
+        ### FCOM 12.10.8, Fuel Measuring Stick
+
+        > **six fuel measuring sticks are installed in each main tank and four are installed in center tank**
+
+        6 + 6 + 4 = 16.
+      presets:
+        - correctAnswers:
+            - text: "16"
+          wrongAnswers:
+            - text: "12"
+            - text: "6"
+            - text: "20"
+- id: QXSOP
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "During cruise both centre tank fuel pumps have failed. There is still 460 kg in the centre tank, and both main tanks are full. The upper Display Unit will show:"
+      explanation: |-
+        ### FCOM 12.10.5, Fuel Alerts
+
+        > **Fuel LOW Alert** Displayed (amber) – • fuel tank quantity less than 453 kgs in related main tank
+        >
+        > **Fuel Configuration (CONFIG) Alert** Displayed (amber) – • either engine running • center fuel tank quantity greater than 726 kgs; and • both center fuel tank pump switches positioned OFF
+
+        With both main tanks full there is no LOW alert. The CONFIG alert needs both centre pump switches OFF, and the failed pumps are still switched ON. The LOW PRESSURE lights are on the overhead fuel panel, not on the display.
+      presets:
+        - correctAnswers:
+            - text: There will be no indication on the CDS
+          wrongAnswers:
+            - text: A LOW Alert indication under centre tank.
+            - text: A CONFIG Alert indication.
+            - text: A pump low pressure indication.
+- id: QUSLR
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When the engine start lever is placed to CUTOFF:-
+      explanation: |-
+        ### FCOM 12.20.3, Fuel Shutoff Valves
+
+        > **Both the spar fuel shutoff valve and the engine fuel shutoff valve close** whenever their respective engine fire switch is pulled or engine start lever is placed to CUTOFF.
+
+        ![Fuel system schematic](annex:AQWR)
+      presets:
+        - correctAnswers:
+            - text: The spar fuel shutoff valve and engine fuel shutoff valve both close.
+          wrongAnswers:
+            - text: The engine fuel shutoff valve only closes.
+            - text: The spar fuel shutoff valve only closes.
+            - text: The spar fuel shutoff valve, engine fuel shutoff valve and engine bypass valve all close.
+- id: QHHZX
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the source of electrical power for the engine fuel shutoff valves?
+      explanation: |-
+        ### FCOM 12.20.3, Fuel Shutoff Valves
+
+        > Spar fuel shutoff valves are located at the engine–mounting wing stations. The valves are DC motor operated from the hot battery bus. **The engine fuel shutoff valves are fuel actuated, solenoid controlled valves powered from the battery bus.**
+
+        The spar valves use the hot battery bus. The engine valves use the battery bus.
+
+        ![Fuel system schematic](annex:AQWR)
+      presets:
+        - correctAnswers:
+            - text: the Battery Bus
+          wrongAnswers:
+            - text: the Hot Battery Bus
+            - text: the DC Standby Bus
+            - text: the AC Standby Bus
+- id: QTJSY
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: In-flight, the two fuel pump LOW PRESSURE Lights for main tank No.1 illuminate. What happens to the No.1 engine?
+      explanation: |-
+        ### FCOM 12.20.2, Suction Feed
+
+        > When main tank fuel pump pressure is low, **each engine can draw fuel from its corresponding main tank through a suction feed line that bypasses the pumps.**
+      presets:
+        - correctAnswers:
+            - text: it receives fuel from main tank No.1 through a suction feed line that bypasses the pumps
+          wrongAnswers:
+            - text: it receives fuel from main tank No. 2 automatically
+            - text: it will shut down due to fuel starvation
+            - text: it continues to operate due to the metering of fuel by the Fuel Control Unit
+- id: QWRGM
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: During fuel balancing with the fuel pump switches of the low tank OFF, what position must the centre tank fuel pump switches be in?
+      explanation: |-
+        ### FCOM SP.12.3, Fuel Balancing
+
+        > If the center tank contains fuel: Center tank fuel pump switches ......... **OFF** [Fuel CONFIG indication may be displayed with fuel in the center tank.] Crossfeed selector ......... Open Fuel pump switches (low tank) ......... OFF
+      presets:
+        - correctAnswers:
+            - text: Both OFF.
+          wrongAnswers:
+            - text: Both ON.
+            - text: Left OFF, right ON.
+            - text: Left ON, right OFF.
+- id: QIBLH
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What may indicate an engine fuel leak during the cruise?
+      explanation: |-
+        ### QRH 12.10, Fuel Leak Engine ( )
+
+        > Reasons that an engine fuel leak should be suspected: • A visual observation of fuel spray • **The total fuel quantity is decreasing at an abnormal rate** • **An engine has excessive fuel flow** • **The fuel IMBAL alert shows** • The fuel LOW alert shows
+      presets:
+        - correctAnswers:
+            - text: An IMBAL alert, excessive fuel flow to one engine, or total fuel considerably below the planned fuel.
+          wrongAnswers:
+            - text: A CONFIG alert or a pump LOW PRESSURE alert.
+            - text: Abnormally high EGT or fluctuating N1.
+            - text: An engine OVHT warning.
+- id: QMGCK
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: During fuel balancing, why must you not switch off both fuel pumps on one side before opening the crossfeed valve?
+      explanation: |-
+        ### FCOM SP.12.2, Fuel Balancing
+
+        > Note: Fuel pump pressure should be supplied to the engines at all times. **At high altitude, without fuel pump pressure, thrust deterioration or engine flameout may occur.**
+
+        With no pump pressure the engine on that side suction feeds, and dissolved air released at altitude can restrict the fuel flow (FCOM 12.20.2).
+      presets:
+        - correctAnswers:
+            - text: The engine on that side would suction feed, which may lead to thrust deterioration or flameout at high altitude.
+          wrongAnswers:
+            - text: It would overload the remaining fuel pumps and trip their circuit breakers.
+            - text: The crossfeed valve may not operate against a differential pressure.
+- id: QVDGB
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: In flight with all fuel pumps ON, what may the failure of a single centre tank pump lead to?
+      explanation: |-
+        ### QRH 12.13, FUEL PUMP LOW PRESSURE
+
+        > One CTR tank fuel pump LOW PRESSURE light is illuminated: 2 CROSSFEED selector ......... Open **This prevents fuel imbalance.** 3 CTR FUEL PUMP switch (affected side) ......... OFF
+      presets:
+        - correctAnswers:
+            - text: A fuel IMBAL alert.
+          wrongAnswers:
+            - text: A LOW alert.
+            - text: Flameout.
+            - text: A CONFIG alert.
+- id: QXGVV
+  subjectId: b737
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When is a fuel LOW indication displayed?
+      explanation: |-
+        ### FCOM 12.10.5, Fuel LOW Alert
+
+        > Displayed (amber) – • **fuel tank quantity less than 453 kgs in related main tank** • display remains until fuel tank quantity is increased to 567 kgs
+      presets:
+        - correctAnswers:
+            - text: When a main tank quantity is less than 453 kg.
+          wrongAnswers:
+            - text: When a main tank quantity is less than 762 kg.
+            - text: When a main tank pump output pressure is low.
+            - text: When the fuel supply pressure to an engine is low.

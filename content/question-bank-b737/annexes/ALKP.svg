@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="452" height="320" viewBox="580 139 452 320" role="img" aria-labelledby="title description" xml:lang="en-GB">
+  <title id="title">System B reservoir after a leak</title>
+  <desc id="description">A leak in the System B engine-driven pump outlet drains the reservoir to the lip of the shared standpipe. Both main pumps lose their fluid supply. The fluid below the lip can still feed the power transfer unit.</desc>
+  <metadata>Detail adapted from the 737-800 Hydraulic Power Distribution Schematic, FCOM Rev 38, with the leak and residual fluid level based on 13.20.3.</metadata>
+  <style>
+    :root { --ink: #171a1c; --paper: #ffffff; --red: #c41c1c; --green: #1f7a1f; --backdrop: #f3f4f6 }
+    @media (prefers-color-scheme: dark) {
+      :root { --ink: #f0f4f8; --paper: #171a1c; --red: #e5484d; --green: #2ea043; --backdrop: #0b0d0e }
+    }
+    :root[data-theme="light"] { --ink: #171a1c; --paper: #ffffff; --red: #c41c1c; --green: #1f7a1f; --backdrop: #f3f4f6 }
+    :root[data-theme="dark"] { --ink: #f0f4f8; --paper: #171a1c; --red: #e5484d; --green: #2ea043; --backdrop: #0b0d0e }
+    .outline { fill: none; stroke: var(--ink); stroke-width: 2.2 }
+    .pipe-edge { fill: none; stroke: var(--ink); stroke-width: 15 }
+    .pipe-core { fill: none; stroke-width: 10.5 }
+    .b { stroke: var(--green) }
+    .depleted { stroke: var(--paper) }
+    .fill-b { fill: var(--green) }
+    .fill-ink { fill: var(--ink) }
+    .component { fill: var(--paper); stroke: var(--ink); stroke-width: 2.2 }
+    .component-fill { fill: var(--paper) }
+    .stroke-paper { stroke: var(--paper) }
+    .label { font-family: Menlo, Consolas, "Liberation Mono", monospace; font-size: 14px; font-weight: 700; fill: var(--ink) }
+    .backdrop { fill: var(--backdrop) }
+    .leak { fill: var(--red) }
+    .spray { fill: none; stroke: var(--red); stroke-width: 2.6; stroke-linecap: round }
+  </style>
+  <defs>
+    <path id="rotor-vane" d="M6 -5q6 -9 12 -4l1 5q-6-3-10 4z"/>
+  </defs>
+  <rect x="580" y="139" width="452" height="320" class="backdrop"/>
+
+  <path d="M832 161Q868 145 904 161V252Q891 258 875 260V269H923V308H909V283H829V308H815V269H861V260Q846 258 832 252H671V339H657V239H832Z" class="component-fill"/>
+  <path d="M832 233H861V260Q846 258 832 252H671V339H657V239H832Z M875 233H904V252Q891 258 875 260Z" class="fill-b"/>
+  <path d="M657 339V239H832V161Q868 145 904 161V252Q891 258 875 260 M671 339V252H832Q846 258 861 260 M815 308V269H861V233 M829 308V283H909V308 M923 308V269H875V233 M904 167H919 M904 179H919" class="outline"/>
+  <text x="868" y="199" text-anchor="middle" class="label"><tspan x="868">SYSTEM</tspan><tspan x="868" dy="16">B</tspan></text>
+  <text x="925" y="170" class="label"><tspan x="925">AIR</tspan><tspan x="925" dy="16">PRESSURE</tspan></text>
+
+  <path d="M823 326V369H916V360 M916 326V345 M868 369V459 M868 407H829" class="pipe-edge"/>
+  <path d="M823 326V369H916V360 M916 326V345 M868 369V459 M868 407H829" class="pipe-core depleted"/>
+  <path d="M909 344l5 2 4-3 5 2 M909 360l5 2 4-3 5 1" class="outline"/>
+  <path d="M924 349q11-6 21-4 M924 352q14 1 25 7 M924 355q8 5 12 13" class="spray"/>
+  <path d="M953 343q7-3 11 0-4 4-11 0Zm3 18q8-1 11 5-6 2-11-5Zm-17 12q7 2 7 8-6-1-7-8Z" class="leak"/>
+  <text x="971" y="351" class="label leak">LEAK</text>
+
+  <circle cx="760" cy="277" r="18" class="component"/>
+  <text x="760" y="282" text-anchor="middle" class="label">M</text>
+  <path d="M832 305H814L787 278 760 305 787 332H832Z" class="component"/>
+  <g transform="translate(1112 26) scale(-1 1)">
+    <g transform="translate(145 235) rotate(45)">
+      <rect width="15" height="35" class="component"/>
+      <path d="M0 7h15 M0 14h15 M0 21h15 M0 28h15 M15 17.5h10" class="outline"/>
+    </g>
+  </g>
+  <path d="M905 305H924L949 278 977 305 950 332H905Z" class="component"/>
+
+  <path d="M664 364V393H702" class="pipe-edge"/>
+  <path d="M664 364V393H702" class="pipe-core b"/>
+  <path d="M580 344H609V357H580" class="component"/>
+  <path d="M621 330h43a21 21 0 0 1 0 42h-43a21 21 0 0 1 0-42Z" class="component"/>
+  <g transform="translate(621 351)">
+    <circle r="20" class="fill-ink stroke-paper" stroke-width="1.2"/>
+    <circle r="9.5" class="component-fill"/>
+    <g class="component-fill">
+      <use href="#rotor-vane"/>
+      <use href="#rotor-vane" transform="rotate(72)"/>
+      <use href="#rotor-vane" transform="rotate(144)"/>
+      <use href="#rotor-vane" transform="rotate(216)"/>
+      <use href="#rotor-vane" transform="rotate(288)"/>
+    </g>
+  </g>
+  <g transform="translate(664 351)">
+    <circle r="20" class="fill-ink stroke-paper" stroke-width="1.2"/>
+    <circle r="9.5" class="component-fill"/>
+    <g class="component-fill">
+      <use href="#rotor-vane"/>
+      <use href="#rotor-vane" transform="rotate(72)"/>
+      <use href="#rotor-vane" transform="rotate(144)"/>
+      <use href="#rotor-vane" transform="rotate(216)"/>
+      <use href="#rotor-vane" transform="rotate(288)"/>
+    </g>
+  </g>
+  <text x="689" y="316" class="label"><tspan x="689">POWER</tspan><tspan x="689" dy="16">TRANSFER</tspan><tspan x="689" dy="16">UNIT</tspan></text>
+  <rect x="702" y="365" width="127" height="81" class="component"/>
+  <text x="765.5" y="387" text-anchor="middle" class="label"><tspan x="765.5">AUTO SLATS</tspan><tspan x="765.5" dy="16">AND</tspan><tspan x="765.5" dy="16">LEADING EDGE</tspan><tspan x="765.5" dy="16">FLAPS &amp; SLATS</tspan></text>
+</svg>

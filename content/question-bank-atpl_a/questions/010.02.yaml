@@ -1,0 +1,303 @@
+- id: QJPFE
+  subjectId: "010"
+  chapterId: "010.02"
+  relatedQuestionIds:
+    - QRIYV
+  externalQuestionIds:
+    - ATPLQ-107510
+    - ATPLQ-109899
+  annexes: []
+  learningObjectiveIds:
+    - 010.02.02.01.01
+  templates:
+    - type: simple
+      question: An aircraft of an airline operating in Malta was built in the USA and registered in Germany. Who bears the responsibility for issuing the Certificate of Airworthiness?
+      explanation: |-
+        ### Chicago Convention, Article 31
+
+        > Every aircraft engaged in international navigation shall be provided with a **certificate of airworthiness issued or rendered valid by the State in which it is registered**.
+      presets:
+        - correctAnswers:
+            - text: Germany.
+          wrongAnswers:
+            - text: The state of design.
+            - text: Malta.
+            - text: USA.
+    - type: simple
+      question: A certificate of airworthiness shall be issued on the basis of satisfactory evidence that the aircraft complies with the design aspects of the appropriate airworthiness requirements. Who issues the Certificate of Airworthiness?
+      explanation: |-
+        ### Chicago Convention, Article 31
+
+        > Every aircraft engaged in international navigation shall be provided with a **certificate of airworthiness issued or rendered valid by the State in which it is registered**.
+      presets:
+        - correctAnswers:
+            - text: The authority of the State of Registration.
+          wrongAnswers:
+            - text: The authority of the State of the Operator.
+            - text: The authority of the State of Manufacture.
+            - text: The operator.
+- id: QALTD
+  subjectId: "010"
+  chapterId: "010.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106154
+    - AVEXAM-90055
+    - BGS-101423
+    - ATPLQ-104471
+    - AVEXAM-34503
+  annexes: []
+  learningObjectiveIds:
+    - 010.02.02.01.02
+    - 010.02.02.01.05
+  templates:
+    - type: simple
+      question: |-
+        Complete the following phrase:
+
+        An aircraft that is operated in the EU must hold \_\_\_\_\_ that is issued or rendered valid by the State of Registry.
+      explanation: |-
+        ### Chicago Convention, Article 31
+
+        > Every aircraft engaged in international navigation shall be provided with a **certificate of airworthiness issued or rendered valid by the State in which it is registered**.
+      presets:
+        - correctAnswers:
+            - text: A Certificate of Airworthiness.
+          wrongAnswers:
+            - text: An Aircraft Technical Log.
+            - text: A Journey Log.
+            - text: A Type Certificate.
+    - type: simple
+      question: An aircraft is registered in Germany and flies frequently between Greece and Italy. Under the laws of which State does the renewal of its certificate of airworthiness fall?
+      explanation: |-
+        ### Chicago Convention, Article 31
+
+        > Every aircraft engaged in international navigation shall be provided with a **certificate of airworthiness issued or rendered valid by the State in which it is registered**.
+
+        Rendering the certificate valid again is therefore the task of Germany, the State of Registry, wherever the aircraft flies.
+      presets:
+        - correctAnswers:
+            - text: Germany.
+          wrongAnswers:
+            - text: Greece.
+            - text: Italy.
+            - text: Both Greece and Italy.
+- id: QRIYV
+  subjectId: "010"
+  chapterId: "010.02"
+  relatedQuestionIds:
+    - QNSRM
+    - QJPFE
+  externalQuestionIds:
+    - ATPLQ-108142
+    - AVEXAM-69018
+    - BGS-101508
+    - ATPLQ-103345
+    - AVEXAM-78431
+  annexes: []
+  learningObjectiveIds:
+    - 010.02.02.01.04
+  templates:
+    - type: simple
+      question: The State that shall judge whether a damaged aircraft is airworthy, as defined by the appropriate airworthiness requirements, is the?
+      explanation: |-
+        ### ICAO Annex 8, Part II, 3.6
+
+        > 3.6.1 When an aircraft has sustained damage, **the State of Registry shall judge** whether the damage is of a nature such that the aircraft is no longer airworthy as defined by the appropriate airworthiness requirements.
+
+        > 3.6.4 When the State of Registry considers that the damage sustained is of a nature such that the aircraft is still airworthy, **the aircraft shall be allowed to resume its flight**.
+      presets:
+        - correctAnswers:
+            - text: State of Registry.
+          wrongAnswers:
+            - text: Contracting State.
+            - text: State of Manufacture.
+            - text: State of Design.
+    - type: simple
+      question: Continued Airworthiness after damage – When an aircraft has sustained damage, the aircraft shall be allowed to resume its flight, if the..
+      explanation: |-
+        ### ICAO Annex 8, Part II, 3.6
+
+        > 3.6.1 When an aircraft has sustained damage, **the State of Registry shall judge** whether the damage is of a nature such that the aircraft is no longer airworthy as defined by the appropriate airworthiness requirements.
+
+        > 3.6.4 When the State of Registry considers that the damage sustained is of a nature such that the aircraft is still airworthy, **the aircraft shall be allowed to resume its flight**.
+      presets:
+        - correctAnswers:
+            - text: State of Registry considers that the damage sustained is of such nature that the aircraft is still airworthy.
+          wrongAnswers:
+            - text: State of Manufacture informs the State of Registry that the damage sustained is of a nature such that the aircraft is still airworthy.
+            - text: State of Design and the State of Manufacture inform the State of Registry that the aircraft is still airworthy.
+            - text: State of Registry, the State of Design and the State of Manufacture consider that the aircraft is still airworthy.
+- id: QNSRM
+  subjectId: "010"
+  chapterId: "010.02"
+  relatedQuestionIds:
+    - QRIYV
+    - QRPAN
+  externalQuestionIds:
+    - ATPLQ-101684
+    - AVEXAM-80733
+    - ATPLQ-106159
+    - AVEXAM-58507
+    - BGS-100027
+  annexes: []
+  learningObjectiveIds:
+    - 010.02.02.01.04
+  templates:
+    - type: simple
+      question: Which State ensures the existence of a continuing structural integrity programme to ensure the airworthiness of the aeroplane above 5700 kg certificated take-off mass?
+      explanation: |-
+        ### ICAO Annex 8, Part II, 4.2.1.1
+
+        > The State of Design of an aircraft shall: […] c) ensure that, in respect of aeroplanes over 5 700 kg maximum certificated take-off mass, there exists a **continuing structural integrity programme** to ensure the airworthiness of the aeroplane. The programme shall include specific information concerning corrosion prevention and control.
+      presets:
+        - correctAnswers:
+            - text: The State of Design.
+          wrongAnswers:
+            - text: The State of Maintenance Facility.
+            - text: The State of Registry.
+            - text: The State of Manufacture.
+    - type: simple
+      question: Which of the following refers to the state of design?
+      explanation: |-
+        ### ICAO Annex 8, Part II, 4.2.1.1
+
+        > The State of Design of an aircraft shall: […] c) ensure that, in respect of aeroplanes over 5 700 kg maximum certificated take-off mass, there exists a **continuing structural integrity programme** to ensure the airworthiness of the aeroplane. The programme shall include specific information concerning corrosion prevention and control.
+      presets:
+        - correctAnswers:
+            - text: It shall ensure that there exists a continuing structural integrity program to ensure the airworthiness of aeroplanes above 5 700 kg.
+          wrongAnswers:
+            - text: It is responsible for investigation if an accident happened in a non-contracting state.
+            - text: It issues the certificate of airworthiness.
+            - text: It performs the investigation if an accident occurs in the territory of a contracting state.
+- id: QRPAN
+  subjectId: "010"
+  chapterId: "010.02"
+  relatedQuestionIds:
+    - QNSRM
+  externalQuestionIds:
+    - AVEXAM-41637
+    - ATPLQ-107443
+  annexes: []
+  learningObjectiveIds:
+    - 010.02.02.01.04
+  templates:
+    - type: simple
+      question: Which of the following refers to the State of Manufacture?
+      explanation: |-
+        ### ICAO Annex 13, Chapter 1, Definitions
+
+        > State of Manufacture. The State having jurisdiction over the organization responsible for the **final assembly of the aircraft**, engine or propeller.
+      presets:
+        - correctAnswers:
+            - text: It has jurisdiction over the organisation responsible for the final assembly of the aircraft.
+          wrongAnswers:
+            - text: It issues the certificate of airworthiness.
+            - text: It ensures that a continuing structural integrity programme exists for aeroplanes above 5 700 kg.
+            - text: It is the State in which the aircraft operator has its principal place of business.
+- id: QPFOB
+  subjectId: "010"
+  chapterId: "010.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102560
+    - AVEXAM-835
+    - BGS-101387
+    - ATPLQ-103449
+    - ATPLQ-105529
+  annexes: []
+  learningObjectiveIds:
+    - 010.02.03.01.01
+  templates:
+    - type: simple
+      question: ICAO Annex 7 defines the State of Registry as the State..
+      explanation: |-
+        ### ICAO Annex 7, Chapter 1, Definitions
+
+        > State of Registry. The State on whose register the aircraft is entered.
+      presets:
+        - correctAnswers:
+            - text: on whose register the aircraft is entered.
+          wrongAnswers:
+            - text: on whose the certificate of registry of the aircraft is entered.
+            - text: in which the aircraft operator is registered.
+            - text: where the aircraft is based.
+- id: QFROU
+  subjectId: "010"
+  chapterId: "010.02"
+  relatedQuestionIds:
+    - QPBKS
+    - QJUVD
+  externalQuestionIds:
+    - ATPLQ-106468
+    - BGS-101824
+    - AVEXAM-45184
+  annexes: []
+  learningObjectiveIds:
+    - 010.02.04.01.01
+  templates:
+    - type: simple
+      question: In the case of a heavier-than-air aircraft, where on the fuselage structure are the registration marks?
+      explanation: |-
+        ### ICAO Annex 7, 4.3.2
+
+        > Fuselage (or equivalent structure) and vertical tail surfaces. On heavier-than-air aircraft, the marks shall appear either **on each side of the fuselage (or equivalent structure) between the wings and the tail surface or on the upper halves of the vertical tail surfaces**.
+      presets:
+        - correctAnswers:
+            - text: Either on each side of the fuselage between the wings and the tail surface or on the upper halves of the vertical tail surfaces.
+          wrongAnswers:
+            - text: Any place that is visible.
+            - text: Either on the right side only of the fuselage between the wings and the tail surface or on the lower halves of the vertical tail surfaces.
+            - text: Either on the left side only of the fuselage between the wings and the tail surface or on the lower halves of the vertical tail surfaces.
+- id: QPBKS
+  subjectId: "010"
+  chapterId: "010.02"
+  relatedQuestionIds:
+    - QFROU
+    - QJUVD
+  externalQuestionIds:
+    - ATPLQ-103435
+  annexes: []
+  learningObjectiveIds:
+    - 010.02.04.01.01
+  templates:
+    - type: simple
+      question: Registration marks may consist of...
+      explanation: |-
+        ### ICAO Annex 7, 3.5
+
+        > The registration mark shall be **letters, numbers, or a combination of letters and numbers**, and shall be that assigned by the State of Registry or common mark registering authority.
+      presets:
+        - correctAnswers:
+            - text: Combination of number and letters.
+          wrongAnswers:
+            - text: Symbols.
+            - text: Nationality symbols.
+            - text: Just letters.
+- id: QJUVD
+  subjectId: "010"
+  chapterId: "010.02"
+  relatedQuestionIds:
+    - QPBKS
+    - QFROU
+  externalQuestionIds:
+    - ATPLQ-102656
+    - AVEXAM-35646
+    - BGS-101067
+  annexes: []
+  learningObjectiveIds:
+    - 010.02.04.01.02
+  templates:
+    - type: simple
+      question: Nationality and registration marks – The registration mark shall be assigned by the..
+      explanation: |-
+        ### ICAO Annex 7, 3.5
+
+        > The registration mark shall be letters, numbers, or a combination of letters and numbers, and shall be **that assigned by the State of Registry or common mark registering authority**.
+      presets:
+        - correctAnswers:
+            - text: State of Registry or a common mark registering authority.
+          wrongAnswers:
+            - text: International Civil Aviation Organisation.
+            - text: International Telecommunication Union.
+            - text: Ministry of Transport and Ministry of Defence of the State of Registry.

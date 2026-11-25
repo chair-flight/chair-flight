@@ -1,0 +1,166 @@
+- id: QUIGL
+  subjectId: "03"
+  chapterId: "03.10"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.10.02.02"
+  templates:
+    - type: simple
+      question: Information about pressure patterns and frontal situation can be found in which chart?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: surface weather chart.
+          wrongAnswers:
+            - text: wind chart.
+            - text: Significant Weather Chart (SWC).
+            - text: hypsometric chart.
+    - type: simple
+      question: Which weather chart shows the actual air pressure as in MSL along with pressure centres and fronts?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Surface weather chart
+          wrongAnswers:
+            - text: Hypsometric chart
+            - text: Prognostic chart
+            - text: Wind chart
+    - type: simple
+      question: Measured pressure distribution in MSL and corresponding frontal systems are displayed by the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: surface weather chart.
+          wrongAnswers:
+            - text: prognostic chart.
+            - text: Significant Weather Chart (SWC).
+            - text: hypsometric chart.
+- id: QMDVD
+  subjectId: "03"
+  chapterId: "03.10"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.10.01.03"
+  templates:
+    - type: simple
+      question: What information can be obtained from satellite images?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Overview of cloud covers and front lines
+          wrongAnswers:
+            - text: Temperature and dew point of environmental air
+            - text: Turbulence and icing
+            - text: Flight visibility, ground visibility, and ground contact
+- id: QZAMK
+  subjectId: "03"
+  chapterId: "03.10"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.10.01.04"
+  templates:
+    - type: simple
+      question: What chart shows areas of precipitation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Radar picture
+          wrongAnswers:
+            - text: XGAFOR
+            - text: Wind chart
+            - text: Satellite picture
+- id: QQAVH
+  subjectId: "03"
+  chapterId: "03.10"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.10.02.01"
+  templates:
+    - type: simple
+      question: What information is NOT found on Low-Level Significant Weather Charts (LLSWC)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Radar echos of precipitation
+          wrongAnswers:
+            - text: Information about icing conditions
+            - text: Information about turbulence areas
+            - text: Front lines and frontal displacements
+- id: QRMFH
+  subjectId: "03"
+  chapterId: "03.10"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.10.03.01"
+  templates:
+    - type: simple
+      question: In a METAR, "heavy rain" is designated by the identifier...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: +RA
+          wrongAnswers:
+            - text: RA.
+            - text: +SHRA
+            - text: SHRA.
+    - type: simple
+      question: In a METAR, "(moderate) showers of rain" are designated by the identifier...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SHRA.
+          wrongAnswers:
+            - text: +RA
+            - text: +TSRA
+            - text: TS.
+- id: QNCME
+  subjectId: "03"
+  chapterId: "03.10"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.10.03.02"
+  templates:
+    - type: simple
+      question: What information can be found in the ATIS, but not in a METAR?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Operational information such as runway in use and transition level
+          wrongAnswers:
+            - text: Information about current weather, for example types of precipitation
+            - text: Information about mean wind speeds, maximum speeds in gusts if applicable
+            - text: Approach information, such as ground visibility and cloud base
+    - type: simple
+      question: Weather and operational information about the destination aerodrome can be obtained during the flight by...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ATIS.
+          wrongAnswers:
+            - text: VOLMET.
+            - text: PIREP.
+            - text: SIGMET.
+- id: QASTJ
+  subjectId: "03"
+  chapterId: "03.10"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.10.03.04"
+  templates:
+    - type: simple
+      question: SIGMET warnings are issued for...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FIRs / UIRs.
+          wrongAnswers:
+            - text: specific routings.
+            - text: airports.
+            - text: countries.

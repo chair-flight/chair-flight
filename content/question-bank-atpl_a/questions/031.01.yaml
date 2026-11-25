@@ -1,0 +1,259 @@
+- id: QLGJV
+  subjectId: "031"
+  chapterId: "031.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-313269
+  annexes: []
+  learningObjectiveIds:
+    - 031.01.01.01.01
+  templates:
+    - type: simple
+      question: On an aeroplane with a mass just below MZFM, when is the wing load at its maximum?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: On landing.
+          wrongAnswers:
+            - text: On take-off.
+            - text: During cruise.
+            - text: At the brake release point.
+- id: QPNXN
+  subjectId: "031"
+  chapterId: "031.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-318781
+    - AVEXAM-28554
+  annexes: []
+  learningObjectiveIds:
+    - 031.01.01.01.01
+  templates:
+    - type: simple
+      question: In a turn flight, which scenario will cause the most bending moment at the wing root?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: High ZFM, low fuel.
+          wrongAnswers:
+            - text: High ZFM, high fuel.
+            - text: Low ZFM, High fuel.
+            - text: Low ZFM, low fuel.
+- id: QLOWF
+  subjectId: "031"
+  chapterId: "031.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-313102
+    - AVEXAM-48779
+    - BGS-310001
+  annexes: []
+  learningObjectiveIds:
+    - 031.01.01.02.01
+  templates:
+    - type: simple
+      question: "An additional baggage container is loaded into the aft cargo compartment but is not entered into the load and trim sheet. The aeroplane will be heavier than expected and calculated take-off safety speeds:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: will give reduced safety margin
+          wrongAnswers:
+            - text: are unaffected but V1 will be increased
+            - text: will not be achieved
+            - text: will be greater than required
+- id: QCNMI
+  subjectId: "031"
+  chapterId: "031.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-312357
+    - AVEXAM-36615
+  annexes: []
+  learningObjectiveIds:
+    - 031.01.02.01.01
+    - 031.01.02.01.03
+  templates:
+    - type: simple
+      question: During take-off, the load is suddenly sliding and moving backwards. What happens to the aircraft's CG and stability?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: CG moves aft and stability decreases.
+          wrongAnswers:
+            - text: CG moves aft and stability increases.
+            - text: CG moves forward and stability increases.
+            - text: CG moves forward and stability decreases.
+- id: QTOYC
+  subjectId: "031"
+  chapterId: "031.01"
+  relatedQuestionIds:
+    - QICEU
+  externalQuestionIds:
+    - BGS-310466
+    - AVEXAM-56800
+    - AVEXAM-89214
+    - AVEXAM-84533
+    - ATPLQ-312125
+  annexes: []
+  learningObjectiveIds:
+    - 031.01.02.01.02
+  templates:
+    - type: simple
+      question: What is a possible consequence of loading an aircraft incorrectly so that the Centre of Gravity is positioned ahead of the forward limit?
+      explanation: A CG ahead of the forward limit gives a strong nose-down moment. At low speed, as in the flare, the elevator may not give enough nose-up force to keep the aircraft level.
+      presets:
+        - correctAnswers:
+            - text: There may be insufficient aft pitch control available to keep the aircraft level.
+          wrongAnswers:
+            - text: The aircraft may become excessively manoeuvrable and beyond control.
+            - text: There may be insufficient forward pitch control available to keep the aircraft level.
+            - text: There may be a tendency to over-pitch the aircraft during the flare just before landing.
+- id: QICEU
+  subjectId: "031"
+  chapterId: "031.01"
+  relatedQuestionIds:
+    - QTOYC
+  externalQuestionIds:
+    - BGS-310467
+    - ATPLQ-319246
+  annexes: []
+  learningObjectiveIds:
+    - 031.01.02.01.03
+  templates:
+    - type: simple
+      question: What are the possible consequences when loading an aircraft incorrectly so that its CG is positioned behind the aft limit?
+      explanation: A CG behind the aft limit means less nose-down pitching moment is available from the elevator. There may be insufficient forward control to keep the aircraft level, and the aircraft is less stable.
+      presets:
+        - correctAnswers:
+            - text: There may be insufficient forward pitch control available to keep the aircraft level in straight flight.
+          wrongAnswers:
+            - text: There may be insufficient aft pitch control available to keep the aircraft level in straight flight.
+            - text: There may be an inability to flare the aircraft on landing.
+            - text: The aircraft will be extremely stable.
+- id: QZGOQ
+  subjectId: "031"
+  chapterId: "031.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-312788
+    - BGS-310667
+    - BGS-310442
+    - AVEXAM-21196
+  annexes: []
+  learningObjectiveIds:
+    - 031.01.02.02.01
+  templates:
+    - type: simple
+      question: If the centre of gravity is further forward than the forward limit is, the aircraft’s horizontal surfaces have a..
+      explanation: With a forward CG the horizontal tail has a longer moment arm, so it gives more pitch authority. The aircraft needs more tail-down force to balance, and this raises drag and fuel consumption.
+      presets:
+        - correctAnswers:
+            - text: longer than usual moment arm and the fuel consumption is increased.
+          wrongAnswers:
+            - text: shorter than usual moment arm and the drag is decreased.
+            - text: shorter than usual moment arm and the range is increased.
+            - text: longer than usual moment arm and the fuel consumption is decreased.
+- id: QLFCE
+  subjectId: "031"
+  chapterId: "031.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-315627
+    - AVEXAM-75055
+  annexes: []
+  learningObjectiveIds:
+    - 031.01.02.02.02
+  templates:
+    - type: simple
+      question: The permissible centre of gravity range of an aircraft spans from 8% MAC to 42% MAC. The actual centre of gravity is situated at 10% MAC, consequently the stalling speed (1)\_\_\_\_\_ and the endurance (2)\_\_\_\_\_.
+      explanation: A CG at 10% MAC is near the forward limit of 8%. A forward CG needs a larger tail-down force, so the wing must produce more lift, which raises the stall speed. The extra drag reduces the endurance.
+      presets:
+        - correctAnswers:
+            - text: (1) increases; (2) decreases.
+          wrongAnswers:
+            - text: (1) increases; (2) increases.
+            - text: (1) decreases; (2) decreases.
+            - text: (1) decreases; (2) increases.
+- id: QGAWU
+  subjectId: "031"
+  chapterId: "031.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-315407
+    - AVEXAM-39309
+    - BGS-310016
+    - ATPLQ-319107
+    - AVEXAM-56229
+  annexes: []
+  learningObjectiveIds:
+    - 031.01.02.02.02
+  templates:
+    - type: simple
+      question: "The stalling speed of an aeroplane will be highest when it is loaded with a:"
+      explanation: Stall speed increases with mass, and a forward CG needs more tail-down force, which adds to the lift needed from the wing. It is therefore highest with a high gross mass and a forward CG.
+      presets:
+        - correctAnswers:
+            - text: high gross mass and forward centre of gravity.
+          wrongAnswers:
+            - text: low gross mass and aft centre of gravity.
+            - text: high gross mass and aft centre of gravity.
+            - text: low gross mass and forward centre of gravity.
+- id: QMNKU
+  subjectId: "031"
+  chapterId: "031.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-318617
+    - AVEXAM-37925
+    - BGS-310724
+    - ATPLQ-314958
+    - ATPLQ-314545
+    - AVEXAM-65733
+    - BGS-310017
+  annexes: []
+  learningObjectiveIds:
+    - 031.01.02.02.02
+  templates:
+    - type: simple
+      question: What are the effects of a CG in front of the forward limit? Range..
+      explanation: A forward CG needs more tail-down force, which adds trim drag. More thrust is needed in the cruise, so range and absolute ceiling decrease.
+      presets:
+        - correctAnswers:
+            - text: and absolute ceiling decrease.
+          wrongAnswers:
+            - text: and absolute ceiling increase.
+            - text: decreases and absolute ceiling increases.
+            - text: increases and absolute ceiling decreases.
+    - type: simple
+      question: "Comparing a forward CG position with an aft one, the forward CG position will cause a:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: decrease in range.
+          wrongAnswers:
+            - text: decrease in the landing speed.
+            - text: tendency to yaw to the right on take-off.
+            - text: decrease of the stalling speed.
+- id: QUCLN
+  subjectId: "031"
+  chapterId: "031.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-311601
+    - AVEXAM-90146
+    - BGS-310025
+    - BGS-310746
+  annexes: []
+  learningObjectiveIds:
+    - 031.01.02.02.02
+  templates:
+    - type: simple
+      question: What happens when the centre of gravity (CG) is moved in a forward direction?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A reduction in rate of climb capability.
+          wrongAnswers:
+            - text: A decrease in induced drag.
+            - text: An increase in rate of climb capability.
+            - text: A reduction in the specific fuel consumption.

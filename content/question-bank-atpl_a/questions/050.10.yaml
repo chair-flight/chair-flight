@@ -1,0 +1,3533 @@
+- id: QFZUU
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506090
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.01
+  templates:
+    - type: simple
+      question: For wind to be classed as a "Gust", what speeds must the short burst of wind speeds be?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 10 kts.
+          wrongAnswers:
+            - text: 2 kts.
+            - text: 15 kts.
+            - text: 5 kts.
+- id: QYHQI
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503434
+    - AVEXAM-35600
+    - ATPLQ-501575
+    - BGS-501398
+    - BGS-501405
+    - AVEXAM-91619
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.01
+    - 050.10.03.01.01
+  templates:
+    - type: definition
+      question: What is the definition of {term}?
+      explanation: ""
+      options:
+        - id: OEZMGVQYG
+          term: gusts
+          definition: Maximum wind speeds (gusts) and minimums (lulls) about the average wind velocity.
+        - id: OVDKPDN0J
+          term: AIRMET information
+          definition: Information issued by an MWO concerning occurrence or expected occurrence of weather phenomena which may affect the safety of low-level operations, not already included in the forecast for the FIR.
+      fakeOptions:
+        - id: FGOGAKGW0
+          definition: The variation of the average peak wind speed
+        - id: FGOGAKGW1
+          definition: The variation of the average wind speed.
+        - id: FGOGAKGW2
+          definition: The average variation of the minimum wind speed.
+        - id: FGOGAKGW3
+          definition: An area forecast in abbreviated plain language for low level flights, for an FIR or sub-area thereof.
+        - id: FGOGAKGW4
+          definition: Information issued by an MWO concerning occurrence or expected occurrence of weather phenomena which may affect the safety of all aircraft operations.
+        - id: FGOGAKGW5
+          definition: Information issued by an MO concerning the expected occurrence of weather phenomena which may affect the safety of low-level operations, not already included in the forecast for the FIR.
+- id: QQZOI
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501922
+    - AVEXAM-23215
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        Different reports of the surface wind at an aerodrome are listed below. Which of the statements best explains the variability in the reported surface wind?
+
+        09:20Z METAR: 270/07 kt   
+         09:20Z ATIS: 260/06 kt   
+         09:20Z Aerodrome controller: 260/06 kt
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: At larger aerodromes, the reported surface wind is measured by an anemometer at a height of 10 m and averaged over 2 minutes for the ATIS and the aerodrome controller, but averaged over 10 minutes for the METAR.
+          wrongAnswers:
+            - text: All aerodromes average their reported surface wind over 2 minutes, but it is measured by an anemometer at 10 m above ground level for METARs and 6 m above ground level for the ATIS and aerodrome controller.
+            - text: All aerodromes report the surface wind obtained from an anemometer at a height of 4 ft above ground level, but METAR surface wind are averaged over 10 minutes and ATIS and aerodrome controller surface winds are averaged over 1 minute.
+            - text: The METAR surface wind is measured by an anemometer at a height of 10 m and averaged over 10 minutes, but for the ATIS aerodrome controller the wind is measured at a height of 33 m and averaged over 5 minutes.
+- id: QQZZF
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503941
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.02
+  templates:
+    - type: simple
+      question: Why is the wind in the METAR different from the wind broadcasted by the ATIS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In the METAR, the surface wind is the average of the last 10 minutes. In the ATIS, it is the average of the last 2 min.
+          wrongAnswers:
+            - text: Because the surface wind is measured at different locations and heights.
+            - text: In the METAR, the surface wind is the average of the last 10 minutes. In the ATIS, it is the average of the last 5 min.
+            - text: In the METAR, the surface wind is the average of the last 2 minutes. In the ATIS, it is the average of the last 10 min.
+- id: QBAZV
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds:
+    - QXHHY
+  externalQuestionIds:
+    - ATPLQ-508399
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.03
+  templates:
+    - type: simple
+      question: A particular METAR states 4000 m of visibility. This can refer to the visibility of a light on an unlit background. The intensity of this light is how many candelas?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1000"
+          wrongAnswers:
+            - text: 1 000 000
+            - text: 4 000 000
+            - text: "4000"
+- id: QXHHY
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds:
+    - QBAZV
+  externalQuestionIds:
+    - ATPLQ-621489
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.03
+  templates:
+    - type: simple
+      question: A particular METAR states 4 000 m of visibility. This can refer to the visibility of a light on an unlit background. The intensity of this light is how many candelas?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 000
+          wrongAnswers:
+            - text: 4 000 000
+            - text: 4 000
+            - text: 1 000 000
+- id: QDATU
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501990
+    - AVEXAM-85636
+    - AVEXAM-55751
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.05
+  templates:
+    - type: simple
+      question: "The visibility transmitted in a METAR is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the greatest value, which is reached within at least half the horizon circle of the aerodrome.
+          wrongAnswers:
+            - text: given by transmissometer when the visibility is below 1 500 metres.
+            - text: the lowest observed in a 360° scan from the meteorological station.
+            - text: the maximum determined by a meteorologist in a 360° scan at the horizon.
+- id: QEQVB
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507162
+    - AVEXAM-39839
+    - BGS-500995
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.08
+  templates:
+    - type: simple
+      question: |-
+        While approaching your destination aerodrome you receive the following message:
+
+        RVR RW 23: 400 m   
+        This information indicates the:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: length of runway which a pilot in an aircraft on the ground would see, on the threshold of runway 23.
+          wrongAnswers:
+            - text: portion of runway which a pilot on the threshold of any of the runways would see, with runway 23 in service.
+            - text: minimum visibility at this aerodrome, with runway 23 being the one in service.
+            - text: meteorological visibility on runway 23.
+- id: QPEXM
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507236
+    - BGS-502597
+    - BGS-502575
+    - AVEXAM-16190
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.08
+  templates:
+    - type: multiple-correct
+      question: A pilot is about to line up on the runway. ATC provides the Runway Visual Range. This indicates the range at which the pilot can do which of the following?
+      explanation: ""
+      options:
+        - text: See the runway surface markings.
+          correct: true
+        - text: Locate the precision approach path indicators.
+          correct: false
+        - text: Confirm the runway designator.
+          correct: false
+        - text: Clearly see six centre line lights.
+          correct: false
+        - text: See the lights delineating the runway.
+          correct: true
+        - text: Identify the runway centre line.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+    - type: simple
+      question: |-
+        A pilot is preparing to align with the runway as ATC provides the Runway Visual Range, indicating the distance at which the pilot can accomplish which of the following actions?
+
+         See the runway surface markings.
+         Locate the precision approach path indicators.
+         Confirm the runway designator.
+         Clearly see six centre line lights.
+         See the lights delineating the runway.
+         Identify the runway centre line.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 5, and 6.
+          wrongAnswers:
+            - text: 2, 4, and 6.
+            - text: 1, 3, and 4.
+            - text: 3, 4, and 5.
+- id: QUPHD
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505494
+    - BGS-501946
+    - ATPLQ-507458
+    - AVEXAM-91229
+    - AVEXAM-11524
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.11
+  templates:
+    - type: simple
+      question: "The unit(s) of distance used in RVR reporting is/are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Metres or feet as the discretion of the State concerned.
+          wrongAnswers:
+            - text: Metres only.
+            - text: Metres, feet or statute miles, as required by ICAO annex 3.
+            - text: Metres or feet as the discretion of ATC.
+    - type: simple
+      question: "The units of measurement used for RVR are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Metres (m) or/and Feet (ft), at discretion of state.
+          wrongAnswers:
+            - text: Metres (m) or/and Feet (ft) or/and statute mile, as per ICAO.
+            - text: Metres (m) or/and Feet (ft), at discretion of ATC.
+            - text: Metres (m) or/and Feet (ft), According to Annex 3.
+- id: QDGEA
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506049
+    - AVEXAM-3857
+    - BGS-502195
+    - ATPLQ-507220
+    - AVEXAM-9235
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.12
+  templates:
+    - type: simple
+      question: |-
+        Complete the following statement:   
+         Runway Visual Range is typically passed onto pilots by (1) \_\_\_\_\_ and (2) \_\_\_\_\_.
+      explanation: Runway visual range (RVR) reaches pilots through data-link services (such as ATIS and D-ATIS) and through aeronautical broadcasts (such as VOLMET and ATIS voice). It is not passed by transponder, TCAS, CPDLC or company channels.
+      presets:
+        - correctAnswers:
+            - text: (1) Datalink; (2) aeronautical broadcast.
+          wrongAnswers:
+            - text: (1) Transponder; (2) CPDLC.
+            - text: (1) TCAS; (2) aeronautical broadcast.
+            - text: (1) ATSU; (2) Company VHF channels.
+    - type: one-two
+      question: "Runway Visual Range (RVR) is passed to the pilots via:"
+      explanation: Runway visual range (RVR) reaches pilots through data-link services (such as ATIS and D-ATIS) and through aeronautical broadcasts (such as VOLMET and ATIS voice). It is not passed by transponder, TCAS, CPDLC or company channels.
+      pairs:
+        - right:
+            - Data-link
+          wrong:
+            - Aeronautical broadcasts
+        - right:
+            - Aeronautical broadcasts
+          wrong:
+            - Data-link
+- id: QMCBO
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.12
+  templates:
+    - type: one-two
+      question: "Runway Visual Range (RVR) is passed to the pilots via:"
+      explanation: ""
+      pairs:
+        - right:
+            - Data-link
+          wrong:
+            - Aeronautical broadcasts
+        - right:
+            - Aeronautical broadcasts
+          wrong:
+            - Data-link
+- id: QIZYC
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - BGS-502758
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.12
+  templates:
+    - type: simple
+      question: The Runway Visual Range (RVR) is measured along the runway and reported in increments depending on the horizontal visibility. It is reported in steps of (1) if the RVR is LESS than 400 m; in steps of (2) if the RVR is between 400 m and 800 m; in steps of (3) if the RVR is more than 800 m.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) 25 m; (2) 50 m; (3) 100 m
+          wrongAnswers:
+            - text: (1) 10 m; (2) 25 m; (3) 50 m
+            - text: (1) 50 m; (2) 100 m; (3) 200 m
+            - text: (1) 10 m; (2) 20 m; (3) 50 m
+- id: QOOQJ
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508890
+    - AVEXAM-7956
+    - BGS-502375
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.15
+  templates:
+    - type: simple
+      question: What is a ceilometer used for?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It is used for measuring the height cloud ceiling or cloud base.
+          wrongAnswers:
+            - text: It is used for measuring atmospheric density and air temperature.
+            - text: It is used for measuring visibility and runway visual range.
+            - text: It is used for measuring atmospheric pressure.
+- id: QRNOC
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503053
+    - BGS-502201
+    - AVEXAM-73072
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.16
+  templates:
+    - type: simple
+      question: "The following cloud types are indicated in a Metar, TAF, and Sigmet:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Towering Cumulus and Cumulonimbus clouds.
+          wrongAnswers:
+            - text: Cirrus and Nimbus Stratus clouds.
+            - text: Stratus and Cumulus clouds.
+            - text: Altocumulus, Cirrocumulus, and Lenticular clouds.
+- id: QLPKU
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504434
+    - AVEXAM-65279
+    - BGS-500999
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.19
+  templates:
+    - type: simple
+      question: |-
+        Marseille Information gives you the following meteorological information for Ajaccio and Calvi for 16:00 UTC:
+
+        • AJACCIO: wind 360°/2 kts, visibility 2 000 m, rain, BKN stratocumulus at 1 000 ft, OVC altostratus at 8 000 ft, QNH 1023 hPa.   
+        • CALVI: wind 040°/2 kts, visibility 3 000 m, mist, FEW stratus at 500 ft, SCT stratocumulus at 2 000 ft, OVC altostratus at 9 000 ft, QNH 1023 hPa.
+
+        The ceilings (more than 4 oktas) are therefore:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 000 ft at Ajaccio and 9 000 ft at Calvi.
+          wrongAnswers:
+            - text: 8 000 ft at Ajaccio and 9 000 ft at Calvi.
+            - text: 1 000 ft at Ajaccio and 2 000 ft at Calvi.
+            - text: 1 000 ft at Ajaccio and 500 ft at Calvi.
+- id: QUAIU
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501712
+    - AVEXAM-29570
+    - BGS-501574
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.19
+  templates:
+    - type: simple
+      question: 'The meteorological term "ceiling" is defined as the height of the base of the lowest clouds:'
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: That cover more than half the sky.
+          wrongAnswers:
+            - text: That cover at least half the sky.
+            - text: Within a Control Zone (CTR).
+            - text: That cover more than 7 oktas.
+- id: QMJQU
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506190
+    - BGS-501001
+    - AVEXAM-43805
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.20
+  templates:
+    - type: simple
+      question: "The cloud base, reported in the METAR, is the height above:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: aerodrome level.
+          wrongAnswers:
+            - text: the pressure altitude of the observation station at the time of observation.
+            - text: the highest terrain within a radius of 8 km from the observation station.
+            - text: mean sea level.
+- id: QYPRV
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506010
+    - AVEXAM-53548
+    - BGS-502444
+    - BGS-502559
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.22
+  templates:
+    - type: simple
+      question: In which weather conditions shall the vertical visibility (VV) be reported in a METAR?
+      explanation: Vertical visibility is reported in a METAR (VV followed by height) when the sky is obscured and the cloud base cannot be determined.
+      presets:
+        - correctAnswers:
+            - text: When it is not possible to determine the height of the cloud base.
+          wrongAnswers:
+            - text: Whenever a pilot is able to report the vertical visibility down from an aircraft.
+            - text: At all times when the airfield is under IMC.
+            - text: Whenever the RVR is below 550 m.
+- id: QUQDK
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508365
+    - BGS-503005
+    - BGS-502463
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.23
+  templates:
+    - type: simple
+      question: According to ICAO Annex 3, which of the following statements about vertical visibility is correct/incorrect?Vertical visibility in a METAR can be reported in meters or feetVertical visibility in a SPECI is reported in feet only
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1. Correct; 2. incorrect.
+          wrongAnswers:
+            - text: 1. Correct; 2. correct.
+            - text: 1. Incorrect; 2. incorrect.
+            - text: 1. Incorrect; 2. correct.
+    - type: simple
+      question: |-
+        According to ICAO Annex 3, vertical visibility may be reported in local routine and special reports, and in METAR and SPECI. Which of the following items is/are correct or incorrect? 
+        1. Vertical visibility is reported in metres or feet in METARS,
+        2. Vertical visibility is reported in feet only in SPECIs.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 is correct, 2 is incorrect
+          wrongAnswers:
+            - text: Both 1 and 2 are incorrect.
+            - text: Both 1 and 2 are correct.
+            - text: 1 is incorrect, 2 is correct
+    - type: simple
+      question: According to ICAO Annex 3, vertical visibility may be reported in local routine and special reports, and in METAR and SPECI. Which of the following items are correct as regards reports of vertical visibility and the units used? Vertical visibility is reported in... (1) metres, in steps of 30 m up to 600 m. (2) feet, in steps of 100 ft up to 2000 ft.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 and 2 are both correct
+          wrongAnswers:
+            - text: 1 is correct, 2 is incorrect
+            - text: 1 and 2 are both incorrect
+            - text: 1 is incorrect, 2 is correct
+- id: QJKOS
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505098
+    - AVEXAM-60316
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.23
+  templates:
+    - type: one-two
+      question: "According to ICAO, vertical visibility should be reported:"
+      explanation: ""
+      pairs:
+        - right:
+            - when expressed in feet, in steps of 100 ft up to 2 000 ft;
+          wrong: []
+        - right:
+            - when expressed in metres, in steps 30 m up to 600 m.
+          wrong: []
+- id: QCIXG
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds:
+    - QHIOF
+  externalQuestionIds:
+    - ATPLQ-504009
+    - AVEXAM-34124
+    - AVEXAM-75434
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.25
+  templates:
+    - type: simple
+      question: Which instrument is used to measure atmospheric humidity?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Psychrometer
+          wrongAnswers:
+            - text: Pluviometer
+            - text: Transmissometer
+            - text: Thermometer
+- id: QHIOF
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds:
+    - QCIXG
+  externalQuestionIds:
+    - ATPLQ-505765
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.01.25
+  templates:
+    - type: simple
+      question: Which instrument is used to measure atmospheric humidity?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Hygrometer
+          wrongAnswers:
+            - text: Anemometer
+            - text: Nephoscope
+            - text: Transmissometer
+- id: QIRDH
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507296
+    - AVEXAM-30238
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.02.01
+  templates:
+    - type: simple
+      question: Amongst others, what method is used by meteorological services in order to perform periodical daily measurements of temperature and humidity aloft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Measurements using radiosondes
+          wrongAnswers:
+            - text: Measurements using rockets
+            - text: Measurements using weather radar
+            - text: Measurement of the radiation of the atmosphere's upper layers
+- id: QXDQR
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504430
+    - BGS-501005
+    - AVEXAM-61977
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.02.01
+  templates:
+    - type: simple
+      question: "The radiosonde can directly measure:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: atmospheric pressure, air temperature, humidity.
+          wrongAnswers:
+            - text: humidity, wind, atmospheric pressure.
+            - text: air temperature, humidity, wind.
+            - text: wind, atmospheric pressure, air temperature.
+- id: QAIQW
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds:
+    - QPGOH
+  externalQuestionIds:
+    - ATPLQ-505108
+    - BGS-501003
+    - BGS-501847
+  annexes:
+    - id: AOQE
+  learningObjectiveIds:
+    - 050.10.01.02.02
+  templates:
+    - type: simple
+      question: |-
+        (For this question use annex 050-003).   
+         Of the four radio soundings, select the one that indicates ground fog:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "2"
+          wrongAnswers:
+            - text: "4"
+            - text: "3"
+            - text: "1"
+- id: QPGOH
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds:
+    - QAIQW
+  externalQuestionIds:
+    - ATPLQ-504451
+    - BGS-501004
+  annexes:
+    - id: AOQE
+  learningObjectiveIds:
+    - 050.10.01.02.02
+  templates:
+    - type: simple
+      question: |-
+        (For this question use annex 050-003).   
+         Of the four radio soundings, select the one that indicates low stratus:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "3"
+          wrongAnswers:
+            - text: "1"
+            - text: "2"
+            - text: "4"
+- id: QLKWR
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504137
+    - BGS-501830
+    - AVEXAM-45517
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.03.01
+  templates:
+    - type: simple
+      question: A flight is due to depart from Heathrow (EGLL) at 00:15 local time. The pilot wishes to watch satellite imagery to determine the weather situation on the route. Which type of imagery should be used?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Infrared (IR) with a polar orbit
+          wrongAnswers:
+            - text: Visual from radiosondes
+            - text: Visual with a polar orbit
+            - text: Visual with a geostationary orbit
+- id: QGVFD
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501576
+    - AVEXAM-84717
+    - BGS-501443
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.03.02
+  templates:
+    - type: simple
+      question: Satellite imagery can provide important data for Volcanic Ash Advisory Centres. The reason is that..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: volcanic ash can be observed on satellite imagery.
+          wrongAnswers:
+            - text: hot smoke gives a white plume on the infrared picture.
+            - text: visible light satellite imagery indicates the crater very well.
+            - text: directly overhead an active volcano obscurations cannot be seen.
+- id: QGKRJ
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502763
+    - BGS-502157
+    - AVEXAM-97429
+    - BGS-502069
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.03.03
+  templates:
+    - type: simple
+      question: Considering satellite meteorological data, the difference between visible and infrared (IR) images is that..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: low clouds may be difficult to identify on the IR image.
+          wrongAnswers:
+            - text: IR imagery is more reliable during summer when there is a greater temperature difference between the land and clouds.
+            - text: a layer of cirrus clouds may be difficult to detect using visible imagery.
+            - text: using IR imagery to identify how high clouds are is very difficult and unreliable.
+- id: QLXFZ
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508727
+    - AVEXAM-14422
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.03.03
+  templates:
+    - type: simple
+      question: Which of the following statements about advantages or disadvantages of IR and visual satellites is true?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Low clouds and fog can be hard to see with IR satellites.
+          wrongAnswers:
+            - text: High clouds and tops can be hard to see with IR satellites.
+            - text: IR satellites are most efficient to detect fog, especially advection fog over the sea.
+            - text: Visual satellites are less likely to detect low clouds and fog.
+- id: QBUDE
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507346
+    - BGS-501851
+    - AVEXAM-14807
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.03.04
+  templates:
+    - type: simple
+      question: To estimate the height of the top of cumuliform clouds using satellite images it is necessary to have..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: infrared imagery and visual imagery.
+          wrongAnswers:
+            - text: infrared imagery only.
+            - text: visual imagery only.
+            - text: either a visual light picture or an infrared picture.
+- id: QKYUD
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503333
+    - BGS-501814
+    - AVEXAM-11315
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.03.04
+  templates:
+    - type: simple
+      question: On an infrared meteorological satellite image, a large, bright-white area is clearly noted. On a visible satellite image of the same area, at the same time, a translucent whitish layer is observed. The most likely conclusion from both images is that there is..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a thin layer of cirrostratus.
+          wrongAnswers:
+            - text: shallow fog.
+            - text: a thin layer of stratus.
+            - text: cumuliform cloud formations.
+- id: QCZTJ
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds:
+    - QXEMO
+  externalQuestionIds:
+    - ATPLQ-501857
+  annexes:
+    - id: ACWT
+  learningObjectiveIds:
+    - 050.10.01.03.05
+  templates:
+    - type: simple
+      question: "The band of clouds, the arrow in the attached satellite figure is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A cold front.
+          wrongAnswers:
+            - text: A warm front.
+            - text: The subtropical jet.
+            - text: Low stratus.
+- id: QXEMO
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds:
+    - QCZTJ
+  externalQuestionIds:
+    - ATPLQ-509187
+  annexes:
+    - id: ACQL
+  learningObjectiveIds:
+    - 050.10.01.03.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which of the following weather phenomena do the clouds over Scandinavia indicate?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A cold front.
+          wrongAnswers:
+            - text: The arctic jet stream.
+            - text: A warm front.
+            - text: The sub-tropical jet stream.
+- id: QNSYC
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509571
+    - AVEXAM-17691
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.04.01
+  templates:
+    - type: simple
+      question: What does a ground weather radar show overlaid on a map?
+      explanation: A ground weather radar shows precipitation and its intensity overlaid on a map. It does not show visibility.
+      presets:
+        - correctAnswers:
+            - text: Precipitation and Precipitation Intensity.
+          wrongAnswers:
+            - text: Precipitation, Visibility and Obscurity.
+            - text: Precipitation and Visibility.
+            - text: Precipitation and Obscurity.
+- id: QYKRG
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509316
+    - BGS-501171
+    - AVEXAM-8239
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.04.01
+  templates:
+    - type: simple
+      question: Which of the following meteorological phenomena can rapidly change the braking action of a runway?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: +FZRA
+          wrongAnswers:
+            - text: MIFG
+            - text: FG
+            - text: HZ
+- id: QUUSL
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507589
+    - BGS-501012
+    - AVEXAM-88173
+    - BGS-501858
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.04.01
+  templates:
+    - type: simple
+      question: Which of the following causes echoes on meteorological radar screens?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Hail
+          wrongAnswers:
+            - text: Fog
+            - text: Any cloud
+            - text: Water vapour
+- id: QBKEZ
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507817
+    - AVEXAM-47283
+    - BGS-501520
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.04.03
+  templates:
+    - type: simple
+      question: The type of information given by airborne weather radar is a map with an indication of..
+      explanation: Airborne weather radar detects precipitation and shows it as a map with its intensity. It does not detect fog or obscuration, since the droplets are too small.
+      presets:
+        - correctAnswers:
+            - text: precipitation and its intensity.
+          wrongAnswers:
+            - text: precipitation and fog.
+            - text: obscuration and fog.
+            - text: precipitation/obscuration and prevailing visibility.
+- id: QOXUO
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506846
+    - AVEXAM-80018
+    - BGS-501922
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.04.03
+  templates:
+    - type: simple
+      question: By use of Doppler techniques, modern airborne weather radar can detect turbulence in..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: thunderstorms.
+          wrongAnswers:
+            - text: clear air.
+            - text: stratiform clouds.
+            - text: the tropopause.
+- id: QQQAO
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502506
+    - AVEXAM-35809
+    - BGS-501013
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.04.04
+  templates:
+    - type: simple
+      question: Which of the following statements concerning the use of airborne weather radar in the vicinity of thunderstorms is true?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Accurate assessment of the weather ahead of the aircraft might be hampered due to the attenuation of the radar echoes by heavy rain.
+          wrongAnswers:
+            - text: The most significant echoes will be received due to lightning discharges near the freezing level.
+            - text: The radar reflectivity echoes are much more determined by the number of reflecting particles than by the particle size.
+            - text: The antenna tilt shall be adjusted in order to receive the most significant echoes (generally received from an altitude of approximately 30000 ft).
+- id: QXVGS
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509954
+    - BGS-502535
+    - BGS-502739
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.04.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. 
+        The red dotted line shows the track crossing a front. There is a cold front with CBs up to FL370. The cruising altitude is FL360, and the maximum altitude is FL380. What is the best course of action?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Use the airborne weather radar and visual cues to circumnavigate the CB cells. Turbulence can be expected circumnavigating the CB cells.
+          wrongAnswers:
+            - text: It is safe to fly straight through the cold front at FL360 and keep the flight plan route. Only up to moderate turbulence can be expected within the cloud tops, without further hazards for flight safety.
+            - text: Climb to FL380 to fly above the cold front. Moderate to severe turbulence can be expected within the CB cells, but only light turbulence above the CB cells.
+            - text: Descend to FL280 to increase the margin for manoeuvring and avoid severe turbulence. Request help from ATC to find a safe path through the front, as they have better weather radar equipment.
+    - type: simple
+      question: |-
+        Please refer to the annex. 
+        There is a cold front with CBs up to FL370 on the route (indicated by the red dotted line) to the destination. The cruising altitude is FL360 and the maximum altitude is FL382. What is the best action to take?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Use the airborne weather radar and visual cues to circumnavigate the CB cells. Turbulence can be expected when circumnavigating the CB cells.
+          wrongAnswers:
+            - text: It is safe to fly straight through the cold front at FL360 and keep to the flight plan route. Only up to moderate turbulence can be expected within the cloud tops, WITHOUT further hazards for flight safety.
+            - text: Climb to FL380 to fly above the cold front. Moderate to severe turbulence can be expected within the CB cells, but only light turbulence above the CB cells.
+            - text: Descend to FL280 to increase the margin for manoeuvring and to avoid severe turbulence. Request help from ATC to find a safe path through the front, as they have better weather radar equipment.
+    - type: simple
+      question: |-
+        (See Image)
+        There is a cold front with CBs up to FL370 on the route (indicated by the red dotted line) to the destination. The cruising altitude is FL360 and the maximum altitude is FL382. What is the best action to take?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Use the airborne weather radar and visual cues to circumnavigate the CB cells. Turbulence can be expected when circumnavigating the CB cells.
+          wrongAnswers:
+            - text: It is safe to fly straight through the cold front at FL360 and keep to the flight plan route. Only up to moderate turbulence can be expected within the cloud tops, WITHOUT further hazards for flight safety.
+            - text: Climb to FL380 to fly above the cold front. Moderate to severe turbulence can be expected within the CB cells, but only light turbulence above the CB cells.
+            - text: Descend to FL280 to increase the margin for manoeuvring and to avoid severe turbulence. Request help from ATC to find a safe path through the front, as they have better weather radar equipment.
+- id: QLZME
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506061
+    - AVEXAM-26491
+    - BGS-502487
+  annexes:
+    - id: AMMI
+  learningObjectiveIds:
+    - 050.10.01.04.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The arrows on the image of a weather radar display indicate..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: shadow areas behind heavy precipitation cells.
+          wrongAnswers:
+            - text: clear air turbulence areas indicated by the Turbulence mode (+T).
+            - text: iso-echo contour areas with strong returns.
+            - text: areas without precipitation and turbulence.
+- id: QKJWW
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds:
+    - QMFTB
+  externalQuestionIds:
+    - ATPLQ-507002
+    - AVEXAM-14729
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.05.01
+  templates:
+    - type: simple
+      question: Where can you find information about CAT en-route?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Special AIREP
+          wrongAnswers:
+            - text: Company message via ACARS
+            - text: Satellite broadcast
+            - text: On a VOR frequency
+- id: QMFTB
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds:
+    - QKJWW
+  externalQuestionIds:
+    - ATPLQ-504520
+    - AVEXAM-85555
+    - BGS-502131
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.05.01
+  templates:
+    - type: simple
+      question: Which of the following documents available during flight planning may be consulted to determine reported in-flight icing conditions?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Special AIREP
+          wrongAnswers:
+            - text: AIRPROX
+            - text: SNOWTAM
+            - text: MOTNE
+- id: QHNMR
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501398
+    - BGS-501017
+    - AVEXAM-47542
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.05.02
+  templates:
+    - type: simple
+      question: An aircraft encounters atmospheric conditions in which abrupt changes of attitude and altitude of the aircraft occur. Changes in accelerometer readings go up to 1.2 g measured at the aircraft's centre of gravity. Loose objects inside the aircraft are tossed about. Which report, if any, is required?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Special air-report
+          wrongAnswers:
+            - text: Flight safety report
+            - text: No air-report is necessary
+            - text: Routine air-report
+- id: QJAFU
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507995
+    - AVEXAM-52195
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.05.03
+  templates:
+    - type: simple
+      question: If an aircraft reports to ATC that they are encountering "severe turbulence", this report is classified as which of the following?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A special aircraft observation.
+          wrongAnswers:
+            - text: An air turbulence report.
+            - text: A routine aircraft oservation.
+            - text: A non-routine aircraft observation.
+- id: QAXDZ
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502943
+    - BGS-501109
+    - AVEXAM-96866
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.05.03
+  templates:
+    - type: simple
+      question: "A METAR message is valid:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: at the time of observation.
+          wrongAnswers:
+            - text: for 2 hours.
+            - text: for 9 hours.
+            - text: for the hour following the observation.
+- id: QDUNT
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503156
+    - AVEXAM-55721
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.05.03
+  templates:
+    - type: simple
+      question: Name the weather phenomena to be stated in a special air report.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: volcanic ash cloud
+          wrongAnswers:
+            - text: pre-eruption volcanic activity, moderate icing, light turbulence
+            - text: severe turbulence and any kind of icing
+            - text: any mountain wave, sand- or duststorm
+- id: QGSFA
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506801
+    - BGS-502420
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.01.05.03
+  templates:
+    - type: simple
+      question: "When a pilot reports windshear during approach, the ... should be included in the message:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: aircraft type
+          wrongAnswers:
+            - text: number of persons on board
+            - text: aircraft mass
+            - text: aircraft configuration
+- id: QCEWV
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502407
+    - AVEXAM-8533
+    - BGS-501021
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.02.01.01
+  templates:
+    - type: simple
+      question: How are well separated CB clouds described on the significant weather chart?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: OCNL CB.
+          wrongAnswers:
+            - text: FRQ CB.
+            - text: EMBD CB.
+            - text: ISOL CB.
+- id: QDSLY
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds:
+    - QSCMD
+  externalQuestionIds:
+    - ATPLQ-505921
+    - AVEXAM-55320
+    - BGS-501020
+    - BGS-501030
+    - AVEXAM-47479
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.02.01.01
+  templates:
+    - type: simple
+      question: In which meteorological forecast chart is information about CAT areas found?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Significant weather chart.
+          wrongAnswers:
+            - text: 300 hPa chart.
+            - text: 24 hour surface forecast.
+            - text: 500 hPa chart.
+- id: QSCMD
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds:
+    - QDSLY
+  externalQuestionIds:
+    - ATPLQ-507677
+    - AVEXAM-78329
+    - BGS-501029
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.02.01.01
+  templates:
+    - type: simple
+      question: On which of the following aviation weather charts can a pilot most easily find a jet stream?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Significant weather chart.
+          wrongAnswers:
+            - text: Upper air chart.
+            - text: Wind / temperature chart.
+            - text: Surface chart.
+- id: QSKPC
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504265
+    - BGS-501022
+    - BGS-501023
+    - AVEXAM-6880
+    - BGS-501281
+    - BGS-501037
+    - ATPLQ-509534
+    - BGS-501269
+    - BGS-501025
+    - ATPLQ-509555
+    - BGS-501019
+    - ATPLQ-506021
+  annexes:
+    - id: AMIC
+    - id: AFQE
+    - id: AMTB
+    - id: ACTV
+    - id: ATIC
+    - id: APKG
+    - id: AEKM
+    - id: AQXZ
+    - id: AAPJ
+    - id: AUDD
+    - id: AOMQ
+    - id: AHTU
+    - id: AXVC
+  learningObjectiveIds:
+    - 050.10.02.01.01
+    - 050.10.03.01.02
+  templates:
+    - type: definition
+      question: |-
+        What does this weather chart symbol represent?
+
+        ![Weather chart symbol](annex:{{term}})
+      explanation: |-
+        {table}
+      options:
+        - id: OMICE7K2Q
+          term: AMIC
+          definition: Moderate icing
+        - id: OEGFBTAIR
+          term: AFQE
+          definition: Severe icing
+        - id: OMTRB4X9D
+          term: AMTB
+          definition: Moderate turbulence
+        - id: OL2EPQF50
+          term: ACTV
+          definition: Severe turbulence
+        - id: OZH5JW5PD
+          term: ATIC
+          definition: Snow
+        - id: OTWHCGZQ0
+          term: APKG
+          definition: Showers
+        - id: OT2C0AZQG
+          term: AEKM
+          definition: Widespread haze
+        - id: OY6L26CWI
+          term: AQXZ
+          definition: Hail
+        - id: OIR0EXK1B
+          term: AAPJ
+          definition: Widespread mist
+        - id: OUEB7NY6U
+          term: AUDD
+          definition: Freezing precipitation
+        - id: ODYRJSHCO
+          term: AOMQ
+          definition: Widespread fog
+        - id: OTY4G1TBF
+          term: AHTU
+          definition: Widespread smoke
+        - id: OCKL52WRD
+          term: AXVC
+          definition: Tropical cyclone
+      fakeOptions: []
+- id: QMLXW
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509962
+    - BGS-501848
+  annexes:
+    - id: AZES
+  learningObjectiveIds:
+    - 050.10.02.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        You plan a 5 hour flight on 12th March 2017 at 3000 feet altitude from Hahn (H) (50°N,007°E) to Brest (B) (49°N,004°W), taking off at 17:00 UTC. What hazards could be expected along the route?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Moderate turbulence throughout the route, with moderate icing along the second half.
+          wrongAnswers:
+            - text: Moderate turbulence throughout the route, with no reportable icing forecast at the planned altitude.
+            - text: Moderate icing and turbulence throughout the route, with severe icing along the second half.
+            - text: Moderate turbulence throughout the route, with severe icing along the second half.
+- id: QWLGQ
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502949
+    - AVEXAM-74693
+    - BGS-502484
+  annexes:
+    - id: AIQO
+  learningObjectiveIds:
+    - 050.10.02.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        You will fly at FL240 from Paris to Istanbul, your departure is at 3:00 am and your estimated time of arrival in Istanbul is at 7:00 am. Which route would be best to avoid moderate icing and turbulence?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Route 4
+          wrongAnswers:
+            - text: Route 2
+            - text: Route 1
+            - text: Route 3
+    - type: simple
+      question: |-
+        Please refer to the annex. 
+        A pilot is flying at FL290 over Paris at 03:00 UTC, en route to Istanbul. The estimated time of arrival over Istanbul is 07:00 UTC. In order to avoid icing, which route should the pilot follow?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Route 2
+          wrongAnswers:
+            - text: Route 4
+            - text: Route 1
+            - text: Route 3
+- id: QEEJT
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509593
+    - BGS-501024
+    - BGS-501290
+  annexes:
+    - id: ANXP
+  learningObjectiveIds:
+    - 050.10.02.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which of the following symbols represents a quasi-stationary front?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Symbol 3
+          wrongAnswers:
+            - text: Symbol 2
+            - text: Symbol 4
+            - text: Symbol 1
+    - type: simple
+      question: |-
+        (Refer to image) 
+        According to ICAO, which symbol indicates a tropical revolving storm?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Symbol c
+          wrongAnswers:
+            - text: Symbol a
+            - text: Symbol b
+            - text: Symbol d
+- id: QJUQM
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506790
+    - BGS-502588
+  annexes:
+    - id: AGKY
+  learningObjectiveIds:
+    - 050.10.02.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.   
+        Which choice provides the most accurate description of the meteorological feature at coordinates V (57°N, 022°E)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cold occlusion.
+          wrongAnswers:
+            - text: Stationary front.
+            - text: Cold front.
+            - text: Warm occlusion.
+- id: QOUHV
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502135
+    - AVEXAM-28913
+    - BGS-500681
+  annexes:
+    - id: AHYU
+  learningObjectiveIds:
+    - 050.10.02.02.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What wind direction will occur over the sea at point F?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: South
+          wrongAnswers:
+            - text: Northeast
+            - text: Southeast
+            - text: Northwest
+- id: QXBFL
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503444
+    - AVEXAM-12801
+  annexes:
+    - id: AKSJ
+  learningObjectiveIds:
+    - 050.10.02.02.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        According to the extract of the surface isobar map, the surface wind direction over the sea is approximately:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 140°
+          wrongAnswers:
+            - text: 220°
+            - text: 310°
+            - text: 110°
+- id: QDNCG
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds:
+    - QINAM
+    - QIWAI
+  externalQuestionIds:
+    - ATPLQ-506756
+    - BGS-501075
+    - BGS-501870
+    - BGS-501056
+    - BGS-501864
+    - AVEXAM-3061
+    - AVEXAM-58951
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.02.03.01
+  templates:
+    - type: simple
+      question: Which constant pressure chart is standard for FL 240?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 400 hPa
+          wrongAnswers:
+            - text: 500 hPa
+            - text: 300 hPa
+            - text: 600 hPa
+- id: QGNME
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505676
+    - BGS-501085
+    - BGS-501087
+    - BGS-501064
+    - BGS-501083
+    - BGS-501086
+    - BGS-501084
+    - BGS-501063
+    - ATPLQ-508217
+    - ATPLQ-504813
+    - AVEXAM-13733
+    - AVEXAM-97555
+    - AVEXAM-33667
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.02.03.01
+  templates:
+    - type: simple
+      question: Which FL corresponds with the 500 hPa pressure level?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL 180
+          wrongAnswers:
+            - text: FL 100
+            - text: FL 160
+            - text: FL 390
+    - type: simple
+      question: Which FL corresponds with the 300 hPa pressure level?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL 300
+          wrongAnswers:
+            - text: FL 100
+            - text: FL 390
+            - text: FL 50
+    - type: simple
+      question: Which FL corresponds with the 150 hPa pressure level?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL 450
+          wrongAnswers:
+            - text: FL 300
+            - text: FL 340
+            - text: FL 390
+    - type: simple
+      question: Which FL corresponds with the 850 hPa pressure level?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL50
+          wrongAnswers:
+            - text: FL300
+            - text: FL100
+            - text: FL390
+    - type: simple
+      question: Which FL corresponds with the 600 hPa pressure level?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL140
+          wrongAnswers:
+            - text: FL240
+            - text: FL180
+            - text: FL100
+    - type: simple
+      question: Which FL corresponds with the 200 hPa pressure level?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL390
+          wrongAnswers:
+            - text: FL100
+            - text: FL50
+            - text: FL300
+- id: QINAM
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds:
+    - QDNCG
+    - QIWAI
+  externalQuestionIds:
+    - ATPLQ-502103
+    - BGS-501861
+    - BGS-501074
+    - BGS-501046
+    - BGS-501869
+    - BGS-501868
+    - AVEXAM-86978
+    - BGS-501073
+    - BGS-501057
+    - AVEXAM-80040
+    - AVEXAM-22998
+    - AVEXAM-7648
+    - AVEXAM-70150
+    - AVEXAM-70621
+    - BGS-501096
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.02.03.01
+  templates:
+    - type: simple
+      question: Which constant pressure chart is standard for FL 180?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 500 hPa
+          wrongAnswers:
+            - text: 200 hPa
+            - text: 700 hPa
+            - text: 300 hPa
+- id: QIWAI
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds:
+    - QDNCG
+    - QINAM
+  externalQuestionIds:
+    - ATPLQ-502218
+    - BGS-501866
+    - BGS-502105
+    - BGS-501865
+    - BGS-501867
+    - AVEXAM-48897
+    - BGS-501045
+    - BGS-501097
+    - AVEXAM-11540
+    - AVEXAM-63749
+    - BGS-501062
+    - BGS-501862
+    - BGS-501059
+    - AVEXAM-71457
+    - AVEXAM-51774
+    - AVEXAM-56633
+    - AVEXAM-61712
+    - BGS-501061
+    - ATPLQ-503860
+    - ATPLQ-504626
+    - ATPLQ-501622
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.02.03.01
+  templates:
+    - type: simple
+      question: "The constant pressure chart which is standard for FL140 is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 600 hPa
+          wrongAnswers:
+            - text: 700 hPa
+            - text: 850 hPa
+            - text: 400 hPa
+- id: QWJQJ
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506588
+    - ATPLQ-505000
+    - ATPLQ-504831
+    - ATPLQ-504047
+    - ATPLQ-503075
+    - BGS-501047
+    - BGS-501070
+    - BGS-501060
+    - BGS-501058
+    - BGS-501071
+    - AVEXAM-80180
+    - AVEXAM-25080
+    - AVEXAM-53648
+    - AVEXAM-48362
+    - AVEXAM-46194
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.02.03.01
+  templates:
+    - type: simple
+      question: When planning a flight at FL 60, which upper wind and temperature chart would be nearest your flight level?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 850 hPa
+          wrongAnswers:
+            - text: 500 hPa
+            - text: 700 hPa
+            - text: 300 hPa
+    - type: simple
+      question: If a flight at FL 150 is planned, which of these upper wind and temperature charts would be nearest to that flight level?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 600 hPa
+          wrongAnswers:
+            - text: 500 hPa
+            - text: 700 hPa
+            - text: 850 hPa
+    - type: simple
+      question: If you are planning a flight at FL 290, which of these upper wind and temperature charts would be nearest your flight level?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 300 hPa
+          wrongAnswers:
+            - text: 850 hPa
+            - text: 500 hPa
+            - text: 700 hPa
+    - type: simple
+      question: When planning a flight at FL 110, which upper wind and temperature chart would be nearest your flight level?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 700 hPa
+          wrongAnswers:
+            - text: 500 hPa
+            - text: 300 hPa
+            - text: 850 hPa
+    - type: simple
+      question: If you are planning a flight at FL 170, which of these upper wind and temperature charts would be nearest your flight level?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 500 hPa
+          wrongAnswers:
+            - text: 700 hPa
+            - text: 850 hPa
+            - text: 300 hPa
+    - type: simple
+      question: If you are planning a flight at FL290, which of these upper wind and temperature charts would be nearest your flight level?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 300 hPa
+          wrongAnswers:
+            - text: 850 hPa
+            - text: 700 hPa
+            - text: 500 hPa
+    - type: simple
+      question: When planning a flight at FL60, which upper wind and temperature chart would be nearest to your flight level?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 850 hPa
+          wrongAnswers:
+            - text: 300 hPa
+            - text: 500 hPa
+            - text: 700 hPa
+    - type: simple
+      question: If a flight at FL150 is planned, which of these upper wind and temperature charts would be nearest to that flight level?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 600 hPa
+          wrongAnswers:
+            - text: 500 hPa
+            - text: 700 hPa
+            - text: 850 hPa
+    - type: simple
+      question: When planning a flight at FL110, which upper wind and temperature chart would be nearest your flight level?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 700 hPa
+          wrongAnswers:
+            - text: 500 hPa
+            - text: 850 hPa
+            - text: 300 hPa
+    - type: simple
+      question: If you are planning a flight at FL170, which of these upper wind and temperature charts would be nearest your flight level?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 500 hPa
+          wrongAnswers:
+            - text: 300 hPa
+            - text: 700 hPa
+            - text: 850 hPa
+- id: QLDPO
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509434
+    - AVEXAM-26185
+    - AVEXAM-57863
+    - BGS-501089
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.02.03.02
+  templates:
+    - type: simple
+      question: What positions are connected by contour lines (isohypses) on a weather chart?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Positions with the same height in a chart of constant pressure.
+          wrongAnswers:
+            - text: Positions with the same wind velocity.
+            - text: Positions with the same thickness between two constant pressure levels.
+            - text: Positions with the same air density.
+- id: QLKSO
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507468
+  annexes:
+    - id: AMWC
+  learningObjectiveIds:
+    - 050.10.02.03.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.   
+        Over Shanghai (32°N, 122°E), the core of the jet stream is at:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL420
+          wrongAnswers:
+            - text: FL350
+            - text: FL360
+            - text: FL470
+- id: QFLVR
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505510
+    - BGS-502486
+    - BGS-502074
+    - BGS-501849
+  annexes:
+    - id: ATFY
+  learningObjectiveIds:
+    - 050.10.02.03.06
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What is the approximate wind direction and speed at this time at FL50 over the mid-Atlantic (the boxed section in the annex)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 245°(T)/45 kt
+          wrongAnswers:
+            - text: 065°(T)/45 kt
+            - text: 275°(T)/45 kt
+            - text: 095°(T)/45 kt
+- id: QPYWT
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505561
+    - AVEXAM-89815
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.02.04.02
+    - 050.10.02.04.03
+  templates:
+    - type: multiple-correct
+      question: According to ICAO Annex 3, gridded data sets used for weather forecasting include which of the following information?
+      explanation: ""
+      options:
+        - text: Wind and temperature from FL50 to FL530\.
+          correct: true
+        - text: Altitude and temperature of the tropopause.
+          correct: true
+        - text: Horizontal and vertical extent of any precipitation.
+          correct: false
+        - text: Air density at different levels.
+          correct: false
+        - text: Humidity at different levels.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+    - type: simple
+      question: |-
+        What information is included in the gridded datasets used for weather forecasting according to ICAO Annex 3?
+
+         Wind and temperature from FL50 to FL530
+         Altitude and temperature of the tropopause
+         Horizontal and vertical extent of any precipitation
+         Air density at different levels
+         Humidity at different levels
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2 and 5
+          wrongAnswers:
+            - text: 2, 4 and 5
+            - text: 2, 3 and 4
+            - text: 1, 3 and 5
+- id: QQUBS
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501211
+    - BGS-502127
+    - BGS-502603
+    - AVEXAM-66829
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.02.04.02
+    - 050.10.02.04.03
+  templates:
+    - type: simple
+      question: What are examples of grid point datasets prepared by the World Area Forecast Centres (WAFCs)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Upper wind and temperature data, humidity, icing, and clear air turbulence.
+          wrongAnswers:
+            - text: Temperature of the tropopause, precipitation, and in-cloud turbulence.
+            - text: Surface wind, upper air pressure, and humidity.
+            - text: Horizontal extent of CBs, humidity, and direction and speed of the geostrophic wind.
+- id: QTNVG
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504694
+    - AVEXAM-94014
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.02.04.02
+    - 050.10.02.04.03
+  templates:
+    - type: multiple-correct
+      question: Gridded data sets used for weather forecasting include which of the following information?
+      explanation: ""
+      options:
+        - text: Wind direction and speed
+          correct: true
+        - text: Flight level and temperature of the tropopause
+          correct: true
+        - text: Relative humidity
+          correct: true
+        - text: Aerodrome temperature and dew point
+          correct: false
+        - text: Visibility / runway visual range (RVR)
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QCNLU
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507092
+    - ATPLQ-501617
+    - BGS-502589
+    - AVEXAM-79797
+    - BGS-502923
+    - AVEXAM-27189
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.02.04.03
+  templates:
+    - type: multiple-correct
+      question: "Gridded datasets are produced by WAFCs (World Area Forecast Centres) for:"
+      explanation: ""
+      options:
+        - text: Flight Level and temperature of the tropopause.
+          correct: true
+        - text: Movement and displacement of fronts.
+          correct: false
+        - text: Direction and speed of maximum wind.
+          correct: true
+        - text: Cumulonimbus clouds, icing and turbulence.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+    - type: simple
+      question: |-
+        Consider grid point forecasts provided by World Area Forecast Centres (WAFCs). According to ICAO Annex 3, which of the following are included in these forecasts?
+        1. Wind and temperature data for various flight levels from FL50 to FL530
+        2. Flight level and temperature of the tropopause
+        3. Horizontal and vertical extent of precipitation
+        4. Density for various flight levels
+        5. Humidity for various flight levels.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, and 5
+          wrongAnswers:
+            - text: 1, 3, and 5
+            - text: 2, 3, and 4
+            - text: 1 and 4
+    - type: simple
+      question: |-
+        WAFCs (World Area Forecast Centres) produce gridded datasets for the following:
+
+         Flight level and temperature of the tropopause
+         Movement and displacement of fronts
+         Direction and speed of maximum wind
+         Cumulonimbus clouds, icing, and turbulence.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 3 and 4.
+          wrongAnswers:
+            - text: 1, 2 and 3.
+            - text: 1, 2, 3 and 4.
+            - text: 2, 3 and 4.
+- id: QWBCM
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501845
+    - AVEXAM-60046
+    - BGS-501893
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.02.04.04
+  templates:
+    - type: simple
+      question: Why are Gridded forecasts good?
+      explanation: Gridded forecasts present the data about hazards, such as CB and turbulence, over an area in a visual form, so flight crews and dispatchers can see the hazards better.
+      presets:
+        - correctAnswers:
+            - text: Gridded forecasts help flight crews and dispatchers to visualize flight hazards better.
+          wrongAnswers:
+            - text: Gridded forecasts are an in-flight weather updating tool, so it gives pilots real-time weather.
+            - text: Gridded forecasts allow a more straightforward weather prediction when using grid navigation.
+            - text: Gridded forecasts give automatic temperature corrections for non-precision approaches via satellite.
+- id: QRREA
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502517
+    - BGS-502623
+    - AVEXAM-4432
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.02.04.04
+  templates:
+    - type: simple
+      question: |-
+        Numerical weather prediction processes data within specified grid units.
+
+        Which option best completes the following phrase?
+
+        The grid units are defined by…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Vertical, horizontal and Time coordinate.
+          wrongAnswers:
+            - text: Longitude, Latitude and Time coordinate.
+            - text: Constant surface pressures.
+            - text: X and Y axis coordinates.
+    - type: simple
+      question: |-
+        Consider gridded forecast products.
+        Numerical weather prediction handles and processes data within defined grid units.
+        Which option most correctly completes the phrase? The grid units are defined by…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: horizontal, vertical, and time coordinates.
+          wrongAnswers:
+            - text: constant-pressure surfaces.
+            - text: latitude, longitude, and time coordinates.
+            - text: X and Y axis coordinates.
+    - type: simple
+      question: Numerical weather prediction processes data within specified grid units. Those grid units are defined by…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: vertical, horizontal and time reference.
+          wrongAnswers:
+            - text: X and Y axis coordinates.
+            - text: constant surface pressures.
+            - text: longitude, latitude and time reference.
+- id: QGQFJ
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503633
+    - BGS-502094
+    - AVEXAM-59710
+    - ATPLQ-503097
+    - AVEXAM-31039
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.02.04.04
+  templates:
+    - type: simple
+      question: Considering gridded forecast products, what does having gridded data on CBs and turbulence allow?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The data can be displayed in a variety of forms to aid crews in visualising flight hazards.
+          wrongAnswers:
+            - text: Passengers can view the weather on in-flight entertainment systems so will better understand the reasons for any delay or re-routing.
+            - text: The only reason to present data in this way is that it can be filed and easily retrieved for accident investigation purposes.
+            - text: Crews will receive advance warning about each and every type of hazardous weather conditions ahead.
+    - type: simple
+      question: What advantage do gridded forecasts offer over traditional forecast?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The forecast can be displayed in a way to aid in visualising flight hazards such as turbulence.
+          wrongAnswers:
+            - text: The forecast can be made available at short notice to aid last minute pre-flight planning.
+            - text: Pilots can obtain updated forecasts for individual grid areas from Air Traffic Control by radio.
+            - text: Gridded forecasts show more details for an aerodrome than a traditional forecast such as a TAF.
+- id: QIHQC
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508044
+    - AVEXAM-48888
+    - ATPLQ-508215
+    - BGS-502393
+    - AVEXAM-83224
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.02.04.05
+  templates:
+    - type: simple
+      question: "One major advantage of the gridded forecasts is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Data can be relayed by aircraft or pilot reports by being merged to onboard information processing systems.
+          wrongAnswers:
+            - text: Gridded forecasts are issued every 2 hours and cover a wide range of information.
+            - text: Pilots can issue their own gridded forecasts.
+            - text: Airborne meteorological stations provide real-time gridded weather information.
+    - type: simple
+      question: What is one of the advantages associated with gridded forecasts compared to traditional forecast products?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Gridded forecasts can be merged in information processing systems with data from aircraft reports to provide improved situational awareness.
+          wrongAnswers:
+            - text: Gridded forecasts offer NO specific advantages to pilots because a traditional forecast such as a TAF offers the same information.
+            - text: These forecasts are constantly updated in real-time, and these updates may be provided to crews if their aircraft is suitably equipped to receive them.
+            - text: Gridded forecasts use less memory in a Flight Management System, allowing more rapid refreshing of the Primary Flight Display.
+- id: QPTXN
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501985
+    - AVEXAM-53087
+    - BGS-502118
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.02.04.05
+  templates:
+    - type: simple
+      question: How can pilot reports of significant weather subsequently be used by the receiving meteorological office and their systems?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The reports can be processed into weather models to improve subsequent forecasts.
+          wrongAnswers:
+            - text: The meteorological office will rebroadcast these reports because they are incompatible with digital weather processing systems.
+            - text: The relevant Meteorological Watch Office will process the report and issue a SPECI.
+            - text: The reports can be directly used in weather prediction systems and processed into PIREPs.
+- id: QSSLL
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503191
+    - AVEXAM-85580
+    - BGS-502343
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.02.04.05
+  templates:
+    - type: simple
+      question: "Merging and processing data from gridded forecasts, automatic aircraft detection and reports from pilots is useful because:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It can be provided to flight crew through their EFB for more situational awareness.
+          wrongAnswers:
+            - text: It helps to increase the accuracy of METAR and TAF.
+            - text: It reduces margin of error in numerical weather prediction.
+            - text: It can be used by WAFC’s to update published SWC.
+- id: QQDZS
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506181
+    - AVEXAM-18595
+    - BGS-502569
+    - BGS-502622
+    - ATPLQ-503774
+    - AVEXAM-20206
+    - AVEXAM-2328
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        A pilot wants to select airport for arrival with a runway where RVR is at least 300 metres. Considering the following METARs, valid for the arrival time, and choose the appropriate airport (assume all other criteria for landing to each airport).
+
+        EGKK 191050Z 09002KT 0200 FZFG R08R/0250 R08L/0350 VV001 M03/M02 Q1008 88910195\.   
+        EGLF 191050Z 07003KT 0000 FZFG R06/0075D VV// M03/M03 Q1008\.   
+        EGGW 191050Z 08004KT 0100 FZFG R08/0175U VV001 M02/M02 Q1007 RESG 08920294\.   
+        EGLL 191050Z 09002KT 0100 FZFG R09L/0200U R09R/0250U VV001 M02/M02 Q1008.
+      explanation: Compare the RVR values with the 300 m minimum. EGKK has 350 m on runway 08L, which meets the requirement. The others show 175 m for EGGW, 200 m or 250 m for EGLL and 75 m for EGLF.
+      presets:
+        - correctAnswers:
+            - text: EGKK
+          wrongAnswers:
+            - text: EGGW
+            - text: EGLL
+            - text: EGLF
+    - type: simple
+      question: |-
+        A pilot wants to select airport for arrival with a runway where RVR is at least 550 metres. Considering the following METARs, valid for the arrival time, and choose the appropriate airport (assume all other criteria for landing to each airport).
+
+        EGKK 191050Z 09002KT 0200 FZFG R08R/0350 R08L/0500 VV001 M03/M02 Q100B WS RWY08R.   
+        EGLF 191050Z 07003KT 0200 FZFG R06/0700D VV001 M03/M03 Q1008\.   
+        EGGW 191050Z 08004KT 0200 FZFG R08/0300U VV001 M02/M02 Q1007\.   
+        EGLL 191050Z 09002KT 0100 FZFG R09L/0300U R09R/0500U VV001 M02/M02 Q1008.
+      explanation: Compare the RVR values with the 550 m minimum. EGLF reports 700 m on runway 06, which meets the requirement. The other airports have values of 300 m and 500 m or less.
+      presets:
+        - correctAnswers:
+            - text: EGLF
+          wrongAnswers:
+            - text: EGLL
+            - text: EGGW
+            - text: EGKK
+- id: QCPRR
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502999
+    - AVEXAM-8102
+    - BGS-501133
+    - ATPLQ-504972
+    - BGS-501197
+    - AVEXAM-53585
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        What surface wind is forecast for 22:00 UTC?
+
+        EDDF 272200Z 2806/2824 VRB05KT 4000 BR SCT005 OVC013 BECMG 2813/2814 9000 SHRA OVC015 PROB40 TEMPO 2814/2816 VRB15G25KT 1600 TSRA OVC010CB BECMG 2816/2818 26010KT BKN030 BECMG 2821/2822 CAVOK
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 260°/10 kts.
+          wrongAnswers:
+            - text: Variable/05 kts.
+            - text: Calm
+            - text: Variable/15 to 25 kts.
+    - type: simple
+      question: What surface wind is forecast for ETA 1700 UTC at Kingston? MKJP 160430Z 160606 36010KT 9999 FEW025CB BECMG1315 14020G34KT FEW015CB SCT025 PROB30 TEMPO 1720 2500 +SHRA SCT010 BKN015CB BECMG 2301 34010KT FEW025=
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 140° / 20 kt gusts 34 kt
+          wrongAnswers:
+            - text: 360° / 10 kt
+            - text: 340° / 10 kt
+            - text: 140° / 27 kt
+    - type: simple
+      question: |-
+        What surface wind is forecast for ETA 17:00 UTC at Kingston?
+
+
+
+        MKJP 160430Z 1606/1706 36010KT 9999 FEW025CB BECMG1613/1615 14020G34KT FEW015CB SCT025 PROB30 TEMPO 1617/1620 2500 +SHRA SCT010 BKN015CB BECMG 1623/1701 34010KT FEW025=
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 140° / 20 kt gusts 34 kt
+          wrongAnswers:
+            - text: 140° / 27 kt
+            - text: 340° / 10 kt
+            - text: 360° / 10 kt
+- id: QDPWK
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501987
+    - BGS-501154
+    - AVEXAM-83405
+    - ATPLQ-504528
+    - AVEXAM-26182
+    - BGS-501153
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        What is the height of the lowest cloud forecast for Bangkok at ETA 14:00 UTC?
+
+        TAF VTBD 271800Z 2800/2824 VRB05KT 1200 BR TEMPO 2800/2802 4000 BECMG 2802/2805 9999 NSW SCT015 BKN100 TEMPO 2811/2818 04010G20KT 4500 TSRA SCT009 BKN014 BKN018CB BECMG 2820/2824 4000=
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 900 feet
+          wrongAnswers:
+            - text: 1400 feet
+            - text: 1200 feet
+            - text: 1800 feet
+        - correctAnswers:
+            - text: 4500 metres
+          wrongAnswers:
+            - text: 1200 metres
+            - text: 6 km
+            - text: 10 km or more
+- id: QFQCS
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508514
+    - BGS-501132
+    - AVEXAM-96637
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        Which of the following statements is an interpretation of the METAR ?
+
+        00000KT 0200 R14/0800U R16/P1500U FZFG VV001 M03/M03 Q1022 BECMG 0800=
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: RVR for runway 14 is 800 metres, vertical visibility 100 feet, calm, visibility improving to 800 metres in the next 2 hours
+          wrongAnswers:
+            - text: Visibility for runway 14 is 800 metres, fog with hoar frost, RVR for runway 16 more than 1500 metres
+            - text: Visibility 200 metres, RVR for runway 16 is 1500 metres, temperature -3°C, vertical visibility 100 metres.
+            - text: Visibility 200 feet, RVR for runway 16 is more than 1500 metres, vertical visibility 100 feet, fog with hoar frost
+- id: QJUOZ
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509875
+    - AVEXAM-63625
+    - BGS-501286
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        In the weather briefing room, during the pre-flight phase of a commercial flight from Zurich to Rome, the pilot examines the following weather reports of pressing importance at the time:   
+          
+         EINN SHANNON 2808 SIGMET 2 VALID 0800/1100 LOC SEV TURB FCST EINN FIR BLW FL050 SOUTH OF 53N WKN =   
+          
+         LIMM MILAN 2809 SIGMET 2 VALID 0900/1500 MOD SEV CAT BTN FL250 AND FL430 FCST LIMM FIR STNR NC =   
+          
+         EGLL LONDON 2808 SIGMET NR01 VALID 0800/1200 FOR LONDON FIR ISOL CB EMBD IN LYR CLOUD FCST TOPS FL300 BTN 52N AND 54N EAST OF 002E SEV ICE SEV TURB TS ALSO FCST MOV E WKN =   
+          
+         What is the most appropriate decision?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Because of the expected turbulence, the pilot selects a flight level below FL250.
+          wrongAnswers:
+            - text: The pilot cancels the fight since the expected dangerous weather conditions along the route would demand too much of the passengers.
+            - text: Owing to these reports and taking into account the presence of heavy thunderstorms at planned FL310, the pilot selects a higher flight level (FL370).
+            - text: The pilot shows no further interest in these reports, since they do not concern the route to be owned.
+- id: QUIYG
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503051
+    - AVEXAM-57912
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        Based on the provided METAR for EDDF (Frankfurt, Germany), which runway is the most suitable for take-off, requiring a minimum RVR of 400 meters? 
+
+        EDDF 131050Z 20005KT 0250 FG R18/450 R25L/350 R25C/350U R25R/250U VV002 M03/M03 Q1020=
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Runway 18
+          wrongAnswers:
+            - text: Runway 25C
+            - text: Runway 25R
+            - text: Runway 25L
+- id: QUOPD
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502046
+    - BGS-502200
+    - AVEXAM-70556
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        EGNM 030502Z 0306/0406 15008KT 9999 FEW045 PROB30 TEMPO 0306/0308 8000 BECMG 0318/0321 -RA BKN014 TEMPO 0400/0406 4000 RADZ BKN004=
+
+        What are the expected conditions of visibility for an aircraft arrival time of 04th 0030 UTC?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 10 km or more with temporary reductions to 4 000 m.
+          wrongAnswers:
+            - text: 10 km or more with temporary reductions to 8 km and 4 000 m.
+            - text: 8 km becomes 4 000 metres.
+            - text: 4 000 metres.
+- id: QUYCJ
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504353
+    - AVEXAM-83563
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        According to the following TAF, which of the following is the time period between 06:00 UTC and 21:00 UTC on the 14th day of the month during which a pilot can fly without expecting any type of precipitation?
+
+        EDDF 140500Z 1406/1512 VRB02KT CAVOK BECMG 1408/1410 13008KT 9999 SCT040 TEMPO 1411/1421 25010KT 8000 SHRA SCT033 TCU PROB30 TEMPO 1413/1415 27010KT 5000 TSRA SCT027CB BECMG 1415/1417 29015KT 7000 SHRA OVC015 BECMG 1503/1506 31010KT 8000 -RA BKN025 BECMG 1509/1512 9999 SCT030=
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: From 06:00z to 11:00z
+          wrongAnswers:
+            - text: From 15:00z to 18:00z
+            - text: From 07:00z to 12:00z
+            - text: From 09:00z to 12:00z
+- id: QVQIB
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501358
+    - BGS-501187
+    - AVEXAM-53441
+    - BGS-501186
+    - AVEXAM-74984
+    - ATPLQ-504871
+    - ATPLQ-503743
+    - BGS-501156
+    - AVEXAM-27192
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        What is the lowest cloud base that can be expected from the forecast for 15:00 UTC?
+
+        KCHS 280430Z 2806/2906 VRB05KT 4000 BR SCT005 OVC013 BECMG 2813/2814 9000 SHRA OVC015 PROB40 TEMPO 2814/2816 VRB15G25KT 1600 TSRA OVC010CB BECMG 2816/2818 26010KT BECMG 2821/2822 CAVOK=
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1000 feet
+          wrongAnswers:
+            - text: 1500 feet
+            - text: 1300 feet
+            - text: 3000 feet
+    - type: simple
+      question: |-
+        What is the lowest possible cloud base forecast for ETA 17:00 UTC at Kingston?
+
+        TAF MKJP 160430Z 1606/1706 36010KT 9999 FEW025 BECMG 1613/1615 14020G34KT FEW015CB SCT025 PROB30 TEMPO 1615/1620 2500 +SHRA SCT010 BKN012CB BECMG 1622/1624 34010KT FEW025=
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1000 ft
+          wrongAnswers:
+            - text: 1500 m
+            - text: 1500 ft
+            - text: 1000 m
+        - correctAnswers:
+            - text: 1 000 ft
+          wrongAnswers:
+            - text: 1 000 m
+            - text: 1 500 m
+            - text: 1 500 ft
+    - type: simple
+      question: What is the lowest possible cloud base forecast for ETA 1700 UTC at Kingston? TAF MKJP 160000Z 160606 36010KT 9999 FEW025 BECMG 1315 14020G34KT FEW015CB SCT025 PROB30 TEMPO 1520 2500 +SHRA SCT010 BKN015CB BECMG 2301 34010KT FEW025=
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1000 ft
+          wrongAnswers:
+            - text: 1000 m
+            - text: 1500 ft
+            - text: 1500 m
+- id: QXAGE
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506471
+    - AVEXAM-65629
+    - BGS-501160
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.01.01
+  templates:
+    - type: simple
+      question: "The term PROB as used in a TAF message, indicates the probability in percentage, of phenomena described during a specific period. The numerical values immediately following the term PROB, are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 30 or 40
+          wrongAnswers:
+            - text: 25 or 35
+            - text: 35 or 50
+            - text: 20 or 30
+- id: QYNDP
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508009
+    - BGS-502148
+    - AVEXAM-48574
+    - AVEXAM-85554
+    - ATPLQ-504974
+    - AVEXAM-8638
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        According to the following TAF, a pilot planning to take off from Frankfurt airport (EDDF) on the 7th of the month at 05:00 UTC could expect (1) \_\_\_\_\_ visibility, a wind speed of (2) \_\_\_\_\_, and (3) \_\_\_\_\_ clouds.
+
+        EDDF TAF 061000Z 0612/0718 23012KT 7000 SCT026 BECMG 0615/0618 22020KT BECMG 0700/0703 16015KT 8000 FEW026 BECMG 0709/0712 24010KT 7000 SCT028 BECMG 0715/0718 22008KT FEW035
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) 8000 m; (2) 15 kt; (3) few
+          wrongAnswers:
+            - text: (1) 7000 m; (2) 8 kt; (3) few
+            - text: (1) 7000 m; (2) 12 kt; (3) scattered
+            - text: (1) 7000 m; (2) 10 kt; (3) scattered
+        - correctAnswers:
+            - text: (1) 160º, (2) 8 000 m, (3) FEW.
+          wrongAnswers:
+            - text: (1) 160º, (2) 700 m, (3) FEW.
+            - text: (1) 220º, (2) 700 m, (3) FEW.
+            - text: (1) 220º, (2) 7 000 m, (3) SCT.
+- id: QYZNH
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502020
+    - BGS-501167
+    - AVEXAM-76704
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.01.01
+  templates:
+    - type: simple
+      question: "In METAR messages, the pressure group represents the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: QNH rounded down to the nearest hPa.
+          wrongAnswers:
+            - text: QFE rounded down to the nearest hPa.
+            - text: QFE rounded to the nearest hPa.
+            - text: QNH rounded up to the nearest hPa.
+- id: QFZKP
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501420
+    - AVEXAM-66184
+    - BGS-502478
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.01.02
+  templates:
+    - type: simple
+      question: |-
+        These four elements have been removed from the tropical advisory extract below: INTSF, JACQUES, 976HPA, NADI.
+
+        TC ADVISORY   
+         DTG: 20130712/1900Z   
+         TCAC:(1) \_\_\_\_\_   
+         TC:(2) \_\_\_\_\_   
+         TC ADVISORY NR: 2013/6   
+         OBS PSN: 12/1800Z N2706 W07306   
+         CB:W1 120NM OF TC CENTRE TOP FL450   
+         MOV: SE 35 KMH   
+         INTST CHANGE:(3) \_\_\_\_\_   
+         C:(4) \_\_\_\_\_   
+         MAX WIND: 30MPS
+
+        The correct sequence is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) NADI; (2) JACQUES; (3) INTSF; (4) 976HPA
+          wrongAnswers:
+            - text: (1) INTSF; (2) NADI; (3) 976HPA; (4) JACQUES
+            - text: (1) JACQUES; (2) 976HPA; (3) NADI; (4) INTSF
+            - text: "(1) 976HPA: (2) INTSF; (3) JACQUES; (4) NADI"
+- id: QGNQH
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501481
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.01.03
+  templates:
+    - type: simple
+      question: |-
+        EGBB 251450Z 30029G39KT 8000 2000W SCT010CB BKN020 09/06 Q1005=   
+         Suddenly, lightning is observed from one of the CB clouds just over the airfield and a loud rumble follows. What is the correct action to be performed by the ATS unit?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Issue a SPECI.
+          wrongAnswers:
+            - text: No action required.
+            - text: Issue a windshear warning.
+            - text: Issue an AIREP.
+- id: QGUXS
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506610
+    - AVEXAM-46016
+    - BGS-501931
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.01.03
+  templates:
+    - type: simple
+      question: Which type(s) of weather phenomena justify issuing an aviation special weather report (SPECI)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Significant changes of surface winds, visibility, cloud base height, and occurrence of severe weather.
+          wrongAnswers:
+            - text: Significant changes of air pressure, temperature, visibility, cloud cover, and wind direction.
+            - text: An upcoming thunderstorm, which is presumed to arrive at the reporting airfield within the next 2 hours.
+            - text: Severe weather, if observed at a minimum of two of the three nearest airfields.
+- id: QMHFU
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505638
+    - BGS-501750
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.01.04
+  templates:
+    - type: simple
+      question: Which of the following documents should contain forecasts for the location and level of Clear Air Turbulence (CAT)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SIGMET
+          wrongAnswers:
+            - text: METAR
+            - text: NOTAM
+            - text: TAF
+- id: QPZPC
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503958
+    - AVEXAM-90097
+    - BGS-501144
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.01.04
+  templates:
+    - type: simple
+      question: Which of the statements is true concerning squall lines?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: For severe squall lines a SIGMET is issued
+          wrongAnswers:
+            - text: Severe squall lines always move from northwest to southeast
+            - text: For severe squall lines a TAF is issued
+            - text: Severe squall lines only occur in the tropics
+- id: QCXJE
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505798
+  annexes:
+    - id: ABUB
+  learningObjectiveIds:
+    - 050.10.03.01.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which of the following runway state messages, added to a METAR, could be decoded as follows? All runways have deposits of dry snow, to an extent of 11% to 25% of the runway covered, to a depth of 50 mm, with a braking coefficient of 0.35.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "88425035"
+          wrongAnswers:
+            - text: "88425093"
+            - text: "77240564"
+            - text: "99204536"
+- id: QIAWI
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507298
+    - BGS-502083
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.01.05
+  templates:
+    - type: multiple-correct
+      question: Which statements are correct about the state of runway section on a METAR?
+      explanation: ""
+      options:
+        - text: Runway designator
+          correct: true
+        - text: Aerodrome designator
+          correct: false
+        - text: Extent of contamination
+          correct: true
+        - text: Depth of deposit
+          correct: true
+        - text: Friction coefficient
+          correct: true
+        - text: Trend information regarding depth of deposits
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QYZTS
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508590
+    - ATPLQ-506505
+    - BGS-501116
+    - BGS-501147
+    - AVEXAM-54337
+    - AVEXAM-31400
+    - AVEXAM-19831
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.02.01
+  templates:
+    - type: simple
+      question: Which of the following weather reports is a warning of conditions that could be potentially hazardous to aircraft in flight ?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SIGMET.
+          wrongAnswers:
+            - text: ATIS.
+            - text: TAF.
+            - text: SPECI.
+    - type: simple
+      question: "SIGMET information is issued as a warning for significant weather to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: all aircraft.
+          wrongAnswers:
+            - text: light aircraft only.
+            - text: VFR operations only.
+            - text: heavy aircraft only.
+    - type: simple
+      question: "A SIGMET:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is a warning of meteorological hazards in the FIR for all aircraft.
+          wrongAnswers:
+            - text: is added as a short-term forecast to the actual weather report of an airport.
+            - text: reports the actual weather of an airport every 30 minutes.
+            - text: is a route forecast, issued several times during the day by the Met Offices.
+- id: QBSWQ
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504781
+    - BGS-502408
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.02.01
+  templates:
+    - type: simple
+      question: Which statement correctly describes the meteorology content of a D-ATIS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Surface wind, visibility and if applicable RVR, present weather, cloud, air temperature, dew point, and altimeter setting.
+          wrongAnswers:
+            - text: Surface wind, horizontal and vertical visibility, present weather, each reported cloud type with height above the aerodrome, air temperature, dew point, QNH and QFE.
+            - text: The present weather conditions stated in the current METAR with trend information valid for the next 30 minutes.
+            - text: The present weather conditions stated in the current METAR with an outlook forecast valid for the next 6 hours.
+- id: QJEAO
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502989
+    - AVEXAM-94304
+    - BGS-501408
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.02.01
+  templates:
+    - type: simple
+      question: How does ATIS broadcasts differ from VOLMET?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The wind directions are given in magnetic and they may contain aerodrome information in addition to weather information.
+          wrongAnswers:
+            - text: They are based on Met Office forecasts for the next two hours.
+            - text: They are updated every 30 minutes.
+            - text: They are broadcast centrally from National Meteorological Centres.
+- id: QLKQE
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501028
+    - AVEXAM-83898
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.02.01
+    - 050.10.03.02.02
+  templates:
+    - type: simple
+      question: Can TREND and TAF reports be found in scheduled HF and continuous VHF VOLMETs?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: TRENDs are in both VOLMETs if available.
+          wrongAnswers:
+            - text: These reports are prohibited in both HF and VHF VOLMETs.
+            - text: TAFs are contained in both whenever it is possible.
+            - text: TAFs are scheduled VOLMETs only if available.
+- id: QUXPA
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507633
+    - AVEXAM-1903
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.02.01
+  templates:
+    - type: simple
+      question: VOLMET information contains..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: meteorological information for aircraft in flight
+          wrongAnswers:
+            - text: the current weather referring to specific routes
+            - text: forecast weather referring to specific routes
+            - text: meteorological and operational information
+- id: QZUTQ
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503303
+    - BGS-501918
+    - AVEXAM-73810
+    - AVEXAM-83018
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.02.01
+  templates:
+    - type: simple
+      question: The crew of an aircraft flying from London Heathrow (EGLL) to Palma de Mallorca (LEPA), when passing to the west of Paris, wish to check the latest weather at aerodromes in the vicinity, in case of the need for an in-flight diversion. To obtain this information what single source of meteorological information, available through VHF, could the crew consult?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VOLMET
+          wrongAnswers:
+            - text: VORTAC
+            - text: AIREP
+            - text: ATIS
+- id: QOTGC
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502337
+    - AVEXAM-29117
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.03.02
+  templates:
+    - type: simple
+      question: You are planning a flight which passes through LIMM (Milan FIR). There are no reports of CB activity on the significant weather charts or SIGMETs, however you notice significant thunderstorm activity on a specialised weather website for an area close to your intended routing. How should you proceed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: You may only use official weather information sources for flight planning, but you can always contact the WAFC for further clarification or additional information.
+          wrongAnswers:
+            - text: You can use any piece of available information, including the website, to prepare the flight and anticipate or deviate around the weather.
+            - text: If there is no indication on the SIGMET or significant weather charts, you can disregard the information from the specialised weather website.
+            - text: You must postpone the flight until official sources confirm the presence or absence of thunderstorms along the route.
+    - type: simple
+      question: When planning a flight which passes through Milan FIR, there are no reports of CB activity to be found in SIGMETs or on significant weather charts, but in the Internet, you notice significant thunderstorm activity on a specialised weather page for an area close to your intended routing. Which of the following describes the correct procedure?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: You may only use official weather information sources for flight planning purposes, but you can always contact the WAFC for further clarification or additional information.
+          wrongAnswers:
+            - text: You have to postpone the flight until official sources confirm the presence or absence of thunderstorms along the route.
+            - text: If there is no indication on the SIGMET or significant weather charts, you can disregard the information from the specialised weather page.
+            - text: To prepare the flight and anticipate or deviate around the weather, any piece of available information can be used, including the specialised weather page,.
+- id: QGFXT
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509761
+    - AVEXAM-84664
+    - BGS-501810
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.03.02
+  templates:
+    - type: multiple-correct
+      question: A pre-flight weather briefing must be prepared, and information is needed on the expected weather at the destination for an arrival approximately 3 hours later. Which of the following, available from meteorological services during flight planning, can provide this information?
+      explanation: ""
+      options:
+        - text: The TAF covering the estimated time of arrival.
+          correct: true
+        - text: The current ATIS message promulgated by the destination airport.
+          correct: false
+        - text: NOTAMS in force at the estimated time of arrival.
+          correct: false
+        - text: The latest METAR (giving particular scrutiny to any trend information).
+          correct: true
+        - text: Aerodrome warnings in force at the estimated time of arrival.
+          correct: true
+        - text: The current VOLMET information promulgated by the destination airport.
+          correct: false
+        - text: The Significant Weather Chart covering the area of the destination airport valid at the estimated time of arrival.
+          correct: true
+        - text: Relevant SIGMET information valid at the estimated time of arrival.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 3
+            - 4
+            - 5
+            - 6
+        - show:
+            - 4
+            - 5
+            - 6
+            - 7
+        - show:
+            - 0
+            - 5
+            - 6
+            - 7
+        - show:
+            - 0
+            - 1
+            - 6
+            - 7
+        - show:
+            - 0
+            - 1
+            - 2
+            - 7
+- id: QFYVD
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506668
+    - BGS-501203
+    - AVEXAM-48097
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.03.03
+  templates:
+    - type: simple
+      question: What are the normal and official sources of meteorological information for an aircraft in flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "VOLMET broadcast; ATIS; all ATS-units
+
+
+                \ "
+          wrongAnswers:
+            - text: VOLMET broadcast; ATIS, and from the ATS-units the TWR, APP and FIC only
+            - text: VOLMET broadcast; ATIS, and from the ATS-units the TWR only
+            - text: VOLMET broadcast; ATIS, and from the ATS-units the FIC only
+- id: QFVEW
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505094
+    - BGS-502350
+    - BGS-502587
+    - AVEXAM-95459
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.04.01
+  templates:
+    - type: simple
+      question: |-
+        YBBN AD WRNG 1 VALID 070800/071200Z TC MELBA SFC WSPD 50KT MAX 100KT INTSF
+
+        This message is (1) \_\_\_\_\_ informing about (2) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) an aerodrome warning; (2) a tropical cyclone.
+          wrongAnswers:
+            - text: (1) a strong wind warning; (2) an inter-tropical stationary front.
+            - text: (1) an AIRMET; (2) wind shear conditions.
+            - text: (1) a SIGMET; (2) a tropical cyclone.
+- id: QLFHS
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506141
+    - AVEXAM-62120
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.04.01
+  templates:
+    - type: simple
+      question: |-
+        Decode the following message:   
+          
+         CNL AD WRNG 3 101100/101130
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cancelled aerodrome warning no 3.
+          wrongAnswers:
+            - text: Cancelled all aerodrome warnings.
+            - text: Cancelled 3 aerodrome warnings between 1100 and 1130.
+            - text: Cancelled 3rd aerodrome warning of the day.
+- id: QNALE
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503216
+    - BGS-502611
+    - ATPLQ-503906
+    - AVEXAM-95864
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.04.01
+  templates:
+    - type: simple
+      question: |-
+        According to the following aerodrome warnings, a pilot on departure at (1)\_\_\_\_\_ airport has reported (2)\_\_\_\_\_.
+
+        LDRI WS WRNG 1 160520 VALID 160520/161200 WS ALL RWY FCST=   
+        LGTS WS WRNG 1 160520 MBST APCH RWY16 REP AT 0500 A320 35KT LOSS 1NM FNA=   
+        LGAV WS WRNG 1 160520 MBST IN CLIMB OUT REP AT 0500 A320=   
+        EDDF WS WRNG 1 160520 VALID 160520/161200 WS RWY18 FCST=
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) LGAV, (2) a microburst
+          wrongAnswers:
+            - text: (1) LGTS, (2) a microburst
+            - text: (1) LDRI, (2) wind shear
+            - text: (1) EDDF, (2) wind shear
+        - correctAnswers:
+            - text: (1) LGTS, (2) a microburst
+          wrongAnswers:
+            - text: (1) LGAV, (2) a microburst
+            - text: (1) EDDF, (2) wind shear
+            - text: (1) LDRI, (2) wind shear
+- id: QVQPX
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504456
+    - BGS-503001
+    - AVEXAM-91178
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.04.01
+  templates:
+    - type: simple
+      question: |-
+        A weather briefing for a short flight from Paris Orly (LFPO) to Brussels (EBBR) on the 21st November includes the following warning message:
+
+        EBBR AD WRNG 3 VALID 211100/211700 WIND 50KT MAX 65KT OBS WKN=
+
+        The flight is due to land in Brussels at 16:30 UTC. Which of the following options best describes the conditions forecast in the message?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Strong surface winds, but NOT as strong as earlier in the warning period.
+          wrongAnswers:
+            - text: Strong surface winds, stronger than those earlier in the warning period.
+            - text: Strong surface winds of at least 65 kt.
+            - text: Strong winds on approach but weakening closer to the ground, to a maximum of 65 kt.
+- id: QVWSW
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505472
+    - AVEXAM-983
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.03.04.01
+  templates:
+    - type: simple
+      question: |-
+        A flight crew is preparing for departure from Rabat-Sale Airport (GMME), Morocco on 13th October and the following message is included in their briefing pack:
+
+        GMME AD WRNG 2 VALID 131500/131700 SS FCST=
+
+        What information does this provide about the weather at Rabat-Sale Airport?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: There is a forecast of a sandstorm that afternoon between 15:00 UTC and 17:00 UTC.
+          wrongAnswers:
+            - text: There is a forecast of a sandstorm at 15:00 UTC to reduce visibility to 1700 m.
+            - text: A sandstorm was observed at 15:00 UTC and is expected to last until 17:00 UTC.
+            - text: This message contains information just for the en-route phase, provided by Rabat - Sale Airport.
+- id: QWRTK
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504826
+    - BGS-501895
+    - AVEXAM-3200
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.04.01.01
+  templates:
+    - type: simple
+      question: Who produces the gridded area forecast?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: World Area Forecast Centers
+          wrongAnswers:
+            - text: Meteorological watch offices
+            - text: Aerodrome meteorological offices
+            - text: Air Traffic Services
+- id: QJNLW
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506716
+    - AVEXAM-57314
+    - AVEXAM-83862
+    - ATPLQ-509457
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.04.01.03
+  templates:
+    - type: simple
+      question: Which one of the following agencies prepares SIGMET?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Meteorological watch office
+          wrongAnswers:
+            - text: World area forecast centre
+            - text: Meteorological office
+            - text: Aeronautical meteorological station
+    - type: simple
+      question: What are the duties of a meteorological watch office?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To generate SIGMETs.
+          wrongAnswers:
+            - text: To close a part of the airport in case of a weather hazard.
+            - text: To deliver preflight documentation.
+            - text: To close the airport in case of a weather hazard.
+    - type: simple
+      question: Who prepares a SIGMET?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A meteorological watch office.
+          wrongAnswers:
+            - text: ATC.
+            - text: FIS.
+            - text: An aeronautical office.
+- id: QLHDV
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508366
+    - AVEXAM-93057
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.04.01.03
+  templates:
+    - type: simple
+      question: What kind of activity is a part of a Meteorological Watch Office's (MWO) responsibilities?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Preparing and disseminating SIGMETs and other information relating to a specific Flight Information Region(FIR).
+          wrongAnswers:
+            - text: Analysing information received on pre-eruptive volcanic activity to identify any potential impact on forecasting.
+            - text: Keeping a continuous watch over the meteorological conditions within the areas adjacent to its own area of responsibility.
+            - text: Providing briefings, consultation and flight documentation to flight crew members and/or other flight operations personnel.
+- id: QJDFH
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502782
+    - AVEXAM-35731
+    - BGS-501854
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.04.01.06
+  templates:
+    - type: simple
+      question: In the World Area Forecast System, what is a major objective of a Tropical Cyclone Advisory Centre?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Issue information concerning the state, development and movement of tropical cyclones.
+          wrongAnswers:
+            - text: Predict the chance of tropical cyclones developing in the easterly waves of the ITCZ area.
+            - text: Transmit warnings concerning tropical cyclones to operational control centres of airline companies.
+            - text: Deliver route advice to airline companies and Air Traffic Control centres in areas with tropical cyclones.
+- id: QRQVW
+  subjectId: "050"
+  chapterId: "050.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503459
+    - BGS-501406
+  annexes: []
+  learningObjectiveIds:
+    - 050.10.04.02.01
+  templates:
+    - type: simple
+      question: What is the main role of the World Meteorological Organisation (WMO), with regard to aviation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Establish and implement, together with ICAO, a global regulatory framework for aviation meteorological services.
+          wrongAnswers:
+            - text: Provide detailed information about the most serious meteorological hazards for aviation, globally, including volcanic ash clouds and tropical cyclones.
+            - text: Maintain watch over meteorological conditions affecting flight operations within specific areas of responsibility
+            - text: Provide global forecasts of upper winds and temperature for flights throughout the world.

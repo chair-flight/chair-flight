@@ -1,0 +1,568 @@
+- id: QMCGZ
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219245
+    - BGS-211114
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.01.01.01
+  templates:
+    - type: simple
+      question: Optical smoke detectors work on the principle that smoke particles..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: reflect and scatter light.
+          wrongAnswers:
+            - text: are positively charged.
+            - text: are visible using internal optical lenses.
+            - text: are negatively charged.
+- id: QOTNK
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211142
+    - AVEXAM-36868
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.01.01.01
+  templates:
+    - type: simple
+      question: Where are smoke detectors used on airplanes?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Lavatories, Cargo Hold, Avionics Bay and Crew Rest Areas
+          wrongAnswers:
+            - text: Lavatories, Cargo Hold, Avionics Bay, Engines and Crew Rest Areas
+            - text: Lavatories, Cargo Hold, Avionics Bay, Flight deck, Engines and Crew Rest Areas
+            - text: Lavatories, Cargo Hold, Avionics Bay and Fuel Tanks.
+- id: QXAUY
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds:
+    - QIJIB
+    - QQYDS
+    - QRMSA
+    - QTTIN
+    - QQQRA
+  externalQuestionIds:
+    - ATPLQ-212612
+    - AVEXAM-66577
+  annexes:
+    - id: ADAS
+  learningObjectiveIds:
+    - 021.12.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Smoke detection in the aircraft cargo compartments is performed by four sensors: C1, C2, C3 and C4\. Which of following will activate the alert?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When the C1 and C2 sensors detect smoke.
+          wrongAnswers:
+            - text: When only the C1 and C3 sensors detect smoke.
+            - text: When only one sensor detects smoke.
+            - text: Only when all sensors detect smoke.
+- id: QCDWK
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214605
+    - AVEXAM-52020
+    - BGS-211650
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.02.01.01
+  templates:
+    - type: simple
+      question: The command to discharge a main engine fire extinguisher is activated...
+      explanation: The engine fire extinguisher is discharged manually. After the fire warning, the crew pull the fire handle and then select a bottle discharge, so the decision stays with the crew.
+      presets:
+        - correctAnswers:
+            - text: manually by the flight crew.
+          wrongAnswers:
+            - text: automatically when a fire is detected.
+            - text: manually when a high oil temperature is indicated.
+            - text: automatically when an overheat is detected.
+- id: QUEDD
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211151
+    - BGS-211890
+    - AVEXAM-85734
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.02.01.01
+  templates:
+    - type: one-two
+      question: Regarding a built-in fire extinguishing system of a turbine engine, what statement(s) is/are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right: []
+          wrong:
+            - A bleed-air driven (pneumatic) pump is used to discharge the fire agent into the engine compartment.
+        - right: []
+          wrong:
+            - The built-in fire-extinguishing system is capable of extinguishing an engine fire WITHOUT engine shutdown.
+- id: QGKLU
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214428
+    - BGS-211098
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.02.01.02
+  templates:
+    - type: simple
+      question: |-
+        Fill-in the blank:
+
+        .... fire extinguisher discharge bottles are required per engine.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1"
+          wrongAnswers:
+            - text: "3"
+            - text: "5"
+            - text: "2"
+- id: QMLGU
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218213
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.02.01.02
+  templates:
+    - type: simple
+      question: How many fire extinguisher DISCHARGES are required per engine in large aircraft (CS-25)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "2"
+          wrongAnswers:
+            - text: "4"
+            - text: "3"
+            - text: "1"
+- id: QJYMS
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212003
+    - AVEXAM-74484
+    - BGS-211741
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.02.02.01
+  templates:
+    - type: simple
+      question: Gas-filled fire detectors work on the principle that heat causes the internal pressure to..
+      explanation: In a gas-filled detector, heat raises the gas pressure in the sensing tube. At a set pressure the alarm switch closes and gives a fire warning.
+      presets:
+        - correctAnswers:
+            - text: increase, causing a fire warning indication.
+          wrongAnswers:
+            - text: reduce, causing a loop fault indication.
+            - text: reduce, causing a fire warning indication.
+            - text: increase, causing a loop fault indication.
+- id: QCHDG
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214243
+    - AVEXAM-65056
+    - BGS-211090
+    - ATPLQ-217115
+    - BGS-211594
+    - AVEXAM-36134
+    - ATPLQ-214387
+    - BGS-211652
+    - AVEXAM-15805
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.02.02.02
+  templates:
+    - type: simple
+      question: In a gas filled fire detection system, what would be the cause of an error warning?
+      explanation: In a gas-filled loop, a leak or break lowers the gas pressure. A low pressure is detected by an integrity switch, which gives a loop fault or error indication, not a fire warning.
+      presets:
+        - correctAnswers:
+            - text: Low pressure
+          wrongAnswers:
+            - text: High pressure
+            - text: High temperature
+            - text: High resistance
+    - type: simple
+      question: What could be a cause of a loop fault in a gas-filled fire detection system?
+      explanation: A decrease in loop pressure, caused by a leak or break in the sensing tube, opens the integrity switch and gives a loop fault indication.
+      presets:
+        - correctAnswers:
+            - text: A decrease in loop pressure.
+          wrongAnswers:
+            - text: An increase in loop capacitance.
+            - text: An increase in loop resistance.
+            - text: A decrease in atmospheric pressure.
+    - type: simple
+      question: If a gas-filled fire detector becomes broken, the result will be ..
+      explanation: A broken gas-filled detector loses its gas, so the pressure falls. This opens the integrity switch and gives a loop fault indication, and not a fire warning.
+      presets:
+        - correctAnswers:
+            - text: a decrease in pressure, causing a loop fault indication.
+          wrongAnswers:
+            - text: an increase in pressure, causing a fire warning.
+            - text: an increase in pressure, causing a loop fault indication.
+            - text: a decrease in pressure, causing a fire warning.
+- id: QELFQ
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213615
+    - AVEXAM-11494
+    - BGS-210860
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.02.02.02
+  templates:
+    - type: simple
+      question: "When a bimetallic strip is used as a switch in a fire detection loop, a delay is incorporated after a fire alarm is triggered in order to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: avoid false alarms in case of vibrations.
+          wrongAnswers:
+            - text: wait for the triggering of the second fire detection loop in order to confirm the fire.
+            - text: allow temperatures to equalise.
+            - text: delay the triggering of the fire extinguishers and increase their efficiency.
+- id: QRFVF
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213576
+    - AVEXAM-8154
+    - BGS-211109
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.02.02.02
+  templates:
+    - type: simple
+      question: What indication will alert the flight crew if the tube in a gas type fire detector is broken?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A fault warning because of low pressure.
+          wrongAnswers:
+            - text: A fire warning because of high pressure.
+            - text: A fire warning because of low pressure.
+            - text: A fault warning because of high pressure.
+- id: QUOYG
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214739
+    - AVEXAM-88951
+    - BGS-211903
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.02.02.02
+  templates:
+    - type: simple
+      question: |-
+        A gaseous loop fire detector uses the following principle:   
+         An increase in surrounding temperature will:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Increase the pressure inside a gas-filled tube. When reaching the upper threshold, a pressure switch will activate the alarm.
+          wrongAnswers:
+            - text: Increase the temperature inside a gas-filled tube, which expands the volume of the tube. The alarm is activated when the tube breaks.
+            - text: Increase the temperature inside a gas-filled tube, which narrows the volume of the tube. The alarm is activated when the tube collapses.
+            - text: Decrease the pressure inside a gas-filled tube. When reaching the lower threshold, the gas-filled tube collapses and pressure switch will activate the alarm.
+- id: QXYLA
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211098
+    - BGS-212241
+    - ATPLQ-217736
+    - ATPLQ-214265
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.02.02.03
+  templates:
+    - type: one-two
+      question: Which of the following statements with regards to double-loop fire detection systems is correct?
+      explanation: ""
+      pairs:
+        - right:
+            - The double-loop fire detection system is inherently more reliable than other similar types of fire detection systems.
+          wrong: []
+        - right:
+            - The aircraft can be allowed to depart if it is found that one of the fire detection loops is not working after a pre-flight inspection.
+          wrong: []
+    - type: simple
+      question: |-
+        Which of the following statements with regards to double-loop fire detection systems is correct?1. The double-loop fire detection system is inherently less reliable than other similar types of fire detection systems 
+        2. It is safe to fly the aircraft even if it is found that one of the fire detection loops is not working after a pre-flight inspection
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1. incorrect; 2. correct
+          wrongAnswers:
+            - text: 1. correct; 2. incorrect
+            - text: 1. correct; 2. correct
+            - text: 1. incorrect; 2. incorrect
+    - type: simple
+      question: |-
+        Which of the following statements with regards to double-loop fire detection systems is correct?
+
+        1. This system is designed to avoid false detections 
+         
+        2. In case of failure of one loop, the flight can be continued
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) correct; (2) correct
+          wrongAnswers:
+            - text: (1) incorrect; (2) correct
+            - text: (1) correct; (2) incorrect
+            - text: (1) incorrect; (2) incorrect
+- id: QNJGC
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212792
+    - AVEXAM-58954
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.02.02.04
+  templates:
+    - type: simple
+      question: In a "no-fault" fire detection system comprising two loops - where loop A is operational but loop B has been crushed - what will happen when loop B is tested?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Only the testing warning light will illuminate, indicating the fault without triggering fire alarms.
+          wrongAnswers:
+            - text: Both the audio and visual fire alarms will activate, along with the testing warning light.
+            - text: Only the audio fire alarms will go off, along with the testing warning light.
+            - text: Both the audio and visual warnings will go off, but the testing warning light will not.
+    - type: simple
+      question: In a "no-fault" fire detection system with two loops - where loop A is operational but loop B has been damaged - what occurs when loop B undergoes testing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Only the testing warning light will illuminate, indicating the fault without triggering fire alarms.
+          wrongAnswers:
+            - text: Only the audio fire alarms will go off, along with the testing warning light.
+            - text: Both the audio and visual warnings will go off, but the testing warning light will not.
+            - text: Both the audio and visual fire alarms will activate, along with the testing warning light.
+- id: QLTJR
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215359
+    - BGS-211658
+    - AVEXAM-66061
+    - ATPLQ-212905
+    - BGS-211116
+    - AVEXAM-3156
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.02.02.04
+  templates:
+    - type: simple
+      question: What are the possible cockpit indications of an engine fire?
+      explanation: "An engine fire warning is a red alert: an aural bell, a red warning message and a red light in the engine fire switch. Amber is used for cautions."
+      presets:
+        - correctAnswers:
+            - text: Bell, red alert message, red light in the engine fire switch.
+          wrongAnswers:
+            - text: Beeper, amber alert message, red light in the engine fire switch.
+            - text: Bell, red alert message, amber light in the engine fire switch.
+            - text: Beeper, amber alert message, amber light in the engine fire switch.
+    - type: simple
+      question: How will a fire warning be indicated?
+      explanation: An engine fire gives a continuous bell, the red master warning light and a red light in the engine fire switch. Red is reserved for warnings that need immediate action, and an intermittent bell or yellow caution light is not used.
+      presets:
+        - correctAnswers:
+            - text: Continuous bell, red master warning light, red light on engine fire extinguisher button.
+          wrongAnswers:
+            - text: Continuous bell, yellow master caution light, red light on engine fire extinguisher button.
+            - text: Intermittent bell, red master warning light, red light on engine fire extinguisher button.
+            - text: Beeper, red master warning light, amber light on engine fire extinguisher button.
+- id: QHPII
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213603
+    - BGS-211597
+    - AVEXAM-79648
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.02.02.04
+  templates:
+    - type: simple
+      question: If an engine fire detection loop is broken, what is the indication when the fire warning system is tested for that engine?
+      explanation: If the detection loop is broken, the fire warning test cannot complete as normal. There is no fire warning, and there may be a fault alert showing that the loop is defective.
+      presets:
+        - correctAnswers:
+            - text: No indication or a fault alert.
+          wrongAnswers:
+            - text: A fault alert and a fire warning bell.
+            - text: A fault alert and a red master warning light.
+            - text: A fault alert and a fire warning light.
+- id: QWFLX
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211061
+    - BGS-211644
+    - AVEXAM-1141
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.02.02.04
+  templates:
+    - type: simple
+      question: During the test sequence of the Fire Detection System, the "TEST" light does not illuminate and the pilot has no other visual confirmation. Which of the following statements is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The circuit is not grounded because of a break in the wire between the detectors, therefore the light(s) will not illuminate.
+          wrongAnswers:
+            - text: This is normal. The light(s) remain(s) off because there is no real fire.
+            - text: As long as the aural indication sounds, the system is operating properly, because the aural cue has a higher priority.
+            - text: This is normal. Only if the “FAIL” light illuminates during the test sequence is there a problem.
+- id: QCGSE
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214574
+    - BGS-211052
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.03.01.01
+  templates:
+    - type: simple
+      question: To improve visibility during heavy rain, rain-repellent fluid is used in conjunction with..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: windscreen wipers.
+          wrongAnswers:
+            - text: de-icing fluid.
+            - text: electrical anti-icing.
+            - text: a windscreen washer.
+- id: QEJJK
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215274
+    - AVEXAM-52319
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.03.01.01
+  templates:
+    - type: simple
+      question: Which of the following statements is correct regarding rain repellents?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The rain droplets bond into large drops that get blown away more easily by the airflow.
+          wrongAnswers:
+            - text: It improves the mechanical movement of the windshield wipers.
+            - text: The liquid makes the rain drops flow uniformly by capillarity.
+            - text: The chemical nature of the repellent evaporates the water.
+- id: QFWPY
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216049
+    - AVEXAM-10072
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        Choose the correct statement in reference to the following windshield rain protection systems.
+
+        1. Chemical rain repellent 
+         
+        2. Pneumatic moisture clearance 
+         
+        3. Windshield wipers
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 and 3 are commonly fitted to aircraft and can be used together or separately.
+          wrongAnswers:
+            - text: Each system must be used independently to avoid damage to other systems.
+            - text: The use of all 3 is the most efficient at clearing rain.
+            - text: 2 and 3 can be used together simultaneously, but 1 and 3 cannot, as it would result in rubber damage of the wiper.
+    - type: simple
+      question: |-
+        Choose the correct statement regarding the following windshield rain protection systems.
+
+
+
+        1. Windshield wipers.
+
+        2. Chemical water clearance.
+
+        3. Pneumatic moisture clearance.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 and 2 can be used in conjunction with each other.
+          wrongAnswers:
+            - text: The use of 1 alone is unsafe.
+            - text: The use of all 3 is the most efficient at clearing rain.
+            - text: 2 cannot be used in conjunction with the windshield heating function.
+- id: QKQSE
+  subjectId: "021"
+  chapterId: "021.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218925
+    - AVEXAM-42532
+  annexes: []
+  learningObjectiveIds:
+    - 021.12.03.01.01
+  templates:
+    - type: simple
+      question: "Select the statement which best describes how a cockpit windshield hydrophobic seal coating works:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The coating causes rain droplets to bead up and roll off the windshield enhancing the vision of the flight crew. It is applied externally by the manufacturer and deeply penetrates the windshield surface.
+          wrongAnswers:
+            - text: If the coating is correctly installed, the use of windshield wipers is not required.
+            - text: The coating relies on the cockpit windshield heating element to activate its water repelling properties.
+            - text: The coating causes rain droplets to bead up and roll off the windshield enhancing the vision of the flight crew. It is applied externally by engineers and can easily be replaced during an aircraft transit stop.

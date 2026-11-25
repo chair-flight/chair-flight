@@ -1,0 +1,2493 @@
+- id: QPDTM
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622841
+    - AVEXAM-56898
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.01.01.01
+  templates:
+    - type: multiple-correct
+      question: What are key areas of the navigation specification of RNAV systems?
+      explanation: ""
+      options:
+        - text: accuracy
+          correct: true
+        - text: performance
+          correct: false
+        - text: integrity
+          correct: true
+        - text: application
+          correct: false
+        - text: continuity
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+    - type: simple
+      question: |-
+        Which of the following factors are used to define area navigation (RNAV) or required navigation performance (RNP) system performance requirements?
+
+         Accuracy
+         Performance
+         Integrity
+         Application
+         Continuity
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 3, 5
+          wrongAnswers:
+            - text: 1, 2, 3
+            - text: 2, 3, 4
+            - text: 1, 3, 4
+- id: QCHJH
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627719
+    - AVEXAM-80928
+    - BGS-621132
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.01.01.02
+  templates:
+    - type: simple
+      question: Which of the following factors affects the minimum spacing requirements of an ATS route?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Navigation performance
+          wrongAnswers:
+            - text: Aircraft classification number
+            - text: Aircraft registration
+            - text: Fuel policy
+- id: QNUPC
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621186
+    - BGS-621306
+    - AVEXAM-45801
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.01.01.03
+  templates:
+    - type: simple
+      question: Why is it necessary for both pilots and air traffic controllers to be aware of the capabilities and performance of RNAV and RNP systems when entering and operating in a particular airspace?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To be confident that the aircraft is capable of navigating with the appropriate accuracy to ensure adherence to procedures and separation.
+          wrongAnswers:
+            - text: It ensures that both pilots and air traffic controllers are confident that the aircraft will follow published tracks also in the event of systems downgrade.
+            - text: To be confident that all aircraft follow the same path and follow the same turn radius, giving the same predictable track-keeping performance.
+            - text: It ensures that all aircraft entering are capable of following the procedures and therefore reduces workload by eliminating the need for monitoring.
+- id: QSBMW
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628783
+    - BGS-621426
+    - AVEXAM-39886
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.01.01.04
+    - 062.07.04.02.03
+  templates:
+    - type: simple
+      question: During flight, a pilot is alerted that the aircraft's ANP is greater than the RNP. The aircraft's navigational accuracy (1) \_\_\_\_\_ within acceptable limits, as navigational accuracy is defined as the difference between the required aircraft position and its (2) \_\_\_\_\_ position.
+      explanation: If the ANP is greater than the RNP, the required accuracy is not achieved. Navigational accuracy is the conformance between the true position and the required position.
+      presets:
+        - correctAnswers:
+            - text: (1) is not; (2) true
+          wrongAnswers:
+            - text: (1) is not; (2) desired
+            - text: (1) is; (2) true
+            - text: (1) is; (2) desired
+- id: QTYUM
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624659
+    - BGS-621185
+    - BGS-621439
+    - AVEXAM-62927
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.01.01.05
+  templates:
+    - type: simple
+      question: The Performance Based Navigation (PBN) concept uses terms to describe the requirements of each navigation specification. Which of the following terms defines the capability of the system to perform its function without unscheduled interruptions during the intended operation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Continuity.
+          wrongAnswers:
+            - text: Availability.
+            - text: Integrity.
+            - text: Accuracy.
+- id: QOWCH
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627729
+    - AVEXAM-69981
+    - BGS-621221
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.01.01.06
+  templates:
+    - type: simple
+      question: The Performance Based Navigation (PBN) concept expresses performance requirements using specific terms. What is the term that defines the trust that can be placed in the correctness of the information supplied by the total system, and which includes the ability of a system to provide timely and valid alerts to the user?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Integrity.
+          wrongAnswers:
+            - text: Continuity.
+            - text: Availability.
+            - text: Accuracy.
+- id: QUBHV
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623234
+    - BGS-620850
+    - AVEXAM-22548
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.01.01.07
+  templates:
+    - type: simple
+      question: Which of the following statements best describes PBN? Performance-based navigation..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is not sensor-specific.
+          wrongAnswers:
+            - text: requires the development of sensor-specific routes and procedures.
+            - text: is based on sensor-specific navigation specifications.
+            - text: is similar to conventional navigation, requiring ground-based infrastructure.
+- id: QXMMP
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622968
+    - BGS-621187
+    - AVEXAM-34142
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.01.01.07
+  templates:
+    - type: simple
+      question: What can a PBN system NOT be based on?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: NDB/DME
+          wrongAnswers:
+            - text: GPS
+            - text: DME/DME/IRU
+            - text: DME/DME
+- id: QMHOX
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627918
+    - AVEXAM-91547
+    - BGS-621534
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.01.01.08
+  templates:
+    - type: simple
+      question: Aircraft 1 is flying using a PBN navigation specification. Aircraft 2 is flying based on conventional navigation aids. One of the main differences between the aeroplanes is that aircraft 1...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is using computed data instead of raw data.
+          wrongAnswers:
+            - text: is reliant on the presence of VORs and NDBs.
+            - text: is using raw data instead of computed data.
+            - text: is always using GPS.
+- id: QTLXF
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627406
+    - BGS-621500
+    - AVEXAM-22482
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.01.01.08
+  templates:
+    - type: simple
+      question: "Consider PBN operations, what is one advantage of navigating using computed data, compared to raw data? The area navigation system will:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Check the validity and in some cases consistency of sensor data before use.
+          wrongAnswers:
+            - text: Provide 3D navigation for the whole route.
+            - text: Only use data from one sensor for navigation.
+            - text: Give a more accurate position, regardless of the sensor data that is being used.
+- id: QQRYG
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629131
+    - AVEXAM-50186
+    - BGS-621334
+    - ATPLQ-624374
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.01.01.09
+  templates:
+    - type: simple
+      question: Within the PBN concept, "availability" is a measure of the ability of the system to provide usable services within the specified coverage area. It is defined as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the percentage of time during which the system is to be used for navigation during which reliable navigation information is presented.
+          wrongAnswers:
+            - text: the capability of the total system, comprising all elements necessary to maintain aircraft position within the defined airspace, to perform its function without non scheduled interruptions during the intended operation.
+            - text: the ability of a system to provide timely warnings to users when the system should NOT be used for navigation.
+            - text: a method of navigation that permits aircraft operation on any desired flight path.
+- id: QXEUB
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624991
+    - BGS-621109
+    - AVEXAM-54643
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.01.02.01
+  templates:
+    - type: multiple-correct
+      question: Which of the following are the components of PBN?
+      explanation: ""
+      options:
+        - text: The NAVAID infrastructure
+          correct: true
+        - text: The aircraft type
+          correct: false
+        - text: The navigation specification
+          correct: true
+        - text: Communications
+          correct: false
+        - text: The navigation application
+          correct: true
+        - text: ATS surveillance
+          correct: false
+        - text: ATM
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 3
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 1
+            - 5
+            - 6
+        - show:
+            - 0
+            - 1
+            - 2
+            - 6
+    - type: simple
+      question: |-
+        Which of the following are the components of PBN? 
+
+        1. The NAVAID infrastructure
+        2. The aircraft type
+        3. The navigation specification
+        4. Communications
+        5. The navigation application
+        6. ATS surveillance
+        7. ATM
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 3, and 5
+          wrongAnswers:
+            - text: 1, 4, and 6
+            - text: 2, 3, and 4
+            - text: 2, 5, and 7
+    - type: simple
+      question: |-
+        ​Which of the following are components of the PBN?
+
+         The NAVAID infrastructure
+         The aircraft type
+         The navigation specification
+         The communications
+         The navigation application
+         The ATS surveillance
+         The Air Traffic Management (ATM)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 3, 5
+          wrongAnswers:
+            - text: 3, 5, 7
+            - text: 1, 4, 5
+            - text: 2, 3, 6
+- id: QZDYS
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624906
+    - AVEXAM-40442
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.01.02.01
+  templates:
+    - type: simple
+      question: What are the components of performance based navigation (PBN)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Navigational aid infrastructure, navigation specification and navigation application.
+          wrongAnswers:
+            - text: Navigation specification and navigation application.
+            - text: Navigational aid infrastructure and navigation specification.
+            - text: Navigational regulation, navigation specification and navigation application.
+- id: QRXSJ
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds:
+    - QWNJI
+  externalQuestionIds:
+    - ATPLQ-621493
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.01.03.01
+  templates:
+    - type: simple
+      question: "For terminal & en-route phases of flight, PBN is limited to:"
+      explanation: In oceanic, en-route and terminal phases PBN covers lateral navigation only, based on linear lateral performance requirements.
+      presets:
+        - correctAnswers:
+            - text: Lateral navigation.
+          wrongAnswers:
+            - text: Vertical navigation.
+            - text: Lateral & Vertical navigation.
+            - text: Full 3D navigation.
+- id: QWNJI
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds:
+    - QRXSJ
+  externalQuestionIds:
+    - ATPLQ-626747
+    - AVEXAM-56104
+    - AVEXAM-65692
+    - BGS-620829
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.01.03.01
+  templates:
+    - type: simple
+      question: For oceanic/remote, en-route, and terminal phases of flight, PBN is limited to..
+      explanation: For oceanic/remote, en-route and terminal phases, PBN is limited to operations with linear lateral performance requirements and time constraints.
+      presets:
+        - correctAnswers:
+            - text: operations with linear lateral performance requirements and time constraints.
+          wrongAnswers:
+            - text: ILS/MLS/GLS precision approach and landing operations.
+            - text: operations with angular lateral performance requirements and time constraints.
+            - text: both linear and angular laterally guided operations.
+- id: QREVD
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628290
+    - AVEXAM-39552
+    - BGS-620830
+    - ATPLQ-621066
+    - BGS-621374
+    - AVEXAM-76538
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.01.03.02
+  templates:
+    - type: simple
+      question: What does PBN accommodate in the approach phases of flight?
+      explanation: In the approach phases PBN accommodates both linear and angular laterally guided operations. ILS, MLS and GLS are not PBN.
+      presets:
+        - correctAnswers:
+            - text: Both linear and angular laterally guided operations.
+          wrongAnswers:
+            - text: Guidance to fly ILS/MLS/GLS procedures.
+            - text: Linear laterally guided operations only.
+            - text: Angular laterally guided operations only.
+    - type: simple
+      question: Which of the following statements is correct with regards to the scope of the PBN concept?
+      explanation: In the approach phases PBN accommodates both linear and angular laterally guided operations. In the other phases it is limited to linear lateral performance requirements.
+      presets:
+        - correctAnswers:
+            - text: In the approach phases of flight, PBN accommodates both linear and angular laterally guided operations.
+          wrongAnswers:
+            - text: For oceanic/remote, en-route and terminal phases of flight, PBN accommodates both linear and angular laterally guided operations.
+            - text: In the approach phases of flight, PBN is limited to operations with guidance to fly the ILS procedure.
+            - text: For oceanic/remote, en-route and terminal phases of flight, PBN is limited to operations with angular laterally guided operations.
+- id: QFJQT
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623196
+    - AVEXAM-82326
+    - ATPLQ-621942
+    - BGS-621180
+    - AVEXAM-30510
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.01.03.02
+  templates:
+    - type: simple
+      question: According to the Definition from Annex I to Part-FCL regarding linear and angular laterally guided operations during approach phases of flight, which of the following statements is true?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Linear guidance means instrument approach operation in which the maximum tolerable error/deviation from the planned track is expressed in units of length, for instance nautical miles, for cross-track lateral deviation.
+          wrongAnswers:
+            - text: Angular guidance means instrument approach operation in which the maximum tolerable error/deviation from the planned track is expressed in percent of maximum deviation distance for cross-track lateral deviation.
+            - text: Angular guidance means instrument approach operation in which the maximum tolerable error/deviation from the planned track is expressed in units of length, for instance nautical miles, for cross-track lateral deviation.
+            - text: Linear guidance means instrument approach operation in which the maximum tolerable error/deviation from the planned track is expressed in terms of deflection of the needles on the Course Deviation Indicator (CDI) or equivalent display in the cockpit.
+    - type: simple
+      question: In PBN operations, both linear and angular lateral guidance can be used in the approach phase of flight, depending on the procedure and minima. The maximum allowable error or deviation from the planned track in this phase of flight is expressed in...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: nautical miles for cross track lateral deviation for linear operation and in degrees needle deflection on the Course Deviation Indicator (CDI) for angular operation.
+          wrongAnswers:
+            - text: degrees needle deflection on the Course Deviation Indicator (CDI) for linear operation and cross-track lateral deviation in nautical miles for angular operation.
+            - text: nautical miles for along track deviation for linear operation and in degrees needle deflection on the Course Deviation Indicator (CDI) for angular operation in the vertical plane.
+            - text: degrees needle deflection on the Course Deviation Indicator (CDI) for both linear and angular operation.
+- id: QOMDZ
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626628
+    - BGS-621273
+    - AVEXAM-67267
+    - ATPLQ-625345
+    - BGS-620822
+    - AVEXAM-38506
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.02.01.01
+  templates:
+    - type: simple
+      question: Which of the following statements is correct regarding RNAV/RNP navigation specifications and any requirements for on-board performance monitoring and alerting?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: RNP specifications include the requirement for on-board performance monitoring and alerting.
+          wrongAnswers:
+            - text: RNP specifications include the requirement for ATC surveillance to alert the flight crew if systems performance does not comply.
+            - text: RNAV specifications include the requirement for on-board and ground-based performance monitoring and alerting.
+            - text: RNAV specifications include the requirement for on-board performance monitoring and alerting.
+    - type: simple
+      question: Which of the following is a requirement for Required Navigation Performance (RNP)operations?Area navigation that includes the requirements for..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: on-board performance monitoring and alerting.
+          wrongAnswers:
+            - text: "integrating ATC surveillance monitoring and alerting. "
+            - text: ground-based performance monitoring and alerting.
+            - text: satellite-based performance monitoring and alerting.
+- id: QRJSS
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227913
+    - AVEXAM-8276
+    - ATPLQ-621443
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.02.01.01
+  templates:
+    - type: simple
+      question: The concept of RNP applies...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: to navigation performance within an airspace.
+          wrongAnswers:
+            - text: to navigation performance within an airspace using satellite navigation systems only.
+            - text: to navigation performance on RNAV routes only.
+            - text: to navigation performance within an airspace and a specific time-interval.
+    - type: simple
+      question: To which performance does the concept of RNP apply?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To navigation performance within an airspace.
+          wrongAnswers:
+            - text: To navigation performance within an airspace and a specific time-interval.
+            - text: To navigation performance within an airspace using satellite navigation systems only.
+            - text: To navigation performance on RNAV routes only.
+- id: QSUWV
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624206
+    - AVEXAM-33757
+    - BGS-621082
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.02.01.01
+  templates:
+    - type: simple
+      question: What is the difference between the on-board navigation specifications RNP 1 and RNAV 1?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A performance-monitoring and alerting function is required for RNP 1 only.
+          wrongAnswers:
+            - text: A performance-monitoring function is required for both RNP 1 and RNAV 1\. An alerting function is only required for RNP 1.
+            - text: A performance-monitoring and alerting function is required for RNAV 1 only.
+            - text: An alerting function is required for both RNP 1 and RNAV 1\. A performance-monitoring function is only required for RNP 1.
+- id: QSPRO
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625963
+    - BGS-621085
+    - AVEXAM-72421
+    - BGS-620859
+    - AVEXAM-49422
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.02.02.01
+  templates:
+    - type: multiple-correct
+      question: Which of the following are some of the required navigation functionalities of RNAV and RNP specifications?
+      explanation: ""
+      options:
+        - text: Continuous indication of lateral deviation
+          correct: true
+        - text: Continuous indication of vertical deviation
+          correct: false
+        - text: Distance/bearing to the active waypoint
+          correct: true
+        - text: Groundspeed or time to the active waypoint
+          correct: true
+        - text: Navigation data storage
+          correct: true
+        - text: Navigation data modification
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+    - type: simple
+      question: "The basic functional requirements of RNAV and RNP specifications are:
+
+
+        \rcontinuous indication of lateral deviation\rdistance and bearing to active waypoint\rgroundspeed or time to active waypoint\rnavigation data storage\rfailure indication"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, 3, 4, 5
+          wrongAnswers:
+            - text: 3, 4, 5
+            - text: 1, 2, 3, 5
+            - text: 1, 3, 4, 5
+- id: QPQJN
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624646
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.02.03.01
+  templates:
+    - type: simple
+      question: What is the Required Navigation Performance (RNP) based on?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The horizontal position accuracy to be achieved within an airspace.
+          wrongAnswers:
+            - text: The number of satellites available to perform RAIM.
+            - text: The accuracy of commercially available Inertial Navigation Systems.
+            - text: The number of available flight levels within the airspace.
+- id: QAIZW
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624077
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.02.03.02
+    - 062.07.02.03.05
+  templates:
+    - type: simple
+      question: Your aircraft is able to conduct RNP APCH. Are you allowed to conduct RNP2?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Not necessarily. First, establish the aircraft eligibility.
+          wrongAnswers:
+            - text: Yes, if you can perform an RNP APCH, you can conduct any RNP operation.
+            - text: Yes, navigation databases are the same for all RNP operations.
+            - text: Yes, provided that clearance is obtained from ATC.
+- id: QTPSR
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625183
+    - AVEXAM-50115
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.02.03.02
+  templates:
+    - type: simple
+      question: Your aircraft is approved to conduct RNP APP. Can you fly RNP 2?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No, because your aircraft may not have the requirements for RNP 2.
+          wrongAnswers:
+            - text: Yes, because the most restricted procedure contains the least requirements.
+            - text: Yes, because your aircraft is approved for a more restricted procedure.
+            - text: Yes, because the requirements for all RNP operations are the same.
+- id: QJVCP
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds:
+    - QSXFH
+  externalQuestionIds:
+    - ATPLQ-621204
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.02.03.03
+  templates:
+    - type: simple
+      question: What PBN will be used for North Atlantic High Level operations (NAT HLA)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: RNAV10/RNP 10, RNP4 only.
+          wrongAnswers:
+            - text: RNP4-RNP1 only.
+            - text: RNAV 2-RNAV 1 only.
+            - text: RNAV 1 only.
+- id: QSXFH
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds:
+    - QJVCP
+  externalQuestionIds:
+    - ATPLQ-627535
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.02.03.03
+  templates:
+    - type: simple
+      question: In the NAT HLA airspace, what are the PBN requirements?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: RNAV10/RNP 10 or RNP 4
+          wrongAnswers:
+            - text: RNAV10/RNP 10
+            - text: RNP 5
+            - text: RNP 2
+- id: QAGGA
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623773
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.02.03.04
+  templates:
+    - type: simple
+      question: In which route segment may RNAV 5 be used?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Arrival and en-route outside 30 NM and above MSA.
+          wrongAnswers:
+            - text: Arrival, approaches and departure.
+            - text: Arrivals and departures.
+            - text: En-route continental navigation as well as arrival and departure routes.
+- id: QDZOC
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628578
+    - BGS-621241
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.02.03.06
+  templates:
+    - type: simple
+      question: "ICAO Doc 9613 defines a set of navigation specifications for different airspace concepts. The navigation specification RNP 2 is for:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The en-route phase of flight in oceanic/remote and continental areas.
+          wrongAnswers:
+            - text: Arrival, approach, and departure phases of flight.
+            - text: En-route, arrival, and departure phases of flight.
+            - text: Arrival, approach (except for the final approach), and departure phases of flight.
+- id: QXPRN
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds:
+    - QFMGP
+  externalQuestionIds:
+    - ATPLQ-626881
+    - AVEXAM-87245
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.02.03.06
+    - 062.07.02.03.07
+  templates:
+    - type: simple
+      question: An aircraft is flying RNAV 2 and another aircraft is flying RNP 2\. What is the difference between them?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: RNP 2 is used in the en-route and oceanic/remote phases of flight. RNAV 2 might be used in the en-route continental, arrival and departure phases of flight.
+          wrongAnswers:
+            - text: RNP 2 is used in the en-route and oceanic/remote phases of flight. RNAV 2 is used in oceanic phases of flights or over remote areas
+            - text: RNP 2 is used on arrival and departure phases of flight. RNAV 2 is used in the en-route and oceanic/remote phases of flight.
+            - text: RNP 2 might be used in the en-route continental, arrival and departure phases of flight. RNAV 2 is used in the en-route and oceanic/remote phases of flight
+- id: QFMGP
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds:
+    - QXPRN
+  externalQuestionIds:
+    - ATPLQ-621101
+    - BGS-621174
+    - ATPLQ-629441
+    - AVEXAM-97582
+    - BGS-621243
+    - AVEXAM-74161
+    - BGS-620841
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.02.03.07
+  templates:
+    - type: simple
+      question: In PBN operations, RNAV 2 can be used for which of these phases of flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: En-route continental, arrival, and departure.
+          wrongAnswers:
+            - text: En-route oceanic, en-route continental, and approach.
+            - text: Arrival, departure, and approach.
+            - text: En-route remote, intermediate approach, and final approach.
+    - type: simple
+      question: RNAV 2 can be used...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: in the en-route continental, arrival and departure phases of flight.
+          wrongAnswers:
+            - text: in the departure and arrival phases of flight.
+            - text: in the en-route oceanic and approach phases of flight.
+            - text: in all phases of flight.
+- id: QCIOE
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629592
+    - AVEXAM-36203
+    - BGS-621311
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.02.03.08
+    - 062.07.02.03.09
+  templates:
+    - type: simple
+      question: An aircraft is being flown under the specifications of RNP, using a suitable area navigation system. At the start of the approach phase of the flight, the RNP specifications might change from...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: RNP 1 to RNP APCH.
+          wrongAnswers:
+            - text: RNAV 10 to RNP 1.
+            - text: RNP AR to RNP 0.3.
+            - text: RNAV 5 to RNAV 1.
+- id: QOASC
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628776
+    - AVEXAM-36490
+    - AVEXAM-33556
+    - BGS-620845
+    - BGS-620844
+    - BGS-620840
+    - AVEXAM-38951
+    - BGS-620839
+    - BGS-620843
+    - ATPLQ-623246
+    - AVEXAM-46850
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.02.03.08
+  templates:
+    - type: simple
+      question: "RNAV 1 and RNP 1 are used:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In the arrival and departure phases of flight.
+          wrongAnswers:
+            - text: In the departure phases of flight.
+            - text: In all phases of flight, except for oceanic and remote phases.
+            - text: In the arrival phases of flight.
+    - type: simple
+      question: The navigation specification RNP AR APCH is used...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: in the approach phase of flight.
+          wrongAnswers:
+            - text: in all phases of flight except remote phases.
+            - text: in all phases of flight except approach phases.
+            - text: in the arrival, approach and en-route phases of flight.
+    - type: simple
+      question: According to ICAO Doc 9613 (PBN), RNP AR APCH is used...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: in the approach phase of flight which require a specific authorisation.
+          wrongAnswers:
+            - text: in all phases of flight, except for remote phases.
+            - text: along en route and approach segments requiring augmented navigation capabilities.
+            - text: in all phases of flight which are airway-regulated.
+- id: QQLFP
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626205
+    - AVEXAM-31801
+    - BGS-621214
+    - BGS-621216
+    - BGS-621215
+    - AVEXAM-92926
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.02.03.08
+  templates:
+    - type: simple
+      question: Which of the following statements is true about the navigation specification RNP 1?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: RNP 1 is limited to use on STARs, SIDs, the initial and intermediate segments of Instrument Approach Procedures and the missed approach after the initial climb phase.
+          wrongAnswers:
+            - text: It may be used for the initial part of a STAR outside 30 NM and above MSA.
+            - text: RNP 1 is used in all phases of flight except for oceanic/remote and final approach, and is primarily intended for helicopter operations.
+            - text: It permits a range of scalable RNP lateral and longitudinal navigation accuracies.
+    - type: simple
+      question: RNP 0.3 is used...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: in all phases of flight, except for oceanic/remote and final approach, primarily for helicopters.
+          wrongAnswers:
+            - text: in approach phases only.
+            - text: in oceanic phases of flights or over remote areas where the navaid infrastructure is rather weak compared to populated mainland areas.
+            - text: mainly on arrival and departure phases of flight.
+- id: QPSYG
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628276
+    - AVEXAM-63546
+    - BGS-620885
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.02.03.11
+  templates:
+    - type: simple
+      question: Which RNP can be used in all phases of flight except for en-route oceanic/remote and final approach phases and is intended primarily for helicopters?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: RNP 0.3
+          wrongAnswers:
+            - text: RNP 1
+            - text: RNP AR APCH
+            - text: RNP 5
+- id: QKETZ
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625498
+    - BGS-621341
+    - AVEXAM-91970
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.02.03.12
+  templates:
+    - type: simple
+      question: "A flight crew is planning an IFR flight using RNAV. One part of the route requires RNP 1\\. This could be a/an:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Low-level helicopter en-route section.
+          wrongAnswers:
+            - text: An en-route section in a remote area at FL140 - FL280.
+            - text: En-route continental section at FL140 - FL280.
+            - text: High-level oceanic section.
+- id: QNROM
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627886
+    - BGS-620838
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.03.03.01
+  templates:
+    - type: simple
+      question: What is the name of a specific, curved flight path in a terminal or approach procedure that is defined by radius, arc length, and fix?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Radius to fix leg.
+          wrongAnswers:
+            - text: Fixed radius transition.
+            - text: Fly-by turn.
+            - text: "Offset flight path.  "
+- id: QQFAL
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds:
+    - QUINA
+  externalQuestionIds:
+    - ATPLQ-625138
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.03.03.02
+  templates:
+    - type: simple
+      question: According to ICAO Doc 9613, a specific form of fixed radius path (FRP) is designed for utilization in en-route procedures. This particular FRP relies on the RNP system to establish the fixed radius turn between two route segments. In ICAO terminology, this form of FRP is referred to as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Fix-radius Transition (FRT).
+          wrongAnswers:
+            - text: Fly-by (FB) turn.
+            - text: Radius to fix (RF) leg.
+            - text: Radius leg (RL).
+- id: QUINA
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds:
+    - QQFAL
+  externalQuestionIds:
+    - ATPLQ-629394
+    - BGS-621408
+    - AVEXAM-43943
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.03.03.02
+  templates:
+    - type: simple
+      question: An aircraft is following a defined RNP 2 route and approaching a waypoint where a track change of 40° is required. The route is part of a route system with 4 parallel routes and reliable lateral separation between the aeroplanes on the different routes is essential. Which of the following types of FMS coding of the waypoint will ensure lateral separation between aircraft also during the turn?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Fixed Radius Transition (FRT)
+          wrongAnswers:
+            - text: Fly-by waypoint
+            - text: Fly-over waypoint
+            - text: Radius to Fix (RF) path terminator
+- id: QBPII
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629156
+    - AVEXAM-64433
+    - BGS-621161
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.03.03.03
+  templates:
+    - type: simple
+      question: When flying an RF leg without autopilot, the flight director must be used for guidance. Why?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The RF leg is based on fixed radius turn with guidance calculated by the aircraft’s RNAV system.
+          wrongAnswers:
+            - text: The flight director will give a visual and audible alert if the actual navigation performance exceeds the RNP during the RF leg.
+            - text: The flight director displays guidance based on the information received from ground-based transmitters.
+            - text: The RNP system uploads the RF procedure to the FAC, which then provides guidance via the flight director.
+- id: QSRWF
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623953
+    - AVEXAM-88011
+    - BGS-621498
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.03.03.04
+  templates:
+    - type: simple
+      question: For PBN operations, what is true regarding fly-by turns and fly-over turns?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The fly-by turn can be used in RNP flight tracks but fly-over turns are excluded.
+          wrongAnswers:
+            - text: Fly-by waypoints are used when the aircraft must first fly over the waypoint before starting a turn.
+            - text: Fly-by and fly-over waypoints are compatible with both RNAV and RNP flight tracks.
+            - text: Pilots can change a route database waypoint type from a fly-by to a fly-over.
+- id: QWITK
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629792
+    - AVEXAM-12439
+    - BGS-621316
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.03.03.05
+    - 062.07.03.03.06
+  templates:
+    - type: simple
+      question: What is an "ARINC 424 Path Terminator" in reference to Performance Based Navigation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It is a code that defines a specific type of flight path along a segment of a procedure and a specific type of termination of that flight path.
+          wrongAnswers:
+            - text: It is the point at which an RNAV specification segment of a procedure changes to a different RNAV or RNP specification.
+            - text: It is the point at which an RNAV specification segment of a procedure changes to an RNP specification.
+            - text: It is the point at which an RNAV specification segment of a procedure changes to another RNAV specification.
+- id: QOOWB
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621531
+    - AVEXAM-30501
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.03.03.06
+  templates:
+    - type: simple
+      question: What do PBN path terminators define?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A specific type of termination of the previous flight path.
+          wrongAnswers:
+            - text: A specific type of termination of RNP or RNAV procedures.
+            - text: |-
+                A specific type of termination of ATC clearances.
+
+                ​​
+            - text: A specific type of termination of a flight plan.
+- id: QXFIR
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623967
+    - ATPLQ-624631
+    - AVEXAM-49724
+    - BGS-621367
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.03.03.07
+  templates:
+    - type: simple
+      question: Lateral offset flightpath in RNAV/RNP…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is possible in increments of 1 NM up to 20 NM.
+          wrongAnswers:
+            - text: is possible during the entire route and also in approach phases.
+            - text: is achieved by a 45 degree offset from track.
+            - text: is possible only on the left side of track.
+    - type: simple
+      question: "Consider RNAV and RNP system functions. An “offset flight path” is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A lateral offset from a defined route, which is specified in increments of 1 NM up to 20 NM.
+          wrongAnswers:
+            - text: A parallel path that is offset only to the left of the original active route.
+            - text: A variable lateral offset from a defined route that can be applied for the entire length of the route, including the approach procedure.
+            - text: A lateral offset from a defined route, and the offset must be intercepted at an angle of 45 degrees or more.
+- id: QXJXF
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624607
+    - BGS-621340
+    - AVEXAM-7989
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.04.01.02
+  templates:
+    - type: simple
+      question: Within the PBN concept, what is the flight technical error?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It is part of the total system error, which relates to the air crew or autopilot's ability to follow the defined path or track, including any display error.
+          wrongAnswers:
+            - text: FTE is the difference between the aircraft's estimated position and its actual position.
+            - text: It is a system error that relates to longitudinal accuracy.
+            - text: FTE occurs when the path defined in the RNAV system does NOT correspond to the desired path, that is the path expected to be flown over the ground.
+- id: QSRVY
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621943
+    - BGS-621562
+    - AVEXAM-9845
+    - ATPLQ-626703
+    - BGS-620831
+    - BGS-620832
+    - AVEXAM-7328
+    - AVEXAM-93141
+    - AVEXAM-71278
+    - BGS-620833
+    - BGS-621438
+    - BGS-620834
+    - AVEXAM-55172
+    - ATPLQ-627379
+    - AVEXAM-38407
+    - BGS-621272
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.04.01.03
+  templates:
+    - type: simple
+      question: In the context of PBN operations, what is “Navigation System Error (NSE)”?
+      explanation: Navigation system error is the difference between the estimated and the true position of the aircraft. The other definitions describe path definition error and flight technical error.
+      presets:
+        - correctAnswers:
+            - text: It refers to the difference between the aircraft’s estimated position and its actual position.
+          wrongAnswers:
+            - text: NSE occurs when the path defined in the RNAV system does NOT correspond to the desired path, that is, the path expected to be flown over the ground.
+            - text: NSE is part of the total system error, which relates to the air crew or autopilot’s ability to follow the defined path or track, including any display error.
+            - text: It is a system error that relates specifically to longitudinal accuracy.
+    - type: simple
+      question: "An error during PBN operations in the accuracy of determining actual aircraft coordinates is a:"
+      explanation: An error in determining the actual aircraft position is the navigation system error. Path definition error relates to the defined path, and flight technical error relates to the following of it.
+      presets:
+        - correctAnswers:
+            - text: Navigation System Error (NSE)
+          wrongAnswers:
+            - text: Crew Coordination Error (CCE)
+            - text: Path Definition Error (PDE)
+            - text: Flight Technical Error (FTE)
+    - type: simple
+      question: Which term refers to the difference between the aircraft's estimated position and actual position in the context of PBN?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Navigation System Error (NSE)
+          wrongAnswers:
+            - text: Flight Technical Error (FTE)
+            - text: Estimated Position Error (EPE)
+            - text: Path Definition Error (PDE)
+- id: QGICS
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625358
+    - BGS-621155
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.04.01.04
+  templates:
+    - type: simple
+      question: |-
+        Within PBN operations, what is the make-up of the "Total System Error" (TSE)?
+
+        PDE = Path Definition Error   
+         FTE = Flight Technical Error   
+         NSE = Navigation System Error
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: PDE + FTE + NSE
+          wrongAnswers:
+            - text: PDE x FTE x NSE
+            - text: PDE + FTE - NSE
+            - text: (PDE + FTE) / NSE
+- id: QLMWB
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624807
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.04.01.04
+  templates:
+    - type: multiple-correct
+      question: In the PBN concept, the Total System Error is made up of which of the following errors?
+      explanation: ""
+      options:
+        - text: Path Definition Error (PDE)
+          correct: true
+        - text: Path Calculation Error (PCE)
+          correct: false
+        - text: Flight Crew Error (FCE)
+          correct: false
+        - text: Navigation System Error (NSE)
+          correct: true
+        - text: Flight Technical Error (FTE)
+          correct: true
+        - text: Path Terminator Error (PTE)
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QSHCL
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628687
+    - BGS-621328
+    - AVEXAM-79512
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.04.01.05
+  templates:
+    - type: simple
+      question: In Performance Based Navigation (PBN), with respect to navigation error components, the Total System Error (TSE) is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a measure of the navigation accuracy.
+          wrongAnswers:
+            - text: zero if the Navigation System Error (NSE) is zero.
+            - text: a value for the accuracy of the 3-dimensional position.
+            - text: a fixed value indicating the lateral navigation error.
+- id: QNTOS
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626934
+    - BGS-621266
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.04.02.01
+    - 062.07.04.02.02
+  templates:
+    - type: simple
+      question: Which navigation error(s) of an on-board Required Navigation Performance (RNP) system can be monitored by the pilot?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Flight Technical Error (FTE), Navigation System Error (NSE)
+          wrongAnswers:
+            - text: Flight Technical Error (FTE) only
+            - text: Earth Rate Error(ERE), Flight Technical Error (FTE)
+            - text: Total System Error (TSE), Flight Technical Error (FTE)
+- id: QJJFH
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627008
+    - AVEXAM-68885
+    - BGS-621247
+  annexes:
+    - id: AOLG
+  learningObjectiveIds:
+    - 062.07.04.02.03
+    - 062.07.04.02.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The appendix shows a navigation display (ND) where the Required Navigation Performance (RNP) and Actual Navigation Performance (ANP) values are shown. Which of the following statements is a correct interpretation of these displayed values.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The aircraft is currently performing according to the RNP, but a warning will be given if the ANP increases beyond 2.00.
+          wrongAnswers:
+            - text: The aircraft is 0.05 NM offset to the left of the track and the maximum limit is a 2.00 NM offset.
+            - text: During the cruise phase, there shall be NO warning if the ANP value is 0.05 higher than the RNP value as RNP 2 applies to the approach phase.
+            - text: The navigation system is performing to an accuracy of 2.00 NM and the aeroplane is within 0.05 NM of the desired track.
+- id: QOJKD
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627393
+    - AVEXAM-66314
+    - BGS-621292
+  annexes:
+    - id: AITY
+  learningObjectiveIds:
+    - 062.07.04.02.03
+    - 062.07.04.02.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What is the text "RNP 1.00" and "ANP 1.36" indicating?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The text is amber because the navigation performance is out of limits.
+          wrongAnswers:
+            - text: The actual navigation performance is permitted to be 35% greater than the RNP.
+            - text: The aircraft navigation performance is better than required.
+            - text: The aircraft is 1.36 NM off the track.
+- id: QQQHK
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628820
+    - AVEXAM-28015
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.04.02.03
+  templates:
+    - type: simple
+      question: The pilot notices that the ANP is 1.24 and the RNP is 1.00\. What does that mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Accuracy out of limit.
+          wrongAnswers:
+            - text: ANP is always greater than RNP.
+            - text: Insufficient data to determine accuracy.
+            - text: Accuracy within acceptable limits.
+- id: QXRCZ
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625738
+    - AVEXAM-75009
+    - BGS-621242
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.04.02.03
+  templates:
+    - type: simple
+      question: The FMS can be used to check the Estimated Position Error (EPE) of the FMS position. What does this value mean to the pilot?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The EPE value must be equal to or less than the required navigation specification.
+          wrongAnswers:
+            - text: The EPE is the total position error of the aircraft including the Flight Technical Error.
+            - text: The pilot is able to check that the aircraft follows the track as defined in the database.
+            - text: The pilot uses this value to assess the Flight Technical Error of the aircraft.
+- id: QGJWW
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621359
+    - AVEXAM-20279
+    - BGS-621383
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.04.02.04
+  templates:
+    - type: simple
+      question: A Flight Management System (FMS) can provide an Estimated Position Error (EPE) that is often used to check against the Required Navigation Performance (RNP) value of a procedure or airspace. Which of these best describes the EPE?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A measure of the reasonableness and accuracy of the given flight management position by applying a specific set of rules to the available navigation inputs.
+          wrongAnswers:
+            - text: A measure of the accuracy of the flight management system for navigation, and is demonstrated during initial certification of the aircraft.
+            - text: An average of the navigation errors computed by two or more FMSS when compared against each other and subsequently applied as a correction to improve position accuracy.
+            - text: A sum of all the navigational errors accumulated over time that may be used as a measure of the performance of the navigation system after a flight.
+- id: QPWCV
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626520
+    - BGS-621246
+    - BGS-621400
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.04.02.06
+  templates:
+    - type: simple
+      question: "In PBN operations, on-board performance monitoring and alerting of the Path Definition Error (PDE):"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Depends on the integrity of the navigation database, and PDE is assumed to be zero.
+          wrongAnswers:
+            - text: Measures the difference between the aircraft's estimated position and its true position, and the crew are alerted if PDE is greater than the RNP specification.
+            - text: Is achieved by monitoring the aircraft's performance and alerting the crew if the aircraft's navigation system fails to perform accurately.
+            - text: Is managed by crew procedures in order to monitor the aircraft's position.
+- id: QUUXB
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621435
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.04.03.01
+  templates:
+    - type: multiple-correct
+      question: When performing an RNP approach, which of the following situations leads to a missed-approach unless sufficient visual contact is established?
+      explanation: ""
+      options:
+        - text: The required RNP APCH mode fails to engage.
+          correct: true
+        - text: Communications failure.
+          correct: false
+        - text: TCAS TA.
+          correct: false
+        - text: The actual navigation accuracy exceeds the required navigation accuracy.
+          correct: true
+        - text: The lateral deviation exceeds instrument full scale deflection.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QYPUZ
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628115
+    - AVEXAM-67852
+    - AVEXAM-12055
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.04.03.01
+  templates:
+    - type: multiple-correct
+      question: When performing an RNP approach, which of the following situations leads to a missed approach unless sufficient visual contact is established?
+      explanation: ""
+      options:
+        - text: Communications failure.
+          correct: false
+        - text: TCAS RA.
+          correct: true
+        - text: Position fix differs from the other instruments.
+          correct: false
+        - text: The actual navigation accuracy exceeds the required navigation accuracy.
+          correct: true
+        - text: The lateral deviation exceeds instrument full scale deflection.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+    - type: simple
+      question: |-
+        You are flying an RNP approach. Select all items which result in a missed approach, unless sufficient visual contact has been established:
+
+         Actual navigation accuracy exceeds required navigation accuracy
+         Communication failure
+         Lateral deviation exceeds instrument full scale deflection
+         Required RNP APCH mode fails to engage
+         TCAS TA
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 3, 4
+          wrongAnswers:
+            - text: 1, 3, 5
+            - text: 2, 3, 5
+            - text: 1, 2, 4
+- id: QJPPP
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628904
+    - BGS-621359
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.04.04.01
+  templates:
+    - type: simple
+      question: In order to navigate an aircraft under the specifications of PBN, the pilot must ensure that the onboard navigation database…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is valid for the current AIRAC cycle.
+          wrongAnswers:
+            - text: contains an up-to-date WGS-84 model.
+            - text: contains the latest GPS navigation message.
+            - text: is updated by NOTAMs via ACARS.
+- id: QQHVZ
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627102
+    - BGS-621012
+    - BGS-620861
+    - AVEXAM-21478
+    - AVEXAM-68437
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.01.01
+  templates:
+    - type: simple
+      question: Operation in RNAV 10 airspace requires as a minimum a certain number of independent and serviceable (LRNSs). The minimum equipment required consists of at least..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: two LRNSs comprising an INS, an IRS FMS or a GNSS.
+          wrongAnswers:
+            - text: one LRNS using input from VOR/DME or DME/DME RNAV equipment.
+            - text: one LRNS comprising an INS, an IRS FMS or a GNSS.
+            - text: two LRNSs using input from VOR/DME or DME/DME RNAV equipment.
+    - type: simple
+      question: "RNAV 10 requires that aircraft operating in oceanic and remote areas be equipped with at least:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: two independent and serviceable long-range navigation systems (LRNSs) comprising an INS, an inertial reference system (IRS)/flight management system IRS (FMS) or a GNSS.
+          wrongAnswers:
+            - text: two independent and serviceable long-range navigation systems (LRNSs) comprising an inertial reference system (IRS)/flight management system IRS (FMS) or a GNSS.
+            - text: two independent and serviceable long-range navigation systems (LRNSs) comprising an INS or an inertial reference system (IRS)/flight management system IRS (FMS).
+            - text: three independent and serviceable long-range navigation systems (LRNSs) comprising an INS, an inertial reference system (IRS)/flight management system IRS (FMS) or a GNSS.
+- id: QDEKX
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624216
+    - BGS-620863
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.01.02
+  templates:
+    - type: simple
+      question: Are operators with aircraft equipped with a single IRS or INS permitted to extend their RNAV 10 capability time?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes, they can extend their time by updating.
+          wrongAnswers:
+            - text: Yes, they can extend their time by applying to the State of Registration.
+            - text: No, this is not possible.
+            - text: Yes they can extend their time by fitting two IRS systems.
+- id: QJDYO
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626423
+    - BGS-621248
+    - ATPLQ-629333
+    - AVEXAM-97765
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.02.01
+  templates:
+    - type: simple
+      question: Considering PBN procedures, which RNP/RNAV criteria allows the pilot to manually define waypoints in the FMS database?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: RNAV 5
+          wrongAnswers:
+            - text: RNAV 2
+            - text: RNAV 1
+            - text: RNP APCH
+- id: QLWFX
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623308
+    - BGS-621378
+    - AVEXAM-98472
+    - BGS-621331
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.03.01
+  templates:
+    - type: simple
+      question: How may pilots retrieve an RNAV / RNP1 / RNP2 SID or STAR for use?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Retrievable by route name from the on-board navigation database and conforms to the charted route.
+          wrongAnswers:
+            - text: Selecting a route, from the company database, which will automatically choose the SID.
+            - text: Manually by entering name of the SID STAR Route.
+            - text: Manually by entering LONG and LAT coordinates.
+    - type: simple
+      question: How should RNAV 1/ RNAV 2 / RNP 1/RNP 2 SIDs and STARS be programmed into the FMS route by the crew?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Retrieval by route name from the on-board navigation database.
+          wrongAnswers:
+            - text: Manual entry of the route using the latitude and longitude of the waypoints, beacons and SID.
+            - text: Automatic transfer of the route from an Electronic Flight Bag (EFB).
+            - text: Manual entry of the route using the place/bearing/distance of the waypoints, beacons and SID.
+- id: QIHFW
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622811
+    - AVEXAM-48307
+    - BGS-621360
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.03.02
+  templates:
+    - type: simple
+      question: How can RNAV 1, RNAV 2, RNP 1 and RNP 2 routes be modified by pilots?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: By inserting or deleting waypoints in the flight plan, in response to an ATC clearance.
+          wrongAnswers:
+            - text: By inserting or deleting waypoints in the database and/or obtaining a Rho-Theta Fix.
+            - text: Manually, by inserting range and bearing to a new waypoint, in response to an ATC clearance.
+            - text: It is not possible.
+- id: QOUNE
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626007
+    - AVEXAM-85251
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.03.02
+  templates:
+    - type: simple
+      question: |-
+        You are flying RNP1 based on ATC clearance, but a waypoint is missing from the FMS. Which of the following is correct/incorrect?
+
+
+         You are allowed to add waypoints manually
+         You are not allowed to add waypoints manually
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1. incorrect; 2. correct.
+          wrongAnswers:
+            - text: 1. correct; 2. incorrect.
+            - text: 1. correct; 2. correct.
+            - text: Both incorrect.
+    - type: simple
+      question: |-
+        When flying RNP1 based on ATC clearance and a waypoint is missing from the FMS, which of the following statements regarding manual addition of waypoints is correct/incorrect?
+
+         You are allowed to add waypoints manually.
+         You are not allowed to add waypoints manually.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) incorrect; (2) correct
+          wrongAnswers:
+            - text: Both incorrect
+            - text: Both correct
+            - text: (1) correct; (2) incorrect
+- id: QCMUC
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621448
+    - AVEXAM-53447
+    - BGS-621081
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.05.01
+  templates:
+    - type: simple
+      question: During descent ATC informs the pilot to expect the RNP Approach (RNP APCH) for Runway 09\. During approach preparation the pilot notices that one waypoint of the RNP APCH is missing in the navigation database. What are his/her options?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An RNP APCH must NOT be flown unless it is retrievable from the on-board navigation database and conforms to the charted procedure. Request a different approach procedure from ATC.
+          wrongAnswers:
+            - text: Create a new RNP APCH procedure for Runway 09 in the on-board navigation database. Check that all data conform to the charted procedures and continue the approach.
+            - text: An RNP APCH is permitted to be flown even if it is NOT retrievable from the on-board navigation database, so long as it is being backed up by other means of navigation. Continue the approach.
+            - text: Load the existing RNP APCH procedure for Runway 09 from the on-board navigation database and insert the missing waypoint manually. Check that all data conform to the charted procedures and continue the approach.
+- id: QBKHN
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623205
+    - AVEXAM-34421
+    - BGS-621080
+    - ATPLQ-625526
+    - BGS-620847
+    - AVEXAM-73121
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.05.02
+  templates:
+    - type: simple
+      question: Which of the following PBN procedures is not classified as a 3D approach procedure? RNP APCH to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: LNAV minima.
+          wrongAnswers:
+            - text: GLS minima.
+            - text: LNAV/VNAV minima.
+            - text: LPV minima.
+- id: QLHHE
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629288
+    - ATPLQ-626270
+    - ATPLQ-624674
+    - BGS-621544
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.05.02
+  templates:
+    - type: simple
+      question: |-
+        3D approach operations are very common nowadays. Which of the following options belongs to this type of approach?
+
+        1. RNP APCH (GNSS and baro VNAV) 
+         
+        2. GLS 
+         
+        3. RNP APCH (LNAV minima) 
+         
+        4. RNP 1 
+         
+        5. ILS 
+         
+        6. RNP APCH (SBAS)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, 5 and 6.
+          wrongAnswers:
+            - text: 2, 3, 5 and 6.
+            - text: 1, 3, 5 and 6.
+            - text: 2, 4, 5 and 6.
+    - type: simple
+      question: |-
+        3D approach operations are very common nowadays. Which of the following options belongs to this type of approach?1. RNP APCH (GNSS and baro VNAV) 
+         2. GLS 
+         3. PAR 
+         4. RNP 1 
+         5. ILS 
+         6. RNP APCH (SBAS)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, 3, 5 and 6
+          wrongAnswers:
+            - text: 2, 3, 4, 5 and 6
+            - text: Only 1, 5 and 6.
+            - text: 1, 3, 4 and 6
+    - type: simple
+      question: |-
+        The following Instrument Approach Operations are classified as 3D Approach Operations:1. RNP APCH (GNSS and baro VNAV) 
+         2. GLS 
+         3. PAR 
+         4. RNP 1 
+         5. ILS 
+         6. RNP APCH (SBAS)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, 3, 5 and 6.
+          wrongAnswers:
+            - text: 2, 3, 4, 5 and 6.
+            - text: Only 1, 5 and 6.
+            - text: 1, 3, 4 and 6.
+    - type: simple
+      question: Which of the following Instrument Approach Operations are classified as 3D Approach Operations? 1. RNP APCH (GNSS and baro VNAV), 2. GLS, 3. PAR, 4. RNP 1, 5. ILS, 6. RNP APCH (SBAS)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, 3, 5 and 6
+          wrongAnswers:
+            - text: 2, 3, 4, 5 and 6
+            - text: 1, 3, 4 and 6
+            - text: only 3, 5, and 6
+- id: QACMX
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623616
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.05.03
+    - 062.07.05.05.07
+    - 062.07.05.05.08
+    - 062.07.05.05.10
+  templates:
+    - type: multiple-correct
+      question: "PBN 3D approaches are:"
+      explanation: ""
+      options:
+        - text: GNSS + VNAV
+          correct: true
+        - text: GLS
+          correct: false
+        - text: PAR
+          correct: false
+        - text: RNP 1
+          correct: false
+        - text: ILS
+          correct: false
+        - text: SBAS
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QFXBU
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds:
+    - QLZYB
+  externalQuestionIds:
+    - ATPLQ-627157
+    - BGS-621387
+    - AVEXAM-43003
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.05.04
+  templates:
+    - type: simple
+      question: A pilot is planning to conduct a flight under the specifications of PBN. An RNP approach to LNAV/VNAV minima may only be flown with vertical guidance…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: certified for the purpose.
+          wrongAnswers:
+            - text: from an ILS or MLS glide slope.
+            - text: from a barometric altimeter.
+            - text: from a radio altimeter.
+- id: QLZYB
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds:
+    - QFXBU
+  externalQuestionIds:
+    - ATPLQ-622278
+    - BGS-621288
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.05.04
+  templates:
+    - type: simple
+      question: "An RNP APCH to LNAV/VNAV minima has lateral guidance based on GNSS and vertical guidance based on:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A method which is certified for the purpose.
+          wrongAnswers:
+            - text: Only a barometric input.
+            - text: GBAS
+            - text: The Radio Altimeter.
+- id: QEPEV
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds:
+    - QKAKL
+  externalQuestionIds:
+    - ATPLQ-626272
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.05.05
+  templates:
+    - type: simple
+      question: What is the correct statement regarding baro-VNAV?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cold temperature reduces the effective glide path angle.
+          wrongAnswers:
+            - text: Hot temperature reduces the effective glide path angle.
+            - text: Hot temperature makes the aircraft lower than indicated.
+            - text: Cold temperature makes the aircraft higher than indicated.
+- id: QGXQK
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627987
+    - AVEXAM-26395
+    - ATPLQ-621152
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.05.05
+  templates:
+    - type: simple
+      question: Why is temperature correction important on the approach?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cold temperatures cause a decrease in the glide path angle.
+          wrongAnswers:
+            - text: Hot temperatures cause a decrease in the glide path angle.
+            - text: Cold temperatures cause a higher elevation.
+            - text: Hot temperatures cause a lower elevation.
+    - type: simple
+      question: Imagine an aircraft not equipped with automatic temperature correction, what happens with the glide path?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Colder temperature reduces your glide path angle.
+          wrongAnswers:
+            - text: Warmer temperature reduces your glide path angle.
+            - text: Temperature has no effect on your glide path angle.
+            - text: Colder temperature highers your glide path angle.
+- id: QGXRH
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622706
+    - AVEXAM-48385
+    - BGS-621329
+    - AVEXAM-91852
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.05.05
+  templates:
+    - type: simple
+      question: You are flying in IMC at night above the 73°North latitude. Because of the high latitude and the GNSS satellite positions, you elect to fly an RNP APCH to LNAV/VNAV minima based on barometric VNAV with GNSS horizontal guidance. The minimum published temperature for the approach is -8°C, and your aircraft does not have automatic temperature-compensation fitted. The temperature given by the most recent ATIS is -6°C. During final approach, ATC tells you to make an immediate go around because terrain separation is no longer guaranteed. What is the most likely reason for losing minimum terrain separation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The temperature has fallen below -8°C, invalidating the indicated altitudes of the current barometric VNAV setup.
+          wrongAnswers:
+            - text: Loss of the GNSS signal because of the low satellite elevations above the horizon.
+            - text: The GBAS signal has been lost.
+            - text: ATC has detected interference from the glide slope signals of the parallel runway.
+- id: QKAKL
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds:
+    - QEPEV
+  externalQuestionIds:
+    - ATPLQ-623488
+    - AVEXAM-2541
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.05.05
+  templates:
+    - type: simple
+      question: Which statement is correct regarding the effect of outside conditions on a baro-VNAV approach?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In cold air the glide slope will be shallower.
+          wrongAnswers:
+            - text: In cold air the true altitude will be greater than indicated.
+            - text: In hot air the glide slope will be shallower.
+            - text: In hot air the true altitude will be lower than indicated.
+- id: QQJAY
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629932
+    - AVEXAM-35976
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.05.05
+  templates:
+    - type: simple
+      question: An aircraft is making a 2D (LNAV) approach under IMC, to an aerodrome where the temperature is significantly different from ISA. Which of the following is correct regarding temperature corrections to the MDA?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The Pilot-In-Command is responsible for making a correction if the temperature is much lower than ISA.
+          wrongAnswers:
+            - text: The Controller will pass on a correction when the temperature is much lower than ISA.
+            - text: The Pilot-In-Command is responsible for making a correction if the temperature is much higher than ISA.
+            - text: The Controller will pass on a correction when the temperature is much higher than ISA.
+    - type: simple
+      question: An aircraft is making a 2D (LNAV) approach under IMC. The temperature at the aerodrome is significantly different to ISA. What is true about temperature corrections to the MDA?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The pilot-in-command is responsible for making a correction if the temperature is much lower than ISA.
+          wrongAnswers:
+            - text: The controller will pass on a correction when the temperature is much lower than ISA.
+            - text: The controller will pass on a correction when the temperature is much higher than ISA.
+            - text: The pilot-in-command is responsible for making a correction if the temperature is much higher than ISA.
+- id: QSYJW
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624199
+    - BGS-621413
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.05.05
+  templates:
+    - type: simple
+      question: An aircraft plans to fly an RNP APCH to LNAV/VNAV minima based on Barometric VNAV. In which segment(s) of the approach can temperature compensation systems with an airworthiness approval provide corrections to the Baro-VNAV guidance?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Final approach segment.
+          wrongAnswers:
+            - text: All stages of the flight, for terrain clearance.
+            - text: Initial and final approach segments.
+            - text: Initial and intermediate approach segments.
+- id: QCJUT
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626263
+    - BGS-621508
+    - AVEXAM-79025
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.05.06
+  templates:
+    - type: simple
+      question: An aircraft NOT equipped with temperature-compensating system is executing an RNP APCH to a Baro-VNAV minimum. The minimum temperature to execute the procedure (TMIN) is -8°C. The temperature at the airport is +10°C. The pilots have set the appropriate FMS settings based on the charts of the approach and the aircraft follows the FMS guidance. During the final approach segment, ATC instructs the pilots to go-around immediately as a result of insufficient separation from the surrounding terrain. What caused this outcome?
+      explanation: Baro-VNAV relies on the altimeter setting. An incorrect setting makes the aircraft lower than the altimeter indicates, so it follows the vertical path below the intended one. The temperature of +10 °C is above the limit TMIN of -8 °C, so it is not the cause.
+      presets:
+        - correctAnswers:
+            - text: Incorrect altimeter setting leading to the aircraft being lower than indicated.
+          wrongAnswers:
+            - text: The pilots miscalculated the rate of descent and selected an inappropriate vertical speed.
+            - text: The temperature at the aerodrome is above the limiting temperature.
+            - text: The vertical path in the FMS was incorrectly coded as it is NOT shown to the pilots.
+- id: QCRDP
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629277
+    - AVEXAM-3803
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.05.06
+  templates:
+    - type: simple
+      question: You are approaching an aerodrome on an RNP APCH to LNAV/VNAV minima using baro-VNAV. The approach has a minimum temperature of -8ºC. The OAT is +10ºC, during final approach, ATC tells you to go around immediately due to loss of terrain separation. What could have happened?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: You made a mistake inputting barometric data.
+          wrongAnswers:
+            - text: GBAS signal has been lost.
+            - text: RAIM error.
+            - text: Loss of the GNSS signal because of the low satellite elevations above the horizon.
+- id: QYJAD
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629987
+    - ATPLQ-628846
+    - AVEXAM-40615
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.05.09
+    - 062.07.05.05.11
+  templates:
+    - type: simple
+      question: Which of the following requires FAS Data Block?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: RNP APCH LPV
+          wrongAnswers:
+            - text: RNP 0.3
+            - text: VOR
+            - text: ILS
+    - type: simple
+      question: What type of minima necessitates a FAS Data Block?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: LPV Minima
+          wrongAnswers:
+            - text: LP Minima
+            - text: LNAV/VNAV Minima
+            - text: LNAV Minima
+- id: QQXIO
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625234
+    - BGS-621285
+    - AVEXAM-73350
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.05.10
+  templates:
+    - type: simple
+      question: "SBAS is required to comply with the PBN specifications for RNP approaches down to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: LPV minima.
+          wrongAnswers:
+            - text: LNAV minima.
+            - text: Baro-VNAV minima.
+            - text: Type B CAT II minima.
+- id: QOIHR
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622818
+    - BGS-621495
+    - AVEXAM-21732
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.05.11
+  templates:
+    - type: simple
+      question: "A student pilot wants to practise an RNP APCH to LPV minima. In the planning phase, the pilot finds out they need a FAS data block (FAS DB). What is the FAS data block used for? It is used to:"
+      explanation: The FAS data block is a standard data format that defines the final approach path of an LPV approach, both laterally and vertically.
+      presets:
+        - correctAnswers:
+            - text: Describe the final approach path, both laterally and vertically.
+          wrongAnswers:
+            - text: Select a minimum descent altitude depending on the outside air temperature.
+            - text: Programme the arrival route through waypoints and path terminators.
+            - text: Feed the GNSS receiver with the differential corrections for the area.
+- id: QKWDT
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628955
+    - BGS-621274
+    - AVEXAM-21873
+    - BGS-620921
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.06.01
+  templates:
+    - type: simple
+      question: In relation to PBN operational approvals in accordance with the European Regulations on Air Operations, which of the following statements is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Only certain PBN specifications require an operational approval.
+          wrongAnswers:
+            - text: The PBN specifications that require operational approval are MCTOM (Maximum Certified Take-Off Mass)-dependent.
+            - text: The PBN specifications that require operational approval are operator-dependent.
+            - text: All PBN specifications require an operational approval.
+    - type: simple
+      question: According to European regulations which statement is correct regarding approval required for PBN specification?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Some PBN operations require approval.
+          wrongAnswers:
+            - text: All PBN operations require approval.
+            - text: The approval required is operator dependant.
+            - text: PBN operations do not require approval.
+- id: QOVUC
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623559
+    - BGS-621412
+    - AVEXAM-82431
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.06.01
+  templates:
+    - type: simple
+      question: Regarding the PBN specification RNP AR APCH, what requires specific authorisation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The published instrument approach.
+          wrongAnswers:
+            - text: Performing an approach without onboard performance monitoring and alerting.
+            - text: Any arrival route directly to the initial approach fix.
+            - text: A continuous descent final approach to the final approach fix.
+- id: QXRZF
+  subjectId: "062"
+  chapterId: "062.07"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623511
+    - BGS-620907
+  annexes: []
+  learningObjectiveIds:
+    - 062.07.05.07.01
+  templates:
+    - type: multiple-correct
+      question: "A-RNP incorporates the navigation specifications:"
+      explanation: ""
+      options:
+        - text: RNAV 1
+          correct: true
+        - text: RNAV 5
+          correct: true
+        - text: RNAV APCH
+          correct: false
+        - text: RNP 1 / RNP 2
+          correct: true
+        - text: RNP APCH
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4

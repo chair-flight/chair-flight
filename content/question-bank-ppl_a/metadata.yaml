@@ -1,0 +1,433 @@
+id: ppl_a
+title: EASA PPL Theory
+shortTitle: PPL
+subtitle: EASA ECQB
+description: Explore questions and take practice tests for the EASA PPL(A)
+  theoretical knowledge exams.
+annexes:
+  - id: AAHB
+    format: svg
+    description: Four-stroke piston engine cylinder
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/aircraftGeneralKnowledge/images/AGK0048.png
+  - id: AAVF
+    format: svg
+    description: Angle between the chord and the oncoming airflow
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/principlesOfFlight/images/PF3.png
+  - id: ABQN
+    format: svg
+    description: Direction and distance sign with a black arrow pointing left and
+      the text 2500 m on a yellow background.
+    source: ""
+  - id: ABXC
+    format: svg
+    description: "Centre of gravity envelope chart with mass in lb and kg (vertical
+      axis) against moment in inlb and mmkg (horizontal axis). The envelope is
+      bounded by two sloping lines and a horizontal upper limit. Four crosses
+      are marked: 1 far to the right of the envelope at low mass, 2 inside the
+      envelope at mid mass, 3 on the right edge of the envelope, 4 inside the
+      envelope near the upper limit."
+    source: ""
+  - id: ACHZ
+    format: webp
+    description: Pointing to a red marking across an aircraft wheel rim and tyre.
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/aircraftGeneralKnowledge/images/AGK0022.png
+  - id: ACKL
+    format: svg
+    description: Four-stroke piston engine cylinder
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/aircraftGeneralKnowledge/images/AGK0049.png
+  - id: ACWN
+    format: svg
+    description: Propeller blade angles
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/aircraftGeneralKnowledge/images/AGK0065.png
+  - id: ADEK
+    format: webp
+    description: Cloud photograph with thin fibrous streaks high in the sky.
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/meteorology/images/MET3.png
+  - id: ADNC
+    format: svg
+    description: Distance measuring equipment display
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/navigation/images/NAVO1.png
+  - id: ADWY
+    format: svg
+    description: Aerofoil flow and boundary layer
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/principlesOfFlight/images/PF2.png
+  - id: AEAP
+    format: svg
+    description: White outline of an arrow with a horizontal shaft pointing right
+      and a vertical stem at the left end bending down, forming a right-turn
+      arrow.
+    source: ""
+  - id: AEXY
+    format: svg
+    description: Four ICAO elevation symbols shown as options A to D.
+    source: https://aeroclub.at/uploads/download/ECQB-PPL-70-FPP-SPL-AT-EN.pdf#page=20
+  - id: AFHD
+    format: svg
+    description: Square ground signal with a red field crossed by a yellow diagonal stripe.
+    source: ""
+  - id: AFMC
+    format: webp
+    description: VOR course deviation indicator.
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/navigation/images/NAV08.png
+  - id: AFPM
+    format: svg
+    description: Four ICAO aerodrome symbols shown as options A to D.
+    source: https://aeroclub.at/uploads/download/ECQB-PPL-70-FPP-SPL-AT-EN.pdf#page=19
+  - id: AHYE
+    format: webp
+    description: Antenna mounted on the outside of an aeroplane.
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/navigation/images/NAV17.png
+  - id: AIGZ
+    format: svg
+    description: Loading table with basic empty mass 560 kg at 0.35 m, pilot and
+      passenger 150 kg at 0.4 m, baggage 15 kg at 0.65 m and fuel 60 l at 0.45
+      m.
+    source: ""
+  - id: AIKT
+    format: webp
+    description: Heading indicator and relative bearing indicator.
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/navigation/images/NAV6.png
+  - id: AIRG
+    format: svg
+    description: Rate of climb chart. Outside air temperature in °C with pressure
+      altitude lines from mean sea level to 12 000 ft, and a sloping line
+      converting to rate of climb in ft/min. A sample path is drawn in green.
+    source: ""
+  - id: AJMC
+    format: webp
+    description: Light aeroplane on grass, viewed from the side.
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/aircraftGeneralKnowledge/images/AGK0006.png
+  - id: AJOL
+    format: svg
+    description: Performance table for an aircraft mass of 785 kg listing, for
+      pressure altitudes of 2000, 4000 and 6000 ft and RPM settings, the brake
+      horsepower in %, true airspeed in kt and fuel flow in l/h at 20 °C below
+      ISA, at ISA and at 20 °C above ISA.
+    source: ""
+  - id: AKDD
+    format: svg
+    description: White outline of two crosses side by side, joined by a short
+      horizontal bar, forming a double cross.
+    source: ""
+  - id: ALLG
+    format: svg
+    description: VOR indicator with a selected course, a centred needle and a TO indication.
+    source: https://www.austrocontrol.at/jart/prj3/ac/data/uploads/PEL/Fragenkatalog/ECQB-PPL-A-90-NAV.pdf#page=67
+  - id: AMUV
+    format: svg
+    description: Fronts around a low pressure system
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/meteorology/images/MET4.png
+  - id: AMZJ
+    format: svg
+    description: Flight log with three blank cells
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/navigation/images/NAV14.png
+  - id: ANTP
+    format: webp
+    description: Light aeroplane on grass, viewed from the front quarter.
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/aircraftGeneralKnowledge/images/AGK0004.png
+  - id: AOBF
+    format: svg
+    description: Two take-off profiles from the same runway. Line A has a shorter
+      ground roll and then climbs at a shallower angle. Line B has a longer
+      ground roll and then climbs more steeply.
+    source: ""
+  - id: AOJU
+    format: svg
+    description: "Centre of gravity envelope chart with mass in lb and kg (vertical
+      axis) against moment in inlb and mmkg (horizontal axis). The envelope is
+      bounded by two sloping lines and a horizontal upper limit. Four crosses
+      are marked: 1 to the right of the envelope at low mass, 2 inside the
+      envelope near the upper limit, 3 far to the right of the envelope at mid
+      mass, 4 inside the envelope near the right edge and the upper limit."
+    source: ""
+  - id: AOMT
+    format: svg
+    description: Lift and drag polar with six marked points and a tangent.
+    source: https://www.austrocontrol.at/jart/prj3/ac/data/uploads/PEL/Fragenkatalog/ECQB-PPL-A-51-PFA.pdf#page=22
+  - id: APIV
+    format: svg
+    description: Loading table with basic empty mass 3156 lb at 135.33 in, front
+      seats 320 lb at 135.50 in, rear seats 340 lb at 177.00 in, baggage 80 lb
+      at 248.23 in and fuel 321.5 lb at 150.31 in.
+    source: ""
+  - id: APQJ
+    format: svg
+    description: Weight and balance record table with columns for date, entry number
+      in and out, description, additions, subtractions and actual empty weight,
+      arm and moment. Entries are GPS added 25.10.2010 giving 512 kg, ADF
+      removed 10.11.2010 giving 506 kg, left aft seat removed 04.03.2011 giving
+      494 kg and HSI added 06.11.2011 giving 498 kg with an arm of 280.59 m.
+    source: ""
+  - id: AQLM
+    format: svg
+    description: Time, fuel and distance to climb chart. Outside air temperature in
+      °C with pressure altitude lines from 2000 to 16 000 ft, and initial mass
+      curves for 2600, 3000, 3400 and 3650 lb giving time to climb in minutes,
+      fuel in gallons and distance in NM. Climb conditions are full throttle at
+      2700 RPM, full rich mixture, flaps up and 110 kt for all masses. Sample
+      paths are drawn in green.
+    source: ""
+  - id: ASWN
+    format: svg
+    description: Oleo landing gear
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/aircraftGeneralKnowledge/images/AGK0018.png
+  - id: ASYW
+    format: webp
+    description: Historical Austrian aeronautical chart extract around Wiener Neustadt.
+    source: https://www.austrocontrol.at/jart/prj3/ac/data/uploads/PEL/Fragenkatalog/ECQB-PPL-A-70-FPP_EN.pdf#page=49
+  - id: AUSO
+    format: svg
+    description: "Curve of performance (vertical axis P) against arousal or stress
+      (horizontal axis A). Performance rises to a peak and falls again. Marked
+      points: A on the rising side at low arousal, B on the rising side near the
+      peak, C at the peak, D on the falling side at high arousal."
+    source: ""
+  - id: AVOA
+    format: svg
+    description: "Airspeed indicator in knots with a white arc, a green arc and a
+      yellow arc and a red line. Five points are marked: 1 at the start of the
+      white arc, 2 at the start of the green arc, 3 at the end of the white arc,
+      4 at the end of the green arc, 5 at the red line at the end of the yellow
+      arc."
+    source: ""
+  - id: AVSR
+    format: svg
+    description: Aerofoil chord and camber
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/principlesOfFlight/images/PF1.png
+  - id: AVSX
+    format: svg
+    description: Range chart. Outside air temperature in °C with pressure altitude
+      lines from mean sea level to 12 000 ft, and curves for 75 %, 65 % and 55 %
+      power giving the range in NM. A sample path is drawn in green.
+    source: ""
+  - id: AVVV
+    format: svg
+    description: Four ICAO obstacle symbols shown as options A to D.
+    source: https://aeroclub.at/uploads/download/ECQB-PPL-70-FPP-SPL-AT-EN.pdf#page=18
+  - id: AVYU
+    format: svg
+    description: Mountain wave and lee-side rotors
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/meteorology/images/MET1.png
+  - id: AWGM
+    format: svg
+    description: Taxiway location sign with a yellow letter A on a black square with
+      a yellow border.
+    source: ""
+  - id: AWZC
+    format: webp
+    description: Historical Austrian aeronautical chart extract around Lake Neusiedl.
+    source: https://www.austrocontrol.at/jart/prj3/ac/data/uploads/PEL/Fragenkatalog/ECQB-PPL-A-70-FPP_EN.pdf#page=48
+  - id: AWZM
+    format: svg
+    description: Take-off distance chart. Outside air temperature in °C with
+      pressure altitude lines, then aircraft mass from 750 to 650 kg, then wind
+      in kt with head wind and tail wind lines, giving take-off distance in m on
+      the right. A sample path is drawn in green.
+    source: ""
+  - id: AXOB
+    format: svg
+    description: Historical NOTAM excerpt with the text and vertical limits.
+    source: https://www.austrocontrol.at/jart/prj3/ac/data/uploads/PEL/Fragenkatalog/ECQB-PPL-A-70-FPP_EN.pdf#page=29
+  - id: AXQE
+    format: webp
+    description: Cloud photograph with distinct rounded towers and individual bases.
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/meteorology/images/MET2.png
+  - id: AXXH
+    format: svg
+    description: Cruise chart. Outside air temperature in °C with pressure altitude
+      lines from mean sea level to 12 000 ft, and curves for 55 % power at 17
+      l/h, 65 % power at 20 l/h and 75 % power at 23 l/h giving the true
+      airspeed in kt. A sample path is drawn in green.
+    source: ""
+  - id: AYIM
+    format: svg
+    description: "Centre of gravity envelope chart with mass in lb and kg (vertical
+      axis) against moment in inlb and mmkg (horizontal axis). The envelope is
+      bounded by two sloping lines and a horizontal upper limit. Four crosses
+      are marked: 1 inside the envelope near the upper limit, 2 to the right of
+      the envelope at the lower mass, 3 on the right edge of the envelope, 4 on
+      the left edge of the envelope."
+    source: ""
+  - id: AYIV
+    format: svg
+    description: Square ground signal with a red field and a yellow diagonal cross.
+    source: ""
+  - id: AYLA
+    format: svg
+    description: An extract of an ICAO flight plan with departure time, flight rules
+      and speed.
+    source: https://www.austrocontrol.at/jart/prj3/ac/data/uploads/PEL/Fragenkatalog/ECQB-PPL-A-70-FPP_EN.pdf#page=57
+  - id: AYZP
+    format: webp
+    description: Aeronautical chart showing the Brünkendorf, Uelzen and Neustadt area.
+    source: https://github.com/PupoSDC/ppl-quiz/blob/master/question-bank/src/questions/navigation/images/NAV03.png
+  - id: AZAH
+    format: svg
+    description: CAP 697 table 2.2.3, cruise at 23.0 in. Hg or full throttle at 2300
+      rpm, lean mixture, cruise weight 3400 lb. For ISA deviations of -20, 0 and
+      +20 °C and pressure altitudes from 0 to 16 000 ft it lists indicated
+      outside air temperature, manifold pressure, fuel flow in PPH and GPH, and
+      airspeed in KIAS and KTAS.
+    source: CAP 697 Flight Planning Manual
+  - id: AZBG
+    format: svg
+    description: Cross section of a microburst with air flowing down at the centre
+      and spreading outwards along the ground, with an aeroplane on take-off
+      from the runway on the left flying through the outflow over 1 to 2 NM.
+      Point 1 is in the outflow before the centre, point 2 is in the downdraught
+      at the centre, point 3 is in the outflow after the centre.
+    source: ""
+courses: []
+subjects:
+  - id: "01"
+    learningObjective: "01"
+    longName: Air law and ATC procedures
+    shortName: Air law and ATC procedures
+    exams: []
+  - id: "02"
+    learningObjective: "02"
+    longName: Human performance
+    shortName: Human performance
+    exams: []
+  - id: "03"
+    learningObjective: "03"
+    longName: Meteorology
+    shortName: Meteorology
+    exams: []
+  - id: "04"
+    learningObjective: "04"
+    longName: Communications
+    shortName: Communications
+    exams: []
+  - id: "05"
+    learningObjective: "05"
+    longName: Principles of flight
+    shortName: Principles of flight
+    exams: []
+  - id: "06"
+    learningObjective: "06"
+    longName: Operational procedures
+    shortName: Operational procedures
+    exams: []
+  - id: "07"
+    learningObjective: "07"
+    longName: Flight performance and planning
+    shortName: Flight performance and planning
+    exams: []
+  - id: "08"
+    learningObjective: "08"
+    longName: Aircraft general knowledge
+    shortName: Aircraft general knowledge
+    exams: []
+  - id: "09"
+    learningObjective: "09"
+    longName: Navigation
+    shortName: Navigation
+    exams: []
+chapters:
+  - id: "01.01"
+    subject: "01"
+    title: "International law: conventions, agreements and organisations"
+  - id: "01.02"
+    subject: "01"
+    title: "Annex 8: Airworthiness of aircraft"
+  - id: "01.03"
+    subject: "01"
+    title: "Annex 7: Aircraft nationality and registration marks"
+  - id: "01.04"
+    subject: "01"
+    title: "Annex 1: Personnel licensing"
+  - id: "01.05"
+    subject: "01"
+    title: "Annex 2: Rules of the air"
+  - id: "01.06"
+    subject: "01"
+    title: "Procedures for air navigation: aircraft operations doc. 8168-ops/611,
+      volume 1"
+  - id: "01.07"
+    subject: "01"
+    title: "Annex 11: Doc. 4444 air traffic management"
+  - id: "01.08"
+    subject: "01"
+    title: "Annex 15: Aeronautical information service"
+  - id: "01.09"
+    subject: "01"
+    title: "Annex 14, volume 1 and 2: Aerodromes"
+  - id: "01.10"
+    subject: "01"
+    title: "Annex 12: Search and rescue"
+  - id: "01.11"
+    subject: "01"
+    title: "Annex 17: Security"
+  - id: "01.12"
+    subject: "01"
+    title: "Annex 13: Aircraft accident investigation"
+  - id: "01.13"
+    subject: "01"
+    title: National law
+  - id: "02.01"
+    subject: "02"
+    title: "Human factors: basic concepts"
+  - id: "02.02"
+    subject: "02"
+    title: Basic aviation psychology
+  - id: "03.01"
+    subject: "03"
+    title: The atmosphere
+  - id: "03.02"
+    subject: "03"
+    title: Wind
+  - id: "03.03"
+    subject: "03"
+    title: Thermodynamics
+  - id: "03.04"
+    subject: "03"
+    title: Clouds and fog
+  - id: "03.05"
+    subject: "03"
+    title: Precipitation
+  - id: "03.06"
+    subject: "03"
+    title: Air masses and fronts
+  - id: "03.07"
+    subject: "03"
+    title: Pressure systems
+  - id: "03.08"
+    subject: "03"
+    title: Climatology
+  - id: "03.09"
+    subject: "03"
+    title: Flight hazards
+  - id: "03.10"
+    subject: "03"
+    title: Meteorological information
+  - id: "04.01"
+    subject: "04"
+    title: Vfr communications
+  - id: "05.01"
+    subject: "05"
+    title: "Principles of flight: aeroplane"
+  - id: "06.01"
+    subject: "06"
+    title: General
+  - id: "07.01"
+    subject: "07"
+    title: "Mass and balance: aeroplanes or helicopters"
+  - id: "07.02"
+    subject: "07"
+    title: "Performance: aeroplanes"
+  - id: "07.03"
+    subject: "07"
+    title: Flight planning and flight monitoring
+  - id: "08.01"
+    subject: "08"
+    title: Airframe and systems, electrics, powerplant and emergency equipment
+  - id: "08.02"
+    subject: "08"
+    title: Instrumentation
+  - id: "09.01"
+    subject: "09"
+    title: General navigation
+  - id: "09.02"
+    subject: "09"
+    title: Radio navigation

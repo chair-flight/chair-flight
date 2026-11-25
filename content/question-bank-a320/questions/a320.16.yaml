@@ -1,0 +1,635 @@
+- id: QKARP
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How many sources does high pressure air have?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Three (engine bleed system & APU load compressor & HP ground connection)
+          wrongAnswers:
+            - text: One ( engine bleed system )
+            - text: Two ( engine bleed system & APU load compressor )
+            - text: Four (engine bleed system & APU load compressor & HP ground connection & LP ground connection )
+- id: QYWKY
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How many pneumatic safety valves prevent cabin pressure from exceeding limits?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Two
+          wrongAnswers:
+            - text: One
+            - text: Three
+            - text: Four
+- id: QORSZ
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which system controls and monitors the operation of the pneumatic system?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Two Bleed Monitoring Computers BMC1 and BMC2
+          wrongAnswers:
+            - text: The Flight Warning Computer FWC
+            - text: One Bleed Control Computer BCC
+            - text: Two Cabin Pressurization Computers CPC1 and CPC 2
+- id: QCSUE
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The aircraft has two similar engine bleed air systems. Each system is designed to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Select the compressor stage to use as a source of air
+            - text: Regulate the bleed air temperature
+            - text: Regulate the bleed air pressure
+- id: QJFEG
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How is the Crossbleed Valve controlled?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Electrically
+          wrongAnswers:
+            - text: Pneumatically
+            - text: Hydraulically
+            - text: All answers are correct
+- id: QLKXQ
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The APU BLEED pb FAULT light illuminates amber if:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An APU bleed leak is detected
+          wrongAnswers:
+            - text: Overheat is detected
+            - text: A malfunction and an overheat are detected
+            - text: A malfunction is detected
+- id: QPZFO
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Temperature regulation of the bleed air is achieved by the precooler which regulates the temperature to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 200°
+          wrongAnswers:
+            - text: 85°
+            - text: 60°
+            - text: 150°
+- id: QVCEH
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "If one BMC fails, the adjacent BMC takes over the monitoring of the bleed system to issue the following  ECAM warnings if necessary:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Overpressure
+            - text: Wing leak
+            - text: Overtemperature
+- id: QURUA
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "With the APU running, the APU BLEED pb pushed and the X-BLEED selector to AUTO, the APU will:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Supply pneumatic air to both sides of the aircraft because the pneumatic crossbleed valve automatically opens
+          wrongAnswers:
+            - text: Only supply bleed air to the right side
+            - text: Supply bleed air only to the left side unless the X-Bleed selector is set OPEN
+            - text: Only supply bleed air to the left side
+- id: QUELI
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "With the loss of pneumatic system pressure, the engine bleed valve will:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Move to the closed position
+          wrongAnswers:
+            - text: Remain in its current position
+            - text: Move to the mid position
+            - text: Move to the open position
+- id: QWMOE
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "When selected, APU bleed air:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Has priority over engine bleed air
+          wrongAnswers:
+            - text: Will supply bleed air only if the ENG BLEED pb&rsquo;s are manually selected OFF
+            - text: Will supply bleed air only if the X-BLEED selector is selected OPEN
+            - text: Does not have priority over eng bleed air
+- id: QBMZL
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "A leak detection system in the pneumatic circuit detects any overheating in the vicinity of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The hot air ducts
+          wrongAnswers:
+            - text: The engine anti-icing piccolo tubes
+            - text: The precooler downstream of the bleed valve
+            - text: The hot air valves
+- id: QDQEM
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "A FAULT light in the ENG 2 BLEED pb indicates, among others:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The bleed valve is not closed with APU bleed ON
+          wrongAnswers:
+            - text: The ENG FIRE pushbutton has not been popped out
+            - text: There is an under pressure upstream of the bleed valve
+            - text: The engine anti-icing is not receiving enough bleed air in idle conditions
+- id: QJBEA
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What are the possible selections of the crossbleed valve selector on the overhead AIR COND panel?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SHUT, AUTO, OPEN
+          wrongAnswers:
+            - text: ON, OFF
+            - text: AUTO, X-FEED, CLOSE
+            - text: OPEN, CLOSE
+- id: QZGDQ
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The following is true about the bleed supply source:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A non return valve at the IP port protects the compressor against a reverse flow from the HP port
+          wrongAnswers:
+            - text: An intermediate pressure valve can cut off bleed air from the HP port
+            - text: A non return valve at the HP port protects the compressor against a reverse flow from the IP port
+            - text: A check valve can cut off bleed air from the compressor air extract port
+- id: QIPEL
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The bleed valve function is to act as:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A shut off and pressure regulating valve
+          wrongAnswers:
+            - text: A reverse flow protection valve when the APU is not running
+            - text: A temperature and pressure regulating valve
+            - text: A temperature regulating valve
+- id: QFAGQ
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How does the precooler operate and what is its purpose?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It uses cooling air bled from the engine fan to regulate the temperature according to the demand before the  bleed air is distributed to the users
+          wrongAnswers:
+            - text: It uses air extracted from the cooling air inlet (CFM) to regulate the temperature as calculated by the ACSCs
+            - text: It uses air extracted from the cooling air inlet (CFM) to regulate the temperature as calculated by the AEVCs
+            - text: It senses the temperature downstream of the HPV and opens or closes the IPV accordingly to regulate the  temperature of the bleed air before it is distributed to the users
+- id: QRCJM
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the purpose of the crossbleed valve?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It permits the interconnection or isolation of both bleed systems downstream of the precoolers
+          wrongAnswers:
+            - text: It enables both the left and right bleed systems to equalize the air pressure in the ducts before the bleed air is  distributed to the users
+            - text: Its sole purpose is to permit a crossbleed engine start and to isolate both bleed systems in case of smoke
+            - text: It permits the interconnection or isolation of both bleed systems upstream of the bleed valves and OPVs
+- id: QEIZS
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The following symbols are displayed on the ECAM BLEED system page:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The IP and HP ports, the engine bleed valves, the precoolers air inlet pressure and outlet temperature values,  the APU BLEED valve when the APU is running
+          wrongAnswers:
+            - text: The IPVs, the high pressure ground indication, always displayed on ground even if the ground unit is not  connected
+            - text: The OPVs, the crossbleed valve, the pack valves
+            - text: The non return valves, the APU bleed valve, the pack compressor outlet temperature
+- id: QMHXU
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: During normal operation, what happens in the pneumatic system as the engine power is increased for  take off?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The pressure delivered from the IP stages is sufficient and the HP valves are automatically closed
+          wrongAnswers:
+            - text: The HP valves open fully to permit sufficient bleed supply in case of pack failure
+            - text: The crossbleed valve closes if APU is being used
+            - text: The precooler fan valve is turned off until lift off
+- id: QJXFI
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Each bleed valve is normally:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pneumatically operated and electrically controlled by its associated BMC
+          wrongAnswers:
+            - text: Electrically operated and pneumatically controlled by the opposite BMC
+            - text: Pneumatically operated and electrically controlled by the opposite BMC
+            - text: Electrically operated and pneumatically controlled by its associated BMC
+- id: QEDGG
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Air is normally bled from the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: IP stage, at low engine speed from the HP stage
+          wrongAnswers:
+            - text: HP stage, at low engine speed from the LP stage
+            - text: LP stage, at low engine speed from the IP stage
+            - text: HP stage, at low engine speed from the IP stage
+- id: QSYMT
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "APU bleed may be used, if the APU speed is above:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 95 %
+          wrongAnswers:
+            - text: 50 %
+            - text: 100 %
+            - text: 80 %
+- id: QFWOT
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "A leak in the bleed system is detected by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Overheating detection loops
+          wrongAnswers:
+            - text: Overpressure detection loops
+            - text: Smoke detection loops
+            - text: Overspeed detection loops
+- id: QZAUK
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "In order to use bleed from the APU in flight, the aircraft has to be at or below:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL225
+          wrongAnswers:
+            - text: FL200
+            - text: FL250
+            - text: FL300
+- id: QHOME
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Preparing the aircraft for de-icing, the before spraying fluid checklist demands:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Switch ENG 1 + 2 Bleed pb and APU Bleed pb off
+          wrongAnswers:
+            - text: Switch ENG 1 + 2 Bleed pb off
+            - text: Switch ENG 1 + 2 Bleed and APU Bleed pb on
+            - text: Switch ENG 1 + 2 Bleed pb on
+- id: QPCTL
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "APU Bleed pb sw ON: The APU valve opens if N > ___ % and there is no leak in the APU or in the left side  bleed"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 95%
+          wrongAnswers:
+            - text: 80%
+            - text: 85%
+            - text: 90%
+- id: QAXYV
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The pneumatic system supplies high-pressure air for:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Air conditioning, engine starting, wing anti-icing, water pressurization and hydraulic reservoir pressurization
+          wrongAnswers:
+            - text: Only for engine starting and Wing anti-icing
+            - text: Only for air conditioning and Water pressurization
+            - text: Only for engine starting, wing anti-icing and hydraulic reservoir pressurization
+- id: QATUQ
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The ENG BLEED LEAK caution comes ON at:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A temperature of > 204&deg;
+          wrongAnswers:
+            - text: A temperature of > 165&deg;
+            - text: A temperature of > 185&deg;
+            - text: A temperature of > 234&deg;
+- id: QVQJE
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Following an ENGINE1 BLEED FAULT why can you only use one pack if Wing Anti Ice is on?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: One ENG BLEED system cannot supply 2 packs and wing A/I.
+          wrongAnswers:
+            - text: Only one user can be supplied via the X BLEED duct.
+            - text: If you use wing A/I, the X BLEED valve is automatically closed. Therefore, pack 1 will no longer be supplied.
+            - text: ---
+- id: QDVBS
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "With engines and APU running and APU bleed valve selected on. Select the correct statement:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Engine bleed valves close, X-Bleed valve opens, APU bleed valve opens.
+          wrongAnswers:
+            - text: Engine bleed valves open, X-Bleed valve closes, APU bleed valve opens.
+            - text: Engine bleed valves close, X-Bleed valve closes, APU bleed valve opens.
+            - text: Engine bleed valves open, X-Bleed valve opens, APU bleed valve closes.
+- id: QVXAB
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "PNEU - Engine Bleed System - Temperature Regulation and Limitation: Air bleed from the engines is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cooled in a heat exchanger by cooling air bleed from fan section.
+          wrongAnswers:
+            - text: Not cooled.
+            - text: Cooled in a heat exchanger by ambient air.
+            - text: ---
+- id: QIJZI
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Engine bleed indications on the precooler inlet pressure are normally green. The light becomes amber if  under _________ or if overpressure detected by the BMC:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 4 psi
+          wrongAnswers:
+            - text: 3 psi
+            - text: 6 psi
+            - text: 2 psi
+- id: QAJHM
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: |-
+            Engine-Bleed valve opens if:
+
+            - Upstream pressure is above 8 psi
+
+            - APU bleed pushbutton switch is off or APU  bleed valve is closed.
+
+            - There is no onside wing or pylon leak, and no overpressure or overtemperature has been  detected.
+
+            - The ENG FIRE pushbutton has not been popped out and the engine start valve is closed
+          answer: true
+- id: QIQTK
+  subjectId: a320
+  chapterId: "16"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Bleed leak detection system: For the pylon and APU, the sensing elements are tied to form  a ____________loop and for the wing a _______________loop."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: single / double
+          wrongAnswers:
+            - text: double / single
+            - text: single / single
+            - text: double / double

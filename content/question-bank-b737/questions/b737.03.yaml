@@ -1,0 +1,254 @@
+- id: QIPKW
+  subjectId: b737
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        The engine cowl anti-ice valve controls the flow of air from the engine bleed to the engine cowl. The Engine bleed valve controls the flow of air from the bleeds to bleed air duct.
+
+        The air that flows from the bleeds can flow directly to the engine cowl without passing through the engine bleed valve.
+
+        ![Engine anti-ice system schematic](annex:AGBZ)
+      statements:
+        - text: The engine Cowl Anti-Ice valve is located UPSTREAM of the Engine Bleed Air Valve.
+          answer: true
+- id: QWVEM
+  subjectId: b737
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        > If the cowl anti–ice valve fails to move to the position indicated by the ENG ANTI–ICE switch, the COWL VALVE OPEN light remains illuminated bright blue and an amber TAI indication illuminates on the CDS **after a short delay**
+
+        ![Engine anti-ice system schematic](annex:AGBZ)
+      statements:
+        - text: If the cowl anti-ice valve fails to move to the position indicated by the ENG ANTI-ICE switch, the COWL VALVE OPEN light remains illuminated bright blue and an amber TAI indication immediately illuminates on the CDS.
+          answer: false
+- id: QVNPE
+  subjectId: b737
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What indication will there be if a cowl anti-ice valve fails to move to the selected position?
+      explanation: |-
+        > If the cowl anti–ice valve fails to move to the position indicated by the ENG ANTI–ICE switch, the COWL VALVE OPEN light remains illuminated bright blue and an amber TAI indication illuminates on the CDS **after a short delay**
+
+        ![Engine anti-ice system schematic](annex:AGBZ)
+      presets:
+        - correctAnswers:
+            - text: The COWL VALVE OPEN light remains illuminated bright blue.
+          wrongAnswers:
+            - text: The COWL ANTI-ICE light illuminates amber.
+            - text: A green TAI indication illuminates on the CDS after a short delay.
+            - text: The COWL ANTI-ICE light momentarily illuminates bright blue
+- id: QXGZE
+  subjectId: b737
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Positioning ENG ANTI-ICE switch to on has what effect?
+      explanation: |
+        > ### 3 ENGINE ANTI–ICE Switches
+        >
+        > - **ON**
+        >   - related cowl anti–ice valve is open
+        >   - stick shaker logic is set for icing conditions.
+        >   - Green TAI indication shows on the engine display.
+        > - **OFF**
+        >   - related cowl anti–ice valve is closed
+        >   - stick shaker logic returns to normal if wing anti–ice has not been used in flight.
+        >   - Green TAI indication on the engine display extinguishes.
+      presets:
+        - correctAnswers:
+            - text: Stall warning logic adjusts stick shaker and minimum maneuver speed bars on airspeed indicator.
+          wrongAnswers:
+            - text: Adjusted stall warning logic for stick shaker, minimum maneuver speed bars on airspeed indicator, and automatically adjusted FMC displayed VREF; remain for rest of flight.
+            - text: Adjusted stall warning logic for stick shaker, minimum maneuver speed bars on airspeed indicator, and automatically adjusted FMC displayed VREF; return to normal when engine anti-ice is positioned to OFF.
+            - text: FMC displayed VREF is adjusted automatically.
+- id: QXVUK
+  subjectId: b737
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |
+        > ### Probe and Sensor Heat
+        >
+        > Pitot probes, the total air temperature probe and the alpha vanes are electrically heated. Static ports are not heated. When operating on standby power, only the captain’s pitot probe is heated, however, the CAPT PITOT light does not illuminate for a failure.
+      statements:
+        - text: |
+            When operating on standby power only the Captain's pitot probe is still 
+            heated;
+
+            If the Captain's pitot probe heating fails in this condition, there is no 
+            CAPT PITOT alert given.
+          answer: true
+- id: QETYR
+  subjectId: b737
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        > ### Wing Anti–Ice System Operation
+        >
+        > On the ground, positioning the WING ANTI–ICE switch ON opens both control valves if thrust on both engines is below the setting for takeoff warning activation and the temperature inside both wing distribution ducts is less than the thermal switch activation temperature.
+        >
+        > Both valves close if either engine thrust is above the takeoff warning setting or either temperature sensor senses a duct overtemperature. The valves automatically reopen if thrust on both engines is reduced and both temperature sensors are cool.
+
+        The wing anti-ice valves close if the forward thrust levers are advanced above the takeoff warning setting only on the ground.
+
+        ![Wing anti-ice system schematic](annex:ADBL)
+      statements:
+        - text: On the ground and in flight, the wing anti-ice valves close if the forward thrust levers are advanced above the takeoff warning setting.
+          answer: false
+- id: QMNIV
+  subjectId: b737
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The rain removal system for the forward windows comprises the following:"
+      explanation: |-
+        ### FCOM 3.20.4, Windshield Wipers
+
+        > The rain removal system for the forward windows consists of **windshield wipers and a permanent rain repellent coating** on the windows.
+
+        Window heat is an anti-ice system, not part of rain removal.
+      presets:
+        - correctAnswers:
+            - text: Windshield wipers, hydrophobic rain repellent coating.
+          wrongAnswers:
+            - text: Heated windows, Windshield wipers,
+            - text: Windshield wipers, heated windows, hydrophobic rain repellent coating.
+            - text: Windshield wipers.
+- id: QSSWN
+  subjectId: b737
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What do the green ON lights indicate above the Window heat switches?
+      explanation: |
+        > ### Window Heat ON Lights
+        >
+        > - **Illuminated (green)**: – window heat is being applied to selected window(s).
+        > - **Extinguished**:
+        >   - switch is OFF, or
+        >   - an overheat is detected, or
+        >   - a system failure has occurred
+        >   - system is at correct temperature.
+      presets:
+        - correctAnswers:
+            - text: Illuminated means heat being applied to windows, extinguished means windows at correct temperature
+          wrongAnswers:
+            - text: Illuminated means window heat needs to be switched on for that window, extinguished means heat now being applied to that window.
+            - text: Extinguished means heat still being applied to window but not yet at correct operating temperature, illuminated means window at correct temperature.
+            - text: Illuminated means the window Overheat system has activated.
+- id: QEPIS
+  subjectId: b737
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement is correct for when the window heat Test Switch is put into the OVHT position?
+      explanation: |
+        > ### WINDOW HEAT Test Switch (spring–loaded to neutral)
+        >
+        > - OVHT: simulates an overheat condition.
+        > - PWR TEST: provides a confidence test.
+      presets:
+        - correctAnswers:
+            - text: Simulates an overheat condition in order to test the system
+          wrongAnswers:
+            - text: Performs a voltage check of the power supplies.
+            - text: Checks for the presence of the window heat elements
+            - text: Can only be used if all green lights are on.
+- id: QFMXV
+  subjectId: b737
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: |
+        Whilst on the ground with WING ANTI-ICE selected ON, what is the 
+        result of advancing the thrust levers beyond the take-off warning setting?
+      explanation: |-
+        > Both valves close if either engine thrust is above the takeoff warning setting or either temperature sensor senses a duct overtemperature. The valves automatically reopen if thrust on both engines is reduced and both temperature sensors are cool.
+
+        The switch flicks back to **OFF** when the weight on wheels switch detects the aircraft is airborne.
+
+        > The WING ANTI–ICE switch automatically trips OFF at lift–off when the air/ground sensor goes to the air mode
+
+        ![Wing anti-ice system schematic](annex:ADBL)
+      presets:
+        - correctAnswers:
+            - text: Both wing anti-ice control valves close and the WING ANTI-ICE switch remains in the ON position
+          wrongAnswers:
+            - text: Both wing anti-ice control valves remain open and the WING ANTI-ICE switch remains set at ON.
+            - text: Both wing anti-ice control valves remain open and the WING ANTI-ICE switch trips OFF.
+            - text: Both wing anti-ice control valves close and the WING ANTI-ICE switch trips OFF.
+- id: QVXIY
+  subjectId: b737
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If the BLEED switch for the number one engine is in the OFF position, will the engine thermal anti-ice continue to work for that engine?
+      explanation: |-
+        ### FCOM 3.20.5, Engine Anti-Ice System
+
+        > Engine bleed air thermal anti–icing prevents the formation of ice on the engine cowl lip. **Engine anti–ice operation is controlled by individual ENG ANTI–ICE switches.** The engine anti–ice system may be operated on the ground and in flight.
+
+        > Each cowl anti–ice valve is electrically controlled and pressure actuated.
+
+        The cowl anti-ice valve takes bleed air upstream of the engine bleed air valve, so it works with the engine BLEED switch OFF and does not depend on the isolation valve.
+
+        ![Engine anti-ice system schematic](annex:AGBZ)
+      presets:
+        - correctAnswers:
+            - text: Yes, because the Engine Anti-Ice Valve is independent of the Bleed Air Valve.
+          wrongAnswers:
+            - text: No.
+            - text: Only if the ISOLATION VALVE is in the open position.

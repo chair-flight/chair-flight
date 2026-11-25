@@ -1,0 +1,38 @@
+- id: QECKC
+  subjectId: "01"
+  chapterId: "01.13"
+  relatedQuestionIds:
+    - QSDOI
+  annexes: []
+  learningObjectiveIds:
+    - "01.13.01"
+  templates:
+    - type: simple
+      question: Which organisation issues certification requirements for a newly developed aircraft in the EU?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: EASA
+          wrongAnswers:
+            - text: Federal Ministry
+            - text: ICAO
+            - text: FAA
+- id: QSDOI
+  subjectId: "01"
+  chapterId: "01.13"
+  relatedQuestionIds:
+    - QECKC
+  annexes: []
+  learningObjectiveIds:
+    - "01.13.01"
+  templates:
+    - type: simple
+      question: What is the status of the rules and procedures created by the EASA? (e.g. Part-SFCL, Part-MED)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: They are part of the EU regulation and legally binding to all EU member states.
+          wrongAnswers:
+            - text: They are not legally binding, they only serve as a guide.
+            - text: Only after a ratification by individual EU member states they are legally binding.
+            - text: They have the same status as ICAO Annexes.

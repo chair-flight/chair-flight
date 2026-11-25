@@ -1,0 +1,904 @@
+- id: QEPGM
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212340
+    - BGS-210005
+    - AVEXAM-87950
+    - BGS-211221
+    - BGS-210001
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.01.01.01
+  templates:
+    - type: simple
+      question: The principle of damage tolerance in structural design of an aircraft is based on the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: capability to withstand a certain amount of damage to structural parts until the damage is detected during an inspection.
+          wrongAnswers:
+            - text: replacement of parts after a given number of cycles or hours of use.
+            - text: assumption that there is no need to inspect the structure.
+            - text: assumption that the structure has more than one load path.
+- id: QHAFS
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211573
+    - BGS-211220
+    - AVEXAM-78048
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.01.01.01
+  templates:
+    - type: simple
+      question: Select the option that best describes a fail-safe designed structure.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A structure that has built-in redundancy with multiple load paths.
+          wrongAnswers:
+            - text: Multiple load paths through a structure that is replaced after limited usage.
+            - text: One load path is sufficient and the structural element is removed at the end of its lifetime or number of cycles.
+            - text: A single load path in a structure that can withstand 1.5 times the maximum design load.
+- id: QLQDQ
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216988
+    - AVEXAM-59867
+    - BGS-211166
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.01.01.01
+  templates:
+    - type: simple
+      question: For a safe life designed structure..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: one load path is sufficient and the structural element is removed at the end of the life time or number of cycles.
+          wrongAnswers:
+            - text: there is more than one load path and the structure should be redundant.
+            - text: there is more than one load path and the structural element is removed at the end of the life time or number of cycles.
+            - text: one load path is sufficient and the structure should be redundant.
+- id: QTOMS
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211169
+    - BGS-211417
+    - BGS-210072
+    - AVEXAM-7624
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.01.01.01
+  templates:
+    - type: simple
+      question: With regard to an aircraft structure, the term "fail-safe design" means one…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: in which the load is carried by other components if a part of the structure fails.
+          wrongAnswers:
+            - text: that has been manufactured to withstand loads five times greater than the maximum expected load.
+            - text: where weak point indicators are built into the structure. If these fail then the structure needs to be replaced.
+            - text: where the structure is known to fail after a predetermined load so will be scheduled for replacement prior to that point.
+    - type: simple
+      question: "With regard to an aircraft structure, 'fail safe' is one:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: |-
+                In which the load is carried by other components if a
+                part of the structure fails.
+          wrongAnswers:
+            - text: That is easily manufactured.
+            - text: Used for small aircraft only.
+            - text: That is only used for a limited time.
+- id: QGTRZ
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216540
+    - BGS-211217
+    - AVEXAM-41847
+    - AVEXAM-14314
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.01.01.02
+  templates:
+    - type: simple
+      question: Redundancy in systems is
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the duplication, triplication, or more of critical systems.
+          wrongAnswers:
+            - text: two systems working together in tandem to ensure accuracy.
+            - text: connecting components in series to improve performance.
+            - text: the situation in which a catastrophic failure is caused by a single failure.
+    - type: simple
+      question: "The duplication or triplication of critical components or functions of a system with the intention of increasing its reliability, is the definition for:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: redundancy.
+          wrongAnswers:
+            - text: multiple load path.
+            - text: damage tolerance.
+            - text: SAFE LIFE design.
+- id: QNUOQ
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215860
+    - AVEXAM-64526
+    - BGS-996105
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.01.02.02
+  templates:
+    - type: simple
+      question: What is the EASA publication which lays down the requirements for design, material quality, build quality and behavioural characteristics for aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Certification Specifications
+          wrongAnswers:
+            - text: Certification Designs
+            - text: Design Requirements
+            - text: Design Specifications
+- id: QPHIL
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211543
+    - AVEXAM-176
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.01.02.03
+  templates:
+    - type: multiple-correct
+      question: Which of the following aircraft categories fall under CS-23?
+      explanation: ""
+      options:
+        - text: Normal
+          correct: true
+        - text: Utility
+          correct: true
+        - text: Ultralights
+          correct: false
+        - text: Aerobatic
+          correct: true
+        - text: Commuter Aeroplanes
+          correct: true
+        - text: Small Helicopters
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QQOUF
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215569
+    - AVEXAM-25058
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.01.02.03
+  templates:
+    - type: multiple-correct
+      question: Which of the following aircraft categories fall under CS-25?
+      explanation: ""
+      options:
+        - text: Normal
+          correct: false
+        - text: Cargo Aeroplanes
+          correct: false
+        - text: Large Aeroplanes
+          correct: true
+        - text: Large Helicopters
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QAPOU
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217216
+    - AVEXAM-81798
+    - BGS-212263
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.02.01.01
+  templates:
+    - type: simple
+      question: When are stress and strain zero in an aircraft structure?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Never, stress and strain are always present.
+          wrongAnswers:
+            - text: When flying with a 1G load factor.
+            - text: When parked, with the engines not running.
+            - text: When the aircraft has zero flight hours.
+- id: QMUVK
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213035
+    - AVEXAM-50917
+    - BGS-211228
+    - ATPLQ-216510
+    - AVEXAM-69996
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.02.01.01
+    - 021.01.02.01.02
+  templates:
+    - type: simple
+      question: In the context of aviation and loadings on an aircraft's structure..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: strain is a measure of the deformation of a loaded structure.
+          wrongAnswers:
+            - text: stress of a material is often known as the Young's modulus of elasticity.
+            - text: stress is the ratio of the change in length to the original length of a loaded structure.
+            - text: the definitions of stress and strain are interchangeable.
+    - type: simple
+      question: Which of the following statements regarding loads and stresses is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Strain is a measure of deformation of the fuselage.
+          wrongAnswers:
+            - text: Stress is the ratio of the original length to the new length after the action of a force.
+            - text: Possible loads on an object are bending and torsion.
+            - text: Only the material of a component decides whether a deformation is elastic or plastic.
+- id: QPLQJ
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217707
+    - AVEXAM-52036
+    - BGS-211229
+    - ATPLQ-215974
+    - AVEXAM-92622
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.02.01.01
+  templates:
+    - type: simple
+      question: The ratio of the change in size of the deformed structure to the size of the non-deformed structure is called..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: strain.
+          wrongAnswers:
+            - text: stress.
+            - text: torsion.
+            - text: traction.
+    - type: simple
+      question: When a structure is changed from a non-deformed into a deformed state, it has experienced...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: strain.
+          wrongAnswers:
+            - text: bending.
+            - text: corrosion.
+            - text: stress.
+- id: QXSHC
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213153
+    - AVEXAM-89846
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.02.01.01
+  templates:
+    - type: simple
+      question: When is a wing not subject to any tension or compression forces?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: never, the wings are always subject to various forces.
+          wrongAnswers:
+            - text: when stationary in the hangar.
+            - text: when the aircraft is still brand new at the factory.
+            - text: when the aircraft is flying at 1 g.
+- id: QLHQE
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214083
+    - BGS-211945
+    - AVEXAM-3348
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.02.01.02
+  templates:
+    - type: simple
+      question: What are cyclic loads?
+      explanation: "Cyclic loads are dynamic and reversible: they are applied, removed and applied again, as in pressurisation cycles or gusts. They lead to fatigue. Static loads do not change over time."
+      presets:
+        - correctAnswers:
+            - text: Dynamic reversible loads.
+          wrongAnswers:
+            - text: Static irreversible loads.
+            - text: Static reversible loads.
+            - text: Dynamic irreversible loads.
+- id: QWRUF
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218242
+    - AVEXAM-14788
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.02.01.02
+  templates:
+    - type: simple
+      question: What causes stress?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cycle loads.
+          wrongAnswers:
+            - text: Long working hours.
+            - text: Fatigue.
+            - text: Aging.
+- id: QJEZC
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215925
+    - AVEXAM-28108
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.02.01.02
+  templates:
+    - type: simple
+      question: Which of the following statements accurately describes cyclic loads?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pilots need to log every landing in order to know when cyclic load limitations may be exceeded.
+          wrongAnswers:
+            - text: Cyclic loads are present when loading cargo aircraft with mailboxes.
+            - text: They are caused by the loads generated by the engines.
+            - text: Cyclic loads are present when loading cargo.
+    - type: simple
+      question: Which statement is correct regarding cyclic loads?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pilots need to log every landing in order to know when cyclic load limitations may be exceeded.
+          wrongAnswers:
+            - text: Cyclic loads are present when loading cargo aircraft with mail boxes.
+            - text: Cyclic loads are present when loading cargo.
+            - text: They are caused by the loads generated by the engines.
+- id: QAXWO
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212312
+    - AVEXAM-45503
+    - BGS-211897
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.02.01.03
+  templates:
+    - type: multiple-correct
+      question: During a pre-flight inspection, what could indicate stress damage on an aircraft?
+      explanation: ""
+      options:
+        - text: Wrinkled or stretched skin.
+          correct: true
+        - text: Loose or missing screws in the fairings.
+          correct: false
+        - text: Hydraulic leak in the landing gear (bypassing of the piston seal).
+          correct: false
+        - text: Restriction in a flight control.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+    - type: simple
+      question: |-
+        Which of the following could indicate stress damage on an aircraft during a pre-flight inspection?
+        Wrinkled or stretched skin.Loose or missing screws in the fairings.Hydraulic leak in the landing gear (bypassing of the piston seal).Restriction in a flight control.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 and 4.
+          wrongAnswers:
+            - text: 3 and 4.
+            - text: 1 and 3.
+            - text: 2 and 3.
+- id: QETQH
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217326
+    - AVEXAM-50287
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.02.01.03
+  templates:
+    - type: multiple-correct
+      question: Which one of the following areas is most prone to experiencing stress and should be given particular attention during a walk around?
+      explanation: ""
+      options:
+        - text: Wing spar and skin near the root of the wing.
+          correct: true
+        - text: Wing spar and skin near the tip of the wing.
+          correct: false
+        - text: Fuselage skin near the bulkhead.
+          correct: true
+        - text: Aircraft skin on the bottom and top of the fuselage.
+          correct: true
+        - text: Fuselage around the windows.
+          correct: true
+        - text: Engine nacelles.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QLMBQ
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216203
+    - AVEXAM-27025
+    - BGS-211231
+    - AVEXAM-44052
+    - ATPLQ-218512
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.03.01.01
+  templates:
+    - type: simple
+      question: Stress corrosion cracking is caused by a combination of..
+      explanation: "Stress corrosion cracking needs two things together: a sustained tensile load and a corrosive environment. Cracks then grow in a susceptible metal with little visible sign."
+      presets:
+        - correctAnswers:
+            - text: tensile load and corrosive conditions.
+          wrongAnswers:
+            - text: high airframe cycles and corrosive conditions.
+            - text: high aircraft mass and adverse weather conditions.
+            - text: hard landings and high aircraft mass.
+- id: QJFGE
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211858
+    - AVEXAM-40782
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.03.01.01
+  templates:
+    - type: multiple-correct
+      question: Which of the following are visual identifiers of corrosion which a pilot must be able to identify during the pre-flight inspection?
+      explanation: ""
+      options:
+        - text: Powdering
+          correct: true
+        - text: Paint discolouration
+          correct: true
+        - text: Rust
+          correct: true
+        - text: Etching
+          correct: true
+        - text: Pitting
+          correct: true
+        - text: Cracking
+          correct: true
+        - text: Flaking
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 3
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 1
+            - 5
+            - 6
+        - show:
+            - 0
+            - 1
+            - 2
+            - 6
+    - type: simple
+      question: |-
+        Which of the following are visual identifiers of corrosion which a pilot must look out for during the pre-flight inspection:
+
+         Powdering
+         Paint discolouration
+         Rust
+         Etching
+         Pitting
+         Cracking
+         Flaking
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, 3, 4, 5, 6, 7
+          wrongAnswers:
+            - text: 1, 2, 3, 6, 7
+            - text: 3, 6, 7
+            - text: 1, 3, 4, 5, 6
+- id: QMTFA
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218885
+    - AVEXAM-62574
+    - BGS-996116
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.03.01.02
+  templates:
+    - type: simple
+      question: "The climatic region which is most conducive to corrosion is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Tropical oceanic
+          wrongAnswers:
+            - text: Temperate continental
+            - text: Tropical desert
+            - text: Polar oceanic
+- id: QDJYS
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219840
+    - BGS-996118
+    - AVEXAM-70878
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.03.01.03
+  templates:
+    - type: simple
+      question: Which of the following fluids carried on board an aircraft may all be considered corrosive?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Battery acid, drinking water & toilet waste.
+          wrongAnswers:
+            - text: Hydraulic fluid, fuel & water.
+            - text: Battery acid, fuel & mercury.
+            - text: Toilet waste, fuel & hydraulic fluid.
+- id: QQYQC
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212006
+    - AVEXAM-92266
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.03.01.03
+  templates:
+    - type: multiple-correct
+      question: Which one of the following liquids are considered highly corrosive?
+      explanation: ""
+      options:
+        - text: Anti-icing fluid
+          correct: false
+        - text: De-icing fluid
+          correct: false
+        - text: Window washer
+          correct: false
+        - text: Hydraulic fluid
+          correct: true
+        - text: Engine oil
+          correct: false
+        - text: Jet fuel
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+    - type: simple
+      question: |-
+        State what liquid(s) on board of modern aircraft are considered highly corrosive:
+
+         Anti-icing fluid
+         De-icing fluid
+         Window washer
+         Hydraulic fluid
+         Engine oil
+         Jet fuel
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 4 only
+          wrongAnswers:
+            - text: 1, 2, 3
+            - text: 4, 5
+            - text: 1, 2, 3, 4, 5, 6
+- id: QJYPW
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215074
+    - BGS-211095
+    - AVEXAM-62684
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.03.01.04
+  templates:
+    - type: simple
+      question: Corrosive conditions and a steady tensile load can produce a form of metal fatigue. This is also known as..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: stress corrosion.
+          wrongAnswers:
+            - text: strain.
+            - text: creep.
+            - text: intergranular corrosion.
+- id: QRAYF
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216410
+    - AVEXAM-61376
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.03.01.04
+  templates:
+    - type: simple
+      question: In theory, the fatigue life limit is reached sooner when an aircraft makes, on a daily basis,
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: six flights of 30 minutes each.
+          wrongAnswers:
+            - text: three flights of one hour each.
+            - text: one flight of three hours.
+            - text: two flights of 90 minutes each.
+- id: QTEDZ
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213102
+    - BGS-211230
+    - AVEXAM-34576
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.03.01.04
+  templates:
+    - type: simple
+      question: With regard to structural stress, fatigue means structural damage due to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: load cycles.
+          wrongAnswers:
+            - text: corrosion.
+            - text: ageing.
+            - text: high aircraft mass.
+- id: QNBTN
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212914
+    - BGS-212240
+    - AVEXAM-1497
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.05.01.01
+  templates:
+    - type: simple
+      question: An aircraft has been parked up for a significant amount of time. The last entry in the aircraft tech log by the maintenance organisation was made before the aircraft's last flight. Amongst other elements, this statement mentions that the aircraft is considered airworthy up to a certain amount of flight hours, which have not yet been reached by the aircraft. No technical malfunctions or deferred defects have been entered in the tech log. Which of the following statements is correct?
+      explanation: A maintenance statement does not only limit flight hours. It can also carry limits in cycles or calendar time, such as a due date for hard-time tasks, so the crew must check every limit, not just hours. Parking alone does not make the statement invalid or hard-time maintenance.
+      presets:
+        - correctAnswers:
+            - text: The airworthiness maintenance statement could also contain a due date for hard-time maintenance after a certain number of cycles, which needs to be verified.
+          wrongAnswers:
+            - text: The maintenance statement remains always valid up to the flight time limits provided.
+            - text: After each parking period, irrespective of the duration, the airworthiness maintenance statement will need to be revised. This is an example of a hard-time maintenance method.
+            - text: The aircraft can be considered airworthy provided a visual inspection of the aircraft does NOT reveal technical malfunctions. This is referred to as condition monitoring.
+- id: QXSHF
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212733
+    - BGS-212000
+    - AVEXAM-99466
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.05.01.01
+  templates:
+    - type: simple
+      question: Reading the technical log of an aircraft before flight, you notice that the previous maintenance organisation inspected the landing gear for corrosion, and made no further action as no corrosion was found. What type of maintenance is this?
+      explanation: On-condition maintenance means inspecting or testing an item, and leaving it in service as long as it meets the standard. Here the landing gear was inspected for corrosion, none was found, and nothing more was needed, so no overhaul or tear-down was required. Hard-time maintenance removes the item at a fixed interval, whatever its condition.
+      presets:
+        - correctAnswers:
+            - text: On-condition maintenance, where the determination of continued airworthiness can be made without overhaul or tear-down inspection.
+          wrongAnswers:
+            - text: On-condition maintenance, where an aircraft item such as the landing gear is removed from service at or before reaching a specified time or amount of cycles.
+            - text: Hard-time maintenance, where an item is completely removed and disassembled to allow for a thorough inspection of the item.
+            - text: Hard-time maintenance, overhauling an aircraft component within the time limits of the maintenance programme as determined by the manufacturer.
+- id: QTTOM
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219622
+    - AVEXAM-45765
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.05.01.01
+  templates:
+    - type: simple
+      question: Before flight, the Commander notices a document from the maintenance organisation, the CRS (Certificate of Release to Service), which states that "all maintenance checks have been performed. Next check/valid until 5432 hours and 3254 landings." What does this mean?
+      explanation: The certificate of release to service confirms that the scheduled checks, both hard-time and on-condition, were done and are valid up to the limits stated. Before those limits are reached, only on-condition tasks, arising from inspection findings or defects, may still be required.
+      presets:
+        - correctAnswers:
+            - text: All the maintenance checks, both hard-time and on-condition, have been performed and are valid until the limits mentioned. Only on-condition maintenance may be required before that time.
+          wrongAnswers:
+            - text: The maintenance organisation has guaranteed correct operation until the limits mentioned.
+            - text: The CRS does not relate to airworthiness.
+            - text: The aircraft is not airworthy, and the Commander must not fly it.
+- id: QRVAE
+  subjectId: "021"
+  chapterId: "021.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217667
+    - AVEXAM-8663
+    - BGS-210004
+    - AVEXAM-80278
+    - BGS-210031
+    - AVEXAM-95294
+  annexes: []
+  learningObjectiveIds:
+    - 021.01.05.01.01
+  templates:
+    - type: simple
+      question: "The principle of 'on condition' maintenance is based on the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: monitoring of critical parameters of a component or a piece of equipment and its replacement if a limit value is exceeded.
+          wrongAnswers:
+            - text: redundancy of the structure or equipment.
+            - text: replacement of parts after a given number of cycles or hours of use.
+            - text: capability to withstand a certain amount of weakening of the structure without catastrophic failure.

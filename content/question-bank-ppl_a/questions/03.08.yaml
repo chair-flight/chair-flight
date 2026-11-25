@@ -1,0 +1,117 @@
+- id: QAJHN
+  subjectId: "03"
+  chapterId: "03.08"
+  relatedQuestionIds:
+    - QPWBU
+    - QKTDX
+    - QGENP
+  annexes: []
+  learningObjectiveIds:
+    - "03.08.03.01"
+  templates:
+    - type: simple
+      question: '"Foehn" conditions usually develop with...'
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: stability, widespread air blown against a mountain ridge.
+          wrongAnswers:
+            - text: instability, widespread air blown against a mountain ridge.
+            - text: instability, high pressure area with calm wind.
+            - text: stability, high pressure area with calm wind.
+- id: QKAHQ
+  subjectId: "03"
+  chapterId: "03.08"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.08.02.02"
+  templates:
+    - type: simple
+      question: What weather conditions can be expected in high pressure areas during summer?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Calm weather and cloud dissipation, few high Cu
+          wrongAnswers:
+            - text: Changing weather with passing of frontal lines
+            - text: Squall lines and thunderstorms
+            - text: Calm winds and widespread areas with high fog
+- id: QDDNY
+  subjectId: "03"
+  chapterId: "03.08"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.08.02.02"
+  templates:
+    - type: simple
+      question: What weather conditions in Central Europe are typically found in high pressure areas during summer?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Large isobar spacing with calm winds, formation of local wind systems
+          wrongAnswers:
+            - text: Large isobar spacing with strong prevailing westerly winds
+            - text: Small isobar spacing with calm winds, formation of local wind systems
+            - text: Small isobar spacing with strong prevailing northerly winds
+- id: QTIPM
+  subjectId: "03"
+  chapterId: "03.08"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.08.02.02"
+  templates:
+    - type: simple
+      question: What weather conditions can be expected in high pressure areas during winter?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Calm winds and widespread areas with high fog
+          wrongAnswers:
+            - text: Changing weather with passing of frontal lines
+            - text: Calm weather and cloud dissipation, few high Cu
+            - text: Squall lines and thunderstorms
+- id: QKTDX
+  subjectId: "03"
+  chapterId: "03.08"
+  relatedQuestionIds:
+    - QAJHN
+    - QPWBU
+    - QGENP
+  annexes: []
+  learningObjectiveIds:
+    - "03.08.03.01"
+  templates:
+    - type: simple
+      question: What weather conditions can be expected during "Foehn" on the windward side of a mountain range?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Layered clouds, mountains obscured, poor visibility, moderate or heavy rain
+          wrongAnswers:
+            - text: Dissipating clouds with unusual warming, accompanied by strong, gusty winds
+            - text: Scattered cumulus clouds with showers and thunderstorms
+            - text: Calm wind and forming of high stratus clouds (high fog)
+- id: QGENP
+  subjectId: "03"
+  chapterId: "03.08"
+  relatedQuestionIds:
+    - QAJHN
+    - QPWBU
+    - QKTDX
+  annexes: []
+  learningObjectiveIds:
+    - "03.08.03.01"
+  templates:
+    - type: simple
+      question: What weather is likely to be experienced during "Foehn" in the Bavarian area close to the alps?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Nimbostratus cloud in the southern alps, rotor clouds at the lee side, warm and dry wind
+          wrongAnswers:
+            - text: High pressure area overhead Biskaya and low pressure area in Eastern Europe
+            - text: Cold, humid downhill wind on the lee side of the alps, flat pressure pattern
+            - text: Nimbostratus cloud in the northern alps, rotor clouds at the windward side, warm and dry wind

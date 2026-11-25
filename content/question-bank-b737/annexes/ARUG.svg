@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="808" height="842" viewBox="0 0 808 842" role="img" aria-labelledby="title desc" xml:lang="en-GB">
+  <title id="title">737-800 EFIS navigation display modes</title>
+  <desc id="desc">Four square navigation displays in reading order: expanded APP, expanded VOR, expanded MAP and PLN.</desc>
+  <metadata>B737 FCOM Rev 40, 10.11.35, 10.11.43, 10.11.45, 10.11.47 and 10.41.1</metadata>
+  <style>
+  text{font-family:monospace;fill:#f2f2f2}
+  .amber{fill:#ffbf23}.green{fill:#00c672}.cyan{fill:#12d5ff}.magenta{fill:#ff00a0}
+  .white-line,.pink-line,.green-line,.blue-line{fill:none;stroke-width:1.5}
+  .white-line{stroke:#eee}.pink-line{stroke:#ff00a0}.green-line{stroke:#00c672}.blue-line{stroke:#12d5ff}
+  </style>
+  <rect width="808" height="842" fill="#080808"/>
+  <g transform="translate(14 14)" aria-label="APP mode">
+    <text x="190" y="18" font-size="17" text-anchor="middle">APP</text>
+    <g transform="translate(0 30)">
+      <rect x=".5" y=".5" width="379" height="379" fill="#000" stroke="#767676"/>
+      <text x="10" y="18" font-size="14">GS152 TAS160</text><text x="10" y="33" font-size="14">080°/12</text><path d="M33 40l7 25m-1-7 1 7-5-5" class="white-line"/>
+      <text x="165" y="25" font-size="12" class="green" text-anchor="end">HDG</text><text x="218" y="25" font-size="12" class="green">MAG</text><path d="M169 10v23h42V10m-32 23 11 11 11-11" class="white-line"/>
+      <text x="190" y="28" font-size="20" text-anchor="middle">090</text><text x="308" y="20" font-size="15" class="green" text-anchor="end">ILS 1</text><text x="374" y="20" font-size="14" text-anchor="end">110.10</text><text x="374" y="35" font-size="14" text-anchor="end">CRS 055</text><text x="374" y="50" font-size="14" text-anchor="end">DME 13.5</text><path d="M1.3 116.4A282 282 0 0 1 378.7 116.4M33.2 184.8A211 211 0 0 1 346.8 184.8M81.5 228.3A146 146 0 0 1 298.5 228.3M108 323.1A82 82 0 0 1 272 323.1M8.7 110L17.1 119.9M28.3 95L32.3 100.7M49 81.8L55.5 93M70.8 70.4L73.8 76.8M93.6 61L98 73.2M117 53.6L118.8 60.4M141 48.3L143.3 61.1M165.4 45.1L166 52M190 44L190 57M214.6 45.1L214 52M239 48.3L236.7 61.1M263 53.6L261.2 60.4M286.4 61L282 73.2M309.2 70.4L306.2 76.8M331 81.8L324.5 93M351.7 95L347.7 100.7M371.3 110L362.9 119.9" class="white-line"/>
+      <g transform="translate(59.5 100) rotate(-30)"><text x="0" y="0" font-size="13" text-anchor="middle">6</text></g><g transform="translate(190 65) rotate(0)"><text x="0" y="0" font-size="13" text-anchor="middle">9</text></g><g transform="translate(320.5 100) rotate(30)"><text x="0" y="0" font-size="13" text-anchor="middle">12</text></g><g transform="translate(190 326) rotate(-16)"><path d="M-14-282v-8h7l7 6 7-6h7v8" class="pink-line"/>
+      </g><path d="M190 47v244" class="white-line"/>
+      <rect x="173" y="167" width="15" height="15" fill="#080808"/>
+      <text x="187" y="179" font-size="13" text-anchor="end">40</text><path d="M52 83 238 353" class="pink-line"/>
+      <path d="M112 48 213 322" class="pink-line" stroke-dasharray="7 10"/>
+      <text x="12" y="258" font-size="13" class="cyan">WX+T</text><text x="12" y="272" font-size="13" class="cyan">+15</text><text x="12" y="286" font-size="13" class="cyan">VAR</text><text x="12" y="343" font-size="14" class="cyan">ADF 1</text><text x="12" y="358" font-size="14" class="cyan">KXYZ</text><text x="374" y="343" font-size="14" class="green" text-anchor="end">VOR 2</text><text x="374" y="358" font-size="14" class="green" text-anchor="end">ELN</text><text x="374" y="373" font-size="14" class="green" text-anchor="end">DME 28.5</text><path d="M190 303l10 25h-20z" fill="#080808" stroke="#eee" stroke-width="1.5"/>
+      <path d="m188 252 4-3 48 65-5 4z" fill="#ff00a0"/>
+      <path d="m166 306 3-5 7 6-3 5zM209 278a3 3 0 1 0 6 0 3 3 0 1 0-6 0m23-16a3 3 0 1 0 6 0 3 3 0 1 0-6 0m-76 43a3 3 0 1 0 6 0 3 3 0 1 0-6 0m-21 16a3 3 0 1 0 6 0 3 3 0 1 0-6 0" class="white-line"/>
+      <path d="M354 271h17" class="white-line"/>
+      <circle cx="363" cy="217" r="3" fill="none" stroke="#eee" stroke-width="1.3"/>
+      <circle cx="363" cy="244" r="3" fill="none" stroke="#eee" stroke-width="1.3"/>
+      <circle cx="363" cy="298" r="3" fill="none" stroke="#eee" stroke-width="1.3"/>
+      <circle cx="363" cy="325" r="3" fill="none" stroke="#eee" stroke-width="1.3"/>
+      <path d="m363 261 6 10-6 10-6-10z" fill="#ff00a0"/>
+    </g>
+  </g>
+  <g transform="translate(414 14)" aria-label="VOR mode">
+    <text x="190" y="18" font-size="17" text-anchor="middle">VOR</text>
+    <g transform="translate(0 30)">
+      <rect x=".5" y=".5" width="379" height="379" fill="#000" stroke="#767676"/>
+      <text x="10" y="18" font-size="14">GS315 TAS312</text><text x="10" y="33" font-size="14">350°/15</text><path d="M23 60l25-10m-6-2 6 2-3 5" class="white-line"/>
+      <text x="165" y="25" font-size="12" class="green" text-anchor="end">HDG</text><text x="218" y="25" font-size="12" class="green">MAG</text><path d="M169 10v23h42V10m-32 23 11 11 11-11" class="white-line"/>
+      <text x="190" y="28" font-size="20" text-anchor="middle">090</text><text x="308" y="20" font-size="15" class="green" text-anchor="end">VOR 2</text><text x="374" y="20" font-size="14" text-anchor="end">116.80</text><text x="374" y="35" font-size="14" text-anchor="end">CRS 055</text><text x="374" y="50" font-size="14" text-anchor="end">DME 13.5</text><path d="M1.3 116.4A282 282 0 0 1 378.7 116.4M33.2 184.8A211 211 0 0 1 346.8 184.8M81.5 228.3A146 146 0 0 1 298.5 228.3M108 323.1A82 82 0 0 1 272 323.1M8.7 110L17.1 119.9M28.3 95L32.3 100.7M49 81.8L55.5 93M70.8 70.4L73.8 76.8M93.6 61L98 73.2M117 53.6L118.8 60.4M141 48.3L143.3 61.1M165.4 45.1L166 52M190 44L190 57M214.6 45.1L214 52M239 48.3L236.7 61.1M263 53.6L261.2 60.4M286.4 61L282 73.2M309.2 70.4L306.2 76.8M331 81.8L324.5 93M351.7 95L347.7 100.7M371.3 110L362.9 119.9" class="white-line"/>
+      <g transform="translate(59.5 100) rotate(-30)"><text x="0" y="0" font-size="13" text-anchor="middle">6</text></g><g transform="translate(190 65) rotate(0)"><text x="0" y="0" font-size="13" text-anchor="middle">9</text></g><g transform="translate(320.5 100) rotate(30)"><text x="0" y="0" font-size="13" text-anchor="middle">12</text></g><g transform="translate(190 326) rotate(-16)"><path d="M-14-282v-8h7l7 6 7-6h7v8" class="pink-line"/>
+      </g><path d="M190 47v244" class="white-line"/>
+      <rect x="173" y="167" width="15" height="15" fill="#080808"/>
+      <text x="187" y="179" font-size="13" text-anchor="end">40</text><path d="M52 83 238 353" class="pink-line"/>
+      <path d="M112 48 213 322" class="pink-line" stroke-dasharray="7 10"/>
+      <text x="12" y="258" font-size="13" class="cyan">WX+T</text><text x="12" y="272" font-size="13" class="cyan">+15</text><text x="12" y="286" font-size="13" class="cyan">VAR</text><text x="12" y="343" font-size="14" class="cyan">ADF 1</text><text x="12" y="358" font-size="14" class="cyan">KXYZ</text><text x="374" y="343" font-size="14" class="green" text-anchor="end">VOR 2</text><text x="374" y="358" font-size="14" class="green" text-anchor="end">ELN</text><text x="374" y="373" font-size="14" class="green" text-anchor="end">DME 13.5</text><path d="M190 303l10 25h-20z" fill="#080808" stroke="#eee" stroke-width="1.5"/>
+      <path d="m188 252 4-3 48 65-5 4z" class="pink-line"/>
+      <text x="277" y="319" font-size="13">TO</text>
+    </g>
+  </g>
+  <g transform="translate(14 432)" aria-label="MAP mode">
+    <text x="190" y="18" font-size="17" text-anchor="middle">MAP</text>
+    <g transform="translate(0 30)">
+      <rect x=".5" y=".5" width="379" height="379" fill="#000" stroke="#767676"/>
+      <text x="10" y="18" font-size="14">GS338 TAS326</text><text x="10" y="33" font-size="14">336°/15</text><path d="M23 63l12-24m-6 4 6-4 1 7" class="white-line"/>
+      <text x="165" y="25" font-size="12" class="green" text-anchor="end">TRK</text><text x="218" y="25" font-size="12" class="green">MAG</text><path d="M169 10v23h42V10m-32 23 11 11 11-11" class="white-line"/>
+      <text x="190" y="28" font-size="20" text-anchor="middle">140</text><path d="M1.3 116.4A282 282 0 0 1 378.7 116.4M33.2 184.8A211 211 0 0 1 346.8 184.8M81.5 228.3A146 146 0 0 1 298.5 228.3M108 323.1A82 82 0 0 1 272 323.1M8.7 110L17.1 119.9M28.3 95L32.3 100.7M49 81.8L55.5 93M70.8 70.4L73.8 76.8M93.6 61L98 73.2M117 53.6L118.8 60.4M141 48.3L143.3 61.1M165.4 45.1L166 52M190 44L190 57M214.6 45.1L214 52M239 48.3L236.7 61.1M263 53.6L261.2 60.4M286.4 61L282 73.2M309.2 70.4L306.2 76.8M331 81.8L324.5 93M351.7 95L347.7 100.7M371.3 110L362.9 119.9" class="white-line"/>
+      <g transform="translate(100.7 80.7) rotate(-20)"><text x="0" y="0" font-size="13" text-anchor="middle">12</text></g><g transform="translate(235.3 69) rotate(10)"><text x="0" y="0" font-size="13" text-anchor="middle">15</text></g><g transform="translate(357.8 126.1) rotate(40)"><text x="0" y="0" font-size="13" text-anchor="middle">18</text></g><g transform="translate(190 326) rotate(36)"><path d="M-14-282v-8h7l7 6 7-6h7v8" class="pink-line"/>
+      </g><path d="M190 44v240" class="white-line"/>
+      <rect x="173" y="164" width="15" height="15" fill="#080808"/>
+      <text x="187" y="176" font-size="13" text-anchor="end">40</text><text x="373" y="18" font-size="14" class="magenta" text-anchor="end">GRH</text><text x="373" y="33" font-size="14" text-anchor="end">0838.4Z</text><text x="373" y="47" font-size="14" text-anchor="end">32.5NM</text><path d="M94 116q1-9 14-8t14-3q10-8 19 0t8 11q14 6 5 16l-12 9q-3 11 0 17t-12 9q-3 10-15 10t-21-6q-6-5 0-13l5-8q-9-3-6-11l6-10q-7-5-5-13z" fill="#00a653"/>
+      <path d="M107 124q-6-5 5-9l12-4q8-9 17-2t4 11q-6 6-13 6l-7 12q-2 11-12 9t-3-14z" fill="#ffe026"/>
+      <path d="M130 113q9-8 11 0t-8 10q-13 3-3-10z" fill="#f42b2d"/>
+      <path d="M149 79l90 54 23 85-66 146" class="pink-line"/>
+      <path d="M195 304 360 94" class="pink-line" stroke-dasharray="12 7"/>
+      <path d="M239 123l2.5 7.5 7.5 2.5-7.5 2.5-2.5 7.5-2.5-7.5-7.5-2.5 7.5-2.5z" fill="#080808" stroke="#ff00a0" stroke-width="1.4"/>
+      <text x="251" y="142" font-size="11" class="magenta">FRED</text><path d="M262 208l2.5 7.5 7.5 2.5-7.5 2.5-2.5 7.5-2.5-7.5-7.5-2.5 7.5-2.5z" fill="#080808" stroke="#ff00a0" stroke-width="1.4"/>
+      <text x="274" y="227" font-size="11" class="magenta">GRH</text><g transform="translate(101 246)"><path d="m0-5 5 3v5l-5 3-5-3v-5zM5-2l3-4 4 3-3 4-4-1m-10 0-4 1-3-4 4-3 3 4M-2 5v5h5V5" class="green-line"/>
+      <text x="11" y="14" font-size="10" class="green">YKM</text></g><g transform="translate(272 280)"><path d="m0-5 5 3v5l-5 3-5-3v-5zM5-2l3-4 4 3-3 4-4-1m-10 0-4 1-3-4 4-3 3 4M-2 5v5h5V5" class="green-line"/>
+      <text x="11" y="14" font-size="10" class="green">ELN</text></g><text x="10" y="233" font-size="13" class="cyan">ARPT</text><text x="10" y="248" font-size="13" class="cyan">WPT</text><text x="10" y="263" font-size="13" class="cyan">STA</text><text x="10" y="288" font-size="13" class="cyan">WX+T</text><text x="10" y="302" font-size="13" class="cyan">+15</text><text x="10" y="316" font-size="13" class="cyan">VAR</text><text x="10" y="343" font-size="14" class="cyan">ADF 1</text><text x="10" y="358" font-size="14" class="cyan">KXYZ</text><text x="73" y="370" font-size="12" class="green">FMC L</text><text x="374" y="343" font-size="14" class="green" text-anchor="end">VOR 2</text><text x="374" y="358" font-size="14" class="green" text-anchor="end">ELN</text><text x="374" y="373" font-size="14" class="green" text-anchor="end">DME 28.5</text><path d="M353 240h7v81h-7m-2-40h8" class="white-line"/>
+      <path d="m359 281 5-4 5 4-5 4z" class="pink-line"/>
+      <path d="M190 303l10 25h-20z" fill="#080808" stroke="#eee" stroke-width="1.5"/>
+    </g>
+  </g>
+  <g transform="translate(414 432)" aria-label="PLN mode">
+    <text x="190" y="18" font-size="17" text-anchor="middle">PLN</text>
+    <g transform="translate(0 30)">
+      <rect x=".5" y=".5" width="379" height="379" fill="#000" stroke="#767676"/>
+      <text x="10" y="18" font-size="14">GS338 TAS351</text><text x="10" y="33" font-size="14">350°/15</text><text x="374" y="18" font-size="14" class="magenta" text-anchor="end">CHRIS</text><text x="374" y="33" font-size="14" text-anchor="end">1230.0Z</text><text x="374" y="47" font-size="14" text-anchor="end">110NM</text><circle cx="190" cy="190" r="151" class="white-line"/>
+      <circle cx="190" cy="190" r="76" class="white-line"/>
+      <text x="189" y="24" font-size="14" class="green" text-anchor="end">N</text><path d="M194 23V12m-3 4 3-4 3 4" class="green-line"/>
+      <text x="358" y="194" font-size="14" class="green">E</text><text x="190" y="366" font-size="14" class="green" text-anchor="middle">S</text><text x="18" y="194" font-size="14" class="green">W</text><path d="M125 55v43l65 92v98l36 49" class="pink-line"/>
+      <path d="M125 88l2.5 7.5 7.5 2.5-7.5 2.5-2.5 7.5-2.5-7.5-7.5-2.5 7.5-2.5z" fill="#080808" stroke="#eee" stroke-width="1.4"/>
+      <text x="137" y="107" font-size="11">BILL</text><path d="M190 180l2.5 7.5 7.5 2.5-7.5 2.5-2.5 7.5-2.5-7.5-7.5-2.5 7.5-2.5z" fill="#080808" stroke="#ff00a0" stroke-width="1.4"/>
+      <text x="202" y="199" font-size="11" class="magenta">CHRIS</text><path d="M190 278l2.5 7.5 7.5 2.5-7.5 2.5-2.5 7.5-2.5-7.5-7.5-2.5 7.5-2.5z" fill="#080808" stroke="#eee" stroke-width="1.4"/>
+      <text x="202" y="297" font-size="11">STEVE</text><path d="m190 209 3 6v9l12 9v5l-12-6v9l4 4v3l-7-3-7 3v-3l4-4v-9l-12 6v-5l12-9v-9z" fill="#080808" stroke="#eee" stroke-width="1.5"/>
+      <rect x="177" y="31" width="26" height="15" fill="#080808"/>
+      <text x="190" y="43" font-size="13" text-anchor="middle">320</text><rect x="177" y="106" width="26" height="15" fill="#080808"/>
+      <text x="190" y="118" font-size="13" text-anchor="middle">160</text><rect x="177" y="258" width="26" height="15" fill="#080808"/>
+      <text x="190" y="270" font-size="13" text-anchor="middle">160</text><rect x="177" y="333" width="26" height="15" fill="#080808"/>
+      <text x="190" y="345" font-size="13" text-anchor="middle">320</text><text x="48" y="370" font-size="12" class="green">FMC L</text>
+    </g>
+  </g>
+</svg>

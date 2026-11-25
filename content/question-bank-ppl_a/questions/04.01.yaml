@@ -1,0 +1,1198 @@
+- id: QMTFJ
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.01.02"
+  templates:
+    - type: definition
+      question: What does {term} stand for?
+      explanation: "{table}"
+      options:
+        - id: a
+          term: ABM
+          definition: abeam
+        - id: b
+          term: VFR
+          definition: visual flight rules
+        - id: c
+          term: OBST
+          definition: obstacle
+        - id: d
+          term: FIS
+          definition: flight information service
+        - id: e
+          term: FIR
+          definition: flight information region
+        - id: f
+          term: H24
+          definition: 24-hour service
+        - id: g
+          term: HX
+          definition: no specific working hours
+      fakeOptions: []
+    - type: definition
+      question: What is the abbreviation for {term}?
+      explanation: "{table}"
+      options:
+        - id: a
+          term: abeam
+          definition: ABM
+        - id: b
+          term: visual flight rules
+          definition: VFR
+        - id: c
+          term: obstacle
+          definition: OBST
+        - id: d
+          term: flight information service
+          definition: FIS
+        - id: e
+          term: flight information region
+          definition: FIR
+        - id: f
+          term: 24-hour service
+          definition: H24
+        - id: g
+          term: no specific working hours
+          definition: HX
+      fakeOptions: []
+- id: QLCSB
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds:
+    - QFWVC
+    - QHGUA
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.01.03"
+  templates:
+    - type: definition
+      question: What bearing does {term} indicate?
+      explanation: "{table}"
+      options:
+        - id: a
+          term: QDR
+          definition: magnetic bearing from the station
+        - id: b
+          term: QUJ
+          definition: true bearing to the station
+        - id: c
+          term: QTE
+          definition: true bearing from the station
+        - id: d
+          term: QDM
+          definition: magnetic bearing to the station
+      fakeOptions: []
+    - type: definition
+      question: Which Q-code denotes the {term}?
+      explanation: "{table}"
+      options:
+        - id: a
+          term: magnetic bearing from the station
+          definition: QDR
+        - id: b
+          term: true bearing to the station
+          definition: QUJ
+        - id: c
+          term: true bearing from the station
+          definition: QTE
+        - id: d
+          term: magnetic bearing to the station
+          definition: QDM
+      fakeOptions: []
+- id: QOYMZ
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.03.01"
+  templates:
+    - type: definition
+      question: How much of the sky is covered by cloud reported as {term} in a METAR?
+      explanation: "{table}"
+      options:
+        - id: a
+          term: FEW
+          definition: 1–2 oktas
+        - id: b
+          term: SCT
+          definition: 3–4 oktas
+        - id: c
+          term: BKN
+          definition: 5–7 oktas
+        - id: d
+          term: OVC
+          definition: 8 oktas
+      fakeOptions: []
+    - type: definition
+      question: Which METAR cloud amount denotes {term}?
+      explanation: "{table}"
+      options:
+        - id: a
+          term: 1–2 oktas
+          definition: FEW
+        - id: b
+          term: 3–4 oktas
+          definition: SCT
+        - id: c
+          term: 5–7 oktas
+          definition: BKN
+        - id: d
+          term: 8 oktas
+          definition: OVC
+      fakeOptions: []
+- id: QYZKT
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.06"
+  templates:
+    - type: definition
+      question: Which call sign suffix identifies {term}?
+      explanation: "{table}"
+      options:
+        - id: a
+          term: aerodrome control
+          definition: Tower
+        - id: b
+          term: surface movement control
+          definition: Ground
+        - id: c
+          term: flight information service
+          definition: Information
+        - id: d
+          term: approach control
+          definition: Approach
+      fakeOptions: []
+    - type: definition
+      question: Which service uses the call sign suffix {term}?
+      explanation: "{table}"
+      options:
+        - id: a
+          term: Tower
+          definition: aerodrome control
+        - id: b
+          term: Ground
+          definition: surface movement control
+        - id: c
+          term: Information
+          definition: flight information service
+        - id: d
+          term: Approach
+          definition: approach control
+      fakeOptions: []
+- id: QCMWN
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.09"
+  templates:
+    - type: simple
+      question: What does a readability of {{readability}} indicate?
+      explanation: ""
+      presets:
+        - variables:
+            readability: "1"
+          correctAnswers:
+            - text: The transmission is unreadable
+          wrongAnswers:
+            - text: The transmission is perfectly readable
+            - text: The transmission is readable but with difficulty
+            - text: The transmission is readable now and then
+        - variables:
+            readability: "2"
+          correctAnswers:
+            - text: The transmission is readable now and then
+          wrongAnswers:
+            - text: The transmission is readable but with difficulty
+            - text: The transmission is perfectly readable
+            - text: The transmission is unreadable
+        - variables:
+            readability: "3"
+          correctAnswers:
+            - text: The transmission is readable but with difficulty
+          wrongAnswers:
+            - text: The transmission is readable now and then
+            - text: The transmission is perfectly readable
+            - text: The transmission is unreadable
+        - variables:
+            readability: "5"
+          correctAnswers:
+            - text: The transmission is perfectly readable
+          wrongAnswers:
+            - text: The transmission is readable now and then
+            - text: The transmission is readable but with difficulty
+            - text: The transmission is unreadable
+- id: QUDTK
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds:
+    - QHUDT
+    - QKNKU
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.03.03"
+  templates:
+    - type: simple
+      question: When must a pilot use a blind transmission under SERA?
+      explanation: |-
+        ### Regulation (EU) No 923/2012, SERA.14085(a)
+
+        Try the designated channel, the previous channel and other appropriate channels, then try reaching an ATS unit or another aircraft by available means. If contact cannot be established, transmit the message blind.
+      presets:
+        - correctAnswers:
+            - text: When attempts to establish communication on the appropriate channels and by other available means have failed.
+          wrongAnswers:
+            - text: Whenever there is more than one aircraft on the frequency.
+            - text: Whenever the initial call receives no response, before trying other channels.
+            - text: Whenever the pilot expects to change to a different frequency.
+    - type: simple
+      question: What is the correct phrase to begin a blind transmission?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Transmitting blind
+          wrongAnswers:
+            - text: Blind
+            - text: No reception
+            - text: Listen
+    - type: simple
+      question: After unsuccessful attempts to establish contact, on which channel or channels is a blind transmission sent under SERA?
+      explanation: |-
+        ### Regulation (EU) No 923/2012, SERA.14085(a)
+
+        > […] the aircraft shall transmit its message twice on the designated channel(s) […]
+      presets:
+        - correctAnswers:
+            - text: On the designated channel or channels
+          wrongAnswers:
+            - text: Only on 121.500
+            - text: On any unused VHF channel
+            - text: Only on the departure aerodrome’s ATIS channel
+    - type: simple
+      question: How many times is a blind transmission made under SERA?
+      explanation: |-
+        ### Regulation (EU) No 923/2012, SERA.14085(a)
+
+        > […] the aircraft shall transmit its message twice on the designated channel(s) […]
+      presets:
+        - correctAnswers:
+            - text: Twice
+          wrongAnswers:
+            - text: Once
+            - text: Three times
+            - text: Four times
+- id: QDDMP
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.08"
+  templates:
+    - type: simple
+      question: Leaving a control frequency (except when reaching the final parking position)...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: must be approved.
+          wrongAnswers:
+            - text: is not mandatory to be reported.
+            - text: must be approved twice.
+            - text: must be reported.
+- id: QZEWI
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.01.03"
+  templates:
+    - type: simple
+      question: The altimeter has to be set to what value in order to show zero on ground?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: QFE
+          wrongAnswers:
+            - text: QNH
+            - text: QNE
+            - text: QTE
+- id: QAOBZ
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.01.03"
+  templates:
+    - type: simple
+      question: Which altitude is displayed on the altimeter when set to a specific QNH?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Altitude in relation to mean sea level
+          wrongAnswers:
+            - text: Altitude in relation to the 1013.25 hPa datum
+            - text: Altitude in relation to the air pressure at the reference airfield
+            - text: Altitude in relation to the highest elevation within 10 km
+- id: QYEIV
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.01.03"
+  templates:
+    - type: simple
+      question: Which altitude is displayed on the altimeter when set to a specific QFE?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Altitude in relation to the air pressure at the reference airfield
+          wrongAnswers:
+            - text: Altitude in relation to the 1013.25 hPa datum
+            - text: Altitude in relation to the highest elevation within 10 km
+            - text: Altitude in relation to mean sea level
+- id: QSLUL
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.01.04"
+  templates:
+    - type: simple
+      question: Which of the listed radiotelephony messages has a higher priority than a flight safety message?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Communication related to direction finding
+          wrongAnswers:
+            - text: Flight regularity message
+            - text: Meteorological message
+            - text: Aircraft position report message
+- id: QOFWI
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.01.04"
+  templates:
+    - type: simple
+      question: What is the correct term for a message used for air traffic control?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Flight safety message
+          wrongAnswers:
+            - text: Flight regularity message
+            - text: Meteorological message
+            - text: Message related to direction finding
+- id: QQZFL
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.01.04"
+    - "04.01.04.01"
+  templates:
+    - type: simple
+      question: Distress messages are messages...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: concerning aircraft and their passengers which face a grave and imminent threat and require immediate assistance.
+          wrongAnswers:
+            - text: concerning the safety of an aircraft, a watercraft or some other vehicle or person in sight.
+            - text: sent by a pilot or an aircraft operating agency which have an imminent meaning for aircraft in flight.
+            - text: concerning the operation or maintenance of facilities which are important for the safety and regularity of flight operations.
+    - type: simple
+      question: Distress messages contain...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: information concerning aircraft and their passengers which face a grave and imminent threat and require immediate assistance.
+          wrongAnswers:
+            - text: information concerning urgent spare parts which are required for a continuation of flight and which have to be ordered in advance.
+            - text: information concerning the apron personell and which imply an imminent danger to landing aircraft.
+            - text: information concerning the safety of an aircraft, a watercraft or some other vehicle or person in sight.
+- id: QJCMD
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.01.04"
+    - "04.01.04.02"
+  templates:
+    - type: simple
+      question: Urgency messages are messages...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: concerning the safety of an aircraft, a watercraft or some other vehicle or person in sight.
+          wrongAnswers:
+            - text: concerning aircraft and their passengers which face a grave and imminent threat and require immediate assistance.
+            - text: concerning the operation or maintenance of facilities essential for the safety or regularity of aircraft operation.
+            - text: sent by a pilot or an aircraft operating agency which have an imminent meaning for aircraft in flight.
+    - type: simple
+      question: Urgency messages are defined as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: messages concerning the safety of an aircraft, a watercraft or some other vehicle or person in sight.
+          wrongAnswers:
+            - text: messages concerning urgent spare parts which are needed for a continuation of flight and which need to be ordered in advance.
+            - text: information concerning the apron personell and which imply an imminent danger to landing aircraft.
+            - text: messages concerning aircraft and their passengers which face a grave and imminent threat and require immediate assistance.
+- id: QAQBF
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.01.04"
+  templates:
+    - type: simple
+      question: Regularity messages are messages...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: concerning the operation or maintenance of facilities essential for the safety or regularity of aircraft operation.
+          wrongAnswers:
+            - text: concerning the safety of an aircraft, a watercraft or some other vehicle or person in sight.
+            - text: concerning aircraft and their passengers which face a grave and imminent threat and require immediate assistance.
+            - text: sent by an aircraft operating agency or an aircraft of immediate concern to an aircraft in flight.
+- id: QUXCL
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.01.04"
+  templates:
+    - type: simple
+      question: Which of the following messages has the highest priority?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Request QDM
+          wrongAnswers:
+            - text: Turn left
+            - text: QNH 1013
+            - text: Wind 300 degrees, 5 knots
+- id: QARRW
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.01"
+  templates:
+    - type: simple
+      question: What is the correct way to transmit the call sign HB-YKM?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Hotel Bravo Yankee Kilo Mike
+          wrongAnswers:
+            - text: Home Bravo Yuliett Kilo Mike
+            - text: Hotel Bravo Yuliett Kilo Mikro
+            - text: Home Bravo Yankee Kilo Mikro
+    - type: simple
+      question: What is the correct way to transmit the call sign OE-JVK?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Oscar Echo Juliett Victor Kilo
+          wrongAnswers:
+            - text: Omega Echo Jankee Victor Kilo
+            - text: Oscar Echo Jankee Victor Kilogramm
+            - text: Omega Echo Juliett Victor Kilogramm
+- id: QWDGI
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.02"
+  templates:
+    - type: simple
+      question: How is an altitude of 4500 ft transmitted?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Four thousand five hundred
+          wrongAnswers:
+            - text: Four five zero zero
+            - text: Forty-five hundred
+            - text: Four thousand fifty
+- id: QXRDN
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.02"
+  templates:
+    - type: simple
+      question: A heading of 285 degrees is correctly transmitted as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: two eight five.
+          wrongAnswers:
+            - text: two eight five hundred.
+            - text: two hundred eight five.
+            - text: two hundred eighty-five.
+- id: QLVAA
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.02"
+  templates:
+    - type: simple
+      question: How is the VHF channel 119.500 transmitted under SERA?
+      explanation: |-
+        ### Regulation (EU) No 923/2012, SERA.14035(a)(6)
+
+        > […] except in the case of both the fifth and sixth digits being zeros, in which case only the first four digits shall be used.
+      presets:
+        - correctAnswers:
+            - text: One one niner decimal five
+          wrongAnswers:
+            - text: One one niner decimal five zero zero
+            - text: One one niner decimal zero five zero
+            - text: One one niner five zero zero
+- id: QJGPQ
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.02"
+  templates:
+    - type: simple
+      question: The directional information "12 o'clock" is correctly transmitted as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Twelve o'clock.
+          wrongAnswers:
+            - text: One two.
+            - text: One two o'clock.
+            - text: One two hundred.
+- id: QJDEK
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.03"
+  templates:
+    - type: simple
+      question: Times are transmitted as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: UTC.
+          wrongAnswers:
+            - text: standard time.
+            - text: local time.
+            - text: time zone time.
+- id: QGNZD
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.03"
+  templates:
+    - type: simple
+      question: If there is any doubt about ambiguity, a time of 1620 is to be transmitted as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: one six two zero.
+          wrongAnswers:
+            - text: sixteen twenty.
+            - text: two zero.
+            - text: one tousand six hundred two zero.
+- id: QMRXQ
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.05"
+    - "04.01.02.10"
+  templates:
+    - type: simple
+      question: What is the meaning of the phrase "Roger"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: I have received all of your last transmission
+          wrongAnswers:
+            - text: Permission for proposed action is granted
+            - text: I understand your message and will comply with it
+            - text: An error has been made in this transmission. The correct version is.
+    - type: simple
+      question: What is the correct way of acknowledging "You are now entering airspace Delta"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Roger
+          wrongAnswers:
+            - text: Entering
+            - text: Wilco
+            - text: Airspace Delta
+- id: QXFBZ
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.05"
+  templates:
+    - type: simple
+      question: What is the meaning of the phrase "Correction"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An error has been made in this transmission. The correct version is.
+          wrongAnswers:
+            - text: Permission for proposed action is granted
+            - text: I have received all of your last transmission
+            - text: I understand your message and will comply with it
+- id: QCJTI
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.05"
+  templates:
+    - type: simple
+      question: What is the meaning of the phrase "Approved"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Permission for proposed action is granted
+          wrongAnswers:
+            - text: I have received all of your last transmission
+            - text: I understand your message and will comply with it
+            - text: An error has been made in this transmission. The correct version is.
+- id: QSRYC
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.09"
+  templates:
+    - type: simple
+      question: Which phrase does a pilot use when they want to check the readability of their transmission?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: How do you read?
+          wrongAnswers:
+            - text: What is the communication like?
+            - text: Request readability
+            - text: You read me five
+- id: QYRTM
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.05"
+  templates:
+    - type: simple
+      question: Which phrase is used by a pilot when they want to fly through controlled airspace?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Request
+          wrongAnswers:
+            - text: Apply
+            - text: Want
+            - text: Would like
+- id: QYJCG
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.05"
+  templates:
+    - type: simple
+      question: What phrase is used by a pilot if a transmission is to be answered with "yes"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Affirm
+          wrongAnswers:
+            - text: Roger
+            - text: Yes
+            - text: Affirmative
+- id: QOSWS
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.05"
+  templates:
+    - type: simple
+      question: What phrase is used by a pilot if a transmission is to be answered with "no"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Negative
+          wrongAnswers:
+            - text: Not
+            - text: Finish
+            - text: No
+- id: QPDKQ
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.05"
+  templates:
+    - type: simple
+      question: Which phrase is to be used when a pilot wants the tower to know that they are ready for take-off?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ready for departure
+          wrongAnswers:
+            - text: Ready for start-up
+            - text: Request take-off
+            - text: Ready
+- id: QVUHM
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.05"
+  templates:
+    - type: simple
+      question: What phrase is used by a pilot to inform the tower about a go-around?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Going around
+          wrongAnswers:
+            - text: No landing
+            - text: Pulling up
+            - text: Approach canceled
+- id: QEYHK
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.07"
+  templates:
+    - type: simple
+      question: What is the correct abbreviation of the call sign D-EAZF?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: DZF
+          wrongAnswers:
+            - text: DEA
+            - text: AZF
+            - text: DEF
+- id: QYTKW
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.07"
+  templates:
+    - type: simple
+      question: In what case is the pilot allowed to abbreviate the call sign of their aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: After the ground station has used the abbreviation
+          wrongAnswers:
+            - text: Within controlled airspace
+            - text: If there is little traffic in the traffic circuit
+            - text: After passing the first reporting point
+    - type: simple
+      question: What is the correct way of using the aircraft call sign at first contact?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Using all characters
+          wrongAnswers:
+            - text: Using the first two characters only
+            - text: Using the last two characters only
+            - text: Using the first three characters only
+- id: QMBDE
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.07"
+  templates:
+    - type: simple
+      question: What is the correct way of establishing radio communication between D-EAZF and Dusseldorf Tower?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Dusseldorf Tower D-EAZF
+          wrongAnswers:
+            - text: Dusseldorf Tower over
+            - text: DEAZF is calling Dusseldorf Tower
+            - text: Tower from D-EAZF
+- id: QSBDE
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.08"
+  templates:
+    - type: simple
+      question: What is the correct way of acknowledging the instruction "Call Hamburg Tower on 121.275"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "121.275"
+          wrongAnswers:
+            - text: Call 121.275
+            - text: Call tower
+            - text: Call tower on 121.275
+- id: QOJLL
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds:
+    - QFAEQ
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.10"
+  templates:
+    - type: simple
+      question: Which information from a ground station does not require readback?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Wind
+          wrongAnswers:
+            - text: Runway in use
+            - text: SSR-Code
+            - text: Altitude
+        - correctAnswers:
+            - text: Traffic information
+          wrongAnswers:
+            - text: Altimeter setting
+            - text: Taxi instructions
+            - text: Heading
+- id: QFDTF
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.10"
+  templates:
+    - type: simple
+      question: What is the correct way of acknowledging the instruction "DZF after lift-off climb straight ahead until 2500 feet before turning right heading 220 degrees, wind 090 degrees, 5 knots, runway 12, cleared for take-off"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: DZF after lift-off climb straight ahead 2500 feet, then turn right heading 220, runway 12, cleared for take-off
+          wrongAnswers:
+            - text: DZF after lift-off climb straight ahead 2500 feet, wilco, heading 220 degrees, 090 degrees, 5 knots, cleared for take-off
+            - text: DZF after lift-off climb straight ahead 2500 feet, then turn right heading 220, 090 degrees, 5 knots
+            - text: DZF after lift-off climb straight ahead 2500 feet, then turn right heading 220, 090 degrees, 5 knots, cleared for take-off
+- id: QBFUF
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.10"
+  templates:
+    - type: simple
+      question: What is the correct way of acknowledging the instruction "Next report PAH"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Wilco
+          wrongAnswers:
+            - text: Positive
+            - text: Roger
+            - text: Report PAH
+- id: QCHGC
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.02.10"
+  templates:
+    - type: simple
+      question: What is the correct way of acknowledging the instruction "Squawk 4321, Call Bremen Radar on 131.325"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Squawk 4321, 131.325
+          wrongAnswers:
+            - text: Roger
+            - text: Squawk 4321, wilco
+            - text: Wilco
+- id: QKDDD
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.03.01"
+  templates:
+    - type: simple
+      question: Given a visibility of 12 km, what is the correct way to transmit this visibility?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: One-zero kilometres or more.
+          wrongAnswers:
+            - text: One-two kilometres.
+            - text: Twelve kilometres.
+            - text: One-zero kilometres.
+- id: QMNYS
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.03.02"
+  templates:
+    - type: simple
+      question: What information is broadcasted on a VOLMET frequency?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Meteorological information
+          wrongAnswers:
+            - text: Navigational information
+            - text: NOTAMS
+            - text: Current information
+    - type: simple
+      question: How can you obtain meteorological information concerning airports during a cross- country flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VOLMET
+          wrongAnswers:
+            - text: GAMET
+            - text: METAR
+            - text: AIRMET
+- id: QFAAS
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.03.02"
+  templates:
+    - type: simple
+      question: Which navigation facility may be used for broadcasting the ATIS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VOR
+          wrongAnswers:
+            - text: GPS
+            - text: DME
+            - text: NDB
+- id: QHUDT
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds:
+    - QUDTK
+    - QKNKU
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.03.03"
+  templates:
+    - type: simple
+      question: What must a VFR flight do under SERA if attempts to re-establish radio communication fail?
+      explanation: |-
+        ### Regulation (EU) No 923/2012, SERA.14083(c)(3)
+
+        > A VFR flight shall continue to fly in visual meteorological conditions, land at the nearest suitable aerodrome, and report its arrival […]
+      presets:
+        - correctAnswers:
+            - text: Continue in VMC, land at the nearest suitable aerodrome and report the arrival to the appropriate ATS unit as soon as possible.
+          wrongAnswers:
+            - text: Climb to a higher assigned level and continue to the original destination.
+            - text: Continue to the destination in IMC at the last assigned level.
+            - text: Leave controlled airspace and continue to the planned destination in all cases.
+- id: QRAFX
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.04.02"
+  templates:
+    - type: simple
+      question: Which phrase is to be repeated three times before transmitting an urgency message?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pan Pan
+          wrongAnswers:
+            - text: Help
+            - text: Urgent
+            - text: Mayday
+- id: QJSFN
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.04.01"
+  templates:
+    - type: simple
+      question: What is the correct frequency for an initial distress message?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Current frequency
+          wrongAnswers:
+            - text: Emergency frequency
+            - text: FIS frequency
+            - text: Radar frequency
+- id: QCGLH
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.04.02"
+  templates:
+    - type: simple
+      question: What kind of information should be included in an urgency message?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Nature of problem or observation, important information for support, intentions of the pilot, information about position, heading and altitude
+          wrongAnswers:
+            - text: Nature of problem or observation, important information for support, departure aerodrome, information about position, heading and altitude
+            - text: Intended routing, important information for support, intentions of the pilot, information about position, departure aerodrome, heading and altitude
+            - text: Intended routing, important information for support, intentions of the pilot, departure aerodrome, destination aerodrome, heading and altitude
+- id: QGFHC
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.04.03"
+  templates:
+    - type: simple
+      question: Which of the following frequencies is designated for VHF voice communication?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 118.75 MHz
+          wrongAnswers:
+            - text: 118.75 kHz
+            - text: 327.25 MHz
+            - text: 327.25 kHz
+        - correctAnswers:
+            - text: 120.50 MHz
+          wrongAnswers:
+            - text: 115.15 MHz
+            - text: 108.80 MHz
+            - text: 117.30 kHz
+    - type: simple
+      question: What is the correct designation of the frequency band from 118.000 to 136.975 MHz used for voice communication?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VHF
+          wrongAnswers:
+            - text: LF
+            - text: MF
+            - text: HF
+- id: QNCEE
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.04.03"
+  templates:
+    - type: simple
+      question: Which of the following factors affects the reception of VHF transmissions?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Altitude
+          wrongAnswers:
+            - text: Shoreline effect
+            - text: Twilight error
+            - text: Height of ionosphere
+- id: QDNPK
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.04.03"
+  templates:
+    - type: simple
+      question: What is the approximate speed of electromagnetic wave propagation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 300000 km/s
+          wrongAnswers:
+            - text: 123000 m/s
+            - text: 123000 km/s
+            - text: 300000 m/s
+- id: QVKJO
+  subjectId: "04"
+  chapterId: "04.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "04.01.03.02"
+  templates:
+    - type: simple
+      question: When must an ATIS broadcast be updated after a significant change in the information it contains?
+      explanation: |-
+        ### Regulation (EU) 2017/373, ATS.TR.320(a)(2)
+
+        > the information communicated shall be updated immediately when a significant change occurs;
+      presets:
+        - correctAnswers:
+            - text: Immediately
+          wrongAnswers:
+            - text: After 15 minutes
+            - text: At the next half-hour
+            - text: At the next full hour

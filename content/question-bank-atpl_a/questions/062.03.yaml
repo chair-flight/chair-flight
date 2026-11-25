@@ -1,0 +1,2104 @@
+- id: QAATL
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622988
+    - AVEXAM-36568
+    - BGS-621435
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.01.01.01
+  templates:
+    - type: simple
+      question: Radar has many uses in civil aviation. For which tasks are both primary and secondary radar used?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: For ATC to provide tracking of aircraft and manage traffic within a given airspace.
+          wrongAnswers:
+            - text: For the pilot to navigate and avoid areas of significant weather.
+            - text: For ATC to reduce the workload of the pilot by taking over the task of navigating.
+            - text: For the pilot to detect other aircraft and reduce the risk of collision.
+- id: QCLSH
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623037
+    - BGS-620352
+    - AVEXAM-39306
+    - ATPLQ-626141
+    - AVEXAM-62518
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.01.01.01
+  templates:
+    - type: multiple-correct
+      question: Which of the following types of radar equipment operate by means of the pulse technique?
+      explanation: ""
+      options:
+        - text: Aerodrome Surface Movement Radar
+          correct: true
+        - text: Airborne Weather Radar
+          correct: true
+        - text: Secondary Surveillance Radar (SSR)
+          correct: true
+        - text: Aerodrome Surveillance (approach) Radar
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+    - type: simple
+      question: |-
+        Which radar does NOT use the pulse technique with echo replies?
+
+        1. Aerodrome Surface Movement Radar 
+         
+        2. Airborne Weather Radar 
+         
+        3. Secondary Surveillance Radar (SSR) 
+         
+        4. Aerodrome Surveillance (approach) Radar
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "3."
+          wrongAnswers:
+            - text: 1, 2 and 4.
+            - text: 1, 2, 3 and 4.
+            - text: 2, 3 and 4.
+    - type: simple
+      question: |-
+        Which of the following radars does NOT use the pulse technique with echo replies?
+
+         Aerodrome Surface Movement Radar
+         Airborne Weather Radar
+         Secondary Surveillance Radar (SSR)
+         Aerodrome Surveillance (approach) Radar
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "3."
+          wrongAnswers:
+            - text: 1, 2 and 4.
+            - text: 2, 3 and 4.
+            - text: 1, 2, 3 and 4.
+- id: QFPDO
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625594
+    - AVEXAM-32012
+    - BGS-621201
+    - ATPLQ-626295
+    - AVEXAM-47339
+    - BGS-620368
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.01.01.02
+    - 062.03.03.01.02
+  templates:
+    - type: simple
+      question: What are Airborne weather radars generally based on?
+      explanation: "Airborne weather radar is a primary radar: it uses the echo reflected from raindrops, not a transponder reply. It operates at about 9 GHz, a wavelength of about 3 cm, which is in the SHF band and is reflected well by water droplets."
+      presets:
+        - correctAnswers:
+            - text: The use of primary radar with a frequency of 9 GHz.
+          wrongAnswers:
+            - text: The use of secondary radar with a frequency of 9 GHz.
+            - text: The use of secondary radar with a frequency of 9 MHz.
+            - text: The use of primary radar with a wavelength of 9 mm.
+    - type: simple
+      question: What are Airborne weather radars generally based on?
+      explanation: "Airborne weather radar is a primary radar: it uses the echo reflected from raindrops, not a transponder reply. It operates at about 9 GHz, a wavelength of about 3 cm, which is in the SHF band and is reflected well by water droplets."
+      presets:
+        - correctAnswers:
+            - text: The use of primary radar with a wavelength of 3 cm.
+          wrongAnswers:
+            - text: The use of secondary radar with a wavelength of 3 cm.
+            - text: The use of secondary radar with a wavelength of 30 cm.
+            - text: The use of primary radar with a wavelength of 30 m.
+    - type: simple
+      question: Airborne weather radars are generally based on the use of..
+      explanation: "Airborne weather radar is a primary radar: it uses the echo reflected from raindrops, not a transponder reply. It operates at about 9 GHz, a wavelength of about 3 cm, which is in the SHF band and is reflected well by water droplets."
+      presets:
+        - correctAnswers:
+            - text: primary radar in the SHF band.
+          wrongAnswers:
+            - text: primary radar in the UHF band.
+            - text: secondary radar in the VHF band.
+            - text: secondary radar in the SHF band.
+- id: QADUT
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622074
+    - BGS-620347
+    - AVEXAM-19397
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.01.01.02
+  templates:
+    - type: simple
+      question: Which of the following equipments uses primary radar principles?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Airborne weather radar (AWR)
+          wrongAnswers:
+            - text: Global Positioning System (GPS)
+            - text: Distance Measuring Equipment (DME)
+            - text: Secondary Surveillance Radar (SSR)
+- id: QDKIB
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622401
+    - AVEXAM-75934
+    - BGS-620334
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.01.01.02
+  templates:
+    - type: simple
+      question: The main factor which determines the minimum range that can be measured by a pulsed radar is..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: pulse length.
+          wrongAnswers:
+            - text: pulse repetition rate.
+            - text: pulse amplitude.
+            - text: pulse frequency.
+- id: QGLLC
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624645
+    - BGS-620011
+    - AVEXAM-28930
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.01.01.02
+  templates:
+    - type: simple
+      question: Considering a primary radar system, what kind of aerials are used?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: One directional antenna both for transmitting and for receiving.
+          wrongAnswers:
+            - text: One directional antenna for transmitting and one for receiving.
+            - text: A directional antenna for transmitting, and an omnidirectional antenna for receiving.
+            - text: An omnidirectional antenna for transmitting, and a directional antenna for receiving.
+- id: QOEYD
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623567
+    - BGS-620341
+    - AVEXAM-69395
+    - ATPLQ-622782
+    - BGS-620343
+    - AVEXAM-41256
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.01.01.03
+  templates:
+    - type: simple
+      question: The maximum range of primary radar depends on..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: pulse repetition frequency.
+          wrongAnswers:
+            - text: pulse length.
+            - text: frequency.
+            - text: wave length.
+    - type: simple
+      question: The prime factor in determining the maximum unambiguous range of a primary radar is the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: pulse repetition frequency.
+          wrongAnswers:
+            - text: power output.
+            - text: size of the parabolic receiver aerial.
+            - text: height of the transmitter above the ground.
+- id: QOIZQ
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625323
+    - AVEXAM-80660
+    - BGS-620342
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.01.01.03
+  templates:
+    - type: simple
+      question: To double the effective range of a primary radar, the power output must be increased by a factor of..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "16."
+          wrongAnswers:
+            - text: "8."
+            - text: "2."
+            - text: "4."
+- id: QZLMC
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625646
+    - AVEXAM-60191
+    - BGS-620350
+    - AVEXAM-73158
+    - BGS-620349
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.01.01.03
+  templates:
+    - type: simple
+      question: In a primary radar using pulse technique, pulse repetition frequency determines..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: maximum theoretical range.
+          wrongAnswers:
+            - text: target discrimination.
+            - text: minimum range.
+            - text: beam width.
+- id: QKTWV
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625755
+    - BGS-621540
+    - AVEXAM-81473
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.02.01.01
+  templates:
+    - type: simple
+      question: A Primary Surveillance Radar (PSR) is capable of calculating a...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: two-dimensional position by measuring the bearing and travel time of the interrogation signal.
+          wrongAnswers:
+            - text: one-dimensional position by measuring the bearing of the interrogation signal.
+            - text: four-dimensional position by measuring the bearing, travel time, height and time of the interrogation signal.
+            - text: three-dimensional position by measuring the bearing, travel time, and height of the interrogation signal.
+- id: QNFTI
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622213
+    - AVEXAM-48458
+    - BGS-620900
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.02.01.01
+    - 062.03.04.01.04
+    - 062.03.04.03.02
+  templates:
+    - type: simple
+      question: Which data can be determined and displayed by ATC Secondary Surveillance Radar (SSR) and Primary Surveillance Radar (PSR) systems?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "PSR: Target range and bearing. SSR: Target range and bearing, aircraft identification codes, aircraft altitude, selective addressing, and full two-way data link."
+          wrongAnswers:
+            - text: "PSR: Target range. SSR: Target range and bearing, aircraft altitude and height, selective addressing, and full two-way data link."
+            - text: "PSR: Target range, bearing, and aircraft identification. SSR: Aircraft identification codes, aircraft altitude, selective addressing, and full two-way data link."
+            - text: "PSR: Target range, bearing, and aircraft altitude. SSR: Target range and bearing, aircraft identification codes, aircraft height, selective addressing, and full two-way data link."
+- id: QVLIT
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623831
+    - BGS-620355
+    - AVEXAM-40369
+    - AVEXAM-83539
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.02.01.01
+  templates:
+    - type: simple
+      question: What information may be displayed on an ATC radar screen connected only to a primary radar system?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Aircraft position only.
+          wrongAnswers:
+            - text: Aircraft position, SSR code and altitude.
+            - text: Aircraft altitude.
+            - text: Aircraft position and SSR code.
+    - type: simple
+      question: When an ATS controller uses only their radar situation display, the information they may provide is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: any observed aircraft on a conflicting path.
+          wrongAnswers:
+            - text: the optimum altitude to improve aircraft performance.
+            - text: conflicting traffic detected by ACAS (Airborne Collision Avoidance System).
+            - text: the latest data from airborne weather radar systems.
+- id: QALFA
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624352
+    - AVEXAM-95532
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.02.01.02
+  templates:
+    - type: simple
+      question: What advantage does a primary radar system fitted with an MTI capability have over a system that is not?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ground clutter is eliminated from the controller’s display.
+          wrongAnswers:
+            - text: The Doppler Shift is used to determine the aircraft’s True Airspeed (TAS)
+            - text: The Doppler Shift is used to determine the aircraft’s groundspeed.
+            - text: Moving targets are eliminated from the controller’s display.
+- id: QQVYU
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626806
+    - BGS-620353
+    - AVEXAM-82872
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.02.01.02
+  templates:
+    - type: simple
+      question: Which type of radar gives an indication of the shape and, to some extent, the type of aircraft producing a return?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Aerodrome Surface Movement Radar (ASMR)
+          wrongAnswers:
+            - text: Secondary Surveillance Radar (SSR)
+            - text: Aerodrome Surveillance Radar
+            - text: Airborne Weather Radar (AWR)
+- id: QTZTQ
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - AVEXAM-92937
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.01.01
+  templates:
+    - type: simple
+      question: Most commercial civil aircraft carry a primary radar which handles...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: weather information.
+          wrongAnswers:
+            - text: ATS surveillance information.
+            - text: information about the positions of other aircraft.
+            - text: TCAS information.
+- id: QVCHR
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624512
+    - AVEXAM-28443
+    - BGS-621390
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.01.01
+  templates:
+    - type: simple
+      question: A young adult interested in becoming a pilot is invited into the cockpit. They are interested in the weather radar and ask the pilot why there is a tilt knob on the control unit. The pilot replies that this to control the upwards and downwards tilt of the antenna, as required for the two main tasks of the radar, which are...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: detecting significant weather and ground mapping.
+          wrongAnswers:
+            - text: detecting thunderstorms and turbulence.
+            - text: detecting turbulence and functioning in WX+T mode.
+            - text: ground mapping and controlling the gain of the beam.
+- id: QCKDF
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622578
+    - AVEXAM-41069
+    - BGS-621092
+    - BGS-620856
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.01.02
+  templates:
+    - type: simple
+      question: The tilt of an Airborne Weather Radar is lowered whilst searching for thunderstorms in high-level cruise flight. Why is that?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The greatest reflectivity occurs from wet hail and rain, these elements usually exist in the lower levels of a thunderstorm.
+          wrongAnswers:
+            - text: Ground clutter is more evident and therefore less likely to be confused with thunderstorm activity.
+            - text: Ground clutter enhances the display by automatically turning up the gain and increasing the likelihood of detecting thunderstorm activity.
+            - text: The greatest reflectivity occurs from dry hail and snow, these elements exist mainly in the lower levels of a thunderstorm.
+- id: QELDH
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629059
+    - ATPLQ-621244
+    - BGS-621423
+    - AVEXAM-34493
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.01.02
+  templates:
+    - type: simple
+      question: What is the primary use of the radar fitted onboard a modern civilian transport aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Detecting areas of wet, convective weather.
+          wrongAnswers:
+            - text: Detecting other aircraft.
+            - text: Providing the main input to an anti-collision system.
+            - text: Transmitting data to ATC for surveillance purposes.
+- id: QRQQO
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626138
+    - BGS-620358
+    - AVEXAM-20051
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.01.02
+  templates:
+    - type: simple
+      question: Airborne weather radar systems use a wavelength of approximately 3 cm in order to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: detect larger water droplets.
+          wrongAnswers:
+            - text: obtain optimum use of the cosecant squared beam.
+            - text: transmit at a higher pulse repetition frequency for extended range.
+            - text: detect small as well as large cloud formations.
+- id: QVWYV
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624421
+    - BGS-620009
+    - AVEXAM-10867
+    - ATPLQ-621226
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.01.02
+  templates:
+    - type: simple
+      question: Which approximate wavelength is used for most airborne weather radar systems?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3 cm
+          wrongAnswers:
+            - text: 9 cm
+            - text: 23 cm
+            - text: 11 mm
+- id: QECIU
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622418
+    - BGS-620361
+    - AVEXAM-10530
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.01.03
+  templates:
+    - type: simple
+      question: Which of the following is a complete list of airborne weather radar antenna stabilisation axes?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: roll and pitch
+          wrongAnswers:
+            - text: roll and yaw
+            - text: roll, pitch and yaw
+            - text: pitch and yaw
+- id: QQSMO
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628692
+    - AVEXAM-51698
+    - BGS-621280
+    - BGS-621382
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.01.04
+    - 062.03.03.03.01
+  templates:
+    - type: simple
+      question: "A modern Airborne Weather Radar (AWR) uses a flat plate antenna with a:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pencil or conical beam with the tilt set downward for ground mapping.
+          wrongAnswers:
+            - text: Cosecant squared beam with the tilt set to the aircraft pitch for ground mapping as the beam spreads out vertically to the ground.
+            - text: Pencil or conical beam with the tilt set to the aircraft pitch for ground mapping.
+            - text: Cosecant squared beam with the tilt set downward for ground mapping.
+- id: QSWEH
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626449
+    - BGS-621188
+    - AVEXAM-93699
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.01.04
+  templates:
+    - type: simple
+      question: During the flight, you observe that what you saw as one return on your AWR screen, has now turned into two separate echoes. Which of the following statements is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: This is normal since with decreasing range the beam width azimuth will also decrease.
+          wrongAnswers:
+            - text: The AWR is malfunctioning and the information cannot be trusted.
+            - text: This is a function that shows areas of CAT.
+            - text: This is due to unwanted returns from contamination on the radome.
+- id: QKJDG
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625814
+    - AVEXAM-66500
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.02.01
+  templates:
+    - type: simple
+      question: "Which statement is correct regarding the airborne weather radar and it autotilt function:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It adjusts its tilt according to the altitude.
+          wrongAnswers:
+            - text: It adjusts its tilt according to the bank angle.
+            - text: It adjusts its tilt according to the attitude.
+            - text: It adjusts its tilt on the ground to avoid harming ground personnel.
+- id: QKNUK
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623892
+    - BGS-620380
+    - AVEXAM-75753
+    - AVEXAM-34787
+    - ATPLQ-625106
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.02.01
+  templates:
+    - type: simple
+      question: The "gain" control knob of an AWR adjusts the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: receiver sensitivity in order to achieve optimum target acquisition.
+          wrongAnswers:
+            - text: automatic gain control of the AWR is activated.
+            - text: power level of the transmitted energy is made dependent on the selected range.
+            - text: brightness of the display.
+    - type: simple
+      question: 'Increasing the gain by turning the "gain control knob" of an AWR will result in the following:'
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The receiver sensitivity changes and areas with lower intensity will be shown.
+          wrongAnswers:
+            - text: The range increases.
+            - text: The brightness of the display increases.
+            - text: The receiver sensitivity changes and areas with high intensity will fade out.
+    - type: simple
+      question: Which of the following statements is correct about the "gain" knob of an AWR?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It adjusts the receiver sensitivity in order to achieve optimum target acquisition.
+          wrongAnswers:
+            - text: It adjusts the brightness of the display.
+            - text: It can be used to activate the automatic gain control of the AWR.
+            - text: It is used to adjust antenna tilt.
+- id: QPKIX
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625055
+    - AVEXAM-97675
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.02.01
+  templates:
+    - type: simple
+      question: A flight deck contains a panel for controlling the tilt and gain of a system called "AWR-114D". What is the function of this system?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To detect weather and turbulence.
+          wrongAnswers:
+            - text: To monitor the engine performance.
+            - text: To guide the aircraft along final approach.
+            - text: To communicate with ATC.
+    - type: simple
+      question: What is the purpose of a flight deck panel controlling the tilt and gain of an "AWR-114D" system?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To detect weather and turbulence.
+          wrongAnswers:
+            - text: To communicate with ATC.
+            - text: To guide the aircraft along final approach.
+            - text: To monitor the engine performance.
+- id: QWEAD
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624174
+    - AVEXAM-5406
+    - BGS-620373
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.02.02
+  templates:
+    - type: simple
+      question: "In an Airborne Weather Radar that has a colour cathode display, increasing severity of rain and turbulence is generally shown by a change of colour from:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: green to yellow to red
+          wrongAnswers:
+            - text: yellow to amber to blue
+            - text: green to red to black
+            - text: yellow to orange to red
+- id: QZPCK
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625502
+    - AVEXAM-25593
+    - BGS-620372
+    - AVEXAM-54010
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.02.02
+  templates:
+    - type: simple
+      question: "In an Airborne Weather Radar the areas of greatest turbulence are usually indicated on the screen by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: colour zones of red and magenta.
+          wrongAnswers:
+            - text: areas which are coloured black.
+            - text: colour zones of green and yellow.
+            - text: blank areas where there is no colour.
+- id: QSWVZ
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627708
+    - AVEXAM-57698
+    - BGS-620375
+    - BGS-621269
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.03.01
+  templates:
+    - type: simple
+      question: A weather radar, set to the 100 NM scale, shows a squall between 40 NM and 50 NM. By changing the scale to 50 NM, the return on the radar screen should..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: increase in area and move to the top of the screen.
+          wrongAnswers:
+            - text: increase in area and appear nearer to the bottom of the screen.
+            - text: decrease in area and move to the top of the screen.
+            - text: decrease in area but not change in position on the screen.
+- id: QUTOX
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624754
+    - BGS-620815
+    - AVEXAM-61534
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.04.01
+  templates:
+    - type: simple
+      question: Why should Airborne Weather Radar (AWR) systems be used with extreme caution when on the ground?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: People could be exposed to Super High Frequency (SHF) radiation which, if absorbed in large enough amounts, can lead to tissue damage.
+          wrongAnswers:
+            - text: The radar antenna can be easily damaged during ground-taxi manoeuvres (especially on uneven taxiways).
+            - text: The intense returns from the ground and surrounding terrain will not allow accurate identification of potentially hazardous weather when lined up for departure.
+            - text: The radar system may overheat and shut down due to the intensity of the returns from the ground, buildings, and surrounding terrain.
+- id: QXQKV
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621182
+    - BGS-620999
+    - AVEXAM-1651
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.05.01
+  templates:
+    - type: simple
+      question: The airborne weather radar..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: may receive no reflections from a thunderstorm in an area behind a heavy rain shower.
+          wrongAnswers:
+            - text: has the possibility to detect clear air turbulence behind a thunder storm by measuring phase differences caused by the Doppler effect.
+            - text: uses circular polarisation in order to reduce echoes of heavy showers.
+            - text: has a second transmitter working on a lower frequency in order to penetrate rain showers.
+- id: QBGPH
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624177
+    - AVEXAM-35912
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.05.02
+  templates:
+    - type: simple
+      question: Flying at FL330, ahead of you there is a thunderstorm and you want to climb to FL380 to avoid bad weather. What is the correct regarding the tilt of the AWR?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: During a climb, the tilt needs to be decreased to scan for hazardous clouds.
+          wrongAnswers:
+            - text: A low tilt setting should be used during descent if thunderstorms are expected.
+            - text: During any phase of flight, the tilt of the weather radar will always be adjusted to the optimum tilt.
+            - text: A high tilt setting is helpful to detect a thunderstorm during a climb.
+- id: QCNEA
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629761
+    - AVEXAM-53354
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.05.02
+    - 062.03.03.05.03
+  templates:
+    - type: simple
+      question: You are flying in an area with several CB/TS. You are flying at FL330. What is the best course of action regarding the AWR?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: tilt down because the ice crystals do NOT reflect anything at this altitude.
+          wrongAnswers:
+            - text: tilt down to account for the curvature of the earth.
+            - text: tilt up in order to see the “holes” to fly through in between thunderstorms.
+            - text: tilt up to see how high the cloud tops are in order to fly over it with a suitable margin.
+- id: QEUUH
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621203
+    - AVEXAM-24778
+    - BGS-621146
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.05.02
+  templates:
+    - type: simple
+      question: In the descent it is important to set the tilt setting of AWR to a higher setting. Why is this?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To avoid clutter from ground returns
+          wrongAnswers:
+            - text: During descent the AWR is not required
+            - text: To scan the higher altitude clouds to avoid hail
+            - text: To avoid scanning below the clouds layer and missing turbulence/weather
+- id: QGPGA
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627258
+    - AVEXAM-39962
+    - BGS-621027
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.05.02
+  templates:
+    - type: simple
+      question: To determine if a return is from a cloud at or above the height of the aircraft, the tilt control of an Airborne Weather Radar (AWR) with a 5° beam width should be set to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "2.5° up.  "
+          wrongAnswers:
+            - text: 0°.
+            - text: 5° up.
+            - text: 2.5° down.
+- id: QLBIC
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626473
+    - AVEXAM-56608
+    - BGS-620887
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.05.02
+  templates:
+    - type: simple
+      question: Why should the tilt of an Airborne Weather Radar system (without auto tilt) be changed to a higher setting when descending over terrain?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: If the beam’s tilt remains at the setting used during cruise, the scanning range will be reduced and significant ground clutter may be displayed.
+          wrongAnswers:
+            - text: The higher tilt setting will narrow the beam width, allowing for effective detection of cumulonimbus clouds at shorter range.
+            - text: If the beam’s tilt remains at the setting used during cruise, the scanning range will be reduced and the strength of the reflected signals will be weaker.
+            - text: "The higher tilt setting will keep the beam above the aircraft’s flight path.  "
+- id: QSEKC
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622413
+    - AVEXAM-14633
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.05.02
+  templates:
+    - type: simple
+      question: You are flying at FL330 and there is a thunderstorm in front of you. Where should you move the tilt angle?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 5º down
+          wrongAnswers:
+            - text: 15º up
+            - text: 0º
+            - text: 4º up
+- id: QVMJP
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625191
+    - BGS-621195
+    - AVEXAM-52895
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.05.02
+  templates:
+    - type: simple
+      question: |-
+        An aircraft flying at a given altitude uses its weather radar to find the top of a cloud. Given:
+
+        - Aircraft altitude: {{alt}} ft
+        - Distance to the cloud: {{dist}} NM
+        - Tilt angle at which the cloud disappears: {{tilt}}°
+        - Beam width: {{beam}}°
+
+        At what altitude is the top of the cloud, in ft?
+      explanation: |-
+        The radar beam is a narrow cone, and its lower edge is half a beam width below the tilt angle. The top of the cloud lies on that lower edge. At 60 NM, one degree of angle is about one NM of height, so the height of the cloud top above the aircraft is the distance divided by 60, times the angle, times 6076 ft per NM. The answer is rounded to the nearest 100 ft.
+
+        **Solution**
+
+        - Angle to the cloud top: {{tilt}}° minus half of {{beam}}° = {{macro1}}°
+        - $$\text{round}(\frac{\text{Aircraft altitude}+\frac{\text{Distance to the cloud}}{60}\times (\text{Tilt angle}-\frac{\text{Beam width}}{2})\times 6076}{100})\times 100 = \text{round}(\frac{ {{alt}}+\frac{ {{dist}} }{60}\times ({{tilt}}-\frac{ {{beam}} }{2})\times 6076}{100})\times 100 = \mathbf{ {{answer}}\ \text{ft} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft**: uses the full tilt angle instead of the tilt minus half the beam width.
+        - **{{d2}} ft**: uses the tilt plus half the beam width, the upper edge of the beam.
+        - **{{d3}} ft**: ignores the tilt angle and gives only the aircraft altitude.
+        - **{{d4}} ft**: doubles the height gained above the aircraft.
+      presets:
+        - variables:
+            alt: 12000
+            dist: 120
+            tilt: 3.5
+            beam: 5
+            macro1: 1
+            answer: 24200
+            d1: 54500
+            d2: 84900
+            d3: 12000
+            d4: 36300
+          correctAnswers:
+            - text: 24200 ft
+          wrongAnswers:
+            - text: 54500 ft
+            - text: 12000 ft
+            - text: 36300 ft
+            - text: 84900 ft
+        - variables:
+            alt: 9000
+            dist: 90
+            tilt: 4
+            beam: 5
+            macro1: 2
+            answer: 22700
+            d1: 45500
+            d2: 68200
+            d3: 9000
+            d4: 36300
+          correctAnswers:
+            - text: 22700 ft
+          wrongAnswers:
+            - text: 45500 ft
+            - text: 9000 ft
+            - text: 36300 ft
+            - text: 68200 ft
+        - variables:
+            alt: 6000
+            dist: 60
+            tilt: 3
+            beam: 4
+            macro1: 1
+            answer: 12100
+            d1: 24200
+            d2: 36400
+            d3: 6000
+            d4: 18200
+          correctAnswers:
+            - text: 12100 ft
+          wrongAnswers:
+            - text: 24200 ft
+            - text: 6000 ft
+            - text: 18200 ft
+            - text: 36400 ft
+- id: QQTSJ
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623107
+    - BGS-620386
+    - AVEXAM-47350
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.06.01
+  templates:
+    - type: simple
+      question: When using airborne weather radar in the mapping mode in polar areas one runs the risk of..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: mistaking the edge of coastal ice off shore for the real coastline.
+          wrongAnswers:
+            - text: underestimating distances because the cold seawater is causing super-refraction.
+            - text: getting a distorted picture because of ice reflection.
+            - text: aurora borealis (polar light) causing false returns.
+- id: QRSUR
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628526
+    - AVEXAM-41222
+    - BGS-621299
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.06.02
+  templates:
+    - type: simple
+      question: The Airborne Weather Radar (AWR) is displayed on a coloured screen showing the different contours associated with thunderstorms. What procedure should be adopted to avoid a thunderstorm using the AWR?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Fly on the upwind side of the thunderstorm and avoid red or magenta coloured areas.
+          wrongAnswers:
+            - text: Aim to avoid the thunderstorm by at least 5NM so as to avoid any turbulence.
+            - text: Fly towards the area where the contours are the steepest and avoid any areas that are yellow.
+            - text: The areas that have the worst precipitation are coloured yellow and they should be avoided at all times.
+- id: QXRCJ
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627010
+    - AVEXAM-3746
+    - BGS-621369
+  annexes:
+    - id: ABKS
+  learningObjectiveIds:
+    - 062.03.03.06.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The annex shows the EFIS navigation display with the airborne weather radar in the WX+T mode. In order to minimise any possible bad weather and turbulence, which of the following is the best heading to fly?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 090º(M)
+          wrongAnswers:
+            - text: 130º(M)
+            - text: Maintain current heading of 121º(M)
+            - text: 115º(M)
+- id: QAGQD
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623974
+    - BGS-621183
+    - AVEXAM-77537
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.06.03
+  templates:
+    - type: simple
+      question: When in the WX+T mode, what is the airborne weather radar able to detect?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Turbulence by looking for a frequency shift in combination with pulse flattening.
+          wrongAnswers:
+            - text: Turbulent clouds by looking for ice crystals in the upper part of a thunderstorm at a reduced wavelength.
+            - text: Clear air turbulence at cruising altitude by using Doppler techniques with an increased PRF (Pulse Repetition Frequency).
+            - text: Thunderstorms with strong updraft and downdraft by measuring static emitted from lightning.
+- id: QMKJF
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624049
+    - AVEXAM-8369
+    - BGS-620909
+  annexes:
+    - id: AZOJ
+  learningObjectiveIds:
+    - 062.03.03.06.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Selection of WX+T mode on rotary switch 1 will help to detect and display areas of..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: turbulence within precipitation by detecting the Doppler shift of the reflected radar signal.
+          wrongAnswers:
+            - text: turbulence within precipitation by detecting the Doppler shift of the falling droplets.
+            - text: CAT within precipitation by detecting the Doppler shift of the reflected radar signal.
+            - text: CAT within precipitation by detecting the Doppler shift of the falling droplets.
+- id: QUETN
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622253
+    - AVEXAM-26768
+    - BGS-620367
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.06.03
+  templates:
+    - type: simple
+      question: Which of the following phenomena is least likely to be detected by radar?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Clear air turbulence
+          wrongAnswers:
+            - text: Precipitation
+            - text: Wet snow and turbulence in cloud that has precipitation
+            - text: Turbulence in cloud that has precipitation
+- id: QXGXK
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624139
+    - AVEXAM-47059
+    - BGS-621147
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.06.03
+  templates:
+    - type: simple
+      question: "AWR uses doppler shift to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Calculate turbulence by measuring the motion of water droplets
+          wrongAnswers:
+            - text: Calculate the distance to terrain
+            - text: Calculate the movement of the weather relative to the aircrafts position
+            - text: Calculate the vertical extent of clouds
+- id: QXSVD
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621449
+    - BGS-621355
+    - AVEXAM-44876
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.06.03
+    - 062.03.03.06.04
+  templates:
+    - type: simple
+      question: Modern airborne weather radars can detect wind shear and turbulence by using.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Doppler techniques, inertial data, and air data.
+          wrongAnswers:
+            - text: manual tilt control in the MAP mode.
+            - text: different wavelengths and beam widths in the WXT mode.
+            - text: manual gain control in the WX mode.
+- id: QASOO
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626218
+    - BGS-620855
+    - AVEXAM-49205
+    - BGS-621000
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.03.06.04
+  templates:
+    - type: simple
+      question: What is the principle behind the windshear-warning capability of an Airborne Weather Radar?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The Doppler shift of detectable precipitation is measured.
+          wrongAnswers:
+            - text: The change in intensity of detectable precipitation is measured.
+            - text: The aircraft’s groundspeed is measured in the MAP mode and this is compared to the airspeed.
+            - text: The Doppler shift of particles of dust, sand, and soot is measured.
+- id: QIDBN
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624615
+    - AVEXAM-97719
+    - BGS-621323
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.01.01
+  templates:
+    - type: simple
+      question: The Secondary Surveillance Radar (SSR) system used by aircraft transponders is based on the transmission of (1) \_\_\_\_\_ from the ATC secondary radar and (2) \_\_\_\_\_ from the airborne transponder.
+      explanation: The ground secondary radar transmits interrogations. The airborne transponder transmits replies, which are coded pulse groups.
+      presets:
+        - correctAnswers:
+            - text: (1) interrogations; (2) replies
+          wrongAnswers:
+            - text: (1) interrogations; (2) pulse pairs
+            - text: (1) replies; (2) interrogations
+            - text: (1) transmission of pulse pairs; (2) coded pulses
+- id: QTOPG
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625984
+    - BGS-621398
+    - AVEXAM-44335
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.01.01
+  templates:
+    - type: simple
+      question: What aircraft system will reply to SSR interrogations?
+      explanation: A Mode S transponder replies to SSR interrogations. ADS-B is a broadcast, and an FMC is a navigation computer.
+      presets:
+        - correctAnswers:
+            - text: Mode S transponder
+          wrongAnswers:
+            - text: Automatic Dependant Surveillance Broadcast (ADS-B)
+            - text: Flight Management Computer (FMC)
+            - text: Air Data Computer (ADC)
+- id: QVIYT
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626021
+    - AVEXAM-7409
+    - BGS-620401
+    - BGS-620636
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.01.01
+    - 062.03.04.01.03
+  templates:
+    - type: simple
+      question: What equipment works on the interrogator/transponder principle?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Secondary Surveillance Radar (SSR)
+          wrongAnswers:
+            - text: Airborne Weather Radar (AWR)
+            - text: Global Positioning System (GPS)
+            - text: Aerodrome Surface Movement Radar
+- id: QDEAM
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624214
+    - BGS-620968
+    - AVEXAM-95028
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.01.03
+  templates:
+    - type: simple
+      question: An airborne transponder can provide coded reply signals in response to interrogation signals from
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ground secondary surveillance radar and from aircraft equipped with TCAS.
+          wrongAnswers:
+            - text: ground secondary surveillance radar and from primary ground radar.
+            - text: primary ground radar and from aircraft equipped with a transponder.
+            - text: ground secondary surveillance radar and from aircraft equipped with a mode A and C transponder.
+- id: QHXZN
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625167
+    - BGS-620399
+    - AVEXAM-31657
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.01.03
+  templates:
+    - type: simple
+      question: The code transmitted by a SSR transponder consists of..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: pulses.
+          wrongAnswers:
+            - text: amplitude differences.
+            - text: frequency differences.
+            - text: phase differences.
+- id: QKJKR
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds:
+    - QUBWS
+  externalQuestionIds:
+    - BGS-621003
+    - AVEXAM-11919
+    - ATPLQ-626069
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.01.04
+  templates:
+    - type: simple
+      question: Name a significant advantage of Secondary Surveillance Radar (SSR) system over a primary radar system.
+      explanation: SSR depends on a reply from the aircraft transponder, so it can carry additional data such as identity and altitude. It also has longer range, and does not rely on a weak reflected echo.
+      presets:
+        - correctAnswers:
+            - text: The user gets additional information e.g. altitude.
+          wrongAnswers:
+            - text: There are no side lobes during transmission.
+            - text: The user gets a higher level of accuracy for bearings and distances.
+            - text: There is no special equipment necessary for SSR.
+- id: QUBWS
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds:
+    - QKJKR
+  externalQuestionIds:
+    - BGS-621345
+    - ATPLQ-628995
+    - AVEXAM-47573
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.01.04
+  templates:
+    - type: simple
+      question: Some of the advantages of Secondary Surveillance Radar (SSR) in comparison to Primary Radar are that SSR (1) \_\_\_\_\_ and has a longer range because (2) \_\_\_\_\_.
+      explanation: SSR collects more data, such as identity and altitude, as the transponder transmits it. Its range is longer because the aircraft's transponder actively replies, rather than just reflecting the energy.
+      presets:
+        - correctAnswers:
+            - text: (1) collects more data; (2) of the active participation of the aircraft's transponder
+          wrongAnswers:
+            - text: (1) enables the controller to have a more organised display; (2) it uses longer interrogation pulses.
+            - text: (1) uses smaller aerials; (2) it operates at higher frequencies.
+            - text: (1) provides coded replies; (2) of its naturally higher transmission power.
+- id: QERCN
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624282
+    - BGS-621095
+    - AVEXAM-40993
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.01.04
+  templates:
+    - type: simple
+      question: One of the advantages of the Secondary Surveillance Radar (SSR) systems over the Primary Surveillance Radar (PSR) systems is that SSR can provide more information. How does this happen?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ATC SSR systems can interrogate aircraft transponders and elicit replies.
+          wrongAnswers:
+            - text: ATC SSR systems can reply to an aircraft interrogation and provide requested information.
+            - text: ATC SSR systems have moving target indicator capability, which eliminates clutter so more aircraft can be tracked.
+            - text: ATC SSR systems permanently interrogate aircraft within range, so the tracking is not interrupted.
+- id: QHXON
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625587
+    - BGS-620393
+    - AVEXAM-42495
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.01.04
+  templates:
+    - type: simple
+      question: Which one of the following is an advantage of a secondary radar system when compared to a primary radar system?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The required power of transmission from the ground equipment is reduced.
+          wrongAnswers:
+            - text: The relatively small ground antenna transmits no side lobes, thus eliminating the danger of false replies from the airborne transponder.
+            - text: Possibility of obtaining speed information for aircraft within range.
+            - text: Is not limited to line of sight.
+- id: QMNCZ
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625726
+    - BGS-621135
+    - AVEXAM-23533
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.01.04
+  templates:
+    - type: simple
+      question: Which of the following statements describes an advantage of SSR over primary radar?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SSR allows the identification of a primary radar target by its code and call sign.
+          wrongAnswers:
+            - text: SSR is resistant to garbling and fruiting.
+            - text: SSR allows the identification of aircraft without a working mode A/C/S transponder.
+            - text: SSR relies only on the reception of a reflected pulse of a radar target.
+- id: QMZGF
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629613
+    - ATPLQ-625016
+    - AVEXAM-76206
+    - AVEXAM-61305
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.01.04
+  templates:
+    - type: simple
+      question: |-
+        What are some advantages of SSR over PSR?
+
+        1. SSR offers unambiguous aircraft identification 
+         
+        2. Much greater range than PSR 
+         
+        3. SSR is resistant to garbling and fruiting 
+         
+        4. SSR uses coded pulse pairs 
+         
+        5. SSR doesn't rely on reflection so is resistant to ground interference 
+         
+        6. SSR transmits and receives on the same frequency
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, 4 and 5.
+          wrongAnswers:
+            - text: 1, 2, 4 and 6.
+            - text: 2, 3, 5 and 6.
+            - text: 1, 3, 4 and 5.
+    - type: simple
+      question: |-
+        What are some advantages of SSR over PSR?
+
+        1. SSR offers unambiguous aircraft identification 
+         
+        2. Much greater range than PSR 
+         
+        3. SSR is resistant to garbling and fruiting
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 and 2.
+          wrongAnswers:
+            - text: "1."
+            - text: 1, 2 and 3.
+            - text: 2 and 3.
+    - type: simple
+      question: |-
+        Which of the following statements about SSR and PSR are correct?
+
+         SSR offers unambiguous aircraft identification, while PSR does not.
+         SSR has a much greater range than PSR.
+         SSR is resistant to garbling and fruiting, while PSR is not.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 and 2.
+          wrongAnswers:
+            - text: "1."
+            - text: 2 and 3.
+            - text: 1, 2 and 3.
+    - type: simple
+      question: |-
+        What are benefits of SSR compared to PSR?
+
+         SSR offers unambiguous aircraft identification.
+         Much greater range than PSR.
+         SSR is resistant to garbling and fruiting.
+         SSR uses coded pulse pairs.
+         SSR doesn't rely on reflection so it is resistant to ground interference.
+         SSR transmits and receives on the same frequency.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, 4 and 5.
+          wrongAnswers:
+            - text: 1, 3, 4 and 5.
+            - text: 2, 3, 5 and 6.
+            - text: 1, 2, 4 and 6.
+- id: QFXGA
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625510
+    - BGS-620396
+    - AVEXAM-18879
+    - AVEXAM-34564
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.03
+  templates:
+    - type: simple
+      question: The frequency of an SSR ground transmission is..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1030 MHz.
+          wrongAnswers:
+            - text: 1050 MHz.
+            - text: 1120 MHz.
+            - text: 1090 MHz.
+- id: QHYTT
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628031
+    - AVEXAM-37396
+    - BGS-620405
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.04
+  templates:
+    - type: simple
+      question: Which statement is correct with respect to selections on the transponder control panel?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: With ALT selected a reply in the modes A, C and S can be transmitted.
+          wrongAnswers:
+            - text: With ON selected a reply in the modes A, C and S can be transmitted.
+            - text: The correct ICAO 24 bits aircraft address code must be inserted on the control panel.
+            - text: With the selector knobs the four digits of the squawk can be selected using the decimal symbols 0 through 9.
+- id: QMBBM
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624697
+    - BGS-621392
+    - AVEXAM-48090
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.04
+  templates:
+    - type: simple
+      question: A functional Mode S transponder interrogated in Mode A. What is provided to the ATC screen apart from the aircraft position (bearing and range)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Transponder code only.
+          wrongAnswers:
+            - text: Transponder code and pressure altitude.
+            - text: Transponder code, pressure altitude, aircraft address, and other flight data.
+            - text: Transponder code, pressure altitude, and aircraft address.
+- id: QDQII
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624009
+    - BGS-620400
+    - AVEXAM-12388
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.05
+  templates:
+    - type: simple
+      question: What is the maximum number of Secondary Surveillance Radar (SSR) transponder codes in Mode A?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "4096"
+          wrongAnswers:
+            - text: "760"
+            - text: "3600"
+            - text: "1000"
+- id: QHYZP
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds:
+    - QPMQQ
+  externalQuestionIds:
+    - ATPLQ-627826
+    - BGS-621054
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.06
+  templates:
+    - type: simple
+      question: "A Mode C-transponder is able to report the pressure altitude in:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 100 ft increments.
+          wrongAnswers:
+            - text: 25 ft increments.
+            - text: 50 m increments.
+            - text: 100 m increments.
+- id: QPMQQ
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds:
+    - QHYZP
+  externalQuestionIds:
+    - ATPLQ-629201
+    - BGS-620411
+    - AVEXAM-20892
+    - BGS-620108
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.06
+  templates:
+    - type: simple
+      question: "When an aircraft is operating its Secondary Surveillance Radar in Mode C an air traffic controller's presentation gives information regarding the aircraft's indicated pressure altitude in increments of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 100 ft
+          wrongAnswers:
+            - text: 150 ft
+            - text: 200 ft
+            - text: 250 ft
+- id: QDTRC
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628186
+    - AVEXAM-45288
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.07
+  templates:
+    - type: simple
+      question: In the SSR response, what happens when the ident button of the transponder is pressed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It sends a special pulse after the normal response pulse train.
+          wrongAnswers:
+            - text: It sends a special pulse before the normal response pulse train.
+            - text: It sends a special pulse in the X position on the pulse train.
+            - text: It transmits the aeroplanes registration or flight number as a data coded sequence.
+- id: QHOFG
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621231
+    - BGS-621238
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.07
+  templates:
+    - type: simple
+      question: How is the Special Position Identification (SPI) pulse transmitted?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: By the transponder as a result of the pilot pushing the IDENT button.
+          wrongAnswers:
+            - text: By the SSR interrogator in order to request the identification of an aircraft.
+            - text: Automatically when the transponder responds to a mode A interrogation.
+            - text: By the SSR interrogator if it is suspected that responses are received from aircraft that are located in the direction of the side lobes of the interrogator antenna.
+- id: QFYWI
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627174
+    - AVEXAM-64798
+    - BGS-621171
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.08
+    - 062.03.04.02.14
+  templates:
+    - type: simple
+      question: |-
+        Complete the following sentence:   
+         The Secondary Surveillance Radar (SSR) mode S is compatible with (1)\_\_ but also provides the information to (2)\_\_.
+      explanation: Mode S is compatible with modes A and C, so it can work with existing ground systems. It also provides the data for ADS-B.
+      presets:
+        - correctAnswers:
+            - text: (1) SSR modes A and C; (2) Automatic Dependent Surveillance - Broadcast (ADS-B).
+          wrongAnswers:
+            - text: (1) Airborne Weather Radar (AWR); (2) the Traffic alert and Collision Avoidance System (TCAS).
+            - text: (1) Distance Measuring Equipment (DME); (2) enhanced vertical tracking.
+            - text: (1) the radio altimeter; (2) SSR mode C.
+- id: QIIMS
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622124
+    - AVEXAM-19814
+    - BGS-621493
+    - AVEXAM-75761
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.09
+  templates:
+    - type: simple
+      question: "A Mode S transponder knows that it is receiving interrogations from a Mode S ground interrogator because:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Extra pulses are transmitted directly following the Mode A and Mode C pulses.
+          wrongAnswers:
+            - text: The ground interrogator will transmit extra pulses once it has had the initial reply from the airborne transponder.
+            - text: Only pulses specific to Mode S are transmitted by the ground interrogator.
+            - text: The ground interrogator transmits the same pulses for all modes, but for Mode S, the pulses are stronger.
+- id: QLAIX
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622114
+    - AVEXAM-77598
+    - BGS-621414
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.09
+  templates:
+    - type: simple
+      question: Which of the following types of interrogations will a mode S transponder reply to?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SSR and TCAS interrogations.
+          wrongAnswers:
+            - text: SSR and primary radar interrogations.
+            - text: TCAS and ADS-B interrogations.
+            - text: SSR and ADS-B interrogations.
+- id: QXMPJ
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622024
+    - AVEXAM-11029
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.09
+  templates:
+    - type: simple
+      question: "Mode S transponders receive interrogations from:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SSR Ground station and TCAS.
+          wrongAnswers:
+            - text: Ground station.
+            - text: Mode C transponders and ground stations only.
+            - text: SSR Ground station and AWR.
+- id: QLYZN
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds:
+    - QXEUN
+  externalQuestionIds:
+    - ATPLQ-626365
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.10
+  templates:
+    - type: simple
+      question: What is (one of) the differences between a Mode A/C/S all call and a mode A/C only all call?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The length of the pulse P4.
+          wrongAnswers:
+            - text: The presence of Mode A/C addresses.
+            - text: The presence of Mode S addresses.
+            - text: The time interval between the pulses P1 and P3.
+- id: QXEUN
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds:
+    - QLYZN
+  externalQuestionIds:
+    - ATPLQ-629119
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.10
+  templates:
+    - type: simple
+      question: What is the difference between A/C all call and A/C/S all call?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Duration of P4 pulse.
+          wrongAnswers:
+            - text: Duration P2 pulse.
+            - text: Presence of P4 pulse.
+            - text: Amplitude of P4 pulse.
+- id: QYAEH
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623296
+    - AVEXAM-85041
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.10
+  templates:
+    - type: simple
+      question: One of the main differences between Mode A/C transponders and Mode S transponders is that Mode S transponders have a...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Unique address code based on the aircraft which is approved by ICAO.
+          wrongAnswers:
+            - text: Unique address code based on the flight plan.
+            - text: Squawk code based on the flight plan.
+            - text: Squawk code based on the aircraft.
+    - type: simple
+      question: Mode S transponders, compared to Mode A/C transponders, are assigned a...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: unique address code based on the aircraft which is approved by ICAO.
+          wrongAnswers:
+            - text: squawk code based on the flight plan.
+            - text: squawk code based on the aircraft.
+            - text: unique address code based on the flight plan.
+- id: QHHHV
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629986
+    - BGS-620780
+    - AVEXAM-71872
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.12
+  templates:
+    - type: simple
+      question: What is an advantage of an SSR with a ‘selective addressing mode’ over primary radar?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It allows for unambiguous aircraft identification.
+          wrongAnswers:
+            - text: It is independent from airborne (and space)-based systems.
+            - text: Its range is unrelated to its transmitting power.
+            - text: "In case of a transponder malfunction, the SSR can be used as a primary radar.  "
+- id: QOMFO
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629652
+    - ATPLQ-626250
+    - AVEXAM-24372
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.12
+  templates:
+    - type: simple
+      question: ATC sends out an interrogation to all Mode S 24 bit addresses. Which aircraft will respond?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All aircraft with 24 bit mode S transponder.
+          wrongAnswers:
+            - text: All Aircraft with Mode S ELS.
+            - text: All Aircraft with Mode S EHS.
+            - text: All Aircraft with ADS-B.
+    - type: simple
+      question: An aircraft is flying with the SSR in Mode S. ATC sends a 24-bit interrogation. Which aircraft should respond?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Only the aircraft in Mode S.
+          wrongAnswers:
+            - text: All aircraft with a transponder.
+            - text: Only the aircraft in Mode S ELS.
+            - text: Only the aircraft in Mode S EHS.
+- id: QQWQU
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624863
+    - BGS-621130
+    - AVEXAM-69350
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.13
+  templates:
+    - type: simple
+      question: With reference to Mode S transponders, which statement is correct? The reported altitude data..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: could be accurate to 25 ft resolution but it is dependent on the altitude sensor systems on board the aircraft.
+          wrongAnswers:
+            - text: must be accurate to 25 ft resolution and be dependent on the altitude sensor systems on board the aircraft.
+            - text: must be accurate to 100 ft resolution and be independent of the altitude sensor systems on board the aircraft.
+            - text: could be accurate to 25 ft resolution and is independent of the altitude sensor systems on board the aircraft.
+- id: QSEJW
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621634
+    - AVEXAM-82240
+    - BGS-620794
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.13
+  templates:
+    - type: simple
+      question: Mode S transponders can provide vertical tracking by using a \_\_\_\_\_ altitude increment.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 25 ft
+          wrongAnswers:
+            - text: 100 ft
+            - text: 35 ft
+            - text: 50 ft
+- id: QZWYY
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629185
+    - BGS-621514
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.02.13
+  templates:
+    - type: simple
+      question: "The following system(s) can report an aircraft’s altitude to a precision of 25 feet:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A mode S transponder.
+          wrongAnswers:
+            - text: Mode C and Mode S transponders.
+            - text: A mode C transponder and primary radar.
+            - text: Mode A and Mode S transponders.
+- id: QCMHD
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624054
+    - AVEXAM-80109
+    - BGS-621357
+    - AVEXAM-86099
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.03.02
+  templates:
+    - type: multiple-correct
+      question: What data may be shown on an ATC display system?
+      explanation: ""
+      options:
+        - text: Flight number (call sign)
+          correct: true
+        - text: Pressure altitude
+          correct: true
+        - text: Radio altitude
+          correct: false
+        - text: Autopilot modes
+          correct: false
+        - text: Groundspeed
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+    - type: simple
+      question: |-
+        Which of the following data can be shown on an ATC display system?
+
+         Pressure altitude
+         Flight level
+         Flight number / aircraft registration
+         Ground speed
+         True air speed
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, 3, 4
+          wrongAnswers:
+            - text: 1, 2, 3, 5
+            - text: 1, 3, 4
+            - text: 2, 4, 5
+- id: QRUNY
+  subjectId: "062"
+  chapterId: "062.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623745
+    - AVEXAM-22972
+    - BGS-620775
+  annexes: []
+  learningObjectiveIds:
+    - 062.03.04.03.02
+  templates:
+    - type: simple
+      question: In order to provide an Air Traffic Services (ATS) surveillance service, what minimum information must be provided to the controller on the surveillance system display? Indication of position and also..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: any map information needed to provide the surveillance service, and (when available) the aircraft identification and level.
+          wrongAnswers:
+            - text: any map information needed to provide the surveillance service, aircraft speed, and (when available) the aircraft identification and level.
+            - text: an overlay of the terrain, and the aircraft identification, speed, vertical speed, and level.
+            - text: level, speed, vertical speed, an overlay of the terrain, and (when available) the aircraft identification and destination.

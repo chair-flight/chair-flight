@@ -1,0 +1,625 @@
+- id: QRILN
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When the PASS OXY switch on the AFT overhead panel is selected to ON, at what cabin altitude will the passenger oxygen system activate?
+      explanation: |
+        > ## Passenger Oxygen (PASS OXYGEN) Switch
+        >
+        > - **NORMAL**: (guarded position) passenger masks drop and passenger oxygen system activated automatically if cabin altitude climbs to 14,000 feet. Automatic 'Emergency Descent' PA x 3 is announced in the cabin. The announcement will repeat every 10 seconds for a period of one minute.
+        > - **ON**: activates system and drops masks. Automatic 'Emergency Descent' PA x 3 is announced in the cabin. The announcement will repeat every 10 seconds for a period of one minute.
+      presets:
+        - correctAnswers:
+            - text: At altitude selected ON.
+          wrongAnswers:
+            - text: 14,000 feet.
+            - text: 10,000 feet.
+            - text: 14,000 m.
+- id: QXFAV
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |
+        The Forward Airstairs control are located on the **FORWARD** attendant's panel.
+      statements:
+        - text: In an emergency, the Emergency Lights and Forward Airstairs can be operated from the Aft Attendant's panel.
+          answer: false
+- id: QRAWZ
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |
+        Newer B737-800 aircraft have no dedicated Taxi Light on the nose landing gear.
+
+        Old B737:
+
+        > The taxi light is mounted on the nose wheel strut and points in the same direction as the nose wheel. The light extinguishes automatically when the nose gear is retracted.
+
+        New B737, equipped with LED lights
+
+        > LED lights are mounted in the wing strakelets and provide all function capability of landing, taxi, and runway turnoff light applications for the airplane. When both the landing and taxi lights are in the ON position, the taxi light function is overridden by the landing light function.
+      statements:
+        - text: Some B737-800 aircraft have no Taxi light mounted on the nose landing gear.
+          answer: true
+- id: QTPCY
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the minimum distance required to make a turn away from an obstacle to the front of the aircraft?
+      explanation: |
+        Key values you should be familiar with:
+        - Wing tip radius: **22.9m**
+        - Minimum Width for a 180º turn: **24.1m**
+        - Minimum distance required to make a turn away from an obstacle to the front of the aircraft: **7.4m**
+      presets:
+        - correctAnswers:
+            - text: 7.4m
+          wrongAnswers:
+            - text: 9.8m
+            - text: 5.4m
+            - text: 12.5m
+- id: QOIKO
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |
+        > ### External Control
+        >
+        > (...) **Holding the NORMAL/STANDBY Switch to STANDBY provides DC power from the battery bus for airstair operation. The BAT switch on the flight deck does not need to be ON when operating the airstair on standby from the exterior control panel.** (...)
+        >
+        > ### Interior Control
+        >
+        > (...) **Normal operation requires 115V AC while standby operation requires the battery switch to be ON.**
+
+        When operating the stairs from the outside you need to be able to operate them with the battery off. This is necessary for a scenario where the Aircraft is cold and dark and the battery switch is OFF. For this reason, exceptionally, the **External** Airstair operation switch bypasses the main battery switch.
+
+        When operating the stairs from the inside, you need to have the battery switch ON. There is no need for a weird bypass.
+      statements:
+        - text: The Aircraft battery need to be selected ON for STANDBY operation of the Forward Airstairs from the FWD Attendant's Panel?
+          answer: true
+- id: QBVRA
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What action must be carried out prior to discharging a Halon fire extinguisher in the flight deck?
+      explanation: |
+        Halon Fire Extinguishers work by depriving the fire of oxygen, essentially suffocating the fire. Unfortunately, humans are also quite fond of oxygen, so it's essential you are wearing your oxygen mask to avoid dying of asphyxiation.
+      presets:
+        - correctAnswers:
+            - text: All flight deck crew must don oxygen masks set to 100% emergency oxygen.
+          wrongAnswers:
+            - text: APU must be started and APU bleed air selected on.
+            - text: The air conditioning re-circulation fans must be switched ON.
+            - text: BUS TRANSFER switch ON, ISOLATION valve switch to OPEN, and both pack switches set to HIGH.
+    - type: true-or-false
+      question: ""
+      explanation: |
+        Halon Fire Extinguishers work by depriving the fire of oxygen, essentially suffocating the fire. Unfortunately, humans are also quite fond of oxygen, so it's essential you are wearing your oxygen mask to avoid dying of asphyxiation.
+
+        Turning on the recirculation fans would not provide you with extra oxygen, you need to survive.
+
+        Opening the No 2 window is not a viable option unless you are on the ground, in which case, you should be evacuating the aircraft.
+      statements:
+        - text: Prior to discharging a Halon fire extinguisher on the flight deck, both recirculation fans must be selected to ON and at least one flight deck number 2 window must be unlocked.
+          answer: false
+- id: QBRKH
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Where is the circuit breaker light control located?
+      explanation: |-
+        ### FCOM 1.30.3, Overhead/Circuit Breaker Panel Light Controls
+
+        > FORWARD OVERHEAD PANEL CIRCUIT BREAKER Light Control **Rotate – controls P–6 and P–18 circuit breaker panels light brightness.**
+      presets:
+        - correctAnswers:
+            - text: Forward overhead panel.
+          wrongAnswers:
+            - text: P6 and P18 panels.
+            - text: Aft overhead panel.
+            - text: Captain's and First Officer's main panel.
+- id: QNVFG
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What indication is there on the Flight Deck if a correct emergency access code has been entered in the Flight Deck Door keypad?
+      explanation: |
+        > ## AUTO Unlock (UNLK) Light
+        >
+        > Illuminated (amber) - correct emergency access code entered in keypad. **AUTO UNLK light flashes** and **continuous chime** sounds before timer expires and door unlocks.
+      presets:
+        - correctAnswers:
+            - text: AUTO UNLK light illuminates
+            - text: Continuous cabin chime sounds.
+          wrongAnswers:
+            - text: LOCK light illuminates.
+            - text: Amber light illuminates on Flight Deck Emergency Access Panel.
+            - text: Single cabin chime is sounded.
+- id: QJNXC
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How long does the PBE, stored under the flight deck left jump seat, provide oxygen once activated?
+      explanation: |
+        > ## Portable Protective Breathing Equipment
+        >
+        > (...) The device is placed over the head and, when activated, provides approximately 15 to over 20 minutes of oxygen depending upon the device used.
+      presets:
+        - correctAnswers:
+            - text: Approximately 15-20 minutes
+          wrongAnswers:
+            - text: Provides oxygen continuously until de-activated.
+            - text: Approximately 6 minutes.
+            - text: Approximately 12 minutes.
+- id: QKUVW
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: With the EMER EXIT LIGHTS switch in the guarded position, when would the Emergency Exit Lights automatically illuminate?
+      explanation: |
+        > ### Emergency (EMER) EXIT LIGHTS Switch
+        >
+        > - **OFF**: prevents emergency lights system operation if airplane electrical power fails or is turned off.
+        > - **ARMED**: (guarded position) all emergency lights illuminate automatically if airplane electrical power to DC bus No. 1 fails or AC power is turned off.
+        > - **ON**: all emergency lights illuminate.
+      presets:
+        - correctAnswers:
+            - text: When DC Bus 1 fails, or AC power is turned off.
+          wrongAnswers:
+            - text: Immediately.  When guarded the switch is in the ON position
+            - text: Whenever the FASTEN SEATBELTS signs are illuminated, with the Flaps beyond Flap 15.
+            - text: Never.  When guarded the switch is in the OFF position.
+- id: QQBDC
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement is correct for the No 2 windows.
+      explanation: |
+        > Only the first officer’s number two window can be opened from outside the airplane.
+
+        This is for emergency rescue teams to gain access to the flight deck (also, for crews who somehow managed to lock themselves out of the airplane).
+      presets:
+        - correctAnswers:
+            - text: The First Officer's No 2 window can be opened from outside the aircraft.
+          wrongAnswers:
+            - text: The No 2 Windows cannot be opened from outside the aircraft.
+            - text: Both the Captain's and First Officer's No 2 Windows can be opened from outside the aircraft.
+            - text: The Captain's No 2 Window can be opened from outside the aircraft.
+- id: QYXAE
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How can the Emergency Exit Lights be illuminated?
+      explanation: |
+        > ### Emergency (EMER) EXIT LIGHTS Switch
+        >
+        > - **OFF**: prevents emergency lights system operation if airplane electrical power fails or is turned off.
+        > - **ARMED**: (guarded position) all emergency lights illuminate automatically if airplane electrical power to DC bus No. 1 fails or AC power is turned off.
+        > - **ON**: all emergency lights illuminate.
+      presets:
+        - correctAnswers:
+            - text: All answers are correct.
+          wrongAnswers:
+            - text: If the three position switch located on the FWD Overhead panel is selected to ON.
+            - text: Automatically if the three position switch located on the FWD Overhead panel switch is in the ARMED position and electrical power to DC bus No.1 fails or if AC power turned off.
+            - text: By lifting the guard and pushing the ON switch located on the Aft Attendant Panel.
+- id: QTEKR
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |
+        Yes it is true. Nothing stops you from opening the FO No 2 window in flight.
+
+        Good luck not letting your intrusive thoughts get the better of you!
+      statements:
+        - text: Can the Flight Deck No2 windows be opened both on the ground and in flight?
+          answer: true
+- id: QRPGV
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |
+        > (Airstairs external) POWER Switch
+        >
+        > (spring-loaded to NORMAL)
+        > - **NORMAL**: requires both AC and DC power.
+        > - **STANDBY**: requires DC power.
+      statements:
+        - text: When operating the Airstairs from outside the aircraft - moving the AIRSTAIRS switch to Extend requires both AC and DC power for the airstairs to extend.
+          answer: true
+- id: QBHZX
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the B737-800 wingspan when fitted with Winglets?
+      explanation: |
+        Values you should be familiar with:
+        - Wingspan with winglets fitted: **35.79m**
+        - length: **39.50m**
+      presets:
+        - correctAnswers:
+            - text: 35.79m
+          wrongAnswers:
+            - text: 37.57m
+            - text: 32.18m
+            - text: 39.18m
+- id: QHMFT
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |
+        None of the panels automatically open. They automatically unlock. Both need to be manually opened.
+
+        > The door incorporates two pressure sensors that unlock the decompression panels in the event pressurization is lost. The decompression panels have manual release pins. Pulling the pins frees the panels allowing egress in the event the door is jammed.
+      statements:
+        - text: The flight deck door has one decompression panel that automatically opens during an aircraft rapid decompression, and one emergency egress panel that flight deck crew can manually remove to exit if the door is jammed.
+          answer: false
+- id: QUAZH
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Where is the potable water contents indicator located?
+      explanation: |-
+        ### FCOM 1.30.24, Water Quantity Indicator
+
+        > Water Quantity Indicator **Indicates quantity of water in reservoir.**
+        >
+        > AFT ATTENDANT PANEL BELOW AFT ENTRY DOOR
+
+        The Water System Service Panel only holds the fill fitting and the fill and overflow valve handle.
+      presets:
+        - correctAnswers:
+            - text: On the aft Attendant's panel.
+          wrongAnswers:
+            - text: Gauge located in the Water System Service Panel below the aft right entry door.
+            - text: On the forward Attendant's panel
+            - text: In the forward galley adjacent to the water heater.
+- id: QNNZJ
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The retractable landing lights may only be extended below the following airspeed.
+      explanation: |
+        > Retractable Landing Lights
+        >
+        > Retractable landing lights are installed in the lower airplane fuselage. The lights are designed to extend and shine forward, parallel to the waterline of the airplane. **The lights may be extended at any speed**.
+      presets:
+        - correctAnswers:
+            - text: Can be extended at ANY speed.
+          wrongAnswers:
+            - text: At the landing gear extension limit 270 kt.
+            - text: There are no retractable landing lights fitted on the B737-800.
+            - text: At the Flap extension limit 250 kt
+- id: QKJYN
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does an amber light indicate on the Flight Deck Door Emergency Access Panel?
+      explanation: |
+        > ## AUTO Unlock (UNLK) Light
+        >
+        > Illuminated (amber) - correct emergency access code entered in keypad. **AUTO UNLK light flashes** and **continuous chime** sounds before timer expires and door unlocks.
+      presets:
+        - correctAnswers:
+            - text: Correct access code entered, if in AUTO door will unlock after timer expires.
+          wrongAnswers:
+            - text: Incorrect access code entered, after timer expires code can be entered again.
+            - text: Access denied by Flight Deck.
+            - text: Electronic door lock inoperative, deadbolt in use.
+- id: QUFGM
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How many oxygen masks are provided from each passenger service unit?
+      explanation: |
+        The extra mask is provided for (at least) 3 good reasons:
+        - Infants with no dedicated seat.
+        - So that cabin crew can have masks on hand.
+        - Redundancy.
+      presets:
+        - correctAnswers:
+            - text: "4"
+          wrongAnswers:
+            - text: "3"
+            - text: "1"
+            - text: "6"
+- id: QCQKZ
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the flight crew maximum oxygen pressure for the first flight of the day?
+      explanation: |
+        > Oxygen pressure is displayed on the indicator located on the aft overhead panel. Oxygen flow is controlled through a pressure-reducing regulator to supply low-pressure oxygen. System pressure may be as high as 1850 psi.
+      presets:
+        - correctAnswers:
+            - text: 1850 psi
+          wrongAnswers:
+            - text: 1100 psi
+            - text: 3000 psi
+            - text: 1000 psi
+- id: QHKHL
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When operating the forward airstairs, with the external control, what position must the forward entry door be in?
+      explanation: |
+        - External control: Any position
+        - Internal control: Partially open
+
+        External operation can have the door in any position, to allow for the door to be opened and closed when the cabin is secured. This is done at every start and end of the day.
+
+        Internal operation requires that the door is unlocked and partially open as a safety measure. It reduces the risk of the door being opened with the aircraft moving, and prevents the temptation of extending the door with the door fully open which could lead to falls.
+      presets:
+        - correctAnswers:
+            - text: Can be in any position.
+          wrongAnswers:
+            - text: Must be fully open
+            - text: Must be fully closed
+            - text: Must be partially open
+- id: QZBHD
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |
+        > Water Supply Selector Valve
+        > - **SUPPLY ON**: provides water to lavatory sink faucets and water heater (normal position).
+        > - **FAUCET ONLY**: water is supplied to faucet only.
+        > - **OFF**: shuts off water to lavatory sink faucets and water heater.
+        > - **TOILET ONLY**: water is supplied to toilet only
+      statements:
+        - text: The water supply in the Lavatories can be manually selected to supply only the toilet or only the sink taps.
+          answer: true
+- id: QFZTK
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How many fire extinguishers are located on the flight deck, what type of extinguisher are they and where are they located?
+      explanation: |
+        One chemical (halon) fire extinguisher to fight electrical fires, behind the panels. Any other type of fire will have you chug the item that is on fire out of the door and let the cabin crew deal with it.
+      presets:
+        - correctAnswers:
+            - text: 1 Chemical fire extinguisher, located behind the FO
+          wrongAnswers:
+            - text: 2 Halon fire extinguishers, 1 located behind the Captain's seat and 1 located behind the FO's seat.
+            - text: 1 Halon extinguisher located behind the FO, and 1 Water Glycol extinguisher located under the second observer's jump seat.
+            - text: 1 Halon extinguisher located behind the FO, and 1 CO2 extinguisher located under the second observer's jump seat.
+- id: QSNOO
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the correct method to close the Flight Deck No 2 window?
+      explanation: |
+        This is one of those questions where doing it once in real life will never leave you confused ever again:
+
+        1. Pull latch mechanism rod to unlock window.
+        2. Move window forward whilst depressing trigger mechanism.
+        3. Turn handle forward and outboard.
+        4.  Release trigger to lock.
+      presets:
+        - correctAnswers:
+            - text: Pull latch mechanism rod to unlock window. Move window forward whilst depressing trigger mechanism, turn handle forward and outboard, release trigger to lock.
+          wrongAnswers:
+            - text: Pull lock trigger to unlock window. Move window forward whilst depressing trigger mechanism, turn handle forward and outboard, release trigger to lock.
+            - text: Handle must be in the locked position. Without touching the trigger mechanism, ensure channel is clear and push window forward until trigger lock mechanism engages.
+            - text: Handle must be in the unlocked position.  Without touching the trigger mechanism, ensure channel is clear and push window forward until trigger lock mechanism engages.
+- id: QOAZT
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 1.30.16, Overwing Exit Annunciations
+
+        > Overwing Exit Annunciations Illuminated (amber) – • **related overwing exit is not closed and locked** • **related flight lock failed to engage when commanded locked.**
+      statements:
+        - text: An illuminated OVERWING light means the related overwing exit is not closed and locked, or its flight lock has not engaged when commanded.
+          answer: true
+        - text: An illuminated OVERWING light means the position information for the overwing exit locks is corrupted or missing.
+          answer: false
+        - text: An illuminated OVERWING light means an overwing exit has lost 28 V DC power.
+          answer: false
+        - text: An illuminated OVERWING light means an overwing exit has remained in the locked position after the flight lock disengaged.
+          answer: false
+- id: QKVQO
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Can the overwing exits be opened from outside the aircraft?
+      explanation: |-
+        ### FCOM 1.40.49, Overwing Exits
+
+        > The overwing exit doors can be opened from **inside or outside** of the airplane by a spring–loaded handle at the top of the door.
+      presets:
+        - correctAnswers:
+            - text: Yes, by operating a spring-loaded handle.
+          wrongAnswers:
+            - text: No.
+            - text: Only by use of cutting equipment.
+- id: QGEMB
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: In flight, what does the illumination of the AIR STAIR light tell you?
+      explanation: |-
+        ### FCOM 1.40.61, Forward Airstair
+
+        > An amber AIRSTAIR light, located on the overhead door caution annunciator panel, illuminates when the airstair pressure door is unlocked.
+
+        ### QRH, Doors, AIRSTAIR
+
+        > Condition: The airstair door is not secure. Pressurization is normal: **The door is in a safe configuration. Continue normal operation.**
+      presets:
+        - correctAnswers:
+            - text: The airstair door is not shut. However, if pressurisation is normal you can continue normal operation.
+          wrongAnswers:
+            - text: The airstairs are partially or fully extended.
+            - text: The airstairs have lost power.
+            - text: One or more of the airstair control switches on the forward attendant's panel is being operated.
+- id: QUZTT
+  subjectId: b737
+  chapterId: "01"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Operation of the airstairs is not recommended above which wind speed?
+      explanation: |-
+        ### FCOM SP.1.4, Forward Airstair Operation
+
+        > CAUTION: **Operation of airstair in winds exceeding 40 knots is not recommended.**
+      presets:
+        - correctAnswers:
+            - text: 40 kt
+          wrongAnswers:
+            - text: 75 kt
+            - text: 60 kt
+            - text: 33 kt

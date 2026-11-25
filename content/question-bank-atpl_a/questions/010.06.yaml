@@ -1,0 +1,4190 @@
+- id: QSYJG
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103568
+    - AVEXAM-56983
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.02.01.01
+  templates:
+    - type: simple
+      question: 'What is a "precision approach"? It is a direct instrument approach:'
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Which uses azimuth, elevation and distance information.
+          wrongAnswers:
+            - text: Which uses bearing, elevation and distance information, providing the pilot uses a flight director or an autopilot certified to a height below 200 ft.
+            - text: Which uses at least one source of bearing information and one source of elevation or distance information.
+            - text: Which is carried out by a crew of at least two pilots trained with a specific working method.
+- id: QSAGC
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107486
+    - AVEXAM-34369
+    - BGS-100150
+    - ATPLQ-104945
+    - AVEXAM-16874
+    - ATPLQ-102125
+    - AVEXAM-98939
+    - ATPLQ-108706
+    - AVEXAM-53037
+    - ATPLQ-108378
+    - BGS-100828
+    - ATPLQ-103684
+    - BGS-100656
+    - AVEXAM-24308
+    - ATPLQ-102725
+    - AVEXAM-31614
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.02.01.02
+    - 010.06.04.01.10
+    - 010.07.01.05.05
+  templates:
+    - type: definition
+      question: What does the abbreviation {term} mean?
+      explanation: ""
+      options:
+        - id: OAWOU0JK2
+          term: OIS
+          definition: Obstacle Identification Surface.
+        - id: O7ALXBOAL
+          term: DER
+          definition: Departure End of Runway.
+        - id: O6GQ6ESIT
+          term: OCH
+          definition: Obstacle Clearance Height.
+        - id: OJZROONVC
+          term: APV
+          definition: Approach Procedures with Vertical Guidance.
+        - id: OELTH7ABQ
+          term: ATIS
+          definition: Automatic Terminal Information Service
+        - id: OGQPIOLP5
+          term: IATA
+          definition: International Air Transport Association.
+        - id: OFLLPEFNV
+          term: TA
+          definition: Traffic Advisory and Transition Altitude
+      fakeOptions:
+        - id: FZNQXSQSZ0
+          definition: Obstruction In Surface.
+        - id: FZNQXSQSZ1
+          definition: Obstacle Identification Slope.
+        - id: FZNQXSQSZ2
+          definition: Obstacle In Surface.
+        - id: FZNQXSQSZ3
+          definition: Distance Error in Routing.
+        - id: FZNQXSQSZ4
+          definition: Displaced End of Runway.
+        - id: FZNQXSQSZ5
+          definition: Direct Entry Route.
+        - id: FZNQXSQSZ6
+          definition: On Clearance Height.
+        - id: FZNQXSQSZ7
+          definition: Offshore Clearance Height.
+        - id: FZNQXSQSZ8
+          definition: Obstacle Control Height.
+        - id: FZNQXSQSZ9
+          definition: Aerodrome Precision Visibility (automatic monitoring system).
+        - id: FZNQXSQSZ10
+          definition: Approach Protection Vectors.
+        - id: FZNQXSQSZ11
+          definition: Aerodrome Precision Visibility (monitoring system by observation).
+        - id: FZNQXSQSZ12
+          definition: Automatic Terminal Instruction Service
+        - id: FZNQXSQSZ13
+          definition: Automatic Transferable Information Service
+        - id: FZNQXSQSZ14
+          definition: Automatic Terminal Information Status
+        - id: FZNQXSQSZ15
+          definition: International Air Trading Association.
+        - id: FZNQXSQSZ16
+          definition: International Airport Training Association.
+        - id: FZNQXSQSZ17
+          definition: International Aviation Transportation Association.
+        - id: FZNQXSQSZ18
+          definition: Terrain Avoidance and Traffic Advisory
+        - id: FZNQXSQSZ19
+          definition: Terminal Altitude and Traffic Advisory
+        - id: FZNQXSQSZ20
+          definition: Transition Altitude and Terrain Avoidance
+- id: QDLSU
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103080
+    - BGS-100155
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.03.01.01
+    - 010.06.04.01.06
+  templates:
+    - type: simple
+      question: What are pilots expected to do when flying an instrument departure procedure?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 2, 1.3.3
+
+        > When flying departure routes expressed as tracks or bearings, the pilot shall **compensate for known or estimated winds**.
+
+        > When being vectored, the pilot should not compensate for wind effects.
+      presets:
+        - correctAnswers:
+            - text: Correct the track for known wind to remain within the protected airspace.
+          wrongAnswers:
+            - text: Ignore the wind and proceed on a heading equal to the track.
+            - text: Request a clearance from ATC for the wind correction to be applied.
+            - text: Request from ATC an adequate heading for the correction of wind direction and strength.
+- id: QRTCK
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109781
+    - BGS-100170
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.03.01.01
+  templates:
+    - type: simple
+      question: In general, the main factor that determines the design of an instrument departure procedure is...
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 2, 1.3.1
+
+        > The design of an instrument departure procedure is, in general, **dictated by the terrain surrounding the aerodrome**. It may also be required to provide for air traffic control (ATC) requirements in the case of SID routes.
+      presets:
+        - correctAnswers:
+            - text: the terrain surrounding the aerodrome.
+          wrongAnswers:
+            - text: the availability of navigation aids.
+            - text: the aircraft performance.
+            - text: the expected experience level of the operating flight deck crew.
+- id: QUUEK
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103986
+    - AVEXAM-80442
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.03.01.01
+  templates:
+    - type: simple
+      question: What is the minimum obstacle clearance at the departure end of runway on an instrument departure?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 2, 1.4.1
+
+        > The minimum obstacle clearance (MOC) **equals zero at the departure end of the runway (DER)**. From that point, it increases by 0.8 per cent of the horizontal distance in the direction of flight assuming a maximum turn of 15°.
+      presets:
+        - correctAnswers:
+            - text: 0 ft.
+          wrongAnswers:
+            - text: 50 ft.
+            - text: 3.5% gradient.
+            - text: 0.8% gradient.
+- id: QBYJZ
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101754
+    - AVEXAM-67687
+    - BGS-100683
+    - AVEXAM-55477
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.03.01.02
+    - 010.06.03.03.01
+  templates:
+    - type: simple
+      question: Omnidirectional departures normally allow departures in any direction. If any restrictions exist, the restricted sectors are described by means of...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: bearings and distance.
+          wrongAnswers:
+            - text: latitude and longitude of the relevant points.
+            - text: flying speed and time to reach the restriction.
+            - text: GPS coordinates.
+    - type: simple
+      question: For omnidirectional departures you can normally depart in any direction, but when there is a restricted or danger area, it will be given in...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: bearing and distance.
+          wrongAnswers:
+            - text: GPS coordinates.
+            - text: flight time and speed.
+            - text: latitude and longitude.
+- id: QBQZG
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107304
+    - ATPLQ-102539
+    - AVEXAM-1958
+    - AVEXAM-66926
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.03.02.01
+  templates:
+    - type: simple
+      question: "A turning departure is one in which a departure route requires a turn of more than:"
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 2, 2.3 and 2.4.1
+
+        > A straight departure is one in which the initial departure track is within 15° of the alignment of the runway centre line.
+
+        > When a departure route requires a turn of **more than 15°**, it is called a turning departure. […]
+      presets:
+        - correctAnswers:
+            - text: 15º
+          wrongAnswers:
+            - text: 20º
+            - text: 10º
+            - text: 30º
+    - type: simple
+      question: A turning departure is one in which the initial departure track deviates from the alignment of the extended runway centre line by more than...
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 2, 2.3 and 2.4.1
+
+        > A straight departure is one in which the initial departure track is within 15° of the alignment of the runway centre line.
+
+        > When a departure route requires a turn of **more than 15°**, it is called a turning departure. […]
+      presets:
+        - correctAnswers:
+            - text: 15°
+          wrongAnswers:
+            - text: 25°
+            - text: 10°
+            - text: 20°
+- id: QSDGH
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103075
+    - AVEXAM-3058
+    - ATPLQ-101603
+    - AVEXAM-82015
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.03.02.01
+  templates:
+    - type: simple
+      question: The crew of an aeroplane are performing a turning departure. In this type of departure, straight flight is assumed until reaching a height of at least…
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 2, 2.4.1
+
+        > When a departure route requires a turn of more than 15°, it is called a turning departure. **Straight flight is assumed until reaching an altitude/height of at least 120 m (394 ft).** […]
+      presets:
+        - correctAnswers:
+            - text: 400 ft
+          wrongAnswers:
+            - text: 200 ft
+            - text: 120 ft
+            - text: 295 ft
+        - correctAnswers:
+            - text: 120 m
+          wrongAnswers:
+            - text: 200 ft
+            - text: 120 ft
+            - text: 200 m
+- id: QGYGR
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104508
+    - AVEXAM-62602
+    - BGS-101742
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.01.01
+  templates:
+    - type: simple
+      question: What is the fix tolerance of a Terminal Area Radar (TAR) within 20 NM of the facility?
+      explanation: |-
+        ### ICAO Doc 8168, Volume II, Part I, Section 2, Chapter 2, Table I-2-2-3
+
+        > Table I-2-2-3. Terminal area radar — total fix tolerance […]
+        >
+        > TAR within 37 km (20 NM) […] Total fix tolerance (RSS'd) **± 1.6 km ± 0.8 NM**
+      presets:
+        - correctAnswers:
+            - text: 0.8 NM
+          wrongAnswers:
+            - text: 1.5 NM
+            - text: 0.5 NM
+            - text: 1.7 NM
+- id: QNQTE
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104499
+    - BGS-100181
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.01.01
+    - 010.06.04.02.04
+  templates:
+    - type: simple
+      question: "ILS obstacle clearance surfaces are established under the assumption that the pilot does not allow the aircraft to deviate from the centreline by more than:"
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 5, 5.7.6.2
+
+        > To remain within the protection area, the pilot should not deviate from the centre line more than **half-scale deflection** after being established on track. Thereafter, the aircraft should adhere to the on-course, on-glide path/elevation angle position to ensure there is no loss of protection from obstacles.
+      presets:
+        - correctAnswers:
+            - text: Half a scale deflection after being established on the track.
+          wrongAnswers:
+            - text: A quarter of a scale deflection after being established on the track.
+            - text: One and a half scales deflection after being established on the track.
+            - text: One full scale deflection after being established on the track.
+- id: QRIPO
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104472
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.01.01
+    - 010.06.04.01.03
+  templates:
+    - type: multiple-correct
+      question: "Instrument approaches are designed according to:"
+      explanation: ""
+      options:
+        - text: Pavement Classification Number (PCN)
+          correct: false
+        - text: Aircraft to be accommodated
+          correct: true
+        - text: Aircraft Classification Number (ACN)
+          correct: false
+        - text: Possible obstacles
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QYSGE
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105424
+    - AVEXAM-68695
+    - BGS-100180
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.01.02
+  templates:
+    - type: simple
+      question: Identify all separate segments that can be part of an instrument approach procedure.
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, 1.2.3.1
+
+        > An instrument approach procedure may have five separate segments. They are the **arrival, initial, intermediate, final and missed approach segments**. […]
+      presets:
+        - correctAnswers:
+            - text: Arrival, initial, intermediate, final, and missed approach.
+          wrongAnswers:
+            - text: Initial, intermediate, and final.
+            - text: Holding, initial, intermediate, final, and missed approach.
+            - text: Descend, holding, arrival, intermediate, final, and missed approach.
+- id: QYHRY
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105854
+    - BGS-101646
+    - AVEXAM-70523
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.01.03
+  templates:
+    - type: simple
+      question: "According to ICAO Doc 8168 provisions on approach procedures, different aircraft categories are established considering the airspace and visibility required to manoeuvre the aircraft. These categories are established on the basis of:"
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, 1.4.1
+
+        > Aircraft performance has a direct effect on the airspace and visibility required for the various manoeuvres associated with the conduct of instrument approach procedures. **The most significant performance factor is aircraft speed.** Accordingly, categories of typical aircraft have been established.
+      presets:
+        - correctAnswers:
+            - text: Aircraft performance. Speed is the main performance factor.
+          wrongAnswers:
+            - text: Aircraft performance. Mass is the main performance factor.
+            - text: Weather conditions. Cloud base is the main performance factor.
+            - text: Weather conditions. Altitude and temperature are the main performance factors.
+- id: QRCLZ
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102654
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.01.04
+  templates:
+    - type: simple
+      question: An aircraft is on VOR track 332° for a straight-in-approach. What runway direction could the pilot expect to have?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "302° to 322° "
+          wrongAnswers:
+            - text: 292° to 312°
+            - text: 302° to 292°
+            - text: 312° to 292°
+- id: QLXPP
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106852
+    - AVEXAM-98954
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.01.05
+  templates:
+    - type: simple
+      question: The MOC of a MSA is...
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Definitions
+
+        > Minimum sector altitude (MSA). The lowest altitude which may be used which will provide a **minimum clearance of 300 m (1 000 ft) above all objects** located in an area contained within a sector of a circle of 46 km (25 NM) radius centred on a significant point, the aerodrome reference point (ARP) or the heliport reference point (HRP).
+      presets:
+        - correctAnswers:
+            - text: 1 000 ft
+          wrongAnswers:
+            - text: 300 ft
+            - text: 500 ft
+            - text: 1 000 m
+- id: QXXWI
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105454
+    - BGS-100827
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.01.07
+  templates:
+    - type: simple
+      question: Aircraft performance has a direct effect on the conduct of instrument approaches. – What is the most significant aircraft-performance factor?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, 1.4.1
+
+        > Aircraft performance has a direct effect on the airspace and visibility required for the various manoeuvres associated with the conduct of instrument approach procedures. **The most significant performance factor is aircraft speed.** Accordingly, categories of typical aircraft have been established.
+      presets:
+        - correctAnswers:
+            - text: Speed
+          wrongAnswers:
+            - text: Lift-to-drag ratio
+            - text: Thrust / Power
+            - text: Range
+- id: QVCKV
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109636
+    - AVEXAM-90082
+    - BGS-101736
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.01.08
+  templates:
+    - type: simple
+      question: During a non-precision approach procedure, descending below the published Obstacle Clearance Height (OCH) is not allowed unless required visual reference has been established and can be maintained. The OCH is the lowest height above (1) \_\_\_\_\_infringing the (2) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) aerodrome elevation or the elevation of the relevant runway threshold; (2) appropriate obstacle clearance criteria.
+          wrongAnswers:
+            - text: (1) terrain elevation or the elevation of any relevant obstacles, at your current position; (2) published approach gradient.
+            - text: (1) aerodrome elevation or the elevation of the relevant runway threshold; (2) threshold crossing height.
+            - text: (1) terrain elevation or the elevation of any relevant obstacles, at your current position; (2) threshold crossing height.
+- id: QNRTY
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105129
+    - AVEXAM-28579
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.01.09
+  templates:
+    - type: simple
+      question: "In a precision approach (ILS), the OCA or OCH values are based among other standard conditions, on a vertical distance between the flight paths of the wheels and glide path antenna. For aircraft Category B aircraft, that is not greater than:"
+      explanation: |-
+        ### ICAO Doc 8168, Volume II, Part II, Section 1, Chapter 1, 1.1.3
+
+        > The following list contains the standard assumptions on which procedures are developed. […]
+        >
+        > a) Maximum aircraft dimensions are assumed to be the following:
+        >
+        > | Aircraft category | Wingspan | Vertical distance between the flight paths of the wheels and the GP antenna (m) |
+        > |-------------------|----------|-------------------------------------------------------------------------------|
+        > | H                 | 30       | 3                                                                             |
+        > | A, B              | 60       | **6**                                                                         |
+        > | C, D              | 65       | 7                                                                             |
+        > | DL                | 80       | 8                                                                             |
+      presets:
+        - correctAnswers:
+            - text: 6 m
+          wrongAnswers:
+            - text: 9 m
+            - text: 12 m
+            - text: 3 m
+- id: QPVOS
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104035
+    - AVEXAM-8129
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.01.09
+    - 010.06.04.04.05
+  templates:
+    - type: simple
+      question: While an aircraft is executing a CAT I precision approach and is localizer established, the reported RVR drops below the required minima. What is the correct course of action?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Immediately go around.
+          wrongAnswers:
+            - text: Level off and continue until you find visual references.
+            - text: Stick to your initial intention of flying a CAT I approach and continue.
+            - text: Revert to CAT II minima if time allows for it.
+- id: QCLEI
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105267
+    - AVEXAM-50906
+    - BGS-100694
+    - ATPLQ-105539
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.01.11
+  templates:
+    - type: simple
+      question: For a non-precision approach procedure, what will be produced when an additional margin is added to the OCH when considering the effects of operational factors?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, 1.7
+
+        > In general, minima are developed by adding the effect of a number of operational factors to OCA/H to produce, in the case of precision approaches, **decision altitude (DA) or decision height (DH)** and, in the case of non-precision approaches, **minimum descent altitude (MDA) or minimum descent height (MDH)**. […]
+      presets:
+        - correctAnswers:
+            - text: The minimum descent height.
+          wrongAnswers:
+            - text: The minimum descent altitude.
+            - text: The decision height.
+            - text: The decision altitude.
+    - type: simple
+      question: If a margin is added to the OCH of a precision approach, what is the result?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, 1.7
+
+        > In general, minima are developed by adding the effect of a number of operational factors to OCA/H to produce, in the case of precision approaches, **decision altitude (DA) or decision height (DH)** and, in the case of non-precision approaches, **minimum descent altitude (MDA) or minimum descent height (MDH)**. […]
+      presets:
+        - correctAnswers:
+            - text: Decision Height
+          wrongAnswers:
+            - text: Minimum Decision Altitude
+            - text: Minimum Descent Height
+            - text: Minimum Descent Altitude
+- id: QVIEA
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108420
+    - BGS-101761
+    - AVEXAM-63267
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.01.11
+  templates:
+    - type: simple
+      question: |-
+        The OCH of a precision approach to runway 01 is {{och}} ft. In accordance with ICAO Doc 8168, what is the OCA of the approach (in ft)?
+
+        - Aerodrome elevation: {{elev}} ft
+        - RWY 01 threshold elevation: {{t01}} ft
+        - RWY 19 threshold elevation: {{t19}} ft
+      explanation: |-
+        For a precision approach, OCA is referenced to the elevation of the threshold of the runway concerned. OCA = OCH + threshold elevation.
+
+        **Solution**
+
+        $$
+        \text{OCH}+\text{RWY 01 threshold elevation} = {{och}}+{{t01}} = \mathbf{ {{answer}}\ \text{ft} }
+        $$
+
+        ## Why the other answers are wrong
+        - **{{d1}} ft**: uses the aerodrome elevation instead of the RWY 01 threshold elevation.
+        - **{{d2}} ft**: uses the elevation of the opposite threshold (RWY 19).
+        - **{{d3}} ft**: gives the OCH, which is a height, not an altitude.
+        - **{{d4}} ft**: adds both the aerodrome and the threshold elevation.
+      presets:
+        - variables:
+            och: 154
+            elev: 35
+            t01: 40
+            t19: 30
+            answer: 194
+            d1: 189
+            d2: 184
+            d3: 154
+            d4: 229
+          correctAnswers:
+            - text: 194 ft
+          wrongAnswers:
+            - text: 189 ft
+            - text: 154 ft
+            - text: 229 ft
+            - text: 184 ft
+        - variables:
+            och: 180
+            elev: 50
+            t01: 56
+            t19: 44
+            answer: 236
+            d1: 230
+            d2: 224
+            d3: 180
+            d4: 286
+          correctAnswers:
+            - text: 236 ft
+          wrongAnswers:
+            - text: 230 ft
+            - text: 180 ft
+            - text: 286 ft
+            - text: 224 ft
+- id: QMOVX
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101686
+    - AVEXAM-98774
+  annexes:
+    - id: AJUO
+  learningObjectiveIds:
+    - 010.06.04.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which one describes correctly the primary and secondary areas?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Figure D
+          wrongAnswers:
+            - text: Figure A
+            - text: Figure C
+            - text: Figure B
+- id: QOXUG
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104764
+    - ATPLQ-106026
+  annexes:
+    - id: AJUO
+  learningObjectiveIds:
+    - 010.06.04.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Where track guidance is provided in the design of a procedure, each segment comprises a specified volume of airspace, the vertical cross-section of which is divided into different areas. These areas for a straight track segment are represented by the following figure:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: D
+          wrongAnswers:
+            - text: B
+            - text: A
+            - text: C
+- id: QFOWC
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104655
+    - AVEXAM-70879
+    - BGS-102293
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.02.02
+  templates:
+    - type: simple
+      question: "According to ICAO Doc 8168, where track guidance is provided in the design of a procedure, each segment comprises a specified volume of airspace, the vertical cross-section of which is an area located symmetrically about the centre line of each segment. The name of the area where full obstacle clearances are applied is:"
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Definitions
+
+        > Primary area. A defined area **symmetrically disposed about the nominal flight track** in which **full obstacle clearance** is provided.
+
+        > Secondary area. A defined area on each side of the primary area located along the nominal flight track in which **decreasing obstacle clearance** is provided.
+      presets:
+        - correctAnswers:
+            - text: The primary area
+          wrongAnswers:
+            - text: The initial area
+            - text: The secondary area
+            - text: The Intermediate area
+- id: QUTBI
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106021
+    - AVEXAM-74014
+    - BGS-101213
+    - AVEXAM-84914
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.02.03
+  templates:
+    - type: simple
+      question: What is FAP?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, 5.5.2
+
+        > The FAS begins at the FAP. This is **a point in space on the final approach track where the intermediate approach altitude/height intercepts the nominal glide path** of the ILS, GLS or SBAS CAT I, or the MLS elevation angle.
+      presets:
+        - correctAnswers:
+            - text: A point in space on the final approach track where the intermediate approach altitude/height intercepts the nominal glide path/microwave landing system (MLS) elevation angle.
+          wrongAnswers:
+            - text: It is designed to place the aircraft on the localizer or the MLS azimuth specified for the final approach track.
+            - text: It is the point of intersection of an electronic glide path with the applicable DA/H in APV or precision approaches
+            - text: It identifies the beginning of the intermediate approach segment of an instrument approach procedure.
+- id: QZYOB
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104138
+    - BGS-101822
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.02.03
+  templates:
+    - type: simple
+      question: In an ILS approach, the point on the final approach track, where the intermediate approach altitude intercepts the glide path, is called the..
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, 5.5.2
+
+        > The FAS begins at the FAP. This is **a point in space on the final approach track where the intermediate approach altitude/height intercepts the nominal glide path** of the ILS, GLS or SBAS CAT I, or the MLS elevation angle.
+      presets:
+        - correctAnswers:
+            - text: FAP.
+          wrongAnswers:
+            - text: FAF.
+            - text: IAF.
+            - text: IF.
+- id: QAKYA
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104416
+    - AVEXAM-13517
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.02.05
+  templates:
+    - type: simple
+      question: What is the optimum glide path angle for an ILS approach if no obstacles or similar demand for a different angle?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, 1.10.1
+
+        > Wherever possible, descent procedures are planned with an **optimum gradient/angle of 5.2 per cent/3.0°**. When necessary, the descent gradient may be increased up to a maximum value which is dependent on aircraft category.
+      presets:
+        - correctAnswers:
+            - text: 5.2%
+          wrongAnswers:
+            - text: 0.5%
+            - text: 2.5%
+            - text: 3%
+- id: QMBHX
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104452
+    - BGS-101655
+    - AVEXAM-96157
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.02.05
+  templates:
+    - type: simple
+      question: What is the preferred ILS glide path for a precision approach
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, 1.10.1
+
+        > Wherever possible, descent procedures are planned with an **optimum gradient/angle of 5.2 per cent/3.0°**. When necessary, the descent gradient may be increased up to a maximum value which is dependent on aircraft category.
+      presets:
+        - correctAnswers:
+            - text: 3 degrees
+          wrongAnswers:
+            - text: 2.5%
+            - text: 5 degrees
+            - text: 3%
+- id: QQAHW
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102696
+    - AVEXAM-98415
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.03.01
+  templates:
+    - type: simple
+      question: In an instrument approach, the Intermediate Fix (IF) is the..
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Definitions
+
+        > Intermediate fix (IF). A fix that **marks the end of an initial segment and the beginning of the intermediate segment**. […]
+      presets:
+        - correctAnswers:
+            - text: end of the initial approach segment.
+          wrongAnswers:
+            - text: point located half-way between the Initial and Final Fixes.
+            - text: end of the intermediate approach segment.
+            - text: beginning of the initial approach segment.
+- id: QQIUJ
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103973
+    - BGS-100149
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.03.01
+    - 010.06.04.03.03
+  templates:
+    - type: simple
+      question: What is the turn made by an aircraft during the initial approach to the runway between the end of the outbound track and the beginning of the intermediate or final approach track, where the tracks are not reciprocal?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Definitions
+
+        > Base turn. A turn executed by the aircraft during the initial approach between the end of the outbound track and the beginning of the intermediate or final approach track. **The tracks are not reciprocal.**
+      presets:
+        - correctAnswers:
+            - text: Base turn
+          wrongAnswers:
+            - text: Reversal orbit
+            - text: Procedure turn
+            - text: Race track
+- id: QTKRH
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102726
+    - AVEXAM-11608
+    - BGS-101764
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.03.01
+  templates:
+    - type: simple
+      question: In an instrument approach procedure, what is the name of the segment connecting the initial and final segments?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Definitions
+
+        > Intermediate approach segment. That segment of an instrument approach procedure **between either the intermediate fix and the final approach fix or point**, or between the end of a reversal, racetrack or dead reckoning track procedure and the final approach fix or point, as appropriate.
+      presets:
+        - correctAnswers:
+            - text: Intermediate segment.
+          wrongAnswers:
+            - text: Arrival segment.
+            - text: Secondary segment.
+            - text: Feeder segment.
+- id: QDKYH
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108182
+    - AVEXAM-22019
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.03.02
+  templates:
+    - type: simple
+      question: On an instrument approach, the Initial Approach Fix (IAF) marks the...
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 4, 1.1
+
+        > A standard instrument arrival (STAR) route permits transition from the en-route phase to the approach phase. […] arrival routes from the en-route phase to a fix or facility used in the procedure are published. **This is normally the initial approach fix (IAF).**
+
+        > Standard instrument arrival (STAR). A designated instrument flight rule (IFR) arrival route linking a significant point, normally on an ATS route, with **a point from which a published instrument approach procedure can be commenced**.
+      presets:
+        - correctAnswers:
+            - text: end point of the Standard Instrument Arrival (STAR).
+          wrongAnswers:
+            - text: initial point of the Standard Instrument Arrival (STAR).
+            - text: beginning of the Intermediate Segment.
+            - text: end point of the Initial Segment.
+- id: QHFMJ
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102382
+    - AVEXAM-44934
+    - BGS-100012
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.03.02
+  templates:
+    - type: simple
+      question: The BISBA3Y Standard Instrument Arrival (STAR) ends at the LESBA waypoint. – LESBA is the?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 4, 1.1
+
+        > A standard instrument arrival (STAR) route permits transition from the en-route phase to the approach phase. […] arrival routes from the en-route phase to a fix or facility used in the procedure are published. **This is normally the initial approach fix (IAF).**
+
+        > Standard instrument arrival (STAR). A designated instrument flight rule (IFR) arrival route linking a significant point, normally on an ATS route, with **a point from which a published instrument approach procedure can be commenced**.
+      presets:
+        - correctAnswers:
+            - text: IAF.
+          wrongAnswers:
+            - text: FAF.
+            - text: IF.
+            - text: FAP (Final Approach Point).
+- id: QSLDV
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101935
+    - BGS-101454
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.03.03
+  templates:
+    - type: simple
+      question: |-
+        What is the approach segment which is being described below?
+
+        In this approach segment, the aircraft has left the en-route structure and is manoeuvring to enter the intermediate approach segment. Aircraft speed and configuration will depend on the distance from the aerodrome, and the descent required.
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, 3.1.1
+
+        > The initial approach segment begins at the initial approach fix (IAF) and ends at the intermediate fix (IF). In the initial approach, **the aircraft has left the en-route structure and is manoeuvring to enter the intermediate approach segment.**
+      presets:
+        - correctAnswers:
+            - text: Initial Approach Segment.
+          wrongAnswers:
+            - text: Intermediate Approach Segment.
+            - text: Final Approach Segment.
+            - text: Arrival Route.
+- id: QPHJK
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103299
+    - AVEXAM-89417
+    - AVEXAM-52893
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.03.04
+  templates:
+    - type: simple
+      question: What is the maximum interception angle between the initial and intermediate segment for a precision approach?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, 3.1.2
+
+        > Track guidance should be provided along the initial approach segment to the IF, with a maximum angle of interception of: a) **90° for a precision approach**; and b) 120° for a non-precision approach.
+      presets:
+        - correctAnswers:
+            - text: 90°
+          wrongAnswers:
+            - text: 30°
+            - text: 45°
+            - text: 120°
+- id: QFHKV
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104923
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.03.05
+    - 010.06.04.03.08
+  templates:
+    - type: simple
+      question: In a precision approach (ILS), the glide path interception generally occurs at heights above runway elevation between..
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, 5.5.3
+
+        > The intermediate approach altitude/height generally intercepts the glide path of the ILS, GLS or SBAS CAT I, or the MLS elevation angle, at heights **from 300 m (1 000 ft) to 900 m (3 000 ft)** above runway elevation.
+      presets:
+        - correctAnswers:
+            - text: 300 m (1000 ft) and 900 m (3000 ft).
+          wrongAnswers:
+            - text: 150 m (500 ft) and 300 m (1000 ft).
+            - text: 150 m (500 ft) and 900 m (3000 ft).
+            - text: 300 m (1000 ft) and 600 m (2000 ft).
+- id: QUHYV
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101911
+    - BGS-101799
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.03.05
+  templates:
+    - type: simple
+      question: The intermediate approach segment is the segment during which the aircraft...
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, 4.1
+
+        > This is the segment during which the aircraft **speed and configuration should be adjusted to prepare the aircraft for final approach.** For this reason, the designed descent gradient is kept as shallow as possible. […]
+      presets:
+        - correctAnswers:
+            - text: speed and configuration should be adjusted to prepare the aircraft for final approach.
+          wrongAnswers:
+            - text: leaves the en-route segment and starts the approach segment.
+            - text: is configured and makes the alignment for landing.
+            - text: makes the alignment and descend for landing.
+- id: QMCPA
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103667
+    - AVEXAM-62904
+    - BGS-101774
+    - ATPLQ-101295
+    - BGS-101638
+    - AVEXAM-97886
+    - ATPLQ-107651
+    - AVEXAM-38082
+    - BGS-100177
+    - AVEXAM-69321
+    - AVEXAM-19961
+    - BGS-100935
+    - BGS-100182
+    - BGS-100179
+    - AVEXAM-47281
+    - ATPLQ-104063
+    - ATPLQ-107180
+    - AVEXAM-3112
+    - AVEXAM-93303
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.03.06
+  templates:
+    - type: simple
+      question: What is the purpose of the Final Approach segment?
+      explanation: The final approach segment is the part of an instrument approach in which alignment with the runway and descent for landing are carried out.
+      presets:
+        - correctAnswers:
+            - text: For aircraft alignment and descent for landing.
+          wrongAnswers:
+            - text: To join the airways system with the ILS procedure.
+            - text: To transition from the en-route phase to the approach phase.
+            - text: For speed adjustment and to configure the aircraft for landing.
+    - type: simple
+      question: "What is correct regarding the Final Approach segment in the instrument approach procedure? It is where the aircraft:"
+      explanation: The final approach segment is the part of an instrument approach in which the aircraft is aligned with the runway and makes its final descent for landing. Speed reduction and level flight belong to earlier segments.
+      presets:
+        - correctAnswers:
+            - text: Is aligned and is making the final descent for landing.
+          wrongAnswers:
+            - text: Is flying level and reducing speed for final descent.
+            - text: Has to descend at 1000 feet per minute.
+            - text: Has left the en-route structure and is preparing for final.
+    - type: simple
+      question: Approach procedures – Arrival and approach segments – In an instrument approach procedure, the segment in which alignment and descent for landing are made is called the..
+      explanation: The segment in which alignment and descent for landing are made is the final approach segment. The arrival and initial approach segments come earlier and bring the aircraft to the approach.
+      presets:
+        - correctAnswers:
+            - text: final approach segment.
+          wrongAnswers:
+            - text: arrival segment.
+            - text: initial approach segment.
+            - text: intermediate approach segment.
+- id: QLCES
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106310
+    - AVEXAM-56512
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.03.07
+  templates:
+    - type: simple
+      question: What can the pilot of an aircraft do after executing a Continuous Descent Approach (CDA)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Land or go around.
+          wrongAnswers:
+            - text: A circle to land.
+            - text: Left-hand circuit patterns.
+            - text: Right-hand circuit patterns.
+- id: QHGLB
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102747
+    - AVEXAM-45145
+    - BGS-101721
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.03.08
+  templates:
+    - type: simple
+      question: In precision approach procedures, the FAP is a point…
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, 5.5.2
+
+        > The FAS begins at the FAP. This is **a point in space on the final approach track where the intermediate approach altitude/height intercepts the nominal glide path** of the ILS, GLS or SBAS CAT I, or the MLS elevation angle.
+      presets:
+        - correctAnswers:
+            - text: In space on the final approach track where the intermediate approach altitude/height intercepts the nominal glide path.
+          wrongAnswers:
+            - text: Sited on the final approach track at a distance that permits selection of final approach configuration, and descent from intermediate approach altitude to the appropriate MDA.
+            - text: In an instrument approach procedure at which the prescribed missed approach procedure must be initiated in order to ensure minimum obstacle clearance.
+            - text: That marks the end of an initial segment and the beginning of the intermediate segment of the precision approach.
+- id: QTLYN
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101476
+    - AVEXAM-15497
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.03.09
+  templates:
+    - type: simple
+      question: "If an ILS glide path (GP) becomes inoperative during the approach:"
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, 5.5.4.3
+
+        > In the event of loss of ILS, GLS or SBAS CAT I glide path or MLS elevation angle guidance during the approach, **the procedure may become a non-precision approach**. The OCA/H and associated procedure published for the glide path/MLS elevation angle inoperative case will then apply.
+      presets:
+        - correctAnswers:
+            - text: A go-around should be initiated, or, if time permits, the approach can be continued by using the LOC signals.
+          wrongAnswers:
+            - text: It must be continued to the ILS minimum without GP.
+            - text: ATC should be contacted for further instructions.
+            - text: A go-around must be performed.
+- id: QZADC
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105895
+    - BGS-101489
+    - AVEXAM-81247
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.03.09
+  templates:
+    - type: simple
+      question: You are flying an ILS approach in IMC conditions when the Glide Path (GP) signal is lost. What will you do?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, 5.5.4.3
+
+        > In the event of loss of ILS, GLS or SBAS CAT I glide path or MLS elevation angle guidance during the approach, **the procedure may become a non-precision approach**. The OCA/H and associated procedure published for the glide path/MLS elevation angle inoperative case will then apply.
+      presets:
+        - correctAnswers:
+            - text: If time permits, revert to the published LOC approach procedure, or go around.
+          wrongAnswers:
+            - text: Maintain the current vertical speed, and continue descending until the ILS minima.
+            - text: It is mandatory to perform a missed approach if the GP signal fails.
+            - text: Continue down until the standby GP transmitter on the ground takes over.
+- id: QKYZM
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109595
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.04.02
+  templates:
+    - type: simple
+      question: What is the main purpose of the missed approach procedure
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 7, 7.1.2
+
+        > Only one missed approach procedure is established for each instrument approach procedure. It is designed to **provide protection from obstacles throughout the missed approach manoeuvre**. It specifies a point where the missed approach begins, and a point or an altitude/height where it ends.
+      presets:
+        - correctAnswers:
+            - text: To provide obstacle protection throughout the manoeuvre.
+          wrongAnswers:
+            - text: To minimise noise in the aerodrome surroundings.
+            - text: To climb to the highest MSA in the aerodrome area.
+            - text: To direct aircraft to the IAF for the subsequent approach.
+- id: QEXTG
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101875
+    - BGS-101520
+    - AVEXAM-56045
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.04.03
+  templates:
+    - type: simple
+      question: What is the missed approach point in an instrument approach procedure?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 7, 7.1.7
+
+        > If upon reaching the MAPt the required visual reference is not established, the procedure requires that a missed approach be initiated at once in order to maintain protection from obstacles.
+      presets:
+        - correctAnswers:
+            - text: It is the point where the pilot would initiate a missed approach, if the approach CANNOT be continued.
+          wrongAnswers:
+            - text: It is where the decision point is located.
+            - text: It is a point determined by the pilot for initiating a missed approach, if the approach CANNOT be continued.
+            - text: It is where the final approach segment terminates.
+- id: QVVZH
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109938
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.04.03
+  templates:
+    - type: simple
+      question: In instrument approach procedures, the MAPt is the..
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 7, 7.1.7
+
+        > If upon reaching the MAPt the required visual reference is not established, the procedure requires that a missed approach be **initiated at once** in order to maintain protection from obstacles.
+      presets:
+        - correctAnswers:
+            - text: latest point at which the missed approach procedure must be initiated.
+          wrongAnswers:
+            - text: point marking the end of the missed approach procedure.
+            - text: point overhead the middle of the runway from which the go-around must be initiated.
+            - text: point at which the aircraft must level off if there is no visual contact.
+- id: QQVUJ
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102352
+    - AVEXAM-41552
+    - BGS-100843
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.04.04
+  templates:
+    - type: simple
+      question: In a precision approach, the Missed Approach Point (MAPt) may be defined by..
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 7, 7.1.5
+
+        > The MAPt in a procedure may be defined by:
+        >
+        > a) **the point of intersection of a glide path with the applicable DA/H in APV or precision approaches**; or
+        >
+        > b) a navigation facility, a fix, a waypoint or a specified distance from the FAF in non-precision approaches. […]
+      presets:
+        - correctAnswers:
+            - text: the intersection of the electronic glide path with the applicable DA/H.
+          wrongAnswers:
+            - text: a specified distance (DME) from the landing threshold.
+            - text: the location of the Inner Marker.
+            - text: the aerodrome-based beacon (VOR or NDB) or other navigation facility.
+- id: QCZFM
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103471
+    - BGS-100879
+    - AVEXAM-45512
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.04.05
+    - 010.06.04.04.06
+  templates:
+    - type: simple
+      question: "The missed approach procedure should be initiated:"
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 7, 7.1.3 and 7.1.4
+
+        > The missed approach should be initiated **at the DA/H on a 3D approach operation** if the required visual reference to continue the approach has not been established.
+        >
+        > On a 2D approach operation, descent shall not be made below the MDA or MDH without the required visual reference. […]
+      presets:
+        - correctAnswers:
+            - text: At or higher than the DA/H in precision approaches.
+          wrongAnswers:
+            - text: At the altitude/height corresponding to the vertical profile at the Inner Marker.
+            - text: At or higher than the DA/H in non-precision approaches.
+            - text: At or higher than the MDA/H in precision approaches.
+- id: QWSVV
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104109
+    - BGS-101793
+    - AVEXAM-5650
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.04.05
+  templates:
+    - type: simple
+      question: You are flying an ILS CAT I instrument approach, and upon reaching the MAPt, you cannot establish the required visual references. – What should you do?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 7, 7.1.7 and 7.1.8.2
+
+        > If upon reaching the MAPt the required visual reference is not established, the pilot shall **initiate a missed approach immediately** in order to maintain protection from obstacles.
+      presets:
+        - correctAnswers:
+            - text: Immediately initiate the missed approach procedure.
+          wrongAnswers:
+            - text: Continue descending until the visual references are established.
+            - text: If CAT II minima are published on the chart, continue down to the CAT II minima.
+            - text: Level off and continue looking for visual references.
+- id: QRIZP
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101568
+    - BGS-101825
+    - AVEXAM-90623
+    - AVEXAM-66484
+    - ATPLQ-106668
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.04.06
+  templates:
+    - type: simple
+      question: If a missed approach is initiated prior to reaching the MAPt, what should the pilot do?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 7, 7.1.8.3
+
+        > If a missed approach is initiated before arriving at the MAPt, the pilot should **continue the lateral tracking of the approach being conducted until reaching the MAPt, then follow the missed approach procedure as published** in order to remain within the protected airspace. This does not preclude flying over the MAPt at an altitude/height greater than that required by the procedure.
+      presets:
+        - correctAnswers:
+            - text: Proceed to that point and then follow the procedure.
+          wrongAnswers:
+            - text: Maintain runway track and wait for ATC instructions.
+            - text: If above the MSA, turn to the IAF for the subsequent approach.
+            - text: Climb straight ahead until over the MAPt and request radar vectors.
+    - type: simple
+      question: Is it possible to initiate a missed approach before reaching the Missed Approach Point (MAPt)?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 7, 7.1.8.3
+
+        > If a missed approach is initiated before arriving at the MAPt, the pilot should **continue the lateral tracking of the approach being conducted until reaching the MAPt, then follow the missed approach procedure as published** in order to remain within the protected airspace. This does not preclude flying over the MAPt at an altitude/height greater than that required by the procedure.
+      presets:
+        - correctAnswers:
+            - text: Yes, and the pilot must follow the lateral track of the missed approach procedure.
+          wrongAnswers:
+            - text: Yes, and the pilot must turn directly to the Initial Approach Fix (IAF).
+            - text: No, as the pilot must reach the MAPt before initiating the missed approach.
+            - text: No, as the lateral track of the missed approach cannot be joined early.
+- id: QZDFQ
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103324
+    - BGS-101512
+    - AVEXAM-88106
+    - AVEXAM-6853
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.04.07
+  templates:
+    - type: simple
+      question: If a missed approach is initiated prior to reaching the MAPt, at what altitude/height shall the aircraft overfly the MAPt?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 7, 7.1.8.3
+
+        > If a missed approach is initiated before arriving at the MAPt, the pilot should continue the lateral tracking of the approach being conducted until reaching the MAPt, then follow the missed approach procedure as published in order to remain within the protected airspace. This does not preclude **flying over the MAPt at an altitude/height greater than that required by the procedure**.
+      presets:
+        - correctAnswers:
+            - text: An any altitude/height equal to or greater than that required by the procedure.
+          wrongAnswers:
+            - text: It must overfly the MAPt at the corresponding approach altitude/height minima.
+            - text: A turn towards the IAF can be initiated without overflying the MAPt.
+            - text: Initiation of the missed approach before the MAPt is prohibited.
+- id: QCFWT
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds:
+    - QGYWH
+  externalQuestionIds:
+    - ATPLQ-103905
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.05.01
+  templates:
+    - type: simple
+      question: An aircraft executes the last portion of an approach visually since it does not line up with the landing runway. How is that type of approach defined?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 6, 6.1.1
+
+        > Visual manoeuvring (circling) is the term used to describe the phase of flight after an instrument approach has been completed. It brings the aircraft into position for landing on a runway which is not suitably located for straight-in approach, i.e. one where the criteria for alignment or descent gradient cannot be met.
+      presets:
+        - correctAnswers:
+            - text: Visual manoeuvring (circling).
+          wrongAnswers:
+            - text: Non-precision approach (circling).
+            - text: Contact approach (circling).
+            - text: Visual approach (circling).
+- id: QGYWH
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds:
+    - QCFWT
+  externalQuestionIds:
+    - ATPLQ-103304
+    - AVEXAM-31475
+    - BGS-101649
+    - AVEXAM-32364
+    - ATPLQ-106837
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.05.01
+  templates:
+    - type: simple
+      question: '"The visual phase of an Instrument Approach to bring an aircraft into position for landing on a runway/FATO that is not suitably located for a straight-in approach" is the definition of...'
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 6, 6.1.1
+
+        > Visual manoeuvring (circling) is the term used to describe the phase of flight after an instrument approach has been completed. It brings the aircraft into position for landing on a runway which is not suitably located for straight-in approach, i.e. one where the criteria for alignment or descent gradient cannot be met.
+      presets:
+        - correctAnswers:
+            - text: Visual manoeuvring (circling)
+          wrongAnswers:
+            - text: Visual approach (circling)
+            - text: Contact approach (circling)
+            - text: Aerodrome traffic circuit (circling)
+    - type: simple
+      question: The procedure describing the visual phase following an instrument approach, bringing an aircraft into position for the landing on a runway different from the one for a straight-in approach, is called..
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 6, 6.1.1
+
+        > Visual manoeuvring (circling) is the term used to describe the phase of flight after an instrument approach has been completed. It brings the aircraft into position for landing on a runway which is not suitably located for straight-in approach, i.e. one where the criteria for alignment or descent gradient cannot be met.
+      presets:
+        - correctAnswers:
+            - text: visual manoeuvring – circling.
+          wrongAnswers:
+            - text: contact approach.
+            - text: aerodrome traffic pattern.
+            - text: visual approach.
+- id: QNDBV
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103791
+    - AVEXAM-15493
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.05.01
+    - 010.06.04.05.06
+  templates:
+    - type: simple
+      question: Which airspaces require the implementation of circling approaches?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 6, 6.1.1
+
+        > […] a runway which is not suitably located for straight-in approach, i.e. one where the **criteria for alignment or descent gradient cannot be met**.
+      presets:
+        - correctAnswers:
+            - text: Where straight-in approaches are not possible due to constraints over the final track (terrain) and/or the descent gradient.
+          wrongAnswers:
+            - text: Where straight-in approaches are not possible due to constraints over the final track (terrain).
+            - text: Only at challenging airports.
+            - text: Only in class E airspaces.
+- id: QOKBX
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104296
+    - BGS-100187
+    - AVEXAM-61482
+    - AVEXAM-48340
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.05.02
+  templates:
+    - type: simple
+      question: For visual manoeuvring, a sector in the circling area where a prominent obstacle exists may be ignored for OCA/H calculation if it is outside the final approach and missed approach areas. – When this option is exercised, the published procedure...
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 6, 6.3.4
+
+        > A sector in the circling area where a prominent obstacle exists may be ignored for OCA/H calculations if it is outside the final approach and missed approach areas for the instrument approach. […]
+        >
+        > When this option is exercised, the published procedure **prohibits circling within the entire sector** in which the obstacle is located.
+      presets:
+        - correctAnswers:
+            - text: prohibits circling within the entire sector in which the obstacle is located.
+          wrongAnswers:
+            - text: recommends not to perform the circling within the total sector in which the obstacle exists.
+            - text: permits circling only in VMC.
+            - text: prohibits the circling approach to the affected runway.
+    - type: simple
+      question: A Visual Manoeuvring (Circling) Area may be sectored to exclude a prominent obstacle. Under what circumstances is this permitted?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 6, 6.3.4
+
+        > A sector in the circling area where a prominent obstacle exists may be ignored for OCA/H calculations if it is outside the final approach and missed approach areas for the instrument approach. […]
+        >
+        > When this option is exercised, the published procedure **prohibits circling within the entire sector** in which the obstacle is located.
+      presets:
+        - correctAnswers:
+            - text: The obstacle is outside the final approach or missed approach areas.
+          wrongAnswers:
+            - text: The obstacle height for that obstacle is not more than 10% higher than the OCH calculated without consideration of that obstacle.
+            - text: Flight visibility of 1 500 m or more and cloud ceiling of 850 ft or more.
+            - text: The obstacle lies on the other side of the aerodrome from the threshold of the landing runway.
+- id: QECFI
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107809
+    - AVEXAM-83828
+    - BGS-101468
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.05.03
+  templates:
+    - type: simple
+      question: For which ICAO aircraft categories is the obstacle clearance altitude/height within an established visual manoeuvring (circling) area determined?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 6, 6.3.2 and Table II-5-6-1
+
+        > When the visual manoeuvring (circling) area has been established, the OCA/H is determined for each category of aircraft (see Table II-5-6-1).
+
+        Table II-5-6-1 lists the obstacle clearance and the lowest OCH above aerodrome elevation for aircraft categories **A, B, C, D and E**.
+      presets:
+        - correctAnswers:
+            - text: A, B, C, D, E
+          wrongAnswers:
+            - text: A, B, C, D
+            - text: B, C, D, E
+            - text: C, D, E
+- id: QOHIM
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109688
+    - BGS-101767
+    - AVEXAM-39484
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.05.04
+  templates:
+    - type: simple
+      question: According to ICAO Doc 8168, for a visual manoeuvring (circling), when the OCA/H is established, a/an \_\_\_ is also specified to allow for operational considerations.
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 6, 6.3.3
+
+        > When the OCA/H is established, an **MDA/H** is also specified to allow for operational considerations.
+      presets:
+        - correctAnswers:
+            - text: MDA/H
+          wrongAnswers:
+            - text: NCA/H
+            - text: OCL
+            - text: DA/H
+- id: QEEZA
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105080
+    - AVEXAM-64862
+    - BGS-100189
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.05.05
+  templates:
+    - type: simple
+      question: What condition allows descent below the MDA on a circling approach?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 6, 6.3.3
+
+        > Descent below MDA/H should not be made until:
+        >
+        > a) **required visual reference has been established and can be maintained throughout the manoeuvre**;
+        >
+        > b) the pilot has the landing threshold in sight; and
+        >
+        > c) the required obstacle clearance can be maintained and the aircraft is in a position to carry out a landing using normal rates of descent and angles of bank.
+      presets:
+        - correctAnswers:
+            - text: The required visual references have been established and can be maintained.
+          wrongAnswers:
+            - text: The horizontal visibility is at least 5 NM and the ceiling is 1 500 ft or higher.
+            - text: The landing runway or an alternative runway is in sight.
+            - text: The ceiling is 1 500 ft or higher.
+- id: QQUAE
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109565
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.05.06
+  templates:
+    - type: simple
+      question: It is NOT possible to design a single procedure that can cater for every situation when a circling approach would be conducted. What are the variables that make every circling situation different?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 6, 6.2.1
+
+        > A circling approach is a visual flight manoeuvre. Each circling situation is different because of variables such as **runway layout, final approach track, wind velocity and meteorological conditions**. Therefore, there can be no single procedure designed that will cater for conducting a circling approach in every situation.
+      presets:
+        - correctAnswers:
+            - text: Runway layout, final approach track, wind velocity, and meteorological conditions.
+          wrongAnswers:
+            - text: Availability of navigation aids, obstacles around the airport, and pilot experience.
+            - text: Meteorological conditions, availability of navigation aids, pilot experience, and final approach track.
+            - text: Pilot experience, obstacles around the airport, and meteorological conditions.
+- id: QPNGL
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102045
+    - BGS-101635
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.05.08
+  templates:
+    - type: simple
+      question: An aircraft has completed an approach procedure and is executing a visual manoeuvre (circling). While circling, visual contact with the runway environment is lost. Which of the following is the correct transition to the missed approach procedure?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 6, 6.4.1
+
+        > If visual reference is lost while circling to land from an instrument approach, the missed approach specified for that particular procedure shall be followed. The transition from the visual (circling) manoeuvre to the missed approach should be initiated by **a climbing turn, within the circling area, towards the landing runway**, to return to the circling altitude or higher, immediately followed by interception and execution of the missed approach procedure.
+      presets:
+        - correctAnswers:
+            - text: A climbing turn towards the landing runway.
+          wrongAnswers:
+            - text: Execute a 180-degree turn, back to the approach sector.
+            - text: Remain at MDA until visual reference is regained.
+            - text: An immediate climb straight ahead.
+- id: QPSOQ
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106716
+    - AVEXAM-73061
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.04.05.08
+  templates:
+    - type: simple
+      question: An aircraft is executing an approach on runway 22 followed by a visual manoeuvering (circling) on runway 04. During the base leg, the crew loses visual references with runway 04. What is the correct course of action?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 5, Chapter 6, 6.4.1
+
+        > If visual reference is lost while circling to land from an instrument approach, the missed approach specified for that particular procedure shall be followed. The transition from the visual (circling) manoeuvre to the missed approach should be initiated by **a climbing turn, within the circling area, towards the landing runway**, to return to the circling altitude or higher, immediately followed by interception and execution of the missed approach procedure.
+
+        The missed approach followed is the one specified for the instrument approach flown (runway 22), while the climbing turn is made towards the landing runway (runway 04).
+      presets:
+        - correctAnswers:
+            - text: Fly toward RWY 04 and initiate the missed approach for RWY 22.
+          wrongAnswers:
+            - text: Fly toward RWY 22 and initiate the missed approach for RWY 22.
+            - text: Fly toward RWY 04 and initiate the missed approach for RWY 04.
+            - text: Continue until the minimums and initiate missed approach if visual references are not recovered.
+- id: QCLXD
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106858
+    - AVEXAM-71588
+    - BGS-101425
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.01.01
+  templates:
+    - type: simple
+      question: "When performing a holding procedure, a pilot must comply with specified parameters such as speed rate of turn, timing and distance. If a pilot deviates from the holding procedure, they are at risk of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Losing the appropriate obstacle clearance.
+          wrongAnswers:
+            - text: Losing control of the aircraft.
+            - text: Descending below the approach minima.
+            - text: Losing radio contact with Air Traffic Control.
+- id: QCUAT
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109766
+    - AVEXAM-58826
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.01.02
+  templates:
+    - type: simple
+      question: You are the pilot of an aircraft on an IFR flight and ATC clears the aircraft to hold at VILNA at FL080. The aircraft weather radar is unserviceable, and CB clouds are reported at FL070 and above. What steps should you follow?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, 2.1.7
+
+        > If for any reason a pilot is **unable to conform to the procedures for normal conditions, ATC should be advised as early as possible.**
+      presets:
+        - correctAnswers:
+            - text: As soon as practicable, ask ATC for re-clearance.
+          wrongAnswers:
+            - text: Descend to a lower flight level as quickly as possible.
+            - text: Continue to fly holding at FL080.
+            - text: Inform ATC that you are unable to hold due to radar equipment failure.
+- id: QRFCB
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105268
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.01.02
+  templates:
+    - type: simple
+      question: An approach clearance is given to an aircraft to hold at FL80\. Forecast reports, for the holding area, indicate that embedded CB cumulonimbus clouds with turbulence are expected at FL70 and above. The aircraft's weather radar is not working. What shall the pilot do?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, 2.1.7
+
+        > If for any reason a pilot is **unable to conform to the procedures for normal conditions, ATC should be advised as early as possible.**
+      presets:
+        - correctAnswers:
+            - text: they must inform ATC that they cannot comply with the instructions as soon as possible.
+          wrongAnswers:
+            - text: Enter the hold at FL80.
+            - text: Enter the hold at a higher level.
+            - text: Ask ATC for a new clearance as soon as entering the hold.
+- id: QCCHL
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101997
+    - BGS-101519
+  annexes:
+    - id: AQUQ
+  learningObjectiveIds:
+    - 010.06.05.01.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The inbound leg of the holding pattern is on the track (1) \_\_\_\_\_ and the outbound end is located at the (2) \_\_\_\_\_ end of the holding pattern.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) 010 degrees; (2) southern.
+          wrongAnswers:
+            - text: (1) 010 degrees; (2) northern.
+            - text: (1) 190 degrees; (2) southern.
+            - text: (1) 190 degrees; (2) northern.
+- id: QJFZH
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103607
+    - AVEXAM-39304
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.01.03
+  templates:
+    - type: simple
+      question: You are asked to hold on a non-standard holding fix (i.e. en-route). If no specific ATC instruction is received, in what direction are the turns expected to be made?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Right.
+          wrongAnswers:
+            - text: It depends upon the inbound holding track.
+            - text: At pilot's discretion.
+            - text: Left.
+- id: QBGQV
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-713806
+    - AVEXAM-47257
+    - AVEXAM-41161
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.01.04
+  templates:
+    - type: simple
+      question: "According to ICAO guidance for holding procedures, what is correct for all turns in nil wind? They should be at:"
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, 2.1.2
+
+        > All turns shall be made at a bank angle of **25° or at a rate of 3° per second, whichever requires the lesser bank.**
+      presets:
+        - correctAnswers:
+            - text: 25⁰ bank angle, or 3⁰ per second; whichever is lesser.
+          wrongAnswers:
+            - text: 25⁰ bank angle, or 3⁰ per second; whichever is larger.
+            - text: 20⁰ bank angle, or 3⁰ per second; whichever is larger.
+            - text: 20⁰ bank angle, or 3⁰ per second; whichever is lesser.
+- id: QEUNM
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107833
+    - AVEXAM-41811
+    - BGS-100800
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.01.04
+  templates:
+    - type: simple
+      question: What is the standard turn in a holding pattern?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, 2.1.2
+
+        > All turns shall be made at a bank angle of **25° or at a rate of 3° per second, whichever requires the lesser bank.**
+      presets:
+        - correctAnswers:
+            - text: 25 ° of bank or rate one turn, whichever requires the lesser bank.
+          wrongAnswers:
+            - text: 25 ° of bank or rate one turn, whichever requires the greater bank.
+            - text: 20 ° of bank or rate one turn, whichever requires the lesser bank.
+            - text: 15 ° of bank or rate one turn, whichever requires the greater bank.
+- id: QZZDS
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101360
+    - ATPLQ-108620
+    - BGS-100944
+    - AVEXAM-21979
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.01.04
+  templates:
+    - type: simple
+      question: While flying a holding pattern, the turns shall be made at a bank angle of (1) \_\_\_\_\_ or at a rate of turn of (2) \_\_\_\_\_, whichever requires (3) \_\_\_\_\_\_ bank.
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, 2.1.2
+
+        > All turns shall be made at a bank angle of **25° or at a rate of 3° per second, whichever requires the lesser bank.**
+      presets:
+        - correctAnswers:
+            - text: (1) 25°, (2) 3 degrees per second, (3) lesser
+          wrongAnswers:
+            - text: (1) 20°, (2) 5 degrees per second, (3) higher
+            - text: (1) 20°, (2) 3 degrees per second, (3) lesser
+            - text: (1) 25°, (2) 5 degrees per second, (3) higher
+- id: QWSYI
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109714
+    - AVEXAM-35770
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.01.05
+  templates:
+    - type: simple
+      question: An aircraft is flying in a holding pattern. Which adjustments shall be done by the pilot to remain within the holding pattern and protected airspace?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, 2.3.2
+
+        > Allowance should be made in **both heading and timing** to compensate for the effects of wind to ensure the inbound track is regained before passing the holding fix inbound. […]
+      presets:
+        - correctAnswers:
+            - text: heading and timing
+          wrongAnswers:
+            - text: tracking and speed
+            - text: tracking and timing
+            - text: heading and speed
+- id: QCMZI
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107958
+    - BGS-101656
+    - AVEXAM-19642
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.01.06
+  templates:
+    - type: simple
+      question: "Describe where the outbound timing begins in a holding pattern:"
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, 2.1.4
+
+        > Outbound timing begins **over or abeam the fix, whichever occurs later.** If the abeam position cannot be determined, start timing when the turn to outbound is completed.
+      presets:
+        - correctAnswers:
+            - text: over or abeam the fix, whichever occurs later.
+          wrongAnswers:
+            - text: abeam the fix only.
+            - text: over or abeam the fix, whichever occurs earlier.
+            - text: over the fix only.
+- id: QIQBY
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107125
+    - AVEXAM-59959
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.01.07
+  templates:
+    - type: simple
+      question: When are you going to start your turn while flying on the outbound leg of a holding (leg specified by 1 NM DME per leg)?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, 2.1.5
+
+        > If the outbound leg length is based on a distance measuring equipment (DME) distance, then **the outbound leg terminates as soon as the limiting DME distance is reached.**
+      presets:
+        - correctAnswers:
+            - text: as soon as DME states 1 NM.
+          wrongAnswers:
+            - text: 1 NM before reaching 1 NM DME.
+            - text: 0.5 NM before reaching 1 NM DME.
+            - text: 15 seconds before reaching 1 NM DME.
+- id: QTHVY
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107495
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.01.07
+  templates:
+    - type: simple
+      question: When flying a holding pattern with the outbound leg length based on DME distance, the outbound leg terminates..
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, 2.1.5
+
+        > If the outbound leg length is based on a distance measuring equipment (DME) distance, then **the outbound leg terminates as soon as the limiting DME distance is reached.**
+      presets:
+        - correctAnswers:
+            - text: as soon as the limiting DME distance is reached.
+          wrongAnswers:
+            - text: half a minute prior to reaching the limiting DME distance.
+            - text: 1 NM prior to reaching the limiting DME distance.
+            - text: 0.5 NM prior to reaching the limiting DME distance.
+- id: QFDQJ
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds:
+    - QRUTT
+  externalQuestionIds:
+    - ATPLQ-102981
+    - BGS-100194
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.01.08
+  templates:
+    - type: simple
+      question: Holding Procedures – Entry – The three entry sectors in a holding pattern have a zone of flexibility on either side of the sectors' boundaries of..
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, 2.2.2
+
+        > The entry into the holding pattern shall be according to heading in relation to the three entry sectors shown in Figure II-6-2-1, recognizing a **zone of flexibility of 5° on either side of the sector boundaries.**
+      presets:
+        - correctAnswers:
+            - text: 5 degrees.
+          wrongAnswers:
+            - text: 20 degrees.
+            - text: 15 degrees.
+            - text: 10 degrees.
+- id: QHDTR
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629367
+    - BGS-621078
+  annexes:
+    - id: ASRH
+  learningObjectiveIds:
+    - 010.06.05.01.08
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        To enter a holding pattern based on a VOR/DME fix, what are the entry sectors which are permissible when following a DME arc entry track?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, Chapter 2, 2.2.7
+
+        > DME arc entry
+        >
+        > To be used where specified. At the fix, the aircraft shall enter the holding pattern in accordance with either the **Sector 1 or Sector 3** entry procedure.
+      presets:
+        - correctAnswers:
+            - text: 1 and 3.
+          wrongAnswers:
+            - text: 2 and 3.
+            - text: 1, 2 and 3.
+            - text: 1 and 2.
+- id: QRUTT
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds:
+    - QFDQJ
+  externalQuestionIds:
+    - ATPLQ-104737
+    - BGS-100195
+    - AVEXAM-55734
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.01.08
+  templates:
+    - type: simple
+      question: Holding Procedures – Buffer Area – The buffer area beyond the boundary of the holding area extends to..
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, 2.4.2.1
+
+        > An additional buffer area extends **9.3 km (5.0 NM)** beyond the boundary of the holding area. Significant obstacles in the buffer area are taken into consideration when determining the minimum holding level.
+      presets:
+        - correctAnswers:
+            - text: 5 NM.
+          wrongAnswers:
+            - text: 5 km.
+            - text: 3 km.
+            - text: 3 NM.
+    - type: simple
+      question: How far beyond the boundary of the holding area does the buffer area extend to?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, 2.4.2.1
+
+        > An additional buffer area extends **9.3 km (5.0 NM)** beyond the boundary of the holding area. Significant obstacles in the buffer area are taken into consideration when determining the minimum holding level.
+      presets:
+        - correctAnswers:
+            - text: 5 NM
+          wrongAnswers:
+            - text: 5 km
+            - text: 3 km
+            - text: 3 NM
+- id: QRPZO
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107116
+    - BGS-100864
+    - AVEXAM-20333
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.01.09
+  templates:
+    - type: simple
+      question: "On entering and joining a hold you make only right hand turns. What are you performing? "
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, Chapter 2, 2.2.6
+
+        > Sector 3 procedure — direct entry (see Figure II-6-2-1):
+        >
+        > Having reached the fix, **the aircraft is turned right to follow the holding pattern**.
+
+        In the parallel entry (Sector 1) the aircraft first turns left, and in the offset entry (Sector 2) it flies a 30° offset track before turning right. Only the direct entry involves right-hand turns alone.
+      presets:
+        - correctAnswers:
+            - text: A direct entry with turns to the right.
+          wrongAnswers:
+            - text: A direct entry with turns to the left.
+            - text: An indirect entry with turns to the left.
+            - text: An indirect entry with turns to the right.
+- id: QYWPK
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101021
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.01.09
+  templates:
+    - type: simple
+      question: |-
+        When passing over a hold fix, an aircraft performs a left turn to heading 090. The pilot maintains track for a specified time, and then performs a second left turn to intercept the 270 inbound radial of the same hold fix. After flying over the hold fix for a second time, they perform a right turn and continues tracking around the hold procedure.   
+         The entry procedure which is being described is:
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, 2.2.4
+
+        > Sector 1 procedure — **parallel entry**: a) at the fix, the aircraft is turned left onto an outbound heading for the appropriate period of time […]; then b) the aircraft is turned toward the holding side to intercept the inbound track or to return directly to the fix; and then c) on second arrival over the holding fix, the aircraft is turned right to follow the holding pattern.
+
+        The procedures in this section are written for right-turn holding patterns; for a left-turn pattern the entry and holding procedures are symmetrical about the inbound track.
+      presets:
+        - correctAnswers:
+            - text: Parallel entry procedure.
+          wrongAnswers:
+            - text: Offset entry procedure.
+            - text: Reverse procedure.
+            - text: Direct entry procedure.
+- id: QPDWZ
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106701
+    - BGS-100825
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.01.10
+  templates:
+    - type: simple
+      question: "The following characteristics are specific for a holding pattern established at a VOR: standard turns, 1 minute outbound, inbound magnetic track of 010 degrees. If an aircraft is approaching the VOR on a heading of 030 degrees, the appropriate entry procedure would be.."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: direct.
+          wrongAnswers:
+            - text: teardrop.
+            - text: parallel.
+            - text: offset or parallel.
+- id: QKYTY
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds:
+    - QNIMI
+  externalQuestionIds:
+    - ATPLQ-108280
+    - AVEXAM-97282
+    - AVEXAM-70998
+    - BGS-100197
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.01.11
+  templates:
+    - type: simple
+      question: The outbound time in a holding pattern at 14 000 ft or below, in still air conditions, is..
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, 2.3.1
+
+        > […] It continues outbound: a) where timing is specified: 1) for **one minute if at or below 4 250 m (14 000 ft)**; or 2) for **one and one-half minutes if above 4 250 m (14 000 ft)**; or b) where distance is specified until the appropriate limiting DME distance is reached. Then, the aircraft turns so as to realign itself on the inbound track.
+      presets:
+        - correctAnswers:
+            - text: 1 minute.
+          wrongAnswers:
+            - text: 1 minute 30 seconds.
+            - text: 2 minutes.
+            - text: 30 seconds.
+- id: QNIMI
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds:
+    - QKYTY
+  externalQuestionIds:
+    - ATPLQ-108458
+    - AVEXAM-88307
+    - BGS-100946
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.01.11
+  templates:
+    - type: simple
+      question: Holding procedure – The outbound time for a holding pattern above 14000 ft in still air conditions is
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, 2.3.1
+
+        > […] It continues outbound: a) where timing is specified: 1) for **one minute if at or below 4 250 m (14 000 ft)**; or 2) for **one and one-half minutes if above 4 250 m (14 000 ft)**; or b) where distance is specified until the appropriate limiting DME distance is reached. Then, the aircraft turns so as to realign itself on the inbound track.
+      presets:
+        - correctAnswers:
+            - text: "1 minute 30 seconds. "
+          wrongAnswers:
+            - text: 2 minutes 30 seconds.
+            - text: 1 minute.
+            - text: 2 minutes.
+- id: QBVIH
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105295
+    - BGS-100892
+    - AVEXAM-28204
+    - ATPLQ-108467
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.01.12
+  templates:
+    - type: simple
+      question: A pilot is instructed to leave a holding pattern. When clearance is received specifying the time of departure from the holding point...
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, 2.3.3
+
+        > When clearance is received specifying the time of departure from the holding point, the pilot should **adjust the pattern within the limits of the established holding procedure** in order to leave the holding point at the time specified.
+      presets:
+        - correctAnswers:
+            - text: the pilot should adjust the pattern within the limits of the established holding procedure in order to leave the holding point at the time specified.
+          wrongAnswers:
+            - text: the pilot should adjust the pattern within the limits of the established holding procedure in order to leave the holding point at or up to 3 minutes after the time specified.
+            - text: the pilot should adjust the pattern within the limits of the established holding procedure in order to leave the holding point at the time specified, +/- 1 minute.
+            - text: the pilot should adjust the pattern within the limits of the established holding procedure in order to leave the holding point before or at the time specified.
+    - type: simple
+      question: When a pilot receives a clearance specifying the time of departure from the holding point, the pilot should..
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, 2.3.3
+
+        > When clearance is received specifying the time of departure from the holding point, the pilot should **adjust the pattern within the limits of the established holding procedure** in order to leave the holding point at the time specified.
+      presets:
+        - correctAnswers:
+            - text: adjust the holding pattern within its limits in order to leave the holding point at the time specified.
+          wrongAnswers:
+            - text: adjust the holding pattern within its limits in order to leave the holding point within +/- 1 minute from the time specified.
+            - text: perform the holding pattern as it is designed, and using the aircraft performance, leave the holding point when specified.
+            - text: perform the holding pattern until the holding fix, then adjust the speed in order to comply with the time specified.
+- id: QBWBU
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107471
+    - AVEXAM-59703
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.02.02
+  templates:
+    - type: simple
+      question: You are flying in a holding pattern where you have to consider several criteria and maintain specific parameters like speed, altitude, time, distance and rate of turn. If you are descending below such altitude, there is a risk of...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: descending below the obstacle clearance.
+          wrongAnswers:
+            - text: descending below the approach minima.
+            - text: losing control of the aircraft.
+            - text: losing contact with ATC.
+- id: QWQVC
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108811
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.05.02.02
+  templates:
+    - type: simple
+      question: In a mountainous area, the minimum holding level provides how much separation with the highest terrain in the holding area?
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Part II, Section 6, 2.4.4
+
+        > Over high terrain or in mountainous areas, **additional obstacle clearance up to a total of 600 m (1 969 ft)** is provided to accommodate the possible effects of turbulence, down drafts and other meteorological phenomena on the performance of altimeters.
+      presets:
+        - correctAnswers:
+            - text: 2 000 ft
+          wrongAnswers:
+            - text: 1 000 ft
+            - text: 500 ft
+            - text: 2 500 ft
+- id: QTPUZ
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108437
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.01
+  templates:
+    - type: simple
+      question: "State the main objectives for altimeter setting procedures: "
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The main reason is to provide vertical separation between aircraft and terrain clearance during all phases.
+          wrongAnswers:
+            - text: The main reason is to provide vertical separation in the departure and landing phases only.
+            - text: The main reason is to provide vertical separation between aircraft and terrain clearance during departure and landing phases only.
+            - text: The main reason is to provide vertical separation between aircraft and input to ground-based SSR equipment.
+- id: QUSQS
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109685
+    - AVEXAM-68367
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.01
+  templates:
+    - type: simple
+      question: Which statement is correct regarding outside conditions in flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In cold air the glide slope will be shallower.
+          wrongAnswers:
+            - text: In hot air the true altitude will be lower than indicated.
+            - text: In hot air the glide slope will be shallower.
+            - text: In cold air the true altitude will be greater than indicated.
+- id: QIGDT
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621036
+    - AVEXAM-80711
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.04
+  templates:
+    - type: simple
+      question: Prior to departure, a student pilot sets the altimeter subscale to 1013.2 hPa. How should they express the height indicated on that altimeter during the flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Flight level
+          wrongAnswers:
+            - text: Altitude
+            - text: Height
+            - text: Elevation
+- id: QFYMP
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103952
+    - AVEXAM-21677
+    - BGS-101923
+    - BGS-101915
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.05
+  templates:
+    - type: simple
+      question: Where shall flight level zero be located?
+      explanation: Flight level zero is located at the atmospheric pressure level of 1013.2 hPa, the standard pressure setting, and every other flight level is measured from it.
+      presets:
+        - correctAnswers:
+            - text: At the atmospheric pressure level of 1013.2 hPa.
+          wrongAnswers:
+            - text: At the aerodrome elevation.
+            - text: At the atmospheric pressure level of 1023.2 hPa.
+            - text: At mean sea level.
+- id: QBYBR
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101194
+    - AVEXAM-76449
+    - BGS-100743
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.06
+  templates:
+    - type: simple
+      question: According to ICAO Doc 8168 PANS-OPS, consecutive flight levels are separated by a pressure interval that corresponds to at least ... (1) ft in the standard atmosphere. What is the correct value at (1)?
+      explanation: Consecutive flight levels are separated by a pressure interval corresponding to at least 500 ft in the standard atmosphere, which is why flight levels are numbered in steps of 5 (FL 100, FL 105 and so on).
+      presets:
+        - correctAnswers:
+            - text: 500 ft
+          wrongAnswers:
+            - text: 2000 ft
+            - text: 1000 ft
+            - text: 250 ft
+- id: QCJCT
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109429
+    - BGS-100645
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.08
+    - 010.06.06.01.09
+  templates:
+    - type: simple
+      question: Where two or more closely spaced aerodromes are located so that coordinated procedures are required, a common transition altitude shall be established as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the highest of the transition altitudes if the aerodromes were considered separately.
+          wrongAnswers:
+            - text: the lowest of the transition altitudes if the aerodromes were considered separately.
+            - text: the average of the transition altitudes if the aerodromes were considered separately.
+            - text: one of the transition altitudes commonly agreed between the aerodrome authorities.
+- id: QEFOV
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103675
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.09
+  templates:
+    - type: simple
+      question: "Where the transition altitude is shared between 2 different aerodromes, the common transition altitude shall be:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The highest between 2 aerodromes.
+          wrongAnswers:
+            - text: The average between the 2 aerodromes.
+            - text: The lowest between 2 aerodromes.
+            - text: The aerodrome that has more traffic.
+- id: QMTNB
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds:
+    - QRUTA
+  externalQuestionIds:
+    - ATPLQ-105709
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.10
+  templates:
+    - type: simple
+      question: According to ICAO Doc 8168, PANS-OPS, the transition altitude is normally specified as a calculated height rounded up to the next full
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1000 ft.
+          wrongAnswers:
+            - text: 500 ft.
+            - text: 1500 ft.
+            - text: 2000 ft.
+- id: QRUTA
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds:
+    - QMTNB
+  externalQuestionIds:
+    - ATPLQ-108977
+    - BGS-100698
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.10
+  templates:
+    - type: simple
+      question: To what shall the calculated transition altitude be rounded up?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 300 m (1000 ft)
+          wrongAnswers:
+            - text: 600 m (2000 ft)
+            - text: 100 m (328 ft)
+            - text: 150 m (500 ft)
+- id: QDGAO
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102196
+    - BGS-101477
+    - BGS-102106
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.11
+  templates:
+    - type: simple
+      question: According to ICAO Doc 8168, PANS-OPS, Transition Altitudes shall be...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: published in aeronautical information publications, and shown on the appropriate charts.
+          wrongAnswers:
+            - text: published in aeronautical information publications, shown on the appropriate charts, and included in ATIS broadcasts.
+            - text: published in aeronautical information publications, and included in ATIS broadcasts.
+            - text: shown on the appropriate charts, and included in ATIS broadcasts.
+- id: QWBOZ
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101402
+    - AVEXAM-55951
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.12
+  templates:
+    - type: simple
+      question: The transition level is..
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Definitions
+
+        > Transition level. **The lowest flight level available for use above the transition altitude.**
+      presets:
+        - correctAnswers:
+            - text: the lowest flight level available for use above the transition altitude.
+          wrongAnswers:
+            - text: published for each aerodrome in the AIP, Section MAP.
+            - text: the highest available flight level below the transition altitude that has been established.
+            - text: calculated and declared for an approach by the pilot-in command.
+- id: QFIVO
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106172
+    - BGS-101424
+    - AVEXAM-946
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.13
+  templates:
+    - type: simple
+      question: The transition level shall be provided to the flight crew..
+      explanation: |-
+        ### ICAO Doc 4444, 4.10.4.3
+
+        > The flight crew shall be provided with the transition level **in due time prior to reaching it during descent.** This may be accomplished by voice communications, ATIS broadcast or data link.
+      presets:
+        - correctAnswers:
+            - text: during descent, prior to reaching the transition level.
+          wrongAnswers:
+            - text: when passing the transition altitude during descent.
+            - text: when changing the altimeter setting from QNH to QFE.
+            - text: during climb, before reaching the transition altitude.
+- id: QIIOP
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108397
+    - AVEXAM-99907
+    - BGS-101517
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.14
+  templates:
+    - type: simple
+      question: The cruising levels at which a flight is conducted shall be expressed in terms of..
+      explanation: |-
+        ### ICAO Doc 4444, 4.10.1.1
+
+        > For flights in the vicinity of aerodromes and within terminal control areas the vertical position of aircraft shall […] be expressed in terms of **altitudes at or below the transition altitude** and in terms of **flight levels at or above the transition level**. While passing through the transition layer, vertical position shall be expressed in terms of **flight levels when climbing** and in terms of **altitudes when descending**.
+      presets:
+        - correctAnswers:
+            - text: altitudes, for flights at or below the transition altitude.
+          wrongAnswers:
+            - text: flight levels, for flights in and above the transition layer.
+            - text: altitudes, for flights at or below the lowest usable flight level.
+            - text: heights, for flights below the transition layer.
+- id: QMCDZ
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102187
+    - AVEXAM-24468
+    - AVEXAM-83308
+    - BGS-101400
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.15
+  templates:
+    - type: simple
+      question: The transition layer is the airspace located..
+      explanation: |-
+        ### ICAO Doc 8168, Volume I, Definitions
+
+        > Transition layer. The airspace **between the transition altitude and the transition level.**
+      presets:
+        - correctAnswers:
+            - text: between the Transition Level and the Transition Altitude.
+          wrongAnswers:
+            - text: above the Transition Level.
+            - text: where the atmospheric pressure equals 1013.2 hPa.
+            - text: below the Transition Altitude.
+- id: QDTHW
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101282
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.16
+  templates:
+    - type: simple
+      question: An aircraft climbing after take-off and passing through the transition layer. The pilot should report the aircraft altitude in terms of...
+      explanation: |-
+        ### ICAO Doc 4444, 4.10.1.1
+
+        > For flights in the vicinity of aerodromes and within terminal control areas the vertical position of aircraft shall […] be expressed in terms of **altitudes at or below the transition altitude** and in terms of **flight levels at or above the transition level**. While passing through the transition layer, vertical position shall be expressed in terms of **flight levels when climbing** and in terms of **altitudes when descending**.
+      presets:
+        - correctAnswers:
+            - text: Flight level.
+          wrongAnswers:
+            - text: It depends on the specific ATC instructions.
+            - text: Altitude.
+            - text: Height.
+- id: QVYZP
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107468
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.16
+  templates:
+    - type: simple
+      question: When does the pilot change from flight level to altitude?
+      explanation: |-
+        ### ICAO Doc 4444, 4.10.1.1
+
+        > For flights in the vicinity of aerodromes and within terminal control areas the vertical position of aircraft shall […] be expressed in terms of **altitudes at or below the transition altitude** and in terms of **flight levels at or above the transition level**. While passing through the transition layer, vertical position shall be expressed in terms of **flight levels when climbing** and in terms of **altitudes when descending**.
+      presets:
+        - correctAnswers:
+            - text: At the transition level.
+          wrongAnswers:
+            - text: At or below the transition level.
+            - text: At the transition altitude.
+            - text: Below the transition level.
+- id: QSOTL
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107307
+    - AVEXAM-76530
+    - BGS-102240
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.17
+  templates:
+    - type: simple
+      question: "According to ICAO Doc 8168 PANS-OPS, the QNH altimeter setting shall be made available to departing aircraft:"
+      explanation: |-
+        ### ICAO Doc 4444, 4.10.4.5
+
+        > A QNH altimeter setting shall be included in the **descent clearance when first cleared to an altitude below the transition level**, in **approach clearances or clearances to enter the traffic circuit**, and in **taxi clearances for departing aircraft**, except when it is known that the aircraft has already received the information.
+      presets:
+        - correctAnswers:
+            - text: In taxi clearances prior to take-off.
+          wrongAnswers:
+            - text: In take-off clearances.
+            - text: Prior to engine start-up.
+            - text: In route clearances at the stand.
+- id: QHOHU
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109784
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.18
+  templates:
+    - type: simple
+      question: For aircraft flying above a specific Flight Level, typically above FL180, the vertical separation should be communicated or described...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: in Flight Levels.
+          wrongAnswers:
+            - text: in meters above sea level (MSL).
+            - text: in feet above ground level (AGL).
+            - text: in meters above ground level (AGL).
+- id: QAJWM
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106969
+    - BGS-101676
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.19
+  templates:
+    - type: simple
+      question: An aircraft is cruising above the transition level. The pilot is in contact with ATC and wishes to request further climb. The pilot's request for the climb should be made in terms of...
+      explanation: |-
+        ### ICAO Doc 4444, 4.10.1.1
+
+        > For flights in the vicinity of aerodromes and within terminal control areas the vertical position of aircraft shall […] be expressed in terms of **altitudes at or below the transition altitude** and in terms of **flight levels at or above the transition level**. While passing through the transition layer, vertical position shall be expressed in terms of **flight levels when climbing** and in terms of **altitudes when descending**.
+      presets:
+        - correctAnswers:
+            - text: Flight level.
+          wrongAnswers:
+            - text: Time to climb.
+            - text: Altitude.
+            - text: Rate of climb.
+- id: QEZGZ
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107317
+    - BGS-101713
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.19
+    - 010.07.02.09.06
+  templates:
+    - type: simple
+      question: Aircraft A and aircraft B are flying en-route to their destinations. Considering the absence of specified regional air navigation agreements, how will the two aircraft report their vertical positions?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Aircraft A will report its vertical position as a flight level providing it is at or above the lowest usable flight level, and aircraft B will report its position as an altitude providing it is below the lowest usable flight level.
+          wrongAnswers:
+            - text: Aircraft A will report its vertical position as an altitude providing it is at or above the lowest usable flight level, and aircraft B will report its position as a flight level providing it is below the lowest usable flight level.
+            - text: Both aircraft will report their respective vertical positions as a flight level providing, they are operating below the lowest usable flight level.
+            - text: Both aircraft will report their respective vertical positions as an altitude providing, they are operating at or above the lowest usable flight level.
+- id: QNQFY
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107652
+    - BGS-101787
+    - AVEXAM-76444
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.21
+  templates:
+    - type: simple
+      question: According to ICAO Doc 8168 PANS-OPS, for aircraft approaching a controlled aerodrome for landing, the QNH altimeter setting shall be made available...
+      explanation: |-
+        ### ICAO Doc 4444, 4.10.4.5
+
+        > A QNH altimeter setting shall be included in the **descent clearance when first cleared to an altitude below the transition level**, in **approach clearances or clearances to enter the traffic circuit**, and in **taxi clearances for departing aircraft**, except when it is known that the aircraft has already received the information.
+      presets:
+        - correctAnswers:
+            - text: in approach clearances and in clearances to enter the traffic circuit.
+          wrongAnswers:
+            - text: in approach and landing clearances, on request or on a regular basis.
+            - text: during the intermediate approach segment.
+            - text: prior to leaving the en-route cruising level.
+- id: QRHSZ
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104415
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.21
+    - 010.07.02.09.08
+  templates:
+    - type: simple
+      question: In which of the following ATC clearances is the QNH altimeter setting included?
+      explanation: |-
+        ### ICAO Doc 4444, 4.10.4.5
+
+        > A QNH altimeter setting shall be included in the **descent clearance when first cleared to an altitude below the transition level**, in **approach clearances or clearances to enter the traffic circuit**, and in **taxi clearances for departing aircraft**, except when it is known that the aircraft has already received the information.
+      presets:
+        - correctAnswers:
+            - text: In descent, when first cleared to an altitude below the transition level.
+          wrongAnswers:
+            - text: In climb, when first cleared to an altitude above the transition level.
+            - text: In all climb or descent ATC clearances to an altitude.
+            - text: In all clearances to altitudes below 2000 ft above aerodrome level.
+- id: QMYAX
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109409
+    - BGS-101803
+    - AVEXAM-18437
+    - AVEXAM-23205
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.22
+  templates:
+    - type: simple
+      question: When may the vertical position of an aircraft above the transition level be referenced to altitudes?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: After approach clearance has been issued and the descent to land is begun, provided that level flight above the transition altitude is NOT anticipated.
+          wrongAnswers:
+            - text: After approach clearance has been issued and the descent to land is begun, provided that the entire descent remains inside controlled airspace.
+            - text: When the aircraft is operating in airspace classes F or G.
+            - text: When approaching a controlled aerodrome that has no established Transition Level, after approach clearance has been issued and the descent to land is begun.
+    - type: simple
+      question: When can the vertical positioning of an aircraft be reported as altitude while flying above the transition layer?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When an approach clearance has been received and descent begun and level flight is NOT expected during descent.
+          wrongAnswers:
+            - text: When cleared to descent below transition altitude and while staying within the control zone the entire time.
+            - text: During an approach to an airport where no published transition level is available and when visual meteorological conditions exist.
+            - text: When cleared to descent below transition altitude while flying above the sea.
+- id: QYQLC
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101699
+    - AVEXAM-50607
+    - AVEXAM-55165
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.01.22
+  templates:
+    - type: simple
+      question: An aircraft is on final approach with a landing clearance and all the information received. What additional data could the ATC provide?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The exit taxiway to use after landing.
+          wrongAnswers:
+            - text: Significant changes in air temperature.
+            - text: Taxiway surface status.
+            - text: PAPI broken.
+    - type: simple
+      question: What further details might ATC offer during final approach with a landing clearance and all necessary information?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The exit taxiway to use after landing.
+          wrongAnswers:
+            - text: PAPI lights INOP.
+            - text: Significant changes in air temperature.
+            - text: Taxiway surface status.
+    - type: simple
+      question: You are flying on final approach — what would ATC inform you about?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The exit taxiway to use after landing.
+          wrongAnswers:
+            - text: Significant changes in air temperature.
+            - text: PAPI lights INOP.
+            - text: Taxiway surface status.
+- id: QCZMR
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101634
+    - BGS-101446
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.02.01
+  templates:
+    - type: simple
+      question: The altimeter of an aircraft provides indications from 0 - 30 000 ft. The aircraft is on a position of known elevation at the airfield and the altimeter is set to the local QNH. The altimeter will read the elevation of that point...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: plus the height of the altimeter from the ground with a +/- 60 ft tolerance.
+          wrongAnswers:
+            - text: plus the height of the altimeter from the ground with a +/- 80 ft tolerance.
+            - text: +/- 80 ft tolerance.
+            - text: +/- 25 ft tolerance.
+- id: QZSDB
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102658
+    - AVEXAM-68145
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.02.01
+  templates:
+    - type: simple
+      question: According to ICAO Doc 8168 PANS-OPS, prior to take-off, one altimeter shall be set on the latest ... (1) altimeter setting for the aerodrome. What is the abbreviation for the missing term?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: QNH
+          wrongAnswers:
+            - text: QFE
+            - text: QNI
+            - text: QNE
+- id: QGCMO
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109655
+    - AVEXAM-48613
+    - BGS-101956
+    - AVEXAM-95394
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.02.02
+  templates:
+    - type: simple
+      question: "Whilst passing the altitude of 2 000 ft during the climb, ATC clears the aircraft to climb to FL120. The altimeter setting shall:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Remain on QNH until passing the transition altitude.
+          wrongAnswers:
+            - text: Be set to 1013.2 hPa immediately, as long as the aircraft is under ATC control.
+            - text: Remain on QNH until passing the transition level.
+            - text: Be set to 1013.2 hPa as soon as the flight is cleared to a flight level by ATC.
+- id: QVQQH
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107669
+    - AVEXAM-76543
+    - AVEXAM-11233
+    - BGS-101650
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.02.02
+  templates:
+    - type: simple
+      question: After departure, on flights in accordance with IFR, when shall the change of the altimeter setting from QNH to standard setting 1013.2 hPa be made?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Transition altitude.
+          wrongAnswers:
+            - text: At an altitude specified by ATC.
+            - text: Transition level.
+            - text: Transition layer.
+- id: QVYKC
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101665
+    - AVEXAM-9827
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.02.03
+  templates:
+    - type: simple
+      question: When shall the number of the transition level be obtained by the crew of a flight intending to land?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Before starting the initial approach to an aerodrome.
+          wrongAnswers:
+            - text: Before descending below the transition level.
+            - text: Start of the arrival procedure.
+            - text: Before descending below the transition altitude.
+- id: QCVIR
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103923
+    - AVEXAM-24127
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.02.04
+  templates:
+    - type: simple
+      question: When should the latest QNH altimeter setting for the aerodrome be obtained?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Prior to descending below the transition level.
+          wrongAnswers:
+            - text: When descending below the transition level.
+            - text: Prior to descending below the transition altitude.
+            - text: When descending through the transition layer.
+- id: QKJXK
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102166
+    - AVEXAM-28787
+    - BGS-100951
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.06.02.05
+  templates:
+    - type: simple
+      question: When can the flight crew change the altimeter setting from 1013.2 hPa to QNH during the descent to land, when the aircraft is above the transition level?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: After approach clearance has been issued, provided that level flight above the transition altitude is not indicated or anticipated.
+          wrongAnswers:
+            - text: Flight above the transition level using QNH as the reference datum is not allowed.
+            - text: When the atmospheric pressure is significantly different from the standard pressure and level flight above the transition altitude is not anticipated.
+            - text: Only if it has been specified in Item 18, “Other Information”, of the flight plan.
+- id: QQSNK
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108027
+    - AVEXAM-50938
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.07.01.01
+    - 010.06.07.01.03
+  templates:
+    - type: simple
+      question: Which statement is correct regarding parallel approaches?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In independant parallel approaches radar separation is not applied. Instead there is a NTZ established between the localizer centre lines.
+          wrongAnswers:
+            - text: In dependant parallel approaches radar separation is applied and the minimum distance between aircraft on adjacent localizers is 5 nm.
+            - text: In independant parallel approaches radar separation is applied and the minimum distance between aircraft on adjacent localizers is 2 nm.
+            - text: In dependant parallel approaches radar separation is not applied. Instead there is a NOZ established between the localizer centre lines.
+- id: QQVER
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107113
+    - AVEXAM-75277
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.07.01.01
+    - 010.06.07.01.02
+  templates:
+    - type: simple
+      question: |-
+        Consider the following statements about instrument operations on parallel runways. What is correct for departing and arriving aircraft?
+
+        1\. Independent operations means both runways are used exclusively for departures   
+         2\. Independent operations means one runway is used exclusively for departures while the other runway is used for a mixture of arrivals and departures   
+         3\. Mixed operations means both runways are used for mixed arrivals and departures   
+         4\. Dependent parallel approaches are simultaneous instrument operations   
+         5\. Independent parallel approaches are simultaneous instrument operations   
+         6\. Semi mixed independent parallel approaches are simultaneous instrument operations
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "Departure: 1 and 3; Arrival: 4 and 5"
+          wrongAnswers:
+            - text: "Departure: 2 and 3; Arrival: 2 and 4"
+            - text: "Departure: 1 and 3; Arrival: 5 and 6"
+            - text: "Departure: 2 and 3; Arrival: 4 and 6"
+- id: QHLTX
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105594
+    - AVEXAM-96588
+    - BGS-100781
+    - ATPLQ-106231
+    - AVEXAM-3355
+    - AVEXAM-44551
+    - AVEXAM-97529
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.07.01.02
+  templates:
+    - type: simple
+      question: An airport provides two parallel runways where one is used for departures and the other one is used for arrivals. What type of operation is this?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Segregated operation.
+          wrongAnswers:
+            - text: Progressive operation.
+            - text: Mixed operation.
+            - text: Semi-mixed operation.
+    - type: simple
+      question: "Parallel operations where a runway is being used solely for arrivals and the other is used solely for departures is known as:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Segregated parallel operations
+          wrongAnswers:
+            - text: Independent parallel departures.
+            - text: Mixed operations.
+            - text: Semi-mixed operations
+    - type: simple
+      question: What kind of operation is being referred to if an airport has two parallel runways, one of which is exclusively used for approaches, and the other one for departures?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Segregated operation.
+          wrongAnswers:
+            - text: Semi-mixed operation.
+            - text: Mixed operation.
+            - text: Simultaneous operation.
+- id: QVNIM
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105619
+    - AVEXAM-63543
+    - AVEXAM-77239
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.07.01.02
+  templates:
+    - type: simple
+      question: Using two parallel runways only for departures at the same time is known as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Simultaneous mode
+          wrongAnswers:
+            - text: Segregated mode
+            - text: Coordinated mode
+            - text: Semi-mixed mode
+    - type: simple
+      question: How are two parallel runways utilized when segregated operations are in effect?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: One runway will be used only for takeoffs, and the other runway will be used only for landings.
+          wrongAnswers:
+            - text: One runway will be used predominantly for takeoffs, with landings permitted as needed.
+            - text: Both runways will be used exclusively for arrivals.
+            - text: Both runways will alternate between takeoffs and landings.
+- id: QGOTE
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105151
+    - AVEXAM-79444
+    - BGS-101685
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.07.01.03
+  templates:
+    - type: simple
+      question: |-
+        In the context of independent parallel approaches, what is being described below?
+
+        "The corridor of airspace located centrally between the two extended runway centre lines, where a penetration by an aircraft requires a controller intervention to manoeuvre any threatened aircraft on the adjacent approach."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The no transgression zone.
+          wrongAnswers:
+            - text: The secondary area.
+            - text: The normal operating zone.
+            - text: The primary area.
+- id: QMBBU
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108123
+    - BGS-100992
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.07.01.03
+  templates:
+    - type: simple
+      question: The purpose of the No-Transgression Zone (NTZ) is to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: protect aircraft that are carrying out independent parallel approaches.
+          wrongAnswers:
+            - text: separate flights under VFR from flights under IFR on final.
+            - text: give sufficient lateral separation for en-route traffic.
+            - text: protect aircraft that are carrying out opposite direction approaches.
+- id: QSRIS
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109839
+    - AVEXAM-19644
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.07.01.04
+  templates:
+    - type: simple
+      question: What should an aeroplane have to conduct parallel approaches?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Precision approach capabilities, or meet the eligibility of PBN capabilities.
+          wrongAnswers:
+            - text: Non-precision approach capabilities, or meet the eligibility of MLS capabilities.
+            - text: Precision approach capabilities, or meet the eligibility of VOR capabilities.
+            - text: Non-precision approach capabilities, or meet the eligibility of PBN capabilities.
+- id: QZVOK
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105170
+    - AVEXAM-91099
+    - BGS-101694
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.07.01.05
+  templates:
+    - type: simple
+      question: Guidance material related to simultaneous operations on parallel or near-parallel instrument runways may be found…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In an ICAO Document.
+          wrongAnswers:
+            - text: In standardised European Rules of the Air.
+            - text: In Part-FCL.
+            - text: Attached to the Certificate of airworthiness.
+- id: QMVTW
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105482
+    - BGS-101462
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.07.01.06
+  templates:
+    - type: simple
+      question: In specific weather conditions, the safety of independent parallel approaches to closely spaced parallel runways can be compromised, leading to their suspension. Why is safety more jeopardized in such approaches when compared to single runway approaches?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The conditions can lead to dangerous deviations from the final approach course or track.
+          wrongAnswers:
+            - text: Turbulence can cause the airspeed to deviate and lead to interruptions in the flow of traffic.
+            - text: An increased risk of in-flight icing.
+            - text: There is a greater probability that pilots must execute a missed approach.
+- id: QTSFF
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105081
+    - BGS-101495
+    - AVEXAM-92473
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.07.01.06
+  templates:
+    - type: simple
+      question: When independent parallel instrument approaches are carried out into an aerodrome, it is required that the approaches are...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: monitored by radar.
+          wrongAnswers:
+            - text: are only conducted by turbojet aeroplanes.
+            - text: supported by radar vectoring.
+            - text: conducted as visual approaches.
+- id: QDNLE
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101146
+    - AVEXAM-94281
+    - AVEXAM-42522
+    - BGS-100332
+    - ATPLQ-109880
+    - BGS-100990
+    - ATPLQ-102637
+    - ATPLQ-103476
+    - ATPLQ-104679
+    - BGS-100993
+    - AVEXAM-94288
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.07.01.07
+  templates:
+    - type: simple
+      question: "When independent parallel approaches are being conducted and vectoring to intercept the ILS localizer course or MLS final approach track, the final vector shall be such as to enable the aircraft to intercept the ILS localizer course or MLS final approach track at an angle not greater than:"
+      explanation: For independent parallel approaches, the final vector must let the aircraft intercept the ILS localiser course or MLS final approach track at an angle not greater than 30 degrees.
+      presets:
+        - correctAnswers:
+            - text: 30 degrees
+          wrongAnswers:
+            - text: 20 degrees
+            - text: 15 degrees
+            - text: 25 degrees
+        - correctAnswers:
+            - text: at least 2 NM prior to intercepting the ILS glide path or specified MLS elevation angle.
+          wrongAnswers:
+            - text: at least 3 NM prior to intercepting the ILS glide path or specified MLS elevation angle.
+            - text: at least 2.5 NM prior to intercepting the ILS glide path or specified MLS elevation angle.
+            - text: at least 1.5 NM prior to intercepting the ILS glide path or specified MLS elevation angle.
+    - type: simple
+      question: Independent parallel approaches are being conducted with vectoring to the ILS localiser course or MLS final approach track. The final vector shall be such as to enable the aircraft to intercept the ILS localiser course or MLS final approach track at an angle not greater than..
+      explanation: For independent parallel approaches, the final vector must let the aircraft intercept the ILS localiser course or MLS final approach track at an angle not greater than 30 degrees.
+      presets:
+        - correctAnswers:
+            - text: 30 degrees.
+          wrongAnswers:
+            - text: 20 degrees.
+            - text: 15 degrees.
+            - text: 25 degrees.
+    - type: simple
+      question: The vectoring to intercept an ILS localiser course or an MLS final approach track for an independent approach to parallel runways shall be such as to enable the aircraft to be established in level flight at a distance of at least how many nautical miles prior to intercepting the ILS glide path or MLS elevation angle?
+      explanation: For independent parallel approaches, the final vector must let the aircraft intercept the ILS localiser course or MLS final approach track at an angle not greater than 30 degrees.
+      presets:
+        - correctAnswers:
+            - text: 2.0 NM.
+          wrongAnswers:
+            - text: 3.0 NM.
+            - text: 1.5 NM.
+            - text: 2.5 NM.
+- id: QEJNX
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108275
+    - AVEXAM-1389
+    - BGS-101765
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.07.01.08
+  templates:
+    - type: simple
+      question: An aerodrome has parallel runways with independent parallel approaches and departures in progress. A pilot is departing on a SID which requires a turn for divergence. This turn must be made...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: as soon as practicable.
+          wrongAnswers:
+            - text: only if prevailing meteorological conditions do not allow the pilot to remain visually separated from the other aircraft.
+            - text: only once the minimum circling altitude is passed.
+            - text: only when instructed by ATC.
+- id: QQBNS
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105147
+    - AVEXAM-74849
+    - AVEXAM-42451
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.07.01.08
+  templates:
+    - type: simple
+      question: |-
+        What is correct about dependent parallel approaches?
+
+        Dependent parallel approaches may be conducted to parallel runways provided that the missed approach track for one approach diverges by:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: At least 30° from the missed approach track of the adjacent approach.
+          wrongAnswers:
+            - text: At least 35° from the missed approach track of the adjacent approach.
+            - text: At least 45° from the missed approach track of the adjacent approach.
+            - text: At least 15° from the missed approach track of the adjacent approach.
+- id: QBJIA
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103609
+    - BGS-100214
+    - AVEXAM-80546
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.01.01
+  templates:
+    - type: simple
+      question: When an aircraft carries a serviceable transponder, the pilot shall operate the transponder..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: at all times during flight, regardless of whether SSR is used for ATS purposes or not.
+          wrongAnswers:
+            - text: only when directed by ATC.
+            - text: only when the aircraft is flying within controlled airspace.
+            - text: only when the aircraft is operating within airspace where SSR is used for ATS purposes.
+- id: QNKIU
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106064
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.01.02
+  templates:
+    - type: simple
+      question: During flight the pilot is leaving controlled airspace, and radar services are terminated. Which code should be set into the onboard transponder in the absence of any ATC directions or regional air navigation agreements?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "2000"
+          wrongAnswers:
+            - text: "1200"
+            - text: "7000"
+            - text: "1000"
+- id: QLCWE
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105365
+    - AVEXAM-39527
+    - AVEXAM-37142
+    - BGS-101782
+    - ATPLQ-108998
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.01.03
+  templates:
+    - type: simple
+      question: When an aircraft carries a serviceable Mode C transponder, the pilot shall continuously operate this mode..
+      explanation: An aircraft with a serviceable Mode C transponder operates it continuously, unless ATC directs otherwise. The requirement is not limited to controlled airspace.
+      presets:
+        - correctAnswers:
+            - text: unless otherwise directed by ATC.
+          wrongAnswers:
+            - text: only when directed by ATC.
+            - text: only when the aircraft is flying within controlled airspace.
+            - text: regardless of ATC instructions for another mode.
+- id: QELOG
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108093
+    - BGS-100514
+    - AVEXAM-58408
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.01.04
+  templates:
+    - type: simple
+      question: Pilots shall not SQUAWK IDENT unless they..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: are requested to do so by ATC.
+          wrongAnswers:
+            - text: operate within controlled airspace.
+            - text: operate outside controlled airspace.
+            - text: operate a transponder with Mode C.
+- id: QEEXJ
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds:
+    - QTFWJ
+  externalQuestionIds:
+    - ATPLQ-109605
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.01.05
+    - 010.07.02.19.01
+  templates:
+    - type: simple
+      question: While flying you have an emergency. – Which of the following SSR transponder modes and codes shall you select?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Mode A and code 7700.
+          wrongAnswers:
+            - text: Mode C and code 7000.
+            - text: Mode B and code 7500.
+            - text: Mode C and code 7600.
+- id: QHTCP
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106337
+    - BGS-100220
+    - AVEXAM-14909
+    - AVEXAM-64544
+    - BGS-102251
+    - BGS-620408
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.01.05
+  templates:
+    - type: simple
+      question: When an aircraft loses two-way radio communication the transponder should be set to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Mode A Code 7600.
+          wrongAnswers:
+            - text: Mode A Code 7500.
+            - text: Mode A Code 7700.
+            - text: Mode A Code 5320.
+- id: QTFWJ
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds:
+    - QEEXJ
+  externalQuestionIds:
+    - ATPLQ-104394
+    - AVEXAM-85650
+    - AVEXAM-45445
+    - BGS-101691
+    - BGS-102254
+    - BGS-620414
+    - BGS-101792
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.01.05
+  templates:
+    - type: simple
+      question: What transponder mode and code should be used by an aircraft in a state of emergency?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Mode A, Code 7700.
+          wrongAnswers:
+            - text: Mode A, Code 7500.
+            - text: Mode C, Code 7700.
+            - text: Mode C, Code 7600.
+    - type: simple
+      question: The selection of code 7600 on an aircraft SSR transponder indicates…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: radio communication failure.
+          wrongAnswers:
+            - text: unlawful interference with the operation of the flight.
+            - text: a transponder malfunction.
+            - text: an emergency.
+- id: QFGKP
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109850
+    - AVEXAM-73349
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.01.06
+  templates:
+    - type: simple
+      question: In the case of a transponder failure after departure, ATC units shall attempt to provide for the continuation of the flight to the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: destination aerodrome, with possible specific restrictions.
+          wrongAnswers:
+            - text: nearest suitable aerodrome, without any specific restrictions.
+            - text: nearest suitable aerodrome, with possible specific restrictions.
+            - text: destination aerodrome, without any specific restrictions.
+- id: QQLTR
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103882
+    - AVEXAM-4257
+    - BGS-101754
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.01.07
+  templates:
+    - type: simple
+      question: According to ICAO doc 8168, what is the primary action of the pilot in the case of an unserviceable transponder that CANNOT be restored before departure?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Inform ATC as soon as possible.
+          wrongAnswers:
+            - text: ​Inform RCC as soon as possible.
+            - text: Cancel the flight.
+            - text: Inform AIS as soon as possible.
+- id: QUOIM
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104080
+    - AVEXAM-34633
+    - BGS-101388
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.01.07
+  templates:
+    - type: simple
+      question: When the transponder is unserviceable before departure, the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: pilot has to inform ATS and indicate the unserviceable equipment in the flight plan.
+          wrongAnswers:
+            - text: pilot will only be allowed to proceed to the nearest suitable airport where repair can be carried out if equipped with a CPDLC (controller Pilot Data Link Communications).
+            - text: pilot will not be allowed to commence the flight.
+            - text: flight will only be allowed to continue via a direct routing to the destination.
+- id: QWOMT
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108436
+    - AVEXAM-81105
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.02.01
+  templates:
+    - type: simple
+      question: Which of the following statements is true about psychoactive substances and their use by pilots?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pilots should not be under influence while on duty.
+          wrongAnswers:
+            - text: You are able to take them as long as it is 8 hours before your duty.
+            - text: They can be used without informing an AME.
+            - text: The pilot can fly under their influence provided they are not acting as pilot flying.
+- id: QHKSM
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106939
+    - AVEXAM-55391
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.02.01
+  templates:
+    - type: simple
+      question: The ACAS system is intended to assist…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pilots by providing advice on appropriate action to avoid collision with surrounding aircraft.
+          wrongAnswers:
+            - text: ATC by providing advice on appropriate action to avoid collision between aircraft operating in the same airspace.
+            - text: Pilots by providing appropriate action on the flight controls to avoid collision with surrounding aircraft.
+            - text: Pilots by providing advice on appropriate action to avoid collision with the ground.
+- id: QXHJP
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103134
+    - AVEXAM-99123
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.02.01
+  templates:
+    - type: simple
+      question: Which of the following statements is correct regarding ACAS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It advises the pilots of a potential conflict between the aircraft and other traffic.
+          wrongAnswers:
+            - text: It alerts the pilots when ground clearance is below minimums.
+            - text: It alerts ATC if other traffic becomes a threat.
+            - text: It takes control of the flight controls when necessary to provide clearance between other traffic.
+- id: QFQSG
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109301
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.02.03
+    - 010.06.08.02.06
+  templates:
+    - type: simple
+      question: An ACAS RA is triggered, ordering a climb with a rate of 2000ft/min and a few seconds later an ACAS RA is triggered ordering a descent with a rate of -2000ft/min. What is the correct course of action?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Obey the RA immediately and stay within the safety margins of the rate of descent. of the rate of descent.
+          wrongAnswers:
+            - text: Inform ATC about the RAs and ask for instructions.
+            - text: Do nothing because +2000 ft/min and -2000 ft/min are equivalent.
+            - text: The second RA indication is an error, only follow the first RA.
+- id: QJLLE
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109989
+    - AVEXAM-78958
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.02.03
+  templates:
+    - type: simple
+      question: What should be done if an RA is triggered in the cockpit?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Manoeuvre to the minimum extent necessary to comply with the RA.
+          wrongAnswers:
+            - text: Pull back to achieve a normal radius.
+            - text: Keep maximum deflection of the control column and pull back for an even tighter radius.
+            - text: Monitor the Navigation Display.
+- id: QNPUR
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107561
+    - BGS-100797
+    - AVEXAM-730466
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.02.04
+  templates:
+    - type: simple
+      question: When a pilot receives a traffic advisory (TA), they should NOT respond since...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a TA is designed to provide situational awareness.
+          wrongAnswers:
+            - text: It is forbidden to deviate from the trajectory without informing ATS first.
+            - text: aircraft in the surrounding area with ACARS are equipped to provide horizontal guidance.
+            - text: aircraft in the surrounding area with ACARS are equipped to provide a vertical guidance.
+- id: QCITM
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109831
+    - BGS-100779
+    - AVEXAM-1549
+    - AVEXAM-730465
+    - BGS-101395
+    - ATPLQ-105712
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.02.05
+  templates:
+    - type: simple
+      question: Why should a Traffic Advisory (TA) precede a Resolution Advisory (RA)?
+      explanation: A Traffic Advisory warns the crew that an intruder is close and shows its approximate position. It does not give an avoidance manoeuvre, and a TA does not always precede an RA. It gives the crew time to find the traffic visually and prepare for a possible RA.
+      presets:
+        - correctAnswers:
+            - text: A TA will highlight the approximate position of an aircraft nearby that may become an RA.
+          wrongAnswers:
+            - text: A TA must always be created before an RA.
+            - text: TAs have the ability to create a horizontal traffic avoidance manoeuvre.
+            - text: TAs can create a vertical traffic avoidance manoeuvre.
+    - type: simple
+      question: "According to ICAO Doc 8168, Traffic Advisories (TAs) may be followed by Resolution Advisories (RAs) because:"
+      explanation: A Traffic Advisory warns the crew that an intruder is close and shows its approximate position. It does not give an avoidance manoeuvre, and a TA does not always precede an RA. It gives the crew time to find the traffic visually and prepare for a possible RA.
+      presets:
+        - correctAnswers:
+            - text: TAs indicate the approximate positions of intruding aircraft that may later cause RAs.
+          wrongAnswers:
+            - text: a threatening aircraft must first cause a TA before an RA can be generated.
+            - text: TAs propose vertical manoeuvres that are predicted to increase or maintain separation from threatening aircraft.
+            - text: TAs propose horizontal manoeuvres that are predicted to increase or maintain separation from threatening aircraft.
+- id: QQNQR
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104669
+    - AVEXAM-19757
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.02.06
+    - 010.06.08.02.08
+  templates:
+    - type: multiple-correct
+      question: Which of the following shall a pilot do when encountering a TCAS RA (resolution Advisory)?
+      explanation: ""
+      options:
+        - text: Follow the RA immediately.
+          correct: true
+        - text: Notify ATC as soon as practicable.
+          correct: true
+        - text: Request ATC clearance before making any altitude change.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+- id: QYKAG
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108161
+    - AVEXAM-36734
+    - BGS-101648
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.02.06
+  templates:
+    - type: simple
+      question: "An aircraft is in the climb when the pilots receive an ACAS Resolution Advisory to descend. They must follow the RA immediately because the ACAS system anticipates:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Their response will be correct and timely.
+          wrongAnswers:
+            - text: A response within 1 second from the other aircraft in the opposite direction to the RA issued to them.
+            - text: A timely response from the other aircraft in the opposite direction to the RA issued to them.
+            - text: Their response will be correct and within 1 second.
+- id: QLAAT
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105836
+    - BGS-100708
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.02.07
+  templates:
+    - type: simple
+      question: When may the pilot disregard a Resolution Advisory (RA) issued by ACAS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When following the RA would jeopardize the safety of the aircraft.
+          wrongAnswers:
+            - text: When ATC instructions are in conflict with RA's indications.
+            - text: Under no circumstances may a pilot disregard the indications provided by a RA.
+            - text: When visually acquired information indicate that the RA is erroneous.
+- id: QBJFG
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109124
+    - AVEXAM-9975
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.02.08
+  templates:
+    - type: simple
+      question: What must a pilot do if an RA is triggered in the cockpit?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Inform ATC because ATC doesn't have communication with ACAS.
+          wrongAnswers:
+            - text: Keep maximum deflection of the control column and pull back for an even tighter radius.
+            - text: Monitor the Navigation Display.
+            - text: Pull back to achieve a normal radius.
+- id: QMLFI
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109806
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.02.09
+  templates:
+    - type: simple
+      question: |-
+        When a TCAS conflict has been solved, what is the correct procedure to be followed?   
+         The pilot shall report “clear of conflict” and then:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Return to the assigned routing and altitude in the most direct manner unless otherwise instructed by ATC.
+          wrongAnswers:
+            - text: Continue on present heading and maintain altitude until further advised by ATC.
+            - text: Enter a holding pattern and resume previous altitude until further advised by ATC.
+            - text: Turn direct to the next waypoint of the FMS flight plan and select the closest altitude which does not cause a new TCAS conflict.
+- id: QZUIT
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103295
+    - AVEXAM-7135
+    - BGS-101381
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.08.02.09
+  templates:
+    - type: simple
+      question: After a Resolution Advisory situation is resolved, the pilot shall...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: return to their previous clearance and inform ATC.
+          wrongAnswers:
+            - text: request for an amended clearance in accordance with the current situation.
+            - text: maintain the current flight level and notify ATC.
+            - text: continue the flight without further notification to ATC.
+- id: QHWTT
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106038
+    - BGS-101745
+    - AVEXAM-1774
+    - BGS-101747
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.09.01.01
+  templates:
+    - type: multiple-correct
+      question: Which of the following are regulated in Commission Regulation (EU) No 965/2012 on Air Operations, as amended?
+      explanation: ""
+      options:
+        - text: Air operator certificates.
+          correct: true
+        - text: Authorisation of high-risk commercial specialised operations.
+          correct: true
+        - text: Flight crew licensing.
+          correct: false
+        - text: Ramp inspections.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+    - type: simple
+      question: Part-NCC of Regulation (EU) No 965/2012 (Regulation on Air Operations) as amended, deals with the requirements for...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: non-commercial air operations with complex motor-powered aircraft.
+          wrongAnswers:
+            - text: commercial air operations with complex motor-powered aircraft.
+            - text: touring motor gliders, powered sailplanes and mixed balloons.
+            - text: non-commercial air operations with other-than-complex motor-powered aircraft.
+- id: QMTEK
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107086
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.09.01.01
+  templates:
+    - type: simple
+      question: What is the purpose of the Commission Regulation (EU) No 965/2012 of 5 October 2012?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Lay down detailed rules for commercial air transport operations with aeroplanes and helicopters, including ramp inspections of aircraft of operators under the safety oversight of another State when landed at aerodromes located in the territory subject to the provisions of the treaty.
+          wrongAnswers:
+            - text: Establish the common rules of the air and operational provisions regarding services and procedures in air navigation that shall be applicable to general air traffic.
+            - text: Lay down common requirements for the competent authorities, and the qualified entities acting on their behalf, which exercise certification, oversight and enforcement tasks.
+            - text: Lay down common requirements for the provision of air traffic management and air navigation services (‘ATM/ANS’) and other air traffic management network functions.
+- id: QNQCY
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108300
+    - AVEXAM-76727
+    - BGS-101378
+    - AVEXAM-19530
+    - ATPLQ-109229
+    - AVEXAM-730457
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.09.01.01
+  templates:
+    - type: simple
+      question: Regulation (EU) No 965/2012, as amended, lays down detailed rules on certain aspects of aviation safety. Which of the following are covered by that Regulation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Commercial air transport operations with aeroplanes and helicopters.
+          wrongAnswers:
+            - text: Commercial air transport operations, excluding ramp inspections of aircraft from another state.
+            - text: Flight crew licensing.
+            - text: The design, production, maintenance and operation of aeronautical products, parts and appliances.
+        - correctAnswers:
+            - text: Commercial air transport operations (CAT) with aeroplanes and helicopters.
+          wrongAnswers:
+            - text: Flight crew licensing.
+            - text: The design, production, maintenance and operation of aeronautical products, parts and appliances.
+            - text: Commercial air transport operations, excluding ramp inspections of aircraft from another state.
+- id: QSWLG
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106974
+    - AVEXAM-48956
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.09.01.01
+  templates:
+    - type: simple
+      question: The Standards and Recommended Practices contained in ICAO Annex 6, Part I, are applicable to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the operation of aeroplanes by operators authorised to conduct international commercial air transport operations.
+          wrongAnswers:
+            - text: all aeroplanes and helicopters engaged in international general aviation operations.
+            - text: all international general aviation aeroplane operations, including large aeroplanes, turbojet aeroplanes, and corporate aviation operations.
+            - text: all aeroplanes and helicopters engaged in international commercial air transport operations.
+- id: QCROK
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105505
+    - AVEXAM-19521
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.09.01.02
+  templates:
+    - type: multiple-correct
+      question: "An operator shall not operate an aeroplane first issued with an individual Certificate of Airworthiness on or after 1 April 1998, which has a maximum certificated take-off mass over 5 700 kg, unless it is equipped with a cockpit voice recorder which records:"
+      explanation: ""
+      options:
+        - text: Voice communications transmitted from or received on the flight deck by radio.
+          correct: true
+        - text: The aural environment of the flight deck.
+          correct: true
+        - text: "The cabin attendants communications in the cabin using the aeroplane's interphone system."
+          correct: false
+        - text: "Voice communications of flight crew members on the flight deck using the aeroplane's interphone system."
+          correct: true
+        - text: Voice or audio signals identifying navigation or approach aids introduced into a headset or speaker.
+          correct: true
+        - text: Voice communications of flight crew members on the flight deck using the public address system, if installed.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+- id: QYEYW
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105503
+    - AVEXAM-74944
+    - AVEXAM-32878
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.09.01.02
+  templates:
+    - type: simple
+      question: REGULATION (EU) No 965/2012 covers…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All types of commercial and non-commercial operations.
+          wrongAnswers:
+            - text: Only non-commercial operations.
+            - text: Only commercial operations.
+            - text: Any specialized operation where the airport is used for specialized activities only.
+- id: QAEGO
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106781
+    - ATPLQ-105176
+    - AVEXAM-969
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.09.03.01
+  templates:
+    - type: simple
+      question: What does EASA AIR OPS Part-SPA (Annex V) refer to?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Specific approvals.
+          wrongAnswers:
+            - text: Authority requirements for air operations.
+            - text: Specific aircraft performance and operating limitations for non-commercial operations.
+            - text: Specific authorisations, referring to international commercial air operations.
+    - type: simple
+      question: What does EASA AIR OPS Annex V refer to?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Specific approvals, as outlined in the subparts A-M.
+          wrongAnswers:
+            - text: Safe Practices, in conjunction with ICAO Annex 19, Safety Management Systems.
+            - text: Special authorisations pertaining to International Commercial Aviation Operations.
+            - text: Non-Commercial Operations, specifically aircraft performance and operating limitations.
+- id: QDQGI
+  subjectId: "010"
+  chapterId: "010.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103851
+    - AVEXAM-16766
+  annexes: []
+  learningObjectiveIds:
+    - 010.06.09.03.02
+  templates:
+    - type: simple
+      question: Which of the following lists all the subparts of Annex V to the EU regulation No. 965/2012 (EASA AIR OPS PART-SPA)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: General requirements, Performance-based navigation (PBN) operations, Operations with specified minimum navigation performance (MNPS), Operations in airspace with reduced vertical separation minima (RVSM), Low visibility operations (LVO), Extended range operations with two-engine aeroplanes (ETOPS), Transport of dangerous goods, Helicopter operations with night vision imaging systems, Helicopter hoist operations, Helicopter emergency medical service operations, Helicopter offshore operations.
+          wrongAnswers:
+            - text: General requirements, Operations with specified minimum navigation performance (MNPS), Operations in airspace with reduced vertical separation minima (RVSM), Low visibility operations (LVO), Extended range operations with two-engine aeroplanes (ETOPS), Transport of dangerous goods, Helicopter operations with night vision imaging systems, Helicopter hoist operations, Helicopter emergency medical service operations, Helicopter offshore operations.
+            - text: General requirements, Performance-based navigation (PBN) operations, Operations with specified minimum navigation performance (MNPS), Operations in airspace with reduced vertical separation minima (RVSM), Extended range operations with two-engine aeroplanes (ETOPS), Transport of dangerous goods, Helicopter operations with night vision imaging systems, Helicopter hoist operations, Helicopter emergency medical service operations, Flight time limitations
+            - text: General requirements, Performance-based navigation (PBN) operations, Operations with specified minimum navigation performance (MNPS), Operations in airspace with reduced vertical separation minima (RVSM), Low visibility operations (LVO), Extended range operations with two-engine aeroplanes (ETOPS), Transport of dangerous goods.

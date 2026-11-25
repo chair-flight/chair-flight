@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="694" viewBox="0 0 1000 694">
+  <title>Time, fuel and distance to climb</title>
+  <rect x="0" y="0" width="1000" height="694" fill="#fff"/>
+  <g fill="#161a20" font-family="Arial, sans-serif">
+    <text x="15" y="25" font-size="17" text-anchor="start" font-weight="700">Conditions</text>
+    <text x="15" y="49" font-size="16" text-anchor="start">Power: Full throttle, 2700 RPM</text>
+    <text x="15" y="72" font-size="16" text-anchor="start">Mixture: Full rich</text>
+    <text x="15" y="95" font-size="16" text-anchor="start">Wing flaps: Up</text>
+    <text x="15" y="118" font-size="16" text-anchor="start">Cowl flaps: As required</text>
+    <text x="15" y="141" font-size="16" text-anchor="start">Climb speed: 110 kt at all masses</text>
+    <text x="624" y="90" font-size="23" text-anchor="middle" font-weight="700">Time, fuel and distance to climb</text>
+    <defs><pattern id="minor" x="12" y="152" width="7.46154" height="7.43137" patternUnits="userSpaceOnUse"><path d="M7.46154 0H0V7.43137" fill="none" stroke="#969ca3" stroke-width="0.95"/></pattern></defs>
+    <rect x="12" y="152" width="970" height="379" fill="url(#minor)"/>
+    <path d="" fill="none" stroke="#373d44" stroke-width="1.1"/>
+    <path d="M12 152h970v379H12z" fill="none" stroke="#171b20" stroke-width="1.8"/>
+    <path d="M134 264Q190 249 243 225L365 526M151 290Q266 269 374 230M166 326Q301 301 426 259M182 360Q314 332 442 305M199 391Q322 376 453 350M213 425Q343 415 464 392M224 456Q359 449 489 432M237 487Q365 491 495 474" fill="none" stroke="#171b20" stroke-width="1.7"/>
+    <path d="M683 525C686.67 506.67 689.90 488.33 694 470C696.24 460.00 699.14 450.00 702 440C705.81 426.67 709.41 413.33 714 400C719.74 383.33 726.33 366.67 733 350C738.33 336.67 743.83 323.33 750 310C756.17 296.67 762.45 283.33 770 270C778.12 255.67 788.00 241.33 797 227M683 525C688.00 506.67 692.61 488.33 698 470C700.94 460.00 704.43 450.00 708 440C712.76 426.67 717.37 413.33 723 400C730.04 383.33 737.67 366.67 746 350C752.67 336.67 759.67 323.33 768 310C776.33 296.67 785.40 283.33 796 270C807.40 255.67 821.33 241.33 834 227M683 525C689.00 506.67 694.31 488.33 701 470C704.65 460.00 709.43 450.00 714 440C720.10 426.67 725.89 413.33 733 400C741.89 383.33 751.26 366.67 762 350C770.59 336.67 779.33 323.33 791 310C802.67 296.67 814.17 283.33 832 270C851.17 255.67 878.67 241.33 902 227M683 525C689.67 506.67 695.45 488.33 703 470C707.12 460.00 712.71 450.00 718 440C725.05 426.67 731.41 413.33 740 400C750.74 383.33 762.30 366.67 776 350C786.96 336.67 798.67 323.33 814 310C829.33 296.67 841.01 283.33 868 270C897.01 255.67 944.00 241.33 982 227" fill="none" stroke="#171b20" stroke-width="1.8"/>
+    <text x="20" y="242" font-size="16" text-anchor="start">Pressure altitude [ft]</text>
+    <text x="78" y="274" font-size="16" text-anchor="start">16 000</text>
+    <text x="97" y="301" font-size="16" text-anchor="start">14 000</text>
+    <text x="112" y="336" font-size="16" text-anchor="start">12 000</text>
+    <text x="130" y="368" font-size="16" text-anchor="start">10 000</text>
+    <text x="155" y="399" font-size="16" text-anchor="start">8 000</text>
+    <text x="167" y="432" font-size="16" text-anchor="start">6 000</text>
+    <text x="178" y="466" font-size="16" text-anchor="start">4 000</text>
+    <text x="190" y="496" font-size="16" text-anchor="start">2 000</text>
+    <text x="200" y="522" font-size="16" text-anchor="start">MSL</text>
+    <text x="235" y="212" font-size="18" text-anchor="middle" transform="rotate(67 235 212)" fill="#171b20" stroke="#fff" stroke-width="6" paint-order="stroke">ISA</text>
+    <text x="865" y="215" font-size="17" text-anchor="middle">Initial mass [lb]</text>
+    <text x="781" y="245" font-size="18" text-anchor="middle" transform="rotate(-51 781 245)" fill="#171b20" stroke="#fff" stroke-width="6" paint-order="stroke">2600</text>
+    <text x="810" y="246" font-size="18" text-anchor="middle" transform="rotate(-51 810 246)" fill="#171b20" stroke="#fff" stroke-width="6" paint-order="stroke">3000</text>
+    <text x="855" y="246" font-size="18" text-anchor="middle" transform="rotate(-51 855 246)" fill="#171b20" stroke="#fff" stroke-width="6" paint-order="stroke">3400</text>
+    <text x="916" y="243" font-size="18" text-anchor="middle" transform="rotate(-51 916 243)" fill="#171b20" stroke="#fff" stroke-width="6" paint-order="stroke">3650</text>
+    <defs><marker id="sample" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 6 3 0 6Z" fill="#0b6bcb"/></marker></defs>
+    <path d="M292 528V310" fill="none" stroke="#0b6bcb" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#sample)"/>
+    <path d="M292 310H814" fill="none" stroke="#0b6bcb" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#sample)"/>
+    <path d="M814 310V638" fill="none" stroke="#0b6bcb" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#sample)"/>
+    <path d="M366 528V416" fill="none" stroke="#0b6bcb" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#sample)"/>
+    <path d="M366 416H732" fill="none" stroke="#0b6bcb" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#sample)"/>
+    <path d="M732 416V638" fill="none" stroke="#0b6bcb" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#sample)"/>
+    <text x="301" y="529" font-size="17" text-anchor="start" fill="#0b6bcb" font-style="italic">Sample</text>
+    <text x="124.0" y="550" font-size="16" text-anchor="middle">−50</text>
+    <text x="161.3" y="550" font-size="16" text-anchor="middle">−40</text>
+    <text x="198.6" y="550" font-size="16" text-anchor="middle">−30</text>
+    <text x="235.89999999999998" y="550" font-size="16" text-anchor="middle">−20</text>
+    <text x="273.2" y="550" font-size="16" text-anchor="middle">−10</text>
+    <text x="310.5" y="550" font-size="16" text-anchor="middle">0</text>
+    <text x="347.79999999999995" y="550" font-size="16" text-anchor="middle">10</text>
+    <text x="385.09999999999997" y="550" font-size="16" text-anchor="middle">20</text>
+    <text x="422.4" y="550" font-size="16" text-anchor="middle">30</text>
+    <text x="459.7" y="550" font-size="16" text-anchor="middle">40</text>
+    <text x="497.0" y="550" font-size="16" text-anchor="middle">50</text>
+    <text x="534.3" y="550" font-size="16" text-anchor="middle">60</text>
+    <text x="683.0" y="550" font-size="16" text-anchor="middle">0</text>
+    <text x="757.75" y="550" font-size="16" text-anchor="middle">10</text>
+    <text x="832.5" y="550" font-size="16" text-anchor="middle">20</text>
+    <text x="907.25" y="550" font-size="16" text-anchor="middle">30</text>
+    <text x="982.0" y="550" font-size="16" text-anchor="middle">40</text>
+    <text x="331" y="577" font-size="17" text-anchor="middle">Outside air temperature [°C]</text>
+    <text x="847" y="568" font-size="17" text-anchor="middle">Time to climb [minutes]</text>
+    <path d="M682 580H974M682 640H980M682 580v12M692 580v7M701 580v12M711 580v7M721 580v12M732 580v7M742 580v12M754 580v7M765 580v12M776 580v7M788 580v12M801 580v7M816 580v12M830 580v7M844 580v12M859 580v7M874 580v12M889 580v7M904 580v12M918 580v7M934 580v12M949 580v7M962 580v12M973 580v7M682 640v12M702 640v7M722 640v12M739 640v7M758 640v12M776 640v7M794 640v12M811 640v7M830 640v12M848 640v7M865 640v12M884 640v7M903 640v12M918 640v7M931 640v12M946 640v7M961 640v12M979 640v7" fill="none" stroke="#171b20" stroke-width="1.4"/>
+    <text x="682" y="609" font-size="15" text-anchor="middle">0</text>
+    <text x="701" y="609" font-size="15" text-anchor="middle">1</text>
+    <text x="721" y="609" font-size="15" text-anchor="middle">2</text>
+    <text x="742" y="609" font-size="15" text-anchor="middle">3</text>
+    <text x="765" y="609" font-size="15" text-anchor="middle">4</text>
+    <text x="788" y="609" font-size="15" text-anchor="middle">5</text>
+    <text x="816" y="609" font-size="15" text-anchor="middle">6</text>
+    <text x="844" y="609" font-size="15" text-anchor="middle">7</text>
+    <text x="874" y="609" font-size="15" text-anchor="middle">8</text>
+    <text x="904" y="609" font-size="15" text-anchor="middle">9</text>
+    <text x="934" y="609" font-size="15" text-anchor="middle">10</text>
+    <text x="962" y="609" font-size="15" text-anchor="middle">11</text>
+    <text x="682" y="671" font-size="15" text-anchor="middle">0</text>
+    <text x="722" y="671" font-size="15" text-anchor="middle">10</text>
+    <text x="758" y="671" font-size="15" text-anchor="middle">20</text>
+    <text x="794" y="671" font-size="15" text-anchor="middle">30</text>
+    <text x="830" y="671" font-size="15" text-anchor="middle">40</text>
+    <text x="865" y="671" font-size="15" text-anchor="middle">50</text>
+    <text x="903" y="671" font-size="15" text-anchor="middle">60</text>
+    <text x="931" y="671" font-size="15" text-anchor="middle">70</text>
+    <text x="961" y="671" font-size="15" text-anchor="middle">80</text>
+    <text x="836" y="624" font-size="16" text-anchor="middle">Fuel to climb [gallons]</text>
+    <text x="842" y="688" font-size="16" text-anchor="middle">Distance to climb [NM]</text>
+  </g>
+</svg>

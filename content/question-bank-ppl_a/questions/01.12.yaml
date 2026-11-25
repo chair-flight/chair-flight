@@ -1,0 +1,38 @@
+- id: QAPBQ
+  subjectId: "01"
+  chapterId: "01.12"
+  relatedQuestionIds:
+    - QAYMS
+  annexes: []
+  learningObjectiveIds:
+    - "01.12.01"
+  templates:
+    - type: simple
+      question: With respect to aircraft accident and incident investigation, what are the three categories regarding aircraft occurrences?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Incident, Serious incident, Accident
+          wrongAnswers:
+            - text: Event, Serious event, Accident
+            - text: Happening, Event, Serious event
+            - text: Event, Crash, Disaster
+- id: QAYMS
+  subjectId: "01"
+  chapterId: "01.12"
+  relatedQuestionIds:
+    - QAPBQ
+  annexes: []
+  learningObjectiveIds:
+    - "01.12.01"
+  templates:
+    - type: simple
+      question: What is the primary purpose of an aircraft accident investigation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To identify the reasons and work out safety recommendations
+          wrongAnswers:
+            - text: To determine the guilty party and draw legal consequences
+            - text: To clarify questions of liability within the meaning of compensation for passengers
+            - text: To work for the public prosecutor and help to follow-up flight accidents

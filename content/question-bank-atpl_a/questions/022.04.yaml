@@ -1,0 +1,1066 @@
+- id: QJMXN
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222247
+    - BGS-221572
+    - AVEXAM-5399
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.01.01.01
+  templates:
+    - type: simple
+      question: "What is a gyroscope or gyro? It is a fast rotating object:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: With its mass evenly distributed around its spin axis, and gimballed in one or two frames.
+          wrongAnswers:
+            - text: "With two important characteristics: rigidity on Earth and precession."
+            - text: That has three degrees of freedom when freely suspended in one surrounding frame.
+            - text: That spins around two perpendicular axes; a horizontal one and a vertical one.
+- id: QZKBK
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228975
+    - BGS-220287
+    - AVEXAM-63527
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.01.01.02
+  templates:
+    - type: simple
+      question: "In the building principle of a gyroscope, the best efficiency is obtained through the concentration of the mass:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: on the periphery and with a high rotational speed.
+          wrongAnswers:
+            - text: on the periphery and with a low rotational speed.
+            - text: close to the axis and with a high rotational speed.
+            - text: close to the axis and with a low rotational speed.
+- id: QMJLO
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226270
+    - AVEXAM-26305
+    - BGS-222228
+  annexes:
+    - id: AAII
+  learningObjectiveIds:
+    - 022.04.01.01.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The diagram shows three gyro assemblies: A, B and C. Among these gyros:
+
+        1) is a roll gyro   
+         2) is a pitch gyro   
+         3) is a yaw gyro
+
+        The correct matching of gyros and assemblies is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1B, 2C, 3A
+          wrongAnswers:
+            - text: 1B, 2A, 3C
+            - text: 1C, 2B, 3A
+            - text: 1A, 2B, 3C
+- id: QTUOZ
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228889
+    - AVEXAM-38247
+    - BGS-220290
+    - AVEXAM-65785
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.01.01.04
+  templates:
+    - type: multiple-correct
+      question: "The properties of a gyroscope are:"
+      explanation: ""
+      options:
+        - text: – rigidity in space
+          correct: true
+        - text: – rigidity on earth
+          correct: false
+        - text: – precession
+          correct: true
+        - text: – Schuler oscillations
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QDLRO
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225735
+    - AVEXAM-68324
+    - BGS-221650
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.01.01.05
+  templates:
+    - type: simple
+      question: Which of the following most accurately defines the apparent wander of a gyroscope?
+      explanation: Apparent wander is the apparent change of direction of the spin axis as seen by an observer on the earth. It arises because the gyroscope keeps its direction in space while the earth rotates.
+      presets:
+        - correctAnswers:
+            - text: The appearance to an observer on Earth of the change of direction of the gyroscope's spin axis.
+          wrongAnswers:
+            - text: The tilting of the spin axis in the vertical plane due to an imperfectly balanced gyroscopic mass.
+            - text: Wander as a result of the movement of the gyroscope over the Earth's surface.
+            - text: Wander as a result of imperfections such as bearing friction and gimbal system imbalance.
+- id: QYQBM
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225026
+    - BGS-222414
+    - AVEXAM-52850
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.01.01.05
+  templates:
+    - type: simple
+      question: What does “apparent wander” refer to?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The movement of the gyroscopic position about the vertical axis as observed by a person standing on the surface.
+          wrongAnswers:
+            - text: The movement of the gyro spin axis along the horizontal plane,
+            - text: The wander caused by movement of the aircraft.
+            - text: The shift in position caused by imperfections in the design of a gyroscope.
+- id: QUSSY
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222518
+    - AVEXAM-122
+    - BGS-220310
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.01.01.06
+  templates:
+    - type: simple
+      question: "The pendulous vane can be found on:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: an air driven artificial horizon.
+          wrongAnswers:
+            - text: a strap down inertial system.
+            - text: a gyromagnetic indicator.
+            - text: a directional gyro indicator.
+- id: QLZEA
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228522
+    - BGS-222404
+    - AVEXAM-73513
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.02.01.01
+  templates:
+    - type: simple
+      question: "The purpose of the rate-of-turn and balance indicator is to show:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The rate of change of direction and coordination during a rate-one turn.
+          wrongAnswers:
+            - text: The actual bank angle and lateral balance during a 2-minute turn.
+            - text: The required aileron and rudder deflection during a balanced turn.
+            - text: A change in heading of 360 degrees per minute during a coordinated turn.
+- id: QIEBS
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229032
+    - BGS-221698
+    - AVEXAM-5478
+    - ATPLQ-226689
+    - BGS-222033
+    - BGS-220303
+    - AVEXAM-75424
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.02.01.02
+  templates:
+    - type: simple
+      question: What is a rate of turn?
+      explanation: A rate of turn is the rate of change of heading, in degrees per second. A rate 1 turn is 3 degrees per second, which gives a 360 degree turn in 2 minutes.
+      presets:
+        - correctAnswers:
+            - text: A rate of change of heading defined in degrees per second.
+          wrongAnswers:
+            - text: An angle of bank equal to that required for described DME arc.
+            - text: A rate of change of heading required for a described DME arc.
+            - text: An angle of bank equal to the maximum rate of turn.
+        - correctAnswers:
+            - text: change-of-heading rate of the aircraft.
+          wrongAnswers:
+            - text: aircraft speed in a turn.
+            - text: pitch rate in a turn.
+            - text: yaw rate in a turn.
+- id: QAJPH
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223230
+    - BGS-221894
+    - AVEXAM-56701
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.02.01.02
+  templates:
+    - type: simple
+      question: Which of the following values corresponds to the standard rate of the rate of turn indicator?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3°/sec
+          wrongAnswers:
+            - text: 6°/sec
+            - text: 720°/sec
+            - text: 540°/sec
+- id: QLGIW
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226339
+    - BGS-222487
+    - BGS-221865
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.02.01.02
+  templates:
+    - type: simple
+      question: During a rate-one turn, the heading of the aircraft changes at a rate of..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3 degrees per second.
+          wrongAnswers:
+            - text: 6 degrees per second.
+            - text: 540 degrees per minute.
+            - text: 720 degrees per minute.
+- id: QRBLJ
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221083
+    - ATPLQ-228843
+    - AVEXAM-94025
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.02.01.02
+  templates:
+    - type: simple
+      question: |-
+        An aircraft turns through 245 degrees in 1 minute and 38 seconds. Which of these statements is true?
+
+        1. It's a rate-1 turn 
+         
+        2. It's lower than a rate-1 turn 
+         
+        3. It's higher than a rate-1 turn 
+         
+        4. It turns at 2.5 degrees per second
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 and 4
+          wrongAnswers:
+            - text: 1 and 4
+            - text: 1 and 2
+            - text: 2 only
+    - type: simple
+      question: |-
+        A aircraft completes a turn of 235 degrees in 1 minute and 34 seconds. Which of the following statements correctly describes this turn?1. This is a rate one turn
+        2. This is more than a rate one turn
+        3. This is less than a rate one turn
+        4. The turn rate is 3 degrees per second
+        5. The turn rate is 2.5 degrees per second
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3 and 5
+          wrongAnswers:
+            - text: 1 and 2
+            - text: 1 and 3
+            - text: 3 and 4
+    - type: simple
+      question: |-
+        An aircraft completes a turn of 235° in 1 minute and 34 seconds. Which statements correctly describe this turn?
+
+         This is a rate one turn.
+         This is more than a rate one turn.
+         This is less than a rate one turn.
+         The turn rate is 3° per second.
+         The turn rate is 2.5° per second.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3 and 5
+          wrongAnswers:
+            - text: 3 and 4
+            - text: 1 and 3
+            - text: 1 and 2
+- id: QRAOL
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223755
+    - AVEXAM-10484
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.02.01.03
+  templates:
+    - type: simple
+      question: What indications can a pilot get from the turn and balance indicator?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The turn and balance indicator indicates the aircraft's turn rate and slip or skid.
+          wrongAnswers:
+            - text: The turn and balance indicator indicates the aircraft's heading and altitude.
+            - text: The turn and balance indicator indicate the required deflection of ailerons and rudder for a balanced turn.
+            - text: The turn and balance indicator indicates the aircraft's bank angle and vertical speed.
+- id: QYIFL
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227220
+    - AVEXAM-88913
+    - BGS-220296
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.02.01.03
+  templates:
+    - type: simple
+      question: At a low bank angle, the measurement of rate-of-turn consists of measuring the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: yaw rate of the aircraft.
+          wrongAnswers:
+            - text: bank of the aircraft.
+            - text: pitch rate of the aircraft.
+            - text: roll rate of the aircraft.
+- id: QBSVZ
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224932
+    - BGS-220297
+    - AVEXAM-48301
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.02.01.04
+  templates:
+    - type: simple
+      question: "In a turn at a constant angle of bank, the rate of turn is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: inversely proportional to the aircraft TAS.
+          wrongAnswers:
+            - text: independent of the aircraft TAS.
+            - text: proportional to the aircraft TAS.
+            - text: proportional to the aircraft weight.
+- id: QRLAP
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221596
+    - AVEXAM-4558
+    - AVEXAM-43816
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.02.01.04
+  templates:
+    - type: simple
+      question: What bank angle is required for a Rate 1 turn if an aircraft is flying at 120 kts IAS, 150 kts TAS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 22 degrees
+          wrongAnswers:
+            - text: 18 degrees
+            - text: 20 degrees
+            - text: 25 degrees
+    - type: simple
+      question: An aircraft is flying with an IAS of 130 kt and a TAS of 150 kt. What is the approximate bank angle required to achieve a Rate 1 turn?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 22°
+          wrongAnswers:
+            - text: 25°
+            - text: 20°
+            - text: 18°
+    - type: simple
+      question: "An aircraft is flying at a 120 kt TAS. In order to achieve a Rate 1 turn, the pilot will have to bank the aircraft at an angle of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 18°
+          wrongAnswers:
+            - text: 36°
+            - text: 30°
+            - text: 12°
+- id: QJBDH
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224620
+    - BGS-222307
+    - BGS-222302
+    - BGS-222306
+    - BGS-222308
+    - AVEXAM-13229
+  annexes:
+    - id: AHZV
+  learningObjectiveIds:
+    - 022.04.02.01.06
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Diagram 2 in the annex represents:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a left turn with too much rudder.
+          wrongAnswers:
+            - text: a right turn with insufficient rudder.
+            - text: straight and level flight.
+            - text: a left turn with insufficient rudder.
+- id: QWSXB
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223190
+    - BGS-222436
+  annexes:
+    - id: ATLO
+  learningObjectiveIds:
+    - 022.04.02.01.06
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The figure represents an aircraft during a \_\_\_\_\_\_ turn.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: coordinated
+          wrongAnswers:
+            - text: drifting
+            - text: skidding
+            - text: slipping
+- id: QYMTL
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811104
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.02.01.07
+  templates:
+    - type: simple
+      question: Which instrument can a pilot use to determine the spin's direction when it occurs while they are flying in a cloud?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Turn coordinator
+          wrongAnswers:
+            - text: Magnetic compass
+            - text: Ball slip indicator
+            - text: Attitude indicator
+- id: QJMSV
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229729
+    - AVEXAM-30908
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.03.01.01
+  templates:
+    - type: simple
+      question: "In an attitude indicator, the gyroscope used has a spin axis which is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Vertical.
+          wrongAnswers:
+            - text: Horizontal, perpendicular to the lateral axis.
+            - text: Horizontal, perpendicular to the longitudinal axis.
+            - text: Horizontal, parallel to the longitudinal axis.
+- id: QLDRG
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228634
+    - BGS-222222
+    - AVEXAM-94369
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.03.01.01
+  templates:
+    - type: simple
+      question: The purpose of the attitude indicator is to indicate the aircraft's..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: orientation with respect to the horizon in pitch and roll.
+          wrongAnswers:
+            - text: orientation with respect to the horizon in roll and yaw.
+            - text: angle of bank and rate of heading change.
+            - text: rate of heading change.
+- id: QGMYB
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226965
+    - BGS-221895
+    - AVEXAM-9837
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.03.01.02
+  templates:
+    - type: simple
+      question: A mechanical ADI is based on..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: an electric or vacuum-driven gyroscope.
+          wrongAnswers:
+            - text: attitude information from an Inertial Reference System.
+            - text: the Air Data Computer signals.
+            - text: an electric gyroscopic direction indicator.
+- id: QITRM
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223056
+    - AVEXAM-20637
+    - BGS-221898
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.03.01.02
+  templates:
+    - type: simple
+      question: What is correct about a stand-by-horizon or emergency attitude indicator?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It contains its own separate gyro.
+          wrongAnswers:
+            - text: It is fully independent of external energy resources in an emergency situation.
+            - text: It is automatically connected to the primary vertical gyro if the alternator fails.
+            - text: It only works if there is a complete electrical failure.
+- id: QMKJZ
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224492
+    - BGS-220315
+    - AVEXAM-62509
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.03.01.03
+  templates:
+    - type: simple
+      question: The artificial horizon uses a gyroscope with..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: two degrees of freedom, and an automatic erection system attempts to align its rotor spin axis to the local vertical.
+          wrongAnswers:
+            - text: one degree of freedom, and an automatic erection system attempts to align its rotor spin axis to the local vertical.
+            - text: one degree of freedom, and an automatic erection system attempts to align its rotor spin axis with the horizontal plane.
+            - text: two degrees of freedom, and an automatic erection system attempts to align its rotor spin axis with the horizontal plane.
+- id: QPJNL
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225778
+    - AVEXAM-60114
+    - BGS-220314
+    - ATPLQ-228184
+    - ATPLQ-224963
+    - BGS-220313
+    - AVEXAM-78825
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.03.01.04
+  templates:
+    - type: simple
+      question: Considering an air driven artificial horizon, when an aircraft decelerates on ground during the landing, the result is a..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: false nose-down indication.
+          wrongAnswers:
+            - text: right or left wing down indication depending on the runway direction.
+            - text: correct and constant pitch indication.
+            - text: false nose-up indication.
+    - type: simple
+      question: "Considering an air-driven Artificial Horizon, when an aircraft accelerates during a take-off run the result is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "A False pitch up indication  "
+          wrongAnswers:
+            - text: A False bank to one side
+            - text: Nothing happens, the AI can account for this
+            - text: A False down pitch indication
+        - correctAnswers:
+            - text: false nose-up indication.
+          wrongAnswers:
+            - text: false nose-down indication.
+            - text: correct and constant pitch angle indication.
+            - text: right or left wing down indication depending on the runway direction.
+- id: QCHGU
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227899
+    - BGS-222030
+    - BGS-220292
+    - BGS-222031
+    - BGS-222032
+    - BGS-222191
+    - BGS-222190
+    - BGS-222193
+    - BGS-222192
+    - ATPLQ-229656
+    - BGS-222301
+    - BGS-222303
+    - BGS-222305
+    - BGS-222304
+    - ATPLQ-224170
+    - ATPLQ-221628
+    - ATPLQ-223385
+    - ATPLQ-228684
+    - ATPLQ-222413
+    - ATPLQ-221441
+  annexes:
+    - id: AOIA
+  learningObjectiveIds:
+    - 022.04.03.01.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The diagram which shows a 40° right bank and 8° nose down attitude is:
+      explanation: On an attitude indicator, the bank pointer and the horizon line show the bank angle, and the horizon position relative to the aircraft symbol shows pitch. A nose down attitude shows more of the ground area, brown, above the symbol. Diagram 3 shows 40° right bank with 8° nose down.
+      presets:
+        - correctAnswers:
+            - text: diagram 3.
+          wrongAnswers:
+            - text: diagram 2.
+            - text: diagram 4.
+            - text: diagram 1.
+- id: QMPJX
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225223
+    - AVEXAM-29714
+    - AVEXAM-56679
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.04.01.01
+  templates:
+    - type: simple
+      question: What can be displayed on a directional gyro?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Any heading as required by the pilot.
+          wrongAnswers:
+            - text: Only heading to fly a Rhumb line track.
+            - text: Magnetic and True heading.
+            - text: Magnetic and Compass heading.
+- id: QVEZA
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225588
+    - BGS-222669
+    - AVEXAM-47188
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.04.01.01
+  templates:
+    - type: simple
+      question: A pilot compares the directional gyro (DG) heading with the magnetic compass and finds out they are not aligned. What is the correct action to be taken?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Synchronise the DG to the magnetic compass heading.
+          wrongAnswers:
+            - text: Re align the IRS.
+            - text: Ignore the compass and continue using the DG.
+            - text: Land as soon as possible and synchronise the DG as you cannot synchronise it mid-flight.
+    - type: simple
+      question: During level and unaccelerating flight, if the Directional Gyro (DG) displays a heading that differs from the magnetic compass heading, what should the pilot do?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Align the DG to the heading indicated by the magnetic compass.
+          wrongAnswers:
+            - text: Land at the nearest airfield as the DG is an important flight instrument.
+            - text: Continue flying with reference to the magnetic compass, as the DG has failed.
+            - text: Align the DG to an estimated heading using known landmarks.
+    - type: simple
+      question: A pilot notices a discrepancy between the directional gyro (DG) heading and the magnetic compass. What should be done?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Synchronise the DG to the magnetic compass heading.
+          wrongAnswers:
+            - text: Land as soon as possible and synchronise the DG as you cannot synchronise it mid-flight.
+            - text: Re align the IRS.
+            - text: Ignore the compass and continue using the DG.
+- id: QJBFP
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222541
+    - AVEXAM-14862
+    - AVEXAM-89311
+    - BGS-220285
+    - AVEXAM-71322
+    - BGS-222028
+    - BGS-222027
+    - BGS-220284
+    - BGS-220286
+    - BGS-220281
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.04.01.03
+  templates:
+    - type: simple
+      question: Due to the rotation of the Earth, what is the magnitude of the apparent drift of a horizontal free gyroscope at a latitude of {{lat}}°S, in degrees per hour?
+      explanation: |-
+        A horizontal-axis free gyroscope keeps its direction in space while the Earth turns at 15°/h, so it appears to drift by the vertical component of the Earth rate: 15° x sin(latitude). In the southern hemisphere the apparent drift is to the left.
+
+        **Solution**
+
+        $$
+        15\times \text{sin}(\text{Latitude}) = 15\times \text{sin}({{lat}}) = \mathbf{ {{answer}}\ \text{°/h} }
+        $$
+
+        ## Why the other answers are wrong
+        - **{{d1}} °/h**: uses cosine, the horizontal component of Earth rate (this is the transport/tilt term, not the apparent drift).
+        - **{{d2}} °/h**: uses tangent instead of sine.
+        - **{{d3}} °/h**: divides by sin(latitude) instead of multiplying.
+        - **{{d4}} °/h**: scales linearly with latitude instead of using sine.
+      presets:
+        - variables:
+            lat: 30
+            answer: 7.5
+            d1: 13
+            d2: 8.7
+            d3: 30
+            d4: 5
+          correctAnswers:
+            - text: 7.5 °/h
+          wrongAnswers:
+            - text: 13 °/h
+            - text: 30 °/h
+            - text: 5 °/h
+            - text: 8.7 °/h
+        - variables:
+            lat: 50
+            answer: 11.5
+            d1: 9.6
+            d2: 17.9
+            d3: 19.6
+            d4: 8.3
+          correctAnswers:
+            - text: 11.5 °/h
+          wrongAnswers:
+            - text: 9.6 °/h
+            - text: 19.6 °/h
+            - text: 8.3 °/h
+            - text: 17.9 °/h
+        - variables:
+            lat: 20
+            answer: 5.1
+            d1: 14.1
+            d2: 5.5
+            d3: 43.9
+            d4: 3.3
+          correctAnswers:
+            - text: 5.1 °/h
+          wrongAnswers:
+            - text: 14.1 °/h
+            - text: 43.9 °/h
+            - text: 3.3 °/h
+            - text: 5.5 °/h
+    - type: simple
+      question: A free gyro has the axis of the spinning rotor horizontal and aligned with the geographic meridian. - If this free gyro is situated at latitude 60° N, the apparent drift rate according to the earthbound observer is…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 13° per hour to the right.
+          wrongAnswers:
+            - text: 13° per hour to the left.
+            - text: 7.5°per hour to the left.
+            - text: 7.5° per hour to the right.
+- id: QHUTU
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226394
+    - BGS-221738
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.04.01.03
+  templates:
+    - type: multiple-correct
+      question: "A directional gyroscope may drift over time due to:"
+      explanation: ""
+      options:
+        - text: Rotation of the Earth.
+          correct: true
+        - text: Altitude.
+          correct: false
+        - text: Aircraft manoeuvring.
+          correct: true
+        - text: Aircraft movement over the Earth’s surface.
+          correct: true
+        - text: Magnetic dip.
+          correct: false
+        - text: Piloting errors.
+          correct: false
+        - text: Wind correction.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 3
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 1
+            - 5
+            - 6
+        - show:
+            - 0
+            - 1
+            - 2
+            - 6
+- id: QWKAX
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225367
+    - BGS-220324
+    - BGS-220329
+    - AVEXAM-39217
+    - ATPLQ-228998
+    - AVEXAM-61781
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.04.01.03
+  templates:
+    - type: simple
+      question: The latitude at which the apparent wander of a directional gyro is equal to 0 is..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the Equator
+          wrongAnswers:
+            - text: Mid-Latitude
+            - text: South pole
+            - text: the North Pole
+    - type: simple
+      question: "The apparent wander of a directional gyro is 15° per hour:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: at the North Pole.
+          wrongAnswers:
+            - text: at the latitude 45°.
+            - text: at the latitude 30°.
+            - text: at the equator.
+- id: QCNVE
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227415
+    - AVEXAM-96709
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.05.01.02
+  templates:
+    - type: multiple-correct
+      question: "In a gyromagnetic compass, the gyro axis:"
+      explanation: ""
+      options:
+        - text: – is maintained vertical.
+          correct: false
+        - text: – is maintained horizontal.
+          correct: true
+        - text: – is servo-controlled in azimuth.
+          correct: true
+        - text: – is free in azimuth.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QEGFE
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229271
+    - AVEXAM-17396
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.05.01.02
+  templates:
+    - type: simple
+      question: From what system is the gyromagnetic compass decoupled in free mode, when fitted with a “free or slaved” switch?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Flux valve
+          wrongAnswers:
+            - text: Magnetic compass
+            - text: Gyroscope
+            - text: Wing
+- id: QMHPI
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224067
+    - BGS-221769
+    - ATPLQ-221622
+    - AVEXAM-8496
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.06.01.01
+  templates:
+    - type: simple
+      question: "The AHRS replaces the traditional, stand-alone gyros by integrating:"
+      explanation: "An AHRS replaces the mechanical gyros with solid-state sensors: accelerometers, rate sensors (gyroscopes) and magnetometers, whose data are combined to give attitude and heading."
+      presets:
+        - correctAnswers:
+            - text: Accelerometers, rate sensors, and magnetometers.
+          wrongAnswers:
+            - text: Directional gyro and flux valve.
+            - text: Attitude indicator, heading indicator, and turn and balance indicator.
+            - text: Solid-state inertial reference system and air data computer.
+    - type: simple
+      question: In an Attitude and Heading Reference System (AHRS) designed to replace conventional instruments, which sensors are combined together?
+      explanation: An AHRS combines accelerometers, rate gyroscopes and magnetometers, all solid-state, to give attitude and heading without moving parts.
+      presets:
+        - correctAnswers:
+            - text: Accelerometers, gyroscopes, and magnetometers.
+          wrongAnswers:
+            - text: Attitude indicator and directional gyro.
+            - text: Flux valve and DGI.
+            - text: ADC and IRS.
+- id: QEAZL
+  subjectId: "022"
+  chapterId: "022.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225742
+    - AVEXAM-18720
+    - AVEXAM-81714
+  annexes: []
+  learningObjectiveIds:
+    - 022.04.06.01.02
+  templates:
+    - type: simple
+      question: What does the three-axis magnetometer provide in an AHRS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The horizontal and vertical components of the earth's magnetic field.
+          wrongAnswers:
+            - text: The horizontal component of the earth's magnetic field.
+            - text: The vertical component of the earth's magnetic field.
+            - text: The orientation of magnetic North only.

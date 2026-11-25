@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <title>Ground signal with two diagonal stripes</title>
+  <path fill="#fff" d="M0 0h200v200H0z"/>
+  <defs><clipPath id="edge"><rect x="1" y="1" width="198" height="198"/></clipPath></defs>
+  <rect x="1" y="1" width="198" height="198" fill="#7e0202" stroke="#161000" stroke-width="2"/>
+  <path d="M-5-5 205 205m0-210L-5 205" fill="none" stroke="#ffed00" stroke-width="27" clip-path="url(#edge)"/>
+</svg>

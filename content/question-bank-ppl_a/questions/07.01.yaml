@@ -1,0 +1,682 @@
+- id: QEJEL
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.01.01.01"
+  templates:
+    - type: simple
+      question: Exceeding the maximum allowed aircraft mass is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Not permissible and essentially dangerous.
+          wrongAnswers:
+            - text: Only relevant if the excess is more than 10 %.
+            - text: Exceptionally permissible to avoid delays.
+            - text: Compensated by the pilot's control inputs.
+- id: QKYWA
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds:
+    - QTFDE
+    - QDQBG
+    - QPNBB
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.01.02.01"
+  templates:
+    - type: simple
+      question: The centre of gravity has to be located...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Between the front and the rear C.G. limit.
+          wrongAnswers:
+            - text: In front of the front C.G. limit.
+            - text: Behind the rear C.G. limit.
+            - text: Right of the lateral C. G. limit.
+    - type: simple
+      question: An aircraft must be loaded and operated in such a way that the centre of gravity (CG) stays within the approved limits during all phases of flight. This is done to ensure...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both stability and controllability of the aircraft.
+          wrongAnswers:
+            - text: That the aircraft does not tip over on its tail while it is being loaded.
+            - text: That the aircraft does not stall.
+            - text: That the aircraft does not exceed the maximum permissible airspeed during a descent.
+- id: QTFDE
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds:
+    - QKYWA
+    - QDQBG
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.01.02.01"
+  templates:
+    - type: simple
+      question: The result of a rear C.G. position is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A decrease of stability
+          wrongAnswers:
+            - text: An increased stall speed
+            - text: An increased fuel consumption
+            - text: A decrease of range
+- id: QDQBG
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds:
+    - QKYWA
+    - QTFDE
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.01.02.02"
+  templates:
+    - type: multiple-correct
+      question: The result of a front C.G. position is...
+      explanation: ""
+      options:
+        - text: Increase in stability
+          correct: true
+        - text: Increase in fuel consumption
+          correct: true
+        - text: Increase in stall speed
+          correct: true
+        - text: Increase in range
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QPNBB
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds:
+    - QKYWA
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.01.02.01"
+  templates:
+    - type: simple
+      question: Loads must be adequately secured in order to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Avoid any centre of gravity (C.G.) movements.
+          wrongAnswers:
+            - text: Allow steep turns.
+            - text: Carry extra fuel.
+            - text: Prevent excessive 'g'-loading during the landing flare.
+- id: QIDHB
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds:
+    - QUKED
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.02.01.01"
+  templates:
+    - type: simple
+      question: The basic empty mass of an aircraft includes...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The mass of the aeroplane plus standard items such as unusable fuel and other unusable liquids, lubricating oil in engine and auxiliary units, fire extinguishers, pyrotechnics, emergency oxygen equipment, supplementary electronic equipment.
+          wrongAnswers:
+            - text: The total mass of the aeroplane ready for a specific type of operation including crew, navigation.
+            - text: The total mass of an aeroplane ready for a specific type of operation including the required fuel.
+            - text: The total mass of the aeroplane ready for a specific type of operation excluding unusable fuel.
+- id: QUKED
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds:
+    - QIDHB
+    - QDSNZ
+    - QSTQB
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.02.01.01"
+    - "07.01.03.02.01"
+  templates:
+    - type: simple
+      question: Which section of the flight manual describes the basic empty mass of an aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Weight and balance
+          wrongAnswers:
+            - text: Performance
+            - text: Normal procedures
+            - text: Limitations
+- id: QDSNZ
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds:
+    - QUKED
+    - QSTQB
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.03.02.01"
+  templates:
+    - type: simple
+      question: The empty weight and the corresponding centre of gravity (CG) of an aircraft are initially determined...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: By weighing
+          wrongAnswers:
+            - text: By calculation
+            - text: Through data provided by the aircraft manufacturer
+            - text: For one aircraft of a type only, since all aircraft of the same type have the same mass and CG
+- id: QSTQB
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds:
+    - QDSNZ
+    - QUKED
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.03.01.01"
+  templates:
+    - type: simple
+      question: The required data for a mass and balance calculation including masses and balance arms can be found in the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Mass and balance section of the pilot's operating handbook of this particular aircraft.
+          wrongAnswers:
+            - text: Performance section of the pilot's operating handbook of this particular aircraft.
+            - text: Documentation of the annual inspection.
+            - text: Certificate of airworthiness.
+- id: QNFLR
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds:
+    - QBUJD
+    - QAVRB
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.02.01.01"
+  templates:
+    - type: simple
+      question: The conversion factor from kilogram [kg] into pounds [lb] is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Kg x 2.205 = lb
+          wrongAnswers:
+            - text: Kg x 0.454 = lb
+            - text: Kg / 2.205 = lb
+            - text: Kg x 2 = lb
+- id: QBUJD
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds:
+    - QNFLR
+    - QAVRB
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.02.01.02"
+  templates:
+    - type: simple
+      question: The density of AVGAS 100LL at 15 °C is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 0.72 kg/l
+          wrongAnswers:
+            - text: 0.68 kg/l
+            - text: 1.0 kg/l
+            - text: 0.82 kg/l
+- id: QAVRB
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds:
+    - QBUJD
+    - QNFLR
+    - QISKT
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.02.01.02"
+  templates:
+    - type: simple
+      question: What mass equals 102 litres of Avgas 100LL?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 74 kg
+          wrongAnswers:
+            - text: 74 lbs
+            - text: 142 lbs
+            - text: 142 kg
+- id: QISKT
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds:
+    - QAVRB
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.02.01.01"
+    - "07.01.02.03.01"
+  templates:
+    - type: simple
+      question: How much taxi fuel must be consumed before take-off to reduce the aircraft mass to the maximum take-off mass? Maximum ramp mass (MRM) = 1150 kg. Actual ramp mass = 1148 kg. Maximum take-off mass (MTOM) = 1145 kg.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 4 L
+          wrongAnswers:
+            - text: 5 L
+            - text: 2 L
+            - text: 3 L
+- id: QTEGW
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds:
+    - QCBIV
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.02.04.01"
+  templates:
+    - type: simple
+      question: The total weight of an aeroplane is acting vertically through the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Centre of gravity
+          wrongAnswers:
+            - text: Stagnation point
+            - text: Neutral point
+            - text: Center of pressure
+            - text: The heaviest point on an aeroplane
+            - text: Another designation for the neutral point
+            - text: Half the distance between the neutral point and the datum line
+            - text: The product of mass and balance arm
+            - text: The distance from the datum to the position of a mass
+            - text: The point on the longitudinal axis or its extension from which the centers of gravity of all masses
+    - type: simple
+      question: The term ‘centre of gravity’ is defined as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The point at which the total mass of the aeroplane is considered to act.
+          wrongAnswers:
+            - text: The heaviest point on an aeroplane.
+            - text: Another designation for the neutral point.
+            - text: Half the distance between the neutral point and the datum line.
+    - type: simple
+      question: The centre of gravity (CG) defines...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The point through which the force of gravity is said to act on a mass.
+          wrongAnswers:
+            - text: The product of mass and balance arm.
+            - text: The distance from the datum to the position of a mass.
+            - text: The point on the longitudinal axis or its extension from which the centers of gravity of all masses.
+- id: QDGNH
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds:
+    - QNAEC
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.02.04.02"
+  templates:
+    - type: simple
+      question: During an unaccelerated flight...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Thrust equals drag and lift equals gravity.
+          wrongAnswers:
+            - text: Thrust equals the sum of drag and gravity.
+            - text: Thrust equals lift and drag equals gravity.
+            - text: Drag equals lift and thrust equals gravity.
+- id: QNAEC
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds:
+    - QDGNH
+    - QCBIV
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.02.04.03"
+  templates:
+    - type: simple
+      question: The term ‘moment’ with regard to a mass and balance calculation is referred to as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Product of a mass and a balance arm
+          wrongAnswers:
+            - text: Sum of a mass and a balance arm
+            - text: Quotient of a mass and a balance arm
+            - text: Difference of a mass and a balance arm
+- id: QCBIV
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds:
+    - QTEGW
+    - QNAEC
+    - QWYBW
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.03.01.01"
+  templates:
+    - type: simple
+      question: The term ‘balance arm’ in the context of a mass and balance calculation defines the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Distance from the datum to the centre of gravity of a mass.
+          wrongAnswers:
+            - text: Point through which the force of gravity is said to act on a mass.
+            - text: Distance of a mass from the center of gravity.
+            - text: Point on the longitudinal axis of an aeroplane or its extension from which the centers of gravity.
+            - text: Span width.
+            - text: Lever.
+            - text: Torque.
+            - text: The front C.G. limit and the datum line.
+            - text: The front C.G. limit and the rear C.G. limit.
+            - text: The C.G. of a mass and the rear C.G. limit.
+    - type: simple
+      question: The distance between the centre of gravity and the datum is called...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Balance arm
+          wrongAnswers:
+            - text: Span width
+            - text: Lever
+            - text: Torque
+    - type: simple
+      question: The balance arm is the horizontal distance between...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The C.G. of a mass and the datum line.
+          wrongAnswers:
+            - text: The front C.G. limit and the datum line.
+            - text: The front C.G. limit and the rear C.G. limit.
+            - text: The C.G. of a mass and the rear C.G. limit.
+- id: QWYBW
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds:
+    - QCBIV
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.02.04.03"
+  templates:
+    - type: simple
+      question: Calculated take-off mass = 2300 lbs, calculated CG = 95.75 in, fuel burn = 170 lbs on station 87.00 in. Where is the CG situated after the landing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 96.45 in
+          wrongAnswers:
+            - text: 94.11 in
+            - text: 96.57 in
+            - text: 97.39 in
+    - type: simple
+      question: "Given values: calculated take-off mass = 746 kg, calculated CG = 37.1 cm, fuel burn = 30.5 l on station 45 cm. Where is the CG situated after the landing?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 36.9 cm
+          wrongAnswers:
+            - text: 37.5 cm
+            - text: 36.3 cm
+            - text: 37.2 cm
+    - type: simple
+      question: Calculated take-off mass = 1082 kg, calculated CG = 0.254 m, fuel burn = 55 l on station 0.40 m. Where is the CG situated after the landing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 24.8 cm
+          wrongAnswers:
+            - text: 24.6 cm
+            - text: 25.4 cm
+            - text: 25.2 cm
+- id: QKMEN
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds: []
+  annexes:
+    - id: APQJ
+  learningObjectiveIds:
+    - "07.01.03.02.01"
+    - "07.01.03.02.02"
+  templates:
+    - type: simple
+      question: |-
+        Which is the most recently determined empty mass and the associated centre of gravity (CG) arm from the aircraft documentation?
+
+        ![Weight and balance record table with columns for date, entry number in and out](annex:APQJ)
+      explanation: |-
+        The weight and balance record lists every change in date order. Each line ends with the new actual empty weight and arm, so the last filled line, the HSI added on 06.11.2011, holds the current values: 498 kg and an arm of 280.59.
+
+        The addition and subtraction columns of that line show only the change itself (4 kg at 1.1) and the lines above it are older empty masses.
+      presets:
+        - correctAnswers:
+            - text: 498 kg; 280.59 m
+          wrongAnswers:
+            - text: 4 kg; 1.1 m
+            - text: 512 kg; 285.39 m
+            - text: 5 kg; 1.3 m
+- id: QDEYV
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds: []
+  annexes:
+    - id: APIV
+    - id: AIGZ
+  learningObjectiveIds:
+    - "07.01.04.01.01"
+  templates:
+    - type: simple
+      question: |-
+        The position of the centre of gravity equals...
+
+        ![Loading table with basic empty mass 3156 lb at 135.33 in, front seats 320 lb at 135.50](annex:APIV)
+      explanation: |-
+        Multiply each mass by its arm to get its moment, add the moments and divide by the total mass.
+
+        | Item            | Mass (lb) | Arm (in) | Moment (lb in) |
+        | --------------- | --------- | -------- | -------------- |
+        | Basic empty mass| 3156      | 135.33   | 427 101        |
+        | Front seats     | 320       | 135.50   | 43 360         |
+        | Rear seats      | 340       | 177.00   | 60 180         |
+        | Baggage         | 80        | 248.23   | 19 858         |
+        | Fuel            | 321.5     | 150.31   | 48 325         |
+        | Total           | 4217.5    |          | 598 825        |
+
+        CG = 598 825 / 4217.5 = 142 in.
+      presets:
+        - correctAnswers:
+            - text: 142 in
+          wrongAnswers:
+            - text: 147.5 in
+            - text: 137.5 in
+            - text: 145.7 in
+    - type: simple
+      question: |-
+        The position of the centre of gravity (including fuel) equals...
+
+        ![Loading table with basic empty mass 560 kg at 0.35 m, pilot and passenger 150 kg at 0.4](annex:AIGZ)
+      explanation: |-
+        Convert the fuel to mass with the density of aviation gasoline (0.72 kg/l): 60 l is 43.2 kg. Then multiply each mass by its arm, add the moments and divide by the total mass.
+
+        | Item                | Mass (kg) | Arm (m) | Moment (kg m) |
+        | ------------------- | --------- | ------- | ------------- |
+        | Basic empty mass    | 560       | 0.35    | 196.00        |
+        | Pilot and passenger | 150       | 0.40    | 60.00         |
+        | Baggage             | 15        | 0.65    | 9.75          |
+        | Fuel                | 43.2      | 0.45    | 19.44         |
+        | Total               | 768.2     |         | 285.19        |
+
+        CG = 285.19 / 768.2 = 0.371 m = 37.1 cm.
+      presets:
+        - correctAnswers:
+            - text: 37.1 cm
+          wrongAnswers:
+            - text: 0.403 m
+            - text: 0.401 m
+            - text: 37.3 cm
+- id: QPVRN
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds: []
+  annexes:
+    - id: AYIM
+    - id: ABXC
+    - id: AOJU
+  learningObjectiveIds:
+    - "07.01.04.01.02"
+  templates:
+    - type: simple
+      question: |-
+        For the purpose of flight preparation, the pilot calculates a total take-off mass of {{mass}} kg and a total moment of {{moment}} mmkg. Which cross marks the centre of gravity (CG)?
+
+        ![Centre of gravity envelope chart with mass in lb and kg (vertical axis) against moment in](annex:AYIM:editable)
+      explanation: Find {{mass}} kg on the mass scale (right) and {{moment}} mmkg on the moment scale (top). The cross at the point where the two values meet marks the CG.
+      presets:
+        - variables:
+            mass: 750
+            moment: 625
+          correctAnswers:
+            - text: "1"
+          wrongAnswers:
+            - text: "2"
+            - text: "3"
+            - text: "4"
+        - variables:
+            mass: 750
+            moment: 600
+          correctAnswers:
+            - text: "4"
+          wrongAnswers:
+            - text: "1"
+            - text: "2"
+            - text: "3"
+        - variables:
+            mass: 625
+            moment: 750
+          correctAnswers:
+            - text: "2"
+          wrongAnswers:
+            - text: "1"
+            - text: "3"
+            - text: "4"
+    - type: simple
+      question: |-
+        For the purpose of flight preparation, the pilot calculates a total take-off mass of {{mass}} kg and a total moment of {{moment}} mmkg. Which cross marks the centre of gravity (CG)?
+
+        ![Centre of gravity envelope chart with mass in lb and kg (vertical axis) against moment in](annex:ABXC:editable)
+      explanation: Find {{mass}} kg on the mass scale (right) and {{moment}} mmkg on the moment scale (top). The cross at the point where the two values meet marks the CG.
+      presets:
+        - variables:
+            mass: 725
+            moment: 650
+          correctAnswers:
+            - text: "3"
+          wrongAnswers:
+            - text: "1"
+            - text: "2"
+            - text: "4"
+        - variables:
+            mass: 650
+            moment: 750
+          correctAnswers:
+            - text: "1"
+          wrongAnswers:
+            - text: "2"
+            - text: "3"
+            - text: "4"
+    - type: simple
+      question: |-
+        For the purpose of flight preparation, the pilot calculates a total take-off mass of {{mass}} kg and a total moment of {{moment}} mmkg. Which cross marks the centre of gravity (CG)?
+
+        ![Centre of gravity envelope chart with mass in lb and kg (vertical axis) against moment in](annex:AOJU:editable)
+      explanation: Find {{mass}} kg on the mass scale (right) and {{moment}} mmkg on the moment scale (top). The cross at the point where the two values meet marks the CG.
+      presets:
+        - variables:
+            mass: 775
+            moment: 700
+          correctAnswers:
+            - text: "4"
+          wrongAnswers:
+            - text: "1"
+            - text: "2"
+            - text: "3"
+        - variables:
+            mass: 650
+            moment: 750
+          correctAnswers:
+            - text: "1"
+          wrongAnswers:
+            - text: "2"
+            - text: "3"
+            - text: "4"
+- id: QOUQK
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.01.02.01"
+  templates:
+    - type: simple
+      question: Baggage and cargo must be properly stowed and fastened, otherwise a shift of the cargo may cause...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: uncontrollable attitudes, structural damage, risk of injuries.
+          wrongAnswers:
+            - text: continuous attitudes which can be corrected by the pilot using the flight controls.
+            - text: calculable instability if the C.G. is shifting by less than 10 %.
+            - text: structural damage, angle of attack stability, velocity stability.
+- id: QWOKB
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.03.01.01"
+  templates:
+    - type: simple
+      question: The term "datum" with regard to a mass and balance calculation defines...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the point on the longitudinal axis of an aeroplane or its extension from which the centres of gravity of all masses are referenced.
+          wrongAnswers:
+            - text: the distance from the reference plane to the centre of gravity of an aircraft.
+            - text: the point on the lateral axis of an aeroplane or its extension from which the centres of gravity of all masses are referenced.
+            - text: the point on the vertical axis of an aeroplane or its extension from which the centres of gravity of all masses are referenced.
+- id: QVKQU
+  subjectId: "07"
+  chapterId: "07.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.01.03.02.01"
+  templates:
+    - type: simple
+      question: When preparing to carry out the weighing procedure on an aircraft, which of the following is required?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Drain all useable fuel
+          wrongAnswers:
+            - text: Remove the batteries
+            - text: Remove service equipment
+            - text: Drain all engine tank oil

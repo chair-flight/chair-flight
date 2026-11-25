@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="969" height="720" viewBox="70 110 969 720" role="img" aria-labelledby="title description" xml:lang="en-GB">
+  <title id="title">737-800 Hydraulic Power Distribution Schematic</title>
+  <desc id="description">System A is shown in red at left, System B in green at right, and the standby system in blue at the centre. The lines show hydraulic distribution to aircraft equipment. System A drives the power transfer unit motor, which is mechanically coupled to a pump using System B fluid. The landing gear transfer valve has feeds from System A and the System B engine-driven pump.</desc>
+  <metadata>Redrawn from the Boeing 737-800 Flight Crew Operations Manual, Rev 38, Chapter 13, page 13.20.1. Configuration: no tail skid or one-position tail skid.</metadata>
+  <defs><path id="rotor-vane" class="component-fill" d="M6 -5q6 -9 12 -4l1 5q-6-3-10 4z"/></defs>
+  <style>
+    :root { --ink: #171a1c; --paper: #ffffff; --red: #c41c1c; --green: #1f7a1f; --blue: #0b6bcb; --backdrop: #f3f4f6 }
+    @media (prefers-color-scheme: dark) {
+      :root { --ink: #f0f4f8; --paper: #171a1c; --red: #e5484d; --green: #2ea043; --blue: #3a86dc; --backdrop: #0b0d0e }
+    }
+    :root[data-theme="light"] { --ink: #171a1c; --paper: #ffffff; --red: #c41c1c; --green: #1f7a1f; --blue: #0b6bcb; --backdrop: #f3f4f6 }
+    :root[data-theme="dark"] { --ink: #f0f4f8; --paper: #171a1c; --red: #e5484d; --green: #2ea043; --blue: #3a86dc; --backdrop: #0b0d0e }
+    .outline { fill: none; stroke: var(--ink); stroke-width: 2.2 }
+    .pipe-edge { fill: none; stroke: var(--ink); stroke-width: 15; stroke-linejoin: round }
+    .pipe-core { fill: none; stroke-width: 10.5; stroke-linejoin: round }
+    .a { stroke: var(--red) }
+    .b { stroke: var(--green) }
+    .standby { stroke: var(--blue) }
+    .fill-a { fill: var(--red) }
+    .fill-b { fill: var(--green) }
+    .fill-standby { fill: var(--blue) }
+    .fill-ink { fill: var(--ink) }
+    .component { fill: var(--paper); stroke: var(--ink); stroke-width: 2.2 }
+    .stroke-ink { stroke: var(--ink) }
+    .label { font-family: Menlo, Consolas, "Liberation Mono", monospace; font-size: 14px; font-weight: 700; fill: var(--ink) }
+    .label-on-fill { fill: #ffffff }
+    .backdrop { fill: var(--backdrop) }
+    .configuration { font-family: system-ui, sans-serif; font-size: 20px; font-weight: 750; fill: var(--ink) }
+      .component-fill { fill: var(--paper) }
+    .stroke-paper { stroke: var(--paper) }
+  </style>
+  <rect x="70" y="110" width="969" height="720" class="backdrop"/>
+  <path d="M550 191V167H832 M561 192V179H832V167 M207 155H192 M207 167H192 M904 167H919 M904 179H919" class="outline"/>
+  <path d="M207 167H279V240L269 244V257H296V281H282V271H256V247Q243 249 230 247V271H204V281H190V257H216V244L207 240Z" class="fill-a"/>
+  <path d="M190 281V257H216V220 M204 281V271H230V220 M216 244L207 240V148Q243 132 279 148V240L269 244V257H296V281 M282 281V271H256V247Q243 249 230 247" class="outline"/>
+  <path d="M832 179H904V252Q891 258 875 260V269H923V308H909V283H829V308H815V269H861V260Q846 258 832 252H671V339H657V239H832Z" class="fill-b"/>
+  <path d="M657 339V239H832V161Q868 145 904 161V252Q891 258 875 260 M671 339V252H832Q846 258 861 260 M815 308V269H861V233 M829 308V283H909V308 M923 308V269H875V233" class="outline"/>
+  <path class="fill-standby stroke-ink" d="M520 196Q556 180 592 196V285Q578 292 563.5 294V310H548.5V294Q534 292 520 285Z" stroke-width="2.2"/>
+  <text x="110" y="167" text-anchor="start" class="label">
+    <tspan x="110" y="167">AIR</tspan>
+    <tspan x="110" y="183">PRESSURE</tspan>
+  </text>
+  <text x="925" y="170" text-anchor="start" class="label">
+    <tspan x="925" y="170">AIR</tspan>
+    <tspan x="925" y="186">PRESSURE</tspan>
+  </text>
+  <text x="243" y="185" text-anchor="middle" class="label label-on-fill">
+    <tspan x="243" y="185">SYSTEM</tspan>
+    <tspan x="243" y="201">A</tspan>
+  </text>
+  <text x="868" y="199" text-anchor="middle" class="label label-on-fill">
+    <tspan x="868" y="199">SYSTEM</tspan>
+    <tspan x="868" y="215">B</tspan>
+  </text>
+  <text x="556" y="233" text-anchor="middle" class="label label-on-fill">
+    <tspan x="556" y="233">STBY</tspan>
+    <tspan x="556" y="249">SYSTEM</tspan>
+  </text>
+  <path d="M197 301V319H290V300 M243 319V822H515V803 M243 351H403 M243 510H265 M243 578H490 M447 578V510H489 M447 578V646H489 M243 645H265 M243 709H220 M243 777H220 M243 777H265 M467 713H484 M555 738V758" class="pipe-edge"/>
+  <path d="M197 301V319H290V300 M243 319V822H515V803 M243 351H403 M243 510H265 M243 578H490 M447 578V510H489 M447 578V646H489 M243 645H265 M243 709H220 M243 777H220 M243 777H265 M467 713H484 M555 738V758" class="pipe-core a"/>
+  <path d="M823 326V346H916V325 M868 346V822H596V804 M898 346V369 M868 407H829 M868 510H847 M868 578H625 M665 578V510H625 M665 578V646H625 M868 642H846 M868 642H889 M868 713H889 M868 779H847 M868 779H889 M626 713H646 M664 364V393H702" class="pipe-edge"/>
+  <path d="M823 326V346H916V325 M868 346V822H596V804 M898 346V369 M868 407H829 M868 510H847 M868 578H625 M665 578V510H625 M665 578V646H625 M868 642H846 M868 642H889 M868 713H889 M868 779H847 M868 779H889 M626 713H646 M664 364V393H702" class="pipe-core b"/>
+  <path d="M401 310V141H1015V422H901V380" class="outline" stroke-dasharray="20 9 6 9 6 9"/>
+  <path d="M394 307h14l-7 23z" class="fill-ink"/>
+  <path class="fill-b stroke-ink" d="M892 357h18v7l-3 4 5 5-1 7q-10 6-20 0l-1-7 5-5-3-4z" stroke-width="1.5"/>
+  <path d="M415 344H600V357H415Z" class="component"/>
+  <circle cx="401" cy="351" r="18" class="component"/>
+  <path d="M394 336Q401 332 408 336V366Q401 370 394 366Z" class="fill-ink"/>
+  <path d="M556 333V485 M556 419H702 M556 468H332V485 M556 468H779V485" class="pipe-edge"/>
+  <path d="M556 333V485 M556 419H702 M556 468H332V485 M556 468H779V485" class="pipe-core standby"/>
+  <g transform="translate(145 235) rotate(45)">
+  <rect width="15" height="35" class="component"/>
+  <path d="M0 7h15 M0 14h15 M0 21h15 M0 28h15 M15 17.5h10" class="outline"/>
+  </g>
+  <path d="M137 277L162 251 188 278H206V304H161Z" class="component"/>
+  <circle cx="351" cy="251" r="18" class="component"/>
+  <text x="351" y="256" text-anchor="middle" class="label">
+    <tspan x="351" y="256">M</tspan>
+  </text>
+  <path d="M280 278H297L324 251 350 277 324 304H280Z" class="component"/>
+  <circle cx="760" cy="277" r="18" class="component"/>
+  <text x="760" y="282" text-anchor="middle" class="label">
+    <tspan x="760" y="282">M</tspan>
+  </text>
+  <path d="M832 305H814L787 278 760 305 787 332H832Z" class="component"/>
+  <g transform="translate(1112 26) scale(-1 1)">
+  <g transform="translate(145 235) rotate(45)">
+  <rect width="15" height="35" class="component"/>
+  <path d="M0 7h15 M0 14h15 M0 21h15 M0 28h15 M15 17.5h10" class="outline"/>
+  </g>
+  </g>
+  <path d="M905 305H924L949 278 977 305 950 332H905Z" class="component"/>
+  <circle cx="478" cy="282" r="18" class="component"/>
+  <text x="478" y="287" text-anchor="middle" class="label">
+    <tspan x="478" y="287">M</tspan>
+  </text>
+  <path d="M568 308H532L506 281 480 308 506 335H568Z" class="component"/>
+  <path d="M621 330h43a21 21 0 0 1 0 42h-43a21 21 0 0 1 0-42Z" class="component"/>
+  <g transform="translate(621 351)">
+  <circle class="fill-ink stroke-paper" r="20" stroke-width="1.2"/>
+  <circle r="9.5" class="component-fill"/>
+  <use href="#rotor-vane" transform="rotate(0)"/>
+  <use href="#rotor-vane" transform="rotate(72)"/>
+  <use href="#rotor-vane" transform="rotate(144)"/>
+  <use href="#rotor-vane" transform="rotate(216)"/>
+  <use href="#rotor-vane" transform="rotate(288)"/>
+  </g>
+  <g transform="translate(664 351)">
+  <circle class="fill-ink stroke-paper" r="20" stroke-width="1.2"/>
+  <circle r="9.5" class="component-fill"/>
+  <use href="#rotor-vane" transform="rotate(0)"/>
+  <use href="#rotor-vane" transform="rotate(72)"/>
+  <use href="#rotor-vane" transform="rotate(144)"/>
+  <use href="#rotor-vane" transform="rotate(216)"/>
+  <use href="#rotor-vane" transform="rotate(288)"/>
+  </g>
+  <text x="350" y="389" text-anchor="start" class="label">
+    <tspan x="350" y="389">PTU CONTROL</tspan>
+    <tspan x="350" y="405">VALVE</tspan>
+  </text>
+  <text x="689" y="316" text-anchor="start" class="label">
+    <tspan x="689" y="316">POWER</tspan>
+    <tspan x="689" y="332">TRANSFER</tspan>
+    <tspan x="689" y="348">UNIT</tspan>
+  </text>
+  <rect x="702" y="365" width="127" height="81" class="component"/>
+  <text x="765.5" y="386.5" text-anchor="middle" class="label">
+    <tspan x="765.5" y="386.5">AUTO SLATS</tspan>
+    <tspan x="765.5" y="402.5">AND</tspan>
+    <tspan x="765.5" y="418.5">LEADING EDGE</tspan>
+    <tspan x="765.5" y="434.5">FLAPS &amp; SLATS</tspan>
+  </text>
+  <rect x="264" y="485" width="137" height="52" class="component"/>
+  <text x="332.5" y="508.0" text-anchor="middle" class="label">
+    <tspan x="332.5" y="508.0">No. 1 THRUST</tspan>
+    <tspan x="332.5" y="524.0">REVERSER</tspan>
+  </text>
+  <rect x="484" y="485" width="143" height="52" class="component"/>
+  <text x="555.5" y="516.0" text-anchor="middle" class="label">
+    <tspan x="555.5" y="516.0">RUDDER</tspan>
+  </text>
+  <rect x="710" y="485" width="138" height="52" class="component"/>
+  <text x="779.0" y="508.0" text-anchor="middle" class="label">
+    <tspan x="779.0" y="508.0">No. 2 THRUST</tspan>
+    <tspan x="779.0" y="524.0">REVERSER</tspan>
+  </text>
+  <rect x="484" y="552" width="143" height="52" class="component"/>
+  <text x="555.5" y="583.0" text-anchor="middle" class="label">
+    <tspan x="555.5" y="583.0">AILERONS</tspan>
+  </text>
+  <rect x="264" y="619" width="137" height="60" class="component"/>
+  <text x="332.5" y="638.0" text-anchor="middle" class="label">
+    <tspan x="332.5" y="638.0">FLIGHT</tspan>
+    <tspan x="332.5" y="654.0">SPOILERS</tspan>
+    <tspan x="332.5" y="670.0">(2,4,9,11)</tspan>
+  </text>
+  <rect x="484" y="619" width="143" height="52" class="component"/>
+  <text x="555.5" y="642.0" text-anchor="middle" class="label">
+    <tspan x="555.5" y="642.0">ELEVATOR AND</tspan>
+    <tspan x="555.5" y="658.0">ELEV FEEL</tspan>
+  </text>
+  <rect x="710" y="616" width="138" height="52" class="component"/>
+  <text x="779.0" y="631.0" text-anchor="middle" class="label">
+    <tspan x="779.0" y="631.0">FLIGHT</tspan>
+    <tspan x="779.0" y="647.0">SPOILERS</tspan>
+    <tspan x="779.0" y="663.0">(3,5,8,10)</tspan>
+  </text>
+  <rect x="889" y="616" width="138" height="52" class="component"/>
+  <text x="958.0" y="639.0" text-anchor="middle" class="label">
+    <tspan x="958.0" y="639.0">YAW</tspan>
+    <tspan x="958.0" y="655.0">DAMPER</tspan>
+  </text>
+  <rect x="82" y="683" width="138" height="52" class="component"/>
+  <text x="151.0" y="706.0" text-anchor="middle" class="label">
+    <tspan x="151.0" y="706.0">ALTERNATE</tspan>
+    <tspan x="151.0" y="722.0">BRAKES</tspan>
+  </text>
+  <rect x="323" y="687" width="144" height="52" class="component"/>
+  <text x="395.0" y="710.0" text-anchor="middle" class="label">
+    <tspan x="395.0" y="710.0">NOSE WHEEL</tspan>
+    <tspan x="395.0" y="726.0">STEERING</tspan>
+  </text>
+  <rect x="484" y="687" width="143" height="52" class="component"/>
+  <text x="555.5" y="710.0" text-anchor="middle" class="label">
+    <tspan x="555.5" y="710.0">LANDING</tspan>
+    <tspan x="555.5" y="726.0">GEAR</tspan>
+  </text>
+  <rect x="645" y="687" width="143" height="52" class="component"/>
+  <text x="716.5" y="710.0" text-anchor="middle" class="label">
+    <tspan x="716.5" y="710.0">ALTERNATE NOSE</tspan>
+    <tspan x="716.5" y="726.0">WHEEL STEERING</tspan>
+  </text>
+  <rect x="889" y="687" width="138" height="52" class="component"/>
+  <text x="958.0" y="710.0" text-anchor="middle" class="label">
+    <tspan x="958.0" y="710.0">NORMAL</tspan>
+    <tspan x="958.0" y="726.0">BRAKES</tspan>
+  </text>
+  <rect x="82" y="751" width="138" height="52" class="component"/>
+  <text x="151.0" y="782.0" text-anchor="middle" class="label">
+    <tspan x="151.0" y="782.0">AUTOPILOT A</tspan>
+  </text>
+  <rect x="264" y="751" width="137" height="52" class="component"/>
+  <text x="332.5" y="766.0" text-anchor="middle" class="label">
+    <tspan x="332.5" y="766.0">GROUND</tspan>
+    <tspan x="332.5" y="782.0">SPOILERS</tspan>
+    <tspan x="332.5" y="798.0">(1,6,7,12)</tspan>
+  </text>
+  <rect x="484" y="754" width="143" height="52" class="component"/>
+  <text x="555.5" y="777.0" text-anchor="middle" class="label">
+    <tspan x="555.5" y="777.0">LANDING GEAR</tspan>
+    <tspan x="555.5" y="793.0">TRANSFER VALVE</tspan>
+  </text>
+  <rect x="710" y="754" width="138" height="52" class="component"/>
+  <text x="779.0" y="785.0" text-anchor="middle" class="label">
+    <tspan x="779.0" y="785.0">AUTOPILOT B</tspan>
+  </text>
+  <rect x="889" y="754" width="138" height="52" class="component"/>
+  <text x="958.0" y="777.0" text-anchor="middle" class="label">
+    <tspan x="958.0" y="777.0">TRAILING</tspan>
+    <tspan x="958.0" y="793.0">EDGE FLAPS</tspan>
+  </text>
+</svg>

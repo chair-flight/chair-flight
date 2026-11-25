@@ -1,0 +1,85 @@
+<svg width="1000" height="512" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 512" font-family="Helvetica,Arial,sans-serif">
+<style>
+text{font-size:13px;text-anchor:middle;fill:#171a1c}
+.header text{fill:#fff;font-weight:700}
+.title{font-size:18px;font-weight:700}
+.bold{font-weight:700}
+.start{text-anchor:start}
+.end{text-anchor:end}
+.brand{fill:#0b6bcb}
+.soft{fill:#e3effb}
+.muted{fill:#f2f4f6}
+.grid,.divider{fill:none;stroke:#171a1c}
+.divider{stroke-width:2}
+</style>
+<rect width="1000" height="512" fill="#fff"/>
+<defs>
+<pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse">
+<rect width="5" height="5" fill="#e3effb"/><circle cx="2.5" cy="2.5" r=".7" fill="#171a1c"/>
+</pattern>
+<marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+<path d="M0 0 7 3.5 0 7Z" fill="#0b6bcb"/>
+</marker>
+</defs>
+<g stroke="#171a1c" stroke-width="2.25" stroke-linejoin="round">
+<path d="M457 51 158 236 145 269V277L161 266 396 179 457 177Z" fill="#f2f4f6"/>
+<path d="M457 66 163 242 161 252 202 231 207 237 385 156 457 134Z" fill="#fff"/>
+<path d="M201 219 207 237 277 205 269 179Z" fill="#e3effb"/>
+<path d="M269 179 277 205" fill="none"/><g transform="translate(1010 0) scale(-1 1)"><path d="M457 51 158 236 145 269V277L161 266 396 179 457 177Z" fill="#f2f4f6"/>
+<path d="M457 66 163 242 161 252 202 231 207 237 385 156 457 134Z" fill="#fff"/>
+<path d="M201 219 207 237 277 205 269 179Z" fill="#e3effb"/>
+<path d="M269 179 277 205" fill="none"/></g>
+<rect x="457" y="66" width="96" height="68" fill="#e3effb"/>
+</g>
+<text x="505" y="93" class="bold">Centre</text>
+<text x="505" y="113" class="bold">tank</text>
+<text x="293" y="64" class="bold">Inner tank</text>
+<path d="M303 73 328 155" fill="none" stroke="#0b6bcb" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="717" y="64" class="bold">Inner tank</text>
+<path d="M707 73 682 155" fill="none" stroke="#0b6bcb" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="174" y="173" class="bold">Outer tank</text>
+<path d="M186 180 222 219" fill="none" stroke="#0b6bcb" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="836" y="173" class="bold">Outer tank</text>
+<path d="M824 180 788 219" fill="none" stroke="#0b6bcb" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="213" y="279" class="bold">Vent tank</text>
+<path d="M204 265 183 242" fill="none" stroke="#0b6bcb" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="797" y="279" class="bold">Vent tank</text>
+<path d="M806 265 827 242" fill="none" stroke="#0b6bcb" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="40" y="335" width="920" height="27" class="brand" stroke="#171a1c"/>
+<g class="header">
+<text x="500" y="352.5">Usable Fuel</text>
+</g>
+<rect class="brand" x="40" y="362" width="920.0000000000001" height="25"/>
+<path class="grid" d="M40 387V362H346.6666666666667V387ZM346.6666666666667 387V362H500V387ZM500 387V362H653.3333333333334V387ZM653.3333333333334 387V362H806.6666666666667V387ZM806.6666666666667 387V362H960.0000000000001V387ZM40 387V479M193.33333333333334 387V479M346.6666666666667 387V479M500 387V479M653.3333333333334 387V479M806.6666666666667 387V479M960.0000000000001 387V479M40 387h920.0000000000001M40 410h920.0000000000001M40 433h920.0000000000001M40 456h920.0000000000001M40 479h920.0000000000001"/>
+<g class="header">
+<text x="423.33333333333337" y="378.5">Outer tanks</text>
+<text x="576.6666666666667" y="378.5">Inner tanks</text>
+<text x="730" y="378.5">Centre tank</text>
+<text x="883.3333333333335" y="378.5">Total</text>
+</g>
+<text x="270" y="402.5">litres</text>
+<text x="423.33333333333337" y="402.5">880 × 2</text>
+<text x="576.6666666666667" y="402.5">6,924 × 2</text>
+<text x="730" y="402.5">8,250</text>
+<text x="883.3333333333335" y="402.5">23,858</text>
+<text x="270" y="425.5">US gallons</text>
+<text x="423.33333333333337" y="425.5">232 × 2</text>
+<text x="576.6666666666667" y="425.5">1,829 × 2</text>
+<text x="730" y="425.5">2,180</text>
+<text x="883.3333333333335" y="425.5">6,302</text>
+<text x="270" y="448.5">kg</text>
+<text x="423.33333333333337" y="448.5">691 × 2</text>
+<text x="576.6666666666667" y="448.5">5,435 × 2</text>
+<text x="730" y="448.5">6,476</text>
+<text x="883.3333333333335" y="448.5">18,728</text>
+<text x="270" y="471.5">lb</text>
+<text x="423.33333333333337" y="471.5">1,520 × 2</text>
+<text x="576.6666666666667" y="471.5">11,982 × 2</text>
+<text x="730" y="471.5">14,281</text>
+<text x="883.3333333333335" y="471.5">41,285</text>
+<rect x="40" y="387" width="153.33333333333334" height="46" class="soft" stroke="#171a1c"/>
+<text x="116.66666666666667" y="414" class="bold">Volume</text>
+<rect x="40" y="433" width="153.33333333333334" height="46" class="soft" stroke="#171a1c"/>
+<text x="116.66666666666667" y="460" class="bold">Weight</text>
+<text x="40" y="497" class="start">Fuel density: 0.785 kg/l or 6.551 lb/US gallon</text>
+</svg>

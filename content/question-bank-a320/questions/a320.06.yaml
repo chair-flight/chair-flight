@@ -1,0 +1,938 @@
+- id: QZAFM
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Is it necessary to use the APU shut off P/B on the external power panel in case of APU fire auto extinguishing on ground ?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No.
+          wrongAnswers:
+            - text: Yes.
+            - text: ---
+            - text: ---
+- id: QWTGZ
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: "When the smoke detector in the air extraction duct of the avionics ventilation system detects smoke for more than 5 seconds: -A single chime sounds. -The MASTER CAUTION lights, on the glareshield, light up. -The ECAM displays a caution on the E/WD. -The SMOKE light, on the EMER ELEC PWR panel, lights up. -The BLOWER and EXTRACT FAULT, on the VENTILATION panel, light up"
+          answer: true
+- id: QTCID
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What additional external warnings are activated in case of an APU fire on ground only?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: APU fire light accompanied by an external horn warning.
+          wrongAnswers:
+            - text: An external horn warning.
+            - text: A fire bell warning.
+            - text: ---
+- id: QKLMA
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Where are the engine fire detectors located?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In the pylon, the fan and the core.
+          wrongAnswers:
+            - text: In the fan and the turbine.
+            - text: In the core and the gearbox.
+            - text: ---
+- id: QSJGN
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The agent pushbutton becomes active when:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Engine FIRE pushbutton is popped out.
+          wrongAnswers:
+            - text: The corresponding 'DISCH' light is on.
+            - text: Engine FIRE pushbutton illuminates.
+            - text: ---
+- id: QZSFS
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The engine and APU fire protection system includes:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 fire agent bottles for each engine - 1 fire agent bottle for the APU.
+          wrongAnswers:
+            - text: 1 fire agent bottle for each engine - 1 fire agent bottle for the APU.
+            - text: 2 fire agent bottles for the engines - 2 fire agent bottle for the APU.
+            - text: ---
+- id: QTERI
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When engine FIRE pushbutton is released out, which corresponding valves are closed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The low-pressure fuel valve, the hydraulic fire shut off valve, the engine bleed valve and the pack flow valve
+          wrongAnswers:
+            - text: The low-pressure and the high pressure fuel valve
+            - text: The crossfeed fuel valve, the hydraulic fire shut off valve, the pack flow valve and the engine bleed valve
+            - text: The high-pressure fuel valve, the hydraulic fire shut off valve, the engine bleed valve and the outflow valve
+- id: QMRAM
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Does SQUIB light up on the ENG FIRE Panel, when an engine FIRE PB is popped by the flight crew?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes
+          wrongAnswers:
+            - text: No
+            - text: ---
+            - text: ---
+- id: QCBSB
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The APU TEST PB on the APU FIRE panel permits the flight crew to test the operation of the fire detection and extinguishing system for the APU. When the flight crew presses it:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "On the APU FIRE panel: The APU FIRE pushbutton lights up red, the SQUIB light comes on white, and the DISCH light comes on amber."
+          wrongAnswers:
+            - text: A triple low chime sounds. The MASTER WARN come on white and APU FIRE warning flashes on the ECAM.
+            - text: ---
+            - text: ---
+- id: QEBVY
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The FIRE light identifies the engine to be shutdown because of fire. The light flashes for five seconds then comes on red when an engine fire warning is triggered.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "False"
+          wrongAnswers:
+            - text: True.
+            - text: ---
+            - text: ---
+- id: QIFUA
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Each lavatory wastebin has ____________ fire extinguishing system.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: an automatic
+          wrongAnswers:
+            - text: a manual
+            - text: a semi-automatic
+            - text: ---
+- id: QYNCJ
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: "The FIRE TEST PB on the ENG FIRE panel permits the flight crew to test the operation of the fire detection and extinguishing system: A continuous repetitive chime sounds, the MASTER WARN lights flash, ENG FIRE warning appears on ECAM. On the FIRE panel: The ENG FIRE P/B lights up red, the SQUIB lights come on white if discharge supplies are available, the DISCH lights come on amber. On the ENG panel (pedestal): The FIRE lights come on red."
+          answer: true
+- id: QXCUM
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The lavatory smoke detection system consists of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: One smoke detector in each lavatory
+          wrongAnswers:
+            - text: Two smoke detectors in each lavatory
+            - text: Three smoke detectors in each lavatory
+            - text: ---
+- id: QMBMQ
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When smoke is detected in the avionics ventilation duct the SMOKE light on the GEN 1 LINE push-button comes on along with a warning on ECAM. Which color does the SMOKE light have?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: amber
+          wrongAnswers:
+            - text: red
+            - text: flashing amber
+            - text: flashing red
+- id: QZNDE
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: "When engine FIRE PB is released out, the following sequence occurs: &middot;Silences the aural fire warning &middot;Arms the fire extinguisher squibs &middot;Closes the low-pressure fuel valve &middot;Closes the hydraulic fire shut off valve &middot;Closes the engine bleed valve &middot;Closes the paclk flow control valve &middot;Cuts off the FADEC power supply &middot;Deactivated the IDG"
+          answer: true
+- id: QZKPE
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How many sensing elements does the APU fire detection system have?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: One
+          wrongAnswers:
+            - text: Three
+            - text: Two
+            - text: Four
+- id: QOJSM
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When the engine fire push button is released out, which aircraft systems are isolated?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Fuel, Air, Electricity and Hydraulic Systems
+          wrongAnswers:
+            - text: Fuel, Electricity and Air Systems
+            - text: Fuel, Hydraulic and Air Systems
+            - text: Fuel system only
+- id: QCOIE
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The FIRE TEST PB on the ENG FIRE panel is pushed to test the operation of the fire detection and extinguishing system. One of the white SQUIB lights will not illuminate. What does that mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the discharge supplies are not available
+          wrongAnswers:
+            - text: one loop is faulty
+            - text: both loops are faulty
+            - text: the fire detection unit fails
+- id: QWSMJ
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "When engine FIRE push-button is pushed and released, an electrical signal is sent to perform among others following for the corresponding engine :"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Arms the fire extinguisher squibs and closes the low-pressure fuel valve, hydraulic fire shut off valve and engine bleed valve
+          wrongAnswers:
+            - text: Shuts down the APU and closes the low-pressure fuel valve, hydraulic fire shut off valve and engine bleed valve
+            - text: Cuts off the FADEC power supply and closes the high-pressure fuel valve, hydraulic fire shut off valve and engine bleed valve
+            - text: Shuts down the APU, deactivates the IDG, closes the low-pressure fuel valve, hydraulic fire shut off valve and engine bleed valve
+- id: QDPOL
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Which statement is NOT true? The fire warning ( ENG ) appears in case of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: breaks in both loops occurring within 20 seconds of each other (flame effect)
+          wrongAnswers:
+            - text: a fire signal from both loop A and B
+            - text: a fire signal from one loop when the other is faulty
+            - text: a test performed on the control panel
+- id: QVXDD
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "In case of perceptible smoke, the SMOKE/FUMES/AVNCS SMOKE checklist requires that you select the BLOWER and EXTRACT push buttons to override. This action brings the avionic ventilation to a:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: smoke configuration. The air conditioning system supplies cooling air, which is then exhausted overboard
+          wrongAnswers:
+            - text: closed-circuit configuration. The purpose is to starve the fire from oxygen.
+            - text: open-circuit configuration. The purpose is to add fresh air from the outside.
+            - text: intermediate configuration
+- id: QBJJQ
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "A lithium battery catches visible fire in the cockpit:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Cockpit/Cabin communication should be established
+            - text: PF shall use his QDM
+            - text: PM shall use the smoke hood
+- id: QRGCR
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "A fire warning (ENG) appears in case: (more than one answer may be correct)"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1,2
+          wrongAnswers:
+            - text: of a fire signal from both loops A and B
+            - text: of breaks in both loops occurring within 5 seconds of each other (flame effect)
+            - text: a break in loop A occurs
+- id: QBZHJ
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Which statement is not true? The fire warning ( ENG ) appears in case of :"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: breaks in both loops occurring within 1 min of each other (flame effect )
+          wrongAnswers:
+            - text: a fire signal from both loop A and B
+            - text: a fire signal from one loop when the other is faulty
+            - text: a test performed on the control panel
+- id: QEXRK
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "A fire extinguishing system protects the FWD and AFT cargo compartments. One fire bottle supplies ___ nozzles ( ___ in FWD and ___ in AFT compartment ):"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3nozzles(1FWD/2AFT)
+          wrongAnswers:
+            - text: 4nozzles(2FWD/2AFT)
+            - text: 2nozzles(1FWD/1AFT)
+            - text: 3nozzles(2FWD/1AFT)
+- id: QOQKG
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The lavatory has __ smoke detector(s) and __ automatic fire extinguishing system(s) for the wastebin:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 smoke detector and 1 extinguishing system
+          wrongAnswers:
+            - text: 1 smoke detector and 2 extinguishing systems
+            - text: 2 smoke detectors and 1 extinguishing system
+            - text: 2 smoke detectors and 2 extinguishing systems
+- id: QUVOP
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "In case of perceptible smoke, the SMOKE/FUMES/AVNCS SMOKE checklist requires that you select the BLOWER and EXTRACT pushbuttons to override. This action brings the avionic ventilation to a:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: smoke configuration. The air conditioning system supplies cooling air, which is then exhausted overboard.
+          wrongAnswers:
+            - text: closed-circuit configuration. The purpose is to starve the fire from oxygen.
+            - text: open-circuit configuration. The purpose is to add fresh air from the outside.
+            - text: intermediate configuration
+- id: QJHMH
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "During the preflight check, you verify that:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a red disk is present outside at the rear of the fuselage, signaling that the APU extinguishing agent is not discharged overboard due to bottle overpressure.
+          wrongAnswers:
+            - text: a green disk is present outside at the rear of the fuselage, signaling that the APU extinguishing agent is available for fire protection.
+            - text: a red disk is not present at the rear of the fuselage indicating that the APU extinguishing agent is not discharged overboard due to bottle underpressure
+            - text: a green disk is not present at the rear of the fuselage indicating that the APU has been shut down automatically on ground following an APU fire
+- id: QJEAV
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The engine 1(2) fire is triggered when:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a fire is detected by both loops or by one loop, the other one being faulty, or when there is a break in both loops within 5 seconds
+          wrongAnswers:
+            - text: all three loops detect a fire (fan, pylon and hot section area)
+            - text: a temperature of more than 725 degrees C is detected in the turbine hot section
+            - text: a fire is detected by one loop, followed by the second loop within maximum 10 seconds
+- id: QNTKV
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The fire protection for engines, APU and cargo entails
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: two extinguisher bottles for the engine, one extinguisher bottle for the APU and one fire bottle for the cargo compartments
+          wrongAnswers:
+            - text: two extinguisher bottles for the engine, one extinguisher bottle for the APU and two fire bottles for the cargo compartments
+            - text: one extinguisher bottle for the engine, one extinguisher bottle for the APU and two fire bottles for the cargo compartment
+            - text: A CIDS, one extinguisher bottle for the engine, one extinguisher bottle for the APU and two fire bottles for the cargo compartment
+- id: QOSBN
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Aircraft Fire Protection Systems are comprised of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Fire and overheat protection for engines and APU, smoke detection for cargo compartments, avionic bay and lavatories
+          wrongAnswers:
+            - text: Fire and overheat protection for engines, fire and smoke detection for APU, smoke detection for cargo compartments, avionic bay and lavatories
+            - text: Fire and overheat protection for engines and APU, overheat protection for avionic bay, smoke detection for cargo compartments and lavatories
+            - text: Fire and overheat protection for engines and APU, fire detection for wheels, smoke detection for cargo compartments, avionic bay and lavatories
+- id: QGVRR
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement is correct in case of APU fire on ground? (more than one statement may be correct)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1,2,3
+          wrongAnswers:
+            - text: The APU shuts down and the APU fire warnings operate
+            - text: A horn in the nose gear bay sounds
+            - text: The APU fire extinguisher discharges
+- id: QVNIO
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which situation does not cause a fire warning?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Failure of loop B after a dispatch with a faulty loop A
+          wrongAnswers:
+            - text: A fire signal from both loop A and B
+            - text: A fire signal from loop A and a faulty loop B
+            - text: Breaks in both loops occurring within 5s of each other
+- id: QBMJQ
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which ECAM alert causes a master warning?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: LAVATORY SMOKE
+          wrongAnswers:
+            - text: ENG 1 FIRE DET FAULT
+            - text: AVNCS SMOKE
+            - text: FWD CRG BTL 1 FAULT
+- id: QIFLR
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How many fire extinguishers are provided for each engine?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "2"
+          wrongAnswers:
+            - text: "1"
+            - text: "3"
+            - text: "4"
+- id: QSFUG
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What happens if an APU fire is detected on ground?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The APU will automatically shut down and the extinguisher will discharge.
+          wrongAnswers:
+            - text: Nothing happens.
+            - text: The APU will automatically shut down.
+            - text: The APU will automatically shut down and the extinguisher is ready to discharge.
+- id: QMJPU
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The cargo compartments have a smoke detection system.
+          wrongAnswers:
+            - text: The cargo compartments have a fire and overheat detection system.
+            - text: The cargo compartments have a smoke and fire detection system.
+            - text: The cargo compartments have a smoke, fire and overheat detection system.
+- id: QRHNC
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Which of the following components is not equipped with extinguishing system:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Avionic bay
+          wrongAnswers:
+            - text: Cargo compartments
+            - text: Lavatories
+            - text: APU
+- id: QWWBQ
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Smoke detection systems are installed in:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Avionics bay, cargo compartments and lavatories only
+          wrongAnswers:
+            - text: Avionics bay and cargo compartments only
+            - text: Avionics bay, cargo compartments, lavatories and engine nacelles
+            - text: Avionics bay, cargo compartments, lavatories and galleys
+- id: QWFQP
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The engine and APU fire detection system consists of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 fire detection loops on each engine and 2 fire detection loops attached to the APU which are monitored by the FDU (Fire Detection Unit)
+          wrongAnswers:
+            - text: 3 fire detection loops on each engine and 2 fire detection loops attached to the APU which are monitored by the FWC (Flight Warning Computer)
+            - text: 3 or 4 (depending on configuration) fire detection loops on each engine and 2 fire detection loops attached to the APU which are directly wired to the FWC (Flight Warning Computer)
+            - text: 3 fire detection loops on each engine and 2 fire detection loops attached to the APU which are monitored by the FDU (Fire Detection Unit)
+- id: QPZMN
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Which answer about the fire detection system is correct:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A fault in one loop does not affect the warning system
+          wrongAnswers:
+            - text: If the system detects an APU fire while the aircraft is on ground, it shuts down the APU automatically but the extinguisher must be discharged manually
+            - text: "The engine fire detection system consists of 4 sensing elements: pylon nacelle, engine core, turbine section and gear box section"
+            - text: The fire warning will be triggered in case of one of two operative loops has detected a fire / presence of heat
+- id: QCNSV
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The Fire warning appears in case of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: A fire signal from loop A and B
+            - text: Breaks in both loops occurring within 5s of each other
+            - text: A fire signal from one loop when the other is faulty
+- id: QEMWL
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Which statement about the cargo smoke detection and cargo fire extinguishing system is correct:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The cargo smoke detection consists of 6 smoke detectors (3 Cavities - 1 fwd & 2 aft). The extinguishing system of one extinguishing bottle is connected to 1 nozzle in fwd and two nozzles in aft cargo compartment
+          wrongAnswers:
+            - text: "The fire extinguishing bottle must only be used in case of confirmed cargo fire (ECAM warning: FIRE FWD (AFT) CARGO FIRE)"
+            - text: The cargo smoke/fire detection system senses smoke via the smoke detectors located in the ventilation system outlet and heat sensing elements installed in the roof of each cargo compartment
+            - text: The fire extinguishing bottle can be discharged in both cargo compartments simultaneously if needed. But only if both DISCH pb are pushed within 3 seconds
+- id: QZGSV
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The DISCH pb for cargo smoke illuminates amber when:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The agent bottle has fully discharged (60 seconds after pressing the DISCH pb)
+          wrongAnswers:
+            - text: Smoke is detected in the associated cargo compartment
+            - text: Fire is detected in the associated cargo compartment
+            - text: The agent bottle is armed and ready for dischargement
+- id: QLZQI
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If the system detects an APU fire while the aircraft is in flight, how is the APU fire extinguisher bottle discharged?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Manually, via the AGENT pb on the APU FIRE PANEL located on the overhead panel
+          wrongAnswers:
+            - text: Manually, via the APU FIRE pb on the external power panel
+            - text: Manually, via the APU FIRE pb on the APU FIRE PANEL located on the overhead panel
+            - text: The fire bottle is discharged automatically
+- id: QMHVH
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If you have an APU FIRE which statement is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: On the ground, an APU AUTO shut down will occur and the APU fire bottle will be discharged automatically.
+          wrongAnswers:
+            - text: On the ground you have to perform the ECAM actions to shut down the APU and extinguish the fire from the cockpit.
+            - text: On the ground an APU AUTO shut down will occur but you have to discharge the APU fire bottle manually.
+            - text: In the air, an APU EMER shut down will occur and the APU fire bottle will be discharged automatically.
+- id: QTXAZ
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Where is NO fire extinguishing system installed ?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In the Avionics compartment
+          wrongAnswers:
+            - text: n the Cargo compartments
+            - text: In the Engine No. 1 Cowling
+            - text: In the APU compartment
+- id: QYFZO
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: ENG 1 LOOP B is inoperative. According to this failure...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: One detection loop for engine 1 has failed. Fire detection for both engines is still available.
+          wrongAnswers:
+            - text: One fire detection loop has failed. Fire detection for both engines is not available.
+            - text: One fire detection loop of engine 1 has failed. Fire detection for engine 1 is inoperative.
+            - text: Both fire detection loops of engine 1 have failed. Fire detection for engine 1 is inoperative.
+- id: QBQMA
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: With reference to cargo compartment fire extinguishing, which statement is true?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: There is only one fire bottle, when it is discharged both amber DISCH lights come on.
+          wrongAnswers:
+            - text: There are two fire bottles, one for the FWD compartment and one for the AFT.
+            - text: There is only one fire bottle; pressing either DISCH pb discharges it into both compartments.
+            - text: There are two fire bottles, when the DISCH pb is pressed they are both discharged into the appropriate compartment.
+- id: QXEJD
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "One smoke detector in the air extraction duct of the avionics ventilation system detects smoke in the avionics compartment. When it detects smoke for more than 5 s:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The ECAM displays a caution on the E/WD
+          wrongAnswers:
+            - text: The ECAM displays a warning on the E/WD
+            - text: The ECAM displays an advisory on the E/WD
+            - text: There is no warning on the E/WD
+- id: QVQEP
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The cargo compartments have a smoke detection system. Cavities in the cargo compartment ceiling panels each hold two smoke detectors. Each detector is linked to one of the two detection loops (dual loop principle).
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The forward compartment has one cavity, the aft has two cavities.
+          wrongAnswers:
+            - text: The aft cargo compartment has one cavity, the forward has two cavities.
+            - text: Both forward & aft compartments have two cavities.
+            - text: Both forward & aft compartments have one cavity.
+- id: QGPXQ
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: During the approach at 600ft AGL, smoke in the avionic bay results in ...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: .. no warning on the E/WD
+          wrongAnswers:
+            - text: ... a red warning on the E/WD
+            - text: .. an amber warning on the E/WD
+            - text: ---
+- id: QWKZJ
+  subjectId: a320
+  chapterId: "06"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: During an emergency situation with smoke you always get an ECAM warning.
+          answer: false

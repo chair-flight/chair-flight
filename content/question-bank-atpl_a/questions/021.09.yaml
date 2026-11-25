@@ -1,0 +1,2847 @@
+- id: QKXPG
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219444
+    - AVEXAM-63074
+    - BGS-210345
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.01.02
+  templates:
+    - type: multiple-correct
+      question: "Static dischargers:"
+      explanation: ""
+      options:
+        - text: are used to set all the parts of the airframe to the same electrical potential.
+          correct: false
+        - text: are placed on wing and tail tips to facilitate electrical discharge.
+          correct: true
+        - text: are used to reset the electrostatic potential of the aircraft to a value approximating 0 volts.
+          correct: false
+        - text: are located on wing and tail tips to reduce interference with the on-board radio communication systems to a minimum.
+          correct: true
+        - text: limit the risks of transfer of electrical charges between the aircraft and the electrified clouds.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QXQZO
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215144
+    - AVEXAM-50670
+    - BGS-210343
+    - AVEXAM-35175
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.01.02
+  templates:
+    - type: simple
+      question: The purpose of static wick dischargers is to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: dissipate the static charge of the aircraft in flight.
+          wrongAnswers:
+            - text: dissipate the static charge from the aircraft's skin after landing.
+            - text: dissipate electrical friction allowing the aircraft to fly higher.
+            - text: provide a path to ground for static charges when refuelling.
+- id: QZKKN
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-718782
+    - AVEXAM-67707
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.01.03
+  templates:
+    - type: simple
+      question: "Prior to refuelling, fire precautions that shall be observed are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: all bonding and connections to the earth terminal between ground equipment and the aircraft should be made before filler caps are removed.
+          wrongAnswers:
+            - text: Ground Power Units (GPU) are not to be operated.
+            - text: aircraft must be more than 10 metres from radar or HF radio equipment under test.
+            - text: passengers may be boarded (traversing the refuelling zone) providing suitable fire extinguishers are readily available.
+- id: QFUIZ
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217685
+    - AVEXAM-80767
+    - BGS-210346
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.01.04
+    - 021.09.04.01.03
+  templates:
+    - type: multiple-correct
+      question: "The purpose of bonding the metallic parts of an aircraft is to:"
+      explanation: ""
+      options:
+        - text: prevent electrolytic corrosion between mating surfaces of similar metals.
+          correct: false
+        - text: ensure zero voltage difference between aircraft components.
+          correct: true
+        - text: isolate all components electrically.
+          correct: false
+        - text: provide a single earth for electrical devices.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QRNGY
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212683
+    - BGS-210344
+    - AVEXAM-45205
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.01.04
+  templates:
+    - type: simple
+      question: "One indication of inadequate bonding of aircraft components may be:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: static noise on the radio.
+          wrongAnswers:
+            - text: interference on the VOR receiver.
+            - text: heavy corrosion on the fuselage skin mountings.
+            - text: a circuit breaker popping out.
+- id: QSLPQ
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215389
+    - AVEXAM-13723
+    - BGS-211911
+    - BGS-212329
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.01.04
+  templates:
+    - type: simple
+      question: Electrical bonding of an aircraft is used to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: equalise the electrical potential of the different aircraft parts.
+          wrongAnswers:
+            - text: eliminate the need for grounding the aircraft during refuelling.
+            - text: prevent the aircraft being struck by lightning.
+            - text: ensure the electrical potential of the aircraft structure remains at 0 volts.
+- id: QTKCQ
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211571
+    - AVEXAM-56304
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.02.02
+  templates:
+    - type: simple
+      question: Why do electrical wires need to be protected and insulated?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To avoid the current from escaping from the desired path of the wire, that could be dangerous to anyone getting in contact.
+          wrongAnswers:
+            - text: To avoid water from getting directly on the wire.
+            - text: To better differentiate each cable.
+            - text: To protect the wire from the solar radiation.
+- id: QCBRY
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218669
+    - AVEXAM-45263
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.02.04
+  templates:
+    - type: simple
+      question: What unit of measurement is used to express electrical current?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ampere.
+          wrongAnswers:
+            - text: Watt.
+            - text: Volt.
+            - text: Ohm.
+- id: QUENB
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216296
+    - AVEXAM-60231
+    - BGS-211894
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.02.04
+  templates:
+    - type: simple
+      question: Electric current is defined as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The flow of electric charge per time unit. It is measured in Amperes (A).
+          wrongAnswers:
+            - text: An electrical resistance divided by an electrical voltage. It is measured in Watts (W).
+            - text: An electromotive force that moves the electrons in an electrical flow. It is measured in Volts (V).
+            - text: The charge capacity of a battery. It is measured in Ampere hours (AH).
+- id: QFXLH
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218776
+    - BGS-210350
+    - AVEXAM-96826
+    - AVEXAM-4465
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.02.05
+  templates:
+    - type: simple
+      question: Ohm's Law states that the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: current in a circuit is directly proportional to voltage.
+          wrongAnswers:
+            - text: current in a circuit is inversely proportional to voltage.
+            - text: current in a circuit is directly proportional to the resistance of the circuit.
+            - text: power in the circuit is inversely proportional to the square of the current.
+- id: QHZWM
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215035
+    - BGS-211814
+    - AVEXAM-42600
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.02.05
+  templates:
+    - type: simple
+      question: In an electrical circuit, you have a supply of 240 V and a load of 50 Ohms. The load is suddenly malfunctioning, providing a lower resistance than rated. What can you expect?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The ampere will increase which will lead to an increased heat output.
+          wrongAnswers:
+            - text: The supply will increase which will lead to an increased heat output.
+            - text: The ampere will decrease which will lead to an increased heat output.
+            - text: The resistance will increase which will lead to an increased heat output.
+- id: QQLYS
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217943
+    - BGS-210352
+    - AVEXAM-94364
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.02.06
+  templates:
+    - type: simple
+      question: "The resistors R1 and R2 are connected in parallel. The value of the equivalent resistance (Req) so obtained is given by the following formula:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1/Req = 1/R1 + 1/R2
+          wrongAnswers:
+            - text: Req = R1 + R2
+            - text: 1/Req = 1/(R1 + R2)
+            - text: Req = R1 x R2
+- id: QLPEH
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216913
+    - BGS-211190
+    - BGS-211196
+    - AVEXAM-44971
+    - AVEXAM-46374
+    - ATPLQ-219963
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.02.08
+  templates:
+    - type: simple
+      question: What unit of measurement is used to express electrical work?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Joule.
+          wrongAnswers:
+            - text: Watt.
+            - text: Ampere.
+            - text: Ohm.
+    - type: simple
+      question: What unit of measurement is used to express electrical power?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Watt.
+          wrongAnswers:
+            - text: Ampere.
+            - text: Ohm.
+            - text: Joule.
+- id: QRNHZ
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211718
+    - BGS-212149
+    - AVEXAM-42793
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.02.08
+  templates:
+    - type: simple
+      question: Which of the following gives the correct definition and SI unit for electrical power (P)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Electrical power is energy divided by time (t) (P = Energy/t). It is measured in watts (W).
+          wrongAnswers:
+            - text: Electrical power is energy multiplied by time (t) (P = Energy x t). It is measured in watts (W).
+            - text: Electrical power is current (I) divided by voltage (V) (P = I/V). It is measured in amperes (A).
+            - text: Electrical power is voltage (V) divided by current (I) (P = V/I). It is measured in watts (W).
+- id: QSJVF
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214549
+    - AVEXAM-57233
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.02.08
+  templates:
+    - type: simple
+      question: What is the SI unit of measurement for power?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: W
+          wrongAnswers:
+            - text: J
+            - text: Pa
+            - text: N
+- id: QQSVH
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212095
+    - BGS-210398
+    - AVEXAM-86356
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.03.02
+  templates:
+    - type: simple
+      question: "A 3 phase AC generator has 3 separate stator windings spaced at:  "
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "120°  "
+          wrongAnswers:
+            - text: "60°  "
+            - text: "45°  "
+            - text: "90°  "
+- id: QOADV
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218008
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.03.04
+  templates:
+    - type: one-two
+      question: Which statement is correct about frequency?
+      explanation: Frequency is the number of oscillations or cycles per second, in hertz (Hz). One hertz is one cycle per second, not per minute.
+      pairs:
+        - right:
+            - Frequency is oscillations per second
+          wrong:
+            - Frequency is oscillations per minute
+        - right:
+            - The SI unit for frequency is Hz
+          wrong:
+            - The SI unit for frequency is RPM
+- id: QYWLB
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216418
+    - BGS-212128
+    - AVEXAM-9019
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.03.04
+  templates:
+    - type: one-two
+      question: Which of these statements about frequency are correct/incorrect?
+      explanation: Frequency is the number of complete cycles per unit of time, with the unit hertz (one cycle per second). Cycles are the repeating oscillation of the supply.
+      pairs:
+        - right:
+            - Frequency is defined as a number of cycles per unit of time.
+          wrong:
+            - Frequency is defined as a number of waves per unit of time.
+        - right:
+            - The SI unit for frequency is Hertz (Hz).
+          wrong:
+            - The SI unit for frequency is revolutions per minute (RPM).
+- id: QHGBJ
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216425
+    - AVEXAM-67524
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.03.04
+  templates:
+    - type: simple
+      question: In an AC circuit with a capacitor, voltage is kept the same, but the AC frequency is increased. What will happen to the current?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: current increases.
+          wrongAnswers:
+            - text: Current decreases.
+            - text: Current remains the same.
+            - text: Current reduces down to a value of zero.
+- id: QENUZ
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219854
+    - AVEXAM-20929
+    - BGS-210357
+    - BGS-210356
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.06.04
+  templates:
+    - type: simple
+      question: A relay is..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: an electromagnetic operated switch.
+          wrongAnswers:
+            - text: another name for a solenoid valve.
+            - text: a unit used to convert electrical energy to heat energy.
+            - text: a device used to increase electrical power.
+- id: QWFTW
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214335
+    - BGS-211952
+    - AVEXAM-75656
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.06.05
+  templates:
+    - type: simple
+      question: What is the purpose of separate shielding on each electrical wire within a bundle of cables?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To eliminate electromagnetic induction interfering with other wires in the bundle.
+          wrongAnswers:
+            - text: To physically strengthen the bundle of wires.
+            - text: To allow wires to be labelled for quicker maintenance.
+            - text: To properly insulate each wire from the others in the bundle.
+- id: QUYYZ
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218254
+    - AVEXAM-24096
+    - BGS-210360
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.07.01
+  templates:
+    - type: simple
+      question: Circuit breakers are used to protect..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: AC and DC circuits.
+          wrongAnswers:
+            - text: only series-connected circuits.
+            - text: only DC circuits.
+            - text: only AC circuits.
+- id: QWOFZ
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214440
+    - BGS-210348
+    - AVEXAM-12110
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.07.02
+  templates:
+    - type: simple
+      question: "The rating of electrical fuses is expressed in:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: amperes
+          wrongAnswers:
+            - text: ohms
+            - text: watts
+            - text: volts
+- id: QZLGS
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219107
+    - BGS-210355
+    - AVEXAM-1117
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.07.03
+  templates:
+    - type: simple
+      question: "A thermal circuit breaker:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: protects the system in the event of a prolonged overcurrent.
+          wrongAnswers:
+            - text: protects the system in the event of any overcurrent.
+            - text: protects the system in the event of a prolonged overheating.
+            - text: protects the system in the event of any overheating.
+- id: QGXAR
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219976
+    - ATPLQ-216074
+    - AVEXAM-9576
+    - BGS-211972
+    - AVEXAM-44633
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.07.04
+  templates:
+    - type: simple
+      question: What should a flight crew do following the loss of all fuel indications?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Recycle the circuit breaker, if it's part of a procedure, and check if the system restarts.
+          wrongAnswers:
+            - text: Turn off fuel pumps for 10 min and then turn them back on.
+            - text: Land as soon as possible and prepare for power off landing.
+            - text: Open the cross-feed valve to make sure the aeroplane stays in balance.
+    - type: simple
+      question: You lose fuel indication during a flight, what is the best course of action?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pull and reset the circuit breakers to check if the system restarts, unless the checklist says otherwise.
+          wrongAnswers:
+            - text: Turn off fuel pumps for 10 min and then turn them back on hoping fuel indications come back.
+            - text: Land as soon as possible and prepare for power off landing.
+            - text: Open the cross-feed valve to make sure the aeroplane stays in balance.
+- id: QNVED
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214016
+    - AVEXAM-94631
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.07.04
+  templates:
+    - type: simple
+      question: |-
+        Which of the following statements are true for a thermal circuit breaker? Circuit breakers...
+
+        1. Can be reset once if tripped, if the captain deems it is necessary for the safe continuation of the flight 
+         
+        2. Can be used to reset aircraft systems, if it is according to a described procedure 
+         
+        3. Can be used to switch systems on and off on modern fly-by-wire aircraft without issue 
+         
+        4. Can be reset twice to restore electrical power to a system provided an entry is made in the technical log
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 and 2
+          wrongAnswers:
+            - text: 1 and 3
+            - text: 2 and 4
+            - text: 3 and 4
+    - type: simple
+      question: |-
+        What statements apply to the operation of a thermal circuit breaker? Circuit breakers:
+
+         Can be reset once if tripped, if the captain deems it is necessary for the safe continuation of the flight.
+         Can be used to reset aircraft systems, if it is according to a described procedure.
+         Can be used to switch systems on and off on modern fly-by-wire aircraft without issue.
+         Can be reset twice to restore electrical power to a system provided an entry is made in the technical log.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 and 2
+          wrongAnswers:
+            - text: 3 and 4
+            - text: 1 and 3
+            - text: 2 and 4
+- id: QXLCD
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213878
+    - AVEXAM-92449
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.07.05
+  templates:
+    - type: simple
+      question: A bundle of electrical cables within the avionics bay, and in close proximity to one another, have been poorly insulated during installation. What is the most significant risk?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Fire as a result of electrical arcing.
+          wrongAnswers:
+            - text: Frequent and/or incoherent tripping of circuit breakers (CBs).
+            - text: Increased power consumption of the components,’, as poorly insulated cables have an increased internal resistance.
+            - text: Radio communication interference.
+- id: QLMIH
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216658
+    - BGS-212009
+    - AVEXAM-89483
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.07.06
+  templates:
+    - type: simple
+      question: In a DC (Direct Current) circuit, what will happen if the current gets too high and is not detected?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The wire will overheat and could cause a fire.
+          wrongAnswers:
+            - text: The circuit breaker will trip, disconnecting the generator from its drive unit.
+            - text: The increased magnetic field will interfere with other circuits nearby.
+            - text: The voltage will subsequently increase, and could blow a fuse.
+- id: QZWKV
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216237
+    - AVEXAM-15342
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.07.06
+  templates:
+    - type: simple
+      question: What may lead to generation of excess heat and potentially a fire in a circuit?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Overcurrent
+          wrongAnswers:
+            - text: Overvoltage
+            - text: Overpressure
+            - text: Undervoltage
+- id: QGTZJ
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215915
+    - AVEXAM-69027
+    - AVEXAM-42782
+    - BGS-212219
+    - BGS-212202
+    - BGS-212174
+    - ATPLQ-219531
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.07.07
+  templates:
+    - type: simple
+      question: "Circuit Breakers must be able to withstand the transient overcurrents that occur when switching on:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: electric motors (inductive loads)
+          wrongAnswers:
+            - text: ignition boxes
+            - text: heating elements
+            - text: strobe lights (intermittent loads)
+    - type: simple
+      question: An important design feature of circuit breakers is that they...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: can withstand temporary, short-time overcurrents that occur when switching on large consumers such as electric motors.
+          wrongAnswers:
+            - text: can withstand the temporary overcurrent that occurs when switching on large consumers such as electric heating.
+            - text: cut the circuit immediately in case any overcurrent occurs.
+            - text: cannot be used in circuits where temporary, short-time overcurrent may occur, such as when switching on large consumers (e.g., electric motors).
+- id: QCALX
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216489
+    - AVEXAM-7396
+    - AVEXAM-69988
+    - BGS-211930
+    - ATPLQ-211892
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.07.08
+  templates:
+    - type: simple
+      question: "When using a fuse with a higher rating than prescribed:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In a healthy system nothing problematic will happen.
+          wrongAnswers:
+            - text: It will take too much time to detect an open circuit.
+            - text: The whole circuit will overheat, which is a potential fire hazard.
+            - text: The current in the circuit will be too high, resulting in a blown fuse.
+        - correctAnswers:
+            - text: Overcurrent might go undetected and cause a fire.
+          wrongAnswers:
+            - text: It will take too much time to detect an open circuit.
+            - text: The current in the circuit will be too high, resulting in a blown fuse.
+            - text: The whole circuit will overheat, which is a potential fire hazard.
+- id: QUQWK
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211890
+    - AVEXAM-78970
+    - BGS-212333
+    - BGS-212221
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.07.08
+  templates:
+    - type: simple
+      question: "It is NOT recommended to reset a tripped circuit breaker during flight because:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The overload condition may still be present and the electrical damage could become worse.
+          wrongAnswers:
+            - text: The member of the flight crew must leave the flight deck.
+            - text: There is a risk of electrocution.
+            - text: This should only be done when the aircraft is on the ground with the main battery turned off.
+    - type: simple
+      question: Is there a hazard associated with resetting a tripped circuit breaker in flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes, if the overcurrent condition still exists damage to the associated system(s) may occur.
+          wrongAnswers:
+            - text: Yes, the current through the circuit breaker may be reversed, permanently damaging it.
+            - text: No, because a tripped circuit breaker can only be reset once the aircraft has landed and the engines are shut down.
+            - text: No, because circuit breakers are built to be reset.
+- id: QNKTW
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216686
+    - AVEXAM-40699
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.08.01
+  templates:
+    - type: simple
+      question: Computer life expectancy is affected by temperature. If a computer has a life expectancy of 40 000 hours running at 30ºC, what would be the life expectancy if running at 40ºC?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 20 000 hours
+          wrongAnswers:
+            - text: 80 000 hours
+            - text: 30 000 hours
+            - text: 10 000 hours
+- id: QFOJF
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215713
+    - BGS-210366
+    - AVEXAM-11658
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.01.08.02
+  templates:
+    - type: simple
+      question: The function of a NOT logic gate within a circuit is to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: invert the input signal such that the output is always of the opposite state.
+          wrongAnswers:
+            - text: process only high voltage input signals.
+            - text: accept the input signal only if it is AC.
+            - text: ensure the output signal is of the same state as the input signal.
+- id: QSVDX
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211442
+    - BGS-211801
+    - BGS-211831
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.02.01.02
+  templates:
+    - type: simple
+      question: "The electrolyte in a Nickel Cadmium battery is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Potassium hydroxide.
+          wrongAnswers:
+            - text: Nickel dioxide.
+            - text: Nickel hydroxide.
+            - text: Hydrogen peroxide.
+- id: QAXNL
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217145
+    - AVEXAM-21471
+    - BGS-211365
+    - AVEXAM-94869
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.02.01.03
+  templates:
+    - type: simple
+      question: An advantage of nickel-cadmium compared with lead-acid batteries is that they..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: maintain a constant output voltage during discharge.
+          wrongAnswers:
+            - text: are less prone to thermal runaway.
+            - text: do not require venting as the cells are sealed during manufacture.
+            - text: have a higher internal resistance which produces more power.
+    - type: simple
+      question: |-
+        The advantages of Nickel-Cadmium compared with Lead-acid batteries are:
+
+         Lower risk of thermal runaway
+         Higher internal resistance, hence higher power
+         Reduced charging time
+         Constant output voltage
+
+        The combination regrouping all the correct statements is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3, 4
+          wrongAnswers:
+            - text: 2, 4
+            - text: 1, 3
+            - text: 1, 2
+- id: QCHCR
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211731
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.02.01.04
+  templates:
+    - type: simple
+      question: "The voltage of a fully charged lead-acid battery cell under no electrical load is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2.2 volts.
+          wrongAnswers:
+            - text: 1.8 volts.
+            - text: 1.2 volts.
+            - text: 1.4 volts.
+- id: QYBGI
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217322
+    - AVEXAM-55107
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.02.01.04
+  templates:
+    - type: simple
+      question: When measuring the two terminals of a charging 12 V lead acid battery with a voltmeter, what reading will be observed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 14 V
+          wrongAnswers:
+            - text: 12 V
+            - text: 18 V
+            - text: 28 V
+    - type: simple
+      question: What voltage reading is usually observed when measuring the two terminals of a charging 12 V lead acid battery with a voltmeter?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 13-14 V
+          wrongAnswers:
+            - text: 24 V
+            - text: 5-10 V
+            - text: 15-20 V
+- id: QKNSR
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds:
+    - QOKRP
+  externalQuestionIds:
+    - ATPLQ-211899
+    - AVEXAM-23417
+    - BGS-210369
+    - ATPLQ-213487
+    - AVEXAM-26671
+    - BGS-210371
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.02.01.06
+  templates:
+    - type: simple
+      question: "The capacity of a battery is the:"
+      explanation: The capacity of a battery is the amount of electric charge it can supply when fully charged, measured in ampere-hours (Ah). For example, a 40 Ah battery can supply 2 A for 20 hours.
+      presets:
+        - correctAnswers:
+            - text: amount of Ampere-hour (Ah) that a fully charged battery can supply.
+          wrongAnswers:
+            - text: no-load voltage of the battery multiplied by its rated output current.
+            - text: number of cycles (charging and discharging) that a battery can withstand without deterioration of its cells.
+            - text: intensity withstood by the battery during charging.
+    - type: simple
+      question: "The capacity of a battery is given in:"
+      explanation: Battery capacity is the charge a battery can deliver, measured in ampere-hours (Ah). Ohms measure resistance, and amperes divided by volts has no meaning for capacity.
+      presets:
+        - correctAnswers:
+            - text: Ampere hours
+          wrongAnswers:
+            - text: Amperes/volts
+            - text: Ohms
+            - text: Watts
+- id: QOKRP
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds:
+    - QKNSR
+  externalQuestionIds:
+    - ATPLQ-211105
+    - AVEXAM-98453
+    - AVEXAM-73668
+    - ATPLQ-214843
+    - AVEXAM-34998
+    - BGS-211115
+    - ATPLQ-211414
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.02.01.06
+  templates:
+    - type: simple
+      question: Assuming a constant discharge rate, how long can a 10 Ah battery nominally supply 5 A?
+      explanation: Capacity in ampere-hours is current multiplied by time. Divide 10 Ah by 5 A to obtain 2 hours. Actual capacity depends on the discharge rate and battery condition.
+      presets:
+        - correctAnswers:
+            - text: 2 hours
+          wrongAnswers:
+            - text: 30 minutes
+            - text: 5 hours
+            - text: 10 hours
+    - type: simple
+      question: "A battery capacity of {{capacity}} Ah means that the battery can provide:"
+      explanation: Capacity in ampere-hours is current multiplied by time. Divide 10 Ah by 5 A to obtain 2 hours. Actual capacity depends on the discharge rate and battery condition. The same relationship gives {{current}} A for {{hours}} hours from a battery of {{capacity}} Ah.
+      presets:
+        - variables:
+            capacity: "5"
+            current: "5"
+            hours: "1"
+          correctAnswers:
+            - text: 5 amperes for 1 hour.
+          wrongAnswers:
+            - text: 5 amperes for 5 hours.
+            - text: 5 amperes for 20 minutes.
+            - text: 1 ampere for 1 hour.
+        - variables:
+            capacity: "10"
+            current: "5"
+            hours: "2"
+          correctAnswers:
+            - text: 5 amperes for 2 hours.
+          wrongAnswers:
+            - text: 5 amperes for 5 hours.
+            - text: 5 amperes for 20 minutes.
+            - text: 5 amperes for 1 hour.
+        - variables:
+            capacity: "100"
+            current: "10"
+            hours: "10"
+          correctAnswers:
+            - text: 10 amperes for 10 hours.
+          wrongAnswers:
+            - text: 5 amperes for 10 hours.
+            - text: 10 amperes for 15 minutes.
+            - text: 5 amperes for 30 minutes.
+- id: QXUAP
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218126
+    - BGS-211909
+    - AVEXAM-6906
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.02.01.06
+  templates:
+    - type: one-two
+      question: Regarding the capacity of a battery and its measurement, which statement(s) is/are correct/incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - The battery capacity is determined by multiplying a current flow in Amperes by the time in hours that the battery is being discharged.
+          wrong: []
+        - right: []
+          wrong:
+            - The total battery capacity is dependent on the voltage rating of its battery cells.
+- id: QGJJF
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213749
+    - AVEXAM-78142
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.02.01.08
+  templates:
+    - type: simple
+      question: You are flying an aircraft in which all the generators have failed, but you still have battery power. What should be considered?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The batteries have a limited charge, so electrical components will not be able to operate indefinitely.
+          wrongAnswers:
+            - text: All electrical components will become unusable for the remainder of the flight.
+            - text: The most important instrument to be monitored now is the temperature of the batteries to avoid any thermal runaway.
+            - text: There are no special considerations since all components previously powered by the generators will receive power from the batteries automatically.
+- id: QLRLJ
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215211
+    - AVEXAM-74799
+  annexes:
+    - id: AAIB
+  learningObjectiveIds:
+    - 021.09.02.01.08
+    - 021.09.04.01.09
+  templates:
+    - type: multiple-correct
+      question: |-
+        Refer to figure.   
+        Consider the attached aircraft electrical system diagram, assuming that there is no RAT and the APU cannot be used in flight. After a failure of both engines, which of the following will still be available?
+      explanation: ""
+      options:
+        - text: BAT1 and BAT2
+          correct: true
+        - text: DC and AC EMER
+          correct: true
+        - text: AC1 and AC2
+          correct: false
+        - text: AC ESS bus
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QJVUQ
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218868
+    - AVEXAM-27655
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.02.01.09
+  templates:
+    - type: simple
+      question: What is the worst case scenario if thermal runaway occurs?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Fire.
+          wrongAnswers:
+            - text: Engine failure.
+            - text: Overcurrent in the electrical system.
+            - text: Total loss of electrical power.
+- id: QSAOU
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218404
+    - BGS-211925
+    - BGS-211810
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.02.01.09
+  templates:
+    - type: simple
+      question: A Lithium Ion battery can be considered most unsafe...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When the battery has an internal short circuit.
+          wrongAnswers:
+            - text: When the battery is quickly discharged.
+            - text: When the battery has a very low charge.
+            - text: When the battery is quickly charged.
+- id: QUMOO
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216626
+    - AVEXAM-92674
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.02.01.10
+  templates:
+    - type: simple
+      question: Which of the following is the best way to prevent lithium ion batteries from becoming a fire hazard?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: House the battery in a vented metal casing.
+          wrongAnswers:
+            - text: Make sure the battery is being continuously charged during flight.
+            - text: Install a fuse on the positive pole of the battery.
+            - text: Place a halon fire extinguisher in the compartment with the battery.
+- id: QWXJN
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211681
+    - AVEXAM-49436
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.01.01
+    - 021.09.03.02.01
+  templates:
+    - type: simple
+      question: "The essential difference between aircraft AC alternators and DC generators (dynamos) is that the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: induced (output) windings of the alternators are fixed (stator), and the dynamos have a fixed inductor (field) coil.
+          wrongAnswers:
+            - text: the alternators generate much less power than DC generators.
+            - text: induced windings of the alternators are rotating (rotor), and the dynamos have a rotary inductor coil.
+            - text: alternators supply all of the output current through the commutators and brush assemblies.
+- id: QJFAT
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213047
+    - AVEXAM-71842
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.01.02
+  templates:
+    - type: simple
+      question: "What is a voltage regulator used for? To control voltage from:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Generators during varying load and speed.
+          wrongAnswers:
+            - text: Generators during varying speed, and batteries during varying load.
+            - text: Batteries during varying frequency.
+            - text: Batteries during varying load.
+- id: QVHEZ
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217158
+    - AVEXAM-12269
+    - BGS-210385
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.01.03
+    - 021.09.04.04.01
+  templates:
+    - type: simple
+      question: "The function of the generator breaker is to close when the voltage of the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: generator is greater than battery voltage and to open when the opposite is true
+          wrongAnswers:
+            - text: alternator is greater than the battery voltage and to open when the opposite is true
+            - text: battery is greater than the alternator voltage and to open when the opposite is true
+            - text: battery is greater than the generator voltage and to open when the opposite is true
+- id: QITAM
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds:
+    - QSMCB
+  externalQuestionIds:
+    - ATPLQ-213682
+    - AVEXAM-1541
+    - BGS-212252
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.01.04
+  templates:
+    - type: simple
+      question: One of the purposes of the starter-generator is to
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: start the core engine until reaching self-sustaining speed.
+          wrongAnswers:
+            - text: excite the magnetic field when the generator is still.
+            - text: generate electrical power until reaching self-sustaining speed.
+            - text: drive the generator until the engine takes over.
+- id: QSMCB
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds:
+    - QITAM
+  externalQuestionIds:
+    - ATPLQ-214813
+    - AVEXAM-67229
+    - BGS-212214
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.01.04
+  templates:
+    - type: simple
+      question: A starter-generator is an electrical generator that…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: performs as an electric motor during engine start.
+          wrongAnswers:
+            - text: creates a high energy impulse for the igniters during engine start.
+            - text: generates electric power for the engine starter motor.
+            - text: uses an electric starter motor for start-up of its rotor.
+- id: QPNRK
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219447
+    - BGS-212236
+    - BGS-212203
+    - BGS-212424
+    - AVEXAM-71834
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.02.01
+  templates:
+    - type: simple
+      question: On a modern brushless three-phase AC generator, the current that provides the field excitation to the rotor...
+      explanation: A brushless generator has no slip rings. The rotor field is excited by a small permanent magnet generator on the same shaft, which feeds an exciter and a rotating rectifier that supply DC to the main rotor field.
+      presets:
+        - correctAnswers:
+            - text: comes from a permanent magnet generator installed on the same shaft as the main generator.
+          wrongAnswers:
+            - text: is DC and is fed directly to the field windings of the rotor poles through contacts and slip rings.
+            - text: comes from an additional, smaller DC generator installed on the end of the alternator.
+            - text: is AC and is being fed directly to the field windings to the rotor poles through contacts and slip rings.
+- id: QSRXK
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215693
+    - AVEXAM-66350
+    - BGS-210392
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.02.02
+  templates:
+    - type: simple
+      question: An AC generator provides a constant output voltage, when the electrical load increases. What will the voltage regulator do?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Increase the excitation current.
+          wrongAnswers:
+            - text: Change the direction of the excitation current.
+            - text: Decrease the excitation current.
+            - text: Nothing, the voltage will not need to change.
+- id: QXCNT
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216093
+    - BGS-210389
+    - AVEXAM-80504
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.02.02
+  templates:
+    - type: simple
+      question: What directly controls the power required for field excitation of the main rotor in modern constant-frequency alternators?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The voltage regulator.
+          wrongAnswers:
+            - text: An excitation alternator with a permanent magnet generator.
+            - text: A battery.
+            - text: An alternator.
+- id: QGAMG
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217991
+    - AVEXAM-15675
+    - BGS-210404
+    - ATPLQ-217957
+    - AVEXAM-29425
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.02.03
+  templates:
+    - type: simple
+      question: The frequency of an AC generator is dependent on the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: number of pairs of poles and the speed of the rotor.
+          wrongAnswers:
+            - text: number of individual poles only.
+            - text: number of individual poles and the field strength.
+            - text: field strength and the speed of the rotor.
+    - type: simple
+      question: |-
+        The AC frequency of a three-phase brushless AC generator is dependent on:1. Number of pairs of poles 
+        2. Speed of the rotor 
+        3. Strength of the excitation current
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 and 2
+          wrongAnswers:
+            - text: 1, 2 and 3
+            - text: 1 and 3
+            - text: 2 and 3
+    - type: simple
+      question: |-
+        The frequency of a three-phase brushless AC generator depends on:
+
+         Number of pairs of poles.
+         Speed of the rotor.
+         Strength of the excitation current.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 and 2
+          wrongAnswers:
+            - text: 2 and 3
+            - text: 1, 2 and 3
+            - text: 1 and 3
+- id: QHOOR
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211080
+    - AVEXAM-6541
+    - BGS-210386
+    - AVEXAM-6311
+    - ATPLQ-217172
+    - AVEXAM-12287
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.02.03
+  templates:
+    - type: simple
+      question: "In order to produce an alternating voltage of {{f}} Hz, the number of pairs of poles required in an AC generator running at {{rpm}} rpm is:"
+      explanation: |-
+        One electrical cycle is produced for each pair of poles passing a stator winding. Frequency = pole pairs x rpm / 60, so pole pairs = 60 x frequency / rpm.
+
+        **Solution**
+
+        $$
+        \frac{60\times \text{Frequency}}{\text{Generator speed}} = \frac{60\times 400}{ {{rpm}} } = \mathbf{ {{answer}}\ \text{pole pairs} }
+        $$
+
+        ## Why the other answers are wrong
+        - **{{d1}} pole pairs**: uses 120 instead of 60, which gives the number of poles rather than pole pairs.
+        - **{{d2}} pole pairs**: inverts the relationship (rpm over frequency).
+        - **{{d3}} pole pairs**: uses 30 instead of 60.
+        - **{{d4}} pole pairs**: uses 240 instead of 60.
+      presets:
+        - variables:
+            f: 400
+            rpm: 6000
+            answer: 4
+            d1: 8
+            d2: 900
+            d3: 2
+            d4: 16
+          correctAnswers:
+            - text: 4 pole pairs
+          wrongAnswers:
+            - text: 8 pole pairs
+            - text: 2 pole pairs
+            - text: 16 pole pairs
+            - text: 900 pole pairs
+        - variables:
+            f: 400
+            rpm: 4000
+            answer: 6
+            d1: 12
+            d2: 600
+            d3: 3
+            d4: 24
+          correctAnswers:
+            - text: 6 pole pairs
+          wrongAnswers:
+            - text: 12 pole pairs
+            - text: 3 pole pairs
+            - text: 24 pole pairs
+            - text: 600 pole pairs
+        - variables:
+            f: 400
+            rpm: 12000
+            answer: 2
+            d1: 4
+            d2: 1800
+            d3: 1
+            d4: 8
+          correctAnswers:
+            - text: 2 pole pairs
+          wrongAnswers:
+            - text: 4 pole pairs
+            - text: 1 pole pairs
+            - text: 8 pole pairs
+            - text: 1800 pole pairs
+    - type: simple
+      question: In order to produce an alternating voltage of 400 Hz, the RPM required for a 6-pole AC generator is…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 8 000
+          wrongAnswers:
+            - text: 4 000
+            - text: 6 000
+            - text: 10 000
+    - type: simple
+      question: To generate an alternating voltage of 400 Hz, what RPM is needed for a 6-pole AC generator?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 8 000
+          wrongAnswers:
+            - text: 4 000
+            - text: 10 000
+            - text: 6 000
+- id: QQTQN
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212604
+    - BGS-210384
+    - AVEXAM-56946
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.02.03
+  templates:
+    - type: simple
+      question: The frequency of the current provided by an alternator depends on..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: its rotation speed.
+          wrongAnswers:
+            - text: the strength of the excitation current.
+            - text: its phase balance.
+            - text: its load.
+- id: QUJGN
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212051
+    - AVEXAM-34474
+    - BGS-210402
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.02.04
+  templates:
+    - type: simple
+      question: '"Frequency wild" in relation to an AC generation system means the generator:'
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: output frequency varies with engine speed.
+          wrongAnswers:
+            - text: output frequency is too high.
+            - text: output frequency is too low.
+            - text: voltage regulator is out of adjustment.
+- id: QIPRG
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211072
+    - AVEXAM-65231
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.02.04
+  templates:
+    - type: simple
+      question: Which of the following electrical sources can ONLY be used as a source for a resistive consumer capable of withstanding non-regulated AC power?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Frequency wild generator
+          wrongAnswers:
+            - text: Variable speed constant frequency (VSCF) generator.
+            - text: Integrated drive generator (IDG)
+            - text: Consant speed drive (CSD)
+- id: QVQNB
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211533
+    - AVEXAM-97168
+    - BGS-210425
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.02.05
+  templates:
+    - type: simple
+      question: The APU of a large passenger jet airliner has its own AC generator that..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: supplies the aircraft with three-phase 115 V, 400 Hz AC.
+          wrongAnswers:
+            - text: is driven at constant speed through a constant speed drive (CSD), in the same way as the main AC generator.
+            - text: is excited by its Generator Control Unit (GCU) as soon as the APU starts up.
+            - text: must have the same characteristics as the main AC generator so that it can be easily coupled with the latter.
+- id: QNBIZ
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217401
+    - AVEXAM-37555
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.03.02
+  templates:
+    - type: simple
+      question: A Constant Speed Drive (CSD) of an AC generator may be disconnected in flight. What is/are the typical primary reason for disconnection?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Low oil pressure and/or high oil temperature of the generator drive.
+          wrongAnswers:
+            - text: A slight variation about the normal operating frequency.
+            - text: Illumination of the CSD disconnect warning light.
+            - text: An excessive variation of voltage and kVAR.
+- id: QNXOB
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212919
+    - AVEXAM-26433
+    - BGS-210393
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.03.02
+  templates:
+    - type: simple
+      question: "In flight, if the Constant Speed Drive (CSD) temperature indicator is in the red arc the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: pilot must disconnect it, and the generator is not available for the rest of flight.
+          wrongAnswers:
+            - text: pilot can disconnect it to allow it to cool and use it again.
+            - text: pilot has to throttle back.
+            - text: pilot must disconnect it and manually control the alternator.
+- id: QGEIL
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds:
+    - QKVJH
+  externalQuestionIds:
+    - ATPLQ-214850
+    - AVEXAM-33115
+    - BGS-210396
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.03.04
+  templates:
+    - type: simple
+      question: A constant speed drive (CSD) that has been disconnected in flight
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: can be reset only on the ground after engine shut-down.
+          wrongAnswers:
+            - text: can be reset in flight using the reset mechanism.
+            - text: automatically resets in flight providing engine rpm is below a given value.
+            - text: automatically resets on engine shut-down.
+- id: QKVJH
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds:
+    - QGEIL
+  externalQuestionIds:
+    - ATPLQ-214592
+    - BGS-210401
+    - AVEXAM-13817
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.03.04
+  templates:
+    - type: simple
+      question: "Assuming a constant speed drive (CSD) fault is indicated, the CSD should be disconnected:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: provided the engine is running.
+          wrongAnswers:
+            - text: on the ground only.
+            - text: when the AC generator voltage is outside limits.
+            - text: at flight idle engine rpm only.
+- id: QSECJ
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217546
+    - AVEXAM-18665
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.03.04
+  templates:
+    - type: simple
+      question: What happens once the pilot has operated the IDG (Integrated Drive Generator) disconnect button?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An electrical supply system will be lost.
+          wrongAnswers:
+            - text: An electrical supply system will be lost, but can be reset in-flight.
+            - text: The disconnect switch can be used to re-connect the IDG in-flight, after sufficient time for cooling the generator.
+            - text: A hydraulic supply system will be lost.
+- id: QTAFB
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216701
+    - BGS-212453
+    - AVEXAM-9551
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.03.05
+  templates:
+    - type: simple
+      question: Which of the following statements is correct with regards to Integrated Drive Generators (IDGs)? An IDG is a...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: constant frequency generator which combines the CSD and the generator itself in a combined unit.
+          wrongAnswers:
+            - text: frequency wild generator which combines the CSD and the generator itself in a combined unit.
+            - text: frequency wild generator which has an integrated GCU to provide a stable frequency output.
+            - text: constant frequency generator with an integrated GCU; the GCU provides a stable frequency output.
+    - type: simple
+      question: Which of the following statements concerning an IDG is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An IDG is a constant frequency generator which combines the CSD and the generator itself in a combined unit.
+          wrongAnswers:
+            - text: An IDG is a frequency wild generator which combines the CSD and the generator itself in a combined unit.
+            - text: An IDG is a frequency wild generator which has an integrated GCU to provide a stable frequency output.
+            - text: An IDG is a constant frequency generator with an integrated GCU; the GCU provides a stable frequency output.
+- id: QLPBZ
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213260
+    - ATPLQ-211268
+    - AVEXAM-5684
+    - BGS-211908
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.03.05
+  templates:
+    - type: simple
+      question: What is usually used to lubricate Integrated Drive Generators (IDGs)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Internal oil
+          wrongAnswers:
+            - text: Ram air
+            - text: Fuel
+            - text: Hydraulic fluid
+    - type: simple
+      question: "What is correct about an integrated drive generator (IDG) of a turbine engine? It is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Lubricated by an internal oil system.
+          wrongAnswers:
+            - text: Driven by the engine oil system.
+            - text: Cooled by the engine fuel system.
+            - text: Controlled by the hydraulic system.
+- id: QIYDL
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215194
+    - BGS-210411
+    - AVEXAM-65900
+    - ATPLQ-213808
+    - BGS-210412
+    - AVEXAM-94808
+    - ATPLQ-217164
+    - BGS-211367
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.04.02
+  templates:
+    - type: simple
+      question: "In an aircraft fitted with a constant frequency AC power supply, DC power is obtained from a:"
+      explanation: In a constant frequency AC system, DC power comes from a transformer rectifier unit (TRU), which lowers the AC voltage and rectifies it to DC.
+      presets:
+        - correctAnswers:
+            - text: transformer rectifier unit (TRU).
+          wrongAnswers:
+            - text: transformer unit.
+            - text: rotary converter.
+            - text: static inverter.
+    - type: simple
+      question: "On an aircraft using AC as primary power supply, the batteries are charged in flight from:"
+      explanation: On an AC primary system, the transformer rectifier unit supplies the DC bus and charges the batteries in flight. A static inverter does the reverse, converting DC to AC.
+      presets:
+        - correctAnswers:
+            - text: a Transformer Rectifier Unit.
+          wrongAnswers:
+            - text: a static inverter.
+            - text: the AC bus via current limiters.
+            - text: a DC transformer and rectifier.
+    - type: simple
+      question: "In aircraft with AC generators as primary source of electrical power DC power is obtained by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: transformer rectifier units.
+          wrongAnswers:
+            - text: rectifiers and voltage reducing resistors
+            - text: portable batteries
+            - text: AC-DC regulators
+- id: QFAZH
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213611
+    - AVEXAM-71966
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.04.02
+  templates:
+    - type: simple
+      question: On aircraft with (1)\_\_\_ generators as the primary source of electrical power, Transformer Rectifier Units (TRUs) are used to obtain (2)\_\_\_ electrical power.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) 115 V AC; (2) 28 V DC.
+          wrongAnswers:
+            - text: (1) 28 V DC; (2) 28 V AC.
+            - text: (1) 115 V DC; (2) 28 V AC.
+            - text: (1) 28 V AC; (2) 28 V DC.
+- id: QLXAG
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215894
+    - BGS-211135
+    - AVEXAM-20162
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.03.04.03
+    - 021.09.04.03.02
+  templates:
+    - type: simple
+      question: In a modern transport aircraft, what happens in the event of a total AC generator failure?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A static inverter converts 24V DC from the batteries to 115V AC for essential AC services.
+          wrongAnswers:
+            - text: A static inverter converts 24V DC from the batteries to 27V AC for essential AC services.
+            - text: An emergency generator powered by the batteries produces 115V AC for essential AC services.
+            - text: A TRU converts 28V DC to 115V AC for essential AC services.
+- id: QHXUY
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219326
+    - ATPLQ-219601
+    - AVEXAM-52860
+    - BGS-210417
+    - BGS-212466
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.01.01
+  templates:
+    - type: simple
+      question: What is a bus bar?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A device to distribute electrical power.
+          wrongAnswers:
+            - text: A device to permit the use of multiple switches in one circuit.
+            - text: A device used to stabilise electrical output.
+            - text: A device used to convert AC to DC.
+        - correctAnswers:
+            - text: a distribution means for electrical power.
+          wrongAnswers:
+            - text: the stator of a moving coil instrument.
+            - text: a device which may only be used in DC circuits.
+            - text: a device permitting operation of two or more switches together.
+    - type: simple
+      question: An electrical busbar….
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: distributes electrical power.
+          wrongAnswers:
+            - text: may only be used in DC circuits.
+            - text: may only be used in AC circuits.
+            - text: operates two or more electrical switches together.
+- id: QFRSB
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211328
+    - BGS-210415
+    - AVEXAM-2204
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.01.02
+  templates:
+    - type: simple
+      question: 'The so-called "hot buses" or "direct buses" are:'
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: directly connected to the battery.
+          wrongAnswers:
+            - text: automatically connected to the battery if generators have failed.
+            - text: providing an alternative current.
+            - text: kept in operating conditions by an electrical resistance in the case of energy failure.
+- id: QQQRA
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds:
+    - QIJIB
+    - QXAUY
+    - QQYDS
+    - QRMSA
+    - QTTIN
+  externalQuestionIds:
+    - ATPLQ-217541
+    - AVEXAM-2058
+    - AVEXAM-18657
+    - AVEXAM-30574
+    - AVEXAM-89173
+    - AVEXAM-91381
+    - AVEXAM-12038
+    - AVEXAM-65140
+    - AVEXAM-34457
+    - AVEXAM-71099
+    - AVEXAM-29372
+  annexes:
+    - id: AXPP
+  learningObjectiveIds:
+    - 021.09.04.01.04
+    - 021.09.04.01.09
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        On ground, external power (EXT PWR) can be used to feed the AC BUS 2, when: (NB: all contactors not mentioned are assumed to remain open)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: C1.2 and C2.2 are closed.
+          wrongAnswers:
+            - text: C1.1 and C2.1 are closed.
+            - text: C2.1 and C2.2 are closed.
+            - text: C1.2 and C2.1 are closed.
+- id: QBHRR
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218322
+    - AVEXAM-89637
+    - BGS-210383
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.01.06
+  templates:
+    - type: simple
+      question: "In order that DC generators will achieve equal load sharing when operating in parallel, it is necessary to ensure that:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: their voltages are almost equal.
+          wrongAnswers:
+            - text: the synchronising bus-bar is disconnected from the busbar system.
+            - text: adequate voltage differences exist.
+            - text: equal loads are connected to each generator busbar before paralleling.
+- id: QFJNI
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212309
+    - AVEXAM-79666
+    - BGS-210429
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.01.06
+  templates:
+    - type: simple
+      question: "To ensure correct load sharing between AC generators operating in parallel:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: both real and reactive loads must be matched.
+          wrongAnswers:
+            - text: only reactive loads need to be matched.
+            - text: only real loads need to be matched.
+            - text: the matching of loads is unimportant.
+- id: QEFCD
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218789
+    - BGS-212005
+  annexes:
+    - id: AAVS
+  learningObjectiveIds:
+    - 021.09.04.01.09
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        In the event of the failure of both generators during flight, which contactors need to be closed to feed the AC 2 EMER BUS? 
+
+        (Note: all contactors not mentioned are assumed to remain open).
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: BAT1, BAT TIE, B2 and INV.
+          wrongAnswers:
+            - text: BAT1, DCTIE and INV.
+            - text: BAT2, BAT TIE, B1 and INV.
+            - text: BAT2, TRU and AC1.
+- id: QIJIB
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds:
+    - QQYDS
+    - QRMSA
+    - QQQRA
+    - QXAUY
+    - QTTIN
+  externalQuestionIds:
+    - ATPLQ-216197
+    - AVEXAM-8332
+    - ATPLQ-212349
+  annexes:
+    - id: AXPP
+  learningObjectiveIds:
+    - 021.09.04.01.09
+    - 021.09.04.02.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        GEN 2 can be used to feed the DC BAT BUS: (NB: all contactors not mentioned are assumed to remain open)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: via AC BUS 2 and DC BUS 1 when C1.4, C3.2, C3.1, C5.1 and C7.1 are closed.
+          wrongAnswers:
+            - text: via AC BUS 1 and DC ESS BUS when C1.4, C3.2, C5.2 and C7.3 are closed.
+            - text: via AC BUS 2 and DC BUS 1 when C1.4, C3.2, C3.1, C5.3 and C7.4 are closed.
+            - text: via AC BUS 1 and DC BUS 2 when C1-4, C3-2, C3-1, C5-1 and C7-1 are closed.
+        - correctAnswers:
+            - text: via AC BUS 2 and DC BUS 2 when C1.4, C5.3 and C7.4 are closed.
+          wrongAnswers:
+            - text: via AC BUS 1 and DC BUS 1 when C1.4, C5.3 and C7.4 are closed.
+            - text: via AC BUS 1 and DC BUS 2 when C1.4, C5.3 and C7.4 are closed.
+            - text: via AC BUS 2 and DC BUS 1 when C1.4, C5.3 and C7.4 are closed.
+- id: QQYDS
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds:
+    - QIJIB
+    - QRMSA
+    - QTTIN
+    - QQQRA
+    - QXAUY
+  externalQuestionIds:
+    - ATPLQ-212455
+    - BGS-211722
+    - AVEXAM-53515
+    - AVEXAM-20128
+    - AVEXAM-33324
+    - AVEXAM-25472
+    - AVEXAM-69335
+    - BGS-212273
+  annexes:
+    - id: AXPP
+  learningObjectiveIds:
+    - 021.09.04.01.09
+    - 021.09.04.02.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        GEN 1 can be used to feed the DC ESS BUS: (NB: all contactors not mentioned are assumed to remain open)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: via AC BUS 1, when C1.1, C3.1 and C5.2 are closed.
+          wrongAnswers:
+            - text: via AC BUS 1 and AC ESS BUS, when C1.1, C1.4, C3.1, C3.2 and C5.2 are closed.
+            - text: via AC BUS 1 and AC ESS BUS, when C1.1, C3.1 and C5.2 are closed.
+            - text: via AC BUS 1 when C1.4, C3.2 and C5.2 are closed.
+    - type: simple
+      question: Which option is correct, as regards the electrical system illustrated in the annex? Consider all required contactors as closed.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: AC BUS 1 can feed DC ESS BUS via the ESS TRU.
+          wrongAnswers:
+            - text: AC ESS BUS can feed the DC ESS BUS via the Static Inverter.
+            - text: DC BUS 2 can feed AC BUS 2 via TRU 2.
+            - text: HOT BUS 2 can charge BATTERY 2.
+- id: QRMSA
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds:
+    - QQYDS
+    - QIJIB
+    - QTTIN
+    - QQQRA
+    - QXAUY
+  externalQuestionIds:
+    - ATPLQ-219210
+    - ATPLQ-215968
+  annexes:
+    - id: AXPP
+  learningObjectiveIds:
+    - 021.09.04.01.09
+    - 021.09.04.02.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        GEN 1 can be used to feed the DC BAT BUS: (NB: all contactors not mentioned are assumed to remain open)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: via AC BUS 1 and DC BUS 2 when C1.1, C3.1, C3.2, C5.3 and C7.4 are closed.
+          wrongAnswers:
+            - text: via AC BUS 2 and DC BUS 1 when C1.1, C3.1, C3.2, C5.3 and C7.4 are closed.
+            - text: via AC BUS 2 and DC ESS BUS when C1.1, C3.1, C5.2 and C7.3 are closed.
+            - text: via AC BUS 1 and DC BUS 2 when C1.1, C3.1, C3.2, C5.1 and C7.1 are closed.
+        - correctAnswers:
+            - text: via AC BUS 1 and DC BUS 1 when C1.1, C5.1 and C7.1 are closed.
+          wrongAnswers:
+            - text: via AC BUS 1 and DC BUS 2 when C1.4, C5.3 and C7.4 are closed.
+            - text: via AC BUS 2 and DC BUS 1 when C1.4, C5.3 and C7.4 are closed.
+            - text: via AC BUS 2 and DC BUS 2 when C1.4, C5.3 and C7.4 are closed.
+- id: QTTIN
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds:
+    - QQYDS
+    - QRMSA
+    - QXAUY
+    - QIJIB
+    - QQQRA
+  externalQuestionIds:
+    - ATPLQ-214212
+  annexes:
+    - id: AXPP
+  learningObjectiveIds:
+    - 021.09.04.01.09
+    - 021.09.04.02.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        GEN 2 can be used to feed the DC ESS BUS: (NB: all contactors not mentioned are assumed to remain open)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: via AC BUS 2, when C1.4, C3.2 and C5.2 are closed.
+          wrongAnswers:
+            - text: via AC BUS 2 and AC ESS BUS, when C1.4, C3.2 and C5.2 are closed.
+            - text: via AC BUS 2 when C1.1, C3.1 and C5.2 are closed.
+            - text: via AC BUS 2 and AC ESS BUS, when C1.1, C1.4, C3.1, C3.2 and C5.2 are closed.
+- id: QNEGJ
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218004
+    - AVEXAM-13208
+    - BGS-212520
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.01.10
+  templates:
+    - type: simple
+      question: What will happen if a bus bar has a short circuit? The affected bus...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is isolated and consumers lost.
+          wrongAnswers:
+            - text: is isolated and consumers fed by another generator.
+            - text: is transferred to another busbar.
+            - text: is transferred to another generator.
+- id: QKZFI
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214949
+    - AVEXAM-72610
+    - BGS-211123
+    - ATPLQ-218385
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.02.02
+  templates:
+    - type: simple
+      question: DC generators in a multi-engine aircraft are connected in..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: parallel to provide maximum power.
+          wrongAnswers:
+            - text: series to provide maximum power.
+            - text: series to provide maximum voltage.
+            - text: parallel to provide maximum voltage.
+        - correctAnswers:
+            - text: in parallel for maximum power
+          wrongAnswers:
+            - text: In parallel for maximum voltage
+            - text: in series for maximum power
+            - text: in series for minimum voltage
+- id: QJIGU
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219008
+    - BGS-212412
+    - AVEXAM-643
+    - AVEXAM-45645
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.03.01
+  templates:
+    - type: simple
+      question: The process of reducing electrical load during high-demand situations is called what?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Load shedding
+          wrongAnswers:
+            - text: Load sharing
+            - text: Current reduction
+            - text: Voltage limitation
+    - type: simple
+      question: The deliberate or automatic shut-down of electric power in a part of a power distribution system, to lower the overall power demand to the generator, is a definition of...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: load shedding.
+          wrongAnswers:
+            - text: an electric fuse.
+            - text: generator over-voltage protection.
+            - text: a circuit breaker.
+    - type: simple
+      question: What is meant by "load shedding"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The process of reducing electrical load during high-demand situations.
+          wrongAnswers:
+            - text: The process of starting an extra generator to balance the load.
+            - text: The process of increasing electrical load to ensure system stability.
+            - text: The process of redistributing fuel load for optimal balance.
+- id: QHXRH
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212214
+    - AVEXAM-27311
+    - BGS-211959
+    - ATPLQ-214876
+    - BGS-212003
+    - AVEXAM-98627
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.03.01
+    - 021.09.04.03.02
+  templates:
+    - type: one-two
+      question: You are flying a twin-engined aircraft with an AC electrical system fed by two engine driven generators when one generator has a complete failure. Which of the following statements is correct in reference to the subsequent power distribution.
+      explanation: ""
+      pairs:
+        - right:
+            - In an AC electrical system with a split-bus design, the load from the failed generator is automatically taken over by the remaining generator through the automatic AC bus-transfer function.
+          wrong:
+            - In an AC electrical system with a split-bus design, the load from the failed generator is manually taken over by the remaining generator through the manual AC bus-transfer function.
+        - right:
+            - In an AC electrical system with a parallel bus design, the load from the failed generator is not directly taken over by the aircraft's battery providing DC electrical power to the bus.
+          wrong:
+            - In an AC electrical system with a parallel bus design, the load from the failed generator is directly taken over by the aircraft's battery providing DC electrical power to the bus.
+    - type: simple
+      question: You are flying a twin-engined aircraft with an AC electrical system fed by two engine driven generators when one generator has a complete failure. Which of the following is correct with regards to the subsequent power distribution?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In an AC electrical system with a split-bus design, the load from the failed generator is automatically taken over by the remaining generator through the automatic AC bus-transfer function.
+          wrongAnswers:
+            - text: In an AC electrical system with a parallel bus design, the load from the failed generator is directly taken over by the aircraft's battery providing DC electrical power to the bus.
+            - text: In an AC electrical system with a split-bus design, there is no need to transfer the busses to a different source, and they will all continue to run normally, but load shedding may be required due to the lower capacity of the single generator.
+            - text: In an AC electrical system with a parallel bus design, the load from the failed generator is automatically taken over by the remaining generator through the automatic AC bus-transfer function.
+    - type: simple
+      question: You are flying a twin-engined aircraft with an AC electrivcal power system with two generators. Which of the statements concerning a single generator failure is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: With a split bus design the load from the failed generator is directly taken over by the remaining generator through the automatic AC bus transfer.
+          wrongAnswers:
+            - text: With a parallel bus design the AC electrical busses which were primarily connected to the failed generator will lose electrical power.
+            - text: With a parallel bus design the remaining generator must be manually connected to the failed AC electrical bus.
+            - text: With a split bus design the load from the failed generator is directly taken over by the aircraft battery.
+- id: QOKLA
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217517
+    - AVEXAM-65309
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.03.01
+  templates:
+    - type: simple
+      question: An aircraft has 4 engine driven generators and a split bus AC distribution system. Which of the following statements is true if no failures occur in flight.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Each generator is connected to its own dedicated AC bus bar.
+          wrongAnswers:
+            - text: Each pair of generators is connected to a common AC bus.
+            - text: The AC buses are connected with bus-tie breakers.
+            - text: All 4 generators are connected to a common AC bus.
+- id: QMUTD
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218508
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.03.03
+  templates:
+    - type: simple
+      question: "Display of a large aircraft is normally powered by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 400 HZ AC
+          wrongAnswers:
+            - text: AC 28V
+            - text: DC
+            - text: DC 115V
+- id: QNETM
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216705
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.03.04
+  templates:
+    - type: simple
+      question: When the AC generators are connected in parallel, the reactive loads are balanced by means of the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: excitation current.
+          wrongAnswers:
+            - text: load controller.
+            - text: frequency controller.
+            - text: engine RPM.
+- id: QQFQN
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217321
+    - BGS-210431
+    - AVEXAM-98360
+    - AVEXAM-26574
+    - AVEXAM-42338
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.03.04
+  templates:
+    - type: simple
+      question: "AC generators operated in parallel must have the same:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: voltage and phase.
+          wrongAnswers:
+            - text: frequency and amperage.
+            - text: amperage and kVAR.
+            - text: voltage and amperage.
+- id: QROGR
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214779
+    - AVEXAM-69272
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.03.05
+  templates:
+    - type: simple
+      question: "The measured output power components of a constant frequency AC system are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: kVA and kVAR.
+          wrongAnswers:
+            - text: volts and amperes.
+            - text: volts and kilowatts.
+            - text: amperes and kilowatts.
+- id: QLMGR
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219540
+    - AVEXAM-98622
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.04.01
+  templates:
+    - type: simple
+      question: The pilot detects a low oil pressure in the Integrated Drive Generator (IDG). The pilot…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Must operate IDG disconnect switch.
+          wrongAnswers:
+            - text: Must reduce thrust on the associated engine and wait for the oil pressure to rise again.
+            - text: Must pull the corresponding circuit breaker (CB).
+            - text: Must use the generator control switch.
+- id: QQVKH
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217459
+    - AVEXAM-4764
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.04.01
+  templates:
+    - type: multiple-correct
+      question: "As regards the Generator Control Unit (GCU) of an AC generator, it can be said that:"
+      explanation: ""
+      options:
+        - text: the GCU controls the AC generator voltage.
+          correct: false
+        - text: modern GCUs are provided with a permanent indication to record the failure.
+          correct: true
+        - text: all the commands originating from the control panel are applied via the GCU, except dog clutch release.
+          correct: true
+        - text: the Auxiliary Power Unit (APU) provides the excitation of the AC generator as soon as the APU starts up.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QONTA
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213997
+    - AVEXAM-79207
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.04.02
+  templates:
+    - type: simple
+      question: On an aircraft with two main generators, if one generator fails...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the busbar is switched to an alternate power source so that its electrical components will be supplied with power.
+          wrongAnswers:
+            - text: the busbar will be switched to another busbar.
+            - text: the components fed by that busbar will lose power and become unusable.
+            - text: the busbar is isolated completely, but its output components are switched to another busbar.
+- id: QTOIY
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214444
+    - AVEXAM-23078
+    - BGS-211813
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.04.02
+  templates:
+    - type: simple
+      question: When climbing out at a low altitude in an aircraft fitted with an Split Bus Bar System, the Voltage reading from GEN 1 (IDG) suddenly spikes up to 1000V which engages a caution announciator. What is the pilot’s immediate action?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Nothing, the system is protected by circuit breakers and a GCU which does not need pilot input.
+          wrongAnswers:
+            - text: Disconnect the generator by deactivating the Exciter Control Relay Field and switching to Emergency Power by turning on the APU.
+            - text: Observe the additional engine parameters and get the appropriate checklist.
+            - text: Restart the malfunctioning IDG by disconnecting and reconnecting it to the Split Bus Bar system.
+- id: QRDMP
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211864
+    - AVEXAM-72286
+    - BGS-210373
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.04.03
+  templates:
+    - type: simple
+      question: "When carrying out a battery condition check using the aircraft's voltmeter:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a load should be applied to the battery in order to give a better indication of condition.
+          wrongAnswers:
+            - text: the battery should be isolated.
+            - text: no load should be applied to the battery because it would reduce the voltage.
+            - text: the load condition is unimportant.
+- id: QZDHG
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213094
+    - BGS-210372
+    - AVEXAM-84733
+    - AVEXAM-11663
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.04.03
+  templates:
+    - type: simple
+      question: "The test to assess the state of charge of a lead-acid battery is to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: compare the “on-load” and “off-load” battery voltages.
+          wrongAnswers:
+            - text: check the discharge current of the battery “on-load”
+            - text: check the level of the electrolyte.
+            - text: check the battery voltage “off-load”
+    - type: simple
+      question: Which method is commonly used to check the capacity of a lead-acid battery?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Current with an off-load.
+          wrongAnswers:
+            - text: Checking the electrolyte level.
+            - text: Current with an on-load.
+            - text: Current with an off and on load.
+    - type: simple
+      question: How is the capacity of a lead-acid battery measured?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: By comparing the "off load" voltage to the "on load" voltage.
+          wrongAnswers:
+            - text: By measuring the volume of fluid in the cells.
+            - text: By measuring the "off load" voltage.
+            - text: By testing the current in an "on-load" state.
+- id: QMFWG
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216551
+    - BGS-212125
+    - AVEXAM-43935
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.04.04.05
+  templates:
+    - type: simple
+      question: When the battery ammeter shows "+24" the battery..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is being charged with 24 A.
+          wrongAnswers:
+            - text: is being discharged with 24 A.
+            - text: has a remaining capacity of 24 AH (Ampere hours).
+            - text: is fully charged to 24 V.
+- id: QHRFD
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213119
+    - AVEXAM-32990
+    - BGS-211899
+    - AVEXAM-13102
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.05.01.02
+  templates:
+    - type: simple
+      question: What is a combination of an AC electric motor and a generator called?
+      explanation: Because a generator and an electric motor are built in a similar way, they can be combined in one unit, the starter generator. It acts as a motor to start the engine and then as a generator.
+      presets:
+        - correctAnswers:
+            - text: A starter generator.
+          wrongAnswers:
+            - text: A permanent magnet generator.
+            - text: An Auxiliary Power Unit (APU).
+            - text: A rotary inverter.
+- id: QBTKF
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214518
+    - AVEXAM-68483
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.05.01.03
+  templates:
+    - type: simple
+      question: How can a modern jet aircraft, in very rare cases, start an engine, if neither an APU nor a GPU is available?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Small engines started by the battery.
+          wrongAnswers:
+            - text: Large engines started by the battery.
+            - text: Large engines started by the ram air turbine (RAT).
+            - text: Small engines started by the ram air turbine (RAT).
+- id: QRNMW
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216123
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.05.01.03
+  templates:
+    - type: simple
+      question: On modern jet aeroplanes, (1)\_\_\_\_\_ engines can be started using the (2)\_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) small; (2) battery
+          wrongAnswers:
+            - text: (1) small; (2) RAT
+            - text: (1) large; (2) battery
+            - text: (1) large; (2) RAT
+- id: QHTXN
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213780
+    - AVEXAM-22775
+    - BGS-211947
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.05.02.01
+  templates:
+    - type: one-two
+      question: Which of the following statements is correct or incorrect related to an electric motor?
+      explanation: ""
+      pairs:
+        - right: []
+          wrong:
+            - Mechanical torque (T) is directly proportional to the voltage (E) x current (I) and is inversely proportional to the strength of the generated magnetic field.
+        - right: []
+          wrong:
+            - Mechanical torque (T) is directly proportional to the voltage (E) divided by the current (I) and is directly proportional to the strength of the generated magnetic field.
+- id: QKLUD
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211385
+    - AVEXAM-45712
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.05.02.01
+  templates:
+    - type: one-two
+      question: Which of the following statements is correct?
+      explanation: ""
+      pairs:
+        - right:
+            - By increasing the load on an electric motor (i.e. increasing the resistance against rotation), the power output will increase as a result of an increased current flow.
+          wrong: []
+        - right:
+            - The torque of an electrical motor can be calculated by dividing the power by the motor RPM.
+          wrong: []
+- id: QTTQW
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211462
+    - AVEXAM-34873
+    - BGS-211997
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.05.02.01
+  templates:
+    - type: simple
+      question: A DC electric motor slows down due to an increased load. The armature current will (1) \_\_\_\_\_ and the torque will (2)\_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) increase, (2) increase.
+          wrongAnswers:
+            - text: (1) decrease, (2) increase.
+            - text: (1) decrease, (2) decrease.
+            - text: (1) increase, (2) decrease.
+- id: QICAO
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211967
+    - BGS-211840
+    - AVEXAM-60309
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.05.02.02
+  templates:
+    - type: simple
+      question: Electric motors on aircraft can be..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: AC 400 Hz.
+          wrongAnswers:
+            - text: DC 115 Hz.
+            - text: DC 60 Hz.
+            - text: AC 0 Hz.
+- id: QBLCU
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214811
+    - AVEXAM-52302
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.05.02.03
+  templates:
+    - type: simple
+      question: What occurs during a DC generator's armature runaway?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Current decreases in the armature, and because it also decreases in the commutator, torque is reduced.
+          wrongAnswers:
+            - text: Current decreases in the armature, but because it increases in the commutator, torque remains constant.
+            - text: Current increases in the armature, and since it also increases in the commutator, torque increases.
+            - text: Current increases in the armature, but because it reduces in the commutator, torque is constant.
+- id: QFSXH
+  subjectId: "021"
+  chapterId: "021.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217130
+    - AVEXAM-97594
+    - BGS-211988
+  annexes: []
+  learningObjectiveIds:
+    - 021.09.05.02.03
+  templates:
+    - type: simple
+      question: In a DC electric motor with stator and rotor coils in series, an armature runaway will cause the current in the armature to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: decrease, and because the current in the stator coil also decreases, the torque will decrease.
+          wrongAnswers:
+            - text: decrease, but because the current in the stator coil increases, the torque will stay the same.
+            - text: increase, but because the current in the stator coil decreases, the torque will stay the same.
+            - text: increase, and because the current in the stator coil also increases, the torque will increase.

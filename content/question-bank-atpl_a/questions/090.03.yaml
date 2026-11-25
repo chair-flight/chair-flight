@@ -1,0 +1,695 @@
+- id: QCSRP
+  subjectId: "090"
+  chapterId: "090.03"
+  relatedQuestionIds:
+    - QEXHB
+  externalQuestionIds:
+    - ATPLQ-913491
+    - AVEXAM-63848
+    - AVEXAM-7142
+    - ATPLQ-916151
+    - BGS-910094
+  annexes: []
+  learningObjectiveIds:
+    - 090.03.01.01.01
+  templates:
+    - type: simple
+      question: In aerodrome weather reports, the term "CAVOK" indicates that the visibility is or greater than…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: visibility 10 km or more, no significant clouds below 5 000 feet/GND, no weather of significance
+          wrongAnswers:
+            - text: visibility 10 km or more, no significant clouds below 1 500 feet/GND, no weather of significance
+            - text: visibility more than 5 000 m, no significant clouds below 1 500 m/GND, no weather of significance
+            - text: visibility more than 8 km, no significant clouds below 3 000 feet/GND, no weather of significance
+    - type: simple
+      question: When the term "CAVOK" is used in an aviation routine weather report (METAR), what are the values of visibility and cloud?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Visibility 10 km or more, no cloud below 5000 feet.
+          wrongAnswers:
+            - text: Visibility 10 km or more, no cloud below 1500 feet.
+            - text: Visibility more than 5000 m, no cloud below 1500 feet.
+            - text: Visibility more than 8 km, no cloud below 3000 feet.
+- id: QEXHB
+  subjectId: "090"
+  chapterId: "090.03"
+  relatedQuestionIds:
+    - QCSRP
+    - QXXCU
+  externalQuestionIds:
+    - ATPLQ-916033
+    - BGS-910180
+    - ATPLQ-914522
+    - AVEXAM-69907
+  annexes: []
+  learningObjectiveIds:
+    - 090.03.01.01.01
+  templates:
+    - type: definition
+      question: What is the definition of {term}?
+      explanation: ""
+      options:
+        - id: OPTVZFOOE
+          term: CAVOK
+          definition: Visibility is 10 000 m or more, no significant cloud below 1500 m, no significant weather.
+        - id: O07I4MTRV
+          term: distress
+          definition: A condition of being threatened by serious and/or imminent danger and requiring immediate assistance.
+      fakeOptions:
+        - id: F0JV0TXYH0
+          definition: Visibility is 5000 m or more, no significant cloud below 1500 m, no significant weather.
+        - id: F0JV0TXYH1
+          definition: Visibility is 5000 m or more, no significant cloud below 10,000 m, no significant weather.
+        - id: F0JV0TXYH2
+          definition: Visibility is 10 000 m or more, no significant cloud below 5000 m, no significant weather.
+        - id: F0JV0TXYH3
+          definition: A condition concerning the attitude of an aircraft when intercepting the localizer during an ILS approach.
+        - id: F0JV0TXYH4
+          definition: A condition concerning the safety of a person on board of an aircraft, or within sight, and requiring immediate assistance.
+        - id: F0JV0TXYH5
+          definition: A condition concerning the safety of an aircraft or of a person on board, but which does not require immediate assistance.
+- id: QMWGJ
+  subjectId: "090"
+  chapterId: "090.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-919619
+    - AVEXAM-65421
+    - BGS-900408
+    - ATPLQ-915778
+  annexes: []
+  learningObjectiveIds:
+    - 090.03.01.01.01
+  templates:
+    - type: simple
+      question: The aerodrome weather report includes data on the cloud ceiling (e.g. BKN040). The reference for this vertical distance is…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Aerodrome Elevation
+          wrongAnswers:
+            - text: Surface
+            - text: WGS 84
+            - text: Mean Sea Level
+    - type: simple
+      question: In aerodrome meteorological reports, cloud base information (e.g. SCT040) is measured above….
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: aerodrome elevation.
+          wrongAnswers:
+            - text: the radio altimeter datum.
+            - text: the GPS WGS-84 geoid.
+            - text: mean sea level.
+- id: QDIFF
+  subjectId: "090"
+  chapterId: "090.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-902289
+    - AVEXAM-30118
+  annexes: []
+  learningObjectiveIds:
+    - 090.03.01.01.01
+  templates:
+    - type: simple
+      question: The METAR of Miami International Airport (MIA) provides the local pressure in inches of mercury (in.Hg) as 28.95. How should the pilot decode the given altimeter setting?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 28.95 in.Hg
+          wrongAnswers:
+            - text: 980.6 hPa
+            - text: 0.9806 bar
+            - text: 75.63 kPa
+    - type: simple
+      question: The METAR of Miami International Airport (MIA) provides the local pressure in inches of mercury (in.Hg) as 28.95. What is the meaning of this altimeter setting value?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 28.95 in.Hg
+          wrongAnswers:
+            - text: 980.9 hPa
+            - text: 75.63 kPa
+            - text: 0.9806 bar
+- id: QJPJK
+  subjectId: "090"
+  chapterId: "090.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-911078
+    - BGS-900386
+    - AVEXAM-23481
+    - ATPLQ-904562
+    - AVEXAM-50350
+    - ATPLQ-902026
+  annexes: []
+  learningObjectiveIds:
+    - 090.03.01.01.01
+  templates:
+    - type: simple
+      question: The following is a METAR:EGLL080120Z 21010KT 9999 SCT030 07/04 Q1023 NOSIG=The wind is reported as..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: wind direction 210 degrees true and speed of 10 knots.
+          wrongAnswers:
+            - text: "wind direction 210 degrees magnetic and speed of 10 statute miles per hour.  "
+            - text: wind direction 210 degrees true and speed of 10 statute miles per hour.
+            - text: wind direction 210 degrees magnetic and speed of 10 knots.
+    - type: simple
+      question: What is the wind reported in this METAR LPPT 150505Z 21010KT 9999 BKN016 M09/M16 Q1006 NOSIG=?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 210º true heading at 10 kt
+          wrongAnswers:
+            - text: 210º magnetic heading at 010 kt
+            - text: 210º true heading at 010 kt
+            - text: 210º magnetic heading at 10 kt
+    - type: simple
+      question: |-
+        Refer to the following METAR: 
+         LFPG 161250Z 27015KT 9999 SCT016 OVC024 M09/M12 Q1006 NOSIGWhat is correct about the wind?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 270°(T) / 15 kt
+          wrongAnswers:
+            - text: 270°(M) / 15 km/h
+            - text: 270°(T) / 15 km/h
+            - text: 270°(M) / 15 kt
+- id: QOQLI
+  subjectId: "090"
+  chapterId: "090.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-905040
+    - AVEXAM-46150
+    - BGS-900451
+  annexes: []
+  learningObjectiveIds:
+    - 090.03.01.01.01
+  templates:
+    - type: simple
+      question: |-
+        The pilot of an aircraft approaching UUDY asks ATC for the latest RVR. Based on the current METAR, what is the controller’s response?  
+        UUDY 291200Z 14006G11MPS 0600 R14/1400U FG SCT010 OVC020 03/M04 Q1003.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: RVR runway one four 1400 meter upward tendency
+          wrongAnswers:
+            - text: RVR runway one four 1400 meter downward tendency
+            - text: RVR runway one four 1400 meter will rise during next 2 hours
+            - text: RVR runway one four 1400 meter unchanged
+- id: QOWXJ
+  subjectId: "090"
+  chapterId: "090.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-917349
+    - AVEXAM-43030
+  annexes: []
+  learningObjectiveIds:
+    - 090.03.01.01.01
+  templates:
+    - type: simple
+      question: After requesting departure information on an airport where no ATIS is provided, the following information is transmitted:FASTAIR 345, DEPARTURE RUNWAY 32, WIND 290 DEGREES 4 KNOTS, QNH 1022, TEMPERATURE 10, DEWPOINT 5, RVR 550 METRES, TIME 27. What is the unit used to report the air temperature in this meteorological report?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Degrees Celsius (° C)
+          wrongAnswers:
+            - text: "Degrees Fahrenheit (° F)  "
+            - text: Total Air Temperature (TAT) units
+            - text: Degrees Kelvin (K)
+- id: QUYJJ
+  subjectId: "090"
+  chapterId: "090.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-928173
+    - BGS-920180
+    - BGS-900247
+    - BGS-920147
+  annexes: []
+  learningObjectiveIds:
+    - 090.03.01.01.01
+  templates:
+    - type: simple
+      question: Which of the following is correct concerning a METAR?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Wind direction is reported in degrees true.
+          wrongAnswers:
+            - text: The reported visibility is the minimum observed around the horizon.
+            - text: Observations are made at intervals of 20 minutes.
+            - text: The only cloud type required to be reported is cumulonimbus.
+- id: QYHIF
+  subjectId: "090"
+  chapterId: "090.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-912411
+    - AVEXAM-30143
+    - BGS-920165
+  annexes: []
+  learningObjectiveIds:
+    - 090.03.01.01.01
+  templates:
+    - type: simple
+      question: LSGG 241420Z 21001KT 2200 SN FEW003 BKN010 01/00 Q1020 BLSN Which of the following statements is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Visibility 2200 meters, QNH 1020, blowing snow.
+          wrongAnswers:
+            - text: Visibility 2200 meters, broken 10000 FT, QFE 1020.
+            - text: Wind direction 210 degrees magnetic and speed of 10 knots, QFE 1020.
+            - text: Wind direction 210 degrees true and speed of 10 knots, QNH 1020.
+    - type: simple
+      question: Given the following METAR select the correct statement:21010KT 2200 SCT015CB BKN025 QNH1020 BLSN
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Visibility 2200m, QNH1020, blowing snow.
+          wrongAnswers:
+            - text: Wind in direction 210 at 10 kts, visibility 2200m, QNH1020.
+            - text: Cloud 5 to 7 oktas CB's at 1500ft, QNH 1020.
+            - text: Visibility 2200m, QNH1020, patches light snow.
+- id: QMNXT
+  subjectId: "090"
+  chapterId: "090.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-925632
+    - ATPLQ-913933
+    - BGS-910099
+    - AVEXAM-60899
+    - BGS-910097
+    - AVEXAM-10282
+    - ATPLQ-917947
+    - ATPLQ-917999
+    - AVEXAM-83668
+    - AVEXAM-92425
+    - ATPLQ-929469
+    - ATPLQ-909495
+    - AVEXAM-88469
+    - AVEXAM-21171
+    - ATPLQ-902278
+    - AVEXAM-28159
+    - ATPLQ-907853
+    - AVEXAM-62454
+    - ATPLQ-902080
+    - ATPLQ-902818
+    - AVEXAM-65584
+    - AVEXAM-18423
+    - AVEXAM-38608
+  annexes: []
+  learningObjectiveIds:
+    - 090.03.01.02.01
+  templates:
+    - type: simple
+      question: Aircraft in flight may receive weather information from several sources. Which of the following is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VOLMET broadcasts recent METAR and SPECI reports for a group of aerodromes.
+          wrongAnswers:
+            - text: An ATS unit cannot provide aerodrome forecasts as part of a Flight Information Service.
+            - text: ATIS broadcasts the TAF and METAR for the aerodrome which transmits it.
+            - text: Any thunderstorms seen by another aircraft in flight will be subject to a special report.
+    - type: simple
+      question: Which information can aircraft in flight obtain by VOLMET?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Aviation routine weather reports (METAR) of specific airports.
+          wrongAnswers:
+            - text: SIGMET.
+            - text: SPECIAL and TAF.
+            - text: Runway reports.
+    - type: simple
+      question: How can aviation routine weather reports (METAR) of specific airports be obtained by aircraft in flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VOLMET
+          wrongAnswers:
+            - text: AFIS
+            - text: ATIS
+            - text: SIGMET
+    - type: simple
+      question: An aircraft is 300 NM from its destination and the pilot is concerned about possible low cloud formation affecting the approach. How should he/she be able to obtain the most accurate forecast now, for an arrival in one hour?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Listen to the report transmitted on the VOLMET broadcast.
+          wrongAnswers:
+            - text: Rely on TAF issued 5 hours ago for the aerodrome.
+            - text: Ask the flight information service to check if the TAF has been amended.
+            - text: Call on the aerodrome ATIS frequency to request a forecast on hand.
+        - correctAnswers:
+            - text: "Listen to the reports transmitted on the VOLMET broadcast. "
+          wrongAnswers:
+            - text: "Ask Flight Information Service to check if the TAF has been amended. "
+            - text: Call on the aerodrome ATIS frequency to request a landing forecast.
+            - text: Rely on the TAF issued 5 hours ago for the aerodrome.
+    - type: simple
+      question: You are en-route to a destination which is still about 500 NM away. As you suspect a significant change in weather might have occurred, you wish to obtain the latest meteorological data. What is the best option to check the latest weather?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: HF VOLMET
+          wrongAnswers:
+            - text: UHF voice communication
+            - text: ATIS by SELCAL
+            - text: VHF ATIS
+    - type: simple
+      question: An aircraft's crew decide to divert following an engine failure. They are currently flying over several adequate airports and need to select a diversion option. What would be the quickest way to obtain weather information for all these airports?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Use D-VOLMET to obtain weather information.
+          wrongAnswers:
+            - text: Use ATIS via the designated frequencies of the relevant airports.
+            - text: Obtain information from the Air Traffic Services Unit (ATSU).
+            - text: Contact each airport's control tower directly.
+    - type: simple
+      question: The crew of an aircraft experiences an engine failure and decides to divert. They are currently flying over several suitable airports and need to choose a diversion option. What is the fastest way to obtain weather information for all of these airports?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Use D-VOLMET to obtain weather information.
+          wrongAnswers:
+            - text: Use ATIS via the designated frequencies of the relevant airports.
+            - text: Contact each airport's control tower directly.
+            - text: Obtain information from the Air Traffic Services Unit (ATSU).
+    - type: simple
+      question: If during flight you have only VHF radio equipment, what frequency could be used to receive VOLMET information?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 126.25 MHz
+          wrongAnswers:
+            - text: 576 kHz
+            - text: 12 820 kHz
+            - text: 106.96 MHz
+        - correctAnswers:
+            - text: 126.6 MHz
+          wrongAnswers:
+            - text: 12 820 kHz
+            - text: 576 kHz
+            - text: 106.96 MHz
+    - type: simple
+      question: When you are flying and you have only VHF radio equipment, what frequency will you use to receive VOLMET information?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 120.8 MHz.
+          wrongAnswers:
+            - text: 5505 kHz.
+            - text: 112.8 MHz.
+            - text: 6676 kHz.
+    - type: simple
+      question: Which of the following frequencies could be used for receiving VOLMET information with VHF radio equipment?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 120.8 MHz.
+          wrongAnswers:
+            - text: 6 676 kHz.
+            - text: 112.8 MHz.
+            - text: 5 505 kHz.
+    - type: simple
+      question: To receive VOLMET broadcasts via VHF while cruising, which frequency should be selected on the VHF radio?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 126.600 MHz
+          wrongAnswers:
+            - text: 1 256 kHz
+            - text: 109.600 MHz
+            - text: 4 352 kHz
+- id: QDAJM
+  subjectId: "090"
+  chapterId: "090.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-926888
+    - AVEXAM-16475
+    - BGS-920007
+    - BGS-910144
+    - AVEXAM-36969
+  annexes: []
+  learningObjectiveIds:
+    - 090.03.01.02.02
+  templates:
+    - type: simple
+      question: What does the abbreviation "ATIS" mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Automatic terminal information service.
+          wrongAnswers:
+            - text: Air traffic information service.
+            - text: Automatic terminal information system.
+            - text: Air traffic information system.
+- id: QGCBM
+  subjectId: "090"
+  chapterId: "090.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-908472
+    - AVEXAM-20298
+    - AVEXAM-77177
+    - BGS-900211
+    - ATPLQ-908050
+    - AVEXAM-33261
+    - ATPLQ-907594
+    - BGS-900157
+    - ATPLQ-904312
+  annexes: []
+  learningObjectiveIds:
+    - 090.03.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        An aircraft is approaching Otopeni, the destination aerodrome, and has received the following ATIS broadcast. What is the runway in use for arrivals and on which frequency will you contact approach?
+
+        ‘’OTOPENI INFORMATION OSCAR.   
+         TIME 12:50   
+         EXPECT AN ILS APPROACH.   
+         ARRIVALS RUNWAY 08 RIGHT. DEPARTURES RUNWAY 08 LEFT   
+         TRANSITION ALTITUDE 4000 FT.   
+         WORK IN PROGRESS ON APRON TWO.   
+         SURFACE WIND 250, 14 KNOTS.   
+         VISIBILITY 10 KILOMETRES OR MORE.   
+         SCATTERED 2400 FEET, BROKEN 4600 FEET.   
+         CUMULONIMBUS DETECTED.   
+         TEMPERATURE +19, DEW POINT +4\.   
+         QNH 1007   
+         NO SIGNIFICANT CHANGE   
+         ACKNOWLEDGE RECEIPT OF INFORMATION OSCAR WITH APP ON 119.415\.   
+         DEPARTURE WITH DELIVERY ON 121.955.‘’
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: RWY 08R, frequency 119.415
+          wrongAnswers:
+            - text: RWY 08R, frequency 121.955
+            - text: RWY 08L, frequency 119.415
+            - text: RWY 08L, frequency 121.955
+        - correctAnswers:
+            - text: WORK IN PROGRESS ON APRON TWO.
+          wrongAnswers:
+            - text: ACKNOWLEDGE RECEIPT OF INFORMATION OSCAR WITH APP ON 121.955.
+            - text: WORK IN PROGRESS ON RWY TWO.
+            - text: ARRIVALS RUNWAY 08 LEFT. DEPARTURES RUNWAY 08 RIGHT.
+        - correctAnswers:
+            - text: RWY 08L, frequency 121.955
+          wrongAnswers:
+            - text: RWY 08R, frequency 121.955
+            - text: RWY 08R, frequency 119.415
+            - text: RWY 08L, frequency 119.415
+        - correctAnswers:
+            - text: Approach, 119.415
+          wrongAnswers:
+            - text: Departure, 121.955
+            - text: Approach, 121.955
+            - text: Departure, 119.415
+- id: QAFMO
+  subjectId: "090"
+  chapterId: "090.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-901383
+    - AVEXAM-49281
+    - BGS-900246
+  annexes: []
+  learningObjectiveIds:
+    - 090.03.01.02.03
+  templates:
+    - type: simple
+      question: When approaching the destination airfield, the pilot is listening to the broadcast ATIS message. Regarding clouds, assuming there are no CBs reported, what will this ATIS message report?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Clouds below 1500 m (5000 ft) or below the highest minimum sector altitude, whichever is greater.
+          wrongAnswers:
+            - text: Information about all clouds in the TMA concerned.
+            - text: Only clouds below 1500 m (5000 ft).
+            - text: All clouds at all altitudes in the vicinity of the destination airfield, and in areas where approach procedures are defined.
+- id: QEHIK
+  subjectId: "090"
+  chapterId: "090.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-919949
+    - AVEXAM-83347
+    - BGS-920215
+  annexes: []
+  learningObjectiveIds:
+    - 090.03.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        A pilot has just noted the latest ATIS for the destination aerodrome on the 20th day of the month.
+
+        "Dusseldorf Information Bravo, MET report time one zero two zero, expect ILS approach, runway in use two three left and two three right, new procedures for localiser critical areas apply, expect short time ILS interference, transition level six zero, wind three six zero degrees four knots, visibility one zero kilometres, present weather light rain, cloud few one thousand five hundred feet, scattered two thousand feet, broken four thousand feet, temperature one three, dew point one one, QNH one zero one four hecto-pascal, trend NOSIG, information Bravo out. "
+
+        From which of the following METARs has this ATIS message been created?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 201020Z 36004KT 9999 -RA FEW015 SCT020 BKN040 13/11 Q1014 NOSIG=
+          wrongAnswers:
+            - text: 201020Z 36004KT 9999 RA FEW015 SCT020 BKN040 13/11 Q1014=
+            - text: 201020Z T06036004KT 9999 -RA FEW015 SCT020 BKN040 13/11 Q1014=
+            - text: 201020Z 36004KT 1000 R23 -RA FEW015 SCT020 BKN040 13/11 Q1014 NOSIG=
+- id: QZJYH
+  subjectId: "090"
+  chapterId: "090.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-905874
+    - AVEXAM-30287
+  annexes: []
+  learningObjectiveIds:
+    - 090.03.01.02.03
+  templates:
+    - type: simple
+      question: The current wind at an aerodrome is measured as 00 kt from 000 Degrees. How should the wind be reported in the ATIS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Wind calm
+          wrongAnswers:
+            - text: NIL WIND
+            - text: Wind 000 Degrees 00 kt.
+            - text: Wind 000 Degrees, calm.
+    - type: simple
+      question: The wind at an aerodrome is currently measured as 000° at 0 kt. According to standard phraseology, how should this wind information be reported in the ATIS broadcast?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Wind calm
+          wrongAnswers:
+            - text: Wind 000 degrees, calm.
+            - text: NIL WIND
+            - text: Wind 000 degrees 00 kt.
+- id: QDJBU
+  subjectId: "090"
+  chapterId: "090.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-906392
+    - AVEXAM-2556
+  annexes: []
+  learningObjectiveIds:
+    - 090.03.01.02.04
+  templates:
+    - type: simple
+      question: |-
+        Bristol D-ATIS A, 1120 UTC. Arrival RWY 20R, departure RWY 02L. CAUTION: Work in Progress on apron area. QNH 1005 hPa. Acknowledge receipt information A on first contact with approach. Contact approach on frequency 122.525 and departure on frequency 118.3\. End of D-ATIS A.
+
+        What is the D-ATIS part referred to as “other essential operational information”?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: WORK IN PROGRESS ON APRON AREA.
+          wrongAnswers:
+            - text: APPROACH FREQUENCY 122.525.
+            - text: QNH 1005 hPa.
+            - text: DEPARTURE RWY 02L, ARRIVAL RWY 20R.
+- id: QKYUZ
+  subjectId: "090"
+  chapterId: "090.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-909754
+    - AVEXAM-89798
+    - BGS-900113
+    - BGS-900225
+    - ATPLQ-901070
+    - AVEXAM-66158
+    - ATPLQ-906927
+    - ATPLQ-907572
+    - AVEXAM-92151
+  annexes: []
+  learningObjectiveIds:
+    - 090.03.01.02.04
+  templates:
+    - type: simple
+      question: |-
+        What is the correct option about the following D-ATIS?   
+          
+         WSSS Dep ATIS F   
+         0130 METAR   
+         Exp ILS Apch segregated PARL Ops in use   
+         ARR RWY 02L DEP 02C   
+         Taxiing guidance lights on all taxiways are on for lighting inspection   
+         Junction of TWY EP and A3 including rapid exit TWY E3 Southbound CLSD due WIP   
+         Wind 010 04 KT GUST 23 WIND DIR 320 V 040   
+         10 KM FEW 1600 FT   
+         T 27 / DP 26 QNH 1012 NOSIG   
+         ARR to ACK INFO E with APP on 120.3 and DEP with DELIVERY on 121.65
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The ATIS is for an aerodrome with ICAO code WSSS; taxiway E3 southbound is closed; clouds reported are FEW at 1 600 ft.
+          wrongAnswers:
+            - text: Runway 02L is in use for departures; visibility is 10 km or more; wind direction is 010° and wind speed is 4 kt.
+            - text: ATIS message F is current; the temperature is 26° C; and no significant changes are expected regarding weather conditions in the next two hours.
+            - text: The ATIS is for departing and arriving traffic; Runway 02C is in use for departures; departures have to acknowledge they have received information F with Approach Control.
+        - correctAnswers:
+            - text: The ATIS message is based on the 0230Z METAR; some taxiways are closed due to work in progress.
+          wrongAnswers:
+            - text: A wind shear warning is in force for departure information F; wind direction is 010°, variable between 320° and 040°, and wind speed is 4 kt.
+            - text: Runway 02C is in use for departures; information F is available for all traffic on 121.65 MHz.
+            - text: Dew point is 26° C; information F is available for all traffic on 120.3 MHz.
+    - type: simple
+      question: What information is included in D-ATIS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It's the same as in ATIS.
+          wrongAnswers:
+            - text: There is additional information about Runway State in comparison to ATIS.
+            - text: There is no information about Runway State in comparison to ATIS.
+            - text: D-ATIS provides additional meteorological data compared to ATIS.
+    - type: simple
+      question: What details are contained within D-ATIS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It's the same as in ATIS.
+          wrongAnswers:
+            - text: There is no information about Runway State in comparison to ATIS.
+            - text: There is additional information about Runway State in comparison to ATIS.
+            - text: D-ATIS provides additional meteorological data compared to ATIS.

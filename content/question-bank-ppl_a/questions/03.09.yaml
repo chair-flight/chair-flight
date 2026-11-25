@@ -1,0 +1,264 @@
+- id: QEFIJ
+  subjectId: "03"
+  chapterId: "03.09"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.09.07.01"
+  templates:
+    - type: simple
+      question: What clouds and weather may result from an humid and instable air mass, that is pushed against a chain of mountains by the predominant wind and forced to rise?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Embedded CB with thunderstorms and showers of hail and/or rain.
+          wrongAnswers:
+            - text: Thin Altostratus and Cirrostratus clouds with light and steady precipitation.
+            - text: Overcast low stratus (high fog) with no precipitation.
+            - text: Smooth, unstructured NS cloud with light drizzle or snow (during winter).
+- id: QFASA
+  subjectId: "03"
+  chapterId: "03.09"
+  relatedQuestionIds:
+    - QOUQJ
+  annexes: []
+  learningObjectiveIds:
+    - "03.09.01.01"
+  templates:
+    - type: simple
+      question: Which of the following conditions are most favourable for ice accretion?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Temperatures between 0 °C and -12 °C, presence of supercooled water droplets (clouds)
+          wrongAnswers:
+            - text: Temperaturs below 0 °C, strong wind, sky clear of clouds
+            - text: Temperatures between +10 °C and -30 °C, presence of hail (clouds)
+            - text: Temperatures between -20 °C and -40 °C, presence of ice crystals (Ci clouds)
+    - type: simple
+      question: What temperatures are most dangerous with respect to airframe icing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 0° to -12 °C
+          wrongAnswers:
+            - text: +5° to -10 °C
+            - text: -20° to -40 °C
+            - text: +20° to -5 °C
+- id: QOUQJ
+  subjectId: "03"
+  chapterId: "03.09"
+  relatedQuestionIds:
+    - QFASA
+  annexes: []
+  learningObjectiveIds:
+    - "03.09.01.02"
+  templates:
+    - type: simple
+      question: Which type of ice forms by very small water droplets and ice crystals hitting the front surfaces of an aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Rime ice
+          wrongAnswers:
+            - text: Clear ice
+            - text: Mixed ice
+            - text: Hoar frost
+    - type: simple
+      question: Which type of ice forms by large, supercooled droplets hitting the front surfaces of an aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Clear ice
+          wrongAnswers:
+            - text: Hoar frost
+            - text: Rime ice
+            - text: Mixed ice
+- id: QGQRH
+  subjectId: "03"
+  chapterId: "03.09"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.09.03.02"
+  templates:
+    - type: simple
+      question: What situation may result in the occurrence of severe wind shear?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When a shower is visible close to the airfield
+          wrongAnswers:
+            - text: Flying ahead of a warm front with visible Ci clouds
+            - text: Cross-country flying below Cu clouds with about 4 octas coverage
+            - text: During final approach, 30 min after a heavy shower has passed the airfield
+- id: QKPSL
+  subjectId: "03"
+  chapterId: "03.09"
+  relatedQuestionIds:
+    - QIPHG
+    - QIXAX
+  annexes: []
+  learningObjectiveIds:
+    - "03.09.04.01"
+  templates:
+    - type: simple
+      question: What conditions are favourable for the formation of thunderstorms?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Warm humid air, conditionally unstable environmental lapse rate
+          wrongAnswers:
+            - text: Calm winds and cold air, overcast cloud cover with St or As.
+            - text: Clear night over land, cold air and patches of fog
+            - text: Warm and dry air, strong inversion layer
+    - type: simple
+      question: What conditions are mandatory for the formation of thermal thunderstorms?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Conditionally unstable atmosphere, high temperature and high humidity
+          wrongAnswers:
+            - text: Conditionally unstable atmosphere, low temperature and low humidity
+            - text: Absolutely stable atmosphere, high temperature and high humidity
+            - text: Absolutely stable atmosphere, high temperature and low humidity
+- id: QIPHG
+  subjectId: "03"
+  chapterId: "03.09"
+  relatedQuestionIds:
+    - QKPSL
+    - QIXAX
+  annexes: []
+  learningObjectiveIds:
+    - "03.09.04.02"
+  templates:
+    - type: simple
+      question: With regard to thunderstorms, strong up- and downdrafts appear during the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: mature stage.
+          wrongAnswers:
+            - text: initial stage.
+            - text: dissipating stage.
+            - text: thunderstorm stage.
+    - type: simple
+      question: Which stage of a thunderstorm is dominated by updrafts?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cumulus stage
+          wrongAnswers:
+            - text: Dissipating stage
+            - text: Upwind stage
+            - text: Mature stage
+- id: QLMHD
+  subjectId: "03"
+  chapterId: "03.09"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.09.04.02"
+  templates:
+    - type: simple
+      question: What danger is most immenent when an aircraft is hit by lightning?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Surface overheat and damage to exposed aircraft parts
+          wrongAnswers:
+            - text: Rapid cabin depressurization and smoke in the cabin
+            - text: Explosion of electrical equipment in the cockpit
+            - text: Disturbed radio communication, static noise signals
+- id: QRXAE
+  subjectId: "03"
+  chapterId: "03.09"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.09.05.01"
+  templates:
+    - type: simple
+      question: Heavy downdrafts and strong wind shear close to the ground can be expected...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: near the rainfall areas of heavy showers or thunderstorms.
+          wrongAnswers:
+            - text: during cold, clear nights with the formation of radiation fog.
+            - text: during approach to an airfield at the coast with a strong sea breeze.
+            - text: during warm summer days with high, flatted Cu clouds.
+- id: QIXAX
+  subjectId: "03"
+  chapterId: "03.09"
+  relatedQuestionIds:
+    - QKPSL
+    - QIPHG
+  annexes: []
+  learningObjectiveIds:
+    - "03.09.05.01"
+  templates:
+    - type: simple
+      question: What phenomenon is caused by cold air downdrafts with precipitation from a fully developed thunderstorm cloud?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Gust front
+          wrongAnswers:
+            - text: Electrical discharge
+            - text: Anvil-head top of Cb cloud
+            - text: Freezing Rain
+- id: QDVQW
+  subjectId: "03"
+  chapterId: "03.09"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.09.06.01"
+  templates:
+    - type: simple
+      question: What has to be considered when taking off in a ground inversion?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: During climb, a sudden decrease in speed and climb performance has to be expected
+          wrongAnswers:
+            - text: Climb should be performed with the lowest possible speed and maximum power
+            - text: Due to low temperatures close to the ground, icing has to be expected
+            - text: During the climb, a sudden increase in speed and climb performance has to be expected
+- id: QCPEA
+  subjectId: "03"
+  chapterId: "03.09"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.09.07.02"
+  templates:
+    - type: simple
+      question: What danger is most imminent during an approach to an airfield situated in a valley, with strong wind aloft blowing perpendicular to the mountain ridge?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Wind shear during descent, wind direction may change by 180°
+          wrongAnswers:
+            - text: Reduced visibilty, maybe loss of sight to the airfield during final approach
+            - text: Formation of medium to heavy clear ice on all aircraft surfaces
+            - text: Heavy downdrafts within rainfall areas below thunderstorm clouds
+- id: QOMUH
+  subjectId: "03"
+  chapterId: "03.09"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.09.08.02"
+  templates:
+    - type: simple
+      question: What kind of reduction in visibility is not very sensitive to changes in temperature?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Haze (HZ)
+          wrongAnswers:
+            - text: Patches of fog (BCFG)
+            - text: Radiation fog (FG)
+            - text: Mist (BR)

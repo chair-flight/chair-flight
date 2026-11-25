@@ -1,0 +1,300 @@
+- id: QADPQ
+  subjectId: "03"
+  chapterId: "03.06"
+  relatedQuestionIds:
+    - QMAHB
+    - QLXQW
+  annexes:
+    - id: AMUV
+  learningObjectiveIds:
+    - "03.06.02.01"
+  templates:
+    - type: simple
+      question: |-
+        What type of front is indicated by number {{marker}}?
+
+        ![Fronts around a low pressure system](annex:AMUV)
+      explanation: ""
+      presets:
+        - variables:
+            marker: "1"
+          correctAnswers:
+            - text: cold front.
+          wrongAnswers:
+            - text: front aloft.
+            - text: occlusion.
+            - text: warm front.
+        - variables:
+            marker: "2"
+          correctAnswers:
+            - text: warm front.
+          wrongAnswers:
+            - text: front aloft.
+            - text: cold front.
+            - text: occlusion.
+        - variables:
+            marker: "3"
+          correctAnswers:
+            - text: occlusion.
+          wrongAnswers:
+            - text: front aloft.
+            - text: warm front.
+            - text: cold front.
+- id: QRYTS
+  subjectId: "03"
+  chapterId: "03.06"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.06.01.01"
+  templates:
+    - type: simple
+      question: What are the air masses that Central Europe is mainly influenced by?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Polar cold air and tropical warm air
+          wrongAnswers:
+            - text: Arctic and polar cold air
+            - text: Equatorial and tropical warm air
+            - text: Tropical and arctic cold air
+- id: QQZAZ
+  subjectId: "03"
+  chapterId: "03.06"
+  relatedQuestionIds:
+    - QJGDN
+  annexes: []
+  learningObjectiveIds:
+    - "03.06.01.01"
+  templates:
+    - type: simple
+      question: How is an air mass described when moving to Central Europe via the Russian continent during winter?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Continental polar air
+          wrongAnswers:
+            - text: Maritime tropical air
+            - text: Continental tropical air
+            - text: Maritime polar air
+- id: QJGDN
+  subjectId: "03"
+  chapterId: "03.06"
+  relatedQuestionIds:
+    - QQZAZ
+  annexes: []
+  learningObjectiveIds:
+    - "03.06.01.01"
+  templates:
+    - type: simple
+      question: The character of an air mass is given by what properties?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Region of origin and track during movement
+          wrongAnswers:
+            - text: Temperatures at origin and present region
+            - text: Wind speed and tropopause height
+            - text: Environmental lapse rate at origin
+- id: QMAHB
+  subjectId: "03"
+  chapterId: "03.06"
+  relatedQuestionIds:
+    - QADPQ
+    - QLXQW
+  annexes: []
+  learningObjectiveIds:
+    - "03.06.02.02"
+  templates:
+    - type: simple
+      question: What cloud sequence can typically be observed during the passage of a warm front?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cirrus, thickening altostratus and altocumulus clouds, lowering cloud base with rain, nimbostratus
+          wrongAnswers:
+            - text: In coastal areas during daytime wind from the coast and forming of cumulus clouds, dissipation of clouds during evening and night
+            - text: Wind becoming calm, dissipation of clouds and warming during summer; formation of extended high fog layers during winter
+            - text: Squall line with showers of rain and thunderstorms (Cb), gusting wind followed by cumulus clouds with isolated showers of rain
+- id: QLXQW
+  subjectId: "03"
+  chapterId: "03.06"
+  relatedQuestionIds:
+    - QADPQ
+    - QMAHB
+  annexes: []
+  learningObjectiveIds:
+    - "03.06.02.03"
+  templates:
+    - type: simple
+      question: What clouds and weather can typically be observed during the passage of a cold front?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Strongly developed cumulus clouds (Cb) with showers of rain and thunderstorms, gusting wind followed by cumulus clouds with isolated showers of rain
+          wrongAnswers:
+            - text: In coastal areas during daytime wind from the coast and forming of cumulus clouds, dissipation of clouds during evening and night
+            - text: Cirrus, thickening altostratus and altocumulus clouds, lowering cloud base with rain, nimbostratus
+            - text: Wind becoming calm, dissipation of clouds and warming during summer; formation of extended high fog layers during winter
+- id: QJLLX
+  subjectId: "03"
+  chapterId: "03.06"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.06.02.04"
+  templates:
+    - type: simple
+      question: What visual flight conditions can be expected within the warm sector of a polar front low during summer time?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Moderate to good visibility, scattered clouds
+          wrongAnswers:
+            - text: Visibilty less than 1000 m, cloud-covered ground
+            - text: Good visibility, some isolated high clouds
+            - text: Moderate visibility, heavy showers and thunderstorms
+- id: QLGTM
+  subjectId: "03"
+  chapterId: "03.06"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.06.02.05"
+  templates:
+    - type: simple
+      question: What visual flight conditions can be expected after the passage of a cold front?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Good visibility, formation of cumulus clouds with showers of rain or snow
+          wrongAnswers:
+            - text: Scattered cloud layers, visbility more than 5 km, formation of shallow cumulus clouds
+            - text: Medium visibility with lowering cloud bases, onset of prolonged precipitation
+            - text: Poor visibility, formation of overcast or ground-covering stratus clouds, snow
+- id: QEAZG
+  subjectId: "03"
+  chapterId: "03.06"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.06.02.07"
+  templates:
+    - type: simple
+      question: A boundary between a cold polar air mass and a warm subtropical air mass showing no horizontal displacement is called...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: stationary front.
+          wrongAnswers:
+            - text: cold front.
+            - text: warm front.
+            - text: occluded front.
+- id: QRXDL
+  subjectId: "03"
+  chapterId: "03.06"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.06.02.08"
+  templates:
+    - type: simple
+      question: What is the usual direction of movement of a polar front low?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Parallel to the the warm-sector isobars
+          wrongAnswers:
+            - text: To the northwest during winter, to the southwest during summer
+            - text: To the northeast during winter, to the southeast during summer
+            - text: Parallel to the warm front line to the south
+- id: QEVXC
+  subjectId: "03"
+  chapterId: "03.06"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.06.02.09"
+  templates:
+    - type: simple
+      question: What pressure pattern can be observed during the passage of a polar front low?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Falling pressure in front of the warm front, constant pressure within the warm sector, rising pressure behind the cold front
+          wrongAnswers:
+            - text: Rising pressure in front of the warm front, constant pressure within the warm sector, rising pressure behind the cold front
+            - text: Falling pressure in front of the warm front, constant pressure within the warm sector, falling pressure behind the cold front
+            - text: Rising pressure in front of the warm front, rising pressure within the warm sector, falling pressure behind the cold front
+- id: QPZFY
+  subjectId: "03"
+  chapterId: "03.06"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.06.02.03"
+  templates:
+    - type: simple
+      question: What pressure pattern can be observed when a cold front is passing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Shortly decreasing, thereafter increasing pressure
+          wrongAnswers:
+            - text: Continually decreasing pressure
+            - text: Continually increasing pressure
+            - text: Constant pressure pattern
+- id: QWRIZ
+  subjectId: "03"
+  chapterId: "03.06"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.06.02.09"
+  templates:
+    - type: simple
+      question: What change of wind direction can be expected during the passage of a polar front low in Central Europe?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Veering wind during passage of the warm front, veering wind during passage of the cold front
+          wrongAnswers:
+            - text: Backing wind during passage of the warm front, veering wind during passage of the cold front
+            - text: Backing wind during passage of the warm front, backing wind during passage of the cold front
+            - text: Veering wind during passage of the warm front, backing wind during passage of the cold front
+- id: QAXEN
+  subjectId: "03"
+  chapterId: "03.06"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.06.02.01"
+  templates:
+    - type: simple
+      question: What frontal line divides subtropical air from polar cold air, in particular across Central Europe?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Polar front
+          wrongAnswers:
+            - text: Occlusion
+            - text: Cold front
+            - text: Warm front
+- id: QLGPM
+  subjectId: "03"
+  chapterId: "03.06"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.06.02.05"
+  templates:
+    - type: simple
+      question: Under which conditions "back side weather" ("Rückseitenwetter") can be expected?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: After passing of a cold front
+          wrongAnswers:
+            - text: before passing of an occlusion
+            - text: During Foehn at the lee side
+            - text: After passing of a warm front

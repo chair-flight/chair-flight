@@ -1,0 +1,576 @@
+- id: QGEDI
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The Cockpit Voice recorder retains the last ____ hour(s) of data.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 hours
+          wrongAnswers:
+            - text: 3 hours
+            - text: 4 hours
+            - text: 1 hour
+- id: QFIUH
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "When STBY NAV has been selected by the use of NAV key:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: NAV key has no effect on radio com frequency selection.
+          wrongAnswers:
+            - text: VHF function is lost on this ramp.
+            - text: VHF is still available but only the last frequency selected can be used.
+            - text: ---
+- id: QEANO
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: During EMER ELEC CONF which COM SYS is still working?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VHF 1 RMP 1 ACP 1&2
+          wrongAnswers:
+            - text: VHF 1&2 RMP 1&2 ACP 1&2
+            - text: VHF 1 RMP 1 ACP 1
+            - text: The communication is lost
+- id: QJLLV
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Can the crew switch to the third ACP if ACP 1 and 2 fail?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes
+          wrongAnswers:
+            - text: No
+            - text: ---
+            - text: ---
+- id: QGGNB
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If a microphone is in the emission position for more than ___________ , an interrupted tone sounds for 5  seconds, and the emission is turned off.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 30 or 60 seconds depending on configuration
+          wrongAnswers:
+            - text: 45 seconds
+            - text: 90 seconds
+            - text: 120 seconds
+- id: QKXXN
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: During cockpit preparation the CAPT and CAPT&PURS switch is normally in the CAPT position. What  happens in this configuration if one of the cabin EVAC CMD pb is pressed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The EVAC light within the COMMAND pb-sw flashes red and the cockpit horn sounds for 3 seconds
+          wrongAnswers:
+            - text: Nothing
+            - text: Only the EVAC horn sounds in cockpit and cabin
+            - text: The EVAC light flashes red and the EVAC horn sounds in the cabin and cockpit
+- id: QRLXH
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement about the communication system is true?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VHF has an alarm which indicates if the microphone is stuck
+          wrongAnswers:
+            - text: Four identical VHF communication systems are installed
+            - text: All systems have one common antenna on the fuselage
+            - text: Only VHF2 functions in EMER ELEC CONFIG
+- id: QHFEM
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Which statement is correct? The audio management system includes:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: An audio management unit (AMU)
+            - text: Three audio control panels (ACPs) (fourth and fifth optional)
+            - text: Sockets at each station
+- id: QKNRR
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "An EMER CALL from the flight deck will activate:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: 3 HI LO chimes in the cabin
+            - text: The red light flashes on all ACPs
+            - text: The EMERGENCY CALL message appears on all AIPs
+- id: QRZAH
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement is true about the NAV pushbutton on the Radio Management Panel (RMP)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It enables the pilots to select navigation receivers and courses through the RMP
+          wrongAnswers:
+            - text: It affects the selection of radio communication and their frequencies
+            - text: When pressed repeatedly, it enables the selection of the different radio navigation options
+            - text: Pressing this key will move the active VOR frequency to the standby window and the standby frequency to the  active window
+- id: QPXNT
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When is the cockpit buzzer combined with the interphone call from the cabin inhibited?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The buzzer is inhibited during take-off and landing
+          wrongAnswers:
+            - text: The buzzer is inhibited during take-off only
+            - text: The buzzer is inhibited during landing only
+            - text: The buzzer is inhibited when engines are running
+- id: QJAUU
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement about the cockpit voice recorder is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Only the last 2 hour recordings are retained
+          wrongAnswers:
+            - text: Only the last 1 hour recording is retained
+            - text: Only the last 30 minutes recording is retained
+            - text: Only the last 3 hour recordings are retained
+- id: QJHAR
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the procedure with a frozen RMP?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Reset RMP according QRH 80.18 (switch OFF the affected RMP for 5s, then switch it back on)
+          wrongAnswers:
+            - text: Reset RMP according QRH 80.18 (Pull the CB of affected RMP for 5s and then push it back in)
+            - text: There is no reset procedure
+            - text: Call the maintenance
+- id: QOJBK
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement about the use of the HF/VHF radio is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All statements are correct
+          wrongAnswers:
+            - text: Check HF transmission and reception during cockpit preparation if required for the flight
+            - text: Do not transmit on HF during refueling
+            - text: Check VHF transmission and reception during cockpit preparation
+- id: QGEQC
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The SEL indicator on both RMPs comes on amber when a transceiver, normally associated with one RMP, is  tuned by another:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VHF1, tuned by RMP2
+          wrongAnswers:
+            - text: VHF1, tuned by RMP1
+            - text: VHF2, tuned by RMP2
+            - text: VHF3, tuned by RMP3
+- id: QGMOU
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The CVR System is energized automatically:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: On ground during the first 5 minutes after the aircraft electrical network is energized
+            - text: On ground with one engine running
+            - text: In flight
+- id: QDFCL
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The ELT transmits on the following frequencies:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: 121.5 MHz
+            - text: 243 MHz
+            - text: 406.025 MHz
+- id: QTZDQ
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "According to normal procedures: What are the standard RMP settings?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "VHF 1: Active ATC, VHF 2: Inflight always 121.50 MHz"
+          wrongAnswers:
+            - text: "VHF 1: Active ATC, VHF 2: Company frequency"
+            - text: "VHF 1: 121.50 MHz, VHF 2: Active ATC"
+            - text: "VHF 1: Active ATC, VHF 2: 123.45 MHz"
+- id: QTGXN
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which radio communication equipment is still working after the completion of the emergency evacuation  checklist?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VHF1, RMP1, CAPT ACP, F/O ACP
+          wrongAnswers:
+            - text: VHF1 and 2, RMP 1 and 2, CAPT ACP, F/O ACP
+            - text: VHF1, RMP1, CAPT ACP only
+            - text: VHF1, RMP1, CAPT ACP, F/O ACP, third ACP
+- id: QJFPX
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What happens with the ATT light on the ACP after a call from the cabin, if it is not reset?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It stops flashing after 60 seconds
+          wrongAnswers:
+            - text: It flashes all the time
+            - text: It stops flashing after 10 seconds
+            - text: It comes on steady after 60 seconds together with the Master Caution light
+- id: QXNOL
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "CVR: The last _____ of recording are retained."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 hours
+          wrongAnswers:
+            - text: 30 minutes
+            - text: 60 minutes
+            - text: 24 hours
+- id: QMOMJ
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What would happen if your headset cable got stuck around the sidestick radio selector, thereby blocking  it in the radio position for a longer period of time?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: After 30 seconds an alarm will sound and the emission will be turned off. To reactivate the emission, you will  have to release and press the PTT button again
+          wrongAnswers:
+            - text: The system is of a fail safe type and will deactivate any transmission immediately for the remainder of the flight
+            - text: After 30 seconds an alarm will sound only as a reminder for the crew
+            - text: After 20 seconds an alarm will sound and the emission will be turned off
+- id: QWPNA
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What happens when the side stick radio selector is pressed/squeezed and the INT/RAD switch on the ACP  is on INT?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The radio function has priority over the interphone function
+          wrongAnswers:
+            - text: Both the radio and the interphone functions are operative
+            - text: The interphone function has priority over the radio function
+            - text: Only the ground crew will hear the transmission
+- id: QPFBK
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the purpose of the AUDIO SWITCHING rotary switch?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The crew can switch to the third ACP if ACP1 or ACP2 fails. On CAPT 3 position, the captain uses his acoustic  equipment and the third occupant's ACP
+          wrongAnswers:
+            - text: It enables the crew to change audio reception from headset to loud speaker and vice-versa
+            - text: It transfers the audio reception from the ACP 1 to the ACP 2 and vice-versa
+            - text: If ACP 1 or 2 fails, the crew can switch to the third ACP. On F/O 3 position, the copilot uses his acoustic  equipment and the RMP 3
+- id: QBHYV
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement is correct regarding the cockpit voice recorder?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It is automatically energized on the ground with one engine running or during the first 5 minutes after the  aircraft electrical network is energized
+          wrongAnswers:
+            - text: It is automatically energized when the battery pb's are selected
+            - text: It is always active after DC electrical power is applied to the aircraft
+            - text: It is automatically energized when the parking brake is set
+- id: QNMPH
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How do you erase the CVR?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Press the CVR ERASE pb for 2 seconds when the aircraft is on the ground with the parking brake on
+          wrongAnswers:
+            - text: Press the CVR ERASE pb three times shortly when the aircraft is on the ground with the parking brake on
+            - text: Press the CVR ERASE pb and CVR TEST pb for 2 seconds simultaneously
+            - text: Press the CVR ERASE pb and CVR TEST pb for 2 seconds simultaneously with the parking brake on
+- id: QTSOQ
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: On the ground, the CVR is stopped automatically _____ after the last engine shutdown.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 5 minutes
+          wrongAnswers:
+            - text: immediately
+            - text: 1 minute
+            - text: 3 minutes
+- id: QIZMM
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: In case of an Emergency Call from the cabin, what are the indications in the cockpit?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: "EMER pb-sw: the ON light flashes in white"
+            - text: CALL light flashes in amber
+            - text: Three Buzzers will sound consecutively (for approx. Three seconds each)
+- id: QPOMB
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: With the EMER EVAC COMMAND pb (on Overhead Panel) ON, what happens in the Cockpit?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The EVAC light in the pb-switch flashed red only
+          wrongAnswers:
+            - text: The EVAC light in the pb-switch flashes red and the cockpit horn sounds
+            - text: The EVAC light in the pb-switch is steady red and the cockpit horn sounds
+            - text: The EVAC light in the pb-switch is flashes amber and the cockpit horn sounds
+- id: QWVSA
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The cockpit voice recorder records announcements transmitted over the passenger address system, if  _______ is selected on the third audio control panel.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: PA reception
+          wrongAnswers:
+            - text: VHF 3 reception
+            - text: INT reception
+            - text: CAB reception
+- id: QGOEI
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The range of the VHF system is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: From 118.0 to 136.975 MHz
+          wrongAnswers:
+            - text: From 2.8 to 24 MHz
+            - text: From 24.0 to 136.975 MHz
+            - text: From 118.0 to 131.95 MHz
+- id: QMSBR
+  subjectId: a320
+  chapterId: "03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Upon receiving a call by the SELCAL system:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The system advises the flight crew aurally and visually. (The aural warning is inhibited during takeoff and  landing)
+          wrongAnswers:
+            - text: The system advises the flight crew aurally only
+            - text: The system advises the flight crew visually only
+            - text: Nothing happens, the system is deactivated on our aircraft

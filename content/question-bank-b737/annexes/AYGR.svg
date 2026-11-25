@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="961" viewBox="0 0 700 961" role="img" aria-labelledby="title desc" xml:lang="en-GB">
+<title id="title">737-800 DC Power System Schematic</title>
+<desc id="desc">In-flight DC power distribution, including the TR units, standby power control unit and battery buses.</desc>
+<metadata>Boeing 737-800 FCOM Rev 40, 6.20.10. Redrawn as SVG.</metadata>
+<defs>
+  <marker id="arrow" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="13" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto">
+    <path d="M0 0 12 5 0 10Z" fill="#ededed"/>
+  </marker>
+  <g id="contact"><circle r="3.5" fill="#080808" stroke="#ededed" stroke-width="2"/></g>
+  <g id="junction"><circle r="4.5" fill="#ededed"/></g>
+</defs>
+<style>
+  svg {background:#080808;color:#ededed}
+  text {font-family:Menlo,Consolas,"Liberation Mono",monospace}
+  .wire,.signal {fill:none;stroke:#ededed;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round}
+  .signal {stroke-dasharray:19 10 3 10}
+  .arr {marker-end:url(#arrow)}
+  .duct-edge,.duct {fill:none;stroke-linecap:butt;stroke-linejoin:round}
+  .duct-edge {stroke:#ededed;stroke-width:15}
+  .duct {stroke:#c41c1c;stroke-width:12}
+  .component {fill:#080808;stroke:#ededed;stroke-width:2.1}
+</style>
+<rect x="0" y="0" width="700" height="961" fill="#080808"/>
+<g fill="#ededed">
+<defs><pattern id="cells" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M1 0v5" stroke="#ededed" stroke-width="1.3"/></pattern></defs>
+<path class="wire" d="M68 115v32m0 21v56"/>
+<path class="wire" d="M621 115v32m0 21v56"/>
+<path class="wire" d="M181 115v107m281-107v107"/>
+<path class="wire" d="M181 190h180m20 0h81m-91 19v15"/>
+<path class="wire" d="M181 259v87m0-39h124m21 0h136m0-48v87"/>
+<path class="wire" d="M275 307v39m88-87v48m19-48v215"/>
+<path class="wire" d="M297 475v-42"/>
+<path class="wire" d="M315 81v221"/>
+<path class="wire" d="M315 566v41l-8 9"/>
+<path class="wire" d="M325 626v129m0-78h134m-134 32h134m-134 12h-42"/>
+<path class="wire" d="M592 570h44v204H469v-34"/>
+<path class="wire" d="M478 688h20V519h-85"/>
+<path class="wire" d="M478 718h33"/>
+<path class="wire" d="M71 658h88M98 658v30m0 20v36M71 744h254M124 744v40h23"/>
+<path class="wire" d="M42 257v377"/>
+<path class="wire" d="M653 257v571H43v-65"/>
+<path class="wire" d="M101 516H57v100h259"/>
+<path class="wire" d="M67 147v21m557-21-4 21m-240 22-9 19m-66 96h22m-219 383v21m226-102-9 19"/>
+<path class="wire" d="M459 677l22 8m-22 24 21 8"/>
+<path class="wire arr" d="M68 169v54"/>
+<path class="wire arr" d="M621 169v54"/>
+<path class="wire arr" d="M181 190v33"/>
+<path class="wire arr" d="M462 190v33"/>
+<path class="wire arr" d="M181 307v38"/>
+<path class="wire arr" d="M462 307v38"/>
+<path class="wire arr" d="M275 307v38"/>
+<path class="wire arr" d="M382 427v46"/>
+<path class="wire arr" d="M297 475v-42"/>
+<path class="wire arr" d="M315 581v-15"/>
+<path class="wire arr" d="M42 600v34"/>
+<path class="wire arr" d="M43 801v-38"/>
+<path class="wire arr" d="M315 264v37"/>
+<path class="wire arr" d="M297 616h20"/>
+<path class="wire arr" d="M436 519h-25"/>
+<path class="wire arr" d="M469 761v-40"/>
+<path d="M357 275h12l-6 12Z" fill="#ededed"/>
+<path class="wire" d="M357 287h12"/>
+<use href="#contact" transform="translate(68 147)"/>
+<use href="#contact" transform="translate(68 168)"/>
+<use href="#contact" transform="translate(621 147)"/>
+<use href="#contact" transform="translate(621 168)"/>
+<use href="#contact" transform="translate(361 190)"/>
+<use href="#contact" transform="translate(381 190)"/>
+<use href="#contact" transform="translate(371 209)"/>
+<use href="#contact" transform="translate(305 307)"/>
+<use href="#contact" transform="translate(325 307)"/>
+<use href="#contact" transform="translate(334 606)"/>
+<use href="#contact" transform="translate(325 626)"/>
+<use href="#contact" transform="translate(98 688)"/>
+<use href="#contact" transform="translate(98 708)"/>
+<use href="#contact" transform="translate(459 677)"/>
+<use href="#contact" transform="translate(459 709)"/>
+<use href="#contact" transform="translate(479 667)"/>
+<use href="#contact" transform="translate(479 699)"/>
+<use href="#junction" transform="translate(181 190)"/>
+<use href="#junction" transform="translate(462 190)"/>
+<use href="#junction" transform="translate(181 307)"/>
+<use href="#junction" transform="translate(275 307)"/>
+<use href="#junction" transform="translate(363 307)"/>
+<use href="#junction" transform="translate(462 307)"/>
+<use href="#junction" transform="translate(98 658)"/>
+<use href="#junction" transform="translate(98 744)"/>
+<use href="#junction" transform="translate(124 744)"/>
+<use href="#junction" transform="translate(325 677)"/>
+<use href="#junction" transform="translate(325 709)"/>
+<use href="#junction" transform="translate(325 721)"/>
+<use href="#junction" transform="translate(325 744)"/>
+<rect class="component" x="11" y="92" width="248" height="24" rx="12"/>
+<text x="135" y="108.95" font-size="15" text-anchor="middle">AC TRANSFER BUS 1</text>
+<rect class="component" x="408" y="92" width="251" height="24" rx="12"/>
+<text x="533.5" y="108.95" font-size="15" text-anchor="middle">AC TRANSFER BUS 2</text>
+<rect class="component" x="11" y="225" width="113" height="32" rx="16"/>
+<text x="67.5" y="238.06" font-size="12" text-anchor="middle"><tspan x="67.5" dy="0">115V AC GND</tspan><tspan x="67.5" dy="13.8">SERVICE BUS 1</tspan></text>
+<rect class="component" x="576" y="225" width="113" height="32" rx="16"/>
+<text x="632.5" y="238.06" font-size="12" text-anchor="middle"><tspan x="632.5" dy="0">115V AC GND</tspan><tspan x="632.5" dy="13.8">SERVICE BUS 2</tspan></text>
+<rect class="component" x="140" y="347" width="86" height="24"/>
+<text x="183" y="363.29" font-size="13" text-anchor="middle">DC BUS 1</text>
+<rect class="component" x="242" y="347" width="115" height="24"/>
+<text x="299.5" y="363.29" font-size="13" text-anchor="middle">DC STANDBY BUS</text>
+<rect class="component" x="420" y="347" width="86" height="24"/>
+<text x="463" y="363.29" font-size="13" text-anchor="middle">DC BUS 2</text>
+<rect class="component" x="242" y="408" width="111" height="25"/>
+<text x="297.5" y="424.79" font-size="13" text-anchor="middle">BATTERY BUS</text>
+<rect class="component" x="242" y="475" width="166" height="89"/>
+<text x="325" y="515.825" font-size="15" text-anchor="middle"><tspan x="325" dy="0">STANDBY POWER</tspan><tspan x="325" dy="17.25">CONTROL UNIT</tspan></text>
+<rect class="component" x="160" y="709" width="123" height="24"/>
+<text x="221.5" y="725.29" font-size="13" text-anchor="middle">HOT BATTERY BUS</text>
+<rect class="component" x="512" y="702" width="98" height="34"/>
+<text x="561" y="715.815" font-size="13" text-anchor="middle"><tspan x="561" dy="0">SWITCHED</tspan><tspan x="561" dy="14.95">HOT BAT BUS</tspan></text>
+<rect class="component" x="165" y="224" width="35" height="35"/>
+<path class="wire" d="M165 259l9.8 -9.8m15.75 -15.75l9.45 -9.45"/>
+<text x="182.5" y="245.02" font-size="11" text-anchor="middle">TR1</text>
+<rect class="component" x="354" y="224" width="35" height="35"/>
+<path class="wire" d="M354 259l9.8 -9.8m15.75 -15.75l9.45 -9.45"/>
+<text x="371.5" y="245.02" font-size="11" text-anchor="middle">TR3</text>
+<rect class="component" x="445" y="224" width="35" height="35"/>
+<path class="wire" d="M445 259l9.8 -9.8m15.75 -15.75l9.45 -9.45"/>
+<text x="462.5" y="245.02" font-size="11" text-anchor="middle">TR2</text>
+<rect class="component" x="14" y="635" width="57" height="46"/>
+<path class="wire" d="M14 681l15.96 -12.88m25.65 -20.7l15.39 -12.42"/>
+<text x="42.5" y="648.64" font-size="12" text-anchor="middle"><tspan x="42.5" dy="0">AUX</tspan><tspan x="42.5" dy="13.2">BATT</tspan><tspan x="42.5" dy="13.2">CHGR</tspan></text>
+<rect class="component" x="14" y="727" width="57" height="34"/>
+<path class="wire" d="M14 761l15.96 -9.52m25.65 -15.3l15.39 -9.18"/>
+<text x="42.5" y="741.24" font-size="12" text-anchor="middle"><tspan x="42.5" dy="0">BATT</tspan><tspan x="42.5" dy="13.2">CHGR</tspan></text>
+<rect class="component" x="159" y="633" width="73" height="49"/>
+<rect x="160" y="641" width="71" height="40" fill="url(#cells)"/>
+<rect x="159" y="633" width="73" height="10" fill="#ededed"/>
+<rect class="component" x="168" y="655.5" width="55" height="17"/>
+<text x="195.5" y="667.63" font-size="11" text-anchor="middle">AUX BAT</text>
+<rect class="component" x="282" y="755" width="86" height="58"/>
+<rect x="283" y="763" width="84" height="49" fill="url(#cells)"/>
+<rect x="282" y="755" width="86" height="10" fill="#ededed"/>
+<rect class="component" x="291" y="782" width="68" height="17"/>
+<text x="325" y="794.13" font-size="11" text-anchor="middle">BAT</text>
+<rect x="258" y="21" width="135" height="67" fill="#777"/>
+<text x="325.5" y="36" font-size="11" text-anchor="middle">BUS TRANSFER</text>
+<rect x="266" y="43" width="119" height="22" rx="5" fill="#111" stroke="#444" stroke-width="2"/>
+<rect x="317.5" y="46" width="23" height="16" rx="4" fill="#161616" stroke="#636363" stroke-width="1.2"/>
+<text x="273" y="82" font-size="10" text-anchor="middle">OFF</text>
+<rect x="364" y="72" width="28" height="13" fill="none" stroke="#ededed" stroke-width="1"/>
+<text x="378" y="82" font-size="10" text-anchor="middle">AUTO</text>
+<rect x="94" y="489" width="107" height="72" fill="#777"/>
+<rect x="102" y="505" width="91" height="22" rx="5" fill="#111" stroke="#444" stroke-width="2"/>
+<rect x="166" y="508" width="23" height="16" rx="4" fill="#161616" stroke="#636363" stroke-width="1.2"/>
+<text x="109" y="555" font-size="10" text-anchor="middle">BAT</text>
+<text x="147.5" y="555" font-size="10" text-anchor="middle">OFF</text>
+<rect x="172" y="545" width="28" height="13" fill="none" stroke="#ededed" stroke-width="1"/>
+<text x="186" y="555" font-size="10" text-anchor="middle">AUTO</text>
+<rect x="522" y="528" width="77" height="84" fill="#777"/>
+<rect x="532" y="538" width="24" height="65" rx="5" fill="#080808" stroke="#454545" stroke-width="2"/>
+<rect x="533" y="570" width="22" height="31" rx="3" fill="#151515" stroke="#494949" stroke-width="1.2"/>
+<text x="580" y="545" font-size="10" text-anchor="middle">OFF</text>
+<text x="580" y="573" font-size="13" text-anchor="middle">BAT</text>
+<text x="580" y="600" font-size="10" text-anchor="middle">ON</text>
+<rect x="567" y="589" width="26" height="14" fill="none" stroke="#ededed" stroke-width="1"/>
+<text x="284" y="325" font-size="13" text-anchor="start"><tspan x="284" dy="0">CROSS BUS</tspan><tspan x="284" dy="15.47">TIE RELAY</tspan></text>
+<text x="387" y="424" font-size="13" text-anchor="start">NORMAL</text>
+<text x="435" y="513" font-size="13" text-anchor="start">STBY</text>
+<text x="339" y="625" font-size="13" text-anchor="start">ALTERNATE</text>
+<text x="68" y="575" font-size="13" text-anchor="start">STANDBY POWER SWITCH</text>
+<text x="532" y="629" font-size="13" text-anchor="start"><tspan x="532" dy="0">BATTERY</tspan><tspan x="532" dy="15.47">SWITCH</tspan></text>
+<text x="152" y="789" font-size="13" text-anchor="start">TO APU STARTER</text>
+<text x="17" y="857" font-size="14" text-anchor="start">AIRPLANE CONFIGURATION – IN FLIGHT</text>
+<text x="33" y="879" font-size="14" text-anchor="start"><tspan x="33" dy="0">BATTERY SWITCH – ON</tspan><tspan x="33" dy="19">STANDBY POWER SWITCH – AUTO</tspan><tspan x="33" dy="19">BUS TRANSFER SWITCH – AUTO</tspan><tspan x="33" dy="19">ENGINE GENERATOR CONNECTED TO RELATED BUS</tspan></text>
+</g>
+</svg>

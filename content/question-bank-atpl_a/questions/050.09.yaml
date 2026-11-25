@@ -1,0 +1,3071 @@
+- id: QCALH
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506184
+    - AVEXAM-76109
+    - BGS-501767
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.01.01
+  templates:
+    - type: simple
+      question: You are about to take off from an airfield at mean sea level. There is a Nimbostratus at 5 000 ft. At ground level, the temperature is 3°C and it is 7°C at the top of the cloud. In the vicinity there is a mountain ridge which you are planning to cross. Which of the following conditions will result in an icing hazard?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A temperature inversion aloft between 2 000 ft and 5 000 ft where the temperature at 2000 ft is -4°C.
+          wrongAnswers:
+            - text: The forecast northerly wind backing with altitude and becoming easterly.
+            - text: A SIGMET reporting severe turbulence in the lower levels of the atmosphere associated with the nearby mountains.
+            - text: The dew point being reported as below the temperature at the airfield.
+- id: QBZMM
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507374
+    - AVEXAM-59524
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.01.02
+  templates:
+    - type: simple
+      question: Which of the following temperatures are the most likely to cause icing in a venturi carburettor?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Above 0ºC.
+          wrongAnswers:
+            - text: Between plus +30ºC and -10ºC.
+            - text: Between -15ºC to -40ºC.
+            - text: Below -5ºC.
+- id: QZYFS
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508005
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.01.02
+  templates:
+    - type: simple
+      question: Under which of the following conditions is carburettor icing most likely to occur?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Outside air temperature +2°C, relative humidity 90%
+          wrongAnswers:
+            - text: Outside air temperature +15°C, relative humidity 50%
+            - text: Outside air temperature +32°C, relative humidity 95%
+            - text: Outside air temperature -8°C, relative humidity 15%
+- id: QUJJB
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507402
+    - BGS-500849
+    - AVEXAM-67827
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.01.02
+  templates:
+    - type: simple
+      question: Which of the following conditions is most likely to cause airframe icing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: +FZRA
+          wrongAnswers:
+            - text: GR
+            - text: SHSN
+            - text: PL
+- id: QMFLP
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509124
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.01.03
+  templates:
+    - type: simple
+      question: In what conditions could we expect airframe icing to occur? An outside air temperature of (1) \_\_\_\_\_ or below, and an airframe temperature of (2) \_\_\_\_\_ or below.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) 0ºC; (2) 0ºC.
+          wrongAnswers:
+            - text: (1) 10ºC; (2) -40ºC.
+            - text: (1) 0ºC; (2) -40ºC.
+            - text: (1) 10ºC; (2) 0ºC.
+- id: QKZAR
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501451
+    - BGS-501758
+    - AVEXAM-30894
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.01.05
+  templates:
+    - type: simple
+      question: Within what temperature range can vertical development clouds be expected to contain significant amounts of both ice crystals and supercooled water droplets as opposed to a majority of only one or the other? Between..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: -15°C and -40°C.
+          wrongAnswers:
+            - text: -30°C and -55°C.
+            - text: -45°C and -60°C.
+            - text: 0°C and -15°C.
+- id: QOVVC
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506249
+    - BGS-500844
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.01.05
+  templates:
+    - type: simple
+      question: "Clouds will mainly consist of supercooled water droplets when the temperature is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: between 0°C and -15°C.
+          wrongAnswers:
+            - text: between -5°C and -30°C.
+            - text: between -30°C and -40°C.
+            - text: below -40°C.
+- id: QEGBD
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501938
+    - BGS-501919
+    - AVEXAM-33923
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.01.06
+  templates:
+    - type: simple
+      question: Both cumuliform and stratiform cloud structures can present significant icing environments. There is, however, a distinction in that the cumuliform cloud structure
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: contains relatively large supercooled water droplets, which can lead to a very rapid build-up of ice.
+          wrongAnswers:
+            - text: is such that the most significant ice accretion can be expected to occur at about -20ºC.
+            - text: is such that maximum ice accretion occurs near the top of the cloud.
+            - text: contains much smaller supercooled water droplets than the stratiform, hence the build-up of ice is not as rapid.
+- id: QTHPT
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503992
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.01.06
+  templates:
+    - type: simple
+      question: When compared to icing in stratiform clouds, icing in cumuliform clouds is generally..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: more severe due to the higher supercooled water content of cumuliform cloud.
+          wrongAnswers:
+            - text: less severe due to the higher supercooled water content of cumuliform cloud.
+            - text: more severe due to lower temperatures in cumuliform cloud.
+            - text: less severe due to higher temperatures in cumuliform cloud.
+- id: QVIDT
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501973
+    - AVEXAM-31969
+    - BGS-502592
+    - BGS-502525
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.01.07
+    - 050.09.01.01.09
+  templates:
+    - type: simple
+      question: An aircraft has just flown for 5 hours at FL410, and is performing a fast turnaround to depart again shortly. The fuel gauge shows -11ºC and the OAT is +2ºC. A warm front is approaching the airfield and the aircraft will depart through drizzle. What will the pilot see on the walk-around and what risks of icing should be discussed during the briefing?
+      explanation: After several hours at FL410 the fuel is cold-soaked, and the wing skin stays below 0 °C even though the OAT is positive. Moisture freezes on it as fuel frost, and drizzle may freeze on the wing during departure.
+      presets:
+        - correctAnswers:
+            - text: Fuel frost will be present on the ground, and the drizzle may freeze to the wing on departure.
+          wrongAnswers:
+            - text: There will be no icing on the ground due to the positive OAT, and no icing risks are present on the departure.
+            - text: Clear ice will form on the ground and cannot be removed by de-icing fluid.
+            - text: Hoar frost will be present initially, but will quickly disappear due to the positive OAT.
+- id: QJATY
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504461
+    - BGS-502494
+    - AVEXAM-99487
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.01.08
+  templates:
+    - type: simple
+      question: What clue, during flight, can help pilots identify that they are flying into an area in which ice accretion may be encountered?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Rain with a negative outside air temperature.
+          wrongAnswers:
+            - text: The onset of Clear Air Turbulence.
+            - text: Ice crystals suspended in the atmosphere.
+            - text: The appearance of Cirrus clouds.
+- id: QIVOE
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508324
+    - AVEXAM-9788
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.01.09
+  templates:
+    - type: simple
+      question: Just after a flight, an aircraft is parked outside on the apron, where it is being refuelled. Freezing drizzle starts to fall. On which surfaces will ice accretion take the longest time?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Just above the fuel tanks and engines.
+          wrongAnswers:
+            - text: Wing leading edges, slats and flaps.
+            - text: Areas above the spars and the main landing gear doubler plate.
+            - text: The wing root area between the front and rear spars.
+- id: QDDPN
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506221
+    - ATPLQ-501210
+    - BGS-502927
+    - AVEXAM-11014
+    - AVEXAM-9087
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.01.10
+  templates:
+    - type: simple
+      question: How does pollution impact supercooled water droplets?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Decreases their size.
+          wrongAnswers:
+            - text: Alters their freezing point but not their size.
+            - text: Increases their size.
+            - text: Has no effect.
+    - type: simple
+      question: How does air pollution influence the formation of supercooled water droplets in the atmosphere?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A large number of small particles in the air reduces the number of supercooled water droplets in the air.
+          wrongAnswers:
+            - text: Small particles act as condensation nuclei and do NOT affect the presence of supercooled water droplets in the air.
+            - text: A large number of small particles in the air increases the number of supercooled water droplets in the air.
+            - text: Pollution supports the formation of larger supercooled water droplets.
+    - type: simple
+      question: How does air pollution affect the presence of supercooled water droplets in the air?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A large number of small particles in the air reduces the number of supercooled water droplets in the air.
+          wrongAnswers:
+            - text: A large number of small particles in the air increases the number of supercooled water droplets in the air.
+            - text: Pollution supports the formation of larger supercooled water droplets.
+            - text: Small particles act as condensation nuclei and do NOT affect the presence of supercooled water droplets in the air.
+    - type: simple
+      question: What effect does pollution have on supercooled water droplets?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Decreases their size.
+          wrongAnswers:
+            - text: Has no effect.
+            - text: Alters their freezing point but not their size.
+            - text: Increases their size.
+- id: QFQEX
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504964
+    - BGS-500861
+    - AVEXAM-93500
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.01.10
+  templates:
+    - type: simple
+      question: At what temperatures would you expect the heaviest ice accretion to occur in a CB?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Between -2°C and -15°C
+          wrongAnswers:
+            - text: Between -30°C and -40°C
+            - text: Between -20°C and -30°C
+            - text: At the freezing level
+- id: QMEZF
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505403
+    - BGS-501690
+    - AVEXAM-59842
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.01.10
+  templates:
+    - type: simple
+      question: Flying in a cumulus cloud where the temperature is below zero, considering aerofoil shape and supercooled water droplet size, in which case will ice accretion be the most significant?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Thin aerofoil, large droplets.
+          wrongAnswers:
+            - text: Aerofoil size has no effect on icing only the amount, density, and size of the droplets.
+            - text: Thin aerofoil, small droplets.
+            - text: Thick aerofoil, small droplets.
+- id: QFKMU
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502991
+    - BGS-501446
+    - AVEXAM-12879
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.01.11
+  templates:
+    - type: simple
+      question: An aircraft is flying at 3000 ft in a layer of strato-cumulus cloud and experiences light icing. This icing intensifies as the aircraft crosses a mountain barrier whilst still in the cloud. This may be explained by..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: orographic intensification as the air is forced to rise over the mountain barrier.
+          wrongAnswers:
+            - text: orographic intensification as water vapour is added to the air from the Earth's surface in mountainous areas.
+            - text: the condensation of water vapour on the leeward side parallel to the upper part of the ridge.
+            - text: the mixing of dry and moist air by turbulence or rotors at a low level, upwind of the mountain barrier.
+- id: QOGVW
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506910
+    - AVEXAM-75370
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.01.11
+  templates:
+    - type: simple
+      question: You are flying towards an aerodrome west of a mountain ridge. Cumuliform clouds are at the height of the top of the ridge overhead the aerodrome. Wind is coming from the west. Where would you expect the highest risk of aircraft icing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: On the Western side of the ridge, at the same height as the ridge.
+          wrongAnswers:
+            - text: On the Eastern side of the ridge, at the same height as the ridge.
+            - text: On the Eastern side of the ridge, halfway up its slope.
+            - text: On the Western side of the ridge, halfway up its slope.
+- id: QCUKX
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502309
+    - AVEXAM-26691
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.01.12
+  templates:
+    - type: simple
+      question: An air mass containing St and Sc clouds is cooling as it is lifted over high ground. Which of the following will happen to the concentration of water droplets or ice particles?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The concentration will increase.
+          wrongAnswers:
+            - text: The concentration will remain the same.
+            - text: The concentration will remain the same, and their sizes will increase.
+            - text: The concentration will decrease.
+- id: QKGRM
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509681
+    - AVEXAM-9989
+    - BGS-501683
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.02.01
+  templates:
+    - type: simple
+      question: Which type of ice forms on an aircraft structure when larger supercooled water droplets hit the aircraft, with only a small portion of them freezing immediately, thus resulting in a transparent sheet of ice that may be difficult to detect?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Clear ice.
+          wrongAnswers:
+            - text: Rime ice.
+            - text: Cloudy ice.
+            - text: Intercycle ice.
+- id: QACLM
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509801
+    - BGS-500875
+    - AVEXAM-38480
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.02.02
+    - 050.09.01.02.04
+  templates:
+    - type: simple
+      question: In which conditions would you most likely encounter clear icing, and how would it normally appear?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cumuliform clouds, large water droplets, temperatures between 0°C and -15°C. Appears smooth and tends to spread back over an aircraft wing.
+          wrongAnswers:
+            - text: Cumuliform clouds, small water droplets, temperatures between -20°C and 25°C. Appears transparent and tends to take the shape of the surface on which it freezes.
+            - text: Stratiform clouds, small water droplets, temperatures between -10°C and -20°C. Appears granular and tends to accumulate forward into the air stream.
+            - text: Stratiform clouds, large water droplets, temperatures well below freezing. Appears opaque and builds forward from leading surface into a sharp edge.
+- id: QPQDC
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506274
+    - BGS-502142
+    - AVEXAM-39624
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.02.02
+  templates:
+    - type: simple
+      question: An aircraft flying from Oslo Gardermoen Airport (ENGM) in Norway, to Stockholm Arlanda Airport (ESSA) in Sweden, encounters a squall line. It will not be able to avoid flying through the Cumulonimbus/Towering Cumulus clouds en-route. Which levels would give the most severe accretion of clear ice?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The levels where the temperature is between 0°C and -10°C.
+          wrongAnswers:
+            - text: The levels where the temperature is the lowest.
+            - text: The levels where the temperature is between -10°C and -25°C.
+            - text: The levels where the temperature is below -25°C.
+- id: QRUKF
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502901
+    - BGS-502601
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.02.02
+    - 050.09.01.02.03
+  templates:
+    - type: simple
+      question: Which condition is necessary for the formation of clear ice instead of rime ice?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In cumulonimbus clouds, the impact of supercooled water drops that will spread out due to latent heat release.
+          wrongAnswers:
+            - text: The presence of rime ice that melts on the leading edge of the wing.
+            - text: An impact speed onto the aerofoil above 250 kt, in cumuliform cloud tops, in the upper air.
+            - text: In altostratus clouds, supercooled water drops with a temperature below 15°C on impact.
+- id: QTFSI
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503223
+    - BGS-502133
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.02.03
+  templates:
+    - type: simple
+      question: Which of the following is an important factor in the formation of clear ice?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The latent heat released on freezing allows the supercooled large water droplets to flow back.
+          wrongAnswers:
+            - text: Rapid freezing of small droplets is necessary to result in a broad coverage over the wing.
+            - text: The temperature rise due to the impact of water droplets has to be significant in order to delay freezing on the wing edge.
+            - text: Water droplets have to be small to open the possibility to form a clear layer of ice as they freeze directly on impact.
+- id: QBYGX
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504179
+    - BGS-500862
+    - AVEXAM-74055
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.02.06
+    - 050.09.01.02.07
+  templates:
+    - type: simple
+      question: What are the characteristics of rime ice, and what conditions are most favorable for its formation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Milky granular appearance, forming on leading edges and accumulating forward into the air stream. Stratiform clouds at temperatures of -10°C to -20°C are most conducive to its formation.
+          wrongAnswers:
+            - text: Transparent appearance and tendency to take the shape of the surface on which it freezes. Stratiform clouds and temperatures only slightly below freezing promote its formation.
+            - text: Opaque rough appearance, tending to spread back over an aircraft surface. Most frequently encountered in cumuliform clouds at temperatures slightly below freezing.
+            - text: Smooth appearance and builds forward from leading surfaces into a sharp edge. Most common in cumuliform clouds at temperatures of -20°C to -25°C.
+- id: QCOYP
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506907
+    - BGS-500870
+    - AVEXAM-5398
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.02.06
+  templates:
+    - type: simple
+      question: "A small supercooled cloud droplet that collides with an airfoil will most likely:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: freeze immediately and create rime ice.
+          wrongAnswers:
+            - text: travel back over the wing, creating rime ice.
+            - text: travel back over the wing, creating clear ice.
+            - text: freeze immediately and create clear ice.
+- id: QMEKU
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds:
+    - QRATJ
+  externalQuestionIds:
+    - ATPLQ-505984
+    - AVEXAM-80778
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.02.07
+    - 050.09.09.02.04
+  templates:
+    - type: simple
+      question: What type of icing reduces visibility through an unheated windshield the most?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Rime Ice.
+          wrongAnswers:
+            - text: All icing improves visibility.
+            - text: Clear Ice.
+            - text: Ice crystal icing.
+- id: QRATJ
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds:
+    - QMEKU
+  externalQuestionIds:
+    - ATPLQ-501702
+    - BGS-500873
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.02.07
+  templates:
+    - type: simple
+      question: "While descending through a cloud cover at high level, a small amount of a white, opaque deposit with a light porous texture and a rough surface is detected along the leading edge of the wing. This deposit is called:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Rime ice.
+          wrongAnswers:
+            - text: Frost.
+            - text: Mixed ice.
+            - text: Clear ice.
+- id: QKERL
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509263
+    - BGS-501403
+    - AVEXAM-58153
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.02.08
+    - 050.09.01.03.04
+  templates:
+    - type: simple
+      question: What is mixed ice/opaque ice and where can it be found?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Mixed ice consists of clear ice and rime ice and can be found in NS clouds.
+          wrongAnswers:
+            - text: Mixed ice consists of freezing fog and rime ice and can be found in NS and CB clouds.
+            - text: Mixed ice consists of rime ice and hoar frost can be found in CI and AS clouds.
+            - text: Mixed ice consists of clear ice and freezing rain and can be found in CB clouds.
+- id: QLTZS
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503371
+    - AVEXAM-69631
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.02.09
+  templates:
+    - type: simple
+      question: What conditions are required so that mixed ice can develop in a cloud?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ice crystals and supercooled water droplets of various sizes with a temperature suitable for both clear and rime ice.
+          wrongAnswers:
+            - text: Freezing fog with strong uplifts.
+            - text: High altitude clouds consisting of ice crystals that will mix to the clear ice.
+            - text: ITCZ clouds are the most suitable.
+- id: QBFVE
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505845
+    - BGS-502467
+    - AVEXAM-85047
+    - AVEXAM-34896
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.02.10
+  templates:
+    - type: simple
+      question: A pilot of a small single-engine piston aircraft is en-route in icing conditions. The pilot has been periodically checking the wings for ice accretion initially; they notice some slight translucent ice and the formation of white horns, followed shortly after that by the ice changing to an opaque (white) colour with a uniform thickness and some remaining horn formation. What are these observations typical characteristics of?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Mixed ice.
+          wrongAnswers:
+            - text: Freezing rain.
+            - text: Rime ice.
+            - text: Clear ice.
+- id: QUICR
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508663
+    - AVEXAM-7244
+    - BGS-500863
+    - ATPLQ-507014
+    - BGS-500866
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.02.13
+  templates:
+    - type: simple
+      question: What intensity and type of airframe icing is most likely to occur when an aircraft descends rapidly from FL320 (OAT -45 °C) to FL60 in warm, moist clear air?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Light or moderate hoar frost.
+          wrongAnswers:
+            - text: Light opaque rime and light clear ice.
+            - text: Moderate opaque rime.
+            - text: Nil ice.
+    - type: simple
+      question: What intensity and type of airframe icing is most likely to occur when flying at FL 170 in AS with the outside air temperature at -20°C?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Light - rime
+          wrongAnswers:
+            - text: Severe - clear
+            - text: Moderate - hoar frost.
+            - text: Moderate - clear
+- id: QYKFX
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503694
+    - BGS-502081
+    - AVEXAM-13420
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.02.14
+  templates:
+    - type: simple
+      question: Which of the following is a potential hazard associated with the assessment of ice accretion by a pilot?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: With hoar frost the aerodynamic contour of the aerofoil appears to be unchanged.
+          wrongAnswers:
+            - text: Rime ice covers the fuselage on all sides, preventing detection.
+            - text: Clear ice accretes mainly on the trailing edges of aircraft parts.
+            - text: During flight, mixed ice is invisible on white surfaces.
+- id: QRTRM
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509828
+    - BGS-500888
+    - BGS-500882
+    - ATPLQ-504861
+    - BGS-500883
+    - BGS-500880
+    - AVEXAM-13175
+    - AVEXAM-23144
+    - BGS-500881
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.03.01
+  templates:
+    - type: simple
+      question: |-
+        What degree of aircraft icing is determined by the following ICAO description?
+
+        "Conditions in which change of heading and/or altitude may be considered desirable"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Moderate
+          wrongAnswers:
+            - text: Violent
+            - text: Light
+            - text: Severe
+    - type: simple
+      question: At what degree of icing should ICAO's "Change of course and/or altitude desirable" recommendation be followed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Moderate
+          wrongAnswers:
+            - text: Severe
+            - text: Extreme
+            - text: Light
+- id: QTJGP
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501255
+    - AVEXAM-47690
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.03.02
+  templates:
+    - type: simple
+      question: What will happen to the stalling angle of an aeroplane which encounters clear icing during flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The stalling angle will be lower.
+          wrongAnswers:
+            - text: The stalling angle increases due to an increasing stalling speed.
+            - text: A stalling angle always remains the same, only the stalling speed increases.
+            - text: It depends on the type of airplane whether the stalling angle gets higher or lower.
+- id: QYSVL
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503838
+    - AVEXAM-92567
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.03.02
+  templates:
+    - type: simple
+      question: What may be expected when icing occurs on the surfaces of the aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Reduction in lift and reduced controllability in turns.
+          wrongAnswers:
+            - text: "No significant changes in flight characteristics as long as ice forms as a clear sheet. "
+            - text: A reduction in lift but no effect on other aspects of performance.
+            - text: "Reduced controllability in yaw and roll, but an increase in lift. "
+- id: QLWIG
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504618
+    - AVEXAM-2924
+    - BGS-502075
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.03.03
+  templates:
+    - type: simple
+      question: If the wings of an aircraft are contaminated with ice, one can expect the aircraft to have..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: degraded stall characteristics and problems with roll manoeuvres.
+          wrongAnswers:
+            - text: a degraded response in the roll, pitch and yaw axes but improved stall characteristics (due to the increased wing area).
+            - text: nearly unchanged stall characteristics as the ice will mostly form on the thickest and thus the innermost part of the wing.
+            - text: degraded stall characteristics but a better gust response due to an improved roll behaviour.
+- id: QMXDQ
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504870
+    - AVEXAM-23924
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.03.04
+  templates:
+    - type: simple
+      question: Flying an aircraft that is certified for flight in known icing, the crew are choosing a route to give the lowest possibility of airframe icing. Which of the following routes should they choose?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A route with dry snow.
+          wrongAnswers:
+            - text: A route with snow and rain.
+            - text: A route with freezing rain.
+            - text: A route with clear ice.
+- id: QYULJ
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502241
+    - AVEXAM-91919
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.03.04
+  templates:
+    - type: simple
+      question: Given a 0ºC isotherm layer at FL60 and NS at FL70, what is the lowest FL with severe icing hazard?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL70
+          wrongAnswers:
+            - text: FL90
+            - text: FL60
+            - text: FL120
+- id: QVPYB
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509932
+    - BGS-502523
+  annexes:
+    - id: AZES
+  learningObjectiveIds:
+    - 050.09.01.03.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        You are in the process of planning a flight from Brussels (B) (50° 55'N, 004° 30'E) to Deauville (D) (49° 00'N, 000° 00'E) on 12th March 2017, departing at 20:00 UTC and with a flight time of approximately 3 hours. The route will follow the red line from "B" to "D" on the chart, and the minimum altitude that can be flown is 3200 feet.
+
+        Which altitude would allow the flight to remain clear of forecast moderate or severe icing conditions along the whole route?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Icing conditions cannot be avoided on this route.
+          wrongAnswers:
+            - text: 3 500 ft.
+            - text: 5 500 ft.
+            - text: 7 500 ft.
+- id: QNRJX
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds:
+    - QOQJL
+  externalQuestionIds:
+    - ATPLQ-504603
+    - BGS-501890
+    - BGS-501829
+    - AVEXAM-51388
+    - ATPLQ-501350
+    - AVEXAM-2251
+    - ATPLQ-508459
+    - AVEXAM-41257
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.04.01
+  templates:
+    - type: simple
+      question: Where on the aircraft does ice crystal icing form?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Inside the jet engine by ice crystals.
+          wrongAnswers:
+            - text: On protruding surfaces, such as the pitot tube and antennas.
+            - text: On the leading edge of the wings by ice crystals.
+            - text: Inside the jet engine by supercooled water droplets.
+        - correctAnswers:
+            - text: Inside the jet engine
+          wrongAnswers:
+            - text: On protruding surfaces, such as the pitot tube and antennas
+            - text: On the propeller tips
+            - text: On the leading edge of the wings
+    - type: simple
+      question: Which type of icing is particularly significant within jet engine intakes?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ice crystal icing
+          wrongAnswers:
+            - text: Rime ice
+            - text: Frost
+            - text: No icing can accumulate in intakes.
+- id: QOQJL
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds:
+    - QNRJX
+  externalQuestionIds:
+    - ATPLQ-501746
+    - AVEXAM-28526
+    - BGS-501892
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.04.01
+  templates:
+    - type: simple
+      question: A jet aircraft flies downwind of a large CB cell and notices small water droplets on the windshield and unreliable indications of the OAT, despite flying in clear air well outside the cloud. Which type of icing is possible to occur?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ice crystal icing.
+          wrongAnswers:
+            - text: Hoar frost.
+            - text: Clear ice.
+            - text: Rime ice.
+- id: QZZOJ
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509255
+    - BGS-502434
+    - AVEXAM-8491
+    - BGS-502412
+    - AVEXAM-96892
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.04.01
+  templates:
+    - type: simple
+      question: "The formation of ice within parts of the core of a gas turbine engine because of flight at high altitudes in strong convective weather, above the altitudes typically associated with super-cooled liquid, is called:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ice crystal icing.
+          wrongAnswers:
+            - text: Rime ice.
+            - text: Venturi ice.
+            - text: Clear crystal icing.
+    - type: simple
+      question: Which of the following correctly describes ice crystal icing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The formation of ice within parts of the core of a gas turbine engine as a result of flight in clouds with high concentrations of ice crystals.
+          wrongAnswers:
+            - text: A transparent crystalline ice structure formed on the leading edge of the wings because of collision with large supercooled water droplets.
+            - text: Ice accumulation within a gas turbine engine because of flight through clouds with high concentrations of small supercooled water droplets.
+            - text: Ice crystals adhering to the leading edge of the wings and pitot tubes because of flight in clouds with low temperatures and high liquid water content.
+- id: QIZBQ
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509271
+    - BGS-501891
+    - AVEXAM-43202
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.04.02
+  templates:
+    - type: simple
+      question: What creates Ice crystal icing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Sublimation of ice with regards to CB clouds.
+          wrongAnswers:
+            - text: It is created when vapour hits below 0°C surfaces.
+            - text: Impact with cold surfaces.
+            - text: It is most present in NS clouds at very low temperatures.
+- id: QTNKG
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504484
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.04.03
+  templates:
+    - type: simple
+      question: An aircraft is flying at FL300 when it enters a Cirrostratus cloud. Is Ice Crystal Icing likely to occur on the Airframe and Engines?
+      explanation: Cirrostratus consists of ice crystals only. These are dry and do not stick to the airframe or engines, so ice crystal icing is unlikely. It is more likely in deep convective cloud.
+      presets:
+        - correctAnswers:
+            - text: Unlikely as cirrostratus are mainly formed by Ice Crystals which won't affect the airframe or engines.
+          wrongAnswers:
+            - text: Likely because the anti-ice of the airframe and engines is not effective enough.
+            - text: Unlikely.
+            - text: Likely.
+- id: QVJDD
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506038
+    - AVEXAM-70205
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.04.03
+  templates:
+    - type: simple
+      question: Which conditions are the best to create ice crystal icing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Convective cloud with high vertical extent such as a Cumulonimbus containing a high cloud ice water content.
+          wrongAnswers:
+            - text: The most hazardous Ice Crystal Icing conditions can be found in Nimbostratus clouds.
+            - text: Ice Crystal Icing is very dangerous when flying large Cirrostratus clouds as they are entirely made of ice crystals.
+            - text: Ice Crystal Icing conditions can be found anywhere, even at lower levels, as long as the cloud temperature is below the freezing level.
+- id: QPIRH
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503425
+    - AVEXAM-10534
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.04.04
+  templates:
+    - type: simple
+      question: At high altitudes, the presence of water in the form of ice crystals can pose what potential hazards, if any, to an aircraft?
+      explanation: High concentrations of ice crystals at high altitude can enter the engine, accumulate in the compressor and partially melt, and the resulting ice can damage the engine or cause power loss.
+      presets:
+        - correctAnswers:
+            - text: The crystals can accumulate on forward-facing parts of the engine and partially melt as they pass through the engine core, causing damage.
+          wrongAnswers:
+            - text: The ice crystals can accumulate on antenna systems and affect the transmission and reception of communication and navigation signals.
+            - text: The crystals can accumulate on the wing's leading edge, changing the airflow over it and increasing the weight.
+            - text: Ice crystals do not present a hazard to aircraft since they do NOT adhere to the airframe surfaces.
+- id: QUJOM
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509785
+    - AVEXAM-23225
+    - BGS-502067
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.04.04
+  templates:
+    - type: simple
+      question: Ice crystals are often found in and around the anvil of a thunderstorm. If found in high densities at very low temperatures, what hazard do these present to an aircraft?
+      explanation: Ice crystals found around thunderstorm anvils can accumulate inside the engine core and then break away, causing a sudden loss of thrust, particularly at low power settings.
+      presets:
+        - correctAnswers:
+            - text: The crystals can accumulate inside the engine, then break away, causing a sudden loss of thrust, especially at low power settings.
+          wrongAnswers:
+            - text: Because of their size, in high densities the crystals can reflect and block propagated satellite communication and navigation signals.
+            - text: The crystals can accumulate on the aircraft's communication and navigation antenna systems and affect transmission and reception.
+            - text: The crystals can accumulate on the wing and tailplane leading edges, reducing lift and increasing drag.
+- id: QYEMY
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508499
+    - AVEXAM-50175
+    - ATPLQ-507939
+    - BGS-502721
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.01.04.05
+  templates:
+    - type: simple
+      question: How can you avoid areas with a high concentration of ice crystals?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Think ahead of the areas where ICI (Ice Crystal Icing) can be expected and avoid thunderstorms in the upwind direction.
+          wrongAnswers:
+            - text: Think ahead of the areas where ICI (Ice Crystal Icing) can be expected and avoid thunderstorms in the downwind direction.
+            - text: Climb above the area where Ice Crystal Icing is expected.
+            - text: Avoid the Cb.
+    - type: simple
+      question: If a flight crew believes they are flying through an area with a high concentration of ice crystals, what is the most effective way to use airborne weather radar to avoid the hazardous conditions?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Using the radar tilt, identify the main convection core and fly upwind of it.
+          wrongAnswers:
+            - text: Change the radar return to above the aircraft to identify the ice crystal precipitation and fly downwind of it.
+            - text: Analyse the radar returns at the aircraft level to identify the ice crystal intensity ahead and fly around it.
+            - text: Identify the ice crystal zone by looking for the greatest ice crystal radar return and fly beneath it.
+    - type: simple
+      question: A flight crew suspect that they are encountering an area with a high concentration of ice crystals. Using airborne weather radar, what is the best course of action to avoid such an area?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Using the radar tilt, identify the main convection core and fly upwind of it.
+          wrongAnswers:
+            - text: Change the radar return to above the aircraft to identify the ice crystal precipitation and fly downwind of it.
+            - text: Analyse the radar returns at the aircraft level to identify the ice crystal intensity ahead and fly around it.
+            - text: Identify the ice crystal zone by looking for the greatest ice crystal radar return and fly beneath it.
+- id: QSENB
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507893
+    - AVEXAM-11164
+    - AVEXAM-45608
+    - BGS-500895
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.02.01.01
+  templates:
+    - type: simple
+      question: |-
+        Which degree of aircraft turbulence is determined by the following ICAO description?
+
+        "There may be moderate changes in aircraft attitude and/or altitude but the aircraft remains in positive control at all times. Usually, small variations in air speed. Changes in accelerometer readings of 0.5 to 1.0 g at the aircraft's centre of gravity. Occupants feel strain against seat belts. Loose objects move about. Food service and walking are difficult."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Moderate
+          wrongAnswers:
+            - text: Severe
+            - text: Violent
+            - text: Light
+- id: QEBIN
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508052
+    - BGS-501882
+    - AVEXAM-59376
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.02.01.04
+  templates:
+    - type: simple
+      question: Which turbulence is initiated when the direction or speed of wind changes dramatically within a short horizontal or vertical distance?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Shear turbulence (wind shear)
+          wrongAnswers:
+            - text: Frontal turbulence
+            - text: Convective turbulence
+            - text: Mechanical turbulence
+- id: QDEAL
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502636
+    - AVEXAM-8890
+    - BGS-501939
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.02.01.05
+  templates:
+    - type: simple
+      question: What is correct about forecasts of en-route turbulence?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The accurate forecasting of the severity, extent, and levels affected by turbulence is based on modelling; because forecast documentation also covers a fixed time period it is often NOT reliable, so pilot reports of turbulence are of great value.
+          wrongAnswers:
+            - text: The forecasts of en-route turbulence issued by the Meteorological Watch Office for the FIR are NOT considered reliable because they depend on pilots making accurate and timely in-flight reports of turbulence, and in practice these reports are subjective and often NOT relevant to other aircraft.
+            - text: The most recent forecasts of en-route turbulence on significant weather charts are considered to be both reliable and accurate because they are modified automatically by pilot in-flight reports relayed via data link to the relevant Meteorological Watch Office for the applicable FIR.
+            - text: The turbulence forecasts on significant weather charts are based on modern and comprehensive computer modelling techniques using all available data, and they are considered to be both accurate and reliable, making pilot reports redundant.
+- id: QZYYK
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509023
+    - AVEXAM-28153
+    - BGS-501957
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.02.01.05
+  templates:
+    - type: simple
+      question: |-
+        The weather forecast for a low level route includes a warning of possible moderate to severe turbulence.   
+         When in-flight and operating along this route, which of the following would provide the most up-to-date information which could help the pilot to avoid the worst turbulence?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pilot reports can provide the most valuable information on any weather hazards, including turbulence, that is useful to other pilots approaching the same area.
+          wrongAnswers:
+            - text: GAMET broadcasts provide a valuable source of information about en-route weather for low level flights, including turbulence, and these are updated hourly.
+            - text: Pilots operating on low level routes are able to access SIGMET broadcasts containing information on all forms of turbulence including that associated with convective clouds.
+            - text: The AIRMET forecast system for low level flights includes warnings about hazards and is updated at regular intervals; broadcasts can be accessed by flight crews at any time.
+- id: QHXWW
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507629
+    - BGS-500897
+    - AVEXAM-63064
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.02.02.01
+  templates:
+    - type: simple
+      question: The turbulence which occurs at high flight levels (above FL 250) is mainly of the type clear air turbulence. In what way can moderate to severe clear air turbulence affect an aircraft, the flight and the passengers?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The turbulence is a small scale one and can cause damage. The manoeuvring of the aircraft will be made more difficult or even impossible. For the passengers the flight will be unpleasant.
+          wrongAnswers:
+            - text: The turbulence is wave like which makes the flight unpleasant for the passengers but the manoeuvring will not be affected essentially.
+            - text: The turbulence is a large scale one (waving) so that the aircraft will be difficult to manoeuvre. The passengers will feel some discomfort.
+            - text: The turbulence can be resembled with the roughness of a washing-board (small scale) and will not have influence on the aircraft and its solidity, but will make flight a little more difficult. The passengers will seldom notice anything of this turbulence.
+- id: QTJYQ
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507394
+    - BGS-502341
+    - AVEXAM-57799
+    - AVEXAM-53959
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.02.02.02
+  templates:
+    - type: simple
+      question: In what area has a pilot to be cautious and mindful of severe clear air turbulence, when planning a route?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In the vicinity of a jet stream.
+          wrongAnswers:
+            - text: Above the tropopause.
+            - text: In icing areas near warm fronts.
+            - text: In a subsidence inversion layer.
+- id: QGJII
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds:
+    - QTPMP
+    - QQJZH
+  externalQuestionIds:
+    - ATPLQ-501876
+    - BGS-502445
+    - AVEXAM-46419
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.03.01.01
+  templates:
+    - type: simple
+      question: In CAVOK conditions, an aircraft is descending on a glide slope and suddenly, within a few seconds a 6 kt tailwind changes to a 22 kt headwind. What weather phenomenon did the pilots just encounter?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Vertical wind shear.
+          wrongAnswers:
+            - text: Horizontal wind shear.
+            - text: A microburst.
+            - text: A squall line.
+- id: QMRYY
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504275
+    - BGS-501220
+    - AVEXAM-45262
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.03.01.01
+  templates:
+    - type: simple
+      question: What units are used to report vertical wind shear?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: kt/100 ft.
+          wrongAnswers:
+            - text: m/100 ft
+            - text: m/s
+            - text: kt
+- id: QQJZH
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds:
+    - QTPMP
+    - QGJII
+  externalQuestionIds:
+    - ATPLQ-504723
+    - AVEXAM-41385
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.03.01.01
+  templates:
+    - type: simple
+      question: What kind of turbulence can you experience due to large variations in wind speed and/or direction?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Wind shear.
+          wrongAnswers:
+            - text: Mechanical turbulence.
+            - text: Mountain wave turbulence.
+            - text: Thermal turbulence.
+- id: QTPMP
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds:
+    - QGJII
+    - QQJZH
+  externalQuestionIds:
+    - ATPLQ-508670
+    - AVEXAM-22453
+    - BGS-500899
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        Two aircraft are flying simultaneously in level flight at different flight levels on opposite tracks overhead a given position. Aircraft A flying at FL 070 experiences a 30 kt headwind. Aircraft B flying at FL 060 experiences a 20 kt headwind. None of the aircraft experiences cross wind.
+
+        This wind condition will be referred to as
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: vertical wind shear only
+          wrongAnswers:
+            - text: horizontal wind shear only
+            - text: no wind shear since the absolute value of the difference in wind velocity per height unit is too small to fit the definition of wind shear at all
+            - text: vertical and horizontal wind shear
+- id: QAFBO
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504199
+    - AVEXAM-9010
+    - BGS-502509
+    - AVEXAM-6866
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.03.01.02
+  templates:
+    - type: simple
+      question: Just after departure, an aircraft reported downdrafts and a sudden increase in wind speed. What are they experiencing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Low level wind shear.
+          wrongAnswers:
+            - text: Inversion.
+            - text: Wind shear.
+            - text: Turbulence.
+- id: QOMCZ
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504715
+    - BGS-501166
+    - AVEXAM-87944
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.03.02.01
+    - 050.10.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        What type of meteorological hazard to safe flight is most likely to be experienced during the final approach to Geneva (ETA 12:00 UTC) ?
+
+        TAF LSGG 020900Z 0210/0219 18007KT 9999 SCT020 BKN100 BECMG 0211/0214 RA SCT010 OVC020 PROB30 TEMPO 0211/0218 VRB10G25KT 4000 TSRA SCT005 BKN015CB=
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Low level wind shear
+          wrongAnswers:
+            - text: Anabatic winds
+            - text: Radiation fog
+            - text: Roll cloud associated with standing waves
+- id: QWLZG
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502461
+    - BGS-501224
+    - AVEXAM-75503
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.03.02.01
+  templates:
+    - type: simple
+      question: 'During the preparation for approach to Zurich airport (1 416 ft/AMSL) a pilot hears the following message on the ATIS: "Inversion warning. Inversion of 12°C between 1 900 ft and 2 300 ft altitude." This message indicates that the pilot should be prepared:'
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: for wind shear just above the inversion.
+          wrongAnswers:
+            - text: for fog below the inversion.
+            - text: for freezing precipitation below the inversion.
+            - text: that the performance of the engine will be reduced from inversion level down to ground.
+- id: QLBQC
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509159
+    - BGS-501842
+    - AVEXAM-74337
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.03.03.01
+  templates:
+    - type: simple
+      question: A pilot is flying an ILS approach towards runway 14, with the wind blowing parallel to the runway from the southeast. The wind strength is rapidly increasing with altitude, but the direction remains the same. What needs to be considered on the approach?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Without pilot intervention, the aircraft will likely fly below the glidepath with an associated decrease in IAS
+          wrongAnswers:
+            - text: Without pilot intervention, the aircraft will likely fly below the glidepath with an associated increase in IAS
+            - text: Without pilot intervention, the aircraft will likely fly above the glidepath with an associated increase in IAS
+            - text: Without pilot intervention, the aircraft will likely fly above the glidepath with an associated decrease in IAS
+- id: QTGUY
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503184
+    - BGS-500912
+    - BGS-500913
+    - AVEXAM-63658
+    - AVEXAM-66188
+    - ATPLQ-508169
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.03.03.01
+  templates:
+    - type: simple
+      question: During an ILS approach on RWY 33, a north-westerly wind is blowing parallel to the runway. Its speed is increasing rapidly with height while its change in direction is negligible. What has the pilot to be aware of with respect to wind shear and glide path (no autopilot engaged)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Without the pilot's intervention, the aircraft is likely to fly below the designated glide path with increasing deviation from it.
+          wrongAnswers:
+            - text: A deviation from the glide path will not have to be considered since there is no significant wind shear to be expected.
+            - text: Without the pilot's intervention, the aircraft is likely to fly above the designated glide path with decreasing deviation from it.
+            - text: Without the pilot's intervention, the aircraft is likely to fly above the designated glide path with increasing deviation from it.
+        - correctAnswers:
+            - text: Without the pilot's intervention, the aircraft is likely to fly above the designated glide path with increasing deviation from it.
+          wrongAnswers:
+            - text: Without the pilot's intervention, the aircraft is likely to fly below the designated glide path with decreasing deviation from it.
+            - text: Without the pilot's intervention, the aircraft is likely to fly below the designated glide path with increasing deviation from it.
+            - text: A deviation from the glide path will not have to be considered since there is no significant wind shear to be expected.
+- id: QERMS
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503343
+    - BGS-501704
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.03.03.02
+  templates:
+    - type: simple
+      question: "If the windshear due to microbursts is expected to occur during take-off, the best solution is to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Delay departure
+          wrongAnswers:
+            - text: Select to lower climb speed
+            - text: Avoid the shear area visually
+            - text: Perform reduced take-off thrust
+- id: QQATY
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505265
+    - AVEXAM-3659
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.03.03.02
+  templates:
+    - type: simple
+      question: Before a planned take-off, wind shear is forecast. What is the most advisable course of action?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Delay the take-off.
+          wrongAnswers:
+            - text: Initially climb at a shallow angle.
+            - text: Reduce take-off thrust.
+            - text: Select a lower climb speed.
+- id: QCDRV
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds:
+    - QGPHS
+  externalQuestionIds:
+    - ATPLQ-509152
+    - BGS-502354
+    - BGS-502578
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.01.01
+  templates:
+    - type: simple
+      question: |-
+        What terms/values must be inserted below?
+
+        Thunderstorms form when an air mass becomes so unstable that it convects violently. Under these conditions pockets of near-surface air can form into a .... (1) cloud, which may reach a height of up to .... (2) km.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1\. Cumulonimbus; 2\. 20
+          wrongAnswers:
+            - text: 1\. Nimbos; 2\. 14
+            - text: 1\. Cumulonimbus; 2\. 12
+            - text: 1\. Cumulus; 2\. 14
+- id: QGPHS
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds:
+    - QCDRV
+  externalQuestionIds:
+    - ATPLQ-507535
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.01.01
+    - 050.09.04.01.02
+  templates:
+    - type: simple
+      question: Thunderstorms have a great vertical extent and may form certain clouds. TS are associated with (1) \_\_\_ and their height may extend to (2)\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) Cumulonimbus; (2) 20 km.
+          wrongAnswers:
+            - text: (1) Stratus; (2) 10 km.
+            - text: (1) Stratus; (2) 20 km.
+            - text: (1) Cumulonimbus; (2) 12 km.
+- id: QVOLA
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508314
+    - AVEXAM-53121
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.01.02
+  templates:
+    - type: simple
+      question: A frontal thunderstorm will most likely appear in (1) _____ and will be (2) _____ than an air-mass thunderstorm.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) winter; (2) faster.
+          wrongAnswers:
+            - text: (1) summer; (2) faster.
+            - text: (1) summer; (2) slower.
+            - text: (1) winter; (2) slower.
+    - type: simple
+      question: Frontal thunderstorms most likely develop in (1) ___ and will be (2) ___ compared to an air-mass thunderstorms.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) winter; (2) faster
+          wrongAnswers:
+            - text: (1) winter; (2) slower
+            - text: (1) summer; (2) faster
+            - text: (1) summer; (2) slower
+- id: QHZMM
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds:
+    - QYERP
+  externalQuestionIds:
+    - ATPLQ-503357
+    - BGS-501362
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.01.02
+  templates:
+    - type: simple
+      question: Which thunderstorms generally develop on summer afternoons with little or no wind over land in moderate latitudes?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Air mass thunderstorms.
+          wrongAnswers:
+            - text: Warm front thunderstorms.
+            - text: Cold mass thunderstorms.
+            - text: Occlusion thunderstorms.
+- id: QYERP
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds:
+    - QHZMM
+  externalQuestionIds:
+    - ATPLQ-508866
+    - AVEXAM-76107
+    - AVEXAM-84696
+    - AVEXAM-79870
+    - AVEXAM-11389
+    - AVEXAM-56731
+    - BGS-500926
+    - BGS-500928
+    - ATPLQ-506098
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.01.02
+  templates:
+    - type: simple
+      question: Which of the following thunderstorms can be referred to as stationary thunderstorms?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Air mass thunderstorms
+          wrongAnswers:
+            - text: Thunderstorms associated with a cold front
+            - text: Thunderstorms associated with a warm front
+            - text: Thunderstorms associated with occlusions
+    - type: simple
+      question: Which of the following thunderstorms produce the most severe conditions, such as heavy hail and destructive winds?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Squall line thunderstorms.
+          wrongAnswers:
+            - text: Warm front thunderstorms.
+            - text: Daytime air mass thunderstorms.
+            - text: Nocturnal air mass thunderstorms.
+- id: QBIEP
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509951
+    - AVEXAM-32576
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.02.01
+  templates:
+    - type: simple
+      question: "The duration of the cumulus stage (building stage) of a single-cell TS is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 15 - 20 min
+          wrongAnswers:
+            - text: 60 min
+            - text: 30 - 40 min
+            - text: 40 - 50 min
+- id: QYCAC
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506276
+    - AVEXAM-69486
+    - BGS-500036
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.02.03
+  templates:
+    - type: simple
+      question: Convective weather phenomena can include..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: thunderstorms, hail, tornadoes, wind gusts, heavy showers, and lightning strikes.
+          wrongAnswers:
+            - text: thunderstorms, tornadoes, hail, haze, wind gusts, and advection fog.
+            - text: hail, lightning strikes, wind lulls, squalls, stratocumulus, and low level wind maximum.
+            - text: heavy showers, lightning strikes, hail, mist, squalls, and light rain over a large area.
+- id: QEHWW
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501030
+    - BGS-502519
+    - ATPLQ-501303
+    - ATPLQ-502192
+    - ATPLQ-503815
+    - ATPLQ-504523
+    - ATPLQ-507867
+  annexes:
+    - id: AFBG
+  learningObjectiveIds:
+    - 050.09.04.02.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The sketch above indicated a single-cell thunderstorm in the mature stage which is travelling in the direction of the wind arrow. Which of the following statements correctly identifies the likely locations of various weather phenomena?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Severe icing in area E, a gust front in area F, and microbursts in area H.
+          wrongAnswers:
+            - text: Severe turbulence in area E, microbursts in area F, and severe icing in area A.
+            - text: Severe icing in area A, lightning in area C, and severe wind shear in area H.
+            - text: Lightning in area D, a gust front in area G, and clear ice in area B.
+    - type: simple
+      question: |-
+        Refer to figure. 
+         
+        The figure depicts a single-cell thunderstorm in its mature stage, moving in the direction of the wind arrow. Which area is most likely associated with microbursts?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Area H
+          wrongAnswers:
+            - text: Area G
+            - text: Area C
+            - text: Area B
+        - correctAnswers:
+            - text: Area D
+          wrongAnswers:
+            - text: Area G
+            - text: Area C
+            - text: Area A
+    - type: simple
+      question: |-
+        Refer to figure. 
+         
+        The sketch above indicated a single-cell thunderstorm in the mature stage which is travelling in the direction of the wind arrow. In which of the following areas is severe turbulence most likely to be expected?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: E and F
+          wrongAnswers:
+            - text: A and C
+            - text: B and D
+            - text: G and H
+    - type: simple
+      question: |-
+        Refer to figure. 
+         
+        The figure illustrates a single-cell thunderstorm in its mature stage, moving in the direction of the wind arrow. In which area is severe icing most likely to occur?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Area E
+          wrongAnswers:
+            - text: Area A
+            - text: Area G
+            - text: Area F
+        - correctAnswers:
+            - text: Area A
+          wrongAnswers:
+            - text: Area G
+            - text: Area D
+            - text: Area E
+- id: QLJUU
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506888
+    - BGS-501883
+    - AVEXAM-15518
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.03.01
+  templates:
+    - type: simple
+      question: The basic outline of the electric field in the atmosphere may give a potential difference between the Earth's surface and the ionosphere of up to 500 kV caused by..
+      explanation: The potential difference between the Earth's surface and the ionosphere is maintained by the global distribution of thunderstorms, which charge the Earth negatively. The fair weather current discharges it.
+      presets:
+        - correctAnswers:
+            - text: the global distribution of thunderstorms.
+          wrongAnswers:
+            - text: fair weather current flow.
+            - text: the adiabatic process and the stability of the atmosphere.
+            - text: the relative perihelion and aphelion of the Earth to the Sun.
+- id: QMTTJ
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502068
+    - AVEXAM-58522
+    - BGS-502916
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.03.02
+  templates:
+    - type: simple
+      question: Various types of lightning are associated with cumulonimbus clouds. Which of the following best describes intra-cloud lightning?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: lightning embedded within a cloud that lights up as a sheet of luminosity during the flash.
+          wrongAnswers:
+            - text: flashes that extend out into the air around the storm but do NOT strike the ground.
+            - text: long, horizontally travelling flashes, often seen on the underside of stratiform clouds.
+            - text: a channel of negative charge which zigzags (moves erratically) downward, in roughly 50 m segments, in a forked pattern.
+- id: QPVRI
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506255
+    - BGS-501904
+    - BGS-501906
+    - BGS-501907
+    - BGS-501905
+    - ATPLQ-504173
+    - ATPLQ-508107
+    - ATPLQ-502829
+    - ATPLQ-509339
+    - BGS-502483
+  annexes:
+    - id: ARFN
+  learningObjectiveIds:
+    - 050.09.04.03.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The type of lightning shown in the picture is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cloud-to-Air.
+          wrongAnswers:
+            - text: Intra cloud.
+            - text: Cloud-to-cloud.
+            - text: Cloud-to-ground.
+        - correctAnswers:
+            - text: Cloud-to-ground.
+          wrongAnswers:
+            - text: Cloud-to-cloud.
+            - text: Cloud-to-Air.
+            - text: Intra cloud.
+        - correctAnswers:
+            - text: Intra cloud.
+          wrongAnswers:
+            - text: Cloud-to-cloud.
+            - text: Cloud-to-Air.
+            - text: Cloud-to-ground.
+        - correctAnswers:
+            - text: Cloud-to-cloud.
+          wrongAnswers:
+            - text: Cloud-to-Air.
+            - text: Cloud-to-ground.
+            - text: Intra cloud.
+- id: QGHHT
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501402
+    - AVEXAM-25731
+    - BGS-501901
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.03.03
+  templates:
+    - type: simple
+      question: St. Elmo's fire can be defined as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: an electric discharge from the aircraft caused by static build-up on the airframe.
+          wrongAnswers:
+            - text: lightning in the horizontal plane in a cumulonimbus cloud hitting the wing tip.
+            - text: the electric charge of the aircraft caused by air parcels over the wings and windscreen.
+            - text: lightning from the top of a mature cumulonimbus cloud hitting the fuselage.
+- id: QHPGL
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504407
+    - BGS-502526
+    - AVEXAM-38025
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.03.03
+    - 050.09.04.03.05
+  templates:
+    - type: multiple-correct
+      question: When a pilot reports a potential lightning strike, which of the following effects can be commonly associated with such incidents?
+      explanation: ""
+      options:
+        - text: Aircraft damage
+          correct: true
+        - text: Erratic compass reading
+          correct: true
+        - text: Failure of some avionics instruments
+          correct: true
+        - text: St Elmo's Fire
+          correct: false
+        - text: The smell of Sulphur Dioxide
+          correct: false
+        - text: Temporary blindness
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+- id: QUJNC
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507957
+    - BGS-501396
+    - AVEXAM-55221
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.03.03
+  templates:
+    - type: simple
+      question: What do you understand by "Saint Elmo's Fire"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A bright blue or violet glow visible around the windscreen and external parts of the aircraft, occasionally seen when flying in the vicinity of thunderstorms.
+          wrongAnswers:
+            - text: A natural light display in the sky, caused by charged particles in the solar wind reacting with particles in the upper atmosphere.
+            - text: A natural light display in the sky, often seen by pilots flying at high altitude in Northern latitudes only.
+            - text: A bright blue glow visible very briefly after a damaging lightning strike.
+- id: QJNQD
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508644
+    - AVEXAM-96293
+    - BGS-502493
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.03.04
+  templates:
+    - type: simple
+      question: In a thunderstorm the electrical discharges most commonly happen due to potential differences between..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the Earth's surface and the cloud or between different parts of the cloud.
+          wrongAnswers:
+            - text: two thunderstorms, of which one is developing and the other dissipating.
+            - text: the Earth's surface and noctilucent clouds in the mesosphere.
+            - text: the top of the thunderstorm and the surrounding air at the same altitude.
+- id: QWOPF
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508131
+    - AVEXAM-57857
+    - BGS-502076
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.03.04
+  templates:
+    - type: simple
+      question: The development of lightning may be described as..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a discharge of electricity due to the high electric potential between clouds and the Earth's surface.
+          wrongAnswers:
+            - text: a result of increasing static electricity in areas where warm and cold air contact along a front.
+            - text: a decrease of potential energy between the Earth's surface and the base of clouds.
+            - text: the consequence of high sunspot activity in the ionosphere causing high electric potentials.
+- id: QMMPN
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502881
+    - AVEXAM-70865
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.03.05
+  templates:
+    - type: simple
+      question: "Aircraft struck by lightning may sometimes get considerable damage and, at least temporarily, the manoeuvring of the aircraft will be made more difficult. Select the correct statement regarding lightning:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Aircraft made by composite material may get severe damage, the crew may be blinded and temporarily lose the hearing.
+          wrongAnswers:
+            - text: Though flying through an electric field, the aircraft itself is not a charge carrier and therefore it cannot initiate a lightning discharge.
+            - text: An aircraft made by metal has a certain capacity to attract a lightning, but the lightning will follow the surface and therefore no damage will be caused.
+            - text: An aircraft has in the atmosphere the same qualities as a "Faraday's cage", which means that being struck by lightning seldom occurs. But if it happens, the result will be an occasional engine failure. The crew may get a shock.
+- id: QHHEF
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509277
+    - BGS-500951
+    - AVEXAM-89545
+    - ATPLQ-505278
+    - BGS-500952
+    - ATPLQ-507819
+    - BGS-500947
+    - AVEXAM-7794
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.04.02
+    - 050.09.04.04.06
+  templates:
+    - type: simple
+      question: What is the approximate maximum diameter of the area affected by damaging winds at the surface caused by a microburst?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 4 km
+          wrongAnswers:
+            - text: 20 km
+            - text: 50 km
+            - text: 400 m
+    - type: simple
+      question: "A microburst with its damaging winds at the surface:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: has a diameter of up to 4 km.
+          wrongAnswers:
+            - text: occurs only in tropical areas.
+            - text: always occurs in thunderstorms.
+            - text: has a life time of more than 30 minutes.
+- id: QUPSO
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds:
+    - QRSXE
+  externalQuestionIds:
+    - ATPLQ-502528
+    - BGS-501235
+    - AVEXAM-46217
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.04.02
+    - 050.09.04.04.05
+  templates:
+    - type: simple
+      question: "The diameter and the life time of a typical microburst are in the order of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 4 km and 1-5 minutes.
+          wrongAnswers:
+            - text: 8 km and 5-15 minutes.
+            - text: 12 km and 5-10 minutes.
+            - text: 4 km and 30-40 minutes.
+- id: QRRLT
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508081
+    - BGS-502580
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.04.03
+  templates:
+    - type: simple
+      question: What weather situation leads to the formation of a downburst?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cold air descending down from a mature cumulonimbus.
+          wrongAnswers:
+            - text: The presence of a growing thermal bubble above a desert in summer time.
+            - text: Turbulence formation in a stable air mass over mountainous terrain.
+            - text: A sudden change in wind direction at the passage of a front.
+- id: QSSDF
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509060
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.04.03
+  templates:
+    - type: simple
+      question: |-
+        The LLWAS (Low-Level Wind Shear Alert System) is a system that is designed to detect low-level wind shear conditions in the local area around an airport. In this situation. One sensor is in the center of the aerodrome, at an elevation of 150 ft, measuring a 12 kt wind, and another one further NE, at 60 ft elevation, measuring 25 kt.
+
+        What is a likely reason for this to occur?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: There are downbursts or strong downdrafts present in the area.
+          wrongAnswers:
+            - text: A weak warm front is passing overhead, causing differences in wind speed and direction.
+            - text: The wind is veering.
+            - text: A cold front is nearby, causing wind to back.
+- id: QRSXE
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds:
+    - QUPSO
+  externalQuestionIds:
+    - ATPLQ-502162
+    - BGS-500949
+    - AVEXAM-722
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.04.05
+  templates:
+    - type: simple
+      question: How long does a typical microburst last?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 to 5 minutes.
+          wrongAnswers:
+            - text: 1 to 2 hours.
+            - text: About 30 minutes.
+            - text: Less than 1 minute.
+- id: QHVLC
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508991
+    - BGS-501834
+    - AVEXAM-20003
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.04.06
+  templates:
+    - type: simple
+      question: "An aircraft on the approach to an aerodrome experiences an increase in tailwind due to a microburst located behind the aircraft. In absence of pilot intervention, the aircraft will:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Descend. The indicated airspeed will decrease
+          wrongAnswers:
+            - text: Descend. The indicated airspeed will increase
+            - text: Climb. The indicated airspeed will decrease
+            - text: Climb. The indicated airspeed will increase
+- id: QOIFK
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506325
+    - BGS-502425
+    - AVEXAM-48930
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.04.06
+  templates:
+    - type: simple
+      question: What aviation hazard is most likely to be associated with downbursts?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Wind shear.
+          wrongAnswers:
+            - text: Lightning.
+            - text: Severe icing.
+            - text: Loss of visual reference.
+- id: QBZDV
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501153
+    - BGS-502440
+    - AVEXAM-56494
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.04.05.01
+    - 050.09.04.05.02
+  templates:
+    - type: simple
+      question: Recognising that a flight into cumulonimbus (Cb) clouds is very hazardous, a Cb should be avoided visually and cleared by a minimum of (1) ... ft vertically and (2) ... NM laterally to minimise the risk of encountering severe turbulence. Which values should be inserted?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1\. 5000 ft 2\. 10 NM
+          wrongAnswers:
+            - text: 1\. 6000 ft 2\. 5 NM
+            - text: 1\. 4000 ft 2\. 15 NM
+            - text: 1\. 3000 ft 2\. 25 NM
+- id: QDDWZ
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509609
+    - BGS-502185
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.05.01.01
+    - 050.09.05.01.05
+  templates:
+    - type: simple
+      question: Shortly after take-off in an area with local storms, a pilot observes a thunderstorm drawing air into its base cloud, and a narrow funnel-shaped cloud extending downwards from the cloud, touching the Earth's surface. very high around this funnel by observing the plants, dust and debris on the ground. The phenomenon disappears within a few minutes. The pilot has observed a...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: tornado.
+          wrongAnswers:
+            - text: cyclone.
+            - text: funnel-cloud.
+            - text: dust devil.
+- id: QWOHY
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504910
+    - AVEXAM-87846
+    - BGS-502186
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.05.01.02
+  templates:
+    - type: simple
+      question: |-
+        A pilot will depart from ESSA (Stockholm Arlanda) airport. During the briefing the meteorologist informs them that there is strong instability in the area and provides the following special weather report.
+
+        SPECI ESSA 31035G45KT 270V360 3000 BKN010CB BKN023TCU OVC040 24/20 Q0990 RERA WS.
+
+        Given the available information, a tornado...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: could form because of the current circular air motion and the prevailing low pressure.
+          wrongAnswers:
+            - text: could form because the air temperature is close to the dew point.
+            - text: could NOT form because the OAT is below 26°C which is the temperature at which a tornado could form.
+            - text: could NOT form because dry and dusty ground is NOT existent in the area.
+- id: QKHOH
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509763
+    - AVEXAM-84253
+    - BGS-500963
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.05.01.03
+  templates:
+    - type: simple
+      question: "Most tornadoes have a speed of movement that usually ranges from:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 20 to 40 knots.
+          wrongAnswers:
+            - text: 30 to 70 knots.
+            - text: 120 to 180 knots.
+            - text: 100 to 140 knots.
+- id: QRCAQ
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507227
+    - AVEXAM-69645
+    - BGS-502103
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.05.01.03
+    - 050.09.05.01.04
+  templates:
+    - type: simple
+      question: "A pilot has just finished reviewing the meteorological information for a flight within central within central Europe. This is their last flight for the month of July. They noticed that the destination weather report warns of tornadoes in the area. This is: He/she noticed that the destination weather report warns of tornadoes in the area. This is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Possible, as tornadoes can occur in Europe throughout the year.
+          wrongAnswers:
+            - text: NOT possible, as tornadoes only occur in North America.
+            - text: Possible, as tornadoes, including violent ones, are common in Europe.
+            - text: NOT possible, as tornadoes do NOT occur during the summer in Europe.
+- id: QUQDM
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504522
+    - AVEXAM-2812
+    - BGS-502101
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.05.01.03
+  templates:
+    - type: simple
+      question: |-
+        When 1 hour away from the destination, the pilot receives notification that tornado activity is observed 10 NM from the airport, moving towards the airport and away from the direction in which the aircraft is flying.
+
+        Based on this information, the best course of action for the pilot is to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: reduce the aircraft speed, as a typical tornado would pass over the airport in approximately 20 to 40 minutes.
+          wrongAnswers:
+            - text: continue according to the flight plan, as a typical tornado would pass over the airport in approximately 3 minutes.
+            - text: continue according to the flight plan, as a typical tornado would pass over the airport in approximately 6 minutes.
+            - text: adjust the aircraft speed, as a typical tornado would be over the airport in approximately 90 minutes.
+- id: QXUUF
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506410
+    - AVEXAM-97334
+    - ATPLQ-503837
+    - AVEXAM-86335
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.05.01.05
+  templates:
+    - type: simple
+      question: "The main difference between a tornado and a dust devil is that:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The vertical extent of the dust devil is smaller than that of tornadoes.
+          wrongAnswers:
+            - text: The typical diameter of a dust devil is, on average larger than that of a tornado.
+            - text: The vertical extent of the dust devil is larger than that of tornadoes.
+            - text: The typical wind speed of a dust devil is, on average bigger than that of a tornado.
+    - type: simple
+      question: Dust devil compared to tornado is…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Narrower and smaller in diameter.
+          wrongAnswers:
+            - text: Wider and smaller in diameter.
+            - text: Wider and bigger in diameter.
+            - text: Narrower and bigger in diameter.
+    - type: simple
+      question: How does the size of a dust devil compare to that of a tornado?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Narrower and smaller in diameter.
+          wrongAnswers:
+            - text: Wider and smaller in diameter.
+            - text: Wider and bigger in diameter.
+            - text: Narrower and bigger in diameter.
+- id: QZQDP
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507567
+    - AVEXAM-35683
+    - BGS-502063
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.05.01.05
+  templates:
+    - type: simple
+      question: A Tornado when compared to a dust devil, is normally (1)\_\_ in Diameter and originates from (2)\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) Wider, (2) a cloud.
+          wrongAnswers:
+            - text: (1) Wider, (2) the ground.
+            - text: (1) Narrower, (2) the ground.
+            - text: (1) Narrower, (2) a cloud.
+- id: QDMHU
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds:
+    - QGDUJ
+  externalQuestionIds:
+    - ATPLQ-502742
+    - AVEXAM-74154
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.06.01.01
+  templates:
+    - type: simple
+      question: |-
+        The crew get the ATIS for their destination aerodrome, which is summarised as follows:
+
+        Temperature: -18ºC   
+         Dew point: -24ºC   
+         Wind: Calm   
+         Temperature inversion present
+
+        Which of the following may be a flight hazard in this situation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Low level wind shear.
+          wrongAnswers:
+            - text: Reduced braking performance.
+            - text: Low visibility due to snow.
+            - text: The altimeter will overread the aerodrome elevation when the QNH is set.
+- id: QGDUJ
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds:
+    - QDMHU
+  externalQuestionIds:
+    - ATPLQ-504359
+    - BGS-502423
+    - AVEXAM-14255
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.06.01.01
+  templates:
+    - type: simple
+      question: Prior to arriving at an airport after sunset, an ATIS reports calm surface winds, temperature -18°C, dew point -24°C, and a 15°C inversion at 300 ft above aerodrome level. What flight safety risk can be expected, based on that ATIS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Possibility for low-altitude wind shear.
+          wrongAnswers:
+            - text: The altimeter will over-read the aerodrome elevation.
+            - text: A sudden degradation of braking performance on the runway.
+            - text: The possibility for a sudden reduction in visibility due to the blowing snow.
+- id: QXSGS
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508654
+    - AVEXAM-50052
+    - BGS-502117
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.07.01.01
+  templates:
+    - type: multiple-correct
+      question: Which of the following options are advantages of choosing a cruising level in the lower stratosphere?
+      explanation: ""
+      options:
+        - text: Economic fuel consumption
+          correct: true
+        - text: Better TAS
+          correct: true
+        - text: Emissions have less environmental impact
+          correct: false
+        - text: Mountain wave systems remain well below
+          correct: false
+        - text: Very few clouds
+          correct: true
+        - text: Less wear on the engines
+          correct: false
+        - text: Less turbulence.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 3
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 1
+            - 5
+            - 6
+        - show:
+            - 0
+            - 1
+            - 2
+            - 6
+- id: QFNKX
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503266
+    - BGS-502358
+    - AVEXAM-62926
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.08.01.01
+  templates:
+    - type: simple
+      question: "What will happen when a warm front reaches a mountain range? The air is lifted over the mountain, and will:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Strengthen the formation of clouds and precipitation on the windward side.
+          wrongAnswers:
+            - text: Increase the speed of the warm front, causing the front to be arrested on the leeward side.
+            - text: Have increased precipitation on the leeward side of the mountain.
+            - text: Decrease in strength, so the formation of clouds will be less on the windward side.
+- id: QLKTA
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505718
+    - AVEXAM-80090
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.08.02.01
+  templates:
+    - type: simple
+      question: A flight crew declare an emergency and begin a diversion to the nearest suitable airfield, which is surrounded by mountains. Which of the following hazards should be included in the descent brief?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Rotor turbulence which could lead to loss of control.
+          wrongAnswers:
+            - text: Turbulence on the windward side of the hills due to up and down draughts.
+            - text: Severe turbulence inside alto-lenticularis clouds.
+            - text: Fog formation due to moist air descending into the valley.
+- id: QSFLI
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507389
+    - BGS-502508
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.08.02.01
+    - 050.09.08.03.03
+  templates:
+    - type: simple
+      question: Exercise caution when flying in the vicinity of temperature inversions...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When flying in the winter in the mountains, due to wind shear and reduced aircraft performance.
+          wrongAnswers:
+            - text: While evening cooling of the air above the valley causes high speed winds on the surface.
+            - text: Since light winds over the mountain but strong winds at the airport on the windward side may indicate high level wind shear.
+            - text: Due to small-scale density variations that cause turbulent mixing of the air.
+- id: QYIWU
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502785
+    - ATPLQ-505946
+  annexes:
+    - id: ABLJ
+  learningObjectiveIds:
+    - 050.09.08.02.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Complete the following statement according to figure.   
+         Mountain waves and rotors are expected at \_\_\_\_\_ and \_\_\_\_\_ respectively.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2,3 and 5,6
+          wrongAnswers:
+            - text: 4 and 5,6
+            - text: 5,6 and 2,3
+            - text: 2,3 and 1
+- id: QXEKM
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507514
+    - AVEXAM-74483
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.08.02.03
+  templates:
+    - type: simple
+      question: "The icing in cloud which forms over hills is likely to be more severe than in the same type of cloud over level terrain because:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: enforced ascent of air releases more water, which is retained in the cloud by the increased upward components.
+          wrongAnswers:
+            - text: orographic lifting causes the freezing level to rise and increases the free water content of the cloud.
+            - text: adiabatic cooling lowers the freezing level and the water content of the cloud.
+            - text: increases the temperature inside the cloud by forcing the release of latent heat so causing the air to hold more water vapour.
+- id: QZXHO
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507005
+    - AVEXAM-84680
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.08.02.03
+  templates:
+    - type: simple
+      question: Mountains can affect ice accretion, due to orographic intensification, because..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the air is forced to rise and supercooled water droplets can form on the windward side.
+          wrongAnswers:
+            - text: they form a topographical barrier where high pressure systems with moderate to severe icing conditions may form.
+            - text: on the leeward side supercooled water droplets form due to the associated temperature drop.
+            - text: the air may become polluted by dust from the mountain slopes, creating hygroscopic freezing nuclei.
+- id: QTLZO
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509748
+    - AVEXAM-49527
+    - BGS-500981
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.08.03.01
+  templates:
+    - type: simple
+      question: Mark the statement most reasonable regarding a valley inversion.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Over night, cool dense air as a result of radiation cooling will descend along the mountain slopes into the basin and lead to the development of a valley inversion.
+          wrongAnswers:
+            - text: If the incident solar radiation is non-uniform because of orographic conditions, the development of a valley inversion is very likely during daytime.
+            - text: Provided that the lee side winds are able to displace the air at the bottom of the basin, the Foehn effect is the predominant factor in the development of a valley inversion.
+            - text: Small scale density variations due to turbulent mixing (mainly caused by the roughness of rocks) are a significant prerequisite for the formation of valley inversions.
+- id: QNWJH
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503646
+    - AVEXAM-52266
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.08.03.03
+  templates:
+    - type: simple
+      question: What may be expected after take-off from a runway located in a Cold-Air Pool on the lee side of a mountain?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Wind shear when crossing the inversion layer.
+          wrongAnswers:
+            - text: Lightning.
+            - text: Decreasing visibility during the climb.
+            - text: Reduced engine performance during the ground roll and initial climb.
+- id: QKKMA
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509198
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.09.01.01
+  templates:
+    - type: simple
+      question: When will you experience the worst visibility?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Heavy snow.
+          wrongAnswers:
+            - text: Drizzle.
+            - text: Fog.
+            - text: Heavy rain.
+- id: QNGIM
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503462
+    - AVEXAM-4694
+    - BGS-500986
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.09.01.01
+  templates:
+    - type: simple
+      question: "Flight visibility from the cockpit during approach in a tropical downpour can decrease to as low as:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: tens of metres.
+          wrongAnswers:
+            - text: about 200 m.
+            - text: about 500 m.
+            - text: about 1 000 m
+- id: QGHVR
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501776
+    - BGS-502122
+    - AVEXAM-15902
+    - AVEXAM-50392
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.09.01.02
+    - 050.09.09.02.05
+  templates:
+    - type: simple
+      question: |-
+        Given the following METAR for a Spanish aerodrome in September, an hour before sunset; at what distance might a pilot expect to see the threshold of runway 26 whilst on final approach?
+
+        METAR LEXX 211730Z 26008KT 220V320 3000 HZ SKC Q1010.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: More than 1500 m but less than 3000 m.
+          wrongAnswers:
+            - text: More than 3000 m.
+            - text: 3000 m.
+            - text: More than 1000 m but less than 1500 m.
+- id: QYTJW
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505080
+    - AVEXAM-37825
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.09.01.03
+  templates:
+    - type: simple
+      question: "The following is classified as a reason for an obscuration:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Dust
+          wrongAnswers:
+            - text: Snow
+            - text: Hail
+            - text: Drizzle
+- id: QLWIT
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506671
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.09.01.04
+  templates:
+    - type: simple
+      question: Surface visibility at a destination in the centre of France in August is reported as 1 500 metres in haze, with an inversion at 500 feet above aerodrome level and sky clear above. The pilot makes a non-precision approach to runway 18 shortly before sunset with a minimum descent altitude of 600 feet above aerodrome level. At what range would the pilot expect to see the runway and why?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: More than 1 500 m because the aircraft will still be flying above the haze.
+          wrongAnswers:
+            - text: Less than 1 500 m because the sunlight reflecting from the top of the mist layer will reduce air-to-ground visibility.
+            - text: Less than 1 500 m because the sunlight reflecting from the mist particles will reduce flight visibility.
+            - text: Less than 1 500 m because the Sun in the pilot's eyes will reduce the ability to distinguish objects and therefore air-to-ground visibility.
+- id: QTAAE
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506213
+    - BGS-501951
+    - AVEXAM-73655
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.09.01.04
+  templates:
+    - type: simple
+      question: It is 17:30 UTC on a day in March. You are listening to the ATIS for an aerodrome with a single runway near London. The following is reported ‘Visibility 3000 metres in haze, sky clear’. When about to land on Runway 27, the runway in use, what flight visibility would you expect? (NO RVR information is given in the ATIS message)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Considerably less than 3 000 m, but not less than 1 500 m.
+          wrongAnswers:
+            - text: Considerably less than 3 000 m, and less than 1 500 m into the sun.
+            - text: More than 3 000 metres for all runways.
+            - text: 3 000 metres.
+- id: QYTDX
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503352
+    - AVEXAM-92488
+    - BGS-501372
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.09.02.01
+  templates:
+    - type: simple
+      question: In the case of blowing snow, visibility may be reduced to a minimum value of..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 m
+          wrongAnswers:
+            - text: 100 m
+            - text: 1000 m
+            - text: 500 m
+- id: QOVCF
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507542
+    - AVEXAM-92703
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.09.02.02
+  templates:
+    - type: simple
+      question: What does vertical visibility mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It is the maximum height at which a pilot, in flight, looking vertically down above the airfield, can see the ground.
+          wrongAnswers:
+            - text: The visibility when LVO is in operation only.
+            - text: It is measured when cloud base is at 2 000 ft height above ground.
+            - text: It is measured when cloud base is at 500 ft height above ground.
+- id: QANAX
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508976
+    - AVEXAM-19487
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.09.02.02
+  templates:
+    - type: simple
+      question: A pilot receives the METAR for the destination aerodrome , which reports low drifting sand. They should expect...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Visibility above eye level is NOT reduced, as the sand should reach a maximum height of 6 ft.
+          wrongAnswers:
+            - text: Reduced visibility due to sand that, depending on the intensity of the wind speed, can extend up to 600 ft.
+            - text: The phenomenon to reduce the prevailing visibility up to approximately a height of 6000 ft
+            - text: That the landing runway markings remain visible and identifiable.
+- id: QCDCX
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509563
+    - AVEXAM-91868
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.09.02.02
+  templates:
+    - type: simple
+      question: "The correct definition of low drifting sand is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Sand that is lifted by the wind to less than 2 m above the ground level.
+          wrongAnswers:
+            - text: This qualifies the low-level gusts of sand when in the vicinity of a sandstorm.
+            - text: Sand that is lifted by the wind to more than 2 m above the ground level.
+            - text: It is a particular type of sandstorm, usually originating from Egypt.
+- id: QFMAV
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds:
+    - QPVMS
+  externalQuestionIds:
+    - ATPLQ-503576
+    - AVEXAM-7056
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.09.02.03
+  templates:
+    - type: simple
+      question: "If a moderate duststorm with the sky obscured is reported, the visibility will be:"
+      explanation: In a moderate duststorm or sandstorm with the sky obscured, the visibility is between 200 m and 600 m. In a heavy one the visibility is below 200 m.
+      presets:
+        - correctAnswers:
+            - text: between 200 m and 600 m.
+          wrongAnswers:
+            - text: between 601 m and 1 200 m.
+            - text: above 1 200 m.
+            - text: below 200 m.
+- id: QPVMS
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds:
+    - QFMAV
+  externalQuestionIds:
+    - BGS-501903
+    - ATPLQ-509920
+    - AVEXAM-77995
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.09.02.03
+  templates:
+    - type: simple
+      question: If a heavy duststorm with the sky obscured is reported, the visibility will be..
+      explanation: A heavy duststorm or sandstorm reduces the visibility to below 200 m.
+      presets:
+        - correctAnswers:
+            - text: below 200 m.
+          wrongAnswers:
+            - text: between 601 m and 1200 m.
+            - text: above 1200 m.
+            - text: between 200 m and 600 m.
+- id: QHBSP
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509151
+    - AVEXAM-65668
+    - BGS-501418
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.09.02.04
+  templates:
+    - type: simple
+      question: Freezing rain can reduce visibility severely by forming..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ice on the windshield, preventing lookout from the cockpit.
+          wrongAnswers:
+            - text: mixed ice in the air before hitting the windshield.
+            - text: ice pellets by the Bergeron process.
+            - text: dense fog due to evaporation of a portion of the supercooled droplets.
+- id: QYEMF
+  subjectId: "050"
+  chapterId: "050.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508630
+    - BGS-502114
+    - AVEXAM-19852
+  annexes: []
+  learningObjectiveIds:
+    - 050.09.09.02.06
+  templates:
+    - type: simple
+      question: Surface visibility at a destination in the centre of France in August is reported as 1 500 metres in haze, with an inversion at 500 feet above aerodrome level and sky clear above. The pilot makes a non-precision approach to runway 27 shortly before sunset with a minimum descent altitude of 600 feet above aerodrome level. At what range would the pilot expect to see the runway and why?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Less than 1 500 metres because the sunlight reflecting from the top of the haze layer will reduce air-to-ground visibility.
+          wrongAnswers:
+            - text: Less than 1 500 metres because the Sun in the pilot’s eyes will reduce the ability to distinguish objects and therefore air-to-ground visibility.
+            - text: Less than 1 500 metres because the sunlight reflecting from the haze particles will reduce flight visibility.
+            - text: More than 1500 metres because the aircraft will still be flying above the haze.

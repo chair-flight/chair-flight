@@ -1,0 +1,2519 @@
+- id: QCXOS
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105029
+    - AVEXAM-73646
+    - AVEXAM-43669
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.01.01.01
+  templates:
+    - type: simple
+      question: What shall the code element 2 identify in the "Aerodrome Reference Code”?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The aircraft wingspan and the outer main gear wheel span.
+          wrongAnswers:
+            - text: The aircraft wingspan only.
+            - text: The length of the aircraft fuselage.
+            - text: The width of the aircraft wing.
+- id: QIFBX
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104591
+    - AVEXAM-68416
+    - BGS-101730
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.02.02.01
+  templates:
+    - type: simple
+      question: Regarding the bearing strength of aprons, runways, and taxiways, the abbreviation PCN stands for..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pavement Classification Number.
+          wrongAnswers:
+            - text: Platform Code Number.
+            - text: Platform Classification Number.
+            - text: Pavement Code Number.
+- id: QUDYF
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104738
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.02.02.01
+  templates:
+    - type: simple
+      question: |-
+        The principles of pavement classification numbers (PCNs) and aircraft classification numbers (ACNs) are described by ICAO Annex 14\. These numbers describe the strength of a surface and the impact an aircraft will have on a surface.   
+         Select the correct option:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An aircraft with a given ACN value may operate on a surface with a lower PCN value if certain operational limitations are met.
+          wrongAnswers:
+            - text: The PCN value must be exactly equal to the ACN value of an aircraft in order to allow for unrestricted operation of that aircraft.
+            - text: The ACN of an aircraft is independent of the actual weight of the aircraft and tyre pressure and is always reported for maximum weight.
+            - text: The published PCN value must be equal to or lower than the aircraft's ACN value to allow for continuous and unlimited operation.
+- id: QALOA
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106929
+    - BGS-100764
+    - AVEXAM-30075
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.02.02.02
+  templates:
+    - type: simple
+      question: "The Pavement Classification System (ACN-PCN), for an aircraft under 5 700 kg:"
+      explanation: The ACN-PCN method is not used for aircraft of 5 700 kg or less. Their pavement strength is reported as the maximum allowable aircraft mass and the maximum allowable tyre pressure.
+      presets:
+        - correctAnswers:
+            - text: The Pavement Classification System is not applicable to aircraft under 5700 kg.
+          wrongAnswers:
+            - text: Lists the types of aircraft permitted to use that pavement.
+            - text: Is used in the normal way.
+            - text: Is used for grass strips.
+- id: QERFZ
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105043
+    - BGS-101733
+    - BGS-101432
+    - BGS-100758
+    - AVEXAM-16739
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.02.02.02
+  templates:
+    - type: simple
+      question: According to ICAO Annex 14, the bearing strength of a pavement intended for aircraft of apron (ramp) mass equal to or less than 5700 kg shall be made available by reporting which information?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The maximum allowable aircraft mass and maximum allowable tire pressure.
+          wrongAnswers:
+            - text: The maximum allowable tire pressure category or value and evaluation method.
+            - text: The maximum allowable aircraft mass and subgrade strength category.
+            - text: The maximum allowable tire pressure category and subgrade strength category.
+- id: QQJQO
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102501
+    - BGS-100409
+    - BGS-100410
+    - AVEXAM-99641
+    - AVEXAM-61122
+    - ATPLQ-104258
+    - ATPLQ-107614
+    - AVEXAM-68794
+    - AVEXAM-24065
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.02.03.02
+  templates:
+    - type: simple
+      question: Accelerate stop distance available (ASDA) is the length of the..
+      explanation: |-
+        ### Regulation (EU) No 139/2014, Definitions
+
+        > ‘Accelerate-stop distance available (ASDA)’ means the length of the **take-off run available plus the length of the stopway** if provided.
+        >
+        > ‘Take-off distance available (TODA)’ means the length of the take-off run available plus the length of the **clearway** if provided.
+
+        The clearway only adds to TODA. It never adds to ASDA.
+      presets:
+        - correctAnswers:
+            - text: take-off run available plus the length of provided stopway.
+          wrongAnswers:
+            - text: runway available plus the length of provided stopway.
+            - text: take-off run available plus the length of provided clearway.
+            - text: take-off run available plus the length of provided stopway and clearway.
+    - type: simple
+      question: If a clearway is provided, its length is part of the…
+      explanation: |-
+        ### Regulation (EU) No 139/2014, Definitions
+
+        > ‘Accelerate-stop distance available (ASDA)’ means the length of the **take-off run available plus the length of the stopway** if provided.
+        >
+        > ‘Take-off distance available (TODA)’ means the length of the take-off run available plus the length of the **clearway** if provided.
+
+        The clearway only adds to TODA. It never adds to ASDA.
+      presets:
+        - correctAnswers:
+            - text: Take-Off Distance Available (TODA).
+          wrongAnswers:
+            - text: Accelerate-Stop Distance Available (ASDA).
+            - text: Take-Off Runway Available (TORA).
+            - text: Landing Distance Available (LDA).
+    - type: simple
+      question: |-
+        Determine the length of the Accelerate-Stop Distance Available (ASDA) using the given information.
+
+         
+         
+         TORA:
+         2 400 m
+         
+         
+         Stopway:
+         200 m
+         
+         
+         Clearway:
+         400 m
+      explanation: |-
+        ### Regulation (EU) No 139/2014, Definitions
+
+        > ‘Accelerate-stop distance available (ASDA)’ means the length of the **take-off run available plus the length of the stopway** if provided.
+        >
+        > ‘Take-off distance available (TODA)’ means the length of the take-off run available plus the length of the **clearway** if provided.
+
+        The clearway only adds to TODA. It never adds to ASDA.
+      presets:
+        - correctAnswers:
+            - text: 2 600 m
+          wrongAnswers:
+            - text: 2 000 m
+            - text: 2 200 m
+            - text: 2 400 m
+    - type: simple
+      question: |-
+        Determine the length of the Accelerate-Stop Distance Available (ASDA) given the following data:
+
+         
+         
+         TORA:
+         2 000 m
+         
+         
+         Stopway:
+         400 m
+         
+         
+         Clearway:
+         200 m
+      explanation: |-
+        ### Regulation (EU) No 139/2014, Definitions
+
+        > ‘Accelerate-stop distance available (ASDA)’ means the length of the **take-off run available plus the length of the stopway** if provided.
+        >
+        > ‘Take-off distance available (TODA)’ means the length of the take-off run available plus the length of the **clearway** if provided.
+
+        The clearway only adds to TODA. It never adds to ASDA.
+      presets:
+        - correctAnswers:
+            - text: 2 400 m
+          wrongAnswers:
+            - text: 2 200 m
+            - text: 2 600 m
+            - text: 2 000 m
+- id: QFSRF
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103484
+    - BGS-101515
+    - AVEXAM-730396
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.02.04.01
+  templates:
+    - type: simple
+      question: "A runway inspection shows that there is standing water on the runway. This information is relative to the condition of the movement areas and will be reported to aeronautical information services and ATS units. Why? In order to enable those units to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Provide the necessary information to arriving and departing aircraft.
+          wrongAnswers:
+            - text: Provide the necessary information to arriving aircraft only.
+            - text: Provide the necessary information to departing aircraft only.
+            - text: Calculate the runway Pavement Classification Number and update aerodrome charts.
+- id: QFZDB
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102873
+    - AVEXAM-2263
+    - AVEXAM-13503
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.02.04.02
+  templates:
+    - type: simple
+      question: Which of the following occurrences during the Approach and Landing phases of flight must be reported to ATC?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Braking action being lower than reported.
+          wrongAnswers:
+            - text: Low drifting snow on the runway.
+            - text: RVR seems to be worse than reported.
+            - text: Any ice built up on the airframe during final approach.
+- id: QVPLB
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106563
+    - BGS-101434
+    - AVEXAM-59074
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.02.04.03
+  templates:
+    - type: simple
+      question: According to ICAO Annex 14 and the European Aerodromes Regulation, the surface condition of the runway shall be assessed and reported, including a description of the contaminant. Which of the following is a correct term that can be used to describe a contaminant?
+      explanation: Compacted snow is one of the contaminant types used to describe the runway surface condition. Fumes and freezing drizzle are not contaminants. Freezing drizzle is a weather phenomenon.
+      presets:
+        - correctAnswers:
+            - text: Compacted snow
+          wrongAnswers:
+            - text: Fumes
+            - text: Freezing Drizzle (FZDZ)
+            - text: Compacted ice
+- id: QEVHS
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109479
+    - AVEXAM-63001
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.02.04.03
+  templates:
+    - type: simple
+      question: Slush is defined as...
+      explanation: |-
+        ### Regulation (EU) No 139/2014, Definitions
+
+        > ‘Slush’ means snow that is so **water-saturated** that water will drain from it when a handful is picked up or will **splatter if stepped on forcefully**.
+      presets:
+        - correctAnswers:
+            - text: Snow that is so water-saturated that water will drain from it when a handful is picked up or will splatter if stepped on forcefully.
+          wrongAnswers:
+            - text: "Snow which can be blown if loose or, if compacted by hand, will fall apart again upon release; specific gravity: up to but not including 0.35."
+            - text: "Snow which has been compressed into a solid mass that resists further compression and will hold together or break up into lumps if picked up; specific gravity: 0.5 and over."
+            - text: "Snow which, if compacted by hand, will stick together and tend to or form a snowball; specific gravity: 0.35 up to but not including 0.5."
+- id: QQIBA
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101337
+    - AVEXAM-77031
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.02.04.03
+  templates:
+    - type: simple
+      question: The type of contamination that with a heel-and-toe slap-down motion against the ground will be displaced with a splatter is...
+      explanation: |-
+        ### Regulation (EU) No 139/2014, Definitions
+
+        > ‘Slush’ means snow that is so **water-saturated** that water will drain from it when a handful is picked up or will **splatter if stepped on forcefully**.
+      presets:
+        - correctAnswers:
+            - text: slush.
+          wrongAnswers:
+            - text: wet snow.
+            - text: dry snow.
+            - text: ice.
+- id: QVKRG
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103852
+    - BGS-101382
+    - AVEXAM-69388
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.02.04.03
+  templates:
+    - type: simple
+      question: What does the term "slush" stand for?
+      explanation: |-
+        ### Regulation (EU) No 139/2014, Definitions
+
+        > ‘Slush’ means snow that is so **water-saturated** that water will drain from it when a handful is picked up or will **splatter if stepped on forcefully**.
+      presets:
+        - correctAnswers:
+            - text: "Water-saturated snow which with a heel-and-toe slap-down motion against the ground will be displaced with a splatter; specific gravity: 0.5 up to 0.8."
+          wrongAnswers:
+            - text: "Water-saturated snow which can be blown if loose or, if compacted by hand, will fall apart again upon release; specific gravity: up to but not including 0.35."
+            - text: "Snow which, if compacted by hand, will stick together and tend to or form a snowball; specific gravity: 0.35 up to but not including 0.5."
+            - text: "Snow which has been compressed into a solid mass that resists further compression and will hold together or break up into lumps if picked up; specific gravity: 0.5 and over."
+- id: QODDZ
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102286
+    - AVEXAM-75213
+    - BGS-101451
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.02.04.04
+  templates:
+    - type: simple
+      question: Consider the definitions for water-based contaminants contained in ICAO Annex 14 and the European Aerodromes Regulation. Sort the following 3 contaminants in order of DECREASING braking performance, with (1) having the best braking action, and (3) having the worst.
+      explanation: "Braking action is best on compacted snow, worse on ice, and worst on wet ice. Wet ice is a layer of meltwater on ice, which removes friction almost completely. Ordering: compacted snow, ice, wet ice."
+      presets:
+        - correctAnswers:
+            - text: (1) compacted snow; (2) ice; (3) wet ice.
+          wrongAnswers:
+            - text: (1) ice; (2) compacted snow; (3) wet ice.
+            - text: (1) ice; (2) wet ice; (3) compacted snow.
+            - text: (1) wet ice; (2) ice; (3) compacted snow.
+- id: QJOBB
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107922
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.02.04.05
+  templates:
+    - type: simple
+      question: "A braking action code 4 reported on a SNOWTAM corresponds to a measured coefficient of \\_\\_\\_\\_\\_ and an estimated surface friction of \\_\\_\\_\\_\\_\\_:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Medium to good, 0.39 to 0.36
+          wrongAnswers:
+            - text: Poor, 0.25 and below
+            - text: Good, 0.55 to 0.40
+            - text: Medium to poor, 0.29 to 0.26
+- id: QGYPM
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103047
+    - AVEXAM-27950
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.03.01.01
+  templates:
+    - type: simple
+      question: Within ICAO Annex 14, Volume I, the table of recommended runway widths can be found in which chapter?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "Chapter 3: Physical Characteristics"
+          wrongAnswers:
+            - text: "Chapter 2: Aerodrome Data"
+            - text: "Chapter 8: Electrical systems"
+            - text: "Chapter 1: General"
+- id: QIJCB
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103806
+    - BGS-101184
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.03.01.01
+  templates:
+    - type: simple
+      question: According to ICAO, the location of the runway threshold is..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: normally at the extremity of a runway, if there are no obstacles penetrating above the approach surface.
+          wrongAnswers:
+            - text: variable, depending on the types of operations undertaken.
+            - text: coincident with the touchdown zone.
+            - text: normally coincident with the aerodrome reference point.
+- id: QPCST
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109075
+    - AVEXAM-42478
+    - ATPLQ-101657
+    - BGS-101710
+    - AVEXAM-93653
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.03.02.01
+  templates:
+    - type: simple
+      question: A "runway strip" is defined as an area including the runway and..
+      explanation: |-
+        ### Regulation (EU) No 139/2014, Definitions
+
+        > ‘Runway strip’ means a defined area including the runway and stopway, if provided, intended: — to **reduce the risk of damage to aircraft running off a runway**; and — to **protect aircraft flying over it** during take-off or landing operations.
+      presets:
+        - correctAnswers:
+            - text: a stopway, if provided, intended to reduce the risk of damage to aircraft running off a runway and to protect aircraft flying over it during take-off and landing operations.
+          wrongAnswers:
+            - text: a taxiway intended to protect an aircraft operating on the taxiway and to reduce the risk of damage to an aircraft running off the runway.
+            - text: a clearway, if provided, intended to reduce the risk of damage to aircraft running off a runway and to protect aircraft flying over it.
+            - text: a taxiway intended to protect an aircraft operating on the runway and to reduce the risk of damage to an aircraft running off the taxiway.
+    - type: simple
+      question: One of the purposes of the runway strip is to..
+      explanation: |-
+        ### Regulation (EU) No 139/2014, Definitions
+
+        > ‘Runway strip’ means a defined area including the runway and stopway, if provided, intended: — to **reduce the risk of damage to aircraft running off a runway**; and — to **protect aircraft flying over it** during take-off or landing operations.
+      presets:
+        - correctAnswers:
+            - text: reduce the risk of damage to aircraft running off the runway.
+          wrongAnswers:
+            - text: prevent wildlife from entering the runway.
+            - text: define the distance from the runway centre line to the holding point.
+            - text: protect other aircraft during engine run-up tests.
+- id: QHZZE
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QJKNG
+  externalQuestionIds:
+    - ATPLQ-106816
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.03.03.01
+  templates:
+    - type: simple
+      question: The RESA is situated...
+      explanation: |-
+        ### Regulation (EU) No 139/2014, Definitions
+
+        > ‘Runway end safety area (RESA)’ means an area symmetrical about the extended runway centre line and **adjacent to the end of the strip** primarily intended to reduce the risk of damage to an aeroplane undershooting or overrunning the runway.
+      presets:
+        - correctAnswers:
+            - text: At each end of the runway strip.
+          wrongAnswers:
+            - text: At the end of TORA.
+            - text: At the end of TODA.
+            - text: Between the end of the runway and the runway strip.
+- id: QJKNG
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QHZZE
+  externalQuestionIds:
+    - ATPLQ-102629
+    - BGS-100841
+    - AVEXAM-99805
+    - AVEXAM-80771
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.03.03.01
+  templates:
+    - type: simple
+      question: Where is the "Runway End Safety Area" located?
+      explanation: |-
+        ### Regulation (EU) No 139/2014, Definitions
+
+        > ‘Runway end safety area (RESA)’ means an area symmetrical about the extended runway centre line and **adjacent to the end of the strip** primarily intended to reduce the risk of damage to an aeroplane undershooting or overrunning the runway.
+      presets:
+        - correctAnswers:
+            - text: At each end of the runway strip.
+          wrongAnswers:
+            - text: At the end of the TODA.
+            - text: At the end of the TORA.
+            - text: Between the end of the runway and the end of the runway strip.
+- id: QVUAR
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103414
+    - AVEXAM-41086
+    - AVEXAM-66051
+    - AVEXAM-54072
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.03.03.01
+  templates:
+    - type: simple
+      question: An area symmetrical about the extended runway centre line and adjacent to the end of the strip primarily intended to reduce the risk of damage to an aircraft undershooting or overrunning the runway is the ICAO definition for..
+      explanation: |-
+        ### Regulation (EU) No 139/2014, Definitions
+
+        > ‘Runway end safety area (RESA)’ means an area symmetrical about the extended runway centre line and **adjacent to the end of the strip** primarily intended to reduce the risk of damage to an aeroplane undershooting or overrunning the runway.
+      presets:
+        - correctAnswers:
+            - text: runway end safety area.
+          wrongAnswers:
+            - text: runway strip.
+            - text: stopway.
+            - text: clearway.
+- id: QKNTI
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QEIFJ
+  externalQuestionIds:
+    - ATPLQ-105858
+    - BGS-101083
+    - BGS-101478
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.03.04.01
+  templates:
+    - type: simple
+      question: What is the ICAO definition for clearway?
+      explanation: |-
+        ### Regulation (EU) No 139/2014, Definitions
+
+        > ‘Clearway’ means a defined rectangular area on the ground or water under the control of the appropriate entity, selected or prepared as a suitable area **over which an aeroplane may make a portion of its initial climb to a specified height**.
+      presets:
+        - correctAnswers:
+            - text: A defined rectangular area on the ground or water, selected or prepared as a suitable area over which an aircraft may make a portion of its initial climb to a specified height.
+          wrongAnswers:
+            - text: A defined rectangular area on the ground at the end of take-off run available prepared as a suitable area in which an aircraft can be stopped in the case of an abandoned take-off.
+            - text: A defined area including the runway and stopway intended to protect aircraft flying over it during take-off or landing operations.
+            - text: An area symmetrical about the extended runway centre line and adjacent to the end of the strip primarily intended to reduce the risk of damage to an aircraft undershooting or overrunning the runway.
+- id: QEIFJ
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QKNTI
+  externalQuestionIds:
+    - ATPLQ-109262
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.03.05.01
+  templates:
+    - type: simple
+      question: What is the ICAO definition for stopway?
+      explanation: |-
+        ### Regulation (EU) No 139/2014, Definitions
+
+        > ‘Stopway’ means a defined rectangular area on the ground **at the end of take-off run available** prepared as a suitable area in which an aircraft can be stopped in the case of an abandoned take-off.
+      presets:
+        - correctAnswers:
+            - text: A defined rectangular area on the ground at the end of take-off run available prepared as a suitable area in which an aircraft can be stopped in the case of an abandoned take-off.
+          wrongAnswers:
+            - text: A defined rectangular area on the ground or water established to protect aircraft during take-off or landing operations.
+            - text: A defined rectangular area on the ground or water established to permit aircraft to make a portion of its initial climb to a specific height.
+            - text: A defined rectangular area on the ground at the end of take-off run available prepared to reduce the risk of damage to aircraft running off a runway.
+- id: QSLIY
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102804
+    - AVEXAM-24739
+    - BGS-101412
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.03.05.01
+  templates:
+    - type: simple
+      question: The stopway is located at the end of the?
+      explanation: |-
+        ### Regulation (EU) No 139/2014, Definitions
+
+        > ‘Stopway’ means a defined rectangular area on the ground **at the end of take-off run available** prepared as a suitable area in which an aircraft can be stopped in the case of an abandoned take-off.
+      presets:
+        - correctAnswers:
+            - text: Take-Off Run Available (TORA).
+          wrongAnswers:
+            - text: Take-Off Distance Available (TODA).
+            - text: Landing Distance Available (LDA).
+            - text: Accelerate-Stop Distance Available (ASDA).
+- id: QNLSD
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102020
+    - BGS-100813
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.03.07.01
+  templates:
+    - type: simple
+      question: What is the main purpose of a rapid exit taxiway?
+      explanation: |-
+        ### Regulation (EU) No 139/2014, Definitions
+
+        > ‘Rapid exit taxiway’ means a taxiway connected to a runway at an acute angle and designed to allow landing aeroplanes to turn off at higher speeds than are achieved on other exit taxiways thereby **minimising runway occupancy times**;
+      presets:
+        - correctAnswers:
+            - text: It minimises the runway occupancy time of landing aircraft.
+          wrongAnswers:
+            - text: It allows departing aircraft to line-up at higher speeds.
+            - text: To maximise the runway occupancy time of departing aircraft.
+            - text: To permit Land-And-Hold-Short-Operations (LAHSO).
+- id: QRMSU
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106629
+    - AVEXAM-58426
+    - BGS-101951
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.03.07.02
+  templates:
+    - type: simple
+      question: According to ICAO Annex 14, what is the purpose of taxiway widening on curved segments?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To provide clearance between the outer main wheels of the aeroplane and the edge of the taxiway.
+          wrongAnswers:
+            - text: To be an area adjacent to the edge of a pavement, so prepared as to provide a transition between the pavement and the adjacent surface.
+            - text: To protect an aircraft operating on the taxiway and to reduce the risk of damage to an aircraft accidentally running off the taxiway.
+            - text: To provide a surface able to resist erosion and the ingestion of the surface.
+- id: QBVAP
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109903
+    - AVEXAM-77789
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.03.07.03
+  templates:
+    - type: simple
+      question: Holding bays are necessary when the traffic is (1)\_\_\_\_\_ and they need to be at a specified distance from the runway (2)\_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: |-
+                (1) medium, heavy;   
+                 (2) centre line
+          wrongAnswers:
+            - text: |-
+                (1) heavy;   
+                 (2) centre line
+            - text: |-
+                (1) heavy;   
+                 (2) threshold
+            - text: |-
+                (1) medium, heavy;   
+                 (2) threshold
+- id: QOTIJ
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102116
+    - BGS-101504
+    - ATPLQ-104835
+    - AVEXAM-62809
+    - AVEXAM-31059
+    - BGS-101383
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.03.07.04
+  templates:
+    - type: simple
+      question: "A runway-holding position or positions shall be established:"
+      explanation: |-
+        ### CS ADR-DSN.D.335, Holding bays, runway-holding positions, intermediate holding positions, and road-holding positions
+
+        > (b) A runway-holding position or positions should be established: […] (2) **on the taxiway, at the intersection of a taxiway and a runway**; and (3) at an **intersection of a runway with another runway** when the former runway is part of a standard taxi-route.
+      presets:
+        - correctAnswers:
+            - text: On the taxiway, at the intersection of a taxiway and a runway; and at an intersection of a runway with another runway when the former runway is part of a standard taxi-route.
+          wrongAnswers:
+            - text: At the intersection of a taxiway and the runway in use.
+            - text: On the taxiway, or at the intersection of a taxiway and runway.
+            - text: On the taxiway, at the intersection of a taxiway and a runway, or at an intersection of a runway with another runway when the former is being used for landings only from beyond the intersection.
+    - type: simple
+      question: Where should a runway-holding position marking be established?
+      explanation: |-
+        ### CS ADR-DSN.D.335, Holding bays, runway-holding positions, intermediate holding positions, and road-holding positions
+
+        > (b) A runway-holding position or positions should be established: […] (2) **on the taxiway, at the intersection of a taxiway and a runway**; and (3) at an **intersection of a runway with another runway** when the former runway is part of a standard taxi-route.
+      presets:
+        - correctAnswers:
+            - text: On a taxiway intersecting a runway and on a runway intersecting another runway if the runway is part of a standard taxi route.
+          wrongAnswers:
+            - text: On a taxiway intersecting a runway.
+            - text: On a taxiway intersecting a taxiway.
+            - text: On a taxiway intersecting a runway and a runway intersecting another runway, if the runway is only used for landing after the intersection.
+- id: QDZXO
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102923
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.03.07.05
+  templates:
+    - type: simple
+      question: "Where must a road-holding position be available? At the intersection of:"
+      explanation: |-
+        ### CS ADR-DSN.D.335, Holding bays, runway-holding positions, intermediate holding positions, and road-holding positions
+
+        > (e) A road-holding position should be established at **each intersection of a road with a runway**.
+      presets:
+        - correctAnswers:
+            - text: Road-runway.
+          wrongAnswers:
+            - text: Two roads on manoeuvring area.
+            - text: Two roads on apron.
+            - text: Road-taxiway.
+- id: QTDVX
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102709
+    - AVEXAM-42890
+    - BGS-101914
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.03.07.06
+  templates:
+    - type: simple
+      question: Where is an intermediate holding position required?
+      explanation: |-
+        ### CS ADR-DSN.D.335, Holding bays, runway-holding positions, intermediate holding positions, and road-holding positions
+
+        > (c) An intermediate holding position should be established on a taxiway at any point other than a runway-holding position where it is **desirable to define a specific holding limit**.
+      presets:
+        - correctAnswers:
+            - text: An intermediate holding position should be established on a taxiway at any point other than a runway-holding position where it is desirable to define a specific holding limit.
+          wrongAnswers:
+            - text: An intermediate holding position shall be established at an intersection of a road with a taxiway, runway or road.
+            - text: An intermediate holding position should be provided when the traffic density is medium or heavy.
+            - text: An intermediate holding position shall be established at an intersection of a road with a runway.
+- id: QGITW
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QUIYO
+  externalQuestionIds:
+    - ATPLQ-101351
+    - AVEXAM-33136
+    - BGS-100802
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.01.01
+  templates:
+    - type: simple
+      question: A wind direction indicator shall be located so as to be visible...
+      explanation: |-
+        ### CS ADR-DSN.K.490, Wind direction indicator
+
+        > (b) Each wind direction indicator should be located so that at least one wind direction indicator is **visible from aircraft in flight**, during approach or **on the movement area** before take-off, and in such a way as to be free from the effects of air disturbances caused by nearby objects.
+      presets:
+        - correctAnswers:
+            - text: from aircraft in flight or on the movement area.
+          wrongAnswers:
+            - text: from the meteorological watch office.
+            - text: from the flight information centre.
+            - text: from aircraft in flight and from the aerodrome control tower.
+- id: QUIYO
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QGITW
+  externalQuestionIds:
+    - ATPLQ-101253
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.01.01
+  templates:
+    - type: simple
+      question: According ICAO Annex 14, where shall a wind direction indicator be located?
+      explanation: |-
+        ### CS ADR-DSN.K.490, Wind direction indicator
+
+        > (b) Each wind direction indicator should be located so that at least one wind direction indicator is **visible from aircraft in flight**, during approach or **on the movement area** before take-off, and in such a way as to be free from the effects of air disturbances caused by nearby objects.
+      presets:
+        - correctAnswers:
+            - text: At a place where it is visible from aircraft in flight or on the movement area.
+          wrongAnswers:
+            - text: At a place where it is visible from the meteorological station.
+            - text: At a place where it is visible from the terminal area.
+            - text: At a place where it is visible from the control tower.
+- id: QAKBD
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106223
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.01.02
+  templates:
+    - type: simple
+      question: What shape and colour typically signify the Landing Direction indicator when displaying the runway direction?
+      explanation: |-
+        ### CS ADR-DSN.K.495, Landing direction indicator
+
+        > (b) (1) The landing direction indicator should be in the form of a ‘**T**’. […] (3) The colour of the landing ‘T’ should be either **white or orange** […] (4) Where used at night, the landing ‘T’ should either be illuminated or outlined by white lights.
+      presets:
+        - correctAnswers:
+            - text: In the shape of a T and be White or Orange and surrounded by white lights when used at night.
+          wrongAnswers:
+            - text: In the shape of a T and be White or red and surrounded by green lights at night.
+            - text: In the shape of a T and be Red or Orange surrounded by white lights at night.
+            - text: In the shape of a T and be White or Yellow surrounded by white lights at night.
+- id: QQBGJ
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102429
+    - BGS-101202
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.01.02
+  templates:
+    - type: simple
+      question: What is the shape of the ground symbol that indicates landing direction?
+      explanation: |-
+        ### CS ADR-DSN.K.495, Landing direction indicator
+
+        > (b) (1) The landing direction indicator should be in the form of a ‘**T**’. […] (3) The colour of the landing ‘T’ should be either **white or orange** […] (4) Where used at night, the landing ‘T’ should either be illuminated or outlined by white lights.
+      presets:
+        - correctAnswers:
+            - text: T
+          wrongAnswers:
+            - text: V
+            - text: ->
+            - text: L
+- id: QFMAZ
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102675
+    - ATPLQ-108628
+    - AVEXAM-59586
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.01.03
+  templates:
+    - type: simple
+      question: What colours are required to be produced by a signalling lamp?
+      explanation: |-
+        ### CS ADR-DSN.K.500, Signalling lamp
+
+        > (b) (1) A signalling lamp should be capable of producing **red, green and white** signals, and of: (i) being aimed manually at any target as required; and (ii) giving a signal in any one colour followed by a signal in either of the two other colours.
+      presets:
+        - correctAnswers:
+            - text: Green, red and white
+          wrongAnswers:
+            - text: Red, white and blue
+            - text: White, blue and green
+            - text: Blue, green and red
+- id: QBSJW
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104748
+    - AVEXAM-29471
+    - BGS-100418
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.01.05
+  templates:
+    - type: simple
+      question: Visual ground signals – A horizontal white dumb-bell with a black bar placed perpendicular to the shaft across each circular portion placed in the signal area indicates that..
+      explanation: |-
+        ### SERA, Appendix 1, Signals, 3.2.3 Use of runways and taxiways
+
+        > 3.2.3.2. The same horizontal white dumb-bell […] but with a **black bar placed perpendicular to the shaft across each circular portion** of the dumb-bell […] when displayed in a signal area indicates that aircraft are required to **land and take off on runways only**, but other manoeuvres need not be confined to runways and taxiways.
+
+        Without the black bars, the white dumb-bell means that aircraft must land, take off and taxi on runways and taxiways only.
+      presets:
+        - correctAnswers:
+            - text: aircraft are required to land and take off on runways only, but other manoeuvres need not be confined to runways or taxiways.
+          wrongAnswers:
+            - text: the aerodrome is being used by gliders and glider flights are being performed on a parallel runway.
+            - text: a parallel runway system is used at this aerodrome.
+            - text: aircraft are required to land, take off and taxi on runways and taxiways only.
+- id: QCXJF
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105533
+    - BGS-100416
+    - AVEXAM-44664
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.01.05
+  templates:
+    - type: simple
+      question: A double white cross displayed horizontally in the signal area indicates that..
+      explanation: |-
+        ### SERA, Appendix 1, Signals, 3.2.8
+
+        > 3.2.8.1. A double white cross displayed horizontally in the signal area indicates that the aerodrome is being used by **sailplanes** and that sailplane flights are being performed.
+      presets:
+        - correctAnswers:
+            - text: the aerodrome is being used by gliders and that glider flights are being performed.
+          wrongAnswers:
+            - text: special precautions are needed for landing on the runway in use.
+            - text: special precautions must be observed due to the condition of this taxiway.
+            - text: this area is unfit for the movement of aircraft.
+- id: QLLJA
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108685
+  annexes:
+    - id: ALVH
+  learningObjectiveIds:
+    - 010.09.04.02.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which of the options correctly identifies the different runway designation markings?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: I) General design; II) Non-compliant design; III) Parallel design; IV) Optional design.
+          wrongAnswers:
+            - text: I) General design; II) Optional design; III) Parallel design; IV) Non-compliant design.
+            - text: I) General design; II) Non-compliant design; III) Optional design; IV) Parallel design.
+            - text: I) Parallel design; II) General design; III) Optional design; IV) Non-compliant design.
+- id: QYFXL
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106504
+    - BGS-100419
+    - AVEXAM-55596
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.02.02
+  templates:
+    - type: simple
+      question: On an aerodrome equipped with parallel runways, the designation number of each runway is supplemented as follows..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: for two parallel runways, by the letter “L” and “R” in the sequence from left to right.
+          wrongAnswers:
+            - text: for three parallel runways, by the letter “L” and “R” for the outer runways and no letter supplement for the central runway.
+            - text: for two parallel runways, by adding “10” to the left runway designation and by subtracting “10” from the right runway designation.
+            - text: for three parallel runways, by adding “L” to the designation of the runway farthest to the left, adding one “R” to the central runway and adding two “R” to the designation of the runway farthest to the right.
+- id: QRYKF
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105719
+    - BGS-100750
+    - AVEXAM-30475
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.02.03
+  templates:
+    - type: simple
+      question: According to ICAO Annex 14 recommendations, aircraft stand markings should be provided..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: for designated parking positions on a paved apron and on a de-icing/anti-icing facility.
+          wrongAnswers:
+            - text: for designated parking positions on any apron and on a de-icing/anti-icing facility.
+            - text: only for designated parking positions on any apron.
+            - text: only for designated parking positions on a paved apron.
+- id: QXDOH
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103856
+    - AVEXAM-72615
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.02.03
+  templates:
+    - type: simple
+      question: When should a stand identification sign be clearly visible from the cockpit?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Before entering the parking stand.
+          wrongAnswers:
+            - text: After the aircraft has entered the parking stand.
+            - text: While taxiing on the taxiway adjacent to the stand.
+            - text: When the aircraft is parked on the stand.
+- id: QCBDS
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103483
+    - AVEXAM-64873
+    - BGS-101695
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.03.01
+  templates:
+    - type: simple
+      question: According to ICAO Annex 14, elevated runway, stopway and taxiway lights shall be…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Frangible.
+          wrongAnswers:
+            - text: Flexible.
+            - text: Extra rigid.
+            - text: Reinforced.
+- id: QFDHX
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109058
+    - AVEXAM-82709
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.03.02
+  templates:
+    - type: simple
+      question: "Where operationally necessary, an aerodrome beacon shall be provided at an airfield:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: when the airfield is used for night operations.
+          wrongAnswers:
+            - text: when the airfield is operating mainly in VMC.
+            - text: when the airfield is acting as base for SAR operations.
+            - text: when the airfield is accepting VFR traffic only.
+- id: QQHDO
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102389
+    - AVEXAM-74275
+  annexes:
+    - id: AISX
+  learningObjectiveIds:
+    - 010.09.04.03.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        This lighting system is made for the following approach...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Visual Approach
+          wrongAnswers:
+            - text: CAT I
+            - text: CAT II
+            - text: CAT III B
+- id: QYDNS
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109647
+  annexes:
+    - id: ADBU
+  learningObjectiveIds:
+    - 010.09.04.03.03
+  templates:
+    - type: multiple-correct
+      question: |-
+        Refer to figure.
+
+        In accordance with ICAO Annex 14 Volume I, which types of approach require the installation of the lighting system specified in the annex?
+      explanation: ""
+      options:
+        - text: LOC approach
+          correct: true
+        - text: ILS CAT I approach
+          correct: false
+        - text: ILS CAT II approach.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+- id: QCNEL
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QOLJO
+    - QCZKD
+  externalQuestionIds:
+    - ATPLQ-102275
+    - BGS-102079
+    - BGS-101954
+    - BGS-101458
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.03.04
+  templates:
+    - type: simple
+      question: According to ICAO annex 14, a simple approach lighting system should consist of a row of lights along the centre line extending from threshold and also a row of lights forming a crossbar. What is the minimum distance along the centerline that must be fitted with lights?
+      explanation: A simple approach lighting system has a row of lights on the extended centre line, with a crossbar, and the centre line must extend at least 420 m from the threshold.
+      presets:
+        - correctAnswers:
+            - text: 420 m
+          wrongAnswers:
+            - text: 300 m
+            - text: 600 m
+            - text: 150 m
+- id: QOLJO
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QCNEL
+    - QCZKD
+    - QITKC
+  externalQuestionIds:
+    - AVEXAM-35639
+    - ATPLQ-108357
+    - ATPLQ-108448
+    - BGS-101445
+    - AVEXAM-69737
+    - ATPLQ-104905
+    - AVEXAM-76004
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.03.05
+  templates:
+    - type: simple
+      question: "A precision approach category I lighting system consists of a row of lights on the extended centre line of the runway extending, wherever possible, over a distance of:"
+      explanation: A precision approach category I lighting system has a row of lights on the extended centre line of the runway, extending where possible to 900 m from the threshold, with a crossbar 30 m long at 300 m from the threshold.
+      presets:
+        - correctAnswers:
+            - text: 900 m from the threshold.
+          wrongAnswers:
+            - text: 300 m from the threshold.
+            - text: 600 m from the threshold.
+            - text: 1 200 m from the threshold.
+    - type: simple
+      question: A precision approach category I lighting system has a row of lights on the extended runway centre line and a crossbar. What are their dimensions?
+      explanation: A precision approach category I lighting system has a row of lights on the extended centre line of the runway, extending where possible to 900 m from the threshold, with a crossbar 30 m long at 300 m from the threshold.
+      presets:
+        - correctAnswers:
+            - text: The centre line row extends 900 m and the crossbar is 30 m long, at 300 m from the threshold.
+          wrongAnswers:
+            - text: The centre line row extends 300 m and the crossbar is 30 m long, at 150 m from the threshold.
+            - text: The centre line row extends 600 m and the crossbar is 30 m long, at 300 m from the threshold.
+            - text: The centre line row extends 1 200 m and the crossbar is 30 m long, at 420 m from the threshold.
+    - type: simple
+      question: A precision approach Category I Lighting System shall consist of a row of lights on the extended runway centre line over a distance
+      explanation: A precision approach category I lighting system has a row of lights on the extended centre line of the runway, extending where possible to 900 m from the threshold, with a crossbar 30 m long at 300 m from the threshold.
+      presets:
+        - correctAnswers:
+            - text: 900 m with a row of lights forming a crossbar 30 m in length at a distance of 300 m from the runway threshold.
+          wrongAnswers:
+            - text: 300 m with a row of lights forming a crossbar 30 m in length at a distance of 150 m from the runway threshold.
+            - text: 600 m with a row of lights forming a crossbar 30 m in length at a distance of 300 m from the runway threshold.
+            - text: 1 200 m with a row of lights forming a crossbar 30 m in length at a distance of 420 m from the runway threshold.
+        - correctAnswers:
+            - text: 900 m from the runway threshold and a crossbar at 300 m from the threshold.
+          wrongAnswers:
+            - text: 600 m from the runway threshold and a crossbar at 450 m from the runway threshold.
+            - text: 600 m from the runway threshold and a crossbar at 300 m from the threshold.
+            - text: 420 m from the runway threshold and a crossbar at 250 m from the threshold.
+- id: QITKC
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QOLJO
+  externalQuestionIds:
+    - ATPLQ-104813
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.03.05
+  templates:
+    - type: simple
+      question: For a precision approach category I lighting system, a row of lights on the extended centre line of the runway shall extend over a distance of (1) \_\_\_\_\_ from the threshold.
+      explanation: |-
+        ### CS ADR-DSN.M.630, Precision approach Category I lighting system
+
+        > (b) (1) General: A precision approach Category I lighting system should consist of a row of lights on the extended centre line of the runway, extending, wherever possible, over a distance of **900 m** from the runway threshold with a row of lights forming a crossbar 30 m in length at a distance of 300 m from the runway threshold.
+      presets:
+        - correctAnswers:
+            - text: 900 m
+          wrongAnswers:
+            - text: 600 m
+            - text: 1200 m
+            - text: 300 m
+- id: QCZKD
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QCNEL
+    - QOLJO
+    - QKESJ
+  externalQuestionIds:
+    - ATPLQ-101205
+    - ATPLQ-102410
+    - ATPLQ-106907
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.03.06
+  templates:
+    - type: simple
+      question: What is the length of the approach lighting system for a precision approach category II and III runway?
+      explanation: A precision approach category II and III lighting system has a row of lights on the extended centre line of the runway extending 900 m from the threshold, with crossbars 30 m wide, in addition to the inner 300 m of barrettes and the side row lights.
+      presets:
+        - correctAnswers:
+            - text: 900 m.
+          wrongAnswers:
+            - text: 150 m.
+            - text: 300 m.
+            - text: 600 m.
+    - type: simple
+      question: For a precision approach category II and III lighting system, a row of lights on the extended centre line of the runway extends over a distance of (1) ___ from the threshold and the crossbar is (2) ___ wide.
+      explanation: A precision approach category II and III lighting system has a row of lights on the extended centre line of the runway extending 900 m from the threshold, with crossbars 30 m wide, in addition to the inner 300 m of barrettes and the side row lights.
+      presets:
+        - correctAnswers:
+            - text: (1) 900 m; (2) 30 m.
+          wrongAnswers:
+            - text: (1) 900 m; (2) 15 m.
+            - text: (1) 600 m; (2) 45 m.
+            - text: (1) 300 m; (2) 30 m.
+        - correctAnswers:
+            - text: (1) 900m, (2) 30 m
+          wrongAnswers:
+            - text: (1) 900 m, (2) 15 m
+            - text: (1) 600 m, (2) 45 m
+            - text: (1) 300 m, (2) 30 m
+- id: QFDVP
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QKESJ
+  externalQuestionIds:
+    - ATPLQ-104913
+    - AVEXAM-69005
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.03.06
+    - 010.09.08.03.04
+  templates:
+    - type: simple
+      question: Within the first 300 m from the threshold of an approach light system CAT I and CAT II, there are 2 groups of crossbars. What are the corresponding distances from the threshold?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 150 m and 300 m
+          wrongAnswers:
+            - text: 150 m and 200 m
+            - text: 100 m and 300 m
+            - text: 200 m and 300 m
+- id: QKESJ
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QFDVP
+    - QCZKD
+  externalQuestionIds:
+    - ATPLQ-109856
+    - BGS-101717
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.03.06
+    - 010.09.08.03.04
+  templates:
+    - type: simple
+      question: The precision approach CAT II and III lighting system contains two crossbars at the first 300 m of its length, which are located at a distance of (1) \_\_\_\_\_ and (2) \_\_\_\_\_ respectively from the runway threshold.
+      explanation: |-
+        ### CS ADR-DSN.M.635, Precision approach Category II and III lighting system
+
+        > […] extending, wherever possible, over a distance of 900 m from the runway threshold […] and two crossbars, **one at 150 m and one at 300 m from the threshold**, all as shown in Figure M-3A.
+      presets:
+        - correctAnswers:
+            - text: (1) 150 m; (2) 300 m
+          wrongAnswers:
+            - text: (1) 150 m; (2) 250 m
+            - text: (1) 100 m; (2) 300 m
+            - text: (1) 100 m; (2) 200 m
+- id: QNUHC
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109941
+    - BGS-101812
+    - AVEXAM-18709
+  annexes:
+    - id: AOEQ
+  learningObjectiveIds:
+    - 010.09.04.03.07
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.   
+        Which option below has the correct order to fit the PAPIs showing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (I.) On or close to the approach slope; (II.) above the approach slope.
+          wrongAnswers:
+            - text: (I.) Below the approach slope; (II.) on or close to the approach slope.
+            - text: (I.) On or close to the approach slope; (II.) below the approach slope.
+            - text: (I.) Above the approach slope; (II.) below the approach slope.
+- id: QTVYS
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101862
+    - AVEXAM-92867
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.03.07
+  templates:
+    - type: simple
+      question: The acronym PAPI stands for..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Precision Approach Path Indicator.
+          wrongAnswers:
+            - text: Precision Approach Power Indicator.
+            - text: Precision Approach Path Index.
+            - text: Precision Approach Power Index.
+- id: QALWU
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101990
+    - BGS-100421
+    - AVEXAM-83911
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.03.09
+  templates:
+    - type: simple
+      question: Taxiway centre line lights, except on an exit taxiway, are fixed lights showing..
+      explanation: |-
+        ### CS ADR-DSN.M.710, Taxiway centre line lights
+
+        > (c) (1) […] taxiway centre line lights on a taxiway **other than an exit taxiway** and on a runway forming part of a standard taxi-route should be **fixed lights showing green** with beam dimensions such that the light is visible only from aeroplanes on, or in the vicinity of the taxiway.
+      presets:
+        - correctAnswers:
+            - text: green
+          wrongAnswers:
+            - text: white
+            - text: blue
+            - text: yellow
+- id: QTNFP
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106161
+    - BGS-100424
+    - ATPLQ-103062
+    - AVEXAM-49768
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.03.09
+  templates:
+    - type: simple
+      question: Taxiway edge lights shall be fixed showing...
+      explanation: |-
+        ### CS ADR-DSN.M.720, Taxiway edge lights
+
+        > Taxiway edge lights should be **fixed lights showing blue**.
+      presets:
+        - correctAnswers:
+            - text: blue.
+          wrongAnswers:
+            - text: white.
+            - text: green.
+            - text: yellow.
+- id: QGQFK
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109211
+    - AVEXAM-61151
+    - BGS-101475
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.03.10
+  templates:
+    - type: simple
+      question: An aircraft is expected to land at 22:30 UTC. The airport has little traffic. When must ground lights be brought into operation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 21:30 UTC at the latest
+          wrongAnswers:
+            - text: 20:00 - 23:30 UTC
+            - text: 20:30 UTC at the latest
+            - text: 21:00 - 23:00 UTC
+- id: QAFLS
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108795
+    - AVEXAM-43872
+    - BGS-101497
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.04.01
+  templates:
+    - type: simple
+      question: In accordance with ICAO Annex 14, the only signs present on the movement area utilising the colour red shall be...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: mandatory instruction signs.
+          wrongAnswers:
+            - text: VOR aerodrome checkpoint signs.
+            - text: location signs.
+            - text: information signs.
+- id: QHDIU
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101390
+    - BGS-101749
+    - AVEXAM-11134
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.04.02
+  templates:
+    - type: simple
+      question: When shall runway signs be illuminated?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: At night, in association with instrument runways.
+          wrongAnswers:
+            - text: "At night in association with non-instrument runways where the code number is 2. "
+            - text: At night in association with non-instrument runways where the code number is 1.
+            - text: At night, on non-precision approach runways only.
+- id: QCASJ
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102895
+    - AVEXAM-60344
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.04.03
+  templates:
+    - type: multiple-correct
+      question: "According to ICAO Annex 14, aerodrome mandatory instruction signs are:"
+      explanation: ""
+      options:
+        - text: Runway designation signs
+          correct: true
+        - text: Runway exit signs
+          correct: false
+        - text: Category I, II or III holding position signs
+          correct: true
+        - text: Runway-holding position signs
+          correct: true
+        - text: Road-holding position signs
+          correct: true
+        - text: NO ENTRY signs
+          correct: true
+        - text: Direction signs
+          correct: false
+        - text: Location signs.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 3
+            - 4
+            - 5
+            - 6
+        - show:
+            - 4
+            - 5
+            - 6
+            - 7
+        - show:
+            - 0
+            - 5
+            - 6
+            - 7
+        - show:
+            - 0
+            - 1
+            - 6
+            - 7
+        - show:
+            - 0
+            - 1
+            - 2
+            - 7
+- id: QMECT
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107223
+  annexes:
+    - id: AKNJ
+  learningObjectiveIds:
+    - 010.09.04.04.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What type of sign is depicted in the figure?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No entry sign.
+          wrongAnswers:
+            - text: Inoperational taxiway sign.
+            - text: Runway-holding position sign.
+            - text: Closed runway sign.
+- id: QTZJW
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105376
+    - BGS-101629
+    - AVEXAM-56627
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.04.04
+  templates:
+    - type: simple
+      question: Mandatory instructions signs on an aerodrome shall consist of inscriptions in..
+      explanation: |-
+        ### CS ADR-DSN.N.780, Mandatory instruction signs
+
+        > A mandatory instruction sign should consist of an inscription in **white on a red background**.
+      presets:
+        - correctAnswers:
+            - text: white on a red background.
+          wrongAnswers:
+            - text: red on a white background.
+            - text: yellow on a black background.
+            - text: black on a yellow background.
+- id: QPKDP
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QEYEG
+  externalQuestionIds:
+    - ATPLQ-108889
+    - AVEXAM-76326
+    - BGS-100865
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.04.05
+  templates:
+    - type: simple
+      question: A pattern "A" runway-holding position marking shall be supplemented at a taxiway/runway intersection with a...
+      explanation: A pattern A runway-holding position marking is supplemented at a taxiway and runway intersection by a runway designation sign, which tells the pilot which runway is ahead.
+      presets:
+        - correctAnswers:
+            - text: runway designation sign.
+          wrongAnswers:
+            - text: taxiway designation sign.
+            - text: runway designation sign only for precision approach runways.
+            - text: taxiway designation sign only for paved runways.
+- id: QEYEG
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QPKDP
+  externalQuestionIds:
+    - ATPLQ-106348
+    - AVEXAM-49888
+    - BGS-100740
+    - AVEXAM-65811
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.04.06
+  templates:
+    - type: simple
+      question: A pattern "B" runway-holding position marking at an intersection of a taxiway and a precision approach RWY shall be supplemented..
+      explanation: A pattern B runway-holding position at an intersection of a taxiway and a precision approach runway is supplemented by a category I, II or III holding position sign, as appropriate to the runway.
+      presets:
+        - correctAnswers:
+            - text: with a category I, II or III holding position sign, as appropriate.
+          wrongAnswers:
+            - text: only with a runway designation sign.
+            - text: with a taxiway designation sign.
+            - text: with a category II or III holding position sign, though for CAT I runways a sign is NOT mandatory.
+- id: QSLMH
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107132
+    - BGS-100773
+    - AVEXAM-13027
+    - BGS-101719
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.04.07
+  templates:
+    - type: simple
+      question: A NO ENTRY sign shall be located..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: at the beginning of the area to which entrance is prohibited on each side of the taxiway.
+          wrongAnswers:
+            - text: 50 m prior to the area to which entrance is prohibited on the left side of the taxiway.
+            - text: at the beginning of the area to which entrance is prohibited on the left side of the taxiway.
+            - text: 50 m prior to the area to which entrance is prohibited, on each side of the taxiway.
+- id: QBWAO
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QHVPI
+  externalQuestionIds:
+    - ATPLQ-109659
+    - BGS-101667
+    - AVEXAM-60747
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.04.08
+  templates:
+    - type: simple
+      question: In accordance with ICAO Annex 14, which sign indicates a location beyond which a taxiing aircraft would infringe an ILS critical/sensitive area?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Runway-holding position sign.
+          wrongAnswers:
+            - text: NO ENTRY sign.
+            - text: Road-holding position sign.
+            - text: Runway designation sign.
+- id: QHVPI
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QBWAO
+  externalQuestionIds:
+    - ATPLQ-108086
+    - AVEXAM-65129
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.04.08
+  templates:
+    - type: simple
+      question: A sign close to a taxiway, which indicates an ILS critical area, is a/an...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: runway-holding position sign.
+          wrongAnswers:
+            - text: taxiway location sign.
+            - text: No entry sign.
+            - text: ILS warning sign.
+- id: QNXRZ
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104457
+    - AVEXAM-63448
+  annexes:
+    - id: AEHJ
+  learningObjectiveIds:
+    - 010.09.04.04.09
+  templates:
+    - type: simple
+      question: "The symbol number 5 in the figure is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a holding position sign for aircraft.
+          wrongAnswers:
+            - text: a stand sign.
+            - text: a runway vacated sign.
+            - text: a road-holding position sign.
+- id: QQBPP
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108701
+    - BGS-101398
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.04.09
+  templates:
+    - type: simple
+      question: In accordance with ICAO Annex 14, the inscription on a runway-holding position sign at a runway-holding position shall consist of…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The Taxiway designation and a number.
+          wrongAnswers:
+            - text: A location sign and a number.
+            - text: A location sign and a runway heading sign.
+            - text: The taxiway designation and a direction sign.
+- id: QEEOM
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108389
+    - AVEXAM-54109
+    - ATPLQ-103620
+    - BGS-100413
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.04.10
+  templates:
+    - type: simple
+      question: "Aerodrome signs should be in the following configuration:"
+      explanation: |-
+        ### CS ADR-DSN.N.785, Information signs
+
+        > (c) (1) An information sign other than a location sign should consist of an inscription in **black on a yellow background**.
+        >
+        > (2) A location sign should consist of an inscription in **yellow on a black background** […]
+
+        Mandatory instruction signs are white on red.
+      presets:
+        - correctAnswers:
+            - text: information signs; yellow or black background with black or yellow inscriptions.
+          wrongAnswers:
+            - text: mandatory instruction signs; black background with red inscriptions.
+            - text: mandatory instruction signs ; red background with black inscriptions.
+            - text: information signs; orange background with black inscriptions.
+    - type: simple
+      question: Other than location signs, aerodrome information signs must consist of..
+      explanation: |-
+        ### CS ADR-DSN.N.785, Information signs
+
+        > (c) (1) An information sign other than a location sign should consist of an inscription in **black on a yellow background**.
+        >
+        > (2) A location sign should consist of an inscription in **yellow on a black background** […]
+
+        Mandatory instruction signs are white on red.
+      presets:
+        - correctAnswers:
+            - text: black inscriptions on yellow background.
+          wrongAnswers:
+            - text: yellow inscriptions on black background.
+            - text: orange background with black inscriptions.
+            - text: black background with red inscriptions.
+- id: QPLXV
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102451
+  annexes:
+    - id: ABYI
+  learningObjectiveIds:
+    - 010.09.04.04.13
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Where may a Road Holding Position Sign be found?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Intersection between road and runway.
+          wrongAnswers:
+            - text: End of the taxiway.
+            - text: Intersection between taxiway and apron.
+            - text: Intersection between road and taxiway.
+- id: QRJPV
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102164
+    - BGS-101679
+  annexes:
+    - id: ABYI
+  learningObjectiveIds:
+    - 010.09.04.04.13
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        In accordance with ICAO Annex 14, what does the attached sign mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Road-holding position sign
+          wrongAnswers:
+            - text: Stop way sign
+            - text: Hold-until-further-clearance sign
+            - text: Runway-holding position sign
+- id: QSWDV
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109692
+    - BGS-101421
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.05.01
+  templates:
+    - type: multiple-correct
+      question: According to ICAO Annex 14 Volume 1 (Aerodrome Design and Operations), which of the following must be frangible?
+      explanation: ""
+      options:
+        - text: Fixed objects when marked by markers
+          correct: false
+        - text: Stopway edge markers
+          correct: true
+        - text: Taxiway edge markers
+          correct: true
+        - text: Unpaved runway edge markers
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QMBUA
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103606
+    - AVEXAM-48098
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.04.05.02
+  templates:
+    - type: simple
+      question: When are runway edge markers used, in accordance with ICAO annex 14?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: If runway surroundings are hard to distinguish.
+          wrongAnswers:
+            - text: If runway length is less than 1800 m.
+            - text: If a non-paved runway is used.
+            - text: If a precision approach runway is used.
+- id: QQHBI
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QWZIV
+  externalQuestionIds:
+    - ATPLQ-102618
+    - BGS-100751
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.05.01.02
+  templates:
+    - type: simple
+      question: According to ICAO Annex 14, when mobile objects are marked by colour, which colours should be used for emergency vehicles?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Red or yellowish green.
+          wrongAnswers:
+            - text: Blue or yellowish green.
+            - text: Yellow or red.
+            - text: Blue or red.
+- id: QWZIV
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QQHBI
+  externalQuestionIds:
+    - ATPLQ-109076
+    - BGS-100767
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.05.01.02
+  templates:
+    - type: simple
+      question: According to ICAO Annex 14, when mobile objects are marked by colour, what colour should be used for service vehicles?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yellow
+          wrongAnswers:
+            - text: Red
+            - text: Blue
+            - text: Green
+- id: QFGSG
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103373
+    - BGS-101640
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.05.01.03
+  templates:
+    - type: simple
+      question: "According to ICAO Annex 14, a spherical red marker with a diameter of 60 cm, displayed on or adjacent to an object, with the appearance of being suspended at low level in the air indicates the presence of:"
+      explanation: |-
+        ### CS ADR-DSN.Q.852, Marking and lighting of overhead wires, cables
+
+        > (2) A marker displayed on an overhead wire, cable, etc., should be **spherical** and have a diameter of **not less than 60 cm**.
+      presets:
+        - correctAnswers:
+            - text: An overhead cable or wire.
+          wrongAnswers:
+            - text: Dangerous activities on the ground within a specific distance from an airport.
+            - text: A parachute jumping area or site.
+            - text: A high obstacle with a small surface area.
+- id: QMRJU
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109359
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.05.01.03
+  templates:
+    - type: simple
+      question: What is the purpose of a red spherical sign, 60 cm wide, giving the impression that it is floating near an obstacle?
+      explanation: |-
+        ### CS ADR-DSN.Q.852, Marking and lighting of overhead wires, cables
+
+        > (2) A marker displayed on an overhead wire, cable, etc., should be **spherical** and have a diameter of **not less than 60 cm**.
+      presets:
+        - correctAnswers:
+            - text: Indicating high-tension lines or cables.
+          wrongAnswers:
+            - text: Indicate a dangerous area close to the airport.
+            - text: Parachutists at the airfield.
+            - text: Indicate a high object with a small surface area.
+- id: QIXUT
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106921
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.05.01.04
+  templates:
+    - type: simple
+      question: Which colour shall be used on flags to mark objects?
+      explanation: |-
+        ### CS ADR-DSN.Q.845, Marking of fixed objects
+
+        > (3) Flags used to mark fixed objects should be **orange** in colour or a combination of two triangular sections, one orange and the other white, or one red and the other white. Except where such colours merge with the background, other conspicuous colours should be used.
+      presets:
+        - correctAnswers:
+            - text: Orange, if it's not mistaken with the background.
+          wrongAnswers:
+            - text: Green
+            - text: Yellow greenish
+            - text: Red
+- id: QKBZQ
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103966
+    - AVEXAM-49635
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.05.02.01
+  templates:
+    - type: simple
+      question: According to ICAO Annex 14, the presence of objects which must be lighted shall be indicated by\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Low-, medium- or high-intensity obstacle lights, or a combination of such lights.
+          wrongAnswers:
+            - text: Flashing white/red lights situated as close as practicable to the top of the object.
+            - text: Flashing white/red lights of at least 500 cd intensity.
+            - text: Only high-intensity type A and type B lights.
+- id: QDVVG
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104451
+    - AVEXAM-64140
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.05.02.02
+  templates:
+    - type: simple
+      question: Obstacles which require lighting due to their close proximity to an aerodrome shall be lighted in the following way...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: One or more low, medium or high intensity lights as close as practicable to the top of the obstacle.
+          wrongAnswers:
+            - text: Flashing white or red lights.
+            - text: High-intensity lights in white or red colour.
+            - text: Solid white or red lights, positioned as close as feasible to the top of the obstacle.
+- id: QBMKH
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101833
+    - ATPLQ-106406
+    - AVEXAM-97685
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.05.02.03
+  templates:
+    - type: simple
+      question: Lighting of objects – High-intensity obstacle lights are..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: flashing-white.
+          wrongAnswers:
+            - text: flashing-red.
+            - text: fixed-orange.
+            - text: fixed-red.
+    - type: simple
+      question: "A High intensity obstacle light should be:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Flashing white.
+          wrongAnswers:
+            - text: Flashing red.
+            - text: Fixed red.
+            - text: Fixed white.
+- id: QDTJX
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104434
+    - AVEXAM-90369
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.06.01.01
+  templates:
+    - type: simple
+      question: Which of the following statements is correct regarding the markings used to indicate that a runway or a taxiway is closed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: White crosses for runways and yellow crosses for taxiways.
+          wrongAnswers:
+            - text: Yellow crosses for runways only closed to operations by aircraft with a take-off mass greater 5700 kg.
+            - text: Yellow crosses for runways and white crosses for taxiways.
+            - text: White crosses for runways and taxiways.
+- id: QQWUG
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103089
+    - BGS-100768
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.06.01.02
+  templates:
+    - type: simple
+      question: An aircraft is moving on the apron. What marking is used to warn the pilot that the shoulders of the surface are non-load-bearing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A pair of solid lines in the same colour as the taxiway centre line marking.
+          wrongAnswers:
+            - text: One solid line in the same colour as the taxiway centre line marking.
+            - text: One solid line in the same colour as the runway centre line marking.
+            - text: A pair of solid lines in the same colour as the runway centre line marking.
+- id: QNKAP
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101333
+    - BGS-100787
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.06.01.03
+  templates:
+    - type: simple
+      question: The surface before a runway threshold is paved and exceeds 60 m in length. It is NOT suitable for the normal movement of aircraft. What should the entire length before the threshold be marked with?
+      explanation: |-
+        ### CS ADR-DSN.R.865, Pre-threshold area
+
+        > (a) When the surface before a threshold is paved and exceeds 60 m in length, and is not suitable for normal use by aircraft, the entire length before the threshold should be marked with a **chevron marking**.
+      presets:
+        - correctAnswers:
+            - text: Chevrons
+          wrongAnswers:
+            - text: Crosses
+            - text: Chequered flags
+            - text: Arrows
+- id: QFHNW
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109547
+    - AVEXAM-1909
+    - BGS-100748
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.07.01.01
+  templates:
+    - type: simple
+      question: The principal objective of a Rescue and Fire Fighting Service in the event of an aircraft accident or incident occurring at, or in the immediate vicinity of, an aerodrome, is to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: save lives.
+          wrongAnswers:
+            - text: respond within 1 minute.
+            - text: respond within 3 minutes.
+            - text: preserve aircraft.
+- id: QJFJY
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109381
+    - AVEXAM-29932
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.07.01.02
+  templates:
+    - type: simple
+      question: In accordance with ICAO Annex 14, the Rescue and Fire Fighting (RFF) service of an aerodrome should be able to facilitate the (1) _____ aircraft operating at the aerodrome, as well as the aircraft with the maximum fuselage (2) _____ operating at the aerodrome.
+      explanation: |-
+        ### AMC2 ADR.OPS.B.010(a)(2), Rescue and firefighting services
+
+        > (2) the aerodrome category for rescue and firefighting is determined according to Table 1, based on the **longest aeroplanes** normally using the aerodrome and their **fuselage width**. If, after selecting the category appropriate to the longest aeroplane’s overall length, that aeroplane’s fuselage width is greater than the maximum width in Table 1, column 3, for that category, then the category for that aeroplane should actually be one category higher.
+      presets:
+        - correctAnswers:
+            - text: (1) longest, (2) width
+          wrongAnswers:
+            - text: (1) heaviest, (2) length
+            - text: (1) heaviest, (2) width
+            - text: (1) longest, (2) length
+- id: QTXHL
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104061
+    - AVEXAM-74938
+    - AVEXAM-67581
+    - BGS-100444
+    - AVEXAM-83100
+    - ATPLQ-101730
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.07.01.02
+  templates:
+    - type: simple
+      question: Rescue and fire fighting – The aerodrome category determining the rescue and fire fighting equipment is based on the...
+      explanation: |-
+        ### AMC2 ADR.OPS.B.010(a)(2), Rescue and firefighting services
+
+        > (2) the aerodrome category for rescue and firefighting is determined according to Table 1, based on the **longest aeroplanes** normally using the aerodrome and their **fuselage width**. If, after selecting the category appropriate to the longest aeroplane’s overall length, that aeroplane’s fuselage width is greater than the maximum width in Table 1, column 3, for that category, then the category for that aeroplane should actually be one category higher.
+      presets:
+        - correctAnswers:
+            - text: overall length of the longest aeroplane normally using the aerodrome and its maximum fuselage width.
+          wrongAnswers:
+            - text: overall length of the longest aeroplane normally using the aerodrome and its maximum fuselage mass.
+            - text: overall length of the longest aeroplane using that aerodrome.
+            - text: length of the longest runway and maximum fuselage mass of the heaviest aeroplane using that aerodrome.
+    - type: simple
+      question: Rescue and fire fighting – The aerodrome category determining the rescue and fire fighting equipment is based on the overall (1) _____ of the longest aeroplane normally using the aerodrome and its maximum fuselage (2) _____.
+      explanation: |-
+        ### AMC2 ADR.OPS.B.010(a)(2), Rescue and firefighting services
+
+        > (2) the aerodrome category for rescue and firefighting is determined according to Table 1, based on the **longest aeroplanes** normally using the aerodrome and their **fuselage width**. If, after selecting the category appropriate to the longest aeroplane’s overall length, that aeroplane’s fuselage width is greater than the maximum width in Table 1, column 3, for that category, then the category for that aeroplane should actually be one category higher.
+      presets:
+        - correctAnswers:
+            - text: (1) length; (2) width.
+          wrongAnswers:
+            - text: (1) mass; (2) length.
+            - text: (1) width; (2) length.
+            - text: (1) mass; (2) width.
+- id: QUAIY
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104617
+    - AVEXAM-46208
+    - BGS-101417
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.07.01.03
+  templates:
+    - type: simple
+      question: What is meant by the term "response time", regarding rescue and fire fighting (RFF) at an aerodrome?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The time between the initial call to the rescue and fire fighting service, and the time when the first responding vehicle is in position to apply foam.
+          wrongAnswers:
+            - text: The time between the initial call to the rescue and fire fighting service, and the time when the first responding vehicle is approaching the scene of accident.
+            - text: The time between the observation of the accident, and the time when the first responding vehicle is approaching the scene of accident.
+            - text: The time between the initial call to the rescue and fire fighting service, and the time when the first responding vehicle is leaving the station.
+    - type: simple
+      question: Consider Rescue & Fire Fighting (RFF) services as required by ICAO Annex 14. "Response time" is considered to be the time between the initial call to the RFF service and the time when the first responding vehicle.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is in position to apply foam.
+          wrongAnswers:
+            - text: is completely manned and ready to respond.
+            - text: is moving under its own power.
+            - text: arrives at the scene of an accident or incident.
+- id: QEYVU
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105033
+    - BGS-100778
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.07.03.01
+  templates:
+    - type: simple
+      question: According to ICAO Annex 14, which of the following is necessary when aircraft refuelling operations take place at the same time as passengers are embarking, on board or disembarking?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ground equipment shall be positioned so as to allow the use of a sufficient number of exits for expeditious evacuation.
+          wrongAnswers:
+            - text: Rescue and fire fighting vehicles must be manned and at their stations in order to be available in the event of a fire.
+            - text: Rescue and fire fighting vehicles must be positioned at the aircraft in order to be available in the event of a fire.
+            - text: All exits from the aircraft must be open for an expeditious evacuation in the event of a fire.
+- id: QIMYS
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106789
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.07.03.01
+  templates:
+    - type: simple
+      question: Which of the following is necessary during the ground servicing of an aircraft with regard to the possible event of a fuel fire?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Fire extinguishing equipment suitable for at least initial intervention in the event of a fuel fire and personnel trained in its use shall be readily available.
+          wrongAnswers:
+            - text: Fire extinguishing equipment suitable for a total intervention in the event of a fuel fire and personnel trained in its use shall be readily available.
+            - text: The rescue and fire fighting vehicles must be manned and at their stations in order to be available in the event of a fire.
+            - text: The rescue and fire fighting vehicles must be positioned at the aircraft in order to be available in the event of a fire.
+- id: QSTND
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108545
+    - AVEXAM-75003
+    - BGS-101715
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.08.01.01
+  templates:
+    - type: simple
+      question: The declared distances, which shall be calculated for each runway direction, are the take-off run available (TORA), ..
+      explanation: |-
+        ### GM1 ADR.OPS.A.005, Aerodrome data
+
+        > (b) (1) Where a runway is not provided with a stopway or a clearway and the threshold is located at the extremity of the runway, the four declared distances should normally be **equal to the length of the runway**. (2) When a runway is provided with a clearway (CWY), then the **TODA** will include the length of clearway. (3) Where a runway is provided with a stopway (SWY), then the **ASDA** will include the length of stopway. (4) Where a runway has a displaced threshold, then the **LDA** will be reduced by the distance the threshold is displaced.
+
+        The stopway lengthens only the ASDA. The clearway lengthens only the TODA. The displaced threshold shortens only the LDA. The TORA is not changed by any of them.
+      presets:
+        - correctAnswers:
+            - text: take-off distance available (TODA), accelerate-stop distance available (ASDA), and landing distance available (LDA).
+          wrongAnswers:
+            - text: take-off distance available (TODA), accelerate-stop distance available (ASDA), and runway-end safety area (RESA).
+            - text: accelerate-stop distance available (ASDA), landing distance available (LDA), and, if present, length of any displaced thresholds (THR).
+            - text: take-off distance available (TODA), and runway length (RL).
+- id: QQMOQ
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QWXTA
+  externalQuestionIds:
+    - ATPLQ-106004
+    - AVEXAM-56260
+    - BGS-100772
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.08.01.02
+  templates:
+    - type: simple
+      question: The four declared distances specified for a runway direction (TORA, TODA, ASDA, and LDA) would be equal if the runway..
+      explanation: |-
+        ### GM1 ADR.OPS.A.005, Aerodrome data
+
+        > (b) (1) Where a runway is not provided with a stopway or a clearway and the threshold is located at the extremity of the runway, the four declared distances should normally be **equal to the length of the runway**. (2) When a runway is provided with a clearway (CWY), then the **TODA** will include the length of clearway. (3) Where a runway is provided with a stopway (SWY), then the **ASDA** will include the length of stopway. (4) Where a runway has a displaced threshold, then the **LDA** will be reduced by the distance the threshold is displaced.
+
+        The stopway lengthens only the ASDA. The clearway lengthens only the TODA. The displaced threshold shortens only the LDA. The TORA is not changed by any of them.
+      presets:
+        - correctAnswers:
+            - text: is without a stopway or clearway, and also without a displaced threshold.
+          wrongAnswers:
+            - text: has a stopway and clearway of equal length, but is without a displaced threshold.
+            - text: is without a stopway or clearway, but there is a displaced threshold with a starter extension.
+            - text: is without a stopway and also without a displaced threshold.
+- id: QWXTA
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds:
+    - QQMOQ
+  externalQuestionIds:
+    - ATPLQ-104374
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.08.01.02
+  templates:
+    - type: simple
+      question: In which of the following cases will ASDA, LDA, TODA and TORA have the same length?
+      explanation: |-
+        ### GM1 ADR.OPS.A.005, Aerodrome data
+
+        > (b) (1) Where a runway is not provided with a stopway or a clearway and the threshold is located at the extremity of the runway, the four declared distances should normally be **equal to the length of the runway**. (2) When a runway is provided with a clearway (CWY), then the **TODA** will include the length of clearway. (3) Where a runway is provided with a stopway (SWY), then the **ASDA** will include the length of stopway. (4) Where a runway has a displaced threshold, then the **LDA** will be reduced by the distance the threshold is displaced.
+
+        The stopway lengthens only the ASDA. The clearway lengthens only the TODA. The displaced threshold shortens only the LDA. The TORA is not changed by any of them.
+      presets:
+        - correctAnswers:
+            - text: No stopway, no clearway, no displaced threshold.
+          wrongAnswers:
+            - text: No stopway but a clearway and a displaced threshold are available.
+            - text: Stopway and clearway are equal but no displaced threshold.
+            - text: Stopway and clearway equal and a displaced threshold is available.
+- id: QGGCJ
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109767
+    - AVEXAM-46971
+    - BGS-101683
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.08.01.03
+  templates:
+    - type: simple
+      question: According to ICAO Annex 14, how will the addition of a stopway affect the four declared distances? It increases the...
+      explanation: |-
+        ### GM1 ADR.OPS.A.005, Aerodrome data
+
+        > (b) (1) Where a runway is not provided with a stopway or a clearway and the threshold is located at the extremity of the runway, the four declared distances should normally be **equal to the length of the runway**. (2) When a runway is provided with a clearway (CWY), then the **TODA** will include the length of clearway. (3) Where a runway is provided with a stopway (SWY), then the **ASDA** will include the length of stopway. (4) Where a runway has a displaced threshold, then the **LDA** will be reduced by the distance the threshold is displaced.
+
+        The stopway lengthens only the ASDA. The clearway lengthens only the TODA. The displaced threshold shortens only the LDA. The TORA is not changed by any of them.
+      presets:
+        - correctAnswers:
+            - text: ASDA, while the TORA, TODA, and LDA remain unchanged.
+          wrongAnswers:
+            - text: ASDA, TORA, and TODA, while the LDA remains unchanged.
+            - text: LDA, while the ASDA, TORA, and TODA remain unchanged.
+            - text: ASDA and TORA, while the TODA and LDA remain unchanged.
+- id: QJVXS
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108638
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.08.01.03
+  templates:
+    - type: multiple-correct
+      question: Following an increase in the length of the stopway section of a runway, which of the following have also extended in length?
+      explanation: |-
+        ### GM1 ADR.OPS.A.005, Aerodrome data
+
+        > (b) (1) Where a runway is not provided with a stopway or a clearway and the threshold is located at the extremity of the runway, the four declared distances should normally be **equal to the length of the runway**. (2) When a runway is provided with a clearway (CWY), then the **TODA** will include the length of clearway. (3) Where a runway is provided with a stopway (SWY), then the **ASDA** will include the length of stopway. (4) Where a runway has a displaced threshold, then the **LDA** will be reduced by the distance the threshold is displaced.
+
+        The stopway lengthens only the ASDA. The clearway lengthens only the TODA. The displaced threshold shortens only the LDA. The TORA is not changed by any of them.
+      options:
+        - text: ASDA
+          correct: true
+        - text: TODA
+          correct: false
+        - text: TORA
+          correct: false
+        - text: LDA
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QXUVI
+  subjectId: "010"
+  chapterId: "010.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108732
+    - AVEXAM-89221
+  annexes: []
+  learningObjectiveIds:
+    - 010.09.08.03.01
+  templates:
+    - type: simple
+      question: The two main groups of approach lighting systems are..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: simple and precision approach lighting systems.
+          wrongAnswers:
+            - text: precision and non-precision approach lighting systems.
+            - text: precision and complex approach lighting systems.
+            - text: simple and complex approach lighting systems.

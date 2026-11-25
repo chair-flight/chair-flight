@@ -1,0 +1,482 @@
+- id: QWDDK
+  subjectId: "022"
+  chapterId: "022.14"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223915
+    - BGS-222310
+    - AVEXAM-24469
+  annexes: []
+  learningObjectiveIds:
+    - 022.14.01.01.01
+  templates:
+    - type: simple
+      question: The purpose of a Cockpit Voice Recorder is to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: preserve, in the event of an accident, vital audio information that is recoverable for use by accident investigators.
+          wrongAnswers:
+            - text: preserve pilot communication data from take-off to landing, after which the information is automatically erased.
+            - text: transmit voice communication data to the operator's base that can be used by managers to assess radiotelephony skills.
+            - text: transmit, in the event of an accident, cabin and flight crew conversation data to the operator's base.
+- id: QCLCA
+  subjectId: "022"
+  chapterId: "022.14"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223393
+    - AVEXAM-20359
+    - BGS-222320
+  annexes: []
+  learningObjectiveIds:
+    - 022.14.01.01.02
+  templates:
+    - type: simple
+      question: A CVR consists of..
+      explanation: A CVR consists of a recorder (tape or digital storage) in a shock-resistant, fire-protected case, an underwater locating device, an area microphone in the cockpit and a control unit.
+      presets:
+        - correctAnswers:
+            - text: a tape recorder, Underwater Locating Device, area microphone, and control unit.
+          wrongAnswers:
+            - text: a Digital Flight Data Acquisition Unit, area microphone, erase button, and tape recorder.
+            - text: an Underwater Locating Device, illuminating light, speakers, tape recorder, and control unit.
+            - text: an Event Mark Device, Emergency Locator Transmitter, test button, and erase button.
+- id: QCTBA
+  subjectId: "022"
+  chapterId: "022.14"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227407
+    - BGS-222313
+  annexes: []
+  learningObjectiveIds:
+    - 022.14.01.01.02
+    - 022.14.02.01.02
+  templates:
+    - type: simple
+      question: What technologies are used for data storage in aircraft recording systems?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Chip circuits and magnetic tape.
+          wrongAnswers:
+            - text: Electric wire and optical discs.
+            - text: Scratch foil and capacitors.
+            - text: Chip circuits and capacitors.
+- id: QPPCB
+  subjectId: "022"
+  chapterId: "022.14"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227330
+    - BGS-222253
+    - ATPLQ-223048
+    - AVEXAM-86624
+    - BGS-220821
+    - AVEXAM-31075
+    - BGS-222556
+    - BGS-221373
+    - BGS-221082
+    - AVEXAM-40908
+    - ATPLQ-221592
+    - BGS-222312
+    - BGS-222311
+    - ATPLQ-225543
+    - ATPLQ-223787
+  annexes: []
+  learningObjectiveIds:
+    - 022.14.01.01.03
+  templates:
+    - type: simple
+      question: A Cockpit Voice Recorder must record..
+      explanation: "The cockpit voice recorder records audio only: radio communications sent or received by the aeroplane, the flight crew's voices on the flight deck, their interphone and public address communications, and audio identifying navigation or approach aids. Flight data goes to the flight data recorder."
+      presets:
+        - correctAnswers:
+            - text: "voice or audio signals identifying navigation or approach aids introduced into a headset or speaker and voice communications: transmitted from or received in the aeroplane by radio, of flight-crew members on the flight deck, of flight-crew members on the flight deck using the aeroplane's interphone system, and of flight-crew members on the flight-deck using the public address system (if installed)."
+          wrongAnswers:
+            - text: "flight data, voice or audio signals identifying navigation or approach aids introduced into a headset or speaker and voice communications: transmitted from or received in the aeroplane by radio, and of flight-crew members on the flight deck."
+            - text: voice or audio signals identifying navigation or approach aids introduced into a headset or speaker and data recording flight and engine parameters.
+            - text: "voice or audio signals identifying navigation or approach aids introduced into a headset or speaker and voice communications: transmitted from or received in the aeroplane by radio, of flight-crew members on the flight deck, of flight-crew members on the flight deck using the aeroplane's interphone system including calls between cabin crew stations (if installed), and of flight-crew members on the flight-deck using the public address system (if installed)."
+    - type: multiple-correct
+      question: "According to CS25, a CVR (Cockpit Voice Recorder) must record:"
+      explanation: "A CVR records audio: radio communications, the flight crew's voices picked up by the area microphone, interphone communications and audio identifying navigation or approach aids. Flight parameters go to the FDR."
+      options:
+        - text: – communications transmitted from or received in the aeroplane by radio
+          correct: true
+        - text: – communications of flight-crew members on the flight deck via the area microphone
+          correct: true
+        - text: – communications of flight-crew members on the flight deck using the aeroplane's interphone system
+          correct: true
+        - text: – audio signals identifying navigation or approach aids introduced into a headset or speaker
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QQONF
+  subjectId: "022"
+  chapterId: "022.14"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227910
+    - AVEXAM-16724
+    - AVEXAM-87999
+    - BGS-222160
+    - AVEXAM-43733
+  annexes: []
+  learningObjectiveIds:
+    - 022.14.01.01.03
+  templates:
+    - type: multiple-correct
+      question: Which of the following must Cockpit Voice Recorder (CVR) record?
+      explanation: ""
+      options:
+        - text: Flight data.
+          correct: false
+        - text: Voice communications of flight crew members on the flight deck using the public address system, if installed.
+          correct: true
+        - text: Voice communications transmitted from or received in the aircraft by radio.
+          correct: true
+        - text: Voice or audio signals identifying navigation or approach aids introduced into a headset or speaker.
+          correct: true
+        - text: Voice communications of flight crew members on the flight deck.
+          correct: true
+        - text: Voice communications of flight crew members on the flight deck using the aircraft's interphone system.
+          correct: true
+        - text: Data recording of flight and engine parameters.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 3
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 1
+            - 5
+            - 6
+        - show:
+            - 0
+            - 1
+            - 2
+            - 6
+- id: QWHHP
+  subjectId: "022"
+  chapterId: "022.14"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227005
+  annexes: []
+  learningObjectiveIds:
+    - 022.14.01.01.03
+  templates:
+    - type: multiple-correct
+      question: Which of the following must a Cockpit Voice Recorder record?
+      explanation: ""
+      options:
+        - text: Audio or voice signals identifying navigation or approach aids introduced into a headset or speaker.
+          correct: true
+        - text: The aural environment of the flight deck.
+          correct: true
+        - text: Flight-crew members on the flight deck using the aeroplane's interphone system.
+          correct: true
+        - text: Flight-crew members using the aeroplane's interphone system between cabin crew stations (if installed).
+          correct: false
+        - text: Voice communications transmitted from or received in the aeroplane by radio.
+          correct: true
+        - text: Flight-crew members on the flight deck using the public address system (if installed).
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+- id: QGNUH
+  subjectId: "022"
+  chapterId: "022.14"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225149
+    - AVEXAM-76753
+    - BGS-222273
+  annexes: []
+  learningObjectiveIds:
+    - 022.14.02.01.01
+    - 022.14.03.03.01
+  templates:
+    - type: simple
+      question: A Flight Data Recorder together with an ACMS (Aeroplane Condition Monitoring System) can be used for..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: accident analysis and trouble-shooting.
+          wrongAnswers:
+            - text: relaying pilot communications to ground stations.
+            - text: sending cockpit aural warnings to the operator's maintenance base.
+            - text: transmitting aircraft location data to ground stations during flight.
+- id: QRCGC
+  subjectId: "022"
+  chapterId: "022.14"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224804
+    - AVEXAM-91850
+    - BGS-220822
+  annexes: []
+  learningObjectiveIds:
+    - 022.14.02.01.02
+  templates:
+    - type: simple
+      question: "When pressing the EVENT-button on the flight data recorder control panel:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the recording is marked, enabling this event to be found rapidly at a subsequent analysis.
+          wrongAnswers:
+            - text: a event mark is set on the recording, after that the recording is automatically stopped.
+            - text: the recording is automatically stopped upon this event.
+            - text: the recording is rewound so that whatever happens after this event is recorded.
+- id: QZVXB
+  subjectId: "022"
+  chapterId: "022.14"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228349
+    - AVEXAM-86384
+    - BGS-222205
+    - BGS-222161
+    - ATPLQ-227300
+    - BGS-222260
+    - ATPLQ-221892
+  annexes: []
+  learningObjectiveIds:
+    - 022.14.02.01.03
+  templates:
+    - type: simple
+      question: Parameters recorded by a Flight Data Recorder include..
+      explanation: A flight data recorder records flight parameters such as attitude, heading, and the thrust or power of each engine. Voices belong on the CVR.
+      presets:
+        - correctAnswers:
+            - text: attitude, heading, and thrust/power on each engine.
+          wrongAnswers:
+            - text: landing gear position, pressure altitude, and pilot communications.
+            - text: airspeed, attitude, and announcements by cabin crew members.
+            - text: time or relative time count, aural cockpit warnings, and airspeed.
+    - type: simple
+      question: "The purpose of the Flight Data Recorder (FDR) is to record specific parameters such as: 1. time 2. attitude 3. airspeed 4. flaps/slats configuration or cockpit selection. The combination that regroups all of the correct statements is:"
+      explanation: A flight data recorder records flight parameters such as attitude, heading, and the thrust or power of each engine. Voices belong on the CVR. The flight data recorder records time, attitude, airspeed, pressure altitude, heading, thrust or power on each engine and the flap and slat configuration. Audio from the flight deck belongs on the cockpit voice recorder.
+      presets:
+        - correctAnswers:
+            - text: 1, 2, 3, 4.
+          wrongAnswers:
+            - text: 2, 3.
+            - text: 1, 2, 3.
+            - text: 2, 3, 4.
+    - type: simple
+      question: "The purpose of the Flight Data Recorder (FDR) is to record specific parameters such as: 1. pressure altitude 2. propulsive/thrust power on each engine 3. the audio environment in the flight deck 4. heading. The combination that regroups all of the correct statements is:"
+      explanation: A flight data recorder records flight parameters such as attitude, heading, and the thrust or power of each engine. Voices belong on the CVR. The flight data recorder records time, attitude, airspeed, pressure altitude, heading, thrust or power on each engine and the flap and slat configuration. Audio from the flight deck belongs on the cockpit voice recorder.
+      presets:
+        - correctAnswers:
+            - text: 1, 2, 4.
+          wrongAnswers:
+            - text: 1, 4.
+            - text: 2, 4.
+            - text: 2, 3, 4.
+- id: QSKIF
+  subjectId: "022"
+  chapterId: "022.14"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224720
+    - AVEXAM-9456
+  annexes: []
+  learningObjectiveIds:
+    - 022.14.02.01.04
+  templates:
+    - type: simple
+      question: Which of the following are factors that determine the type and number of parameters to be recorded by a FDR (flight data recorder)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Recording capacity and applicable operational requirements.
+          wrongAnswers:
+            - text: Recording duration and reliability of the FDR.
+            - text: Recording duration and the maximum flight time of the aircraft.
+            - text: Recording capacity and number of flight crew members.
+- id: QXGSG
+  subjectId: "022"
+  chapterId: "022.14"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227878
+    - BGS-221270
+    - AVEXAM-72823
+  annexes: []
+  learningObjectiveIds:
+    - 022.14.03.03.02
+  templates:
+    - type: simple
+      question: An Aeroplane Condition Monitoring System (ACMS) makes use of aircraft input data and also..
+      explanation: An aeroplane condition monitoring system takes data from aircraft systems, processes it in a data management unit, stores it in a recording unit and sends it to outputs such as a printer or ACARS.
+      presets:
+        - correctAnswers:
+            - text: a data management unit, a recording unit, and outputs (e.g. a printer or ACARS).
+          wrongAnswers:
+            - text: a headset jack, a data management unit, and outputs (e.g. a printer or ACARS).
+            - text: an area microphone, a recording unit, and an erase button.
+            - text: an erase button, a data management unit, and a headset jack.
+- id: QQCXC
+  subjectId: "022"
+  chapterId: "022.14"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222488
+    - AVEXAM-79040
+    - ATPLQ-229694
+    - BGS-222272
+  annexes: []
+  learningObjectiveIds:
+    - 022.14.03.03.03
+  templates:
+    - type: simple
+      question: Which type of communication is used in ACMS (Aeroplane Condition Monitoring System)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: By datalink without crew notification.
+          wrongAnswers:
+            - text: By crew voice communication reports.
+            - text: By the FDR on the ground, done by the maintenance personnel.
+            - text: By command via HF and VHF.
+    - type: simple
+      question: By what means are messages from an Aeroplane Condition Monitoring System (ACMS) transmitted to the maintenance base?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Digital datalink, without crew notification.
+          wrongAnswers:
+            - text: The Flight Data Recorder, when the aircraft is on the ground.
+            - text: The commander, through VHF or HF voice communication.
+            - text: Conventional analogue radios, with crew notification.
+- id: QRKPE
+  subjectId: "022"
+  chapterId: "022.14"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224119
+    - BGS-221669
+    - AVEXAM-32310
+  annexes: []
+  learningObjectiveIds:
+    - 022.14.03.03.04
+  templates:
+    - type: simple
+      question: "Acquired data from the Aircraft Condition Monitoring System (ACMS) may be used:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: As part of an FDM and safety programme.
+          wrongAnswers:
+            - text: By the EFB for performance calculations.
+            - text: In place of the FWS to generate alerts.
+            - text: For the EGPWS terrain display.
+- id: QFXMW
+  subjectId: "022"
+  chapterId: "022.14"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227730
+    - AVEXAM-30488
+  annexes: []
+  learningObjectiveIds:
+    - 022.14.03.03.05
+    - 022.14.03.03.06
+  templates:
+    - type: multiple-correct
+      question: The airline you are working for has a FDM system in operation. What is true about the acquired information?
+      explanation: ""
+      options:
+        - text: If the pilot purposely and recklessly exceeds stated parameters and limitations, the company can put him/her under investigation.
+          correct: true
+        - text: find recurring adverse safety trends
+          correct: true
+        - text: The information will be used to improve crew training.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+- id: QTTKU
+  subjectId: "022"
+  chapterId: "022.14"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226866
+    - AVEXAM-5193
+    - BGS-221775
+  annexes: []
+  learningObjectiveIds:
+    - 022.14.03.03.05
+  templates:
+    - type: simple
+      question: The purpose of a Flight Data Monitoring (FDM) programme is to collect flight data...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: anonymously, to improve safety.
+          wrongAnswers:
+            - text: to measure all crew member's performance.
+            - text: individually, to measure each pilot's performance.
+            - text: individually, for the safety evaluation of each pilot.
+- id: QCLVJ
+  subjectId: "022"
+  chapterId: "022.14"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228478
+    - AVEXAM-10722
+  annexes: []
+  learningObjectiveIds:
+    - 022.14.03.03.06
+  templates:
+    - type: simple
+      question: What is the main purpose of the flight data monitoring?
+      explanation: Flight data monitoring records systems status and flight conditions and sends reports to the operator, which uses them to find adverse safety trends and tailor training. It is a company safety tool and is not sent to the authority.
+      presets:
+        - correctAnswers:
+            - text: To record systems status and flight conditions and automatically send reports to the company for investigation and training.
+          wrongAnswers:
+            - text: To record systems status and flight conditions in order to generate automatic checklists both normal and abnormal.
+            - text: To record systems status and flight conditions and automatically send reports to the authority.
+            - text: To record systems status and flight conditions and issue alerts and/or warnings to flight crew as soon as predetermined thresholds have been reached.

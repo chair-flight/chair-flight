@@ -1,0 +1,1235 @@
+- id: QWJGJ
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: During an approach with L/G not down locked, flaps extended and both engines not at T.O power you get master warning and ECAM 'gear not down!' at an radio height of
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: lower than 750 ft
+          wrongAnswers:
+            - text: lower than 1,000 ft and higher than 850 ft.
+            - text: lower than 850 ft and higher than 750 ft
+            - text: ---
+- id: QIAOC
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "System page 'wheel': With regard to the L/G position indicator triangles. The top row shows green triangles while in the second row no triangles are shown. Is the L/G down?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes
+          wrongAnswers:
+            - text: No
+            - text: ---
+            - text: ---
+- id: QUPTV
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The landing gear indicator panel receives the information from microswitches and proximity detectors connected to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: LGCIU 1
+          wrongAnswers:
+            - text: LGCIU 2
+            - text: LGCIU 2 & BSCU 2
+            - text: LGCIU 1 & BSCU 1
+- id: QHZSS
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The red arrow, near the landing gear lever illuminates when:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Landing gear is not down locked in landing configuration
+          wrongAnswers:
+            - text: Landing gear is not uplocked after retraction.
+            - text: Landing gear is in abnormal position.
+            - text: ---
+- id: QBDTS
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The landing gear indicator panel unlock light illuminates red if:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Gear is not locked in selected position.
+          wrongAnswers:
+            - text: Gear is extended by gravity and doors are not closed.
+            - text: Gear is extended normally and doors are not closed.
+            - text: ---
+- id: QHGDA
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "If tire damage is suspected after landing or after a rejected takeoff, an inspection of the tires is required before taxi. If the tire is deflated but not damaged, the aircraft can be taxied at low speed with the following limitations :"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both answers are correct
+          wrongAnswers:
+            - text: f one tire is deflated on one or more gears (i.e. a maximum of three tires), the speed should be limited to 7 knots when turning.
+            - text: If two tires are deflated on the same main gear (the other main gear tires not being deflated), speed should be limited to 3 knots and the nose wheel steering angle limited to 30 degrees.
+            - text: ---
+- id: QGZRC
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "How many turns are necessary to extend the landing gear by gravity using the handcrank:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Three turns clockwise
+          wrongAnswers:
+            - text: Ten turns clockwise.
+            - text: Five turns clockwise
+            - text: ---
+- id: QRKFW
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: After lift off, is the brakes hot caution on ECAM still displayed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes, with gear down or up.
+          wrongAnswers:
+            - text: Yes, with gear down only.
+            - text: No, it is not displayed.
+            - text: ---
+- id: QREZE
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "On wheel page of ECAM, AUTO BRK is flashing green:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Auto brake is disengaged (flashing green for 10 seconds).
+          wrongAnswers:
+            - text: Auto brake failure
+            - text: Anti-skid failure
+            - text: ---
+- id: QFQGT
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: On the ramp with APU running, PARK BRK is set ON, message on ECAM shows PARK BRK.
+          answer: true
+- id: QGPGR
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "After a landing gear gravity extension, is it possible to restore normal landing gear operation if green hydraulic pressure is available:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes
+          wrongAnswers:
+            - text: No
+            - text: ---
+            - text: ---
+- id: QOTGH
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The nose wheel steering is powered:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: By hydraulic system.
+          wrongAnswers:
+            - text: By electric system.
+            - text: By hydraulic and electric systems.
+            - text: ---
+- id: QOBGL
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Nose wheel steering by rudder pedals is limited to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 0&deg; to 6&deg; depending on A/C speed.
+          wrongAnswers:
+            - text: 2° to 6° under all circumstances.
+            - text: ---
+            - text: ---
+- id: QTQBT
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When handwheel and pedals are operated simultaneously
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Orders are algebraically added
+          wrongAnswers:
+            - text: Handwheel has priority
+            - text: Pedals have priority
+            - text: As long as the handwheel is moved, the pedal inputs are inhibited
+- id: QRGHT
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: At _______________ the connection between nosewheel steering and the rudder pedals is removed
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 130 knots (aircraft ground speed)
+          wrongAnswers:
+            - text: 110 knots (aircraft ground speed)
+            - text: touchdow
+            - text: ---
+- id: QPDRP
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How many Landing Gear Control and Interface Units (LGCIUs) control the extension and retraction of the gear and the operation of the doors?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: One LGCIU controls one complete gear cycle, then switches over automatically to the other LGCIU at the completion of the retraction cycle.
+          wrongAnswers:
+            - text: LGCIU 1 controls the operation of the gears, LGCIU 2 controls the operation of the doors
+            - text: "Three Units: One LGCIU controls the operation of each landing gear strut. LGCIU 3 additionally controls the operation of all doors."
+            - text: ---
+- id: QHRTX
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "When both handwheels are operated simultaneously, the signals:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Are added algebraically.
+          wrongAnswers:
+            - text: From the first pilot acting on his handwheel have priority
+            - text: Coming from the captain have priority.
+            - text: ---
+- id: QLXJJ
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "A safety valve automatically cuts off hydraulic supply to the landing gear system when flying faster than :"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 260 kts.
+          wrongAnswers:
+            - text: 280 kts
+            - text: 250 kts.
+            - text: ---
+- id: QRXVC
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: After T/O the left main gear shock absorber is stuck in compressed position.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The gear can not be retracted.
+          wrongAnswers:
+            - text: The gear can be retracted under all circumstances (safety).
+            - text: The gear can be retracted provided the nose gear is centred.
+            - text: ---
+- id: QKCDG
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Is it possible (system wise) to lower the gear by gravity above 260 kts?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes
+          wrongAnswers:
+            - text: No
+            - text: ---
+            - text: ---
+- id: QASIY
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "1 The anti-skid and nose wheel switch is set to off:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Anti-skid and nose wheel steering are deactivated
+          wrongAnswers:
+            - text: Anti-skid only is deactivated
+            - text: Nose wheel steering only is deactivated.
+            - text: Anti-skid provides a fixed aircraft deceleration.
+- id: QFYSE
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The alternate brake system uses:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The yellow hydraulic system and the hydraulic accumulator
+          wrongAnswers:
+            - text: The yellow hydraulic system.
+            - text: The hydraulic accumulator.
+            - text: ---
+- id: QQNUD
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The antiskid system gets its reference speed from:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ADIRU 1 or 2 or 3.
+          wrongAnswers:
+            - text: ADIRU 2 or 3.
+            - text: ADIRU 1 or 3.
+            - text: ---
+- id: QAMWX
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The principle of the anti-skid is
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Comparing wheel speed with A/C reference speed.
+          wrongAnswers:
+            - text: Comparing the speed difference between the four wheels.
+            - text: Comparing wheel speed with left and right landing gear.
+            - text: ---
+- id: QKTKK
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Following failure of ADIRS 1 and ADIRS 3, is the anti-skid still available?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes
+          wrongAnswers:
+            - text: No
+            - text: ---
+            - text: ---
+- id: QGXPD
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Green hydraulic system available, you find the A/SKID and NWS switch in OFF position:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Braking provided by yellow system, nose wheel steering lost.
+          wrongAnswers:
+            - text: Braking is normal, nosewheel steering lost.
+            - text: Braking provided by yellow system, nosewheel steering normal.
+            - text: ---
+- id: QOTOF
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Alternate braking using the yellow system. Autobrake is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Lost.
+          wrongAnswers:
+            - text: Still available with anti-skid.
+            - text: Still available without anti-skid
+            - text: ---
+- id: QABJD
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The purpose of the autobrake system is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To reduce the braking distance in case of an aborted takeoff.
+          wrongAnswers:
+            - text: to increase the braking distance in case of an aborted takeoff.
+            - text: ---
+            - text: ---
+- id: QQFQA
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: Setting the parking brake ON deactivates all braking modes, except the anti-skid.
+          answer: false
+- id: QABIK
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Auto braking is initiated by
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ground spoilers extension.
+          wrongAnswers:
+            - text: Reverse thrust selection.
+            - text: Reverse thrust selection after ground spoiler extension.
+            - text: ---
+- id: QVOGV
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The brake and accumulator pressure gauge shows pressure:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: From both yellow brake system and brake accumulator.
+          wrongAnswers:
+            - text: From yellow hydraulic system only
+            - text: From accumulator only
+            - text: ---
+- id: QKWLB
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "On wheel page of ECAM, a green arc appears on one wheel indicator meaning the brake temperature is above:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 100&deg;C.
+          wrongAnswers:
+            - text: 300&deg;C.
+            - text: 50&deg;C.
+            - text: ---
+- id: QKYWL
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Landing gear can be extended by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Green system or mechanical gravity extension.
+          wrongAnswers:
+            - text: Green system or yellow in stand by.
+            - text: Green system for unlocking, gravity extension and green system for downlocking.
+            - text: Blue system or mechanical gravity extension.
+- id: QGIZZ
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Landing gear position is indicated by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: One panel on centre instrument panel, ECAM
+          wrongAnswers:
+            - text: One panel on centre instrument panel and one panel on overhead panel.
+            - text: ECAM only
+            - text: One panel on centre instrument panel, ECAM, visual means on the wing
+- id: QQPNL
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The take off has been rejected with max braking selected and engines in reverse. You have forgotten to arm the ground spoilers. Is autobrake activated?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes
+          wrongAnswers:
+            - text: No
+            - text: ---
+            - text: ---
+- id: QRSQH
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "When auto brake operates, it can be disarmed by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: all of the given possibilities
+          wrongAnswers:
+            - text: Pressing the push button or losing an arming condition
+            - text: Depressing 1 pedal if MAX, MED or LO.
+            - text: Ground spoilers retraction.
+- id: QLOGV
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: |-
+            The landing gear positions are indicated by 2 triangles for each gear. Each triangle is controlled by one LGCIU:
+
+            - a green triangle indicates that one LGCIU detects a landing gear downlocked.
+
+            - a red triangle indicates that one LGCIU detects a landing gear which is not locked in the selected position.
+          answer: true
+- id: QYKZJ
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Automatic braking is initiated:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: At the command for ground spoilers extension
+          wrongAnswers:
+            - text: At reverse selectio
+            - text: At strut compression
+            - text: At anti-skid activ
+- id: QOTZC
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: 9 What is required to arm the auto brakes?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Green hydraulic pressure available, anti-skid electrical powered, no failure in the braking system, at least one ADIRS functioning
+          wrongAnswers:
+            - text: Green and Yellow hydraulic pressure available, anti-skid electrical powered, no failure in the braking system, all ADIRS functioning
+            - text: Green hydraulic pressure available, anti-skid electrical powered, no failure in the braking system, all ADIRS functioning
+            - text: Green hydraulic pressure available, no failure in the braking system, at least one ADIRS functioning
+- id: QRMOA
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When can the Warning Gear not downlocked be canceled using the MASTER WARNING light?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: If the LG is not down and locked, radio height is lower than 750 ft and all engines NOT at takeoff power
+          wrongAnswers:
+            - text: If the LG is not down and locked, flaps at 2,3 or FULL, both Radio Altimeters failed and all engines NOT at takeoff power
+            - text: It is not possible to cancel the aural warnings in approach conditions
+            - text: ---
+- id: QFQXQ
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When does the HOT light on the BRK FAN Pb illuminate?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Brake temperature > 300 &deg;C
+          wrongAnswers:
+            - text: Brake temperature > 250 &deg;C
+            - text: Brake temperature > 350 &deg;C
+            - text: Brake temperature > 350 &deg;C
+- id: QLLLC
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which answer about the landing gear indications is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: LGCIU 1 is connected to the Landing gear indicator panel (as long it is electrically supplied) and supplies information to the ECAM WHEEL Page
+          wrongAnswers:
+            - text: LGCIU 1 is connected to the Landing gear indicator panel only, if a fault is detected within LGCIU 1, the connection will be transferred to LGCIU 2
+            - text: LGCIU 2 is connected to the Landing gear indicator panel only
+            - text: LGCIU 1 is connected to the Landing gear indicator panel (as long as no fault is detected) and supplies information to the ECAM WHEEL Page
+- id: QIDSR
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "4 The max speed with landing gear extended (VLe) is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 280 kts/M.67
+          wrongAnswers:
+            - text: 300 kts/M.70
+            - text: 260 kts/M.60
+            - text: 250 kts/M0.60
+- id: QAHUO
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The red arrow, near the landing gear lever, comes on when the landing gear is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Not locked down when the aircraft is in Landing configuration, and a red warning appears on ECAM
+          wrongAnswers:
+            - text: Not locked down when the aircraft is in Approach (min. Flaps 2) configuration, below 1.000ft and a red warning appears on ECAM
+            - text: Is in abnormal position
+            - text: Not locked down when the aircraft is in Landing configuration or LGCIU 1 is faulty or landing gear is in an abnormal position
+- id: QTTYQ
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: One LGCIU controls one complete gear cycle, then switches over automatically to the other LGCIU.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It switches automatically at landing gear retraction
+          wrongAnswers:
+            - text: It switches automatically at landing gear extension
+            - text: It switches automatically, when below 72 kt after touch down
+            - text: It switches automatically after the second engine has been started
+- id: QXZOF
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The landing gear can be extended by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The GREEN hydraulic system or gravity extension
+          wrongAnswers:
+            - text: The GREEN and YELLOW hydraulic system
+            - text: The BLUE and GREEN hydraulic system
+            - text: The GREEN and YELLOW hydraulic system and gravity extension
+- id: QZQOC
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Hydraulic pressure to the landing gear is supplied up to
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 260 kts
+          wrongAnswers:
+            - text: 280 kts
+            - text: any speed
+            - text: 250 kts
+- id: QJDDX
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "With the green hydraulic system available and the A/Skid and N/W steering switch in OFF position:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Braking is alternate without antiskid and nose wheel steering lost
+          wrongAnswers:
+            - text: Braking is normal with antiskid and nose wheel steering is lost
+            - text: Braking is alternate without antiskid and nose wheel steering is normal
+            - text: Braking is normal without antiskid and nose wheel steering is lost
+- id: QVNSU
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "0 Nose wheel steering is available when:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The A/SKID & N/W STRG switch is on and, the towing control lever is in normal position and, at least one engine is running, and the aircraft is on ground
+          wrongAnswers:
+            - text: The A/SKID & N/W STRG switch is on and, the towing control lever is in normal position and, at least one engine is running, and the aircraft is on ground and, both BSCU channels are operative
+            - text: The A/SKID & N/W STRG switch is on and, the towing control lever is in normal position and, both engines are running, and the aircraft is on ground and, both BSCU channels must be operative
+            - text: The A/SKID & N/W STRG switch is on and, the towing control lever is in normal position and, at least one engine is running, and at least GREEN hydraulic system is pressurized
+- id: QMGSM
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "When the A/SKID & N/W STRG switch is set to OFF:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Antiskid is deactivated, nose wheel steering is lost, and YELLOW hydraulic system supplies pressure to the brakes
+          wrongAnswers:
+            - text: Antiskid is deactivated and nose wheel steering control by the pedals is disconnected
+            - text: Antiskid is deactivated and nose wheel steering with the handwheel is lost (Pedal steering remains available)
+            - text: Antiskid is deactivated, nose wheel steering is lost, and GREEN hydraulic system still supplies pressure to the brakes
+- id: QJJEQ
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "With the brake fan push button in ON position the brake fan runs:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When the left main landing gear is downlocked
+          wrongAnswers:
+            - text: When the aircraft is on ground
+            - text: As long as the brake HOT light on the brake fan pushbutton is illuminated
+            - text: When the right main landing gear is downlocked and the aircraft is on ground
+- id: QGQWF
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "When a main gear shock absorber gets stuck in compressed position after lift-off:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The landing gear can not be retracted. The gear lever is locked in DOWN position
+          wrongAnswers:
+            - text: The landing gear retraction is not affected
+            - text: The landing gear can be retracted provided the nose gear steering is centered
+            - text: The landing gear will be retracted except of the gear associated with the failure, a L/G GEAR NOT UPLOCKED warning will be triggered
+- id: QKDHC
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If after a gravity gear extension the gear is downlocked but the gear lever is not set in DOWN position then...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the red UNLK lights on the gear indication panel remain on
+          wrongAnswers:
+            - text: it has no consequences neither for the indications nor for the operation of the gear
+            - text: the ECAM alert L/G SYS DISAGREE will be triggered
+            - text: ---
+- id: QENMD
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The brakes can be activated by independent systems, pressurized by the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: YELLOW or GREEN hydraulic system
+          wrongAnswers:
+            - text: BLUE or GREEN hydraulic system
+            - text: BLUE or YELLOW hydraulic system
+            - text: YELLOW or GREEN or ALTERNATE (BLUE) hydraulic system
+- id: QFOVI
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "If a take-off is aborted just before V1 with auto brake selection MAX but spoilers not armed, the auto brake will:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Become active when at least one thrust lever is set to reverse, and the other at or near idle
+          wrongAnswers:
+            - text: Not be activated
+            - text: Become active when both thrust levers are set to idle only
+            - text: Become active when both thrust levers are set to reverse only
+- id: QYCWY
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "On the ECAM wheel page, - AUTO BRK - is flashing green:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: For ten seconds after auto brake disengagement
+          wrongAnswers:
+            - text: When auto brake is armed
+            - text: For ten seconds after auto brake is engaged
+            - text: ---
+- id: QGHDY
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When does the control transfer between the two LGCIU&rsquo;s happen?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: After a complete landing gear cycle (retraction phase) and in case of a failure
+          wrongAnswers:
+            - text: After engine startt
+            - text: After a complete landing gear cycle (extension phase) and in case of a failure
+            - text: After a complete landing gear cycle (After engine shutdown)
+- id: QIFJS
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is indicated by a DECEL light being illuminated on the auto brake panel?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When the actual deceleration is 80% or more of the selected rate
+          wrongAnswers:
+            - text: When the actual deceleration corresponds to the selected rate
+            - text: When the actual deceleration is 50% or more of the selected rate
+            - text: When the actual deceleration is 75% or more of the selected rate
+- id: QWIKP
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "If tire damage is suspected after landing or after a rejected takeoff, the following limitation must be adhered to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: If one tire is deflated on one or more gears (i.e. a maximum of three tires), the speed should be limited to 7 knots when turning
+            - text: If two tires are deflated on the same main gear (the other main gear tires not being deflated), speed should be limited to 3 knots and the nose wheel steering angle limited to 30 degrees
+            - text: An inspection of the tires is required before taxi, and if the tires are deflated but not damaged, the aircraft can be taxied at low speed
+- id: QKJJB
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "On the ECAM wheel page, AUTO BRK is flashing green:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When the auto brake is disengaged (flashing green for 10 seconds)
+          wrongAnswers:
+            - text: When the auto brake system is working properly and when the actual deceleration is 80% or more of the selected rate
+            - text: When the BSCU detects a failure in the Antiskid system
+            - text: When the actual deceleration is less than 80% of the selected rate
+- id: QDEUW
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The principle of the anti-skid is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Comparing wheel speed with A/C reference speed
+          wrongAnswers:
+            - text: Comparing the speed difference between the four main wheels
+            - text: Comparing wheel speed with left and right landing gear
+            - text: Comparing speed difference between main wheels and nose wheels
+- id: QQZHJ
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The handwheels in the cockpit provide a wheel steering angle of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 75&deg;
+          wrongAnswers:
+            - text: 85&deg;
+            - text: 70&deg;
+            - text: "90"
+- id: QQPSI
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The safety valve of the landing gear cuts off the hydraulic supply. At what airspeed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "> 260kts"
+          wrongAnswers:
+            - text: < 220 kts
+            - text: "> 280 kt"
+            - text: ) > 230 kt
+- id: QBXFT
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The safety valve of the landing gear cuts off the hydraulic supply. At what speed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ">260kts"
+          wrongAnswers:
+            - text: < 220 kts
+            - text: ">280 kts"
+            - text: 230 kts
+- id: QZBFI
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: You are ready to taxi. You apply the toe brakes on the rudder pedals and release the PARK BRK. The BRAKES pressure falls to zero. What should you do?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Nothing, as this is normal. The BRAKES pressure indicator only indicates alternate (yellow) brake pressure.
+          wrongAnswers:
+            - text: This should not happen and you must assume that the BRAKES pressure indicator has failed.
+            - text: You must re-apply the PARK BRK and call for maintenance personnel as the main system pressure has failed.
+            - text: The indication is normal because once the AUTO BRK is set to MAX the BRAKES indicator is by-passed.
+- id: QHWXB
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: You perform a landing with AUTO/BRK set to MED. After touch down what triggers the AUTO/BRK?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: AUTO/BRK commences when the ground spoilers extend and sends progressive pressure to the brakes after a few seconds
+          wrongAnswers:
+            - text: The AUTO/BRK system works as soon as the main landing gear is compressed
+            - text: The AUTO/BRK system is triggered when the thrust reversers are unlocked
+            - text: The AUTO/BRK system works as soon as the nose gear is compressed
+- id: QPQZR
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: You have set the L/G selector to the DOWN position. While the landing gear is moving to the selected position, L/G CTL appears amber on the ECAM WHEEL PAGE, along with an ECAM caution. What causes this indication?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The L/G is not locked in the selected position. L/G CTL lever and L/G position do not agree
+          wrongAnswers:
+            - text: L/G is up and unlocked, the L/G doors are open and the L/G CTL shows lever positions disagree.
+            - text: The computers which provide gear position information have failed.
+            - text: L/G CTL indicates that the lowering system has failed. The gear must be extended by gravity.
+- id: QUMON
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: You have just set the parking brake handle to ON. Is it still possible to check the main brake system using the toe brakes?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No. When the PARK BRK is set, the other braking modes are deactivated.
+          wrongAnswers:
+            - text: Yes. As soon as you press the brake pedals the BRAKES indicator will read main system pressure.
+            - text: No. It is not possible to press hard enough to obtain an accurate reading.
+            - text: ---
+- id: QRHQB
+  subjectId: a320
+  chapterId: "12"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: During push back you start engine 2. After push back you observe the NW STRG DISC memo has changed to amber. Why?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The memo has become amber because one engine is running
+          wrongAnswers:
+            - text: The NW STRG disconnect mechanism has failed
+            - text: The yellow hydraulic system is now pressurized and the amber caption is a warning not to move the hand wheel
+            - text: The nose wheel steering is being re-connected by ground personnel. It is amber because the pin is removed

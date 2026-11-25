@@ -1,0 +1,945 @@
+- id: QFQFM
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: With A/T engaged, what condition could cause the throttles to be separated (not aligned).
+      explanation: |
+        > EEC Alternate Mode
+        >
+        > (...)
+        >
+        > In the soft alternate mode, the EEC uses the last valid flight conditions to define engine parameters which allows the mode change to occur with no immediate change in engine thru
+
+        If one of the throttles EEC is in ALTN, and the other is functioning normally and MCT is commanded, the two EECs will eventually calculate different MCT leading to a stagger in the throttles. For this reason the QRH will instruct to move both throttles into the HARD ALT mode.
+      presets:
+        - correctAnswers:
+            - text: One EEC in ON, one EEC in ALTN.
+          wrongAnswers:
+            - text: Throttle stagger cannot occur with A/T engaged as both throttle servo motors work identically to position the throttles symmetrically.
+            - text: Both EECs in ALTN.
+            - text: One engine A/T suffering a system fault.
+- id: QAWOV
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What condition would cause an automatic shutdown of the APU?
+      explanation: |-
+        ### FCOM 7.30.3, Electronic Control Unit (ECU)
+
+        > An electronic control unit (ECU) monitors and controls the APU. If the ECU detects a fault that may cause damage to the APU or the aircraft, it will **automatically execute a protective shutdown.** One of three different indications on the APU Indicator Panel will appear when a protective shutdown is initiated: • Fault Light, or • Overspeed Light, or • Low Oil Pressure Light
+      presets:
+        - correctAnswers:
+            - text: An APU high oil temperature condition occurs or The APU overspeeds or APU fuel control unit failure.
+          wrongAnswers:
+            - text: An APU high oil temperature condition occurs or The APU overspeeds.
+            - text: The APU overspeeds or APU fuel control unit failure
+            - text: The APU has no automatic shutdown protection - shutting down the APU is always Flight Crew initiated.
+- id: QPADP
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which bus powers the left igniter plug?
+      explanation: |-
+        ### FCOM 7.20.10, Engine Ignition System
+
+        > Each engine has two igniter plugs. The EEC arms the igniter plug(s) selected by the ignition select switch. **The left igniter plug receives power from the associated AC transfer bus. The right igniter plug receives power from the AC standby bus.**
+      presets:
+        - correctAnswers:
+            - text: AC Transfer Bus 1
+          wrongAnswers:
+            - text: The AC Standby Bus
+            - text: DC Bus 1
+            - text: AC Transfer Bus 2
+- id: QEMUG
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 7.30.1, APU Operation
+
+        > The APU starts and operates **up to the airplane maximum certified altitude.** The APU supplies bleed air for both air conditioning packs on the ground or one pack in flight. **Both transfer busses can be powered on the ground or in flight.**
+
+        The APU supplies electrical power as well as bleed air, and the limit is the maximum certified altitude of the airplane.
+      statements:
+        - text: The APU can operate and supply bleed air only, up to the aircraft operating ceiling of 41, 000 feet.
+          answer: false
+- id: QGDCJ
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If both the ON and ALTN lights in the EEC switch are illuminated, what does this indicate?
+      explanation: |-
+        ### FCOM 7.15.4, EEC Switches
+
+        > ALTN – in view (amber) • indicated EEC has automatically switched to alternate control mode or it has been selected manually [...] Note: **Both ON and ALTN may be in view if EEC has automatically switched to soft alternate mode.**
+      presets:
+        - correctAnswers:
+            - text: The EEC has automatically switched to the soft alternate mode.
+          wrongAnswers:
+            - text: The EEC is inoperative for that engines.
+            - text: The soft alternate mode is armed.
+            - text: The EEC has been manually switched to the soft alternate mode
+- id: QHNNC
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 7.30.4, APU Automatic Load Shedding
+
+        > In flight, if the APU is the only source of electrical power, **all galley busses and main buses are automatically shed.** If electrical load still exceeds design limits, both IFE busses are also automatically shed.
+
+        The IFE busses are shed last, not first.
+      statements:
+        - text: In flight, with the APU as the only source of electrical power; if the electrical load exceeds the APU Generator design limit, the galley busses and the IFE busses are the first to be automatically shed.
+          answer: false
+- id: QQYAF
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The REVERSER light located on the aft overhead panel illuminated during a normal reverse sequence indicates ?
+      explanation: |-
+        ### FCOM 7.20.14, Thrust Reverser
+
+        > The REVERSER light, located on the aft overhead panel, illuminates when the thrust reverser is commanded to stow and **extinguishes 10 seconds later when the isolation valve closes.** Any time the REVERSER light illuminates for more than approximately 12 seconds, a malfunction has occurred and the MASTER CAUTION and ENG system annunciator lights illuminate.
+      presets:
+        - correctAnswers:
+            - text: A normal indication if the light extinguishes 10 seconds after the thrust reverser is commanded to stow.
+          wrongAnswers:
+            - text: The isolation valve has failed to open and the thrust reverser control valve has not moved to the deploy position.
+            - text: A normal indication until the reverser sleeves are stowed at the completion of the reverse sequence.
+            - text: One or more faults in the system if the light illuminates at the start of the sequence.
+- id: QVVFU
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: With the APU running, how can it be stopped immediately?
+      explanation: |-
+        ### FCOM 7.30.2, Electrical Requirements for APU Operation
+
+        > Moving the battery switch to OFF on the ground or in the air **automatically shuts down the APU because of power loss to the electronic control unit.**
+      presets:
+        - correctAnswers:
+            - text: Switch the battery off.
+          wrongAnswers:
+            - text: Move the APU START switch to OFF.
+            - text: Rotate APU FIRE switch
+            - text: All of the above.
+- id: QKWRP
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Raising an engine start lever to the IDLE position opens which fuel valve(s)?
+      explanation: |-
+        ### FCOM 7.20.7, Engine Fuel System
+
+        > The spar fuel shutoff valve and engine fuel shutoff valve allow fuel flow to the engine when both valves are open. The valves are open when the engine fire switch is in and **the start lever is in IDLE.** Both valves close when either the start lever is in CUTOFF or the engine fire switch is out.
+
+        ![Engine fuel and oil system](annex:AKAI)
+      presets:
+        - correctAnswers:
+            - text: The related spar fuel shutoff valve and engine-mounted fuel shutoff valve.
+          wrongAnswers:
+            - text: The related engine-mounted fuel shutoff valve and engine bypass valve.
+            - text: The related spar fuel shutoff valve.
+            - text: The related engine-mounted fuel shutoff valve.
+- id: QFTDH
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: With the fuel pumps off, where does the APU fuel supply come from?
+      explanation: |-
+        ### FCOM 7.30.1, APU Fuel Supply
+
+        > Fuel to start and operate the APU comes from the left side of the fuel manifold when the AC fuel pumps are operating. **If the AC fuel pumps are not operating, fuel is suction fed from the No. 1 tank.**
+
+        ![Fuel system](annex:AQWR)
+      presets:
+        - correctAnswers:
+            - text: No 1 Main Tank.
+          wrongAnswers:
+            - text: From tapping in left engine supply line.
+            - text: Left side of the Fuel Manifold.
+            - text: Suction fed from Centre Tank.
+- id: QUNSI
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How is the engine fuel heated prior to entering the engine?
+      explanation: |-
+        ### FCOM 7.20.7, Engine Fuel System
+
+        > The fuel flows through a fuel spar shutoff valve located at the engine mounting wing stations. The fuel passes through the first stage engine fuel pump where pressure is increased. It then passes through **two fuel/oil heat exchangers where IDG oil and main engine oil heat the fuel.**
+
+        ![Engine fuel and oil system](annex:AKAI)
+      presets:
+        - correctAnswers:
+            - text: Heated by passing through IDG oil heat exchanger and engine oil heat exchanger.
+          wrongAnswers:
+            - text: Heated by passing through engine oil heat exchanger only.
+            - text: Heated only by Kinetic energy imparted due to pressure increase passing through the 1st and 2nd stage engine fuel pumps.
+            - text: Engine fuel is not heated until it is burnt in the engine combustion chamber.
+    - type: simple
+      question: How is fuel heated prior to reaching the engine?
+      explanation: |-
+        ### FCOM 7.20.7, Engine Fuel System
+
+        > It then passes through **two fuel/oil heat exchangers where IDG oil and main engine oil heat the fuel.**
+
+        The engine oil is cooled by the fuel in the main engine oil cooler (FCOM 7.20.7, Engine Oil System).
+
+        ![Engine fuel and oil system](annex:AKAI)
+      presets:
+        - correctAnswers:
+            - text: The main engine oil cooler and the IDG oil cooler
+          wrongAnswers:
+            - text: The IDG oil cooler
+            - text: An electrical fuel heater
+            - text: The main engine oil cooler.
+- id: QRDTK
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Where in the engine oil system is the oil filter located?
+      explanation: |-
+        ### FCOM 7.20.7, Engine Oil System
+
+        > Oil is returned to the oil tank by engine driven scavenge pumps. **From the scavenge pumps oil passes through a scavenge filter.** If the filter becomes saturated with contaminants, oil automatically bypasses the filter.
+
+        The scavenge filter is therefore in the return line, before the oil tank.
+
+        ![Engine fuel and oil system](annex:AKAI)
+      presets:
+        - correctAnswers:
+            - text: In the engine oil return line before reaching the oil tank
+          wrongAnswers:
+            - text: In the oil tank
+            - text: In the engine bearings supply line
+            - text: In the engine oil supply after leaving the oil tank
+- id: QMTGG
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does a Red Box around an N1 RPM Digital Readout mean - when the aircraft is on the ground and the engine has been shut down?
+      explanation: |-
+        ### FCOM 7.11.5, N1 Indications
+
+        > N1 RPM Readouts (digital) Displayed (red) – • operating limit exceeded • **on ground after engine shutdown, red box indicates an inflight exceedance has occurred**
+      presets:
+        - correctAnswers:
+            - text: An inflight exceedance has occurred.
+          wrongAnswers:
+            - text: The N1 RPM display has suffered a malfunction in flight.
+            - text: The N1 Limit Bug has been set manually.
+            - text: This situation cannot occur - the Red Box only occurs in flight to indicate an operating limit is currently being exceeded.
+- id: QRJHL
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 7.30.2, APU Engine and Cooling Air
+
+        > APU engine air routes to the APU through an automatically operated air inlet door located on **the right side of the fuselage.** [...] Air for APU cooling enters through **a cooling air inlet above the APU exhaust outlet.**
+
+        The inlet door is on the right side of the fuselage.
+      statements:
+        - text: The APU engine air inlet door is located at the rear of the fuselage just below and forward of the left horizontal stabiliser.
+          answer: false
+- id: QZXYP
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Approach idle is selected in flight by the EECs under what normal conditions(s)?
+      explanation: |-
+        ### FCOM 7.20.5, Idle Operation
+
+        > Approach idle is selected in flight if any of the following conditions are met: • **Cowl thermal anti-ice switch is ON** for either engine 1 or engine 2 • Altitude is below 19,000 feet MSL AND left or right main landing gear is down and locked • Altitude is below 19,000 feet MSL AND **left or right flaps are in the approach configuration (flaps ≥ 15)**
+      presets:
+        - correctAnswers:
+            - text: Flaps are in landing configuration or engine anti-ice is ON
+          wrongAnswers:
+            - text: Below 2,000 feet
+            - text: Below 15,000 feet
+            - text: Landing gear extended
+- id: QKVGB
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the indication of an impending oil filter bypass due to contamination?
+      explanation: |-
+        ### FCOM 7.11.9, OIL FILTER BYPASS Alert
+
+        > Illuminated (amber) – • **steady – indicates an impending bypass of scavenge oil filter**
+
+        ![Engine fuel and oil system](annex:AKAI)
+      presets:
+        - correctAnswers:
+            - text: An amber OIL FILTER BYPASS alert illuminates on the upper display unit.
+          wrongAnswers:
+            - text: Illumination of the Master Caution and ENG system annunciator lights.
+            - text: An amber OIL FILTER BYPASS alert illuminates on the upper display unit and illumination of the Master Caution and ENG system annunciator lights.
+            - text: Illumination of the FILTER BYPASS warning light on the Fuel Panel.
+- id: QRVQM
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 7.20.10, Inflight Starting
+
+        > During engine inflight starts the **EGT start limit redline can be shown** depending on the start logic as determined by the EEC. If only the EGT redline is shown, this is the inflight start EGT limit. If both the EGT redline and the EGT start limit redline are shown, the start limit redline is the inflight start EGT limit for all engine starts.
+      statements:
+        - text: During an in-flight start the EGT Start Limit Redline is never displayed.
+          answer: false
+- id: QYNXH
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 7.20.7, Engine Oil System
+
+        > The oil quantity indicator, oil temperature indicator, oil pressure indicator and LOW OIL PRESSURE alert are **all located on the display unit.**
+      statements:
+        - text: As well as the indication on the Lower DU, engine oil quantity can be physically checked using the gauges located in the Main Undercarriage Wheel Well.
+          answer: false
+- id: QDUHV
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If the forward thrust lever is reduced to idle while the EEC is in the soft alternate mode, what is the result?
+      explanation: |-
+        ### FCOM 7.20.4, EEC Alternate Mode
+
+        > The soft alternate mode remains until the hard alternate mode is entered by either **retarding the thrust lever to idle** or manually selecting ALTN with the EEC switch on the aft overhead panel. [...] If the hard alternate mode is entered by reducing the thrust lever to idle while in the soft alternate mode, **the ALTN switch remains illuminated and the ON indication remains visible.** When ALTN is selected manually, the ON indication is blanked.
+      presets:
+        - correctAnswers:
+            - text: The EEC enters the hard alternate mode, the ALTN switch remains illuminated and the ON indication remains visible.
+          wrongAnswers:
+            - text: Approach idle is commanded by the EEC.
+            - text: The EEC will remain in the soft alternate mode, the ALTN switch illuminates and the ON indication remains visible.
+            - text: The EEC enters the hard alternate mode, the ALTN switch remains illuminated and the ON indication is blanked.
+- id: QWUKD
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 7.30.2, Electrical Requirements for APU Operation
+
+        > Electrical power to start the APU comes from No. 1 transfer bus or the airplane main battery. With AC power available, the starter generator uses AC power to start the APU. **With no AC power, the starter generator uses battery power to start the APU.**
+      statements:
+        - text: The APU requires an AC power supply for starting.
+          answer: false
+- id: QXXNX
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which ENGINE START switch position will provide ignition to both igniters regardless of igniter selector switch position when the engine start lever is in IDLE?
+      explanation: |-
+        ### FCOM 7.15.1, IGNITION SELECT Switch
+
+        > FLT – **provides ignition to both igniters when engine start lever is in IDLE.**
+      presets:
+        - correctAnswers:
+            - text: FLT
+          wrongAnswers:
+            - text: GRD
+            - text: CONT and FLT
+            - text: CONT
+    - type: simple
+      question: What is the effect on the spark igniters if the ignition select switch is positioned to FLT?
+      explanation: |-
+        ### FCOM 7.15.1, IGNITION SELECT Switch
+
+        > FLT – **provides ignition to both igniters when engine start lever is in IDLE.**
+      presets:
+        - correctAnswers:
+            - text: Both igniters operate with the start lever in IDLE, regardless of the position of the ignition select switch.
+          wrongAnswers:
+            - text: Neither igniter operates.
+            - text: The selected igniter operates with the start lever in IDLE.
+            - text: Both igniters operate only when a flameout condition is detected.
+- id: QZEIF
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How is the EEC affected by the failure of one DEU (Display Electronic Unit) ?
+      explanation: |-
+        ### FCOM 7.20.4, EEC Alternate Mode
+
+        > Note: **Loss of either DEU results in a loss of signal to both EECs. The EEC ALTN lights illuminate and each EEC reverts to the alternate mode** to prevent the engines from operating on a single source of data.
+      presets:
+        - correctAnswers:
+            - text: Both EECs revert to soft alternate mode and the ALTN switch illuminates.
+          wrongAnswers:
+            - text: Failure of a single DEU has no effect on the EECs.
+            - text: Both EECs are rendered inoperative and the EEC ON indication extinguishes.
+            - text: The EEC for the related side reverts to soft alternate mode and the ALTN switch illuminates.
+- id: QJSFK
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which indication is NOT supplied to the Secondary Engine Indications on the lower DI via the EEC?
+      explanation: |-
+        ### FCOM 7.11.1, Engine Indications
+
+        > The EEC must receive electrical power to supply engine operating data to the flight deck engine indications. When the EEC is not powered, N1, N2, oil quantity and engine vibration are displayed directly from the engine sensors. **Positioning the engine start switch to GRD supplies electrical power to the EEC** and displays pointers/digits for all engine parameters.
+      presets:
+        - correctAnswers:
+            - text: Oil quantity
+          wrongAnswers:
+            - text: Oil temperature
+            - text: Fuel flow
+            - text: Oil pressure
+- id: QDXSD
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which bus powers the right igniter plug?
+      explanation: |-
+        ### FCOM 7.20.10, Engine Ignition System
+
+        > Each engine has two igniter plugs. The EEC arms the igniter plug(s) selected by the ignition select switch. **The left igniter plug receives power from the associated AC transfer bus. The right igniter plug receives power from the AC standby bus.**
+      presets:
+        - correctAnswers:
+            - text: The AC Standby Bus
+          wrongAnswers:
+            - text: AC Transfer Bus 1
+            - text: AC Transfer Bus 2
+            - text: DC Bus 1
+- id: QUAMG
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: During an In-flight start, if a wet start is detected, when will the EEC turn off ignition and fuel to the engine?
+      explanation: |-
+        ### FCOM 7.20.9, Abnormal Start Protection (Ground Starts Only)
+
+        > During ground starts, the EEC monitors engine parameters to detect impending hot starts, engine stalls, EGT start limit exceedances, and wet starts. **These protection features do not function during inflight starts.**
+      presets:
+        - correctAnswers:
+            - text: No in-flight abnormal start protection.
+          wrongAnswers:
+            - text: 10 seconds after start lever moved to Idle.
+            - text: 15 seconds after start lever moved to Idle.
+            - text: As soon as the wet start is detected by the EEC.
+- id: QISPO
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Can reverse thrust be deployed if the aircraft has not touched down?
+      explanation: |-
+        ### FCOM 7.20.13, Thrust Reverser
+
+        > The thrust reverser can be deployed when **either radio altimeter senses less than 10 feet altitude**, or when the air/ground safety sensor is in the ground mode. Movement of the reverse thrust levers is mechanically restricted until the forward thrust levers are in the idle position. [...] When either reverser sleeve moves from the stowed position, the **amber REV indication**, located on the upper display unit, illuminates. As the thrust reverser reaches the deployed position, **the REV indication illuminates green** and the reverse thrust lever can be raised to detent No. 2.
+      presets:
+        - correctAnswers:
+            - text: Yes, if the forward thrust levers are in the idle position and either radio altimeter senses less than 10 feet RA.
+          wrongAnswers:
+            - text: Yes, if the forward thrust levers are in the idle position and both radio altimeters sense less than 10 feet RA.
+            - text: No, the air/ground safety sensor must be in the ground mode
+            - text: No, the air/ground safety sensor must be in the ground mode and either radio altimeter senses zero ft RA
+- id: QOUYO
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the indication that the thrust reverser sleeves have moved from the stowed position and have reached the deployed position?
+      explanation: |-
+        ### FCOM 7.20.13, Thrust Reverser
+
+        > The thrust reverser can be deployed when **either radio altimeter senses less than 10 feet altitude**, or when the air/ground safety sensor is in the ground mode. Movement of the reverse thrust levers is mechanically restricted until the forward thrust levers are in the idle position. [...] When either reverser sleeve moves from the stowed position, the **amber REV indication**, located on the upper display unit, illuminates. As the thrust reverser reaches the deployed position, **the REV indication illuminates green** and the reverse thrust lever can be raised to detent No. 2.
+      presets:
+        - correctAnswers:
+            - text: The REV thrust reverser indication located on the upper display unit illuminates green.
+          wrongAnswers:
+            - text: The REVERSER light on the aft overhead panel illuminates.
+            - text: The reverse thrust lever may be moved beyond the interlock position.
+            - text: The amber REV thrust reverser indication located on the upper display unit illuminates.
+- id: QRQCV
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 7.30.2, APU Engine and Cooling Air
+
+        > APU engine air routes to the APU through an automatically operated air inlet door located on **the right side of the fuselage.** [...] Air for APU cooling enters through **a cooling air inlet above the APU exhaust outlet.**
+
+        The cooling air has its own inlet, above the exhaust outlet.
+      statements:
+        - text: APU cooling air enters along with APU engine air through the APU intake located on the right rear fuselage.
+          answer: false
+- id: QLEXO
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The engine start valve closes and the START VALVE OPEN alert on the upper DU extinguishes at approximately ?
+      explanation: |-
+        ### FCOM 7.20.9, Engine Start System
+
+        > At **starter cutout speed (approximately 56% N2)**, power is removed from the start switch holding solenoid. The engine start switch returns to OFF, the engine bleed air valve returns to the selected position, and **the start valve closes.**
+      presets:
+        - correctAnswers:
+            - text: 56% N2
+          wrongAnswers:
+            - text: 20% N1
+            - text: 25% N2
+            - text: 50% N2
+- id: QAPHD
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 7.11.13, Oil Pressure Indications
+
+        > Low Oil Pressure (OIL PRESS) Amber Band Displayed (amber) – low oil pressure caution range beginning at red line: • variable depending on N2% RPM above 65% N2 • **amber band not displayed below 65% N2**
+
+        Stabilised idle is 59% N2, so the amber band is not displayed.
+      statements:
+        - text: After starting the engine and it achieving Stabilised Idle (59% N2), a low oil pressure condition would be identified by the amber LOW OIL PRESSURE annunciation on the upper DU, and the Lower DU displaying OIL PRESS Pointer in the Amber band.
+          answer: false
+- id: QFVHC
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: At what point during a normal start is the EEC supplied with electrical power?
+      explanation: |-
+        ### FCOM 7.11.1, Engine Indications
+
+        > The EEC must receive electrical power to supply engine operating data to the flight deck engine indications. When the EEC is not powered, N1, N2, oil quantity and engine vibration are displayed directly from the engine sensors. **Positioning the engine start switch to GRD supplies electrical power to the EEC** and displays pointers/digits for all engine parameters.
+      presets:
+        - correctAnswers:
+            - text: When the engine start switch is positioned to GRD
+          wrongAnswers:
+            - text: When the engines accelerates to a speed greater than 15% N2
+            - text: When the battery switch is placed ON
+            - text: When the engines accelerates to a speed greater than 25% N2 or max motoring
+- id: QPPRF
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: On a ground start, if a Wet start is detected, when will the EEC turn off ignition and shut off fuel to the engine.
+      explanation: |-
+        ### FCOM 7.20.9, Abnormal Start Protection (Ground Starts Only)
+
+        > A wet start occurs if the EGT does not rise after the start lever is moved to IDLE. If a wet start is detected, **the EEC turns off the ignition and shuts off fuel to the engine 15 seconds after the start lever is moved to IDLE.**
+
+        The protection works on ground starts only.
+      presets:
+        - correctAnswers:
+            - text: 15 seconds after the start lever moved to Idle
+          wrongAnswers:
+            - text: 10 seconds after start lever moved to idle
+            - text: The EEC does not turn off ignition and fuel - this is a crew responsibility.
+            - text: 15 seconds after throttle lever moved to Idle
+- id: QXVJF
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What effect does moving the N1 SET Outer Knob to BOTH have on A/T operation?
+      explanation: |-
+        ### FCOM 7.11.4, N1 Indications
+
+        > BOTH – • both reference N1 bugs and readouts manually set by turning N1 SET inner knob • **has no effect on A/T operation**
+      presets:
+        - correctAnswers:
+            - text: Has no effect on the A/T system operation.
+          wrongAnswers:
+            - text: Causes the A/T system to set a reduce Max Thrust bug for both engines.
+            - text: Causes the A/T system to disengage.
+            - text: Causes the A/T system to set an increased Max Thrust bug for both engines.
+- id: QPBJG
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: In flight, if a fault prevents the EEC receiving flap or anti-ice signals; at what altitude would the Approach Idle schedule begin?
+      explanation: |
+        > ### EEC Alternate Mode
+        > The EEC can operate in either of two alternate modes, soft or hard. If required signals are not available to operate in the normal mode, the EEC automatically changes to the soft alternate mode.
+        >
+        > (...)
+        >
+        > In flight, if a fault prevents the EEC from receiving flap, or main landing gear position signals, approach idle schedule begins below 19,000 feet MSL.
+      presets:
+        - correctAnswers:
+            - text: Below 19,000 MSL.
+          wrongAnswers:
+            - text: Approach idle must be selected by the crew in these circumstances.
+            - text: Below 20,000 feet.
+            - text: Below 15,000 feet RA
+- id: QVDAQ
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When does the OIL FILTER BYPASS alert illuminate on the upper display unit?
+      explanation: |-
+        ### FCOM 7.20.7, Engine Oil System
+
+        > If the filter becomes saturated with contaminants, oil automatically bypasses the filter. **Prior to the oil bypassing the scavenge filter, the OIL FILTER BYPASS alert illuminates on the upper display unit.**
+
+        ![Engine fuel and oil system](annex:AKAI)
+      presets:
+        - correctAnswers:
+            - text: Illuminates prior to oil bypassing the scavenge filter.
+          wrongAnswers:
+            - text: Illuminates just prior to oil pump bypass opening as pressure gets near to pressure required to open the bypass.
+            - text: Once the oil filter bypass has opened and oil is bypassing the filter.
+            - text: If the oil filter bypass has failed in the closed position and oil pressure is beginning to increase.
+- id: QNEWP
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When is the EGT Start Limit Redline displayed?
+      explanation: |-
+        ### FCOM 7.11.7, EGT Indications
+
+        > Exhaust Gas Temperature (EGT) Start Limit Redlines Displayed (red) – • **until the engine achieves stabilized idle (approximately 59% N2)** • for ground starts and some in-flight starts as determined by the EEC
+      presets:
+        - correctAnswers:
+            - text: Until the engine achieves stabilised idle (approx 59%)
+          wrongAnswers:
+            - text: The EGT start Limit Redline is only displayed if the EGT exceeds the Start Limit.
+            - text: Until the engine achieves self sustaining idle (approx 50%)
+            - text: Until starter cutout speed (approx 56%)
+- id: QJWJM
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: The Master Caution lights and ENG system annunciator lights will illuminate if the EEC automatically enters the soft alternate mode.
+          answer: true
+- id: QJWKT
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What condition causes the A/T LIM indication to illuminate WHITE on the upper centre display panel?
+      explanation: |-
+        ### FCOM 7.11.4, Autothrottle Limit (A/T LIM) Indication
+
+        > Illuminated (white) – **The FMC is not providing the A/T system with N1 limit values.** The A/T is using a degraded N1 thrust limit from the related EEC.
+      presets:
+        - correctAnswers:
+            - text: The FMC is not providing the A/T system with N1 limit values
+          wrongAnswers:
+            - text: The Forward Thrust Levers have been advanced to the fully forward position by the A/T system.
+            - text: The Forward Thrust Levers have been manually advanced to the fully forward position.
+            - text: The A/T system is no longer sending an EGT limit values to the FMC.
+- id: QTPGX
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: At what rotational speed is the Start Lever moved to the IDLE position?
+      explanation: |-
+        ### FCOM 7.20.9, Engine Start System
+
+        > In the GRD position, the engine start switch uses battery power to close the engine bleed air valve and open the start valve to allow pressure to rotate the starter. When the start valve opens, **an amber START VALVE OPEN alert is provided on the upper display unit.** [...] When the engine accelerates to the recommended value (**25% N2 or max motoring**), moving the engine start lever to the IDLE position opens the fuel valves on the wing spar and engine, and causes the EEC to supply fuel and ignition to the combustor where the fuel ignites.
+      presets:
+        - correctAnswers:
+            - text: Max Motoring - 25% N2.
+          wrongAnswers:
+            - text: Starter cutout speed - 56% N1.
+            - text: Max motoring - 56% N1.
+            - text: Starter cutout speed - 56% N2.
+- id: QCVAB
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 7.20.9, Abnormal Start Protection (Ground Starts Only)
+
+        > During ground starts, the EEC monitors engine parameters to detect impending hot starts, engine stalls, EGT start limit exceedances, and wet starts. **These protection features do not function during inflight starts.**
+      statements:
+        - text: The B737-800 has no In-Flight Abnormal Start Protection.
+          answer: true
+- id: QSVEV
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When GRD is selected and the eng start switch is selected to either 1 or 2, how are the crew alerted to the start valve opening?
+      explanation: |-
+        ### FCOM 7.20.9, Engine Start System
+
+        > In the GRD position, the engine start switch uses battery power to close the engine bleed air valve and open the start valve to allow pressure to rotate the starter. When the start valve opens, **an amber START VALVE OPEN alert is provided on the upper display unit.** [...] When the engine accelerates to the recommended value (**25% N2 or max motoring**), moving the engine start lever to the IDLE position opens the fuel valves on the wing spar and engine, and causes the EEC to supply fuel and ignition to the combustor where the fuel ignites.
+      presets:
+        - correctAnswers:
+            - text: A START VALVE OPEN alert is displayed on the upper DU.
+          wrongAnswers:
+            - text: An amber START VALVE OPEN alert is displayed on the lower DU.
+            - text: The only indication is the N2 gauge increasing to Max Motoring (25%).
+            - text: The blue START VALVE light illuminates bright blue then goes dim blue once the start valve is fully open.
+- id: QCHRS
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: During which engine starts is abnormal start protection available?
+      explanation: |-
+        ### FCOM 7.20.9, Abnormal Start Protection (Ground Starts Only)
+
+        > During ground starts, the EEC monitors engine parameters to detect impending hot starts, engine stalls, EGT start limit exceedances, and wet starts. **These protection features do not function during inflight starts.**
+      presets:
+        - correctAnswers:
+            - text: Ground starts only.
+          wrongAnswers:
+            - text: Ground and in-flight starts.
+            - text: In-flight starts only.
+            - text: Neither ground nor in-flight starts.
+- id: QTTJB
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What normal indication may you observe if an engine has been windmilling with an N2 at 8% or less?
+      explanation: |-
+        ### FCOM 7.11.15, Oil Quantity Indications
+
+        > Note: **An oil quantity indication as low as zero is normal if windmilling N2 RPM is below approximately 8%.**
+      presets:
+        - correctAnswers:
+            - text: A low oil quantity reading, potentially as low as zero.
+          wrongAnswers:
+            - text: A high EGT.
+            - text: Excessive vibration.
+            - text: A high oil pressure.
+- id: QAZLX
+  subjectId: b737
+  chapterId: "07"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: An amber REV indication is displayed in flight without reverse thrust being commanded. The engine responds to forward thrust lever movement and there is no buffet or yaw. What is the implication for the flight?
+      explanation: |-
+        ### FCOM QRH 7.36, REVERSER UNLOCKED (IN FLIGHT)
+
+        > Condition: The amber REV indication shows with uncommanded reverse thrust. Note: Only multiple failures could allow the engine to go into reverse thrust. Unstowed reverser sleeves produce buffet, yaw, roll and increased airplane drag.
+        >
+        > Engine responds to forward thrust lever movement and no buffet or yaw exists: **Continue normal operation.**
+      presets:
+        - correctAnswers:
+            - text: Normal operation can be continued.
+          wrongAnswers:
+            - text: Reverse thrust should be selected to see if this causes buffet or yaw.
+            - text: The affected engine should be shut down immediately.

@@ -1,0 +1,514 @@
+- id: QLUMD
+  subjectId: "010"
+  chapterId: "010.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107081
+    - AVEXAM-46040
+  annexes: []
+  learningObjectiveIds:
+    - 010.11.01.01.01
+  templates:
+    - type: simple
+      question: |-
+        Which of the following steps and in which order correctly defines the emergency phase?
+
+        1. Alert 
+         
+        2. Distress 
+         
+        3. Emergency 
+         
+        4. Alarm 
+         
+        5. Uncertainty
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 5, 1 and 2.
+          wrongAnswers:
+            - text: 4, 1 and 2.
+            - text: 3, 4 and 2.
+            - text: 5, 4 and 3.
+    - type: simple
+      question: |-
+        What sequence of steps correctly defines the emergency phase?
+
+         Alert
+         Distress
+         Emergency
+         Alarm
+         Uncertainty
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 5, 1 and 2.
+          wrongAnswers:
+            - text: 3, 4 and 2.
+            - text: 4, 1 and 2.
+            - text: 5, 4 and 3.
+- id: QHHSA
+  subjectId: "010"
+  chapterId: "010.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104556
+    - AVEXAM-81139
+    - ATPLQ-108672
+    - BGS-100473
+    - AVEXAM-78974
+    - AVEXAM-73219
+    - AVEXAM-13336
+    - ATPLQ-105478
+  annexes: []
+  learningObjectiveIds:
+    - 010.11.01.01.01
+  templates:
+    - type: simple
+      question: According to ICAO Annex 12, what does Rescue Coordination Centre mean?
+      explanation: |-
+        ### Annex 12, 1.1 Definitions
+
+        > **Rescue coordination centre (RCC).** A unit responsible for promoting efficient organization of search and rescue services and for coordinating the conduct of search and rescue operations within a search and rescue region.
+      presets:
+        - correctAnswers:
+            - text: A unit responsible for promoting efficient organisation of search and rescue services and for coordinating the conduct of search and rescue operations within a search and rescue region.
+          wrongAnswers:
+            - text: A mobile resource composed of trained personnel and provided with equipment suitable for the expeditious conduct of search and rescue operations.
+            - text: A unit performing distress monitoring, communication, coordination and search and rescue functions, initial medical assistance or medical evacuation, through the use of public and private resources, including cooperating aircraft, vessels and other craft and installations.
+            - text: A unit retrieving persons in distress, providing for their initial medical or other needs, and delivering them to a place of safety.
+    - type: simple
+      question: The unit responsible for promoting efficient organisation of search and rescue services and for co-ordinating the conduct of search and rescue operations within a search and rescue region is the..
+      explanation: |-
+        ### Annex 12, 1.1 Definitions
+
+        > **Rescue coordination centre (RCC).** A unit responsible for promoting efficient organization of search and rescue services and for coordinating the conduct of search and rescue operations within a search and rescue region.
+      presets:
+        - correctAnswers:
+            - text: Rescue Co-ordination Centre (RCC).
+          wrongAnswers:
+            - text: International Alerting Centre (INAC).
+            - text: Flight Information Centre (FIC).
+            - text: Area Control Centre (ACC).
+- id: QIDST
+  subjectId: "010"
+  chapterId: "010.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106397
+    - BGS-100272
+    - AVEXAM-33079
+    - BGS-101772
+    - AVEXAM-62963
+  annexes: []
+  learningObjectiveIds:
+    - 010.11.01.01.01
+  templates:
+    - type: simple
+      question: 'According to ICAO Annex 12, "emergency phase" means:'
+      explanation: |-
+        ### Annex 12, 1.1 Definitions
+
+        > **Emergency phase.** A generic term meaning, as the case may be, **uncertainty phase, alert phase or distress phase**.
+        >
+        > **Uncertainty phase.** A situation wherein uncertainty exists as to the safety of an aircraft and its occupants.
+        >
+        > **Alert phase.** A situation wherein apprehension exists as to the safety of an aircraft and its occupants.
+        >
+        > **Distress phase.** A situation wherein there is a reasonable certainty that an aircraft and its occupants are threatened by grave and imminent danger and require immediate assistance.
+      presets:
+        - correctAnswers:
+            - text: Uncertainty phase, alert phase, or distress phase.
+          wrongAnswers:
+            - text: Distress phase only.
+            - text: Hazard phase, warning phase, or emergency phase.
+            - text: Uncertainty phase only.
+- id: QZOLC
+  subjectId: "010"
+  chapterId: "010.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105382
+    - AVEXAM-23779
+  annexes: []
+  learningObjectiveIds:
+    - 010.11.02.01.03
+  templates:
+    - type: simple
+      question: What is true about visa requirements in case of a force majeure (natural disaster)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Contracting States may waive visa requirements under emergency circumstances.
+          wrongAnswers:
+            - text: Contracting States shall require visas from all passengers.
+            - text: Contracting States shall require visas from passengers and a Crew Member Certificate (CMC) from the crew.
+            - text: Contracting States shall not require visas from passengers.
+    - type: simple
+      question: What happens to visa requirements during a force majeure (natural disaster)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Contracting States may waive visa requirements under emergency circumstances.
+          wrongAnswers:
+            - text: Contracting States shall not require visas from passengers.
+            - text: Contracting States shall require visas from all passengers.
+            - text: Contracting States shall require visas from passengers and a Crew Member Certificate (CMC) from the crew.
+- id: QRENU
+  subjectId: "010"
+  chapterId: "010.11"
+  relatedQuestionIds:
+    - QZOVN
+  externalQuestionIds:
+    - ATPLQ-102214
+    - BGS-100143
+  annexes: []
+  learningObjectiveIds:
+    - 010.11.02.01.03
+  templates:
+    - type: simple
+      question: Those portions of the high seas or areas of undetermined sovereignty for which search and rescue services will be established shall be determined on what?
+      explanation: |-
+        ### Annex 12, 2.1 Search and rescue services
+
+        > 2.1.1.1 Those portions of the high seas or areas of undetermined sovereignty for which search and rescue services will be established shall be determined **on the basis of regional air navigation agreements**. […]
+      presets:
+        - correctAnswers:
+            - text: On the basis of regional air navigation agreements.
+          wrongAnswers:
+            - text: Those vast areas cannot be serviced.
+            - text: Determined by ICAO’s search and rescue committee.
+            - text: Determined by EASA’s search and rescue committee.
+- id: QZOVN
+  subjectId: "010"
+  chapterId: "010.11"
+  relatedQuestionIds:
+    - QRENU
+  externalQuestionIds:
+    - ATPLQ-101690
+  annexes: []
+  learningObjectiveIds:
+    - 010.11.02.01.03
+  templates:
+    - type: simple
+      question: How should the Search and Rescue (SAR) regions be defined by the contracting states?
+      explanation: |-
+        ### Annex 12, 2.2 Search and rescue regions
+
+        > 2.2.1 Contracting States shall delineate the search and rescue regions within which they will provide search and rescue services. Such regions **shall not overlap and neighbouring regions shall be contiguous**.
+        >
+        > […]
+        >
+        > Note 2.— The delineation of search and rescue regions is determined on the basis of technical and operational considerations and is **not related to the delineation of boundaries between States**.
+      presets:
+        - correctAnswers:
+            - text: SAR regions shall be next to each other but NOT overlap, and their boundaries can differ from State boundaries.
+          wrongAnswers:
+            - text: SAR regions can overlap if the extent of the overlapping area has been agreed between States.
+            - text: SAR regions shall be next to each other but NOT overlap, and follow the delineation of the boundaries between states.
+            - text: SAR regions can overlap whenever it’s more efficient.
+- id: QQHGJ
+  subjectId: "010"
+  chapterId: "010.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109457
+    - AVEXAM-81842
+    - BGS-102076
+  annexes: []
+  learningObjectiveIds:
+    - 010.11.02.01.04
+  templates:
+    - type: simple
+      question: Contracting States shall provide search and rescue services within their territories..
+      explanation: |-
+        ### Annex 12, 2.1 Search and rescue services
+
+        > 2.1.1 Contracting States shall, individually or in cooperation with other States, arrange for the establishment and prompt provision of search and rescue services within their territories to ensure that assistance is rendered to persons in distress. Such services shall be provided **on a 24-hour basis**.
+      presets:
+        - correctAnswers:
+            - text: on a 24-hour basis.
+          wrongAnswers:
+            - text: during the period established in the Regional Air Navigation Agreement.
+            - text: from 06:00 until 24:00 local time.
+            - text: during the day-light period.
+- id: QNFNM
+  subjectId: "010"
+  chapterId: "010.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108956
+    - BGS-101506
+    - ATPLQ-108854
+    - AVEXAM-90729
+  annexes: []
+  learningObjectiveIds:
+    - 010.11.03.01.01
+  templates:
+    - type: simple
+      question: If the first aircraft to reach the scene of an accident is not a search and rescue aircraft, what action must it take until the arrival of the first search and rescue aircraft?
+      explanation: |-
+        ### Annex 12, 5.6 Procedures at the scene of an accident
+
+        > 5.6.2.1 If the first aircraft to reach the scene of an accident is not a search and rescue aircraft, it shall **take charge of on-scene activities of all other aircraft subsequently arriving until the first search and rescue aircraft reaches the scene of the accident**. If, in the meantime, such aircraft is unable to establish communication with the appropriate rescue coordination centre or air traffic services unit, it shall, **by mutual agreement, hand over to an aircraft capable of establishing and maintaining such communications** until the arrival of the first search and rescue aircraft.
+      presets:
+        - correctAnswers:
+            - text: Take charge of on-scene activities of all other arriving aircraft.
+          wrongAnswers:
+            - text: Remain in the area, overflying the scene of the accident at a height of 1000 ft on a North-South heading.
+            - text: Leave the area to avoid hampering subsequent search and rescue activities.
+            - text: Overfly the wreckage every 10 minutes, searching for any surface-to-air visual signals.
+    - type: simple
+      question: |-
+        Three aircraft: (1), (2) and (3), arrive successively at ten minute intervals, overhead the scene of a recent aircraft accident.
+
+        (1) is unable to establish contact with the Search and Rescue Centre;   
+        (2) is able to contact the Search and Rescue Centre;   
+        (3) is a Search and Rescue aircraft.
+
+        The command of the situation is the responsibility of:
+      explanation: |-
+        ### Annex 12, 5.6 Procedures at the scene of an accident
+
+        > 5.6.2.1 If the first aircraft to reach the scene of an accident is not a search and rescue aircraft, it shall **take charge of on-scene activities of all other aircraft subsequently arriving until the first search and rescue aircraft reaches the scene of the accident**. If, in the meantime, such aircraft is unable to establish communication with the appropriate rescue coordination centre or air traffic services unit, it shall, **by mutual agreement, hand over to an aircraft capable of establishing and maintaining such communications** until the arrival of the first search and rescue aircraft.
+      presets:
+        - correctAnswers:
+            - text: (1), then by mutual consent (2) and then (3).
+          wrongAnswers:
+            - text: (1) until the completion of operations.
+            - text: (1), and then by mutual consent to (3).
+            - text: (2), then by mutual consent (3) until the completion of operations.
+- id: QCPBS
+  subjectId: "010"
+  chapterId: "010.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101429
+    - AVEXAM-37976
+    - BGS-100464
+  annexes: []
+  learningObjectiveIds:
+    - 010.11.03.01.02
+  templates:
+    - type: simple
+      question: Whenever a distress transmission is intercepted by a pilot-in-command of an aircraft, the pilot shall, if feasible...
+      explanation: |-
+        ### Annex 12, 5.7 Procedures for a pilot-in-command intercepting a distress transmission
+
+        > Whenever a distress transmission is intercepted by a pilot-in-command of an aircraft, the pilot shall, if feasible:
+        >
+        > - a) **acknowledge the distress transmission**;
+        > - b) **record the position of the craft in distress if given**;
+        > - c) take a bearing on the transmission;
+        > - d) inform the appropriate rescue coordination centre or air traffic services unit of the distress transmission, giving all available information; and
+        > - e) at the pilot’s discretion, while awaiting instructions, proceed to the position given in the transmission.
+      presets:
+        - correctAnswers:
+            - text: acknowledge the distress transmission and record the position of the aircraft in distress if given.
+          wrongAnswers:
+            - text: hold at the position and coordinate the SAR operation.
+            - text: record the position of the transmission and proceed according to the flight.
+            - text: enter into a holding pattern and wait for instructions.
+- id: QCJDM
+  subjectId: "010"
+  chapterId: "010.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102685
+    - BGS-100478
+    - BGS-100476
+    - BGS-100475
+    - ATPLQ-101900
+    - ATPLQ-109143
+    - ATPLQ-107859
+    - ATPLQ-103657
+    - AVEXAM-68045
+    - BGS-100477
+    - AVEXAM-1484
+    - AVEXAM-85765
+    - AVEXAM-68528
+    - ATPLQ-105918
+    - ATPLQ-106415
+    - BGS-101716
+    - ATPLQ-108171
+    - ATPLQ-109928
+    - BGS-101990
+  annexes: []
+  learningObjectiveIds:
+    - 010.11.04.01.01
+  templates:
+    - type: definition
+      question: "What does this ground-air visual signal mean: {term}?"
+      explanation: |-
+        ### Annex 12, Appendix, 2.1 Ground-air visual signal code for use by survivors
+
+        > | No. | Message                      | Code symbol                     |
+        > | --- | ---------------------------- | ------------------------------- |
+        > | 1   | Require assistance           | V                               |
+        > | 2   | Require medical assistance   | X                               |
+        > | 3   | No or Negative               | N                               |
+        > | 4   | Yes or Affirmative           | Y                               |
+        > | 5   | Proceeding in this direction | Arrow pointing in the direction |
+
+        ### Annex 12, Appendix, 2.2 Ground-air visual signal code for use by rescue units
+
+        > | No. | Message                           | Code symbol |
+        > | --- | --------------------------------- | ----------- |
+        > | 1   | Operation completed               | LLL         |
+        > | 2   | We have found all personnel       | LL          |
+        > | 3   | We have found only some personnel | ++          |
+        >
+        > […]
+      options:
+        - id: OSIG1A
+          term: V
+          definition: Require assistance.
+        - id: OSIG2A
+          term: X
+          definition: Require medical assistance.
+        - id: OSIG3A
+          term: N
+          definition: No or negative.
+        - id: OSIG4A
+          term: Y
+          definition: Yes or affirmative.
+        - id: OSIG5A
+          term: An arrow pointing in a direction
+          definition: Proceeding in this direction.
+        - id: OSIG6A
+          term: LLL
+          definition: Operation completed.
+        - id: OSIG7A
+          term: LL
+          definition: We have found all personnel.
+        - id: OSIG8A
+          term: ++
+          definition: We have found only some personnel.
+      fakeOptions:
+        - id: FSIG1A
+          definition: We are not able to continue. Returning to base.
+        - id: FSIG2A
+          definition: Nothing found. Will continue to search.
+        - id: FSIG3A
+          definition: Information received that aircraft is in this direction.
+    - type: definition
+      question: "Which ground-air visual signal means: {term}?"
+      explanation: |-
+        ### Annex 12, Appendix, 2.1 Ground-air visual signal code for use by survivors
+
+        > | No. | Message                      | Code symbol                     |
+        > | --- | ---------------------------- | ------------------------------- |
+        > | 1   | Require assistance           | V                               |
+        > | 2   | Require medical assistance   | X                               |
+        > | 3   | No or Negative               | N                               |
+        > | 4   | Yes or Affirmative           | Y                               |
+        > | 5   | Proceeding in this direction | Arrow pointing in the direction |
+
+        ### Annex 12, Appendix, 2.2 Ground-air visual signal code for use by rescue units
+
+        > | No. | Message                           | Code symbol |
+        > | --- | --------------------------------- | ----------- |
+        > | 1   | Operation completed               | LLL         |
+        > | 2   | We have found all personnel       | LL          |
+        > | 3   | We have found only some personnel | ++          |
+        >
+        > […]
+      options:
+        - id: RSIG1A
+          term: Require assistance
+          definition: V
+        - id: RSIG2A
+          term: Require medical assistance
+          definition: X
+        - id: RSIG3A
+          term: No or negative
+          definition: N
+        - id: RSIG4A
+          term: Yes or affirmative
+          definition: Y
+        - id: RSIG5A
+          term: Proceeding in this direction
+          definition: An arrow pointing in that direction.
+        - id: RSIG6A
+          term: Operation completed
+          definition: LLL
+        - id: RSIG7A
+          term: We have found all personnel
+          definition: LL
+        - id: RSIG8A
+          term: We have found only some personnel
+          definition: ++
+      fakeOptions: []
+- id: QPSXU
+  subjectId: "010"
+  chapterId: "010.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101916
+    - BGS-101448
+    - AVEXAM-90401
+    - ATPLQ-103688
+    - BGS-100861
+    - BGS-100862
+    - ATPLQ-109616
+    - ATPLQ-105445
+    - AVEXAM-26550
+    - BGS-100474
+  annexes: []
+  learningObjectiveIds:
+    - 010.11.04.01.02
+  templates:
+    - type: definition
+      question: Which air-to-ground signal means that the ground signals have been understood {term}?
+      explanation: |-
+        ### Annex 12, Appendix, 3 Air-to-ground signals
+
+        > 3.1 The following signals by aircraft mean that the ground signals have been understood:
+        >
+        > - a) during the hours of daylight:
+        >   - **by rocking the aircraft’s wings**;
+        >
+        > - b) during the hours of darkness:
+        >   - **flashing on and off twice the aircraft’s landing lights or, if not so equipped, by switching on and off twice its navigation lights**.
+        >
+        > 3.2 Lack of the above signal indicates that the ground signal is not understood.
+      options:
+        - id: OACKD001
+          term: during the hours of daylight
+          definition: Rocking the aircraft’s wings.
+        - id: OACKN002
+          term: during the hours of darkness
+          definition: Flashing on and off twice the aircraft’s landing lights or, if not so equipped, switching on and off twice its navigation lights.
+      fakeOptions:
+        - id: FACK1A
+          definition: Circling the ground signals at least once.
+        - id: FACK2A
+          definition: Overflying the ground signals twice on a North-South heading.
+        - id: FACK3A
+          definition: Flying over the group of people in difficulty as low as possible.
+    - type: definition
+      question: "When does this air-to-ground signal mean that the ground signals have been understood: {term}?"
+      explanation: |-
+        ### Annex 12, Appendix, 3 Air-to-ground signals
+
+        > 3.1 The following signals by aircraft mean that the ground signals have been understood:
+        >
+        > - a) during the hours of daylight:
+        >   - **by rocking the aircraft’s wings**;
+        >
+        > - b) during the hours of darkness:
+        >   - **flashing on and off twice the aircraft’s landing lights or, if not so equipped, by switching on and off twice its navigation lights**.
+        >
+        > 3.2 Lack of the above signal indicates that the ground signal is not understood.
+      options:
+        - id: RACKD001
+          term: Rocking the aircraft’s wings
+          definition: During the hours of daylight.
+        - id: RACKN002
+          term: Flashing on and off twice the aircraft’s landing lights or, if not so equipped, switching on and off twice its navigation lights
+          definition: During the hours of darkness.
+      fakeOptions:
+        - id: RFACK001
+          definition: Never, it means the ground signals have not been understood.
+        - id: RFACK002
+          definition: Only when the aircraft is below 500 ft.

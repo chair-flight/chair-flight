@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="329" height="326" viewBox="0 0 329 326" role="img" aria-labelledby="title desc" xml:lang="en-GB">
+  <title id="title">737-800 DISPLAYS CONTROL PANEL</title>
+  <desc id="desc">Amber EFIS control panel failure annunciation on the lower right of the PFD. The altitude tape is absent.</desc>
+  <metadata>B737 FCOM Rev 40, 10.11.31</metadata>
+  <style>
+  text{font-family:monospace;fill:#f2f2f2}
+  .amber{fill:#ffbf23}.green{fill:#00c672}.cyan{fill:#12d5ff}.magenta{fill:#ff00a0}
+  .white-line,.pink-line,.green-line,.blue-line{fill:none;stroke-width:1.5}
+  .white-line{stroke:#eee}.pink-line{stroke:#ff00a0}.green-line{stroke:#00c672}.blue-line{stroke:#12d5ff}
+  </style>
+  <rect width="329" height="326" fill="#080808"/>
+  <path d="M0 0h106v132q0 38-37 38H0z" fill="#755d40"/>
+  <g transform="translate(0 252)">
+    <path d="M0 0A143 143 0 0 1 98 74H0Z" fill="#414141"/>
+    <path d="M17 5l-4 11m15-5-6 13m23-3-6 10m23 2-9 11m25 5-10 9m22 5-5 4" class="white-line"/>
+    <path d="M6 1l6-13 6 3-1 14 11-10 6 3-5 12" class="pink-line" stroke-linejoin="round"/>
+    <g transform="translate(42 43) rotate(-54)"><text x="0" y="0" font-size="14" text-anchor="middle">14</text></g>
+    <g transform="translate(77 71) rotate(-43)"><text x="0" y="0" font-size="14" text-anchor="middle">15</text></g>
+  </g>
+  <text x="66" y="201" font-size="21" class="green" text-anchor="middle">BARO</text><text x="66" y="226" font-size="21" class="green" text-anchor="middle">4750</text>
+  <rect x="175" y="19" width="19" height="57" fill="none" stroke="#ffbf23" stroke-width="1.5"/>
+  <text x="184.5" y="34" font-size="15" class="amber" text-anchor="middle">A</text><text x="184.5" y="51" font-size="15" class="amber" text-anchor="middle">L</text><text x="184.5" y="68" font-size="15" class="amber" text-anchor="middle">T</text>
+  <path d="M271 0h44v73l-38 79h-22V46l16-15z" fill="#414141"/>
+  <path d="M271 18h8m-11 38h12l33-33m-44 60h9m-12 24h9m-12 23h9m-9 16h11" class="white-line"/>
+  <text x="265" y="59" font-size="12" text-anchor="end">1</text><text x="263" y="113" font-size="12" text-anchor="end">2</text><text x="263" y="149" font-size="12" text-anchor="end">6</text>
+  <text x="289" y="184" font-size="26" text-anchor="middle">1000</text>
+  <text x="221" y="264" font-size="19" class="amber" text-anchor="middle">DISPLAYS</text>
+  <text x="221" y="286" font-size="19" class="amber" text-anchor="middle">CONTROL PANEL</text>
+</svg>

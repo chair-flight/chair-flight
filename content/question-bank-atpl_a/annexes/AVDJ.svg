@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460">
+  <rect width="1200" height="460" fill="#fff"/>
+  <path d="M32 62H174Q269 62 369 102H682Q756 102 820 77H954Q1090 77 1168 146M32 398H174Q269 398 369 358H682Q756 358 820 383H954Q1090 383 1168 314" fill="none" stroke="#171a1c" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#c7dff7">
+    <rect x="146" y="207" width="768" height="46"/>
+    <path d="M146 80H175Q217 80 278 100V360Q217 380 175 380H146Z"/>
+    <rect x="854" y="94" width="60" height="272"/>
+  </g>
+  <g fill="#0b6bcb">
+    <path id="high-pressure-spool" d="M294 105L423 120V179H752V112L835 94V200H294Z"/>
+    <use href="#high-pressure-spool" transform="translate(0 460) scale(1 -1)"/>
+  </g>
+  <g fill="#fff" stroke="#171a1c" stroke-width="3">
+    <rect x="440" y="120" width="296" height="51"/>
+    <rect x="440" y="289" width="296" height="51"/>
+  </g>
+  <path d="M32 230h1136" fill="none" stroke="#0b6bcb" stroke-width="2.5" stroke-dasharray="26 8 4 8"/>
+</svg>

@@ -1,0 +1,293 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="1041" viewBox="0 0 700 1041" role="img" aria-labelledby="title desc" xml:lang="en-GB">
+<title id="title">737-800 Fuel Schematic</title>
+<desc id="desc">Engines operating with the centre tank feeding them. Fuel routes include the crossfeed, main tank pumps, centre tank scavenge jet pump, APU supply and refuelling connections.</desc>
+<metadata>Boeing 737-800 FCOM Rev 40, 12.20.5. Redrawn as SVG.</metadata>
+<defs>
+  <marker id="arrow" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="13" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto">
+    <path d="M0 0 12 5 0 10Z" fill="#ededed"/>
+  </marker>
+  <g id="toggle-body">
+    <circle r="18" fill="#a6a6a6" stroke="#393939" stroke-width="2"/>
+    <circle r="13" fill="#676767" stroke="#393939" stroke-width="2"/>
+    <circle r="9" fill="#8c8c8c" stroke="#393939" stroke-width="1.6"/>
+  </g>
+  <g id="toggle-lever" stroke="#393939" stroke-width="1.7">
+    <path d="M-4 0a4 4 0 0 1 8 0l2 10H-6z" fill="#b7b7b7"/>
+    <circle cy="12" r="6.6" fill="#cecece"/>
+  </g>
+  <g id="toggle"><use href="#toggle-body"/><use href="#toggle-lever"/></g>
+  <g id="check">
+    <rect x="-21" y="-12" width="42" height="24" rx="1.5" fill="#ededed" stroke="#111" stroke-width="2"/>
+    <path d="M-15-4H4v-6L17 0 4 10V4h-19Z" fill="#111"/>
+  </g>
+</defs>
+<style>
+  svg {background:#080808;color:#ededed}
+  text {font-family:Menlo,Consolas,"Liberation Mono",monospace}
+  .wire,.signal {fill:none;stroke:#ededed;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round}
+  .signal {stroke-dasharray:19 10 3 10}
+  .arr {marker-end:url(#arrow)}
+  .duct-edge,.duct {fill:none;stroke-linecap:butt;stroke-linejoin:round}
+  .duct-edge {stroke:#ededed;stroke-width:15}
+  .duct {stroke:#c41c1c;stroke-width:12}
+  .component {fill:#080808;stroke:#ededed;stroke-width:2.1}
+</style>
+<rect x="0" y="0" width="700" height="1041" fill="#080808"/>
+<g fill="#ededed">
+<path class="wire" d="M196 561l67-67h165l69 67v302l-74-19H266l-70 19ZM20 731l162-154v291L20 914Zm493-155 162 155v180l-162-44Z"/>
+<path class="wire" d="M7 503H167V86h126M7 503v454h25v-27m0-19v-6m-11 25h21m-27-23h25"/>
+<path class="wire" d="M216 436v328m23-327v123M306 434h-67"/>
+<path class="wire" d="M294 455h34v-55m-34 55v210l18 88"/>
+<path class="wire" d="M216 575h-15l-66 76v20m81-89h-12l-60 69v21"/>
+<path class="wire" d="M470 575h13l76 78v19m-89-89h11l72 71v17"/>
+<path class="wire" d="M76 740v-17l39-37m-46 55v-20l32-30M581 736v-16l-37-38m30 53v-14l-29-27"/>
+<path class="wire" d="M161 799l44-30m-45 37 43-30m328 23-44-31m44 38-44-30"/>
+<path class="wire" d="M239 599v24m0 33v15l11 12m-16-27v16l8 12"/>
+<path class="wire" d="M159 860v18m12-18v18m-12 22v57h435V620l49-48m-476 329v59h437V632l55-55"/>
+<path class="wire" d="M343 803V931H611V645l51-51m-310 210v118h251V635l43-55"/>
+<path class="wire" d="M320 727v30m10-30v30m30-29v29m9-29v29m-10 28v28m10-30v28m9-27v28"/>
+<path class="wire" d="M597 591l48-48 47 60-44 40m-21-111-24 25 29 32m-42 8-1 16"/>
+<path class="wire" d="M576 553l8 17"/>
+<path class="wire" d="M32 912v9"/>
+<path class="wire" d="M264 849v24"/>
+<path class="signal" d="M142 63v499l-16 78m16-577h91M602 40H461m141 0v297"/>
+<path class="signal" d="M194 223v250h298V203l-121-56M252 187l-58 35"/>
+<path class="signal" d="M344 399v69h-29v139l18 76M357 398v57h46v192l-29 43"/>
+<path class="signal" d="M504 336v507h-57M504 337h-38M356 835l-1-96 13-21m-12 116h47V769"/>
+<path d="M47 349h75v350h411V349h118M122 675l-16 16m427-16 18 16M136 699v188m-1-87-20 22m21 89v25M274 699V534m0 45h-20M422 699V534m0 45h20M244 699v129m0-49h-13M294 699v124m0-55h15M403 699v124m0-55h-15M447 699v129m0-49h15M533 617h24l56-57" fill="none" stroke="#ededed" stroke-width="11" stroke-linejoin="round"/>
+<path d="M47 349h75v350h411V349h118M122 675l-16 16m427-16 18 16M136 699v188m-1-87-20 22m21 89v25M274 699V534m0 45h-20M422 699V534m0 45h20M244 699v129m0-49h-13M294 699v124m0-55h15M403 699v124m0-55h-15M447 699v129m0-49h15M533 617h24l56-57" fill="none" stroke="#db2391" stroke-width="8" stroke-linejoin="round"/>
+<circle cx="32" cy="350" r="15" fill="#ededed" stroke="#111" stroke-width="1.3"/>
+<circle cx="32" cy="350" r="6" fill="#111"/>
+<path d="M34 346.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(0 32 350)"/>
+<path d="M34 346.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(72 32 350)"/>
+<path d="M34 346.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(144 32 350)"/>
+<path d="M34 346.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(216 32 350)"/>
+<path d="M34 346.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(288 32 350)"/>
+<circle cx="667" cy="350" r="15" fill="#ededed" stroke="#111" stroke-width="1.3"/>
+<circle cx="667" cy="350" r="6" fill="#111"/>
+<path d="M669 346.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(0 667 350)"/>
+<path d="M669 346.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(72 667 350)"/>
+<path d="M669 346.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(144 667 350)"/>
+<path d="M669 346.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(216 667 350)"/>
+<path d="M669 346.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(288 667 350)"/>
+<circle cx="239" cy="579" r="15" fill="#ededed" stroke="#111" stroke-width="1.3"/>
+<circle cx="239" cy="579" r="6" fill="#111"/>
+<path d="M241 575.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(0 239 579)"/>
+<path d="M241 575.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(72 239 579)"/>
+<path d="M241 575.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(144 239 579)"/>
+<path d="M241 575.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(216 239 579)"/>
+<path d="M241 575.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(288 239 579)"/>
+<circle cx="456" cy="579" r="15" fill="#ededed" stroke="#111" stroke-width="1.3"/>
+<circle cx="456" cy="579" r="6" fill="#111"/>
+<path d="M458 575.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(0 456 579)"/>
+<path d="M458 575.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(72 456 579)"/>
+<path d="M458 575.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(144 456 579)"/>
+<path d="M458 575.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(216 456 579)"/>
+<path d="M458 575.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(288 456 579)"/>
+<circle cx="217" cy="779" r="15" fill="#ededed" stroke="#111" stroke-width="1.3"/>
+<circle cx="217" cy="779" r="6" fill="#111"/>
+<path d="M219 775.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(0 217 779)"/>
+<path d="M219 775.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(72 217 779)"/>
+<path d="M219 775.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(144 217 779)"/>
+<path d="M219 775.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(216 217 779)"/>
+<path d="M219 775.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(288 217 779)"/>
+<circle cx="324" cy="768" r="15" fill="#ededed" stroke="#111" stroke-width="1.3"/>
+<circle cx="324" cy="768" r="6" fill="#111"/>
+<path d="M326 764.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(0 324 768)"/>
+<path d="M326 764.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(72 324 768)"/>
+<path d="M326 764.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(144 324 768)"/>
+<path d="M326 764.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(216 324 768)"/>
+<path d="M326 764.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(288 324 768)"/>
+<circle cx="374" cy="768" r="15" fill="#ededed" stroke="#111" stroke-width="1.3"/>
+<circle cx="374" cy="768" r="6" fill="#111"/>
+<path d="M376 764.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(0 374 768)"/>
+<path d="M376 764.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(72 374 768)"/>
+<path d="M376 764.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(144 374 768)"/>
+<path d="M376 764.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(216 374 768)"/>
+<path d="M376 764.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(288 374 768)"/>
+<circle cx="474" cy="779" r="15" fill="#ededed" stroke="#111" stroke-width="1.3"/>
+<circle cx="474" cy="779" r="6" fill="#111"/>
+<path d="M476 775.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(0 474 779)"/>
+<path d="M476 775.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(72 474 779)"/>
+<path d="M476 775.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(144 474 779)"/>
+<path d="M476 775.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(216 474 779)"/>
+<path d="M476 775.25q4-5 9.3 -7.35l2.4 3.15q-4 0-5 4Z" fill="#111" transform="rotate(288 474 779)"/>
+<path d="M-12-4q2-6 7-3l5 3 5-3q5-3 7 3v8q-2 6-7 3L0 4l-5 3q-5 3-7-3Z" fill="#db2391" stroke="#ededed" stroke-width="1.2" transform="translate(274 534) rotate(90)"/>
+<path d="M-12-4q2-6 7-3l5 3 5-3q5-3 7 3v8q-2 6-7 3L0 4l-5 3q-5 3-7-3Z" fill="#db2391" stroke="#ededed" stroke-width="1.2" transform="translate(422 534) rotate(90)"/>
+<path d="M-12-4q2-6 7-3l5 3 5-3q5-3 7 3v8q-2 6-7 3L0 4l-5 3q-5 3-7-3Z" fill="#db2391" stroke="#ededed" stroke-width="1.2" transform="translate(244 826) rotate(90)"/>
+<path d="M-12-4q2-6 7-3l5 3 5-3q5-3 7 3v8q-2 6-7 3L0 4l-5 3q-5 3-7-3Z" fill="#db2391" stroke="#ededed" stroke-width="1.2" transform="translate(294 816) rotate(90)"/>
+<path d="M-12-4q2-6 7-3l5 3 5-3q5-3 7 3v8q-2 6-7 3L0 4l-5 3q-5 3-7-3Z" fill="#db2391" stroke="#ededed" stroke-width="1.2" transform="translate(403 816) rotate(90)"/>
+<path d="M-12-4q2-6 7-3l5 3 5-3q5-3 7 3v8q-2 6-7 3L0 4l-5 3q-5 3-7-3Z" fill="#db2391" stroke="#ededed" stroke-width="1.2" transform="translate(447 826) rotate(90)"/>
+<use href="#check" transform="translate(274 642) rotate(90) scale(0.7)"/>
+<use href="#check" transform="translate(423 642) rotate(90) scale(0.7)"/>
+<use href="#check" transform="translate(244 732) rotate(-90) scale(0.7)"/>
+<use href="#check" transform="translate(294 732) rotate(-90) scale(0.7)"/>
+<use href="#check" transform="translate(402 732) rotate(-90) scale(0.7)"/>
+<use href="#check" transform="translate(447 732) rotate(-90) scale(0.7)"/>
+<use href="#check" transform="translate(136 732) rotate(90) scale(0.7)"/>
+<use href="#check" transform="translate(166 888) rotate(-90) scale(0.7)"/>
+<use href="#check" transform="translate(92 705) rotate(-45) scale(0.7)"/>
+<use href="#check" transform="translate(562 704) rotate(45) scale(0.7)"/>
+<use href="#check" transform="translate(100 831) rotate(-45) scale(0.7)"/>
+<use href="#check" transform="translate(239 643) rotate(-90) scale(0.7)"/>
+<use href="#check" transform="translate(610 601) rotate(-45) scale(0.7)"/>
+<use href="#check" transform="translate(626 618) rotate(-45) scale(0.7)"/>
+<use href="#check" transform="translate(643 636) rotate(-45) scale(0.7)"/>
+<circle cx="87" cy="350" r="13" fill="none" stroke="#ededed" stroke-width="1.8"/>
+<circle cx="602" cy="350" r="13" fill="none" stroke="#ededed" stroke-width="1.8"/>
+<circle cx="120" cy="638" r="13" fill="none" stroke="#ededed" stroke-width="1.8"/>
+<circle cx="533" cy="594" r="13" fill="none" stroke="#ededed" stroke-width="1.8"/>
+<circle cx="343" cy="698" r="13" fill="none" stroke="#ededed" stroke-width="1.8"/>
+<path d="M-12-3h24v6h-24Z" fill="#ededed" transform="translate(343 698) rotate(90)"/>
+<circle cx="136" cy="900" r="13" fill="none" stroke="#ededed" stroke-width="1.8"/>
+<path d="M-12-3h24v6h-24Z" fill="#ededed" transform="translate(136 900) rotate(0)"/>
+<circle cx="589" cy="587" r="13" fill="none" stroke="#ededed" stroke-width="1.8"/>
+<path d="M-12-3h24v6h-24Z" fill="#ededed" transform="translate(589 587) rotate(45)"/>
+<g transform="translate(32 313) scale(1)">
+<path class="wire" d="M-20 0h40q7 5 6 23l-6 52h-40l-6-52q-1-18 6-23ZM-14 75l4 18h20l4-18M-9 93l9 32 9-32M-25 17h50"/>
+</g>
+<g transform="translate(666 313) scale(1)">
+<path class="wire" d="M-20 0h40q7 5 6 23l-6 52h-40l-6-52q-1-18 6-23ZM-14 75l4 18h20l4-18M-9 93l9 32 9-32M-25 17h50"/>
+</g>
+<text x="32" y="328" font-size="14" text-anchor="middle">1</text>
+<text x="666" y="328" font-size="14" text-anchor="middle">2</text>
+<path class="wire" d="M111 949l11-8 7 5 5-10h7l6 10 8-4v27l-8-4-6 9h-7l-5-8-7 4-11-9Z"/>
+<text x="137" y="946" font-size="9" text-anchor="middle"><tspan x="137" dy="0">A</tspan><tspan x="137" dy="9">P</tspan><tspan x="137" dy="9">U</tspan></text>
+<path class="wire arr" d="M572 499l10 60"/>
+<path class="wire arr" d="M238 532v28"/>
+<path class="wire arr" d="M215 730v33"/>
+<path class="wire arr" d="M309 723l8 32"/>
+<rect x="211" y="14" width="272" height="425" fill="#aaa" stroke="#454545" stroke-width="2"/>
+<rect x="212" y="15" width="270" height="143" fill="#777"/>
+<path d="M254 152v165h53v110m-53-241h178m5-34v165h-51v110m-135-115h57m79-1h49M254 417h50m82 0h53" fill="none" stroke="#eee" stroke-width="3"/>
+<circle cx="346" cy="76" r="49" fill="#151515" stroke="#505050" stroke-width="3"/>
+<circle cx="346" cy="76" r="44" fill="#080808"/>
+<path d="M346 76l17-39 5 3-18 38Z" fill="#ededed"/>
+<circle class="component" cx="346" cy="76" r="12"/>
+<text x="347" y="54" font-size="8" text-anchor="middle"><tspan x="347" dy="0">FUEL</tspan><tspan x="347" dy="9">TEMP</tspan></text>
+<text x="347" y="107" font-size="10" text-anchor="middle">°C</text>
+<circle cx="347" cy="190" r="27" fill="#b9b9b9" stroke="#454545" stroke-width="2"/>
+<path d="M342 165h9v49h-9Z" fill="#ccc" stroke="#595959" stroke-width="1.3"/>
+<rect x="280.25" y="162.5" width="37.5" height="11.8" fill="#777"/>
+<text x="299" y="171.6" font-size="10" text-anchor="middle" fill="#ededed">CROSS</text>
+<rect x="374.3" y="162.5" width="31.4" height="11.8" fill="#777"/>
+<text x="390" y="171.6" font-size="10" text-anchor="middle" fill="#ededed">FEED</text>
+<rect x="309.95" y="244.65" width="74.1" height="12.98" fill="#777"/>
+<text x="347" y="254.66" font-size="11" text-anchor="middle" fill="#ededed">FUEL PUMPS</text>
+<rect x="333.435" y="302.65" width="27.13" height="12.98" fill="#777"/>
+<text x="347" y="312.66" font-size="11" text-anchor="middle" fill="#ededed">CTR</text>
+<rect x="285.45" y="274.5" width="13.1" height="11.8" fill="#777"/>
+<text x="292" y="283.6" font-size="10" text-anchor="middle" fill="#ededed">L</text>
+<rect x="395.45" y="274.5" width="13.1" height="11.8" fill="#777"/>
+<text x="402" y="283.6" font-size="10" text-anchor="middle" fill="#ededed">R</text>
+<rect x="273.145" y="415.65" width="13.71" height="12.98" fill="#777"/>
+<text x="280" y="425.66" font-size="11" text-anchor="middle" fill="#ededed">1</text>
+<rect x="405.145" y="415.65" width="13.71" height="12.98" fill="#777"/>
+<text x="412" y="425.66" font-size="11" text-anchor="middle" fill="#ededed">2</text>
+<text x="327" y="377" font-size="11" text-anchor="start"><tspan x="327" dy="0">FUEL</tspan><tspan x="327" dy="12">PUMPS</tspan></text>
+<path class="wire" d="M316.89 100.43L313.06 103.64"/>
+<path class="wire" d="M313.09 95.00L310.49 96.50"/>
+<path class="wire" d="M310.29 89.00L305.59 90.71"/>
+<path class="wire" d="M308.58 82.60L305.62 83.12"/>
+<path class="wire" d="M308.00 76.00L303.00 76.00"/>
+<path class="wire" d="M308.58 69.40L305.62 68.88"/>
+<path class="wire" d="M310.29 63.00L305.59 61.29"/>
+<path class="wire" d="M313.09 57.00L310.49 55.50"/>
+<path class="wire" d="M316.89 51.57L313.06 48.36"/>
+<path class="wire" d="M321.57 46.89L319.65 44.59"/>
+<path class="wire" d="M327.00 43.09L324.50 38.76"/>
+<path class="wire" d="M333.00 40.29L331.98 37.47"/>
+<path class="wire" d="M339.40 38.58L338.53 33.65"/>
+<path class="wire" d="M346.00 38.00L346.00 35.00"/>
+<path class="wire" d="M352.60 38.58L353.47 33.65"/>
+<path class="wire" d="M359.00 40.29L360.02 37.47"/>
+<path class="wire" d="M365.00 43.09L367.50 38.76"/>
+<path class="wire" d="M370.43 46.89L372.35 44.59"/>
+<path class="wire" d="M375.11 51.57L378.94 48.36"/>
+<path class="wire" d="M378.91 57.00L381.51 55.50"/>
+<path class="wire" d="M381.71 63.00L386.41 61.29"/>
+<path class="wire" d="M383.42 69.40L386.38 68.88"/>
+<path class="wire" d="M384.00 76.00L389.00 76.00"/>
+<path class="wire" d="M383.42 82.60L386.38 83.12"/>
+<path class="wire" d="M381.71 89.00L386.41 90.71"/>
+<path class="wire" d="M378.91 95.00L381.51 96.50"/>
+<path class="wire" d="M375.11 100.43L378.94 103.64"/>
+<text x="316" y="78" font-size="8" text-anchor="middle">−40</text>
+<text x="324" y="56" font-size="8" text-anchor="middle">−20</text>
+<text x="347" y="45" font-size="8" text-anchor="middle">0</text>
+<text x="369" y="56" font-size="8" text-anchor="middle">20</text>
+<text x="375" y="78" font-size="8" text-anchor="middle">40</text>
+<rect x="233" y="25" width="58" height="25" fill="#173a72" stroke="#9badc7" stroke-width="1.5"/>
+<text x="262" y="35.205" font-size="9" text-anchor="middle" fill="#ededed"><tspan x="262" dy="0">ENG VALVE</tspan><tspan x="262" dy="10.35">CLOSED</tspan></text>
+<rect x="233" y="51" width="58" height="25" fill="#173a72" stroke="#9badc7" stroke-width="1.5"/>
+<text x="262" y="61.205" font-size="9" text-anchor="middle" fill="#ededed"><tspan x="262" dy="0">SPAR VALVE</tspan><tspan x="262" dy="10.35">CLOSED</tspan></text>
+<rect x="403" y="25" width="58" height="25" fill="#173a72" stroke="#9badc7" stroke-width="1.5"/>
+<text x="432" y="35.205" font-size="9" text-anchor="middle" fill="#ededed"><tspan x="432" dy="0">ENG VALVE</tspan><tspan x="432" dy="10.35">CLOSED</tspan></text>
+<rect x="403" y="51" width="58" height="25" fill="#173a72" stroke="#9badc7" stroke-width="1.5"/>
+<text x="432" y="61.205" font-size="9" text-anchor="middle" fill="#ededed"><tspan x="432" dy="0">SPAR VALVE</tspan><tspan x="432" dy="10.35">CLOSED</tspan></text>
+<rect x="238" y="132" width="52" height="25" fill="#080808" stroke="#ffbc17" stroke-width="1.5"/>
+<text x="264" y="142.205" font-size="9" text-anchor="middle" fill="#ffbc17"><tspan x="264" dy="0">FILTER</tspan><tspan x="264" dy="10.35">BYPASS</tspan></text>
+<rect x="405" y="132" width="52" height="25" fill="#080808" stroke="#ffbc17" stroke-width="1.5"/>
+<text x="431" y="142.205" font-size="9" text-anchor="middle" fill="#ffbc17"><tspan x="431" dy="0">FILTER</tspan><tspan x="431" dy="10.35">BYPASS</tspan></text>
+<rect x="322" y="132" width="50" height="25" fill="#173a72" stroke="#9badc7" stroke-width="1.5"/>
+<text x="347" y="142.205" font-size="9" text-anchor="middle" fill="#ededed"><tspan x="347" dy="0">VALVE</tspan><tspan x="347" dy="10.35">OPEN</tspan></text>
+<rect x="296" y="221" width="51" height="25" fill="#080808" stroke="#ffbc17" stroke-width="1.5"/>
+<text x="321.5" y="231.205" font-size="9" text-anchor="middle" fill="#ffbc17"><tspan x="321.5" dy="0">LOW</tspan><tspan x="321.5" dy="10.35">PRESSURE</tspan></text>
+<rect x="347" y="221" width="51" height="25" fill="#080808" stroke="#ffbc17" stroke-width="1.5"/>
+<text x="372.5" y="231.205" font-size="9" text-anchor="middle" fill="#ffbc17"><tspan x="372.5" dy="0">LOW</tspan><tspan x="372.5" dy="10.35">PRESSURE</tspan></text>
+<rect x="230" y="324" width="51" height="25" fill="#080808" stroke="#ffbc17" stroke-width="1.5"/>
+<text x="255.5" y="334.205" font-size="9" text-anchor="middle" fill="#ffbc17"><tspan x="255.5" dy="0">LOW</tspan><tspan x="255.5" dy="10.35">PRESSURE</tspan></text>
+<rect x="281" y="324" width="51" height="25" fill="#080808" stroke="#ffbc17" stroke-width="1.5"/>
+<text x="306.5" y="334.205" font-size="9" text-anchor="middle" fill="#ffbc17"><tspan x="306.5" dy="0">LOW</tspan><tspan x="306.5" dy="10.35">PRESSURE</tspan></text>
+<rect x="361" y="324" width="51" height="25" fill="#080808" stroke="#ffbc17" stroke-width="1.5"/>
+<text x="386.5" y="334.205" font-size="9" text-anchor="middle" fill="#ffbc17"><tspan x="386.5" dy="0">LOW</tspan><tspan x="386.5" dy="10.35">PRESSURE</tspan></text>
+<rect x="412" y="324" width="51" height="25" fill="#080808" stroke="#ffbc17" stroke-width="1.5"/>
+<text x="437.5" y="334.205" font-size="9" text-anchor="middle" fill="#ffbc17"><tspan x="437.5" dy="0">LOW</tspan><tspan x="437.5" dy="10.35">PRESSURE</tspan></text>
+<use href="#toggle" transform="translate(322 288) scale(0.88)"/>
+<use href="#toggle" transform="translate(373 288) scale(0.88)"/>
+<use href="#toggle" transform="translate(255 390) scale(0.88)"/>
+<rect x="242.35" y="350.5" width="25.3" height="11.8" fill="#777"/>
+<text x="255" y="359.6" font-size="10" text-anchor="middle" fill="#ededed">AFT</text>
+<use href="#toggle" transform="translate(306 390) scale(0.88)"/>
+<rect x="293.35" y="350.5" width="25.3" height="11.8" fill="#777"/>
+<text x="306" y="359.6" font-size="10" text-anchor="middle" fill="#ededed">FWD</text>
+<use href="#toggle" transform="translate(388 390) scale(0.88)"/>
+<rect x="375.35" y="350.5" width="25.3" height="11.8" fill="#777"/>
+<text x="388" y="359.6" font-size="10" text-anchor="middle" fill="#ededed">FWD</text>
+<use href="#toggle" transform="translate(439 390) scale(0.88)"/>
+<rect x="426.35" y="350.5" width="25.3" height="11.8" fill="#777"/>
+<text x="439" y="359.6" font-size="10" text-anchor="middle" fill="#ededed">AFT</text>
+<rect x="336.18" y="262.2" width="21.64" height="9.44" fill="#777"/>
+<text x="347" y="269.48" font-size="8" text-anchor="middle" fill="#ededed">OFF</text>
+<rect x="269.18" y="366.2" width="21.64" height="9.44" fill="#777"/>
+<text x="280" y="373.48" font-size="8" text-anchor="middle" fill="#ededed">OFF</text>
+<rect x="402.18" y="366.2" width="21.64" height="9.44" fill="#777"/>
+<text x="413" y="373.48" font-size="8" text-anchor="middle" fill="#ededed">OFF</text>
+<rect x="338.62" y="294.2" width="16.76" height="9.44" fill="#777"/>
+<text x="347" y="301.48" font-size="8" text-anchor="middle" fill="#ededed">ON</text>
+<rect x="271.62" y="396.2" width="16.76" height="9.44" fill="#777"/>
+<text x="280" y="403.48" font-size="8" text-anchor="middle" fill="#ededed">ON</text>
+<rect x="404.62" y="396.2" width="16.76" height="9.44" fill="#777"/>
+<text x="413" y="403.48" font-size="8" text-anchor="middle" fill="#ededed">ON</text>
+<path class="wire arr" d="M142 63h89"/>
+<path class="wire arr" d="M602 40H463"/>
+<path class="wire arr" d="M167 86h126"/>
+<path class="wire arr" d="M492 199l-119-52"/>
+<path class="wire arr" d="M504 337h-40"/>
+<text x="530" y="289" font-size="14" text-anchor="start"><tspan x="530" dy="0">ENGINE</tspan><tspan x="530" dy="17">FUEL</tspan><tspan x="530" dy="17">SHUTOFF</tspan><tspan x="530" dy="17">VALVE</tspan></text>
+<text x="545" y="462" font-size="14" text-anchor="start"><tspan x="545" dy="0">MANUAL</tspan><tspan x="545" dy="17">DEFUELING</tspan><tspan x="545" dy="17">VALVE</tspan></text>
+<text x="627" y="515" font-size="14" text-anchor="start"><tspan x="627" dy="0">FUELING</tspan><tspan x="627" dy="17">STATION</tspan></text>
+<text x="320" y="602" font-size="14" text-anchor="start"><tspan x="320" dy="0">CENTER</tspan><tspan x="320" dy="17">TANK</tspan></text>
+<text x="31" y="624" font-size="14" text-anchor="start"><tspan x="31" dy="0">SPAR FUEL</tspan><tspan x="31" dy="17">SHUTOFF</tspan><tspan x="31" dy="17">VALVE</tspan></text>
+<text x="52" y="761" font-size="14" text-anchor="start"><tspan x="52" dy="0">NO. 1</tspan><tspan x="52" dy="17">TANK</tspan></text>
+<text x="620" y="761" font-size="14" text-anchor="start"><tspan x="620" dy="0">NO. 2</tspan><tspan x="620" dy="17">TANK</tspan></text>
+<text x="521" y="750" font-size="14" text-anchor="start"><tspan x="521" dy="0">ENGINE</tspan><tspan x="521" dy="17">BYPASS</tspan><tspan x="521" dy="17">VALVE</tspan></text>
+<text x="25" y="846" font-size="14" text-anchor="start"><tspan x="25" dy="0">APU</tspan><tspan x="25" dy="17">BYPASS</tspan><tspan x="25" dy="17">VALVE</tspan></text>
+<text x="51" y="915" font-size="14" text-anchor="start"><tspan x="51" dy="0">APU FUEL</tspan><tspan x="51" dy="17">SHUTOFF</tspan><tspan x="51" dy="17">VALVE</tspan></text>
+<text x="221" y="888" font-size="14" text-anchor="start"><tspan x="221" dy="0">CENTER TANK</tspan><tspan x="221" dy="17">FUEL SCAVENGE</tspan><tspan x="221" dy="17">JET PUMP</tspan></text>
+<path d="M22 1016h67" fill="none" stroke="#ededed" stroke-width="11" stroke-linejoin="round"/>
+<path d="M22 1016h67" fill="none" stroke="#db2391" stroke-width="8" stroke-linejoin="round"/>
+<text x="101" y="1022" font-size="14" text-anchor="start">FUEL FEED</text>
+<text x="685" y="1002" font-size="14" text-anchor="end"><tspan x="685" dy="0">CONDITION: ENGINES OPERATING</tspan><tspan x="685" dy="18">CENTER TANK FEEDING ENGINES</tspan></text>
+</g>
+</svg>

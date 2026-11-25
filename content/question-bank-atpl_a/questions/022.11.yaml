@@ -1,0 +1,1497 @@
+- id: QEHCM
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221586
+    - BGS-220659
+    - AVEXAM-67498
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.01.01.01
+  templates:
+    - type: multiple-correct
+      question: "The role of the FMS is to:"
+      explanation: ""
+      options:
+        - text: – aid the crew with navigation
+          correct: true
+        - text: – shut down the engine in case of a malfunction
+          correct: false
+        - text: – automatically avoid conflicting traffic when autopilot engaged
+          correct: false
+        - text: – reduce crew workload
+          correct: true
+        - text: – aid fuel efficiency
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QMIPB
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224327
+    - BGS-222296
+    - AVEXAM-31499
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.01.01.02
+  templates:
+    - type: simple
+      question: "In a dual FMS architecture, when an incompatibility between the two FMC's occurs: NB: FMC = Flight Management Computer"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: both FMC's are working independently; they are linked only to their own peripherals.
+          wrongAnswers:
+            - text: the left FMC becomes the master FMC.
+            - text: one FMC is automatically switched OFF.
+            - text: both FMC's are automatically switched OFF.
+- id: QMJUN
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229688
+    - BGS-221647
+    - AVEXAM-36224
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.01.01.02
+  templates:
+    - type: simple
+      question: In a typical FMS architecture including two FMCs, two CDUs and one cross-talk bus when the system operates in the normal DUAL mode, one (1) \_\_\_\_\_ is the master and the other is the slave. Both (2) \_\_\_\_\_ exchange data together and synchronise via a cross-talk bus.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) FMC; (2) FMCS
+          wrongAnswers:
+            - text: (1) CDU; (2) FMCS
+            - text: (1) CDU; (2) CDUS
+            - text: (1) FMC; (2) CDUS
+- id: QZYUG
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225609
+    - BGS-222681
+    - BGS-222247
+    - AVEXAM-82677
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.01.01.02
+  templates:
+    - type: simple
+      question: What can be considered hardware in a computer?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Physical components of a computer.
+          wrongAnswers:
+            - text: Software running applications.
+            - text: Database.
+            - text: CPDLC.
+    - type: simple
+      question: Within the realm of computing, how would one best describe hardware? The…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: physical components of the computer.
+          wrongAnswers:
+            - text: wiring that is needed for data transfer between components.
+            - text: set of instructions, data, or programmes used to execute specific tasks.
+            - text: operating system that runs the software applications.
+    - type: simple
+      question: "In computer architecture, the hardware is defined as:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the physical components of a computer system.
+          wrongAnswers:
+            - text: the programmes which make up the operating system (OS).
+            - text: the non-volatile memory (RAM, random access memory).
+            - text: the non-volatile memory (ROM, read only memory).
+- id: QHGWH
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226939
+    - BGS-221754
+    - AVEXAM-22362
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.01.01.03
+  templates:
+    - type: simple
+      question: One FMS is not in agreement with the other. What happens?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An error message is displayed to the flight crew.
+          wrongAnswers:
+            - text: Nothing. The flight crew must keep cross-checking to ensure the FMSs stay in agreement.
+            - text: The FMS shuts down, and the flight crew must use alternative means of navigation.
+            - text: The functioning system overrides the other automatically.
+- id: QXCYB
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228255
+    - BGS-222458
+    - AVEXAM-72216
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.01.01.03
+  templates:
+    - type: simple
+      question: After the failure of MCDU 1, an aircraft equipped with dual FMS architecture will operate in (1) \_\_\_ mode. Using MCDU 2, the crew can program (2) \_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) dual; (2) either FMS.
+          wrongAnswers:
+            - text: (1) independent; (2) FMS 2 only.
+            - text: (1) single; (2) FMS 2 only.
+            - text: (1) single; (2) FMS 1 only.
+- id: QJWMM
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226891
+    - AVEXAM-93512
+    - BGS-221588
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.01.01.04
+  templates:
+    - type: multiple-correct
+      question: What are the systems which provide input data into the FMS?
+      explanation: ""
+      options:
+        - text: AFCS
+          correct: false
+        - text: IRS
+          correct: true
+        - text: ADC
+          correct: true
+        - text: ATS
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+    - type: simple
+      question: |-
+        Which of the following systems provide input data into the FMS?
+
+        1. AFCS
+        2. IRS
+        3. ADC
+        4. ATS
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 and 3
+          wrongAnswers:
+            - text: 1 and 4
+            - text: 1 and 3
+            - text: 2 and 4
+- id: QHHWF
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226066
+    - AVEXAM-72187
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.01.01.04
+  templates:
+    - type: simple
+      question: The most comprehensive definition of software includes using (1) _____ and (2) _____ to complete tasks in a computer.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) programming instructions; (2) data
+          wrongAnswers:
+            - text: (1) programming language; (2) media data (images, sound)
+            - text: (1) logic gates; (2) hardware configurations
+            - text: (1) binary data; (2) machine code
+- id: QNMVT
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229764
+    - AVEXAM-76880
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.01.01.05
+  templates:
+    - type: simple
+      question: TCAS II can display up to (1) _____ surrounding aircraft and provides (2) _____.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) 30; (2) vertical commands only.
+          wrongAnswers:
+            - text: (1) 30; (2) vertical and horizontal commands.
+            - text: (1) 20; (2) vertical commands only.
+            - text: (1) 20; (2) vertical and horizontal commands.
+    - type: simple
+      question: TCAS II is capable of displaying up to (1)___ surrounding aircraft and provides (2) ___.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) 30; (2) vertical commands only.
+          wrongAnswers:
+            - text: (1) 20; (2) vertical commands only.
+            - text: (1) 30; (2) vertical and horizontal commands.
+            - text: (1) 20; (2) vertical and horizontal commands.
+- id: QLWXU
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628444
+    - BGS-620477
+    - AVEXAM-38053
+    - ATPLQ-228444
+    - BGS-222622
+    - BGS-221447
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.01.01.05
+  templates:
+    - type: simple
+      question: "On a modern commercial aircraft, the FMS provides:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: lateral and vertical navigation, and guidance and performance management.
+          wrongAnswers:
+            - text: traffic alert information.
+            - text: an air ground/data link.
+            - text: a 3D area navigation and an air/ground datalink.
+- id: QBYPD
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624805
+    - AVEXAM-10747
+    - BGS-620495
+    - ATPLQ-224805
+    - BGS-222618
+    - BGS-221476
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.02.01.01
+  templates:
+    - type: simple
+      question: "What is true about the FMC databases:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the data includes SIDs, STARS and runway approaches.
+          wrongAnswers:
+            - text: the performance database contains aeronautical information for the planned area of operations of the aircraft.
+            - text: the data can not be customized for the specific airline operations.
+            - text: the navigation database contains the company’s cost index strategy.
+- id: QEWIL
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221190
+    - AVEXAM-40612
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.02.01.01
+  templates:
+    - type: simple
+      question: What is the correct technique if you want to enter a RNAV SID/STAR route into the FMS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Retrieve it from the navigation database.
+          wrongAnswers:
+            - text: Manually enter the name of the SID/STAR route.
+            - text: Upload it from the EFB.
+            - text: Use of electronic flight bag.
+    - type: simple
+      question: "Select the correct technique if you want to choose a route for RNAV SID/STAR:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Retrieve it from the navigation database.
+          wrongAnswers:
+            - text: Upload it from the EFB.
+            - text: Use of electronic flight bag.
+            - text: Manually enter the name of the SID/STAR route.
+- id: QSLMM
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222253
+    - AVEXAM-79549
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.02.01.01
+  templates:
+    - type: simple
+      question: Which method is used by the pilot to insert RNAV waypoints into an aircraft’s FMS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Automatically loaded into the FMS using a company route registration/airport pairing from the navigation database.
+          wrongAnswers:
+            - text: Automatically sent from the pilot’s electronic flight bag (EFB) to the FMS.
+            - text: Manually by inserting one waypoint at a time, during the flight.
+            - text: Manually by selecting the CRS/DISTANCE on an HSI.
+- id: QCSSW
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds:
+    - QXJSY
+  externalQuestionIds:
+    - ATPLQ-221245
+    - BGS-222109
+    - BGS-221417
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.02.01.02
+  templates:
+    - type: simple
+      question: "A new data base should be downloaded to the Flight Management System (FMS) on a cycle of every:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 28 days.
+          wrongAnswers:
+            - text: 30 days.
+            - text: 14 days.
+            - text: 90 days.
+- id: QXJSY
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds:
+    - QCSSW
+  externalQuestionIds:
+    - ATPLQ-222384
+    - BGS-221881
+    - AVEXAM-25814
+    - ATPLQ-221184
+    - AVEXAM-22055
+    - BGS-221452
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.02.01.02
+  templates:
+    - type: simple
+      question: "The validity period of the navigation data base of a FMS is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 28 days.
+          wrongAnswers:
+            - text: 3 calendar months.
+            - text: one calendar month.
+            - text: 14 days.
+    - type: simple
+      question: "The duration of a FMS navigation database loaded before expiring is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 28 days.
+          wrongAnswers:
+            - text: 2 months.
+            - text: 15 days.
+            - text: 3 months.
+- id: QBWRO
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626923
+    - AVEXAM-93432
+    - BGS-620481
+    - AVEXAM-33858
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.02.01.03
+    - 022.11.02.01.04
+  templates:
+    - type: simple
+      question: The Flight Management System (FMS) is organised in such a way that the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: navigation database in the FMC is “read only”, but the pilot is able to add other navigational data.
+          wrongAnswers:
+            - text: navigation database in the FMC is valid for one year.
+            - text: pilot cannot modify the navigation database once it is installed in the FMC.
+            - text: navigation database in the FMC is created by the pilot.
+- id: QKLOB
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625627
+    - BGS-620771
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.02.01.03
+    - 022.11.02.01.04
+  templates:
+    - type: simple
+      question: Which statement is true about the navigational database of a FMS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Crew created navigational data may be saved in additional space in the database.
+          wrongAnswers:
+            - text: The crew can overwrite existing database-data in the navigational database.
+            - text: The navigational database is write-protected and it is not possible to otherwise save crew created navigational data.
+            - text: Crew-inserted navigational data is deleted automatically after each flight.
+- id: QVTPR
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227732
+    - AVEXAM-17169
+    - BGS-221611
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.02.01.04
+    - 022.11.02.01.05
+  templates:
+    - type: simple
+      question: "During initialisation of the FMS, the pilot selects the current database. He/she enters the route and waypoints for the flight. After being distracted during start-up, the pilot is confused and changes some data. They also select the second navigation database of the FMS. This is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A problem as it will erase the current route and waypoints already put in.
+          wrongAnswers:
+            - text: NOT a problem. The route and waypoints remain active.
+            - text: NOT possible as there only is one navigation database available for selection.
+            - text: NOT a problem. The FMS will automatically switch to the current database.
+- id: QXMDY
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227319
+    - AVEXAM-39305
+    - BGS-221902
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.02.01.05
+  templates:
+    - type: simple
+      question: The flight crew accidentally changes the active navigation database with the standby database. What is the main threat that may arise from such action?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The aircraft may continue flying along an incorrect flight plan route leading to a loss of separation with other traffic.
+          wrongAnswers:
+            - text: The only threat is the computed airport approaches, however, the flight crew can refer to the paper approach charts always present onboard the aircraft.
+            - text: Nothing, it is impossible to change the navigation database in flight.
+            - text: The main threat is related to the loss of magnetic variation.
+- id: QVPDR
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226573
+    - BGS-221636
+    - AVEXAM-89999
+    - BGS-222473
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.02.02.01
+  templates:
+    - type: multiple-correct
+      question: Which of the following data is typically uploaded into the performance database of an FMS?
+      explanation: "The performance database holds the characteristics of the aircraft and engines: drag, speeds and engine data, which the FMS uses to compute predictions. SIDs, STARs and routes belong to the navigation database."
+      options:
+        - text: SIDs and STARs
+          correct: false
+        - text: Aircraft drag characteristics
+          correct: true
+        - text: Maximum and minimum speeds
+          correct: true
+        - text: Company routes
+          correct: false
+        - text: Engine characteristics
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QUQHR
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225880
+    - AVEXAM-79395
+    - BGS-222463
+    - AVEXAM-69883
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.02.02.01
+  templates:
+    - type: simple
+      question: The data stored in the performance database of an FMS is mainly used..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: to calculate engine thrust settings.
+          wrongAnswers:
+            - text: for LNAV calculations
+            - text: to validate GNSS position and satellite data.
+            - text: to calculate IRS positions.
+- id: QJSTJ
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224217
+    - BGS-222467
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.02.02.02
+  templates:
+    - type: simple
+      question: "The pilot notices that the aircraft type stored in the database for aircraft performance is incorrect while performing the FMS performance initialization procedure. Before flying, this issue must be resolved because it could lead to inaccurate FMS outputs related to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: fuel management, optimum altitudes, and vertical flight profile.
+          wrongAnswers:
+            - text: automatic tuning of navigational aids and position updates.
+            - text: wind direction and speed, OAT, and freezing level.
+            - text: waypoints, airways, and lateral flight profile.
+- id: QVBOJ
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222352
+    - BGS-222468
+    - AVEXAM-21214
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.02.02.02
+    - 022.11.02.02.03
+  templates:
+    - type: simple
+      question: You discover that the aircraft performance database for FMS is based on incorrect aircraft and engine configurations during pre-flight preparation. Which of the following statements is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Engineering must be notified, as flight crew are prohibited from making any changes.
+          wrongAnswers:
+            - text: Leave the database unchanged because modifying the contents is a lengthy procedure.
+            - text: You can manually select the correct configuration by using the list on the initialisation page.
+            - text: The correct configuration can be uploaded via ACARS by Operations control.
+- id: QWFHW
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221717
+    - BGS-221498
+    - AVEXAM-39151
+    - AVEXAM-30626
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.02.02.02
+  templates:
+    - type: simple
+      question: During FMS initialization, the crew must verify that the aircraft performance database is correct This is because the FMS uses the data to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: calculate an optimum vertical profile.
+          wrongAnswers:
+            - text: determine which mass and balance requirements apply.
+            - text: determine the Regulated Take-Off Mass restrictions.
+            - text: calculate an optimum lateral profile.
+    - type: simple
+      question: |-
+        The FMS uses the performance database in order to calculate the optimum vertical profile. During the FMS preparation before the flight, the performance database must be checked for:
+
+         Correct engines types and configuration. 
+         Correct aircraft type and variant.
+         Current navigational data cycle.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2
+          wrongAnswers:
+            - text: 1, 2, 3
+            - text: 2, 3
+            - text: 1, 3
+- id: QUUCG
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221328
+    - AVEXAM-1966
+    - BGS-221720
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.02.02.03
+  templates:
+    - type: simple
+      question: At the beginning of a flight, the pilot initiates the FMS. they confirm the current aircraft type and model, and wants to go into the sub-menu of the performance database to change a few parameters. Which of the following statements is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The performance database can only be changed by maintenance personnel.
+          wrongAnswers:
+            - text: An aircraft engineer must be present when the pilot is changing parameters, due to the safety critical data.
+            - text: Only parameters related to the engine power output can be changed by the pilot.
+            - text: Only parameters related to the fuel consumption can be changed by the pilot.
+- id: QZXCI
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228599
+    - AVEXAM-97370
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.02.02.03
+  templates:
+    - type: simple
+      question: Is it possible for the flight crew to change data in the performance database?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No, it can only be done by maintenance.
+          wrongAnswers:
+            - text: Yes, it can only change engine thrust rating.
+            - text: Yes, it can only change the fuel consumption.
+            - text: No, because the performance database that can be accessed by the flight crew.
+- id: QMQWM
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225962
+    - AVEXAM-16253
+    - BGS-222265
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.02.02.04
+  templates:
+    - type: simple
+      question: Which of the following statements regarding the "performance factor" is correct? It is a…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: positive or negative factor that is used to correct the predicted fuel flow.
+          wrongAnswers:
+            - text: positive or negative factor that is used to calculate the percentage error in fuel consumption due to differences between nominal and icing conditions.
+            - text: positive factor that is used to show the percentage increase in fuel consumption when there is an abnormal increase in drag.
+            - text: cost index used to show the efficiency of the aircraft as a percentage of the nominal performance.
+- id: QFMWF
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222538
+    - AVEXAM-14910
+    - BGS-221886
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.02.02.05
+  templates:
+    - type: simple
+      question: A flight is performed with a higher "Cost Index" at a given mass. Which of the following will occur?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A higher cruise Mach number.
+          wrongAnswers:
+            - text: A better maximum range.
+            - text: A better long range.
+            - text: A lower cruise Mach number.
+- id: QQPUI
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222558
+    - AVEXAM-42946
+    - BGS-220624
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.02.02.05
+  templates:
+    - type: simple
+      question: "Concerning the FMS, the cost index is computed by dividing:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: aircraft operating cost by fuel cost.
+          wrongAnswers:
+            - text: fuel cost by aircraft operating cost.
+            - text: aircraft cruise speed by fuel cost.
+            - text: fuel cost by aircraft cruise speed.
+- id: QMAQT
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227627
+    - BGS-221576
+    - AVEXAM-79080
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.03.01.01
+  templates:
+    - type: simple
+      question: What does the FMS compute during normal LNAV mode?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The great circle track between two or more waypoints, based on IRS, VOR, DME and GNSS information.
+          wrongAnswers:
+            - text: The optimum vertical flight profile, taking into account efficient fuel consumption based on the cost index.
+            - text: The altitude restrictions of the airspace above, and the minimum crossing altitude of a waypoint.
+            - text: The lateral flight path with regard to the theoretical performance of the aircraft from the performance database.
+- id: QPHDR
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223913
+    - AVEXAM-8422
+    - AVEXAM-58986
+    - BGS-220641
+    - AVEXAM-38575
+    - AVEXAM-63666
+    - BGS-220642
+    - AVEXAM-74363
+    - AVEXAM-22263
+    - ATPLQ-224413
+    - AVEXAM-96591
+    - ATPLQ-226169
+    - BGS-220640
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.03.01.01
+  templates:
+    - type: multiple-correct
+      question: "The FMS FLIGHT PLAN or LEG page displays the following parameters relative to the flight plan legs or waypoints:"
+      explanation: ""
+      options:
+        - text: – track
+          correct: true
+        - text: – magnetic variation
+          correct: false
+        - text: – waypoint elevation
+          correct: false
+        - text: – speed.
+          correct: true
+        - text: – distance
+          correct: true
+        - text: – altitude constraint or prediction
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+    - type: simple
+      question: |-
+        The FMS FLIGHT PLAN or LEG page displays the following parameters relative to the flight plan legs or waypoints:
+
+        1 – aircraft position (Long / Lat) 
+         
+        2 – speed 
+         
+        3 – distance 
+         
+        4 – track
+
+        The combination that regroups all of the correct statements is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2, 3, 4.
+          wrongAnswers:
+            - text: 1, 2, 3, 4.
+            - text: 1, 2.
+            - text: 1, 3, 4.
+- id: QFSCM
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224218
+    - BGS-220625
+    - AVEXAM-79162
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.03.01.02
+  templates:
+    - type: multiple-correct
+      question: "Concerning the FMS, the parameters used to work out the vertical flight profile are:"
+      explanation: ""
+      options:
+        - text: – zero fuel weight
+          correct: true
+        - text: – cost index
+          correct: true
+        - text: – fuel quantity
+          correct: true
+        - text: – oxygen quantity available for flight crew
+          correct: false
+        - text: – minimum safe enroute altitude
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QGKFT
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221000
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.03.01.03
+  templates:
+    - type: simple
+      question: While programming the FMS, the flight crew enters the wrong cruising level. What are the possible consequences?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The FMS predictions will give bad results to the flight crew.
+          wrongAnswers:
+            - text: It is not possible to enter a new cruising flight level once in flight.
+            - text: The FMS will show a "DATA ERROR" message.
+            - text: Speed, fuel burn, and time will not be updated.
+- id: QRUEH
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228022
+    - AVEXAM-29624
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.03.01.03
+  templates:
+    - type: simple
+      question: What information must the pilots input/check with regards to the FMS before take-off?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Input data from the load sheet.
+          wrongAnswers:
+            - text: Destination weather input.
+            - text: Ensure the performance database is up to date.
+            - text: Input the alternate airport routing.
+- id: QIRCH
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225682
+    - AVEXAM-36481
+    - AVEXAM-40430
+    - BGS-222104
+    - BGS-222102
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.03.01.04
+  templates:
+    - type: multiple-correct
+      question: "For most FMS the fuel prediction function, which computes the remaining fuel along the flight plan, takes into account the following parameters:"
+      explanation: ""
+      options:
+        - text: – the additional drag in case the landing gear can not be retracted
+          correct: false
+        - text: – the cruise flight level
+          correct: true
+        - text: – the additional drag in case the flaps are blocked and partly extended
+          correct: false
+        - text: – the current wind computed or the resulting ground speed
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QVEEO
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222656
+    - BGS-220628
+    - BGS-220629
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.03.01.04
+  templates:
+    - type: multiple-correct
+      question: "For most FMS the fuel prediction function, which computes the remaining fuel along the flight plan, takes into account the following situations:"
+      explanation: ""
+      options:
+        - text: the gross weight of the aircraft
+          correct: true
+        - text: the current wind computed or the resulting ground speed
+          correct: true
+        - text: the additional drag in case the landing gear remains extended
+          correct: false
+        - text: the additional drag resulting in a missing fuselage or wing element in compliance with the CDL (Configuration Deviation List)
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QRCEI
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222879
+    - AVEXAM-81625
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.03.01.05
+  templates:
+    - type: simple
+      question: An MEL item is found before start-up. Due to possible performance changes, the flight crew wants to correctly consider this when on the FMS “INIT” page. How can they do this?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The FMS doesn’t take into account the MEL items.
+          wrongAnswers:
+            - text: FMS only accounts for fuel related items.
+            - text: They can insert the MEL item and the FMS will automatically account for it.
+            - text: They can only choose the aircraft type and model.
+- id: QQKKX
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227622
+    - AVEXAM-8891
+    - BGS-221657
+    - BGS-221844
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.03.01.06
+  templates:
+    - type: simple
+      question: Some Flight Management Systems have dedicated navigation receivers (for example, DME) allowing for the automatic tune function. The main advantage of the automatic tuning is that...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: it provides the best available signals for position calculation.
+          wrongAnswers:
+            - text: tuning occurs much quicker than with manual selection.
+            - text: tuning is also possible outside the Designated Operational Coverage (DOC).
+            - text: the calculated position is more correct than with manual selection.
+- id: QQNUI
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229714
+    - BGS-222298
+    - AVEXAM-90783
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.03.01.07
+  templates:
+    - type: simple
+      question: In flight, which navigation receivers are typically used for flight management position updating?
+      explanation: "The FMS updates its position in flight with the radio and satellite receivers: DME, VOR, localiser and GPS. The INS is already an on-board source and is not an updating radio source."
+      presets:
+        - correctAnswers:
+            - text: DME, VOR, LOC, and GPS receivers.
+          wrongAnswers:
+            - text: DME, VOR, LOC, and LORAN receivers.
+            - text: DME, VOR, LOC, and INS receivers.
+            - text: DME, NDB, and GPS receivers.
+- id: QDLOO
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228704
+    - AVEXAM-29409
+    - AVEXAM-44276
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.03.01.07
+  templates:
+    - type: simple
+      question: |-
+        From the following list select 5 typical position inputs to an FMS?
+
+        1. GPS 
+         
+        2. IRS 
+         
+        3. ILS 
+         
+        4. NDB 
+         
+        5. VOR 
+         
+        6. DME 
+         
+        7. GS 
+         
+        8. LOC
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, 5, 6 and 8
+          wrongAnswers:
+            - text: 1, 2, 3, 4 and 5
+            - text: 1, 2, 4, 5 and 6
+            - text: 1, 5, 6, 7 and 8
+    - type: simple
+      question: |-
+        Which of the following are 5 typical position inputs to an FMS?
+
+         GPS 
+         IRS 
+         ILS
+         NDB
+         VOR
+         DME
+         GS
+         LOC
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, 5, 6, 8
+          wrongAnswers:
+            - text: 1, 5, 6, 7, 8
+            - text: 1, 2, 3, 4, 5
+            - text: 1, 2, 4, 5, 6
+    - type: simple
+      question: "Typical position inputs to an FMS are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: GPS, IRS, VOR, DME, LOC
+          wrongAnswers:
+            - text: GPS, IRS, VOR, DME, NDB, LOC
+            - text: IRS, VOR, NDB, ADF, LOC
+            - text: GPS, IRS, VOR, NDB, ADF
+- id: QJAUX
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229856
+    - AVEXAM-51310
+    - BGS-221668
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.03.01.08
+  templates:
+    - type: simple
+      question: FMS calculations are based on…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the FMS position
+          wrongAnswers:
+            - text: VOR/DME data
+            - text: a GNSS position
+            - text: the IRS/INS position
+- id: QWNNR
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621781
+    - AVEXAM-43059
+    - BGS-620478
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.03.01.08
+  templates:
+    - type: simple
+      question: The Flight Management Computer (FMC) position is..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the computed position based on a number of sources, e.g. IRS, VOR/DME, ILS and GPS.
+          wrongAnswers:
+            - text: the same as that given on the No. 1 IRS.
+            - text: the actual position of the aircraft at any point in time.
+            - text: independent of other navigation sources.
+- id: QVPPM
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226522
+    - BGS-221919
+    - BGS-221499
+    - ATPLQ-228723
+    - BGS-221878
+    - AVEXAM-6667
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.03.01.09
+  templates:
+    - type: simple
+      question: All GPS signal inputs to the FMS are lost. What is one implication of this?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The integrity monitoring (RAIM) for RNP approaches will be lost.
+          wrongAnswers:
+            - text: The system will be unable to navigate directly by using great circles.
+            - text: The IRS position will be slower to update.
+            - text: The displayed position will be offset.
+    - type: simple
+      question: What can be expected when there's a complete loss of GPS signal?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Loss of integrity monitoring (RAIM) and RNP APCH capability.
+          wrongAnswers:
+            - text: Calculated position deviation.
+            - text: Position uncertainty due to ND units shutdown.
+            - text: Loss of radio navigation signals.
+- id: QZMFQ
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229066
+    - BGS-221863
+    - AVEXAM-43800
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.03.01.10
+  templates:
+    - type: simple
+      question: "The pilot wants to use the FMS to fly an RNAV approach, but gets the message: ‘NO RAIM’. The pilot also detects that the ground course and ground speed data reported by the IRS are invalid. The pilot…"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: must fly the approach using raw data from ground-based navigation aids (e.g, ILS).
+          wrongAnswers:
+            - text: can still use the FMS to fly the RNAV approach, RAIM is only applicable to GPS approaches and ground track and speed information is NOT needed for an RNAV approach.
+            - text: can still use the FMS to fly the RNAV approach, RAIM is only applicable to GPS approaches.
+            - text: must use the ground speed information from the GPS and calculate the approach path by means of performance tables in the Flight Manual.
+- id: QVTHK
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223679
+    - BGS-221771
+    - BGS-221917
+    - ATPLQ-624714
+    - AVEXAM-36241
+    - BGS-620490
+    - BGS-222616
+    - ATPLQ-224714
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.04.01.01
+  templates:
+    - type: simple
+      question: What is one of the main purposes of a CDU?
+      explanation: The CDU or MCDU is the crew interface to the FMS, used mainly to enter data and to display information. It does not tune radios automatically or control the electrical system.
+      presets:
+        - correctAnswers:
+            - text: To input data into the FMS.
+          wrongAnswers:
+            - text: To automatically tune the aircraft radio(s).
+            - text: To control the electrical system of an aircraft.
+            - text: To monitor the engine(s) of an aircraft.
+    - type: simple
+      question: "The Control and Display Unit (CDU) on an FMS is:"
+      explanation: The CDU is the interface through which the crew enter data in the flight management computer and read its output. The navigation database is updated by maintenance personnel, not through the CDU.
+      presets:
+        - correctAnswers:
+            - text: used by the crew to input data into FMC.
+          wrongAnswers:
+            - text: used on ground only to monitor the maintenance procedure.
+            - text: the system used to update the navigation database.
+            - text: the Autopilot control panel.
+- id: QJHGF
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228341
+    - AVEXAM-9959
+    - BGS-221713
+    - BGS-222684
+    - BGS-221469
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.04.01.01
+  templates:
+    - type: simple
+      question: "The purpose of a CDU/MCDU is:"
+      explanation: "The CDU or MCDU is the interface between the crew and the FMS: it displays information held or computed by the FMS, and accepts new or updated data. It does not control the APU or inertial alignment."
+      presets:
+        - correctAnswers:
+            - text: To extract information stored in or processed by the FMS and load new or updated information into the FMS.
+          wrongAnswers:
+            - text: To engage or disengage the aircraft APU and monitor its status.
+            - text: To engage the alignment procedure for the INS/IRS and to switch between NAV mode and ATT mode.
+            - text: To engage or disengage the autopilot, set different modes, and choose between armed modes and engaged modes.
+- id: QODVC
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221687
+    - BGS-222099
+    - BGS-221405
+    - AVEXAM-23635
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.04.01.02
+  templates:
+    - type: simple
+      question: The display of the FMS CDU (Control Display Unit) shows
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a title, a number of selectable lines, and a scratchpad.
+          wrongAnswers:
+            - text: an alphabetical performance and navigation database.
+            - text: a combined weather radar, collision avoidance, and terrain indicator.
+            - text: an integrated DME and Horizontal Situation Indicator.
+- id: QGADA
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225034
+    - BGS-221466
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.04.01.03
+  templates:
+    - type: simple
+      question: When the pilot uses the alphanumeric keyboard on a MCDU/CDU, each character appears in the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: scratchpad.
+          wrongAnswers:
+            - text: line selected.
+            - text: title field.
+            - text: ACARS menu.
+- id: QRPDT
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226091
+    - AVEXAM-55621
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.04.01.03
+  templates:
+    - type: simple
+      question: How is the data inserted in the MCDU displayed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It will be displayed as white text in the scratchpad.
+          wrongAnswers:
+            - text: It will be shown as a green text on the Navigation Display (ND).
+            - text: It will be shown as a white text on the Primary Flight Display (PFD).
+            - text: It will be shown as a magenta line.
+- id: QXTZH
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223947
+    - AVEXAM-53988
+    - BGS-221613
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.04.01.04
+  templates:
+    - type: simple
+      question: "In order for the FMS to function properly, it is compulsory for certain data to be entered. How is the compulsory data identified on the display of the CDU/MCDU? By using:"
+      explanation: On the CDU or MCDU, compulsory data fields are shown by rectangular boxes, which must be filled. Optional data is shown by dashes.
+      presets:
+        - correctAnswers:
+            - text: Rectangular boxes.
+          wrongAnswers:
+            - text: Shaded white characters.
+            - text: Dashed lines.
+            - text: Magenta characters.
+- id: QEITE
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228476
+    - AVEXAM-71861
+    - BGS-221857
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.04.01.05
+  templates:
+    - type: simple
+      question: During a ground stop the Commander notices that the FMS position is NOT in agreement with the actual aircraft position. What is the correct procedure to rectify this error? The Commander needs to…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: use the CDU to enter the correct position into the system.
+          wrongAnswers:
+            - text: activate the GNSS to allow the position to be automatically corrected
+            - text: contact maintenance personnel to recalibrate the system.
+            - text: note the difference and manually correct calculations for the rest of the flight.
+- id: QRHAE
+  subjectId: "022"
+  chapterId: "022.11"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224118
+    - AVEXAM-80162
+    - BGS-221606
+  annexes: []
+  learningObjectiveIds:
+    - 022.11.04.01.05
+  templates:
+    - type: simple
+      question: |-
+        A typical FMS pre-flight set-up includes all of the elements below. Place them in the correct sequence:
+
+        1\. Position Initialisation   
+         2\. Route Programming   
+         3\. Route Initialisation   
+         4\. Performance Initialisation   
+         5\. Ident
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 5, 1, 3, 2, 4
+          wrongAnswers:
+            - text: 4, 3, 5, 1, 2
+            - text: 1, 2, 3, 4, 5
+            - text: 3, 5, 2, 1, 4

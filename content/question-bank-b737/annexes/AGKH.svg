@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="908" height="1069" viewBox="0 164 908 1069" role="img" aria-labelledby="title desc" xml:lang="en-GB">
+<title id="title">737-800 Air Conditioning Distribution Schematic (overhead panel omitted)</title>
+<desc id="desc">Packs on in flight. Shows the mix manifold, recirculation fans, trim air valves, and the conditioned air supplies to the three cabin zones.</desc>
+<metadata>Boeing 737-800 FCOM Rev 40, 2.31.9. Redrawn as SVG.</metadata>
+<defs>
+  <marker id="arrow" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="13" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto">
+    <path d="M0 0 12 5 0 10Z" fill="#ededed"/>
+  </marker>
+  <g id="check">
+    <rect x="-21" y="-12" width="42" height="24" rx="1.5" fill="#ededed" stroke="#111" stroke-width="2"/>
+    <path d="M-15-4H4v-6L17 0 4 10V4h-19Z" fill="#111"/>
+  </g>
+  <g id="trim-air-valve">
+    <circle r="17" fill="#ededed" stroke="#111" stroke-width="1.5"/>
+    <path d="M-16.5-1.5H-2q1.4 0 2 1.5t2 1.5h14.5" fill="none" stroke="#111" stroke-width="4.6"/>
+  </g>
+</defs>
+<style>
+  svg {background:#080808;color:#ededed}
+  text {font-family:Menlo,Consolas,"Liberation Mono",monospace}
+  .wire,.signal {fill:none;stroke:#ededed;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round}
+  .signal {stroke-dasharray:19 10 3 10}
+  .arr {marker-end:url(#arrow)}
+  .duct-edge,.duct {fill:none;stroke-linecap:butt;stroke-linejoin:round}
+  .duct-edge {stroke:#ededed;stroke-width:15}
+  .duct {stroke:#c41c1c;stroke-width:12}
+  .component {fill:#080808;stroke:#ededed;stroke-width:2.1}
+</style>
+<rect x="0" y="0" width="908" height="1233" fill="#080808"/>
+<g fill="#ededed">
+<path d="M108 342q13-11 30-19 21-17 71-20l385-7 72-30 79-86 11-9h27l-30 126 38-1-26 20q-12 30-92 46l-165 16H161q-33 0-53-17-9-8 0-19Z" fill="#c5c5c5" stroke="#595959" stroke-width="2"/>
+<path d="M209 305v73m0-35h450m-7-47q14 33 4 67M507 343v35m-78-35v35m-103-35v35m-76-73v10h340v-20M760 172l-56 129m39-2-61 15q40 11 81-5" fill="none" stroke="#555" stroke-width="2"/>
+<path d="M117 345v8h70v-28h-15v5h12v8h-10v7h-9v-7h-6v7h-7v-7h-6v7h-24v-4" fill="none" stroke="#161616" stroke-width="2.5"/>
+<path class="wire" d="M233 379v135m15-135v135m38-135v135m15-135v135"/>
+<path class="wire" d="M233 549v161l101 42m-86-203v150l95 40m-57-190v112l64 66m-49-178v105l59 61"/>
+<path class="wire" d="M137 571h513v27"/>
+<path class="wire" d="M746 573h-16v-78h-22"/>
+<path class="wire" d="M857 630h15V424H586v28"/>
+<path class="signal" d="M27 630H14V425h555v27"/>
+<path class="wire arr" d="M569 438v16"/>
+<path class="wire arr" d="M586 438v16"/>
+<path class="wire arr" d="M608 485v34"/>
+<path class="wire arr" d="M650 572v26"/>
+<path d="M236 1107v-168M236 1072h469V476H160M705 543H352M705 621H507M577 1022v-83m0 49h128" fill="none" stroke="#ededed" stroke-width="16" stroke-linejoin="round"/>
+<path d="M236 1107v-168M236 1072h469V476H160M705 543H352M705 621H507M577 1022v-83m0 49h128" fill="none" stroke="#c41c1c" stroke-width="13" stroke-linejoin="round"/>
+<path d="M334 774H160V356M236 774v105M375 707l-23-69V316M455 722l52-48V316M486 774h91v105" fill="none" stroke="#ededed" stroke-width="16" stroke-linejoin="round"/>
+<path d="M334 774H160V356M236 774v105M375 707l-23-69V316M455 722l52-48V316M486 774h91v105" fill="none" stroke="#0b6bcb" stroke-width="13" stroke-linejoin="round"/>
+<path d="M334 774H160V356M236 774v105M375 707l-23-69V316M455 722l52-48V316M486 774h91v105" fill="none" stroke="#ededed" stroke-width="6" stroke-dasharray="0 26" stroke-linecap="round"/>
+<use href="#trim-air-valve" transform="translate(577 476)"/>
+<use href="#trim-air-valve" transform="translate(608 543)"/>
+<use href="#trim-air-valve" transform="translate(650 621)"/>
+<use href="#trim-air-valve" transform="translate(705 834)"/>
+<use href="#check" transform="translate(641 988) scale(0.95)"/>
+<use href="#check" transform="translate(641 1072) scale(0.95)"/>
+<use href="#check" transform="translate(245 618) rotate(90) scale(0.95)"/>
+<use href="#check" transform="translate(294 618) rotate(90) scale(0.95)"/>
+<use href="#check" transform="translate(409 882) rotate(-90) scale(0.95)"/>
+<rect class="component" x="139" y="394" width="14" height="20"/>
+<path class="wire" d="M153 404h10"/>
+<rect class="component" x="323" y="394" width="14" height="20"/>
+<path class="wire" d="M337 404h10"/>
+<rect class="component" x="517" y="394" width="14" height="20"/>
+<path class="wire" d="M531 404h10"/>
+<rect x="223" y="514" width="36" height="36" fill="#ededed"/>
+<circle cx="241" cy="532" r="2.7" fill="#111"/>
+<path d="M241 532q-29-6-13-17 9-1 13 17 16-25 16-7-2 7-16 7 25 18 8 16-8-1-8-16-17 25-18 13 1-8 18-13" fill="none" stroke="#111" stroke-width="2"/>
+<rect x="275" y="514" width="36" height="36" fill="#ededed"/>
+<circle cx="293" cy="532" r="2.7" fill="#111"/>
+<path d="M293 532q-29-6-13-17 9-1 13 17 16-25 16-7-2 7-16 7 25 18 8 16-8-1-8-16-17 25-18 13 1-8 18-13" fill="none" stroke="#111" stroke-width="2"/>
+<circle class="component" cx="409" cy="774" r="76"/>
+<text x="409" y="768" font-size="17" text-anchor="middle"><tspan x="409" dy="0">MIX</tspan><tspan x="409" dy="21">MANIFOLD</tspan></text>
+<path class="wire" d="M403 850v10m12-10v10m-12 45v30m12-30v30"/>
+<text x="379" y="951" font-size="15" text-anchor="start"><tspan x="379" dy="0">GROUND</tspan><tspan x="379" dy="18">PRECONDITIONED</tspan><tspan x="379" dy="18">AIR</tspan></text>
+<text x="172" y="504" font-size="14" text-anchor="start"><tspan x="172" dy="0">RECIRC</tspan><tspan x="172" dy="17">FANS</tspan></text>
+<text x="531" y="655" font-size="15" text-anchor="start"><tspan x="531" dy="0">TRIM AIR</tspan><tspan x="531" dy="17">MODULATING</tspan><tspan x="531" dy="17">VALVES</tspan></text>
+<text x="733" y="861" font-size="14" text-anchor="start"><tspan x="733" dy="0">TRIM AIR</tspan><tspan x="733" dy="17">PRESSURE</tspan><tspan x="733" dy="17">REGULATOR</tspan><tspan x="733" dy="17">AND</tspan><tspan x="733" dy="17">SHUTOFF</tspan><tspan x="733" dy="17">VALVE</tspan></text>
+<rect x="209" y="880" width="55" height="59" fill="#ededed" stroke="#555" stroke-width="1.5"/>
+<text x="236.5" y="905.675" font-size="15" text-anchor="middle" fill="#111"><tspan x="236.5" dy="0">LEFT</tspan><tspan x="236.5" dy="17.25">PACK</tspan></text>
+<rect x="550" y="880" width="55" height="59" fill="#ededed" stroke="#555" stroke-width="1.5"/>
+<text x="577.5" y="905.675" font-size="15" text-anchor="middle" fill="#111"><tspan x="577.5" dy="0">RIGHT</tspan><tspan x="577.5" dy="17.25">PACK</tspan></text>
+<rect class="component" x="27" y="491" width="110" height="172"/>
+<text x="82" y="507" font-size="13" text-anchor="middle"><tspan x="82" dy="0">L</tspan><tspan x="82" dy="16">ELECTRONIC</tspan><tspan x="82" dy="16">CONTROLLER</tspan><tspan x="82" dy="16">AFT CAB</tspan><tspan x="82" dy="16">ZONE TEMP</tspan><tspan x="82" dy="16">CONTROL</tspan><tspan x="82" dy="16">BACK-UP</tspan><tspan x="82" dy="16">FLIGHT DECK</tspan><tspan x="82" dy="16">ZONE TEMP</tspan><tspan x="82" dy="16">CONTROL</tspan></text>
+<path class="wire" d="M27 543h110"/>
+<path class="wire" d="M27 591h110"/>
+<rect class="component" x="747" y="491" width="110" height="172"/>
+<text x="802" y="507" font-size="13" text-anchor="middle"><tspan x="802" dy="0">R</tspan><tspan x="802" dy="16">ELECTRONIC</tspan><tspan x="802" dy="16">CONTROLLER</tspan><tspan x="802" dy="16">FWD CAB</tspan><tspan x="802" dy="16">ZONE TEMP</tspan><tspan x="802" dy="16">CONTROL</tspan><tspan x="802" dy="16">PRIMARY</tspan><tspan x="802" dy="16">FLIGHT DECK</tspan><tspan x="802" dy="16">ZONE TEMP</tspan><tspan x="802" dy="16">CONTROL</tspan></text>
+<path class="wire" d="M747 543h110"/>
+<path class="wire" d="M747 591h110"/>
+<path d="M18 1153H105" fill="none" stroke="#ededed" stroke-width="15" stroke-linejoin="round"/>
+<path d="M18 1153H105" fill="none" stroke="#0b6bcb" stroke-width="12" stroke-linejoin="round"/>
+<path d="M18 1153H105" fill="none" stroke="#ededed" stroke-width="6" stroke-dasharray="0 26" stroke-linecap="round"/>
+<path d="M18 1189H105" fill="none" stroke="#ededed" stroke-width="15" stroke-linejoin="round"/>
+<path d="M18 1189H105" fill="none" stroke="#c41c1c" stroke-width="12" stroke-linejoin="round"/>
+<text x="119" y="1159" font-size="18" text-anchor="start">CONDITIONED AIR</text>
+<text x="119" y="1195" font-size="18" text-anchor="start">BLEED AIR</text>
+<text x="887" y="1177" font-size="17" text-anchor="end"><tspan x="887" dy="0">CONDITION: IN FLIGHT</tspan><tspan x="887" dy="22">PACKS ON</tspan></text>
+</g>
+</svg>

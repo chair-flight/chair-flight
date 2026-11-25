@@ -1,0 +1,869 @@
+- id: QYYKO
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107143
+    - AVEXAM-49024
+    - BGS-101921
+    - BGS-100745
+    - AVEXAM-50942
+    - ATPLQ-109684
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.01.01.01
+  templates:
+    - type: simple
+      question: What is the objective of the Aeronautical Information Service (AIS)? To provide...
+      explanation: The aim of the aeronautical information service is to ensure the flow of the aeronautical data and information needed for the safety, regularity and efficiency of air navigation. It gives no ATC service and no performance data.
+      presets:
+        - correctAnswers:
+            - text: aeronautical data and information.
+          wrongAnswers:
+            - text: an Air Traffic Control Service.
+            - text: data on aircraft performance and limitations.
+            - text: radio navigation aids.
+- id: QLUHN
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101234
+    - AVEXAM-54970
+    - BGS-101376
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.02.01.01
+  templates:
+    - type: simple
+      question: An AIP amendment is..
+      explanation: An AIP amendment is the publication of permanent changes to the AIP. Temporary changes are published as AIP supplements, and short-term information as NOTAM.
+      presets:
+        - correctAnswers:
+            - text: the publication of permanent changes to the information contained in the AIP.
+          wrongAnswers:
+            - text: the publication of temporary changes to the AIP by means of special pages.
+            - text: a notice containing information that does NOT qualify for the origination of a NOTAM.
+            - text: a notice of the change in any aeronautical service, the timely knowledge of which is essential to crew.
+- id: QRVOR
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109448
+    - AVEXAM-49530
+    - BGS-101743
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.03.01.01
+  templates:
+    - type: simple
+      question: What is the minimum time period for which a State's Aeronautical Information Service must be available for any given flight operating in its area of responsibility?
+      explanation: |-
+        ### ICAO Annex 15, 2.2.3
+
+        > Where 24-hour service is not provided, service shall be available during the **whole period an aircraft is in flight** in the area of responsibility of the AIS, **plus a period of at least two hours before and after** such a period. […]
+      presets:
+        - correctAnswers:
+            - text: During the period the aircraft is in flight plus 2 hours before and after.
+          wrongAnswers:
+            - text: Daily on a 24-hour service.
+            - text: At the times requested by the aircraft operator, in accordance with their schedules.
+            - text: Daily from 04:00 to 24:00 Local Time.
+- id: QLYDU
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109802
+    - AVEXAM-31256
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.03.01.03
+  templates:
+    - type: simple
+      question: "Each contracting state shall provide an Aeronautical Information Service (AIS) in its territory and for areas in which the state is responsible for the Air Traffic Services outside its territory, and this shall include the preparation and origination of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Integrated Aeronautical Information Package.
+          wrongAnswers:
+            - text: AIP, NOTAMs, Circular and AIRAC.
+            - text: Only NOTAMs and Circulars.
+            - text: Only AIP and NOTAMs.
+- id: QFTOR
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107376
+    - AVEXAM-38816
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.01.02
+  templates:
+    - type: simple
+      question: An aircraft is flying over an unfamiliar aerodrome. The pilot has been informed about the local procedures that apply. Should the pilot comply with them?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes, the pilot can find them in the Aeronautical Information Publications.
+          wrongAnswers:
+            - text: No, it is not necessary.
+            - text: Yes, the pilot can find them in the Aeronautical Information Circular.
+            - text: No, the pilot should follow ICAO procedures.
+    - type: simple
+      question: Must an aircraft's pilot adhere to local aerodrome procedures after being informed of them?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes, the pilot can find them in the Aeronautical Information Publications.
+          wrongAnswers:
+            - text: Yes, the pilot can find them in the Aeronautical Information Circular.
+            - text: No, it is not necessary.
+            - text: No, the pilot should follow ICAO procedures.
+- id: QXUZU
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105385
+    - AVEXAM-60379
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.01.02
+  templates:
+    - type: simple
+      question: What are the contents of Aeronautical Information Publication (AIP)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: GEN (General), ENR (En-route) and AD (Aerodrome).
+          wrongAnswers:
+            - text: GEN, AGA, COM, RAC, FAL, SAR, MET, MAP.
+            - text: GEN, ENR, RAC, AD.
+            - text: GEN (General) and ENR (En-route).
+- id: QIHST
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335579
+    - AVEXAM-93014
+    - BGS-330335
+    - BGS-330976
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.01.03
+  templates:
+    - type: simple
+      question: From which of the following would you expect to find facilitation information regarding customs and health formalities?
+      explanation: Facilitation information on customs, immigration and health formalities is in the AIP, in its general part (GEN). NOTAM and navigation charts do not carry it.
+      presets:
+        - correctAnswers:
+            - text: AIP
+          wrongAnswers:
+            - text: NOTAM
+            - text: NAV/RAD charts
+            - text: ATCC
+- id: QTANM
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107111
+    - BGS-101731
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.01.04
+  templates:
+    - type: simple
+      question: An update in the geographical coordinates of an aerodrome has been made in the AIP. In accordance with ICAO Annex 15, this permanent change should be published as...
+      explanation: |-
+        ### ICAO Annex 15, 6.3.1
+
+        > Permanent changes to the AIP shall be published as **AIP Amendments**.
+
+        > Temporary changes of long duration (**three months or longer**) and information of short duration which contains **extensive text and/or graphics** shall be published as **AIP Supplements**.
+      presets:
+        - correctAnswers:
+            - text: an AIP Amendment and be made available by the most expeditious means.
+          wrongAnswers:
+            - text: an AIP Supplement and be made available when possible.
+            - text: an AIP Supplement and be made available by the most expeditious means.
+            - text: a NOTAM and be made available when possible.
+- id: QNFMH
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103253
+    - AVEXAM-78405
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.01.05
+  templates:
+    - type: simple
+      question: An AIP Supplement is publushed when a change is...
+      explanation: |-
+        ### ICAO Annex 15, 6.3.1
+
+        > Permanent changes to the AIP shall be published as **AIP Amendments**.
+
+        > Temporary changes of long duration (**three months or longer**) and information of short duration which contains **extensive text and/or graphics** shall be published as **AIP Supplements**.
+      presets:
+        - correctAnswers:
+            - text: temporary.
+          wrongAnswers:
+            - text: permanent.
+            - text: valid for 24 hours.
+            - text: valid for 48 hours.
+- id: QBHDF
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105395
+    - AVEXAM-63480
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.01.05
+  templates:
+    - type: simple
+      question: It is the 30th of September 2016. A group of 6 cranes is erected in the vicinity of the aerodrome until the 31st of December 2016. There is also another crane in the vicinity of the airport of Norwich until the 31st of December 2018 and another one in London. How will this information be distributed among pilots?
+      explanation: |-
+        ### ICAO Annex 15, 6.3.1
+
+        > Permanent changes to the AIP shall be published as **AIP Amendments**.
+
+        > Temporary changes of long duration (**three months or longer**) and information of short duration which contains **extensive text and/or graphics** shall be published as **AIP Supplements**.
+      presets:
+        - correctAnswers:
+            - text: AIP supplement
+          wrongAnswers:
+            - text: NOTAM
+            - text: Trigger NOTAM
+            - text: AIP Amendment
+- id: QVQIG
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104433
+    - AVEXAM-98
+    - BGS-100384
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.01.05
+  templates:
+    - type: simple
+      question: Temporary, long-term modifications (3 months or more) and short-term extensive or graphical information are published as..
+      explanation: |-
+        ### ICAO Annex 15, 6.3.1
+
+        > Permanent changes to the AIP shall be published as **AIP Amendments**.
+
+        > Temporary changes of long duration (**three months or longer**) and information of short duration which contains **extensive text and/or graphics** shall be published as **AIP Supplements**.
+      presets:
+        - correctAnswers:
+            - text: AIP supplements.
+          wrongAnswers:
+            - text: Trigger NOTAM.
+            - text: NOTAM.
+            - text: AIP amendments.
+- id: QBBTT
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107658
+    - AVEXAM-87927
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.02.02
+  templates:
+    - type: multiple-correct
+      question: What may trigger a NOTAM to be emitted ?
+      explanation: ""
+      options:
+        - text: Long duration work on the aerodrome
+          correct: true
+        - text: Work or repair on the fuel feeding area
+          correct: true
+        - text: High safety level that increases the time at the security checks
+          correct: false
+        - text: Strong solar radiations
+          correct: true
+        - text: Epidemic outbreak that requires passengers to receive a new vaccine
+          correct: true
+        - text: Withdrawal, change or new lights on the aerodrome
+          correct: false
+        - text: Work on the manoeuvring area that does not impede the aircraft movements
+          correct: false
+        - text: Changes in aerodrome designation signs
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 3
+            - 4
+            - 5
+            - 6
+        - show:
+            - 4
+            - 5
+            - 6
+            - 7
+        - show:
+            - 0
+            - 5
+            - 6
+            - 7
+        - show:
+            - 0
+            - 1
+            - 6
+            - 7
+        - show:
+            - 0
+            - 1
+            - 2
+            - 7
+- id: QGTDU
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109423
+    - AVEXAM-96257
+    - BGS-101689
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.02.02
+  templates:
+    - type: multiple-correct
+      question: Which of the following would lead to the issue of a NOTAM?
+      explanation: ""
+      options:
+        - text: Establishment, closure or significant changes In operation of aerodrome(s)/heliport(s) or runways.
+          correct: true
+        - text: Routine maintenance work on aprons and taxiways which does not affect the safe movement of aircraft
+          correct: false
+        - text: Establishment, withdrawal or significant changes made to visual aids.
+          correct: true
+        - text: interruption of or return to operation of major components of aerodrome lighting systems.
+          correct: true
+        - text: Observations or forecasts of space weather phenomena.
+          correct: true
+        - text: Outbreaks of epidemics necessitating changes In notified requirements for inoculations and quarantine measures.
+          correct: true
+        - text: The unserviceability of location, destination or other Instruction signs on the aerodrome movement area.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 3
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 1
+            - 5
+            - 6
+        - show:
+            - 0
+            - 1
+            - 2
+            - 6
+- id: QNNXY
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds:
+    - QXPVO
+  externalQuestionIds:
+    - ATPLQ-102705
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.02.03
+  templates:
+    - type: simple
+      question: NOTAMs are published...
+      explanation: |-
+        ### ICAO Annex 15, 5.4.2
+
+        > NOTAM shall be distributed **on the basis of a request**.
+      presets:
+        - correctAnswers:
+            - text: at an interval of no more than one month.
+          wrongAnswers:
+            - text: only to ATC.
+            - text: only to pilots.
+            - text: to pilots and air traffic controllers only.
+- id: QRLTY
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108143
+    - BGS-101763
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.02.03
+  templates:
+    - type: simple
+      question: In accordance with ICAO Annex 15, NOTAM distribution should be done...
+      explanation: |-
+        ### ICAO Annex 15, 5.4.2.1
+
+        > NOTAM shall be distributed **on the basis of a request**.
+      presets:
+        - correctAnswers:
+            - text: on the basis of a request.
+          wrongAnswers:
+            - text: automatically, by the Internet.
+            - text: to flight crews and air traffic controllers only.
+            - text: to flight crews at intervals of NOT more than one month.
+- id: QXPVO
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds:
+    - QNNXY
+  externalQuestionIds:
+    - ATPLQ-107716
+    - AVEXAM-61290
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.02.03
+    - 010.08.04.02.05
+  templates:
+    - type: simple
+      question: In which language shall NOTAMs be published?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: English only.
+          wrongAnswers:
+            - text: French only.
+            - text: English and national language.
+            - text: National language only.
+- id: QLENY
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105943
+    - AVEXAM-91951
+    - ATPLQ-106377
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.02.04
+  templates:
+    - type: simple
+      question: "Information concerning snow, ice and standing water associated with snow on aerodrome pavement areas is to be reported by:"
+      explanation: |-
+        ### ICAO Annex 15, Definitions
+
+        > SNOWTAM. A special series NOTAM given in a standard format providing a surface condition report notifying the presence or cessation of hazardous conditions due to **snow, ice, slush, frost, standing water or water associated with snow, slush, ice or frost** on the movement area.
+      presets:
+        - correctAnswers:
+            - text: SNOWTAM
+          wrongAnswers:
+            - text: NOTAM Class I
+            - text: ASHTAM
+            - text: ICETAM
+    - type: simple
+      question: Information regarding snow, ice, slush, and standing water on the aerodrome/heliport pavement is reported by..
+      explanation: |-
+        ### ICAO Annex 15, Definitions
+
+        > SNOWTAM. A special series NOTAM given in a standard format providing a surface condition report notifying the presence or cessation of hazardous conditions due to **snow, ice, slush, frost, standing water or water associated with snow, slush, ice or frost** on the movement area.
+      presets:
+        - correctAnswers:
+            - text: a SNOWTAM.
+          wrongAnswers:
+            - text: a METAR report.
+            - text: a series A NOTAM.
+            - text: an ASHTAM.
+- id: QIOYD
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103454
+    - BGS-101415
+    - AVEXAM-55786
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.02.05
+  templates:
+    - type: simple
+      question: According to ICAO Annex 15, Doc 10066, a NOTAM which is internationally distributed shall be issued in…
+      explanation: |-
+        ### ICAO Annex 15, 5.4.2.3
+
+        > The **aeronautical fixed service (AFS)** shall, whenever practicable, be employed for NOTAM distribution.
+      presets:
+        - correctAnswers:
+            - text: English and distributed by the Aeronautical Fixed Service (AFS).
+          wrongAnswers:
+            - text: A national language only and distributed by the Automatic Fully-Integrated Service (AFS).
+            - text: English only and distributed by the Automatic Fully-Integrated Service (AFS).
+            - text: A national language only and distributed by the Aeronautical Fixed Service (AFS).
+- id: QGEAE
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107161
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.02.06
+  templates:
+    - type: simple
+      question: The ASHTAM provides information about the status of activity of a volcano by publishing a..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: colour code.
+          wrongAnswers:
+            - text: three digit priority number.
+            - text: scale from 1 to 10.
+            - text: four letter code.
+- id: QKDGZ
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108216
+    - AVEXAM-44290
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.02.06
+  templates:
+    - type: multiple-correct
+      question: Which of the following elements are included in an ASHTAM?
+      explanation: |-
+        ### ICAO Annex 15, Definitions
+
+        > ASHTAM. A special series NOTAM notifying by means of a specific format **change in activity of a volcano, a volcanic eruption and/or volcanic ash cloud** that is of significance to aircraft operations.
+      options:
+        - text: FIR affected
+          correct: true
+        - text: Local time/date of eruption
+          correct: false
+        - text: Volcano name
+          correct: true
+        - text: Period of validity
+          correct: false
+        - text: Air routes and flight levels affected.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QRWEC
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105144
+    - AVEXAM-55744
+    - BGS-101706
+    - AVEXAM-80046
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.03.01
+  templates:
+    - type: simple
+      question: Whenever major changes are planned to aeronautical information provided under the AIRAC system and where additional notice is desirable and practicable, how many days before the effective date should the AIS organization publish the information?
+      explanation: Under the AIRAC system, major changes are distributed at fixed dates, 28 days apart. Where more notice is desirable and practicable, for major changes, the information is published at least 56 days before the effective date.
+      presets:
+        - correctAnswers:
+            - text: In accordance with AIRAC - 56 days
+          wrongAnswers:
+            - text: In accordance with the PBN cycle
+            - text: In accordance with AIRAC - 28 days
+            - text: In accordance with AIRAC - 42 days
+- id: QEOHS
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds:
+    - QZCUU
+  externalQuestionIds:
+    - ATPLQ-108703
+    - AVEXAM-5411
+    - AVEXAM-32992
+    - AVEXAM-62522
+    - ATPLQ-106946
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.04.02
+  templates:
+    - type: simple
+      question: What is the standard colour code for an ATC document when considering the aeronautical information circular (AIC)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: yellow
+          wrongAnswers:
+            - text: green
+            - text: pink
+            - text: mauve
+        - correctAnswers:
+            - text: white
+          wrongAnswers:
+            - text: green
+            - text: pink
+            - text: red
+- id: QZCUU
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds:
+    - QEOHS
+  externalQuestionIds:
+    - ATPLQ-105190
+    - AVEXAM-57558
+    - AVEXAM-95734
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.04.02
+  templates:
+    - type: simple
+      question: What is the standard colour code for a safety document when considering the aeronautical information circular (AIC)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: pink
+          wrongAnswers:
+            - text: yellow
+            - text: red
+            - text: white
+- id: QUEIO
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103836
+    - AVEXAM-93964
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.05.01
+  templates:
+    - type: simple
+      question: A Pre-flight Information Bulletin (PIB) is provided before a flight. What message/element does it include?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Maps and charts.
+          wrongAnswers:
+            - text: Pilots' flying licenses.
+            - text: Cargo Manifest.
+            - text: Aircraft's mass and balance.
+- id: QAJMJ
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109557
+    - AVEXAM-64819
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.05.02
+  templates:
+    - type: simple
+      question: Which of the following information shall be provided by the Aeronautical Information Services (AIS) to flight crews, for pre-flight purposes?
+      explanation: |-
+        ### ICAO Annex 15, 5.5.2
+
+        > Aeronautical information provided for pre-flight planning purposes shall include **information of operational significance** from the elements of aeronautical information products.
+
+        > Pre-flight information bulletin (PIB). A presentation of **current NOTAM information of operational significance**, prepared prior to flight.
+      presets:
+        - correctAnswers:
+            - text: NOTAMs
+          wrongAnswers:
+            - text: Aircraft performance charts
+            - text: Operational Flight Plan
+            - text: Aircraft Minimum Equipment List
+- id: QDKPF
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101268
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.05.02
+  templates:
+    - type: simple
+      question: A NOTAM is published and will be valid during flight. How is it provided to the crew?
+      explanation: |-
+        ### ICAO Annex 15, 5.5.2
+
+        > Note 2.— A recapitulation of valid NOTAM of operational significance and other information of urgent character may be made available to flight crews in the form of plain-language **pre-flight information bulletins (PIB)**. […]
+      presets:
+        - correctAnswers:
+            - text: By a pre-flight information bulletin.
+          wrongAnswers:
+            - text: By a pre-flight information circular.
+            - text: By a pre-flight information checklist.
+            - text: By a pre-flight information summary.
+- id: QZBLX
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103354
+    - AVEXAM-19664
+    - BGS-101630
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.05.03
+  templates:
+    - type: simple
+      question: "When a flight crew reports information after a flight, it must be submitted to the AIS when it refers to:"
+      explanation: Post-flight reports from crews are passed to the AIS when they concern the state or operation of air navigation facilities, or the presence of wildlife hazards. They then reach other users as aeronautical information.
+      presets:
+        - correctAnswers:
+            - text: The state or operation of air navigation facilities or the presence of wildlife hazards.
+          wrongAnswers:
+            - text: The state or operation of air navigation services or items to report to the Safety Investigation Authority (SIA).
+            - text: The presence of birds or inaccuracies in the Airline Operational Manual (AOM).
+            - text: Inaccuracies in the Airline Operational Manual (AOM) or state or operation of air navigation facilities.
+- id: QVZDM
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108477
+    - BGS-100397
+    - AVEXAM-72617
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.04.05.03
+  templates:
+    - type: simple
+      question: Aeronautical Information Service – The publication containing information about flight safety, air navigation, technical, administration or legislative matters, published by the AIS of a state is called..
+      explanation: |-
+        ### ICAO Annex 15, Definitions
+
+        > Aeronautical Information Circular (AIC). A notice containing information that **does not qualify for the origination of a NOTAM or for inclusion in the AIP**, but which relates to **flight safety, air navigation, technical, administrative or legislative matters**.
+      presets:
+        - correctAnswers:
+            - text: Aeronautical Information Circular (AIC).
+          wrongAnswers:
+            - text: Aeronautical Information Publication (AIP).
+            - text: NOTAM.
+            - text: AIRAC.
+    - type: simple
+      question: "A notice containing information concerning flight safety, air navigation, technical, administration or legislative matters and originated at the AIS of a state is called:"
+      explanation: |-
+        ### ICAO Annex 15, Definitions
+
+        > Aeronautical Information Circular (AIC). A notice containing information that **does not qualify for the origination of a NOTAM or for inclusion in the AIP**, but which relates to **flight safety, air navigation, technical, administrative or legislative matters**.
+      presets:
+        - correctAnswers:
+            - text: Aeronautical Information Circular (AIC)
+          wrongAnswers:
+            - text: AIRAC
+            - text: NOTAM
+            - text: Aeronautical Information Publication (AIP)
+- id: QNOTN
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds:
+    - QOXJE
+  externalQuestionIds:
+    - ATPLQ-108048
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.05.01.01
+  templates:
+    - type: simple
+      question: Which of the following documents deals with air navigation and air traffic management?
+      explanation: |-
+        ### Regulation (EU) 2017/373, Article 1
+
+        > This Regulation lays down common requirements for: (a) the provision of **air traffic management and air navigation services** ('ATM/ANS') for general air traffic, in particular for the legal or natural persons providing those services and functions; (b) the competent authorities and the qualified entities acting on their behalf, which perform certification, oversight and enforcement tasks in respect of the services referred to in point (a); (c) the rules and procedures for the **design of airspace structures**.
+      presets:
+        - correctAnswers:
+            - text: EU Regulation 373/2017.
+          wrongAnswers:
+            - text: EU Regulation 965/2012.
+            - text: Annex 9.
+            - text: Annex 17.
+- id: QOXJE
+  subjectId: "010"
+  chapterId: "010.08"
+  relatedQuestionIds:
+    - QNOTN
+  externalQuestionIds:
+    - ATPLQ-108700
+  annexes: []
+  learningObjectiveIds:
+    - 010.08.05.01.01
+  templates:
+    - type: simple
+      question: The Commission Implementation Regulation 2017/373 lies down common requirements for...
+      explanation: |-
+        ### Regulation (EU) 2017/373, Article 1
+
+        > This Regulation lays down common requirements for: (a) the provision of **air traffic management and air navigation services** ('ATM/ANS') for general air traffic, in particular for the legal or natural persons providing those services and functions; (b) the competent authorities and the qualified entities acting on their behalf, which perform certification, oversight and enforcement tasks in respect of the services referred to in point (a); (c) the rules and procedures for the **design of airspace structures**.
+      presets:
+        - correctAnswers:
+            - text: EU Regulation 373/2017.
+          wrongAnswers:
+            - text: Annex 17.
+            - text: Annex 9.
+            - text: EU Regulation 965/2012.

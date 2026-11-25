@@ -1,0 +1,500 @@
+- id: QXSOE
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.03.03.01.03"
+  templates:
+    - type: simple
+      question: A flight plan has been files for a flight departing at an uncontrolled aerodrome. When has the actual take-off time been transmitted to ATC?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Immediately after take-off.
+          wrongAnswers:
+            - text: Upon request from ATC.
+            - text: When landing is assured.
+            - text: At deviation from expected off-block time by more than 15 min.
+- id: QKJOE
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.03.03.01.03"
+  templates:
+    - type: simple
+      question: During a flight with a flight plan submitted, landing is conducted at an airfield other than the destination stated in the filed flight plan. Who has to be contacted by the pilot immediately?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Aeronatical Information Service (AIS).
+          wrongAnswers:
+            - text: The flight manager on duty.
+            - text: The police department.
+            - text: Local office for aereal supervision.
+- id: QZWMN
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.03.01.01.01"
+  templates:
+    - type: simple
+      question: The term "maximum elevation figure" (MEF) is defined as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the highest elevation within an area covering 30 minutes of latitude and 30 minutes of longitude plus a safety margin, rounded to the next higher 100 ft
+          wrongAnswers:
+            - text: the highest elevation within an area covering 1 degree of latitude and 1 degree of longitude plus a safety margin, rounded to the next lower 100 ft
+            - text: the highest elevation within an area covering 30 minutes of latitude and 30 minutes of longitude plus a safety margin of 1000 ft (305 m), rounded to the next higher 100 ft
+            - text: the highest elevation within an area covering 30 minutes of latitude and 30 minutes of longitude.
+- id: QQFMI
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.03.01.01.05"
+  templates:
+    - type: simple
+      question: What is the purpose of "interception lines" in visual navigation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: They are used as easily recognizable guidance upon a possible loss of orientation
+          wrongAnswers:
+            - text: They help to continue the flight when flight visibility drops below VFR minima
+            - text: To visualize the range limitation from the departure aerodrome
+            - text: To mark the next available en-route airport during the flight
+- id: QOPBH
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.03.01.01.01"
+  templates:
+    - type: simple
+      question: The VFR semicircular rules are based on the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: magnetic course (MC).
+          wrongAnswers:
+            - text: true course (TC).
+            - text: magnetic heading (MH).
+            - text: true heading (TH).
+- id: QYAIR
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.03.01.01.01"
+  templates:
+    - type: simple
+      question: What is the lowest possible VFR flight level if a true course of 181° is selected and a variation of 3° east exists?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FL 055
+          wrongAnswers:
+            - text: FL 060
+            - text: FL 065
+            - text: FL 050
+- id: QDAEB
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds: []
+  annexes:
+    - id: AWZC
+    - id: ASYW
+  learningObjectiveIds:
+    - "07.03.01.01.01"
+  templates:
+    - type: simple
+      question: |-
+        What is the upper limit of restricted area LO R 16 on this historical chart extract?
+
+        ![Historical Austrian aeronautical chart extract around Lake Neusiedl](annex:AWZC:editable)
+      explanation: Read the top value in the stacked label for LO R 16. MSL is the reference for its upper limit. The lower limit is the ground.
+      presets:
+        - correctAnswers:
+            - text: 1500 ft AMSL
+          wrongAnswers:
+            - text: FL 150
+            - text: 1500 ft AGL
+            - text: 1500 m AMSL
+    - type: simple
+      question: |-
+        What is the upper limit of restricted area LO R 4 on this historical chart extract?
+
+        ![Historical Austrian aeronautical chart extract around Wiener Neustadt](annex:ASYW:editable)
+      explanation: Read the top value in the stacked label for LO R 4. The chart gives 4500 ft above mean sea level and a lower limit of GND.
+      presets:
+        - correctAnswers:
+            - text: 4500 ft AMSL
+          wrongAnswers:
+            - text: 1500 ft AMSL
+            - text: 4500 ft AGL
+            - text: 1500 ft AGL
+- id: QLRAI
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.03.01.02.01"
+  templates:
+    - type: simple
+      question: "Considering the following fuel data, how much trip fuel is required? Fuel for start-up and taxi: 5 L Fuel for take-off and climb: 12 L Fuel for cruise flight: 25 L Fuel for descent, approach and landing: 7 L Fuel for taxi and parking: 3 L Fuel to alternate: 13 L Final reserve fuel: 10 L"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 44 L
+          wrongAnswers:
+            - text: 75 L
+            - text: 49 L
+            - text: 52 L
+- id: QZMSO
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds: []
+  annexes:
+    - id: AXOB
+  learningObjectiveIds:
+    - "07.03.02.01.03"
+  templates:
+    - type: simple
+      question: |-
+        Up to what altitude does the restriction in this historical NOTAM extend?
+
+        ![Historical NOTAM excerpt with the text and vertical limits](annex:AXOB)
+      explanation: AMSL is a reference to mean sea level. GND identifies the surface as the lower limit.
+      presets:
+        - correctAnswers:
+            - text: 9500 ft above mean sea level
+          wrongAnswers:
+            - text: 9500 ft above ground level
+            - text: 9500 ft above aerodrome elevation
+            - text: Flight level 95
+- id: QMQSY
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.03.02.02.01"
+  templates:
+    - type: simple
+      question: An aeroplane on a daytime VFR flight intends to enter a Class D control zone and join the aerodrome traffic circuit. The ATIS reports a ground visibility of 4000 m. Assuming the special VFR minima and conditions are met, which clearance is required?
+      explanation: |-
+        ### Regulation (EU) No 923/2012, SERA.5005(b) and SERA.5010
+
+        > […] VFR flights shall not take off or land at an aerodrome within a control zone, or enter the aerodrome traffic zone or aerodrome traffic circuit when […] the ground visibility is less than 5 km […]
+
+        The reported ground visibility is 4000 m. If cleared by ATC, the pilot may operate under special VFR subject to its conditions.
+      presets:
+        - correctAnswers:
+            - text: Special VFR clearance
+          wrongAnswers:
+            - text: A routine VFR entry clearance
+            - text: A take-off clearance
+            - text: A taxi clearance
+- id: QSPHA
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.03.03.01.01"
+  templates:
+    - type: simple
+      question: The EOBT (estimated off-block time) is specified in the ATS flight plan as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Coordinated Universal Time (UTC).
+          wrongAnswers:
+            - text: Central European Time (CET).
+            - text: Standard Time (ST).
+            - text: Local Mean Time (LMT).
+- id: QQXGD
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds:
+    - QVYAN
+    - QFYAP
+    - QLVXY
+  annexes:
+    - id: AYLA
+  learningObjectiveIds:
+    - "07.03.03.01.01"
+  templates:
+    - type: simple
+      question: |-
+        Assume the flight shown in this ICAO flight plan takes place in darkness. What type of flight does it describe?
+
+        ![An extract of an ICAO flight plan with departure time, flight rules and speed](annex:AYLA)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A night flight under visual flight rules
+          wrongAnswers:
+            - text: A day flight under visual flight rules
+            - text: An IFR flight throughout
+            - text: A flight starting under IFR and changing to VFR
+- id: QVYAN
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds:
+    - QQXGD
+    - QFYAP
+    - QLVXY
+  annexes:
+    - id: AYLA
+  learningObjectiveIds:
+    - "07.03.03.01.01"
+  templates:
+    - type: simple
+      question: |-
+        What cruising speed is specified in Item 15 of this ICAO flight plan?
+
+        ![An extract of an ICAO flight plan with departure time, flight rules and speed](annex:AYLA)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 100 kt true airspeed
+          wrongAnswers:
+            - text: 100 km/h true airspeed
+            - text: 100 kt groundspeed
+            - text: 100 kt indicated airspeed
+- id: QFYAP
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds:
+    - QQXGD
+    - QVYAN
+    - QLVXY
+  annexes: []
+  learningObjectiveIds:
+    - "07.03.03.01.03"
+  templates:
+    - type: simple
+      question: What must be considered for cross-border flights?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Requires flight plans
+          wrongAnswers:
+            - text: Regular location messages
+            - text: Approved exceptions
+            - text: Transmission of hazard reports
+- id: QLVXY
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds:
+    - QQXGD
+    - QVYAN
+    - QFYAP
+  annexes: []
+  learningObjectiveIds:
+    - "07.03.03.01.03"
+  templates:
+    - type: simple
+      question: During a flight, a flight plan can be filed at the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Flight Information Service (FIS).
+          wrongAnswers:
+            - text: Aeronautical Information Service (AIS).
+            - text: Search and Rescue Service (SAR).
+            - text: next airport operator en-route.
+- id: QBSVI
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.03.04.01.02"
+  templates:
+    - type: simple
+      question: "Given the following data: Take-Off fuel = 200 lbs Alternate fuel = 40 lbs Final reserve fuel = 30 lbs After 25 minutes the remaining fuel is 120 lbs. Assuming that fuel flow will remain unchanged, the remaining time to the destination should not exceed:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 15.6 min
+          wrongAnswers:
+            - text: 59.4 min
+            - text: 37.5 min
+            - text: 20.0 min
+- id: QAQWU
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.03.04.01.02"
+  templates:
+    - type: simple
+      question: "Given the following data for a VFR flight: Take-off fuel: 180 kg including reserve fuel, which is 30% of take off fuel. After half of the distance the remaining fuel is 100 kg. Assume that cruise conditions will remain unchanged. Determine the remaining fuel at the destination:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 20 kg
+          wrongAnswers:
+            - text: 10 kg
+            - text: 40 kg
+            - text: 80 kg
+- id: QTBLJ
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.03.04.01.02"
+  templates:
+    - type: simple
+      question: During a VFR flight the remaining usable fuel at a checkpoint is 80 USG. Reserve fuel is 20 USG, remaining flight time according to flight plan is 2h 20min. What is the highest acceptable fuel flow (FF) for the rest of the trip?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FF = 25.7 USG/h
+          wrongAnswers:
+            - text: FF = 34.3 USG/h
+            - text: FF = 8.6 USG/h
+            - text: FF = 42.9 USG/h
+- id: QFWWJ
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds: []
+  annexes:
+    - id: AZAH
+  learningObjectiveIds:
+    - "07.03.01.03.02"
+  templates:
+    - type: simple
+      question: |-
+        Using CAP 697 Table 2.2.3 for 23.0 in Hg or full throttle at 2300 RPM, calculate minimum block fuel. Pressure altitude: 6500 ft. Temperature: ISA −20 °C. Flight time: 2 h 43 min plus 7 min for climb and 10 min for approach and landing. Taxi fuel: 2 US gal. Reserve: 30% of trip fuel. Apply the table’s fuel flow to the full airborne time. Interpolate and round the flow to 0.1 US gal/h first.
+
+        ![CAP 697 table 2.2.3, cruise at 23.0 in](annex:AZAH)
+      explanation: Interpolate between 12.4 US gal/h at 6000 ft and 12.3 US gal/h at 8000 ft. Rounded to 0.1 US gal/h, this is 12.4. The planned time is 3 hours, giving 37.2 US gal of trip fuel. Apply the 30% reserve and add 2 US gal for taxi.
+      presets:
+        - correctAnswers:
+            - text: 50.4 US gal
+          wrongAnswers:
+            - text: 39.2 US gal
+            - text: 48.4 US gal
+            - text: 46.1 US gal
+    - type: simple
+      question: |-
+        Using CAP 697 Table 2.2.3 for 23.0 in Hg or full throttle at 2300 RPM, calculate minimum block fuel. Pressure altitude: 7500 ft. Temperature: ISA. Flight time: 2 h 42 min plus 8 min for climb and 10 min for approach and landing. Taxi fuel: 2 US gal. Reserve: 30% of trip fuel. Apply the table’s fuel flow to the full airborne time. Interpolate and round the flow to 0.1 US gal/h first.
+
+        ![CAP 697 table 2.2.3, cruise at 23.0 in](annex:AZAH)
+      explanation: Interpolate between 12.0 US gal/h at 6000 ft and 11.9 US gal/h at 8000 ft. Rounded to 0.1 US gal/h, this is 11.9. The planned time is 3 hours, giving 35.7 US gal of trip fuel. Apply the 30% reserve and add 2 US gal for taxi.
+      presets:
+        - correctAnswers:
+            - text: 48.4 US gal
+          wrongAnswers:
+            - text: 37.7 US gal
+            - text: 50.4 US gal
+            - text: 46.4 US gal
+- id: QPAGB
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.03.04.01.02"
+  templates:
+    - type: simple
+      question: "Given the following data for a VFR flight: Trip fuel = 70 US gallons Contingency fuel = 5% of trip fuel Alternate and final reserve fuel = 20 US gallons Usable fuel at take-off = 95 US gallons After half of the distance you read that you have consumed 40 US gallons. Assume that fuel flow remains unchanged. Which statement is correct?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The remaining fuel is insufficient for a landing at destination with alternate and final reserve fuel remaining.
+          wrongAnswers:
+            - text: Upon landing 5.0 US gallons will remain in addition to alternate and final reserve fuel.
+            - text: Upon landing 15.0 US gallons will remain in addition to alternate and final reserve fuel.
+            - text: Upon landing, a total of 40.0 US gallons will remain.
+    - type: simple
+      question: "Given the following data for a VFR flight: Trip fuel = 70 US gallons Contingency fuel = 5% of trip fuel. Alternate and final reserve fuel = 20 US gallons Usable fuel at take-off = 90 US gallons After half of the distance you read that you have consumed 30 US gallons. Assume that fuel flow remains unchanged. Which statement is correct?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Upon landing 10.0 US gallons will remain in addition to alternate and final reserve fuel.
+          wrongAnswers:
+            - text: The remaining fuel is insufficient for a landing at destination with alternate and final reserve fuel remaining.
+            - text: Upon landing a total of 10.0 US gallons will remain.
+            - text: Upon landing 30.0 US gallons will remain in addition to alternate and final reserve fuel.
+- id: QNYLL
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds: []
+  annexes:
+    - id: AVVV
+  learningObjectiveIds:
+    - "07.03.01.01.01"
+  templates:
+    - type: simple
+      question: |-
+        Which ICAO symbol represents a group of unlighted obstacles?
+
+        ![Four ICAO obstacle symbols shown as options A to D](annex:AVVV)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: C
+          wrongAnswers:
+            - text: A
+            - text: B
+            - text: D
+- id: QQOOX
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds: []
+  annexes:
+    - id: AFPM
+  learningObjectiveIds:
+    - "07.03.01.01.01"
+  templates:
+    - type: simple
+      question: |-
+        Which ICAO symbol represents a civil aerodrome with a paved runway, other than an international aerodrome?
+
+        ![Four ICAO aerodrome symbols shown as options A to D](annex:AFPM)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A
+          wrongAnswers:
+            - text: B
+            - text: C
+            - text: D
+- id: QWZTB
+  subjectId: "07"
+  chapterId: "07.03"
+  relatedQuestionIds: []
+  annexes:
+    - id: AEXY
+  learningObjectiveIds:
+    - "07.03.01.01.01"
+  templates:
+    - type: simple
+      question: |-
+        Which ICAO symbol represents a general spot elevation?
+
+        ![Four ICAO elevation symbols shown as options A to D](annex:AEXY)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: C
+          wrongAnswers:
+            - text: A
+            - text: B
+            - text: D

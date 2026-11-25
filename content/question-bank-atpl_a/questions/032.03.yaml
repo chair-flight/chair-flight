@@ -1,0 +1,2276 @@
+- id: QETQF
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324025
+    - BGS-320115
+    - BGS-320736
+    - ATPLQ-321818
+  annexes:
+    - id: AZAI
+  learningObjectiveIds:
+    - 032.03.03.01.01
+    - 032.03.03.01.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure (CAP 698 Figure 2.1). For the take-off chart of a single engine aeroplane, determine the take-off distance to 50 ft and the take-off speeds, given:
+
+        - OAT: {{oat}} °C
+        - Pressure altitude: {{pa}} ft
+        - Aeroplane mass: {{mass}} lb
+        - Headwind component: {{headwind}} kt
+        - Flaps: up
+        - Runway: paved and dry
+
+        What are the take-off distance to 50 ft, the rotation speed and the 50 ft speed?
+      explanation: |-
+        The take-off distance to 50 ft and the speeds are read from the single engine take-off chart. Enter with the temperature, pressure altitude and mass, then apply the headwind correction to the distance.
+
+        **Solution**
+
+        For {{oat}} °C, {{pa}} ft, {{mass}} lb and a {{headwind}} kt headwind, the chart gives a take-off distance to 50 ft of **1 900 ft**, a rotation speed of **68 kt** and a 50 ft speed of **78 kt**.
+
+        ## Why the other answers are wrong
+
+        - **TOD 2 200 ft, rotation 70 kt, 50 ft 80 kt**: ignores the headwind correction and reads a higher temperature line.
+        - **TOD 1 850 ft, rotation 70 kt, 50 ft 80 kt**: mixes the distance from one row with the speeds from another.
+        - **TOD 1 650 ft, rotation 68 kt, 50 ft 78 kt**: applies the headwind correction twice, which shortens the distance.
+      presets:
+        - variables:
+            oat: 25
+            pa: 4000
+            mass: 3000
+            headwind: 10
+          correctAnswers:
+            - text: "TOD: 1 900 ft, Rotation speed: 68kt, 50ft speed: 78kt"
+          wrongAnswers:
+            - text: "TOD: 1 650 ft, Rotation speed: 68kt, 50ft speed: 78kt"
+            - text: "TOD: 2 200 ft, Rotation speed: 70kt, 50ft speed: 80kt"
+            - text: "TOD: 1 850 ft, Rotation speed: 70kt, 50ft speed: 80kt"
+- id: QXCUW
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326186
+    - BGS-320626
+    - AVEXAM-47017
+    - AVEXAM-94076
+    - AVEXAM-2520
+    - BGS-320155
+  annexes:
+    - id: AALH
+  learningObjectiveIds:
+    - 032.03.03.01.02
+  templates:
+    - type: simple
+      question: |-
+        Use annex 032-011 or Performance Manual MEP 1 Figure 3.2. Given the following information, determine the accelerate-stop distance.
+
+        - OAT: {{oat}} °C
+        - Pressure altitude: {{pa}} ft
+        - Runway: 12R
+        - Wind: 180° / {{wspd}} kt
+        - Take-off mass: {{mass}} lb
+        - Heavy duty brakes installed
+
+        What is the accelerate-stop distance?
+      explanation: |-
+        The accelerate-stop distance is read from the MEP accelerate-stop performance figure for the given temperature, pressure altitude, wind, mass and brake configuration.
+
+        **Solution**
+
+        Read the figure for -10 °C, 4000 ft, 4600 lb and heavy duty brakes: **3550 ft**.
+
+        ## Why the other answers are wrong
+
+        - **4300 ft**: does not match the figure for these conditions. It is a misreading of a neighbouring line, column or scale.
+        - **3800 ft**: does not match the figure for these conditions. It is a misreading of a neighbouring line, column or scale.
+        - **4600 ft**: does not match the figure for these conditions. It is a misreading of a neighbouring line, column or scale.
+      presets:
+        - variables:
+            oat: -10
+            pa: 4000
+            wspd: 10
+            mass: 4600
+          correctAnswers:
+            - text: 3550 ft
+          wrongAnswers:
+            - text: 4600 ft
+            - text: 4300 ft
+            - text: 3800 ft
+- id: QXYJC
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322820
+    - BGS-320150
+    - AVEXAM-93366
+    - AVEXAM-51911
+    - AVEXAM-41655
+    - BGS-320152
+    - ATPLQ-325431
+    - ATPLQ-321260
+    - ATPLQ-325941
+  annexes:
+    - id: AALH
+  learningObjectiveIds:
+    - 032.03.03.01.02
+  templates:
+    - type: simple
+      question: |-
+        (For this question use annex 032-011 or Performance Manual MEP 1 Figure 3.2).   
+         Given:
+
+        OAT: 25°C   
+         Pressure Altitude: 3 000 ft   
+         RWY: 24L Wind: 310°/20 kt   
+         Take off Mass: 4 400 lb   
+         Heavy Duty Brakes installed.   
+         Other conditions as associated in the header of the graph.
+
+        What is the Accelerate and Stop Distance under the conditions given?
+      explanation: In Figure 3.2, enter at 25 °C, go up to the 3 000 ft pressure altitude line, across to the reference line, then through the mass of 4 400 lb. The wind is 310° at 20 kt on runway 24L, so the headwind component is about 7 kt (20 × cos 70°). Follow the headwind lines, read the distance, and reduce it by 7% for heavy duty brakes. The accelerate-stop distance is 3 750 ft.
+      presets:
+        - correctAnswers:
+            - text: 3750 ft
+          wrongAnswers:
+            - text: 3350 ft
+            - text: 4000 ft
+            - text: 4300 ft
+- id: QNXFT
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322526
+    - BGS-320955
+    - BGS-320845
+    - BGS-320765
+    - BGS-320755
+    - BGS-320627
+    - AVEXAM-75463
+    - BGS-320547
+    - AVEXAM-36239
+    - BGS-320452
+    - BGS-320114
+    - AVEXAM-15633
+    - BGS-320160
+    - BGS-320630
+    - AVEXAM-96650
+    - BGS-320117
+    - AVEXAM-18128
+    - BGS-320623
+    - AVEXAM-38379
+    - AVEXAM-46864
+    - AVEXAM-3162
+    - AVEXAM-32381
+    - AVEXAM-60855
+    - AVEXAM-86429
+    - BGS-321200
+    - AVEXAM-56481
+    - BGS-320120
+    - BGS-320159
+    - AVEXAM-58022
+    - BGS-320548
+    - AVEXAM-40263
+    - BGS-320751
+    - BGS-320545
+    - AVEXAM-80946
+    - AVEXAM-73825
+    - AVEXAM-90157
+    - BGS-320764
+    - BGS-320700
+    - AVEXAM-7435
+    - BGS-320448
+    - BGS-320611
+    - AVEXAM-55356
+    - BGS-320546
+    - AVEXAM-25217
+    - AVEXAM-57660
+    - BGS-321022
+    - AVEXAM-17692
+    - BGS-321188
+    - AVEXAM-84824
+    - AVEXAM-5490
+    - BGS-320124
+    - AVEXAM-86293
+    - BGS-320161
+    - BGS-320116
+    - BGS-321222
+    - BGS-320806
+    - AVEXAM-13532
+    - BGS-320158
+    - AVEXAM-35675
+    - AVEXAM-93647
+    - AVEXAM-77156
+    - BGS-320119
+    - BGS-320112
+    - AVEXAM-80628
+    - BGS-320129
+    - BGS-320361
+    - BGS-320613
+    - BGS-320125
+    - AVEXAM-15963
+    - AVEXAM-18250
+    - BGS-320127
+    - AVEXAM-23055
+    - BGS-320614
+    - AVEXAM-61441
+    - BGS-321135
+  annexes:
+    - id: ASUC
+  learningObjectiveIds:
+    - 032.03.03.01.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to CAP 698 Figure 3.1. Other conditions are as in the header of the graph.
+
+        - OAT: {{oat}} °C
+        - Pressure altitude: {{pa}} ft
+        - Runway: 12L
+        - Wind: {{wdir}}° / {{wspd}} kt
+        - Take-off mass: {{mass}} lb
+
+        What is the ground roll distance?
+      explanation: |-
+        The ground roll is the distance the aircraft runs on the runway before it lifts off. It is read from the take-off chart by entering with the temperature and pressure altitude, then correcting for the wind and the take-off mass.
+
+        **Solution**
+
+        For {{oat}} °C, {{pa}} ft, a wind of {{wdir}}° / {{wspd}} kt and a take-off mass of {{mass}} lb, the chart gives a ground roll of **1350 ft**.
+
+        ## Why the other answers are wrong
+
+        - **1050 ft**: ignores the headwind correction.
+        - **1150 ft**: a misread of the chart by one grid line.
+        - **1750 ft**: uses the distance to clear 50 ft instead of the ground roll.
+      presets:
+        - variables:
+            oat: 24
+            pa: 3000
+            wdir: 80
+            wspd: 12
+            mass: 3800
+          correctAnswers:
+            - text: 1350 ft
+          wrongAnswers:
+            - text: 1750 ft
+            - text: 1050 ft
+            - text: 1150 ft
+- id: QTXXX
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-321015
+    - BGS-320560
+    - BGS-320756
+    - AVEXAM-67027
+  annexes:
+    - id: ASUC
+  learningObjectiveIds:
+    - 032.03.03.01.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure (CAP 698 Figure 3.1). Given the following information, what is the take-off ground roll required?
+
+        - Airfield pressure altitude: {{pa}} ft
+        - Airfield temperature: +{{temp}} °C
+        - Headwind component: {{headwind}} kt
+        - Take-off mass: {{mass}} lb
+
+        What is the take-off ground roll required?
+      explanation: |-
+        The take-off ground roll is the distance from brake release until the aircraft lifts off. It is read from the chart by entering with the pressure altitude and temperature, then applying the headwind and the take-off mass.
+
+        **Solution**
+
+        At {{pa}} ft, +{{temp}} °C, a {{headwind}} kt headwind and a take-off mass of {{mass}} lb, the chart gives a ground roll of **1350 ft**.
+
+        ## Why the other answers are wrong
+
+        - **1650 ft**: the total distance to 50 ft, not the ground roll.
+        - **1200 ft**: applies the headwind correction twice.
+        - **1500 ft**: reads the line for a higher take-off mass.
+      presets:
+        - variables:
+            pa: 2000
+            temp: 11
+            headwind: 10
+            mass: 4350
+          correctAnswers:
+            - text: 1350 ft
+          wrongAnswers:
+            - text: 1500 ft
+            - text: 1650 ft
+            - text: 1200 ft
+- id: QYOTD
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds:
+    - QOURB
+  externalQuestionIds:
+    - ATPLQ-326961
+    - BGS-320118
+    - AVEXAM-73495
+    - AVEXAM-41686
+    - AVEXAM-51920
+    - BGS-320601
+    - ATPLQ-326481
+    - AVEXAM-97611
+  annexes: []
+  learningObjectiveIds:
+    - 032.03.03.01.03
+  templates:
+    - type: simple
+      question: |-
+        The take-off distance of an aircraft is {{base}} m in a standard atmosphere, no wind at 0 ft pressure altitude. Use the following corrections:
+
+        - ± 20 m per 1 000 ft field elevation
+        - -5 m per kt of headwind
+        - +10 m per kt of tailwind
+        - ± 15 m per % of runway slope
+        - ± 5 m per °C deviation from standard temperature
+
+        What is the take-off distance from an airport with elevation {{elev}} ft, temperature {{oat}} °C, QNH 1013.25 hPa, {{slope}} % up-slope and {{tw}} kt tailwind?
+      explanation: |-
+        Each correction is applied to the base distance: elevation adds distance, a tailwind adds distance, an up-slope adds distance, and a temperature above ISA adds distance. ISA temperature at the given elevation (pressure altitude equals elevation at QNH 1013.25 hPa) is 15 °C minus 2 °C per 1 000 ft.
+
+        **Solution**
+
+        ISA temperature = {{macro1}} °C, deviation = {{macro2}} °C
+
+        Elevation: {{macro3}} m; temperature: {{macro4}} m; slope: {{macro5}} m; tailwind: {{macro6}} m
+
+        {{macro7}} + {{macro3}} + {{macro4}} + {{macro5}} + {{macro6}} = **{{answer}} m**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} m**: the tailwind correction was subtracted as if it were a headwind.
+        - **{{d2}} m**: elevation and temperature corrections were forgotten.
+        - **{{d3}} m**: the up-slope correction was subtracted instead of added, and elevation and temperature were forgotten.
+      presets:
+        - variables:
+            base: 600
+            elev: 1000
+            oat: 17
+            slope: 1
+            tw: 10
+            macro1: 13
+            macro2: 4
+            macro3: 20
+            macro4: 20
+            macro5: 15
+            macro6: 100
+            macro7: 600
+            answer: 755
+            d1: 555
+            d2: 715
+            d3: 685
+          correctAnswers:
+            - text: 755 m
+          wrongAnswers:
+            - text: 685 m
+            - text: 555 m
+            - text: 715 m
+        - variables:
+            base: 700
+            elev: 2000
+            oat: 20
+            slope: 2
+            tw: 8
+            macro1: 11
+            macro2: 9
+            macro3: 40
+            macro4: 45
+            macro5: 30
+            macro6: 80
+            macro7: 700
+            answer: 895
+            d1: 735
+            d2: 810
+            d3: 750
+          correctAnswers:
+            - text: 895 m
+          wrongAnswers:
+            - text: 750 m
+            - text: 735 m
+            - text: 810 m
+        - variables:
+            base: 550
+            elev: 500
+            oat: 10
+            slope: 1
+            tw: 6
+            macro1: 14
+            macro2: -4
+            macro3: 10
+            macro4: -20
+            macro5: 15
+            macro6: 60
+            macro7: 550
+            answer: 615
+            d1: 495
+            d2: 625
+            d3: 595
+          correctAnswers:
+            - text: 615 m
+          wrongAnswers:
+            - text: 595 m
+            - text: 495 m
+            - text: 625 m
+- id: QKYTE
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-327443
+  annexes:
+    - id: ASUC
+  learningObjectiveIds:
+    - 032.03.03.01.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to CAP 698 Figure 3.1. Given the following information:
+
+        - OAT: {{oat}} °C
+        - Pressure altitude: {{pa}} ft
+        - Runway: 12R
+        - Wind: 080°/12 kt
+        - Take-off mass: {{tom}} lb
+
+        Other conditions are as stated in the header of the graph.
+
+        What is the ground roll distance?
+      explanation: |-
+        The take-off ground roll is read from CAP 698 Figure 3.1, using the temperature, the pressure altitude and the take-off mass, with the wind and runway given.
+
+        **Solution**
+
+        - Enter the chart at {{oat}} °C, {{pa}} ft and a take-off mass of {{tom}} lb, with a wind of 080° at 12 kt.
+        - The chart gives a ground roll of 1270 ft.
+
+        ## Why the other answers are wrong
+
+        - **1830 ft**: a value read for a higher mass or temperature, which lengthens the roll.
+        - **1500 ft** and **1600 ft**: values read from neighbouring lines of the chart, which are too long for these conditions.
+      presets:
+        - variables:
+            oat: -15
+            pa: 4000
+            tom: 4000
+          correctAnswers:
+            - text: 1270 ft
+          wrongAnswers:
+            - text: 1600 ft
+            - text: 1830 ft
+            - text: 1500 ft
+- id: QWXNI
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds:
+    - QZZEO
+  externalQuestionIds:
+    - ATPLQ-322790
+    - ATPLQ-325569
+    - ATPLQ-329827
+    - BGS-320625
+  annexes:
+    - id: ASUC
+  learningObjectiveIds:
+    - 032.03.03.01.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to CAP 698 Figure 3.1.
+
+        Given: OAT {{oat}} °C, pressure altitude {{pa}} ft, wind {{wdir}}°/{{wspd}} kt, take-off mass {{mass}} lb; other conditions as in the header of the graph.
+
+        What is the take-off distance?
+
+        Use the value read from the chart.
+      explanation: |-
+        The take-off distance is read from the performance chart by entering with temperature and pressure altitude, then applying the mass and wind corrections in the order shown on the chart. The headwind or tailwind component is derived from the wind direction relative to the runway.
+
+        **Solution**
+
+        The value read from the chart is {{tod_chart}} ft, so the answer is **{{answer}} ft**.
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft**: adding an unneeded safety factor.
+        - **{{d2}} ft**: applying a factor that is not part of the chart procedure (reading ground roll or ignoring the wind correction).
+        - **{{d3}} ft**: misreading the chart by one grid step.
+        - **{{d4}} ft**: applying the wrong correction factor.
+      presets:
+        - variables:
+            oat: 24
+            pa: 3000
+            wdir: 80
+            wspd: 12
+            mass: 3800
+            tod_chart: 1700
+            answer: 1700
+            d1: 1955
+            d2: 1445
+            d3: 1950
+            d4: 2125
+          correctAnswers:
+            - text: 1700 ft
+          wrongAnswers:
+            - text: 1955 ft
+            - text: 1950 ft
+            - text: 2125 ft
+            - text: 1445 ft
+        - variables:
+            oat: -15
+            pa: 4000
+            wdir: 80
+            wspd: 12
+            mass: 4000
+            tod_chart: 1550
+            answer: 1550
+            d1: 1782
+            d2: 1318
+            d3: 1800
+            d4: 1938
+          correctAnswers:
+            - text: 1550 ft
+          wrongAnswers:
+            - text: 1782 ft
+            - text: 1800 ft
+            - text: 1938 ft
+            - text: 1318 ft
+        - variables:
+            oat: 24
+            pa: 3000
+            wdir: 60
+            wspd: 4
+            mass: 3800
+            tod_chart: 2000
+            answer: 2000
+            d1: 2300
+            d2: 1700
+            d3: 2250
+            d4: 2500
+          correctAnswers:
+            - text: 2000 ft
+          wrongAnswers:
+            - text: 2300 ft
+            - text: 2250 ft
+            - text: 2500 ft
+            - text: 1700 ft
+- id: QZZEO
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds:
+    - QWXNI
+  externalQuestionIds:
+    - ATPLQ-329061
+  annexes:
+    - id: ASUC
+  learningObjectiveIds:
+    - 032.03.03.01.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to CAP 698 Figure 3.1.
+
+        Given: OAT {{oat}} °C, pressure altitude {{pa}} ft, wind {{wdir}}°/{{wspd}} kt, take-off mass {{mass}} lb; other conditions as in the header of the graph.
+
+        What is the ground roll distance?
+
+        Use the value read from the chart.
+      explanation: |-
+        The ground roll is the first part of the take-off distance and is read on the ground roll scale of the chart, not on the distance to 50 ft scale.
+
+        **Solution**
+
+        The value read from the chart is {{gr_chart}} ft, so the answer is **{{answer}} ft**.
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft**: reading the total distance to 50 ft instead of the ground roll.
+        - **{{d2}} ft**: a misread of the ground roll line.
+        - **{{d3}} ft**: adding an unneeded margin.
+        - **{{d4}} ft**: applying a safety factor not asked for.
+      presets:
+        - variables:
+            oat: 24
+            pa: 3000
+            wdir: 60
+            wspd: 4
+            mass: 3800
+            gr_chart: 1670
+            answer: 1670
+            d1: 2004
+            d2: 1503
+            d3: 2150
+            d4: 1920
+          correctAnswers:
+            - text: 1670 ft
+          wrongAnswers:
+            - text: 2004 ft
+            - text: 2150 ft
+            - text: 1920 ft
+            - text: 1503 ft
+- id: QMKIN
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325873
+  annexes:
+    - id: AGOD
+  learningObjectiveIds:
+    - 032.03.03.01.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure or CAP 698 figure 3.6. Given the following parameters, determine the all-engine and the engine-out rate of climb.
+
+        - Mass: {{mass}} lb
+        - Headwind: {{hw}} kt
+        - Temperature: {{oat}} °C
+        - Pressure altitude: {{pa}} ft
+
+        What are the all-engine and engine-out rates of climb?
+      explanation: |-
+        The all-engine and engine-out rates of climb are read from the climb figure for the given mass, headwind, temperature and pressure altitude.
+
+        **Solution**
+
+        Read the figure for 4300 lb, 25 kt headwind, 28 °C and 3000 ft: **all-engine 1675 fpm and engine-out 330 fpm**.
+
+        ## Why the other answers are wrong
+
+        - **All engine ROC = 1450 fpm and engine out ROC = 215 fpm.**: does not match the figure for these conditions. It is a misreading of a neighbouring line, column or scale.
+        - **All engine ROC = 2130 fpm and engine out ROC = 419 fpm.**: does not match the figure for these conditions. It is a misreading of a neighbouring line, column or scale.
+        - **All engine ROC = 1219 fpm and engine out ROC = 240 fpm.**: does not match the figure for these conditions. It is a misreading of a neighbouring line, column or scale.
+      presets:
+        - variables:
+            mass: 4300
+            hw: 25
+            oat: 28
+            pa: 3000
+          correctAnswers:
+            - text: All engine ROC = 1675 fpm and engine out ROC = 330 fpm.
+          wrongAnswers:
+            - text: All engine ROC = 1219 fpm and engine out ROC = 240 fpm.
+            - text: All engine ROC = 1450 fpm and engine out ROC = 215 fpm.
+            - text: All engine ROC = 2130 fpm and engine out ROC = 419 fpm.
+- id: QXXIL
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-323126
+    - BGS-321194
+    - AVEXAM-98405
+    - BGS-321042
+  annexes:
+    - id: AGOD
+  learningObjectiveIds:
+    - 032.03.03.01.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure (CAP 698 Figure 3.6). Calculate the all-engines obstacle clearance of a multi-engine aeroplane from the end of take-off (reference zero).
+
+        - Ground speed: {{gs}} kt
+        - Obstacle height: {{oh}} ft AGL
+        - Obstacle distance: {{dist}} ft from reference zero
+        - Rate of climb read from the chart: {{roc}} ft/min (1 NM = 6 080 ft)
+      explanation: |-
+        Time to the obstacle = distance / ground speed. Height gained = time x rate of climb. The clearance is the gained height minus the obstacle height.
+
+        **Solution**
+
+        Time = {{macro1}} min
+
+        $$
+        \frac{\text{Obstacle distance}\times 60}{\text{Ground speed}\times 6080}\times \text{Rate of climb read from the graph}-\text{Obstacle height} = \frac{15200\times 60}{121\times 6080}\times 1865-2000 = \mathbf{ {{answer}}\ \text{ft} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft**: the obstacle height not subtracted.
+        - **{{d2}} ft**: the obstacle height added instead of subtracted.
+        - **{{d3}} ft**: an unnecessary gross-to-net factor applied for all-engines.
+        - **{{d4}} ft**: distance in feet treated as nautical miles in the time calculation.
+      presets:
+        - variables:
+            gs: 121
+            oh: 2000
+            dist: 15200
+            roc: 1865
+            macro1: 1
+            answer: 312
+            d1: 2312
+            d2: 4312
+            d3: -222
+            d4: 1905
+          correctAnswers:
+            - text: 312 ft
+          wrongAnswers:
+            - text: 2312 ft
+            - text: -222 ft
+            - text: 1905 ft
+            - text: 4312 ft
+- id: QURVN
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324608
+    - AVEXAM-93473
+    - AVEXAM-44978
+    - BGS-320447
+    - BGS-320144
+    - AVEXAM-8132
+    - ATPLQ-325066
+  annexes: []
+  learningObjectiveIds:
+    - 032.03.03.01.05
+  templates:
+    - type: simple
+      question: Following a take-off limited by the 50 ft (15 m) screen height, a light twin climbs on a {{grad}}% over-the-ground gradient. What is the obstacle clearance margin above a {{oh}} m obstacle (relative to the runway), situated {{dist}} m from the 50 ft point? (give the answer in metres)
+      explanation: |-
+        The aeroplane starts at the 50 ft (15 m) screen height and gains height at the climb gradient over the ground distance. The clearance is the height at the obstacle minus the obstacle height.
+
+        **Solution**
+
+        Height gain = {{macro1}} m
+
+        $$
+        15+\frac{\text{Climb gradient}}{100}\times \text{Distance from the 50 ft point}-\text{Obstacle height} = 15+\frac{ {{grad}} }{100}\times {{dist}}-{{oh}} = \mathbf{ {{answer}}\ \text{m} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} m**: the 15 m screen height forgotten.
+        - **{{d2}} m**: the obstacle height added instead of subtracted.
+        - **{{d3}} m**: the sign reversed (obstacle minus climb).
+        - **{{d4}} m**: the screen height of 50 ft used as 50 m.
+      presets:
+        - variables:
+            grad: 5
+            oh: 160
+            dist: 5000
+            macro1: 250
+            answer: 105
+            d1: 90
+            d2: 425
+            d3: -105
+            d4: 140
+          correctAnswers:
+            - text: 105 m
+          wrongAnswers:
+            - text: 90 m
+            - text: -105 m
+            - text: 140 m
+            - text: 425 m
+        - variables:
+            grad: 10
+            oh: 215
+            dist: 3000
+            macro1: 300
+            answer: 100
+            d1: 85
+            d2: 530
+            d3: -100
+            d4: 135
+          correctAnswers:
+            - text: 100 m
+          wrongAnswers:
+            - text: 85 m
+            - text: -100 m
+            - text: 135 m
+            - text: 530 m
+- id: QKVUJ
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326659
+    - AVEXAM-33375
+    - AVEXAM-87632
+  annexes: []
+  learningObjectiveIds:
+    - 032.03.03.01.05
+  templates:
+    - type: simple
+      question: |-
+        Given the following information, what will be the distance covered from the end of runway to the point at which 1 500 ft will be reached above reference zero?
+
+        Performance Class: B   
+         Cloud base above reference zero: 300 ft   
+         Wind: 10 kt headwind   
+         ROC (all engines): 1 830 ft/min   
+         ROC (single engine): 400 ft/min   
+         TAS: 101 kt
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 4.82 NM
+          wrongAnswers:
+            - text: 5.35 NM
+            - text: 4.76 NM
+            - text: 4.55 NM
+- id: QUMHJ
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds:
+    - QWRFV
+  externalQuestionIds:
+    - ATPLQ-324283
+    - AVEXAM-89266
+    - BGS-320770
+    - ATPLQ-327846
+    - ATPLQ-323729
+    - ATPLQ-328863
+  annexes: []
+  learningObjectiveIds:
+    - 032.03.03.01.05
+  templates:
+    - type: simple
+      question: "Given the following information, what is the minimum vertical clearance of the obstacle by the Performance Class B aeroplane? Cloud base: 300 ft above reference zero No wind TAS: 101 kt Obstacle at 15000 ft from the end of TODR with a height of 600 ft above reference zero All Engines Rate of Climb (ROC) at Take-Off Power: 1830 ft/min Single Engine Rate of Climb (ROC) at Take-Off Power: 400 ft/min Take-Off Power can be used throughout the whole climb segment"
+      explanation: At 101 kt the aeroplane covers 15 000 ft in about 1.47 min. It climbs on all engines to the cloudbase at 300 ft (0.16 min at 1 830 ft/min), then on one engine at 400 ft/min for the remaining 1.3 min. That puts it at about 820 ft, which is **215 ft** above the 600 ft obstacle.
+      presets:
+        - correctAnswers:
+            - text: 215 ft
+          wrongAnswers:
+            - text: 815 ft
+            - text: 245 ft
+            - text: 40 ft
+        - correctAnswers:
+            - text: 275 ft
+          wrongAnswers:
+            - text: 890 ft
+            - text: 290 ft
+            - text: 40 ft
+        - correctAnswers:
+            - text: 156 ft
+          wrongAnswers:
+            - text: 275 ft
+            - text: 105 ft
+            - text: Obstacle clearance is not assured.
+        - correctAnswers:
+            - text: 290 ft
+          wrongAnswers:
+            - text: 890 ft
+            - text: 335 ft
+            - text: 40 ft
+- id: QWRFV
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds:
+    - QUMHJ
+  externalQuestionIds:
+    - ATPLQ-328462
+    - BGS-320557
+    - BGS-320561
+    - AVEXAM-35178
+  annexes: []
+  learningObjectiveIds:
+    - 032.03.03.01.05
+  templates:
+    - type: simple
+      question: |-
+        Given the following information, what is the distance from the end of the TODR to 1500 ft above reference zero for the purpose of obstacle clearance for a performance class B aeroplane?
+
+        Cloud base: 300 ft above reference zero   
+         Tas: 101 kt   
+         No wind   
+         All engines rate of climb at take off power: 1830 ft/min   
+         Single engine rate of climb at take off power: 400 ft /min
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 5.35 NM
+          wrongAnswers:
+            - text: 5.05 NM
+            - text: 5.28 NM
+            - text: 6.31 NM
+- id: QYVZG
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322005
+    - AVEXAM-52118
+    - BGS-320733
+  annexes:
+    - id: AZAI
+  learningObjectiveIds:
+    - 032.03.03.01.06
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure (CAP 698 file 2.1). Calculate the minimum acceptable headwind component for commercial air transport with a single-engine aeroplane. The wind component read from the figure is {{wcread}} kt headwind; give a headwind as a positive number and a tailwind as negative. Given:
+
+        - TORA: {{tora}} ft
+        - ASDA: {{asda}} ft
+        - TODA: {{toda}} ft
+
+        Runway paved and level
+
+        - Mass: {{mass}} lb
+        - Pressure altitude: {{pa}} ft
+        - Temperature: {{oat}}°C
+      explanation: |-
+        The take-off distance chart shows the wind component needed so that the take-off distance required fits the available distance; a positive result is a headwind that is required at minimum.
+
+        **Solution**
+
+        Following the chart through mass, pressure altitude, temperature and the available distance gives **{{answer}} kt** headwind.
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kt**: a reading that is too low (the zero-wind line misread).
+        - **{{d2}} kt**: a reading from the wrong distance line.
+        - **{{d3}} kt**: the wrong sign: a tailwind instead of a headwind.
+        - **{{d4}} kt**: a small misread of the distance axis.
+      presets:
+        - variables:
+            wcread: 5
+            tora: 2300
+            asda: 2500
+            toda: 2750
+            mass: 3300
+            pa: 1000
+            oat: 31
+            answer: 5
+            d1: 3
+            d2: 20
+            d3: -3
+            d4: 8
+          correctAnswers:
+            - text: 5 kt
+          wrongAnswers:
+            - text: 3 kt
+            - text: -3 kt
+            - text: 8 kt
+            - text: 20 kt
+- id: QUGDV
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326431
+    - BGS-320775
+    - AVEXAM-213
+    - AVEXAM-72624
+    - AVEXAM-51241
+  annexes: []
+  learningObjectiveIds:
+    - 032.03.03.01.07
+  templates:
+    - type: simple
+      question: A Performance Class B aeroplane is being used in a Commercial Air Transport operation. No stopway or clearway is available. The unfactored Take-Off Distance, specified in the AFM, shall not exceed the Take-Off Run Available TORA when multiplied by a factor of…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1.25.
+          wrongAnswers:
+            - text: 1.5.
+            - text: 1.15.
+            - text: 1.3.
+    - type: simple
+      question: "Consider a performance class B aeroplane which is used for commercial transports and a runway where a clearway or a stopway is available. The take-off mass shall not exceed the maximum take-off mass specified in the AFM for the pressure altitude and the ambient temperature at the aerodrome of departure. The unfactored take-off distance, specified in the AFM, shall not exceed the take-off distance available (TODA), when multiplied by a factor of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1.15"
+          wrongAnswers:
+            - text: "1.25"
+            - text: "1.5"
+            - text: "1.3"
+        - correctAnswers:
+            - text: "1.3"
+          wrongAnswers:
+            - text: "1.15"
+            - text: "1.5"
+            - text: "1.25"
+- id: QCOTD
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-323763
+    - BGS-321272
+    - AVEXAM-13476
+  annexes: []
+  learningObjectiveIds:
+    - 032.03.03.01.07
+  templates:
+    - type: simple
+      question: The crew of a large Commercial Air Transport twin-engined turbojet aeroplane are preparing to take off on an icy runway. In case of an engine failure during the take-off run, when compared to a dry runway, the flight crew expects that controlling the aeroplane's yaw will be...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: More difficult due to low friction forces.
+          wrongAnswers:
+            - text: More or less difficult, depending on the thickness of ice on the runway.
+            - text: Less difficult because of the increased displacement drag and impingement drag due to the ice.
+            - text: Unchanged whatever the runway conditions.
+    - type: simple
+      question: Consider a large Commercial Air Transport twin-engined turbojet aeroplane, taking off on an icy runway. If one engine fails during the take-off run, compared to a dry runway, controlling the aeroplane's yaw will be...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: More difficult due to low friction forces.
+          wrongAnswers:
+            - text: Unchanged whatever the runway conditions.
+            - text: More or less difficult, depending on the thickness of ice on the runway.
+            - text: Less difficult because of the increased displacement drag and impingement drag due to the ice.
+- id: QZJAQ
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-329839
+  annexes:
+    - id: ANFK
+  learningObjectiveIds:
+    - 032.03.03.01.08
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure (CAP 698 figure 2.2).
+
+        Calculate the take-off distance required for a performance class B single engine piston aircraft in Commercial Air Transport, given: pressure altitude {{pa}} ft, OAT {{oat}} °C, take-off mass {{mass}} lb, wind {{hw}} kt headwind, runway surface 5 cm grass, dry (correction factor {{corr}}), unbalanced field lengths, regulatory factor (CAT) {{reg}}.
+
+        The chart distance (before the factors) read from the figure is {{chart_dist}} ft.
+      explanation: |-
+        The required distance is the chart distance multiplied by the surface correction factor and by the regulatory factor for commercial air transport.
+
+        **Solution**
+
+        $$
+        \text{Distance read from the chart}\times \text{Surface correction factor}\times \text{Regulatory factor} = 1956.5\times 1.2\times 1.15 = \mathbf{ {{answer}}\ \text{ft} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft**: using the chart value without any factor.
+        - **{{d2}} ft**: forgetting the regulatory factor.
+        - **{{d3}} ft**: forgetting the surface correction factor.
+        - **{{d4}} ft**: adding the factors instead of multiplying them.
+      presets:
+        - variables:
+            pa: 1000
+            oat: 25
+            mass: 3600
+            hw: 10
+            corr: 1.2
+            reg: 1.15
+            chart_dist: 1956.5
+            answer: 2700
+            d1: 1957
+            d2: 2348
+            d3: 2250
+            d4: 4598
+          correctAnswers:
+            - text: 2700 ft
+          wrongAnswers:
+            - text: 1957 ft
+            - text: 2250 ft
+            - text: 4598 ft
+            - text: 2348 ft
+- id: QAEJL
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324961
+    - AVEXAM-4414
+    - BGS-320122
+    - ATPLQ-322928
+    - ATPLQ-325548
+  annexes: []
+  learningObjectiveIds:
+    - 032.03.03.02.01
+  templates:
+    - type: simple
+      question: "Given a climb gradient of {{grad}} % and a groundspeed of {{gs}} kt, the rate of climb that will be achieved is (to the nearest 10 ft/min):"
+      explanation: |-
+        Rate of climb equals climb gradient (as a fraction) times groundspeed. With the speed in kt, multiply by 101.27 to obtain ft/min.
+
+        **Solution**
+
+        $$\frac{\text{Climb gradient}}{100}\times \text{Groundspeed}\times 101.27$$ = $$\frac{ {{grad}} }{100}\times {{gs}}\times 101.27$$ = {{macro3}} ft/min, rounded to **{{answer}} ft/min**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft/min**: a calculation slip adding a margin.
+        - **{{d2}} ft/min**: using 1 kt = 100 ft/min with an arithmetic slip.
+        - **{{d3}} ft/min**: applying an unjustified 50 % factor.
+        - **{{d4}} ft/min**: converting knots to ft/min with 0.6076 (a NM/ft mix-up) instead of 101.27.
+      presets:
+        - variables:
+            grad: 3.3
+            gs: 100
+            macro3: 334
+            answer: 330
+            d1: 370
+            d2: 300
+            d3: 500
+            d4: 200
+          correctAnswers:
+            - text: 330 ft/min
+          wrongAnswers:
+            - text: 370 ft/min
+            - text: 500 ft/min
+            - text: 200 ft/min
+            - text: 300 ft/min
+        - variables:
+            grad: 5
+            gs: 120
+            macro3: 608
+            answer: 610
+            d1: 650
+            d2: 570
+            d3: 910
+            d4: 360
+          correctAnswers:
+            - text: 610 ft/min
+          wrongAnswers:
+            - text: 650 ft/min
+            - text: 910 ft/min
+            - text: 360 ft/min
+            - text: 570 ft/min
+        - variables:
+            grad: 2.5
+            gs: 90
+            macro3: 228
+            answer: 230
+            d1: 270
+            d2: 200
+            d3: 340
+            d4: 140
+          correctAnswers:
+            - text: 230 ft/min
+          wrongAnswers:
+            - text: 270 ft/min
+            - text: 340 ft/min
+            - text: 140 ft/min
+            - text: 200 ft/min
+    - type: simple
+      question: "At sea level ISA an aircraft has a rate of climb of 650 ft/min at an indicated air speed of 85 KTS. The climb gradient in still air is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 7.5%
+          wrongAnswers:
+            - text: 13%
+            - text: 1.3%
+            - text: 0.75%
+    - type: simple
+      question: Calculate the still air gradient of climb, given that the aircraft climbs at 1500 fpm with a TAS of 300 kts and there is a tailwind of 50 kts.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 4.9%
+          wrongAnswers:
+            - text: 4.1%
+            - text: 5.4%
+            - text: 5.9%
+- id: QDBYK
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-328512
+    - AVEXAM-39868
+    - BGS-320166
+    - BGS-320167
+    - BGS-320168
+  annexes:
+    - id: ASAV
+  learningObjectiveIds:
+    - 032.03.03.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure or CAP698 file 3.7.  
+        Given the following conditions
+
+        OAT: 0°C  
+        Pressure altitude: 18000 ft  
+        Gross mass: 3750 lb  
+        Mixture: leaned to 25° F rich of peak EGT  
+        Other conditions as associated in the header of the graph.
+
+        What is the two engine rate of climb?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1050 ft/min
+          wrongAnswers:
+            - text: 1200 ft/min
+            - text: 500 ft/min
+            - text: 870 ft/min
+- id: QHIRE
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324576
+    - BGS-320164
+    - BGS-320165
+    - BGS-320163
+  annexes:
+    - id: ASAV
+  learningObjectiveIds:
+    - 032.03.03.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure or CAP698 file 3.7. Given the following conditions:
+
+        - OAT: {{oat}} °C
+        - Pressure altitude: {{pa}} ft
+        - Gross mass: {{mass}} lb
+
+        Mixture: leaned to 25° F rich of peak EGT
+
+        Other conditions as associated in the header of the graph. What is the two engine rate of climb? (The value is read from the graph.)
+      explanation: |-
+        The two engine rate of climb is read from the climb performance graph with pressure altitude, OAT and gross mass, using the mixture line for the leaned setting stated in the question.
+
+        **Solution**
+
+        Entering the figure with the given conditions gives two engine rate of climb = **{{answer}} ft/min**.
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft/min**: an overstated reading from the graph (+30 %).
+        - **{{d2}} ft/min**: a reading that is about half the correct value.
+        - **{{d3}} ft/min**: reading the wrong mixture line or altitude (180 ft/min too low).
+        - **{{d4}} ft/min**: reading the wrong mixture line or altitude (320 ft/min too high).
+      presets:
+        - variables:
+            oat: -20
+            pa: 18000
+            mass: 4000
+            answer: 1050
+            d1: 1365
+            d2: 546
+            d3: 870
+            d4: 1370
+          correctAnswers:
+            - text: 1050 ft/min
+          wrongAnswers:
+            - text: 1365 ft/min
+            - text: 870 ft/min
+            - text: 1370 ft/min
+            - text: 546 ft/min
+- id: QOVER
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325954
+    - AVEXAM-82955
+  annexes: []
+  learningObjectiveIds:
+    - 032.03.03.02.01
+  templates:
+    - type: simple
+      question: |-
+        At an aerodrome, the minimum climb gradient for obstacle clearance is {{grad}} %. What is the minimum rate of climb (in ft/min, rounded to the nearest 10) the pilot has to maintain during the climb?
+
+        - TAS: {{tas}} kt
+        - Tailwind: {{tw}} kt
+
+        (1 NM = 6076 ft)
+      explanation: |-
+        A climb gradient is the ratio of height gained to horizontal distance covered over the ground, so the required rate of climb equals gradient times ground speed. With a tailwind the ground speed is higher than the TAS, so a higher rate of climb is needed.
+
+        **Solution**
+
+        Ground speed = {{tas}} + {{tw}} = {{macro1}} kt = {{macro2}} ft/min
+
+        $$\frac{\frac{\text{Minimum climb gradient}}{100}\times (\text{TAS}+\text{Tailwind component})\times 6076}{60} = \frac{\frac{ {{grad}} }{100}\times ({{tas}}+{{tw}})\times 6076}{60}$$ ft/min, i.e. about **{{answer}} ft/min**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft/min**: subtracts the tailwind (treats it as a headwind).
+        - **{{d2}} ft/min**: ignores the wind and uses the TAS as ground speed.
+        - **{{d3}} ft/min**: uses 60 instead of 6076/60 to convert knots to ft/min.
+        - **{{d4}} ft/min**: uses 1852 (metres per NM) instead of 6076 ft per NM.
+      presets:
+        - variables:
+            grad: 6.3
+            tas: 135
+            tw: 8
+            macro1: 143
+            macro2: 14481
+            answer: 910
+            d1: 810
+            d2: 861
+            d3: 541
+            d4: 278
+          correctAnswers:
+            - text: 910 ft/min
+          wrongAnswers:
+            - text: 810 ft/min
+            - text: 541 ft/min
+            - text: 278 ft/min
+            - text: 861 ft/min
+        - variables:
+            grad: 5
+            tas: 120
+            tw: 10
+            macro1: 130
+            macro2: 13165
+            answer: 660
+            d1: 557
+            d2: 608
+            d3: 390
+            d4: 201
+          correctAnswers:
+            - text: 660 ft/min
+          wrongAnswers:
+            - text: 557 ft/min
+            - text: 390 ft/min
+            - text: 201 ft/min
+            - text: 608 ft/min
+        - variables:
+            grad: 4.5
+            tas: 150
+            tw: 5
+            macro1: 155
+            macro2: 15696
+            answer: 710
+            d1: 661
+            d2: 684
+            d3: 419
+            d4: 215
+          correctAnswers:
+            - text: 710 ft/min
+          wrongAnswers:
+            - text: 661 ft/min
+            - text: 419 ft/min
+            - text: 215 ft/min
+            - text: 684 ft/min
+- id: QDRSQ
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-328670
+    - AVEXAM-9642
+    - BGS-320772
+  annexes:
+    - id: AGOD
+  learningObjectiveIds:
+    - 032.03.03.02.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure (CAP 698 file 3.6). Given the following information, determine the obstacle clearance in the departure area.
+
+        - Obstacle distance: {{dist}} NM from the threshold
+        - Obstacle height: {{oh}} ft above the threshold
+        - Ground speed: {{gs}} kt
+        - Gross-to-net correction: {{gn}}
+        - Rate of climb read from the chart (gross): {{roc}} ft/min
+
+        Height gain = distance / GS x ROC x 60 (distance in NM, GS in kt)
+      explanation: |-
+        The net height gained over the distance to the obstacle is the gross height divided by the gross-to-net factor; the clearance is that net height minus the obstacle height.
+
+        **Solution**
+
+        Time to the obstacle = {{macro1}} min
+
+        $$
+        \frac{\frac{\text{Obstacle distance}}{\text{Ground speed}}\times \text{Gross rate of climb read from the graph}\times 60}{\text{Gross-to-net factor}}-\text{Obstacle height} = \frac{\frac{0.5}{110}\times 1173\times 60}{1.3}-72 = \mathbf{ {{answer}}\ \text{ft} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft**: the gross height used, without the gross-to-net correction.
+        - **{{d2}} ft**: the correction factor multiplied instead of divided.
+        - **{{d3}} ft**: the obstacle height not subtracted.
+        - **{{d4}} ft**: the obstacle height added instead of subtracted.
+      presets:
+        - variables:
+            dist: 0.5
+            oh: 72
+            gs: 110
+            gn: 1.3
+            roc: 1173
+            macro1: 0
+            answer: 174
+            d1: 248
+            d2: 344
+            d3: 246
+            d4: 318
+          correctAnswers:
+            - text: 174 ft
+          wrongAnswers:
+            - text: 248 ft
+            - text: 246 ft
+            - text: 318 ft
+            - text: 344 ft
+- id: QPHEW
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-329112
+    - ATPLQ-322342
+  annexes:
+    - id: AGOD
+  learningObjectiveIds:
+    - 032.03.03.02.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. For a mass of 4 200 lb, pressure altitude 4 000 ft, OAT +30°C, 20 kt headwind, all engines operating, the figure gives a height gain of {{gain_per_nm}} ft per NM (read from the figure).
+
+        - Distance flown: {{dist}} NM
+
+        What is the aircraft height gain after this distance, in feet?
+      explanation: |-
+        The climb chart gives the height gained for each nautical mile flown under the given conditions. The height gain for a longer distance is simply that rate multiplied by the distance flown.
+
+        **Solution**
+
+        $$
+        \text{Height gain per NM (read from figure)}\times \text{Distance flown} = {{gain_per_nm}}\times {{dist}} = \mathbf{ {{answer}}\ \text{ft} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft**: gives the height gain for one nautical mile only and forgets the distance flown.
+        - **{{d2}} ft**: divides by the distance instead of multiplying, which makes the result far too small.
+        - **{{d3}} ft**: multiplies by 1.852, a conversion between nautical miles and kilometres that does not apply here.
+        - **{{d4}} ft**: reads the chart 100 ft per NM too high, which is a misreading of the figure.
+      presets:
+        - variables:
+            gain_per_nm: 1320
+            dist: 2.5
+            answer: 3300
+            d1: 1320
+            d2: 528
+            d3: 6112
+            d4: 3050
+          correctAnswers:
+            - text: 3300 ft
+          wrongAnswers:
+            - text: 1320 ft
+            - text: 6112 ft
+            - text: 3050 ft
+            - text: 528 ft
+        - variables:
+            gain_per_nm: 900
+            dist: 2.2
+            answer: 1980
+            d1: 900
+            d2: 409
+            d3: 3667
+            d4: 1760
+          correctAnswers:
+            - text: 1980 ft
+          wrongAnswers:
+            - text: 900 ft
+            - text: 3667 ft
+            - text: 1760 ft
+            - text: 409 ft
+        - variables:
+            gain_per_nm: 1500
+            dist: 1.8
+            answer: 2700
+            d1: 1500
+            d2: 833
+            d3: 5000
+            d4: 2520
+          correctAnswers:
+            - text: 2700 ft
+          wrongAnswers:
+            - text: 1500 ft
+            - text: 5000 ft
+            - text: 2520 ft
+            - text: 833 ft
+- id: QGADB
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326320
+    - BGS-321212
+    - BGS-320570
+    - AVEXAM-26694
+    - AVEXAM-82835
+    - ATPLQ-327221
+  annexes: []
+  learningObjectiveIds:
+    - 032.03.03.02.03
+  templates:
+    - type: simple
+      question: |-
+        A departure procedure requires a climb gradient of {{grad}}% to an obstacle clearance altitude. Given the data below, estimate the minimum rate of climb required.
+
+        - TAS: {{tas}} kt
+        - Average headwind component: {{hw}} kt
+      explanation: |-
+        A required climb gradient must be flown over the ground, so the rate of climb depends on the groundspeed, not the TAS. Groundspeed is TAS minus the headwind component, and 1 kt is about 101 ft/min.
+
+        **Solution**
+
+        GS = {{macro1}} kt
+
+        $$
+        \frac{\text{Climb gradient}}{100}\times (\text{TAS}-\text{Headwind})\times 101 = \frac{ {{grad}} }{100}\times ({{tas}}-{{hw}})\times 101 = \mathbf{ {{answer}}\ \text{ft/min} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft/min**: uses the TAS instead of the groundspeed (headwind ignored).
+        - **{{d2}} ft/min**: adds the headwind instead of subtracting it.
+        - **{{d3}} ft/min**: uses a wrong knots-to-ft/min conversion (60.76 instead of about 101).
+      presets:
+        - variables:
+            grad: 4.6
+            tas: 125
+            hw: 25
+            macro1: 100
+            answer: 465
+            d1: 575
+            d2: 690
+            d3: 279
+          correctAnswers:
+            - text: 465 ft/min
+          wrongAnswers:
+            - text: 279 ft/min
+            - text: 575 ft/min
+            - text: 690 ft/min
+        - variables:
+            grad: 5
+            tas: 120
+            hw: 20
+            macro1: 100
+            answer: 505
+            d1: 600
+            d2: 700
+            d3: 304
+          correctAnswers:
+            - text: 505 ft/min
+          wrongAnswers:
+            - text: 304 ft/min
+            - text: 600 ft/min
+            - text: 700 ft/min
+        - variables:
+            grad: 4
+            tas: 140
+            hw: 30
+            macro1: 110
+            answer: 444
+            d1: 560
+            d2: 680
+            d3: 267
+          correctAnswers:
+            - text: 444 ft/min
+          wrongAnswers:
+            - text: 267 ft/min
+            - text: 560 ft/min
+            - text: 680 ft/min
+- id: QOURB
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds:
+    - QYOTD
+  externalQuestionIds:
+    - BGS-320162
+    - AVEXAM-11922
+  annexes: []
+  learningObjectiveIds:
+    - 032.03.03.02.03
+  templates:
+    - type: simple
+      question: The climb gradient of an aircraft after take-off is {{base}} % in a standard atmosphere, with no wind, at 0 ft pressure altitude. The corrections are ± 0.2 % per 1 000 ft of pressure altitude, ± 0.1 % per °C from the standard temperature, {{wing}} % with wing anti-ice and {{engine}} % with engine anti-ice. What is the climb gradient after take-off from an aerodrome at {{pa}} ft pressure altitude with an OAT of {{oat}} °C and both anti-ice systems on?
+      explanation: "The corrections are added to the base gradient of {{base}} %. Pressure altitude: −0.2 % per 1 000 ft × {{thousands}} = −{{altitude}} %. ISA temperature at {{pa}} ft is {{isa}} °C, so the deviation is {{deviation}} °C and the correction is −{{temperature}} %. Anti-ice: wing {{wing}} % and engine {{engine}} %. Total correction = {{total}} %. Climb gradient = {{base}} − {{total}} = **{{answer}} %**."
+      presets:
+        - variables:
+            base: 6
+            wing: −1.0
+            engine: −0.5
+            pa: 1 000
+            thousands: 1
+            oat: 17
+            altitude: "0.2"
+            isa: 13
+            deviation: 4
+            temperature: "0.4"
+            total: "2.1"
+            answer: "3.9"
+          correctAnswers:
+            - text: 3.9 %
+          wrongAnswers:
+            - text: 4.3 %
+            - text: 4.7 %
+            - text: 4.9 %
+        - variables:
+            base: 6
+            wing: −0.1
+            engine: −0.2
+            pa: 1 000
+            thousands: 1
+            oat: 17
+            altitude: "0.2"
+            isa: 13
+            deviation: 4
+            temperature: "0.4"
+            total: "0.9"
+            answer: "5.1"
+          correctAnswers:
+            - text: 5.1 %
+          wrongAnswers:
+            - text: 5.5 %
+            - text: 6.3 %
+            - text: 3.8 %
+- id: QLDYK
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326764
+    - AVEXAM-66355
+  annexes: []
+  learningObjectiveIds:
+    - 032.03.03.02.03
+  templates:
+    - type: simple
+      question: |-
+        The climb gradient of an aircraft after take-off is {{base}}% in standard atmosphere, no wind, at 0 ft pressure altitude. Use the following corrections:
+
+        - ± {{ce}}% per 1 000 ft field elevation
+        - ± {{ct}}% per °C from standard temperature
+        - -{{wing}}% with wing anti-ice
+        - -{{eng}}% with engine anti-ice
+
+        What is the climb gradient after take-off from an airport at {{elev}} ft elevation, {{temp}}°C, QNH 1013.25 hPa, with wing and engine anti-ice operating? (ISA: 15°C at sea level, -2°C per 1 000 ft)
+      explanation: |-
+        The gradient is corrected downwards for field elevation, for temperatures above ISA and for each anti-ice system in use. The temperature correction applies to the deviation from the ISA temperature at the field elevation.
+
+        **Solution**
+
+        ISA temperature at {{elev}} ft = $$15-\frac{2\times {{elev}} }{1000}$$ = {{macro2}} °C, so the deviation is {{macro3}} °C.
+
+        $$
+        \text{base gradient}-\frac{\text{elevation correction per 1 000 ft}\times \text{elevation}}{1000}-\text{temperature correction per °C}\times (\text{OAT}-(15-\frac{2\times \text{elevation}}{1000}))-\text{wing anti-ice correction}-\text{engine anti-ice correction} = {{base}}-\frac{0.2\times {{elev}} }{1000}-0.1\times ({{temp}}-(15-\frac{2\times {{elev}} }{1000}))-1-0.5 = \mathbf{ {{answer}}\ \text{%} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} %**: applies only the engine anti-ice correction and forgets the wing anti-ice correction.
+        - **{{d2}} %**: forgets the temperature correction.
+        - **{{d3}} %**: adds the elevation correction instead of subtracting it and forgets the temperature correction.
+      presets:
+        - variables:
+            base: 6
+            ce: 0.2
+            ct: 0.1
+            wing: 1
+            eng: 0.5
+            elev: 1000
+            temp: 17
+            macro2: 13
+            macro3: 4
+            answer: 3.9
+            d1: 4.9
+            d2: 4.3
+            d3: 4.7
+          correctAnswers:
+            - text: 3.9 %
+          wrongAnswers:
+            - text: 4.7 %
+            - text: 4.9 %
+            - text: 4.3 %
+        - variables:
+            base: 5
+            ce: 0.2
+            ct: 0.1
+            wing: 1
+            eng: 0.5
+            elev: 2000
+            temp: 22
+            macro2: 11
+            macro3: 11
+            answer: 2
+            d1: 3
+            d2: 3.1
+            d3: 3.9
+          correctAnswers:
+            - text: 2 %
+          wrongAnswers:
+            - text: 3.9 %
+            - text: 3 %
+            - text: 3.1 %
+        - variables:
+            base: 7
+            ce: 0.2
+            ct: 0.1
+            wing: 1
+            eng: 0.5
+            elev: 500
+            temp: 10
+            macro2: 14
+            macro3: -4
+            answer: 5.8
+            d1: 6.8
+            d2: 5.4
+            d3: 5.6
+          correctAnswers:
+            - text: 5.8 %
+          wrongAnswers:
+            - text: 5.6 %
+            - text: 6.8 %
+            - text: 5.4 %
+- id: QMTKZ
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-327089
+    - BGS-321182
+    - AVEXAM-82767
+    - BGS-321013
+    - BGS-320851
+    - ATPLQ-324802
+    - AVEXAM-730510
+    - BGS-321055
+  annexes:
+    - id: AYSQ
+  learningObjectiveIds:
+    - 032.03.03.04.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure (CAP 698 Figure 3.10). Given the following information, calculate the field-length limited landing mass and the 50 ft barrier speed for a Performance Class B aeroplane.
+
+        - OAT: +{{oat}} °C
+        - Aerodrome pressure altitude: {{pa}} ft
+        - Headwind component: {{headwind}} kt
+        - Defactored landing distance: {{ldd}} ft
+        - Technique: short field landing
+
+        What are the landing mass and the 50 ft barrier speed?
+      explanation: |-
+        The field-length limited landing mass is the heaviest mass that can stop within the defactored landing distance. Enter the chart with the temperature, pressure altitude, headwind and defactored distance. The 50 ft barrier speed is read from the same mass line.
+
+        **Solution**
+
+        For a defactored landing distance of {{ldd}} ft at +{{oat}} °C, {{pa}} ft and a {{headwind}} kt headwind, the chart gives a landing mass of **3950 lb** and a 50 ft barrier speed of **77 kt**.
+
+        ## Why the other answers are wrong
+
+        - **3500 lb, 73 kt**: reads a lower mass line, which gives a lower speed.
+        - **4450 lb, 81 kt**: reads a higher mass line, which needs a longer distance than available.
+        - **3200 lb, 70 kt**: applies the headwind correction twice.
+      presets:
+        - variables:
+            oat: 15
+            pa: 6000
+            headwind: 10
+            ldd: 2075
+          correctAnswers:
+            - text: 3950 lb, 77 kt
+          wrongAnswers:
+            - text: 3200 lb, 70 kt
+            - text: 3500 lb, 73 kt
+            - text: 4450 lb, 81 kt
+- id: QWRIJ
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-329405
+    - BGS-321151
+    - BGS-321269
+  annexes:
+    - id: ANJK
+  learningObjectiveIds:
+    - 032.03.03.04.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Using the provided graph, find the rate of climb for a multi-engine piston airplane in the event of a balked landing. Consider the following data:
+
+        Outside Air Temperature: 20°C   
+         Pressure Altitude: 4000 ft
+      explanation: In Figure 3.8, enter on the temperature scale at 20 °C, go up to the 4 000 ft pressure altitude line, then across to the rate of climb scale. The value read is 800 ft/min.
+      presets:
+        - correctAnswers:
+            - text: 800 ft/min
+          wrongAnswers:
+            - text: 720 ft/min
+            - text: 840 ft/min
+            - text: 760 ft/min
+- id: QXCKQ
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322231
+    - AVEXAM-86302
+    - BGS-320606
+  annexes:
+    - id: ANJK
+  learningObjectiveIds:
+    - 032.03.03.04.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure. Find the available rate of climb of a twin piston engine aeroplane in case of a balked landing, given:
+
+        - Airport elevation: {{elev}} ft
+        - Temperature: ISA +{{isa}} °C
+        - QNH: {{qnh}} hPa
+        - Landing mass: {{mass}} lb
+      explanation: |-
+        The available rate of climb for a balked landing is read from the balked landing figure for the airport elevation, temperature, QNH and landing mass.
+
+        **Solution**
+
+        Read the figure for 3000 ft, ISA +10 °C, 1030 hPa and 8400 lb: **1630 ft/min**.
+
+        ## Why the other answers are wrong
+
+        - **2030 ft/min**: does not match the figure for these conditions. It is a misreading of a neighbouring line, column or scale.
+        - **1760 ft/min**: does not match the figure for these conditions. It is a misreading of a neighbouring line, column or scale.
+        - **1430 ft/min**: does not match the figure for these conditions. It is a misreading of a neighbouring line, column or scale.
+      presets:
+        - variables:
+            elev: 3000
+            isa: 10
+            qnh: 1030
+            mass: 8400
+          correctAnswers:
+            - text: 1630 ft/min
+          wrongAnswers:
+            - text: 1430 ft/min
+            - text: 2030 ft/min
+            - text: 1760 ft/min
+- id: QDNTH
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-323706
+    - AVEXAM-28983
+  annexes:
+    - id: ATZF
+  learningObjectiveIds:
+    - 032.03.03.04.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. Given the following conditions, calculate the landing distance for a multi-engine piston aeroplane:
+
+        - Temperature (OAT): 0°C
+        - Pressure altitude: 2 000 ft
+        - Aircraft mass: 4 000 lb
+        - Headwind: 5 kt
+        - Barrier speed: 85 kt
+      explanation: |-
+        The landing distance is read from the figure for the given temperature, pressure altitude, mass, headwind and barrier speed.
+
+        The correct answer is **2 320 ft**.
+
+        ## Why the other answers are wrong
+
+        - **3 320 ft**: the distance is read 1 000 ft too high from the figure.
+        - **1 120 ft**: the distance is read far too low from the figure.
+        - **2 420 ft**: the distance is read 100 ft too high from the figure.
+      presets:
+        - correctAnswers:
+            - text: 2320 ft
+          wrongAnswers:
+            - text: 2420 ft
+            - text: 3320 ft
+            - text: 1120 ft
+- id: QLOAC
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-323557
+  annexes:
+    - id: AXWE
+  learningObjectiveIds:
+    - 032.03.03.04.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure (annex 032-005 or CAP 698 Figure 2.4). Using the annex, determine the ground roll distance of a SEP aircraft landing on runway 15 in the following conditions.
+
+        - OAT: {{oat}} °C
+        - Pressure altitude: {{pa}} ft AMSL
+        - Wind: {{wdir}}° / {{wspd}} kt
+        - Mass: {{mass}} lb
+        - Runway state: wet paved
+
+        What is the ground roll distance?
+      explanation: |-
+        The landing ground roll is read from the annex for the runway state. Enter with the temperature, pressure altitude and mass, then correct for the wind component along the runway, not the full wind speed.
+
+        **Solution**
+
+        For {{oat}} °C, {{pa}} ft, a mass of {{mass}} lb and a wind of {{wdir}}° / {{wspd}} kt on a wet paved runway 15, the annex gives a ground roll of **1188 ft**.
+
+        ## Why the other answers are wrong
+
+        - **1437 ft**: uses the dry paved line instead of the wet paved line.
+        - **1667 ft**: uses the full wind speed instead of the component along the runway.
+        - **950 ft**: reads the line for a lower mass.
+      presets:
+        - variables:
+            oat: 18
+            pa: 3000
+            wdir: 210
+            wspd: 10
+            mass: 3120
+          correctAnswers:
+            - text: 1188 ft
+          wrongAnswers:
+            - text: 950 ft
+            - text: 1437 ft
+            - text: 1667 ft
+- id: QJCFT
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326023
+    - AVEXAM-310
+    - ATPLQ-324184
+  annexes: []
+  learningObjectiveIds:
+    - 032.03.03.04.04
+  templates:
+    - type: simple
+      question: |-
+        Given the following information, determine the defactored landing distance for a piston aircraft operated for commercial air transport...
+
+        OAT: 10°C   
+         Pressure altitude: 3000 ft   
+         Landing distance available (LDA): 2200 ft   
+         Runway downslope: 0.5%   
+         Runway surface: Paved (Wet)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1307 ft
+          wrongAnswers:
+            - text: 1350 ft
+            - text: 2200 ft
+            - text: 1540 ft
+    - type: simple
+      question: |-
+        Refer to figure. 
+        A single engine piston aeroplane operating a commercial flight plans to land at an aerodrome with a published LDA of 3150 m. Calculate the maximum gross landing distance given the following:Surface: paved 
+        Surface condition: wet 
+        Downslope: 1.4%
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1781 m
+          wrongAnswers:
+            - text: 1600 m
+            - text: 2100 m
+            - text: 1915 m
+- id: QURIR
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-327777
+    - ATPLQ-327879
+    - AVEXAM-60369
+    - BGS-320977
+    - BGS-321167
+    - ATPLQ-326147
+    - ATPLQ-325212
+    - ATPLQ-324345
+    - BGS-321240
+    - AVEXAM-730505
+  annexes: []
+  learningObjectiveIds:
+    - 032.03.03.04.04
+  templates:
+    - type: simple
+      question: |-
+        Determine the maximum de-factored landing distance (the distance to use in the landing performance graph) for a Performance Class B aeroplane operated for Commercial Air Transport, given:
+
+        Landing distance available: {{lda}} ft
+        Runway surface: paved
+        Runway condition: wet (factor 1.15)
+        Runway slope: {{slope}}% downslope
+
+        The landing distance must be increased by 5% for each 1% downslope.
+      explanation: |-
+        For Class B aeroplanes the landing distance required may not exceed LDA divided by the product of the applicable factors: 1.43 (regulatory factor), 1.15 for a wet runway and the downslope correction of 5% per 1% of slope. The result is the distance used to enter the landing graph.
+
+        **Solution**
+
+        Slope factor = 1 + 0.05 x {{slope}} = {{macro1}}
+
+        $$
+        \frac{\text{LDA}}{1.43\times 1.15\times (1+0.05\times \text{Downslope})} = \frac{ {{lda}} }{1.43\times 1.15\times (1+0.05\times {{slope}})} = \mathbf{ {{answer}}\ \text{ft} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft**: omits the 1.43 factor and applies the slope correction as a flat 5%.
+        - **{{d2}} ft**: applies the slope correction as a flat 5% instead of 5% per 1% of slope.
+        - **{{d3}} ft**: omits the 1.43 regulatory factor.
+        - **{{d4}} ft**: only applies the 1.43 factor and forgets the wet runway and slope corrections.
+        - **{{d5}} ft**: replaces the slope correction with an arbitrary 25% increase.
+      presets:
+        - variables:
+            lda: 3150
+            slope: 1.4
+            macro1: 1
+            answer: 1790
+            d1: 2609
+            d2: 1824
+            d3: 2560
+            d4: 2203
+            d5: 1532
+          correctAnswers:
+            - text: 1790 ft
+          wrongAnswers:
+            - text: 2560 ft
+            - text: 2203 ft
+            - text: 2609 ft
+            - text: 1824 ft
+            - text: 1532 ft
+        - variables:
+            lda: 4300
+            slope: 0.5
+            macro1: 1
+            answer: 2551
+            d1: 3561
+            d2: 2490
+            d3: 3648
+            d4: 3007
+            d5: 2092
+          correctAnswers:
+            - text: 2551 ft
+          wrongAnswers:
+            - text: 3648 ft
+            - text: 3007 ft
+            - text: 3561 ft
+            - text: 2490 ft
+            - text: 2092 ft
+        - variables:
+            lda: 3800
+            slope: 2
+            macro1: 1
+            answer: 2101
+            d1: 3147
+            d2: 2201
+            d3: 3004
+            d4: 2657
+            d5: 1849
+          correctAnswers:
+            - text: 2101 ft
+          wrongAnswers:
+            - text: 3004 ft
+            - text: 2657 ft
+            - text: 3147 ft
+            - text: 2201 ft
+            - text: 1849 ft
+    - type: simple
+      question: |-
+        Refer to figure. 
+        A pilot operating on the single engine fleet for European Airlines is calculating landing performance. Given the following information, what distance should the pilot use to enter the landing distance graph, to obtain the maximum permissible landing mass?Landing distance available: 3150 ft 
+        Runway surface: Paved 
+        Runway condition: Wet 
+        Runway slope: 1.4% downslope
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1746 ft
+          wrongAnswers:
+            - text: 1780 ft
+            - text: 2495 ft
+            - text: 1820 ft
+        - correctAnswers:
+            - text: 1792 ft
+          wrongAnswers:
+            - text: 1746 ft
+            - text: 1850 ft
+            - text: 2495 ft
+    - type: simple
+      question: |-
+        Refer to figure. 
+         
+        A pilot operating on the multi engine fleet for S-Cargo Airlines is calculating landing performance. Given the following information, what distance should the pilot use to enter the landing distance graph, to obtain the maximum permissible landing mass?
+
+        Landing distance available: 4230 ft 
+         
+        Runway surface: Grass 
+         
+        Runway condition: Dry 
+         
+        Runway slope: 1.5 % upslope
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 575 ft
+          wrongAnswers:
+            - text: 3 405 ft
+            - text: 2 960 ft
+            - text: 3 675 ft
+    - type: simple
+      question: |-
+        Please refer to the annex. An S-Cargo Airlines multi-engined fleet pilot, during flight planning, wants to calculate the landing performance. Given the following information, what distance should the pilot use in the landing distance graph, to obtain the maximum permissible landing mass? 
+        Landing distance available: 4230 ft,
+        Runway surface: Grass,
+        Runway condition: Dry,
+        Runway slope: 1.5 % upslope.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2528 ft
+          wrongAnswers:
+            - text: 3272 ft
+            - text: 3615 ft
+            - text: 2288 ft
+    - type: simple
+      question: |-
+        As the pilot of an airline with a fleet of only single-engine aircraft, what distance should you use on the appropriate landing distance graph to determine the maximum permissible landing mass, given the following data?
+
+         
+
+         
+         
+         Landing distance available:
+         3 150 ft
+         
+         
+         Runway surface:
+         paved
+         
+         
+         Runway condition:
+         wet
+         
+         
+         Runway slope (downslope):
+         1.4 %
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 790 ft
+          wrongAnswers:
+            - text: 2 560 ft
+            - text: 2 609 ft
+            - text: 1 824 ft
+- id: QVFJD
+  subjectId: "032"
+  chapterId: "032.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-321541
+    - AVEXAM-72707
+    - AVEXAM-19728
+    - BGS-321001
+    - BGS-321191
+    - BGS-321113
+  annexes: []
+  learningObjectiveIds:
+    - 032.03.03.04.05
+  templates:
+    - type: simple
+      question: |-
+        Given the following information, determine the minimum landing distance that must be available for a multi-engined Performance Class B aeroplane operated for Commercial Air Transport.
+
+        Defactored landing distance: {{ldd}} ft
+        Runway surface: paved asphalt
+
+        - Runway condition: wet (factor {{wet}})
+        - Runway slope: {{slope}} % downslope
+
+        The landing distance should be increased by 5 % for each 1 % downslope.
+
+        (Dry-runway safety factor 1.43.)
+      explanation: |-
+        The required landing distance is the defactored distance multiplied by the safety factor of 1.43, the wet runway factor and the downslope correction of 5 % per 1 % downslope.
+
+        **Solution**
+
+        $$
+        \text{Defactored landing distance}\times 1.43\times \text{Wet runway factor}\times (1+0.05\times \text{Downslope}) = {{ldd}}\times 1.43\times 1.15\times (1+0.05\times {{slope}}) = \mathbf{ {{answer}}\ \text{ft} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft**: omitting the 1.43 safety factor.
+        - **{{d2}} ft**: omitting the slope correction.
+        - **{{d3}} ft**: omitting the wet runway factor.
+        - **{{d4}} ft**: applying the slope correction with the wrong sign (as an upslope).
+      presets:
+        - variables:
+            ldd: 3240
+            wet: 1.15
+            slope: 1
+            answer: 5595
+            d1: 3912
+            d2: 5328
+            d3: 4865
+            d4: 5062
+          correctAnswers:
+            - text: 5595 ft
+          wrongAnswers:
+            - text: 3912 ft
+            - text: 4865 ft
+            - text: 5062 ft
+            - text: 5328 ft
+        - variables:
+            ldd: 2800
+            wet: 1.15
+            slope: 2
+            answer: 5065
+            d1: 3542
+            d2: 4605
+            d3: 4404
+            d4: 4144
+          correctAnswers:
+            - text: 5065 ft
+          wrongAnswers:
+            - text: 3542 ft
+            - text: 4404 ft
+            - text: 4144 ft
+            - text: 4605 ft
+        - variables:
+            ldd: 3500
+            wet: 1.15
+            slope: 0.5
+            answer: 5900
+            d1: 4126
+            d2: 5756
+            d3: 5130
+            d4: 5612
+          correctAnswers:
+            - text: 5900 ft
+          wrongAnswers:
+            - text: 4126 ft
+            - text: 5130 ft
+            - text: 5612 ft
+            - text: 5756 ft

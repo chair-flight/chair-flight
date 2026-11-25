@@ -1,0 +1,385 @@
+- id: QCDQP
+  subjectId: b737
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does an amber ALT DISAGREE in the bottom of the altimeter tape indicate?
+      explanation: |-
+        The amber DISAGREE alerts trigger as follows:
+
+        - **ALT DISAGREE: Captain's and F/O's altitude indications differ by more than 200 ft for more than 5 seconds.**
+        - **IAS DISAGREE:** Captain's and F/O's airspeed indications differ by more than 5 kt for 5 seconds.
+        - **AOA DISAGREE:** Captain's and F/O's AOA values differ by more than 10° for more than 10 seconds.
+        - **ROLL:** Captain's and F/O's roll angle displays differ by more than 5°.
+        - **MAP RANGE DISAGREE:** The selected range on the EFIS control panel is different from the MAP display range.
+
+        ![737 PFD annunciations](annex:ALNZ)
+      presets:
+        - correctAnswers:
+            - text: The captain's and first officer's altitude indications differ more than 200 feet for more than 5 seconds
+          wrongAnswers:
+            - text: The captains altitude reading and the standby altimeter disagree by more than 200ft for more than 5 seconds
+            - text: There is a difference of more than 10 HPa between the selected QNH
+            - text: The captains and first officer's altitude indications differ more than 50 feet for more than 5 seconds
+- id: QBLCQ
+  subjectId: b737
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What condition causes an Amber IAS DISAGREE alert to appear at the bottom of the speed tape?
+      explanation: |-
+        The amber DISAGREE alerts trigger as follows:
+
+        - **ALT DISAGREE:** Captain's and F/O's altitude indications differ by more than 200 ft for more than 5 seconds.
+        - **IAS DISAGREE: Captain's and F/O's airspeed indications differ by more than 5 kt for 5 seconds.**
+        - **AOA DISAGREE:** Captain's and F/O's AOA values differ by more than 10° for more than 10 seconds.
+        - **ROLL:** Captain's and F/O's roll angle displays differ by more than 5°.
+        - **MAP RANGE DISAGREE:** The selected range on the EFIS control panel is different from the MAP display range.
+
+        ![737 PFD annunciations](annex:ALNZ)
+      presets:
+        - correctAnswers:
+            - text: Captain's and First Officer's airspeeds disagree by more than 5 kts for more than 5 seconds.
+          wrongAnswers:
+            - text: V Ref has not been entered
+            - text: Difference of more than 10 kts for more than 10 seconds between Captain's and First Officer's airspeed indications.
+            - text: Selected V Ref is not correct for current aircraft configuration.
+- id: QQUUR
+  subjectId: b737
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does an amber AOA DISAGREE alert on the PFD indicate?
+      explanation: |-
+        The amber DISAGREE alerts trigger as follows:
+
+        - **ALT DISAGREE:** Captain's and F/O's altitude indications differ by more than 200 ft for more than 5 seconds.
+        - **IAS DISAGREE:** Captain's and F/O's airspeed indications differ by more than 5 kt for 5 seconds.
+        - **AOA DISAGREE: Captain's and F/O's AOA values differ by more than 10° for more than 10 seconds.**
+        - **ROLL:** Captain's and F/O's roll angle displays differ by more than 5°.
+        - **MAP RANGE DISAGREE:** The selected range on the EFIS control panel is different from the MAP display range.
+
+        ![737 PFD annunciations](annex:ALNZ)
+      presets:
+        - correctAnswers:
+            - text: The Captain's and First Officer's AOA values differ by more than 10 degrees for more than 10 seconds.
+          wrongAnswers:
+            - text: The Captain's and First Officer's AOA values differ by more than 5 degrees for more than 5 seconds.
+            - text: The Captain's AOA vane has failed.
+            - text: The Captain's and First Officer's AOA values differ by more than 10 degrees for more than 5 seconds.
+- id: QADBL
+  subjectId: b737
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does an amber ROLL displayed in the lower portion of the attitude indicator on the PFD mean?
+      explanation: |-
+        The amber DISAGREE alerts trigger as follows:
+
+        - **ALT DISAGREE:** Captain's and F/O's altitude indications differ by more than 200 ft for more than 5 seconds.
+        - **IAS DISAGREE:** Captain's and F/O's airspeed indications differ by more than 5 kt for 5 seconds.
+        - **AOA DISAGREE:** Captain's and F/O's AOA values differ by more than 10° for more than 10 seconds.
+        - **ROLL: Captain's and F/O's roll angle displays differ by more than 5°.**
+        - **MAP RANGE DISAGREE:** The selected range on the EFIS control panel is different from the MAP display range.
+
+        ![737 PFD annunciations](annex:ALNZ)
+      presets:
+        - correctAnswers:
+            - text: The Captain's and F/O's attitude displays differ by more than 5 degrees in roll.
+          wrongAnswers:
+            - text: The airplane is experiencing an uncommanded roll.
+            - text: The airplane has exceeded 46 degrees of bank.
+            - text: The airplane has exceeded 46 degrees of bank.
+- id: QXWPO
+  subjectId: b737
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does an amber MAP RANGE DISAGREE annunciation on the ND indicate?
+      explanation: |-
+        The amber DISAGREE alerts trigger as follows:
+
+        - **ALT DISAGREE:** Captain's and F/O's altitude indications differ by more than 200 ft for more than 5 seconds.
+        - **IAS DISAGREE:** Captain's and F/O's airspeed indications differ by more than 5 kt for 5 seconds.
+        - **AOA DISAGREE:** Captain's and F/O's AOA values differ by more than 10° for more than 10 seconds.
+        - **ROLL:** Captain's and F/O's roll angle displays differ by more than 5°.
+        - **MAP RANGE DISAGREE: The selected range on the EFIS control panel is different from the MAP display range.**
+      presets:
+        - correctAnswers:
+            - text: The selected range on the EFIS control panel is different from the map display range.
+          wrongAnswers:
+            - text: Range information is not being fed to the map display.
+            - text: There is a difference of more than 10 HPa between the selected QNH
+            - text: The captains and first officer's altitude indications differ more than 50 feet for more than 5 seconds
+- id: QBZTQ
+  subjectId: b737
+  chapterId: "10"
+  relatedQuestionIds:
+    - QWMTM
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does a white CDS MAINT message in the lower left corner of the PFD indicate?
+      explanation: |-
+        ### FCOM 10.11.30, Display System Annunciations
+
+        > When there is a problem with the DEU display system, one of the following indications will appear in the lower left corner of the primary flight display:
+        >
+        > **CDS MAINT (white) – A dispatchable CDS fault has occurred. Displayed on the ground only, prior to start of the second engine.**
+        >
+        > CDS FAULT (amber) – A non-dispatchable CDS fault has occurred. Displayed on the ground only, prior to start of the second engine.
+
+        ![CDS MAINT annunciation](annex:AUKK)
+      presets:
+        - correctAnswers:
+            - text: A dispatchable CDS fault has occurred prior to second engine start.
+          wrongAnswers:
+            - text: A non-dispatchable CDS fault has occurred post second engine start.
+            - text: A dispatchable CDS fault has occurred prior to first engine start.
+            - text: A non-dispatchable CDS fault has occurred prior to second engine start
+- id: QWMTM
+  subjectId: b737
+  chapterId: "10"
+  relatedQuestionIds:
+    - QBZTQ
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does an amber CDS FAULT message in the lower left corner of the PFD indicate?
+      explanation: |-
+        ### FCOM 10.11.30, Display System Annunciations
+
+        > When there is a problem with the DEU display system, one of the following indications will appear in the lower left corner of the primary flight display:
+        >
+        > CDS MAINT (white) – A dispatchable CDS fault has occurred. Displayed on the ground only, prior to start of the second engine.
+        >
+        > **CDS FAULT (amber) – A non-dispatchable CDS fault has occurred. Displayed on the ground only, prior to start of the second engine.**
+
+        ![CDS FAULT annunciation](annex:ADOC)
+      presets:
+        - correctAnswers:
+            - text: A non-dispatchable CDS fault has occurred prior to second engine start.
+          wrongAnswers:
+            - text: A non-dispatchable CDS fault has occurred post second engine start.
+            - text: A dispatchable CDS fault has occurred prior to second engine start.
+            - text: A dispatchable CDS fault has occurred prior to first engine start.
+- id: QDSRY
+  subjectId: b737
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: |
+        On the PFD, what does the amber annunciation "DISPLAYS CONTROL PANEL" 
+        indicate?
+      explanation: |-
+        ### FCOM 10.11.31, Displays Control Panel Annunciation (EFIS CP)
+
+        > Displays Control Panel Annunciation (amber) **Indicates a failed EFIS control panel on the affected side.** When DISPLAYS CONTROL PANEL appears in the lower right hand corner of the display, altitude information is removed.
+
+        ![Displays control panel annunciation](annex:AHCX)
+      presets:
+        - correctAnswers:
+            - text: The EFIS control panel on the side the annunciation is displayed has failed
+          wrongAnswers:
+            - text: The PFD the annunciation is displayed on has an error and information displayed may be erroneous.
+            - text: The Displays Source Control Panel on the side the annunciation is displayed has failed.
+            - text: The Display Select Panel on the side the annunciation is displayed has failed.
+- id: QURPY
+  subjectId: b737
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The amber annunciation "INSTR SWITCH" indicates what?
+      explanation: |-
+        ### FCOM 10.11.32, Instrument Switch Annunciation
+
+        > INSTR SWITCH Annunciation (amber) Indicates both the Captain’s and First Officer’s displays are using the same source of IRU data. **Displayed when the IRS switch on the overhead panel is not in the NORMAL position.**
+
+        ![737 PFD annunciations](annex:ALNZ)
+      presets:
+        - correctAnswers:
+            - text: The IRS switch on the Forward Overhead panel is not selected to NORMAL
+          wrongAnswers:
+            - text: Captain's and First Officer's displays are using separate sources of IRU data.
+            - text: The IRS switch on the Aft Overhead panel is not selected to NORMAL.
+            - text: Captain's and First Officer's displays are using the same source of IRU data with the IRS switch selected to OFF.
+- id: QQVUD
+  subjectId: b737
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does the Magenta figure displayed above the Speed Tape signify?
+      explanation: |-
+        ### FCOM 10.11.6, PFD Airspeed Indications
+
+        > Selected Speed (magenta) Displays target airspeed:
+        > - **indicates the airspeed manually selected in the IAS/MACH window**
+        > - **indicates the FMC computed airspeed when the IAS/MACH window is blank.**
+      presets:
+        - correctAnswers:
+            - text: Airspeed manually selected in the IAS/MACH window and FMC computed airspeed if the IAS/MACH window is blank.
+          wrongAnswers:
+            - text: FMC computed airspeed if the IAS/MACH window is blank.
+            - text: Airspeed manually selected in the IAS/MACH window.
+            - text: Current or next speed restriction in the FMC.
+- id: QJDBL
+  subjectId: b737
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does the top of the amber bar indicate at the lower end of the speed tape?
+      explanation: |-
+        ### FCOM 10.11.9, Airspeed Indications – Takeoff and Approach
+
+        > Minimum Maneuver Speed (amber) The amber bar is displayed with the first flap retraction after takeoff or when a valid Vref is entered.
+        >
+        > **Top of amber bar indicates minimum maneuver speed.** This airspeed provides
+        > - **1.3g maneuver capability to stick shaker below approximately 20,000 ft.**
+        > - **1.3g maneuver capability to low speed buffet** (or an alternative approved maneuver capability set in the FMC maintenance pages) **above approximately 20,000 ft.**
+      presets:
+        - correctAnswers:
+            - text: Minimum manoeuvre speed (1.3g manoeuvre capability to stick shaker below approximately 20,000 feet) - (1.3g manoeuvre capability to low speed buffet above approximately 20,000 feet).
+          wrongAnswers:
+            - text: Minimum manoeuvre speed (1.3g manoeuvre capability to stick shaker above approximately 30,000 feet) - (1.3g manoeuvre capability to low speed buffet below approximately 30,000 feet).
+            - text: Minimum manoeuvre speed (1.3g manoeuvre capability to stick shaker above approximately 20,000 feet) - (1.3g manoeuvre capability to low speed buffet below approximately 20,000 feet).
+            - text: Minimum manoeuvre speed (1.3g manoeuvre capability to stick shaker below approximately 30,000 feet) - (1.3g manoeuvre capability to low speed buffet above approximately 30,000 feet).
+- id: QDYEO
+  subjectId: b737
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: A white bug that indicates V2 + 15 is displayed at what stage of flight, and when is it removed?
+      explanation: |-
+        ### FCOM 10.11.9, Airspeed Indications – Takeoff and Approach
+
+        > V2+15 (white) **Displayed for takeoff.** Removed when either of the following occurs:
+        > - **at first flap retraction**
+        > - **when VREF is entered in the CDU.**
+
+        ![V2+15 bug](annex:AVRT)
+      presets:
+        - correctAnswers:
+            - text: Displayed at Takeoff, removed at first flap retraction or when Vref entered in CDU.
+          wrongAnswers:
+            - text: Displayed at takeoff, removed when Pitch Flight director moves to 15 degrees nose up.
+            - text: Displayed at Approach, removed when flaps at Flap 1 or greater.
+            - text: Displayed on Approach, removed once right main landing gear is compressed, throttle levers at Idle, and engines have spooled down from Approach Idle to Ground Idle.
+- id: QGRLK
+  subjectId: b737
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: During approach the Captain observes his BARO minimum reference/altitude turns from green to flashing amber for three seconds, what does this mean?
+      explanation: |-
+        ### FCOM 10.11.24, Landing Altitude/Minimums Indications
+
+        > Minimums Reference/Altitude (green) Displays approach minimum reference and altitude set by the MINS selector on the EFIS control panel:
+        >
+        > BARO – • displayed below ADI when selector is set to BARO, minimums are in feet MSL • **turns amber and flashes for 3 seconds when airplane descends below selected minimum altitude** […]
+      presets:
+        - correctAnswers:
+            - text: The aircraft has descended below the Captain's selected minimum altitude (DA).
+          wrongAnswers:
+            - text: A windshear has been encountered.
+            - text: Radio altitude data is unreliable.
+            - text: The aircraft has descended below 1000 feet
+- id: QGUTT
+  subjectId: b737
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement is correct when the airplane has descended below the radio altitude minimums?
+      explanation: |-
+        ### FCOM 10.11.24, Landing Altitude/Minimums Indications
+
+        > Minimums Reference/Altitude (green) Displays approach minimum reference and altitude set by the MINS selector on the EFIS control panel: […] RADIO – • displayed above ADI when selector is set to RADIO, minimums are in feet AGL • **turns amber and flashes for 3 seconds when airplane descends below selected minimum altitude** […]
+
+        ### FCOM 10.11.19, Radio Altitude – Round Dial
+
+        > Displayed below 2500 feet AGL: […] • **the remaining perimeter and pointer turn amber and flash for 3 seconds when below radio altitude minimums, the numeric readout does not flash.**
+      presets:
+        - correctAnswers:
+            - text: On the Rad Alt display on the PFD, the dial display and pointer turn amber and flash for 3 seconds.
+          wrongAnswers:
+            - text: The Rad Alt display dial perimeter, numeric readout and pointer flash for 5 seconds.
+            - text: On the Rad Alt display on the PFD, the dial display and pointer turn amber and flash for 3 seconds.
+            - text: The Rad Alt dial perimeter, numeric readout and pointer turn green and flash for 3 seconds.
+- id: QPDYF
+  subjectId: b737
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: On the navigation display, how is the display presented in VOR, Approach and Plan modes?
+      explanation: |-
+        ### FCOM 10.16.3, Mode Selector
+
+        > APP – • displays localizer and glideslope information in **heading–up format.**
+        >
+        > VOR – • displays VOR navigation information in **heading–up format**
+        >
+        > PLN – • displays a non–moving, **true north up**, route depiction
+
+        MAP mode is track up.
+      presets:
+        - correctAnswers:
+            - text: VOR = heading up, Approach = heading up, Plan = true north up.
+          wrongAnswers:
+            - text: VOR = heading up, Approach = true north up, Plan = heading up.
+            - text: VOR = true north up, Approach = heading up, Plan = heading up.
+            - text: VOR = true north up, Approach = true north up, Plan = heading up.

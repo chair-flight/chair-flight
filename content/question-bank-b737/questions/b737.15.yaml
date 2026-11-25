@@ -1,0 +1,875 @@
+- id: QHIPB
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Altitude alerting occurs when approaching or departing from the MCP selected altitude.  When is the altitude alerting system inhibited?
+      explanation: |
+        Altitude alerting occurs when approaching or departing the MCP–selected altitude. Altitude alerting is inhibited when trailing edge flaps are extended to 25 or greater, or while G/S is captured.
+
+        ---
+
+      presets:
+        - correctAnswers:
+            - text: Glide slope is captured, or trailing edge flaps are extended to 25 or greater.
+          wrongAnswers:
+            - text: Leading edge flaps are extended to 25 or greater
+            - text: Landing gear is down and locked.
+            - text: Leading edge flaps are extended to 25 or greater and the landing gear is extended.
+- id: QXAKA
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 15.20.26, Predictive Windshear Alerts
+
+        > (Takeoff) Red WINDSHEAR on both attitude indicators [...] Windshear close to and directly ahead of the airplane detected by the weather radar. Enabled during takeoff, below 1,200 feet RA.
+        >
+        > (Approach) Windshear within 1.5 miles and directly ahead of the airplane detected by the weather radar. Enabled during approach, **below 1,200 feet RA.**
+        >
+        > Amber WINDSHEAR message on navigation display (all modes) Windshear within 3 miles and ahead of the airplane detected by the weather radar. Enabled during takeoff and approach, below 1,200 feet RA.
+
+        The red warning covers windshear within 1.5 miles ahead on approach, and the amber caution covers windshear within 3 miles.
+      statements:
+        - text: In Flight, the Intuvue radar will provide a windshear warning from 0.5nm to 3nm ahead of the aircraft.
+          answer: false
+- id: QTYRV
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When carrying out the Stall Warning Test, which of the following statements is correct?
+      explanation: |-
+        ### FCOM NP.21.8, Preflight Procedure – First Officer
+
+        > STALL WARNING TEST switches............Push and hold, one at a time Verify that each control column vibrates when the respective switch is pushed. Note: **The stall warning test requires that AC transfer busses are powered for up to 4 minutes.**
+      presets:
+        - correctAnswers:
+            - text: The test cannot be completed until the AC Transfer Busses have been powered for up to 4 minutes.
+          wrongAnswers:
+            - text: The test cannot be completed until the DC Busses have been powered for up to 4 minutes.
+            - text: The test can be completed on DC power
+            - text: The test can be completed once AC power is available
+- id: QCEPI
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The predictive windshear symbol radials, which extend from the predictive windshear symbol to help identify the location of a windshear event, are displayed in what colours?
+      explanation: |-
+        ### FCOM 15.10.15, Predictive Windshear Display and Annunciations
+
+        > 1 Predictive Windshear Symbol Displayed (red and black) – Predictive windshear alert active. [...]
+        >
+        > 2 Predictive Windshear Symbol Radials **Displayed (amber)** – Predictive windshear alert active. Extend from predictive windshear symbol to help identify location of windshear event
+        >
+        > 3 WINDSHEAR Annunciation WINDSHEAR (amber) – predictive windshear caution active. WINDSHEAR (red) – predictive windshear warning active.
+
+        The radials are always amber. The colour of the WINDSHEAR annunciation changes with caution and warning.
+      presets:
+        - correctAnswers:
+            - text: Amber.
+          wrongAnswers:
+            - text: Red and Black banded.
+            - text: Displayed amber when a predictive windshear caution is active, and displayed red when a predictive windshear warning is active.
+            - text: Red.
+- id: QLLFP
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The PSEU light will illuminate along with a Master Caution and an OVERHEAD annunciator light, under which of the following situations?
+      explanation: |-
+        ### FCOM 15.20.7, Proximity Switch Electronic Unit (PSEU)
+
+        > The PSEU monitors the following systems: • takeoff configuration warnings • landing configurations warnings • landing gear • air/ground sensing
+        >
+        > The PSEU, its sensors, and its input signals are monitored for internal faults. When designated faults are detected, **a PSEU light on the aft overhead panel illuminates, and the OVERHEAD system annunciator light and MASTER CAUTION lights illuminate.** The PSEU light can be reset following a maintenance BITE check or repair of the cause of the fault.
+
+        ### FCOM 15.20.8, Proximity Switch Electronic Unit (PSEU)
+
+        > The PSEU light is inhibited: • in flight • when the thrust levers are advanced toward takeoff power • **for 30 seconds after landing**
+      presets:
+        - correctAnswers:
+            - text: Illuminates 30 seconds after the ground/air system senses ground mode, if an emergency exit flight lock has failed locked or a fault is detected.
+          wrongAnswers:
+            - text: Illuminates whenever ground/air system senses air mode, and an emergency exit flight lock has failed locked.
+            - text: Illuminates 30 seconds after the ground/air system senses air mode, if an emergency exit flight lock has failed locked or a fault is detected.
+            - text: Illuminates as soon as the ground/air system senses ground mode, if an emergency exit flight lock has failed locked or a fault is detected.
+- id: QSBXT
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 15.20.9, Stall Warning System
+
+        > Two independent, identical stall management yaw damper (SMYD) computers determine when stall warning is required based upon: • alpha vane angle of attack outputs • ADIRU outputs • anti–ice controls • wing configurations • air/ground sensing • thrust
+        >
+        > The SMYD computers provide outputs for all stall warning to include stick shaker and signals to the pitch limit indicator and airspeed displays and **the GPWS windshear detection and alert**.
+      statements:
+        - text: As well as providing outputs for all stall warnings, the SMYD computers also provide outputs for GPWS Windshear Detection and Alert.
+          answer: true
+- id: QRDTW
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 15.20.2, Master Caution Lights
+
+        > When the MASTER CAUTION recall is pressed, **all twelve system lights should illuminate** while the press-to-test feature is held.
+        >
+        > Two system annunciator light panels are located on the glare shield.
+      statements:
+        - text: When an Annunciator Panel is pressed, all lights on both panel initially illuminate.
+          answer: true
+- id: QVXUC
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which systems does the Proximity Switch Electronic Unit (PSEU) monitor
+      explanation: |-
+        ### FCOM 15.20.7, Proximity Switch Electronic Unit (PSEU)
+
+        > The PSEU monitors the following systems: • takeoff configuration warnings • landing configurations warnings • landing gear • air/ground sensing
+        >
+        > The PSEU, its sensors, and its input signals are monitored for internal faults. When designated faults are detected, **a PSEU light on the aft overhead panel illuminates, and the OVERHEAD system annunciator light and MASTER CAUTION lights illuminate.** The PSEU light can be reset following a maintenance BITE check or repair of the cause of the fault.
+      presets:
+        - correctAnswers:
+            - text: Takeoff/Landing Configuration Warnings, Landing Gear and Air/Ground sensing.
+          wrongAnswers:
+            - text: Air/Ground sensing, Landing Gear and Air/Ground sensing.
+            - text: Takeoff/Landing Configuration Warnings, Landing Gear and Anti-Skid
+            - text: Air/Ground sensing, Landing Gear and Anti-Skid.
+- id: QSJCI
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does the TCAS Symbol that is a solid amber circle indicate?
+      explanation: |-
+        ### FCOM 15.20.32, Traffic Alert and Collision Avoidance System (TCAS)
+
+        > A traffic advisory (TA) is generated when the other airplane is **approximately 40 seconds** from the point of closest approach. If the other airplane continues to close, a resolution advisory (RA) is generated when the other airplane is approximately 25 seconds from the point of closest approach.
+      presets:
+        - correctAnswers:
+            - text: Advises of traffic with potential impact in 40 seconds.
+          wrongAnswers:
+            - text: Advises that the proximate traffic is descending at more than 500 fpm.
+            - text: Results in aural alert of "TRAFFIC, TRAFFIC" when within 6nm with 1200 feet or less of vertical separation of other traffic.
+            - text: Advises of traffic with potential impact on 25 seconds.
+- id: QQKNO
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The Stall Warning requirement is determined by what system component?
+      explanation: |-
+        ### FCOM 15.20.9, Stall Warning System
+
+        > Two independent, identical stall management yaw damper (SMYD) computers determine when stall warning is required based upon: • alpha vane angle of attack outputs • ADIRU outputs • anti–ice controls • wing configurations • air/ground sensing • thrust
+        >
+        > The SMYD computers provide outputs for all stall warning to include stick shaker and signals to the pitch limit indicator and airspeed displays and **the GPWS windshear detection and alert**.
+      presets:
+        - correctAnswers:
+            - text: Two independent SMYD Computers.
+          wrongAnswers:
+            - text: A single stall management configuration computer.
+            - text: Two independent ADIRUs.
+            - text: The Captain's or F/O's Alpha Vane.
+- id: QCSGA
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which two displays cannot be selected and shown simultaneously on the Navigation DU?
+      explanation: |-
+        ### FCOM 15.20.13, Look–Ahead Terrain Alerting
+
+        > **Terrain and weather radar cannot show together on a display.** If one pilot selects terrain and the other pilot selects weather radar, each display updates on alternating sweeps. All other displays (TCAS, LNAV routing, etc.) can show with terrain data.
+      presets:
+        - correctAnswers:
+            - text: Weather and Terrain.
+          wrongAnswers:
+            - text: Terrain and TCAS.
+            - text: Weather and Data.
+            - text: TCAS and Airport.
+- id: QCJMY
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        
+
+        ---
+
+        The Stall warning system consists of a stick shaker. The Clacker is the overspeed warning system.
+      statements:
+        - text: The stall warning test can only be carried out on the ground, the No1 and No2 systems must be carried out separately to ensure the clacker sounds when each system is tested.
+          answer: false
+- id: QLOBH
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The GPWS will provide an aural alert of "BANK ANGLE, BANK ANGLE" under which of the following circumstances?
+      explanation: |-
+        ### FCOM 15.20.29, Bank Angle Alert
+
+        > The GPWS provides the aural alert BANK ANGLE, BANK ANGLE when **roll angle exceeds 35 degrees, 40 degrees, and 45 degrees**. Once sounded, the alert is silent for that bank angle (35, 40, or 45 degrees) until the system is reset by decreasing bank angle to 30 degrees or less.
+      presets:
+        - correctAnswers:
+            - text: When roll angle exceeding 35, 40 and 45 degrees.
+          wrongAnswers:
+            - text: Whenever trailing edge flaps are at 1 or greater and roll angle exceeds 35 degrees.
+            - text: Whenever the bank angle exceeds the setting on the Bank Angle Selector.
+            - text: When roll angle exceeds the maximum of 45 degrees.
+- id: QCYBT
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is significant about the layout of the Annunciator Panel lights.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The lights are arranged to reflect the position of the systems panels on the Overhead Panels.
+          wrongAnswers:
+            - text: The lights are arranged in no significant order.
+            - text: The lights on the Captain's side show the systems that the Captain is responsible for monitoring, and the lights of the F/Os side show the systems the F/O is responsible for monitoring.
+            - text: The lights are arranged in order of priority to be dealt with in case of multiple system failures.
+- id: QXLKV
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "With both engines operating and one forward thrust lever set below approximately 20 degrees thrust lever angle, the landing gear warning horn can be silenced with the landing gear warning HORN CUTOUT switch:"
+      explanation: |-
+        ### FCOM 15.20.7, Aural Indications
+
+        > A steady warning horn is provided to alert the flight crew whenever a landing is attempted and any gear is not down and locked. [...]
+        >
+        > Flaps up through 10 – • altitude below 800 feet RA, when either forward thrust lever set between idle and approximately 20 degrees thrust lever angle, or an engine is not operating and the other thrust lever is less than 34 degrees. **The landing gear warning horn can be silenced (reset) with the landing gear warning HORN CUTOUT switch** • **if the airplane descends below 200 feet RA, the warning horn cannot be silenced** by the warning HORN CUTOUT switch
+        >
+        > Flaps 15 through 25 – • either forward thrust lever set below approximately 20 degrees [...] The landing gear warning horn cannot be silenced with the landing gear warning HORN CUTOUT switch
+      presets:
+        - correctAnswers:
+            - text: with flaps UP through 10 if below 800 feet RA and above 200 feet RA
+          wrongAnswers:
+            - text: with flaps UP through 10 if below 800 feet RA and above 300 feet RA
+            - text: with flaps UP through 25 if below 800 feet RA and above 200 feet RA
+            - text: it cannot be silenced if the thrust lever angle is less than 20 degrees.
+- id: QCNNA
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the first Radio Altitude Callout given during the approach?
+      explanation: |-
+        ### FCOM 15.20.30, Radio Altitude Callouts
+
+        > The GPWS provides the following altitude callouts during approach: • **2,500 feet – TWENTY FIVE HUNDRED** • 1,000 feet – ONE THOUSAND • 500 feet – FIVE HUNDRED (Smart) • 50 feet – FIFTY • 40 feet – FORTY • 30 feet – THIRTY • 20 feet – TWENTY • 10 feet – TEN
+      presets:
+        - correctAnswers:
+            - text: 2500 feet  - &quot;Twenty Five Hundred&quot;.
+          wrongAnswers:
+            - text: 1000 feet - "One Thousand".
+            - text: 50 feet - "Fifty".
+            - text: 2450 feet - "Twenty Five Hundred".
+- id: QBYGB
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Altitude alerting, consisting of a tone and highlighted boxes, occurs at a set distance before reaching the selected altitude.  How many feet before the selected altitude do the altitude alert highlighted boxes no longer show?
+      explanation: |-
+        ### FCOM 15.20.9, Altitude Alerting System
+
+        > 900 feet before reaching the selected altitude, a white box shows around the selected altitude display and the box around the current altitude becomes bold. A momentary tone sounds. **At 300 feet from selected altitude, the selected altitude box no longer shows.**
+      presets:
+        - correctAnswers:
+            - text: 300 feet
+          wrongAnswers:
+            - text: 3000 fpm with 3000 feet to go, 2000 fpm with 2000 feet to go, 1000 fpm with 1000 feet to go.
+            - text: 900 feet
+            - text: 600 feet
+- id: QDHJX
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Once an alert has occurred for deviating from the selected altitude, how is it cancelled?
+      explanation: |-
+        ### FCOM 15.20.10, Deviation Alerting
+
+        > When deviating by **300 feet** from the selected altitude, a momentary tone sounds and the current altitude box turns **amber** and begins to flash. The amber flashing continues until: • altitude deviation becomes less than 300 feet • altitude deviation becomes more than 900 feet • a new altitude is selected
+      presets:
+        - correctAnswers:
+            - text: return to within 300 feet of selected altitude or deviate by more than 900 feet from selected altitude, or select a new altitude.
+          wrongAnswers:
+            - text: Return to within 200 feet of selected altitude.
+            - text: Press ALT INT to select next FMC target altitude.
+            - text: Return to within 200 feet of selected altitude and press the HORN CUTOUT button on the Control Stand.
+- id: QQGFW
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The EGPWS contains a terrain database, which it uses for look-ahead terrain alerting.  Which of the following statements is correct for this terrain database?
+      explanation: |-
+        ### FCOM 15.20.13, Look–Ahead Terrain Alerting
+
+        > The EGPWS terrain data base contains detailed terrain data near major airports, and data in lesser detail for areas between airports. [...]
+        >
+        > Note: **The EGPWS terrain data base, look-ahead terrain alerting, and terrain display do not account for man-made obstructions.**
+
+        This note applies to the earlier airplanes. Later airplanes have a separate obstacle display and alerting for man-made obstacles 100 feet and higher (FCOM 15.20.16), so not every EGPWS database accounts for them in the same way.
+      presets:
+        - correctAnswers:
+            - text: Man-made obstructions are not accounted for in all EGPWS terrain databases
+          wrongAnswers:
+            - text: All man-made obstructions are accounted for in the detailed areas of the EGPWS terrain database in areas close to major airports.
+            - text: All EGPWS terrain databases account for man-made obstructions over 100 feet high, throughout the whole database area.
+            - text: All EGPWS terrain databases account for man-made obstructions over 100 feet high, in the more detailed areas of the database near major airports.
+- id: QTNKW
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: The predictive windshear aural alerts will be heard through flightdeck speakers and the headsets at a pre-set volume.  They cannot be controlled or turned off by the crew.
+          answer: true
+- id: QXMWX
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 15.10.2, Proximity Switch Electronic Unit Light
+
+        > Illuminated (amber) – • on the ground – • a fault is detected in the PSEU. • or, an overwing exit flight lock fails to disengage when commanded. • in-flight – • inhibited from thrust lever advance for takeoff until 30 seconds after landing.
+
+        The PSEU light is on the aft overhead panel, not the forward overhead panel.
+      statements:
+        - text: The PSEU light, located on the forward overhead panel, will illuminate on the ground if a fault is detected in the PSEU or if an overwing exit flight lock fails to disengage when commanded.
+          answer: false
+- id: QARNR
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When will the landing gear config warning horn give an intermittent warning sound?
+      explanation: |-
+        ### FCOM 15.20.7, Aural Indications
+
+        > A steady warning horn is provided to alert the flight crew whenever a landing is attempted and any gear is not down and locked. [...]
+        >
+        > Flaps up through 10 – • altitude below 800 feet RA, when either forward thrust lever set between idle and approximately 20 degrees thrust lever angle, or an engine is not operating and the other thrust lever is less than 34 degrees. **The landing gear warning horn can be silenced (reset) with the landing gear warning HORN CUTOUT switch** • **if the airplane descends below 200 feet RA, the warning horn cannot be silenced** by the warning HORN CUTOUT switch
+        >
+        > Flaps 15 through 25 – • either forward thrust lever set below approximately 20 degrees [...] The landing gear warning horn cannot be silenced with the landing gear warning HORN CUTOUT switch
+
+        The landing gear warning is a steady horn. The intermittent horn is used for the takeoff configuration and cabin altitude warnings (FCOM 15.20.1).
+      presets:
+        - correctAnswers:
+            - text: Never
+          wrongAnswers:
+            - text: Flaps 1 through 10, below 800 feet RA, either forward thrust lever at 20 degrees or less (or less than 34 degrees if only 1 engine running).
+            - text: Flaps up through 10, below 800 feet RA, either forward thrust lever at 20 degrees or less (or less than 34 degrees if only 1 engine running).
+            - text: Flaps greater than 25, below 800 feet RA, regardless of forward thrust lever position.
+- id: QYVCT
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: At what altitude (in feet) do the RA callouts begin?
+      explanation: |-
+        ### FCOM 15.20.30, Radio Altitude Callouts
+
+        > The GPWS provides the following altitude callouts during approach: • **2,500 feet – TWENTY FIVE HUNDRED** • 1,000 feet – ONE THOUSAND • 500 feet – FIVE HUNDRED (Smart) • 50 feet – FIFTY • 40 feet – FORTY • 30 feet – THIRTY • 20 feet – TWENTY • 10 feet – TEN
+      presets:
+        - correctAnswers:
+            - text: TWENTY FIVE HUNDRED.
+          wrongAnswers:
+            - text: ONE THOUSAND.
+            - text: TWO THOUSAND
+            - text: FIFTEEN HUNDRED.
+- id: QDYCE
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 15.20.13, Look–Ahead Terrain Alerting
+
+        > **Terrain within 2,000 feet of airplane barometric altitude shows on the navigation display.**
+      statements:
+        - text: The EGPWS displays terrain within 2,500 feet of the aircraft barometric altitude on the Navigation display.
+          answer: false
+- id: QGVZI
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How are crew alerted to a deviation from the selected altitude?
+      explanation: |-
+        ### FCOM 15.20.10, Deviation Alerting
+
+        > When deviating by **300 feet** from the selected altitude, a momentary tone sounds and the current altitude box turns **amber** and begins to flash. The amber flashing continues until: • altitude deviation becomes less than 300 feet • altitude deviation becomes more than 900 feet • a new altitude is selected
+      presets:
+        - correctAnswers:
+            - text: A warning tone sounds once deviation is 300 feet from selected altitude, the current altitude box turns amber and begins to flash.
+          wrongAnswers:
+            - text: A warning tone sounds once deviation is 300 feet from selected altitude, the current altitude box begins to flash.
+            - text: A warning tone sounds once deviation is 300 feet from selected altitude, the current altitude box turns red and begins to flash.
+            - text: A warning tone sounds once deviation is 900 feet from selected altitude, the current altitude box turns red and begins to flash.
+- id: QYGFJ
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The TCAS system generates a Traffic Advisory, whenever another aircraft is what distance from point of closest approach?
+      explanation: |-
+        ### FCOM 15.20.32, Traffic Alert and Collision Avoidance System (TCAS)
+
+        > A traffic advisory (TA) is generated when the other airplane is **approximately 40 seconds** from the point of closest approach. If the other airplane continues to close, a resolution advisory (RA) is generated when the other airplane is approximately 25 seconds from the point of closest approach.
+      presets:
+        - correctAnswers:
+            - text: 40 seconds.
+          wrongAnswers:
+            - text: <6 nm separation with < 1200 feet vertical separation.
+            - text: ">6 nm separation with >1200 feet vertical separation."
+            - text: 25 seconds.
+- id: QVIRH
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: At what altitude are the TCAS INCREASE DESCENT RAs inhibited?
+      explanation: |-
+        ### FCOM 15.20.33, TCAS Inhibits
+
+        > INCREASE DESCENT RAs are inhibited below approximately **1,500 feet radio altitude**. DESCEND RAs are inhibited below approximately 1,100 feet radio altitude. RAs are inhibited below approximately 1,000 feet radio altitude.
+      presets:
+        - correctAnswers:
+            - text: 1500 feet RA.
+          wrongAnswers:
+            - text: 1,100 feet AGL.
+            - text: 1500 feet AGL
+            - text: 1,100 feet RA.
+- id: QWBBA
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: When configured for landing, the GPWS will NOT alert if attempting an off-airport landing.
+          answer: true
+- id: QZKLC
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How far from projected impact will the "TERRAIN, TERRAIN, PULL UP" aural warning be given?
+      explanation: |-
+        ### FCOM 15.20.14, Look Ahead Terrain Alerts
+
+        > **TERRAIN, PULL UP** on both attitude indicators [...] **20 to 30 seconds from projected impact** with terrain shown solid red on the navigation display [...]
+        >
+        > Amber message on navigation display (all modes) [...] 40 to 60 seconds from projected impact with terrain shown solid amber on the navigation display
+      presets:
+        - correctAnswers:
+            - text: 20 to 30 seconds.
+          wrongAnswers:
+            - text: 1.2 nm to 1.5 nm
+            - text: 1.2nm to 1.5nm or 20 to 30 seconds whichever limit occurs first.
+            - text: Whenever descending below unsafe RA while too far from any airport in the terrain database.
+- id: QIFOG
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Crew are warned of exceeding the maximum allowed airspeed by which of the following?
+      explanation: |-
+        ### FCOM 15.20.8, Mach/Airspeed Warning System
+
+        > Two independent Mach/airspeed warning systems provide a distinct aural warning, **a clacker**, any time the maximum operating airspeed of Vmo/Mmo is exceeded. [...]
+        >
+        > The airspeed indicator displays **red and black warning bands** indicating maximum and minimum allowable airspeed. The ends of the amber bands indicate maximum and minimum maneuver speeds.
+
+        The stick shaker is the stall warning, and the amber bands mark manoeuvre speeds.
+      presets:
+        - correctAnswers:
+            - text: Aural Clacker, speedtape red and black band.
+          wrongAnswers:
+            - text: Aural Clacker, speedtape red and black band, speedtape amber band, stick shaker.
+            - text: Aural Clacker, speedtape red and black band, stick shaker.
+            - text: Aural Clacker.
+- id: QQAZH
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 15.10.4, Mach/Airspeed Warning and Stall Warning Test Switches
+
+        > **STALL WARNING TEST Switches** Push – on ground with AC power available: Each test switch tests its respective stall management yaw damper (SMYD) computer. No.1 SMYD computer shakes Captain’s control column, No.2 SMYD computer shakes First Officer’s control column. **Vibrations can be felt on both columns** • **inhibited while airborne.**
+      statements:
+        - text: The Stall Warning System Stick Shaker can be tested by pressing the STALL WARNING TEST buttons on the AFT overhead panel.  Pressing No1 switch will activate the Captain's Stick Shaker and the Captain's column will vibrate.  Pressing N02 switch will activate the FO's Stick Shaker and the FO's column will vibrate.
+          answer: false
+- id: QPPAR
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the direct result of low oil pressure in the No2 IDG?
+      explanation: |-
+        ### FCOM 6.10.5, Generator Drive and Standby Power Panel
+
+        > Generator Drive (DRIVE) Lights **Illuminated (amber) – Integrated drive generator (IDG) low oil pressure** caused by one of the following: • IDG failure • engine shutdown • IDG automatic disconnect due to high oil temperature • IDG disconnected through generator drive DISCONNECT switch
+      presets:
+        - correctAnswers:
+            - text: The No2 Drive light illuminates amber.
+          wrongAnswers:
+            - text: No immediate effect noticeable as the Bus Tie Breakers (BTB) automatically connect the No1 IDG to drive both AC Transfer Bus 1 and AC Transfer Bus 2.
+            - text: Power automatically trips to the STANDBY system.
+            - text: Power is lost on the First Officer's displays after a delay of 5 minutes.
+- id: QTYEZ
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which of the following statements is true for the CABIN ALTITUDE Warning?
+      explanation: |-
+        ### FCOM 15.20.6, Intermittent Cabin Altitude/Configuration Warning
+
+        > Cabin altitude warning activates when cabin altitude exceeds 10,000 feet. **An intermittent warning horn sounds and the CABIN ALTITUDE warning light illuminates.** The warning horn may be silenced by momentarily pressing the ALT HORN CUTOUT switch on the Cabin Altitude Panel. The warning light remains illuminated until the cabin altitude descends below 10,000 feet.
+
+        ### FCOM 15.10.3, Cabin Altitude Warning Light
+
+        > Illuminated (red) – • illuminates when cabin altitude exceeds 10,000 feet • activation is simultaneous with aural warning intermittent horn for CABIN ALTITUDE alert
+      presets:
+        - correctAnswers:
+            - text: An intermittent warning horn sounds and the red CABIN ALTITUDE lights illuminate when the cabin altitude exceeds 10000 feet
+          wrongAnswers:
+            - text: A steady warning horn sounds and the amber CABIN ALTITUDE lights illuminate when the cabin altitude exceeds 14000 feet.
+            - text: A steady warning horn sounds and the red CABIN ALTITUDE warning lights illuminate when the cabin altitude exceeds 14000 feet.
+            - text: An intermittent warning horn sounds and the amber CABIN ALTITUDE warning lights illuminate when the cabin altitude exceeds 10000 feet
+- id: QQOAW
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 15.20.15, Radio Altitude Based Alerts
+
+        > BELOW G/S P–INHIBIT lights – Deviation below glideslope. Volume and repetition rate increase as deviation increases. **Pushing the ground proximity BELOW G/S P-INHIBIT light cancels or inhibits the alert below 1,000 feet RA.**
+      statements:
+        - text: Pushing the ground proximity BELOW G/S P-INHIBIT light cancels or inhibits the alert when below 1,000 feet RA.
+          answer: true
+- id: QEASF
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 15.10.4, Mach/Airspeed Warning and Stall Warning Test Switches
+
+        > **MACH AIRSPEED WARNING TEST Switches** Push – tests respective mach/airspeed warning system • clacker sounds • **inhibited while airborne.**
+      statements:
+        - text: When testing the Mach/Airspeed warning system in flight, the No1 and No2 systems must be tested separately to identify that the clacker sounds for both systems independently.
+          answer: false
+- id: QYUPJ
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which of these settings would cause a takeoff configuration warning when the thrust levers are advanced?
+      explanation: |-
+        ### FCOM 15.20.6, Intermittent Cabin Altitude/Configuration Warning
+
+        > Takeoff configuration warning is armed when the airplane is on the ground and either or both forward thrust levers are advanced for takeoff. Takeoff configuration warning activates if: • trailing edge flaps are not in the flaps 1 through 25 takeoff range, or • trailing edge flaps are in a skew or asymmetry condition, or have uncommanded motion, or • leading edge devices are not configured for takeoff or have uncommanded motion, or • speed brake lever is not in the DOWN position, or • **spoiler control valve is open providing pressurized hydraulic fluid to the ground spoiler interlock valve**, or • parking brake is set, or • stabilizer trim not set in the takeoff range.
+      presets:
+        - correctAnswers:
+            - text: The spoiler control valve is open.
+          wrongAnswers:
+            - text: Flap 1 is set.
+            - text: 7 units of stabiliser trim are set.
+            - text: All leading edge devices are fully extended.
+- id: QMIJH
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The PSEU light illuminates 30 seconds after landing. What does this indicate?
+      explanation: |-
+        ### FCOM 15.20.7, Proximity Switch Electronic Unit (PSEU)
+
+        > The PSEU monitors the following systems: • takeoff configuration warnings • landing configurations warnings • landing gear • air/ground sensing
+        >
+        > The PSEU, its sensors, and its input signals are monitored for internal faults. When designated faults are detected, **a PSEU light on the aft overhead panel illuminates, and the OVERHEAD system annunciator light and MASTER CAUTION lights illuminate.** The PSEU light can be reset following a maintenance BITE check or repair of the cause of the fault.
+
+        ### FCOM 15.20.8, Proximity Switch Electronic Unit (PSEU)
+
+        > The PSEU light is inhibited: • in flight • when the thrust levers are advanced toward takeoff power • **for 30 seconds after landing**
+      presets:
+        - correctAnswers:
+            - text: A fault occurred at some point in the flight in the landing gear position sensing, air/ground sensing or configuration warning systems.
+          wrongAnswers:
+            - text: The thrust reverser system has detected a fault.
+            - text: The PSEU self-test has been successful.
+            - text: The autobrake system has failed.
+- id: QUXMU
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Can the flight crew reset the PSEU light?
+      explanation: |-
+        ### FCOM 15.20.7, Proximity Switch Electronic Unit (PSEU)
+
+        > The PSEU monitors the following systems: • takeoff configuration warnings • landing configurations warnings • landing gear • air/ground sensing
+        >
+        > The PSEU, its sensors, and its input signals are monitored for internal faults. When designated faults are detected, **a PSEU light on the aft overhead panel illuminates, and the OVERHEAD system annunciator light and MASTER CAUTION lights illuminate.** The PSEU light can be reset following a maintenance BITE check or repair of the cause of the fault.
+      presets:
+        - correctAnswers:
+            - text: No. Only a maintenance BITE check or repair of the cause of the fault extinguishes it.
+          wrongAnswers:
+            - text: Yes, by pulling and resetting the PSEU PRI and PSEU ALTN circuit breakers.
+            - text: Yes, by pressing the PSEU light.
+            - text: Yes, by advancing the thrust levers fully forward and retarding them before engine start.
+- id: QYTJD
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does a dotted magenta area on the terrain display indicate?
+      explanation: |-
+        ### FCOM 15.10.12, Terrain Display
+
+        > • Dotted red:  Terrain more than 2,000 feet above airplane’s current altitude • Dotted amber:  Terrain 500 feet (250 feet with gear down) below to 2,000 feet above the airplane’s current altitude • Dotted green:  Terrain from 2,000 feet below to 500 feet (250 feet with gear down) below the airplane’s current altitude • Black:  No significant terrain • **Dotted magenta:  No terrain data available**
+      presets:
+        - correctAnswers:
+            - text: Terrain data is not available.
+          wrongAnswers:
+            - text: Terrain more than 2,000 ft above the airplane.
+            - text: Terrain from 500 ft below to 2,000 ft above the airplane.
+            - text: No significant terrain.
+- id: QRJIY
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Below what height are TCAS resolution advisories inhibited?
+      explanation: |-
+        ### FCOM 15.20.33, TCAS Inhibits
+
+        > INCREASE DESCENT RAs are inhibited below approximately **1,500 feet radio altitude**. DESCEND RAs are inhibited below approximately 1,100 feet radio altitude. RAs are inhibited below approximately 1,000 feet radio altitude.
+      presets:
+        - correctAnswers:
+            - text: 1,000 ft radio altitude.
+          wrongAnswers:
+            - text: 1,200 ft radio altitude.
+            - text: 2,500 ft radio altitude.
+            - text: They are not inhibited at any time.
+- id: QTNWC
+  subjectId: b737
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Below what height are predictive windshear alerts given to the crew?
+      explanation: |-
+        ### FCOM 15.20.26, Predictive Windshear Alerts
+
+        > (Takeoff) Red WINDSHEAR on both attitude indicators [...] Windshear close to and directly ahead of the airplane detected by the weather radar. Enabled during takeoff, below 1,200 feet RA.
+        >
+        > (Approach) Windshear within 1.5 miles and directly ahead of the airplane detected by the weather radar. Enabled during approach, **below 1,200 feet RA.**
+        >
+        > Amber WINDSHEAR message on navigation display (all modes) Windshear within 3 miles and ahead of the airplane detected by the weather radar. Enabled during takeoff and approach, below 1,200 feet RA.
+      presets:
+        - correctAnswers:
+            - text: 1,200 ft RA.
+          wrongAnswers:
+            - text: 500 ft RA.
+            - text: 2,300 ft RA.
+            - text: 2,500 ft RA.

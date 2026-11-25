@@ -1,0 +1,108 @@
+- id: QIRPK
+  subjectId: a320
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The cockpit is equipped with:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 windshields / 2 fixed side windows / 2 sliding windows
+          wrongAnswers:
+            - text: 4 windshields / 2 fixed side windows / 2 sliding windows
+            - text: 2 windshields / 4 fixed side windows / 2 sliding windows
+            - text: 4 windshields / 4 fixed side windows / 2 sliding windows
+- id: QOUYE
+  subjectId: a320
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement about pushbutton positions is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "Pressed In: ON / AUTO / OVRD / OPEN"
+          wrongAnswers:
+            - text: "Pressed In: ON / OFF / AUTO / OPEN"
+            - text: "Pressed In: OFF / MAN / ALTN / SHUT"
+            - text: "Pressed In: MAN / ALTN / OVRD / OPEN"
+- id: QPGCE
+  subjectId: a320
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The C/B panels 121VU and 122VU on the right rear panel of the flight deck (behind the first officer's seat) contain:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The secondary circuit breakers
+          wrongAnswers:
+            - text: The primary circuit breakers
+            - text: The maintenance circuit breakers
+            - text: The circuit breakers that are still powered in an electrical emergency configuration
+- id: QAWKN
+  subjectId: a320
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement about color coding of pushbutton switches is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "WHITE: For an abnormal pushbutton position"
+          wrongAnswers:
+            - text: "GREEN: For normal operation of a system used temporarily"
+            - text: "AMBER: A failure requiring immediate action"
+            - text: "BLUE: For normal system operation"
+- id: QTNCL
+  subjectId: a320
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement about pushbutton positions is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "Released Out: OFF / MAN / ALTN / SHUT"
+          wrongAnswers:
+            - text: "Released Out: ON / OFF / AUTO / OPEN"
+            - text: "Released Out: ON / AUTO / OVRD / OPEN"
+            - text: "Released Out: MAN / ALTN / OVRD / OPEN"
+- id: QFSRT
+  subjectId: a320
+  chapterId: "05"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Regarding pushbutton positions and associated lighting. Certain pushbutton lights have two dots, indicating that:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The corresponding part of the pushbutton is not used
+          wrongAnswers:
+            - text: The corresponding switches will only be used by maintenance personnel
+            - text: The corresponding switches are only used as indicators and do not have a switched function
+            - text: The corresponding switches do not remain pressed in. These are referred to as Momentary Action pushbuttons

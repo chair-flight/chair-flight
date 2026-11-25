@@ -1,0 +1,2449 @@
+- id: QFSUM
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213519
+    - AVEXAM-35044
+    - BGS-212238
+    - ATPLQ-211003
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.01.01.01
+  templates:
+    - type: simple
+      question: In reference to piston engines, what is meant by the term 'swept volume'?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The volume displaced by the piston during a single stroke.
+          wrongAnswers:
+            - text: The volume above the piston when it is at the top dead centre.
+            - text: The volume displaced by the piston during a full cycle.
+            - text: The volume above the piston when it is at the bottom dead centre.
+    - type: simple
+      question: The swept volume is…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The length of the stroke × the piston crown area.
+          wrongAnswers:
+            - text: The volume remaining above the piston at TDC.
+            - text: The volume of cylinder above BDC.
+            - text: The total volume.
+- id: QNMBU
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213418
+    - AVEXAM-49611
+    - AVEXAM-8619
+    - BGS-210443
+    - ATPLQ-215822
+    - ATPLQ-219913
+    - AVEXAM-64103
+    - BGS-211199
+    - BGS-210446
+    - ATPLQ-211827
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.01.01.01
+  templates:
+    - type: simple
+      question: "A piston engine compression ratio is the ratio of the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: total volume to the clearance volume.
+          wrongAnswers:
+            - text: total volume to the swept volume.
+            - text: clearance volume to the swept volume.
+            - text: swept volume to the clearance volume.
+        - correctAnswers:
+            - text: volumes.
+          wrongAnswers:
+            - text: areas.
+            - text: area and volume.
+            - text: pressures.
+        - correctAnswers:
+            - text: the cylinder volume with the piston at bottom dead centre to the cylinder volume at top dead centre.
+          wrongAnswers:
+            - text: piston travel during the compression stroke to travel during the intake stroke.
+            - text: the fuel to air mixture in the combustion chamber.
+            - text: degrees of crankshaft rotation of compression stroke to power stroke.
+- id: QIIMH
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217086
+    - BGS-210456
+    - BGS-210457
+    - BGS-210458
+    - BGS-210459
+    - AVEXAM-59198
+    - AVEXAM-32117
+    - AVEXAM-85489
+    - BGS-210636
+    - BGS-210638
+    - AVEXAM-38357
+    - BGS-210639
+    - AVEXAM-68234
+    - ATPLQ-215692
+    - ATPLQ-213663
+    - ATPLQ-215497
+    - ATPLQ-214397
+    - ATPLQ-212572
+    - ATPLQ-219433
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.01.02.01
+  templates:
+    - type: one-two
+      question: Both gas turbine and piston engines use a cycle made up of induction, compression, combustion and exhaust phases. Which of these statements about a piston engine are correct?
+      explanation: In the ideal piston engine (Otto) cycle, combustion happens at constant volume, as the piston is at top dead centre and pressure rises quickly. In a gas turbine, combustion takes place at constant pressure.
+      pairs:
+        - right:
+            - Theoretically the combustion occurs at constant volume.
+          wrong:
+            - Theoretically the combustion occurs at constant pressure.
+        - right:
+            - The process in a piston engine is not continuous.
+          wrong:
+            - The process in a piston engine is continuous.
+- id: QRROT
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214065
+    - AVEXAM-96499
+    - BGS-210447
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.01.02.01
+  templates:
+    - type: simple
+      question: "The part of a piston engine that transforms reciprocating movement into rotary motion is called the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: crankshaft
+          wrongAnswers:
+            - text: reduction gear
+            - text: piston
+            - text: camshaft
+- id: QVHLQ
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219707
+    - BGS-212155
+    - AVEXAM-14680
+    - AVEXAM-22120
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.01.02.01
+  templates:
+    - type: simple
+      question: Inside a reciprocating engine, the connecting rods and the crankshaft convert the (1).... motion of the (2)..... into a (3)..... motion.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) linear; (2) piston; (3) rotary
+          wrongAnswers:
+            - text: (1) rotary; (2) piston; (3) linear
+            - text: (1) rotary; (2) camshaft; (3) linear
+            - text: (1) linear; (2) camshaft; (3) rotary
+- id: QBVGB
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212742
+    - AVEXAM-65247
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.01.02.03
+  templates:
+    - type: simple
+      question: "The thermal efficiency of a diesel engine is higher than that of a petrol engine because:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the compression ratio is much higher.
+          wrongAnswers:
+            - text: the calorific value of the fuel is higher.
+            - text: the air mass flow through the engine is higher.
+            - text: the EGT is higher.
+- id: QFCCC
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213527
+    - AVEXAM-84285
+    - AVEXAM-6156
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.01.02.03
+    - 021.10.08.01.07
+  templates:
+    - type: multiple-correct
+      question: "Given the following statements about diesel engines:"
+      explanation: ""
+      options:
+        - text: power is set by the mixture control.
+          correct: false
+        - text: there is no mixture control.
+          correct: true
+        - text: the amount of power is determined by the fuel flow only.
+          correct: true
+        - text: thermal efficiency is higher than that for a petrol engine.
+          correct: true
+        - text: diesel fuel is more inflammable than petrol.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QTDHD
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds:
+    - QTDPL
+  externalQuestionIds:
+    - ATPLQ-211561
+    - BGS-212227
+    - AVEXAM-78119
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.02.01.01
+  templates:
+    - type: simple
+      question: AVGAS grade 100 can be identified by which colour code?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Green
+          wrongAnswers:
+            - text: Blue
+            - text: Yellow
+            - text: Red
+- id: QTDPL
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds:
+    - QTDHD
+  externalQuestionIds:
+    - ATPLQ-219700
+    - BGS-211065
+    - AVEXAM-19485
+    - BGS-211096
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.02.01.01
+  templates:
+    - type: simple
+      question: By which colour can AVGAS 100LL be identified?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Blue
+          wrongAnswers:
+            - text: Purple
+            - text: Green
+            - text: Straw
+    - type: simple
+      question: What colour is Avgas 100?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Green
+          wrongAnswers:
+            - text: Red
+            - text: Blue
+            - text: Yellow
+- id: QUTZK
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - BGS-212419
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.02.01.02
+  templates:
+    - type: simple
+      question: The type of fuel normally used in civil aviation for piston diesel engines is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: JET-A1.
+          wrongAnswers:
+            - text: AVGAS 100.
+            - text: JET-B.
+            - text: AVGAS 115.
+- id: QKKJS
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212023
+    - BGS-211181
+    - AVEXAM-87332
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.02.01.03
+  templates:
+    - type: simple
+      question: Which option is a desired characteristic for piston-engine fuel?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Good anti-knock properties.
+          wrongAnswers:
+            - text: Specific gravity greater than 1.0 kg/l.
+            - text: High viscosity.
+            - text: High flash point.
+- id: QPUHQ
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216146
+    - BGS-210463
+    - AVEXAM-90582
+    - ATPLQ-211624
+    - BGS-210460
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.02.01.04
+  templates:
+    - type: simple
+      question: "The use of too low an octane fuel may cause:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: detonation.
+          wrongAnswers:
+            - text: vapour locking.
+            - text: higher manifold pressure.
+            - text: a cooling effect on cylinders.
+- id: QMMTA
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214427
+    - AVEXAM-71306
+    - BGS-210559
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.02.01.05
+  templates:
+    - type: simple
+      question: For a piston engine, pre-ignition refers to the condition that may arise when..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the mixture is ignited by abnormal conditions within the cylinder before the spark occurs at the plug
+          wrongAnswers:
+            - text: the sparking plug ignites the mixture too early.
+            - text: an uncontrolled flame front speed occurs.
+            - text: a rich mixture is ignited by the sparking plugs.
+- id: QOIBF
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218893
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.02.01.06
+  templates:
+    - type: simple
+      question: "The conditions that can cause detonation in a piston engine are:"
+      explanation: Detonation is the spontaneous, explosive burning of the remaining fuel and air mixture after normal ignition. It is promoted by high cylinder pressures and temperatures, so a high manifold pressure combined with a low rpm, which means a high power demand with little cooling and long burn time, makes it more likely.
+      presets:
+        - correctAnswers:
+            - text: high manifold pressure and low rpm.
+          wrongAnswers:
+            - text: low manifold pressure and high fuel flow.
+            - text: low manifold pressure and high rpm.
+            - text: high manifold pressure and high rpm.
+- id: QPWCH
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212071
+    - AVEXAM-8531
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.02.01.06
+  templates:
+    - type: simple
+      question: What should the pilot do if a piston engine aircraft experiences detonation during climb-out?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Decrease manifold pressure.
+          wrongAnswers:
+            - text: Climb at a higher rate of climb.
+            - text: Lean the mixture.
+            - text: Partially close the cowl flaps.
+- id: QIJWZ
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219689
+    - BGS-210461
+    - AVEXAM-10244
+    - BGS-212447
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.02.01.08
+  templates:
+    - type: simple
+      question: "Aircraft fuel tanks should be checked for water:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: before the first flight of the day.
+          wrongAnswers:
+            - text: during refuelling.
+            - text: immediately after every refuelling.
+            - text: before each flight.
+- id: QZEMR
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215937
+    - AVEXAM-45133
+    - BGS-210482
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.02.01.10
+  templates:
+    - type: simple
+      question: '"Vapour lock" is the phenomenon by which:'
+      explanation: Vapour lock happens when fuel vaporises in the feed line, typically in hot conditions or at low pressure, and bubbles block the flow to the pump or carburettor.
+      presets:
+        - correctAnswers:
+            - text: vapour bubbles block the fuel line.
+          wrongAnswers:
+            - text: burned gas bubbles are formed and remain in the exhaust manifold following an overheat, thereby disturbing the exhaust.
+            - text: abrupt and abnormal enrichment of the mixture following an inappropriate use of carburettor heat.
+            - text: water vapour bubbles are formed in the intake fuel line following the condensation of water in fuel tanks that have not been recently drained.
+- id: QZPVY
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214467
+    - AVEXAM-49368
+    - BGS-210318
+    - AVEXAM-3996
+    - ATPLQ-212560
+    - BGS-212340
+    - AVEXAM-4482
+    - ATPLQ-211367
+    - ATPLQ-213380
+    - BGS-210473
+    - AVEXAM-43711
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.02.01.10
+  templates:
+    - type: simple
+      question: Vapour lock is..
+      explanation: Vapour lock is a blockage in the fuel feed line caused by a bubble of fuel vapour, which reduces or stops the fuel flow to the engine.
+      presets:
+        - correctAnswers:
+            - text: a blockage in a fuel feed line caused by a fuel vapour bubble.
+          wrongAnswers:
+            - text: the effect of water vapour bubbles in the induction manifold caused by condensation.
+            - text: exhaust gas obstruction caused by an engine overheating.
+            - text: abnormal mixture enrichment caused by excessive gasoline vaporisation in the carburettor.
+    - type: simple
+      question: Vapour lock can occur when the pressure in the fuel system is (1) _____, which allows fuel to (2) _____, forming a bubble which (3) _____ the flow of fuel through the lines.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) low; (2) boil; (3) blocks
+          wrongAnswers:
+            - text: (1) high; (2) boil; (3) accelerates
+            - text: (1) high; (2) boil; (3) blocks
+            - text: (1) low; (2) solidify; (3) blocks
+    - type: simple
+      question: Vapour lock can occur when pressure in the fuel system is (1), allowing fuel to (2) which forms a bubble and (3) the flow of fuel.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) low; (2) boil; (3) blocks
+          wrongAnswers:
+            - text: (1) low; (2) solidify; (3) blocks
+            - text: (1) high; (2) boil; (3) increases
+            - text: (1) high; (2) boil; (3) blocks
+    - type: simple
+      question: Why is "vapour lock" dangerous?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It can interrupt the fuel flow to the engines.
+          wrongAnswers:
+            - text: It can irritate the skin and eyes.
+            - text: Engine performance may be unexpectedly enhanced.
+            - text: Fuel consumption increases.
+    - type: simple
+      question: Fuel vapour locking is caused by..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: fuel vaporising prior to it entering the engine.
+          wrongAnswers:
+            - text: fuel vaporising in the nozzles.
+            - text: the inability of fuel to vaporise in the nozzles.
+            - text: the formation of water vapour in a fuel system.
+    - type: simple
+      question: What makes vapour lock hazardous?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It can interrupt the fuel flow to the engines.
+          wrongAnswers:
+            - text: Engine performance may be unexpectedly enhanced.
+            - text: Fuel consumption increases.
+            - text: It can irritate the skin and eyes.
+- id: QGZKB
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214115
+    - AVEXAM-68843
+    - BGS-212156
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.01.01
+  templates:
+    - type: simple
+      question: "The main function of a carburettor in a piston engine is to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: supply a correct fuel-air mixture at all speeds.
+          wrongAnswers:
+            - text: control the amount of air entering the airscoop.
+            - text: prevent vapour lock.
+            - text: prevent detonation.
+- id: QGNEB
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213642
+    - BGS-210475
+    - AVEXAM-77653
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.01.02
+  templates:
+    - type: simple
+      question: When fitted to a carburettor, a fuel strainer will be positioned..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: upstream of the needle valve.
+          wrongAnswers:
+            - text: downstream of the discharge nozzle.
+            - text: between the metering jet and the discharge nozzle.
+            - text: between the needle valve and the metering jet.
+- id: QZMSM
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216794
+    - BGS-210470
+    - AVEXAM-25568
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.01.02
+  templates:
+    - type: simple
+      question: "The operating principle of float-type carburettors is based on the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: difference in air pressure at the venturi throat and the air inlet
+          wrongAnswers:
+            - text: increase in air velocity in the throat of a venturi causing an increase in air pressure
+            - text: automatic metering of air at the venturi as the aircraft gains altitude
+            - text: measurement of the fuel flow into the induction system
+- id: QOLBW
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211632
+    - AVEXAM-91954
+    - BGS-210479
+    - AVEXAM-34895
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.01.03
+  templates:
+    - type: simple
+      question: "To maintain a constant mixture in a piston engine at low and high power settings, a carburettor is fitted with:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a diffuser (compensating jet).
+          wrongAnswers:
+            - text: a mixture control.
+            - text: an accelerator pump.
+            - text: a power jet.
+- id: QVQWB
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212841
+    - BGS-212143
+    - AVEXAM-10607
+    - AVEXAM-62505
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.01.03
+  templates:
+    - type: simple
+      question: "The function of a diffuser (compensating jet) is to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: maintain a constant mixture in a piston engine at low and high power settings.
+          wrongAnswers:
+            - text: enable engine starting.
+            - text: enable proper functioning of a piston engine during throttle advance.
+            - text: enable engine idling.
+- id: QHQTJ
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216870
+    - AVEXAM-31370
+    - BGS-210555
+    - ATPLQ-216108
+    - AVEXAM-62092
+    - AVEXAM-10906
+    - BGS-210552
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.01.04
+  templates:
+    - type: simple
+      question: In a normally aspirated piston engine, when altitude increases, the mixture must be adjusted because there is..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a decrease in air density resulting in too rich a mixture.
+          wrongAnswers:
+            - text: an increase of air density resulting in too lean a mixture.
+            - text: an increase of air density resulting in too rich a mixture.
+            - text: a decrease of air density resulting in too lean a mixture.
+    - type: simple
+      question: |-
+        LO 021.10.04.01.04
+        As altitude increases, the mixture ratio of a piston engine should be adjusted to…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: reduce the fuel flow in order to compensate for the decreasing air density.
+          wrongAnswers:
+            - text: increase the fuel flow in order to compensate for the decreasing air pressure and increasing temperature.
+            - text: reduce the fuel flow in order to compensate for the increasing air density.
+            - text: increase the fuel flow in order to compensate for the decreasing air pressure and density.
+- id: QQXWJ
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211984
+    - AVEXAM-69011
+    - BGS-210513
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.01.04
+  templates:
+    - type: simple
+      question: In a piston engine, the purpose of an altitude mixture control is to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: correct for variations in the fuel/air ratio due to decreased air density at altitude.
+          wrongAnswers:
+            - text: weaken the mixture because of reduced exhaust back pressure at altitude.
+            - text: enrich the mixture due to decreased air density at altitude.
+            - text: prevent a weak mixture when the throttle is opened rapidly at altitude.
+- id: QPWDX
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212061
+    - BGS-212242
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.01.05
+  templates:
+    - type: simple
+      question: "The function of an accelerator pump in the carburettor of a piston engine is to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: enable proper functioning of a piston engine during throttle advance.
+          wrongAnswers:
+            - text: enable engine starting.
+            - text: maintain a constant mixture in a piston engine at low and high power settings.
+            - text: enable engine idling.
+- id: QFLEG
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds:
+    - QVJPB
+  externalQuestionIds:
+    - ATPLQ-214614
+    - BGS-210472
+    - AVEXAM-6918
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.01.08
+  templates:
+    - type: simple
+      question: Which statement is correct concerning the effect of the application of carburettor heat?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The density of the air entering the carburettor is reduced, which enriches the fuel/air mixture.
+          wrongAnswers:
+            - text: The volume of the air entering the carburettor is reduced, which leans the fuel/air mixture.
+            - text: The density of the air entering the carburettor is reduced, which leans the fuel/air mixture.
+            - text: The volume of the air entering the carburettor is reduced, which enriches the fuel/air mixture.
+- id: QVJPB
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds:
+    - QFLEG
+  externalQuestionIds:
+    - ATPLQ-217663
+    - BGS-210481
+    - AVEXAM-90202
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.01.08
+  templates:
+    - type: simple
+      question: "The application of carburettor heating reduces the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Density of air entering the carburettor, thus enriching the mixture.
+          wrongAnswers:
+            - text: Volume of air entering the carburettor, thus enriching the mixture.
+            - text: Density of air entering the carburettor, thus leaning the mixture.
+            - text: Volume of air entering the carburettor, thus leaning the mixture.
+- id: QWXTI
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212022
+    - AVEXAM-46511
+    - BGS-210553
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.01.08
+  templates:
+    - type: simple
+      question: "When applying carburettor heating:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the mixture becomes richer.
+          wrongAnswers:
+            - text: RPM increases immediately.
+            - text: the mixture becomes leaner.
+            - text: no change occurs in the mixture.
+- id: QMYIR
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219838
+    - AVEXAM-91692
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.01.09
+  templates:
+    - type: multiple-correct
+      question: "Excessive priming of a piston engine should be avoided because:"
+      explanation: ""
+      options:
+        - text: it drains the carburettor float chamber.
+          correct: false
+        - text: the risk of engine fire.
+          correct: true
+        - text: the risk of flooding the engine.
+          correct: true
+        - text: it fouls the spark plugs.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QDAFF
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218090
+    - AVEXAM-31038
+    - AVEXAM-56082
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.01.10
+  templates:
+    - type: simple
+      question: "The safest method of priming a piston engine for starting is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: injection of fuel in the cylinder intake ports.
+          wrongAnswers:
+            - text: injection of fuel through spark plug holes.
+            - text: by turning the propeller several times with the throttle wide open.
+            - text: pumping the throttle.
+- id: QTQGJ
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213724
+    - AVEXAM-4887
+    - BGS-211405
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.02.01
+  templates:
+    - type: simple
+      question: Comparing a fuel injection system to a fuel carburettor system for a piston engine, the fuel injection system
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is less prone to induction-system icing.
+          wrongAnswers:
+            - text: has a decreased acceleration response.
+            - text: increases the chances of cylinders overheating due to uneven fuel distribution.
+            - text: has a worsened fuel economy.
+- id: QKNQS
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215362
+    - BGS-210471
+    - AVEXAM-73546
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.03.01
+  templates:
+    - type: simple
+      question: "In an engine equipped with a float-type carburettor, the low temperature that causes carburettor ice is normally the result of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: vaporisation of fuel and expansion of the air in the carburettor
+          wrongAnswers:
+            - text: compression of air at the carburettor venturi
+            - text: freezing temperature of the air entering the carburettor
+            - text: low volatility of aviation fuel
+- id: QPJWZ
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217155
+    - BGS-210469
+    - AVEXAM-52962
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.03.01
+  templates:
+    - type: simple
+      question: With regard to a piston engine, the sections of the carburettor where icing would most likely occur are the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: venturi and the throttle valve.
+          wrongAnswers:
+            - text: accelerator pump and main metering jet.
+            - text: main air bleed and main discharge nozzle.
+            - text: float chamber and fuel inlet filter.
+- id: QDUTQ
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds:
+    - QIPVV
+  externalQuestionIds:
+    - ATPLQ-214262
+    - AVEXAM-85138
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.03.03
+  templates:
+    - type: simple
+      question: In aeroplanes equipped with constant speed propellers, the first indication of carburettor icing during cruise would most likely be a..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: decrease in manifold pressure.
+          wrongAnswers:
+            - text: rough running engine followed by loss in RPM.
+            - text: rough running engine followed by an increase in manifold pressure.
+            - text: decrease in RPM.
+- id: QIPVV
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds:
+    - QDUTQ
+  externalQuestionIds:
+    - ATPLQ-213330
+    - BGS-210480
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.03.03
+  templates:
+    - type: simple
+      question: "The first indication of carburettor icing on an aeroplane with a piston engine and a constant speed propeller during cruise is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: loss of manifold pressure.
+          wrongAnswers:
+            - text: abnormal cylinder head temperature.
+            - text: increase in manifold pressure.
+            - text: decrease in RPM.
+- id: QANST
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215399
+    - BGS-211133
+    - AVEXAM-85736
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.03.05
+  templates:
+    - type: simple
+      question: If the manifold pressure gauge of a piston engine shows an increase shortly after carburettor heat is turned on, it indicates that..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ice was forming in carburettor.
+          wrongAnswers:
+            - text: the cylinder walls are overheating.
+            - text: the mixture was too lean.
+            - text: excessive heat is being used.
+- id: QDBPX
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212484
+    - AVEXAM-1356
+    - BGS-211996
+    - ATPLQ-213135
+    - BGS-212347
+    - AVEXAM-73149
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.04.03.07
+  templates:
+    - type: simple
+      question: Which statement is correct with regards to ice accretion in piston engine induction systems.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ice accretion affects both fuel injection systems and engines equipped with carburettors.
+          wrongAnswers:
+            - text: Fuel ice is normally formed in the induction system of fuel injected engines.
+            - text: Ice on the throttle valve is only found in the induction system of fuel injection systems.
+            - text: Induction system icing affects only engines equipped with carburettors.
+    - type: simple
+      question: |-
+        Which of the following statements is/are correct?
+
+        1. Ice accretion affects both fuel injection systems and engines equipped with carburettors 
+         
+        2. Carburettor icing generally occurs below -10°C
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 is correct, 2 is incorrect.
+          wrongAnswers:
+            - text: Both correct.
+            - text: Both incorrect.
+            - text: 1 is incorrect, 2 is correct.
+    - type: simple
+      question: |-
+        Which of these statements about piston engine induction system icing is/are correct or incorrect?
+        1. Ice accretion affects engines equipped with carburettors and fuel injection systems.
+        2. Carburettor icing generally occurs with outside air temperatures below -10° C.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 is correct, 2 is incorrect
+          wrongAnswers:
+            - text: Both 1 and 2 are correct.
+            - text: 1 is incorrect, 2 is correct
+            - text: Both 1 and 2 are incorrect.
+    - type: simple
+      question: |-
+        Which of the following statements regarding ice accretion and carburettor icing are true?
+
+         Ice formation impacts both fuel injection systems and engines with carburettors.
+         Carburettor icing typically occurs below -10 °C.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 is correct, 2 is incorrect.
+          wrongAnswers:
+            - text: Both incorrect.
+            - text: 1 is incorrect, 2 is correct.
+            - text: Both correct.
+- id: QDTMN
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216370
+    - AVEXAM-133
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.05.01.02
+  templates:
+    - type: simple
+      question: Cooling air for a reciprocating engine is obtained by means of..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ram air.
+          wrongAnswers:
+            - text: a turbocharger.
+            - text: a supercharger.
+            - text: a pneumatic system.
+- id: QHIVA
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212997
+    - AVEXAM-67585
+    - BGS-212162
+    - BGS-211770
+    - ATPLQ-212990
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.05.01.06
+  templates:
+    - type: simple
+      question: What is the purpose of cowl flaps on an aeroplane?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Air flow across the engine is increased when they are open, which increases cooling efficiency.
+          wrongAnswers:
+            - text: Air flow across the engine is reduced when they are open, which decreases cooling efficiency.
+            - text: Air flow into the engine air intake is decreased when they are open, which decreases engine performance.
+            - text: Air flow into the engine air intake is increased when they are open, which increases engine performance.
+    - type: simple
+      question: The purpose of cowl flaps is to (1) _____ airflow around the engine to (2) _____ engine temperature.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) regulate; (2) control
+          wrongAnswers:
+            - text: (1) increase; (2) increase
+            - text: (1) decrease; (2) decrease
+            - text: (1) regulate; (2) measure
+- id: QLVQD
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216165
+    - AVEXAM-1689
+    - AVEXAM-9253
+    - BGS-210485
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.06.01.01
+  templates:
+    - type: simple
+      question: Viscosity is
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the tendency of a liquid or gas to resist flow.
+          wrongAnswers:
+            - text: the temperature dependence of an oil.
+            - text: the pressure resistance of an oil.
+            - text: the flow velocity inside the oil lines.
+- id: QESSK
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218441
+    - BGS-210488
+    - AVEXAM-65093
+    - AVEXAM-62379
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.06.02.01
+  templates:
+    - type: simple
+      question: The primary function of the lubrication system of an air-cooled piston engine is to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: reduce internal friction and provide cooling.
+          wrongAnswers:
+            - text: reduce internal friction and keep the engine warm.
+            - text: provide cooling and operate the fuel control unit.
+            - text: operate constant speed propellers.
+- id: QAADQ
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219599
+    - AVEXAM-5865
+    - BGS-210487
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.06.02.02
+  templates:
+    - type: simple
+      question: The reading on the engine oil pressure gauge is the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: pressure of the oil downstream of the pressure pump.
+          wrongAnswers:
+            - text: difference between the pressure pump pressure and the scavenge pump pressure.
+            - text: pressure of the oil upstream of the pressure pump.
+            - text: pressure in the oil tank.
+- id: QYWTM
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218591
+    - AVEXAM-55412
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.06.02.02
+  templates:
+    - type: simple
+      question: The dry sump oil system for a piston engine incorporates an oil tank with normally two stack pipes installed. Stack pipes can be found...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both in the bottom of the tank.
+          wrongAnswers:
+            - text: At the top and in the bottom of the tank.
+            - text: Both in the top of the tank.
+            - text: Both in the sides of the tank.
+- id: QDNBL
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218635
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.06.02.03
+    - 021.10.06.02.04
+  templates:
+    - type: multiple-correct
+      question: Which of the following will you find in a "wet sump" lubrication system?
+      explanation: ""
+      options:
+        - text: Pressure pump.
+          correct: true
+        - text: Separate oil reservoir.
+          correct: false
+        - text: Scavenge pump.
+          correct: false
+        - text: Integrated oil reservoir.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QZNDQ
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213676
+    - BGS-212204
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.06.02.03
+  templates:
+    - type: simple
+      question: Which of the following is true with regards to a wet-sump oil system?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The oil reservoir is within the engine casing.
+          wrongAnswers:
+            - text: The oil is pumped from the reservoir to the engine for lubrication and cooling.
+            - text: The oil is stored outside the aircraft, in a separate tank, to avoid contamination.
+            - text: The oil reservoir is located in the main rotor gearbox.
+- id: QMTTD
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211629
+    - AVEXAM-19012
+    - AVEXAM-26840
+    - AVEXAM-74414
+    - AVEXAM-4624
+    - ATPLQ-218346
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.06.02.04
+  templates:
+    - type: one-two
+      question: Which of the following statements are correct, with regards to a dry sump oil system in comparison to a wet sump system?
+      explanation: ""
+      pairs:
+        - right:
+            - Temperature control is more difficult in a wet sump system.
+          wrong:
+            - Temperature control is more difficult in a dry sump system.
+        - right:
+            - The oil quantity in a dry sump system depends on the external oil reservoir.
+          wrong:
+            - The oil quantity in a wet sump system depends on the external oil reservoir.
+- id: QNXVM
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216072
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.06.02.04
+  templates:
+    - type: simple
+      question: The oil is stored underneath the engine, with NO external reservoir and a higher oil capacity. Which type of oil system is being described?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Neither system is being described.
+          wrongAnswers:
+            - text: Wet sump.
+            - text: Dry sump.
+            - text: Both systems may be being described.
+- id: QXNGZ
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds:
+    - QCUZF
+  externalQuestionIds:
+    - ATPLQ-211720
+    - AVEXAM-23208
+    - BGS-212201
+    - AVEXAM-62047
+    - BGS-211140
+    - AVEXAM-90331
+    - ATPLQ-213752
+    - BGS-212473
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.06.02.06
+  templates:
+    - type: simple
+      question: Which one of the following situations might cause a higher-than-normal oil pressure indication?
+      explanation: A relief valve that sticks closed cannot release excess pressure, so oil pressure rises above normal. Hot weather or a leak would lower oil pressure.
+      presets:
+        - correctAnswers:
+            - text: A stuck oil pressure relief valve.
+          wrongAnswers:
+            - text: A high outside air temperature.
+            - text: A gradual leak in the engine lubrication system.
+            - text: Clogging of the engine oil cooler.
+    - type: simple
+      question: What might cause high oil pressure in a piston engine?
+      explanation: A relief valve that sticks closed cannot release excess pressure, so oil pressure rises above normal. Hot weather or a leak would lower oil pressure. Cold oil is more viscous, so pressure rises until the engine warms up.
+      presets:
+        - correctAnswers:
+            - text: Low oil temperature.
+          wrongAnswers:
+            - text: High oil temperature.
+            - text: Low oil quantity.
+            - text: The cowl flap being in the closed position.
+- id: QCUZF
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds:
+    - QXNGZ
+  externalQuestionIds:
+    - ATPLQ-211111
+    - BGS-212127
+    - AVEXAM-21608
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.06.02.06
+  templates:
+    - type: simple
+      question: There is a gradual loss of oil from the engine lubrication system. Which of the following indications can be expected as a result of this leak?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Low/fluctuating oil pressure, high oil temperature.
+          wrongAnswers:
+            - text: Low/fluctuating oil pressure, low oil temperature.
+            - text: High/fluctuating oil pressure, low oil temperature.
+            - text: High/fluctuating oil pressure, high oil temperature.
+- id: QYNFY
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216059
+    - BGS-210491
+    - AVEXAM-18011
+    - ATPLQ-217677
+    - AVEXAM-89657
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.07.01.01
+  templates:
+    - type: simple
+      question: "If the ground wire between the magnetos and the ignition switch of a piston engine becomes disconnected the most noticeable result will be that:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the engine cannot be shut down by turning the ignition switch to the “OFF” position.
+          wrongAnswers:
+            - text: the power developed by the engine will be greatly reduced.
+            - text: the engine cannot be started with the ignition switch in the “ON” position.
+            - text: a still operating engine will run down.
+        - correctAnswers:
+            - text: cannot be shut down by turning the switch to the OFF position.
+          wrongAnswers:
+            - text: cannot be started with the switch in the ON position.
+            - text: will run but maximum power will be unobtainable.
+            - text: will run but the faulty magneto will be earthed out.
+- id: QAFLW
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215558
+    - BGS-210498
+    - AVEXAM-15076
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.07.01.02
+  templates:
+    - type: simple
+      question: "Dual ignition for a piston engine provides a factor of reliability and:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: improves combustion efficiency.
+          wrongAnswers:
+            - text: provides more voltage.
+            - text: saves wear caused by using one magneto constantly.
+            - text: improves starting.
+- id: QQGKV
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215233
+    - BGS-210497
+    - AVEXAM-15265
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.07.01.02
+    - 021.10.07.01.05
+  templates:
+    - type: simple
+      question: A piston engine aeroplane with a fixed pitch propeller is flying at normal cruising speed when one magneto fails completely. The initial response of the engine is..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a loss of approximately 100 RPM.
+          wrongAnswers:
+            - text: an additional load on the other magneto.
+            - text: excessive vibration.
+            - text: a significant increase in cylinder head temperature.
+- id: QBKKT
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds:
+    - QDONT
+  externalQuestionIds:
+    - ATPLQ-212799
+    - AVEXAM-62330
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.07.01.03
+  templates:
+    - type: simple
+      question: An impulse magneto coupling in a piston engine..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: retards the spark during engine starting.
+          wrongAnswers:
+            - text: reduces magneto speed during engine warm-up.
+            - text: gives an automatic spark increase during high-speed operation.
+            - text: advances ignition timing and gives a hotter spark at starting.
+- id: QDONT
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds:
+    - QBKKT
+  externalQuestionIds:
+    - ATPLQ-214449
+    - AVEXAM-81001
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.07.01.03
+  templates:
+    - type: simple
+      question: An impulse coupling is installed on a magneto of a piston engine to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: provide a stronger spark on top dead centre for engine starting.
+          wrongAnswers:
+            - text: facilitate the quick removal and installation of magnetos.
+            - text: absorb starting loads and ensure a dead cut on stopping.
+            - text: allow the ignition to automatically advance as RPM increases.
+- id: QAUUV
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds:
+    - QGGHP
+  externalQuestionIds:
+    - ATPLQ-211467
+    - AVEXAM-66869
+    - AVEXAM-61191
+    - BGS-211494
+    - BGS-211495
+    - AVEXAM-49723
+    - AVEXAM-89063
+  annexes:
+    - id: AHZA
+  learningObjectiveIds:
+    - 021.10.08.01.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        On the diagram showing the power output of a piston engine as a function of mixture ratio, the chemically correct ratio (stoichiometric) is shown at:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: point 4.
+          wrongAnswers:
+            - text: point 2.
+            - text: point 5.
+            - text: point 3.
+- id: QGGHP
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds:
+    - QAUUV
+  externalQuestionIds:
+    - ATPLQ-217924
+    - AVEXAM-36458
+    - AVEXAM-22337
+    - BGS-211496
+  annexes:
+    - id: AHZA
+  learningObjectiveIds:
+    - 021.10.08.01.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        On the diagram showing the power output of a piston engine as a function of mixture ratio, best power is shown at:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: point 2.
+          wrongAnswers:
+            - text: point 5.
+            - text: point 3.
+            - text: point 4.
+- id: QQJLP
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211672
+    - BGS-210517
+    - AVEXAM-65278
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.08.01.02
+  templates:
+    - type: simple
+      question: "For a piston engine, the chemically correct fuel/air ratio is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1:15
+          wrongAnswers:
+            - text: 1:12
+            - text: 1:10
+            - text: 1:09
+- id: QURLD
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214555
+    - BGS-210561
+    - AVEXAM-91356
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.08.01.03
+  templates:
+    - type: simple
+      question: What may happen to a piston engine during a continuous climb with a mixture setting fully rich?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Fouling of spark-plugs.
+          wrongAnswers:
+            - text: Increase of the power available.
+            - text: The engine will operate more smoothly but fuel consumption will increase.
+            - text: The engine will overheat.
+- id: QXTFL
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212357
+    - BGS-211490
+  annexes:
+    - id: AHZA
+  learningObjectiveIds:
+    - 021.10.08.01.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        At take-off power and full rich mixture, the mixture control is slowly moved towards lean and as a result the RPM of a piston engine with a fixed pitch propeller increases, indicate the corresponding area in the annex.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: from point 1 to point 2.
+          wrongAnswers:
+            - text: from point 3 to point 4.
+            - text: from point 1 to point 4.
+            - text: from point 2 to point 3.
+- id: QUPQQ
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds:
+    - QXRDF
+  externalQuestionIds:
+    - ATPLQ-217953
+    - BGS-211493
+    - BGS-211492
+    - AVEXAM-53268
+  annexes:
+    - id: AHZA
+  learningObjectiveIds:
+    - 021.10.08.01.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        On the diagram showing the power output of a piston engine as a function of mixture ratio, best economy on lean side of the EGT top is shown at:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: point 5.
+          wrongAnswers:
+            - text: point 3.
+            - text: point 4.
+            - text: point 2.
+- id: QXRDF
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds:
+    - QUPQQ
+  externalQuestionIds:
+    - ATPLQ-216953
+  annexes:
+    - id: AHZA
+  learningObjectiveIds:
+    - 021.10.08.01.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        On the diagram showing the power output of a piston engine as a function of mixture ratio, theoretical best economy is shown at:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: point 4.
+          wrongAnswers:
+            - text: point 2.
+            - text: point 1.
+            - text: point 3.
+- id: QRVXC
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212857
+    - AVEXAM-42249
+    - BGS-210557
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.08.01.05
+  templates:
+    - type: simple
+      question: An EGT (Exhaust Gas Temperature) indicator for a piston engine is used to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: assist the pilot to set the correct mixture.
+          wrongAnswers:
+            - text: control the cylinder head temperature.
+            - text: control the carburettor inlet airflow.
+            - text: control the fuel temperature.
+- id: QYFUW
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213329
+    - BGS-210515
+    - AVEXAM-50118
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.08.01.06
+  templates:
+    - type: simple
+      question: When excessively leaning the mixture of a piston engine for a better fuel economy, but still on the rich side of the peak EGT, which of the following engine parameters may exceed their normal operating range?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cylinder head and exhaust gas temperature.
+          wrongAnswers:
+            - text: Oil temperature.
+            - text: Engine RPM.
+            - text: Manifold pressure.
+- id: QQPWA
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216448
+    - BGS-210451
+    - AVEXAM-9155
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.08.01.07
+  templates:
+    - type: simple
+      question: "The power output of a diesel engine without a turbo charger is regulated by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: fuel flow only.
+          wrongAnswers:
+            - text: airflow only.
+            - text: mixture.
+            - text: fuel flow and airflow.
+- id: QHHPI
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212446
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.09.01
+  templates:
+    - type: simple
+      question: "The 'slipstream effect' of a propeller is most prominent at:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: low airspeeds with high power setting.
+          wrongAnswers:
+            - text: low airspeeds with low power setting.
+            - text: high airspeeds with high power setting.
+            - text: high airspeeds with low power setting.
+- id: QOABX
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215133
+    - BGS-210815
+    - AVEXAM-39569
+    - AVEXAM-82652
+    - BGS-210813
+    - AVEXAM-80342
+    - BGS-211043
+    - AVEXAM-27554
+    - AVEXAM-59489
+    - ATPLQ-214348
+    - ATPLQ-216889
+    - ATPLQ-215292
+    - ATPLQ-214969
+    - ATPLQ-213213
+    - ATPLQ-211779
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.09.02.01
+  templates:
+    - type: one-two
+      question: Which statement is correct for a gas turbine engine with constant speed propeller and free power turbine, when the power setting is decreased?
+      explanation: With a constant-speed propeller, reducing power lowers the torque, so the governor decreases the blade angle (finer pitch) to keep the propeller speed constant. Increasing power does the opposite.
+      pairs:
+        - right:
+            - The propeller blade angle decreases.
+          wrong:
+            - The propeller blade angle increases.
+        - right:
+            - The free power turbine speed remains constant.
+          wrong:
+            - The free power turbine speed changes.
+    - type: simple
+      question: |-
+        Which statement is correct for a gas turbine engine with constant speed propeller and free power turbine, when the power setting is decreased?
+
+        I. The propeller blade angle increases. 
+         
+        II. The free power turbine speed decreases.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: I is incorrect, II is incorrect.
+          wrongAnswers:
+            - text: I is correct, II is incorrect.
+            - text: I is correct, II is correct.
+            - text: I is incorrect, II is correct.
+        - correctAnswers:
+            - text: I is correct, II is incorrect.
+          wrongAnswers:
+            - text: I is incorrect, II is incorrect.
+            - text: I is incorrect, II is correct.
+            - text: I is correct, II is correct.
+- id: QPKHT
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216002
+    - BGS-211252
+    - AVEXAM-99364
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.09.02.01
+  templates:
+    - type: simple
+      question: A constant speed propeller is attached to a free turbine engine, what happens when the power is reduced?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The fuel flow will reduce, the CSU adjusts the propeller towards a lower pitch. The propeller and turbine RPM decrease before the CSU responds.
+          wrongAnswers:
+            - text: The CSU adjusts the propeller to maintain a constant RPM. The turbine RPM increases before the CSU responds.
+            - text: The fuel flow remains constant, the CSU adjusts the propeller. The propeller and turbine RPM increase before the CSU responds.
+            - text: The fuel flow will reduce, the CSU adjusts the propeller to a lower pitch. The propeller and turbine RPM increase before the CSU responds.
+- id: QKCPU
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211662
+    - BGS-212225
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.09.02.02
+  templates:
+    - type: simple
+      question: "If a manifold pressure gauge consistently registers atmospheric pressure, the cause is probably:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: leak in pressure gauge line.
+          wrongAnswers:
+            - text: an aneroid capsule which is not properly calibrated.
+            - text: a very high atmospheric pressure.
+            - text: a very low atmospheric pressure.
+- id: QYCFT
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216722
+    - AVEXAM-18314
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.09.02.03
+  templates:
+    - type: simple
+      question: "The torque of an aeroplane engine can be measured at the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: gear box which is located between the engine and the propeller.
+          wrongAnswers:
+            - text: camshaft.
+            - text: accessory gear box.
+            - text: propeller blades.
+- id: QOWZY
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213940
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.09.03.01
+  templates:
+    - type: simple
+      question: One of the primary purposes of a propeller reduction gearing system is to
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: limit the propeller rotation speed to a value below which efficient operation can be obtained.
+          wrongAnswers:
+            - text: change the propeller blade pitch angle so as to obtain efficient operation.
+            - text: provide an increased horsepower output from the engine.
+            - text: limit the engine rotation speed to prevent excessive engine temperatures.
+- id: QMBXB
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219788
+    - AVEXAM-83223
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.09.04.01
+  templates:
+    - type: simple
+      question: After start of a piston engine, correct operation of the pitch adjustment system of a constant speed propeller can be confirmed by altering the propeller control lever and checking indications on the
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: tachometer.
+          wrongAnswers:
+            - text: manifold pressure gauge.
+            - text: engine oil pressure indicator.
+            - text: exhaust gas temperature gauge.
+- id: QNZBV
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218058
+    - AVEXAM-36508
+    - BGS-210522
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.09.04.02
+  templates:
+    - type: simple
+      question: Assuming the RPM and throttle levers are not altered, when TAS increases the blade angle of a constant speed propeller will..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: increase.
+          wrongAnswers:
+            - text: decrease.
+            - text: decrease, then after a short time increase to its previous value.
+            - text: remain constant.
+- id: QUFEK
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216302
+    - BGS-210519
+    - AVEXAM-18352
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.09.04.02
+  templates:
+    - type: simple
+      question: The blade angle of a constant-speed propeller..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: increases with increasing true air speed.
+          wrongAnswers:
+            - text: varies only with engine RPM.
+            - text: is independent of the true air speed.
+            - text: decreases with increasing true air speed.
+- id: QVJNP
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211857
+    - AVEXAM-41980
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.09.04.03
+  templates:
+    - type: simple
+      question: What are the actions to unfeather a variable pitch prop…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Push the propeller lever forward into the normal operating range which results in a blade angle producing thrust.
+          wrongAnswers:
+            - text: Push the propeller lever forward into the normal operating range which results in a blade angle with no thrust.
+            - text: Pull the propeller backward into the normal operating range which results in a blade angle producing thrust.
+            - text: Pull the propeller lever backward into the normal operating range which results in a blade angle with no thrust.
+- id: QKUNQ
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218638
+    - AVEXAM-52373
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.09.04.04
+  templates:
+    - type: simple
+      question: Consider a variable pitch propeller operating in a high RPM / low pitch condition. To select reverse thrust, the
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: power lever is moved to the reverse position and the blades move from low pitch directly to reverse pitch.
+          wrongAnswers:
+            - text: power lever is moved to the reverse position and the blades move from low pitch through high pitch to reverse pitch.
+            - text: condition lever is moved to the reverse position and the blades move from low pitch directly to reverse pitch.
+            - text: condition lever is moved to the reverse position and the blades move from low pitch through high pitch to reverse pitch.
+- id: QFAGA
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219455
+    - AVEXAM-59314
+    - BGS-211916
+    - AVEXAM-14700
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.09.04.05
+  templates:
+    - type: simple
+      question: Consider a piston-engine aircraft with a constant speed propeller. Upon reaching cruising altitude when less power is required, engine power is
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: reduced by lowering the manifold pressure and increasing the blade angle, to decrease RPM.
+          wrongAnswers:
+            - text: reduced by lowering the manifold pressure and decreasing the blade angle, to decrease RPM.
+            - text: reduced by lowering the manifold pressure while RPM and blade angle are maintained.
+            - text: maintained but the blade angle is decreased, to decrease RPM.
+- id: QNRDU
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217508
+    - BGS-210525
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.09.04.05
+  templates:
+    - type: simple
+      question: "For take-off, the correct combination of propeller pitch (1), and propeller lever position (2) for a piston engine at brake release is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) low, (2) forward.
+          wrongAnswers:
+            - text: (1) high, (2) aft.
+            - text: (1) high, (2) forward.
+            - text: (1) low, (2) aft.
+- id: QPUYV
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212553
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.09.04.05
+    - 021.10.10.02.01
+  templates:
+    - type: simple
+      question: The pilot of a turbocharged MEP aircraft is climbing with Maximum Continuous Power set until reaching the cruising altitude of 10 000 ft. The pilot levels off and initially maintains power to accelerate to cruise speed. Which of the following actions are required to reduce fuel consumption?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Decrease power by reducing manifold pressure and increase the propeller blade angle using the RPM lever.
+          wrongAnswers:
+            - text: Maintain the same power and reduce the propeller RPM by increasing the blade angle.
+            - text: Decrease power by reducing manifold pressure and decrease the propeller blade angle using the RPM lever.
+            - text: Decrease power by reducing manifold pressure and maintain constant RPM.
+- id: QTGZN
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217658
+    - BGS-210538
+    - AVEXAM-94615
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.10.01.01
+  templates:
+    - type: simple
+      question: "The conditions most likely to produce the highest engine power are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: cold and dry air at high pressure.
+          wrongAnswers:
+            - text: cold air at high pressure with high relative humidity.
+            - text: warm air at low pressure with high relative humidity.
+            - text: warm and dry air at high pressure.
+- id: QBFJI
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218533
+    - BGS-211976
+    - AVEXAM-183
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.10.01.02
+  templates:
+    - type: simple
+      question: In a 4-stroke normally aspirated piston engine at altitude, which of the following causes the air-fuel mixture to enter the cylinders?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The difference between ambient pressure and pressure inside the cylinder.
+          wrongAnswers:
+            - text: Compression from devices upstream of the carburettor.
+            - text: The difference between ambient pressure and exhaust back pressure.
+            - text: Compression from devices downstream of the carburettor.
+- id: QVRCQ
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215398
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.10.01.02
+  templates:
+    - type: simple
+      question: Which of the following factors contribute to the process of combustion within a piston engine?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Atmospheric pressure and pressure within the cylinder.
+          wrongAnswers:
+            - text: Atmospheric pressure and carburettor compression.
+            - text: Fuel viscosity and exhaust gas temperature.
+            - text: Spark plug temperature and oil viscosity.
+- id: QWKKW
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217717
+    - BGS-210544
+    - AVEXAM-2069
+    - ATPLQ-218630
+    - BGS-210543
+    - AVEXAM-50856
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.10.01.03
+  templates:
+    - type: simple
+      question: The main purpose of a turbocharger is to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: maintain power with increasing altitude.
+          wrongAnswers:
+            - text: provide a richer mixture at higher altitudes.
+            - text: reduce the fuel flow.
+            - text: increase thermal efficiency.
+    - type: simple
+      question: "One of the advantages of a turbocharger in a piston engine is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: to make the power available less affected by altitude.
+          wrongAnswers:
+            - text: that there is no danger of detonation.
+            - text: that there is no torsion at the crankshaft.
+            - text: an increased propulsive efficiency.
+    - type: simple
+      question: "One of the advantages of a turbocharger is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To make the power available less affected by altitude.
+          wrongAnswers:
+            - text: An increased propulsive efficiency.
+            - text: That there is no torsion at the crankshaft.
+            - text: That there is no danger of detonation.
+        - correctAnswers:
+            - text: the power available is less affected by altitude.
+          wrongAnswers:
+            - text: that there is no danger of detonation.
+            - text: that there is no torsion at the crankshaft.
+            - text: an increased propulsive efficiency.
+- id: QXBXU
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211199
+    - AVEXAM-10669
+    - BGS-210547
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.10.01.03
+  templates:
+    - type: simple
+      question: In a piston engine, turbocharger boost pressure can be monitored by..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a manifold pressure gauge only.
+          wrongAnswers:
+            - text: engine RPM readings and a manifold pressure gauge.
+            - text: a cylinder head temperature gauge and manifold pressure gauge.
+            - text: a cylinder head temperature gauge, a manifold pressure gauge and engine RPM readings.
+- id: QCVFV
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211128
+    - BGS-970074
+    - ATPLQ-211260
+    - BGS-212334
+    - AVEXAM-39548
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.10.01.04
+  templates:
+    - type: simple
+      question: Which of the following statements is correct regarding aircraft engine turbochargers?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The waste-gate diverts exhaust gas to drive the turbine.
+          wrongAnswers:
+            - text: The waste-gate is situated in the inlet manifold.
+            - text: When the waste-gate is fully open the turbocharger is running at full speed.
+            - text: The waste-gate actuator is controlled by the waste-gate.
+    - type: simple
+      question: A waste gate controls the output of a turbocharger by varying the amount of exhaust gasses passing through the turbocharger's (1) _____. A fully (2) _____ waste gate will achieve the maximum turbocharger RPM.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) turbine; (2) closed
+          wrongAnswers:
+            - text: (1) turbine; (2) open
+            - text: (1) compressor; (2) open
+            - text: (1) compressor; (2) closed
+    - type: simple
+      question: A waste-gate is used to control a turbocharger's output, by varying the quantity of exhaust gases passing to the turbocharger's (1). A fully (2) waste-gate will achieve the maximum turbocharger rotational speed.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) turbine; (2) closed
+          wrongAnswers:
+            - text: (1) compressor; (2) closed
+            - text: (1) turbine; (2) open
+            - text: (1) compressor; (2) open
+- id: QMGSN
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218666
+    - BGS-210546
+    - AVEXAM-13450
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.10.01.04
+    - 021.11.02.02.03
+  templates:
+    - type: simple
+      question: "The air in a piston engine turbocharger enters the centrifugal compressor at:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the eye of the impeller and leaves it almost at a tangent to the periphery.
+          wrongAnswers:
+            - text: the periphery and leaves via the eye of the impeller.
+            - text: the diffuser and is fed to the impeller at the optimum angle of attack.
+            - text: a tangent to the rotor and leaves via the stator.
+- id: QDEWY
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218068
+    - AVEXAM-24276
+    - BGS-212220
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.10.01.08
+  templates:
+    - type: simple
+      question: An intercooler fitted between a supercharger and the inlet manifold will..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: minimise the risk of detonation.
+          wrongAnswers:
+            - text: increase the combustion temperature.
+            - text: reduce the mass flow through the engine.
+            - text: reduce pre-ignition.
+- id: QTDOA
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219264
+    - BGS-210551
+    - AVEXAM-43692
+    - AVEXAM-73661
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.10.02.01
+  templates:
+    - type: simple
+      question: "When changing power on piston engines equipped with a constant speed propeller, engine overboost is avoided by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: increasing the RPM before increasing the manifold pressure.
+          wrongAnswers:
+            - text: reducing the RPM before reducing the manifold pressure.
+            - text: increasing the manifold pressure before adjusting the fuel flow.
+            - text: increasing the manifold pressure before increasing the RPM.
+- id: QJNFK
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212436
+    - BGS-211946
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.10.02.04
+  templates:
+    - type: simple
+      question: Which of the following options is a way that FADEC can enhance piston engine operation.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Automatically altering ignition timing with changes in RPM.
+          wrongAnswers:
+            - text: Manually altering cowl flaps due to oil temperatures.
+            - text: Automatic movement of the power lever with changes in EGT.
+            - text: Automatically changing the speed of the supercharger.
+- id: QAXHY
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211563
+    - AVEXAM-25445
+    - BGS-211815
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.10.02.05
+  templates:
+    - type: simple
+      question: What is the engine control element the pilot may expect on the flight deck of an aircraft with a piston engine controlled by FADEC?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Crank switch
+          wrongAnswers:
+            - text: Mixture lever
+            - text: FADEC restart switch
+            - text: Throttle valve control lever
+- id: QXFUE
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211296
+    - AVEXAM-51128
+    - BGS-212139
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.10.02.05
+  templates:
+    - type: simple
+      question: In the cockpit of a FADEC controlled single engine piston aircraft with a variable pitch propeller, what engine control levers would you expect to have?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Power/throttle lever only.
+          wrongAnswers:
+            - text: Power/throttle lever and a mixture control.
+            - text: Power/throttle lever, a prop lever, and a mixture control.
+            - text: Power/throttle lever and a prop lever.
+- id: QZKIB
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214924
+    - BGS-212171
+    - AVEXAM-33727
+    - ATPLQ-216966
+    - ATPLQ-215986
+    - BGS-212518
+    - AVEXAM-85245
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.10.02.06
+  templates:
+    - type: simple
+      question: Which of the following may be controlled by FADEC in a piston engine?
+      explanation: In a piston engine, FADEC controls mixture ratio and ignition timing, the parameters needed for efficient combustion. Carburettor heat and cooling are not controlled by it.
+      presets:
+        - correctAnswers:
+            - text: The mixture ratio and ignition timing.
+          wrongAnswers:
+            - text: Carburettor heat and spark plug voltage.
+            - text: Cooling and lubrication.
+            - text: Magneto operation and the impulse coupling starter.
+    - type: simple
+      question: Which of these can be controlled by the FADEC system on a piston engine?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Improve ignition timing when RPM varies.
+          wrongAnswers:
+            - text: Automatically shut down the engine.
+            - text: Changing the mixture when the temperature at the fuel metering valve becomes too high.
+            - text: Automatically start the engine.
+- id: QJBSC
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218731
+    - AVEXAM-9160
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.10.02.07
+  templates:
+    - type: simple
+      question: How can FADEC systems on piston engines usually achieve a level of redundancy?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Each engine is fitted with two FADEC computers.
+          wrongAnswers:
+            - text: A piston engine FADEC is much more performant than a gas turbine one because of the lower operating costs.
+            - text: Extra redundancy is achieved via a continuous operator monitoring system.
+            - text: The FADEC architecture is equipped with a reinforced wiring system.
+- id: QTRJX
+  subjectId: "021"
+  chapterId: "021.10"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218504
+    - BGS-211901
+    - AVEXAM-27112
+  annexes: []
+  learningObjectiveIds:
+    - 021.10.10.02.07
+  templates:
+    - type: simple
+      question: A FADEC piston engine has two \_\_\_\_\_ to achieve redundancy.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: power supplies and two separate but identical channels
+          wrongAnswers:
+            - text: magnetos with impulse-coupling starters and dual sensors
+            - text: starter motors and generators
+            - text: injectors and spark plugs per cylinder

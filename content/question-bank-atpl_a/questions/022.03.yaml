@@ -1,0 +1,1224 @@
+- id: QTVVA
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223765
+    - AVEXAM-77352
+    - BGS-222258
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.01.01.01
+  templates:
+    - type: simple
+      question: "The location of the Earth's magnetic poles:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: periodically wander (as much as 15 km every year).
+          wrongAnswers:
+            - text: is static in time with respect to the geographical poles.
+            - text: is static in time.
+            - text: is the same as the geographical poles.
+- id: QBMGU
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229313
+    - AVEXAM-21497
+    - BGS-221249
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.01.01.02
+  templates:
+    - type: multiple-correct
+      question: How can you describe a bar magnet?
+      explanation: ""
+      options:
+        - text: Opposite poles attract
+          correct: true
+        - text: The North pole of a freely suspended bar magnet would turn towards North, which is a South magnetic pole
+          correct: true
+        - text: Magnetic force is strongest in the centre of the magnet
+          correct: false
+        - text: Magnetic force is strongest a short way in from the poles of the magnet
+          correct: true
+        - text: Opposite poles repel
+          correct: false
+        - text: A freely suspended magnet would dip down towards the near pole.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QTOMJ
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221224
+    - AVEXAM-15039
+    - BGS-221219
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.01.01.02
+  templates:
+    - type: simple
+      question: "The force of attraction or repulsion between two magnets:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: varies inversely as the square of the distance between them.
+          wrongAnswers:
+            - text: is independent of the distance between them is able to align itself on the surface of the earth.
+            - text: is proportional to the distance between them.
+            - text: can not be measured.
+- id: QBNAE
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225171
+    - AVEXAM-32793
+    - AVEXAM-70961
+    - ATPLQ-227614
+    - BGS-222257
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.01.01.03
+  templates:
+    - type: simple
+      question: "The inclination of the Earth's magnetic field at the magnetic equator is equal to:  "
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "0°  "
+          wrongAnswers:
+            - text: "45°  "
+            - text: "180°  "
+            - text: "90°  "
+    - type: simple
+      question: "The inclination of the earth magnetic field at the North magnetic Pole is equal to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 90°
+          wrongAnswers:
+            - text: 0°
+            - text: 180°
+            - text: 45°
+- id: QLFAU
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds:
+    - QQKHF
+  externalQuestionIds:
+    - ATPLQ-224737
+    - BGS-222039
+    - AVEXAM-54683
+    - AVEXAM-18169
+    - BGS-222038
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.01.01.03
+  templates:
+    - type: simple
+      question: "The magnetic dip at any point on the Earth's surface is the angle:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: made by a compass needle with the horizontal.
+          wrongAnswers:
+            - text: made by a compass needle during a steady turn.
+            - text: made by a compass needle with the local vertical.
+            - text: between the horizontal component of the magnetic field and true north direction.
+- id: QQKHF
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds:
+    - QLFAU
+  externalQuestionIds:
+    - ATPLQ-222981
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.01.01.03
+  templates:
+    - type: simple
+      question: "The magnetic variation at any point on the Earth's surface is the angle:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: between the horizontal component of the magnetic field and true north direction.
+          wrongAnswers:
+            - text: made by a compass needle during a steady turn.
+            - text: made by a compass needle with the local vertical.
+            - text: made by a compass needle with the horizontal.
+- id: QUGSQ
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225618
+    - AVEXAM-76623
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.01.01.04
+  templates:
+    - type: simple
+      question: What is the main function of a compass needle?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To determine the direction of the horizontal component of the earth’s magnetic field.
+          wrongAnswers:
+            - text: To indicate true north in an aeroplane after subtracting the compass error.
+            - text: To find the maximum intensity of the earth’s magnetic field.
+            - text: Its direction always points in a straight line to the Magnetic South pole.
+- id: QSUFW
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221799
+    - AVEXAM-63649
+    - ATPLQ-228201
+    - AVEXAM-93506
+    - ATPLQ-225322
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.01.01.05
+    - 022.03.02.01.05
+  templates:
+    - type: simple
+      question: An aircraft's compass heading is {{compass}}°. The deviation card indicates {{dev}}°W on northerly headings and the variation is {{var}}°W. What is the aircraft's true heading?
+      explanation: |-
+        True heading = compass heading + deviation + variation, where west is negative and east is positive. Both corrections are westerly here, so both are subtracted; the result is brought into the range 0-360° by adding 360°.
+
+        **Solution**
+
+        $$\text{compass heading}-\text{westerly deviation}-\text{westerly variation} = {{compass}}-{{dev}}-{{var}}$$ -> **{{answer}}°**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}°**: treats both westerly corrections as easterly and adds them.
+        - **{{d2}}°**: subtracts the deviation but adds the variation (wrong sign for the variation).
+        - **{{d3}}°**: adds the deviation instead of subtracting it (wrong sign for the deviation).
+      presets:
+        - variables:
+            compass: 4
+            dev: 1
+            var: 5
+            answer: 358
+            d1: 10
+            d2: 8
+            d3: 360
+          correctAnswers:
+            - text: 358 °
+          wrongAnswers:
+            - text: 360 °
+            - text: 10 °
+            - text: 8 °
+        - variables:
+            compass: 2
+            dev: 1
+            var: 5
+            answer: 356
+            d1: 8
+            d2: 6
+            d3: 358
+          correctAnswers:
+            - text: 356 °
+          wrongAnswers:
+            - text: 358 °
+            - text: 8 °
+            - text: 6 °
+        - variables:
+            compass: 3
+            dev: 2
+            var: 6
+            answer: 355
+            d1: 11
+            d2: 7
+            d3: 359
+          correctAnswers:
+            - text: 355 °
+          wrongAnswers:
+            - text: 359 °
+            - text: 11 °
+            - text: 7 °
+    - type: simple
+      question: An aircraft's compass reads 002°. The deviation card shows 2°E on northerly headings and the variation is 12°E. What is the aircraft's true heading?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 016°
+          wrongAnswers:
+            - text: 352°
+            - text: 012°
+            - text: 003°
+- id: QQSVQ
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222176
+    - AVEXAM-73969
+    - BGS-220242
+    - AVEXAM-25046
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.02.01.02
+  templates:
+    - type: simple
+      question: "A direct reading compass should be swung again when:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: there is a large and permanent change in magnetic latitude.
+          wrongAnswers:
+            - text: the aircraft has made more than a stated number of landings.
+            - text: there is a large change in magnetic longitude.
+            - text: the aircraft has been stored for a long period and is frequently moved.
+- id: QTYTZ
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds:
+    - QKBFY
+  externalQuestionIds:
+    - ATPLQ-225398
+    - BGS-222433
+    - AVEXAM-37038
+    - AVEXAM-91251
+    - ATPLQ-224500
+    - BGS-221192
+    - AVEXAM-23923
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.02.01.02
+  templates:
+    - type: simple
+      question: |-
+        What is the purpose of compass calibration?
+
+        Compass Calibration is performed to determine the deviation...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: On any heading.
+          wrongAnswers:
+            - text: On a given heading.
+            - text: Only on N, S, E and W headings.
+            - text: At any latitude and longitude.
+    - type: simple
+      question: The purpose of a magnetic compass calibration is to…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: determine the residual deviations.
+          wrongAnswers:
+            - text: correct for magnetic variation.
+            - text: determine the magnetic variation.
+            - text: correct for deviations.
+- id: QKBFY
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds:
+    - QTYTZ
+  externalQuestionIds:
+    - ATPLQ-221959
+    - BGS-221193
+    - AVEXAM-43440
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.02.01.02
+  templates:
+    - type: simple
+      question: The purpose of a magnetic compass compensation is to…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: correct for deviations.
+          wrongAnswers:
+            - text: determine the residual deviations.
+            - text: determine the magnetic variation.
+            - text: correct for magnetic variation.
+- id: QBXRB
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225620
+    - BGS-220265
+    - AVEXAM-81572
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.02.01.03
+  templates:
+    - type: multiple-correct
+      question: "The fields affecting a direct reading magnetic compass originate from:"
+      explanation: ""
+      options:
+        - text: – magnetic masses
+          correct: true
+        - text: – ferrous metal masses
+          correct: true
+        - text: – non ferrous metal masses
+          correct: false
+        - text: – direct currents
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QKJPI
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225823
+    - BGS-221908
+    - AVEXAM-36268
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.02.01.03
+  templates:
+    - type: simple
+      question: Which aircraft system(s) should be checked for accuracy when the cargo includes a significant amount of ferrous material?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The Direct Reading Magnetic Compass.
+          wrongAnswers:
+            - text: Any gyroscopic flight instruments.
+            - text: The Inertial Reference System.
+            - text: The Automatic Direction-Finding Equipment (ADF).
+- id: QYCCP
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225690
+    - AVEXAM-95476
+    - AVEXAM-73785
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.02.01.04
+  templates:
+    - type: simple
+      question: "The magnetic heading can be obtained from the compass heading by using a:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: compass deviation card.
+          wrongAnswers:
+            - text: magnetic variation correction card.
+            - text: map showing the isogonic lines.
+            - text: map showing the isoclinic lines.
+- id: QYUOD
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224807
+    - AVEXAM-66016
+    - BGS-221336
+    - AVEXAM-30978
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.02.01.04
+  templates:
+    - type: simple
+      question: On a compass deviation correction card, the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: residual deviation is noted after the compass swing procedure.
+          wrongAnswers:
+            - text: deviation compensation is noted before the compass swing procedure.
+            - text: deviation compensation is noted after the compass swing procedure.
+            - text: residual deviation is noted before the compass swing procedure.
+- id: QHYGF
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223962
+    - AVEXAM-44648
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.02.01.05
+  templates:
+    - type: simple
+      question: |-
+        When refueling an aircraft, which units are commonly used?1. L 
+        2. g 
+        3. Kg 
+        4. lb 
+        5. Pa
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 3 and 4.
+          wrongAnswers:
+            - text: 1, 2 and 3.
+            - text: 2, 4 and 5.
+            - text: 3, 4 and 5.
+    - type: simple
+      question: |-
+        What units are typically used when refuelling an aircraft?
+
+         l
+         g
+         kg
+         lb
+         Pa
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 3 and 4.
+          wrongAnswers:
+            - text: 2, 4 and 5.
+            - text: 1, 2 and 3.
+            - text: 3, 4 and 5.
+- id: QHQVB
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229337
+    - ATPLQ-227232
+    - ATPLQ-223377
+    - AVEXAM-69533
+    - ATPLQ-224759
+    - AVEXAM-61060
+    - BGS-221852
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.02.01.05
+  templates:
+    - type: simple
+      question: |-
+        Determine the magnitude of the compass deviation (in degrees; the direction E or W follows from the sign of magnetic minus compass heading), given:
+
+        - True heading: {{th}}°
+        - Magnetic heading: {{mh}}°
+        - Compass deviation card: "FOR {{mh}}° STEER {{steer}}°"
+      explanation: |-
+        Deviation is the difference between magnetic heading and compass heading: deviation = magnetic - compass (positive = East, negative = West). The deviation card tells which compass heading to steer for a given magnetic heading. The true heading is not needed.
+
+        **Solution**
+
+        $$\text{Magnetic heading}-\text{Steer (compass) heading} = {{mh}}-{{steer}}$$, so the deviation is **{{answer}}°** (E if positive, W if negative).
+
+        ## Why the other answers are wrong
+        - **{{d1}}°**: doubles the deviation.
+        - **{{d2}}°**: uses magnetic minus true, which is the variation, not the deviation.
+        - **{{d3}}°**: uses true heading minus compass heading, which mixes variation and deviation.
+        - **{{d4}}°**: subtracts the variation from the deviation.
+      presets:
+        - variables:
+            th: 124
+            mh: 120
+            steer: 114
+            answer: 6
+            d1: 12
+            d2: 4
+            d3: 10
+            d4: 2
+          correctAnswers:
+            - text: 6 °
+          wrongAnswers:
+            - text: 12 °
+            - text: 10 °
+            - text: 2 °
+            - text: 4 °
+        - variables:
+            th: 114
+            mh: 120
+            steer: 124
+            answer: 4
+            d1: 8
+            d2: 6
+            d3: 10
+            d4: -2
+          correctAnswers:
+            - text: 4 °
+          wrongAnswers:
+            - text: 8 °
+            - text: 10 °
+            - text: -2 °
+            - text: 6 °
+        - variables:
+            th: 212
+            mh: 220
+            steer: 214
+            answer: 6
+            d1: 12
+            d2: 8
+            d3: 2
+            d4: -2
+          correctAnswers:
+            - text: 6 °
+          wrongAnswers:
+            - text: 12 °
+            - text: 2 °
+            - text: -2 °
+            - text: 8 °
+    - type: simple
+      question: The magnetic heading is {{magnetic}}°. The compass deviation card says to steer {{compass}}°. What is the compass deviation?
+      explanation: Magnetic heading minus compass heading gives the signed deviation. A positive difference is east and a negative difference is west.
+      presets:
+        - variables:
+            magnetic: 135
+            compass: 136
+          correctAnswers:
+            - text: 1°W
+          wrongAnswers:
+            - text: 1°E
+            - text: 6°W
+            - text: 7°W
+    - type: simple
+      question: A magnetic heading of 220° requires a compass heading of 214°. What is the compass deviation?
+      explanation: Magnetic heading minus compass heading is +6°. A positive result means east deviation.
+      presets:
+        - correctAnswers:
+            - text: 6°E
+          wrongAnswers:
+            - text: 6°W
+            - text: 8°W
+            - text: 8°E
+- id: QGMYN
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222441
+    - BGS-221907
+    - AVEXAM-27211
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.03.01.01
+  templates:
+    - type: simple
+      question: Which of the following statements is correct as regards the operational use of a Direct Reading Compass (DRC)? The DRC…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: requires no power from the aircraft systems to indicate direction.
+          wrongAnswers:
+            - text: is more reliable than a directional gyro during turns and periods of acceleration or deceleration.
+            - text: is free from interference from other aircraft systems and components.
+            - text: is only certified for use under VFR and during published hours of daylight.
+- id: QQGZI
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223862
+    - BGS-220271
+    - AVEXAM-70367
+    - AVEXAM-94122
+    - BGS-222602
+    - ATPLQ-227032
+    - AVEXAM-2583
+    - AVEXAM-34259
+    - AVEXAM-19132
+    - BGS-222025
+    - AVEXAM-78952
+    - AVEXAM-71708
+    - AVEXAM-24139
+    - AVEXAM-38712
+    - AVEXAM-77619
+    - AVEXAM-28547
+    - AVEXAM-13996
+    - BGS-220260
+    - BGS-220259
+    - BGS-220258
+    - BGS-220257
+    - BGS-220255
+    - BGS-220254
+    - ATPLQ-222177
+    - ATPLQ-223933
+    - ATPLQ-229419
+    - AVEXAM-75703
+    - BGS-220270
+    - ATPLQ-228789
+    - ATPLQ-224718
+    - BGS-220272
+    - AVEXAM-19529
+    - AVEXAM-45592
+    - ATPLQ-229086
+    - AVEXAM-12417
+    - AVEXAM-51214
+    - BGS-220269
+    - BGS-220249
+    - ATPLQ-225472
+    - AVEXAM-64637
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.03.01.02
+  templates:
+    - type: simple
+      question: "When an aircraft on a westerly heading in the northern hemisphere accelerates, the effect of the acceleration error causes the magnetic compass to:"
+      explanation: On a westerly heading in the northern hemisphere, acceleration makes the compass indicate a turn towards the north (accelerate north). Deceleration gives a turn towards the south.
+      presets:
+        - correctAnswers:
+            - text: indicate a turn towards the north.
+          wrongAnswers:
+            - text: lag behind the turning rate of the aircraft.
+            - text: indicate a turn towards the south.
+            - text: to turn faster than the actual turning rate of the aircraft.
+    - type: simple
+      question: "In the northern hemisphere, during a take-off run in a westerly direction, a direct reading magnetic compass indicates:"
+      explanation: "The acceleration error of a direct reading compass appears on east and west headings. In the northern hemisphere, accelerating gives an apparent turn towards the north, and decelerating towards the south (ANDS: accelerate north, decelerate south)."
+      presets:
+        - correctAnswers:
+            - text: an apparent turn to the north.
+          wrongAnswers:
+            - text: turn left
+            - text: an apparent turn to the south.
+            - text: no apparent turn.
+    - type: simple
+      question: "When accelerating on an easterly heading in the Northern hemisphere, the compass card of a direct reading magnetic compass turns:"
+      explanation: On an easterly heading, acceleration gives an apparent turn towards the north in the northern hemisphere. The card turns clockwise, opposite to the apparent heading change from east towards north.
+      presets:
+        - correctAnswers:
+            - text: clockwise indicating an apparent turn toward the North.
+          wrongAnswers:
+            - text: anti-clockwise indicating an apparent turn toward the North.
+            - text: clockwise indicating an apparent turn toward the South.
+            - text: anti-clockwise indicating an apparent turn toward the South.
+    - type: simple
+      question: "When decelerating on a westerly heading in the Northern hemisphere, the compass card of a direct reading magnetic compass turns:"
+      explanation: Decelerating on a westerly heading in the northern hemisphere gives an apparent turn toward the south (decelerate south). The card turns clockwise, opposite to the apparent heading change from west to south.
+      presets:
+        - correctAnswers:
+            - text: clockwise giving an apparent turn toward the south.
+          wrongAnswers:
+            - text: clockwise giving an apparent turn towards the north.
+            - text: anti-clockwise giving an apparent turn towards the north.
+            - text: anti-clockwise giving an apparent turn towards the south.
+    - type: simple
+      question: "When accelerating on a westerly heading in the northern hemisphere, the compass card of a direct reading magnetic compass will turn:"
+      explanation: Accelerating on a westerly heading in the northern hemisphere gives an apparent turn towards the north. The card turns anticlockwise, opposite to the apparent heading change from west to north.
+      presets:
+        - correctAnswers:
+            - text: anti-clockwise giving an apparent turn towards the north.
+          wrongAnswers:
+            - text: anti-clockwise giving an apparent turn towards the south.
+            - text: clockwise giving an apparent turn towards the south.
+            - text: clockwise giving an apparent turn towards the north.
+- id: QPFJJ
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds:
+    - QXXLQ
+  externalQuestionIds:
+    - ATPLQ-228004
+    - BGS-220267
+    - AVEXAM-86967
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.03.01.02
+  templates:
+    - type: simple
+      question: "The effect of the turning error of a direct reading magnetic compass:"
+      explanation: The turning error of a magnetic compass grows with magnetic latitude, because the vertical component of the earth's field is larger there.
+      presets:
+        - correctAnswers:
+            - text: increases when the magnetic latitude increases.
+          wrongAnswers:
+            - text: decreases when the magnetic latitude increases.
+            - text: decreases when the magnetic longitude increases.
+            - text: does not depend on the magnetic latitude.
+- id: QXXLQ
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds:
+    - QPFJJ
+  externalQuestionIds:
+    - ATPLQ-222028
+    - BGS-220268
+    - AVEXAM-7517
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.03.01.02
+  templates:
+    - type: simple
+      question: "The turning errors of a direct reading magnetic compass are:"
+      explanation: The turning errors are smallest at the magnetic equator, where the field is horizontal, and largest near the magnetic poles, where the vertical component dominates.
+      presets:
+        - correctAnswers:
+            - text: maximum at the magnetic poles.
+          wrongAnswers:
+            - text: maximum at the magnetic equator.
+            - text: minimum at the magnetic poles.
+            - text: Great circle.
+- id: QMLTV
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228066
+    - AVEXAM-61382
+    - AVEXAM-71445
+    - ATPLQ-222580
+    - BGS-222434
+    - AVEXAM-14515
+    - AVEXAM-44646
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.03.01.02
+  templates:
+    - type: simple
+      question: "A pilot wishes to turn left on to a northerly heading with 10° bank at a latitude of 50° North. Using a direct reading compass, in order to achieve this he must stop the turn on an approximate heading of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 030°
+          wrongAnswers:
+            - text: 355°
+            - text: 330°
+            - text: 015°
+        - correctAnswers:
+            - text: 160°
+          wrongAnswers:
+            - text: 190°
+            - text: 200°
+            - text: 170°
+    - type: simple
+      question: "A pilot wishes to turn right on to a southerly heading with 20° bank at a latitude of 20° North. Using a direct reading compass, in order to achieve this he must stop the turn on an approximate heading of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 200°
+          wrongAnswers:
+            - text: 170°
+            - text: 190°
+            - text: 150°
+- id: QZBMV
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227229
+    - BGS-222021
+    - AVEXAM-40928
+    - BGS-220256
+    - ATPLQ-224916
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.03.01.02
+  templates:
+    - type: simple
+      question: "In the northern hemisphere, during an acceleration in an easterly direction, the direct reading compass indicates:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a decrease in heading.
+          wrongAnswers:
+            - text: an increase in heading.
+            - text: a heading of East.
+            - text: an apparent turn to the South.
+- id: QDGZM
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222554
+    - AVEXAM-68876
+    - AVEXAM-59597
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.03.01.02
+  templates:
+    - type: simple
+      question: To counteract turning errors when using a direct reading compass in the Northern hemisphere which answer completes the following statement correctly.Stop the turn (1) _____ when turning from (2) _____ to _____.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) Early (2) 040 to 320
+          wrongAnswers:
+            - text: (1) Early (2) 110 to 070
+            - text: (1) Late (2) 040 to 320
+            - text: (1) Late (2) 110 to 070
+    - type: simple
+      question: When turning in the Northern hemisphere with a direct reading compass which option completes this statement correctly. Stop the turn (1) ___ when turning from (2) ___ to ___.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) early (2) 040° to 320°
+          wrongAnswers:
+            - text: (1) early (2) 110° to 070°
+            - text: (1) late (2) 110° to 070°
+            - text: (1) late (2) 040° to 320°
+    - type: simple
+      question: "To counteract turning errors of the direct reading compass when flying in the Northern hemisphere, you must:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: roll out early when turning from 330° to 040°.
+          wrongAnswers:
+            - text: roll out late when turning from 070° to 110°.
+            - text: roll out early when turning from 070° to 110°.
+            - text: roll out late when turning from 330° to 040°.
+- id: QYAJM
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227983
+    - AVEXAM-32412
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.03.01.02
+  templates:
+    - type: simple
+      question: During the taxi, a pilot notices that the magnetic compass heading decreases when turning left which is (1) ____ . Upon aligning on runway 27, the compass shows 290 degrees indicating that the compass (2) _____.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) Normal; (2) Is unservicable.
+          wrongAnswers:
+            - text: (1) Unusual; (2) may still be used.
+            - text: (1) Normal; (2) may still be used.
+            - text: (1) Unusual; (2) Is unservicable.
+    - type: simple
+      question: When a pilot is taxiing and the magnetic compass heading decreases upon turning left, this behavior is (1) ___. After aligning on runway 27 and getting a reading of 290 degrees, one can conclude that the compass (2) ___.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) normal; (2) is unservicable
+          wrongAnswers:
+            - text: (1)unusual; (2) is unservicable
+            - text: (1) unusual; (2) may still be used
+            - text: (1) normal; (2) may still be used
+- id: QLFNV
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227101
+    - AVEXAM-40585
+    - BGS-221671
+    - ATPLQ-223435
+    - AVEXAM-16854
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.03.01.03
+  templates:
+    - type: simple
+      question: The pilot of an aircraft changes heading to the right, from {{h1}}° to {{h2}}°, taking the shortest way, and makes a rate-1 turn (3° per second). What is the duration of this manoeuvre, in seconds?
+      explanation: |-
+        A rate-1 turn is a turn at 3° per second, independent of the bank angle and TAS needed to achieve it. The duration is the heading change divided by the turn rate.
+
+        **Solution**
+
+        Heading change = {{macro1}}°
+
+        $$
+        \frac{|\text{Final heading}-\text{Initial heading}|}{3} = \frac{|{{h2}}-{{h1}}|}{3} = \mathbf{ {{answer}}\ \text{s} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} s**: assumes a turn rate of 4° per second instead of 3° per second.
+        - **{{d2}} s**: assumes a turn rate of 6° per second (rate-2 turn).
+        - **{{d3}} s**: assumes a turn rate of only 2° per second.
+        - **{{d4}} s**: adds an arbitrary 10 s to the correct duration.
+      presets:
+        - variables:
+            h1: 214
+            h2: 334
+            macro1: 120
+            answer: 40
+            d1: 30
+            d2: 20
+            d3: 60
+            d4: 50
+          correctAnswers:
+            - text: 40 s
+          wrongAnswers:
+            - text: 30 s
+            - text: 60 s
+            - text: 50 s
+            - text: 20 s
+        - variables:
+            h1: 215
+            h2: 335
+            macro1: 120
+            answer: 40
+            d1: 30
+            d2: 20
+            d3: 60
+            d4: 50
+          correctAnswers:
+            - text: 40 s
+          wrongAnswers:
+            - text: 30 s
+            - text: 60 s
+            - text: 50 s
+            - text: 20 s
+        - variables:
+            h1: 100
+            h2: 190
+            macro1: 90
+            answer: 30
+            d1: 23
+            d2: 15
+            d3: 45
+            d4: 40
+          correctAnswers:
+            - text: 30 s
+          wrongAnswers:
+            - text: 23 s
+            - text: 45 s
+            - text: 40 s
+            - text: 15 s
+- id: QAJMK
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228007
+    - AVEXAM-27924
+    - BGS-221897
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.03.01.04
+  templates:
+    - type: multiple-correct
+      question: "During pre-flight check, serviceability of a direct reading standby compass indication can be compared preferably with:"
+      explanation: ""
+      options:
+        - text: runway direction during line-up.
+          correct: true
+        - text: main compass indication.
+          correct: true
+        - text: test VOR indication.
+          correct: false
+        - text: an ADF bearing.
+          correct: false
+        - text: an Airborne Weather Radar bearing.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QOABI
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227658
+    - BGS-221642
+    - AVEXAM-33642
+    - AVEXAM-43315
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.03.01.04
+  templates:
+    - type: simple
+      question: "The pre-flight serviceability test of a direct reading compass consists of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Comparing the indication to another reference (e.g. runway direction).
+          wrongAnswers:
+            - text: Adjusting the indication to magnetic north with the help of the known compass deviation.
+            - text: Checking the deviation with celestial navigation methods.
+            - text: A compass swing.
+- id: QBNLI
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221732
+    - BGS-220333
+    - BGS-221927
+    - AVEXAM-20299
+    - ATPLQ-221733
+    - ATPLQ-228370
+    - BGS-222041
+    - BGS-220337
+    - BGS-220334
+    - AVEXAM-6334
+    - AVEXAM-61722
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.04.01.01
+  templates:
+    - type: simple
+      question: "In a gyromagnetic compass, the direction of the earth's magnetic field is given by the:"
+      explanation: The flux valve senses the earth's magnetic field and sends the direction to the gyromagnetic compass. It is mounted in the wing tip, away from magnetic interference.
+      presets:
+        - correctAnswers:
+            - text: flux valve.
+          wrongAnswers:
+            - text: ADC
+            - text: direct indicating compass.
+            - text: directional gyro.
+    - type: simple
+      question: In the gyromagnetic compass, the heading information from the flux valve is sent to the…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: error detector.
+          wrongAnswers:
+            - text: erector system.
+            - text: heading indicator.
+            - text: amplifier.
+    - type: simple
+      question: In a gyromagnetic compass, the flux valve feeds the…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: error detector.
+          wrongAnswers:
+            - text: erecting system.
+            - text: heading indicator.
+            - text: amplifier.
+- id: QPFLO
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226220
+    - BGS-221239
+    - BGS-222182
+    - AVEXAM-98508
+    - AVEXAM-8475
+    - BGS-221682
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.04.01.01
+  templates:
+    - type: simple
+      question: The purpose of a flux valve is to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: electronically sense the horizontal component of the Earth's magnetic field.
+          wrongAnswers:
+            - text: sense the horizontal and vertical components of the Earth's magnetic field.
+            - text: nothing.
+            - text: electronically sense the vertical component of the Earth's magnetic field.
+- id: QPLHT
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228366
+    - BGS-222338
+    - AVEXAM-73663
+    - BGS-222402
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.04.01.02
+  templates:
+    - type: simple
+      question: The Navigation Display (ND) indicates the magnetic heading of the aircraft. The detector unit that senses the (1) \_\_\_\_\_ component of the Earth's magnetic field, is the (2) \_\_\_\_\_.
+      explanation: The flux valve senses the horizontal component of the earth's magnetic field, which gives the magnetic direction. The vertical component gives no direction information.
+      presets:
+        - correctAnswers:
+            - text: (1) horizontal; (2) flux valve
+          wrongAnswers:
+            - text: (1) vertical; (2) flux valve
+            - text: (1) vertical; (2) ND itself
+            - text: (1) horizontal; (2) ND itself
+- id: QBAYL
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226345
+    - BGS-220277
+    - AVEXAM-81742
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.04.01.03
+  templates:
+    - type: simple
+      question: "The main reason for mounting the detector unit of a remote reading compass in the wingtip of an aeroplane is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: to minimise the influence of the aircraft magnetic field.
+          wrongAnswers:
+            - text: to maximise the units exposure to the earth's magnetic field.
+            - text: to ensure that the unit is in the most accessible position on the aircraft for ease of maintenance.
+            - text: by having detector units on both wingtips, to cancel out the deviation effects caused by the aircraft structure.
+- id: QOCRX
+  subjectId: "022"
+  chapterId: "022.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221873
+    - AVEXAM-34516
+    - BGS-221328
+  annexes: []
+  learningObjectiveIds:
+    - 022.03.04.01.04
+  templates:
+    - type: simple
+      question: The information that is sensed by a flux valve is used in the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Remote Reading Magnetic Compass.
+          wrongAnswers:
+            - text: Direct Reading Magnetic Compass.
+            - text: aircraft's Air Data Computer.
+            - text: Directional Gyro Indicator (DGI).

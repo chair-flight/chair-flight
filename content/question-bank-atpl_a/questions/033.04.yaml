@@ -1,0 +1,2930 @@
+- id: QWTMD
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335579
+    - BGS-330976
+    - BGS-330335
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.01.01
+  templates:
+    - type: simple
+      question: From which of the following would you expect to find facilitation information regarding customs and health formalities?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: AIP
+          wrongAnswers:
+            - text: ATCC
+            - text: NAV/RAD charts
+            - text: NOTAM
+- id: QJIGV
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331153
+    - AVEXAM-39136
+    - BGS-331332
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.01.01
+  templates:
+    - type: simple
+      question: |-
+        From the information given in the following NOTAM, can a pilot expect a DME service if his/her track passes within 25 NM of Mildenhall at 12:00 UTC on the 27th of May?
+
+        Q) EGTT/QNNAS/IV/BO/AE/000/999/5222N00029E005 A) EGUN B) FROM: 15/05/27 10:13 C) TO: 15/06/05 16:00 E) MILDENHALL TACAN MLD CH 106X 115.900MHZ UNUSEABLE DUE TO SCHEDULED MAINTENANCE. EMERGENCY ONLY: TACAN CAN BE RETURNED TO SERVICE WITHIN 15 MINUTES.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No, the facility is down for maintenance.
+          wrongAnswers:
+            - text: Yes, it is well within range.
+            - text: No, as there is no such facility at Mildenhall.
+            - text: Yes, if the airfield has one. A TACAN has nothing to do with DME equipment.
+- id: QLWCW
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337024
+    - AVEXAM-48346
+    - BGS-331516
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.01.01
+  templates:
+    - type: simple
+      question: |-
+        Considering the following NOTAM information, Charlie VOR CHA is NOT usable at a distance of…
+
+        >>> EDDF FRANKFURT MAIN <<< CHARLIE VOR CHA 115.50 NOT USEABLE BEYOND 35NM AND BELOW 5000FT AMSL.: NOTAM ED/A6376/15 >>> END OF BULLETIN <<<
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: more than 35 NM and at altitudes lower than 5000 ft.
+          wrongAnswers:
+            - text: less than 35 NM and at altitudes higher than 5000 ft.
+            - text: less than 35 NM and at altitudes lower than 5000 ft.
+            - text: more than 35 NM and at altitudes higher than 5000 ft.
+- id: QUUTZ
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334794
+    - BGS-330333
+    - AVEXAM-73670
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.01.01
+  templates:
+    - type: simple
+      question: From which of the following would you expect to find information regarding known short unserviceability of VOR, TACAN, and NDB?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: NOTAM
+          wrongAnswers:
+            - text: AIP
+            - text: ATCC broadcasts
+            - text: SIGMET
+- id: QRGZJ
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds:
+    - QZCOZ
+  externalQuestionIds:
+    - ATPLQ-333060
+    - AVEXAM-13221
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to the following NOTAM and choose the corresponding answer:
+
+        SVC TEMPO TWR LCL TFC/CLRNC DELIVERY 121.0 FRI-SAT 1311131400 - 1311141500EST
+      explanation: SVC means service and TEMPO means temporary. The text states that a temporary tower service for local traffic and clearance delivery is available on 121.0 from Friday 13th at 14 00 to Saturday 14th at 15 00.
+      presets:
+        - correctAnswers:
+            - text: A temporary tower service will be available for controlling local traffic and clearance delivery on freq 121.0, from Friday 13th at 14 00 to Saturday 14th at 15 00.
+          wrongAnswers:
+            - text: Temporarily an additional frequency 121.0 will be available.
+            - text: The tower will be available except on Fridays and Saturdays.
+            - text: The tower will be controlling traffic and clearance delivery will be available on 121.0
+- id: QZCOZ
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds:
+    - QRGZJ
+  externalQuestionIds:
+    - ATPLQ-331360
+    - AVEXAM-52214
+    - BGS-331021
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.02.01
+  templates:
+    - type: simple
+      question: |-
+        What does the following text of a NOTAM indicate?
+
+        SVC TEMPO TWR LOCAL CTL/CLEARANCE DELIVERY 121.0 FRI SAT 1400-2100 1311041400-1311052100EST
+      explanation: SVC TEMPO TWR means a temporary tower service. LOCAL CTL covers control of arriving and departing aircraft, and CLEARANCE DELIVERY covers clearances, on 121.0. The service runs on Friday and Saturday between 14:00 and 21:00 within the date range given.
+      presets:
+        - correctAnswers:
+            - text: Services for a temporary tower are available Friday 4th November and Saturday 5th November 2013, between 14:00 and 21:00, and frequency 121.0 will be used to control arriving and departing aircraft and for issuing clearances.
+          wrongAnswers:
+            - text: Tower services to control arriving and departing aircraft and issuing clearances on the frequency 121.0 will be temporarily unavailable Friday 4th November and Saturday 5th November 2013, between 14:00 and 21:00.
+            - text: Tower services to control arriving and departing aircraft will be temporarily available Friday 4th November and Saturday 5th November 2013, between 14:00 and 21:00, on frequency 121.0.
+            - text: An additional frequency of 121.0 is temporarily available for a tower to control arriving and departing aircraft for designed runway(s) and for issuing clearances on Friday 4th November and Saturday 5th November 2013, between 14:00 and 21:00.
+- id: QAKST
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332539
+  annexes:
+    - id: AUAA
+  learningObjectiveIds:
+    - 033.04.01.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.  
+        According to NOTAM A7408/14, the approach frequency for
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: LIRA airport has changed permanently to 131.250 MHz.
+          wrongAnswers:
+            - text: PERM airport has changed to 134.200 MHz.
+            - text: LIRA airport has changed permanently to 134.200 MHz.
+            - text: PERM airport has changed to 131.250 MHz.
+- id: QOOEJ
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332569
+    - BGS-330977
+    - AVEXAM-4047
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.02.01
+  templates:
+    - type: simple
+      question: |-
+        Given the following NOTAM information, what Standard Instrument Departure procedure is affected by the mentioned changes?
+
+        >>> EDDF FRANKFURT MAIN <<< NEW TODAY TWY P1 BTN TWY P AND TWY DP1 CLSD.: NOTAM ED/A0714/16 RWY 25L TDZ SLIPPERY WHEN WET.: NOTAM ED/A0588/16 BIBTI 1H: INITIAL DEPARTURE DESCRIPTION SHOULD READ AS FOLLOWS: ON RWY TRACK TO 5.1 DME FFM/2.1 DME FRD, LT MAX IAS 185 KT UNTIL ESTABLISHED INBOUND VFM DIRECT VFM, ON TRACK 195DEG TO 10.1 DME FFM. GPS/FMS RNAV: DF235 A800+, L DF171 K185 DF172 A2500+, R PABVI R & SIVDO-R KUPIP R MASIR-R RAVKI DITAML OBOKA BIBTI. WAYPOINT DF235 STILL REMAINS FLY OVER WAYPOINT. >>> END OF BULLETIN <<<
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: BIBTI 1H
+          wrongAnswers:
+            - text: TWY P1
+            - text: RWY 25L TDZ
+            - text: WAYPOINT DF235
+- id: QZDZF
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338868
+    - AVEXAM-49699
+    - BGS-331079
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.02.01
+  templates:
+    - type: simple
+      question: |-
+        Given the following NOTAM information, when can RWY 07R/25L be expected to be in operation?
+
+        >>> EDDF FRANKFURT MAIN <<< SCHEDULE: DAILY 2200-0400 RWY 07R/25L CLSD.: NOTAM ED/A0675/16 RWY 25L TDZ SLIPPERY WHEN WET. : NOTAM ED/A0588/16 >>> END OF BULLETIN <<<
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Daily from 04:00 to 22:00.
+          wrongAnswers:
+            - text: Daily from 22:00 to 04:00.
+            - text: From the 22nd of the month to the 4th of the next month.
+            - text: From the 4th of the month to the 22nd of the month.
+- id: QGZYE
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds:
+    - QQHQE
+  externalQuestionIds:
+    - ATPLQ-333091
+    - AVEXAM-6184
+    - BGS-331131
+    - BGS-331410
+    - BGS-331372
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.02.02
+    - 033.04.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        During the planning stage of a flight to Paris Charles de Gaulle Airport, France you note the following NOTAM. What is the time period when GNSS is unavailable?
+
+        Q) LFFF/QGWAU/I/BO/AE/000/999/4901N00232E250   
+         A) LFPG B) 1910061815 C) 1910062315   
+         E) BASIC GNSS UNAVBL SBAS UNAVBL GBAS UNAVBL
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 6 October from 18:15 UTC to 23:15 UTC
+          wrongAnswers:
+            - text: 6 October from 19:10 UTC to 23:15 UTC
+            - text: 10 June from 18:15 UTC to 23:15 UTC
+            - text: 19 October from 18:15 UTC to 23:15 UTC
+- id: QIWPE
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334177
+    - AVEXAM-90423
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.02.02
+  templates:
+    - type: simple
+      question: Where can you, as a pilot, find information about the GNSS, which is not available at the destination airfield?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: NOTAM
+          wrongAnswers:
+            - text: AUGUR
+            - text: AIP
+            - text: ATIS
+- id: QPBLD
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338459
+    - BGS-331164
+    - AVEXAM-30062
+    - AVEXAM-4811
+    - ATPLQ-334821
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        A pilot is planning a flight for 4th of December 2019 and checks the NOTAMs for his/her destination aerodrome Hamburg (EDDH). What is the relevance of the following NOTAM for the time from 1315Z to 1625Z?
+
+        Q)EDWW/QGAAU/I/NBO/A/000/999/5338N00959E030   
+         A)EDDH   
+         B)1912041315   
+         C)1912041625   
+         E)EGNOS IS NOT AVAILABLE FOR LPV
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SBAS will NOT be available at Hamburg to use LPV minima.
+          wrongAnswers:
+            - text: SBAS outage prevents 3D RNAV approaches to Hamburg.
+            - text: ABAS will NOT be available to aircraft on any approaches to Hamburg.
+            - text: ABAS will NOT be available at Hamburg to use LPV minima.
+    - type: simple
+      question: |-
+        You are planning a flight for 4th of December 2019 and checks the NOTAMs for his/her destination aerodrome Hamburg (EDDH). What is the effect of the following NOTAM for the time of arrival 18:00 UTC?
+
+        Q)EDWW/QGAAU/I/NBO/A/000/999/5338N00959E030 
+         
+        A)EDDH 
+         
+        B)1912041845 
+         
+        C)1912041945 
+         
+        E)EGNOS IS NOT AVAILABLE FOR LPV
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: You won't be affected at the time of arrival.
+          wrongAnswers:
+            - text: SBAS will not be available at Hamburg to use LPV minima.
+            - text: You can not execute 3D RNAV approaches to Hamburg due to the SBAS outage.
+            - text: ABAS will be unavailable for all approaches.
+- id: QQHQE
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds:
+    - QGZYE
+  externalQuestionIds:
+    - ATPLQ-338346
+    - BGS-331461
+    - ATPLQ-339458
+    - AVEXAM-42222
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        During the planning stage of a flight to Paris Charles de Gaulle Airport, France, the pilot notes the following NOTAM. The time period when GBAS is NOT available is:
+
+        Q) LFFF/QGWAU/I/BO/A/000/999/4901N00232E250 A) LFPG B) 0311271723C) 0311271754 E) BASIC GNSS UNAVBL FOR NPA 1901031723 TIL 1901031754 SBAS UNAVBL FOR APV 1901031731 TIL 1901031748 GBAS UNAVBL 1901031735 TIL 1901031746)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3rd January 2019, from 17:35 UTC to 17:46 UTC.
+          wrongAnswers:
+            - text: 1st March 2019, from 17:23 UTC to 17:54 UTC.
+            - text: 3rd January 2019, from 17:31 UTC to 17:48 UTC.
+            - text: 1st March 2019, from 17:23 UTC to 17:46 UTC.
+- id: QWDMA
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335011
+    - BGS-330337
+    - AVEXAM-29167
+    - BGS-330565
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.03.01
+  templates:
+    - type: simple
+      question: From which of the following would you expect to find the dates and times when temporary danger areas are active
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: NOTAM and AIP.
+          wrongAnswers:
+            - text: SIGMET.
+            - text: Only AIP.
+            - text: RAD/NAV charts.
+- id: QCHGO
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331655
+    - AVEXAM-9769
+    - BGS-331029
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.04.01
+  templates:
+    - type: simple
+      question: Which option is correct as regards checking the availability of the GNSS service for flights that will rely on GNSS information for guidance?
+      explanation: GNSS service availability is checked before flight through NOTAMs about the constellation status. Satellites may be unavailable because of the state of the constellation. Terrain masking and antenna masking are conditions in flight and aircraft equipment is not the cause.
+      presets:
+        - correctAnswers:
+            - text: Satellites may NOT be available due to the status of the constellation.
+          wrongAnswers:
+            - text: The availability of satellites is dependent on the aircraft's equipment.
+            - text: Satellites may NOT be available due to terrain and/or antenna masking.
+            - text: The availability of satellites is dependent on ground-based navigation aids.
+- id: QGJEL
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335825
+    - BGS-331193
+    - AVEXAM-12206
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.04.01
+  templates:
+    - type: simple
+      question: During the pre-flight planning procedure of a Commercial Air Transport flight, the pilot reviews the serviceability of the GNSS via NOTAMs. What is the optimum decision, if, according to a NOTAM, fluctuations of the signal reception will take place during the RNP approach at the destination aerodrome at the time of arrival?
+      explanation: If a NOTAM warns of signal fluctuations during the RNP approach at the time of arrival, the optimum decision is to continue the flight and prepare another approach based on radio navigation aids as a back-up in case the GNSS signal is lost.
+      presets:
+        - correctAnswers:
+            - text: Prepare another approach based on radio navigation aids, as a back-up in case the GNSS signal is lost in flight.
+          wrongAnswers:
+            - text: Carry on with the flight as there are two GPS receivers on board, which can compensate for signal fluctuation.
+            - text: Postpone the flight because the lack of GNSS achievability is very dangerous.
+            - text: Cancel the flight and reschedule it when the GNSS signal reception is fully functioning as an RNP approach must be flown.
+- id: QJEQA
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332392
+    - AVEXAM-30579
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.04.01
+  templates:
+    - type: simple
+      question: If RAIM was checked during flight preparation, should NOTAMs also be checked, and for what reasons?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Always check NOTAMs, as RAIM predictions might not include temporary changes affecting GNSS services like those documented in NOTAMs.
+          wrongAnswers:
+            - text: Check NOTAMs because RAIM is only about EGNOS and does not cover all GNSS issues.
+            - text: Do not check NOTAMs because RAIM concerns both EGNOS and all GNSS, making additional checks unnecessary.
+            - text: Check NOTAMs specifically for updates on LNAV/VNAV that RAIM does not cover.
+    - type: simple
+      question: If RAIM was verified during flight preparation, should NOTAMs also be verified, and why?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Always check NOTAMs, as RAIM predictions might not include temporary changes affecting GNSS services like those documented in NOTAMs.
+          wrongAnswers:
+            - text: Check NOTAMs specifically for updates on LNAV/VNAV that RAIM does not cover.
+            - text: Check NOTAMs because RAIM is only about EGNOS and does not cover all GNSS issues.
+            - text: Do not check NOTAMs because RAIM concerns both EGNOS and all GNSS, making additional checks unnecessary.
+- id: QHHRS
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-336617
+    - BGS-331134
+    - AVEXAM-70079
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.04.01
+  templates:
+    - type: simple
+      question: For non-augmented GNSS operations, why must the availability of the GNSS service be checked before use?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: There is NO indication on the flight deck in the case of the loss of a required satellite signal.
+          wrongAnswers:
+            - text: Non-augmented GNSS operations must be registered with the service provider in advance.
+            - text: The GNSS receiver must be programmed with the availability check.
+            - text: Only specific satellites produce the required signals for non-augmented operations.
+- id: QZIEV
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339439
+    - AVEXAM-92264
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.04.01
+  templates:
+    - type: simple
+      question: Before commencing an IFR flight to an airport which only has a single instrument approach procedure (and which requires GNSS), you read in a NOTAM that GNSS is (1)\_\_\_\_\_ at that location. As a result, (2)\_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) unavailable; (2) the flight should be discontinued
+          wrongAnswers:
+            - text: (1) available; (2) the flight can continue
+            - text: (1) available; (2) the flight should be discontinued
+            - text: (1) unavailable; (2) the flight can continue
+- id: QIQBS
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-336612
+    - AVEXAM-1150
+    - BGS-331196
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.04.02
+  templates:
+    - type: simple
+      question: A NANU is an advisory message to inform users of a change in the (1) \_\_ constellation. These messages are released 72 hours in advance for (2) \_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) GPS; (2) planned maintenance
+          wrongAnswers:
+            - text: (1) GLONASS; (2) planned maintenance
+            - text: (1) GPS; (2) selected users
+            - text: (1) GLONASS; (2) selected users
+- id: QNRNA
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334905
+    - AVEXAM-63495
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.04.02
+  templates:
+    - type: simple
+      question: Where can you check GNSS availability?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: NANU
+          wrongAnswers:
+            - text: ATIS
+            - text: SBAS
+            - text: AIP
+- id: QIPWT
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339182
+    - BGS-331170
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.01.04.04
+  templates:
+    - type: simple
+      question: What is the difference between GNSS planned and unplanned outages?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Planned outages are notified in advance.
+          wrongAnswers:
+            - text: Unplanned outages are NOT notified.
+            - text: Planned outages are not notified.
+            - text: Unplanned outages are notified weekly.
+- id: QAFKR
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338613
+    - BGS-330258
+    - AVEXAM-2056
+  annexes:
+    - id: AQSF
+  learningObjectiveIds:
+    - 033.04.02.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure or CAP697 file 4.3.1C. For a flight of {{distance}} nautical ground miles the following apply:
+
+        - Head wind component: {{wind}} kt
+        - Temperature: ISA {{temp_dev}}°C
+        - Trip fuel available: {{trip_fuel}} kg
+        - Landing mass: {{landing_mass}} kg
+
+        What is the minimum cruise level pressure altitude which may be planned?
+      explanation: |-
+        The minimum cruise level is read from the chart. It depends on the distance, the headwind, the temperature, the trip fuel available and the landing mass together.
+
+        **Solution**
+
+        - Enter the chart at {{distance}} nautical miles, a headwind of {{wind}} kt, ISA {{temp_dev}}°C, {{trip_fuel}} kg of trip fuel and a landing mass of {{landing_mass}} kg.
+        - The lowest level that still meets these conditions is **17000 ft**.
+
+        ## Why the other answers are wrong
+
+        - **10000 ft**: too low for the trip fuel to cover the distance.
+        - **14000 ft**: too low for these conditions.
+        - **22000 ft**: above the minimum, so it is not the minimum cruise level.
+      presets:
+        - variables:
+            distance: 1900
+            wind: 10
+            temp_dev: -5
+            trip_fuel: 15000
+            landing_mass: 50000
+          correctAnswers:
+            - text: 17000 ft
+          wrongAnswers:
+            - text: 22000 ft
+            - text: 10000 ft
+            - text: 14000 ft
+- id: QDONP
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338572
+    - BGS-331463
+  annexes:
+    - id: AWOY
+  learningObjectiveIds:
+    - 033.04.02.02.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. After the pre-flight preparation, the flight plan log shown in the annex was completed, taking into account the meteorological conditions for the scheduled Estimated Time of Departure at 07:30 UTC. Due to the passage of a cold front, a delay of 3 hours is expected.
+
+        Use the following values:
+
+        - Distance from WPT B to WPT C (read from figure): {{leg_distance}} NM
+        - Time from WPT B to WPT C (read from figure): {{leg_time}} min
+
+        What is the revised groundspeed between WPT B and WPT C, in knots?
+      explanation: |-
+        The groundspeed is the distance covered over the ground divided by the time taken. The time is in minutes, so the distance is first multiplied by 60 to put the result in knots.
+
+        **Solution**
+
+        - Groundspeed: $$\frac{\text{Distance from WPT B to WPT C (read from figure)}\times 60}{\text{Time from WPT B to WPT C (read from figure)}} = \frac{ {{leg_distance}}\times 60}{ {{leg_time}} } = \mathbf{ {{answer}}\ \text{knots} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} knots**: multiplies by the time instead of dividing by it, which mixes up the two values.
+        - **{{d2}} knots**: forgets to convert minutes into hours.
+        - **{{d3}} knots**: adds 6 minutes to the time by mistake.
+        - **{{d4}} knots**: converts the speed into kilometres per hour, which is not needed.
+      presets:
+        - variables:
+            leg_distance: 62
+            leg_time: 24
+            answer: 155
+            d1: 25
+            d2: 3
+            d3: 124
+            d4: 84
+          correctAnswers:
+            - text: 155 knots
+          wrongAnswers:
+            - text: 25 knots
+            - text: 124 knots
+            - text: 84 knots
+            - text: 3 knots
+        - variables:
+            leg_distance: 80
+            leg_time: 33
+            answer: 145
+            d1: 44
+            d2: 2
+            d3: 123
+            d4: 79
+          correctAnswers:
+            - text: 145 knots
+          wrongAnswers:
+            - text: 44 knots
+            - text: 123 knots
+            - text: 79 knots
+            - text: 2 knots
+- id: QLKEQ
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338186
+  annexes:
+    - id: AWOY
+  learningObjectiveIds:
+    - 033.04.02.02.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        After the pre-flight preparation, the flight plan log shown in the annex was completed, taking into account the meteorological conditions for the scheduled Estimated Time of Departure at 08:00 UTC.
+
+        Due to unforeseen reasons, a delay of 3 hours is expected.
+
+        What will be the revised groundspeed between WPT A and WPT B because of the expected delay?
+      explanation: The delay moves the flight into different wind conditions, which are read from the annex for the new time. The revised groundspeed is the value in the log for that changed wind, not the planned value.
+      presets:
+        - correctAnswers:
+            - text: 191 knots
+          wrongAnswers:
+            - text: 169 knots
+            - text: 207 knots
+            - text: 173 knots
+- id: QQZXU
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332253
+    - BGS-331447
+    - BGS-331206
+    - AVEXAM-78443
+    - BGS-330987
+    - BGS-331360
+    - ATPLQ-334359
+    - BGS-330956
+    - AVEXAM-7419
+    - ATPLQ-334477
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.02.02.04
+    - 033.04.02.02.05
+  templates:
+    - type: simple
+      question: |-
+        When reviewing the wind charts, you notice that the average wind in cruise will be a {{tw}} kt tailwind. Given the following data, what will be the flight time to destination?
+
+        - Time to top of climb: {{cl}} min
+        - Cruise leg: {{dist}} NM, TAS {{tas}} kt
+        - Time from top of descent to landing: {{de}} min
+
+        Express the flight time as hours and minutes; give the minutes part (0 to 59) after the full hours.
+      explanation: |-
+        Total flight time is the climb time, plus the cruise time at the ground speed (TAS plus tailwind), plus the descent time.
+
+        **Solution**
+
+        Cruise ground speed = {{macro1}} kt, cruise time = {{macro2}} min
+
+        Total = {{macro3}} min = {{macro4}} h **{{answer}} min**
+
+        ## Why the other answers are wrong (minutes part of the flight time)
+
+        - **{{d1}} min**: the tailwind was subtracted from the TAS.
+        - **{{d2}} min**: the climb time was forgotten.
+        - **{{d3}} min**: the descent time was forgotten.
+        - **{{d4}} min**: the wind was ignored.
+      presets:
+        - variables:
+            tw: 25
+            cl: 28
+            dist: 760
+            tas: 470
+            de: 20
+            macro1: 495
+            macro2: 92
+            macro3: 140
+            macro4: 2
+            answer: 20
+            d1: 30
+            d2: 52
+            d3: 0
+            d4: 25
+          correctAnswers:
+            - text: 20 min
+          wrongAnswers:
+            - text: 30 min
+            - text: 0 min
+            - text: 25 min
+            - text: 52 min
+        - variables:
+            tw: 20
+            cl: 30
+            dist: 680
+            tas: 450
+            de: 22
+            macro1: 470
+            macro2: 87
+            macro3: 139
+            macro4: 2
+            answer: 19
+            d1: 27
+            d2: 49
+            d3: 57
+            d4: 23
+          correctAnswers:
+            - text: 19 min
+          wrongAnswers:
+            - text: 27 min
+            - text: 57 min
+            - text: 23 min
+            - text: 49 min
+        - variables:
+            tw: 30
+            cl: 25
+            dist: 820
+            tas: 480
+            de: 20
+            macro1: 510
+            macro2: 96
+            macro3: 141
+            macro4: 2
+            answer: 21
+            d1: 34
+            d2: 56
+            d3: 1
+            d4: 28
+          correctAnswers:
+            - text: 21 min
+          wrongAnswers:
+            - text: 34 min
+            - text: 1 min
+            - text: 28 min
+            - text: 56 min
+    - type: simple
+      question: |-
+        When reviewing the wind charts, you notice that the average wind in cruise will be a {{hw}} kt headwind. Given the following data, what will be the flight time to destination?
+
+        - Time to top of climb: {{cl}} min
+        - Cruise leg: {{dist}} NM, TAS {{tas}} kt
+        - Time from top of descent to landing: {{de}} min
+
+        Express the flight time as hours and minutes; give the minutes part (0 to 59) after the full hours.
+      explanation: |-
+        Total flight time is the climb time, plus the cruise time at the ground speed (TAS minus headwind), plus the descent time.
+
+        **Solution**
+
+        Cruise ground speed = {{macro1}} kt, cruise time = {{macro2}} min
+
+        Total = {{macro3}} + {{macro2}} + {{macro4}} = {{macro5}} min = {{macro6}} h **{{answer}} min**
+
+        ## Why the other answers are wrong (minutes part of the flight time)
+
+        - **{{d1}} min**: the headwind was added to the TAS.
+        - **{{d2}} min**: the descent time was forgotten.
+        - **{{d3}} min**: the climb time was forgotten.
+        - **{{d4}} min**: the wind was ignored.
+      presets:
+        - variables:
+            hw: 25
+            cl: 30
+            dist: 740
+            tas: 460
+            de: 22
+            macro1: 435
+            macro2: 102
+            macro3: 30
+            macro4: 22
+            macro5: 154
+            macro6: 2
+            answer: 34
+            d1: 24
+            d2: 12
+            d3: 4
+            d4: 29
+          correctAnswers:
+            - text: 34 min
+          wrongAnswers:
+            - text: 24 min
+            - text: 4 min
+            - text: 29 min
+            - text: 12 min
+        - variables:
+            hw: 30
+            cl: 25
+            dist: 620
+            tas: 440
+            de: 18
+            macro1: 410
+            macro2: 91
+            macro3: 25
+            macro4: 18
+            macro5: 134
+            macro6: 2
+            answer: 14
+            d1: 2
+            d2: 56
+            d3: 49
+            d4: 8
+          correctAnswers:
+            - text: 14 min
+          wrongAnswers:
+            - text: 2 min
+            - text: 49 min
+            - text: 8 min
+            - text: 56 min
+        - variables:
+            hw: 20
+            cl: 32
+            dist: 850
+            tas: 480
+            de: 24
+            macro1: 460
+            macro2: 111
+            macro3: 32
+            macro4: 24
+            macro5: 167
+            macro6: 2
+            answer: 47
+            d1: 38
+            d2: 23
+            d3: 15
+            d4: 42
+          correctAnswers:
+            - text: 47 min
+          wrongAnswers:
+            - text: 38 min
+            - text: 15 min
+            - text: 42 min
+            - text: 23 min
+- id: QMZOX
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - BGS-331560
+    - AVEXAM-95887
+    - AVEXAM-60028
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.02.02.05
+  templates:
+    - type: simple
+      question: |-
+        Calculate the total trip time for the following flight from Aerodrome A to Aerodrome B. 
+        Time to Top of Climb: 20 minutes 
+        Cruise leg: 645 NM, FL400, TAS 415 kt, average wind 15 kt tailwind 
+        Time from top of descent to landing: 18 minutes
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 hours 08 minutes
+          wrongAnswers:
+            - text: 2 hours 15 minutes
+            - text: 1 hour 30 minutes
+            - text: 2 hours 11 minutes
+    - type: simple
+      question: You are flying at FL380, ISA -10 ºC, with a TAS of 460 kt and a headwind component of 25 kt. The cruise leg is 740 NM, the time for take-off and climb to TOC is 30 minutes and the time for descent, approach and landing to the destination aerodrome is 22 minutes. What's the total flight time?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 02:34
+          wrongAnswers:
+            - text: 02:02
+            - text: 02:24
+            - text: 02:29
+    - type: simple
+      question: You are flying at FL380, ISA -10 ºC, with a TAS of 460 kt and a headwind component of 25 kt. The cruise leg is 740 NAM, the time for take-off and climb to TOC is 30 minutes and the time for descent, approach and landing to the destination aerodrome is 22 minutes. What's the total flight time?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 02:28
+          wrongAnswers:
+            - text: 01:36
+            - text: 01:42
+            - text: 02:34
+- id: QBNAA
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337827
+    - ATPLQ-331736
+    - ATPLQ-336793
+    - ATPLQ-337405
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.02.02.06
+  templates:
+    - type: simple
+      question: |-
+        Given the following information for a Commercial Air Transport flight, what is the time (in minutes) needed from the destination to the alternate aerodrome? Assume an operation with a Performance Class A aeroplane applying the Basic Fuel Scheme or with a helicopter (the basic fuel planning provisions are the same).
+
+        - Missed approach at the destination: {{missed}} min
+        - Climb to cruise level: {{climb}} min
+        - Cruise distance: {{dist}} NM
+        - Cruise TAS: {{tas}} kt
+        - Wind component: {{wind}} kt (positive = tailwind, negative = headwind)
+        - Anticipated hold at the alternate: {{hold}} min
+        - Descent to the alternate: {{descent}} min
+        - Approach to the alternate: {{approach}} min
+      explanation: |-
+        The time from the destination to the alternate is the sum of the manoeuvre times at both aerodromes and the time flown on the cruise leg. The cruise time is the distance divided by the ground speed, and the ground speed is the TAS plus any tailwind (minus any headwind).
+
+        **Solution**
+
+        Cruise time: $$\frac{\text{Cruise distance}}{\text{Cruise TAS}+\text{Tailwind component}}\times 60 = \frac{ {{dist}} }{ {{tas}}+({{wind}})}\times 60$$ min
+
+        Total: $$\text{Missed approach}+\text{Climb}+\frac{\text{Cruise distance}}{\text{Cruise TAS}+\text{Tailwind component}}\times 60+\text{Holding at alternate}+\text{Descent}+\text{Approach} = {{missed}}+{{climb}}+\frac{ {{dist}} }{ {{tas}}+({{wind}})}\times 60+{{hold}}+{{descent}}+{{approach}} = \mathbf{ {{answer}}\ \text{min} }$$
+
+        ## Why the other answers are wrong
+        - **{{d1}} min**: ignores the wind component.
+        - **{{d2}} min**: reverses the sign of the wind component.
+        - **{{d3}} min**: leaves out the holding time at the alternate.
+        - **{{d4}} min**: adds the cruise time in hours instead of converting it to minutes.
+      presets:
+        - variables:
+            missed: 6
+            climb: 8
+            dist: 75
+            tas: 145
+            wind: -10
+            hold: 12
+            descent: 7
+            approach: 6
+            answer: 72
+            d1: 70
+            d2: 68
+            d3: 60
+            d4: 40
+          correctAnswers:
+            - text: 72 min
+          wrongAnswers:
+            - text: 70 min
+            - text: 60 min
+            - text: 40 min
+            - text: 68 min
+        - variables:
+            missed: 6
+            climb: 7
+            dist: 130
+            tas: 145
+            wind: 10
+            hold: 11
+            descent: 7
+            approach: 8
+            answer: 89
+            d1: 93
+            d2: 97
+            d3: 78
+            d4: 40
+          correctAnswers:
+            - text: 89 min
+          wrongAnswers:
+            - text: 93 min
+            - text: 78 min
+            - text: 40 min
+            - text: 97 min
+        - variables:
+            missed: 5
+            climb: 5
+            dist: 65
+            tas: 145
+            wind: 18
+            hold: 20
+            descent: 4
+            approach: 5
+            answer: 63
+            d1: 66
+            d2: 70
+            d3: 43
+            d4: 39
+          correctAnswers:
+            - text: 63 min
+          wrongAnswers:
+            - text: 66 min
+            - text: 43 min
+            - text: 39 min
+            - text: 70 min
+        - variables:
+            missed: 6
+            climb: 8
+            dist: 55
+            tas: 165
+            wind: -10
+            hold: 10
+            descent: 6
+            approach: 6
+            answer: 57
+            d1: 56
+            d2: 55
+            d3: 47
+            d4: 36
+          correctAnswers:
+            - text: 57 min
+          wrongAnswers:
+            - text: 56 min
+            - text: 47 min
+            - text: 36 min
+            - text: 55 min
+- id: QFDHB
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335334
+    - AVEXAM-94608
+    - BGS-331035
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.02.05.01
+  templates:
+    - type: simple
+      question: |-
+        Given the following information, and taking into account that the fuel was initially calculated with no wind, determine the updated trip fuel for the flight (in kg).
+
+        - Trip fuel (no wind): {{trip0}} kg
+        - Flight time (no wind): {{t0}} hours
+        - Distance: {{dist}} NM
+        - Headwind: {{hw}} kt
+      explanation: |-
+        With no wind the groundspeed is the distance divided by the flight time. With a headwind the groundspeed is reduced by the headwind, so the flight time increases by the ratio distance / (distance minus headwind times the time without wind). The trip fuel scales with the flight time, so the updated trip fuel is the original trip fuel multiplied by that ratio.
+
+        **Solution**
+
+        Groundspeed without wind = {{macro1}} kt
+
+        $$
+        \frac{\text{Trip fuel (no wind)}\times \text{Distance}}{\text{Distance}-\text{Headwind}\times \text{Flight time (no wind)}} = \frac{ {{trip0}}\times {{dist}} }{ {{dist}}-{{hw}}\times 2} = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: keeps the original trip fuel and does not update it for the headwind.
+        - **{{d2}} kg**: adds the headwind instead of subtracting it.
+        - **{{d3}} kg**: uses the ratio of the wrong way round, so the trip fuel is reduced.
+        - **{{d4}} kg**: adds the headwind as a percentage of the distance, which is not a valid time correction.
+      presets:
+        - variables:
+            trip0: 2000
+            t0: 2
+            dist: 240
+            hw: 20
+            macro1: 120
+            answer: 2400
+            d1: 2000
+            d2: 1714
+            d3: 1667
+            d4: 2167
+          correctAnswers:
+            - text: 2400 kg
+          wrongAnswers:
+            - text: 2000 kg
+            - text: 1667 kg
+            - text: 2167 kg
+            - text: 1714 kg
+        - variables:
+            trip0: 1800
+            t0: 2
+            dist: 300
+            hw: 30
+            macro1: 150
+            answer: 2250
+            d1: 1800
+            d2: 1500
+            d3: 1440
+            d4: 1980
+          correctAnswers:
+            - text: 2250 kg
+          wrongAnswers:
+            - text: 1800 kg
+            - text: 1440 kg
+            - text: 1980 kg
+            - text: 1500 kg
+- id: QFISZ
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.02.05.01
+  templates:
+    - type: simple
+      question: |-
+        Given the following information, calculate the change in planned Trip Fuel when applying the updated meteorological conditions. Round up the calculation to the next full kilogram.
+
+        - Trip distance: {{dist}} NAM
+        - Planned TAS: {{tas}} kt
+        - Change TAS: {{dtas}} kt for every 1° C change in OAT
+        - Planned average trip fuel consumption: {{cons}} kg/NAM
+        - Change of Trip Fuel required: {{pct}}% increase for every 10° C increase in OAT
+        - Revised OAT: {{doat}}° C above planned OAT
+
+        The trip fuel will increase by how many kg?
+      explanation: |-
+        The planned trip fuel is the distance in NAM times the fuel consumption per NAM. A change in TAS only changes the flight time for a given air distance; the fuel per NAM stays the same, so the only change comes from the stated percentage increase with OAT.
+
+        **Solution**
+
+        Planned trip fuel = {{dist}} × {{cons}} = {{macro1}} kg
+        Increase = {{macro1}} × {{pct}}% × ({{doat}} / 10) = {{macro2}} kg, rounded up to the next full kilogram.
+
+        $$
+        \text{ceil}(\frac{\frac{\text{Trip distance}\times \text{Planned fuel consumption}\times \text{Fuel increase per 10° C}}{100}\times \text{OAT increase}}{10}) = \mathbf{ {{answer}}\ \text{kg increase} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: the percentage is applied once per degree instead of once per 10° C (an increase ten times too large).
+        - **{{d2}} kg**: only the TAS effect is considered, as a decrease of fuel in proportion to the higher TAS; the fuel per NAM does not change with TAS.
+        - **{{d3}} kg**: the TAS effect and the percentage increase are combined; the TAS effect should not be applied.
+      presets:
+        - variables:
+            dist: 150
+            tas: 150
+            dtas: 1
+            cons: 3
+            pct: 0.5
+            doat: 10
+            macro1: 450
+            macro2: 2
+            answer: 3
+            d1: 23
+            d2: 29
+            d3: 27
+          correctAnswers:
+            - text: 3 kg
+          wrongAnswers:
+            - text: 27 kg
+            - text: 23 kg
+            - text: 29 kg
+        - variables:
+            dist: 200
+            tas: 160
+            dtas: 1
+            cons: 4
+            pct: 0.5
+            doat: 10
+            macro1: 800
+            macro2: 4
+            answer: 4
+            d1: 40
+            d2: 48
+            d3: 44
+          correctAnswers:
+            - text: 4 kg
+          wrongAnswers:
+            - text: 44 kg
+            - text: 40 kg
+            - text: 48 kg
+        - variables:
+            dist: 300
+            tas: 200
+            dtas: 1
+            cons: 5
+            pct: 0.5
+            doat: 20
+            macro1: 1500
+            macro2: 15
+            answer: 15
+            d1: 150
+            d2: 137
+            d3: 123
+          correctAnswers:
+            - text: 15 kg
+          wrongAnswers:
+            - text: 123 kg
+            - text: 150 kg
+            - text: 137 kg
+- id: QBHKD
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334825
+    - AVEXAM-4331
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.01.01
+  templates:
+    - type: simple
+      question: Which selection best describes a Point of Equal Time PET, or Critical Point, between the departure aerodrome and the destination where one destination alternate has been nominated? The PET is a track position from which it takes the same time to fly
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: onward to the destination as it would to return to the departure point.
+          wrongAnswers:
+            - text: back to the departure point as the planned flight time taken to fly to it.
+            - text: to the destination as the flight planned time to the destination alternate.
+            - text: to the departure point in actual or flight planned conditions.
+- id: QDJCX
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334914
+    - AVEXAM-7885
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.01.01
+  templates:
+    - type: simple
+      question: Which of the following statements with regard to the PET (Point of Equal Time) is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Endurance is not relevant when calculating the point of equal time.
+          wrongAnswers:
+            - text: When calculating the point of equal time fuel reserves should be accounted for.
+            - text: The point of equal time is a number which is entered in field 19 of the ATC flight plan.
+            - text: Endurance is relevant when calculating the point of equal time.
+- id: QASKM
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - BGS-330707
+    - AVEXAM-79729
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.01.02
+  templates:
+    - type: simple
+      question: "Given: Distance A to B is 360 NM. Wind component A - B is -15 kt, Wind component B - A is +15 kt, TAS is 180 kt. What is the distance from the equal-time-point to B?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 165 NM
+          wrongAnswers:
+            - text: 170 NM
+            - text: 180 NM
+            - text: 195 NM
+- id: QAFPU
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338711
+    - BGS-331356
+    - AVEXAM-39987
+    - BGS-331041
+    - ATPLQ-332097
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.01.02
+  templates:
+    - type: simple
+      question: |-
+        A flight is planned over a distance of {{d}} NM. The TAS is {{tas}} kt and the wind gives a head wind component of {{hw}} kt on the outbound leg (so a tail wind of {{hw}} kt on the return).
+
+        What is the distance from the departure point to the Point of Equal Time (PET)? Answer in NM.
+      explanation: |-
+        The PET is the point from which the flight time to the destination equals the flight time back to the departure. Outbound groundspeed is {{macro1}} kt (head wind), return groundspeed is {{macro2}} kt (tail wind). x = d × G_back / (G_out + G_back), and G_out + G_back = 2 × TAS.
+
+        **Solution**
+
+        G_out = {{macro1}} kt, G_back = {{macro2}} kt
+
+        $$
+        \frac{\text{Total distance}\times (\text{TAS}+\text{Head wind component outbound})}{2\times \text{TAS}} = \frac{ {{d}}\times ({{tas}}+{{hw}})}{2\times {{tas}} } = \mathbf{ {{answer}}\ \text{NM} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: the groundspeeds were swapped, giving a PET that is too close to the departure point.
+        - **{{d2}} NM**: the mid-point was used; the wind was ignored.
+        - **{{d3}} NM**: wrong ratio of TAS to the return groundspeed.
+        - **{{d4}} NM**: the groundspeeds were used in the wrong ratio (difference of leg speeds over return speed).
+      presets:
+        - variables:
+            d: 360
+            tas: 210
+            hw: 30
+            macro1: 180
+            macro2: 240
+            answer: 206
+            d1: 154
+            d2: 180
+            d3: 315
+            d4: 270
+          correctAnswers:
+            - text: 206 NM
+          wrongAnswers:
+            - text: 154 NM
+            - text: 315 NM
+            - text: 270 NM
+            - text: 180 NM
+        - variables:
+            d: 2800
+            tas: 500
+            hw: 100
+            macro1: 400
+            macro2: 600
+            answer: 1680
+            d1: 1120
+            d2: 1400
+            d3: 2333
+            d4: 1867
+          correctAnswers:
+            - text: 1680 NM
+          wrongAnswers:
+            - text: 1120 NM
+            - text: 2333 NM
+            - text: 1867 NM
+            - text: 1400 NM
+        - variables:
+            d: 1200
+            tas: 450
+            hw: 50
+            macro1: 400
+            macro2: 500
+            answer: 667
+            d1: 533
+            d2: 600
+            d3: 1080
+            d4: 960
+          correctAnswers:
+            - text: 667 NM
+          wrongAnswers:
+            - text: 533 NM
+            - text: 1080 NM
+            - text: 960 NM
+            - text: 600 NM
+- id: QIOPR
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339779
+    - BGS-330397
+    - AVEXAM-32914
+    - AVEXAM-43857
+    - AVEXAM-95062
+    - BGS-330391
+    - BGS-330390
+    - AVEXAM-48597
+    - AVEXAM-11943
+    - AVEXAM-8839
+    - BGS-330393
+    - BGS-330419
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.01.02
+  templates:
+    - type: simple
+      question: |-
+        Given:
+
+        - Distance from departure to destination: {{dist}} NM
+        - GS out: {{gsout}} kt
+        - GS home: {{gsback}} kt
+
+        What is the distance of the PET from the departure point?
+      explanation: |-
+        The Point of Equal Time (PET) is the point from which it takes the same time to continue to the destination as to return to the departure point. Because the ground speeds differ in the two directions, the PET lies closer to the leg with the lower ground speed, so the distance to the PET is weighted by the ground speed home.
+
+        **Solution**
+
+        $$
+        \frac{\text{Total distance}\times \text{Ground speed home}}{\text{Ground speed out}+\text{Ground speed home}} = \frac{ {{dist}}\times {{gsback}} }{ {{gsout}}+{{gsback}} } = \mathbf{ {{answer}}\ \text{NM} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: uses the ground speed out in the numerator, which gives the distance from the destination instead of from the departure point.
+        - **{{d2}} NM**: takes the half-way point, which is only the PET when the ground speeds out and home are equal.
+        - **{{d3}} NM**: inverts the speed ratio (out over home).
+        - **{{d4}} NM**: inverts the speed ratio (home over out) and ignores the sum of the speeds in the denominator.
+      presets:
+        - variables:
+            dist: 435
+            gsout: 110
+            gsback: 130
+            answer: 236
+            d1: 199
+            d2: 218
+            d3: 368
+            d4: 514
+          correctAnswers:
+            - text: 236 NM
+          wrongAnswers:
+            - text: 199 NM
+            - text: 368 NM
+            - text: 514 NM
+            - text: 218 NM
+        - variables:
+            dist: 600
+            gsout: 420
+            gsback: 480
+            answer: 320
+            d1: 280
+            d2: 300
+            d3: 525
+            d4: 686
+          correctAnswers:
+            - text: 320 NM
+          wrongAnswers:
+            - text: 280 NM
+            - text: 525 NM
+            - text: 686 NM
+            - text: 300 NM
+        - variables:
+            dist: 820
+            gsout: 250
+            gsback: 290
+            answer: 440
+            d1: 380
+            d2: 410
+            d3: 707
+            d4: 951
+          correctAnswers:
+            - text: 440 NM
+          wrongAnswers:
+            - text: 380 NM
+            - text: 707 NM
+            - text: 951 NM
+            - text: 410 NM
+- id: QJCAK
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332066
+    - AVEXAM-71455
+    - BGS-330403
+    - BGS-330404
+    - AVEXAM-97383
+    - AVEXAM-19197
+    - AVEXAM-95170
+    - BGS-330401
+    - AVEXAM-59726
+    - BGS-330402
+    - AVEXAM-76496
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.01.02
+  templates:
+    - type: simple
+      question: |-
+        The point of equal time (PET) is found for the following leg.
+
+        - Distance from departure to destination: {{dist}} NM
+        - GS out: {{gsout}} kt
+        - GS home: {{gsback}} kt
+
+        What is the time to the PET from the departure point (in minutes)?
+      explanation: |-
+        The distance to the PET is found first. The time to reach it is that distance divided by the outbound ground speed, converted from hours to minutes.
+
+        **Solution**
+
+        Distance to PET: $$\frac{\text{Distance departure to destination}\times \text{GS home}}{\text{GS out}+\text{GS home}}$$ = {{macro2}} NM
+
+        $$
+        \frac{\frac{\text{Distance departure to destination}\times \text{GS home}}{\text{GS out}+\text{GS home}}}{\text{GS out}}\times 60 = \frac{\frac{ {{dist}}\times {{gsback}} }{ {{gsout}}+{{gsback}} }}{ {{gsout}} }\times 60 = \mathbf{ {{answer}}\ \text{min} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} min**: divides by the home ground speed instead of the outbound one.
+        - **{{d2}} min**: forgets to convert hours to minutes.
+        - **{{d3}} min**: uses the full leg distance instead of the distance to the PET.
+        - **{{d4}} min**: uses the wrong distance to the PET.
+      presets:
+        - variables:
+            dist: 1860
+            gsout: 360
+            gsback: 400
+            macro2: 979
+            answer: 163
+            d1: 147
+            d2: 3
+            d3: 310
+            d4: 132
+          correctAnswers:
+            - text: 163 min
+          wrongAnswers:
+            - text: 147 min
+            - text: 310 min
+            - text: 132 min
+            - text: 3 min
+        - variables:
+            dist: 1500
+            gsout: 300
+            gsback: 350
+            macro2: 808
+            answer: 162
+            d1: 138
+            d2: 3
+            d3: 300
+            d4: 119
+          correctAnswers:
+            - text: 162 min
+          wrongAnswers:
+            - text: 138 min
+            - text: 300 min
+            - text: 119 min
+            - text: 3 min
+        - variables:
+            dist: 1000
+            gsout: 250
+            gsback: 200
+            macro2: 444
+            answer: 107
+            d1: 133
+            d2: 2
+            d3: 240
+            d4: 167
+          correctAnswers:
+            - text: 107 min
+          wrongAnswers:
+            - text: 133 min
+            - text: 240 min
+            - text: 167 min
+            - text: 2 min
+- id: QLMDN
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331094
+    - BGS-330400
+    - BGS-331018
+    - BGS-330420
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.01.02
+  templates:
+    - type: simple
+      question: |-
+        Given:
+
+        - Distance from departure to destination: {{dist}} NM
+        - GS out: {{gsout}} kt
+        - GS home: {{gsback}} kt
+
+        What is the time of the PET from the departure point?
+      explanation: |-
+        The Point of Equal Time (PET) is reached after the distance to the PET divided by the ground speed out. The distance to the PET is the total distance weighted by the ground speed home over the sum of both ground speeds.
+
+        **Solution**
+
+        Distance to PET = $$\frac{\text{Total distance}\times \text{Ground speed home}}{\text{Ground speed out}+\text{Ground speed home}}$$ = {{macro2}} NM
+
+        Time = distance / GS out = {{macro2}} / {{gsout}} = {{macro3}} h = **{{answer}} min**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} min**: divides the total distance by the sum of the ground speeds, which ignores the weighting by the ground speed home.
+        - **{{d2}} min**: inverts the speed ratio in the distance to the PET and divides by the wrong ground speed.
+        - **{{d3}} min**: assumes the PET is half-way (equal ground speeds) and flies it at the ground speed out.
+        - **{{d4}} min**: takes only half of the correct time.
+      presets:
+        - variables:
+            dist: 1345
+            gsout: 480
+            gsback: 360
+            macro2: 576
+            macro3: 1
+            answer: 72
+            d1: 96
+            d2: 128
+            d3: 84
+            d4: 48
+          correctAnswers:
+            - text: 72 min
+          wrongAnswers:
+            - text: 96 min
+            - text: 84 min
+            - text: 48 min
+            - text: 128 min
+        - variables:
+            dist: 900
+            gsout: 420
+            gsback: 360
+            macro2: 415
+            macro3: 1
+            answer: 59
+            d1: 69
+            d2: 81
+            d3: 64
+            d4: 35
+          correctAnswers:
+            - text: 59 min
+          wrongAnswers:
+            - text: 69 min
+            - text: 64 min
+            - text: 35 min
+            - text: 81 min
+        - variables:
+            dist: 620
+            gsout: 260
+            gsback: 300
+            macro2: 332
+            macro3: 1
+            answer: 77
+            d1: 66
+            d2: 58
+            d3: 72
+            d4: 33
+          correctAnswers:
+            - text: 77 min
+          wrongAnswers:
+            - text: 66 min
+            - text: 72 min
+            - text: 33 min
+            - text: 58 min
+- id: QLYFJ
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332273
+    - BGS-330398
+    - BGS-330395
+    - AVEXAM-91795
+    - AVEXAM-44138
+    - BGS-330399
+    - BGS-330409
+    - AVEXAM-3550
+    - BGS-330599
+    - AVEXAM-78440
+    - AVEXAM-75696
+    - BGS-330396
+    - AVEXAM-71780
+    - BGS-330408
+    - AVEXAM-22403
+    - BGS-330407
+    - BGS-330406
+    - BGS-330672
+    - BGS-330673
+    - ATPLQ-334629
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.01.02
+  templates:
+    - type: simple
+      question: |-
+        Given:
+
+        - Distance from departure to destination: 1100 NM
+        - True track: 280°
+        - W/V: 100/80
+        - TAS: 440 kt
+
+        What is the distance and time of the PET from the departure point?
+      explanation: The wind comes from 100° and the track is 280°, so it is a direct tailwind of 80 kt. The ground speed out is 440 + 80 = 520 kt and the ground speed back is 440 - 80 = 360 kt. The PET distance is 1100 × 360 / (360 + 520) = 450 NM, and the time out is 450 / 520 hours, which is about 52 minutes.
+      presets:
+        - correctAnswers:
+            - text: "Distance: 450 NM Time: 52 min"
+          wrongAnswers:
+            - text: "Distance: 650 NM Time: 75 min"
+            - text: "Distance: 550 NM Time: 75 min"
+            - text: "Distance: 650 NM Time: 108 min"
+    - type: simple
+      question: |-
+        Given:
+
+        Distance from departure to destination: 95 NM 
+         
+        True track: 105° 
+         
+        W/V: 060/15 
+         
+        TAS: 140 kt
+
+        What is the distance of the PET from the departure point?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 51 NM
+          wrongAnswers:
+            - text: 44 NM
+            - text: 82 NM
+            - text: 47.5 NM
+- id: QNTTD
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-333000
+    - AVEXAM-22853
+    - BGS-331301
+    - BGS-331211
+    - BGS-331157
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.01.02
+  templates:
+    - type: simple
+      question: |-
+        An aircraft flies the following leg. Calculate the time at which the point of equal time (PET) is reached.
+
+        - Departure time: {{dep_h}}:00
+        - Leg distance: {{dist}} NM
+        - Leg track: {{track}}°
+        - TAS: {{tas}} kt
+        - Wind (direction/speed): {{wd}}° / {{ws}} kt
+
+        At what time (hh:mm) is the PET reached?
+      explanation: |-
+        The PET is reached when the time to go on equals the time to return. The distance to the PET is then found from the ground speeds, and the time from departure is that distance divided by the outbound ground speed. The departure time plus this time gives the clock time.
+
+        **Solution**
+
+        Headwind component: {{macro1}} kt, so GS out = {{macro2}} kt and GS home = {{macro3}} kt
+
+        Distance to PET: {{macro4}} NM
+
+        $$\text{Departure hour}\times 60+\frac{\frac{\text{Leg distance}\times (\text{TAS}+\text{Wind speed}\times \text{cos}(\text{Wind direction}-\text{Leg track}))}{2\times \text{TAS}}}{\text{TAS}-\text{Wind speed}\times \text{cos}(\text{Wind direction}-\text{Leg track})}\times 60 = {{dep_h}}\times 60+\frac{\frac{ {{dist}}\times ({{tas}}+{{ws}}\times \text{cos}({{wd}}-{{track}}))}{2\times {{tas}} }}{ {{tas}}-{{ws}}\times \text{cos}({{wd}}-{{track}})}\times 60$$ minutes after midnight = **{{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}**: uses the home ground speed to find the time to the PET.
+        - **{{d2}}**: forgets to add the departure time.
+        - **{{d3}}**: flies the whole leg at the outbound ground speed instead of up to the PET.
+        - **{{d4}}**: uses the wrong ground speeds in the distance and in the time.
+      presets:
+        - variables:
+            dep_h: 12
+            dist: 1000
+            track: 90
+            tas: 200
+            wd: 90
+            ws: 20
+            macro1: 20
+            macro2: 180
+            macro3: 220
+            macro4: 550
+            answer: 15:03
+            d1: 14:30
+            d2: 03:03
+            d3: 17:33
+            d4: 14:03
+          correctAnswers:
+            - text: 15:03
+          wrongAnswers:
+            - text: 14:30
+            - text: 17:33
+            - text: 14:03
+            - text: 03:03
+        - variables:
+            dep_h: 9
+            dist: 800
+            track: 180
+            tas: 250
+            wd: 60
+            ws: 40
+            macro1: -20
+            macro2: 270
+            macro3: 230
+            macro4: 368
+            answer: 10:22
+            d1: 10:36
+            d2: 01:22
+            d3: 11:58
+            d4: 10:53
+          correctAnswers:
+            - text: 10:22
+          wrongAnswers:
+            - text: 10:36
+            - text: 11:58
+            - text: 10:53
+            - text: 01:22
+        - variables:
+            dep_h: 14
+            dist: 1500
+            track: 270
+            tas: 180
+            wd: 300
+            ws: 30
+            macro1: 26
+            macro2: 154
+            macro3: 206
+            macro4: 858
+            answer: 19:34
+            d1: 18:10
+            d2: 05:34
+            d3: 23:44
+            d4: 17:07
+          correctAnswers:
+            - text: 19:34
+          wrongAnswers:
+            - text: 18:10
+            - text: 23:44
+            - text: 17:07
+            - text: 05:34
+- id: QPAFV
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds:
+    - QVBCG
+  externalQuestionIds:
+    - ATPLQ-336895
+    - BGS-330417
+    - AVEXAM-45239
+    - AVEXAM-59776
+    - BGS-330413
+    - ATPLQ-331509
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.01.02
+  templates:
+    - type: simple
+      question: |-
+        The point of equal time (PET) is found for the following leg.
+
+        - Distance from departure to destination: {{dist}} NM
+        - True track: {{tt}}°
+        - Wind (direction/speed): {{wd}}° / {{ws}} kt
+        - TAS: {{tas}} kt
+
+        What is the distance of the PET from the departure point (in NM)?
+      explanation: |-
+        The headwind component on the outbound leg reduces the outbound ground speed, and the same component increases the ground speed on the return leg. The PET lies where the time out equals the time home, which gives the distance from departure in terms of the TAS and the headwind component.
+
+        **Solution**
+
+        Headwind component: {{ws}} kt x cos({{wd}}° - {{tt}}°) = {{macro1}} kt
+
+        GS out = {{macro2}} kt, GS home = {{macro3}} kt
+
+        $$
+        \frac{\text{Distance departure to destination}\times (\text{TAS}+\text{Wind speed}\times \text{cos}(\text{Wind direction}-\text{True track}))}{2\times \text{TAS}} = \frac{ {{dist}}\times ({{tas}}+{{ws}}\times \text{cos}({{wd}}-{{tt}}))}{2\times {{tas}} } = \mathbf{ {{answer}}\ \text{NM} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: applies the wind with the wrong sign.
+        - **{{d2}} NM**: ignores the wind completely.
+        - **{{d3}} NM**: does not divide by the sum of the two ground speeds.
+        - **{{d4}} NM**: adds the full wind speed instead of its component along the track.
+      presets:
+        - variables:
+            dist: 470
+            tt: 237
+            wd: 300
+            ws: 25
+            tas: 125
+            macro1: 11
+            macro2: 114
+            macro3: 136
+            answer: 256
+            d1: 214
+            d2: 235
+            d3: 513
+            d4: 282
+          correctAnswers:
+            - text: 256 NM
+          wrongAnswers:
+            - text: 214 NM
+            - text: 513 NM
+            - text: 282 NM
+            - text: 235 NM
+        - variables:
+            dist: 285
+            tt: 348
+            wd: 280
+            ws: 25
+            tas: 128
+            macro1: 9
+            macro2: 119
+            macro3: 137
+            answer: 153
+            d1: 132
+            d2: 143
+            d3: 306
+            d4: 170
+          correctAnswers:
+            - text: 153 NM
+          wrongAnswers:
+            - text: 132 NM
+            - text: 306 NM
+            - text: 170 NM
+            - text: 143 NM
+        - variables:
+            dist: 600
+            tt: 90
+            wd: 120
+            ws: 30
+            tas: 150
+            macro1: 26
+            macro2: 124
+            macro3: 176
+            answer: 352
+            d1: 248
+            d2: 300
+            d3: 704
+            d4: 360
+          correctAnswers:
+            - text: 352 NM
+          wrongAnswers:
+            - text: 248 NM
+            - text: 704 NM
+            - text: 360 NM
+            - text: 300 NM
+- id: QVBCG
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds:
+    - QPAFV
+  externalQuestionIds:
+    - ATPLQ-331460
+    - BGS-330392
+    - AVEXAM-81445
+    - AVEXAM-70247
+    - BGS-330394
+    - AVEXAM-90747
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.01.02
+  templates:
+    - type: simple
+      question: |-
+        The point of equal time (PET) is found for the following leg.
+
+        - Distance from departure to destination: {{dist}} NM
+        - GS out: {{gsout}} kt
+        - GS home: {{gsback}} kt
+
+        What is the distance of the PET from the departure point (in NM)?
+      explanation: |-
+        At the PET the time needed to continue to the destination equals the time needed to return to the departure point. Setting the two times equal gives the distance from the departure point, which uses the home ground speed in the numerator.
+
+        **Solution**
+
+        $$
+        \frac{\text{Distance departure to destination}\times \text{GS home}}{\text{GS out}+\text{GS home}} = \frac{ {{dist}}\times {{gsback}} }{ {{gsout}}+{{gsback}} } = \mathbf{ {{answer}}\ \text{NM} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: uses the outbound ground speed in the numerator, which gives the distance from the destination.
+        - **{{d2}} NM**: divides by the outbound ground speed only.
+        - **{{d3}} NM**: takes half the distance, which ignores the ground speeds.
+        - **{{d4}} NM**: uses the wrong ground speed ratio.
+      presets:
+        - variables:
+            dist: 340
+            gsout: 150
+            gsback: 120
+            answer: 151
+            d1: 189
+            d2: 272
+            d3: 170
+            d4: 425
+          correctAnswers:
+            - text: 151 NM
+          wrongAnswers:
+            - text: 189 NM
+            - text: 170 NM
+            - text: 425 NM
+            - text: 272 NM
+        - variables:
+            dist: 1000
+            gsout: 300
+            gsback: 200
+            answer: 400
+            d1: 600
+            d2: 667
+            d3: 500
+            d4: 1500
+          correctAnswers:
+            - text: 400 NM
+          wrongAnswers:
+            - text: 600 NM
+            - text: 500 NM
+            - text: 1500 NM
+            - text: 667 NM
+        - variables:
+            dist: 500
+            gsout: 180
+            gsback: 220
+            answer: 275
+            d1: 225
+            d2: 611
+            d3: 250
+            d4: 409
+          correctAnswers:
+            - text: 275 NM
+          wrongAnswers:
+            - text: 225 NM
+            - text: 250 NM
+            - text: 409 NM
+            - text: 611 NM
+- id: QZMNZ
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334607
+    - BGS-330405
+    - ATPLQ-338337
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.01.02
+  templates:
+    - type: simple
+      question: |-
+        Given:
+
+        - Distance from departure to destination: {{dist}} NM
+        - GS Out: {{gso}} kt
+        - GS Home: {{gsh}} kt
+
+        What is the time of the PET from the departure point?
+      explanation: |-
+        The Point of Equal Time (PET) is where the time to continue to the destination equals the time to return. Its distance from departure is D × GSh / (GSo + GSh), and the time to reach it is that distance divided by the ground speed out.
+
+        **Solution**
+
+        Distance to PET: {{macro1}} NM
+
+        $$
+        \frac{60\times \text{Distance}\times \text{Ground speed home}}{\text{Ground speed out}\times (\text{Ground speed out}+\text{Ground speed home})} = \frac{60\times {{dist}}\times {{gsh}} }{ {{gso}}\times ({{gso}}+{{gsh}})} = \mathbf{ {{answer}}\ \text{min} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} min**: divides the distance by the sum of both ground speeds, which is not a time to the PET.
+        - **{{d2}} min**: swaps the ground speeds out and home.
+        - **{{d3}} min**: assumes the PET is at the midpoint of the route (ignores the wind effect).
+      presets:
+        - variables:
+            dist: 2500
+            gso: 540
+            gsh: 470
+            macro1: 1163
+            answer: 129
+            d1: 149
+            d2: 171
+            d3: 139
+          correctAnswers:
+            - text: 129 min
+          wrongAnswers:
+            - text: 139 min
+            - text: 149 min
+            - text: 171 min
+        - variables:
+            dist: 2380
+            gso: 420
+            gsh: 520
+            macro1: 1317
+            answer: 188
+            d1: 152
+            d2: 123
+            d3: 170
+          correctAnswers:
+            - text: 188 min
+          wrongAnswers:
+            - text: 170 min
+            - text: 152 min
+            - text: 123 min
+        - variables:
+            dist: 1800
+            gso: 450
+            gsh: 380
+            macro1: 824
+            answer: 110
+            d1: 130
+            d2: 154
+            d3: 120
+          correctAnswers:
+            - text: 110 min
+          wrongAnswers:
+            - text: 120 min
+            - text: 130 min
+            - text: 154 min
+- id: QTEDG
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds:
+    - QTMWQ
+  externalQuestionIds:
+    - ATPLQ-339180
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.02.01
+  templates:
+    - type: simple
+      question: Which selection best describes the Point of Safe Return (PSR)? The furthest point along a planned route..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: to which an aircraft can fly to destination or back to the departure, or alternate with reserves intact.
+          wrongAnswers:
+            - text: to which an aircraft can fly to destination or back to the departure, or alternate in the same time with no reserves intact.
+            - text: to which an aircraft can fly to destination or back to the departure, or alternate in the same time with reserves intact.
+            - text: to which an aircraft can fly to destination or back to the departure, or alternate with no reserves intact.
+- id: QTMWQ
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds:
+    - QTEDG
+  externalQuestionIds:
+    - ATPLQ-335600
+    - AVEXAM-9354
+    - BGS-331141
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.02.01
+  templates:
+    - type: simple
+      question: The Point of Safe Return PSR is the last point along a planned route where it is possible to return to the departure aerodrome
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: with specific reserves intact.
+          wrongAnswers:
+            - text: in still air conditions.
+            - text: with minimum drag speed.
+            - text: with no reserves intact.
+- id: QFQTO
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - BGS-330389
+    - AVEXAM-44710
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.02.02
+  templates:
+    - type: simple
+      question: |-
+        Given the following:
+        D = Flight distance
+        X = Distance to Point of Equal Time
+        GSo = Ground Speed out
+        GSr = Ground Speed return
+        The correct formula to find distance to Point of Equal Time is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: X = D x GSr / (GSo + GSr)
+          wrongAnswers:
+            - text: X = D x GSo / (GSo + GSr)
+            - text: X = (D/2) x GSo / (GSo + GSr)
+            - text: X = (D/2) + GSr / (GSo + GSr)
+        - correctAnswers:
+            - text: x = D × GSr / (GSo + GSr)
+          wrongAnswers:
+            - text: x = D × GSo / (GSo + GSr)
+            - text: x = (D/2) × GSo / (GSo + GSr)
+            - text: x = (D/2) + GSr / (GSo + GSr)
+- id: QCVTH
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334421
+    - BGS-330702
+    - AVEXAM-68233
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.02.02
+  templates:
+    - type: simple
+      question: |-
+        Given the following information, what is the distance of the Point of Safe Return (PSR) from the departure point (in NM)?
+
+        - Distance from departure to destination: {{total}} NM
+        - Safe endurance: {{endurance_min}} min
+        - Ground speed out: {{gs_out}} kt
+        - Ground speed home: {{gs_home}} kt
+      explanation: |-
+        The PSR is where the time to fly back from it equals the remaining safe endurance. The time to the PSR is t = endurance x GS home / (GS out + GS home), and the distance from departure is the outbound ground speed multiplied by that time.
+
+        **Solution**
+
+        Time to PSR: $$\frac{\frac{ {{endurance_min}} }{60}\times {{gs_home}} }{ {{gs_out}}+{{gs_home}} }$$ h
+
+        Distance from departure: $$\frac{\frac{\text{Ground speed out}\times \text{Safe endurance}}{60}\times \text{Ground speed home}}{\text{Ground speed out}+\text{Ground speed home}} = \frac{\frac{ {{gs_out}}\times {{endurance_min}} }{60}\times {{gs_home}} }{ {{gs_out}}+{{gs_home}} } = \mathbf{ {{answer}}\ \text{NM} }$$
+
+        ## Why the other answers are wrong
+        - **{{d1}} NM**: gives the distance from the PSR to the destination instead of from the departure point.
+        - **{{d2}} NM**: ignores the ground-speed ratio and multiplies the endurance by the outbound ground speed.
+        - **{{d3}} NM**: splits the total distance with the ratio inverted.
+        - **{{d4}} NM**: halves the correct distance.
+      presets:
+        - variables:
+            total: 950
+            endurance_min: 210
+            gs_out: 320
+            gs_home: 400
+            answer: 622
+            d1: 328
+            d2: 1120
+            d3: 528
+            d4: 311
+          correctAnswers:
+            - text: 622 NM
+          wrongAnswers:
+            - text: 328 NM
+            - text: 528 NM
+            - text: 311 NM
+            - text: 1120 NM
+        - variables:
+            total: 1200
+            endurance_min: 180
+            gs_out: 300
+            gs_home: 450
+            answer: 540
+            d1: 660
+            d2: 900
+            d3: 720
+            d4: 270
+          correctAnswers:
+            - text: 540 NM
+          wrongAnswers:
+            - text: 660 NM
+            - text: 720 NM
+            - text: 270 NM
+            - text: 900 NM
+    - type: simple
+      question: "Given: Distance 'A' to 'B' 1973 NM Ground Speed 'out' 430 kt Ground Speed 'back' 385 kt Safe endurance 7 HR 20 MIN The distance from 'A' to the Point of Safe Return (PSR)  is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1490 NM
+          wrongAnswers:
+            - text: 1664 NM
+            - text: 1698 NM
+            - text: 1422 NM
+        - correctAnswers:
+            - text: 1 490 NM
+          wrongAnswers:
+            - text: 1 664 NM
+            - text: 1 698 NM
+            - text: 1 422 NM
+- id: QKQPZ
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335393
+    - BGS-330441
+    - AVEXAM-40028
+    - AVEXAM-45276
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.02.02
+  templates:
+    - type: simple
+      question: |-
+        Given:
+
+        - Distance from departure to destination: {{dist}} NM
+        - Safe endurance: {{endurance}} h
+        - TAS: {{tas}} kt
+        - Ground speed out: {{gso}} kt
+        - Ground speed home: {{gsh}} kt
+
+        What is the time of the PSR from the departure point? Give the answer in minutes.
+      explanation: |-
+        The point of safe return (PSR) is the point beyond which the aircraft no longer has enough safe endurance to fly back to the departure point. The outbound and homebound legs are flown at different ground speeds, so the endurance is shared in inverse proportion to them: the time out is the endurance multiplied by the home ground speed and divided by the sum of both ground speeds.
+
+        **Solution**
+
+        Time out (h) = {{macro1}} h
+
+        $$
+        \frac{\text{Safe endurance}\times \text{Ground speed home}}{\text{Ground speed out}+\text{Ground speed home}}\times 60 = \frac{ {{endurance}}\times {{gsh}} }{ {{gso}}+{{gsh}} }\times 60 = \mathbf{ {{answer}}\ \text{min} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} min**: uses the outbound ground speed in the ratio instead of the home ground speed (inverted ratio).
+        - **{{d2}} min**: uses the safe endurance alone, ignoring the ground speed split.
+        - **{{d3}} h**: gives the result in hours instead of converting it to minutes.
+        - **{{d4}} min**: uses the TAS in place of the outbound ground speed.
+      presets:
+        - variables:
+            dist: 2450
+            endurance: 7.5
+            tas: 410
+            gso: 360
+            gsh: 460
+            macro1: 4
+            answer: 252
+            d1: 198
+            d2: 450
+            d3: 4
+            d4: 238
+          correctAnswers:
+            - text: 252 min
+          wrongAnswers:
+            - text: 198 min
+            - text: 4 min
+            - text: 238 min
+            - text: 450 min
+        - variables:
+            dist: 900
+            endurance: 5
+            tas: 110
+            gso: 120
+            gsh: 90
+            macro1: 2
+            answer: 129
+            d1: 171
+            d2: 300
+            d3: 2
+            d4: 135
+          correctAnswers:
+            - text: 129 min
+          wrongAnswers:
+            - text: 171 min
+            - text: 2 min
+            - text: 135 min
+            - text: 300 min
+- id: QPLGS
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339809
+    - AVEXAM-50585
+    - AVEXAM-30369
+    - AVEXAM-61142
+    - BGS-330431
+    - BGS-330429
+    - BGS-330585
+    - BGS-330430
+    - AVEXAM-2578
+    - BGS-330444
+    - AVEXAM-57611
+    - BGS-330433
+    - ATPLQ-331781
+    - AVEXAM-44076
+    - ATPLQ-334322
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.02.02
+  templates:
+    - type: simple
+      question: |-
+        Given:
+
+        - Distance from departure to destination: {{dist}} NM
+        - Safe endurance: {{se}} hours
+        - TAS: {{tas}} kt
+        - Ground speed out: {{gso}} kt
+        - Ground speed home: {{gsh}} kt
+
+        What is the distance and time of the PSR from the departure point?
+      explanation: "{{explanation}}"
+      presets:
+        - variables:
+            dist: 180
+            se: 2
+            tas: 120
+            gso: 135
+            gsh: 105
+            explanation: The PSR distance is safe endurance × ground speed out × ground speed home / (ground speed out + ground speed home) = 2 × 135 × 105 / 240 = 118 NM. The time out is 2 × 105 / 240 hours, which is 0.875 hours or 53 minutes.
+          correctAnswers:
+            - text: "Distance: 118 NM Time: 53 min"
+          wrongAnswers:
+            - text: "Distance: 79 NM Time: 45 min"
+            - text: "Distance: 59 NM Time: 30 min"
+            - text: "Distance: 62 NM Time: 28 min"
+        - variables:
+            dist: 500
+            se: 4
+            tas: 140
+            gso: 150
+            gsh: 130
+            explanation: The PSR distance is 4 × 150 × 130 / 280 = 279 NM. The time out is 4 × 130 / 280 hours, which is about 1.86 hours or 111 minutes.
+          correctAnswers:
+            - text: "Distance: 279 NM Time: 111 min"
+          wrongAnswers:
+            - text: "Distance: 139 NM Time: 60 min"
+            - text: "Distance: 232 NM Time: 107 min"
+            - text: "Distance: 221 NM Time: 89 min"
+        - variables:
+            dist: 150
+            se: 3.2
+            tas: 90
+            gso: 100
+            gsh: 80
+            explanation: The PSR distance is 3.2 × 100 × 80 / 180 = 142 NM. The time out is 3.2 × 80 / 180 hours, which is about 1.42 hours or 85 minutes.
+          correctAnswers:
+            - text: "Distance: 142 NM Time: 85 min"
+          wrongAnswers:
+            - text: "Distance: 8 NM Time: 5 min"
+            - text: "Distance: 67 NM Time: 50 min"
+            - text: "Distance: 71 NM Time: 47 min"
+- id: QRAXT
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337080
+    - AVEXAM-65938
+    - BGS-330440
+    - BGS-330439
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.02.02
+  templates:
+    - type: simple
+      question: |-
+        Given:
+
+        - Distance from departure to destination: {{dist}} NM
+        - Safe Endurance: {{se}} h
+        - TAS: {{tas}} kt
+        - Ground Speed Out: {{gso}} kt
+        - Ground Speed Home: {{gsh}} kt
+
+        What is the time of the PSR from the departure point?
+      explanation: |-
+        The Point of Safe Return (PSR) is the furthest point from which the aircraft can return to the departure aerodrome within its safe endurance. The time out is T = E × GSh / (GSo + GSh), using ground speeds, not TAS.
+
+        **Solution**
+
+        $$
+        \frac{60\times \text{Safe endurance}\times \text{Ground speed home}}{\text{Ground speed out}+\text{Ground speed home}} = \frac{60\times {{se}}\times {{gsh}} }{ {{gso}}+{{gsh}} } = \mathbf{ {{answer}}\ \text{min} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} min**: swaps the ground speeds out and home.
+        - **{{d2}} min**: assumes half of the endurance is flown outbound (ignores the wind).
+        - **{{d3}} min**: uses the TAS instead of the ground speed out.
+        - **{{d4}} min**: is the time to fly the whole route to the destination, not to the PSR.
+      presets:
+        - variables:
+            dist: 3000
+            se: 8
+            tas: 520
+            gso: 600
+            gsh: 440
+            answer: 203
+            d1: 277
+            d2: 240
+            d3: 220
+            d4: 300
+          correctAnswers:
+            - text: 203 min
+          wrongAnswers:
+            - text: 277 min
+            - text: 220 min
+            - text: 300 min
+            - text: 240 min
+        - variables:
+            dist: 2000
+            se: 6
+            tas: 450
+            gso: 500
+            gsh: 400
+            answer: 160
+            d1: 200
+            d2: 180
+            d3: 169
+            d4: 240
+          correctAnswers:
+            - text: 160 min
+          wrongAnswers:
+            - text: 200 min
+            - text: 169 min
+            - text: 240 min
+            - text: 180 min
+        - variables:
+            dist: 1500
+            se: 5
+            tas: 400
+            gso: 360
+            gsh: 440
+            answer: 165
+            d1: 135
+            d2: 150
+            d3: 157
+            d4: 250
+          correctAnswers:
+            - text: 165 min
+          wrongAnswers:
+            - text: 135 min
+            - text: 157 min
+            - text: 250 min
+            - text: 150 min
+- id: QWGIZ
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332664
+    - AVEXAM-24414
+    - AVEXAM-86666
+    - BGS-330447
+    - AVEXAM-98442
+    - AVEXAM-80823
+    - BGS-330435
+    - BGS-330448
+    - BGS-330446
+    - AVEXAM-16231
+    - BGS-330432
+    - AVEXAM-21656
+    - BGS-330418
+    - BGS-330604
+    - AVEXAM-43966
+    - AVEXAM-37948
+    - BGS-330445
+    - AVEXAM-25001
+    - BGS-330442
+    - AVEXAM-11605
+    - AVEXAM-46234
+    - AVEXAM-85645
+    - BGS-330449
+    - BGS-330443
+    - AVEXAM-39313
+    - BGS-330452
+    - BGS-330434
+    - BGS-330454
+    - BGS-330450
+    - AVEXAM-99038
+    - AVEXAM-70345
+    - BGS-330453
+    - AVEXAM-99986
+    - BGS-330451
+    - ATPLQ-337210
+    - BGS-330416
+    - BGS-330414
+    - BGS-330415
+    - BGS-330410
+    - AVEXAM-69394
+    - BGS-330693
+    - AVEXAM-29640
+    - AVEXAM-71857
+    - AVEXAM-29188
+    - BGS-330411
+    - BGS-330412
+    - AVEXAM-71981
+    - ATPLQ-331693
+    - ATPLQ-338935
+    - ATPLQ-336640
+    - ATPLQ-337179
+    - ATPLQ-339907
+    - BGS-330455
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.02.02
+  templates:
+    - type: simple
+      question: |-
+        Given:
+
+        - Distance from departure to destination: {{dist}} NM
+        - Safe endurance: {{endurance}} h
+        - True track: {{track}}°
+        - W/V: {{wdir}}°/{{wspeed}} kt
+        - TAS: {{tas}} kt
+
+        What is the distance of the PSR from the departure point?
+      explanation: |-
+        The Point of Safe Return (PSR) is the farthest point from which the aircraft can return to the departure point within its safe endurance. The wind gives different ground speeds out and home (including the effect of the crosswind component on the ground speed), and the distance is endurance divided by (1/GS out + 1/GS home).
+
+        **Solution**
+
+        Ground speed out = {{macro1}} kt
+
+        Ground speed home = {{macro2}} kt
+
+        PSR distance = endurance * GS out * GS home / (GS out + GS home) = {{endurance}} * {{macro1}} * {{macro2}} / ({{macro1}} + {{macro2}}) = **{{answer}} NM**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: ignores the wind and uses the TAS for both legs.
+        - **{{d2}} NM**: uses only the ground speed out, as if the return were flown at the same speed.
+        - **{{d3}} NM**: uses only the ground speed home, as if the outbound leg were flown at the same speed.
+        - **{{d4}} NM**: takes half of the total distance, which does not consider endurance or wind.
+      presets:
+        - variables:
+            dist: 4630
+            endurance: 12.4
+            track: 240
+            wdir: 60
+            wspeed: 80
+            tas: 420
+            macro1: 500
+            macro2: 340
+            answer: 2510
+            d1: 2604
+            d2: 3100
+            d3: 2108
+            d4: 2315
+          correctAnswers:
+            - text: 2510 NM
+          wrongAnswers:
+            - text: 2604 NM
+            - text: 2108 NM
+            - text: 2315 NM
+            - text: 3100 NM
+        - variables:
+            dist: 210
+            endurance: 2.5
+            track: 35
+            wdir: 250
+            wspeed: 20
+            tas: 105
+            macro1: 121
+            macro2: 88
+            answer: 127
+            d1: 131
+            d2: 151
+            d3: 110
+            d4: 105
+          correctAnswers:
+            - text: 127 NM
+          wrongAnswers:
+            - text: 131 NM
+            - text: 110 NM
+            - text: 105 NM
+            - text: 151 NM
+        - variables:
+            dist: 150
+            endurance: 2.4
+            track: 250
+            wdir: 280
+            wspeed: 15
+            tas: 120
+            macro1: 107
+            macro2: 133
+            answer: 142
+            d1: 144
+            d2: 128
+            d3: 159
+            d4: 75
+          correctAnswers:
+            - text: 142 NM
+          wrongAnswers:
+            - text: 144 NM
+            - text: 159 NM
+            - text: 75 NM
+            - text: 128 NM
+    - type: simple
+      question: |-
+        Given:
+
+        Distance from departure to destination: 330 NM 
+         
+        Safe Endurance: 5 h 
+         
+        True Track: 170 
+         
+        W/V: 140/25 
+         
+        TAS: 125 kt
+
+        What is the distance of the PSR from the departure point?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 303 NM
+          wrongAnswers:
+            - text: 150 NM
+            - text: 194 NM
+            - text: 30 NM
+    - type: simple
+      question: |-
+        Given:
+
+        Distance from departure to destination: 210 NM 
+         
+        Safe Endurance: 3.5 h True 
+         
+        Track: 310° 
+         
+        W/V: 270/30 
+         
+        TAS: 120 kt
+
+        What is the distance of the PSR from the departure point?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 200 NM
+          wrongAnswers:
+            - text: 125 NM
+            - text: 100 NM
+            - text: 10 NM
+    - type: simple
+      question: |-
+        Given:
+
+        Distance from departure to destination: 480 NM 
+         
+        Safe Endurance: 5 h 
+         
+        True Track: 315 
+         
+        W/V: 100/20 
+         
+        TAS: 115 kt
+
+        What is the distance of the PSR from the departure point?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 280 NM
+          wrongAnswers:
+            - text: 205 NM
+            - text: 199 NM
+            - text: 141 NM
+    - type: simple
+      question: |-
+        Given:
+
+        Distance from departure to destination: 550 NM 
+         
+        Safe Endurance: 3.6 h 
+         
+        True Track: 200 
+         
+        W/V: 220/15 
+         
+        TAS: 130 kt
+
+        What is the distance of the PSR from the departure point?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 231 NM
+          wrongAnswers:
+            - text: 319 NM
+            - text: 305 NM
+            - text: 116 NM
+    - type: simple
+      question: "Given: Distance from departure to destination: 190 NM Safe Endurance: 2,4 h True Track: 120 W/V: 030/40 TAS: 130 kt What is the distance of the PSR from the departure point?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 148 NM
+          wrongAnswers:
+            - text: 95 NM
+            - text: 73 NM
+            - text: 44 NM
+- id: QXEKL
+  subjectId: "033"
+  chapterId: "033.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331594
+    - AVEXAM-76789
+    - BGS-330436
+    - BGS-330437
+    - BGS-330427
+    - AVEXAM-66958
+    - AVEXAM-30254
+    - AVEXAM-84260
+    - BGS-330438
+    - AVEXAM-21992
+    - AVEXAM-90113
+    - BGS-330426
+    - BGS-330428
+    - ATPLQ-338837
+    - BGS-330701
+    - AVEXAM-37375
+  annexes: []
+  learningObjectiveIds:
+    - 033.04.03.02.02
+  templates:
+    - type: simple
+      question: |-
+        Given:
+
+        - Distance from departure to destination: {{dist}} NM
+        - Safe endurance: {{endurance}} h
+        - Ground speed out: {{gsout}} kt
+        - Ground speed home: {{gsback}} kt
+
+        What is the distance of the PSR from the departure point?
+      explanation: |-
+        The Point of Safe Return (PSR) is the farthest point from which the aircraft can still return to the departure point within its safe endurance. The outbound and return legs together must use the whole endurance, so the distance is endurance divided by (1/GS out + 1/GS home).
+
+        **Solution**
+
+        $$
+        \frac{\text{Safe endurance}\times \text{Ground speed out}\times \text{Ground speed home}}{\text{Ground speed out}+\text{Ground speed home}} = \frac{ {{endurance}}\times {{gsout}}\times {{gsback}} }{ {{gsout}}+{{gsback}} } = \mathbf{ {{answer}}\ \text{NM} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: halves the correct distance by treating the endurance as if it had to be split in two equal parts.
+        - **{{d2}} NM**: applies the PET formula to the total distance instead of using the endurance.
+        - **{{d3}} NM**: flies half of the endurance at the ground speed out only, ignoring the return leg.
+        - **{{d4}} NM**: uses the sum of the ground speeds instead of their harmonic combination.
+      presets:
+        - variables:
+            dist: 5000
+            endurance: 10
+            gsout: 500
+            gsback: 400
+            answer: 2222
+            d1: 1111
+            d2: 2778
+            d3: 2500
+            d4: 4500
+          correctAnswers:
+            - text: 2222 NM
+          wrongAnswers:
+            - text: 1111 NM
+            - text: 2500 NM
+            - text: 4500 NM
+            - text: 2778 NM
+        - variables:
+            dist: 2000
+            endurance: 5
+            gsout: 480
+            gsback: 520
+            answer: 1248
+            d1: 624
+            d2: 960
+            d3: 1200
+            d4: 2500
+          correctAnswers:
+            - text: 1248 NM
+          wrongAnswers:
+            - text: 624 NM
+            - text: 1200 NM
+            - text: 2500 NM
+            - text: 960 NM
+        - variables:
+            dist: 900
+            endurance: 3
+            gsout: 150
+            gsback: 130
+            answer: 209
+            d1: 104
+            d2: 482
+            d3: 225
+            d4: 420
+          correctAnswers:
+            - text: 209 NM
+          wrongAnswers:
+            - text: 104 NM
+            - text: 225 NM
+            - text: 420 NM
+            - text: 482 NM
+    - type: simple
+      question: "Given: Distance 'A' to 'B' 2484 NM Mean Ground Speed 'out' 420 kt Mean Ground Speed 'back' 500 kt Safe endurance 08 HR 30 MIN The distance from 'A' to the Point of Safe Return (PSR) is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1940 NM
+          wrongAnswers:
+            - text: 1630 NM
+            - text: 1908 NM
+            - text: 1736 NM
+        - correctAnswers:
+            - text: 1 940 NM
+          wrongAnswers:
+            - text: 1 630 NM
+            - text: 1 736 NM
+            - text: 1 908 NM

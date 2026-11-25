@@ -1,0 +1,1365 @@
+- id: QFXFB
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-907859
+    - BGS-900364
+    - AVEXAM-83899
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.01.01
+  templates:
+    - type: simple
+      question: 'A controller passes the following message: "G-ABCD, contact GROUND 118.050". The pilot shall contact the unit that handles:'
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Movements on the manoeuvring area, including vehicles.
+          wrongAnswers:
+            - text: Aerodrome traffic, including the circuit.
+            - text: Meteorological reports and operational information.
+            - text: Surface movements, including aircraft rolling on the RWY.
+- id: QIJLA
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-909212
+    - AVEXAM-88279
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.01.01
+  templates:
+    - type: simple
+      question: A pilot is on a VFR navigation flight to FREETOWN. The COM and NAV frequencies are noted on a paper, but the pilot loses the notes. During approach to FREETOWN and with the frequencies found on the map, which frequency should the pilot use?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The frequency labeled as FREETOWN APP.
+          wrongAnswers:
+            - text: The frequency designated as GRND.
+            - text: The frequency designated as TWR.
+            - text: The frequency labeled as D-ATIS.
+- id: QMHOB
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - AVEXAM-89496
+    - AVEXAM-41639
+    - BGS-900112
+    - ATPLQ-906059
+    - BGS-900197
+    - ATPLQ-909863
+    - ATPLQ-926790
+    - BGS-920226
+    - AVEXAM-31052
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.01.02
+  templates:
+    - type: definition
+      question: What does “{term}” mean?
+      explanation: |-
+        ### ICAO Annex 10, Volume II, 1.3 Communication methods
+
+        > **Air-ground communication.** Two-way communication between aircraft and stations or locations on the surface of the earth.
+        >
+        > **Air-to-ground communication.** One-way communication from aircraft to stations or locations on the surface of the earth.
+        >
+        > **Ground-to-air communication.** One-way communication from stations or locations on the surface of the earth to aircraft.
+
+        There is a tricky distinction between **Air-ground** (both ways) and Air **to** Ground (one way).
+
+        | Term                        | Direction                   | 
+        | --------------------------- | --------------------------- |
+        | Air-ground communication    | Two-way                     |
+        | Air-to-ground communication | One-way, aircraft to ground |
+        | Ground-to-air communication | One-way, ground to aircraft |
+      options:
+        - id: DIRECTION1
+          term: air–ground communication
+          definition: Two-way communication between aircraft and stations or locations on the Earth’s surface.
+        - id: DIRECTION2
+          term: air-to-ground communication
+          definition: One-way communication sent from aircraft to stations or locations on the Earth’s surface.
+        - id: DIRECTION3
+          term: ground-to-air communication
+          definition: One-way communication sent from stations or locations on the Earth’s surface to aircraft.
+      fakeOptions:
+        - id: DIRECTION4
+          definition: Two-way communication between aircraft in flight.
+    - type: simple
+      question: |-
+        Which term describes the following?
+
+        {{definition}}
+      explanation: |-
+        ### ICAO Annex 10, Volume II, 1.3 Communication methods
+
+        > **Air-ground communication.** Two-way communication between aircraft and stations or locations on the surface of the earth.
+        >
+        > **Air-to-ground communication.** One-way communication from aircraft to stations or locations on the surface of the earth.
+        >
+        > **Ground-to-air communication.** One-way communication from stations or locations on the surface of the earth to aircraft.
+
+        There is a tricky distinction between **Air-ground** (both ways) and Air **to** Ground (one way).
+
+        | Term                        | Direction                   | 
+        | --------------------------- | --------------------------- |
+        | Air-ground communication    | Two-way                     |
+        | Air-to-ground communication | One-way, aircraft to ground |
+        | Ground-to-air communication | One-way, ground to aircraft |
+      presets:
+        - variables:
+            definition: Two-way communication between aircraft and stations or locations on the Earth’s surface.
+          correctAnswers:
+            - text: air–ground communication
+          wrongAnswers:
+            - text: air-to-ground communication
+            - text: ground-to-air communication
+            - text: air-to-air communication
+        - variables:
+            definition: One-way communication sent from aircraft to stations or locations on the Earth’s surface.
+          correctAnswers:
+            - text: air-to-ground communication
+          wrongAnswers:
+            - text: air–ground communication
+            - text: ground-to-air communication
+            - text: air-to-air communication
+        - variables:
+            definition: One-way communication sent from stations or locations on the Earth’s surface to aircraft.
+          correctAnswers:
+            - text: ground-to-air communication
+          wrongAnswers:
+            - text: air–ground communication
+            - text: air-to-ground communication
+            - text: air-to-air communication
+- id: QGICW
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-913394
+    - AVEXAM-4444
+    - BGS-900666
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.01.02
+  templates:
+    - type: multiple-correct
+      question: Which of the items listed below are characteristics of interpilot air-to-air communication?
+      explanation: ""
+      options:
+        - text: It is a two-way communication.
+          correct: true
+        - text: It has a specific designated channel.
+          correct: true
+        - text: It is used over remote areas.
+          correct: true
+        - text: It can be used on any VHF frequency.
+          correct: false
+        - text: It is used where circumstances prevent the establishment of two-way communication.
+          correct: false
+        - text: It is used to exchange operational information.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+- id: QCSRM
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-929331
+    - BGS-920224
+    - AVEXAM-84286
+    - ATPLQ-914178
+    - BGS-910385
+    - BGS-910202
+    - AVEXAM-83377
+    - BGS-910330
+    - ATPLQ-907515
+    - ATPLQ-915935
+    - AVEXAM-10381
+    - AVEXAM-78795
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.01.02
+  templates:
+    - type: definition
+      question: What does “{term}” mean?
+      explanation: |-
+        ### ICAO Annex 10, Volume II, Chapter 1
+
+        > **Broadcast.** A transmission of information relating to air navigation that is not addressed to a specific station or stations.
+        >
+        > **Simplex.** A method in which telecommunication between two stations takes place in one direction at a time.
+        >
+        > **Duplex.** A method in which telecommunication between two stations can take place in both directions simultaneously.
+      options:
+        - id: OBROADCAST
+          term: broadcast
+          definition: A transmission of information relating to air navigation that is not addressed to a specific station or stations.
+        - id: OSIMPLEX
+          term: simplex communication
+          definition: Communication between two stations which takes place in one direction at a time.
+        - id: ODUPLEX
+          term: duplex communication
+          definition: Communication between two stations that can take place in both directions simultaneously.
+      fakeOptions:
+        - id: FCOMM0
+          definition: Two-way communication between aircraft and stations or locations on the surface of the earth.
+        - id: FCOMM1
+          definition: One-way communication from aircraft to stations or locations on the surface of the earth.
+        - id: FCOMM2
+          definition: A transmission containing meteorological and operational information to aircraft engaged in flights over remote and oceanic areas out of range of VHF ground stations.
+    - type: simple
+      question: What does the term "broadcast" mean?
+      explanation: |-
+        ### ICAO Annex 10, Volume II, Chapter 1
+
+        > **Broadcast.** A transmission of information relating to air navigation that is not addressed to a specific station or stations.
+        >
+        > **Simplex.** A method in which telecommunication between two stations takes place in one direction at a time.
+        >
+        > **Duplex.** A method in which telecommunication between two stations can take place in both directions simultaneously.
+      presets:
+        - correctAnswers:
+            - text: A transmission of information relating to air navigation that is not addressed to a specific station or stations.
+          wrongAnswers:
+            - text: Two-way communication between aircraft and stations or locations on the surface of the earth.
+            - text: One-way communication from aircraft to stations or locations on the surface of the earth.
+            - text: A transmission containing meteorological and operational information to aircraft engaged in flights over remote and oceanic areas out of range of VHF ground stations.
+    - type: simple
+      question: What does the term "simplex communication" mean?
+      explanation: |-
+        ### ICAO Annex 10, Volume II, Chapter 1
+
+        > **Broadcast.** A transmission of information relating to air navigation that is not addressed to a specific station or stations.
+        >
+        > **Simplex.** A method in which telecommunication between two stations takes place in one direction at a time.
+        >
+        > **Duplex.** A method in which telecommunication between two stations can take place in both directions simultaneously.
+      presets:
+        - correctAnswers:
+            - text: Communication between two stations which takes place in one direction at a time.
+          wrongAnswers:
+            - text: One-way communication from aircraft to stations or locations on the surface of the Earth.
+            - text: Any transmission, emission, or reception of signs, signals, writing, images, and sounds.
+            - text: Communication between two stations that can take place in both directions simultaneously.
+    - type: simple
+      question: What does the term "duplex communication" mean?
+      explanation: |-
+        ### ICAO Annex 10, Volume II, Chapter 1
+
+        > **Broadcast.** A transmission of information relating to air navigation that is not addressed to a specific station or stations.
+        >
+        > **Simplex.** A method in which telecommunication between two stations takes place in one direction at a time.
+        >
+        > **Duplex.** A method in which telecommunication between two stations can take place in both directions simultaneously.
+      presets:
+        - correctAnswers:
+            - text: Communication between two stations that can take place in both directions simultaneously.
+          wrongAnswers:
+            - text: Communication relating to air navigation that is for all aircraft and stations within range.
+            - text: One-way communication from aircraft to stations or locations on the surface of the Earth.
+            - text: One-way communication from stations or locations on the surface of the Earth to aircraft.
+    - type: simple
+      question: What is the type of communication system which allows simultaneous two-way communication to take place?
+      explanation: |-
+        ### ICAO Annex 10, Volume II, Chapter 1
+
+        > **Broadcast.** A transmission of information relating to air navigation that is not addressed to a specific station or stations.
+        >
+        > **Simplex.** A method in which telecommunication between two stations takes place in one direction at a time.
+        >
+        > **Duplex.** A method in which telecommunication between two stations can take place in both directions simultaneously.
+      presets:
+        - correctAnswers:
+            - text: Duplex
+          wrongAnswers:
+            - text: Simplex
+            - text: Duplex Single Channel
+            - text: Simplex Double Channel
+- id: QGCGD
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-926584
+    - AVEXAM-67196
+    - BGS-900158
+    - BGS-920314
+    - AVEXAM-24938
+    - BGS-920142
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.01.03
+  templates:
+    - type: simple
+      question: "Complete the definition of an instrument approach procedure: Instrument approach procedure means a series of predetermined manoeuvres by reference to flight instruments with specified protection from obstacles from the initial approach fix, or where applicable, from the.."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: beginning of a defined arrival route to a point from which a landing can be completed and thereafter, if a landing is not completed, to a position at which holding or en-route obstacle clearance criteria apply.
+          wrongAnswers:
+            - text: beginning of a defined arrival route to a point from which a landing can be completed.
+            - text: end of a defined departure route to a point from which a landing can be completed.
+            - text: end of a defined departure route to a point from which a landing can be completed and thereafter, if a landing is not completed, to a position at which holding or en-route obstacle clearance criteria apply.
+- id: QMURM
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-926259
+    - AVEXAM-22313
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.01.03
+  templates:
+    - type: simple
+      question: After requesting detailed hold instructions, what information should the pilot expect to receive?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Name of fix, level (optional), inbound track (optional), direction of turn (optional), time of leg (optional), expected approach clearance time.
+          wrongAnswers:
+            - text: Name of navaid and radial, distance of leg (optional), altitude (optional), direction of turn (optional), expected landing time.
+            - text: Name of fix, inbound heading (optional), direction of turn (optional), altitude of hold, time of leg (optional), estimated time of arrival, additional instructions.
+            - text: Name of fix, level (optional), outbound heading, direction of turn (optional), expected approach clearance time (optional).
+- id: QPPMV
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-927575
+    - AVEXAM-62036
+    - BGS-900237
+    - AVEXAM-91549
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.01.03
+  templates:
+    - type: simple
+      question: An aircraft is on the approach to land. At what point during the approach would the pilot report FINAL?
+      explanation: |-
+        ### ICAO Doc 4444, 12.3.4.15 Approach instructions
+
+        > Note.— The report "LONG FINAL" is made when aircraft turn on to final approach at a distance greater than 7 km (4 NM) from touchdown or when an aircraft on a straight-in approach is 15 km (8 NM) from touchdown. In both cases a report "FINAL" is required at **7 km (4 NM) from touchdown**.
+
+        The "FINAL" report is tied to distance, not to visual contact with the aerodrome or to being established on the centreline. A pilot turning onto final further out than 4 NM, or 8 NM on a straight-in approach, reports "LONG FINAL" first and then "FINAL" at 4 NM from touchdown.
+      presets:
+        - correctAnswers:
+            - text: At a distance of 4 NM or less from the landing runway.
+          wrongAnswers:
+            - text: As soon as visual contact with the aerodrome is established.
+            - text: At a distance of 5 NM or greater from touchdown.
+            - text: When established on the extended centreline of the runway.
+    - type: simple
+      question: A "FINAL" call is made when the aircraft turns on to final approach within ___ from the landing threshold.
+      explanation: |-
+        ### ICAO Doc 4444, 12.3.4.15 Approach instructions
+
+        > Note.— The report "LONG FINAL" is made when aircraft turn on to final approach at a distance greater than 7 km (4 NM) from touchdown or when an aircraft on a straight-in approach is 15 km (8 NM) from touchdown. In both cases a report "FINAL" is required at **7 km (4 NM) from touchdown**.
+
+        The "FINAL" report is tied to distance, not to visual contact with the aerodrome or to being established on the centreline. A pilot turning onto final further out than 4 NM, or 8 NM on a straight-in approach, reports "LONG FINAL" first and then "FINAL" at 4 NM from touchdown.
+      presets:
+        - correctAnswers:
+            - text: 4 NM
+          wrongAnswers:
+            - text: between 4 NM and 8 NM
+            - text: 8 km
+            - text: 8 NM
+    - type: simple
+      question: When does a pilot report "LONG FINAL"?
+      explanation: |-
+        ### ICAO Doc 4444, 12.3.4.15 Approach instructions
+
+        > Note.— The report "LONG FINAL" is made when aircraft turn on to final approach at a distance **greater than 7 km (4 NM) from touchdown** or when an aircraft on a **straight-in approach is 15 km (8 NM) from touchdown**. In both cases a report "FINAL" is required at 7 km (4 NM) from touchdown.
+
+        "LONG FINAL" is reported further out than "FINAL". Both reports are tied to distance from touchdown, not to visual contact with the aerodrome or to being established on the centreline. At 4 NM or less from touchdown the report is "FINAL".
+      presets:
+        - correctAnswers:
+            - text: When turning on to final approach at more than 4 NM from touchdown, or when 8 NM from touchdown on a straight-in approach.
+          wrongAnswers:
+            - text: When turning on to final approach at 4 NM or less from touchdown.
+            - text: As soon as visual contact with the aerodrome is established.
+            - text: When established on the extended centreline of the runway.
+- id: QRDNB
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-927261
+    - BGS-920004
+    - AVEXAM-22434
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.01.03
+  templates:
+    - type: simple
+      question: What does the term "clearance limit" mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The point to which an aircraft is granted an air traffic control clearance.
+          wrongAnswers:
+            - text: The time of expiry of an air traffic control clearance.
+            - text: The time at which an aircraft is given an air traffic control clearance.
+            - text: The time after which an air traffic control clearance will be automatically cancelled, if the flight has not been commenced.
+- id: QYAGX
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-904168
+    - AVEXAM-32451
+    - ATPLQ-928546
+    - BGS-920002
+    - AVEXAM-29434
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.01.03
+  templates:
+    - type: simple
+      question: At 15:20 an aircraft is required to hold before making an approach and the Expected Approach Time is in 30 min. How would APPROACH CONTROL inform this?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Expected approach time five zero.
+          wrongAnswers:
+            - text: Delay time five zero.
+            - text: Delay 30 minutes.
+            - text: Expected approach in 30 min.
+    - type: simple
+      question: What does the term "Expected Approach Time" mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The time at which ATC expects that an arriving aircraft, following a delay, will leave the holding point to complete its approach for a landing.
+          wrongAnswers:
+            - text: The time at which an arriving aircraft expects to arrive over the appropriate designated navigation aid serving the destination aerodrome.
+            - text: The holding time over the radio facility from which the instrument approach procedure for a landing will be initiated.
+            - text: The time at which an arriving aircraft, upon reaching the radio aid serving the destination aerodrome, will commence the instrument approach procedure for a landing.
+- id: QYWQW
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds:
+    - QDZPW
+  externalQuestionIds:
+    - ATPLQ-905865
+    - BGS-900111
+    - AVEXAM-67240
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.02.01
+  templates:
+    - type: definition
+      question: What does {term} mean?
+      explanation: MSAW stands for minimum safe altitude warning.
+      options:
+        - id: OMSAW
+          term: MSAW
+          definition: Minimum safe altitude warning
+      fakeOptions:
+        - id: FMSAW0
+          definition: Minimum sector altitude warning
+        - id: FMSAW1
+          definition: Minimum safety altitude warning
+        - id: FMSAW2
+          definition: Minimum surface altitude warning
+- id: QDZPW
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds:
+    - QYWQW
+  externalQuestionIds:
+    - ATPLQ-906139
+    - AVEXAM-85915
+    - BGS-920239
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.02.01
+  templates:
+    - type: definition
+      question: What does {term} stand for?
+      explanation: MSA stands for minimum sector altitude.
+      options:
+        - id: OMSA
+          term: MSA
+          definition: Minimum Sector Altitude.
+      fakeOptions:
+        - id: FMSA0
+          definition: Minimum Surface Altitude.
+        - id: FMSA1
+          definition: Minimum Safe Altitude.
+        - id: FMSA2
+          definition: Minimum Sector Area.
+- id: QDHKX
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-905112
+    - AVEXAM-83007
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.02.01
+  templates:
+    - type: simple
+      question: In the abbreviation 'ADS-C', what does 'C' stand for?
+      explanation: "ADS-C is automatic dependent surveillance — contract: the ground system and the aircraft agree, via a data link, the terms under which the aircraft reports. ADS-B is automatic dependent surveillance — broadcast: the aircraft automatically broadcasts its identification, position and other data to any receiver, with no contract."
+      presets:
+        - correctAnswers:
+            - text: Contract.
+          wrongAnswers:
+            - text: Center.
+            - text: Communication.
+            - text: Call.
+    - type: simple
+      question: In the abbreviation 'ADS-B', what does 'B' stand for?
+      explanation: "ADS-C is automatic dependent surveillance — contract: the ground system and the aircraft agree, via a data link, the terms under which the aircraft reports. ADS-B is automatic dependent surveillance — broadcast: the aircraft automatically broadcasts its identification, position and other data to any receiver, with no contract."
+      presets:
+        - correctAnswers:
+            - text: Broadcast.
+          wrongAnswers:
+            - text: Beacon.
+            - text: Bearing.
+            - text: Band.
+- id: QDTBJ
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-903681
+    - AVEXAM-7205
+    - BGS-900128
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.02.01
+  templates:
+    - type: simple
+      question: What does the abbreviation PBN mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Performance Based Navigation
+          wrongAnswers:
+            - text: Probe based navigation
+            - text: Precision based navigation
+            - text: People based navigation
+- id: QGEGA
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-908545
+    - AVEXAM-95915
+    - BGS-920154
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.02.01
+  templates:
+    - type: simple
+      question: What does the abbreviation LPV stand for?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Localiser performance with vertical guidance.
+          wrongAnswers:
+            - text: Localiser parallel and vertical visibility.
+            - text: Limited parallel and vertical visibility.
+            - text: Localiser procedure with vertical guidance.
+- id: QKJUE
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-918309
+    - ATPLQ-915249
+    - BGS-910205
+    - BGS-910216
+    - AVEXAM-89246
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.02.01
+  templates:
+    - type: simple
+      question: Which abbreviation is used for "Co-ordinated universal time"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: UTC
+          wrongAnswers:
+            - text: GMT
+            - text: COUT
+            - text: CUT
+    - type: simple
+      question: When transmitting time, which time system shall be used?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Co-ordinated universal time (UTC).
+          wrongAnswers:
+            - text: Local time (LT), 24-hour clock.
+            - text: Local time (LT) A.M. and P.M.
+            - text: No specific system, as only the minutes are normally required.
+- id: QNGVQ
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-916553
+    - BGS-910005
+    - AVEXAM-55446
+    - AVEXAM-48144
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.02.01
+  templates:
+    - type: simple
+      question: What does the abbreviation "FIR" mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Flight information region
+          wrongAnswers:
+            - text: Flight information radar
+            - text: Flight information required
+            - text: Flow information received
+    - type: simple
+      question: "The abbreviation 'FIR' can be defined as:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A portion of airspace where flight information and alerting service is provided.
+          wrongAnswers:
+            - text: A region containing only an uncontrolled airspace.
+            - text: A region containing only a controlled airspace.
+            - text: Airspace outside published airways.
+- id: QNUTG
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-902333
+    - BGS-900123
+    - AVEXAM-11585
+    - ATPLQ-909061
+    - AVEXAM-42621
+    - BGS-910007
+    - BGS-910006
+    - ATPLQ-921902
+    - AVEXAM-93291
+    - ATPLQ-914796
+    - AVEXAM-20843
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.02.01
+  templates:
+    - type: definition
+      question: What does {term} indicate about the operating hours of a facility or service?
+      explanation: ""
+      options:
+        - id: OF1DH5INU
+          term: HS
+          definition: Service available during hours of scheduled operations.
+        - id: O6NSCC8HS
+          term: HX
+          definition: No specific working hours.
+        - id: O4OANAXDO
+          term: H24
+          definition: Continuous day and night service.
+        - id: OYECOHAU1
+          term: HJ
+          definition: The service operates from sunrise to sunset.
+      fakeOptions: []
+- id: QPJXR
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-924346
+    - AVEXAM-73855
+    - BGS-920230
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.02.01
+  templates:
+    - type: simple
+      question: What does the abbreviation "MLS" mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Microwave landing system
+          wrongAnswers:
+            - text: Minimum sector level
+            - text: Mean sea level
+            - text: Minimum safe level
+- id: QRSIP
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-901047
+    - BGS-900143
+    - AVEXAM-53490
+    - ATPLQ-907751
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.02.01
+  templates:
+    - type: simple
+      question: "The abbreviation “TA” is used for:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Traffic Advisory and Transition Altitude
+          wrongAnswers:
+            - text: Traffic Altitude and Terminal Altitude
+            - text: Traffic Advisory and Terminal Altitude
+            - text: Traffic Advisory and Traffic Altitude
+- id: QSSQQ
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-929616
+    - BGS-920015
+    - AVEXAM-52213
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.02.01
+  templates:
+    - type: simple
+      question: What does the abbreviation "RNAV" mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Area navigation
+          wrongAnswers:
+            - text: Route navigation
+            - text: Radio navigation
+            - text: Radar aided navigation
+- id: QWSFW
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-924503
+    - AVEXAM-92875
+    - ATPLQ-912255
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.02.01
+  templates:
+    - type: simple
+      question: What does the abbreviation "AIS" mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Aeronautical information service.
+          wrongAnswers:
+            - text: Aerodrome information service.
+            - text: Airport information system.
+            - text: Aerodrome identification signal-area.
+- id: QAACV
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-915150
+    - BGS-920229
+    - AVEXAM-80698
+    - ATPLQ-901898
+    - ATPLQ-916662
+    - AVEXAM-61083
+    - ATPLQ-902370
+    - ATPLQ-907267
+    - ATPLQ-916907
+    - BGS-910390
+    - AVEXAM-7203
+    - ATPLQ-901658
+    - AVEXAM-25693
+    - ATPLQ-915268
+    - AVEXAM-79330
+    - AVEXAM-29141
+    - AVEXAM-33398
+    - BGS-910012
+    - BGS-910013
+    - BGS-910011
+    - ATPLQ-916052
+    - ATPLQ-911863
+    - AVEXAM-49276
+    - BGS-910014
+    - ATPLQ-928801
+    - ATPLQ-915376
+    - AVEXAM-7838
+    - BGS-910206
+    - AVEXAM-21501
+    - ATPLQ-917024
+    - BGS-910010
+    - AVEXAM-90830
+    - ATPLQ-917809
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.03.01
+    - 090.01.01.03.02
+  templates:
+    - type: definition
+      question: What does {term} mean?
+      explanation: |-
+        QDM, QDR, QTE and QUJ are the Q-code groups used for directions and bearings. A pilot asks a station with direction-finding facilities for one by saying "request" followed by the code, for example "request QDM".
+
+        - QDM and QDR are magnetic, QTE and QUJ are true.
+        - QDM and QUJ are to the station, QDR and QTE are from the station.
+
+        {table}
+      options:
+        - id: OQQDR
+          term: QDR
+          definition: Magnetic bearing from the station.
+        - id: OQQDM
+          term: QDM
+          definition: Magnetic heading to the station (no wind).
+        - id: OQQTE
+          term: QTE
+          definition: True bearing from the station.
+        - id: OQQUJ
+          term: QUJ
+          definition: True heading to the station (no wind).
+      fakeOptions: []
+    - type: simple
+      question: What is the Q-code for "{{meaning}}"?
+      explanation: |-
+        QDM, QDR, QTE and QUJ are the Q-code groups used for directions and bearings. A pilot asks a station with direction-finding facilities for one by saying "request" followed by the code, for example "request QDM".
+
+        - QDM and QDR are magnetic, QTE and QUJ are true.
+        - QDM and QUJ are to the station, QDR and QTE are from the station.
+
+        | Q-code | Meaning                                    |
+        | ------ | ------------------------------------------ |
+        | QDR    | Magnetic bearing from the station.         |
+        | QDM    | Magnetic heading to the station (no wind). |
+        | QTE    | True bearing from the station.             |
+        | QUJ    | True heading to the station (no wind).     |
+      presets:
+        - variables:
+            meaning: magnetic heading to the station (no wind)
+          correctAnswers:
+            - text: QDM
+          wrongAnswers:
+            - text: QDR
+            - text: QTE
+            - text: QUJ
+        - variables:
+            meaning: true bearing from the station
+          correctAnswers:
+            - text: QTE
+          wrongAnswers:
+            - text: QDR
+            - text: QDM
+            - text: QUJ
+        - variables:
+            meaning: magnetic bearing from the station
+          correctAnswers:
+            - text: QDR
+          wrongAnswers:
+            - text: QDM
+            - text: QTE
+            - text: QUJ
+        - variables:
+            meaning: true heading to the station (no wind)
+          correctAnswers:
+            - text: QUJ
+          wrongAnswers:
+            - text: QDR
+            - text: QDM
+            - text: QTE
+    - type: simple
+      question: How do you request {{what}}?
+      explanation: |-
+        QDM, QDR, QTE and QUJ are the Q-code groups used for directions and bearings. A pilot asks a station with direction-finding facilities for one by saying "request" followed by the code, for example "request QDM".
+
+        - QDM and QDR are magnetic, QTE and QUJ are true.
+        - QDM and QUJ are to the station, QDR and QTE are from the station.
+
+        | Q-code | Meaning                                    |
+        | ------ | ------------------------------------------ |
+        | QDR    | Magnetic bearing from the station.         |
+        | QDM    | Magnetic heading to the station (no wind). |
+        | QTE    | True bearing from the station.             |
+        | QUJ    | True heading to the station (no wind).     |
+      presets:
+        - variables:
+            what: the magnetic bearing from a station
+          correctAnswers:
+            - text: Request QDR
+          wrongAnswers:
+            - text: Request QDM
+            - text: Request QTE
+            - text: Request QUJ
+        - variables:
+            what: the magnetic bearing to a station
+          correctAnswers:
+            - text: Request QDM
+          wrongAnswers:
+            - text: Request QDR
+            - text: Request QTE
+            - text: Request QUJ
+        - variables:
+            what: the true bearing from a station
+          correctAnswers:
+            - text: Request QTE
+          wrongAnswers:
+            - text: Request QDR
+            - text: Request QDM
+            - text: Request QUJ
+        - variables:
+            what: the true bearing to a station
+          correctAnswers:
+            - text: Request QUJ
+          wrongAnswers:
+            - text: Request QDR
+            - text: Request QDM
+            - text: Request QTE
+    - type: simple
+      question: As the pilot of G-ACME, you need to know your {{bearing}} the aerodrome at Karlsgrab. What message should you transmit to the aerodrome ATS unit?
+      explanation: |-
+        QDM, QDR, QTE and QUJ are the Q-code groups used for directions and bearings. A pilot asks a station with direction-finding facilities for one by saying "request" followed by the code, for example "request QDM".
+
+        - QDM and QDR are magnetic, QTE and QUJ are true.
+        - QDM and QUJ are to the station, QDR and QTE are from the station.
+
+        | Q-code | Meaning                                    |
+        | ------ | ------------------------------------------ |
+        | QDR    | Magnetic bearing from the station.         |
+        | QDM    | Magnetic heading to the station (no wind). |
+        | QTE    | True bearing from the station.             |
+        | QUJ    | True heading to the station (no wind).     |
+      presets:
+        - variables:
+            bearing: magnetic bearing from
+          correctAnswers:
+            - text: Karlsgrab Homer, Golf Alfa Charlie Mike Echo request QDR.
+          wrongAnswers:
+            - text: Karlsgrab Homer, Golf Alfa Charlie Mike Echo request QDM.
+            - text: Karlsgrab Homer, Golf Alfa Charlie Mike Echo request QTE.
+            - text: Karlsgrab Homer, Golf Alfa Charlie Mike Echo request QUJ.
+        - variables:
+            bearing: true bearing from
+          correctAnswers:
+            - text: Karlsgrab Homer, Golf Alfa Charlie Mike Echo request QTE.
+          wrongAnswers:
+            - text: Karlsgrab Homer, Golf Alfa Charlie Mike Echo request QDR.
+            - text: Karlsgrab Homer, Golf Alfa Charlie Mike Echo request QDM.
+            - text: Karlsgrab Homer, Golf Alfa Charlie Mike Echo request QUJ.
+        - variables:
+            bearing: magnetic heading to steer to
+          correctAnswers:
+            - text: Karlsgrab Homer, Golf Alfa Charlie Mike Echo request QDM.
+          wrongAnswers:
+            - text: Karlsgrab Homer, Golf Alfa Charlie Mike Echo request QDR.
+            - text: Karlsgrab Homer, Golf Alfa Charlie Mike Echo request QTE.
+            - text: Karlsgrab Homer, Golf Alfa Charlie Mike Echo request QUJ.
+        - variables:
+            bearing: true heading to steer to
+          correctAnswers:
+            - text: Karlsgrab Homer, Golf Alfa Charlie Mike Echo request QUJ.
+          wrongAnswers:
+            - text: Karlsgrab Homer, Golf Alfa Charlie Mike Echo request QDR.
+            - text: Karlsgrab Homer, Golf Alfa Charlie Mike Echo request QDM.
+            - text: Karlsgrab Homer, Golf Alfa Charlie Mike Echo request QTE.
+    - type: simple
+      question: |-
+        You suspect that the FMS may be affected by erroneous inputs from some receivers. To confirm your position you propose to plot {{kind}} two radio stations with VDF facilities.
+
+        What should you request from each station?
+      explanation: |-
+        QDM, QDR, QTE and QUJ are the Q-code groups used for directions and bearings. A pilot asks a station with direction-finding facilities for one by saying "request" followed by the code, for example "request QDM".
+
+        - QDM and QDR are magnetic, QTE and QUJ are true.
+        - QDM and QUJ are to the station, QDR and QTE are from the station.
+
+        | Q-code | Meaning                                    |
+        | ------ | ------------------------------------------ |
+        | QDR    | Magnetic bearing from the station.         |
+        | QDM    | Magnetic heading to the station (no wind). |
+        | QTE    | True bearing from the station.             |
+        | QUJ    | True heading to the station (no wind).     |
+      presets:
+        - variables:
+            kind: true bearings from
+          correctAnswers:
+            - text: QTE
+          wrongAnswers:
+            - text: QDR
+            - text: QDM
+            - text: QUJ
+        - variables:
+            kind: magnetic bearings from
+          correctAnswers:
+            - text: QDR
+          wrongAnswers:
+            - text: QTE
+            - text: QDM
+            - text: QUJ
+        - variables:
+            kind: magnetic headings, with no wind, to
+          correctAnswers:
+            - text: QDM
+          wrongAnswers:
+            - text: QDR
+            - text: QTE
+            - text: QUJ
+        - variables:
+            kind: true headings, with no wind, to
+          correctAnswers:
+            - text: QUJ
+          wrongAnswers:
+            - text: QDR
+            - text: QTE
+            - text: QDM
+- id: QEDCM
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-904996
+    - AVEXAM-55317
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.03.01
+  templates:
+    - type: simple
+      question: A pilot in-flight wants to know their current position in relation to a station. The pilot requests the QTE and the controller responds that it is 190 degrees. What does this indicate?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: True bearing from the station and the pilot does NOT have to apply variation to plot it on a map.
+          wrongAnswers:
+            - text: True bearing from the station and the pilot has to apply variation to plot it on a map.
+            - text: Magnetic bearing to the station (no wind).
+            - text: Magnetic bearing from the station (no wind).
+    - type: simple
+      question: A pilot requests the QTE to determine the position relative to a ground station. The controller responds with a QTE of 190°. What does this value represent?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: True bearing from the station and the pilot does NOT have to apply variation to plot it on a map.
+          wrongAnswers:
+            - text: Magnetic bearing from the station (no wind).
+            - text: True bearing from the station and the pilot has to apply variation to plot it on a map.
+            - text: Magnetic bearing to the station (no wind).
+- id: QQPQB
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds:
+    - QAACV
+  externalQuestionIds:
+    - ATPLQ-903327
+    - AVEXAM-82070
+    - BGS-900393
+    - AVEXAM-88642
+    - ATPLQ-901978
+    - AVEXAM-63331
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.03.01
+    - 090.01.01.03.02
+  templates:
+    - type: simple
+      question: A pilot flying in the vicinity of Bern wishes to obtain the {{bearing}} the airport. What is the appropriate report in order to request it?
+      explanation: |-
+        QDM, QDR, QTE and QUJ are the Q-code groups used for directions and bearings. A pilot asks a station with direction-finding facilities for one by saying "request" followed by the code, for example "request QDM".
+
+        - QDM and QDR are magnetic, QTE and QUJ are true.
+        - QDM and QUJ are to the station, QDR and QTE are from the station.
+
+        | Q-code | Meaning                                    |
+        | ------ | ------------------------------------------ |
+        | QDR    | Magnetic bearing from the station.         |
+        | QDM    | Magnetic heading to the station (no wind). |
+        | QTE    | True bearing from the station.             |
+        | QUJ    | True heading to the station (no wind).     |
+      presets:
+        - variables:
+            bearing: true bearing from
+          correctAnswers:
+            - text: Bern approach, XY-ABC, request QTE.
+          wrongAnswers:
+            - text: Bern approach and QDM.
+            - text: Bern approach, XY-ABC, request true bearing information from the airport.
+            - text: Tower and true bearing, XY-ABC, true bearing XY-ABC.
+        - variables:
+            bearing: magnetic bearing from
+          correctAnswers:
+            - text: Bern approach, XY-ABC, request QDR.
+          wrongAnswers:
+            - text: Bern approach, XY-ABC, request QDM.
+            - text: Bern approach, XY-ABC, request QTE.
+            - text: Bern approach, XY-ABC, request QUJ.
+        - variables:
+            bearing: magnetic heading to steer to
+          correctAnswers:
+            - text: Bern approach, XY-ABC, request QDM.
+          wrongAnswers:
+            - text: Bern approach, XY-ABC, request QDR.
+            - text: Bern approach, XY-ABC, request QTE.
+            - text: Bern approach, XY-ABC, request QUJ.
+        - variables:
+            bearing: true heading to steer to
+          correctAnswers:
+            - text: Bern approach, XY-ABC, request QUJ.
+          wrongAnswers:
+            - text: Bern approach, XY-ABC, request QDR.
+            - text: Bern approach, XY-ABC, request QDM.
+            - text: Bern approach, XY-ABC, request QTE.
+    - type: simple
+      question: The pilot of an aircraft wishes to obtain true bearing from present position to the airport. What is the appropriate phrase to use in order to request it from the ATC?
+      explanation: |-
+        QDM, QDR, QTE and QUJ are the Q-code groups used for directions and bearings. A pilot asks a station with direction-finding facilities for one by saying "request" followed by the code, for example "request QDM".
+
+        - QDM and QDR are magnetic, QTE and QUJ are true.
+        - QDM and QUJ are to the station, QDR and QTE are from the station.
+
+        | Q-code | Meaning                                    |
+        | ------ | ------------------------------------------ |
+        | QDR    | Magnetic bearing from the station.         |
+        | QDM    | Magnetic heading to the station (no wind). |
+        | QTE    | True bearing from the station.             |
+        | QUJ    | True heading to the station (no wind).     |
+      presets:
+        - correctAnswers:
+            - text: Tower, G-ABCD, request true bearing.
+          wrongAnswers:
+            - text: Approach, G-ABCD, request QFE.
+            - text: Approach, G-ABCD, request magnetic track.
+            - text: Tower, G-ABCD, request QNH.
+- id: QLGKX
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-909964
+    - BGS-900403
+    - AVEXAM-18203
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.03.02
+  templates:
+    - type: simple
+      question: A pilot wishes to obtain bearing information during flight. They should...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: call the aeronautical station or the direction-finding control station on the listening frequency.
+          wrongAnswers:
+            - text: request this on 121.5 MHz.
+            - text: check the compass for any relevant indicators and cross-check the Flight Management System (FMS).
+            - text: call company dispatch or operations control on a specific frequency provided in flight documents.
+- id: QYXBL
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-907813
+    - AVEXAM-92876
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.03.02
+  templates:
+    - type: simple
+      question: What is the appropriate frequency to request direction finding instructions?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Current frequency in use
+          wrongAnswers:
+            - text: Company frequency
+            - text: "121.5"
+            - text: A frequency allocated for direction finding
+- id: QKDWR
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-916994
+    - BGS-910209
+    - AVEXAM-14417
+    - AVEXAM-60505
+    - BGS-910026
+    - ATPLQ-915238
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.04.01
+  templates:
+    - type: simple
+      question: What is the order of priority of the following messages in the aeronautical mobile service
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Distress message, urgency message, direction finding message.
+          wrongAnswers:
+            - text: Distress message, flight safety message, urgency message.
+            - text: Meteorological message, direction finding message, flight regularity message.
+            - text: Direction finding message, distress message, urgency message.
+- id: QOJYH
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-904730
+    - BGS-900190
+    - AVEXAM-50878
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.04.01
+  templates:
+    - type: simple
+      question: "An aircraft is in cruise when the pilots hear the following radio transmission: “PAN PAN PAN PAN PAN PAN, Langen Radar, D-JLAA, we have a sick passenger, request vector to Augsburg airport, position 20 NM west of Augsburg FL160, heading 285º.” What category of radio message is this?"
+      explanation: |-
+        ### ICAO Annex 10, Volume II, 5.3.1.2
+
+        > The radiotelephony distress signal MAYDAY and the radiotelephony urgency signal PAN PAN shall be used at the commencement of the first distress and urgency communication respectively.
+
+        PAN PAN is the urgency signal. A sick passenger concerns the safety of a person on board but does not need immediate assistance, so the message is an urgency message. A distress message (MAYDAY) is reserved for grave and imminent danger requiring immediate assistance.
+      presets:
+        - correctAnswers:
+            - text: Urgency message
+          wrongAnswers:
+            - text: Distress message
+            - text: Flight safety message
+            - text: Flight regulatory message
+- id: QPAJT
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-919752
+    - BGS-910207
+    - AVEXAM-2554
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.04.01
+  templates:
+    - type: simple
+      question: The message addressed to an Area Control Centre "request radar vectors to circumnavigate adverse weather" is..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a flight safety message.
+          wrongAnswers:
+            - text: an urgency message.
+            - text: a message relating to direction finding.
+            - text: a meteorological message.
+- id: QQHKB
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds:
+    - QYDET
+  externalQuestionIds:
+    - ATPLQ-906096
+    - AVEXAM-5725
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.04.01
+  templates:
+    - type: simple
+      question: "An aircraft is flying an approach and experiences severe turbulence between FL100 and FL70. The pilot reports this information to ATC as soon as possible. This report shall be classified as a/an: "
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Flight safety message
+          wrongAnswers:
+            - text: "Flight regularity message "
+            - text: Urgency message
+            - text: "Meteorological message "
+- id: QSXPA
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds:
+    - QOUWZ
+    - QTATR
+  externalQuestionIds:
+    - ATPLQ-907100
+    - AVEXAM-8784
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.04.01
+  templates:
+    - type: simple
+      question: |-
+        "PAN PAN, PAN PAN, PAN PAN, Lille, F-GTPO, losing engine power, requesting immediate landing runway 20, right hand base for runway 20".
+
+        What type of message is the above?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Urgency
+          wrongAnswers:
+            - text: Flight safety
+            - text: Flight regularity
+            - text: Distress
+- id: QULTA
+  subjectId: "090"
+  chapterId: "090.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-914953
+    - AVEXAM-67427
+  annexes: []
+  learningObjectiveIds:
+    - 090.01.01.04.01
+    - 090.05.01.02.01
+  templates:
+    - type: simple
+      question: Each category of air-ground radio telecommunication messages is associated with specific message types. Which of the following is a specific example of {{kind}} message?
+      explanation: |-
+        ### ICAO Annex 10, Volume II, 5.3.1.2
+
+        > The radiotelephony distress signal MAYDAY and the radiotelephony urgency signal PAN PAN shall be used at the commencement of the first distress and urgency communication respectively.
+
+        PAN PAN is the urgency signal. A sick passenger concerns the safety of a person on board but does not need immediate assistance, so the message is an urgency message. A distress message (MAYDAY) is reserved for grave and imminent danger requiring immediate assistance.
+      presets:
+        - variables:
+            kind: an urgency
+          correctAnswers:
+            - text: PAN PAN
+          wrongAnswers:
+            - text: EMERGENCY
+            - text: LEVEL OFF
+            - text: MAYDAY
+        - variables:
+            kind: a distress
+          correctAnswers:
+            - text: MAYDAY
+          wrongAnswers:
+            - text: EMERGENCY
+            - text: LEVEL OFF
+            - text: PAN PAN

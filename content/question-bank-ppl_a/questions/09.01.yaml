@@ -1,0 +1,1389 @@
+- id: QGIXV
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.03.03"
+  templates:
+    - type: simple
+      question: What is the difference in local mean time between two meridians {{degrees}}° apart?
+      explanation: The Earth turns through 360° in 24 hours, or 15° per hour. A degree of longitude corresponds to four minutes of local mean time.
+      presets:
+        - variables:
+            degrees: "20"
+          correctAnswers:
+            - text: 1:20 h
+          wrongAnswers:
+            - text: 0:40 h
+            - text: 0:20 h
+            - text: 1:00 h
+        - variables:
+            degrees: "10"
+          correctAnswers:
+            - text: 0:40 h
+          wrongAnswers:
+            - text: 1:00 h
+            - text: 0:30 h
+            - text: 0:04 h
+- id: QOBKZ
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.03.04"
+  templates:
+    - type: simple
+      question: The local time is {{local}} and the time zone is UTC+{{offset}}. What is the time in UTC?
+      explanation: Subtract the time-zone offset from local time to convert to UTC.
+      presets:
+        - variables:
+            local: "1600"
+            offset: "2"
+          correctAnswers:
+            - text: 1400 UTC
+          wrongAnswers:
+            - text: 1700 UTC
+            - text: 1500 UTC
+            - text: 1600 UTC
+        - variables:
+            local: "1700"
+            offset: "1"
+          correctAnswers:
+            - text: 1600 UTC
+          wrongAnswers:
+            - text: 1800 UTC
+            - text: 1500 UTC
+            - text: 1700 UTC
+- id: QYBTE
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.01.06"
+  templates:
+    - type: simple
+      question: You depart at {{depart}} UTC for a destination {{distance}} NM away. {{wind}} What is your estimated arrival time to the nearest minute?
+      explanation: If given a headwind component, subtract it from true airspeed to obtain groundspeed. Divide the distance by groundspeed and add that time to the departure time.
+      presets:
+        - variables:
+            depart: "0915"
+            distance: "210"
+            wind: True airspeed is 130 kt and the headwind component is 15 kt.
+          correctAnswers:
+            - text: 1105 UTC
+          wrongAnswers:
+            - text: 1052 UTC
+            - text: 1005 UTC
+            - text: 1115 UTC
+        - variables:
+            depart: "1242"
+            distance: "75"
+            wind: True airspeed is 105 kt and the headwind component is 12 kt.
+          correctAnswers:
+            - text: 1330 UTC
+          wrongAnswers:
+            - text: 1320 UTC
+            - text: 1356 UTC
+            - text: 1430 UTC
+        - variables:
+            depart: "0933"
+            distance: "100"
+            wind: Groundspeed is 107 kt.
+          correctAnswers:
+            - text: 1029 UTC
+          wrongAnswers:
+            - text: 1146 UTC
+            - text: 1129 UTC
+            - text: 1045 UTC
+- id: QMBJN
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.02.01"
+  templates:
+    - type: simple
+      question: An aeroplane flies {{distance}} in {{minutes}} minutes. What is its groundspeed, to the nearest {{unit}}?
+      explanation: Groundspeed is distance divided by elapsed time in hours. Divide the distance by the number of minutes and multiply by 60.
+      presets:
+        - variables:
+            distance: 100 km
+            minutes: "56"
+            unit: km/h
+          correctAnswers:
+            - text: 107 km/h
+          wrongAnswers:
+            - text: 58 km/h
+            - text: 198 kt
+            - text: 93 kt
+        - variables:
+            distance: 110 NM
+            minutes: "85"
+            unit: knot
+          correctAnswers:
+            - text: 78 kt
+          wrongAnswers:
+            - text: 120 km/h
+            - text: 160 km/h
+            - text: 86 kt
+- id: QPLTG
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.02.01"
+  templates:
+    - type: simple
+      question: The rotational axis of the Earth runs through the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: geographic North Pole and on the geographic South Pole.
+          wrongAnswers:
+            - text: magnetic north pole and on the geographic South Pole.
+            - text: geographic North Pole and on the magnetic south pole.
+            - text: magnetic north pole and on the magnetic south pole.
+    - type: simple
+      question: Which statement is correct with regard to the polar axis of the Earth?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The polar axis of the Earth crosses the geographic South Pole and the geographic North Pole and is perpendicular to the plane of the equator
+          wrongAnswers:
+            - text: The polar axis of the Earth crosses the geographic South Pole and the geographic North Pole and is at an angle of 23.5° to the plane of the equator
+            - text: The polar axis of the Earth crosses the magnetic south pole and the magnetic north pole and is perpendicular to the plane of the equator
+            - text: The polar axis of the Earth crosses the magnetic south pole and the magnetic north pole and is at an angle of 66.5° to the plane of the equator
+- id: QCCLW
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.02.01"
+  templates:
+    - type: simple
+      question: Which approximate, geometrical form describes the shape of the Earth best for navigation systems?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ellipsoid
+          wrongAnswers:
+            - text: Flat plate
+            - text: Sphere of ecliptical shape
+            - text: Perfect sphere
+- id: QDBJO
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.02.01"
+  templates:
+    - type: simple
+      question: Which statement about a rhumb line is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A rhumb line cuts each meridian at the same angle.
+          wrongAnswers:
+            - text: The shortest track between two points along the Earth's surface follows a rhumb line.
+            - text: A rhumb line is a great circle intersecting the the equator with 45° angle.
+            - text: The centre of a complete cycle of a rhumb line is always the Earth's centre.
+    - type: simple
+      question: The shortest distance between two points on Earth is represented by a part of...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a great circle.
+          wrongAnswers:
+            - text: a small circle.
+            - text: a parallel of latitude.
+            - text: a rhumb line.
+    - type: simple
+      question: Assume two arbitrary points A and B on the same parallel of latitude, but not on the equator. Point A is located on 010°E and point B on 020°E. The rhumb line distance between A and B is always...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: less than 600 NM
+          wrongAnswers:
+            - text: more than 300 NM
+            - text: more than 600 NM
+            - text: less than 300 NM
+- id: QSWMD
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.02.01"
+  templates:
+    - type: simple
+      question: The circumference of the Earth at the equator is approximately...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 21600 NM
+          wrongAnswers:
+            - text: 10800 km
+            - text: 12800 km
+            - text: 40000 NM
+- id: QAAYT
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.02.02"
+  templates:
+    - type: simple
+      question: What is the difference in latitude between A (12°53'30''N) and B (07°34'30''S)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 20°28'00''
+          wrongAnswers:
+            - text: 20.28°
+            - text: 05°19'00''
+            - text: 05.19°
+    - type: simple
+      question: What is the distance between the parallels of latitude 48°N and 49°N along a meridian line?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 60 NM
+          wrongAnswers:
+            - text: 1 NM
+            - text: 10 NM
+            - text: 111 NM
+    - type: simple
+      question: What distance corresponds to one degree difference in latitude along any degree of longitude?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 60 NM
+          wrongAnswers:
+            - text: 30 NM
+            - text: 60 km
+            - text: 1 NM
+- id: QSBDJ
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.02.02"
+  templates:
+    - type: simple
+      question: Where are the two polar circles?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 23.5° north and south of the poles
+          wrongAnswers:
+            - text: At a latitude of 20.5°S and 20.5°N
+            - text: 23.5° north and south of the equator
+            - text: 20.5° south of the poles
+- id: QOQIH
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.02.02"
+    - "09.01.01.02.03"
+  templates:
+    - type: simple
+      question: Using 1 NM per minute of latitude, which latitude is 240 NM due north of 47°50′27″ N?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 51°50′27″ N
+          wrongAnswers:
+            - text: 43°50′27″ N
+            - text: 49°50′27″ N
+            - text: 52°50′27″ N
+    - type: simple
+      question: What is the distance between the two parallels of longitude 150°E and 151°E along the equator?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 60 NM
+          wrongAnswers:
+            - text: 1 NM
+            - text: 111 NM
+            - text: 60 km
+- id: QVHNR
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.02.01"
+  templates:
+    - type: simple
+      question: What is the great circle distance between two points A and B on the equator when the difference between the two associated meridians is exactly one degree of longitude?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 60 NM
+          wrongAnswers:
+            - text: 216 NM
+            - text: 120 NM
+            - text: 400 NM
+- id: QAFQN
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.03.02"
+  templates:
+    - type: simple
+      question: UTC is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: an obligatory time used in aviation.
+          wrongAnswers:
+            - text: a zonal time.
+            - text: local mean time at a specific point on Earth.
+            - text: a local time in Central Europe.
+- id: QDEFW
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.03.03"
+  templates:
+    - type: simple
+      question: Vienna (LOWW) is located at 016° 34'E, Salzburg (LOWS) at 013° 00'E. The latitude of both positions can be considered as equal. What is the difference of sunrise and sunset times, expressed in UTC, between Wien and Salzburg?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In Vienna the sunrise and sunset are about 14 minutes earlier than in Salzburg
+          wrongAnswers:
+            - text: In Vienna the sunrise and sunset are about 4 minutes later than in Salzburg
+            - text: In Vienna the sunrise is 14 minutes earlier and sunset is 14 minutes later than in Salzburg
+            - text: In Vienna the sunrise is 4 minutes later and sunset is 4 minutes earlier than in Salzburg
+- id: QLFJK
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.03.06"
+  templates:
+    - type: simple
+      question: The term 'civil twilight' is defined as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the period of time before sunrise or after sunset where the midpoint of the sun disk is 6 degrees or less below the true horizon.
+          wrongAnswers:
+            - text: the period of time before sunrise or after sunset where the midpoint of the sun disk is 6 degrees or less below the apparent horizon.
+            - text: the period of time before sunrise or after sunset where the midpoint of the sun disk is 12 degrees or less below the true horizon.
+            - text: the period of time before sunrise or after sunset where the midpoint of the sun disk is 12 degrees or less below the apparent horizon.
+- id: QQYDP
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.01.02"
+  templates:
+    - type: simple
+      question: "Given: - WCA: -012°; - TH: 125°; - MC: 139°; - DEV: 002°E What are: TC, MH and CH?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "- TC: 137°. - MH: 127°. - CH: 125°"
+          wrongAnswers:
+            - text: "- TC: 113°. - MH: 127°. - CH: 129°"
+            - text: "- TC: 113°. - MH: 139°. - CH: 129°"
+            - text: "- TC: 137°. - MH: 139°. - CH: 125°"
+    - type: simple
+      question: "Given: - TC: 179°; - WCA: -12°; - VAR: 004° E; - DEV: +002° What are MH and MC?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "- MH: 163°. - MC: 175°"
+          wrongAnswers:
+            - text: "- MH: 163°. - MC: 161°"
+            - text: "- MH: 167°. - MC: 161°"
+            - text: "- MH: 167°. - MC: 175°"
+    - type: simple
+      question: "Given: - TC: 183°; - WCA: +011°; - MH: 198°; - CH: 200° What are TH and VAR?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "TH: 194°. VAR: 004° W"
+          wrongAnswers:
+            - text: "TH: 194°. VAR: 004° E"
+            - text: "TH: 172°. VAR: 004° W"
+            - text: "TH: 172°. VAR: 004° E"
+    - type: simple
+      question: "Given: - TC: 183°; - WCA: +011°; - MH: 198°; - CH: 200° What are the TH and the DEV?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "TH: 194°. DEV: -002°."
+          wrongAnswers:
+            - text: "TH: 172°. DEV: +002°."
+            - text: "TH: 172°. DEV: -002°."
+            - text: "TH: 194°. DEV: +002°."
+    - type: simple
+      question: "Given: - TC: 183°; - WCA: +011°; - MH: 198°; - CH: 200° What are the VAR and the DEV?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "- VAR: 004° W. - DEV: -002°"
+          wrongAnswers:
+            - text: "- VAR: 004° E. - DEV: -002°"
+            - text: "- VAR: 004° E. - DEV: +002°"
+            - text: "- VAR: 004° W. - DEV: +002°"
+- id: QYIXO
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.01.07"
+  templates:
+    - type: simple
+      question: The angle between the true course and the true heading is called...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: WCA.
+          wrongAnswers:
+            - text: inclination.
+            - text: deviation.
+            - text: variation.
+    - type: simple
+      question: The angle at which an aircraft drifts away from the course line is called...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: track angle error
+          wrongAnswers:
+            - text: expected drift angle
+            - text: drift angle
+            - text: wind correction angle
+- id: QBBTP
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.04.01"
+  templates:
+    - type: simple
+      question: The angle between the magnetic course and the true course is called...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: variation.
+          wrongAnswers:
+            - text: WCA.
+            - text: inclination.
+            - text: deviation.
+- id: QLDUV
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.01.01"
+  templates:
+    - type: simple
+      question: The term ‚magnetic course' (MC) is defined as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the angle between magnetic north and the course line.
+          wrongAnswers:
+            - text: the direction from an arbitrary point on Earth to the magnetic north pole.
+            - text: the direction from an arbitrary point on Earth to the geographic North Pole.
+            - text: the angle between true north and the course line.
+- id: QUMNH
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.01.01"
+  templates:
+    - type: simple
+      question: The term 'True Course' (TC) is defined as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the angle between true north and the course line.
+          wrongAnswers:
+            - text: the direction from an arbitrary point on Earth to the magnetic north pole.
+            - text: tthe angle between magnetic north and the course line.
+            - text: the direction from an arbitrary point on Earth to the geographic North Pole.
+- id: QBBAG
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.02.01.02"
+  templates:
+    - type: simple
+      question: Where does the inclination reach its lowest value?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: At the magnetic equator
+          wrongAnswers:
+            - text: At the magnetic poles
+            - text: At the geographic poles
+            - text: At the geographic equator
+- id: QJBYK
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.04.02"
+  templates:
+    - type: simple
+      question: The angle between compass north and magnetic north is called...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: deviation.
+          wrongAnswers:
+            - text: variation.
+            - text: inclination.
+            - text: WCA.
+    - type: simple
+      question: When magnetic north is east of compass north, the resulting deviation is called...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: west or minus
+          wrongAnswers:
+            - text: east or minus
+            - text: east or plus
+            - text: west or plus
+- id: QZZCF
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.04.01"
+  templates:
+    - type: simple
+      question: Which direction corresponds to 'compass north' (CN)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The direction to which the direct reading compass aligns due to earth's and aircraft's magnetic fields
+          wrongAnswers:
+            - text: The angle between the aircraft heading and magnetic north
+            - text: The direction from an arbitrary point on Earth to the geographical North Pole
+            - text: The most northerly part of the magnetic compass in the aircraft, where the reading takes place
+- id: QFAHG
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.04.03"
+  templates:
+    - type: simple
+      question: The term 'isogonal' or 'isogonic line' is defined as a line on an aeronautical chart, connecting all points with the same value of...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: variation.
+          wrongAnswers:
+            - text: deviation.
+            - text: heading.
+            - text: inclination.
+    - type: simple
+      question: The term 'agonic line' is defined as a line on Earth or an aeronautical chart, connecting all points with the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: variation of 0°.
+          wrongAnswers:
+            - text: deviation of 0°.
+            - text: heading of 0°.
+            - text: inclination of 0°.
+- id: QVKYQ
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.05.01"
+  templates:
+    - type: simple
+      question: Which are the official basic units for horizontal distances used in aeronautical navigation and their abbreviations?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Nautical miles (NM), kilometres (km)
+          wrongAnswers:
+            - text: Yards (yd), metres (m)
+            - text: feet (ft), inches (in)
+            - text: Land miles (SM), sea miles (NM)
+- id: QWSLB
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.05.02"
+  templates:
+    - type: simple
+      question: 1000 ft equal...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 300 m
+          wrongAnswers:
+            - text: 30 km
+            - text: 30 m
+            - text: 3000 m
+    - type: simple
+      question: 5500 m equal...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 18000 ft
+          wrongAnswers:
+            - text: 10000 ft
+            - text: 7500 ft
+            - text: 30000 ft
+- id: QRLGK
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.04.02"
+  templates:
+    - type: simple
+      question: What could be a reason for changing the runway indicators at aerodromes (e.g. from runway 06 to runway 07)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The magnetic variation of the runway location has changed
+          wrongAnswers:
+            - text: The true direction of the runway alignment has changed
+            - text: The direction of the approach path has changed
+            - text: The magnetic deviation of the runway location has changed
+- id: QAKRC
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.04.02"
+  templates:
+    - type: simple
+      question: Electronic devices on board of an aeroplane have influence on the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: direct reading compass.
+          wrongAnswers:
+            - text: airspeed indicator.
+            - text: turn coordinator.
+            - text: artificial horizon.
+- id: QBMDU
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.03.01.01"
+    - "09.01.03.02.01"
+  templates:
+    - type: simple
+      question: Which are the properties of a Mercator chart?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The scales increases with latitude, great circles are depicted as curved lines, rhumb lines are depicted as straight lines
+          wrongAnswers:
+            - text: The scale is constant, great circles are depicted as straight lines, rhumb lines are depicted as curved lines
+            - text: The scales increases with latitude, great circles are depicted as straight lines, rhumb lines are depicted as curved lines
+            - text: The scale is constant, great circles are depicted as curved lines, rhumb lines are depicted as straight lines
+    - type: simple
+      question: How are rhumb lines and great circles depicted on a direct Mercator chart?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "Rhumb lines: straight lines Great circles: curved lines"
+          wrongAnswers:
+            - text: "Rhumb lines: curved lines Great circles: straight lines"
+            - text: "Rhumb lines: curved lines Great circles: curved lines"
+            - text: "Rhumb lines: straight lines Great circles: straight lines"
+- id: QUJHE
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.03.01.02"
+  templates:
+    - type: simple
+      question: Which are the properties of a Lambert conformal chart?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The chart is conformal and nearly true to scale
+          wrongAnswers:
+            - text: The chart is conformal and an equal-area projection
+            - text: Rhumb lines are depicted as straight lines and the chart is conformal
+            - text: Great circles are depicted as straight lines and the chart is an equal-area projection
+- id: QOTYN
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.03.03.04"
+  templates:
+    - type: simple
+      question: Which lines have to be used by the pilot to determine the aircraft's position?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: True bearings (QTE)
+          wrongAnswers:
+            - text: Magnetic headings (MH)
+            - text: Relative bearings (RB)
+            - text: Magnetic bearings (QDR)
+- id: QJQHG
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes:
+    - id: AYZP
+  learningObjectiveIds:
+    - "09.01.03.03.05"
+  templates:
+    - type: simple
+      question: |-
+        What is the radial from VOR Brünkendorf (BKD) (53°02′N, 011°33′E) to Pritzwalk (EDBU) (53°11'N, 12°11'E)?
+
+        ![Aeronautical chart showing the Brünkendorf, Uelzen and Neustadt area](annex:AYZP:editable)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 068°
+          wrongAnswers:
+            - text: 204°
+            - text: 248°
+            - text: 024°
+- id: QTVYA
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.03.03.02"
+  templates:
+    - type: simple
+      question: The distance between two airports is 220 NM. On an aeronautical navigation chart the pilot measures 40.7 cm for this distance. The chart scale is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1 : 1000000"
+          wrongAnswers:
+            - text: "1 : 250000"
+            - text: "1 : 2000000"
+            - text: "1 : 500000"
+    - type: simple
+      question: A distance of 7.5 cm on an aeronautical chart represents a distance of 60.745 NM in reality. What is the chart scale?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1 : 1500000"
+          wrongAnswers:
+            - text: "1 : 1 000000"
+            - text: "1 : 500000"
+            - text: "1 : 150000"
+- id: QHXPO
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes:
+    - id: AYZP
+  learningObjectiveIds:
+    - "09.01.03.03.01"
+  templates:
+    - type: simple
+      question: |-
+        Given the following information, what is the aircraft position at the cross bearing? VOR Hamburg (HAM) (53°41′N, 010°12′E): Radial 119° VOR Brünkendorf (BKD) (53°02′N, 011°33′E): Radial 320°
+
+        ![Aeronautical chart showing the Brünkendorf, Uelzen and Neustadt area](annex:AYZP:editable)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 53°20'N, 11°10'E
+          wrongAnswers:
+            - text: 52°20'N, 10°10'E
+            - text: 52°10'N, 10°20'E
+            - text: 54°40'N, 12°50'E
+- id: QJJNL
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes:
+    - id: AYZP
+  learningObjectiveIds:
+    - "09.01.03.03.04"
+  templates:
+    - type: simple
+      question: |-
+        What is the distance from VOR Brünkendorf (BKD) (53°02′N, 011°33′E) to Pritzwalk (EDBU) (53°11'N, 12°11'E)?
+
+        ![Aeronautical chart showing the Brünkendorf, Uelzen and Neustadt area](annex:AYZP:editable)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 24 NM
+          wrongAnswers:
+            - text: 42 km
+            - text: 42 NM
+            - text: 24 km
+    - type: simple
+      question: |-
+        What is the distance from Neustadt (EDAN) (53°22'N, 011°37'E) to Uelzen (EDVU) (52°59′N, 10°28′E)?
+
+        ![Aeronautical chart showing the Brünkendorf, Uelzen and Neustadt area](annex:AYZP:editable)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 46 NM
+          wrongAnswers:
+            - text: 78 km
+            - text: 46 km
+            - text: 78 NM
+- id: QSOOG
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.01.01"
+  templates:
+    - type: simple
+      question: "For a short flight from A to B the pilot extracts the following information from an aeronautical chart: True course: 245°. Magnetic variation: 7° W The magnetic course (MC) equals..."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 252°
+          wrongAnswers:
+            - text: 245°
+            - text: 007°
+            - text: 238°
+- id: QQUGG
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.02.06"
+  templates:
+    - type: simple
+      question: An aircraft is flying with an indicated airspeed (IAS) of 150 kt at 8000 ft MSL. According to the rule of thumb, the true airspeed (TAS) equals...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 174 kt
+          wrongAnswers:
+            - text: 150 kt
+            - text: 208 kt
+            - text: 142 kt
+    - type: simple
+      question: "Given: - Calibrated airspeed (CAS): 155 kt. - Flight level (FL) 80. - Outside air temperature (OAT): +15 °C. - The true airspeed (TAS) equals..."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 180 kt
+          wrongAnswers:
+            - text: 170 kts
+            - text: 155 kts
+            - text: 134 kts
+- id: QZDSP
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.02.02"
+  templates:
+    - type: simple
+      question: What is the required flight time for a distance of 236 NM with a ground speed of 134 kt?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1:46 h
+          wrongAnswers:
+            - text: 0:46 h
+            - text: 0:34 h
+            - text: 1:34 h
+    - type: simple
+      question: An aircraft is flying with a true airspeed (TAS) of 120 kt and experiences 35 kt tailwind. How much time is needed for a distance of 185 NM?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 h 12 min
+          wrongAnswers:
+            - text: 0 h 50 min
+            - text: 1 h 32 min
+            - text: 2 h 11 min
+- id: QTNMB
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.02.03"
+  templates:
+    - type: simple
+      question: An aircraft is flying with a true airspeed (TAS) of 180 kt and a headwind component of 25kt for 2 hours and 25 minutes. The distance flown equals...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 375 NM
+          wrongAnswers:
+            - text: 693 NM
+            - text: 202 NM
+            - text: 435 NM
+- id: QCDPJ
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes:
+    - id: AYZP
+  learningObjectiveIds:
+    - "09.01.03.03.04"
+  templates:
+    - type: simple
+      question: |-
+        What is the true course (TC) from Uelzen (EDVU) (52°59′N, 10°28′E) to Neustadt (EDAN) (53°22'N, 011°37'E)?
+
+        ![Aeronautical chart showing the Brünkendorf, Uelzen and Neustadt area](annex:AYZP:editable)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 061°
+          wrongAnswers:
+            - text: 235°
+            - text: 055°
+            - text: 241°
+- id: QPMKL
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.02.08"
+  templates:
+    - type: simple
+      question: An aircraft is flying at FL 75 with an outside air temperature (OAT) of -9 °C. The QNH altitude is 6500 ft. The true altitude equals...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 6250 ft
+          wrongAnswers:
+            - text: 7000 ft
+            - text: 6750 ft
+            - text: 6500 ft
+    - type: simple
+      question: An aircraft is flying at a pressure altitude of 7000 feet with an outside air temperature (OAT) of +11 °C. The QNH altitude is 6500 ft. The true altitude equals...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 6750 ft
+          wrongAnswers:
+            - text: 6250 ft
+            - text: 7000 ft
+            - text: 6500 ft
+    - type: simple
+      question: An aircraft is flying at a pressure altitude of 7000 feet with an outside air temperature (OAT) of +21 °C. The QNH altitude is 6500 ft. The true altitude equals...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 7000 ft
+          wrongAnswers:
+            - text: 6750 ft
+            - text: 6500 ft
+            - text: 6250 ft
+- id: QDZZD
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.03.01"
+  templates:
+    - type: simple
+      question: "Given: - True course: 255°. - TAS: 100 kt. - Wind: 200°/10 kt. The true heading equals..."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 250°
+          wrongAnswers:
+            - text: 275°
+            - text: 265°
+            - text: 245°
+    - type: simple
+      question: "Given: - True course: 165°. - TAS: 90 kt. Wind: 130°/20 kt. - Distance: 153 NM. - The true heading equals..."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 158°
+          wrongAnswers:
+            - text: 165°
+            - text: 126°
+            - text: 152°
+    - type: simple
+      question: "Given: - Ground speed (GS): 160 kt. - True course (TC): 177°. - Wind vector (W/WS): 140°/20 kt. - The true heading (TH) equals..."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 173°
+          wrongAnswers:
+            - text: 180°
+            - text: 169°
+            - text: 184°
+- id: QUUCW
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.03.02"
+  templates:
+    - type: simple
+      question: An aircraft is following a true course (TC) of 220° at a constant TAS of 220 kt. The wind vector is 270°/50 kt. The ground speed (GS) equals...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 185 kt
+          wrongAnswers:
+            - text: 170 kt
+            - text: 255 kt
+            - text: 135 kt
+    - type: simple
+      question: An aircraft is following a true course (TC) of 040° at a constant true airspeed (TAS) of 180kt. The wind vector is 350°/30 kt. The groundspeed (GS) equals...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 159 kt
+          wrongAnswers:
+            - text: 172 kt
+            - text: 155 kt
+            - text: 168 kt
+    - type: simple
+      question: "Given: - True course: 270°. - TAS: 100 kt. - Wind: 090°/25 kt. - Distance: 100 NM. - The ground speed (GS) equals..."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 125 kt
+          wrongAnswers:
+            - text: 131 kt
+            - text: 117 kt
+            - text: 120 kt
+- id: QQTYF
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.03.01"
+  templates:
+    - type: simple
+      question: An aircraft is following a true course (TC) of 040° at a constant true airspeed (TAS) of 180 kt. The wind vector is 350°/30 kt. The wind correction angle (WCA) equals...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "- 7°"
+          wrongAnswers:
+            - text: + 11°
+            - text: + 5°
+            - text: "- 9°"
+        - correctAnswers:
+            - text: 7° left
+          wrongAnswers:
+            - text: 3° right
+            - text: 7° right
+            - text: 3° left
+    - type: simple
+      question: "Given: - True course: 120°. - TAS: 120 kt. - Wind: 150°/12 kt. - The WCA equals..."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3° to the right
+          wrongAnswers:
+            - text: 3° to the left
+            - text: 6° to the left
+            - text: 6° to the right
+- id: QYDMZ
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.01.06"
+  templates:
+    - type: simple
+      question: "Given: - True course: 270°. - TAS: 100 kt. - Wind: 090°/25 kt. - Distance: 100 NM. - The flight time equals..."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 48 Min
+          wrongAnswers:
+            - text: 62 Min
+            - text: 37 Min
+            - text: 84 Min
+- id: QJWGH
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.06.02"
+  templates:
+    - type: simple
+      question: The distance from 'A' to 'B' measures 120 NM. At a distance of 55 NM from 'A' the pilot realizes a deviation of 7 NM to the right. What approximate course change must be made to reach 'B' directly?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 14° left
+          wrongAnswers:
+            - text: 6° left
+            - text: 8° left
+            - text: 15° left
+    - type: simple
+      question: An aeroplane has a heading of 090°. The distance which has to be flown is 90 NM. After 45 NM the aeroplane is 4.5 NM north of the planned flight path. What is the corrected heading to reach the arrival aerodrome directly?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 12° to the right
+          wrongAnswers:
+            - text: 6° to the right
+            - text: 18° to the right
+            - text: 9° to the right
+    - type: simple
+      question: What is the meaning of the 1:60 rule?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 NM lateral offset at 1° drift after 60 NM
+          wrongAnswers:
+            - text: 6 NM lateral offset at 1° drift after 10 NM
+            - text: 60 NM lateral offset at 1° drift after 1 NM
+            - text: 10 NM lateral offset at 1° drift after 60 NM
+- id: QOWGQ
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.06.04"
+  templates:
+    - type: simple
+      question: You depart A at 1200 UTC for B, 220 NM away, with a planned groundspeed of 120 kt. You reach a checkpoint 70 NM from A five minutes early. At the actual groundspeed, what is your revised ETA to the nearest five minutes?
+      explanation: The planned time to the checkpoint is 35 minutes. The actual time is 30 minutes, so the updated groundspeed is 140 kt. The remaining 150 NM takes about 64 minutes, giving an ETA of 1334 UTC before rounding.
+      presets:
+        - correctAnswers:
+            - text: 1335 UTC
+          wrongAnswers:
+            - text: 1325 UTC
+            - text: 1345 UTC
+            - text: 1350 UTC
+- id: QVKWV
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.02.08"
+  templates:
+    - type: simple
+      question: Assume calm wind and an aircraft descending from 9000 ft to 1500 ft. The rate of descent (ROD) equals 1200 ft/min. The elapsed time will be...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 6 min
+          wrongAnswers:
+            - text: 8 min
+            - text: 1 2 min
+            - text: 15 min
+    - type: simple
+      question: Assume zero wind and an aircraft descending from 7500 ft to 1200 ft with an average true airspeed (TAS) during the descent of 105 kt. The rate of descent (ROD) equals 800 ft/min. The elapsed time will be...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 8 Min
+          wrongAnswers:
+            - text: 12 Min
+            - text: 15 Min
+            - text: 6 Min
+- id: QNYGB
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes:
+    - id: AMZJ
+  learningObjectiveIds:
+    - "09.01.04.06.05"
+  templates:
+    - type: simple
+      question: |-
+        Which answer completes the flight plan (marked cells)?
+
+        ![Flight log with three blank cells](annex:AMZJ)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "- TH: 185°. - MH: 184°. - MC: 178°"
+          wrongAnswers:
+            - text: "- TH: 173°. - MH: 174°. - MC: 178°"
+            - text: "- TH: 173°. - MH: 184°. - MC: 178°"
+            - text: "- TH: 185°. - MH: 185°. - MC: 180°"
+- id: QVJPD
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.05.01"
+  templates:
+    - type: simple
+      question: What is meant by the term "terrestrial navigation"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Orientation by ground features during visual flight
+          wrongAnswers:
+            - text: Orientation by GPS during visual flight
+            - text: Orientation by instrument readings during visual flight
+            - text: Orientation by ground celestial object during visual flight
+- id: QJUCB
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.04.05.01"
+  templates:
+    - type: simple
+      question: What ground features should preferrably be used for orientation during visual flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Rivers, railroads, highways
+          wrongAnswers:
+            - text: Farm tracks and creeks
+            - text: Power lines
+            - text: Border lines
+- id: QFSZU
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.04.03"
+  templates:
+    - type: simple
+      question: The magnetic variation has a value...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: between 0° and 180°
+          wrongAnswers:
+            - text: of 0 at the prime meridian
+            - text: that is west, when the position is west of the agonic line
+            - text: that never exceeds 90°
+- id: QPVLQ
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.02.01.02"
+  templates:
+    - type: simple
+      question: At which latitudes is the magnetic compass most effective
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: at equatorial latitudes
+          wrongAnswers:
+            - text: at mid latitudes
+            - text: at high latitudes
+            - text: It's equally effective at all latitudes
+- id: QFGZB
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.01.04.03"
+  templates:
+    - type: simple
+      question: When magnetic north is east of true north, the resulting variation is called...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: east or plus
+          wrongAnswers:
+            - text: east or minus
+            - text: west or minus
+            - text: west or plus
+- id: QQHNK
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.02.01.02"
+  templates:
+    - type: simple
+      question: A freely suspended compass needle points perfectly upwards..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: at the magnetic poles
+          wrongAnswers:
+            - text: at the magnetic equator
+            - text: at the north pole
+            - text: at the geographic equator
+- id: QLNDO
+  subjectId: "09"
+  chapterId: "09.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.01.02.01.02"
+  templates:
+    - type: simple
+      question: Compass navigation is affected by
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: horizontal intensity, aircraft electronic equipment, aircraft heading
+          wrongAnswers:
+            - text: horizontal intensity, flight altitude, aircraft heading
+            - text: aircraft electronic equipment, flight altitude, aircraft heading
+            - text: aircraft electronic equipment, horizontal intensity, flight altitude

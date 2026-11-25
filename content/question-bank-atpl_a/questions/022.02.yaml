@@ -1,0 +1,2352 @@
+- id: QFJTQ
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227671
+    - AVEXAM-21762
+    - BGS-220072
+    - AVEXAM-60677
+    - AVEXAM-43274
+    - BGS-221980
+    - BGS-221979
+    - BGS-220075
+    - BGS-220877
+    - BGS-220873
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.01.01.01
+  templates:
+    - type: simple
+      question: |-
+        Given:
+
+        Pt = total pressure   
+        Ps = static pressure   
+        Pd = dynamic pressure
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pt = Pd + Ps
+          wrongAnswers:
+            - text: Pd = Pt + Ps
+            - text: Ps = Pt + Pd
+            - text: Pd = Pt / Ps
+    - type: simple
+      question: |-
+        Given: Pt: total pressure Ps: static pressure Pd: dynamic pressure 
+
+        The altimeter is fed by:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pt-Pd
+          wrongAnswers:
+            - text: Ps-Pt
+            - text: Pd
+            - text: Pd-Ps
+    - type: simple
+      question: |-
+        Given: Pt: total pressure Ps: static pressure Pd: dynamic pressure 
+
+        The airspeed indicator is fed by:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pd.
+          wrongAnswers:
+            - text: Ps-Pt.
+            - text: Pt-Pd.
+            - text: Pd-Ps.
+- id: QZEFT
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223595
+    - BGS-220136
+    - AVEXAM-87139
+    - ATPLQ-229888
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.01.01.01
+  templates:
+    - type: simple
+      question: |-
+        Given:
+
+        Pt: total pressure   
+         Ps: static pressure   
+         Pd: dynamic pressure
+
+        The altitude indicator measures:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pt - Pd
+          wrongAnswers:
+            - text: Pt - Ps
+            - text: Ps - Pt
+            - text: Pd - Ps
+    - type: simple
+      question: |-
+        Given:Pt = total pressure 
+         Ps = static pressure 
+         Pd = dynamic pressureThe airspeed indicator measures:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pt - Ps
+          wrongAnswers:
+            - text: Pt – Pd
+            - text: Ps - Pt
+            - text: Pd – Ps
+- id: QWJWP
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds:
+    - QWVEX
+  externalQuestionIds:
+    - ATPLQ-224650
+    - BGS-221655
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.01.02.01
+  templates:
+    - type: simple
+      question: A combined pitot and static probe (combined pressure head) supplies...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: total and static pressure.
+          wrongAnswers:
+            - text: static pressure and temperature.
+            - text: dynamic and static pressure.
+            - text: pitot pressure and temperature.
+- id: QWVEX
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds:
+    - QWJWP
+  externalQuestionIds:
+    - ATPLQ-226934
+    - AVEXAM-43156
+    - BGS-220085
+    - AVEXAM-3742
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.01.02.01
+  templates:
+    - type: simple
+      question: "The open-ended tube parallel to the longitudinal axis of the aircraft senses the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: total pressure.
+          wrongAnswers:
+            - text: static pressure.
+            - text: total pressure plus static pressure.
+            - text: dynamic pressure.
+- id: QAHVF
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228359
+    - BGS-220069
+    - AVEXAM-8386
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.01.02.02
+  templates:
+    - type: multiple-correct
+      question: "Concerning the pitot and static system, the position error varies with:"
+      explanation: ""
+      options:
+        - text: – altimeter setting
+          correct: false
+        - text: – Mach number
+          correct: true
+        - text: – angle of attack
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+- id: QTKZS
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225148
+    - BGS-220208
+    - AVEXAM-95262
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.01.02.02
+  templates:
+    - type: simple
+      question: "Mach meter readings are subject to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: pressure error.
+          wrongAnswers:
+            - text: setting error.
+            - text: temperature error.
+            - text: density error.
+- id: QRQQN
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225591
+    - BGS-221868
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.01.02.04
+  templates:
+    - type: simple
+      question: Redundancy in systems is
+      explanation: Redundancy is the duplication, triplication or more of critical systems, so that if one fails another can continue the function. It reduces the chance of a total loss.
+      presets:
+        - correctAnswers:
+            - text: the duplication, triplication, or more of critical systems.
+          wrongAnswers:
+            - text: the situation in which a catastrophic failure is caused by a single failure.
+            - text: two systems working together in tandem to ensure accuracy.
+            - text: connecting components in series to improve performance.
+- id: QLEVE
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225355
+    - BGS-220094
+    - AVEXAM-2498
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.01.02.06
+  templates:
+    - type: multiple-correct
+      question: "The alternate static source of a light non-pressurised aircraft is located in the flight deck and when used usually:"
+      explanation: ""
+      options:
+        - text: – the airspeed indicator tends to under-read
+          correct: false
+        - text: – the airspeed indicator tends to over-read
+          correct: true
+        - text: – the altimeter tends to under-read
+          correct: false
+        - text: – the altimeter tends to over-read
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QPVLT
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222499
+    - BGS-220080
+    - AVEXAM-14852
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.01.02.06
+  templates:
+    - type: simple
+      question: "The alternate static source of a light non-pressurized aircraft is located in the flight deck. As the alternate static source is opened, the vertical speed indicator may:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: indicate a momentary climb.
+          wrongAnswers:
+            - text: be blocked.
+            - text: indicate a high rate of descent.
+            - text: indicate a slight momentary descent.
+- id: QAAEE
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224925
+    - BGS-221615
+    - AVEXAM-1039
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.02.01.01
+  templates:
+    - type: simple
+      question: Outside air temperature (OAT) is the…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ambient temperature measured outside an aircraft, and it CANNOT be higher than TAT.
+          wrongAnswers:
+            - text: maximum temperature attainable by the air when brought to rest, and is equal to or less than TAT.
+            - text: temperature measured on the surface of an aircraft in flight, and is equal to or less than SAT.
+            - text: average temperature measured outside an aircraft, and is equal to or less than TAT.
+- id: QVRGG
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226875
+    - BGS-222017
+    - AVEXAM-8650
+    - BGS-220024
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.02.01.01
+  templates:
+    - type: simple
+      question: "Total Air Temperature (TAT) is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: higher or equal to Static Air Temperature (SAT)
+          wrongAnswers:
+            - text: Higher or equal to static air temperature (SAT), depending on altitude and SAT.
+            - text: lower than Static Air Temperature (SAT)
+            - text: TAT is a function of altitude and SAT.
+- id: QNNMU
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224313
+    - AVEXAM-63765
+    - BGS-221688
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.02.01.02
+  templates:
+    - type: simple
+      question: In-flight, the Total Air Temperature (TAT) is the sum of the Static Air Temperature (SAT) and the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: combination of kinetic and adiabatic heating; TAT is higher than OAT.
+          wrongAnswers:
+            - text: adiabatic heating; TAT is equal to or lower than OAT.
+            - text: combination of kinetic and adiabatic heating; TAT is lower than OAT.
+            - text: kinetic heating; TAT is equal to or higher than OAT.
+- id: QPBSA
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222962
+    - AVEXAM-69284
+    - BGS-220233
+    - BGS-222016
+    - AVEXAM-91977
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.02.01.02
+  templates:
+    - type: simple
+      question: |-
+        Given:
+
+        Ts = static air temperature (SAT)   
+         Tt = total air temperature (TAT)   
+         Kr = recovery coefficient   
+         M = Mach number
+
+        The approximate total temperature can be expressed by the formula:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Tt = Ts (1+0.2 M2)
+          wrongAnswers:
+            - text: Tt = Ts (1-0.2 M2)
+            - text: Tt = Ts / (1+0.2 Kr M2)
+            - text: Tt = Ts (1+0.2 Kr M2)
+- id: QAPMY
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222252
+    - AVEXAM-68762
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.02.01.03
+  templates:
+    - type: simple
+      question: When flying through visible moisture, how can the TAT indication be useful?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To determine if there is icing.
+          wrongAnswers:
+            - text: To calculate TAS from CAS.
+            - text: To determine outside air temperature.
+            - text: To correct for density altitude.
+- id: QATLX
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221858
+    - BGS-221568
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.02.01.03
+  templates:
+    - type: simple
+      question: "Concerning the ADC, why is TAT displayed to the pilots? It enables them to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Identify Icing Conditions.
+          wrongAnswers:
+            - text: Calculate density altitude.
+            - text: Convert CAS to TAS.
+            - text: Report Outside Air Temperature.
+- id: QFRMG
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221487
+    - BGS-220693
+    - AVEXAM-26790
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.03.01.01
+  templates:
+    - type: multiple-correct
+      question: "The angle of attack transmitter placed laterally on the forward part of the fuselage supplies an electrical signal which can indicate the angular position of:"
+      explanation: ""
+      options:
+        - text: – a specific slaved pitot probe
+          correct: false
+        - text: – a vane detector
+          correct: true
+        - text: – a conical slotted probe.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+- id: QSDYM
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223276
+    - AVEXAM-12978
+    - BGS-220687
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.03.01.01
+  templates:
+    - type: multiple-correct
+      question: "An angle of attack sensor may consist of:"
+      explanation: ""
+      options:
+        - text: – an inertial system computing the difference between flight path and flight attitude
+          correct: false
+        - text: – a slotted probe which positions itself to determine the angle of attack
+          correct: true
+        - text: – a vane detector which positions the rotor of a synchro-transmitter
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+- id: QSTXP
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226336
+    - BGS-222470
+  annexes:
+    - id: AAUK
+  learningObjectiveIds:
+    - 022.02.03.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The null-seeking (slotted) probe AOA sensor of (1) \_\_ will automatically rotate (2) \_\_ to automatically seek a balance point.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) figure B, (2) anti-clockwise
+          wrongAnswers:
+            - text: (1) figure A, (2) anti-clock-wise
+            - text: (1) figure C, (2) anti-clockwise
+            - text: (1) figure D, (2) clockwise
+- id: QYALI
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227043
+    - BGS-221889
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.03.01.02
+  templates:
+    - type: simple
+      question: |-
+        Complete the following phrase:
+
+        The signal on an angle of attack sensor is created by a (1)\_\_ and is subject to (2)\_\_ error.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) potentiometer; (2) position.
+          wrongAnswers:
+            - text: (1) piezoelectric; (2) deviation.
+            - text: (1) capacitor; (2) scale.
+            - text: (1) magnetic sensor; (2) variation.
+- id: QGPBW
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222926
+    - BGS-221734
+    - BGS-221715
+    - ATPLQ-228041
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.03.01.03
+  templates:
+    - type: simple
+      question: How are null-seeking (slotted) probe angle-of-attack sensors protected against ice?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Thermal electric anti-icing.
+          wrongAnswers:
+            - text: Passive anti-icing.
+            - text: Chemical anti-icing.
+            - text: Thermal pneumatic anti-icing.
+    - type: simple
+      question: How are vane type angle of attack sensors protected against icing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: By using thermal electric anti icing.
+          wrongAnswers:
+            - text: By using chemical anti icing.
+            - text: By using passive anti icing.
+            - text: By using thermal pneumatic anti icing.
+- id: QNUGG
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221570
+    - BGS-222317
+    - BGS-220686
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.03.01.04
+  templates:
+    - type: simple
+      question: "A stall warning system makes use of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: angle of attack
+          wrongAnswers:
+            - text: groundspeed
+            - text: TAS
+            - text: attitude
+- id: QWZUV
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229725
+    - AVEXAM-6658
+    - BGS-222392
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.03.01.04
+  templates:
+    - type: simple
+      question: Angle of attack vane is damaged during the flight. Which of the following will be directly impacted?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ADC
+          wrongAnswers:
+            - text: CDU
+            - text: FMS
+            - text: IRU
+- id: QSVLO
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228048
+    - AVEXAM-998
+    - BGS-221648
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.03.01.06
+  templates:
+    - type: simple
+      question: A large commercial aeroplane is performing a test flight. It maintains level flight and reduced speed towards the indicated stick-shaker speed. If all angle of Attack (AOA) sensors become frozen at an angle corresponding to level flight, stall warning and protection system will…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: NOT trigger at all or NOT function as expected.
+          wrongAnswers:
+            - text: function properly by alternate inputs from the Air Data Computer.
+            - text: function properly because the AoA information will be disregarded.
+            - text: NOT be affected because their source is pitch and speed information.
+- id: QPEBC
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224639
+    - AVEXAM-38164
+    - BGS-221658
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.03.01.07
+  templates:
+    - type: simple
+      question: On aeroplanes with Flight-envelope protection system, an under-read of the actual AoA measurement may...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: lead to inadequate protection when approaching the critical AoA.
+          wrongAnswers:
+            - text: prevent the aircraft from entering into an uncontrollable state.
+            - text: prevent extension of the leading edge and trailing edge devices for landing.
+            - text: cause earlier-than-normal pitch auto trim stopping.
+- id: QLZZL
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222256
+    - AVEXAM-59272
+    - BGS-220100
+    - AVEXAM-56696
+    - AVEXAM-40013
+    - AVEXAM-40468
+    - AVEXAM-75494
+    - BGS-220101
+    - BGS-220096
+    - BGS-220098
+    - BGS-220097
+    - BGS-220099
+    - ATPLQ-228527
+    - ATPLQ-229498
+    - ATPLQ-225985
+    - ATPLQ-223582
+    - ATPLQ-227742
+    - AVEXAM-26160
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.04.01.02
+  templates:
+    - type: simple
+      question: "The altimeter indicates 16 000 ft with a subscale-setting of 1013,25 mb. QNH is 993 hPa. OAT is -3°C. The pressure altitude of the aircraft is:  "
+      explanation: Pressure altitude is the altitude indicated when the subscale is set to 1013.25 hPa. The altimeter shows 16 000 ft with that setting, so the pressure altitude is 16 000 ft. QNH and OAT are not needed.
+      presets:
+        - correctAnswers:
+            - text: "16 000 ft  "
+          wrongAnswers:
+            - text: "17 700 ft  "
+            - text: "548 hPa  "
+            - text: "14 200 ft  "
+    - type: simple
+      question: The altimeter indicates {{altitude}} ft with 1013.25 hPa set. What is the pressure altitude?
+      explanation: Pressure altitude is the altitude indicated with the standard setting of 1013.25 hPa. The indicated {{altitude}} ft is already the pressure altitude.
+      presets:
+        - variables:
+            altitude: 17 000
+          correctAnswers:
+            - text: 17 000 ft
+          wrongAnswers:
+            - text: 16 500 ft
+            - text: 17 500 ft
+            - text: 18 000 ft
+        - variables:
+            altitude: 10 000
+          correctAnswers:
+            - text: 10 000 ft
+          wrongAnswers:
+            - text: 9 500 ft
+            - text: 10 500 ft
+            - text: 11 000 ft
+        - variables:
+            altitude: 11 000
+          correctAnswers:
+            - text: 11 000 ft
+          wrongAnswers:
+            - text: 10 500 ft
+            - text: 11 500 ft
+            - text: 12 000 ft
+        - variables:
+            altitude: 12 000
+          correctAnswers:
+            - text: 12 000 ft
+          wrongAnswers:
+            - text: 11 500 ft
+            - text: 12 500 ft
+            - text: 13 000 ft
+        - variables:
+            altitude: 15 000
+          correctAnswers:
+            - text: 15 000 ft
+          wrongAnswers:
+            - text: 14 500 ft
+            - text: 15 500 ft
+            - text: 16 000 ft
+- id: QFYZM
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228714
+    - BGS-220102
+    - AVEXAM-87893
+    - ATPLQ-226090
+    - BGS-222667
+    - BGS-220875
+    - BGS-220090
+    - AVEXAM-15336
+    - AVEXAM-86765
+    - AVEXAM-55425
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.04.01.02
+  templates:
+    - type: simple
+      question: "The altimeter indicates true altitude:  "
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: in standard atmosphere conditions only.
+          wrongAnswers:
+            - text: "when the temperature on the ground is +15°C with a lapse rate of 2°C per 1 000 feet, and correct QNH is set.  "
+            - text: "when pressure at mean sea level is 1 013.25 hPa, with a ground temperature of +15°C and a density equal to 1.225 kg/m3.  "
+            - text: "when the temperature on the ground is +15°C with a lapse rate of 2°C per 1 000 feet, and correct QFE is set  "
+    - type: simple
+      question: "Due to its conception, the altimeter measures a:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: pressure altitude.
+          wrongAnswers:
+            - text: density altitude.
+            - text: true altitude.
+            - text: temperature altitude.
+    - type: simple
+      question: The altitude value indicated by an altimeter corresponds to the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: pressure difference between the static pressure and the altimeter setting in the actual atmospheric conditions.
+          wrongAnswers:
+            - text: difference between the pressure altitude and the true altitude.
+            - text: pressure difference between the dynamic pressure and the altimeter setting at standard pressure altitude.
+            - text: pressure difference between the static pressure and the altimeter setting at standard pressure altitude.
+    - type: simple
+      question: "The altitude given by an altimeter is :"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A pressure altitude
+          wrongAnswers:
+            - text: A density altitude
+            - text: A temperature altitude
+            - text: A true altitude
+        - correctAnswers:
+            - text: Pressure altitude.
+          wrongAnswers:
+            - text: Density altitude.
+            - text: True altitude.
+            - text: Temperature altitude.
+    - type: simple
+      question: What does a barometric altimeter indicate?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Altitude above a selected pressure level assuming standard atmospheric conditions.
+          wrongAnswers:
+            - text: Altitude above mean sea level under actual atmospheric conditions.
+            - text: True altitude corrected for density and pressure deviations.
+            - text: Height above the terrain directly below the aircraft.
+- id: QWDBG
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225776
+    - BGS-220109
+    - AVEXAM-60107
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.04.01.03
+  templates:
+    - type: simple
+      question: "The QNH is by definition the value of the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: altimeter setting so that the altimeter, on the apron of the aerodrome for which it is given, reads the elevation.
+          wrongAnswers:
+            - text: atmospheric pressure at the level of the ground overflown by the aircraft.
+            - text: atmospheric pressure at the sea level of the location for which it is given.
+            - text: altimeter setting so that the altimeter, on the apron of the aerodrome for which it is given, reads zero.
+- id: QKVYD
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225177
+    - AVEXAM-95254
+    - BGS-220076
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.04.01.04
+  templates:
+    - type: simple
+      question: "If the pilot increases the reference pressure using the sub-scale setting knob, the altitude indicated by the altimeter:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: increases.
+          wrongAnswers:
+            - text: decreases.
+            - text: decreases if QNH < 1013 hPa.
+            - text: decreases if QNH > 1013 hPa.
+- id: QWQRH
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228796
+    - BGS-221861
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.04.01.05
+  templates:
+    - type: simple
+      question: The advantages of a servo altimeter over a sensitive altimeter include…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: much reduced lag.
+          wrongAnswers:
+            - text: being independent of the aircraft power supply.
+            - text: a single-pointer with counter read-out.
+            - text: using a solid-state pressure sensor.
+- id: QWWAJ
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221448
+    - BGS-220086
+    - AVEXAM-35819
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.04.01.05
+  templates:
+    - type: simple
+      question: "A servo-assisted altimeter is more accurate than a simple altimeter because the small movements of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the capsules are detected by a very sensitive electro-magnetic pick-off.
+          wrongAnswers:
+            - text: the pointers are detected by a very sensitive electro-magnetic pick-off.
+            - text: the capsules are not taken into account.
+            - text: the capsules are inhibited.
+- id: QJEDX
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227476
+    - BGS-220110
+    - BGS-220112
+    - AVEXAM-47187
+    - AVEXAM-99368
+    - AVEXAM-62262
+    - AVEXAM-67551
+    - ATPLQ-228631
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.04.01.07
+  templates:
+    - type: simple
+      question: "When flying in warm air (warmer than standard atmosphere), indicated altitude is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: lower than the true altitude.
+          wrongAnswers:
+            - text: higher than the true altitude.
+            - text: equal to the standard altitude.
+            - text: the same as the true altitude.
+- id: QZFVJ
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228342
+    - AVEXAM-74235
+    - BGS-221866
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.04.01.07
+  templates:
+    - type: simple
+      question: About an altimeter experiencing time lag, which statement is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It under-reads in a climb.
+          wrongAnswers:
+            - text: It under-reads in a descent.
+            - text: It indicates the correct value only during descent.
+            - text: It over-reads in a climb.
+- id: QXAUG
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227915
+    - BGS-221923
+    - AVEXAM-39442
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.04.01.08
+  templates:
+    - type: simple
+      question: Pressure altimeters are calibrated to ISA conditions. The use of an altimeter correction table is required for error caused by temperature deviations because when the temperature is…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: LOWER than ISA, the aircraft will be LOWER than the altimeter reading.
+          wrongAnswers:
+            - text: LOWER than ISA, the aircraft will be HIGHER than the altimeter reading.
+            - text: HIGHER than ISA and the QNH IS HIGHER than 1013.25 hPa, the aircraft will be LOWER than the altimeter reading.
+            - text: HIGHER than ISA and the QNH is LOWER than 1013.25 hPa, the aircraft will be LOWER than the altimeter reading.
+- id: QTOFJ
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227295
+    - BGS-221781
+    - BGS-222384
+    - AVEXAM-97696
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.04.01.10
+  templates:
+    - type: simple
+      question: When flying steadily at FL180 with the AP engaged you suspect erroneous altimeter indications. What could you check to know which altimeter delivers a correct indication?
+      explanation: GPS altitude is independent of the pressure sensors, so it can be used to find which altimeter is wrong. Cabin altitude and weather radar do not measure the aircraft's altitude.
+      presets:
+        - correctAnswers:
+            - text: GPS altitude.
+          wrongAnswers:
+            - text: Cabin pressure altitude.
+            - text: Weather radar altitude.
+            - text: Mode-C altitude.
+- id: QJVZB
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223003
+    - BGS-221609
+    - AVEXAM-77268
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.04.01.10
+  templates:
+    - type: simple
+      question: GPS indications (without augmentation) may sometimes provide an inaccurate representation of altitude. Why is that?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The mathematical model used by the GPS is a very close approximation to, rather than a complete match with, the actual shape of the Earth.
+          wrongAnswers:
+            - text: If there are too many satellites in view, the excess information fails to coincide with that in the Almanac.
+            - text: The height of the ionosphere interferes with the path lengths of the radio waves.
+            - text: If there is an insufficient number of satellites in view, this can result in missing information and inconsistencies with the ephemeris data.
+- id: QVNSF
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221539
+    - ATPLQ-223859
+    - BGS-222430
+    - AVEXAM-63095
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.05.01.01
+  templates:
+    - type: simple
+      question: An aircraft has a vertical (or linear) speed of {{v}} ft/min. What is the equivalent speed in metres per second (m/s)?
+      explanation: |-
+        1 ft = 0.3048 m and 1 min = 60 s, so ft/min x 0.3048 / 60 = m/s (about 0.00508 m/s per ft/min).
+
+        **Solution**
+
+        $$
+        \frac{\text{Speed}\times 0.3048}{60} = \frac{ {{v}}\times 0.3048}{60} = \mathbf{ {{answer}}\ \text{m/s} }
+        $$
+
+        ## Why the other answers are wrong
+        - **{{d1}} m/s**: converts feet to metres but forgets to convert minutes to seconds (this is m/min).
+        - **{{d2}} m/s**: multiplies by 60 instead of dividing, so the time conversion goes the wrong way.
+        - **{{d3}} m/s**: converts only minutes to seconds and leaves the unit in feet (ft/s).
+        - **{{d4}} m/s**: uses the knots-to-m/s factor (0.5144) instead of the feet-per-minute conversion.
+      presets:
+        - variables:
+            v: 800
+            answer: 4.1
+            d1: 243.8
+            d2: 14630.4
+            d3: 13.3
+            d4: 411.5
+          correctAnswers:
+            - text: 4.1 m/s
+          wrongAnswers:
+            - text: 243.8 m/s
+            - text: 13.3 m/s
+            - text: 411.5 m/s
+            - text: 14630.4 m/s
+        - variables:
+            v: 470
+            answer: 2.4
+            d1: 143.3
+            d2: 8595.4
+            d3: 7.8
+            d4: 241.8
+          correctAnswers:
+            - text: 2.4 m/s
+          wrongAnswers:
+            - text: 143.3 m/s
+            - text: 7.8 m/s
+            - text: 241.8 m/s
+            - text: 8595.4 m/s
+        - variables:
+            v: 1500
+            answer: 7.6
+            d1: 457.2
+            d2: 27432
+            d3: 25
+            d4: 771.6
+          correctAnswers:
+            - text: 7.6 m/s
+          wrongAnswers:
+            - text: 457.2 m/s
+            - text: 25 m/s
+            - text: 771.6 m/s
+            - text: 27432 m/s
+- id: QTTFT
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227260
+    - BGS-221887
+    - AVEXAM-94647
+    - BGS-221494
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.05.01.02
+  templates:
+    - type: simple
+      question: In a barometric type Instantaneous Vertical Speed Indicator (IVSI), what is used to quickly respond to altitude changes and provide instant climb/descent indications?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An accelerometer to temporarily change the pressure in the capsule.
+          wrongAnswers:
+            - text: A piston to temporarily change the diameter of the metering unit.
+            - text: An accelerometer mechanically linked to the capsule, to expand it faster.
+            - text: Information from an air data inertial reference system.
+- id: QKOSB
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221206
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.05.01.03
+  templates:
+    - type: simple
+      question: What feature makes the IVSI a better instrument?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It uses accelerometers to make the reaction time quicker.
+          wrongAnswers:
+            - text: It relies on mechanical linkages to sense changes in air pressure.
+            - text: It uses GPS signals to calculate vertical speed.
+            - text: Accelerometers change the pressure in the capsule.
+- id: QIQND
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228891
+    - AVEXAM-29620
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.05.01.04
+  templates:
+    - type: multiple-correct
+      question: What errors does a Vertical Speed Indicator suffer from?
+      explanation: ""
+      options:
+        - text: Position error
+          correct: true
+        - text: Instrument error
+          correct: true
+        - text: Hyperbaric error
+          correct: false
+        - text: Pitot and static error
+          correct: false
+        - text: Manoeuvring error
+          correct: true
+        - text: Lag/timing
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QLKFD
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224044
+    - BGS-221867
+    - AVEXAM-38250
+    - BGS-221485
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.05.01.04
+    - 022.02.05.01.07
+  templates:
+    - type: simple
+      question: Which statement is true about the IVSI?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The IVSI can give erroneous readings while initiating or ending turns at bank angles of more than around 40°.
+          wrongAnswers:
+            - text: The almost instantaneous indications from the IVSI provide the flight crew with reliable information in all phases of flight.
+            - text: The IVSI has its own power supply, independent of the aircraft.
+            - text: The use of the IVSI reduces turning errors.
+- id: QSFQF
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227416
+    - BGS-221400
+    - ATPLQ-226448
+    - AVEXAM-33895
+    - ATPLQ-228877
+    - AVEXAM-75784
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.05.01.04
+  templates:
+    - type: simple
+      question: |-
+        To which of the following errors is a barometric VSI subject?
+
+        1\. Time lag   
+         2\. Temperature   
+         3\. Barometric   
+         4\. Position   
+         5\. Instrument   
+         6\. Total static source blockage   
+         7\. Total pressure probe blockage
+
+        The combination that regroups all of the correct statements is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 4, 5 & 6.
+          wrongAnswers:
+            - text: 1, 3, 5 & 6.
+            - text: 1, 2, 3 & 5.
+            - text: 1, 5, 6 & 7.
+    - type: simple
+      question: |-
+        The Inertial Navigation System (INS) provides which of the following navigational data ?
+
+         Present position.
+         Ground speed.
+         Magnetic heading.
+         True heading.
+         Drift error.
+         Track error.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, 4, 5, 6
+          wrongAnswers:
+            - text: 2, 3, 4, 5, 6
+            - text: 1, 2, 3, 4, 5, 6
+            - text: 2, 3, 4
+- id: QIPHR
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226945
+    - AVEXAM-68041
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.05.01.05
+  templates:
+    - type: simple
+      question: "If the pitot tube of a light aircraft is completely clogged up by ice during a climb, the vertical speed indicator shows:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: it continues to operate normally.
+          wrongAnswers:
+            - text: zero.
+            - text: a decreasing rate of climb.
+            - text: a descent.
+- id: QRFIM
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225697
+    - BGS-222382
+    - BGS-222452
+    - BGS-222340
+    - BGS-221505
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.05.01.06
+  templates:
+    - type: simple
+      question: Consider a barometric VSI with a non-linear scale. What does this mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A small ROC or ROD is displayed more accurately than a large one.
+          wrongAnswers:
+            - text: The ROC scale is more accurate than the ROD scale.
+            - text: The increments between zero and the maximum value are equally spaced.
+            - text: The ROD scale is more accurate than the ROC scale.
+- id: QGFUS
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227357
+    - AVEXAM-57476
+    - AVEXAM-28073
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.06.01.02
+  templates:
+    - type: multiple-correct
+      question: "CAS is obtained from IAS by correcting for the:"
+      explanation: ""
+      options:
+        - text: – position error.
+          correct: true
+        - text: – compressibility.
+          correct: false
+        - text: – instrument error.
+          correct: true
+        - text: – density.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QOQTL
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225211
+    - AVEXAM-37718
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.06.01.02
+  templates:
+    - type: multiple-correct
+      question: "EAS is obtained from the IAS by correcting for the:"
+      explanation: ""
+      options:
+        - text: – instrument error
+          correct: true
+        - text: – position error
+          correct: true
+        - text: – density
+          correct: false
+        - text: – compressibility
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QURTK
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227840
+    - AVEXAM-41482
+    - BGS-220106
+    - BGS-220163
+    - AVEXAM-1528
+    - AVEXAM-97733
+    - BGS-222133
+    - BGS-220117
+    - AVEXAM-21284
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.06.01.03
+  templates:
+    - type: simple
+      question: "The pressure capsule of an airspeed indicator is sensitive to the difference:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (total pressure) – (static pressure).
+          wrongAnswers:
+            - text: (dynamic pressure) – (total pressure).
+            - text: (total pressure) – (dynamic pressure).
+            - text: (dynamic pressure) – (static pressure).
+- id: QZSRN
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225413
+    - BGS-220124
+    - AVEXAM-70401
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.06.01.03
+  templates:
+    - type: simple
+      question: "An airspeed indicator displays:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: IAS
+          wrongAnswers:
+            - text: TAS
+            - text: EAS
+            - text: CAS
+- id: QTFRC
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds:
+    - QYJKJ
+  externalQuestionIds:
+    - ATPLQ-226665
+    - AVEXAM-80750
+    - AVEXAM-38456
+    - BGS-222461
+    - BGS-222432
+    - ATPLQ-226873
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.06.01.06
+  templates:
+    - type: simple
+      question: The white arc of a conventional Airspeed Indicator (ASI) corresponds to the…
+      explanation: The white arc on an airspeed indicator marks the flap operating speed range, from the stall speed with full flaps (VS0) to the maximum flap extended speed (VFE).
+      presets:
+        - correctAnswers:
+            - text: Flap operating speed range.
+          wrongAnswers:
+            - text: Normal operating speed range.
+            - text: Lowest part of the caution speed range.
+            - text: Standard approach speed range.
+- id: QYJKJ
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds:
+    - QTFRC
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.06.01.06
+  templates:
+    - type: simple
+      question: The green arc of a conventional Airspeed Indicator (ASI) corresponds to the…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Normal operating speed range.
+          wrongAnswers:
+            - text: Flap operating speed range.
+            - text: Lowest part of the caution speed range.
+            - text: Standard approach speed range.
+- id: QYQNU
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221635
+    - BGS-222478
+    - BGS-220120
+    - AVEXAM-20129
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.06.01.08
+  templates:
+    - type: simple
+      question: "A leak in the total pressure line of a non-pressurised aircraft to an airspeed indicator would cause it to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: underread.
+          wrongAnswers:
+            - text: overread.
+            - text: underread in a climb and over-read in a descent.
+            - text: overread in a climb and under-read in a descent.
+        - correctAnswers:
+            - text: under-read.
+          wrongAnswers:
+            - text: indication will drop to zero.
+            - text: freeze on the value it indicated at the time of failure.
+            - text: over-read.
+- id: QJHRO
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227549
+    - BGS-222385
+    - AVEXAM-82334
+    - ATPLQ-226029
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.06.01.09
+  templates:
+    - type: simple
+      question: What happens when speed becomes unreliable?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It is shown on the PFD, "Speed disagreement".
+          wrongAnswers:
+            - text: Vibration on the floor and pedals.
+            - text: From the horizontal stabiliser, the pilots will receive some kind of vibration through flight controls.
+            - text: Nose pitch up.
+    - type: simple
+      question: What might happen when the aircraft's speed indication becomes unreliable?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Stick shaker activation or airspeed low indications on one side.
+          wrongAnswers:
+            - text: From the horizontal stabiliser, the pilots will receive some kind of vibration through flight controls.
+            - text: Vibration on the floor and pedals.
+            - text: Nose pitch up.
+- id: QUEGP
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229363
+    - AVEXAM-10697
+    - BGS-221899
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.06.01.10
+  templates:
+    - type: simple
+      question: The captain's ASI reads a 5 kt difference from the co-pilot’s ASI. What additional action can the pilots perform?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The groundspeed can be verified from the INS/GNSS.
+          wrongAnswers:
+            - text: They can change the ADC readout.
+            - text: There is nothing the flight crew can do as the difference is within limits.
+            - text: They should divert as soon as possible.
+- id: QGYKY
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds:
+    - QJOTZ
+  externalQuestionIds:
+    - ATPLQ-226259
+    - AVEXAM-81579
+    - BGS-220180
+    - ATPLQ-225139
+    - BGS-220181
+    - AVEXAM-3427
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.07.01.01
+  templates:
+    - type: simple
+      question: An aeroplane is flying at FL{{fl}} with a TAS of {{tas}} kt in standard (ISA) conditions. What is the Mach number?
+      explanation: |-
+        The speed of sound depends only on the air temperature. In ISA conditions the temperature falls at a constant rate of 1.98°C per 1000 ft from 15°C at sea level, so the temperature at the flight level is calculated first, then the local speed of sound, and finally the Mach number.
+
+        $$
+        T_{\text{ISA}} &= 15 - 1.98 \times \frac{ {{fl}} \times 100}{1000} = {{temp}}\ \text{°C} \\
+        T_{\text{Kelvin}} &= 273.15 + ({{temp}}) = {{kelvin}}\ \text{K} \\
+        \text{LSS} &= 38.967854 \times \sqrt{ {{kelvin}} } = {{lss}}\ \text{kt} \\
+        M &= \frac{\text{TAS}}{\text{LSS}} = \frac{ {{tas}} }{ {{lss}} } = \mathbf{ {{answer}} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}**: divides by the sea-level speed of sound (661.5 kt) instead of the speed at the flight level.
+        - **{{d2}}**: uses a temperature 20 K warmer than ISA.
+        - **{{d3}}**: uses a temperature 20 K colder than ISA.
+        - **{{d4}}**: inverts the ratio (speed of sound over TAS).
+      presets:
+        - variables:
+            fl: 300
+            temp: -44.4
+            tas: 470
+            kelvin: 228.75
+            lss: 589.4
+            answer: 0.8
+            d1: 0.71
+            d2: 0.76
+            d3: 0.83
+            d4: 1.25
+          correctAnswers:
+            - text: "0.8 "
+          wrongAnswers:
+            - text: "0.71 "
+            - text: "0.83 "
+            - text: "1.25 "
+            - text: "0.76 "
+        - variables:
+            fl: 250
+            temp: -34.5
+            tas: 440
+            kelvin: 238.65
+            lss: 602.02
+            answer: 0.73
+            d1: 0.67
+            d2: 0.7
+            d3: 0.76
+            d4: 1.37
+          correctAnswers:
+            - text: "0.73 "
+          wrongAnswers:
+            - text: "0.67 "
+            - text: "0.76 "
+            - text: "1.37 "
+            - text: "0.7 "
+        - variables:
+            fl: 330
+            temp: -50.34
+            tas: 460
+            kelvin: 222.81
+            lss: 581.7
+            answer: 0.79
+            d1: 0.7
+            d2: 0.76
+            d3: 0.83
+            d4: 1.26
+          correctAnswers:
+            - text: "0.79 "
+          wrongAnswers:
+            - text: "0.7 "
+            - text: "0.83 "
+            - text: "1.26 "
+            - text: "0.76 "
+    - type: simple
+      question: An aeroplane is flying at FL140 with a CAS of 260 kt in standard conditions. The Mach number is…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "0.51"
+          wrongAnswers:
+            - text: "0.53"
+            - text: "0.41"
+            - text: "0.43"
+        - correctAnswers:
+            - text: "0.50"
+          wrongAnswers:
+            - text: "0.53"
+            - text: "0.41"
+            - text: "0.43"
+- id: QJOTZ
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds:
+    - QGYKY
+  externalQuestionIds:
+    - ATPLQ-228219
+    - BGS-221583
+    - ATPLQ-226213
+    - AVEXAM-58305
+    - AVEXAM-10982
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.07.01.01
+  templates:
+    - type: simple
+      question: An aircraft is cruising at FL{{fl}}, Mach {{mach}}. The ISA deviation is {{dev}}°C. What is the TAS of the aircraft (in kt)?
+      explanation: |-
+        TAS = Mach x local speed of sound, with a = 38.97 x sqrt(T) kt. The temperature is the ISA temperature at the flight level (15°C - 1.98°C per 1000 ft, constant -56.5°C above the tropopause at 36 089 ft) plus the ISA deviation.
+
+        **Solution**
+
+        T = {{macro1}} K, so a = {{macro2}} kt
+
+        TAS = $$\text{Mach number}\times 38.97\times \sqrt{\text{max}(15-\frac{1.98\times \text{Flight level}}{10},-56.5)+\text{ISA deviation}+273.15} = \mathbf{ {{answer}}\ \text{kt} }$$
+
+        ## Why the other answers are wrong
+        - **{{d1}} kt**: ignores the ISA deviation.
+        - **{{d2}} kt**: applies the ISA deviation with the wrong sign.
+        - **{{d3}} kt**: keeps lowering the temperature above the tropopause instead of using the constant -56.5°C.
+        - **{{d4}} kt**: uses the sea-level speed of sound (661.5 kt) instead of the local value.
+      presets:
+        - variables:
+            fl: 410
+            mach: 0.86
+            dev: -12
+            macro1: 205
+            macro2: 557
+            answer: 479
+            d1: 493
+            d2: 507
+            d3: 468
+            d4: 569
+          correctAnswers:
+            - text: 479 kt
+          wrongAnswers:
+            - text: 493 kt
+            - text: 468 kt
+            - text: 569 kt
+            - text: 507 kt
+        - variables:
+            fl: 390
+            mach: 0.82
+            dev: 8
+            macro1: 225
+            macro2: 584
+            answer: 479
+            d1: 470
+            d2: 462
+            d3: 473
+            d4: 542
+          correctAnswers:
+            - text: 479 kt
+          wrongAnswers:
+            - text: 470 kt
+            - text: 473 kt
+            - text: 542 kt
+            - text: 462 kt
+        - variables:
+            fl: 370
+            mach: 0.8
+            dev: -5
+            macro1: 212
+            macro2: 567
+            answer: 454
+            d1: 459
+            d2: 464
+            d3: 452
+            d4: 529
+          correctAnswers:
+            - text: 454 kt
+          wrongAnswers:
+            - text: 459 kt
+            - text: 452 kt
+            - text: 529 kt
+            - text: 464 kt
+    - type: simple
+      question: An aircraft is cruising at FL410 at Mach 0.81 and the ISA deviation is +8°C. What is the TAS of the aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 473 kts
+          wrongAnswers:
+            - text: 584 kts
+            - text: 458 kts
+            - text: 490 kts
+        - correctAnswers:
+            - text: 461 kts
+          wrongAnswers:
+            - text: 470 kts
+            - text: 480 kts
+            - text: 458 kts
+- id: QICWO
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224304
+    - AVEXAM-27629
+    - BGS-220220
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.07.01.02
+  templates:
+    - type: simple
+      question: "The principle of the Mach indicator is based on the computation of the ratio:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (Pt – Ps) / Ps
+          wrongAnswers:
+            - text: Pt / Ps
+            - text: (Pt + Ps) / Ps
+            - text: (Pt – Ps) / Pt
+- id: QMRJF
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222051
+    - AVEXAM-22339
+    - BGS-221580
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.07.01.02
+  templates:
+    - type: simple
+      question: "The following parameters must be determined first before displaying the Mach number:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Dynamic pressure and static pressure.
+          wrongAnswers:
+            - text: Static pressure and outside air temperature.
+            - text: Air density and dynamic pressure.
+            - text: Outside air temperature and air density.
+- id: QCBUS
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229269
+    - AVEXAM-38350
+    - BGS-221455
+    - ATPLQ-224057
+    - AVEXAM-29441
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.07.01.06
+  templates:
+    - type: simple
+      question: Consider a standard atmosphere and NO performance degradation due to increased altitude. During climb through FL260 with a constant CAS of 300 kt the indicated rate of climb is 2 000 feet per minute, and the Mach number is 0.76\. You decide to continue the climb and maintain a constant speed of M 0.76\. What will happen to the Rate of Climb and TAS?
+      explanation: At constant Mach below the tropopause, the temperature falls and so does the speed of sound, so TAS decreases. CAS also decreases. The decelerating climb frees energy, which increases the rate of climb. In a constant CAS climb, TAS rises and so takes energy.
+      presets:
+        - correctAnswers:
+            - text: Rate of Climb will increase and TAS will decrease.
+          wrongAnswers:
+            - text: Rate of Climb will increase and TAS will increase.
+            - text: Rate of Climb will decrease and TAS will decrease.
+            - text: Rate of Climb will decrease and TAS will increase.
+        - correctAnswers:
+            - text: CAS will decrease and TAS will decrease.
+          wrongAnswers:
+            - text: CAS will increase and TAS will increase.
+            - text: CAS will increase and TAS will decrease.
+            - text: CAS will decrease and TAS will increase.
+- id: QNJUW
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227902
+    - BGS-221617
+    - ATPLQ-228876
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.07.01.07
+  templates:
+    - type: simple
+      question: MMO, the maximum operating Mach number...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: must NOT be exceeded in any flight phase.
+          wrongAnswers:
+            - text: may be exceeded if speed remains below VMO.
+            - text: may be exceeded by 0.1 maximum.
+            - text: is increased if the aircraft experiences headwinds.
+    - type: simple
+      question: Which of the following is correct regarding the maximum operating Mach number (M**MO**)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It must NOT be exceeded in any flight phase.
+          wrongAnswers:
+            - text: It may be exceeded by 0.1 point maximum.
+            - text: It is increased if the aircraft experiences headwinds.
+            - text: It may be exceeded If speed remains below VMO.
+- id: QCVMI
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224832
+    - BGS-221733
+    - AVEXAM-87335
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.07.01.08
+  templates:
+    - type: simple
+      question: A typical VMO/MMO indication, on digital instruments with a speed tape is represented by the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: bottom of a striped bar located on the upper part of the speed tape.
+          wrongAnswers:
+            - text: bottom of an amber bar located on the upper part of the speed tape.
+            - text: top of an amber bar located on the lower part of the speed tape.
+            - text: top of a striped bar located on the lower part of the speed tape.
+- id: QQWUM
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229499
+    - AVEXAM-10650
+    - BGS-221674
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.07.01.09
+  templates:
+    - type: simple
+      question: An aeroplane is making a high-speed descent at a constant Mach number. The airspeed is approaching the maximum allowed speed for the given atmospheric conditions. Is the maximum allowed speed likely to be exceeded, if the pilots keep their descent at a constant Mach Number?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes, because the TAS will increase as they descend.
+          wrongAnswers:
+            - text: No, because the TAS will decrease as they descend.
+            - text: Yes, and there is a risk of reaching supersonic speeds.
+            - text: No, because the TAS will remain constant as they descend.
+- id: QJFBE
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223746
+    - BGS-221921
+    - AVEXAM-46245
+    - BGS-222393
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.07.01.10
+  templates:
+    - type: simple
+      question: How is the risk of stalling affected if an aeroplane climbs at constant Mach number?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It increases, as the TAS of the aircraft is decreasing.
+          wrongAnswers:
+            - text: It is unaffected, as the TAS will remain the same.
+            - text: It decreases, as the TAS of the aircraft is increasing.
+            - text: It increases up to around FL200, and then decreases.
+- id: QWLWY
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds:
+    - QWMDZ
+  externalQuestionIds:
+    - ATPLQ-226434
+    - AVEXAM-49260
+    - BGS-221363
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.08.01.01
+  templates:
+    - type: simple
+      question: What is the principle of operation of an Air Data Computer (ADC)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Input of pitot/static and temperature data, conversion to digital/electronic signals, correction of data, transmission to the instrument.
+          wrongAnswers:
+            - text: Receipt of electrical/digital input, transmission to the instruments.
+            - text: Receipt of electrical/digital input, transmission of pressure to the systems.
+            - text: Input of pitot/static and temperature data, application of corrections, transmission through tubes to the instrument.
+- id: QWMDZ
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds:
+    - QWLWY
+  externalQuestionIds:
+    - ATPLQ-226322
+    - AVEXAM-801
+    - BGS-221571
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.08.01.01
+  templates:
+    - type: simple
+      question: |-
+        Which options best describes the principle of operation of the air data computer?
+
+        Pressure and temperature inputs from...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the pitot/static and temperature probes are converted into electrical or digital signals, compensated for temperature and compressibility, and transmitted to instrument displays.
+          wrongAnswers:
+            - text: electrical or digital sensors are converted into pressure signals, automatically compensated for compressibility, and transmitted to instrument displays.
+            - text: electrical or digital sensors are converted into pressure signals, automatically compensated for temperature, and transmitted to instrument displays.
+            - text: the pitot/static and temperature probes are compensated for temperature and compressibility, and transmitted to instrument displays through pipelines.
+- id: QERHN
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227020
+    - BGS-222599
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.08.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. 
+         
+        Regarding the altimeter display shown in the annex, the input pressure source is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: static, and it is converted into a digital signal by a transducer.
+          wrongAnswers:
+            - text: calculated within the instrument, in analogue form, by subtracting static pressure from pitot pressure.
+            - text: static, and it is transmitted from the source to the instrument through a pipeline.
+            - text: calculated by the Air Data Computer by subtracting static pressure from pitot pressure.
+    - type: simple
+      question: Concerning the altimeter read-out shown in the annex, the input pressure is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: static, and it is converted into a digital signal by a transducer.
+          wrongAnswers:
+            - text: calculated by the Air Data Computer by subtracting static pressure from pitot pressure.
+            - text: static, and it is transmitted from the source to the instrument through a pipeline.
+            - text: calculated within the instrument, in analogue form, by subtracting static pressure from pitot pressure.
+- id: QAADA
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222459
+    - BGS-220232
+    - AVEXAM-97047
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.08.01.02
+    - 022.02.08.01.03
+  templates:
+    - type: multiple-correct
+      question: An air data computer
+      explanation: ""
+      options:
+        - text: supplies GS and drift angle
+          correct: false
+        - text: – determines TAT and true altitude
+          correct: false
+        - text: – receives static pressure and total pressure
+          correct: true
+        - text: – supplies TAS to the INS computer
+          correct: true
+        - text: – determines Mach number and OAT.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QCDRT
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229487
+    - AVEXAM-92608
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.08.01.02
+  templates:
+    - type: simple
+      question: What input(s) does the ADC use to obtain CAS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pitot and static pressure
+          wrongAnswers:
+            - text: Static pressure
+            - text: TAS
+            - text: Pitot pressure
+- id: QLUAX
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224589
+    - BGS-220234
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.08.01.03
+  templates:
+    - type: simple
+      question: "In an ADC, the altitude is computed from the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: static pressure.
+          wrongAnswers:
+            - text: OAT.
+            - text: measurement of elapsed time for a radio signal transmitted to the ground surface and back.
+            - text: IRS.
+- id: QLUMH
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228016
+    - BGS-220239
+    - AVEXAM-63100
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.08.01.03
+  templates:
+    - type: multiple-correct
+      question: "The output data calculated by the ADC are:"
+      explanation: ""
+      options:
+        - text: – Attitude
+          correct: false
+        - text: – Pressure altitude
+          correct: true
+        - text: – TAT
+          correct: true
+        - text: – TAS
+          correct: true
+        - text: – CAS
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QWDLD
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227884
+    - BGS-221664
+    - AVEXAM-80014
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.08.01.04
+  templates:
+    - type: multiple-correct
+      question: What are factors used by the Air data Computer for its calculations when going from IAS to TAS?
+      explanation: ""
+      options:
+        - text: Compressibility errors
+          correct: true
+        - text: Density errors
+          correct: true
+        - text: Instrument errors
+          correct: true
+        - text: Pitot errors
+          correct: false
+        - text: Position errors
+          correct: true
+        - text: Temperature errors
+          correct: false
+        - text: Yaw errors
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 3
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 1
+            - 5
+            - 6
+        - show:
+            - 0
+            - 1
+            - 2
+            - 6
+- id: QTFLO
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226111
+    - AVEXAM-71036
+    - BGS-220240
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.08.01.05
+  templates:
+    - type: multiple-correct
+      question: "The output data from an ADC are used by:"
+      explanation: ""
+      options:
+        - text: – Transponder
+          correct: true
+        - text: – EFIS via the symbol generator
+          correct: true
+        - text: – Automatic Flight Control System (AFCS)
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+- id: QVWPD
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228264
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.08.01.05
+  templates:
+    - type: simple
+      question: "The output of an ADC can be used by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: IRS
+          wrongAnswers:
+            - text: GPS
+            - text: ADIRU
+            - text: ADI
+- id: QFMTB
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225255
+    - BGS-221723
+    - BGS-222413
+    - AVEXAM-19396
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.08.01.06
+  templates:
+    - type: multiple-correct
+      question: |-
+        An Air-Data Inertial Reference Unit (ADIRU) has separate controls for switching the air-data and inertial reference part ON or OFF. The pilot accidentally switches OFF the incorrect system when following a procedure to address a fault. What is correct?
+
+        (For this question, only consider the system as a standalone part NOT including other aircraft systems that may also be affected by the scenario.)
+      explanation: In an ADIRU the air-data part recovers at once when switched on again. The inertial reference part needs a full alignment before it gives correct data, so switching it off by mistake severely limits the function until it is realigned.
+      options:
+        - text: If the air-data part is switched OFF instead of the inertial reference part, there is NO effect as the data can be recovered when the air-data part is switched back on.
+          correct: true
+        - text: If the air-data part is switched OFF instead of the inertial reference part, the function is severely limited as the air-data part CANNOT be initialised when switched back ON.
+          correct: false
+        - text: If the inertial reference part is switched OFF instead of the air-data part, the function is severely limited as the inertial reference part CANNOT be fully re-aligned when switched back ON.
+          correct: true
+        - text: If the inertial reference part is switched OFF instead of the air-data part, there is NO effect as the data can be recovered when the inertial reference part is switched back on.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QTPWZ
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223732
+    - AVEXAM-54392
+    - AVEXAM-99898
+    - AVEXAM-82267
+    - AVEXAM-87028
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.08.01.06
+    - 022.05.02.01.03
+  templates:
+    - type: one-two
+      question: Which of these statements about failures of different ADIRU parts are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - If an ADC is accidentally switched off during flight, it is possible to turn it back on.
+          wrong: []
+        - right:
+            - If an IRS is accidentally switched off during flight, it can be problematic as it is not possible to realign it during flight.
+          wrong: []
+- id: QMKJN
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224831
+    - BGS-221240
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.08.01.08
+  templates:
+    - type: simple
+      question: What information is lost to the flight crew if the Air Data Computer fails?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Wind speed and direction.
+          wrongAnswers:
+            - text: Drift angle.
+            - text: Groundspeed.
+            - text: Time at next waypoint.
+- id: QOIVC
+  subjectId: "022"
+  chapterId: "022.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226720
+    - BGS-222383
+  annexes: []
+  learningObjectiveIds:
+    - 022.02.08.01.08
+  templates:
+    - type: multiple-correct
+      question: If the ADC fails, which of the following instruments related to the pitot-static instruments are affected?
+      explanation: ""
+      options:
+        - text: Air Speed Indicator
+          correct: true
+        - text: Vertical Speed Indicator
+          correct: true
+        - text: Altimeter
+          correct: true
+        - text: Attitude indicator
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3

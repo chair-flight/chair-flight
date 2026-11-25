@@ -1,0 +1,1262 @@
+- id: QXVED
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds:
+    - QVNOL
+  annexes:
+    - id: ASWN
+  learningObjectiveIds:
+    - "08.01.03.01.01"
+  templates:
+    - type: simple
+      question: |-
+        Which landing gear component is indicated by number {{marker}}?
+
+        ![Oleo landing gear](annex:ASWN)
+      explanation: ""
+      presets:
+        - variables:
+            marker: "1"
+          correctAnswers:
+            - text: fork.
+          wrongAnswers:
+            - text: strut.
+            - text: torque link.
+            - text: inner shock absorber.
+        - variables:
+            marker: "2"
+          correctAnswers:
+            - text: movable inner cylinder.
+          wrongAnswers:
+            - text: fork.
+            - text: torque link.
+            - text: fixed outer cylinder.
+- id: QCNOO
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes:
+    - id: ACWN
+  learningObjectiveIds:
+    - "08.01.06.08.01"
+  templates:
+    - type: simple
+      question: |-
+        Which propeller blade angle is indicated by arrow {{marker}}? D is the airflow direction, C the chord line and R the direction of rotation.
+
+        ![Propeller blade angles](annex:ACWN)
+      explanation: ""
+      presets:
+        - variables:
+            marker: "1"
+          correctAnswers:
+            - text: angle of incidence.
+          wrongAnswers:
+            - text: angle of attack.
+            - text: geometric wing twist.
+            - text: aerodynamic wing twist.
+        - variables:
+            marker: "3"
+          correctAnswers:
+            - text: angle of attack.
+          wrongAnswers:
+            - text: angle of incidence.
+            - text: geometric wing twist.
+            - text: aerodynamic wing twist.
+- id: QBLBJ
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.02.01.01"
+  templates:
+    - type: simple
+      question: The thickness of the wing is defined as the distance between the lower and the upper side of the wing at the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: thickest part of the wing.
+          wrongAnswers:
+            - text: most inner part of the wing.
+            - text: thinnest part of the wing.
+            - text: most outer part of the wing.
+- id: QNQSG
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.02.02.01"
+  templates:
+    - type: simple
+      question: How is referred to a tubular steel construction with a non self-supporting skin?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Grid construction
+          wrongAnswers:
+            - text: Semi-monocoque construction.
+            - text: Honeycomb structure
+            - text: Monocoque construction
+    - type: simple
+      question: A construction made of frames and stringer with a supporting skin is called...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Semi-monocoque construction.
+          wrongAnswers:
+            - text: Honeycomb structure.
+            - text: Grid construction.
+            - text: Wood- or mixed construction.
+- id: QSYRL
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.02.02.01"
+  templates:
+    - type: simple
+      question: Primary fuselage structures of wood or metal planes are usually made up by what components?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Frames and stringer
+          wrongAnswers:
+            - text: Girders, ribs and stringers
+            - text: Ribs, frames and covers
+            - text: Covers, stringers and forming parts
+- id: QYOUB
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes:
+    - id: ANTP
+  learningObjectiveIds:
+    - "08.01.02.01.01"
+  templates:
+    - type: simple
+      question: |-
+        Which wing configuration is shown in the attachment?
+
+        ![Light aeroplane on grass, viewed from the front quarter](annex:ANTP)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Strut-braced high wing
+          wrongAnswers:
+            - text: High wing
+            - text: Mid wing
+            - text: Low wing
+- id: QKOPO
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes:
+    - id: AJMC
+  learningObjectiveIds:
+    - "08.01.02.01.01"
+  templates:
+    - type: simple
+      question: |-
+        Which tail assembly is shown in the attachment?
+
+        ![Light aeroplane on grass, viewed from the side](annex:AJMC)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: T-tail
+          wrongAnswers:
+            - text: V-tail
+            - text: Fuselage-mounted tail
+            - text: Cruciform tail
+- id: QYTTO
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.02.01.01"
+  templates:
+    - type: simple
+      question: What are the major components of an aircraft's tail?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Horizontal tail and vertical tail
+          wrongAnswers:
+            - text: Ailerons and elevator
+            - text: Rudder and ailerons
+            - text: Steering wheel and pedals
+- id: QBTCK
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.02.01.02"
+  templates:
+    - type: simple
+      question: The sandwich structure consists of two...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: thin layers and a light core material.
+          wrongAnswers:
+            - text: thin layers and a heavy core material.
+            - text: thick layers and a heavy core material.
+            - text: thick layers and a light core material.
+    - type: simple
+      question: Which are the advantages of sandwich structures?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Low weight, high stiffness, high stability, and high strength
+          wrongAnswers:
+            - text: High temperature durability and low weight
+            - text: Good formability and high temperature durability
+            - text: High strength and good formability
+- id: QYRYB
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.02.01.02"
+  templates:
+    - type: simple
+      question: Which constructional elements give the wing its profile shape?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ribs
+          wrongAnswers:
+            - text: Planking
+            - text: Spar
+            - text: Tip
+- id: QGRVJ
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.01.01"
+  templates:
+    - type: simple
+      question: The load factor "n" describes the relationship between...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: lift and weight.
+          wrongAnswers:
+            - text: thrust and drag.
+            - text: drag and lift.
+            - text: weight and thrust.
+- id: QEXPY
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.02.01.02"
+  templates:
+    - type: simple
+      question: Which of the stated materials shows the highest strength?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Carbon fibre re-inforced plastic
+          wrongAnswers:
+            - text: Aluminium
+            - text: Wood
+            - text: Magnesium
+- id: QSBDQ
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.01.01"
+  templates:
+    - type: simple
+      question: What needs to be considered if permissible limitations were exceeded?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The aircraft must be inspected by a qualified engineer before the next flight
+          wrongAnswers:
+            - text: The aircraft must be inspected by the pilot in command and if no defect is found, no appropriate entry in the aircraft technical log is necessary
+            - text: The aircraft must be inspected by at least two pilots licensed on the type, one of whom must be the pilot in command
+            - text: The aircraft must be subjected to a duplicate inspected by two engineers
+- id: QYATB
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.01.01"
+  templates:
+    - type: simple
+      question: Reasons for dents in the aircraft structure are...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: hard landing or excessive stress.
+          wrongAnswers:
+            - text: material defects or old colour.
+            - text: intense erosion or high wear.
+            - text: excessive engine rpm and cylinder defects.
+- id: QKXPV
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.02.03.03"
+  templates:
+    - type: simple
+      question: What kind of hydraulic oil is used in aeroplane systems today?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Synthetic oil
+          wrongAnswers:
+            - text: Mineral oil
+            - text: Vegetable oil
+            - text: Bio-oil
+- id: QNWGL
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.01.01"
+  templates:
+    - type: simple
+      question: The fuselage structure may be damaged by...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: exceeding the manoeuvering speed in heavy gusts.
+          wrongAnswers:
+            - text: neutralizing stick forces according to actual flight state.
+            - text: stall after exceeding the maximum angle of attack.
+            - text: airspeed decreasing below a certain value.
+- id: QVNOL
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds:
+    - QXVED
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.03.01.02"
+  templates:
+    - type: simple
+      question: How is the nose or tail wheel usually controlled on small aircraft and motor gliders?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: By the pedals
+          wrongAnswers:
+            - text: By the steering wheel
+            - text: By the control column
+            - text: By weight movement
+    - type: simple
+      question: What kind of control surface is connected with the nose wheel?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Rudder
+          wrongAnswers:
+            - text: Elevator
+            - text: Trim rudder
+            - text: Aileron
+- id: QQMYI
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.03.02.02"
+  templates:
+    - type: simple
+      question: Where is the brake system installed to slow the aircraft on ground?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Only on the main gear
+          wrongAnswers:
+            - text: On the tail wheel
+            - text: On the nose and main gear
+            - text: Only on the nose gear
+- id: QOKGE
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes:
+    - id: ACHZ
+  learningObjectiveIds:
+    - "08.01.03.03.01"
+  templates:
+    - type: simple
+      question: |-
+        What is checked by the marking in the attachment?
+
+        ![Pointing to a red marking across an aircraft wheel rim and tyre](annex:ACHZ)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The correct postion of the tyre relative to the rim
+          wrongAnswers:
+            - text: The tread wear of the tyre
+            - text: The operating pressure of the carcass
+            - text: The correct position of the outer isolation layers
+- id: QDKOW
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.03.04.02"
+  templates:
+    - type: simple
+      question: About how many axes does an aircraft move and how are these axes called?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3; vertical axis, lateral axis, longitudinal axis
+          wrongAnswers:
+            - text: 4; optical axis, imaginary axis, sagged axis, axis of evil
+            - text: 4; vertical axis, lateral axis, longitudinal axis, axis of speed
+            - text: 3; x-axis, y-axis, z-axis
+- id: QTWWM
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.03.04.02"
+  templates:
+    - type: simple
+      question: A movement around the longitudinal axis is primarily initiated by the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ailerons.
+          wrongAnswers:
+            - text: rudder.
+            - text: elevator.
+            - text: trim tab.
+- id: QHCHG
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.03.04.01"
+  templates:
+    - type: simple
+      question: How are the flight controls on a small single-engine piston aircraft normally controlled and actuated?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Manually through rods and control cables
+          wrongAnswers:
+            - text: Power-assisted through hydraulic pumps or electric motors
+            - text: Hydraulically through hydraulic pumps and actuators
+            - text: Electrically through fly-by-wire
+- id: QYJTA
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.03.04.02"
+  templates:
+    - type: simple
+      question: What are the primary and the secondary effects of a rudder input to the left?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "Primary: yaw to the left Secondary: roll to the left"
+          wrongAnswers:
+            - text: "Primary: yaw to the left Secondary: roll to the right"
+            - text: "Primary: yaw to the right Secondary: roll to the left"
+            - text: "Primary: yaw to the right Secondary: roll to the right"
+- id: QDGIG
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.03.04.02"
+  templates:
+    - type: simple
+      question: What is the effect of pulling the control yoke or stick backwards?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The aircraft's tail will produce an increased downward force, causing the aircraft's nose to rise
+          wrongAnswers:
+            - text: The aircraft's tail will produce an increased downward force, causing the aircraft's nose to drop
+            - text: The aircraft's tail will produce an decreased upward force, causing the aircraft's nose to drop
+            - text: The aircraft's tail will produce an increased upward force, causing the aircraft's nose to rise
+- id: QNVKR
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.03.04.02"
+  templates:
+    - type: simple
+      question: What happens to a aircraft during cruise when the stick is moved forward without other corrections?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The speed increases and the sink rate increases
+          wrongAnswers:
+            - text: The speed decreases and the sink rate increases
+            - text: The speed increases and the sink rate decreases
+            - text: The speed decreases and the sink rate decreases
+- id: QPIQB
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.03.04.02"
+  templates:
+    - type: simple
+      question: Which of the following options states all primary flight controls of an aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Elevator, rudder, aileron
+          wrongAnswers:
+            - text: All movable parts on the aircraft which aid in controlling the aircraft
+            - text: Flaps, slats, speedbrakes
+            - text: Elevator, rudder, aileron, trim tabs, high-lift wing devices, power controls
+- id: QQHQU
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.03.05.01"
+  templates:
+    - type: simple
+      question: What is the purpose of the secondary flight controls?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To improve the performance characteristics of an aircraft and relieve the pilot of excessive control forces
+          wrongAnswers:
+            - text: To constitute a backup system for the primary flight controls
+            - text: To improve the turn characteristics of an aircraft in the low speed regime during approach and landing
+            - text: To enable the pilot to control the aircraft's movements about its three axes
+    - type: simple
+      question: Which of the following are an aircraft's secondary flight controls?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Wing flaps, leading edge devices, spoilers or speedbrakes, trim systems
+          wrongAnswers:
+            - text: Elevator, rudder, aileron
+            - text: All movable parts on the aircraft which aid in controlling the aircraft
+            - text: Elevator, rudder, aileron, trim tabs, high-lift wing devices, power controls
+- id: QTASI
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.03.05.01"
+  templates:
+    - type: simple
+      question: What is the purpose of a ground adjustable trim tab?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It is a non-movable metal tab on a flight control which is adjusted on the ground to optimise the inflight characteristics of an aircraft
+          wrongAnswers:
+            - text: It is set on the ground to correct an out-of-trim condition arising from the mass and balance situation of an aircraft
+            - text: It is preset on the ground and further adjusted in flight to reduce the need to constantly re-trim the aircraft
+            - text: It is used to optimise the handling characteristics of an aircraft during ground operations
+- id: QVFHG
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.03.05.01"
+  templates:
+    - type: simple
+      question: The trim wheel or lever in the cockpit is moved aft by the pilot. What effect does this action have on the trim tab and on the elevator?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The trim tab moves down, the elevator moves up
+          wrongAnswers:
+            - text: The trim tab moves up, the elevator moves up
+            - text: The trim tab moves up, the elevator moves down
+            - text: The trim tab moves down, the elevator moves down
+    - type: simple
+      question: When trimming an aircraft nose up, in which direction does the trim tab move?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It moves down
+          wrongAnswers:
+            - text: Depends on CG position
+            - text: It moves up
+            - text: In direction of rudder deflection
+- id: QRNJM
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.03.05.01"
+  templates:
+    - type: simple
+      question: How does a balance tab move in relation to the flight control surface that it is coupled with?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In the opposite direction
+          wrongAnswers:
+            - text: At an angle of 90°
+            - text: At an angle of 45°
+            - text: In the same direction
+- id: QZYSU
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.03.05.01"
+  templates:
+    - type: simple
+      question: The trim is used to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: adapt the control force.
+          wrongAnswers:
+            - text: increase adverse yaw.
+            - text: move the centre of gravity.
+            - text: lock control elements.
+- id: QKKPE
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.04.01.01"
+  templates:
+    - type: simple
+      question: What has to be considered during refueling?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No open fires, obey smoking ban and apply ground cables
+          wrongAnswers:
+            - text: Check the fuel content of the tank with a torch and remove fire protection
+            - text: Refuel through a soaked rag and keep a fire extinguisher available
+            - text: Apply ground wires, turn on the main switch and magneto ignition
+- id: QNDNM
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.04.01.01"
+  templates:
+    - type: simple
+      question: The primer is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: an auxiliary pump in the fuel system to facilitate engine starting.
+          wrongAnswers:
+            - text: a mechanical switch in the cockpit to engage the turbocharger.
+            - text: a valve in the fuel control system for automatic mixture regulation.
+            - text: a nozzle in the Venturi tube of a carburettor for atomising the fuel.
+- id: QUTFR
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.04.01.01"
+  templates:
+    - type: simple
+      question: What is the purpose of the tank ventilation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To prevent underpressure caused by fuel consumption
+          wrongAnswers:
+            - text: To prevent water disposal during parking
+            - text: To distribute the fuel from one tank segment to the other during flight
+            - text: To prevent fuel spillage during refueling on the filler plug
+- id: QJQYZ
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.05.06.01"
+  templates:
+    - type: simple
+      question: "An aeroplane's current supply is carried out by the: 1) Battery 2) Generator 3) Relay 4) Circuit Breaker"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 and 2
+          wrongAnswers:
+            - text: 1 and 4
+            - text: 3 and 4
+            - text: 2 and 3
+- id: QDPGX
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.05.01.01"
+  templates:
+    - type: simple
+      question: What is the unit for voltage?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Volt
+          wrongAnswers:
+            - text: Ampere
+            - text: Watt
+            - text: Ohm
+    - type: simple
+      question: What is the unit for electrical power?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Watt
+          wrongAnswers:
+            - text: Ampere
+            - text: Ohm
+            - text: Volt
+- id: QTPPM
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.05.03.02"
+  templates:
+    - type: simple
+      question: What is the reason for static dischargers on aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To discharge static charging during flight
+          wrongAnswers:
+            - text: To ensure grounding during refueling
+            - text: To eliminate electrical interferences during intensive radio traffic
+            - text: To improve the quality of radio transmission in high altitudes
+- id: QPLQB
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.05.04.02"
+  templates:
+    - type: simple
+      question: What must be considered if the alternator fails in an Aeroplane?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No change as long as the battery provides enough power
+          wrongAnswers:
+            - text: All instruments and warning systems will fail
+            - text: The engine runs roughly and is prone to knocking
+            - text: Only high power consumers will failing
+- id: QWEDM
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.05.01.01"
+  templates:
+    - type: simple
+      question: When using direct current, electrically driven flight instruments are marked with...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: DC
+          wrongAnswers:
+            - text: EL
+            - text: AL
+            - text: CO
+- id: QCNJS
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.05.06.01"
+  templates:
+    - type: simple
+      question: What devices can be affected by a failure of the electrical system in an Aeroplane?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Radio equipment, navigation equipment and gyros
+          wrongAnswers:
+            - text: Fuel quantity indication, radio equipment and altimeter
+            - text: Radio equipment, navigation equipment and magnetic compass
+            - text: Airspeed indicator, altimeter and artificial horizon
+- id: QHWQZ
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.06.01.02"
+  templates:
+    - type: simple
+      question: Which cylinder arragement is commonly used on small aircrafts and motor gliders?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Horizontally opposed engine
+          wrongAnswers:
+            - text: Radial engine
+            - text: In-line engine
+            - text: V-type engine
+- id: QCMXK
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes:
+    - id: AAHB
+    - id: ACKL
+  learningObjectiveIds:
+    - "08.01.06.01.01"
+  templates:
+    - type: simple
+      question: |-
+        Which part of the cycle of a four-stroke Otto engine can be seen in the attachment?
+
+        ![Four-stroke piston engine cylinder](annex:AAHB)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: First stroke - induction
+          wrongAnswers:
+            - text: Second stroke - compression
+            - text: Fourth stroke - exhaust
+            - text: Third stroke - power
+    - type: simple
+      question: |-
+        Which part of the cycle of a four-stroke Otto engine can be seen in the attachment?
+
+        ![Four-stroke piston engine cylinder](annex:ACKL)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Second stroke - compression
+          wrongAnswers:
+            - text: Third stroke - power
+            - text: Fourth stroke - exhaust
+            - text: First stroke - induction
+- id: QOKMR
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.06.06.01"
+  templates:
+    - type: simple
+      question: What is likely to be the cause if the engine runs unusually rough while checking the magnetos?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Sparking plug is defective
+          wrongAnswers:
+            - text: Starter is faulty
+            - text: Short circuit on the ground cable
+            - text: Ignition switch is faulty
+- id: QTUEY
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.04.01.01"
+  templates:
+    - type: simple
+      question: The highest absorbtion of humidity in fuel can be observed in which situation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Almost empty tanks
+          wrongAnswers:
+            - text: During parking on wet gras areas
+            - text: During parking on cold aprons
+            - text: Almost full tanks
+- id: QORGY
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.04.01.01"
+  templates:
+    - type: simple
+      question: Where does the condensation water converge in the tank?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: At the lowest position
+          wrongAnswers:
+            - text: It floats on the fuel
+            - text: Near the cap of the tank
+            - text: It is mixed with the fuel
+- id: QJLLP
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.06.02.01"
+  templates:
+    - type: simple
+      question: What does the octane rating or fuel grade describe?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Anti-knock rating
+          wrongAnswers:
+            - text: Flame front speed
+            - text: Ignition timing
+            - text: Combustion temperature
+- id: QTFYX
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.06.02.01"
+  templates:
+    - type: simple
+      question: Which colour does Avgas 100 LL have?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Blue
+          wrongAnswers:
+            - text: Red
+            - text: Green
+            - text: Yellow
+- id: QPUCA
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds:
+    - QPANG
+    - QAYUX
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.06.03.03"
+  templates:
+    - type: simple
+      question: What is the direct influence by switching on the carburettor heating on fixed propeller engines during engine run-up?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: RPM decreases
+          wrongAnswers:
+            - text: Angle of attack decreases
+            - text: Angle of attack increases
+            - text: RPM increaes
+    - type: simple
+      question: In which outside air temperature is icing most likely?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Between -5 °C and +20 °C
+          wrongAnswers:
+            - text: Between -10 °C and +10 °C
+            - text: Between -20 °C and +5 °C
+            - text: Between -15 °C and 0 °C
+- id: QPANG
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds:
+    - QPUCA
+    - QAYUX
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.06.03.01"
+  templates:
+    - type: simple
+      question: What is the major task of a carburettor?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To produce an ignitable air/fuel mixture
+          wrongAnswers:
+            - text: To pump fuel from the tanks into the cylinder
+            - text: To control the aircraft's speed through the throttle valve
+            - text: To provide additional fuel to cool the engine
+- id: QAYUX
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds:
+    - QPUCA
+    - QPANG
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.06.03.03"
+  templates:
+    - type: simple
+      question: In which phase of flight must the carburettor heating be switched off although carburettor icing might be expected?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: During take-off
+          wrongAnswers:
+            - text: During climb
+            - text: During cruise
+            - text: During taxi
+- id: QAGTL
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.06.04.01"
+  templates:
+    - type: simple
+      question: What is the task of cooling fins on air-cooled engine cylinders?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Quick heat transfer to the surrounding air flow by expanding the surface
+          wrongAnswers:
+            - text: Cooling of the cylinder surrounding airflow and forwarding to hotter engine parts
+            - text: Leading the airflow to parts designated to be cooled
+            - text: Increasing the airflow thus improving cooling of cylinder parts
+- id: QTSWY
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.06.04.01"
+  templates:
+    - type: simple
+      question: Cylinder head temperature indication relates to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the critical cylinder.
+          wrongAnswers:
+            - text: all Cylinders.
+            - text: a random cylinder.
+            - text: the average of all cylinders.
+- id: QJVGV
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.06.05.02"
+  templates:
+    - type: simple
+      question: What happens during oil filter clocking?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A bypass valve opens thus enabling the circulation to continue, debris will not be filtered
+          wrongAnswers:
+            - text: A bypass valve opens thus enabling the circulation to continue, debris will be filtered by an alternate filter
+            - text: The oil circulation will end after 15 minutes so that a proper engine run will not be guaranteed
+            - text: The oil circulation will end after 30 minutes so that a proper engine run will not be guaranteed
+- id: QTIFF
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.06.07.01"
+  templates:
+    - type: simple
+      question: How should an Otto engine be shut down?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: By completely leaning the mixture
+          wrongAnswers:
+            - text: By moving the propeller to the feathered position
+            - text: By closing the throttle lever completely
+            - text: By shutting down the generator
+- id: QNCJL
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.06.06.01"
+  templates:
+    - type: simple
+      question: Piston engines of aircrafts have...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: two independent ignition systems.
+          wrongAnswers:
+            - text: one magneto ignition system.
+            - text: one electrical ignition system.
+            - text: two coupled ignition systems.
+- id: QIPSP
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.06.07.01"
+  templates:
+    - type: simple
+      question: How do you call fuel mixtures with a high amount of fuel?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Rich
+          wrongAnswers:
+            - text: Lean
+            - text: Full
+            - text: Empty
+- id: QSBPG
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.06.08.03"
+  templates:
+    - type: simple
+      question: How should a power increase be executed on a constant-speed propeller, provided that no other procedure is described in the flight manual?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1) Increase RPM 2) Increase manifold pressure
+          wrongAnswers:
+            - text: 1) Decrease manifold pressure 2) Increase RPM
+            - text: 1) Decrease RPM 2) Increase manifold pressure
+            - text: 1) Increase manifold pressure 2) Increase RPM
+    - type: simple
+      question: How should a power decrease be executed on a constant-speed propeller, provided that no other procedure is described in the flight manual?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1) Decrease manifold pressure 2) Decrease RPM
+          wrongAnswers:
+            - text: 1) Decrease RPM 2) Decrease manifold pressure
+            - text: 1) Decrease manifold pressure 2) Increase RPM
+            - text: 1) Decrease RPM 2) Increase manifold pressure
+- id: QAZDU
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.06.07.01"
+  templates:
+    - type: simple
+      question: With increasing altitude and unchanged mixture setting, the air/fuel mixture...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: becomes richer.
+          wrongAnswers:
+            - text: becomes more lean.
+            - text: stays constant.
+            - text: becomes liquid.
+- id: QZSRZ
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.06.09.01"
+  templates:
+    - type: simple
+      question: With increasing altitude, the power of a carburettor engine...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: decreases.
+          wrongAnswers:
+            - text: remains constant.
+            - text: first decreases, from 5000 ft on increases.
+            - text: increases.
+- id: QLUJZ
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.06.06.01"
+  templates:
+    - type: simple
+      question: During ignition check the ignition is switched to OFF for a short moment and subsequently back to BOTH. What happens to the RPM if the ignition system is properly grounded?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The RPM decreases once switched to OFF and resumes the previous value when switched back to BOTH
+          wrongAnswers:
+            - text: The RPM increases once switched to OFF and resumes a value below the previous one when switched back to BOTH
+            - text: The RPM increases once switched to OFF and resumes the previous value when switched back to BOTH
+            - text: The RPM decreases once switched to OFF and resumes a value below the previous one when switched back to BOTH
+- id: QNISV
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.06.01.01"
+  templates:
+    - type: simple
+      question: What engines are commonly used with Touring Motor Gliders (TMG)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 4 Cylinder; 4 stroke
+          wrongAnswers:
+            - text: 4 Cylinder 2 stroke
+            - text: 2 Cylinder Diesel
+            - text: 2 plate Wankel
+- id: QRYPL
+  subjectId: "08"
+  chapterId: "08.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.01.06.05.02"
+  templates:
+    - type: simple
+      question: What is the purpose of engine oil in piston engine?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cooling, lubrication of the engine and disposal of fine abrasion.
+          wrongAnswers:
+            - text: Cooling of the engine and lubrication of propeller shaft.
+            - text: For nose reduction and bearing of the propeller shaft.
+            - text: Cooling, lubrication and increasing engine performance.

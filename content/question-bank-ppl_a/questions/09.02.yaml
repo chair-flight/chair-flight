@@ -1,0 +1,842 @@
+- id: QHGUA
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds:
+    - QLCSB
+    - QFWVC
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.02.01.02"
+  templates:
+    - type: simple
+      question: The VHF direction-finding station reports a QDR of {{bearing}}°. In which direction from the station is the aeroplane?
+      explanation: QDR is the magnetic bearing from the station to the aeroplane. Read it outward from the station on a compass rose.
+      presets:
+        - variables:
+            bearing: "225"
+          correctAnswers:
+            - text: Southwest
+          wrongAnswers:
+            - text: Northeast
+            - text: Southeast
+            - text: Northwest
+        - variables:
+            bearing: "135"
+          correctAnswers:
+            - text: Southeast
+          wrongAnswers:
+            - text: Northeast
+            - text: Southwest.
+            - text: Northwest
+        - variables:
+            bearing: "315"
+          correctAnswers:
+            - text: Northwest
+          wrongAnswers:
+            - text: Southeast
+            - text: Southwest
+            - text: Northeast
+- id: QFTYF
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes:
+    - id: AHYE
+  learningObjectiveIds:
+    - "09.02.01.01.01"
+  templates:
+    - type: simple
+      question: |-
+        What radio navigation aid can be received with the attached aerial?
+
+        ![Antenna mounted on the outside of an aeroplane](annex:AHYE)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: NDB
+          wrongAnswers:
+            - text: VOR
+            - text: VDF
+            - text: DME
+- id: QCROV
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.01.02.01"
+  templates:
+    - type: simple
+      question: The approximate propagation speed of electromagnetic waves is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 300000 km/s
+          wrongAnswers:
+            - text: 300000 m/s
+            - text: 300000 NM/s
+            - text: 300000 ft/s
+- id: QWWPX
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.01.02.01"
+  templates:
+    - type: simple
+      question: Radio waves within the LF and MF range (e.g. NDB) travel as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: sky wave and as ground / surface wave.
+          wrongAnswers:
+            - text: ground / surface wave.
+            - text: sky wave.
+            - text: space wave (quasi-optical).
+    - type: simple
+      question: Radio waves within the VHF range (e.g. VOR) travel as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: space wave (quasi-optical).
+          wrongAnswers:
+            - text: sky wave.
+            - text: sky wave and ground / surface wave.
+            - text: ground / surface wave.
+    - type: simple
+      question: Quasi-optical waves travel...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: through the air directly from the transmitter to the receiver.
+          wrongAnswers:
+            - text: through the air and are influenced (e.g. reflected) by the ionosphere.
+            - text: along the surface of the earth.
+            - text: along the surface of the earth, but are absorbed by the sea.
+- id: QNIOI
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.02.01.01"
+  templates:
+    - type: simple
+      question: A VHF direction finder (VDF) can determine...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: magnetic bearings.
+          wrongAnswers:
+            - text: true courses.
+            - text: slant ranges.
+            - text: approach speeds.
+- id: QHIOJ
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.02.01.01"
+  templates:
+    - type: simple
+      question: Which equipment is needed on board of an aircraft to use a VHF direction finder (VDF)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A VHF radio
+          wrongAnswers:
+            - text: A relative bearing indicator (RBI)
+            - text: At least two VHF aerials
+            - text: A VDF receiver
+- id: QFWVC
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds:
+    - QLCSB
+    - QHGUA
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.02.01.02"
+  templates:
+    - type: simple
+      question: "Given: - QDM: 138° - VAR: 10° E The QUJ equals..."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 148°
+          wrongAnswers:
+            - text: 168°
+            - text: 328°
+            - text: 318°
+    - type: simple
+      question: "Given: - QTE: 229° - VAR: 10° W The QDM equals..."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 059°
+          wrongAnswers:
+            - text: 039°
+            - text: 049°
+            - text: 239°
+    - type: simple
+      question: "Given: - QDR: 022° - VAR: 10° E The QTE equals..."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 032°
+          wrongAnswers:
+            - text: 212°
+            - text: 052°
+            - text: 202°
+    - type: simple
+      question: "Given: - QDM: 248° - VAR: 10° W The QTE is..."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 058°
+          wrongAnswers:
+            - text: 238°
+            - text: 078°
+            - text: 258°
+    - type: simple
+      question: "Given: - QDR: 067° - VAR: 5° E The QDM equals..."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 247°
+          wrongAnswers:
+            - text: 252°
+            - text: 072°
+            - text: 257°
+    - type: simple
+      question: "Given: - QDR: 152° - VAR: 5° W - DEV: 5° E The QUJ equals..."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 327°
+          wrongAnswers:
+            - text: 147°
+            - text: 332°
+            - text: 317°
+    - type: simple
+      question: "Given: - QTE: 203° - VAR: 10° E - The QDR equals..."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 193°
+          wrongAnswers:
+            - text: 013°
+            - text: 213°
+            - text: 023°
+    - type: simple
+      question: "Given: - QTE: 248° - VAR: 10° W The QDR equals..."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 258°
+          wrongAnswers:
+            - text: 238°
+            - text: 078°
+            - text: 068°
+    - type: simple
+      question: "Given: - QDM: 134° - VAR: 5° W The QTE equals..."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 309°
+          wrongAnswers:
+            - text: 129°
+            - text: 314°
+            - text: 299°
+- id: QGQHS
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.02.01.06"
+  templates:
+    - type: simple
+      question: The VDF range depends on...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the aircraft's altitude.
+          wrongAnswers:
+            - text: the range of the ground / surface wave.
+            - text: the aircraft's speed.
+            - text: the condition of the ionosphere.
+- id: QABGC
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.02.02.01"
+  templates:
+    - type: simple
+      question: Which equipment is needed on board of an aircraft to receive signals from a non-directional beacon (NDB)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Automatic direction finder (ADF)
+          wrongAnswers:
+            - text: Secondary surveillance radar (SSR)
+            - text: Horizontal situation indicator (HSI)
+            - text: Course deviation indicator (CDI)
+- id: QGPHR
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.02.02.01"
+  templates:
+    - type: simple
+      question: Non-directional beacons (NDBs) transmit within which frequency band?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Low frequency (LF) and medium frequency (MF)
+          wrongAnswers:
+            - text: Very high frequency (VHF)
+            - text: Very low frequency (VLF) and low frequency (LF)
+            - text: High frequency (HF)
+- id: QEVRP
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.02.02.02"
+  templates:
+    - type: simple
+      question: A pilot wants to approach an NDB on QDM 090°. The aircraft flies for about 5 minutes with a magnetic heading (MH) of 095° and the RBI indication of 355°. After 6 minutes the RBI indicates 358°. Which statement is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The crosswind component increased; the pilot has to increase the MH
+          wrongAnswers:
+            - text: The crosswind component decreased; the pilot has to decrease the MH
+            - text: The crosswind component increased; the pilot has to decrease the MH
+            - text: The crosswind component decreased; the pilot has to increase the MH
+- id: QQOLW
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes:
+    - id: AIKT
+  learningObjectiveIds:
+    - "09.02.02.02.02"
+  templates:
+    - type: simple
+      question: |-
+        The pilot wants to proceed directly to the beacon. The wind is calm. The pilot should follow a QDM of...
+
+        ![Heading indicator and relative bearing indicator](annex:AIKT)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 260°
+          wrongAnswers:
+            - text: 080°
+            - text: 230°
+            - text: 200°
+- id: QNBTK
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.02.02.04"
+  templates:
+    - type: simple
+      question: What is the difference between a locator beacon and a non-directional beacon (NDB)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Locator beacons have a lower range than NDBs
+          wrongAnswers:
+            - text: Locator beacons transmit on request only
+            - text: Locator beacons have a higher range than NDBs
+            - text: Locator beacons transmit more precisely
+- id: QICIJ
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.02.02.04"
+  templates:
+    - type: simple
+      question: The range of NDBs transmitting in the medium frequency range is greatest...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: at night.
+          wrongAnswers:
+            - text: in the daytime.
+            - text: before midday.
+            - text: on midday.
+- id: QMLLD
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.02.02.05"
+  templates:
+    - type: simple
+      question: The shoreline effect is greatest with radio wave propagation...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: at an acute angle to the coast; aircraft below 6000 ft
+          wrongAnswers:
+            - text: at a right angle to the coast; aircraft above 6000 ft
+            - text: at a right angle to the coast; aircraft below 6000 ft
+            - text: at an acute angle to the coast; aircraft above 6000 ft
+- id: QTLKC
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.02.02.05"
+  templates:
+    - type: simple
+      question: Fading in LF/MF frequency range occurs mainly...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: during the night.
+          wrongAnswers:
+            - text: at midday.
+            - text: in the late afternoon.
+            - text: in the daytime.
+- id: QQHDR
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.01.02.01"
+  templates:
+    - type: simple
+      question: The progress of an electromagnetic oscillation can be described by the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: phase angle.
+          wrongAnswers:
+            - text: frequency angle.
+            - text: amplitude angle.
+            - text: wave angle.
+- id: QOGUZ
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.01.02.01"
+  templates:
+    - type: simple
+      question: When transmitter and receiver are moving towards each other...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the perceived frequency increases.
+          wrongAnswers:
+            - text: the perceived frequency equals the transmitted frequency.
+            - text: the perceived frequency decreases.
+            - text: the frequency varies, but the wavelength remains constant.
+    - type: simple
+      question: When transmitter and receiver are moving away from each other...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the perceived frequency decreases.
+          wrongAnswers:
+            - text: the perceived frequency equals the transmitted frequency.
+            - text: the frequency varies, but the wavelength remains constant.
+            - text: the perceived frequency increases.
+- id: QSJGR
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds:
+    - QNEZL
+    - QYDRR
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.02.03.01"
+  templates:
+    - type: simple
+      question: VOR radials are defined based on the principle of...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: phase comparison of two signals.
+          wrongAnswers:
+            - text: frequency comparison of two signals.
+            - text: pulse comparison of two signals.
+            - text: amplitude comparison of two signals.
+- id: QPMZL
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.02.03.01"
+  templates:
+    - type: simple
+      question: A VOR radial corresponds to the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: QDR.
+          wrongAnswers:
+            - text: QTE.
+            - text: QUJ.
+            - text: QDM.
+- id: QNEZL
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds:
+    - QSJGR
+    - QYDRR
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.02.03.02"
+  templates:
+    - type: simple
+      question: Full deflection of the course deviation indicator (CDI) means that the aircraft is located at least...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 10° beside the selected course
+          wrongAnswers:
+            - text: 2 NM beside the selected course
+            - text: 10 NM beside the selected course
+            - text: 2° beside the selected course
+- id: QPVFS
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes:
+    - id: ALLG
+  learningObjectiveIds:
+    - "09.02.02.03.02"
+  templates:
+    - type: simple
+      question: |-
+        With the OBS set as shown, in which quadrant relative to the VOR is the aeroplane?
+
+        ![VOR indicator with a selected course, a centred needle and a TO indication](annex:ALLG)
+      explanation: The CDI is centred with 210° selected and a TO indication. The aeroplane is on the reciprocal 030° radial, north-east of the VOR.
+      presets:
+        - correctAnswers:
+            - text: North-east
+          wrongAnswers:
+            - text: South-east
+            - text: South-west
+            - text: North-west
+- id: QYDRR
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds:
+    - QSJGR
+    - QNEZL
+  annexes:
+    - id: AFMC
+  learningObjectiveIds:
+    - "09.02.02.03.02"
+  templates:
+    - type: simple
+      question: |-
+        The aircraft is on radial...
+
+        ![VOR course deviation indicator](annex:AFMC)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 234°
+          wrongAnswers:
+            - text: 066°
+            - text: 060°
+            - text: 246°
+- id: QCOAB
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.02.03.06"
+  templates:
+    - type: simple
+      question: The range of a VOR is affected by...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: transmitter and receiver altitude.
+          wrongAnswers:
+            - text: multipath propagation of the ground wave.
+            - text: daylight interference.
+            - text: reflected sky waves.
+- id: QCNWT
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds:
+    - QTWCF
+    - QREKU
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.02.04.01"
+  templates:
+    - type: simple
+      question: The distance measuring equipment (DME) determines the distance based on the principle of...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: time measurement.
+          wrongAnswers:
+            - text: laser measurement.
+            - text: phase comparison.
+            - text: Doppler.
+- id: QTWCF
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds:
+    - QCNWT
+    - QREKU
+  annexes:
+    - id: ADNC
+  learningObjectiveIds:
+    - "09.02.02.04.02"
+  templates:
+    - type: simple
+      question: The DME reading is a...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: slant range.
+          wrongAnswers:
+            - text: air range.
+            - text: ground distance.
+            - text: radial distance.
+    - type: simple
+      question: |-
+        The DME shows 121 NM. That means...
+
+        ![Distance measuring equipment display](annex:ADNC)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the distance of 121 NM is calculated from GS and flight time
+          wrongAnswers:
+            - text: the TAS is 121 NM/h
+            - text: this value is only correct when heading towards the station
+            - text: the distance to the station is 121 NM
+- id: QREKU
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds:
+    - QCNWT
+    - QTWCF
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.02.04.05"
+  templates:
+    - type: simple
+      question: The differenz between indicated DME slant range and horizontal distance from the DME station increases...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: when approaching the DME station.
+          wrongAnswers:
+            - text: when circling around the DME station.
+            - text: when descending.
+            - text: when departing the DME station.
+- id: QELBH
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.03.01.01"
+  templates:
+    - type: simple
+      question: Using primary ground radar, the direction of the aeroplane in relation to the antenna is determined by...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the orientation of the antenna.
+          wrongAnswers:
+            - text: time measurement.
+            - text: the pulse pair interval.
+            - text: the frequency shift of the received pulse.
+- id: QCXIG
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.03.01.02"
+  templates:
+    - type: simple
+      question: Which instantaneous information can be obtained from ground radar equipment?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Distance and direction
+          wrongAnswers:
+            - text: Airspeed (TAS) and heading
+            - text: Direction and airspeed (TAS)
+            - text: Airspeed (TAS) and distance
+- id: QUNDH
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.03.02.01"
+  templates:
+    - type: simple
+      question: The on-board equipment of the secondary surveillance radar (SSR) is called...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: transponder.
+          wrongAnswers:
+            - text: course indicator.
+            - text: decoder.
+            - text: interrogator.
+- id: QKOYN
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.03.01.01"
+  templates:
+    - type: simple
+      question: What is the difference between primary and secondary radar?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The pulses of a primary radar are reflected by the aircraft's surface, the pulses of a secondary radar system are answered by a transponder
+          wrongAnswers:
+            - text: The primary radar is displayed on a computer screen, the secondary radar on a radar strip
+            - text: The pulses of a primary radar are variably pulse-modulated, the pulses of a secondary radar are statically amplitude-modulated
+            - text: The pulses of a primary radar are variably amplitude-modulated, the pulses of a secondary radar are statically pulse-modulated
+- id: QPQQY
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.03.02.03"
+  templates:
+    - type: simple
+      question: The transponder code in case of hi-jacking is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "7500"
+          wrongAnswers:
+            - text: "7000"
+            - text: "7600"
+            - text: "7700"
+- id: QIBKQ
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.03.02.03"
+  templates:
+    - type: simple
+      question: Which altitude is transmitted by the transponder in mode C?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pressure altitude
+          wrongAnswers:
+            - text: Radio altitude
+            - text: QNH altitude
+            - text: QFE altitude
+- id: QXZDH
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.04.01.01"
+  templates:
+    - type: simple
+      question: How many satellites are necessary for a precise and verified three-dimensional determination of the position?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Four
+          wrongAnswers:
+            - text: Five
+            - text: Two
+            - text: Three
+    - type: simple
+      question: "Signal reception is required from a minimum number of satellites that have adequate elevation and suitable geometry in order for a Satellite-Assisted Navigation System (GPS) to carry out independent three dimensional operation without the Receiver Autonomous Integrity Monitoring (RAIM) function. The number of satellites is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "4"
+          wrongAnswers:
+            - text: "3"
+            - text: "5"
+            - text: "6"
+- id: QDBET
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.04.01.02"
+  templates:
+    - type: simple
+      question: When using a GPS for tracking to the next waypoint, a deviation indication is shown by a vertical bar and dots to the left and to the right of the bar. What statement describes the correct interpretation of the display?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The deviation of the bar from the centre indicates the track error as absolute distance in NM; the scale for full deflection depends on the operating mode of the GPS.
+          wrongAnswers:
+            - text: The deviation of the bar from the centre indicates the track error as angular distance in degrees; the scale for full deflection depends on the operating mode of the GPS.
+            - text: The deviation of the bar from the centre indicates the track error as absolute distance in NM; the scale for full deflection is +-10 NM
+            - text: The deviation of the bar from the centre indicates the track error as angular distance in degrees; the scale for full deflection is +-10°.
+- id: QFAOQ
+  subjectId: "09"
+  chapterId: "09.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "09.02.02.02.02"
+  templates:
+    - type: simple
+      question: Which is the reference line (datum line) of a "RB" (Relative Bearing at the ADF)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Aircraft Heading
+          wrongAnswers:
+            - text: Magnetic North
+            - text: Aircraft Pitch Axis
+            - text: True North
+    - type: simple
+      question: The angle from the direction of the aircraft's longitudinal axis to the flown path over ground is called...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: drift angle
+          wrongAnswers:
+            - text: expected drift angle
+            - text: wind correction angle
+            - text: track angle error

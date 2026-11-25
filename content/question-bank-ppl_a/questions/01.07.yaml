@@ -1,0 +1,360 @@
+- id: QUMME
+  subjectId: "01"
+  chapterId: "01.07"
+  relatedQuestionIds:
+    - QCFKA
+    - QKNKU
+    - QBBWF
+  annexes: []
+  learningObjectiveIds:
+    - "01.07.08"
+  templates:
+    - type: simple
+      question: Which transponder code has to be set unrequested during an emergency?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "'7700'"
+          wrongAnswers:
+            - text: "7000"
+            - text: "7600"
+            - text: "7500"
+- id: QFOFW
+  subjectId: "01"
+  chapterId: "01.07"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "01.07.01"
+  templates:
+    - type: simple
+      question: What is the meaning of the abbreviation "AIREP"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Aircraft report
+          wrongAnswers:
+            - text: Automatic identification report
+            - text: Aeronautical instrument requirement report
+            - text: Aeronautical information report
+- id: QQKBY
+  subjectId: "01"
+  chapterId: "01.07"
+  relatedQuestionIds:
+    - QCXOI
+  annexes: []
+  learningObjectiveIds:
+    - "01.07.02"
+  templates:
+    - type: simple
+      question: Which air traffic service is responsible for the safe conduct of flights?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ATC (air traffic control)
+          wrongAnswers:
+            - text: FIS (flight information service)
+            - text: ALR (alerting service)
+            - text: AIS (aeronautical information service)
+- id: QCXOI
+  subjectId: "01"
+  chapterId: "01.07"
+  relatedQuestionIds:
+    - QQKBY
+    - QZWKD
+  annexes: []
+  learningObjectiveIds:
+    - "01.07.02"
+  templates:
+    - type: simple
+      question: Air traffic control service is conducted by which services?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: TWR (aerodrome control service), APP (approach control service), ACC (area control service)
+          wrongAnswers:
+            - text: FIS (flight information service) AIS (aeronautical information service) AFS (aeronautical fixed telecommunication service)
+            - text: ALR (alerting service) SAR (search and rescue service) TWR (aerodrome control service)
+            - text: APP (approach control service) ACC (area control service) FIS (flight information service)
+- id: QBJQD
+  subjectId: "01"
+  chapterId: "01.07"
+  relatedQuestionIds:
+    - QWOMK
+  annexes: []
+  learningObjectiveIds:
+    - "01.07.02"
+  templates:
+    - type: simple
+      question: Which answer is correct with regard to separation in airspace "E"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VFR traffic is not separated from any other traffic
+          wrongAnswers:
+            - text: VFR traffic is separated from VFR and IFR traffic
+            - text: IFR traffic is separated only from VFR traffic
+            - text: VFR traffic is separated only from IFR traffic
+- id: QLJKN
+  subjectId: "01"
+  chapterId: "01.07"
+  relatedQuestionIds:
+    - QOCWL
+    - QWBGU
+  annexes: []
+  learningObjectiveIds:
+    - "01.07.02"
+  templates:
+    - type: simple
+      question: What must a pilot do before entering an RMZ as a VFR flight, unless the ANSP has prescribed alternative procedures?
+      explanation: |-
+        ### Regulation (EU) No 923/2012, SERA.6005(a)
+
+        > Before entering a radio mandatory zone, an initial call […] shall be made by pilots on the appropriate communication channel.
+      presets:
+        - correctAnswers:
+            - text: Make an initial call on the designated channel and maintain a continuous air-ground voice communication watch in the RMZ.
+          wrongAnswers:
+            - text: Set the transponder to 7000 and enter without a radio call.
+            - text: Make the first call after crossing the RMZ boundary.
+            - text: Monitor the channel only if ATC has assigned a discrete transponder code.
+- id: QOCWL
+  subjectId: "01"
+  chapterId: "01.07"
+  relatedQuestionIds:
+    - QLJKN
+    - QWBGU
+  annexes: []
+  learningObjectiveIds:
+    - "01.07.02"
+  templates:
+    - type: simple
+      question: What has to be done before entering a TMZ?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Switch on the transponder and activate mode A and C or mode S.
+          wrongAnswers:
+            - text: Request a clearance before entering.
+            - text: File a flight plan before the flight.
+            - text: Switch on the transponder, activate mode A, and squawk "IDENT".
+- id: QWBGU
+  subjectId: "01"
+  chapterId: "01.07"
+  relatedQuestionIds:
+    - QOCWL
+    - QGVXQ
+    - QWOMK
+    - QLJKN
+  annexes: []
+  learningObjectiveIds:
+    - "01.07.02"
+  templates:
+    - type: simple
+      question: What is the meaning of an area marked as "TMZ"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Transponder Mandatory Zone
+          wrongAnswers:
+            - text: Touring Motorglider Zone
+            - text: Traffic Management Zone
+            - text: Transportation Management Zone
+- id: QGVXQ
+  subjectId: "01"
+  chapterId: "01.07"
+  relatedQuestionIds:
+    - QWBGU
+    - QWOMK
+  annexes: []
+  learningObjectiveIds:
+    - "01.07.02"
+  templates:
+    - type: simple
+      question: What is the meaning of the abbreviation "TRA"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Temporary Reserved Airspace
+          wrongAnswers:
+            - text: Transponder Area
+            - text: Temporary Radar Routing Area
+            - text: Terminal Area
+- id: QZWKD
+  subjectId: "01"
+  chapterId: "01.07"
+  relatedQuestionIds:
+    - QNTLY
+    - QCXOI
+  annexes: []
+  learningObjectiveIds:
+    - "01.07.06"
+  templates:
+    - type: simple
+      question: Which air traffic services can be expected within an FIR (flight information region)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FIS (flight information service), ALR (alerting service)
+          wrongAnswers:
+            - text: AIS (aeronautical information service) SAR (search and rescue)
+            - text: ATC (air traffic control) FIS (flight information service)
+            - text: ATC (air traffic control) AIS (aeronautical information service)
+- id: QNTLY
+  subjectId: "01"
+  chapterId: "01.07"
+  relatedQuestionIds:
+    - QZWKD
+  annexes: []
+  learningObjectiveIds:
+    - "01.07.06"
+  templates:
+    - type: simple
+      question: A pilot can contact FIS (flight information service)...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Via radio communication.
+          wrongAnswers:
+            - text: By a personal visit.
+            - text: Via telephone.
+            - text: Via internet.
+- id: QBBWF
+  subjectId: "01"
+  chapterId: "01.07"
+  relatedQuestionIds:
+    - QKNKU
+    - QUMME
+  annexes: []
+  learningObjectiveIds:
+    - "01.07.08"
+  templates:
+    - type: simple
+      question: During approach to an uncontrolled airfield you experience radio failure. How do you react?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Join traffic circuit, watch out for landing and departing traffic and land while maintaining visual flight rules.
+          wrongAnswers:
+            - text: Leave traffic circuit and perform out-landing on a suitable field.
+            - text: Stay in the air as long as possible to enable other aircraft take-off and landing.
+            - text: Land immediately, since you have priority due to the tecnical defect.
+    - type: simple
+      question: An transponder equipped aircraft which has been intercepted by a military aircraft must switch the transponder code generally to
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "7700"
+          wrongAnswers:
+            - text: "7600"
+            - text: "7500"
+            - text: "7000"
+- id: QPWZR
+  subjectId: "01"
+  chapterId: "01.07"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "01.07.07"
+  templates:
+    - type: simple
+      question: What is the correct phrase with respect to wake turbulence to indicate that a light aircraft is following an aircraft of a higher wake turbulence category?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Caution wake turbulence
+          wrongAnswers:
+            - text: Danger jet blast
+            - text: Attention propwash
+            - text: Be careful wake winds
+- id: QWPYX
+  subjectId: "01"
+  chapterId: "01.07"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "01.07.07"
+  templates:
+    - type: simple
+      question: Which of the following options states a correct position report?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: DEABC, "N", 2500 ft
+          wrongAnswers:
+            - text: DEABC over "N" at 35
+            - text: DEABC over "N" in FL 2500 ft
+            - text: DEABC reaching "N"
+- id: QTXHM
+  subjectId: "01"
+  chapterId: "01.07"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "01.07.02"
+  templates:
+    - type: simple
+      question: Which condition is requested so that an aerodrome may be considered controlled?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The aerodrome shall be provided with a Control Tower.
+          wrongAnswers:
+            - text: The aerodrome shall be located within a Control Zone (CTR) and provided with a Control Tower.
+            - text: The aerodrome shall be located within a Control Zone.
+            - text: The aerodrome shall be located within a controlled airspace.
+- id: QFAEQ
+  subjectId: "01"
+  chapterId: "01.07"
+  relatedQuestionIds:
+    - QOJLL
+  annexes: []
+  learningObjectiveIds:
+    - "01.07.07"
+  templates:
+    - type: simple
+      question: "When acknowledging a transponder mode / code setting instructions, pilots shall:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: read back the mode and code to be set
+          wrongAnswers:
+            - text: use the word ROGER
+            - text: use the word WILCO
+            - text: read back the code to be set and SQUAK IDENT
+- id: QNOXO
+  subjectId: "01"
+  chapterId: "01.07"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "01.07.02"
+  templates:
+    - type: simple
+      question: The lower limit of a control area must not be located below which altitude above ground?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 700 ft
+          wrongAnswers:
+            - text: 500 ft
+            - text: 1000 ft
+            - text: 200ft
+- id: QNTQY
+  subjectId: "01"
+  chapterId: "01.07"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "01.07.02"
+  templates:
+    - type: simple
+      question: Which kind of separation is used by ATC?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: lateral and vertical separation
+          wrongAnswers:
+            - text: time and course separation
+            - text: vertical, longitudinal and angle separation
+            - text: combined separation

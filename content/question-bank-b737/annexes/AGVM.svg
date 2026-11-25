@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="261" viewBox="0 0 700 261" role="img" aria-labelledby="title desc" xml:lang="en-GB">
+<title id="title">737-800 Cargo Fire Suppression Schematic (YF501–YW164)</title>
+<desc id="desc">Forward and aft cargo compartment smoke detectors and the shared fire bottle discharge tubing and nozzles. YF501–YW164 effectivity.</desc>
+<metadata>Boeing 737-800 FCOM Rev 40, 8.20.7. Redrawn as SVG.</metadata>
+<defs>
+  <marker id="arrow" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="13" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto">
+    <path d="M0 0 12 5 0 10Z" fill="#ededed"/>
+  </marker>
+</defs>
+<style>
+  svg {background:#080808;color:#ededed}
+  text {font-family:Menlo,Consolas,"Liberation Mono",monospace}
+  .wire,.signal {fill:none;stroke:#ededed;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round}
+  .signal {stroke-dasharray:19 10 3 10}
+  .arr {marker-end:url(#arrow)}
+  .duct-edge,.duct {fill:none;stroke-linecap:butt;stroke-linejoin:round}
+  .duct-edge {stroke:#ededed;stroke-width:15}
+  .duct {stroke:#c41c1c;stroke-width:12}
+  .component {fill:#080808;stroke:#ededed;stroke-width:2.1}
+</style>
+<rect x="0" y="0" width="700" height="261" fill="#080808"/>
+<g fill="#ededed">
+<defs><pattern id="detector-fill" width="7" height="7" patternUnits="userSpaceOnUse"><rect width="7" height="7" fill="#ededed"/><path d="M-1 1 1-1m-2 9 9-9m-2 9 2-2" stroke="#080808" stroke-width="1"/></pattern></defs>
+<rect class="component" x="26" y="18" width="240" height="195"/>
+<path class="component" d="M326 18h313q35 0 35 35v125q0 35-35 35H326Z"/>
+<path class="wire" d="M85 65v-10h537v10M176 55v10m223-10v10m111-10v10"/>
+<path class="wire" d="M85 98H52v41h538V98h32m-478 41V98h32m193 41V98h30m80 41V98h31"/>
+<path class="wire" d="M295 139v16"/>
+<circle class="component" cx="295" cy="172" r="17"/>
+<rect class="component" x="293" y="148" width="4" height="6"/>
+<path class="wire arr" d="M555 173h13v-33"/>
+<text x="336" y="32" font-size="13" text-anchor="start"><tspan x="336" dy="0">DUAL-LOOP AREA</tspan><tspan x="336" dy="13">SMOKE DETECTORS</tspan></text>
+<text x="361" y="178" font-size="13" text-anchor="start">DISCHARGE TUBING / NOZZLES</text>
+<text x="272" y="205" font-size="13" text-anchor="start"><tspan x="272" dy="0">FIRE</tspan><tspan x="272" dy="15">BOTTLE</tspan></text>
+<text x="49" y="241" font-size="15" text-anchor="start">FWD CARGO COMPARTMENT</text>
+<text x="403" y="241" font-size="15" text-anchor="start">AFT CARGO COMPARTMENT</text>
+<rect x="69" y="64" width="32" height="21" fill="url(#detector-fill)" stroke="#ededed" stroke-width="1"/>
+<rect x="69" y="112" width="32" height="21" fill="url(#detector-fill)" stroke="#ededed" stroke-width="1"/>
+<rect class="component" x="77" y="93" width="16" height="10" rx="5"/>
+<circle cx="82" cy="98" r="1" fill="#ededed"/>
+<circle cx="88" cy="98" r="1" fill="#ededed"/>
+<rect x="160" y="64" width="32" height="21" fill="url(#detector-fill)" stroke="#ededed" stroke-width="1"/>
+<rect x="160" y="112" width="32" height="21" fill="url(#detector-fill)" stroke="#ededed" stroke-width="1"/>
+<rect class="component" x="168" y="93" width="16" height="10" rx="5"/>
+<circle cx="173" cy="98" r="1" fill="#ededed"/>
+<circle cx="179" cy="98" r="1" fill="#ededed"/>
+<rect x="383" y="64" width="32" height="21" fill="url(#detector-fill)" stroke="#ededed" stroke-width="1"/>
+<rect x="383" y="112" width="32" height="21" fill="url(#detector-fill)" stroke="#ededed" stroke-width="1"/>
+<rect class="component" x="391" y="93" width="16" height="10" rx="5"/>
+<circle cx="396" cy="98" r="1" fill="#ededed"/>
+<circle cx="402" cy="98" r="1" fill="#ededed"/>
+<rect x="494" y="64" width="32" height="21" fill="url(#detector-fill)" stroke="#ededed" stroke-width="1"/>
+<rect x="494" y="112" width="32" height="21" fill="url(#detector-fill)" stroke="#ededed" stroke-width="1"/>
+<rect class="component" x="502" y="93" width="16" height="10" rx="5"/>
+<circle cx="507" cy="98" r="1" fill="#ededed"/>
+<circle cx="513" cy="98" r="1" fill="#ededed"/>
+<rect x="605" y="64" width="32" height="21" fill="url(#detector-fill)" stroke="#ededed" stroke-width="1"/>
+<rect x="605" y="112" width="32" height="21" fill="url(#detector-fill)" stroke="#ededed" stroke-width="1"/>
+<rect class="component" x="613" y="93" width="16" height="10" rx="5"/>
+<circle cx="618" cy="98" r="1" fill="#ededed"/>
+<circle cx="624" cy="98" r="1" fill="#ededed"/>
+</g>
+</svg>

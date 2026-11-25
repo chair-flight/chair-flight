@@ -1,0 +1,1551 @@
+- id: QGPIR
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229938
+    - BGS-221269
+    - AVEXAM-71843
+    - ATPLQ-229195
+    - BGS-222178
+    - BGS-221196
+    - AVEXAM-70740
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.01.01.03
+  templates:
+    - type: simple
+      question: "A pressure of {{psi}} psi is equivalent to approximately (in bar):"
+      explanation: |-
+        1 bar is about 14.5 psi, so for a quick approximation divide the value in psi by about 15 to get bar.
+
+        **Solution**
+
+        $$
+        \frac{\text{pressure}}{15} = \frac{ {{psi}} }{15} = \mathbf{ {{answer}}\ \text{bar} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} bar**: divides by 150, one power of ten too much.
+        - **{{d2}} bar**: divides by 1500, two powers of ten too much.
+        - **{{d3}} bar**: divides by 1.5, one power of ten too little.
+      presets:
+        - variables:
+            psi: 6000
+            answer: 400
+            d1: 40
+            d2: 4
+            d3: 4000
+          correctAnswers:
+            - text: 400 bar
+          wrongAnswers:
+            - text: 4000 bar
+            - text: 40 bar
+            - text: 4 bar
+        - variables:
+            psi: 3000
+            answer: 200
+            d1: 20
+            d2: 2
+            d3: 2000
+          correctAnswers:
+            - text: 200 bar
+          wrongAnswers:
+            - text: 2000 bar
+            - text: 20 bar
+            - text: 2 bar
+        - variables:
+            psi: 4500
+            answer: 300
+            d1: 30
+            d2: 3
+            d3: 3000
+          correctAnswers:
+            - text: 300 bar
+          wrongAnswers:
+            - text: 3000 bar
+            - text: 30 bar
+            - text: 3 bar
+- id: QZGBY
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222696
+    - BGS-222177
+    - BGS-221088
+    - AVEXAM-30005
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.01.01.03
+  templates:
+    - type: simple
+      question: "A pressure of {{bar}} bar is equivalent to approximately (in psi):"
+      explanation: |-
+        1 bar is about 14.5 psi, so for a quick approximation multiply the value in bar by about 15 to get psi.
+
+        **Solution**
+
+        $$
+        \text{pressure}\times 15 = {{bar}}\times 15 = \mathbf{ {{answer}}\ \text{psi} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} psi**: multiplies by 1.5, one power of ten too little.
+        - **{{d2}} psi**: multiplies by 0.15, two powers of ten too little.
+        - **{{d3}} psi**: multiplies by 0.015, three powers of ten too little.
+      presets:
+        - variables:
+            bar: 200
+            answer: 3000
+            d1: 300
+            d2: 30
+            d3: 3
+          correctAnswers:
+            - text: 3000 psi
+          wrongAnswers:
+            - text: 3 psi
+            - text: 300 psi
+            - text: 30 psi
+        - variables:
+            bar: 100
+            answer: 1500
+            d1: 150
+            d2: 15
+            d3: 2
+          correctAnswers:
+            - text: 1500 psi
+          wrongAnswers:
+            - text: 2 psi
+            - text: 150 psi
+            - text: 15 psi
+        - variables:
+            bar: 400
+            answer: 6000
+            d1: 600
+            d2: 60
+            d3: 6
+          correctAnswers:
+            - text: 6000 psi
+          wrongAnswers:
+            - text: 6 psi
+            - text: 600 psi
+            - text: 60 psi
+- id: QHRVE
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222273
+    - BGS-220001
+    - AVEXAM-74638
+    - BGS-220005
+    - ATPLQ-228762
+    - BGS-221946
+    - ATPLQ-228293
+    - AVEXAM-43536
+    - BGS-222447
+    - AVEXAM-30653
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.01.01.04
+  templates:
+    - type: simple
+      question: "A Bourdon tube is a:"
+      explanation: The Bourdon tube is a curved, sealed tube that straightens as the pressure inside it rises. It is a pressure sensor.
+      presets:
+        - correctAnswers:
+            - text: pressure sensor.
+          wrongAnswers:
+            - text: smoke detector.
+            - text: vibration detector.
+            - text: turbine temperature probe.
+    - type: simple
+      question: "The Bourdon tube is used to measure:"
+      explanation: A Bourdon tube is a pressure sensor. The tube straightens as pressure inside rises, and the movement is shown on a gauge.
+      presets:
+        - correctAnswers:
+            - text: pressure.
+          wrongAnswers:
+            - text: a flow rate.
+            - text: temperature.
+            - text: quantity.
+    - type: simple
+      question: The hydraulic pressure is sensed...
+      explanation: Hydraulic pressure is high, so it is sensed by a Bourdon tube. Aneroid capsules measure low pressures and differences, for instance static pressure.
+      presets:
+        - correctAnswers:
+            - text: By a Bourdon tube.
+          wrongAnswers:
+            - text: By several aneroid capsules.
+            - text: By bellows via mechanical sensing from a Bourdon tube.
+            - text: Electrical signal generated by a pressure sensing element in a remote location.
+- id: QAZUC
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223816
+    - AVEXAM-41897
+    - BGS-221981
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.01.01.05
+  templates:
+    - type: simple
+      question: The Hydraulic System Pressure Indicator holds..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a transducer that receives an electric signal from a remote pressure sensor.
+          wrongAnswers:
+            - text: an aneroid capsule that receives a pneumatic signal from the hydraulic reservoir.
+            - text: a bellows that receives a mechanical signal from a Bourdon tube.
+            - text: a diaphragm that receives a hydraulic signal from the accumulator.
+- id: QPVVU
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223358
+    - AVEXAM-74690
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.01.01.07
+  templates:
+    - type: simple
+      question: A manifold pressure gauge is consistently registering atmospheric pressure. What may be the cause?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Leak in pressure gauge line.
+          wrongAnswers:
+            - text: Ice in induction system.
+            - text: Too high float level.
+            - text: Fuel of too low volatility.
+- id: QIFTV
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225384
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.02.01.03
+  templates:
+    - type: one-two
+      question: Which of these statements about temperature units are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - C = K – 273.
+          wrong:
+            - C = K + 273.
+        - right:
+            - F = (C x 1.8) + 32.
+          wrong:
+            - F = (C x 1.8) - 32.
+- id: QJZIX
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229294
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.02.01.03
+  templates:
+    - type: one-two
+      question: Which of these statements about temperature units are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - 15º Celsius = 59º Fahrenheit
+          wrong:
+            - 15º Celsius = 273º Kelvin
+        - right:
+            - 15º Celsius = 273º Kelvin
+          wrong:
+            - 15º Celsius = 59º Fahrenheit
+- id: QVWMC
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223257
+    - AVEXAM-38093
+    - AVEXAM-4380
+    - BGS-222282
+    - BGS-221237
+    - AVEXAM-45861
+    - AVEXAM-11921
+    - AVEXAM-6130
+    - BGS-222280
+    - BGS-222283
+    - ATPLQ-226603
+    - ATPLQ-229067
+    - BGS-222557
+    - AVEXAM-70291
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.02.01.03
+  templates:
+    - type: one-two
+      question: Which of these statements about temperature units are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - 20° Celsius = 68° Fahrenheit.
+          wrong:
+            - 20° Celsius ≠ 68° Fahrenheit.
+        - right:
+            - 0° Celsius = 273° Kelvin.
+          wrong:
+            - 0° Celsius ≠ 273° Kelvin.
+    - type: simple
+      question: |-
+        Given:C = the temperature in Celsius. 
+        K = the temperature in Kelvin. 
+        F = the temperature in Fahrenheit.Which of these statements about temperature units are correct or incorrect?1. C = K + 273
+        2. F = (C x 1.8) + 32
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 is incorrect, 2 is correct.
+          wrongAnswers:
+            - text: 1 is correct, 2 is correct.
+            - text: 1 is incorrect, 2 is incorrect.
+            - text: 1 is correct, 2 is incorrect.
+- id: QEVAH
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222306
+    - AVEXAM-49504
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.02.01.05
+  templates:
+    - type: simple
+      question: "In flight, if the Constant Speed Drive (CSD) temperature indicator is in the red arc the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: pilot must disconnect it, and the generator is not available for the rest of flight.
+          wrongAnswers:
+            - text: pilot has to throttle back.
+            - text: pilot must disconnect it and manually control the alternator.
+            - text: pilot can disconnect it to allow it to cool and use it again.
+- id: QPITU
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228113
+    - AVEXAM-4521
+    - BGS-221958
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.03.01.01
+  templates:
+    - type: one-two
+      question: Which of these statements about fuel quantity measurement are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - The quantity of fuel can be measured by volume.
+          wrong:
+            - The quantity of fuel cannot be measured by volume.
+        - right:
+            - The quantity of fuel can be measured by mass.
+          wrong:
+            - The quantity of fuel cannot be measured by mass.
+- id: QHUKS
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds:
+    - QRETU
+  externalQuestionIds:
+    - ATPLQ-226770
+    - AVEXAM-40899
+    - BGS-222288
+    - AVEXAM-81310
+    - BGS-222290
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.03.01.03
+  templates:
+    - type: simple
+      question: "Which of these statements about the fuel mass unit is correct?  "
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1 kg = 2.2 lb.  "
+          wrongAnswers:
+            - text: "1 kg = 0.45 lb.  "
+            - text: "1 lb = 4.5 kg.  "
+            - text: "1 lb = 2.2 kg.  "
+- id: QRETU
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds:
+    - QHUKS
+  externalQuestionIds:
+    - ATPLQ-227780
+    - BGS-222289
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.03.01.03
+  templates:
+    - type: simple
+      question: Which of these statements about the fuel mass unit is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 lb = 0.45 kg.
+          wrongAnswers:
+            - text: 1 lb = 2.2 kg.
+            - text: 1 kg = 0.45 lb.
+            - text: 1 kg = 0.22 lb.
+- id: QBEPZ
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229382
+    - AVEXAM-69362
+    - BGS-221961
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.03.01.04
+  templates:
+    - type: simple
+      question: The disadvantage(s) of a float type fuel quantity measuring system compared to a capacitance fuel measuring system is (are) that the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: indications are influenced by aircraft attitude variations, accelerations, and temperature variations.
+          wrongAnswers:
+            - text: design is complex.
+            - text: indications are influenced by aircraft attitude variations and accelerations only.
+            - text: indications are influenced by aircraft attitude variations, accelerations, and temperature variations, and the complex design.
+- id: QCUYZ
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226396
+    - BGS-221960
+    - AVEXAM-38987
+    - AVEXAM-37003
+    - BGS-221959
+    - ATPLQ-228937
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.03.01.04
+  templates:
+    - type: simple
+      question: "Changes in temperature of the fuel affect its density, volume and dielectric value Er. A decrease in temperature causes:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a decrease in volume, increases in density and increases in Er.
+          wrongAnswers:
+            - text: a decrease in volume, decreases in density and decreases in Er.
+            - text: an increase in volume, decreases in density and decreases in Er.
+            - text: an increase in volume, increases in density and increases in Er.
+- id: QPPUF
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229492
+    - BGS-222679
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.03.01.04
+  templates:
+    - type: simple
+      question: Where the float is connected in a float-type fuel tank?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To the variable resistor.
+          wrongAnswers:
+            - text: To the fuel flow indicator.
+            - text: To the mechanical linkage direct to the fuel indicator.
+            - text: To the variable capacitor.
+    - type: simple
+      question: The float in a fuel gauge of the float type is linked to …...., and its output is used to show the remaining fuel to the pilot.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a variable resistor
+          wrongAnswers:
+            - text: an electric motor
+            - text: a fuel flow gauge
+            - text: a variable capacitor
+- id: QACYV
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221806
+    - BGS-221941
+    - AVEXAM-18643
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.03.01.05
+  templates:
+    - type: simple
+      question: For a capacitance type fuel indication system, what indication would you expect in case of failure?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A sudden full deflection of the fuel gauge towards empty.
+          wrongAnswers:
+            - text: A progressive deflection of the gauge to full.
+            - text: A red flag in the gauge.
+            - text: A frozen fuel level indication.
+- id: QHDGB
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229411
+    - BGS-221870
+    - AVEXAM-76724
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.03.01.05
+  templates:
+    - type: simple
+      question: What should a flight crew do following the loss of all fuel indications?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pull and reset the circuit breakers to check if the system restarts, unless the checklist says otherwise.
+          wrongAnswers:
+            - text: Turn off fuel pumps for 10 min and then turn them back on.
+            - text: Open the cross-feed valve to make sure the aeroplane stays in balance.
+            - text: Land as soon as possible and prepare for power off landing.
+- id: QVJMV
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228259
+    - AVEXAM-77901
+    - BGS-220030
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.03.01.05
+  templates:
+    - type: simple
+      question: "The basic principle of a capacitance fuel gauge system is that the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: capacitance of a capacitor depends on the nature of the dielectric in which it is immersed.
+          wrongAnswers:
+            - text: capacitance of a capacitor only depends on the density of the liquid on which it is immersed.
+            - text: internal resistance of a capacitor depends on the nature of the dielectric in which it is immersed.
+            - text: electromotive force of a capacitor depends on the nature of the dielectric in which it is immersed.
+- id: QBGTC
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228290
+    - BGS-221767
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.03.01.06
+  templates:
+    - type: simple
+      question: Having refuelled an aircraft, what safety-based action(s) must be carried out?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Compare the indicated contents of the tanks with the expected contents.
+          wrongAnswers:
+            - text: Reset the fuel gauge and load the passengers and the baggage, plus any cargo.
+            - text: When refuelling is completed, switch the beacon "OFF", if the APU is NOT running.
+            - text: Calculate the fuel consumption.
+- id: QQDWJ
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225037
+    - BGS-221603
+    - AVEXAM-44642
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.03.01.06
+  templates:
+    - type: simple
+      question: After refuelling at your destination, before the return trip, what should be checked on the FMS fuel pages?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: That the volume/mass of the fuel on board is correct according to how much has been added.
+          wrongAnswers:
+            - text: That the fuel type is correctly recorded.
+            - text: That the fuel in the tanks is the correct type/grade.
+            - text: That the fuel temperature is within acceptable limits.
+- id: QUCOF
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225705
+    - BGS-222577
+    - AVEXAM-85162
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.04.01.01
+  templates:
+    - type: simple
+      question: What are the units used to measure fuel flow?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: kg/h
+          wrongAnswers:
+            - text: h/kg
+            - text: N/h
+            - text: h/N
+    - type: simple
+      question: Which one of the following is a suitable way of measuring fuel flow?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: kg/h
+          wrongAnswers:
+            - text: h/N
+            - text: h/kg
+            - text: N/h
+- id: QBPHE
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224847
+    - BGS-220851
+    - AVEXAM-28933
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.04.01.01
+  templates:
+    - type: simple
+      question: |-
+        What is the operating principle of Flowmeters ("unit flow meters"), the most commonly used at the present time?   
+         It is to measure across the system the:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Quantity of fuel movement.
+          wrongAnswers:
+            - text: Pressure and temperature of the fuel.
+            - text: Volumetric mass and di-electric resistance of the fuel.
+            - text: Volume and viscosity of the fuel.
+- id: QKMEI
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227758
+    - BGS-220036
+    - BGS-222542
+    - AVEXAM-50451
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.04.01.02
+  templates:
+    - type: simple
+      question: "When compared with the volumetric fuel flow meter, the mass fuel flow meter takes into account the fuel:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: density.
+          wrongAnswers:
+            - text: turbulent flow in the line.
+            - text: permittivity
+            - text: pressure.
+- id: QTEPB
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229909
+    - BGS-221226
+    - AVEXAM-87637
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.04.01.02
+  templates:
+    - type: one-two
+      question: Which statements about fuel flow are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - Fuel flow may be measured by volume per unit of time.
+          wrong:
+            - Fuel flow may be measured by mass per unit of time.
+        - right:
+            - Fuel flow may be measured by mass per unit of time.
+          wrong:
+            - Fuel flow may be measured by volume per unit of time.
+- id: QNGDI
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228152
+    - AVEXAM-47909
+    - BGS-221963
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.04.01.03
+  templates:
+    - type: multiple-correct
+      question: "Fuel flow can be expressed in:"
+      explanation: ""
+      options:
+        - text: – kg per m3.
+          correct: false
+        - text: – lb per m3.
+          correct: false
+        - text: – lb per hour.
+          correct: true
+        - text: – kg per hour.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QHGUU
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds:
+    - QIQCD
+  externalQuestionIds:
+    - ATPLQ-228173
+    - AVEXAM-96818
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.04.01.05
+  templates:
+    - type: simple
+      question: Which of the following statements shows how the total fuel consumption can be calculated?
+      explanation: The fuel flow meter gives the rate of consumption. The total fuel used is obtained by integrating this flow over time.
+      presets:
+        - correctAnswers:
+            - text: The total fuel consumption can be calculated by integrating the rate of fuel consumption over an hour.
+          wrongAnswers:
+            - text: The total fuel consumption can be calculated by dividing the total distance which is flown by the volume of fuel which has been used.
+            - text: The total fuel consumption can be calculated by subtracting the volume of the remaining fuel on board from the initial total fuel on board.
+            - text: The total fuel consumption can be calculated by differentiating the rate of fuel consumption over the time flown.
+- id: QIQCD
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds:
+    - QHGUU
+  externalQuestionIds:
+    - ATPLQ-229124
+    - BGS-221307
+    - ATPLQ-227718
+    - BGS-221395
+    - BGS-221756
+    - AVEXAM-13877
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.04.01.05
+  templates:
+    - type: simple
+      question: "Total fuel consumption is obtained by:"
+      explanation: Total fuel consumption is the integral of fuel flow with respect to time. The fuel flow is measured and the computer adds it up.
+      presets:
+        - correctAnswers:
+            - text: integrating the fuel flow with respect to time.
+          wrongAnswers:
+            - text: differentiating the fuel flow with respect to time.
+            - text: subtracting the initial fuel quantity from the remaining fuel.
+            - text: Subtracting the current fuel flow from the initial fuel quantity.
+    - type: simple
+      question: How is total fuel consumption calculated?
+      explanation: The fuel flow is measured continuously, and the total consumption is the integral of this rate over the flight time.
+      presets:
+        - correctAnswers:
+            - text: By integrating the rate of fuel consumption over the flight time.
+          wrongAnswers:
+            - text: By subtracting the volume of the remaining fuel in the tanks from the initial fuel total.
+            - text: By dividing total distance flown by the volume of fuel used.
+            - text: By differentiating the rate of fuel consumption over the flight time.
+- id: QAFCS
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228604
+    - BGS-220040
+    - AVEXAM-39957
+    - ATPLQ-224090
+    - BGS-220039
+    - AVEXAM-59952
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.05.01.01
+  templates:
+    - type: simple
+      question: "A three-phase electrical tachometer utilises a generator feeding:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a synchronous motor turning a drag cup.
+          wrongAnswers:
+            - text: directly a galvanometer.
+            - text: directly a drag cup.
+            - text: directly a voltmeter.
+    - type: simple
+      question: "A three-phase electrical tachometer consists of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a three-phase generator and a synchronous motor turning a drag-cup assembly.
+          wrongAnswers:
+            - text: three interconnected dynamos along a phonic wheel.
+            - text: a speed probe and a phonic wheel.
+            - text: three speed probes and a phonic wheel.
+- id: QMPNT
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227820
+    - BGS-220037
+    - AVEXAM-64849
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.05.01.01
+  templates:
+    - type: simple
+      question: A magnetic tachometer consists amongst others of ..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a permanent magnet turning inside a non magnetic drag cup.
+          wrongAnswers:
+            - text: a single-phase generator connected to a synchronous motor.
+            - text: a single-phase generator connected to an asynchronous motor.
+            - text: a three phases generator connected to an asynchronous motor.
+- id: QCMLD
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229046
+    - BGS-221362
+    - AVEXAM-6131
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.05.01.02
+  templates:
+    - type: simple
+      question: "On a modern jet aircraft, the engine speed is indicated by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "% value of maximum RPM."
+          wrongAnswers:
+            - text: "% of maximum torque."
+            - text: "% value of maximum power."
+            - text: The Engine Pressure Ratio (EPR).
+- id: QUQJJ
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221362
+    - BGS-220044
+    - AVEXAM-50114
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.05.01.03
+  templates:
+    - type: simple
+      question: One of the disadvantages of an electronic tachometer is the ..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: necessity of a power supply.
+          wrongAnswers:
+            - text: influence of temperature on the indication.
+            - text: generation of spurious signals at the commutator.
+            - text: high influence of line resistance on the indication.
+- id: QWSDA
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224867
+    - AVEXAM-69131
+    - BGS-221397
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.06.01.01
+  templates:
+    - type: simple
+      question: In a turbine engine, what is the parameter N**1**, which is used to represent thrust?
+      explanation: N1 is the speed of the low pressure spool, with the fan, the low pressure compressor and the low pressure turbine. On turbofans it is used to represent thrust, and is normally shown as a percentage of RPM.
+      presets:
+        - correctAnswers:
+            - text: N1 refers to the rotational speed of the low speed spool which consists of the fan, the low pressure compressor and the low pressure turbine.
+          wrongAnswers:
+            - text: N1 refers to the rotational speed of the high speed spool which consists of the high pressure compressor and the high pressure turbine.
+            - text: the indication is usually calibrated in percent RPM.
+            - text: N1 is the ratio of the turbine discharge and the compressor inlet pressure.
+- id: QBXGW
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226699
+    - BGS-220052
+    - AVEXAM-15363
+    - ATPLQ-222263
+    - BGS-220053
+    - BGS-222048
+    - AVEXAM-13967
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.06.01.01
+  templates:
+    - type: simple
+      question: "The EPR (Engine Pressure Ratio) is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the ratio of the turbine outlet total pressure to the compressor inlet total pressure.
+          wrongAnswers:
+            - text: the difference between the compressor inlet total pressure and the turbine outlet total pressure.
+            - text: the ratio of the turbine outlet total pressure to the ambient total pressure.
+            - text: the ratio of the compressor outlet total pressure to the compressor inlet total pressure.
+    - type: simple
+      question: "The EPR is computed by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: dividing turbine discharge pressure by compressor inlet pressure.
+          wrongAnswers:
+            - text: multiplying compressor discharge pressure by turbine inlet pressure.
+            - text: multiplying compressor inlet pressure by turbine discharge pressure.
+            - text: dividing compressor discharge pressure by turbine discharge pressure.
+- id: QHQSD
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222483
+    - BGS-220059
+    - AVEXAM-9730
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.06.01.02
+  templates:
+    - type: simple
+      question: The sensor(s) feeding the EPR-indicator is(are)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: pressure probes, one located upstream from the compressor inlet, and the other downstream from the turbine outlet.
+          wrongAnswers:
+            - text: tachometer located on the shaft of the N1 compressor.
+            - text: tachometer located on the shaft of the N2 compressor.
+            - text: temperature probes, one located upstream from the compressor inlet, and an other downstream from the turbine outlet.
+- id: QREDR
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225451
+    - BGS-221317
+    - AVEXAM-65694
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.06.01.02
+  templates:
+    - type: simple
+      question: "During take-off, the front probe of an EPR system becomes blocked by ingested debris or icing but the rear probe remains unaffected. The displayed EPR will likely be:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: higher than the actual EPR value.
+          wrongAnswers:
+            - text: equal to zero, and N1 should be used instead.
+            - text: lower than the actual EPR value.
+            - text: equal to the LP turbine exhaust pressure.
+- id: QNVFF
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228565
+    - BGS-222291
+    - AVEXAM-18510
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.06.01.03
+  templates:
+    - type: multiple-correct
+      question: "On an electronic display unit, the following N1 parameters can be displayed:"
+      explanation: ""
+      options:
+        - text: – present N1.
+          correct: true
+        - text: – commanded N1
+          correct: true
+        - text: – maximum N1 operating limit.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+- id: QVQKV
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223638
+    - BGS-221375
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.06.01.03
+  templates:
+    - type: simple
+      question: "On a N1 indicator, the maximum N1 admissible:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: may be greater than 100%.
+          wrongAnswers:
+            - text: is always less than 100%.
+            - text: is approximately 99%.
+            - text: is 100%.
+- id: QAWVJ
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222853
+    - BGS-221236
+    - ATPLQ-223046
+    - AVEXAM-22241
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.07.01.02
+  templates:
+    - type: simple
+      question: |-
+        Given:
+
+        P = power.   
+        T = torque. n = RPM.
+
+        The correct relationship is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: P = T x n.
+          wrongAnswers:
+            - text: P = T / n.
+            - text: P = T x GS.
+            - text: P = T x TAS.
+    - type: simple
+      question: |-
+        Given:P = power. 
+        T = torque. n = RPM.The correct relationship is…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: n = P / T.
+          wrongAnswers:
+            - text: n = T / P.
+            - text: n = P x T.
+            - text: n = T x TAS.
+    - type: simple
+      question: |-
+        Given:
+
+
+
+        P = power.
+
+        T = torque.
+
+        n = RPM.
+
+
+
+        What is the correct formula relating these variables?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: n = P / T.
+          wrongAnswers:
+            - text: n = T x TAS.
+            - text: n = T / P.
+            - text: n = P x T.
+- id: QYCIK
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228538
+    - AVEXAM-18862
+    - AVEXAM-68371
+    - BGS-221429
+    - AVEXAM-45882
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.07.01.02
+  templates:
+    - type: simple
+      question: |-
+        Which formula represents the correct relationship between the following parameters?   
+         P: power   
+         T: torque   
+         n: RPM   
+         GS: ground speed   
+         TAS: true air speed
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: P = T x (2 × π × n / 60)
+          wrongAnswers:
+            - text: P = T × GS
+            - text: P = T / (2 × π × n × 60)
+            - text: P = T × TAS
+    - type: simple
+      question: |-
+        Given the following, which formula is correct?:
+
+        P = engine power
+        T = torque
+        n = RPM
+        TAS = true airspeed
+        GS = ground speed
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: P = T x n.
+          wrongAnswers:
+            - text: P = T / n.
+            - text: P = T x TAS.
+            - text: P = T x GS.
+    - type: simple
+      question: |-
+        Given:
+
+         
+         
+         P:
+         Power
+         
+         
+         T:
+         Torque
+         
+         
+         n:
+         RPM
+         
+         
+         GS:
+         Ground Speed
+         
+         
+         TAS:
+         True Air Speed
+         
+         
+
+
+
+        The correct formula is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: T = P ÷ n.
+          wrongAnswers:
+            - text: T = P × GS
+            - text: T = n × TAS.
+            - text: T = P × n.
+- id: QZOXL
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225394
+    - AVEXAM-36805
+    - BGS-222262
+    - ATPLQ-227185
+    - BGS-221216
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.07.01.03
+  templates:
+    - type: simple
+      question: "A torque may be expressed in:"
+      explanation: Torque is a moment of force, expressed in newton metres (N m). RPM measures rotation speed and the watt measures power.
+      presets:
+        - correctAnswers:
+            - text: Newton meter (N m).
+          wrongAnswers:
+            - text: RPM
+            - text: Watt.
+            - text: Newton per meter (N/m).
+    - type: simple
+      question: What units does a torquemeter use?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Newton-metres or % of max torque.
+          wrongAnswers:
+            - text: RPM
+            - text: Newton–pounds
+            - text: Celcius
+    - type: simple
+      question: Which of these units could be used to indicate torque?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Newton metres
+          wrongAnswers:
+            - text: Newton per metre
+            - text: RPM
+            - text: Percentage oil pressure
+- id: QIADE
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds:
+    - QSMRS
+  externalQuestionIds:
+    - ATPLQ-224503
+    - BGS-222251
+    - AVEXAM-77021
+    - AVEXAM-64405
+    - BGS-222250
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.07.01.05
+  templates:
+    - type: simple
+      question: "The operating principle of an electronic torque meter is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: as power is increased, the torque shaft twists.
+          wrongAnswers:
+            - text: axial thrust and movement is generated when cylindrically cut gears are used to transfer power from one shaft to another.
+            - text: axial thrust and movement is generated when helically cut gears are used to transfer power from one shaft to another.
+            - text: as power is increased, the torque shaft expands.
+- id: QSMRS
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds:
+    - QIADE
+  externalQuestionIds:
+    - ATPLQ-224061
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.07.01.05
+  templates:
+    - type: simple
+      question: "An oil torque meter makes use of the following phenomenon:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: axial movement is generated when helically cut gears are used to transfer power from one shaft to another.
+          wrongAnswers:
+            - text: axial movement is generated when cylindrically cut gears are used to transfer power from one shaft to another.
+            - text: as power is increased, the torque shaft expands (the torque shaft is connected to the engine only).
+            - text: as power is increased, the torque shaft twists (the torque shaft is connected to both the engine and the propeller's reduction gear box).
+- id: QDRAO
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226504
+    - AVEXAM-20530
+    - BGS-220038
+    - ATPLQ-224583
+    - BGS-222204
+    - AVEXAM-38125
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.08.01.01
+  templates:
+    - type: simple
+      question: "A synchroscope is used on aeroplanes to:"
+      explanation: A synchroscope compares the speeds of two or more engines and helps the crew set them to the same speed, which reduces vibration and noise.
+      presets:
+        - correctAnswers:
+            - text: set several engines to the same speed.
+          wrongAnswers:
+            - text: achieve optimum control of on-board voltages.
+            - text: reduce the rpm of each engine.
+            - text: reduce the vibration of each engine.
+    - type: simple
+      question: On a multi-engine aircraft, a synchroscope provides an indication of the difference in..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: speed (RPM) between the engines.
+          wrongAnswers:
+            - text: vibration (Hz) between the engines.
+            - text: low engine speed.
+            - text: voltage (V) between the electrical generators.
+- id: QVKTF
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229920
+    - BGS-221965
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.08.01.01
+  templates:
+    - type: simple
+      question: A synchroscope indicates whether two or more engines are
+      explanation: The synchroscope shows whether engines are running at the same speed. Matching speeds reduces vibration and noise, but it says nothing about torque or EGT.
+      presets:
+        - correctAnswers:
+            - text: operating at the same speed as it helps reduce the noise and vibration.
+          wrongAnswers:
+            - text: producing the same torque as it enhances aircraft handling.
+            - text: operating at the same EGT as it increases the total engine power.
+            - text: producing the same power as it helps to reduce the induced drag.
+- id: QQFMU
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227961
+    - AVEXAM-21849
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.08.01.01
+    - 022.01.08.01.03
+  templates:
+    - type: simple
+      question: Choose the correct answers to complete the sentences regarding a Synchroscope. There is/are (1) \_\_\_\_\_ dial(s) in a synchroscope. It displays the engine speed to reduce (2) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) one; (2) engine noise/vibration
+          wrongAnswers:
+            - text: (1) two; (2) engine noise/vibration
+            - text: (1) one; (2) reduce fuel consumption
+            - text: (1) two; (2) reduce fuel consumption
+- id: QLSUP
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229038
+    - BGS-221222
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.08.01.02
+  templates:
+    - type: simple
+      question: "On a twin-engine aeroplane, the synchroscope uses the following principle:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: it measures the frequency difference between the two engine driven alternators.
+          wrongAnswers:
+            - text: it mathematically subtracts the RPM of both engines.
+            - text: it mathematically subtracts the vibrations of both engines.
+            - text: a piezoelectric sensor measures the vibrations on each engine.
+- id: QQHDI
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226749
+    - AVEXAM-94123
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.08.01.02
+  templates:
+    - type: simple
+      question: What is the method of operation of a synchroscope for a twin engine aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It measures the difference in output frequencies of both alternators (one alternator in each engine).
+          wrongAnswers:
+            - text: It mathematically subtracts RPM values of both engines.
+            - text: It measures the vibration values of both engines with a piezoelectric sensor.
+            - text: It mathematically subtracts vibration values of both engines.
+- id: QNRIW
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224239
+    - AVEXAM-83792
+    - BGS-220064
+    - ATPLQ-223961
+    - BGS-220065
+    - AVEXAM-50419
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.09.01.01
+  templates:
+    - type: simple
+      question: "Any vibration displayed on an engine vibration monitoring system of a turbojet:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: indicates rotor imbalance.
+          wrongAnswers:
+            - text: varies inversely with the square of the engine speed.
+            - text: is presented without any amplification or filtering.
+            - text: is directly proportional to engine speed.
+    - type: simple
+      question: In an engine vibration monitoring system for a turbojet any vibration produced by the engine is…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: amplified and filtered before being fed to the flight deck indicator.
+          wrongAnswers:
+            - text: directly proportional to engine speed.
+            - text: fed directly to the flight deck indicator without amplification or filtering.
+            - text: inversely proportional to engine speed.
+        - correctAnswers:
+            - text: amplified and filtered before being fed to the cockpit indicator.
+          wrongAnswers:
+            - text: inversely proportional to engine speed.
+            - text: directly proportional to engine speed.
+            - text: fed directly to the cockpit indicator without amplification or filtering.
+- id: QMXQD
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221796
+    - BGS-221424
+    - AVEXAM-92695
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.09.01.02
+  templates:
+    - type: one-two
+      question: "In a vibration monitoring system, a filter:"
+      explanation: ""
+      pairs:
+        - right:
+            - Erases any output which is normal to the engine.
+          wrong:
+            - Allows through to the amplifier any frequency that is considered to be harmful to the engine.
+        - right: []
+          wrong:
+            - Erases any output which is harmful to the engine.
+- id: QUYXF
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222098
+    - AVEXAM-27641
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.09.01.02
+  templates:
+    - type: simple
+      question: A piezoelectric sensor consists of (1) \_\_\_ dial(s) and measures (2) \_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) cockpit (2) vibration
+          wrongAnswers:
+            - text: (1) inertial (2) temperature
+            - text: (1) tangent (2) pressure
+            - text: (1) avionics (2) humidity
+- id: QUHAU
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227212
+    - BGS-221939
+    - AVEXAM-33303
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.09.01.03
+  templates:
+    - type: simple
+      question: A jet engine vibration meter is indicating "4". What is the unit of this indication?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No units are specified
+          wrongAnswers:
+            - text: m/s
+            - text: hPa
+            - text: Hz
+- id: QUMYS
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222510
+    - BGS-221163
+    - BGS-222163
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.09.01.03
+  templates:
+    - type: simple
+      question: "The value shown by the indicator of a vibration monitoring system is 4\\. This is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a level of vibration without any unit.
+          wrongAnswers:
+            - text: 4% or 4 kHz depending on the type of aircraft.
+            - text: 4 Hz.
+            - text: 4%.
+- id: QXFAI
+  subjectId: "022"
+  chapterId: "022.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226808
+    - AVEXAM-90801
+    - BGS-222231
+  annexes: []
+  learningObjectiveIds:
+    - 022.01.09.01.04
+  templates:
+    - type: simple
+      question: "On an electronic display unit, the source of the vibrations sensed by an engine vibration monitoring system:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: can be displayed (N1 or N2).
+          wrongAnswers:
+            - text: cannot be displayed because low and high pressure shaft vibrate at the same frequency.
+            - text: cannot be displayed because of too much interference inside the engines.
+            - text: cannot be displayed because low and high pressure shafts are damaged by the same frequencies.

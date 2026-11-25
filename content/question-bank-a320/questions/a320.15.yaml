@@ -1,0 +1,446 @@
+- id: QSFPA
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Emergency Descent from FL370: Which statement is correct?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: With the N/100% selector to NORMAL the mask provides the flight crew with a mixture of air and oxygen. This  mixture changes with cabin altitude. The higher the cabin altitude, the more oxygen the mask provides until the  mask supplies 100% oxygen
+          wrongAnswers:
+            - text: With the N/100% selector to NORMAL the mask provides the flight crew with 100% Oxygen until FL100
+            - text: With the N/100% selector to NORMAL the mask provides the flight crew with a constant mixture of cabin air  (30%) and oxygen (70%) through the entire descent
+            - text: With the N/100% selector to NORMAL the mask provides the flight crew with 100% oxygen until FL330 and  then mixture of cabin air and oxygen
+- id: QUVOT
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If the N/100% regulator is set to "N", it delivers a mixture of air and oxygen to the mask, the content of  which varies with cabin altitude. When cabin altitude goes _________, the air inlet closes and the wearer breathes  100 % oxygen.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Above 35000 feet
+          wrongAnswers:
+            - text: Above 31000 feet
+            - text: Above 39000 feet
+            - text: ---
+- id: QDMQV
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The minimum bottle pressure of the cockpit fixed oxygen system takes the following into account:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "Protection in case of smoke, with 100 % oxygen: For all cockpit members for 15 min at a cabin altitude of 8'000  ft"
+          wrongAnswers:
+            - text: "Protection after loss of cabin pressure, with mask regulator on NORMAL (diluted oxygen) during an emergency  descent: For all cockpit members for 5 min"
+            - text: "Protection after loss of cabin pressure, with mask regulator on NORMAL (diluted oxygen) during an emergency  descent: For all cockpit members for 25 min"
+            - text: "Protection in case of smoke, with 100 % oxygen: For all cockpit members for 15 min at a cabin altitude of  36'000 ft"
+- id: QYJQZ
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When does the flight crew have to use the oxygen masks?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Whenever the cabin altitude exceeds 10'000ft for a period in excess of 30 minutes
+            - text: In case of smoke in the cockpit
+            - text: Whenever the cabin altitude exceeds 13'000ft
+- id: QNPTI
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the last point of the oxygen mask test?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No REGUL LO PR message on the ECAM page
+          wrongAnswers:
+            - text: Check if the left door of the oxygen mask box is closed
+            - text: It is correctly stowed
+            - text: Check if the N 100% selector is in the N position
+- id: QAFHK
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Oxygen system (cockpit): on ECAM DOOR/OXY page, CKPT OXY indication is normally green. It becomes  amber when:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Low oxygen pressure is detected
+            - text: The OXYGEN CREW SUPPLY pb on the overhead panel is OFF
+            - text: Pressure goes below 300 PSI
+- id: QPTGA
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "OXYGEN STOWAGE BOX: As soon as the left flap door opens, the mask is supplied with oxygen and, once  it closes (mask still supplied with oxygen), the ____ flag appears."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: OXY ON
+          wrongAnswers:
+            - text: NO OXYGEN
+            - text: LOW OXY
+            - text: OXY OFF
+- id: QHVUF
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: FIXED OXYGEN SYSTEM FOR CABIN - The generation of oxygen begins when the passenger pulls the mask  towards the passenger seat. The mask receives pure oxygen under positive pressure for about ___ min, until the  generator is exhausted
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 15 min
+          wrongAnswers:
+            - text: 12 min
+            - text: 10 min
+            - text: 20 min
+- id: QPPNS
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "FIXED OXYGEN SYSTEM FOR CABIN - Each container has an electrical latching mechanism that opens  automatically to allow the masks to drop if:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The cabin pressure altitude exceeds 14 000 ft (+ 250, - 750 ft). The flight crew can override the automatic  control
+          wrongAnswers:
+            - text: The cabin pressure altitude exceeds 14 000 ft exactly. The flight crew can not override the automatic control
+            - text: The cabin pressure altitude exceeds 14 000 ft (+ 250, - 750 ft). The flight crew can not override the automatic  control
+            - text: The cabin pressure altitude exceeds 14 000 ft exactly. The flight crew can override the automatic control
+- id: QNZZM
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What measuring unit is used to depict the cockpit oxygen system pressure on the ECAM?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: PSI
+          wrongAnswers:
+            - text: QT
+            - text: KG
+            - text: L
+- id: QJVXY
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What can be done in order to relase a cabin oxygen mask, when the door fails to open?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The Manual Release Tool (MRT) can be used by cabin crew to open affected containers
+          wrongAnswers:
+            - text: Nothing
+            - text: Provide first aid oxygen
+            - text: Repeatedly (4 times) press the MASK MAN ON pb
+- id: QTCXL
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is indicated by a missing green pressure plug on the right fwd fuselage below F/O window during an  exterior preflight check?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An oxygen system overpressure or thermal discharge
+          wrongAnswers:
+            - text: An external fire extinguisher has been discharged
+            - text: The crew oxygen bottle is empty
+            - text: This is a normal indication, the green pressure plug only appears if the oxygen cylinder pressure is low
+- id: QGAGW
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The illumination of the PASSENGER SYS ON light is an indication that:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The control for the oxygen mask doors is activated
+          wrongAnswers:
+            - text: The crew oxygen cylinder is empty
+            - text: All of the passenger masks have deployed
+            - text: The crew must depress the MASK MAN ON Pb in order to deploy the masks
+- id: QUFHZ
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: With reference to the OXY high pressure indication, which of the following is wrong?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: On ground, an amber half frame appears when oxygen pressure is < 1100 PSI
+          wrongAnswers:
+            - text: It pulses in green, when the pressure is < 600 PSI
+            - text: It is amber, when the pressure is < 300 PSI
+            - text: It is green, when the pressure is equal or higher than 600 PSI
+- id: QZVRE
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: FIXED OXYGEN SYSTEM FOR CABIN. Which statement is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Supplies oxygen for cabin occupants in case of depressurization only
+          wrongAnswers:
+            - text: Supplies oxygen for cabin occupants in case of depressurization and noxious gases
+            - text: Supplies oxygen for cabin occupants in case of depressurization, smoke and noxious gases
+            - text: Supplies oxygen for cabin occupants in case of depressurization and smoke
+- id: QAGWT
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When is the FCM oxygen mask supplied with oxygen?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: As soon as the left flap door of mask container is opened
+          wrongAnswers:
+            - text: As soon as the right flap door of mask container is opened
+            - text: As soon as you push the RESET/TEST control slide
+            - text: The mask is always supplied by oxygen
+- id: QNCUC
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: FIXED OXYGEN SYSTEM FOR COCKPIT. Which statement about the EMERGENCY pressure selector is  correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Overpressure supply is only available when the N/100% selector is set to 100% and will be automatically  started, when the cabin altitude exceeds 30,000 ft
+          wrongAnswers:
+            - text: Overpressure supply is automatically started, when the cabin altitude exceeds 25,000 ft
+            - text: Overpressure supply is started as soon as you put on the mask and the N/100% selector is set to 100%
+            - text: Overpressure supply is available when the N/100% selector is set to 100% or NORMAL and will be  automatically started, when the cabin altitude exceeds 30,000 ft
+- id: QKIVY
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does the PASSENGER SYS ON light mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: This light comes on white, when the control for the oxygen mask door is activated.
+          wrongAnswers:
+            - text: Passenger oxygen masks are all deployed
+            - text: Passenger oxygen has been requested by cabin crew through the FAP. Cockpit Crew has to push the button to  allow the masks to drop
+            - text: Passenger oxygen is needed due to loss of cabin pressure
+- id: QWUOI
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When stowing the crew oxygen mask, when will the integrated microphone be deactivated automatically?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: After closing the left flap of the oxygen mask door and having presed the RESET button
+          wrongAnswers:
+            - text: After pressing the test button on the mask
+            - text: After closing the oxygen mask doors
+            - text: The microphone is not deactivated
+- id: QLOCW
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If the oxygen masks fail to deploy automatically how else can they be deployed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: They can be deployed by pressing the MASK MAN ON pb on the overhead panel.
+          wrongAnswers:
+            - text: They can be deployed by the flight attendants using the CIDS panel.
+            - text: They can be deployed by pressing the PASSENGER SYS ON pb on the overhead panel.
+            - text: They cannot be deployed if the automatic system fails.
+- id: QQRMK
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "On the ECAM DOOR/OXY page, the OXY indication becomes amber when: (more than one answer is  correct)"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct.
+          wrongAnswers:
+            - text: Low oxygen pressure is detected.
+            - text: Pressure goes below 300 psi.
+            - text: The OXYGEN CREW SUPPLY pushbutton switch on overhead panel is OFF.
+- id: QVZDX
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: The flight crew can not override the automatic control of the cabin oxygen system.
+          answer: false
+- id: QDNKJ
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "OVHD Panel: The PASSENGER SYS ON light comes on ________ when the control for the oxygen mask  doors is activated."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: White
+          wrongAnswers:
+            - text: Blue
+            - text: Amber
+            - text: ---
+- id: QIJKJ
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The oxygen system consists of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct.
+          wrongAnswers:
+            - text: A fixed oxygen system for the cockpit.
+            - text: A fixed oxygen system for the cabin.
+            - text: A portable oxygen system.
+- id: QDUWC
+  subjectId: a320
+  chapterId: "15"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Fixed oxygen system cabin: Each chemical generator container has an electrical latching mechanism that  opens automatically to allow the masks to drop, if the cabin pressure altitude exceeds  ________________________."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 14000 feet (+ 250, - 750)
+          wrongAnswers:
+            - text: 12000 feet (+ 250, - 750)
+            - text: 13000 feet (+ 250, - 750)
+            - text: ---

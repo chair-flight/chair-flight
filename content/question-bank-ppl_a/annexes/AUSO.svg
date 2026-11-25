@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="535" viewBox="0 0 1000 535">
+  <title>Performance against arousal</title>
+  <path fill="#fff" d="M0 0h1000v535H0z"/>
+  <g fill="none">
+    <path d="M108 40v421h776" stroke="#111" stroke-width="4"/>
+    <path d="M108 461C145 410 179 367 212 325S359 167 428 129C469 108 508 102 547 102C635 102 716 180 779 301C804 348 831 400 854 461" stroke="#0b6bcb" stroke-width="3.5"/>
+    <path d="M212 325v136M428 129v332M547 102v359M779 301v160" stroke="#7d2e2e" stroke-width="2" stroke-dasharray="3 3"/>
+  </g>
+  <path d="m108 22-12 34h24zM906 461l-34-12v24z" fill="#111"/>
+  <g fill="#920b12">
+    <circle cx="212" cy="325" r="10"/>
+    <circle cx="428" cy="129" r="10"/>
+    <circle cx="547" cy="102" r="10"/>
+    <circle cx="779" cy="301" r="10"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#111" font-weight="700">
+    <g font-size="34" font-style="italic">
+      <text x="61" y="92">P</text>
+      <text x="854" y="510">A</text>
+    </g>
+    <g font-size="28">
+      <text x="179" y="315">A</text>
+      <text x="409" y="113">B</text>
+      <text x="539" y="85">C</text>
+      <text x="786" y="287">D</text>
+    </g>
+  </g>
+</svg>

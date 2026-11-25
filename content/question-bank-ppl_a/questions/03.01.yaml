@@ -1,0 +1,384 @@
+- id: QUVMJ
+  subjectId: "03"
+  chapterId: "03.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.01.01.02"
+  templates:
+    - type: simple
+      question: Weather phenomena are most common to be found in which atmospheric layer?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Troposphere
+          wrongAnswers:
+            - text: Stratosphere
+            - text: Tropopause
+            - text: Thermosphere
+- id: QDYOW
+  subjectId: "03"
+  chapterId: "03.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.01.05.01"
+  templates:
+    - type: simple
+      question: What is the mass of a "cube of air" with the edges 1 m long, at MSL according ISA?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1.225 kg
+          wrongAnswers:
+            - text: 0.01225 kg
+            - text: 0.1225 kg
+            - text: 12.25 kg
+- id: QCGIP
+  subjectId: "03"
+  chapterId: "03.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.01.05.01"
+  templates:
+    - type: simple
+      question: At what rate does the temperature change with increasing height according to ISA (ICAO Standard Atmosphere) within the troposphere?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Decreases by 2 °C / 1000 ft
+          wrongAnswers:
+            - text: Increases by 2 °C / 1000 ft
+            - text: Decreases by 2 °C / 100 m
+            - text: Increases by 2 °C / 100 m
+    - type: simple
+      question: The temperature lapse rate with increasing height within the troposphere according ISA is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 0.65 °C / 100 m
+          wrongAnswers:
+            - text: 3 °C / 100 m
+            - text: 1 °C / 100 m
+            - text: 0.6 °C / 100 m
+    - type: simple
+      question: How does air temperature change in ISA from MSL to approx. 10.000 m height?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: from +15° to -50 °C
+          wrongAnswers:
+            - text: from +20° to -40 °C
+            - text: from +30° to -40 °C
+            - text: from -15° to 50 °C
+- id: QHXXI
+  subjectId: "03"
+  chapterId: "03.01"
+  relatedQuestionIds:
+    - QCQJS
+  annexes: []
+  learningObjectiveIds:
+    - "03.01.05.01"
+  templates:
+    - type: simple
+      question: What is the mean height of the tropopause according to ISA (ICAO Standard Atmosphere)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 11000 m
+          wrongAnswers:
+            - text: 18000 ft
+            - text: 11000 ft
+            - text: 36000 m
+    - type: simple
+      question: The height of the tropopause of the International Standard Atmosphere (ISA) is at...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 36000 ft
+          wrongAnswers:
+            - text: 5500 ft
+            - text: 11000 ft
+            - text: 48000 ft
+- id: QCQJS
+  subjectId: "03"
+  chapterId: "03.01"
+  relatedQuestionIds:
+    - QHXXI
+  annexes: []
+  learningObjectiveIds:
+    - "03.01.01.01"
+  templates:
+    - type: simple
+      question: The term "tropopause" is defined as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the boundary area between the troposphere and the stratosphere.
+          wrongAnswers:
+            - text: the layer above the troposphere showing an increasing temperature.
+            - text: the boundary area between the mesosphere and the stratosphere.
+            - text: the height above which the temperature starts to decrease.
+- id: QJBUS
+  subjectId: "03"
+  chapterId: "03.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.01.02.01"
+  templates:
+    - type: simple
+      question: Temperatures will be given by meteorological aviation services in Europe in which unit?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Degrees Centigrade (° C)
+          wrongAnswers:
+            - text: Kelvin
+            - text: Gpdam
+            - text: Degrees Fahrenheit
+- id: QFYQM
+  subjectId: "03"
+  chapterId: "03.01"
+  relatedQuestionIds:
+    - QMFFV
+    - QDTFZ
+  annexes: []
+  learningObjectiveIds:
+    - "03.01.02.05"
+  templates:
+    - type: simple
+      question: What is meant by "inversion layer"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An atmospheric layer where temperature increases with increasing height
+          wrongAnswers:
+            - text: An atmospheric layer where temperature decreases with increasing height
+            - text: A boundary area between two other layers within the atmosphere
+            - text: An atmospheric layer with constant temperature with increasing height
+    - type: simple
+      question: An inversion is a layer ...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: with increasing temperature with increasing height.
+          wrongAnswers:
+            - text: with increasing pressure with increasing height.
+            - text: with decreasing temperature with increasing height.
+            - text: with constant temperature with increasing height.
+- id: QAMGQ
+  subjectId: "03"
+  chapterId: "03.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.01.02.02"
+  templates:
+    - type: simple
+      question: What is meant by "isothermal layer"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An atmospheric layer with constant temperature with increasing height
+          wrongAnswers:
+            - text: An atmospheric layer where temperature increases with increasing height
+            - text: An atmospheric layer where temperature decreases with increasing height
+            - text: A boundary area between two other layers within the atmosphere
+- id: QMFFV
+  subjectId: "03"
+  chapterId: "03.01"
+  relatedQuestionIds:
+    - QFYQM
+    - QDTFZ
+  annexes: []
+  learningObjectiveIds:
+    - "03.01.02.05"
+  templates:
+    - type: simple
+      question: Which process may result in an inversion layer at about 5000 ft (1500 m) height?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Widespread descending air within a high pressure area
+          wrongAnswers:
+            - text: Intensive sunlight insolation during a warm summer day
+            - text: Ground cooling by radiation during the night
+            - text: Advection of cool air in the upper troposphere
+- id: QDTFZ
+  subjectId: "03"
+  chapterId: "03.01"
+  relatedQuestionIds:
+    - QFYQM
+    - QMFFV
+  annexes: []
+  learningObjectiveIds:
+    - "03.01.02.05"
+  templates:
+    - type: simple
+      question: An inversion layer close to the ground can be caused by...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ground cooling during the night.
+          wrongAnswers:
+            - text: large-scale lifting of air.
+            - text: intensifying and gusting winds.
+            - text: thickening of clouds in medium layers.
+- id: QJCMC
+  subjectId: "03"
+  chapterId: "03.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.01.03.03"
+  templates:
+    - type: simple
+      question: The pressure which is measured at a ground station and reduced to mean sea level (MSL) by means of the actual atmospheric conditions is called...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: QFF.
+          wrongAnswers:
+            - text: QNH.
+            - text: QNE.
+            - text: QFE.
+- id: QAIGA
+  subjectId: "03"
+  chapterId: "03.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.01.04.01"
+  templates:
+    - type: simple
+      question: Which processes result in decreasing air density?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Increasing temperature, decreasing pressure
+          wrongAnswers:
+            - text: Decreasing temperature, increasing pressure
+            - text: Increasing temperature, increasing pressure
+            - text: Decreasing temperature, decreasing pressure
+- id: QDORA
+  subjectId: "03"
+  chapterId: "03.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.01.05.01"
+  templates:
+    - type: simple
+      question: The pressure at MSL in ISA conditions is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1013.25 hPa
+          wrongAnswers:
+            - text: 113.25 hPa
+            - text: 15 hPa
+            - text: 1123 hPa
+- id: QURAY
+  subjectId: "03"
+  chapterId: "03.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.01.06.01"
+  templates:
+    - type: simple
+      question: The barometric altimeter indicates height above...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a correct reference pressure level.
+          wrongAnswers:
+            - text: mean sea level.
+            - text: standard pressure 1013.25 hPa
+            - text: ground.
+- id: QXFAM
+  subjectId: "03"
+  chapterId: "03.01"
+  relatedQuestionIds:
+    - QKWHO
+    - QKYFF
+  annexes: []
+  learningObjectiveIds:
+    - "03.01.06.02"
+  templates:
+    - type: simple
+      question: The altimeter can be checked on the ground by setting...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: QNH and comparing the indication with the airfield elevation.
+          wrongAnswers:
+            - text: QFE and comparing the indication with the airfield elevation.
+            - text: QNE and checking that the indication shows zero on the ground.
+            - text: QFF and comparing the indication with the airfield elevation.
+    - type: simple
+      question: The barometric altimeter with QNH setting indicates...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: height above MSL.
+          wrongAnswers:
+            - text: height above standard pressure 1013.25 hPa
+            - text: height above the pressure level at airfield elevation.
+            - text: true altitude above MSL.
+- id: QGAKL
+  subjectId: "03"
+  chapterId: "03.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.01.06.02"
+  templates:
+    - type: simple
+      question: The barometric altimeter with QFE setting indicates...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: height above the pressure level at airfield elevation.
+          wrongAnswers:
+            - text: true altitude above MSL.
+            - text: height above MSL.
+            - text: height above standard pressure 1013.25 hPa
+- id: QVJKX
+  subjectId: "03"
+  chapterId: "03.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.01.06.03"
+  templates:
+    - type: simple
+      question: "Given the following information, what is the true altitude? (rounded to the nearest 50 ft) - QNH: 983 hPa - Altitude: FL 85 - Outside Air Temperature: ISA - 10°"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 7300 ft
+          wrongAnswers:
+            - text: 7900 ft
+            - text: 9400 ft
+            - text: 7600 ft
+- id: QOWVN
+  subjectId: "03"
+  chapterId: "03.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.01.03.04"
+  templates:
+    - type: simple
+      question: How does inflowing cold air affect the shape and vertical distance between pressure layers?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Decrease in vertical distance, lowering in height (low pressure)
+          wrongAnswers:
+            - text: Increasing vertical distance, raise in height (high pressure)
+            - text: Decreasing vertical distance, raise in height (high pressure)
+            - text: Increase in vertical distance, lowering in height (low pressure)

@@ -1,0 +1,3324 @@
+- id: QCTJD
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-321480
+    - AVEXAM-70359
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.01.02.02
+  templates:
+    - type: multiple-correct
+      question: Which three of the following statements are correct with regards to aircraft performance classes and the corresponding aircraft characteristics?
+      explanation: ""
+      options:
+        - text: Class C contains piston engined aircraft that have a MTOM of 5700kg or more.
+          correct: true
+        - text: Class A contains turbojet aircraft only.
+          correct: false
+        - text: Class C contains propeller driven aircraft only.
+          correct: true
+        - text: Class B aircraft have 9 or fewer passenger seats.
+          correct: true
+        - text: Class B aircraft have a MTOM of 5700 kg or greater.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+    - type: simple
+      question: |-
+        Which of the following statements are correct regarding aircraft performance classes and corresponding characteristics?
+
+         Class C includes piston engined aircraft with a MTOM greater than 5 700 kg.
+         Class A comprises turbojet aircraft only.
+         Class C consists of propeller driven aircraft only.
+         Class B aircraft have 9 or fewer passenger seats.
+         Class B aircraft have a MTOM of 5 700 kg or greater.
+         Class A aircraft can have 9 or fewer passenger seats.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 3, 4, 6
+          wrongAnswers:
+            - text: 1, 2, 3, 4
+            - text: 2, 4, 5, 6
+            - text: 2, 3, 5, 6
+- id: QCETK
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-323379
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.01.03.01
+    - 032.02.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        Based on actual conditions, an aeroplane has the following performance take-off mass limitations:
+
+        | FLAPS | **0º** | **10º** | **15º** |
+        | ------ | ------- | ------- | ------- |
+        | RUNWAY | {{r0}} kg | {{r10}} kg | {{r15}} kg |
+        | CLIMB | {{c0}} kg | {{c10}} kg | {{c15}} kg |
+
+        Structural limits: take-off/landing/zero fuel: {{smax}} kg
+
+        The Maximum Take-off Mass is:
+      explanation: |-
+        For each flap setting the take-off mass is limited by the lower of the runway limit and the climb limit. The best flap setting is the one that gives the highest of these values, and the structural limit then caps the result.
+
+        **Solution**
+
+        For each flap setting take the lower of runway and climb limit, choose the highest of the three, then compare it with the structural limit:
+
+        $$
+        \text{min}(\text{Structural limit},\text{max}(\text{min}(\text{Runway limit flaps 0},\text{Climb limit flaps 0}),\text{min}(\text{Runway limit flaps 10},\text{Climb limit flaps 10}),\text{min}(\text{Runway limit flaps 15},\text{Climb limit flaps 15}))) = \text{min}({{smax}},\text{max}(\text{min}({{r0}},{{c0}}),\text{min}({{r10}},{{c10}}),\text{min}({{r15}},{{c15}}))) = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: takes the limit of flaps 15 only, which is not the best flap setting.
+        - **{{d2}} kg**: takes the highest climb limit and ignores the runway and structural limits.
+        - **{{d3}} kg**: takes the limit of flaps 0 only, which is not the best flap setting.
+      presets:
+        - variables:
+            r0: 4100
+            r10: 4400
+            r15: 4600
+            c0: 4700
+            c10: 4500
+            c15: 4200
+            smax: 4300
+            answer: 4300
+            d1: 4200
+            d2: 4700
+            d3: 4100
+          correctAnswers:
+            - text: 4300 kg
+          wrongAnswers:
+            - text: 4100 kg
+            - text: 4200 kg
+            - text: 4700 kg
+        - variables:
+            r0: 5100
+            r10: 5400
+            r15: 5700
+            c0: 5900
+            c10: 5600
+            c15: 5200
+            smax: 5500
+            answer: 5400
+            d1: 5200
+            d2: 5900
+            d3: 5100
+          correctAnswers:
+            - text: 5400 kg
+          wrongAnswers:
+            - text: 5100 kg
+            - text: 5200 kg
+            - text: 5900 kg
+- id: QKAQH
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102431
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.01.03.01
+    - 032.04.01.02.02
+  templates:
+    - type: simple
+      question: After refueling procedure, the pilot notices that the amount of fuel in the tanks is about 2 900 kg over the amount considered for performance calculations. Which of the following statements is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Performance calculations must be redone, and aircraft and runway conditions must be within limits in order for the flight to safely continue.
+          wrongAnswers:
+            - text: Adding extra fuel will not have a great impact on performance and, therefore, the pilot is free to continue the operation.
+            - text: Defueling procedure must always be performed in such case.
+            - text: Check that the Zero fuel mass is still within limits and carry on with the operation.
+- id: QFLPX
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-329963
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.01.04.02
+  templates:
+    - type: simple
+      question: Which statement regarding gross performance is true?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Actual flight performance with NO safety factor.
+          wrongAnswers:
+            - text: Margin between the net gradient and gross gradient.
+            - text: Calculated flight performance with a safety factor.
+            - text: Actual flight performance with a safety factor.
+- id: QBQBA
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-328027
+    - AVEXAM-6993
+    - BGS-320999
+    - ATPLQ-326385
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.01.04.05
+  templates:
+    - type: simple
+      question: Which of the following statements about performance definitions and safety factors is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The net climb gradient is the gross climb gradient minus a safety margin.
+          wrongAnswers:
+            - text: The gross take off flight path must clear all obstacles by at least 35 ft.
+            - text: The net and gross climb gradients are equal for a four-engined aeroplane.
+            - text: The gross climb gradient is the net climb gradient minus a safety margin.
+    - type: simple
+      question: In aircraft performance calculations, which of the following correctly describes "gross", "calculated" and "net" climb gradients with respect to safety margins?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The "gross" climb gradient does not include a safety margin, while the "calculated climb gradient" and "actual climb gradient" already include a safety margin.
+          wrongAnswers:
+            - text: The "gross" climb gradient already includes a safety margin, while the "calculated climb gradient" and "actual climb gradient" do not include a safety margin.
+            - text: 'All three terms, "gross climb gradient", "calculated climb gradient," and "actual climb gradient," include safety margins. '
+            - text: The "gross" climb gradient, "calculated climb gradient," and "actual climb gradient" are all different terms for the same value, and none of them include a safety margin.
+- id: QDWYR
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QXSCD
+  externalQuestionIds:
+    - ATPLQ-328120
+    - AVEXAM-24313
+    - BGS-321011
+    - ATPLQ-329247
+    - BGS-320970
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.01.04.05
+    - 032.04.01.09.02
+  templates:
+    - type: simple
+      question: CS-23 and CS-25 use the term “net take off flight path” to describe certain performance elements. The net take off flight path (Gradient) is the…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Actual flight path of the aeroplane reduced by a safety margin.
+          wrongAnswers:
+            - text: Increased flight path gradient to introduce a safety margin on the flight test data.
+            - text: Flight path of the aeroplane with No safety margins applied.
+            - text: Correction applied to flight path gradient to correct for non ISA conditions.
+- id: QUJSO
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325436
+    - BGS-321216
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.01.04.05
+    - 032.04.01.09.02
+  templates:
+    - type: simple
+      question: Some of the certification requirements for large aeroplanes described in CS-25 are the performance data defined as gradients of the flight path and the net flight path. What is the difference between those two factors?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The net flight path gradient is the flight path gradient reduced by prescribed safety margins, which depend on the number of engines.
+          wrongAnswers:
+            - text: The net flight path gradient is first established based on obstacle clearance, and this is reduced by a safety margin to establish the flight path gradient.
+            - text: The flight path gradient is the actual path flown by the aeroplane, which is increased by safety factors to introduce a safety margin for the net flight path.
+            - text: The flight path gradient includes safety factors and is based on the net flight path gradient, which is determined by flight testing.
+- id: QBTOB
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-323948
+    - AVEXAM-90235
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.02.01
+  templates:
+    - type: simple
+      question: Which formula about climb gradient (in %) is correct? Gradient in % =...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (altitude difference x 100) / ground distance
+          wrongAnswers:
+            - text: (rate of climb or descent) x ground speed
+            - text: Arctg (altitude difference / ground distance)
+            - text: ground difference / (altitude difference x 100)
+- id: QDUGJ
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324861
+    - AVEXAM-80335
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.02.01
+  templates:
+    - type: simple
+      question: If the climb gradient in still air is {{grad}} percent, and the height achieved is {{height}} ft, what is the distance travelled in the climb in still air (in NM, 1 NM = 6076 ft)?
+      explanation: |-
+        Gradient is height gained divided by horizontal distance, so the distance equals height divided by gradient. The result in feet is converted to nautical miles.
+
+        **Solution**
+
+        Distance = {{macro1}} ft
+
+        $$
+        \frac{\frac{\text{Height gained}}{\frac{\text{Climb gradient}}{100}}}{6076} = \frac{\frac{ {{height}} }{\frac{ {{grad}} }{100}} }{6076} = \mathbf{ {{answer}}\ \text{NM} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: divides by 1852 (metres per NM) instead of 6076 ft per NM.
+        - **{{d2}} NM**: treats the percentage as an angle in degrees.
+        - **{{d3}} NM**: converts feet using 3281 (ft per km) instead of 6076.
+        - **{{d4}} NM**: uses 5280 ft (statute mile) instead of the nautical mile.
+      presets:
+        - variables:
+            grad: 3.2
+            height: 640
+            macro1: 20000
+            answer: 3.29
+            d1: 10.8
+            d2: 1.88
+            d3: 6.1
+            d4: 3.79
+          correctAnswers:
+            - text: 3.29 NM
+          wrongAnswers:
+            - text: 10.8 NM
+            - text: 6.1 NM
+            - text: 3.79 NM
+            - text: 1.88 NM
+        - variables:
+            grad: 5
+            height: 1200
+            macro1: 24000
+            answer: 3.95
+            d1: 12.96
+            d2: 2.26
+            d3: 7.31
+            d4: 4.55
+          correctAnswers:
+            - text: 3.95 NM
+          wrongAnswers:
+            - text: 12.96 NM
+            - text: 7.31 NM
+            - text: 4.55 NM
+            - text: 2.26 NM
+        - variables:
+            grad: 2.5
+            height: 800
+            macro1: 32000
+            answer: 5.27
+            d1: 17.28
+            d2: 3.02
+            d3: 9.75
+            d4: 6.06
+          correctAnswers:
+            - text: 5.27 NM
+          wrongAnswers:
+            - text: 17.28 NM
+            - text: 9.75 NM
+            - text: 6.06 NM
+            - text: 3.02 NM
+- id: QEGFJ
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324488
+    - BGS-320713
+    - AVEXAM-5921
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.02.02
+  templates:
+    - type: simple
+      question: The flight path angle is the angle between the…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: path of the aircraft relative to the horizon.
+          wrongAnswers:
+            - text: longitudinal axis and the horizon.
+            - text: longitudinal axis and the path of the aircraft.
+            - text: path of the aircraft relative to True North.
+- id: QFPRR
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325705
+    - BGS-320496
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.02.02
+  templates:
+    - type: simple
+      question: London City Airport has a landing approach glide slope of {{ang}}°. What flight path gradient does this equate to? Give the answer in %.
+      explanation: |-
+        A gradient in percent is the tangent of the flight path angle multiplied by 100 (height gained or lost per 100 units of horizontal distance).
+
+        **Solution**
+
+        $$
+        100\times \text{tan}(\text{Glide slope angle}) = 100\times \text{tan}({{ang}}) = \mathbf{ {{answer}}\ \text{%} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} %**: uses the angle in degrees as if it were the gradient in percent.
+        - **{{d2}} %**: applies a wrong rule-of-thumb factor to the angle.
+        - **{{d3}} %**: gives the tangent without multiplying by 100.
+        - **{{d4}} %**: adds an unjustified 1 % to the correct gradient.
+      presets:
+        - variables:
+            ang: 5.5
+            answer: 9.6
+            d1: 5.5
+            d2: 9.9
+            d3: 0.1
+            d4: 10.6
+          correctAnswers:
+            - text: 9.6 %
+          wrongAnswers:
+            - text: 5.5 %
+            - text: 0.1 %
+            - text: 10.6 %
+            - text: 9.9 %
+        - variables:
+            ang: 3
+            answer: 5.2
+            d1: 3
+            d2: 5.4
+            d3: 0.1
+            d4: 6.2
+          correctAnswers:
+            - text: 5.2 %
+          wrongAnswers:
+            - text: 3 %
+            - text: 0.1 %
+            - text: 6.2 %
+            - text: 5.4 %
+        - variables:
+            ang: 4.5
+            answer: 7.9
+            d1: 4.5
+            d2: 8.1
+            d3: 0.1
+            d4: 8.9
+          correctAnswers:
+            - text: 7.9 %
+          wrongAnswers:
+            - text: 4.5 %
+            - text: 0.1 %
+            - text: 8.9 %
+            - text: 8.1 %
+- id: QGEOD
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324537
+    - AVEXAM-4343
+    - BGS-320635
+    - BGS-320489
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.02.06
+  templates:
+    - type: simple
+      question: Considering clearways, which of the following answers is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A clearway is an area of land or water beyond the runway that must be under the control of the airport authority.
+          wrongAnswers:
+            - text: The minimum clearway width is 90 m either side of the extended centreline.
+            - text: Clearway can be expressed as a surface extending from the end of the runway, with an upward slope of 1.5% through which no obstacle or terrain must protrude.
+            - text: A clearway must be capable of supporting the weight of an aeroplane without causing structural damage.
+    - type: simple
+      question: Which statement about the Clearway is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The airport Authority has control over the clearway.
+          wrongAnswers:
+            - text: Minimum semi-width is 90m.
+            - text: Minimum clearway gradient is 1.5%.
+            - text: The clearway is part of ASDA.
+- id: QPVBF
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-323841
+    - BGS-320645
+    - AVEXAM-65354
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.02.06
+  templates:
+    - type: simple
+      question: Which of the following statements is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A stopway means an area beyond the take-off runway, able to support the aeroplane during an abandoned take-off.
+          wrongAnswers:
+            - text: An underrun is an area beyond the runway end which can be used for an aborted take-off.
+            - text: If a clearway or a stopway is used, the liftoff point must be attainable at least at the end of the permanent runway surface.
+            - text: A clearway is an area beyond the runway which can be used for an aborted take-off.
+- id: QZSTW
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326088
+    - AVEXAM-15784
+    - BGS-320587
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.02.06
+  templates:
+    - type: simple
+      question: The stopway is an area designated to be used by an aircraft in order to…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: decelerate during an abortive take-off.
+          wrongAnswers:
+            - text: remain on the runway after a balked landing.
+            - text: park between two flights.
+            - text: vacate at the end of the runway.
+- id: QIUCS
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-321133
+    - ATPLQ-324571
+    - BGS-320874
+    - ATPLQ-327409
+    - AVEXAM-36552
+    - AVEXAM-19668
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.02.07
+  templates:
+    - type: simple
+      question: |-
+        Determine the ASDA for runway 09, given:
+
+        - TORA: {{tora}} m
+        - Stopway: {{stopway}} m
+        - Clearway: {{clearway}} m
+      explanation: |-
+        The Accelerate-Stop Distance Available (ASDA) is the take-off run available plus the stopway, since an aborted take-off can use the stopway. A clearway only extends the take-off distance available (TODA) and does not count for ASDA.
+
+        **Solution**
+
+        $$
+        \text{TORA}+\text{Stopway} = {{tora}}+{{stopway}} = \mathbf{ {{answer}}\ \text{m} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} m**: this is only the TORA; the stopway is forgotten.
+        - **{{d2}} m**: adds the clearway instead of the stopway (that is part of TODA, not ASDA).
+        - **{{d3}} m**: adds both stopway and clearway; the clearway is not usable for stopping.
+        - **{{d4}} m**: subtracts the stopway instead of adding it.
+      presets:
+        - variables:
+            tora: 2300
+            stopway: 280
+            clearway: 480
+            answer: 2580
+            d1: 2300
+            d2: 2780
+            d3: 3060
+            d4: 2020
+          correctAnswers:
+            - text: 2580 m
+          wrongAnswers:
+            - text: 2300 m
+            - text: 3060 m
+            - text: 2020 m
+            - text: 2780 m
+        - variables:
+            tora: 2100
+            stopway: 200
+            clearway: 480
+            answer: 2300
+            d1: 2100
+            d2: 2580
+            d3: 2780
+            d4: 1900
+          correctAnswers:
+            - text: 2300 m
+          wrongAnswers:
+            - text: 2100 m
+            - text: 2780 m
+            - text: 1900 m
+            - text: 2580 m
+        - variables:
+            tora: 2500
+            stopway: 300
+            clearway: 500
+            answer: 2800
+            d1: 2500
+            d2: 3000
+            d3: 3300
+            d4: 2200
+          correctAnswers:
+            - text: 2800 m
+          wrongAnswers:
+            - text: 2500 m
+            - text: 3300 m
+            - text: 2200 m
+            - text: 3000 m
+- id: QILED
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325598
+    - BGS-320659
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.02.07
+  templates:
+    - type: simple
+      question: The Take-Off Distance Available (TODA) is the length of the take-off run available plus the length...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: of the clearway, if provided.
+          wrongAnswers:
+            - text: necessary to reach 50 ft.
+            - text: necessary to retract the gear.
+            - text: of the stopway, if provided.
+- id: QYZLK
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-329639
+    - AVEXAM-65818
+    - AVEXAM-10604
+    - BGS-320219
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.02.07
+    - 032.04.01.02.06
+  templates:
+    - type: simple
+      question: "An airport has a 3000 metres long runway, and a 2000 metres clearway at each end of that runway. For the calculation of the maximum allowed take-off mass, the take-off distance available cannot be greater than:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 4500 metres.
+          wrongAnswers:
+            - text: 6000 metres.
+            - text: 4000 metres.
+            - text: 5000 metres.
+- id: QNYIU
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QYRSB
+  externalQuestionIds:
+    - ATPLQ-323427
+    - BGS-320773
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.02.08
+    - 032.04.01.11.01
+  templates:
+    - type: simple
+      question: When determining the Take-Off Distance for Performance Class A aeroplanes, assuming an engine failure on a wet or contaminated runway, the screen height is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 15 ft.
+          wrongAnswers:
+            - text: 20 ft.
+            - text: 35 ft.
+            - text: 50 ft.
+- id: QPKED
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322908
+    - AVEXAM-53731
+    - ATPLQ-326607
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.02.08
+  templates:
+    - type: simple
+      question: Assume a normal approach and landing with a class B aeroplane on a dry runway. Which of the following values shows the corresponding screen height?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "50 ft "
+          wrongAnswers:
+            - text: "60 ft "
+            - text: "35 ft "
+            - text: "100 ft "
+- id: QYRSB
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QNYIU
+  externalQuestionIds:
+    - ATPLQ-329111
+    - AVEXAM-97269
+    - AVEXAM-55505
+    - AVEXAM-50976
+    - AVEXAM-26505
+    - AVEXAM-79124
+    - ATPLQ-326578
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.02.08
+    - 032.04.01.11.01
+  templates:
+    - type: simple
+      question: Assume a take-off with a class A aeroplane on a wet runway. Which of the following values shows the corresponding screen height of the take-off distance?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "15 ft "
+          wrongAnswers:
+            - text: "0 ft "
+            - text: "50 ft "
+            - text: "35 ft "
+        - correctAnswers:
+            - text: "35 ft "
+          wrongAnswers:
+            - text: "15 ft "
+            - text: 0 ft
+            - text: "50 ft "
+- id: QZOPL
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322289
+    - BGS-320677
+    - AVEXAM-34602
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.02.09
+  templates:
+    - type: simple
+      question: "Maximum endurance:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is achieved in unaccelerated level flight with minimum fuel flow.
+          wrongAnswers:
+            - text: can be reached with the ‘best rate of climb’ speed in level flight.
+            - text: is the same as maximum specific range with wind correction.
+            - text: can be flown in a steady climb only.
+- id: QDPGL
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-321110
+    - BGS-320944
+    - AVEXAM-44715
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.02.10
+  templates:
+    - type: simple
+      question: What is the ratio of Nautical Air Miles (NAM) of flying distance versus the amount of fuel consumed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: specific range
+          wrongAnswers:
+            - text: specific endurance
+            - text: specific drag
+            - text: cost index
+- id: QGIKR
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324920
+    - BGS-320675
+    - AVEXAM-24847
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.02.10
+  templates:
+    - type: simple
+      question: Which statement best describes Specific Range SR? It is the…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: distance an aircraft can travel per unit mass of fuel.
+          wrongAnswers:
+            - text: maximum range specific to a particular aircraft type.
+            - text: number of miles an aircraft can fly in a specific configuration.
+            - text: distance an aircraft can travel per unit of fuel flow.
+- id: QXLUB
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325655
+    - BGS-320849
+    - AVEXAM-77410
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.02.11
+  templates:
+    - type: simple
+      question: Which of the following statements defines the power required?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The power that is needed to maintain unaccelerated level flight for a set of conditions.
+          wrongAnswers:
+            - text: The reduction in thrust required to maintain straight and level flight as weight reduces.
+            - text: The available power to overcome drag to maintain straight and level flight.
+            - text: The thrust required to overcome drag to maintain accelerating level flight in ISA conditions.
+- id: QFIXC
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326479
+    - AVEXAM-80604
+    - ATPLQ-321447
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.03.01
+  templates:
+    - type: simple
+      question: Which of the following groups of conditions are the most favourable for take-off?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Low airfield elevation, low humidity, low temperature, high atmospheric pressure.
+          wrongAnswers:
+            - text: High airfield elevation, low temperature, high atmospheric pressure.
+            - text: High airfield elevation, low humidity, high temperature, low atmospheric pressure.
+            - text: Low airfield elevation, high temperature, low air density.
+- id: QBPYU
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QJKUV
+  externalQuestionIds:
+    - ATPLQ-328314
+    - BGS-321160
+    - AVEXAM-49712
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.03.02
+    - 032.01.02.03.04
+  templates:
+    - type: simple
+      question: From FL50 to 500 ft above the destination aerodrome, a multi-engined piston (MEP) aeroplane performs a steady descent, maintaining a constant speed of 120 kt IAS. During this descent, the ‘’Power Required vs. TAS’’ curve will move (1) \_\_\_\_\_ and the ‘’Power Available vs. TAS’’ curve will move (2) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) down and left; (2) up and left
+          wrongAnswers:
+            - text: (1) up and right; (2) down and right
+            - text: (1) down and right; (2) up and right
+            - text: (1) up and left; (2) down and left
+- id: QJKUV
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QBPYU
+  externalQuestionIds:
+    - ATPLQ-322871
+    - AVEXAM-12990
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.03.02
+    - 032.01.02.03.04
+  templates:
+    - type: simple
+      question: From 500 ft above the destination aerodrome to FL50, a multi-engined piston (MEP) aeroplane performs a steady climb, maintaining a constant speed of 120 kt IAS. During this climb, the ‘’Power Required vs. TAS’’ curve will move (1) \_\_\_\_\_ and the ‘’Power Available vs. TAS’’ curve will move (2) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) up and right; (2) down and right
+          wrongAnswers:
+            - text: (1) down and right; (2) up and right
+            - text: (1) down and left; (2) up and left
+            - text: (1) up and left; (2) down and left
+- id: QCUUK
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326862
+    - AVEXAM-69210
+    - BGS-320308
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.03.03
+    - 032.01.03.03.01
+  templates:
+    - type: simple
+      question: At a constant Mach number the thrust and the fuel flow of a jet engine...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: decrease in proportion to the ambient pressure at constant temperature.
+          wrongAnswers:
+            - text: increase with increasing altitude.
+            - text: are independent of outside air temperature (OAT).
+            - text: increase in proportion to the ambient pressure at constant temperature.
+- id: QCCZA
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QKNYY
+  externalQuestionIds:
+    - ATPLQ-324505
+    - ATPLQ-329984
+    - BGS-320079
+    - AVEXAM-87038
+    - AVEXAM-11079
+    - BGS-320080
+    - AVEXAM-55212
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.03.04
+  templates:
+    - type: simple
+      question: "On a reciprocating engine aeroplane, with increasing altitude at constant gross mass, angle of attack and configuration, the TAS:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Increases.
+          wrongAnswers:
+            - text: Decreases.
+            - text: Remains constant.
+            - text: Increases and then decreases.
+        - correctAnswers:
+            - text: increases and the TAS increases by the same percentage.
+          wrongAnswers:
+            - text: decreases slightly because of the lower air density.
+            - text: increases but TAS remains constant.
+            - text: remains unchanged but the TAS increases.
+- id: QDRQT
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QVUZB
+  externalQuestionIds:
+    - ATPLQ-323423
+    - AVEXAM-29512
+    - BGS-320996
+    - BGS-320878
+    - BGS-321189
+    - BGS-321183
+    - ATPLQ-326929
+  annexes:
+    - id: AUST
+  learningObjectiveIds:
+    - 032.01.02.03.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which of the following graphs illustrate the movement of the total drag curve as density altitude decreases?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Figure 2
+          wrongAnswers:
+            - text: Figure 3
+            - text: Figure 4
+            - text: Figure 1
+- id: QDZLT
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-327051
+    - AVEXAM-17586
+    - BGS-320947
+    - BGS-321262
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.03.04
+  templates:
+    - type: simple
+      question: How will the power required vary with constant IAS for increasing density altitude for a propeller aeroplane in the climb?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Power required will increase.
+          wrongAnswers:
+            - text: Power required will remain unchanged.
+            - text: Power required will decrease.
+            - text: It is unrelated to density.
+    - type: simple
+      question: With regard to the effect of altitude on the speed for maximum endurance for a propeller-driven aeroplane, as altitude increases, the speed for maximum endurance will...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: increase, because the power required increases with altitude.
+          wrongAnswers:
+            - text: decrease, because the power required decreases with altitude.
+            - text: decrease, because aeroplane drag decreases with altitude.
+            - text: increase, because aeroplane drag increases with altitude.
+- id: QHFYW
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-328913
+    - BGS-320694
+    - AVEXAM-91145
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.03.04
+  templates:
+    - type: simple
+      question: Regarding a piston engine, how will the fuel flow be affected with increasing altitude while maintaining the same power setting?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Due to decreasing air density with altitude, less fuel is required for combustion, resulting in a lower fuel flow.
+          wrongAnswers:
+            - text: Decreasing air temperature over-compensates for the decrease in air density by decreasing the pressure, resulting in a lower fuel flow.
+            - text: Due to decreasing air density with altitude, the reduced power output has to be compensated by a higher fuel flow.
+            - text: Decreasing air temperature will compensate for the decrease in air density by decreasing the pressure, leaving the fuel flow unchanged.
+        - correctAnswers:
+            - text: Due to decreasing air density with altitude, the reduced power output has to be compensated by a higher fuel flow.
+          wrongAnswers:
+            - text: Decreasing air temperature over-compensates for the decrease in air density by decreasing the pressure, resulting in a lower fuel flow.
+            - text: Due to decreasing air density with altitude, less fuel is required for combustion, resulting in a lower fuel flow.
+            - text: Decreasing air temperature will compensate for the decrease in air density by decreasing the pressure, leaving the fuel flow unchanged.
+- id: QKNYY
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QCCZA
+  externalQuestionIds:
+    - ATPLQ-325803
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.03.04
+  templates:
+    - type: simple
+      question: An aeroplane with reciprocating engines is flying at a constant angle of attack, mass and configuration. With increasing altitude the drag...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: remains unchanged but the TAS increases.
+          wrongAnswers:
+            - text: remains unchanged but the CAS increases.
+            - text: increases at constant TAS.
+            - text: decreases and the CAS decreases too because of the lower air density.
+- id: QVUZB
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QDRQT
+  externalQuestionIds:
+    - ATPLQ-323239
+    - AVEXAM-15528
+    - AVEXAM-7608
+    - ATPLQ-326657
+  annexes:
+    - id: ASTZ
+  learningObjectiveIds:
+    - 032.01.02.03.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which of the following graphs illustrate the power change with decreasing altitude?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Figure 3
+          wrongAnswers:
+            - text: Figure 2
+            - text: Figure 1
+            - text: Figure 4
+- id: QFHHG
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325646
+    - AVEXAM-58473
+    - BGS-320078
+    - ATPLQ-324781
+    - BGS-320077
+    - AVEXAM-15154
+    - AVEXAM-63951
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.03.05
+  templates:
+    - type: simple
+      question: On a reciprocating engine aeroplane, to maintain a given angle of attack, configuration and altitude at higher gross mass…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: an increase in airspeed and power is required.
+          wrongAnswers:
+            - text: requires an increase in power and decrease in the airspeed.
+            - text: an increase in airspeed is required but power setting does not change.
+            - text: a higher coefficient of drag is required.
+    - type: simple
+      question: "At a higher gross mass on a piston-engined aeroplane, in order to maintain a given angle of attack, configuration and altitude:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the airspeed must be increased and the drag will also increase.
+          wrongAnswers:
+            - text: the lift/drag ratio must be increased.
+            - text: the airspeed must be increased and the drag will remain unchanged.
+            - text: the airspeed must be decreased and the drag will increase.
+- id: QWETW
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-328195
+    - AVEXAM-30103
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.02.03.05
+  templates:
+    - type: simple
+      question: In level flight at a given speed, what happens to the drag if aeroplane mass is increased?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It increases.
+          wrongAnswers:
+            - text: It is NOT affected.
+            - text: It decreases.
+            - text: It stays constant.
+- id: QKLGK
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324664
+    - AVEXAM-82809
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.01.01
+  templates:
+    - type: simple
+      question: What happens to thrust required and drag if you fly below VMD?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Thrust required increases and drag increases.
+          wrongAnswers:
+            - text: Thrust required decreases and drag decreases.
+            - text: Thrust required decreases and drag increases.
+            - text: Thrust required increases and drag decreases.
+- id: QTESJ
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322290
+    - AVEXAM-44465
+    - BGS-320033
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.01.01
+  templates:
+    - type: simple
+      question: The airspeed for jet aeroplanes at which "power required" is minimum...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is always lower than the minimum drag speed.
+          wrongAnswers:
+            - text: is the same as the minimum drag speed.
+            - text: is lower than the minimum drag speed in the climb and higher than the minimum drag speed in the descent.
+            - text: is always higher than the minimum drag speed.
+- id: QVPLC
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325058
+    - AVEXAM-28691
+    - BGS-320046
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.01.02
+  templates:
+    - type: simple
+      question: If the thrust available exceeds the thrust required for level flight…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the aeroplane accelerates if the altitude is maintained.
+          wrongAnswers:
+            - text: the aeroplane decelerates if the altitude is maintained.
+            - text: the aeroplane decelerates if it is in the region of reversed command.
+            - text: the aeroplane descends if the airspeed is maintained.
+- id: QOIZT
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326668
+    - BGS-320013
+    - AVEXAM-3178
+    - AVEXAM-3372
+    - ATPLQ-323179
+    - ATPLQ-327961
+    - BGS-321263
+    - AVEXAM-68146
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.01.03
+  templates:
+    - type: simple
+      question: "The maximum speed in horizontal flight occurs when:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The maximum thrust is equal to the total drag.
+          wrongAnswers:
+            - text: The thrust is equal to minimum drag.
+            - text: The thrust is equal to the maximum drag.
+            - text: The thrust does not increase further with increasing speed.
+    - type: simple
+      question: How would you calculate "excess thrust required" in a descent at constant speed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Drag - Thrust
+          wrongAnswers:
+            - text: Thrust - Lift
+            - text: Lift - Drag
+            - text: Thrust - Drag
+    - type: simple
+      question: In a descent, how is the "excess thrust required" calculated?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Drag minus Thrust.
+          wrongAnswers:
+            - text: Thrust minus Drag.
+            - text: Lift minus Drag.
+            - text: Drag minus Lift.
+    - type: simple
+      question: What is the formula for "excess thrust required" during a steady descent at constant speed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Drag - Thrust
+          wrongAnswers:
+            - text: Lift - Drag
+            - text: Thrust - Lift
+            - text: Thrust - Drag
+- id: QJSRF
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322643
+    - BGS-321296
+    - AVEXAM-76795
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.01.03
+  templates:
+    - type: simple
+      question: |-
+        Which of the following expressions accurately represents the rate of climb that would be indicated on a Vertical Speed Indicator (VSI)?
+
+        Pa = Power Available 
+         
+        Pr = Power Required 
+         
+        Ta = Thrust Available 
+         
+        Tr = Thrust Required 
+         
+        W = Weight
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (Pa - Pr) / W
+          wrongAnswers:
+            - text: (Ta - Tr) / W
+            - text: (Tr - Pr) / W
+            - text: (Pa - Tr) / W
+    - type: simple
+      question: During a steady climb, what is the most appropriate formula for computing the rate of climb displayed on a variometer or Vertical Speed Indicator (VSI)? W = total weight, Pa = power available, Pr = power required, Ta = thrust available, Tr=thrust required.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (Pa-Pr)/W
+          wrongAnswers:
+            - text: (Pa-Tr)/W
+            - text: (Ta-Pr)/W
+            - text: (Ta-Tr)/W
+    - type: simple
+      question: |-
+        Which expression correctly represents the rate of climb as indicated by a Vertical Speed Indicator (VSI)?
+
+
+
+        Pa = Power Available
+
+        Pr = Power Required
+
+        Ta = Thrust Available
+
+        Tr = Thrust Required
+
+        W = Weight
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (Pa - Pr) / W
+          wrongAnswers:
+            - text: (Pa - Tr) / W
+            - text: (Tr - Pr) / W
+            - text: (Ta - Tr) / W
+- id: QRHLR
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324339
+    - BGS-320094
+    - AVEXAM-41499
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.01.04
+  templates:
+    - type: simple
+      question: "The maximum indicated air speed of a piston engine aeroplane without turbo charger, in level flight, is reached:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: at the lowest possible altitude.
+          wrongAnswers:
+            - text: at the optimum cruise altitude.
+            - text: at the service ceiling.
+            - text: at the practical ceiling.
+- id: QMVOY
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324153
+    - AVEXAM-10681
+    - BGS-320289
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.01.05
+  templates:
+    - type: simple
+      question: Which cruise system gives minimum fuel consumption during cruise between top of climb and top of descent? (still air, no turbulence)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Maximum range.
+          wrongAnswers:
+            - text: Maximum endurance.
+            - text: Holding.
+            - text: Long range.
+- id: QTINI
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326441
+    - BGS-320580
+    - BGS-321298
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.01
+  templates:
+    - type: simple
+      question: Considering a jet transport aeroplane, Specific Fuel Consumption SFC...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is the fuel flow per unit of thrust.
+          wrongAnswers:
+            - text: is the nautical miles per unit of fuel flow.
+            - text: is the nautical miles per unit mass of fuel.
+            - text: is the TAS per unit of fuel flow.
+- id: QOOCN
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-321095
+    - AVEXAM-24090
+    - BGS-320839
+    - AVEXAM-91136
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.02
+  templates:
+    - type: simple
+      question: The Specific Fuel Consumption (SFC) for a propeller engine is…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Fuel flow per unit of power.
+          wrongAnswers:
+            - text: Aeroplane drag multiplied by TAS.
+            - text: The NM flown per kg of fuel.
+            - text: Fuel flow per unit of thrust.
+- id: QFMTJ
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QMGYI
+    - QNNQR
+    - QMVPZ
+  externalQuestionIds:
+    - ATPLQ-325867
+    - AVEXAM-32274
+    - BGS-320987
+    - BGS-320837
+    - AVEXAM-87244
+    - ATPLQ-323174
+    - BGS-321051
+    - AVEXAM-28960
+    - ATPLQ-324341
+    - BGS-320678
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.03
+    - 032.01.03.03.02
+  templates:
+    - type: simple
+      question: The speed to obtain the maximum Specific Range (SR) of a turbojet aeroplane is…
+      explanation: For a turbojet, the maximum specific range is reached at 1.32 times the minimum drag speed (VMD), where the ratio of TAS to drag is the highest. The speed for maximum L/D is VMD itself, which gives the best endurance instead.
+      presets:
+        - correctAnswers:
+            - text: 1.32 x minimum drag (VMD) speed.
+          wrongAnswers:
+            - text: Maximum lift / drag (L/D) ratio speed.
+            - text: Minimum drag (VMD) speed.
+            - text: Minimum power (VMP) speed.
+    - type: simple
+      question: What is the difference between the speeds for maximum range and maximum endurance of a jet aeroplane?
+      explanation: For a turbojet, the maximum specific range is reached at 1.32 times the minimum drag speed (VMD), where the ratio of TAS to drag is the highest. The speed for maximum L/D is VMD itself, which gives the best endurance instead. Maximum endurance of a turbojet is flown at the minimum drag speed, VMD.
+      presets:
+        - correctAnswers:
+            - text: Maximum range is flown at 1.32 VMD and maximum endurance at VMD.
+          wrongAnswers:
+            - text: Maximum range is flown at VMP and maximum endurance at 1.32 VMP.
+            - text: Maximum range is flown at VMD and maximum endurance at 1.32 VMD.
+            - text: Maximum range is flown at 1.32 VMP and maximum endurance at VMP.
+    - type: simple
+      question: For a turbojet aircraft, what is the difference between range and endurance speeds? Maximum range is flown at ...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1.32 VMD minimum drag speed and maximum endurance is flown at VMD.
+          wrongAnswers:
+            - text: VMD minimum drag speed and maximum endurance is flown at 1.32 VMD.
+            - text: VMP minimum power speed and maximum endurance is flown at 1.32 VMP.
+            - text: 1.32 VMP minimum power speed and maximum endurance is flown at VMP.
+- id: QXMZA
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-329354
+    - AVEXAM-39880
+    - BGS-320586
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.03
+  templates:
+    - type: simple
+      question: For jet-propulsion aeroplanes in still air, the speed over drag ratio is maximised at the speed corresponding with the Maximum..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Range Speed.
+          wrongAnswers:
+            - text: Climb Gradient Speed.
+            - text: Endurance Speed.
+            - text: Rate of Climb Speed.
+- id: QYQEJ
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-328481
+    - AVEXAM-29715
+    - BGS-320679
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.03
+  templates:
+    - type: simple
+      question: "For a jet aeroplane, the speed for maximum range is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: that corresponding to the point of contact of the tangent from the origin to the Drag versus TAS curve.
+          wrongAnswers:
+            - text: that corresponding to the point of the minimum drag at the Drag versus TAS curve.
+            - text: that corresponding to the point of the minimum power required at the Drag versus TAS curve.
+            - text: that corresponding to the point of contact of the tangent from the origin to the Power required versus TAS curve.
+- id: QNNQR
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QFMTJ
+    - QMGYI
+  externalQuestionIds:
+    - BGS-320022
+    - ATPLQ-327696
+    - AVEXAM-28849
+    - AVEXAM-77140
+    - ATPLQ-328425
+    - BGS-320014
+    - AVEXAM-10109
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.04
+  templates:
+    - type: simple
+      question: "For a piston engine aeroplane, the speed for maximum range is:"
+      explanation: For a propeller-driven aeroplane the maximum range speed is the speed for the maximum lift-to-drag ratio, which is the minimum drag speed. At that speed the aeroplane covers the greatest distance per unit of fuel. For a jet aeroplane, the maximum range speed is higher, at 1.32 VMD.
+      presets:
+        - correctAnswers:
+            - text: that which gives the maximum lift-to-drag ratio.
+          wrongAnswers:
+            - text: that which gives the minimum induced drag.
+            - text: that which gives the maximum lift.
+            - text: 1.4 times the stall speed in the clean configuration.
+    - type: simple
+      question: "The speed for the maximum lift-to-drag ratio results in:"
+      explanation: For a propeller-driven aeroplane the maximum range speed is the speed for the maximum lift-to-drag ratio, which is the minimum drag speed. At that speed the aeroplane covers the greatest distance per unit of fuel. For a jet aeroplane, the maximum range speed is higher, at 1.32 VMD.
+      presets:
+        - correctAnswers:
+            - text: the maximum range for a propeller-driven aeroplane.
+          wrongAnswers:
+            - text: the maximum range for a jet aeroplane.
+            - text: the maximum endurance for a propeller-driven aeroplane.
+            - text: the maximum angle of climb for a propeller-driven aeroplane.
+- id: QBDDQ
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326754
+    - AVEXAM-53689
+    - BGS-320298
+    - BGS-321145
+    - AVEXAM-730485
+    - ATPLQ-328495
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.05
+  templates:
+    - type: simple
+      question: A jet aeroplane is cruising at a constant flight level and at its maximum range speed. We can say that the IAS will (1)\_\_\_\_\_ and the drag will (2)\_\_\_\_\_.
+      explanation: At the maximum range speed the aircraft is flown at a constant lift coefficient, so as the fuel burns and mass falls, the IAS needed falls and the drag falls with it, since drag equals weight divided by L/D.
+      presets:
+        - correctAnswers:
+            - text: (1) decrease; (2) decrease
+          wrongAnswers:
+            - text: (1) decrease; (2) increase
+            - text: (1) increase; (2) decrease
+            - text: (1) increase; (2) increase
+- id: QNDAQ
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QMRDF
+  externalQuestionIds:
+    - ATPLQ-322625
+    - AVEXAM-15237
+    - AVEXAM-2723
+    - BGS-320322
+    - ATPLQ-328955
+    - AVEXAM-81110
+    - AVEXAM-730542
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.05
+    - 032.01.03.02.09
+  templates:
+    - type: simple
+      question: What is the effect on the optimum altitude, specific fuel consumption and specific range, when the weight of a jet aircraft is greater than scheduled?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The optimum altitude decreases, the specific fuel consumption increases and the specific range decreases.
+          wrongAnswers:
+            - text: The optimum altitude increases, the specific fuel consumption decreases and the specific range increases.
+            - text: The optimum altitude increases, the specific fuel consumption increases and the specific range decreases.
+            - text: The optimum altitude decreases, the specific fuel consumption decreases and the specific range increases.
+- id: QBAYJ
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-328051
+    - BGS-321146
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.06
+    - 032.01.03.02.07
+  templates:
+    - type: simple
+      question: Which of the following statements is correct in relation to a turbojet engine’s Specific Fuel Consumption (SFC)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SFC decreases at higher altitudes and colder ambient temperatures.
+          wrongAnswers:
+            - text: Temperature has NO effect on SFC.
+            - text: SFC decreases at lower altitudes and warmer ambient temperatures.
+            - text: Altitude has NO effect on SFC.
+- id: QBGPZ
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324141
+    - AVEXAM-29828
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.06
+    - 032.01.03.02.07
+  templates:
+    - type: simple
+      question: A jet powered aeroplane is flying at its cruising altitude and the outside air temperature increases. What will happen to the Specific Range (SR) and the Specific Fuel Consumption (SFC)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SR decreases, SFC increases.
+          wrongAnswers:
+            - text: SR remains constant, SFC increases.
+            - text: SR increases, SFC decreases.
+            - text: SR remains constant, SFC decreases.
+- id: QNESC
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324890
+    - AVEXAM-91325
+    - AVEXAM-45804
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.06
+  templates:
+    - type: simple
+      question: Which of these combinations would provide the lowest specific fuel consumption (SFC)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: High altitude, low temperature
+          wrongAnswers:
+            - text: High altitude, high temperature
+            - text: Low altitude, high temperature
+            - text: Low altitude, low temperature
+- id: QZTWX
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325640
+    - BGS-320850
+    - BGS-321177
+    - AVEXAM-62925
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.06
+  templates:
+    - type: simple
+      question: A turbojet is flying at a constant IAS and pressure altitude. Given that a ±1 °C ISA deviation results in a change in fuel flow of ±{{k}} %, determine by how many percent the specific fuel consumption (SFC) increases if the OAT is ISA +{{dev}} °C rather than ISA.
+      explanation: |-
+        At constant IAS and pressure altitude the thrust and the TAS-related quantities stay the same, so the fuel flow change per degree of ISA deviation translates directly into the same percentage change in SFC.
+
+        **Solution**
+
+        $$
+        \text{ISA deviation}\times \text{Fuel flow change per °C} = {{dev}}\times 0.2 = \mathbf{ {{answer}}\ \text{% increase} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} % increase**: a factor 10 slip (20 % instead of 2 %).
+        - **{{d2}} % increase**: dividing instead of multiplying.
+        - **{{d3}} % increase**: inverting the ratio.
+        - **{{d4}} % increase**: a wrong factor applied to the per-degree change.
+      presets:
+        - variables:
+            k: 0.2
+            dev: 10
+            answer: 2
+            d1: 20
+            d2: 50
+            d3: 0
+            d4: 10
+          correctAnswers:
+            - text: 2 % increase
+          wrongAnswers:
+            - text: 20 % increase
+            - text: 0 % increase
+            - text: 10 % increase
+            - text: 50 % increase
+        - variables:
+            k: 0.2
+            dev: 15
+            answer: 3
+            d1: 30
+            d2: 75
+            d3: 0
+            d4: 15
+          correctAnswers:
+            - text: 3 % increase
+          wrongAnswers:
+            - text: 30 % increase
+            - text: 0 % increase
+            - text: 15 % increase
+            - text: 75 % increase
+        - variables:
+            k: 0.2
+            dev: 5
+            answer: 1
+            d1: 10
+            d2: 25
+            d3: 0
+            d4: 5
+          correctAnswers:
+            - text: 1 % increase
+          wrongAnswers:
+            - text: 10 % increase
+            - text: 0 % increase
+            - text: 5 % increase
+            - text: 25 % increase
+- id: QCNOV
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QSBOY
+  externalQuestionIds:
+    - ATPLQ-328363
+    - AVEXAM-19364
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.07
+    - 032.04.03.06.02
+  templates:
+    - type: simple
+      question: |-
+        A large jet transport aeroplane is cruising at the Long Range Cruise speed (LRC).
+
+        A deviation of +/- 1000 ft from the LRC optimum altitude leads to 2.5% change in specific range.
+
+        The specific range will change by (1) \_\_\_\_\_ if flying 1000 ft above the optimum altitude, and by (2) \_\_\_\_\_ if flying 2000 ft below the optimum altitude.
+      explanation: "Flying away from the optimum altitude always costs range. 1 000 ft above it costs 2.5 %, and 2 000 ft below it costs twice that, 5 %. Both changes are reductions: **(1) -2.5 %; (2) -5 %**."
+      presets:
+        - correctAnswers:
+            - text: (1) -2.5%; (2) - 5%
+          wrongAnswers:
+            - text: (1) +2.5%; (2) -5%
+            - text: (1) + 2.5%; (2) +5%
+            - text: (1) -2.5%; (2) +5%
+- id: QSBOY
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QCNOV
+  externalQuestionIds:
+    - ATPLQ-329039
+    - BGS-320986
+    - AVEXAM-29907
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.07
+    - 032.04.03.06.02
+  templates:
+    - type: simple
+      question: Consider a turbojet aircraft flying at the speed for Long Range Cruise (LRC) performance. A +/-1000 ft deviation from the LRC optimum altitude results in a 1.25% change in Specific Range (SR). How much will the SR change if operating 1000 ft above (1) or 2000 ft below (2) the optimum altitude?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) -1.25%; (2) -2.5%
+          wrongAnswers:
+            - text: (1) +1.25%; (2) -2.5%
+            - text: (1) +1.25%; (2) +2.5%
+            - text: (1) -1.25%; (2) +2.5%
+- id: QUMUE
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324486
+    - BGS-320879
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.07
+  templates:
+    - type: simple
+      question: |-
+        Consider flying at cruise altitude in a turbojet aeroplane. An increase in ambient temperature is experienced. What will be the effect on the Specific Range (SR)?   
+        _(SFC means Specific Fuel Consumption)_
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SR will decrease.
+          wrongAnswers:
+            - text: SR will remain constant but SFC will decrease.
+            - text: SR will remain constant but SFC will increase.
+            - text: SR will increase.
+- id: QMVPZ
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QFMTJ
+    - QYVFK
+  externalQuestionIds:
+    - BGS-321122
+    - ATPLQ-327840
+    - AVEXAM-53108
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.08
+  templates:
+    - type: simple
+      question: How does the maximum specific range over the ground (SRG) for a propeller-driven aeroplane vary with altitude?
+      explanation: As altitude increases the true airspeed for a given indicated airspeed rises, and so does the ground speed, which improves the range per unit of fuel. The gain continues until the increase in ground speed is offset by the increase in power required.
+      presets:
+        - correctAnswers:
+            - text: It increases until the increase in ground speed is offset by the increase in power required.
+          wrongAnswers:
+            - text: It decreases until the increase in ground speed is offset by the increase in power required.
+            - text: It decreases until the decrease in TAS is offset by the increase in power required.
+            - text: It increases until the increase in TAS is offset by the increase in power required.
+        - correctAnswers:
+            - text: It increases until the increase in the Ground speed is offset by the increase in power required.
+          wrongAnswers:
+            - text: It increases until the increase in TAS is offset by the increase in power required.
+            - text: It decreases until the decrease in TAS is offset by the increase in Power required.
+            - text: It decreases until the increase in Ground speed is offset by the increase in power required.
+- id: QYVFK
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QMVPZ
+  externalQuestionIds:
+    - ATPLQ-327193
+    - AVEXAM-98262
+    - BGS-321158
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.08
+  templates:
+    - type: simple
+      question: How does the Specific Range (SR) vary, in a propeller-driven aeroplane?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SR increases slowly with altitude up to full throttle height.
+          wrongAnswers:
+            - text: SR and SFC (Specific Fuel Consumption) increase slowly with altitude up to full throttle height.
+            - text: SR and SFC (Specific Fuel Consumption) decrease slowly with altitude up to full throttle height.
+            - text: SR decreases slowly with altitude up to throttle height.
+- id: QMRDF
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QZJUH
+    - QNDAQ
+  externalQuestionIds:
+    - ATPLQ-323743
+    - AVEXAM-87476
+    - BGS-320317
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.09
+    - 032.04.03.06.01
+  templates:
+    - type: simple
+      question: The optimum altitude...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: increases as mass decreases and is the altitude at which the specific range reaches its maximum.
+          wrongAnswers:
+            - text: is the altitude at which the specific range reaches its minimum.
+            - text: decreases as mass decreases.
+            - text: is the altitude up to which cabin pressure of 8 000 ft can be maintained.
+- id: QNVBO
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-328633
+    - ATPLQ-329557
+    - AVEXAM-60227
+    - AVEXAM-95496
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.10
+  templates:
+    - type: simple
+      question: When flying with a headwind, what is the effect on specific range (SR) and specific ground range (SGR)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SR remains unchanged, SGR decreases.
+          wrongAnswers:
+            - text: SR increases, SGR decreases.
+            - text: SR remains unchanged, SGR increases.
+            - text: SR decreases, SGR increases.
+    - type: simple
+      question: What is the effect on Specific Range (SR) and Specific Ground Range (SGR) if you maintain the no-wind VY speed, despite there being a headwind?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Specific range remains constant, specific ground range decreases.
+          wrongAnswers:
+            - text: Specific range decreases, specific ground range increases.
+            - text: Specific range remains constant, specific ground range increases.
+            - text: Specific range increases, specific ground range decreases.
+    - type: simple
+      question: What happens to Specific Range (SR) and Specific Ground Range (SGR) when a headwind is present but the no-wind VY speed is maintained?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Specific range remains constant, specific ground range decreases.
+          wrongAnswers:
+            - text: Specific range decreases, specific ground range increases.
+            - text: Specific range remains constant, specific ground range increases.
+            - text: Specific range increases, specific ground range decreases.
+    - type: simple
+      question: What happens to specific range (SR) and specific ground range (SGR) when flying into a headwind?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SR remains the same, SGR decreases.
+          wrongAnswers:
+            - text: SR decreases, SGR decreases.
+            - text: SR remains the same, SGR increases.
+            - text: SR decreases, SGR increases.
+- id: QAEPH
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QXWLE
+  externalQuestionIds:
+    - ATPLQ-328626
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.10
+  templates:
+    - type: simple
+      question: A pilot is flying to a destination close to the aeroplane maximum range, flying at maximum range cruise speed, with NO significant forecast winds. However, during the flight the pilot experienced a headwind. To achieve maximum range over the ground, the pilot should…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Increase the airspeed compared to the speed for maximum cruise with NO wind.
+          wrongAnswers:
+            - text: Fly at an airspeed equal to the maximum endurance speed.
+            - text: Continue to fly at an airspeed equal to speed for maximum cruise with NO wind.
+            - text: Decrease the airspeed compared to the speed for maximum cruise with NO wind.
+- id: QXWLE
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QAEPH
+  externalQuestionIds:
+    - ATPLQ-321172
+    - AVEXAM-34156
+    - AVEXAM-80461
+    - BGS-321125
+    - BGS-320041
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.02.10
+  templates:
+    - type: simple
+      question: To achieve the maximum range over ground with headwind the airspeed should be…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: higher compared to the speed for maximum range cruise with no wind.
+          wrongAnswers:
+            - text: reduced to the gust penetration speed.
+            - text: equal to the speed for maximum range cruise with no wind.
+            - text: lower compared to the speed for maximum range cruise with no wind.
+- id: QBUGI
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-321454
+    - BGS-321132
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.03.02
+    - 032.01.03.03.07
+  templates:
+    - type: simple
+      question: Delays are expected at the arrival aerodrome at which a jet transport aeroplane plans to land. By managing the en-route airspeed, the pilot can increase the flight endurance by flying at…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: minimum drag speed (VMD) at clean configuration, which corresponds to the minimum required total thrust.
+          wrongAnswers:
+            - text: minimum drag speed (VMD) at an intermediate flap configuration, due to the lower VMD speed value.
+            - text: Long Range Cruise speed (LRC), at clean configuration, which corresponds to the minimum required total thrust.
+            - text: Long Range Cruise speed (LRC), at an intermediate flap configuration, due to the lower LRC speed value.
+- id: QGDYH
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326815
+    - AVEXAM-59426
+    - BGS-320588
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.03.02
+  templates:
+    - type: simple
+      question: "Consider the curve for the thrust required versus speed, for a jet aeroplane. What speed can be obtained from the minimum of this curve? The speed for:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Max Endurance, because fuel flow is proportional to thrust at the minimum.
+          wrongAnswers:
+            - text: Max Endurance, because fuel flow is proportional to power required.
+            - text: Max Range, because fuel flow is proportional to lift to drag ratio.
+            - text: Max Range, because this speed corresponds to the maximum lift to drag ratio at the minimum.
+- id: QKGWP
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QNQBY
+  externalQuestionIds:
+    - ATPLQ-322998
+    - BGS-320847
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.03.02
+  templates:
+    - type: simple
+      question: What is the maximum endurance speed for a turbojet?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The speed for minimum drag (lowest point of the drag curve).
+          wrongAnswers:
+            - text: The same as the maximum range speed.
+            - text: The speed at the tangent to the drag vs speed curve.
+            - text: The speed for minimum power.
+- id: QNQBY
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QKGWP
+    - QILJO
+  externalQuestionIds:
+    - ATPLQ-326684
+    - AVEXAM-52771
+    - BGS-320283
+    - AVEXAM-42220
+    - BGS-320809
+    - AVEXAM-67299
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.03.02
+    - 032.01.04.01.02
+  templates:
+    - type: simple
+      question: The maximum endurance speed is the equivalent of the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: best angle of climb speed (VX).
+          wrongAnswers:
+            - text: maximum speed in autorotation.
+            - text: best range speed (VMR).
+            - text: best rate of climb speed (VY).
+- id: QTZWY
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325804
+    - BGS-321114
+    - AVEXAM-21681
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.03.03
+  templates:
+    - type: simple
+      question: Which of the following options best describes the relationship between fuel flow and TAS, for propeller-driven aeroplanes?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: With increasing TAS, fuel flow will increase, when flying above the minimum power speed.
+          wrongAnswers:
+            - text: With increasing TAS, fuel flow will decrease, when flying above the minimum power speed.
+            - text: With decreasing TAS, fuel flow will decrease, when flying below the minimum power speed.
+            - text: With increasing TAS, fuel flow will increase, when flying below the minimum power speed.
+- id: QMGYI
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QFMTJ
+    - QNNQR
+  externalQuestionIds:
+    - BGS-320976
+    - BGS-321229
+    - ATPLQ-328063
+    - ATPLQ-326803
+    - ATPLQ-326068
+    - ATPLQ-322862
+    - AVEXAM-3597
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.03.04
+    - 032.01.03.03.06
+  templates:
+    - type: simple
+      question: Which speed represents the maximum endurance speed for a propeller-driven aeroplane?
+      explanation: A propeller-driven aeroplane flies for maximum endurance at the minimum power required speed, VMP, because this gives the lowest fuel flow. Wind changes the ground speed but not the airspeed at which the engine burns the least fuel, so the maximum endurance speed remains the same with a headwind.
+      presets:
+        - correctAnswers:
+            - text: VMP.
+          wrongAnswers:
+            - text: VMD.
+            - text: 1.32 VMP.
+            - text: 1.32 VMD.
+    - type: simple
+      question: "Maximum endurance for a propeller-driven aeroplane occurs at the:"
+      explanation: A propeller-driven aeroplane flies for maximum endurance at the minimum power required speed, VMP, because this gives the lowest fuel flow. Wind changes the ground speed but not the airspeed at which the engine burns the least fuel, so the maximum endurance speed remains the same with a headwind.
+      presets:
+        - correctAnswers:
+            - text: minimum power speed.
+          wrongAnswers:
+            - text: maximum CL speed.
+            - text: speed at the tangent to the power required curve.
+            - text: minimum drag speed.
+    - type: simple
+      question: For a {{aircraft}}, the maximum endurance speed is (1) ___ and it (2) ___ with a headwind.
+      explanation: A propeller-driven aeroplane flies for maximum endurance at the minimum power required speed, VMP, because this gives the lowest fuel flow. Wind changes the ground speed but not the airspeed at which the engine burns the least fuel, so the maximum endurance speed remains the same with a headwind.
+      presets:
+        - variables:
+            aircraft: propeller-driven aeroplane
+          correctAnswers:
+            - text: (1) VMP; (2) remains the same.
+          wrongAnswers:
+            - text: (1) VMD; (2) remains the same.
+            - text: (1) VMD; (2) decreases.
+            - text: (1) VMP; (2) decreases.
+        - variables:
+            aircraft: turboprop aeroplane
+          correctAnswers:
+            - text: (1) VMP; (2) remains the same.
+          wrongAnswers:
+            - text: (1) VMD; (2) remains the same.
+            - text: (1) VMD; (2) increases.
+            - text: (1) VMP; (2) increases.
+- id: QKVLX
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-327532
+    - AVEXAM-10215
+    - BGS-321012
+    - ATPLQ-329826
+    - BGS-320310
+    - AVEXAM-27261
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.03.05
+  templates:
+    - type: simple
+      question: Which statement is correct regarding the endurance for a turbojet aeroplane?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The endurance increases up to an optimum altitude, then decreases.
+          wrongAnswers:
+            - text: The endurance reaches its maximum value at lower altitudes.
+            - text: The endurance decreases linearly in a headwind condition.
+            - text: The endurance is increased by a tailwind component.
+    - type: simple
+      question: "The optimum long-range cruise altitude for a turbojet aeroplane:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: increases when the aeroplane mass decreases.
+          wrongAnswers:
+            - text: is always equal to the powerplant ceiling.
+            - text: is only dependent on the outside air temperature.
+            - text: is independent of the aeroplane mass.
+- id: QSDDA
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325133
+    - BGS-321172
+    - AVEXAM-32491
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.03.05
+  templates:
+    - type: simple
+      question: With regard to turbojet aeroplanes, wind (1) \_\_\_\_\_ endurance and (2) \_\_\_\_\_ the maximum endurance speed. Which option is the correct one?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) does not affect, (2) does not affect
+          wrongAnswers:
+            - text: (1) affects, (2) affects
+            - text: (1) does not affect, (2) affects
+            - text: (1) affects, (2) does not affect
+- id: QXAUP
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-329610
+    - AVEXAM-68161
+    - BGS-320146
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.03.05
+  templates:
+    - type: simple
+      question: "The effect that a tailwind has on the value of the maximum endurance speed is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: none.
+          wrongAnswers:
+            - text: that the IAS must be decreased.
+            - text: that a tailwind only affects the holding speed.
+            - text: that the IAS must be increased.
+- id: QKGYF
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322491
+    - BGS-321239
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.03.06
+  templates:
+    - type: simple
+      question: At what altitude does a propeller driven aeroplane reach its maximum endurance?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A piston engine aeroplane reaches its maximum endurance at about sea level.
+          wrongAnswers:
+            - text: A piston-engined aeroplane reaches its maximum endurance at about 10000 ft.
+            - text: A turboprop aeroplane reaches its maximum endurance at about sea level.
+            - text: A turboprop aero-plane reaches its maximum endurance at or above 15000 ft.
+- id: QPIGW
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - AVEXAM-17084
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.03.03.06
+  templates:
+    - type: simple
+      question: Maximum endurance for a propeller jet with 10 kt headwind is achieved at (1)\_\_\_\_\_ and the maximum endurance speed (2)\_\_\_\_\_
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) VMP; (2) remains the same
+          wrongAnswers:
+            - text: (1) VMD; (2) reduced
+            - text: (1) VMP; (2) reduced
+            - text: (1) VMD; (2) remains the same
+- id: QWSZD
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325313
+    - AVEXAM-14391
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.04.01.01
+  templates:
+    - type: simple
+      question: "The lift required for climbing flight is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Lower than that required in level flight
+          wrongAnswers:
+            - text: Equal to mass x sin (angle of climb)
+            - text: Greater than that required in level flight
+            - text: Equal to drag x cos (angle of climb)
+- id: QZJYO
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-321573
+    - BGS-320590
+    - AVEXAM-41522
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.04.01.01
+  templates:
+    - type: simple
+      question: In unaccelerated climb
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: thrust equals drag plus the downhill component of the gross weight in the flight path direction.
+          wrongAnswers:
+            - text: lift equals weight plus the vertical component of the drag.
+            - text: lift is greater than the gross weight.
+            - text: thrust equals drag plus the uphill component of the gross weight in the flight path direction.
+- id: QVADZ
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325223
+    - BGS-320288
+    - AVEXAM-83630
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.04.01.02
+  templates:
+    - type: simple
+      question: "As long as an aeroplane is in a steady climb:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VX is always less than VY.
+          wrongAnswers:
+            - text: VY is always greater than VMO.
+            - text: VX may be greater or less than VY depending on altitude.
+            - text: VX is always greater than VY.
+- id: QILJO
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds:
+    - QNQBY
+  externalQuestionIds:
+    - ATPLQ-325694
+    - ATPLQ-325194
+    - ATPLQ-327451
+    - BGS-320134
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.04.01.02
+  templates:
+    - type: simple
+      question: What does the abbreviation "VY" mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Speed for best rate of climb.
+          wrongAnswers:
+            - text: Best approach speed
+            - text: Take-off decision speed
+            - text: Speed for best angle of climb.
+    - type: simple
+      question: "The abbreviation VY means:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: speed for best rate of climb
+          wrongAnswers:
+            - text: take-off safety speed
+            - text: steady initial climb speed
+            - text: speed for best angle of climb
+    - type: simple
+      question: What is the abbreviation for the term "Speed for best rate of climb"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VY
+          wrongAnswers:
+            - text: VX
+            - text: V
+            - text: VLO
+    - type: simple
+      question: The speed for best rate of climb is called…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VY.
+          wrongAnswers:
+            - text: VX.
+            - text: V2.
+            - text: VO.
+- id: QBCQK
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-329541
+    - BGS-320376
+    - AVEXAM-56354
+    - AVEXAM-9429
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.04.01.03
+  templates:
+    - type: simple
+      question: For a jet aeroplane, the maximum climb angle is achieved at a speed corresponding to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the maximum CL/CD ratio.
+          wrongAnswers:
+            - text: 1.1 VS.
+            - text: 1.2 VS.
+            - text: the minimum CL/CD ratio.
+- id: QQXJR
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326037
+    - AVEXAM-39685
+    - ATPLQ-323112
+    - AVEXAM-730483
+    - BGS-321320
+    - BGS-320965
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.04.01.04
+    - 032.01.04.01.08
+  templates:
+    - type: simple
+      question: |-
+        _Complete the following sentence:_
+
+        A take-off performance is calculated with the use of given conditions. If subsequently, the OAT drops, the aircraft's climb performance will (1)\_\_\_\_\_ because the excess thrust will be (2)\_\_\_\_\_.
+      explanation: A lower OAT gives a higher air density, so the engines produce more thrust. Drag is nearly unchanged, so excess thrust increases and the climb performance improves.
+      presets:
+        - correctAnswers:
+            - text: (1) improve; (2) increased.
+          wrongAnswers:
+            - text: (1) deteriorate; (2) increased.
+            - text: (1) improve; (2) reduced.
+            - text: (1) deteriorate; (2) reduced.
+- id: QJALR
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324700
+    - AVEXAM-29571
+  annexes:
+    - id: AFAB
+  learningObjectiveIds:
+    - 032.01.04.01.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which of the graphs correctly illustrates how the "thrust available" curve of a twin-engined aeroplane changes when it suffers an engine failure?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Figure A
+          wrongAnswers:
+            - text: Figure C
+            - text: Figure D
+            - text: Figure B
+- id: QXJXT
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325657
+    - BGS-320703
+  annexes:
+    - id: ACEF
+  learningObjectiveIds:
+    - 032.01.04.01.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Regarding the speeds shown in the annex, which of the following answers is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The maximum angle of climb would be achieved at speed C.
+          wrongAnswers:
+            - text: The aeroplane would decelerate in straight and level flight at speed D.
+            - text: The rate of descent would be greatest at speed F.
+            - text: The angle of descent would be greater at speed C than at speed B.
+- id: QKAUA
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-321060
+    - BGS-320497
+    - AVEXAM-87631
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.04.01.06
+  templates:
+    - type: simple
+      question: "Which of the following statements is correct? The climb gradient is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Always larger than the angle of climb.
+          wrongAnswers:
+            - text: Represents the angle of variation.
+            - text: Always smaller than the angle of climb.
+            - text: The same as the angle of climb.
+- id: QPFJG
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322200
+    - AVEXAM-76691
+    - AVEXAM-24976
+    - BGS-320608
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.04.01.06
+  templates:
+    - type: simple
+      question: With a positive rate of climb, the difference between the climb angle and the climb gradient is that the gradient...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: value is always higher than the angle value.
+          wrongAnswers:
+            - text: depends on the mass, while the angle is independent of the mass.
+            - text: is stated in degrees, the angle in percentage.
+            - text: represents the angle variation.
+- id: QSLUH
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-329647
+    - BGS-321232
+    - AVEXAM-52903
+    - ATPLQ-327354
+    - ATPLQ-322553
+    - BGS-320281
+    - AVEXAM-74746
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.04.01.07
+  templates:
+    - type: simple
+      question: An aircraft is climbing at a maximum climb angle with constant speed and thrust. Consider for theoretical purposes that the weight of the aircraft suddenly decreases but the flight otherwise continues as normal. For the pilot to maintain the same speed, all factors remaining the same, the angle of climb must be…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Increased, to increase the backward component of weight in order to match the excess thrust.
+          wrongAnswers:
+            - text: Reduced, to increase the backward component of weight in order to exceed the excess thrust.
+            - text: Reduced, to reduce the backward component of weight in order to match the excess thrust.
+            - text: Increased, to reduce the backward component of weight in order to be less than the excess thrust.
+    - type: simple
+      question: What is the effect of excess thrust on an aircraft climbing at a constant angle? It...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: accelerates, and the rate of climb increases.
+          wrongAnswers:
+            - text: accelerates, and the pitch angle increases.
+            - text: converts the excess thrust to increase the flight path angle.
+            - text: accelerates, and the climb gradient increases.
+    - type: simple
+      question: A jet aeroplane is climbing at a constant IAS and maximum climb thrust, how will the climb angle / the pitch angle change?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Reduce / decrease.
+          wrongAnswers:
+            - text: Remain constant / become larger.
+            - text: Remain constant / decrease.
+            - text: Reduce / remain constant.
+- id: QVNHN
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-327666
+    - ATPLQ-323282
+    - BGS-320024
+    - BGS-320049
+    - AVEXAM-94056
+    - AVEXAM-25872
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.04.01.08
+  templates:
+    - type: simple
+      question: The maximum rate of climb that can be maintained at the absolute ceiling is…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 0 ft/min
+          wrongAnswers:
+            - text: 100 ft/min
+            - text: 500 ft/min
+            - text: 125 ft/min
+    - type: simple
+      question: The absolute ceiling...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is the altitude at which the maximum rate of climb is zero.
+          wrongAnswers:
+            - text: is the altitude at which the best climb gradient attainable is 5%.
+            - text: is the altitude at which the aeroplane reaches a maximum rate of climb of 100 ft/min.
+            - text: can be reached only with minimum steady flight speed.
+- id: QFSUW
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-321457
+    - AVEXAM-20085
+    - BGS-320047
+    - BGS-320604
+    - AVEXAM-2408
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.04.01.08
+  templates:
+    - type: simple
+      question: How does a change in Pressure Altitude affect the climb performance with regard to the Rate Of Climb and the Climb Angle? Increasing Pressure Altitude results in...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a decreased Rate Of Climb and a decreased Climb Angle.
+          wrongAnswers:
+            - text: an increased Rate Of Climb and an increased Climb Angle.
+            - text: an increased Rate Of Climb but the Climb Angle remains the same.
+            - text: a decreased Climb Angle but the Rate Of Climb remains the same.
+- id: QQGED
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324709
+    - AVEXAM-68647
+    - AVEXAM-4457
+    - AVEXAM-37867
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.04.01.08
+  templates:
+    - type: simple
+      question: You are departing a desert area early in the morning, planning a climb to 8000 ft. The calculated rate of climb is 1600 ft/min, but passing 6000 ft you notice a decreased rate of climb. What is the most likely reason?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: You are climbing through an inversion layer.
+          wrongAnswers:
+            - text: There is greater excess thrust.
+            - text: You are experiencing an engine failure.
+            - text: The cold air decreases engine performance.
+    - type: simple
+      question: You are departing a desert area early in the morning, planning a climb to 8 000 ft. The rate of climb calculated from the AFM is 1 500 ft/min, but passing 6 000 ft you notice a decreased rate of climb of 1 260 ft/min. What is the most likely reason?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: You are climbing through an inversion layer.
+          wrongAnswers:
+            - text: There is greater excess thrust.
+            - text: The cold air decreases engine performance.
+            - text: You are experiencing an engine failure.
+        - correctAnswers:
+            - text: temperature increases with altitude due to an inversion layer
+          wrongAnswers:
+            - text: the air pressure increases as you climb
+            - text: the pressure altitude decreases as you climb
+            - text: the air temperature is rapidly decreasing due to an inversion layer
+    - type: simple
+      question: You're departing a desert area in the early morning, and you plan to climb up to 8 000ft. The expected climb rate is 1 600fpm, but upon reaching 6 000ft, you notice a decreased RoC. What's the reason?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: You climbed through an inversion layer.
+          wrongAnswers:
+            - text: Excess thrust
+            - text: Engine problems
+            - text: The warm air lowers your rate of climb.
+- id: QBFQD
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322426
+    - BGS-320710
+    - AVEXAM-89113
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.04.01.09
+  templates:
+    - type: simple
+      question: "VX and VY with take-off flaps will be:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: lower than that for clean configuration.
+          wrongAnswers:
+            - text: same as that for clean configuration.
+            - text: higher than that for clean configuration.
+            - text: changed so that VX increases and VY decreases compared to clean configuration.
+- id: QKLWF
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322841
+    - AVEXAM-23911
+    - AVEXAM-44588
+    - BGS-320143
+    - BGS-320621
+    - ATPLQ-323056
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.04.01.09
+    - 032.02.03.01.02
+  templates:
+    - type: simple
+      question: "An aircraft has two certified landing flaps positions, 25° and 35°. If a pilot chooses 25° instead of 35°, the aircraft will have:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "an increased landing distance and better go-around performance. "
+          wrongAnswers:
+            - text: "a reduced landing distance and better go-around performance. "
+            - text: "a reduced landing distance and degraded go-around performance. "
+            - text: an increased landing distance and degraded go-around performance.
+- id: QMFMM
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324429
+    - AVEXAM-87800
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.04.01.10
+  templates:
+    - type: simple
+      question: A flight plan has been issued by dispatch with a CI of 82. The crew enter a CI of 35. What will happen to the climb and descent speeds?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Decrease, decrease
+          wrongAnswers:
+            - text: Increase, decrease
+            - text: Increase, increase
+            - text: Decrease, increase
+    - type: simple
+      question: The dispatch flight plan has CI = 82, but the crew enters CI = 35. What will happen to climb and descent speed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both decrease
+          wrongAnswers:
+            - text: Climb speed increases, descent speed decreases.
+            - text: Climb speed decreases, descent speed increases.
+            - text: Both increase
+- id: QXPGK
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322929
+    - BGS-321048
+    - AVEXAM-40292
+    - ATPLQ-323715
+    - AVEXAM-52923
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.04.01.10
+  templates:
+    - type: simple
+      question: A multi-engine piston aircraft suffers an engine failure during the climb. What will happen to the VY and the rate of climb?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both will decrease.
+          wrongAnswers:
+            - text: VY will decrease and the rate of climb will increase.
+            - text: VY will increase and the rate of climb will decrease.
+            - text: Both will increase.
+    - type: simple
+      question: What is the effect of deploying spoilers on an aircraft's rate of climb and VY (best rate of climb speed)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Rate of climb decreases, VY decreases.
+          wrongAnswers:
+            - text: Rate of climb increases, VY decreases.
+            - text: Rate of climb decreases, VY increases.
+            - text: Rate of climb increases, VY increases.
+- id: QFAAO
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-323597
+    - BGS-321226
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.04.01.11
+  templates:
+    - type: simple
+      question: |-
+        What is the all-engines climb gradient (in %) for a twin-engine aeroplane with the following data given? Use 1 kg = 2.2 lb.
+
+        - Number of engines: {{n}}
+        - Thrust per engine: {{thrust}} lbs
+        - Mass: {{mass}} kg
+        - Lift to Drag ratio: {{ld}}:1
+
+        g = 10 m/s²
+      explanation: |-
+        In a steady climb the gradient is the thrust-to-weight ratio minus the drag-to-weight ratio, and drag over weight equals 1/(L/D). With all engines operating the total thrust is the number of engines times the thrust per engine; thrust and weight must be in the same unit (here lb).
+
+        **Solution**
+
+        $$
+        (\frac{\text{Number of engines}\times \text{Thrust per engine}}{\text{Mass}\times 2.2}-\frac{1}{\text{Lift to drag ratio}})\times 100 = (\frac{2\times {{thrust}} }{ {{mass}}\times 2.2}-\frac{1}{ {{ld}} })\times 100 = \mathbf{ {{answer}}\ \text{%} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} %**: only the thrust of one engine is used.
+        - **{{d2}} %**: the drag term 1/(L/D) is forgotten.
+        - **{{d3}} %**: the drag term is added instead of subtracted.
+        - **{{d4}} %**: this is only the drag-to-weight ratio 1/(L/D), not the gradient.
+      presets:
+        - variables:
+            n: 2
+            thrust: 33000
+            mass: 89500
+            ld: 7.8
+            answer: 20.7
+            d1: 3.9
+            d2: 33.5
+            d3: 46.3
+            d4: 12.8
+          correctAnswers:
+            - text: 20.7 %
+          wrongAnswers:
+            - text: 3.9 %
+            - text: 46.3 %
+            - text: 12.8 %
+            - text: 33.5 %
+        - variables:
+            n: 2
+            thrust: 25000
+            mass: 60000
+            ld: 8.5
+            answer: 26.1
+            d1: 7.2
+            d2: 37.9
+            d3: 49.6
+            d4: 11.8
+          correctAnswers:
+            - text: 26.1 %
+          wrongAnswers:
+            - text: 7.2 %
+            - text: 49.6 %
+            - text: 11.8 %
+            - text: 37.9 %
+        - variables:
+            n: 2
+            thrust: 20000
+            mass: 45000
+            ld: 9
+            answer: 29.3
+            d1: 9.1
+            d2: 40.4
+            d3: 51.5
+            d4: 11.1
+          correctAnswers:
+            - text: 29.3 %
+          wrongAnswers:
+            - text: 9.1 %
+            - text: 51.5 %
+            - text: 11.1 %
+            - text: 40.4 %
+- id: QNOEV
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-328094
+    - BGS-320577
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.04.01.11
+  templates:
+    - type: simple
+      question: |-
+        Determine the one-engine-out climb gradient of a four-engined aeroplane, given:
+
+        - Aeroplane mass: {{mass}} kg
+        - Thrust per engine: {{thrust}} N
+        - Drag: {{drag}} N
+        - (Assume the acceleration due to gravity is {{g}} m/s**2**)
+      explanation: |-
+        The climb gradient is the excess thrust (thrust minus drag) divided by the weight. With one of the four engines failed, only three engines contribute thrust.
+
+        **Solution**
+
+        Excess thrust: 3 x {{thrust}} N - {{drag}} N = {{macro1}} N
+
+        $$
+        \frac{3\times \text{Thrust per engine}-\text{Drag}}{\text{Mass}\times g}\times 100 = \frac{3\times {{thrust}}-{{drag}} }{ {{mass}}\times 10}\times 100 = \mathbf{ {{answer}}\ \text{%} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} %**: uses all four engines instead of three.
+        - **{{d2}} %**: drag divided by weight, which is not a climb gradient.
+        - **{{d3}} %**: thrust of a single engine divided by weight; the engine count and the drag are ignored.
+      presets:
+        - variables:
+            mass: 315000
+            thrust: 245000
+            drag: 435000
+            g: 10
+            macro1: 300000
+            answer: 9.5
+            d1: 17.3
+            d2: 13.8
+            d3: 7.8
+          correctAnswers:
+            - text: 9.5 %
+          wrongAnswers:
+            - text: 7.8 %
+            - text: 17.3 %
+            - text: 13.8 %
+        - variables:
+            mass: 280000
+            thrust: 230000
+            drag: 400000
+            g: 10
+            macro1: 290000
+            answer: 10.4
+            d1: 18.6
+            d2: 14.3
+            d3: 8.2
+          correctAnswers:
+            - text: 10.4 %
+          wrongAnswers:
+            - text: 8.2 %
+            - text: 18.6 %
+            - text: 14.3 %
+        - variables:
+            mass: 350000
+            thrust: 260000
+            drag: 450000
+            g: 10
+            macro1: 330000
+            answer: 9.4
+            d1: 16.9
+            d2: 12.9
+            d3: 7.4
+          correctAnswers:
+            - text: 9.4 %
+          wrongAnswers:
+            - text: 7.4 %
+            - text: 16.9 %
+            - text: 12.9 %
+- id: QXUIW
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324478
+    - AVEXAM-69903
+    - BGS-320015
+    - AVEXAM-95045
+    - AVEXAM-73766
+    - AVEXAM-77817
+    - ATPLQ-329364
+    - BGS-321248
+    - BGS-320778
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.04.01.11
+  templates:
+    - type: simple
+      question: |-
+        A four jet-engine aeroplane (mass = {{mass}} kg) is established on climb with all engines operating. The lift-to-drag ratio is {{ld}}. Each engine has a thrust of {{thrust}} N. (given: g = {{g}} m/s²)
+
+        The gradient of climb is (%):
+      explanation: |-
+        In a steady climb the gradient is approximately (Thrust - Drag) / Weight, with Drag = Weight / (L/D) and Thrust the sum of all engines.
+
+        **Solution**
+
+        Weight = {{macro1}} N, Drag = {{macro2}} N
+
+        $$
+        \frac{100\times (4\times \text{Thrust per engine}-\frac{\text{Mass}\times g}{\text{Lift-to-drag ratio}})}{\text{Mass}\times g} = \frac{100\times (4\times {{thrust}}-\frac{ {{mass}}\times 10}{ {{ld}} })}{ {{mass}}\times 10} = \mathbf{ {{answer}}\ \text{%} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} %**: converts the ratio to percent with a factor of 10 instead of 100.
+        - **{{d2}} %**: uses only three engines.
+        - **{{d3}} %**: adds the drag term instead of subtracting it.
+      presets:
+        - variables:
+            mass: 150000
+            ld: 14
+            thrust: 75000
+            g: 10
+            macro1: 1500000
+            macro2: 107142.86
+            answer: 12.86
+            d1: 1.29
+            d2: 7.86
+            d3: 27.14
+          correctAnswers:
+            - text: 12.86 %
+          wrongAnswers:
+            - text: 27.14 %
+            - text: 1.29 %
+            - text: 7.86 %
+        - variables:
+            mass: 120000
+            ld: 12
+            thrust: 60000
+            g: 10
+            macro1: 1200000
+            macro2: 100000
+            answer: 11.67
+            d1: 1.17
+            d2: 6.67
+            d3: 28.33
+          correctAnswers:
+            - text: 11.67 %
+          wrongAnswers:
+            - text: 28.33 %
+            - text: 1.17 %
+            - text: 6.67 %
+        - variables:
+            mass: 200000
+            ld: 16
+            thrust: 90000
+            g: 10
+            macro1: 2000000
+            macro2: 125000
+            answer: 11.75
+            d1: 1.18
+            d2: 7.25
+            d3: 24.25
+          correctAnswers:
+            - text: 11.75 %
+          wrongAnswers:
+            - text: 24.25 %
+            - text: 1.18 %
+            - text: 7.25 %
+    - type: simple
+      question: |-
+        Given the following information, what is the all engine climb gradient for a two engine aeroplane?Thrust per engine: 118 000 Newtons 
+        Mass: 76 000 kg 
+        Lift to drag ratio: 9:1 
+        Assume g = 10 m/s2
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 20%
+          wrongAnswers:
+            - text: 21.8%
+            - text: 8%
+            - text: 18.5%
+        - correctAnswers:
+            - text: 24.1 %
+          wrongAnswers:
+            - text: 35.2 %
+            - text: 6.5 %
+            - text: 11.1 %
+    - type: simple
+      question: |-
+        Given the following information, what is the all-engine climb gradient for a twin-engined aeroplane? 
+        Thrust per engine: 118 000 N
+        Mass: 76000 kg
+        Lift-to-drag ratio: 8:1
+        Assume g = 10 m/s2 .
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 18.6%
+          wrongAnswers:
+            - text: 3.0%
+            - text: 12.5%
+            - text: 31.1%
+- id: QREUW
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-327491
+    - AVEXAM-59852
+    - AVEXAM-51886
+    - BGS-320592
+    - AVEXAM-27614
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.05.01.01
+  templates:
+    - type: simple
+      question: "In a steady descending flight (descent angle 3) equilibrium of forces acting on the aeroplane is given: (T = THRUST, D = DRAG, W = WEIGHT)"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: T+W sin 3 = D
+          wrongAnswers:
+            - text: T+D= - W sin 3
+            - text: T-D=W sin 3
+            - text: T-W cos 3 = D
+- id: QEPFH
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-327853
+    - BGS-320076
+    - AVEXAM-13139
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.05.01.05
+  templates:
+    - type: simple
+      question: What is the effect of increased mass on the performance of a gliding aeroplane?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The speed for best angle of descent increases.
+          wrongAnswers:
+            - text: The gliding angle decreases.
+            - text: There is no effect.
+            - text: The lift/drag ratio decreases.
+- id: QNODW
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-321182
+    - AVEXAM-24571
+    - BGS-320068
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.05.01.05
+  templates:
+    - type: simple
+      question: Which of the following factors will lead to an increase of ground distance during a glide, while maintaining the appropriate minimum glide angle speed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Tailwind.
+          wrongAnswers:
+            - text: Increase of aircraft mass.
+            - text: Decrease of aircraft mass.
+            - text: Headwind.
+- id: QPFFM
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-321670
+    - AVEXAM-84612
+    - BGS-320585
+    - BGS-320883
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.05.01.05
+  templates:
+    - type: simple
+      question: Assuming all other factors remain unchanged, what statement is correct regarding the effect on the Best Glide Angle?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A higher mass allows for a higher speed while maintaining the same Best Glide Angle.
+          wrongAnswers:
+            - text: A tailwind component increases the Best Glide Angle for a given speed.
+            - text: Extending flaps during the descent results in a smaller Best Glide Angle.
+            - text: A lower altitude allows for a higher speed while maintaining the same Best Glide Angle.
+- id: QQGOZ
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - AVEXAM-72551
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.05.01.05
+  templates:
+    - type: simple
+      question: For a propeller aircraft, the maximum endurance speed in a glide descent in still air is (1) \_\_\_\_\_ and is (2) \_\_\_\_\_ by the presence of a headwind.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) VMP; (2) unchanged
+          wrongAnswers:
+            - text: (1) VMD; (2) increased
+            - text: (1) VMD; (2) unchanged
+            - text: (1) VMP; (2) increased
+- id: QXFWB
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325811
+    - BGS-320069
+    - AVEXAM-32309
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.05.01.05
+  templates:
+    - type: simple
+      question: Which of the following factors leads to the maximum flight time of a glide?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Low mass.
+          wrongAnswers:
+            - text: High mass.
+            - text: Tailwind.
+            - text: Headwind.
+- id: QMXIM
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-329101
+    - AVEXAM-38561
+    - BGS-320687
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.05.01.06
+  templates:
+    - type: simple
+      question: |-
+        During descent with idle power and assuming all other parameters remaining the same, how will an increased mass change the Minimum Angle of Descent and the corresponding speed?
+
+        The Minimum Angle of Descent...
+      explanation: The minimum angle of descent with idle power is reached at the speed of the maximum lift/drag ratio, and that angle depends only on the L/D ratio. A greater mass does not change the angle, but increases the speed at which it is achieved.
+      presets:
+        - correctAnswers:
+            - text: remains the same at an increased speed.
+          wrongAnswers:
+            - text: increases at an increased speed.
+            - text: remains the same at an unchanged speed.
+            - text: decreases at an increased speed.
+- id: QKVCE
+  subjectId: "032"
+  chapterId: "032.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322098
+    - AVEXAM-29137
+    - BGS-321161
+  annexes: []
+  learningObjectiveIds:
+    - 032.01.05.01.06
+    - 032.04.05.02.01
+  templates:
+    - type: simple
+      question: You are the pilot flying of a medium jet aeroplane and you are using the autopilot to maintain a constant vertical speed and the autothrust is maintaining a constant airspeed (CAS) while flying a Continuous Descent Approach (CDA). As the aeroplane is gradually slowing down from minimum clean speed of 213 kt to 180 kt, you selected approach flaps. Disregarding any other factors, the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: vertical speed must be reduced to maintain the trajectory, and when the approach speed stabilises, the autothrust will demand more thrust to maintain the speed.
+          wrongAnswers:
+            - text: trajectory will become more shallow as the flaps are extended and the speed reduces, which require a higher vertical speed to be selected.
+            - text: vertical speed must be increased to offset the greater lift produced when the flaps are extended, and the autothrust will demand less thrust due to lower airpeed.
+            - text: trajectory will initially become steeper as the flaps are extended but this reduction is offset by the slower airspeed, provided the vertical speed is maintained constant.

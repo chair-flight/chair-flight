@@ -1,0 +1,726 @@
+- id: QVQIN
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508115
+    - BGS-500529
+    - AVEXAM-17379
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.01.01.01
+  templates:
+    - type: simple
+      question: "The processes and/or effects which cause clouds to release precipitation are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: coalescence process and Bergeron-Findeisen process.
+          wrongAnswers:
+            - text: convection effect and advection effect.
+            - text: advection effect and coalescence process.
+            - text: Bergeron-Findeisen process and convection effect.
+- id: QKPTJ
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502824
+    - BGS-500676
+    - AVEXAM-9526
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.01.01.02
+  templates:
+    - type: simple
+      question: Which of the following statements is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The Bergeron-Findeisen process is mainly based on the difference of maximum vapour pressure over water and over ice of the same temperature.
+          wrongAnswers:
+            - text: At mid-latitudes the coalescence process is usually the initial process in the formation of precipitation.
+            - text: In the tropics stratiform precipitation does not occur.
+            - text: The principle of the Bergeron-Findeisen process is mainly based on the difference in size of the cloud elements.
+- id: QUDXZ
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509773
+    - AVEXAM-99978
+    - BGS-501428
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.01.01.02
+    - 050.05.01.01.03
+  templates:
+    - type: one-two
+      question: Which of the following statements is/are correct?
+      explanation: ""
+      pairs:
+        - right:
+            - In a mixed cloud the ice crystals grow at the expense of supercooled water droplets
+          wrong: []
+        - right: []
+          wrong:
+            - In the mid-latitudes heavy rain showers are only formed by the coalescence process
+    - type: simple
+      question: |-
+        With regard to the formation of precipitation, which of the following two statements are correct?
+
+        1.   Ice crystals form at the expense of supercooled droplets
+
+        2.   Rain only falls due to coalescence.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1. Correct 2. Incorrect
+          wrongAnswers:
+            - text: 1. Correct 2. Correct
+            - text: 1. Incorrect. 2. Correct
+            - text: 1. Incorrect 2. Incorrect
+- id: QBJCA
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509337
+    - BGS-502998
+    - AVEXAM-9507
+    - AVEXAM-51077
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.01.01.03
+  templates:
+    - type: simple
+      question: |-
+        Which of the following conditions are required for the formation of precipitation by coalescence?
+
+        1. Stratiform clouds 
+         
+        2. Cumulonimbus clouds 
+         
+        3. Convection 
+         
+        4. Precipitation mixing together 
+         
+        5. Pressure difference between ice and water droplets
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2 and 4.
+          wrongAnswers:
+            - text: 1, 3 and 5.
+            - text: 2, 3 and 4.
+            - text: 2, 4 and 5.
+    - type: simple
+      question: |-
+        Which of the below are typically associated with the coalescence process of forming precipitation? 
+        1. Collision of water droplets with different sizes, 
+        2. Convection, 
+        3. Cumulonimbus clouds,
+        4. Stratiform clouds, 
+        5. Difference in vapour pressure above ice and water droplets,
+        6. Difference in vapour pressure around small and big water droplets.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, and 3
+          wrongAnswers:
+            - text: 4, 5, and 6
+            - text: 2, 4, and 5
+            - text: 1, 3, and 6
+    - type: simple
+      question: |-
+        Which of the following are required for precipitation by coalescence?
+
+         Stratiform clouds.
+         Cumulonimbus clouds.
+         Convection.
+         Precipitation mixing together.
+         Pressure difference between ice and water droplets.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, 4
+          wrongAnswers:
+            - text: 1, 3, 5
+            - text: 2, 4, 5
+            - text: 2, 3, 4
+    - type: simple
+      question: |-
+        What conditions matter most for precipitation to form through coalescence?
+
+         Water droplets colliding with each other
+         Cumulonimbus clouds
+         Stratiform clouds
+         Convection
+         A pressure difference between ice and water droplets
+         A pressure difference between water droplets
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 3 and 4.
+          wrongAnswers:
+            - text: 1, 2 and 6.
+            - text: 2, 4 and 6.
+            - text: 2, 3 and 5.
+- id: QANBS
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507924
+    - AVEXAM-2659
+    - BGS-502557
+    - BGS-502441
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.01.01.03
+  templates:
+    - type: simple
+      question: Rain is formed within warm clouds when a particle, such as a grain of dust, attracts a drop of moisture to itself. In a next step, this initial cloud droplet will..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: collide with other droplets, thereby growing in size and eventually forming a rain drop.
+          wrongAnswers:
+            - text: leave the cloud, eventually forming the final rain drop at and below the cloud base, as this is where the humidity is highest.
+            - text: be taken higher by updrafts in the cloud, thereby freezing and growing in size due to collisions with other ice crystals.
+            - text: merge with other droplets, a process which is greatly improved if the colliding drops feature the same electrical charge.
+- id: QJBBH
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506574
+    - BGS-500526
+    - AVEXAM-12435
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.01.01.03
+  templates:
+    - type: simple
+      question: Which of the following statements is true concerning the coalescence process?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In the mid-latitudes this process produces only drizzle or very light rain
+          wrongAnswers:
+            - text: It only occurs in the tropics
+            - text: It only takes place in convective clouds
+            - text: It only occurs in the mid-latitudes
+- id: QZELS
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506661
+    - AVEXAM-39449
+    - BGS-501437
+    - BGS-502491
+    - ATPLQ-506168
+    - AVEXAM-73995
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.01.01.04
+  templates:
+    - type: simple
+      question: "Mixed clouds are composed of both supercooled water droplets and ice crystals. Most precipitation from these clouds starts out as:"
+      explanation: In mixed clouds the ice crystals grow at the expense of the supercooled droplets, and most precipitation starts as snow. It melts into rain when it falls through warmer air.
+      presets:
+        - correctAnswers:
+            - text: Snow.
+          wrongAnswers:
+            - text: Drizzle.
+            - text: Hail.
+            - text: Rain.
+    - type: simple
+      question: In cold clouds where ice crystals and cloud droplets coexist, most precipitation starts out as..
+      explanation: Where ice crystals and supercooled droplets coexist, the crystals grow quickly by deposition and most precipitation starts as snow.
+      presets:
+        - correctAnswers:
+            - text: snow.
+          wrongAnswers:
+            - text: hail.
+            - text: drizzle.
+            - text: rain.
+- id: QULYF
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506842
+    - AVEXAM-31952
+    - AVEXAM-73755
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.02.01.01
+  templates:
+    - type: simple
+      question: |-
+        Complete the following sentence: 
+         
+        Small ice formations are categorized as (1) _____, as long as their diameter is at least (2) _____ mm.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) GR; (2) 5.
+          wrongAnswers:
+            - text: (1) GS; (2) 5.
+            - text: (1) GR; (2) 1.
+            - text: (1) PL; (2) 5.
+    - type: simple
+      question: Small ice formations are classified as (1) _____, when their maximum diameter is at least (2) _____ mm.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) GR; (2) 5 mm
+          wrongAnswers:
+            - text: (1) GR; (2) 1 mm
+            - text: (1) GS; (2) 5 mm
+            - text: (1) sG; (2) 5 mm
+    - type: simple
+      question: Small ice formations are categorized as (1) ___ as long as they are (2) ___ mm in size.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) GS; (2) 5 or less
+          wrongAnswers:
+            - text: (1) GR; (2) 5 or less
+            - text: (1) SN; (2) 2 or less
+            - text: (1) PL; (2) 2 or less
+- id: QEDLW
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds:
+    - QDEGJ
+  externalQuestionIds:
+    - ATPLQ-501950
+    - BGS-502617
+    - AVEXAM-36967
+    - ATPLQ-506524
+    - AVEXAM-29615
+    - BGS-500552
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.02.01.01
+  templates:
+    - type: simple
+      question: '"Precipitation of transparent particles of ice which are spherical or irregular, rarely conical, and which have a diameter of 5 mm or less." is a description of:'
+      explanation: Ice pellets are transparent particles of ice, spherical or irregular, with a diameter of 5 mm or less. Hail is larger than 5 mm, and snow grains are opaque white.
+      presets:
+        - correctAnswers:
+            - text: Ice pellets
+          wrongAnswers:
+            - text: Hail
+            - text: Snow grains
+            - text: Freezing drizzle
+    - type: simple
+      question: '"Solid precipitation which is transparent or translucent and has a diameter of 5 mm or less formed by the freezing of raindrops or refreezing of melted snow, and usually bounces off hard surfaces", is a description of:'
+      explanation: Ice pellets are solid transparent or translucent particles of 5 mm or less, formed by freezing raindrops or refreezing melted snow, which usually bounce off hard surfaces. Snow grains are opaque, and hail is larger.
+      presets:
+        - correctAnswers:
+            - text: ice pellets.
+          wrongAnswers:
+            - text: snow grains.
+            - text: hail.
+            - text: small hail.
+- id: QDEGJ
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds:
+    - QEDLW
+  externalQuestionIds:
+    - ATPLQ-503179
+    - AVEXAM-46044
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.02.01.01
+  templates:
+    - type: simple
+      question: What type of frozen precipitation with a diameter of less than 4 mm can be used in a METAR?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ice pellets
+          wrongAnswers:
+            - text: freezing rain
+            - text: GR
+            - text: ice crystals
+- id: QGNPA
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502510
+    - BGS-501441
+    - BGS-502912
+    - AVEXAM-57548
+    - ATPLQ-508929
+    - AVEXAM-53035
+    - AVEXAM-50147
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.02.01.02
+  templates:
+    - type: simple
+      question: The diameter of drizzle droplets is less than..
+      explanation: ICAO and WMO specify drizzle drops with diameters of less than 0.5 mm. Rain drops are larger than 0.5 mm.
+      presets:
+        - correctAnswers:
+            - text: 0.5 mm.
+          wrongAnswers:
+            - text: 4 mm.
+            - text: 1 mm.
+            - text: 2 mm.
+    - type: simple
+      question: Which size range is typical of drizzle droplets?
+      explanation: Drizzle is precipitation formed of very small water droplets. Their diameter is generally below 0.5 mm.
+      presets:
+        - correctAnswers:
+            - text: About 0.2–0.5 mm
+          wrongAnswers:
+            - text: About 1–2 mm
+            - text: About 4–6 mm
+            - text: About 8–10 mm
+- id: QUXCT
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509935
+    - BGS-501929
+    - AVEXAM-83413
+    - ATPLQ-501014
+    - BGS-502405
+    - AVEXAM-9033
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.02.01.03
+  templates:
+    - type: simple
+      question: Which of the following statements is correct about hail?
+      explanation: Hailstones form in strong convective cloud and can grow large enough to dent and damage airframes, even at low speeds. They can reach the ground when the surface temperature is above 0 °C.
+      presets:
+        - correctAnswers:
+            - text: Hailstones can be so large that they can inflict significant damage to airframes even at low speed.
+          wrongAnswers:
+            - text: Hail is formed when saturated air rises and forms cloud. The latent heat that is dissipated causes the cloud droplets to freeze as they form.
+            - text: Hailstones only reach the ground when the air temperature at the surface is below 0°C.
+            - text: Hail is often encountered falling from cirrus or cirrostratus clouds at a warm front.
+    - type: simple
+      question: Which of these statements is true regarding hail?
+      explanation: Hail forms in cumulonimbus with strong updraughts. The stones can be large enough to damage the airframe seriously. Hail reaches the ground when the surface temperature is above 0 °C too.
+      presets:
+        - correctAnswers:
+            - text: Flying through hail can inflict significant damage on the airframe because of the size to which the hailstones can grow.
+          wrongAnswers:
+            - text: Hailstones hitting the airframe produce static electricity, which can cause significant interference with VHF radio communications.
+            - text: Hailstones only reach the ground when the air temperature at the surface is below 0°C.
+            - text: "'GS' in a TAF or METAR means that the hailstones are larger and heavier than those classified as \"GR\"."
+- id: QDGXW
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507110
+    - AVEXAM-98145
+    - BGS-502150
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.02.01.04
+    - 050.05.02.01.05
+  templates:
+    - type: simple
+      question: What can result in the appearance of supercooled water droplets in the form of freezing rain?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A temperature inversion.
+          wrongAnswers:
+            - text: Negative temperatures from FL300 to the ground.
+            - text: High concentration of condensation nuclei.
+            - text: Clear Air Turbulence.
+- id: QMVVE
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506337
+    - BGS-500551
+    - AVEXAM-23432
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.02.01.04
+  templates:
+    - type: simple
+      question: "The presence of ice pellets at the surface is evidence that:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: freezing rain occurs at a higher altitude.
+          wrongAnswers:
+            - text: a cold front has passed.
+            - text: there are thunderstorms in the area.
+            - text: a warm front has passed.
+- id: QEXVH
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502849
+    - AVEXAM-66178
+    - BGS-500614
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.02.01.05
+  templates:
+    - type: simple
+      question: In which of the following situations can freezing rain be encountered?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ahead of a warm front in the winter
+          wrongAnswers:
+            - text: Ahead of a cold front in the winter
+            - text: Behind a warm front in the summer
+            - text: Ahead of a cold front in the summer
+- id: QVPEH
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505552
+    - BGS-502582
+    - AVEXAM-15064
+    - BGS-500542
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.02.01.06
+  templates:
+    - type: simple
+      question: "Steady precipitation, in contrast to showery precipitation falls from:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: stratiform clouds with little or no turbulence.
+          wrongAnswers:
+            - text: convective clouds with moderate turbulence.
+            - text: stratiform clouds with severe turbulence.
+            - text: convective clouds with little or no turbulence.
+- id: QWUCN
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503796
+    - BGS-502591
+    - AVEXAM-62280
+    - BGS-500536
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.02.01.06
+  templates:
+    - type: simple
+      question: "Precipitation in the form of showers occurs mainly from:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: convective clouds.
+          wrongAnswers:
+            - text: clouds containing only ice crystals.
+            - text: stratified clouds.
+            - text: cirro-type clouds.
+- id: QCZVG
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506873
+    - BGS-502413
+    - BGS-500530
+    - AVEXAM-14436
+    - BGS-500539
+    - ATPLQ-501877
+    - AVEXAM-15511
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.02.01.07
+  templates:
+    - type: simple
+      question: What cloud type can produce freezing rain?
+      explanation: Freezing rain is rain that falls from the warmer layer of a deep, layered cloud such as nimbostratus into a sub-zero layer or onto sub-zero surfaces, where it freezes on contact.
+      presets:
+        - correctAnswers:
+            - text: Nimbostratus.
+          wrongAnswers:
+            - text: Cumulonimbus.
+            - text: Stratocumulus.
+            - text: Stratus.
+- id: QNSRF
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504344
+    - AVEXAM-13886
+    - AVEXAM-86877
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.02.01.07
+  templates:
+    - type: simple
+      question: Which kind of precipitation is most likely to fall from clouds of great vertical extent containing both ice crystals and water droplets?
+      explanation: Hail falls from cumulonimbus, which has a great vertical extent and contains both ice crystals and supercooled water droplets. Updraughts carry the stones up through the cloud, so they grow in layers.
+      presets:
+        - correctAnswers:
+            - text: Hail
+          wrongAnswers:
+            - text: Snow
+            - text: Drizzle
+            - text: Rain
+- id: QOTRE
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503221
+    - BGS-500527
+    - AVEXAM-94195
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.02.01.07
+  templates:
+    - type: simple
+      question: Which form of precipitation from clouds containing only water is most likely to fall in mid-latitudes?
+      explanation: Clouds containing only water, which are warm clouds in the mid-latitudes, are usually low and shallow and give drizzle. Large drops and hail come from deep convective cloud.
+      presets:
+        - correctAnswers:
+            - text: Drizzle.
+          wrongAnswers:
+            - text: Moderate rain with large drops.
+            - text: Hail.
+            - text: Heavy rain with large drops.
+- id: QHQVW
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505342
+    - BGS-500548
+    - AVEXAM-82867
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.02.01.07
+  templates:
+    - type: simple
+      question: From what type of cloud does drizzle fall?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Stratus
+          wrongAnswers:
+            - text: Cirrostratus
+            - text: Altostratus
+            - text: Cumulus
+- id: QSQGB
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502801
+    - BGS-500534
+    - AVEXAM-68407
+    - BGS-500540
+    - AVEXAM-87473
+    - ATPLQ-502437
+    - ATPLQ-504558
+    - BGS-500535
+    - AVEXAM-70010
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.02.01.07
+  templates:
+    - type: simple
+      question: What type of clouds are associated with rain showers ?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Towering cumulus and cumulonimbus.
+          wrongAnswers:
+            - text: Towering cumulus and altostratus.
+            - text: Altostratus and stratus.
+            - text: Nimbostratus
+- id: QTLUP
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507308
+    - AVEXAM-13852
+    - BGS-500547
+    - ATPLQ-506835
+    - BGS-502379
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.02.01.07
+  templates:
+    - type: simple
+      question: "Snow grains:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: fall from stratus or supercooled fog.
+          wrongAnswers:
+            - text: are normally transparent.
+            - text: are typically formed inside a CB, where they are being tossed up and down while growing to such size that they could no longer be supported in the updraught.
+            - text: are mainly formed inside altostratus and nimbostratus.
+        - correctAnswers:
+            - text: Generally fall from stratus clouds or fog.
+          wrongAnswers:
+            - text: Are normally transparent.
+            - text: Are mainly formed in convective clouds.
+            - text: Are mainly formed inside altostratus and nimbostratus.
+- id: QUYGL
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508699
+    - BGS-502174
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.02.01.08
+  templates:
+    - type: simple
+      question: Which of the following statements is true regarding the relationship between moisture content, precipitation type and the resultant effects on visibility?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Visibility in precipitation with large snow flakes is worse than in rain.
+          wrongAnswers:
+            - text: Visibility in heavy snow is better than in drizzle with small water droplets.
+            - text: Regardless of the moisture content, the visibility in rain is worse than in snow.
+            - text: Visibility in a shower with blowing snow is better than in heavy rain.
+- id: QXAUT
+  subjectId: "050"
+  chapterId: "050.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505588
+  annexes: []
+  learningObjectiveIds:
+    - 050.05.02.01.08
+  templates:
+    - type: simple
+      question: Which statement is true about the relationship between the water content of different types of winter precipitation and the associated visibility?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: snowflakes, due to their open structure, obscure more than water droplets.
+          wrongAnswers:
+            - text: light snow compared to heavy snow causes a lower visibility due to the compact nature of the small snowflakes associated with light snow.
+            - text: ice pellets and freezing rain, because they have a bigger structure, obscure more than snowflakes.
+            - text: hail from thunderstorms obscures more than snowflakes due to the greater whiteness (the property of being white in colour) of hail.

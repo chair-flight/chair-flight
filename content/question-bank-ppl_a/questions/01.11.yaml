@@ -1,0 +1,23 @@
+- id: QEEPS
+  subjectId: "01"
+  chapterId: "01.11"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "01.11.01"
+  templates:
+    - type: simple
+      question: What is the common objective of ICAO Annex 17 and Regulation (EC) No 300/2008?
+      explanation: |-
+        ### Regulation (EC) No 300/2008, Article 1
+
+        > This Regulation establishes common rules to protect civil aviation against acts of unlawful interference […]
+
+        Article 1 also makes the regulation the basis for a common interpretation of Annex 17 in the EU. Annex 17 sets out international standards for civil aviation security.
+      presets:
+        - correctAnswers:
+            - text: To protect civil aviation against acts of unlawful interference
+          wrongAnswers:
+            - text: To define international flight crew licensing standards
+            - text: To establish procedures for safety investigations
+            - text: To standardise search and rescue coordination

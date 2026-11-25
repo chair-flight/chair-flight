@@ -1,0 +1,537 @@
+- id: QCBNH
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222922
+    - BGS-222299
+    - BGS-221361
+    - AVEXAM-57545
+    - AVEXAM-18211
+    - BGS-220586
+    - ATPLQ-223925
+    - AVEXAM-47745
+  annexes: []
+  learningObjectiveIds:
+    - 022.09.01.01.01
+  templates:
+    - type: simple
+      question: During engine start..
+      explanation: The autothrottle is not used during engine start, and it does not protect against hot or wet starts. It is only available once the engines are running.
+      presets:
+        - correctAnswers:
+            - text: the Autothrottle system is not used.
+          wrongAnswers:
+            - text: the Autothrottle protects against hot start.
+            - text: the Autothrottle protects against wet start.
+            - text: the Autothrottle uses ambient conditions to assist starting.
+    - type: simple
+      question: "The autothrottle system:"
+      explanation: The autothrottle is not used during engine start, and it does not protect against hot or wet starts. It is only available once the engines are running. Once the engines are running, the autothrottle can be used for take-off thrust.
+      presets:
+        - correctAnswers:
+            - text: can be used for take-off.
+          wrongAnswers:
+            - text: can be engaged in the TAS mode, holding a constant TAS, during a final approach.
+            - text: can be engaged in the GS mode, holding a constant ground speed, during a final approach.
+            - text: is automatically disconnected when the aircraft is on the ground.
+- id: QIMUP
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222622
+    - BGS-222569
+  annexes: []
+  learningObjectiveIds:
+    - 022.09.01.01.02
+  templates:
+    - type: simple
+      question: A light aircraft equipped with a torque meter is preparing for takeoff. What is the appropriate torque meter setting for take-off?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 95%
+          wrongAnswers:
+            - text: 35%
+            - text: 95 Newton
+            - text: 35 Newton
+    - type: simple
+      question: Concerning an aircraft with a torquemeter as the main power indicator, which of the following would be the most appropriate power setting for take-off?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 95%
+          wrongAnswers:
+            - text: 95 Newtons
+            - text: 35 Newtons
+            - text: 35%
+- id: QDUME
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds:
+    - QSCAF
+    - QYSVF
+  externalQuestionIds:
+    - ATPLQ-226724
+    - BGS-222090
+  annexes: []
+  learningObjectiveIds:
+    - 022.09.01.01.02
+  templates:
+    - type: simple
+      question: "The autothrottle system provides protection for:"
+      explanation: The autothrottle protects against exceeding the current thrust limit, which the thrust computer sets for the flight phase. It does not protect against EGT limits and does not act on resolution advisories.
+      presets:
+        - correctAnswers:
+            - text: exceedance of the current thrust limit.
+          wrongAnswers:
+            - text: EGT limits.
+            - text: ACAS / TCAS resolution advisories.
+            - text: engine icing.
+- id: QSDXC
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222589
+    - BGS-222422
+    - AVEXAM-24085
+  annexes: []
+  learningObjectiveIds:
+    - 022.09.01.01.02
+  templates:
+    - type: simple
+      question: During a normal take-off, what is the autothrust set to?
+      explanation: During take-off the autothrust holds a fixed thrust setting, taken from the performance database, rather than a speed or climb rate. The pilot or the system sets it at the start of the roll.
+      presets:
+        - correctAnswers:
+            - text: To maintain a constant pre-set thrust setting, in accordance with the performance database.
+          wrongAnswers:
+            - text: To maintain a constant aircraft pitch attitude.
+            - text: To maintain a constant rate of climb.
+            - text: To maintain a constant speed.
+- id: QCLTU
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds:
+    - QYSVF
+  externalQuestionIds:
+    - ATPLQ-224860
+    - AVEXAM-85561
+    - BGS-221350
+    - ATPLQ-223058
+  annexes: []
+  learningObjectiveIds:
+    - 022.09.01.01.02
+  templates:
+    - type: simple
+      question: "An autothrottle system may provide the following flight envelope protection mode:"
+      explanation: An autothrottle protects the flight envelope by changing to speed control at the maximum and minimum speeds, a speed reversion, so the aircraft does not exceed the high or low speed limits.
+      presets:
+        - correctAnswers:
+            - text: Maximum and minimum speed reversion.
+          wrongAnswers:
+            - text: Maximum take-off thrust reversion.
+            - text: Maximum and minimum altitude reversion.
+            - text: Roll rate reversion.
+    - type: simple
+      question: What is the flight envelope protection mode that can be offered by an auto-throttle system?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Maximum and minimum speed
+          wrongAnswers:
+            - text: Maximum take-off thrust
+            - text: Maximum and minimum altitude
+            - text: Roll reversion
+- id: QKQWG
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222579
+    - BGS-222089
+    - AVEXAM-88771
+  annexes: []
+  learningObjectiveIds:
+    - 022.09.01.01.02
+  templates:
+    - type: simple
+      question: When take-off mode is engaged, the auto-throttle
+      explanation: When take-off mode is engaged, the autothrottle sets a pre-set, fixed take-off thrust and holds it. It does not vary thrust to follow a speed.
+      presets:
+        - correctAnswers:
+            - text: sets thrust to a pre-set, fixed thrust setting.
+          wrongAnswers:
+            - text: continuously varies thrust to maintain the target speed.
+            - text: ensures the correct aeroplane angle of attack is maintained.
+            - text: can never be disengaged.
+- id: QSCAF
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds:
+    - QDUME
+  externalQuestionIds:
+    - ATPLQ-229171
+    - BGS-221287
+    - AVEXAM-33861
+  annexes: []
+  learningObjectiveIds:
+    - 022.09.01.01.02
+  templates:
+    - type: simple
+      question: What is the main purpose of the autothrottle on take-off?
+      explanation: On take-off, the main purpose of the autothrottle is to set and hold a commanded thrust. It does not hold speed or attitude, which the autopilot and flight director do.
+      presets:
+        - correctAnswers:
+            - text: To set and hold a commanded thrust setting.
+          wrongAnswers:
+            - text: To hold a speed once airborne.
+            - text: To hold an attitude after take off.
+            - text: To constantly adjust the thrust on the take off roll.
+- id: QALKW
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224562
+    - AVEXAM-61718
+    - BGS-220587
+  annexes: []
+  learningObjectiveIds:
+    - 022.09.01.01.02
+  templates:
+    - type: multiple-correct
+      question: "The auto-throttle:"
+      explanation: ""
+      options:
+        - text: – can capture and maintain the N1 RPM
+          correct: true
+        - text: – can capture and maintain the N2 RPM
+          correct: false
+        - text: – can capture and maintain an IAS
+          correct: true
+        - text: – is always engaged automatically at the same time as the autopilot
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+    - type: simple
+      question: |-
+        Which items correctly complete the following statement? The auto-throttle:
+        1. can capture and maintain the N1 RPM
+        2. can capture and maintain the N2 RPM
+        3. can capture and maintain an IAS
+        4. is always engaged automatically at the same time as the autopilot
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 3.
+          wrongAnswers:
+            - text: 2, 3.
+            - text: 1, 4.
+            - text: 1, 3, 4.
+- id: QCPHF
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221666
+    - AVEXAM-16488
+    - BGS-222105
+  annexes: []
+  learningObjectiveIds:
+    - 022.09.01.01.02
+  templates:
+    - type: simple
+      question: "When an autothrust system (A/THR) is in the SPEED mode, the A/THR is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: active
+          wrongAnswers:
+            - text: disarmed
+            - text: disconnected
+            - text: armed
+- id: QIGLQ
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227727
+    - AVEXAM-67829
+  annexes: []
+  learningObjectiveIds:
+    - 022.09.01.01.02
+  templates:
+    - type: simple
+      question: When is the automatic thrust control (autothrottle) used in speed hold mode?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cruise and Descent.
+          wrongAnswers:
+            - text: Taxi and Cruise.
+            - text: Take-off, Cruise and Descent.
+            - text: Take-off and Descent.
+- id: QTOOF
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228908
+    - AVEXAM-66449
+    - BGS-221967
+  annexes: []
+  learningObjectiveIds:
+    - 022.09.01.01.02
+  templates:
+    - type: simple
+      question: "When an automatic thrust control system is in the THRUST mode:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: thrust is set to a computed thrust according to a performance database.
+          wrongAnswers:
+            - text: thrust is adjusted to maintain a selected speed.
+            - text: the autothrottle or autothrust system is disconnected.
+            - text: thrust is adjusted to maintain a selected vertical speed.
+- id: QYSVF
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds:
+    - QCLTU
+    - QDUME
+  externalQuestionIds:
+    - ATPLQ-229243
+    - BGS-222086
+  annexes: []
+  learningObjectiveIds:
+    - 022.09.01.01.02
+  templates:
+    - type: simple
+      question: An Autothrottle system provides flight envelope protection..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: through reversion modes.
+          wrongAnswers:
+            - text: by using the FADEC.
+            - text: by reducing the aircraft bank angle.
+            - text: by adjusting the aircraft attitude.
+- id: QKXRV
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229821
+    - BGS-222057
+    - AVEXAM-83021
+  annexes:
+    - id: ANHM
+  learningObjectiveIds:
+    - 022.09.01.01.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        On this Mode Control Panel, which switch is used to select the Autothrottle OFF?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1"
+          wrongAnswers:
+            - text: "2"
+            - text: "4"
+            - text: "3"
+- id: QSKKQ
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223329
+    - AVEXAM-15066
+  annexes: []
+  learningObjectiveIds:
+    - 022.09.01.01.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. 
+         
+        If autothrust is armed what happens if the SPEED mode is selected on the Mode Contol Panel?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The thrust levers will move to maintain the speed selected on the MCP.
+          wrongAnswers:
+            - text: The vertical speed will be maintained.
+            - text: The thrust levers will remain static and the programmed FMC speed will be maintained.
+            - text: The thrust levers will move to maintain the programmed FMC speed.
+    - type: simple
+      question: If autothrottle is armed what happens if the SPEED mode is selected on the Mode Contol Panel?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The thrust levers will move to maintain the speed selected on the MCP.
+          wrongAnswers:
+            - text: The thrust levers will remain static and the programmed FMC speed will be maintained.
+            - text: The V/S selected on the MCP will be maintained.
+            - text: The thrust levers will move to maintain the programmed FMC speed.
+- id: QSUHQ
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225970
+    - AVEXAM-56748
+    - BGS-222407
+  annexes: []
+  learningObjectiveIds:
+    - 022.09.01.01.04
+  templates:
+    - type: simple
+      question: The autothrust is NOT used in severe turbulence. Why is that?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The autothrust may overcompensate in an oscillating manner.
+          wrongAnswers:
+            - text: The engine may exceed its limitations due to autothrust inputs.
+            - text: The aircraft may stall due to too low autothrust inputs.
+            - text: The aircraft may exceed its never exceed speed due to autothrust inputs.
+- id: QGKCB
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223222
+    - BGS-221772
+    - AVEXAM-11896
+  annexes: []
+  learningObjectiveIds:
+    - 022.09.01.01.05
+  templates:
+    - type: simple
+      question: What is a hazard when operating the auto thrust in SPEED mode?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The autothrust may not be able to maintain the selected speed if it is outside the performance capability of the aeroplane.
+          wrongAnswers:
+            - text: When operating outside of limits, the autothrottle may disconnect without any warning.
+            - text: Heavy turbulence can cause exceedance of operational limits due to excessive thrust vibrations.
+            - text: The autothrust may exceed operational limitations of the engine(s) if the selected speeds are outside of the normal flight envelope.
+- id: QCWAU
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226108
+    - BGS-222421
+    - AVEXAM-84269
+  annexes: []
+  learningObjectiveIds:
+    - 022.09.01.01.07
+  templates:
+    - type: simple
+      question: "An aircraft is flying at FL290 and maintaining a constant altitude and speed. the aircraft's pitch must:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Decrease.
+          wrongAnswers:
+            - text: Remains constant.
+            - text: Stabilise.
+            - text: Increase.
+- id: QSQEW
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222321
+    - AVEXAM-89615
+  annexes: []
+  learningObjectiveIds:
+    - 022.09.01.01.07
+  templates:
+    - type: simple
+      question: An aircraft is maintaining an altitude in the cruise then commences a descent. During the cruise, the auto-thrust system controls the speed, and during the descent, the aircraft maintains speed by regulating pitch. Which auto-thrust modes active in each phase?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SPEED (cruise), Thrust (descent)
+          wrongAnswers:
+            - text: Thrust (cruise), SPEED (descent)
+            - text: TOGA (cruise), Thrust (descent)
+            - text: SPEED (cruise), SPEED (descent)
+    - type: simple
+      question: An aircraft is cruising at a constant altitude then begins to descend. During the cruise, auto-thrust manages speed, and during the descent, pitch is adjusted to maintain speed. Which auto-thrust modes are active in each phase?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SPEED (cruise), Thrust (descent)
+          wrongAnswers:
+            - text: SPEED (cruise), SPEED (descent)
+            - text: Thrust (cruise), SPEED (descent)
+            - text: TOGA (cruise), Thrust (descent)
+- id: QNRCB
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224874
+    - BGS-220473
+    - AVEXAM-78053
+  annexes: []
+  learningObjectiveIds:
+    - 022.09.01.01.08
+    - 022.09.01.01.09
+  templates:
+    - type: multiple-correct
+      question: "The IAS or Mach hold mode is provided by:"
+      explanation: ""
+      options:
+        - text: – the autopilot pitch channel in the climb mode at a constant IAS or Mach number
+          correct: true
+        - text: – the auto-throttles in the climb mode at a constant IAS or Mach number
+          correct: false
+        - text: – the autopilot pitch channel in the altitude or glide path hold mode
+          correct: false
+        - text: – the auto-throttles in the altitude or glide path holding mode.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QUSGP
+  subjectId: "022"
+  chapterId: "022.09"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228663
+    - BGS-220581
+    - BGS-220579
+    - AVEXAM-9065
+    - AVEXAM-1404
+  annexes: []
+  learningObjectiveIds:
+    - 022.09.01.01.08
+  templates:
+    - type: simple
+      question: "During a climb with the autopilot engaged in the V/S mode (holding of vertical speed), the auto-throttle:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: can be operated in the SPEED mode (holding of IAS).
+          wrongAnswers:
+            - text: can be operated in the SPEED (holding of IAS ) or N1 (holding of N1) modes.
+            - text: is not available.
+            - text: can be operated in the N1 / EPR mode (holding of N1 or EPR).

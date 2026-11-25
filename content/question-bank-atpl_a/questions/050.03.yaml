@@ -1,0 +1,1281 @@
+- id: QIJSD
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507805
+    - AVEXAM-13934
+    - ATPLQ-507101
+    - BGS-500332
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.01.01.02
+  templates:
+    - type: simple
+      question: What of the following is the most important constituent in the atmosphere from a weather standpoint?
+      explanation: Water vapour is the most important constituent for weather. It is the source of clouds and precipitation, and it releases and absorbs latent heat.
+      presets:
+        - correctAnswers:
+            - text: Water vapour.
+          wrongAnswers:
+            - text: Hydrogen.
+            - text: Nitrogen.
+            - text: Oxygen.
+    - type: simple
+      question: In meteorology, which constituent is considered the most important in the atmosphere\`s composition?
+      explanation: "Although it makes up only a small percentage of the atmosphere, water vapour is the key constituent for meteorology: it forms cloud and precipitation, and its latent heat drives weather."
+      presets:
+        - correctAnswers:
+            - text: Water vapour
+          wrongAnswers:
+            - text: Oxygen
+            - text: Nitrogen
+            - text: Hydrogen
+- id: QNZPA
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501675
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.01.01.04
+  templates:
+    - type: simple
+      question: It is raining and the rainfall continues for 30 minutes. What happens to the relative humidity?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Stays at 100%.
+          wrongAnswers:
+            - text: Decreases.
+            - text: About 80%.
+            - text: Increases.
+- id: QZHBI
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504725
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.01.01.04
+  templates:
+    - type: simple
+      question: Saturation of the air by water vapour occurs when the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: maximum water-vapour capacity has been reached.
+          wrongAnswers:
+            - text: temperature falls due to the latent heat of condensation.
+            - text: air density increases during lifting of the air parcel.
+            - text: mixing ratio is increasing during lifting of the air parcel.
+- id: QSXLH
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502281
+    - BGS-501538
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.01.03.01
+  templates:
+    - type: simple
+      question: The dew point is defined as the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: temperature at which the vapour present in a sample of air would just cause saturation.
+          wrongAnswers:
+            - text: temperature at which the pressure exerted by the surroundings upon a liquid is equalled by the pressure exerted by the vapour of the liquid.
+            - text: ratio of the vapour pressure of a sample of air to the saturation pressure at the existing temperature.
+            - text: temperature at which moisture in the air will condense as a layer of frost on any exposed surface.
+- id: QFNEM
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504314
+    - AVEXAM-59214
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        The air is described below.
+
+        - Maximum water vapour content: {{max}} g/kg
+        - Actual water vapour content: {{actual}} g/kg
+
+        What is the relative humidity?
+      explanation: |-
+        Relative humidity compares the water vapour actually in the air with the most the air could hold at the same temperature. It is given as a percentage.
+
+        **Solution**
+
+        $$
+        \frac{\text{Actual water vapour content}}{\text{Maximum water vapour content}}\times 100 = \frac{ {{actual}} }{ {{max}} }\times 100 = \mathbf{ {{answer}}\ \text{%} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}%**: the actual content is used without comparing it with the maximum.
+        - **{{d2}}%**: the result is subtracted from 100, which gives the missing part of saturation instead of the humidity.
+        - **{{d3}}%**: the ratio is inverted.
+        - **{{d4}}%**: the wrong factor is used (10 instead of 100).
+      presets:
+        - variables:
+            max: 20
+            actual: 15
+            answer: 75
+            d1: 15
+            d2: 25
+            d3: 133
+            d4: 8
+          correctAnswers:
+            - text: 75 %
+          wrongAnswers:
+            - text: 15 %
+            - text: 133 %
+            - text: 8 %
+            - text: 25 %
+        - variables:
+            max: 25
+            actual: 12
+            answer: 48
+            d1: 12
+            d2: 52
+            d3: 208
+            d4: 5
+          correctAnswers:
+            - text: 48 %
+          wrongAnswers:
+            - text: 12 %
+            - text: 208 %
+            - text: 5 %
+            - text: 52 %
+        - variables:
+            max: 30
+            actual: 6
+            answer: 20
+            d1: 6
+            d2: 80
+            d3: 500
+            d4: 2
+          correctAnswers:
+            - text: 20 %
+          wrongAnswers:
+            - text: 6 %
+            - text: 500 %
+            - text: 2 %
+            - text: 80 %
+- id: QSZST
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507354
+    - BGS-501438
+    - AVEXAM-61925
+    - AVEXAM-20687
+    - AVEXAM-22754
+    - AVEXAM-2610
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.01.03.03
+  templates:
+    - type: simple
+      question: A given volume of 1 m³ of air is saturated with water vapour. With decreasing air temperature the
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: vapour pressure will decrease.
+          wrongAnswers:
+            - text: vapour pressure will remain the same.
+            - text: relative humidity will increase.
+            - text: relative humidity will decrease.
+- id: QVHAL
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503248
+    - AVEXAM-47051
+    - AVEXAM-83663
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.01.03.03
+  templates:
+    - type: simple
+      question: "If the temperature of a saturated air parcel is decreased, and its volume remains constant:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The amount of water vapor will decrease.
+          wrongAnswers:
+            - text: Relative humidity will increase.
+            - text: Vapour pressure will remain the same.
+            - text: Relative humidity will decrease.
+- id: QBRLL
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503232
+    - AVEXAM-3668
+    - ATPLQ-508343
+    - ATPLQ-507358
+    - BGS-502777
+    - AVEXAM-39776
+    - AVEXAM-82649
+    - BGS-500525
+    - ATPLQ-505358
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.01.03.05
+  templates:
+    - type: one-two
+      question: Check the correctness of the following statements.
+      explanation: |-
+        Dew point is the temperature to which air must be cooled for saturation, so in unsaturated air the temperature is above the dew point. The two are equal only at saturation, and the dew point is never higher than the temperature.
+
+        Over ice the maximum water vapour pressure is lower than over water at the same temperature, because ice molecules are bound more tightly. Air therefore saturates over ice at a lower vapour content, so for a saturated air mass the dew point over ice (the frost point) is higher than the dew point over water.
+      pairs:
+        - right:
+            - For unsaturated air the dew-point temperature is lower than the temperature
+          wrong:
+            - For unsaturated air the dew-point temperature is higher than the temperature
+        - right:
+            - The maximum water vapour pressure is lower over ice than over water with the same temperature
+          wrong:
+            - The maximum water vapour pressure is higher over ice than over water with the same temperature
+    - type: one-two
+      question: Which of the following statements are correct/incorrect?
+      explanation: |-
+        Dew point is the temperature to which air must be cooled for saturation, so in unsaturated air the temperature is above the dew point. The two are equal only at saturation, and the dew point is never higher than the temperature.
+
+        Over ice the maximum water vapour pressure is lower than over water at the same temperature, because ice molecules are bound more tightly. Air therefore saturates over ice at a lower vapour content, so for a saturated air mass the dew point over ice (the frost point) is higher than the dew point over water.
+      pairs:
+        - right:
+            - The actual temperature of an air mass is higher than the dew point temperature if the air mass is unsaturated.
+          wrong:
+            - The actual temperature of an air mass is lower than the dew point temperature if the air mass is unsaturated.
+        - right:
+            - For a saturated air mass, the dew point temperature over ice is higher than the dew point temperature over water.
+          wrong:
+            - For a saturated air mass, the dew point temperature over ice is lower than the dew point temperature over water.
+- id: QEEEI
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505944
+    - AVEXAM-68820
+    - BGS-502503
+    - BGS-501927
+    - AVEXAM-91105
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.01.03.05
+  templates:
+    - type: simple
+      question: In what way can the air temperature affect the dew point temperature?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When the air temperature falls below the dew point at a constant pressure in the atmosphere, the dew point also reduces.
+          wrongAnswers:
+            - text: When the air temperature rises, the air can hold more water vapour at the same pressure and therefore the dew point also rises.
+            - text: Changes in the air temperature can alter the relative humidity in the free atmosphere, but have NO effect on the dew point.
+            - text: The dew point temperature varies inversely with changes in the air temperature.
+- id: QQWTA
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507735
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.01.03.05
+  templates:
+    - type: simple
+      question: What is correct regarding the relationship between temperature and dew point?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An increase in air temperature has NO effect on the dew point.
+          wrongAnswers:
+            - text: At a constant pressure, the dew point increases when the temperature increases.
+            - text: The dew point is NOT affected when air is cooled to below this temperature (the dew point), at a constant pressure.
+            - text: The dew point varies inversely with the temperature at a constant pressure.
+- id: QWUKM
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.01.03.05
+  templates:
+    - type: one-two
+      question: Which of the following statements are correct/incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - The actual temperature of an air mass is higher than the dew point temperature if the air mass is unsaturated.
+          wrong:
+            - The actual temperature of an air mass is lower than the dew point temperature if the air mass is unsaturated.
+        - right:
+            - For a saturated air mass, the dew point temperature over ice is higher than the dew point temperature over water.
+          wrong:
+            - For a saturated air mass, the dew point temperature over ice is lower than the dew point temperature over water.
+- id: QLTLF
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507280
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.01.03.06
+  templates:
+    - type: simple
+      question: "Air temperature is {{temp}} °C and the dew point is {{dewp}} °C. Determine the relative humidity from the table:"
+      explanation: |-
+        Relative humidity is the amount of water vapour in the air compared with the most it could hold at that temperature. The table gives it from the air temperature and the dew point together.
+
+        **Solution**
+
+        - Find the row for the air temperature of {{temp}} °C.
+        - Find the column for the dew point of {{dewp}} °C.
+        - The relative humidity where they meet is **70%**.
+
+        ## Why the other answers are wrong
+
+        - **80%**: a higher humidity than the table gives for this air temperature and dew point.
+        - **33%**: a much drier value, which would need a far larger gap between the two temperatures.
+        - **66%**: a value read from the wrong place in the table.
+      presets:
+        - variables:
+            temp: 18
+            dewp: 12
+          correctAnswers:
+            - text: 70%
+          wrongAnswers:
+            - text: 66%
+            - text: 80%
+            - text: 33%
+- id: QQIAY
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509814
+    - AVEXAM-49133
+    - AVEXAM-11778
+    - AVEXAM-27791
+    - AVEXAM-47104
+    - ATPLQ-503522
+    - BGS-502596
+    - ATPLQ-502028
+    - AVEXAM-86186
+    - BGS-502725
+    - BGS-502111
+    - AVEXAM-89843
+    - ATPLQ-507118
+    - AVEXAM-88914
+    - AVEXAM-94264
+    - ATPLQ-509594
+    - ATPLQ-504181
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.01.03.06
+  templates:
+    - type: simple
+      question: |-
+        Use the air temperature and the dew point to estimate the relative humidity.
+
+        - Air temperature: {{temp}} °C
+        - Dew point: {{dew}} °C
+
+        What is the approximate relative humidity?
+      explanation: |-
+        Relative humidity falls by about 5 % for every degree Celsius between the air temperature and the dew point, which is called the spread. This is a quick approximation, not an exact value from a table.
+
+        **Solution**
+
+        Spread: {{macro1}} °C
+
+        $$
+        100-5\times (\text{Air temperature}-\text{Dew point}) = 100-5\times ({{temp}}-{{dew}}) = \mathbf{ {{answer}}\ \text{%} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}%**: the factor of 5 is forgotten.
+        - **{{d2}}%**: a factor of 4 is used instead of 5.
+        - **{{d3}}%**: the dew point is divided by the temperature instead of using the spread.
+        - **{{d4}}%**: the spread is given without converting it to a humidity.
+      presets:
+        - variables:
+            temp: 15
+            dew: 10
+            macro1: 5
+            answer: 75
+            d1: 95
+            d2: 80
+            d3: 67
+            d4: 5
+          correctAnswers:
+            - text: 75 %
+          wrongAnswers:
+            - text: 95 %
+            - text: 67 %
+            - text: 5 %
+            - text: 80 %
+        - variables:
+            temp: 21
+            dew: 9
+            macro1: 12
+            answer: 40
+            d1: 88
+            d2: 52
+            d3: 43
+            d4: 12
+          correctAnswers:
+            - text: 40 %
+          wrongAnswers:
+            - text: 88 %
+            - text: 43 %
+            - text: 12 %
+            - text: 52 %
+        - variables:
+            temp: 18
+            dew: 12
+            macro1: 6
+            answer: 70
+            d1: 94
+            d2: 76
+            d3: 67
+            d4: 6
+          correctAnswers:
+            - text: 70 %
+          wrongAnswers:
+            - text: 94 %
+            - text: 67 %
+            - text: 6 %
+            - text: 76 %
+        - variables:
+            temp: 30
+            dew: 21
+            macro1: 9
+            answer: 55
+            d1: 91
+            d2: 64
+            d3: 70
+            d4: 9
+          correctAnswers:
+            - text: 55 %
+          wrongAnswers:
+            - text: 91 %
+            - text: 70 %
+            - text: 9 %
+            - text: 64 %
+        - variables:
+            temp: 24
+            dew: 16
+            macro1: 8
+            answer: 60
+            d1: 92
+            d2: 68
+            d3: 67
+            d4: 8
+          correctAnswers:
+            - text: 60 %
+          wrongAnswers:
+            - text: 92 %
+            - text: 67 %
+            - text: 8 %
+            - text: 68 %
+        - variables:
+            temp: 12
+            dew: 9
+            macro1: 3
+            answer: 85
+            d1: 97
+            d2: 88
+            d3: 75
+            d4: 3
+          correctAnswers:
+            - text: 85 %
+          wrongAnswers:
+            - text: 97 %
+            - text: 75 %
+            - text: 3 %
+            - text: 88 %
+- id: QSYQD
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507681
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.01.03.06
+  templates:
+    - type: simple
+      question: |-
+        Given the following information, what is the approximate relative humidity of the air mass?
+
+        Temperature: 15°C   
+         Dew point: 10°C
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 75%
+          wrongAnswers:
+            - text: 50%
+            - text: 65%
+            - text: 95%
+- id: QCYOG
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds:
+    - QEASX
+  externalQuestionIds:
+    - ATPLQ-502428
+    - BGS-500369
+    - AVEXAM-89425
+    - ATPLQ-504184
+    - AVEXAM-52585
+    - BGS-500358
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.02.01.01
+  templates:
+    - type: simple
+      question: Which of the following changes of state is known as condensation?
+      explanation: Condensation is the change of state from gas (water vapour) to liquid. Gas to solid is sublimation, or deposition, and liquid to gas is evaporation.
+      presets:
+        - correctAnswers:
+            - text: Gas to liquid
+          wrongAnswers:
+            - text: Gas to solid
+            - text: Liquid to gas
+            - text: Liquid to solid
+    - type: simple
+      question: Which of the following changes of state is known as evaporation?
+      explanation: Evaporation is the change of state from liquid to gas. Solid to liquid is melting and liquid to solid is freezing.
+      presets:
+        - correctAnswers:
+            - text: Liquid to gas
+          wrongAnswers:
+            - text: Solid to liquid
+            - text: Liquid to solid
+            - text: Gas to solid
+- id: QEASX
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds:
+    - QCYOG
+  externalQuestionIds:
+    - ATPLQ-501643
+    - AVEXAM-35652
+    - BGS-500356
+    - ATPLQ-503400
+    - BGS-500359
+    - AVEXAM-88057
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.02.01.01
+  templates:
+    - type: simple
+      question: Which of the following changes of state is known as freezing?
+      explanation: Freezing is the change of state from liquid to solid. Solid to liquid is melting and liquid to gas is evaporation.
+      presets:
+        - correctAnswers:
+            - text: Liquid to solid
+          wrongAnswers:
+            - text: Solid to liquid
+            - text: Liquid to gas
+            - text: Gas to solid
+    - type: simple
+      question: Which of the following changes of state is known as melting?
+      explanation: Melting is the change of state from solid to liquid. Liquid to solid is freezing and liquid to gas is evaporation.
+      presets:
+        - correctAnswers:
+            - text: Solid to liquid
+          wrongAnswers:
+            - text: Liquid to solid
+            - text: Liquid to gas
+            - text: Solid to gas
+- id: QMFUQ
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507053
+    - AVEXAM-90031
+    - BGS-500375
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.02.01.02
+  templates:
+    - type: simple
+      question: "A sample of moist but unsaturated air may become saturated by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: expanding it adiabatically.
+          wrongAnswers:
+            - text: lowering the pressure, keeping temperature constant.
+            - text: compressing it adiabatically.
+            - text: raising the temperature.
+- id: QSOWF
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-501465
+    - AVEXAM-69898
+    - BGS-500366
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.02.01.03
+  templates:
+    - type: simple
+      question: "Clouds, fog or dew will always be formed when:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: water vapour condenses.
+          wrongAnswers:
+            - text: water vapour is present.
+            - text: relative humidity reaches 98%.
+            - text: temperature and dew point are nearly equal.
+- id: QWMSN
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504038
+    - BGS-501385
+    - AVEXAM-97634
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.02.01.04
+  templates:
+    - type: simple
+      question: In the atmosphere, what contributes to initiate the condensation process?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Micrometric solid and liquid particles.
+          wrongAnswers:
+            - text: High-frequency electromagnetic waves.
+            - text: Daily atmospheric pressure variations.
+            - text: Gaseous carbon-dioxide molecules.
+- id: QRHNI
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503331
+    - BGS-502433
+    - BGS-503080
+    - BGS-500877
+    - AVEXAM-94812
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.02.01.08
+  templates:
+    - type: simple
+      question: The freezing nuclei in a mass of air with supercooled water droplets will \_\_\_\_\_ the formation of ice crystals.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Will enable.
+          wrongAnswers:
+            - text: Will prevent.
+            - text: Will slow down.
+            - text: Have a neutral effect on.
+    - type: simple
+      question: Supercooled water can be encountered as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: spherical particles of water that are liquid at temperatures below 0° C, and it can form clear ice on airframes.
+          wrongAnswers:
+            - text: frozen spherical particles of water, and it can form hoar frost on airframes.
+            - text: frozen spherical particles of water, and it can be encountered as hail during flight.
+            - text: spherical particles of water that are liquid at temperatures below 0° C, and it can form hoar frost on airframes.
+    - type: simple
+      question: Clear ice forms as a result of…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: supercooled water droplets spreading during the freezing process.
+          wrongAnswers:
+            - text: water vapour freezing to the aircraft.
+            - text: ice pellets splattering on the aircraft.
+            - text: supercooled droplets freezing on impact.
+- id: QGGIV
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506778
+    - AVEXAM-26470
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.02.01.10
+  templates:
+    - type: simple
+      question: What does condensation or sublimation of water vapour to water or ice require?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The presence of micrometric particles to act as condensation or freezing nuclei.
+          wrongAnswers:
+            - text: Temperatures of -20°C or less for build-up of condensation or freezing nuclei.
+            - text: Small amount of noble gases or carbon dioxide.
+            - text: Absolutely clean air in the upper atmosphere.
+    - type: simple
+      question: What is necessary for water vapour to condense or sublime into water or ice?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The presence of micrometric particles to act as condensation or freezing nuclei.
+          wrongAnswers:
+            - text: Small amount of noble gases or carbon dioxide.
+            - text: Temperatures of -20°C or less for build-up of condensation or freezing nuclei.
+            - text: Absolutely clean air in the upper atmosphere.
+- id: QDWCJ
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506615
+    - AVEXAM-16228
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.02.01.10
+  templates:
+    - type: simple
+      question: When the temperature is at (1) \_\_\_\_\_ and the water vapour changes from (2) \_\_\_\_\_ the process is called (3) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) 0°C or below; (2) ice to gas; (3) sublimation.
+          wrongAnswers:
+            - text: (1) 0°C or below; (2) water to ice; (3) deposition.
+            - text: (1) 10°C or below; (2) water to gas; (3) fusion.
+            - text: (1) 10°C or below; (2) ice to water; (3) sublimation.
+- id: QBEAD
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-504218
+    - BGS-500360
+    - BGS-500363
+    - AVEXAM-43068
+    - AVEXAM-69099
+    - AVEXAM-62324
+    - BGS-500357
+    - BGS-500367
+    - AVEXAM-99273
+    - BGS-500361
+    - AVEXAM-29631
+    - BGS-500355
+    - ATPLQ-506481
+    - ATPLQ-501677
+    - ATPLQ-508611
+    - ATPLQ-506854
+    - ATPLQ-503940
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.02.01.13
+  templates:
+    - type: simple
+      question: In which of the following changes of state is latent heat released?
+      explanation: "Latent heat is released when water changes to a state with more order: gas to liquid, liquid to solid and gas to solid. It is absorbed in the opposite changes."
+      presets:
+        - correctAnswers:
+            - text: Gas to liquid.
+          wrongAnswers:
+            - text: Liquid to gas.
+            - text: Solid to liquid.
+            - text: Solid to gas.
+        - correctAnswers:
+            - text: Liquid to solid
+          wrongAnswers:
+            - text: Solid to liquid
+            - text: Solid to gas
+            - text: Liquid to gas
+- id: QXMZW
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509602
+    - AVEXAM-27265
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.02.01.13
+  templates:
+    - type: simple
+      question: Which of the following is the main source of energy leading to the formation of convective clouds?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Condensation.
+          wrongAnswers:
+            - text: "Advection. "
+            - text: Orographic lifting.
+            - text: Atmospheric mixing.
+- id: QWKMS
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509111
+    - AVEXAM-38233
+    - AVEXAM-26472
+    - BGS-501554
+    - BGS-502087
+    - BGS-502180
+    - ATPLQ-506570
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.03.01.01
+    - 050.03.03.01.02
+  templates:
+    - type: simple
+      question: Which statement concerning volume and temperature of an ascending parcel of air is correct?
+      explanation: A rising parcel enters air of lower pressure, so it expands and its volume increases. The expansion uses internal energy, so the temperature decreases adiabatically.
+      presets:
+        - correctAnswers:
+            - text: The volume increases while the temperature decreases.
+          wrongAnswers:
+            - text: The volume decreases and the temperature decreases.
+            - text: The volume remains constant while the temperature decreases.
+            - text: The volume increases while the temperature remains constant.
+    - type: simple
+      question: Which statement concerning volume and temperature of a descending parcel of air is correct?
+      explanation: A descending parcel enters air of higher pressure, so it is compressed and its volume decreases. The compression raises the temperature adiabatically.
+      presets:
+        - correctAnswers:
+            - text: The volume decreases while the temperature increases.
+          wrongAnswers:
+            - text: The volume increases while the temperature remains constant.
+            - text: The volume decreases and the temperature decreases.
+            - text: The volume increases and the temperature increases.
+- id: QDHWZ
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508315
+    - AVEXAM-34864
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.03.01.01
+  templates:
+    - type: simple
+      question: What happens to descending air?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It is heated due to compression.
+          wrongAnswers:
+            - text: It is cooled due to compression.
+            - text: It is cooled due to expansion.
+            - text: It is heated due to expansion.
+- id: QEBGF
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds:
+    - QQWHH
+  externalQuestionIds:
+    - ATPLQ-503228
+    - BGS-501553
+    - ATPLQ-505042
+    - AVEXAM-25540
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.03.01.01
+  templates:
+    - type: simple
+      question: Adiabatic cooling is the decrease in temperature..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: of an expanding volume of air without heat exchange with its surroundings.
+          wrongAnswers:
+            - text: that is best achieved by very slow processes to foster heat exchange.
+            - text: due to the transfer of latent heat into an adjacent heat sink.
+            - text: of a volume of air gained by the compression of the respective volume.
+    - type: simple
+      question: "Define adiabatic cooling:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Air cools by expanding due to lower ambient pressure without any heat transfer.
+          wrongAnswers:
+            - text: Air cools by compressing due to lower ambient pressure without any heat transfer.
+            - text: The most important factor in adiabatic cooling is the outside air temperature.
+            - text: Adiabatic cooling occurs only when certain atmospheric conditions are achieved, such as high relative humidity.
+- id: QASFJ
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-505110
+    - BGS-500376
+    - AVEXAM-43240
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.03.01.02
+  templates:
+    - type: simple
+      question: "Rising air cools because:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: it expands.
+          wrongAnswers:
+            - text: it contracts.
+            - text: it becomes more moist.
+            - text: surrounding air is cooler at higher levels.
+- id: QPGPG
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507554
+    - BGS-502608
+    - BGS-502527
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.03.01.03
+  templates:
+    - type: simple
+      question: In an unstable atmosphere, cumulus clouds are being formed. In comparison to the ground conditions, the relative humidity will be (1)\_\_\_\_\_ and the dew point temperature at the cloud base will be (2)\_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) higher; (2) lower.
+          wrongAnswers:
+            - text: (1) higher; (2) remains constant.
+            - text: (1) lower; (2) higher.
+            - text: (1) lower; (2) remains constant.
+- id: QTTOO
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-508810
+    - BGS-500395
+    - AVEXAM-82517
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.03.01.03
+  templates:
+    - type: simple
+      question: "The height of the lifting condensation level is determined by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: temperature and dew point at the surface.
+          wrongAnswers:
+            - text: temperature at surface and air pressure.
+            - text: wet adiabatic lapse rate and dew point at the surface.
+            - text: wind and dew point at the surface.
+- id: QAYWO
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506209
+    - BGS-500394
+    - AVEXAM-95266
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.03.01.04
+  templates:
+    - type: simple
+      question: If an orographic cloud descends down a slope, its temperature increases at..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a lower rate than in dry air, as evaporation, absorbs heat.
+          wrongAnswers:
+            - text: the same rate as if the air mass were dry.
+            - text: a higher rate than in dry air, as it gives up latent evaporation heat.
+            - text: a lower rate than in dry air, as condensation gives out heat.
+- id: QQWHH
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds:
+    - QEBGF
+  externalQuestionIds:
+    - ATPLQ-507434
+    - AVEXAM-91439
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.03.01.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.  
+        The meteorological diagram contains adiabats and lines of constant mixing ratio (dew point lines). Which sequence of points describes the change of temperature of an air parcel that rises from the ground, reaches the cloud base at point 4 and continues to rise inside the cloud?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3, 4, 6.
+          wrongAnswers:
+            - text: 2, 4, 7.
+            - text: 2, 4, 5.
+            - text: 3, 4, 5.
+- id: QXCVJ
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503324
+    - AVEXAM-74181
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.03.01.05
+  templates:
+    - type: simple
+      question: "The decrease in temperature, per 100 meters, in a saturated rising parcel of air at lower level of the atmosphere is approximately:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 0.6°C
+          wrongAnswers:
+            - text: 1.5°C
+            - text: 0.35°C
+            - text: 1°C
+- id: QSFTK
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-509004
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.03.01.06
+  templates:
+    - type: simple
+      question: Ascension of air is promoted by..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the presence of cold air above warm terrain.
+          wrongAnswers:
+            - text: the presence of warm air above cold terrain.
+            - text: an increase of atmospheric pressure.
+            - text: a decrease in atmospheric humidity.
+- id: QTRDF
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-503982
+    - BGS-500381
+    - AVEXAM-8396
+    - AVEXAM-16406
+    - BGS-500412
+    - AVEXAM-96365
+    - BGS-500370
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.03.01.06
+  templates:
+    - type: simple
+      question: "Absolute instability exists whenever the environmental lapse rate:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: exceeds the dry adiabatic lapse rate.
+          wrongAnswers:
+            - text: exceeds the saturated adiabatic lapse rate.
+            - text: is less than the saturated adiabatic lapse rate.
+            - text: is between the dry and saturated adiabatic lapse rate.
+- id: QAJUF
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-506866
+    - AVEXAM-88467
+    - BGS-500372
+    - ATPLQ-509624
+    - AVEXAM-85012
+    - BGS-500380
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.03.01.07
+  templates:
+    - type: simple
+      question: "A layer can be:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: stable for unsaturated air and unstable for saturated air.
+          wrongAnswers:
+            - text: unstable for unsaturated air and neutral for saturated air.
+            - text: unstable for unsaturated air and conditionally unstable.
+            - text: stable for saturated air and unstable for unsaturated air.
+    - type: simple
+      question: "A layer is conditionally unstable if the air:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is unstable for saturated air and stable for dry air.
+          wrongAnswers:
+            - text: is stable for saturated air and unstable for dry air.
+            - text: is unstable for saturated air as well as for dry air.
+            - text: becomes stable by lifting it.
+- id: QLWDI
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds:
+    - QNOMO
+  externalQuestionIds:
+    - ATPLQ-504224
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.03.01.07
+  templates:
+    - type: simple
+      question: |-
+        Considering the lapse rates listed below, the air is absolutely stable when…
+
+        1. Dry Adiabatic Lapse Rate (DALR)   
+        2. Saturated Adiabatic Lapse Rate (SALR)   
+        3. Environmental Lapse Rate (ELR)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ELR < SALR and DALR.
+          wrongAnswers:
+            - text: SALR < ELR < DALR.
+            - text: ELR > DALR and SALR.
+            - text: DALR < ELR < SALR.
+- id: QNOMO
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds:
+    - QLWDI
+  externalQuestionIds:
+    - ATPLQ-504234
+    - AVEXAM-89023
+    - BGS-502733
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.03.01.07
+  templates:
+    - type: simple
+      question: |-
+        In a neutral stable atmosphere, the Environmental Lapse Rate (ELR) in the case of unsaturated air equals (1)\_\_\_\_\_, and ELR in the case of saturated air equals (2)\_\_\_\_\_.
+
+        DALR Dry Adiabatic Lapse Rate  
+        SALR Saturated Adiabatic Lapse Rate
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) DALR, (2) SALR.
+          wrongAnswers:
+            - text: (1) SALR, (2) 1.98°C/1000 ft.
+            - text: (1) 1.98°C/1000ft, (2) DALR.
+            - text: (1) SALR, (2) DALR.
+- id: QVBZU
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-507348
+    - BGS-500933
+    - AVEXAM-48020
+    - ATPLQ-503215
+    - AVEXAM-35035
+    - BGS-500921
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.03.01.07
+    - 050.09.04.01.02
+  templates:
+    - type: simple
+      question: "Thunderstorms can occur on a warm front if the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: warm air is moist and the environmental lapse rate exceeds the saturated adiabatic lapse rate.
+          wrongAnswers:
+            - text: cold air is moist and the environmental lapse rate exceeds the saturated adiabatic lapse rate.
+            - text: warm air is moist and the environmental lapse rate is less than the saturated adiabatic lapse rate.
+            - text: cold air is moist and the environmental lapse rate is less than the dry adiabatic lapse rate.
+    - type: simple
+      question: Which of the following sets of conditions are most favourable to the development of thunderstorms?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Environmental lapse rate greater than saturated adiabatic lapse rate through a great vertical extent, high relative humidity and an initial lifting process.
+          wrongAnswers:
+            - text: Extensive isothermal layer, ice particles and water droplets must exist just below the freezing level and orographic lifting.
+            - text: Environmental lapse rate less than dry adiabatic lapse rate with freezing level below the cloud base, high relative humidity and strong surface winds.
+            - text: Environmental lapse rate less than saturated adiabatic lapse rate with dew point below 0°C and considerable surface heating.
+- id: QUOMB
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502058
+    - AVEXAM-47498
+  annexes:
+    - id: ARVZ
+  learningObjectiveIds:
+    - 050.03.03.01.08
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The formation of a Foehn is represented by? (The arrows indicate the directions of the wind)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Figure 2
+          wrongAnswers:
+            - text: Figure 3
+            - text: Figure 1
+            - text: Figure 4
+- id: QTJRH
+  subjectId: "050"
+  chapterId: "050.03"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-502117
+    - AVEXAM-73989
+    - BGS-502419
+  annexes: []
+  learningObjectiveIds:
+    - 050.03.03.01.09
+  templates:
+    - type: simple
+      question: When warm air flows over a cold surface, the air will cool down by the process of (1) \_\_\_\_\_, making the air mass (2) \_\_\_\_\_ stable in the process.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) conduction; (2) more
+          wrongAnswers:
+            - text: "(1) conduction: (2) less"
+            - text: (1) terrestrial radiation; (2) more
+            - text: (1) terrestrial radiation, (2) less

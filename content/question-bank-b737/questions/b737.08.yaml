@@ -1,0 +1,583 @@
+- id: QNRUA
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 8.20.4, APU Fire Extinguishing
+
+        > The APU ground control panel located in **the right main wheel well** also contains an APU fire warning light, an APU BOTTLE DISCHARGED switch, an APU fire control handle and APU HORN CUTOUT switch.
+
+        The APU can be discharged from the ground control panel, but the panel is in the right main wheel well, not forward and below the APU.
+      statements:
+        - text: As well as using the DISCH switch on the Fire Protection panel in the flight deck, an APU fire can be extinguished by discharging the APU fire extinguisher using the APU Ground Control Panel, which is located in a quick release access panel immediately forward and below the APU.
+          answer: false
+- id: QGLMO
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How many fire extinguisher bottles are fitted for the Cargo compartments?
+      explanation: |-
+        ### FCOM 8.20.6, Cargo Compartment Fire Suppression
+
+        > A single fire extinguisher bottle is installed in the air conditioning mix bay on the forward wing spar. Detection of a fire in either the forward or aft compartment will cause the FWD or AFT cargo fire warning light to illuminate. **The extinguisher is armed by pushing the appropriate cargo fire ARMED switch.** Once armed, the system is discharged by pushing the cargo fire DISCH switch. This results in the total discharge of the bottle contents into the selected compartment.
+
+        ![Cargo fire suppression system](annex:AGVM)
+      presets:
+        - correctAnswers:
+            - text: 1 fire extinguisher bottle, that can be selected to be discharged into either cargo hold.
+          wrongAnswers:
+            - text: 2 fire extinguisher bottles, one for forward cargo hold, and one for rear cargo hold.
+            - text: 2 fire extinguisher bottles, 1 rapid discharge bottle and one smaller slow discharge bottle.
+            - text: 1 fire extinguisher bottle that can only be discharged into forward cargo hold.
+- id: QLUHK
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What do the 3 green illuminated lights at the bottom right of the engine fire panel indicate?
+      explanation: |-
+        ### FCOM 8.20.9, Extinguisher Test
+
+        > When the EXT TEST switch is positioned to 1 or 2, the green EXT TEST lights illuminate, **verifying circuit continuity from the squib to the engine and APU fire switch.**
+
+        The test checks the squib circuits, not the bottle contents or the detection loops.
+
+        ![Engine fire extinguisher system](annex:ARXZ)
+      presets:
+        - correctAnswers:
+            - text: Fire extinguisher test continuity normal.
+          wrongAnswers:
+            - text: Fire warning system test 1 completed satisfactorily.
+            - text: Fire extinguisher functional test completed satisfactorily.
+            - text: Fire Switch handles functional test satisfactory.
+- id: QTGZS
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How can the Fire Warning Bell be silenced?
+      explanation: |-
+        ### FCOM 8.10.1, Fire Warning BELL CUTOUT Switch
+
+        > Push – • **extinguishes both master FIRE WARN lights** • **silences the fire warning bell** • silences the remote APU fire warning horn (on the ground only) • resets the system for additional warnings.
+
+        Pushing either master FIRE WARN light has the same effect (FCOM 8.10.3). The bell does not depend on the fire condition clearing.
+      presets:
+        - correctAnswers:
+            - text: Pushing Master FIRE WARN light or pushing the BELL CUTOUT switch located on the Overheat/Fire Protection panel.
+          wrongAnswers:
+            - text: Only by pushing the Master FIRE WARN light
+            - text: The fire warning bell is only silenced once the condition causing the Overheat or Fire warning has been removed.
+            - text: Pushing the Master FIRE WARN light, or pushing the bell mute button located next to the speaker on the flight deck ceiling.
+    - type: simple
+      question: How can the Fire Warning Bell be silenced on the flight deck?
+      explanation: |-
+        ### FCOM 15.10.1, Fire Warning and Master Caution System
+
+        > Master Fire Warning (FIRE WARN) Lights [...] Push – extinguishes both master FIRE WARN lights • **silences fire warning bell** • silences remote APU fire warning horn • resets system for additional warnings. Note: **Pushing fire warning bell cutout switch on overheat/fire protection panel results in the same actions.**
+
+        The APU ground control panel horn cutout only silences the remote APU fire warning horn on the ground, not the flight deck bell.
+      presets:
+        - correctAnswers:
+            - text: Push the master fire warn lights, push fire warning bell cutout switch.
+          wrongAnswers:
+            - text: Fire bell can only be silenced by pressing either master fire warn light.
+            - text: Push the master fire warn lights, press the horn cutout of the APU ground control panel, push fire warning bell cutout switch.
+            - text: Push the Master Fire Warn lights, press the Horn Cutout of the APU Ground Control Panel.
+- id: QAKRQ
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How might it be possible to determine if the toilet fire extinguisher has been discharged?
+      explanation: |-
+        ### FCOM 8.20.8, Lavatory Fire Extinguisher System
+
+        > A fire extinguisher system is located beneath the sink area in each lavatory. When a fire is detected: • **fire extinguisher operation is automatic** • **flight deck has no indication of extinguisher discharge.**
+
+        The discharge can only be recognised in the lavatory: the nozzles change colour from black to grey and the temperature indicator placard changes from white to black.
+      presets:
+        - correctAnswers:
+            - text: Discharge nozzles changed colour from black to grey and Temperature indicator placard in lavatory changes colour from white to black.
+          wrongAnswers:
+            - text: Discharge nozzles changed colour from black to grey and Pressure gauge on fire bottle in the red zone.
+            - text: Discharge indicator panel above lavatory door illuminated and Temperature indicator placard in lavatory changes colour from white to black.
+            - text: Steady red light remains illuminated on Lavatory ceiling smoke detector panel after alarm tone has silenced and Lavatory Fire warning illuminated on flight deck.
+- id: QKYTG
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 8.20.1, Introduction
+
+        > The main gear wheel well has a fire detection system, but **no fire extinguishing system**. The cargo compartment has smoke detection and **fire suppression** systems.
+
+        Engines and the APU have extinguishers. The cargo compartment has a suppression bottle. The wheel well has detection only, so the statement is false.
+      statements:
+        - text: The engines and APU have fire extinguishing systems, but the cargo holds and wheel well have only suppression systems.
+          answer: false
+- id: QOTMB
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: After pressing the DISCH switch, how long does it take for the cargo fire DISCH light to illuminate to indicate that the Cargo Fire Suppression system has been fully activated?
+      explanation: |-
+        ### FCOM 8.20.6, Cargo Compartment Fire Suppression
+
+        > The extinguisher is armed by pushing the appropriate cargo fire ARMED switch. Once armed, the system is discharged by pushing the cargo fire DISCH switch. This results in the total discharge of the bottle contents into the selected compartment, and provides fire suppression for a total time of **75 minutes**, consisting of fire suppression for 60 mins of flight time to land at an airport plus an additional 15 minutes of fire suppression for a missed approach, go-around, landing and passenger unloading. The cargo fire DISCH light illuminates once the bottle is discharged indicating the fire suppression system has been fully activated. **It may take up to 30 seconds for the light to illuminate.**
+      presets:
+        - correctAnswers:
+            - text: Up to 30 seconds
+          wrongAnswers:
+            - text: 195 minutes.
+            - text: Immediately.
+            - text: Up to 60 seconds.
+    - type: simple
+      question: You have armed the FWD cargo fire switch, seen the white ARMED caption, pressed the DISCH switch for more than one second and released it. The amber DISCH caption does not illuminate. Is this normal?
+      explanation: |-
+        ### FCOM 8.20.6, Cargo Compartment Fire Suppression
+
+        > The extinguisher is armed by pushing the appropriate cargo fire ARMED switch. Once armed, the system is discharged by pushing the cargo fire DISCH switch. This results in the total discharge of the bottle contents into the selected compartment, and provides fire suppression for a total time of **75 minutes**, consisting of fire suppression for 60 mins of flight time to land at an airport plus an additional 15 minutes of fire suppression for a missed approach, go-around, landing and passenger unloading. The cargo fire DISCH light illuminates once the bottle is discharged indicating the fire suppression system has been fully activated. **It may take up to 30 seconds for the light to illuminate.**
+
+        ### QRH 8.16, CARGO FIRE
+
+        > Note: **DISCH light may need up to 30 seconds to illuminate.**
+      presets:
+        - correctAnswers:
+            - text: This may be normal. Allow up to 30 seconds for the DISCH light to illuminate.
+          wrongAnswers:
+            - text: This indicates the extinguisher has failed to arm.
+            - text: This is not normal. The DISCH light should illuminate within one second of pushing the DISCH switch.
+            - text: May be normal. If the cargo fire warning has stopped, the FIRE and DISCH captions extinguish.
+    - type: simple
+      question: For approximately how long does the discharge of the cargo fire bottle provide fire suppression on the B737-800?
+      explanation: |-
+        ### FCOM 8.20.6, Cargo Compartment Fire Suppression
+
+        > The extinguisher is armed by pushing the appropriate cargo fire ARMED switch. Once armed, the system is discharged by pushing the cargo fire DISCH switch. This results in the total discharge of the bottle contents into the selected compartment, and provides fire suppression for a total time of **75 minutes**, consisting of fire suppression for 60 mins of flight time to land at an airport plus an additional 15 minutes of fire suppression for a missed approach, go-around, landing and passenger unloading. The cargo fire DISCH light illuminates once the bottle is discharged indicating the fire suppression system has been fully activated. **It may take up to 30 seconds for the light to illuminate.**
+      presets:
+        - correctAnswers:
+            - text: 75 minutes.
+          wrongAnswers:
+            - text: 60 minutes.
+            - text: 195 minutes.
+            - text: 30 minutes.
+- id: QQFKS
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 8.20.6, Cargo Compartment Fire Suppression
+
+        > Two fire extinguisher bottles are installed in the air conditioning mix bay on the forward wing spar. [...] The second bottle discharge is metered to discharge at a reduced flow into the selected compartment. When the cargo fire DISCH switch is pushed, an aircraft has a total time of fire suppression of **195 minutes**, consisting of 180 minutes to land at an airport plus an additional 15 minutes of fire suppression for a missed approach, go-around, landing and passenger unloading.
+
+        The single-bottle installation gives 75 minutes. The second, metered bottle is what extends it to 195 minutes.
+
+        ![Cargo fire suppression system](annex:AGVM)
+      statements:
+        - text: Boeing provide the option for 2 Cargo Fire extinguisher bottles to be fitted, one is a rapid discharge bottle which is fully discharged immediately upon pressing the DISCH switch on the Cargo Fire Panel, the second bottle is a slow discharge bottle that is released 1 minute after the discharge of the first bottle, and discharges slowly over several minutes to provide a total of 195 minutes of fire suppression in the cargo holds.
+          answer: true
+- id: QQFLA
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the effect of pulling up the No1 Fire DISCH switch?
+      explanation: |-
+        ### FCOM 8.20.2, Engine Fire Extinguishing
+
+        > Pulling the engine fire switch up: • closes **both the engine fuel shutoff valve and the spar fuel shutoff valve** • closes the engine bleed air valve [...] • trips the generator control relay and breaker • closes the hydraulic fluid shutoff valve. The engine driven hydraulic pump LOW PRESSURE light is deactivated • **disables thrust reverser** for the related engine • allows the engine fire switch to be rotated for discharge • **arms one discharge squib on each engine fire extinguisher bottle.**
+
+        The bleed valve closure also removes wing anti-ice for that wing and closes the pack valve. Nothing is discharged until the switch is rotated.
+
+        ![Engine fire extinguisher system](annex:ARXZ)
+      presets:
+        - correctAnswers:
+            - text: Closes engine and spar fuel shutoff valves, closes engine bleed air valve, trips IDG control relay, closes hydraulic fluid shutoff valve and isolates EDP low pressure light, disables thrust reverser, arms one Squib on both engine fire bottles, and allows the DISCH switch to be rotated left or right.
+          wrongAnswers:
+            - text: Closes engine and spar fuel shutoff valves, closes inlet valve to both Air Conditioning Packs, trips IDG control relay, arms both Squibs on both engine fire bottles, and allows the DISCH switch to be rotated left or right.
+            - text: Closes engine fuel shutoff valve, closes engine bleed air valve, trips IDG control relay, closes hydraulic fluid shutoff valve and isolates EDP low pressure warning light, disables thrust reverser, arms Squib on No1 engine fire bottle, and allows the DISCH switch to be rotated to the left to discharge bottle into N01 engine.
+            - text: Extinguishes Master Caution and Fire Warning lights, silences Fire Warning Bell, shuts down No1 engine, and discharges No1 Fire Bottle into No1 engine.
+- id: QFNZW
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 8.20.1, Introduction
+
+        > The engines also have overheat detection systems. The main gear wheel well has a fire detection system, but no fire extinguishing system.
+
+        The APU and the main wheel well each have a single detector loop that senses fire only. The cargo compartments use smoke detectors.
+      statements:
+        - text: The engines have both Overheat and Fire warnings, the APU, cargo holds and wheel well have ONLY Fire warnings.
+          answer: true
+- id: QLHDI
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The picture below shows that there is a fault in the left engine Overheat/Fire Detection Loops.  How would you determine which of the 2 loops had failed?
+      explanation: |-
+        ### FCOM 8.20.1, Engine Overheat and Fire Detection
+
+        > An OVHT DET switch for each engine, labeled A, B, and NORMAL, permits selection of either loop A or B, or both A and B, as the active detecting loops. [...] If the OVHT DET switch is positioned to A or B, the system operates as a single loop system. [...] **If the selected loop fails, the FAULT light illuminates and the system is inoperative.**
+
+        Selecting A and then B while testing shows which loop gives the fault.
+      presets:
+        - correctAnswers:
+            - text: Carry out the test again one loop at a time using the OVHT DET switch selected to A and then B.
+          wrongAnswers:
+            - text: This indication only occurs when BOTH loops have failed.
+            - text: Carry out the test again with the switch selected to FAULT/INOP testing each loop individually with the OVHT DET switch at A then B.
+            - text: Move to FAULT/INOP - OVHT/FIRE switch to the central TEST position, then test one loop at a time using the OVHT DET switch selected first to A and then B.
+- id: QRCEC
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 8.20.2, Engine Fire Extinguishing
+
+        > The engine fire switches are normally locked down to prevent inadvertent shutdown of an engine. Illumination of an engine fire switch or ENG OVERHEAT light unlocks the engine fire switch. **The switches may also be unlocked manually.**
+
+        The lock is released by the alert, but it is not the only way to release it.
+      statements:
+        - text: The Engine Fire DISCH switches are mechanically locked in the Down position and can only be pulled Up when an Overheat or Fire is detected and the switch has illuminated.
+          answer: false
+- id: QPLYS
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which of these is a precaution to take after a cargo fire extinguisher has been discharged in flight?
+      explanation: |-
+        ### QRH 8.17, CARGO FIRE
+
+        > On the ground: Warning! **Inform ground personnel NOT to open any cargo door until all passengers and crew have exited the airplane and fire fighting equipment is nearby.**
+
+        ### QRH 8.19, CARGO FIRE
+
+        > Approach Checklist [...] Warning! Inform ground personnel NOT to open any cargo door after landing until all passengers and crew have exited the airplane and fire fighting equipment is nearby.
+      presets:
+        - correctAnswers:
+            - text: Inform the ground personnel NOT to open any cargo door until the passengers and crew have disembarked and fire-fighting equipment is ready nearby.
+          wrongAnswers:
+            - text: Manually open the outflow valve when descending below 3000 ft.
+            - text: Push the DISCH switch again after landing to ensure the contents have fully discharged.
+            - text: Use maximum manual braking on landing.
+- id: QELRH
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: During normal operation with the OVHT DET switch in NORMAL, when will an engine fire alert be triggered?
+      explanation: |-
+        ### FCOM 8.20.1, Engine Overheat and Fire Detection
+
+        > Each engine contains two overheat/fire detector loops. [...] **Normally, both detector loops must sense a fire or overheat condition to cause an engine overheat or fire alert.** [...]
+        >
+        > If one loop fails with the OVHT DET switch in NORMAL, that loop is automatically deselected and the remaining loop functions as a single loop detector.
+      presets:
+        - correctAnswers:
+            - text: Both loop A and loop B sense a fire.
+          wrongAnswers:
+            - text: Loop B is sensing a fire or overheat.
+            - text: Loop A is sensing a fire and loop B is sensing an overheat.
+            - text: Loop A senses a fire or overheat.
+- id: QZIGC
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the first item on the CARGO FIRE checklist, and what is the effect of this action?
+      explanation: |-
+        ### QRH 8.16, CARGO FIRE
+
+        > 1 CARGO FIRE ARM switch (affected compartment) Confirm . . . . . . . . . Push, **Verify ARMED** 2 CARGO FIRE DISCH switch . . . . . . Push and hold for 1 second
+
+        ### FCOM 8.20.6, Cargo Compartment Fire Suppression
+
+        > The extinguisher is armed by pushing the appropriate cargo fire ARMED switch. **Once armed, the system is discharged by pushing the cargo fire DISCH switch.**
+      presets:
+        - correctAnswers:
+            - text: Push the FWD or AFT CARGO FIRE ARM switch. The white ARMED caption illuminates and the squib is armed, but nothing is discharged.
+          wrongAnswers:
+            - text: Push and hold the DISCH switch for at least 30 seconds until the DISCH caption appears. This arms the extinguisher, but it will not operate.
+            - text: Push and hold the DISCH switch for at least one second. This arms the squib and then discharges the extinguisher into the compartment.
+            - text: Push the FWD or AFT CARGO FIRE ARM switch. The extinguisher discharges into the compartment.
+- id: QUIHB
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: After completing the ENGINE OVERHEAT checklist, why is the transponder mode selector set to TA?
+      explanation: |-
+        ### QRH 8.7, ENGINE OVERHEAT
+
+        > 4 If the ENG OVERHEAT light extinguishes: Run the engine at reduced thrust to keep the light extinguished. 5 Transponder mode selector . . . . . . . . . . . . . . TA **This step prevents climb commands which can exceed reduced thrust performance capability.**
+      presets:
+        - correctAnswers:
+            - text: One engine runs at reduced thrust, so the airplane may not be able to respond adequately to a climb RA.
+          wrongAnswers:
+            - text: The TCAS RA function is automatically inhibited whenever an ENG FAIL caption is displayed.
+            - text: One engine supplies bleed air to both cowls if engine anti-ice is selected, so climb performance is limited.
+            - text: Reduced thrust in response to a descent RA may make the ENGINE OVERHEAT light reappear.
+- id: QAZZX
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If a FWD cargo fire warning light re-illuminates within 120 seconds of a cargo fire bottle discharge into that compartment, will both master FIRE WARN lights illuminate again and will the bell sound?
+      explanation: |-
+        ### FCOM 8.20.6, Cargo Compartment Fire Warning
+
+        > After the initial indication of a cargo compartment fire, the FWD/AFT cargo fire warning light(s) can extinguish, remain illuminated, or re-illuminate over the remainder of the flight. **If the FWD/AFT cargo fire warning light(s) re-illuminate, both master FIRE WARN lights also re-illuminate and the fire warning bell sounds.**
+
+        ### QRH 8.20, CARGO FIRE
+
+        > These flight deck indications alone of a cargo fire within the same compartment **do not indicate the fire is uncontrolled.**
+
+        Halon or residual smoke can cause the indications to remain or occur again.
+      presets:
+        - correctAnswers:
+            - text: Yes. Both master FIRE WARN lights illuminate and the bell sounds, but it does not necessarily mean the fire is uncontrolled.
+          wrongAnswers:
+            - text: The bell sounds, but the master FIRE WARN lights do not illuminate.
+            - text: No.
+            - text: The master FIRE WARN lights illuminate, but the bell does not sound.
+- id: QBWGX
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Apart from discharge after a fire, what else may cause the APU BOTTLE DISCHARGED light to illuminate?
+      explanation: |-
+        ### FCOM 8.20.5, APU Fire Extinguishing
+
+        > Rotating the APU fire switch in either direction electrically “fires” the squib discharging the extinguishing agent into the APU. The APU BOTTLE DISCHARGED light illuminates after a few seconds, indicating the bottle has **discharged or pressure is low**.
+      presets:
+        - correctAnswers:
+            - text: Low pressure within the bottle.
+          wrongAnswers:
+            - text: The APU fire detection system is inoperative.
+            - text: The APU has automatically shut down due to a high EGT.
+- id: QJMIM
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: With all AC power removed and the battery switch OFF, can the engine fire extinguishers be activated with the flight deck fire switches?
+      explanation: |-
+        ### FCOM 8.20.1, Engine Fire Protection
+
+        > Engine fire protection consists of these systems: • engine overheat and fire detection powered by the battery bus • **engine fire extinguishing powered by the hot battery bus.**
+
+        ### FCOM 8.20.2, Engine Fire Extinguishing
+
+        > The engine fire switches are normally locked down to prevent inadvertent shutdown of an engine. Illumination of an engine fire switch or ENG OVERHEAT light unlocks the engine fire switch. **The switches may also be unlocked manually.**
+
+        Without power the detection cannot unlock the switches, so they must be unlocked manually.
+      presets:
+        - correctAnswers:
+            - text: Yes, but the engine fire switches must be unlocked manually before they can be pulled up.
+          wrongAnswers:
+            - text: No. The battery switch must be ON for the extinguishers to operate.
+            - text: The engine extinguishers can be operated, but the APU extinguisher cannot.
+            - text: The engine extinguishers cannot be operated, but the APU extinguisher can.
+- id: QWDNG
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Illumination of the amber APU DET INOP light causes which other lights to illuminate?
+      explanation: |-
+        ### FCOM 8.20.8, FAULT/INOP Test Detection
+
+        > The indications for the FAULT/INOP test are: • **both MASTER CAUTION lights illuminate** • **the OVHT/DET system annunciator light illuminates** • the FAULT light illuminates • the APU DET INOP light illuminates.
+      presets:
+        - correctAnswers:
+            - text: The MASTER CAUTION lights and the OVHT/DET system annunciator light.
+          wrongAnswers:
+            - text: Only the MASTER CAUTION lights.
+            - text: Only the OVHT/DET system annunciator light.
+            - text: No other lights.
+- id: QNNLF
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What precaution regarding the APU applies if the APU DET INOP light is illuminated?
+      explanation: |-
+        ### QRH 8.15, APU DET INOP
+
+        > 1 APU switch . . . . . . . . . . . . . . . . . . . . . . . . OFF Caution! **Do not run the APU.** An APU fire would not be detected and the APU would continue to run.
+      presets:
+        - correctAnswers:
+            - text: Do not run the APU.
+          wrongAnswers:
+            - text: The APU can be used for electrical supply, but not for bleed air.
+            - text: The APU can be used for bleed air, but not for electrical supply.
+            - text: The APU can be used on the ground, but not in the air.
+- id: QRJHJ
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: After lowering the gear in response to a wheel well fire indication, how do you make the FMC account for the extra fuel burn?
+      explanation: |-
+        ### QRH 8.26, WHEEL WELL FIRE
+
+        > 1 LANDING GEAR lever . . . . . . . . . . . . . . . . . DN Note: **Do not use FMC performance predictions with gear extended.**
+      presets:
+        - correctAnswers:
+            - text: You cannot. The FMC does not account for the increased fuel burn, so its fuel predictions are inaccurate.
+          wrongAnswers:
+            - text: The FMC senses the gear position and automatically revises the figures.
+            - text: The FMC cannot sense the gear position, but sees the increased fuel flow and revises its predictions.
+- id: QZYCW
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Why is there a fire warning and a MASTER CAUTION for an engine fire, but only a fire warning for an APU fire?
+      explanation: |-
+        ### FCOM 8.20.2, Engine Overheat and Fire Detection
+
+        > The indications of an engine overheat are: • both MASTER CAUTION lights illuminate • the OVHT/DET system annunciator light illuminates • the related ENG OVERHEAT light illuminates.
+
+        ### FCOM 8.20.4, APU Fire Detection
+
+        > A single fire detection loop is installed on the APU. As the temperature of the detector increases to a predetermined limit, **the detector senses a fire condition.**
+
+        Engine detectors sense an overheat at a lower temperature than a fire, so the overheat comes first. The APU detector senses a fire only.
+      presets:
+        - correctAnswers:
+            - text: An engine overheat is sensed before an engine fire, but there is no overheat detection for the APU.
+          wrongAnswers:
+            - text: The MASTER CAUTION does not illuminate for an APU fire because extinguishing is fully automatic.
+            - text: An APU fire does not need immediate attention from the crew.
+            - text: The failure of the engine triggers a MASTER CAUTION.
+- id: QLRII
+  subjectId: b737
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement is correct when both loops of the cargo compartment fire detection system are operating normally?
+      explanation: |-
+        ### FCOM 8.20.5, Cargo Compartment Smoke Detection
+
+        > The forward and aft cargo compartments each have smoke detectors in a dual loop configuration. **Normally, both detection loops must sense smoke to cause an alert.**
+      presets:
+        - correctAnswers:
+            - text: Both loops must detect the presence of smoke to cause an alert.
+          wrongAnswers:
+            - text: One loop must detect the presence of heat to cause an alert.
+            - text: One loop must detect the presence of smoke to cause an alert.
+            - text: Both loops must detect the presence of heat to cause an alert.

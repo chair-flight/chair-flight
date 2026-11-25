@@ -1,0 +1,1869 @@
+- id: QKXTD
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227731
+    - AVEXAM-67800
+    - BGS-220682
+    - AVEXAM-4885
+    - BGS-220681
+    - BGS-220680
+    - AVEXAM-13888
+    - ATPLQ-222587
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.01.01.01
+  templates:
+    - type: simple
+      question: "The flight warning system (FWS) generates a warning message if:"
+      explanation: A warning is generated when immediate recognition and corrective or compensatory action by the crew are required. A caution requires immediate awareness with later action, and an advisory only awareness.
+      presets:
+        - correctAnswers:
+            - text: immediate recognition and corrective or compensatory action by the crew is required.
+          wrongAnswers:
+            - text: immediate crew awareness is required and corrective or compensatory action by the crew may be required.
+            - text: immediate crew awareness is required and subsequent crew action will be required.
+            - text: crew awareness is required and subsequent crew action may be required.
+- id: QGFDF
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225757
+    - AVEXAM-67436
+    - BGS-220683
+    - ATPLQ-227513
+    - AVEXAM-56947
+    - BGS-220684
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.02.01.01
+  templates:
+    - type: multiple-correct
+      question: "The flight warning system (FWS):"
+      explanation: ""
+      options:
+        - text: – draws the attention of the crew to the existence of an abnormal condition
+          correct: true
+        - text: – supplies indications to the crew to identify an abnormal condition
+          correct: true
+        - text: – transmits automatically to ATC urgency messages
+          correct: false
+        - text: – can not generate alerts in case of engine malfunctions
+          correct: false
+        - text: – prioritises warnings
+          correct: true
+        - text: – increases the situation awareness of the crew
+          correct: true
+        - text: – transmits automatically to ATC distress messages
+          correct: false
+        - text: – supplies suitable indications to the crew of the action necessary to avoid impending danger
+          correct: true
+        - text: – can not generate alerts in case of aerodynamic limits exceeding
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 3
+            - 4
+            - 5
+            - 6
+        - show:
+            - 4
+            - 5
+            - 6
+            - 7
+        - show:
+            - 5
+            - 6
+            - 7
+            - 8
+        - show:
+            - 0
+            - 6
+            - 7
+            - 8
+        - show:
+            - 0
+            - 1
+            - 7
+            - 8
+- id: QMACS
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224073
+    - BGS-222423
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.02.01.01
+    - 022.12.02.01.05
+  templates:
+    - type: simple
+      question: The aircraft you are flying is fitted with EFIS including PFD, ND and ECAM. Where would you see an advisory message?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ECAM.
+          wrongAnswers:
+            - text: PFD.
+            - text: ND.
+            - text: Central warning panel.
+- id: QUZYD
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226677
+    - AVEXAM-5191
+    - BGS-221707
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.02.01.01
+  templates:
+    - type: simple
+      question: "According to CS-25, the Master Warning and Master Caution annunciators, if installed, shall be located:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In each pilot's primary field of view.
+          wrongAnswers:
+            - text: Master Warning/Caution annunciators are no longer used, as they may distract the flight crew in an emergency.
+            - text: Close to the power levers (on both sides), at the pedestal.
+            - text: In the overhead panel.
+- id: QKSSD
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229445
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.02.01.02
+  templates:
+    - type: multiple-correct
+      question: Which of the following will trigger a "Master Warning"?
+      explanation: ""
+      options:
+        - text: Engine fire.
+          correct: true
+        - text: Brake overheat.
+          correct: false
+        - text: Overspeed (on some aircraft).
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+- id: QQYHB
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625659
+    - AVEXAM-50754
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.02.01.02
+    - 022.12.02.01.03
+  templates:
+    - type: simple
+      question: According to certification specifications colour standardisations, features displayed in red on an EFIS indicate..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Warnings, flight envelope, system limits.
+          wrongAnswers:
+            - text: Flight envelope, system limits, engaged mode.
+            - text: Cautions, abnormal sources, engaged mode.
+            - text: Warnings, cautions, abnormal sources.
+- id: QBKDM
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229142
+    - AVEXAM-53107
+    - AVEXAM-56179
+    - BGS-220673
+    - AVEXAM-96112
+    - BGS-222112
+    - BGS-220671
+    - BGS-220677
+    - AVEXAM-78212
+    - BGS-220672
+    - ATPLQ-224972
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.02.01.03
+  templates:
+    - type: simple
+      question: "If immediate crew awareness is required and subsequent crew action will be required, the flight warning system (FWS) generates:"
+      explanation: The flight warning system gives a caution when immediate crew awareness is required and later action will be needed. A warning needs immediate recognition and action, and an advisory is for information.
+      presets:
+        - correctAnswers:
+            - text: a caution message.
+          wrongAnswers:
+            - text: an advisory message.
+            - text: an urgency message.
+            - text: a warning message.
+- id: QFHUD
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223388
+    - BGS-221872
+    - BGS-222457
+    - AVEXAM-23937
+    - BGS-221626
+    - BGS-221496
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.02.01.04
+  templates:
+    - type: simple
+      question: |-
+        Following a master warning alert, the crew have acknowledged the failure, in a typical procedure, the crew must then take the following sequence of actions:
+
+        1\. Contact ATC.   
+         2\. Initiate the appropriate response/procedure.   
+         3\. Silence the aural warning.   
+         4\. Wait for the master warning to stop.
+      explanation: After acknowledging, the crew silence the aural alert and then start the appropriate procedure. Contact with ATC comes later, as flying the aircraft and dealing with the failure come first.
+      presets:
+        - correctAnswers:
+            - text: 3 followed by 2.
+          wrongAnswers:
+            - text: 2 followed by 4.
+            - text: 3 followed by 1.
+            - text: 2 followed by 3.
+- id: QDLUN
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221017
+    - BGS-221594
+    - AVEXAM-46886
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.03.01.01
+  templates:
+    - type: simple
+      question: The master caution and audible warning are triggered during the cruise segment of a flight with an inexperienced crew. The crew are distracted by dealing with the situation and allow the speed of the aircraft to reduce towards the stall. The audible alert of the stall warning system...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is unique so the crew can differentiate it from warnings relating to other emergencies.
+          wrongAnswers:
+            - text: will be the same as the standard master warning audible alert for greatest urgency.
+            - text: will be the same as the standard master caution audible alert.
+            - text: is quieter than other audible alerts because it has a lower priority.
+- id: QFNXC
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226097
+    - AVEXAM-20054
+    - BGS-221050
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.03.01.02
+  templates:
+    - type: simple
+      question: |-
+        How does the oncoming stall of a large transport airplane appear?   
+         In the form of:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Control stick vibrations simulating natural buffeting.
+          wrongAnswers:
+            - text: A natural buffeting which occurs prior to the simulated buffeting.
+            - text: A bell type warning.
+            - text: An orange light on the warning display.
+- id: QIPPO
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222291
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.03.01.02
+  templates:
+    - type: simple
+      question: What is the primary function of a "Stick Shaker" device in an aircraft's cockpit?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To vibrate the control column to warn the pilot of the onset of stall.
+          wrongAnswers:
+            - text: To provide visual indicators on the instrument panel for stall awareness.
+            - text: To shake the control wheel to alert the pilot of a stall condition.
+            - text: To emit a loud sound to indicate a stall condition.
+- id: QFFVQ
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224796
+    - BGS-220688
+    - AVEXAM-59543
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.03.01.04
+  templates:
+    - type: simple
+      question: "On a large aeroplane and according to the CS25: the regulatory margin between the stall and stall warning is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 5 kt or 5% of the CAS whichever is the greater.
+          wrongAnswers:
+            - text: 5 kt or 5% of the CAS whichever is the lower.
+            - text: VS0 \+ 5%
+            - text: VS0 \+ 5kt.
+- id: QXCTE
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225068
+    - BGS-221622
+    - AVEXAM-9228
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.03.01.04
+  templates:
+    - type: simple
+      question: The stall warning speed is different from the actual stalling speed of the aeroplane because the…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: crew must be warned just before the actual stall to allow stall prevention.
+          wrongAnswers:
+            - text: stall warning speed can NOT be determined with enough precision.
+            - text: actual stalling speed can NOT be determined with enough precision.
+            - text: crew must be warned just after the actual stall to allow stall recovery.
+- id: QSCCX
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds:
+    - QUXTN
+  externalQuestionIds:
+    - ATPLQ-224865
+    - AVEXAM-47435
+    - BGS-222316
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.04.01.01
+  templates:
+    - type: simple
+      question: "The main input of a stall protection system is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the angle of attack.
+          wrongAnswers:
+            - text: the g load.
+            - text: the pitch angle.
+            - text: the airspeed.
+- id: QUXTN
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds:
+    - QSCCX
+  externalQuestionIds:
+    - ATPLQ-229701
+    - AVEXAM-66286
+    - BGS-221432
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.04.01.01
+  templates:
+    - type: simple
+      question: When does the stall protection system activate?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Before exceeding the critical angle of attack, irrespective of whether the crew is taking the corrective actions.
+          wrongAnswers:
+            - text: When exceeding the critical angle of attack, irrespective of whether the crew is taking the corrective actions.
+            - text: When exceeding the critical angle of attack, if the crew is not taking the corrective actions.
+            - text: Before exceeding the critical angle of attack, if the crew is not taking the corrective actions.
+- id: QIKLG
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227400
+    - AVEXAM-35524
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.04.01.02
+  templates:
+    - type: simple
+      question: What is the special characteristic of a fly-by-wire aircraft, in comparison to conventional control, when approaching a stall?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It inhibits and limits pilot inputs.
+          wrongAnswers:
+            - text: It automatically moves the control stick in corrective action.
+            - text: When in automated flight, it immediately gives the pilot full control.
+            - text: They do not make the control column shake.
+- id: QPDBV
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223907
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.04.01.02
+  templates:
+    - type: simple
+      question: On a fly-by-wire aircraft equipped with a side stick, how will the aircraft respond during an impending stall?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The stick pusher will activate.
+          wrongAnswers:
+            - text: The flight control laws will change to allow for pilot intervention.
+            - text: TOGA thrust will be commanded.
+            - text: The stick shaker will activate.
+- id: QUUTN
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228563
+    - AVEXAM-15947
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.04.01.03
+  templates:
+    - type: simple
+      question: |-
+        What are the differences between a Remote Indicating Compass (RIC) and Direct Reading Magnetic Compass (DMRC)? Select the answer which correctly completes the following statements.1. A RIC system is generally _____ than a DRMC
+        2. A RIC is _____ likely to be affected by local magnetic disturbances than a DRMC
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: more complex / less
+          wrongAnswers:
+            - text: simpler / more
+            - text: more complex / greater
+            - text: simpler / less
+    - type: simple
+      question: |-
+        How do a Remote Indicating Compass (RIC) and Direct Reading Magnetic Compass (DRMC) differ? Choose the answer that accurately completes the following statements.
+
+
+
+        A RIC system is generally (1) ___ than a DRMC. A RIC is (2) ___ likely to be affected by local magnetic disturbances than a DRMC.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: more complex / less
+          wrongAnswers:
+            - text: more complex / more
+            - text: simpler / more
+            - text: simpler / less
+- id: QPITJ
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228749
+    - BGS-221438
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.04.01.03
+  templates:
+    - type: simple
+      question: |-
+        On a training flight with a T-tail large commercial aircraft, an approach-to-stall manoeuvre is practiced. During the manoeuvre, there are NO tactile, aural, or visual indications. However, when aerodynamic buffet is sensed the throttles advance to full power and the stick-pusher function is activated.
+
+        After landing, the pilot shall inform maintenance personnel that:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The stall warning system is inoperative but the stall protection system operates normally.
+          wrongAnswers:
+            - text: Both the stall warning and the stall protection system are inoperative.
+            - text: Both the stall warning and the stall protection system operate normally.
+            - text: The stall protection system is inoperative but the stall warning system operates normally
+- id: QZKYO
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222867
+    - BGS-221598
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.04.01.03
+  templates:
+    - type: simple
+      question: Select the option which correctly completes the above statement. A stall warning system (1) \_\_\_\_\_ and the stall protection system (2) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: |-
+                (1) Alerts the pilot   
+                 (2) Prevents the stall
+          wrongAnswers:
+            - text: |-
+                (1) Prevents the stall   
+                 (2) Prevents the stall
+            - text: |-
+                (1) Prevents the stall   
+                 (2) Alerts the pilot
+            - text: |-
+                (1) Alerts the pilot   
+                 (2) Alerts the pilot
+- id: QKCYA
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224758
+    - BGS-222278
+    - AVEXAM-87231
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.05.01.01
+  templates:
+    - type: simple
+      question: An overspeed warning is provided to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: alert inadvertent excursions beyond limit speeds, VMO/MMO (Maximum Operating Limit Speed/Mach number).
+          wrongAnswers:
+            - text: prevent inadvertent excursions below limit speed VS (Stall Speed).
+            - text: prevent inadvertent excursions beyond limit speed VD (Design Diving Speed).
+            - text: alert crew of an impending engine overspeed condition.
+- id: QNKWQ
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227672
+    - BGS-222206
+    - BGS-222207
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.05.01.02
+  templates:
+    - type: multiple-correct
+      question: "To warn the flight crew, an overspeed warning system can use:"
+      explanation: ""
+      options:
+        - text: – an aural warning.
+          correct: true
+        - text: – a stick shaker connected to the control column.
+          correct: false
+        - text: – a vibration device connected to the autothrottle.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+- id: QVEOL
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229507
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.05.01.03
+  templates:
+    - type: multiple-correct
+      question: In a mechanical instrument, the VMO/MMO pointer (barberpole) connects to which of the items listed below?
+      explanation: ""
+      options:
+        - text: Aneroid capsule
+          correct: true
+        - text: Differential pressure capsule
+          correct: false
+        - text: Temperature-sensitive capsule
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+- id: QDBJA
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221515
+    - BGS-221726
+    - AVEXAM-35312
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.06.01.01
+  templates:
+    - type: simple
+      question: "The crew of a large jet aircraft is performing the checklist when they get interrupted. As a result, the slats are not set for take-off, which means that the configuration is NOT suitable for a safe take-off. This should cause the take-off warning system to give, as a minimum:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An audible alert in the initial part of the take-off run.
+          wrongAnswers:
+            - text: A visible alert in the initial part of the take-off run.
+            - text: An audible alert at or above V1 in the take-off run.
+            - text: A visible alert at or above V1 in the take-off run.
+- id: QJMBQ
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222074
+    - AVEXAM-73848
+    - BGS-221574
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.06.01.01
+  templates:
+    - type: simple
+      question: "What is the purpose of the take-off warning system? It is to help ensure that:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: take-off is attempted in appropriate and safe configurations.
+          wrongAnswers:
+            - text: in case the take-off must be abandoned, it is done when below V1.
+            - text: correct take-off power is set at the start of the take-off run.
+            - text: there is enough runway to safely attempt a take-off.
+- id: QAAYN
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226318
+    - AVEXAM-70506
+    - BGS-220704
+    - AVEXAM-80977
+    - ATPLQ-225112
+    - BGS-221044
+    - BGS-220703
+    - AVEXAM-70614
+    - ATPLQ-223087
+    - BGS-220705
+    - AVEXAM-7912
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.07.01.01
+  templates:
+    - type: multiple-correct
+      question: "The function of the altitude alerting system is to alert the flight crew:"
+      explanation: ""
+      options:
+        - text: – upon approaching a pre-selected altitude
+          correct: true
+        - text: – upon approaching a pre-selected altitude, during climb only
+          correct: false
+        - text: – of a loss of altitude during take-off or missed approach
+          correct: false
+        - text: – of a wrong landing configuration
+          correct: false
+        - text: – when deviating from the selected altitude
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+    - type: simple
+      question: "The purpose of the altitude alert system is to generate a visual and aural warning to the pilot when the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: aeroplane altitude differs from a selected altitude.
+          wrongAnswers:
+            - text: proximity to the ground becomes dangerous.
+            - text: altimeter setting differs from the standard setting above the transition altitude.
+            - text: aeroplane altitude is equal to the decision altitude.
+        - correctAnswers:
+            - text: airplane altitude differs from a selected altitude.
+          wrongAnswers:
+            - text: airplane altitude is equal to the decision altitude.
+            - text: altimeter setting differs from the standard setting above the transition altitude.
+            - text: proximity to the ground becomes dangerous.
+- id: QPILO
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229538
+    - BGS-220702
+    - AVEXAM-62257
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.07.01.01
+  templates:
+    - type: multiple-correct
+      question: "An altitude alert system must at least warn the crew:"
+      explanation: ""
+      options:
+        - text: – when approaching the pre-selected altitude
+          correct: true
+        - text: – when the aeroplane is approaching the ground too fast
+          correct: false
+        - text: – in case of a given deviation above or below the pre-selected altitude
+          correct: true
+        - text: – in case of excessive vertical speed
+          correct: false
+        - text: – when approaching the ground with the gear retracted
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QZPUF
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226898
+    - AVEXAM-88987
+    - BGS-220711
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.08.01.01
+  templates:
+    - type: simple
+      question: "During the approach the radio altimeter indicates 950 ft. This is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the height of the lowest wheels with regard to the ground.
+          wrongAnswers:
+            - text: the relative height of the aircraft above airport level (AAL).
+            - text: the relative height of the aircraft with regard to the runway.
+            - text: the height of the pilot eyes with regard to the ground.
+- id: QGHGZ
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222989
+    - AVEXAM-73014
+    - BGS-220712
+    - ATPLQ-227680
+    - AVEXAM-35095
+    - BGS-222555
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.08.01.02
+  templates:
+    - type: simple
+      question: "In a radio altimeter, the height measurement is based upon:"
+      explanation: A radio altimeter transmits a frequency-modulated wave. The difference in frequency between the transmitted wave and the wave reflected from the ground is proportional to the height.
+      presets:
+        - correctAnswers:
+            - text: a frequency modulation wave, for which the frequency difference between the transmitted wave and the received wave after ground reflection is measured.
+          wrongAnswers:
+            - text: a triangular amplitude modulation wave, for which modulation phase shift between transmitted and received waves after ground reflection is measured.
+            - text: a wave transmission, for which the frequency shift by DOPPLER effect after ground reflection is measured.
+            - text: a pulse transmission, for which time between transmission and reception is measured on a circular scanning screen.
+    - type: simple
+      question: "Consider a low-altitude radio altimeter that transmits frequency-modulated continuous waves. This altimeter calculates the height above the ground by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: comparing the frequencies of the transmitted and received signals; the frequency difference is used to calculate the time taken for the wave to travel to the surface and be reflected back to the aircraft.
+          wrongAnswers:
+            - text: using the area QFE, instead of the area QNH that is normally used below the Transition Altitude.
+            - text: measuring the time taken for the VHF radio wave to travel from the transmitter on the aircraft, along the path of the flight, to the surface, to be reflected and return back to the aircraft.
+            - text: measuring the time taken for a sound wave to travel from the aircraft transmitter to the surface and back to the aircraft receiver.
+- id: QCQFS
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229318
+    - AVEXAM-16660
+    - BGS-220717
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.08.01.02
+  templates:
+    - type: multiple-correct
+      question: "The radio altimeter:"
+      explanation: ""
+      options:
+        - text: – operates in the 1600-1660 kHz range
+          correct: false
+        - text: – operates in the 4200-4400 MHz range
+          correct: true
+        - text: – measures a frequency difference
+          correct: true
+        - text: – measures an amplitude difference.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QEKFB
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228114
+    - BGS-222124
+    - ATPLQ-224846
+    - AVEXAM-6475
+    - BGS-220709
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.08.01.02
+  templates:
+    - type: simple
+      question: A typical radio-altimeter installation consists of
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "two antennas: one continuously transmitting and the other continuously receiving a radio signal."
+          wrongAnswers:
+            - text: "three antennas placed longitudinally: one for transmission and two redundant receive antennas."
+            - text: one antenna that is alternately transmitting and receiving radio pulses.
+            - text: "four antennas: two longitudinal and two lateral antennas that use Doppler techniques."
+    - type: simple
+      question: "A radio altimeter uses:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "two antennas: one for the transmission, and another for the reception."
+          wrongAnswers:
+            - text: "two antennas: one interrogates other aircraft transponders, and another for the reception."
+            - text: "four antennas: two for the transmission, and two for the reception."
+            - text: a single antenna for simultaneous transmission and reception.
+- id: QFYJC
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227562
+    - AVEXAM-26930
+    - BGS-220714
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.08.01.02
+  templates:
+    - type: simple
+      question: "The radio altimeter is required to indicate zero height AGL as the main wheels touch down on the runway. For this reason, it is necessary to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: compensate for residual height and cable length.
+          wrongAnswers:
+            - text: adjust the gross height according to the aeroplane instantaneous pitch angle.
+            - text: change the display scale in short final, in order to have a precise readout.
+            - text: have a specific radio altimeter dedicated to automatic landing.
+- id: QSLVB
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222296
+    - AVEXAM-56775
+    - BGS-221053
+    - BGS-220718
+    - AVEXAM-78026
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.08.01.02
+  templates:
+    - type: simple
+      question: "The signal transmitted by a radio altimeter is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a frequency modulated carrier wave.
+          wrongAnswers:
+            - text: an amplitude modulated carrier wave.
+            - text: a combination of frequency modulation and pulse modulation.
+            - text: a pulse modulated carrier wave.
+- id: QETHH
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227356
+    - AVEXAM-29558
+    - BGS-221052
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.08.01.03
+  templates:
+    - type: simple
+      question: For most radio altimeters, what happens when a system error occurs during approach?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The height indication is removed.
+          wrongAnswers:
+            - text: The DH lamp flashes red and the audio signal sounds.
+            - text: The DH lamp flashes red.
+            - text: An audio warning signal sounds.
+- id: QFRAU
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227003
+    - BGS-220715
+    - AVEXAM-5809
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.08.01.04
+  templates:
+    - type: multiple-correct
+      question: "The radio altimeter supplies data to the following system(s):"
+      explanation: ""
+      options:
+        - text: – altitude alert system
+          correct: false
+        - text: – TCAS
+          correct: true
+        - text: – GPWS
+          correct: true
+        - text: – automatic landing system.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QVATB
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224844
+    - BGS-221054
+    - AVEXAM-6643
+    - BGS-220710
+    - AVEXAM-64979
+    - ATPLQ-229303
+    - BGS-222561
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.08.01.05
+  templates:
+    - type: simple
+      question: "The maximum range for indication of a radio altimeter is typically from the ground to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 500 ft.
+          wrongAnswers:
+            - text: greater than 10 000 ft.
+            - text: 500 ft.
+            - text: 10 000 ft.
+    - type: simple
+      question: State the typical working range of a radio altimeter?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2500 ft to 0 ft
+          wrongAnswers:
+            - text: 2000 ft to -50 ft
+            - text: 2000 ft to 0 ft
+            - text: 2500 ft to the height of the main landing gear
+    - type: simple
+      question: The range of a modern radio altimeter is from...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2500 ft to 0 ft.
+          wrongAnswers:
+            - text: 2500 ft to the height of the extended main landing gear.
+            - text: 2000 ft to 50 ft.
+            - text: 2000 ft to -50 ft.
+- id: QLJOE
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222955
+    - BGS-221697
+    - AVEXAM-66424
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.08.01.06
+  templates:
+    - type: simple
+      question: |-
+        An aircraft fitted with a basic version of EGPWS is cruising at FL80 in clear skies. The terrain along this part of the route has a maximum elevation of 1 000 ft. Suddenly, the caution ‘TOO LOW TERRAIN’ sounds unexpectedly. The pilot looks out and the distance to the terrain below remains as expected for the altitude compared to the elevation. Given the information below;
+
+        Attitude indicator: level flight,  
+        Radio altimeter: setting 1013 hPa, reading 400 ft.
+
+        What is the most probable cause for this caution to sound?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The radio altimeter is faulty, giving an incorrect indication that triggers the caution.
+          wrongAnswers:
+            - text: The aeroplane has an excessively high closure rate towards higher terrain ahead.
+            - text: The altimeter is set to the wrong pressure, giving inaccurate altitude indications and triggering the caution.
+            - text: Rapid changes in elevation may cause an oversensitive EGPWS to issue a spurious caution.
+- id: QNUZR
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226850
+    - AVEXAM-65310
+    - BGS-4
+    - BGS-222466
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.08.01.06
+  templates:
+    - type: simple
+      question: A modern transport jet is flying at its cruising altitude of 37000 feet in normal cruise flight. Suddenly and without warning, the pilots realize that the autothrottle system moved the thrust levers to idle, accompanied with the FMA 'RETARD' message. In order to control the situation, the pilot flying increases the thrust back to its initial position and takes over manual control of the thrust levers. What could be the probable cause of this issue?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Spurious (Incorrect) radio altimeter indications, which can cause unexpected behaviour WITHOUT warnings.
+          wrongAnswers:
+            - text: A total failure of the radio altimeter, I.e. NO output, which can cause unexpected behaviour WITHOUT warnings.
+            - text: The autothrust/autothrottle computer has failed and as a consequence the default thrust setting of idle is applied automatically.
+            - text: The autothrust/autothrottle has automatically disengaged itself causing the engine thrust target to be idle.
+- id: QQQQM
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226731
+    - AVEXAM-8390
+    - BGS-222388
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.08.01.06
+  templates:
+    - type: simple
+      question: "In case of radio altimeter failure, the following system(s) is/are affected:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Autothrust and EGPWS.
+          wrongAnswers:
+            - text: ELACs and ATIS.
+            - text: TCAS.
+            - text: EGPWS.
+- id: QYASE
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223518
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.08.01.06
+  templates:
+    - type: multiple-correct
+      question: After a Radio Altimeter failure, which of the following systems are affected?
+      explanation: ""
+      options:
+        - text: Autobrake system
+          correct: false
+        - text: EGPWS
+          correct: true
+        - text: Autothrottle
+          correct: true
+        - text: ISIS
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QVMZN
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222597
+    - BGS-222358
+    - AVEXAM-29166
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.09.01.01
+  templates:
+    - type: simple
+      question: The purpose of GPWS is…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: to provide information and alert the pilots of a potentially hazardous terrain situation.
+          wrongAnswers:
+            - text: to alert the crew if there are deviations from certain aerodynamic parameters like altitude, airspeed and angle of attack.
+            - text: to avoid the aircraft having a CFIT.
+            - text: to alert the pilots of hazardous terrain in front of and below the aircraft.
+- id: QFBAT
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221412
+    - AVEXAM-64500
+    - BGS-220744
+    - AVEXAM-44505
+    - BGS-222210
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.09.01.02
+  templates:
+    - type: simple
+      question: "The operating range of a GPWS is from:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the ground to 2500 ft
+          wrongAnswers:
+            - text: the ground to 500 ft
+            - text: 30 ft to 5000 ft
+            - text: the ground to 1000 ft
+- id: QAYES
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229369
+    - AVEXAM-23504
+    - BGS-220729
+    - ATPLQ-229182
+    - BGS-220725
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.09.01.03
+  templates:
+    - type: multiple-correct
+      question: "The aural alert(s) associated with the mode 2 (excessive terrain closure rate) of the GPWS is (are):"
+      explanation: ""
+      options:
+        - text: – TERRAIN
+          correct: true
+        - text: – SINK RATE
+          correct: false
+        - text: – TOO LOW TERRAIN
+          correct: false
+        - text: – PULL UP
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QMGTZ
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228382
+    - BGS-221875
+    - ATPLQ-227898
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.09.02.01
+  templates:
+    - type: simple
+      question: What is the primary difference between a TAWS/HTAWS system and a GPWS system?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The GPWS system relies only on downward-looking radar altimeters and CANNOT look ahead, while the TAWS/HTAWS can look ahead by also using a 3D terrain database.
+          wrongAnswers:
+            - text: GPWS is only available for aeroplanes, while TAWS is available for both aeroplanes (TAWS) and helicopters (HTAWS).
+            - text: The TAWS/HTAWS system relies only on downward-looking radar altimeters and CANNOT look ahead, while the GPWS can look ahead by also using a 3D terrain database.
+            - text: There are NO noticeable differences between TAWS/HTAWS and GPWS, they are only different marketing names used by different manufacturers for the same system.
+- id: QOMQT
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227252
+    - AVEXAM-36697
+    - BGS-220735
+    - BGS-222127
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.09.02.02
+  templates:
+    - type: simple
+      question: "The EGPWS may propose the Terrain Look-Ahead Alerting function, this function uses:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: an electronic map of the world giving ground elevation.
+          wrongAnswers:
+            - text: the same caution and warning envelopes as the mode 2 GPWS (excessive terrain closure rate).
+            - text: a specific radar to detect any high ground in conflict with the flight path of the aircraft.
+            - text: the weather radar to detect any high ground in conflict with the flight path of the aircraft.
+- id: QOXTF
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228536
+    - BGS-221289
+    - AVEXAM-34805
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.09.02.02
+  templates:
+    - type: simple
+      question: Which of the following correctly lists the inputs required for a TAWS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Air Data System, IRS, ILS, radio altimeters, FMS, and GPS.
+          wrongAnswers:
+            - text: FMS, GPS, and airspeed.
+            - text: FMS and GPS only.
+            - text: Air Data System, IRS, ILS, and radio altimeters.
+- id: QEYLQ
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227004
+    - AVEXAM-34333
+    - BGS-221676
+    - AVEXAM-39645
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.09.02.03
+  templates:
+    - type: simple
+      question: You are the pilot flying an aircraft equipped with EGPWS under IFR and wish to turn to the left to take a shorter route. You check the terrain display, which shows an area of yellow ahead and to the left surrounded by an area of green. The yellow region indicates where the terrain elevation is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: below the aircraft altitude by less than the required obstacle clearance.
+          wrongAnswers:
+            - text: below the aircraft altitude by at least 500 ft but NO more than 1 000 ft.
+            - text: below the aircraft altitude by more than the required obstacle clearance.
+            - text: at the aircraft altitude or NO more than 1 000 ft above.
+- id: QLDFB
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224480
+    - BGS-221501
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.09.02.03
+  templates:
+    - type: multiple-correct
+      question: "The following is/are terrain display alerts of the EGPWS:"
+      explanation: ""
+      options:
+        - text: Runway overrun protection
+          correct: false
+        - text: Conflicting traffic on the ground
+          correct: false
+        - text: Excessive deviation from the localiser
+          correct: false
+        - text: Terrain clearance floor
+          correct: true
+        - text: Wind shear during take-off
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+- id: QKHTD
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224848
+    - BGS-221056
+    - AVEXAM-64479
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.09.02.04
+  templates:
+    - type: simple
+      question: When mandatory installed on board and aircraft, what must in all cases a Ground Proximity Warning System (GPWS) generate?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: At least one sound alarm to which a visual alarm can be added.
+          wrongAnswers:
+            - text: A visual alarm to which a sound alarm can be added.
+            - text: A sound alarm or a visual alarm.
+            - text: A sound and visual alarm.
+- id: QFHQB
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds:
+    - QIKNU
+  externalQuestionIds:
+    - ATPLQ-222520
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.09.02.04
+  templates:
+    - type: simple
+      question: One of the functions of the Enhanced GPWS is terrain alerting. Depending on aircraft speed, the response time left to the pilot in case of a terrain warning alert is
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 20 s – 30 s.
+          wrongAnswers:
+            - text: 10 s – 20 s.
+            - text: 40 s – 60 s.
+            - text: 30 s – 40 s.
+- id: QIKNU
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds:
+    - QFHQB
+  externalQuestionIds:
+    - ATPLQ-221510
+    - AVEXAM-23513
+    - AVEXAM-14176
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.09.02.04
+  templates:
+    - type: simple
+      question: "An EGPWS warning alert is heard in the cockpit. The time left for the pilot to respond before hitting terrain is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 20 to 30 seconds.
+          wrongAnswers:
+            - text: 10 to 20 seconds.
+            - text: 40 to 60 seconds.
+            - text: 25 to 35 seconds.
+- id: QJZQE
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226239
+    - BGS-220719
+    - AVEXAM-21765
+    - ATPLQ-227859
+    - BGS-220720
+    - AVEXAM-92544
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.09.02.05
+  templates:
+    - type: multiple-correct
+      question: "If the computed aircraft position becomes less accurate, the affected EGPWS function(s) is (are):"
+      explanation: ""
+      options:
+        - text: – the "FIVE HUNDRED" voice call out
+          correct: false
+        - text: – the excessive rate of descent
+          correct: false
+        - text: – the terrain display on the navigation display
+          correct: true
+        - text: – the negative climb rate or altitude loss after takeoff.
+          correct: false
+        - text: – the terrain display on the ND
+          correct: true
+        - text: – the flight into terrain when not in landing conditions
+          correct: false
+        - text: – the excessive deviation below ILS glide path
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 3
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 1
+            - 2
+            - 6
+- id: QZOKV
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227277
+    - AVEXAM-21740
+    - BGS-221276
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.09.02.05
+  templates:
+    - type: simple
+      question: The TAWS/HTAWS must be connected to a precise position sensor. Why?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Positional accuracy plus digital terrain model gives forward looking terrain avoidance.
+          wrongAnswers:
+            - text: Database includes obstructions such as power cables.
+            - text: Precise positioning allows TAWS to aid navigation.
+            - text: GPS alone is not considered accurate enough.
+- id: QYNCP
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221671
+    - BGS-221882
+    - AVEXAM-55833
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.09.02.06
+  templates:
+    - type: simple
+      question: "You are flying an EGPWS equipped aircraft, performing a visual approach to a runway that has an ILS for that runway. To prevent false warnings during the approach, you should:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Disable the Glideslope functionality of the EGPWS.
+          wrongAnswers:
+            - text: Turn off the ADIRU.
+            - text: Manually set the EGPWS to approach mode.
+            - text: Turn off the EGPWS.
+- id: QZWNW
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221460
+    - AVEXAM-34606
+    - BGS-222143
+    - BGS-220785
+    - BGS-221092
+    - BGS-220790
+    - AVEXAM-44268
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.10.01.04
+  templates:
+    - type: simple
+      question: "Your aircraft and an intruder are TCAS II equipped. Your TCAS can generate:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: traffic advisories and resolution advisories.
+          wrongAnswers:
+            - text: traffic advisories co-ordinated with the ATC instructions.
+            - text: co-ordinated traffic advisories only.
+            - text: resolution advisories co-ordinated with the ATC instructions.
+    - type: simple
+      question: "Your aircraft is TCAS II equipped; an intruding traffic only has a mode C transponder. The information relating to this intruding traffic available on your TCAS equipment is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: three dimensional; your TCAS can generate both TAs (Traffic Advisories) and RAs (Resolution Advisories).
+          wrongAnswers:
+            - text: three dimensional; your TCAS cannot generate RAs (Resolution Advisories).
+            - text: two dimensional only; your TCAS cannot generate TAs (Traffic Advisories).
+            - text: two dimensional only; your TCAS cannot generate RAs (Resolution Advisories).
+- id: QDREX
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227439
+    - BGS-221570
+    - AVEXAM-7699
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.10.01.05
+  templates:
+    - type: simple
+      question: To avoid a collision, an ACAS may issue…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: command orders in the vertical plane.
+          wrongAnswers:
+            - text: command orders in the vertical and horizontal planes.
+            - text: command orders in the vertical and horizontal planes and also thrust orders.
+            - text: command orders in the vertical plane and also thrust orders.
+- id: QUDHO
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223186
+    - BGS-220755
+    - AVEXAM-12286
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.10.01.06
+  templates:
+    - type: simple
+      question: "Concerning the TCAS II, when receiving a resolution advisory (RA), crew members should:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: immediately initiate the required manoeuvre.
+          wrongAnswers:
+            - text: try to establish visual contact with the intruder before taking any evasive action.
+            - text: immediately engage autopilot which will be temporarily controlled by the TCAS.
+            - text: disregard this RA if the own aircraft is equipped with a mode S transponder.
+- id: QMIWT
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227918
+    - AVEXAM-57155
+    - BGS-222144
+    - BGS-220783
+    - ATPLQ-221242
+    - ATPLQ-226083
+    - BGS-222141
+    - BGS-220784
+    - AVEXAM-8725
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.10.01.07
+  templates:
+    - type: simple
+      question: "Your aircraft and an intruder are both TCAS II equipped. Your TCAS:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: can generate co-ordinated resolution advisories.
+          wrongAnswers:
+            - text: can generate co-ordinated resolution advisories by interrogating the radar ground station.
+            - text: can generate co-ordinated resolution advisories by activating the on-board radar system.
+            - text: cannot generate co-ordinated resolution advisories.
+    - type: simple
+      question: "Your aircraft and an intruding traffic are both TCAS II equipped.  The information relating to this intruding traffic available on your TCAS equipment is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Three dimensional; your TCAS can generate both TAs (Traffic Advisories) and RAs (Resolution Advisories).
+          wrongAnswers:
+            - text: Three dimensional; avoidance manoeuvres between both aircraft cannot be coordinated.
+            - text: Two dimensional only; your TCAS can generate both TAs (Traffic Advisories) and RAs (Resolution Advisories).
+            - text: Two dimensional only; avoidance manoeuvres between both aircraft cannot be coordinated.
+- id: QKLRH
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221534
+    - AVEXAM-65720
+    - BGS-220781
+    - BGS-222136
+    - BGS-220786
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.10.01.10
+  templates:
+    - type: simple
+      question: |-
+        An aircraft and an intruding aircraft both are TCAS II equipped.   
+         How does the TCAS determine the bearing of the intruding aircraft?
+      explanation: TCAS gets the range from the time between its interrogation and the transponder reply, and the bearing from a directional antenna that finds the direction from which the reply arrives.
+      presets:
+        - correctAnswers:
+            - text: Using a specific directional antenna.
+          wrongAnswers:
+            - text: Using the bearing function of the on-board weather radar.
+            - text: By measuring the time lapse between the transmission of an interrogation signal and the reception of a reply signal.
+            - text: By comparing the gps positions of the two aircraft.
+- id: QINQA
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222432
+    - BGS-220772
+    - AVEXAM-52546
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.10.01.10
+  templates:
+    - type: simple
+      question: The upper antenna of the TCAS II is…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: directional and separate from the transponder antenna.
+          wrongAnswers:
+            - text: omnidirectional to improve the surveillance of intruders.
+            - text: directional because it is merged with the transponder antenna.
+            - text: omnidirectional because it is merged with the transponder antenna.
+- id: QPEGR
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229675
+    - AVEXAM-42776
+    - BGS-222145
+    - BGS-220782
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.10.01.11
+  templates:
+    - type: simple
+      question: "Your aircraft and an intruder both are TCAS II equipped. Your TCAS determines the range of the intruder by:"
+      explanation: TCAS II finds range by measuring the time between its interrogation signal and the reply from the intruder's own transponder. No ground station or weather radar is used.
+      presets:
+        - correctAnswers:
+            - text: measuring the time lapse between the transmission of an interrogation signal and the reception of a reply signal from the transponder of the intruder.
+          wrongAnswers:
+            - text: measuring the time lapse between the transmission of an interrogation signal and the reception of a reply signal from the ground station.
+            - text: using the range function of the on-board weather radar.
+            - text: comparing the GPS positions of the two aircraft.
+- id: QFFIL
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228703
+    - AVEXAM-34438
+    - BGS-220780
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.10.01.15
+  templates:
+    - type: simple
+      question: "Your aircraft and an intruder both are TCAS II equipped. If the transponder of the intruder is switched off or unserviceable:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the intruder is invisible to your TCAS equipment.
+          wrongAnswers:
+            - text: the intruder remains visible to your TCAS equipment, but only TAs (traffic advisories) can be generated.
+            - text: the intruder remains visible to your TCAS equipment, but only RAs (resolution advisories) can be generated.
+            - text: the information available to your TCAS equipment is two dimensional only.
+- id: QIXWE
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226206
+    - AVEXAM-80181
+    - BGS-221605
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.10.01.16
+    - 022.12.10.01.17
+  templates:
+    - type: simple
+      question: An aircraft is at 400 ft AGL on an approach. What can the TCAS generate regarding an 'intruder'?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: TA, yellow/amber solid circle, no aural alert.
+          wrongAnswers:
+            - text: RA, red solid circle, aural alert.
+            - text: TA, yellow/amber hollow circle, aural alert.
+            - text: RA, red solid square, no aural alert.
+- id: QQKXM
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226827
+    - AVEXAM-87552
+    - BGS-221067
+    - BGS-221068
+    - AVEXAM-37323
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.10.01.16
+  templates:
+    - type: simple
+      question: When does a TCAS II generate a resolution advisory (RA)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When a serious collision threat exists.
+          wrongAnswers:
+            - text: When a potential collision threat exists.
+            - text: When the intruder becomes "other traffic".
+            - text: When the intruder becomes "proximate traffic".
+- id: QWRLR
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221429
+    - AVEXAM-6869
+    - BGS-220778
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.10.01.17
+  templates:
+    - type: simple
+      question: "When the TCAS II generates a Resolution Advisory (RA), the associated intruder appears on TCAS display as a:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: solid red square.
+          wrongAnswers:
+            - text: solid amber square.
+            - text: solid amber circle.
+            - text: solid red circle.
+- id: QKHCY
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224379
+    - BGS-221228
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.10.01.18
+  templates:
+    - type: simple
+      question: "A TCAS RA is generated. The required vertical speed:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Will be displayed on the VSI.
+          wrongAnswers:
+            - text: Will show a red arc on the VSI as your target rate of climb/ descent.
+            - text: Will not be displayed separately.
+            - text: Will take account of stall speed.
+- id: QONYS
+  subjectId: "022"
+  chapterId: "022.12"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223549
+    - BGS-221745
+    - AVEXAM-72257
+    - BGS-222411
+  annexes: []
+  learningObjectiveIds:
+    - 022.12.10.01.18
+  templates:
+    - type: simple
+      question: What are the characteristics of an RA (Resolution Advisory) generated by TCAS above 1600 ft AGL?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A red square on the display unit, an annunciation (eg 'CLIMB, CLIMB') and at the end of the RA sequence the annunciation 'CLEAR OF CONFLICT'.
+          wrongAnswers:
+            - text: An amber disc on the display unit, an annunciation (eg 'TRAFFIC, TRAFFIC') and at the end of the RA sequence the annunciation 'RETURN TO FLIGHT LEVEL'.
+            - text: A yellow square on the display unit, an annunciation (eg 'CLIMB, CLIMB') and at the end of the RA sequence the annunciation 'RETURN TO FLIGHT LEVEL'.
+            - text: A red disc on the display unit, an annunciation (eg 'TRAFFIC, TRAFFIC') and at the end of the RA sequence the annunciation 'CLEAR OF CONFLICT'.

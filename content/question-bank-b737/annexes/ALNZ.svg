@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="642" viewBox="0 0 620 642" role="img" aria-labelledby="title desc" xml:lang="en-GB">
+  <title id="title">737-800 PFD annunciations</title>
+  <desc id="desc">A composite illustration showing AOA DISAGREE, ROLL, IAS DISAGREE, ALT DISAGREE and INSTR SWITCH on one primary flight display.</desc>
+  <metadata>B737 FCOM Rev 40, 10.11.2, 10.11.27–29 and 10.11.32–34</metadata>
+  <style>
+    text{font:17px monospace;fill:#f2f2f2}
+    .amber{fill:#ffbf23}
+    .green{fill:#00c672}
+    .magenta{fill:#ff00a0}
+    .larger{font-size:23px}
+    .smaller{font-size:13px}
+    .heading-numerals text{font-size:14px}
+    .line{fill:none;stroke:#eee;stroke-width:1.5}
+    .pink{fill:none;stroke:#ff00a0;stroke-width:1.8;stroke-linejoin:round}
+  </style>
+  <defs>
+    <g id="selected-altitude-bug" fill="none" stroke="#ff00a0" stroke-width="1.8">
+      <path d="M-6-24H28V24H-6V7L0 0l-6-7z"/>
+    </g>
+    <g id="selected-speed-bug" fill="none" stroke="#ff00a0" stroke-width="1.8">
+      <path d="M0 0l14-7h18V7H14z"/>
+    </g>
+    <g id="selected-heading-bug" fill="none" stroke="#ff00a0" stroke-width="1.8">
+      <path d="M-15 0v-17h8L0 0l7-17h8V0"/>
+    </g>
+    <g id="fixed-aircraft-symbol" fill="#080808" stroke="#eee" stroke-width="1.5">
+      <path d="M-108-4h64v25h-8V4h-56zM108-4H44v25h8V4h56z"/>
+      <rect x="-4" y="-4" width="8" height="8"/>
+    </g>
+    <g id="fixed-roll-pointer" fill="#eee">
+      <path d="M-9 0H9L0 11z"/>
+    </g>
+    <g id="bank-and-slip-skid-pointer" fill="none" stroke="#eee" stroke-width="1.5">
+      <path d="M0 0l-11 14h22z"/>
+      <rect x="-11" y="14" width="22" height="5"/>
+    </g>
+    <clipPath id="attitude"><rect x="137" y="146" width="274" height="304" rx="35"/></clipPath>
+    <pattern id="speed-limit" patternUnits="userSpaceOnUse" width="9" height="23">
+      <path d="M0 0h9v11H0z" fill="#ec292c"/>
+    </pattern>
+  </defs>
+  <rect width="620" height="642" fill="#202020"/>
+  <text x="21" y="31">PRIMARY FLIGHT DISPLAY</text>
+  <g transform="translate(20 44)">
+    <rect x=".5" y=".5" width="579" height="577" rx="3" fill="#080808" stroke="#707070"/>
+    <g text-anchor="middle">
+      <rect x="137" y="24" width="274" height="36" fill="#414141"/>
+      <path class="line" d="M228 24v36m92-36v36"/>
+      <text class="green" x="182" y="47">MCP SPD</text>
+      <text class="green" x="274" y="47">HDG SEL</text>
+      <text class="green" x="365" y="47">V/S</text>
+      <text class="green larger" x="274" y="131">CMD</text>
+    </g>
+    <g aria-label="Airspeed">
+      <rect x="25" y="135" width="81" height="350" fill="#414141"/>
+      <rect x="106" y="135" width="9" height="63" fill="url(#speed-limit)"/>
+      <rect x="106" y="443" width="9" height="42" fill="url(#speed-limit)"/>
+      <path class="line" d="M89 149H106M97 176H106M89 203H106M97 230H106M89 257H106M97 284H106M89 311H106M97 338H106M89 365H106M97 392H106M89 419H106M97 446H106"/>
+      <text x="85" y="155" text-anchor="end">280</text><text x="85" y="209" text-anchor="end">260</text><text x="85" y="263" text-anchor="end">240</text><text x="85" y="317" text-anchor="end">220</text><text x="85" y="371" text-anchor="end">200</text><text x="85" y="425" text-anchor="end">180</text>
+      <text class="magenta larger" x="102" y="120" text-anchor="end">220</text>
+      <use href="#selected-speed-bug" transform="translate(107 311) scale(.88)"/>
+      <path d="M23 289h64v10l14 12-14 12v10H23z" fill="#080808" stroke="#eee" stroke-width="1.6"/>
+      <text class="larger" x="48" y="319">220</text>
+      <text class="amber" style="font-size:15px" x="30" y="456">IAS<tspan x="30" dy="19">DISAGREE</tspan></text>
+    </g>
+    <g clip-path="url(#attitude)" aria-label="Attitude">
+      <rect x="137" y="146" width="274" height="163" fill="#326398"/>
+      <rect x="137" y="309" width="274" height="142" fill="#755d40"/>
+      <path class="line" d="M137 309h274M141 203l14 10m21-36 11 13m20-27 7 13m20-20 4 11m15-15 3 10m36-10-3 10m19-6-4 11m31-4-7 13m38 1-11 13m46 13-14 10"/>
+      <use href="#fixed-roll-pointer" x="274" y="146"/>
+      <use href="#bank-and-slip-skid-pointer" x="274" y="162"/>
+      <path class="line" d="M231 215h86M253 237h42M231 259h86M253 281h42M253 325h42M231 347h86M253 369h42M231 391h86"/>
+      <text class="smaller" x="213" y="265">10</text><text class="smaller" x="320" y="265">10</text>
+      <text class="smaller" x="213" y="353">10</text><text class="smaller" x="320" y="353">10</text>
+      <path class="pink" d="M274 253v113m-59-57h118"/>
+      <use href="#fixed-aircraft-symbol" x="274" y="309"/>
+      <text class="amber larger" x="393" y="411" text-anchor="end">ROLL</text>
+    </g>
+    <g aria-label="Altitude">
+      <rect x="433" y="135" width="83" height="350" fill="#414141"/>
+      <path class="line" d="M433 149h19M433 176h11M433 203h19M433 230h11M433 257h19M433 284h11M433 311h19M433 338h11M433 365h19M433 392h11M433 419h19M433 446h11"/>
+      <text x="506" y="155" text-anchor="end">5400</text><text x="506" y="209" text-anchor="end">5200</text><text x="506" y="263" text-anchor="end">5000</text><text x="506" y="371" text-anchor="end">4600</text><text x="506" y="425" text-anchor="end">4400</text>
+      <text class="magenta larger" x="511" y="120" text-anchor="end">5000</text>
+      <use href="#selected-altitude-bug" x="433" y="257"/>
+      <path d="M520 209h16l30 59v83l-30 61h-16z" fill="#414141"/>
+      <path class="line" d="M523 222h9m-9 28h13m-13 27h9m-9 34h24m-24 35h9m-9 27h13m-13 27h9m-13-67h10l20 18"/>
+      <text class="smaller" x="551" y="431" text-anchor="middle">1000</text>
+      <path d="M449 285h91v52h-91v-17l-13-9 13-9z" fill="#080808" stroke="#eee" stroke-width="1.6"/>
+      <text class="smaller" x="533" y="299" text-anchor="end">20</text>
+      <text class="larger" x="533" y="319" text-anchor="end">4800</text>
+      <text class="smaller" x="533" y="333" text-anchor="end">80</text>
+      <text class="amber" style="font-size:15px" x="437" y="456">ALT<tspan x="437" dy="19">DISAGREE</tspan></text>
+    </g>
+    <text class="amber" x="422" y="464" text-anchor="end">AOA<tspan x="422" dy="19">DISAGREE</tspan></text>
+    <text class="green" x="436" y="506">1011<tspan class="smaller" dx="5">HPA</tspan></text>
+    <g aria-label="Heading">
+      <path d="M137 561A165 165 0 0 1 411 561Z" fill="#414141"/>
+      <path class="line" d="M138.8 558.4 145.4 562.9M147.6 546.9 158.3 555.9M157.3 536.3 163.0 542.0M167.9 526.6 176.9 537.3M179.4 517.8 183.9 524.4M191.5 510.1 198.5 522.2M204.3 503.5 207.6 510.7M217.6 498.0 222.4 511.1M231.3 493.6 233.4 501.3M245.3 490.5 247.8 504.3M259.6 488.6 260.3 496.6M274.0 488.0 274.0 502.0M288.4 488.6 287.7 496.6M302.7 490.5 300.2 504.3M316.7 493.6 314.6 501.3M330.4 498.0 325.6 511.1M343.7 503.5 340.4 510.7M356.5 510.1 349.5 522.2M368.6 517.8 364.1 524.4M380.1 526.6 371.1 537.3M390.7 536.3 385.0 542.0M400.4 546.9 389.7 555.9M409.2 558.4 402.6 562.9"/>
+      <path class="line" d="m274 488-10-17h20zM274 488v21"/>
+      <use href="#selected-heading-bug" transform="translate(316.7 493.6) rotate(15)"/>
+      <g text-anchor="middle" dominant-baseline="central" class="heading-numerals">
+        <text x="187.2" y="549.6" transform="rotate(-40 187.2 549.6)">8</text>
+        <text x="206.5" y="536.1" transform="rotate(-30 206.5 536.1)">9</text>
+        <text x="227.8" y="526.1" transform="rotate(-20 227.8 526.1)">10</text>
+        <text x="250.6" y="520.1" transform="rotate(-10 250.6 520.1)">11</text>
+        <text x="274.0" y="518.0" transform="rotate(0 274.0 518.0)">12</text>
+        <text x="297.4" y="520.1" transform="rotate(10 297.4 520.1)">13</text>
+        <text x="320.2" y="526.1" transform="rotate(20 320.2 526.1)">14</text>
+        <text x="341.5" y="536.1" transform="rotate(30 341.5 536.1)">15</text>
+        <text x="360.8" y="549.6" transform="rotate(40 360.8 549.6)">16</text>
+      </g>
+      <text class="green smaller" x="289" y="553">MAG</text>
+      <text class="magenta smaller" x="229" y="553">135 H</text>
+    </g>
+    <text class="amber" x="420" y="558">INSTR SWITCH</text>
+  </g>
+</svg>

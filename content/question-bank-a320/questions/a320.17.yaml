@@ -1,0 +1,550 @@
+- id: QSSDX
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The APU may be started and operated even if the ECAM advisory LOW OIL LEVEL for the APU is displayed.  Maintenance action is required within next ___ hours of APU operation:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 10 hours
+          wrongAnswers:
+            - text: 24 hours
+            - text: 72 hours
+            - text: 48 hours
+- id: QXKFD
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Bleed air & electrical power are available up to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 22.500 ft
+          wrongAnswers:
+            - text: 14.500 ft
+            - text: 20.000 ft
+            - text: 25.000 ft
+- id: QXLAI
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "APU start on GND: After setting the APU MASTER SW to ON, wait at least ___ seconds before switching  APU START pb-sw to ON:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3 seconds
+          wrongAnswers:
+            - text: 10 seconds
+            - text: 5 seconds
+            - text: there is no time limit
+- id: QWKCW
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement is correct concerning the SECURING THE AIRCRAFT CHECKLIST?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: all statements are correct
+          wrongAnswers:
+            - text: if the batteries are off while the APU is running, APU fire extinguishing is not available
+            - text: switching the batteries off before the APU flap is closed may cause smoke in the cabin during the next flight
+            - text: wait until the APU flap is fully closed (about 2 minutes after the APU AVAIL light goes out), before switching off  the batteries
+- id: QYUOX
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "On ground, in case of APU fire, the following happens:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The APU fire warnings operate in the cockpit, a horn in the nose gear bay sounds, the AVAIL light goes out, the  FAULT light in the MASTER SW lights up, the APU shuts down and the APU fire extinguisher discharges
+          wrongAnswers:
+            - text: The APU fire warnings operate in the cockpit, the APU does not shut down, the AVAIL light remains on but the  FAULT light in the MASTER SW lights up additionally
+            - text: The horn in the nose gear bay sounds, the FAULT light in the MASTER SW lights up, the APU shuts down but  the fire extinguisher must be discharged manually
+            - text: The APU fire warnings operate in the cockpit, the AVAIL light goes out, the APU does not shut down and the  crossbleed valve shuts
+- id: QIOSS
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The APU starter limitations are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: after 3 starter motor duty cycles, wait 60 minutes before attempting 3 more cycles
+          wrongAnswers:
+            - text: after 3 starter motor duty cycles, wait 40 minutes before attempting 3 more cycles
+            - text: after 2 starter motor duty cycles, wait 30 minutes before attempting 3 more cycles
+            - text: after 4 starter motor duty cycles, wait 20 minutes before attempting 1 more cycle
+- id: QUVFH
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How high is the APU fuel consumption approximately on ground (Packs ON, 90KVA load)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 130kg/hr
+          wrongAnswers:
+            - text: 200kg/hr
+            - text: 80kg/hr
+            - text: 250kg/hr
+- id: QBREN
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: APU start on battery is possible ______ ?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Up to 25.000 ft
+          wrongAnswers:
+            - text: On ground only
+            - text: Up to 35.000ft
+            - text: Up to 20.000 ft
+- id: QJVFJ
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Securing the aircraft: What can happen when you switch off the batteries before the APU flap is fully  closed?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It may cause smoke in the cabin during the next flight
+          wrongAnswers:
+            - text: The APU fire alarm may trigger
+            - text: An APU fault may be triggered during the next APU start
+            - text: A bird may enter the APU inlet and lay eggs
+- id: QBZNY
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The APU provides
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: AC power and bleed air up to FL225
+          wrongAnswers:
+            - text: AC power only FL 250 and above
+            - text: DC power and bleed air up to FL250
+            - text: AC power and bleed air up to FL300
+- id: QXORY
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which answer about the APU controls is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The FAULT light within the MASTER SW pb illuminates when an automatic APU shutdown occurs, which  happens in case of one of several possible failures
+          wrongAnswers:
+            - text: There is no chance to shut down the APU manually except with the MASTER SW pb
+            - text: The blue ON light in the START pb-sw illuminates only if the APU is running normally
+            - text: The blue ON light in the MASTER SW pb illuminates only if the APU is running normally
+- id: QYTOY
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The APU Inlet Flap...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: closes 15 minutes after APU speed is lower than 7% in case of an automatic, non-emergency shutdown
+          wrongAnswers:
+            - text: closes 1 minute after the APU MASTER SW pb has been switched to OFF regardless of the APU rotorspeed
+            - text: closes immediately after switching the APU MASTER SW pb to OFF
+            - text: closes automatically in case of APU Fire to provide efficient work of the halon extinguisher
+- id: QJCSK
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which answer about the APU is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: After switching the APU MASTER SW pb to ON you have to wait at least 3 seconds before selecting the APU  START pb-sw
+          wrongAnswers:
+            - text: APU Bleed must not be switched on before the APU start sequence is completed
+            - text: The use of APU bleed is permitted during ground operation with ground air unit connected
+            - text: The flight crew should use APU electrical supply as soon as the APU is available to avoid unwanted electrical  switching if external power is adversely removed
+- id: QTVIG
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "14 APU Starter: After ___ starter motor duty cycles, wait __ minutes before attempting ___ more cycles"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3 / 60 / 3
+          wrongAnswers:
+            - text: 4 / 60 /4
+            - text: 4 / 30 /4
+            - text: 3 / 30 / 3
+- id: QDXVZ
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which Answer about the APU envelope is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: The APU supplies bleed and electrical power up to FL 225
+            - text: The APU is not able to maintain 100% generator load up to max. FL 398
+            - text: The APU battery restart limit (EMER ELEC CONFIG) is at max. FL250
+- id: QVPHT
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the altitude limitation for APU BATTERY RESTART (ELEC EMERG CONFIG)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 25 000 ft.
+          wrongAnswers:
+            - text: 39 000 ft.
+            - text: 20 000 ft.
+            - text: 15 000 ft.
+- id: QWMFE
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Emergency shutdown of the APU is possible by two methods. One is to push the APU fire handle on the  flight deck. The other is to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: push the APU SHUT-OFF pushbutton on the Interphone Panel under the nose fuselage.
+          wrongAnswers:
+            - text: switch off the left side fuel pumps.
+            - text: use the APU Master Switch
+            - text: ---
+- id: QKLBL
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Bleed air extraction from the APU for wing anti-icing is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Not permitted.
+          wrongAnswers:
+            - text: Permitted.
+            - text: ---
+            - text: ---
+- id: QAXGA
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: If the APU speed is above 95%, the bleed air system has priority over the engine bleed air system.
+          answer: true
+- id: QOSLZ
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "When the aircraft is on ground, the APU may run without cockpit crew supervision. In case of a fire in the  APU compartment:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The APU fire extinguisher discharges automatically 3 s after the appearance of the fire warning
+          wrongAnswers:
+            - text: The APU fire extinguisher discharges automatically immediately after the appearance of the fire warning.
+            - text: The APU fire extinguisher discharges automatically 3 s after pressing the APU SHUT OFF push-button
+            - text: The APU fire extinguisher discharges immediately after pressing the APU SHUT OFF push-button
+- id: QHHTF
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: The red APU FIRE light comes on when the APU fire warning is activated, regardless of the position of the  pushbutton.
+          answer: true
+- id: QGHRD
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: During APU start the APU fuel pump operates&hellip;
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: if no fuel tank pump is operating
+          wrongAnswers:
+            - text: if at least one fuel tank pump is operating
+            - text: if the aircraft has ground power
+            - text: the APU fuel pump always operating during APU start
+- id: QSQHB
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which statement is correct concerning the APU fuel feed system?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: if pressure is not available (batteries only or pumps off) the APU FUEL PUMP starts automatically
+          wrongAnswers:
+            - text: the autonomous DFCU (digital fuel control unit) controls the fuel flow
+            - text: the right fuel feed line supplies the APU
+            - text: above FL150, only gravity fuel feeding to the APU is available
+- id: QPRVZ
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: During preliminary cockpit preparation if the APU is started on batteries only, it should be started within  ________ after the selection of batteries to AUTO
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 30 minutes
+          wrongAnswers:
+            - text: 20 minutes
+            - text: 10 minutes
+            - text: 5 minutes
+- id: QSIVZ
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The MASTER SW push button controls the electric power supply for APU operation, and the shutdown  sequences. If the aircraft was using APU bleed air:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the APU keeps running for a cooling period of 60 seconds
+          wrongAnswers:
+            - text: the APU keeps running for a cooling period of 30 seconds
+            - text: the APU shuts down immediately, because there is no cooling period necessary
+            - text: the APU keeps running for a cooling period of 120 seconds
+- id: QBHIB
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "During refuelling a fuel spill has been occurred, while the APU is running:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A normal APU shutdown has to be completed
+          wrongAnswers:
+            - text: Refuelling may be continued only with JET-B fuel
+            - text: An emergency APU shutdown has to be completed
+            - text: No further action required
+- id: QTERS
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The APU provides:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Bleed air and electrical power for the aircraft.
+          wrongAnswers:
+            - text: Electrical power and hydraulic power for the aircraft.
+            - text: Bleed air and hydraulic power for the aircraft.
+            - text: Electrical power, hydraulic power and bleed air for the aircraft.
+- id: QBXOW
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "If the oil quantity of the APU approaches the minimum value, &ldquo;low oil level&rdquo; is pulsing:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Green on the ECAM
+          wrongAnswers:
+            - text: Amber on the ECAM
+            - text: Red on the ECAM
+            - text: There is no indication on the ECAM
+- id: QMQFA
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which fuel feed line normally supplies the APU?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The left fuel feed line
+          wrongAnswers:
+            - text: The left and right fuel feed line
+            - text: The left or right fuel feed line
+            - text: The right fuel feed line
+- id: QGMOL
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When performing the securing the aircraft checklist and the aircraft is not handed over to Maintenance  staff, the APU...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: must be switched off
+          wrongAnswers:
+            - text: must be left on
+            - text: may be left on, but generator p/b must be in OFF position
+            - text: may be left on or switched off
+- id: QXBTU
+  subjectId: a320
+  chapterId: "17"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "After 3 starter motor duty cycles, wait ___ min before attempting 3 more cycles:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 60 minutes
+          wrongAnswers:
+            - text: 90 minutes
+            - text: 30 minutes
+            - text: 120 minutes

@@ -1,0 +1,185 @@
+id: b737
+title: Boeing 737 Type Rating
+shortTitle: "737"
+subtitle: Type Rating
+description: Prepare or review your theory knowledge for a type rating on the Boeing 737.
+annexes:
+  - id: AABO
+    format: svg
+    description: 737-800 Hydraulic Power Distribution Schematic
+    source: ""
+  - id: AVRT
+    format: jpg
+    description: PFD with V2 + 15 bug highlighted
+    source: ""
+  - id: ALKP
+    format: svg
+    description: System B reservoir after a leak
+    source: ""
+  - id: ALKQ
+    format: svg
+    description: System A reservoir after an engine-driven pump leak
+    source: ""
+  - id: AQQH
+    format: svg
+    description: 737-800 Bleed Air System Schematic (YA573)
+    source: ""
+  - id: AGCY
+    format: svg
+    description: 737-800 Bleed Air System Schematic (YA573, overhead panel omitted)
+    source: ""
+  - id: ATEV
+    format: svg
+    description: 737-800 Air Conditioning Pack Schematic
+    source: ""
+  - id: ANKO
+    format: svg
+    description: 737-800 Air Conditioning Distribution Schematic
+    source: ""
+  - id: AGKH
+    format: svg
+    description: 737-800 Air Conditioning Distribution Schematic (overhead panel omitted)
+    source: ""
+  - id: AAHJ
+    format: svg
+    description: 737-800 Master Call Lights
+    source: ""
+  - id: AGBZ
+    format: svg
+    description: 737-800 Engine Anti-Ice System Schematic
+    source: ""
+  - id: ADBL
+    format: svg
+    description: 737-800 Wing Anti-Ice System Schematic
+    source: ""
+  - id: AVWS
+    format: svg
+    description: 737-800 Electrical Power Schematic
+    source: ""
+  - id: APMC
+    format: svg
+    description: 737-800 AC Power Schematic
+    source: ""
+  - id: AYGR
+    format: svg
+    description: 737-800 DC Power System Schematic
+    source: ""
+  - id: AQRY
+    format: svg
+    description: 737-800 Standby Power System Schematic
+    source: ""
+  - id: AKAI
+    format: svg
+    description: 737-800 Engine Fuel and Oil System Schematic
+    source: ""
+  - id: ARXZ
+    format: svg
+    description: 737-800 Engine Fire Extinguisher Schematic
+    source: ""
+  - id: AGVM
+    format: svg
+    description: 737-800 Cargo Fire Suppression Schematic (YF501–YW164)
+    source: ""
+  - id: AJTX
+    format: svg
+    description: 737-800 Roll Control Schematic
+    source: ""
+  - id: AAPH
+    format: svg
+    description: 737-800 Pitch Control Schematic (YF501–YW164)
+    source: ""
+  - id: AZIT
+    format: svg
+    description: 737-800 Yaw Control Schematic
+    source: ""
+  - id: AOTZ
+    format: svg
+    description: 737-800 Speed Brakes Schematic
+    source: ""
+  - id: AQAC
+    format: svg
+    description: 737-800 Leading Edge Devices and Trailing Edge Flaps Schematic
+    source: ""
+  - id: AQWR
+    format: svg
+    description: 737-800 Fuel Schematic
+    source: ""
+  - id: ALNZ
+    format: svg
+    description: 737-800 PFD Annunciations (composite)
+    source: ""
+  - id: AUKK
+    format: svg
+    description: 737-800 PFD CDS MAINT Annunciation (white)
+    source: ""
+  - id: ADOC
+    format: svg
+    description: 737-800 PFD CDS FAULT Annunciation (amber)
+    source: ""
+  - id: AHCX
+    format: svg
+    description: 737-800 PFD DISPLAYS CONTROL PANEL Annunciation
+    source: ""
+  - id: ARUG
+    format: svg
+    description: 737-800 EFIS Navigation Display Modes (APP, VOR, MAP, PLN)
+    source: ""
+courses:
+  - id: TYPE_RATING
+    text: Type Rating
+subjects:
+  - id: b737
+    learningObjective: ""
+    longName: Boeing 737 Type Rating
+    shortName: "737"
+    exams:
+      - course: TYPE_RATING
+        minutes: 40
+        questions: 40
+        chapters: null
+chapters:
+  - id: "01"
+    subject: b737
+    title: Airplane General
+  - id: "02"
+    subject: b737
+    title: Air Systems
+  - id: "03"
+    subject: b737
+    title: Anti-Ice & Rain
+  - id: "04"
+    subject: b737
+    title: Automatic Flight
+  - id: "05"
+    subject: b737
+    title: Communications
+  - id: "06"
+    subject: b737
+    title: Electrical
+  - id: "07"
+    subject: b737
+    title: Engines, APU
+  - id: "08"
+    subject: b737
+    title: Fire Protection
+  - id: "09"
+    subject: b737
+    title: Flight Controls
+  - id: "10"
+    subject: b737
+    title: Flight Instruments & Displays
+  - id: "11"
+    subject: b737
+    title: Flight Management & NAV
+  - id: "12"
+    subject: b737
+    title: Fuel
+  - id: "13"
+    subject: b737
+    title: Hydraulics
+  - id: "14"
+    subject: b737
+    title: Landing Gear
+  - id: "15"
+    subject: b737
+    title: Warning Systems

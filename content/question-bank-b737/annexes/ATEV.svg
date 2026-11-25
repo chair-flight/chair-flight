@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="908" height="1086" viewBox="0 90 908 1086" role="img" aria-labelledby="title desc" xml:lang="en-GB">
+<title id="title">737-800 Air Conditioning Pack Schematic</title>
+<desc id="desc">The right pack showing bleed air, ram air, the heat exchanger, air cycle machine, water separator, temperature controls and the outlets to the mix manifold and trim air system.</desc>
+<metadata>ATEV · Boeing 737-800 FCOM Rev 40, page 2.31.4. Redrawn in SVG.</metadata>
+<defs>
+  <marker id="arrow" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="13" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto">
+    <path d="M0 0 12 5 0 10Z" fill="#ededed" />
+  </marker>
+  <g id="check">
+    <rect x="-21" y="-12" width="42" height="24" rx="1.5" fill="#ededed" stroke="#111" stroke-width="2" />
+    <path d="M-15-4H4v-6L17 0 4 10V4h-19Z" fill="#111" />
+  </g>
+  <g id="round-valve">
+    <circle r="24" fill="#ededed" stroke="#000" stroke-width="1.5" />
+    <path d="M-24-3h21l5 6h22" fill="none" stroke="#000" stroke-width="6" />
+  </g>
+  <g id="toggle-body">
+    <circle r="18" fill="#a6a6a6" stroke="#393939" stroke-width="2" />
+    <circle r="13" fill="#676767" stroke="#393939" stroke-width="2" />
+    <circle r="9" fill="#8c8c8c" stroke="#393939" stroke-width="1.6" />
+  </g>
+  <g id="toggle-lever" stroke="#393939" stroke-width="1.7">
+    <path d="M-4 0a4 4 0 0 1 8 0l2 10H-6z" fill="#b7b7b7" />
+    <circle cy="12" r="6.6" fill="#cecece" />
+  </g>
+  <g id="toggle"><use href="#toggle-body" /><use href="#toggle-lever" /></g>
+</defs>
+<style>
+  text { fill:#ededed; font:20px "Liberation Mono", Menlo, monospace }
+  text[font-size="11"] { font-size:11px }
+  text[font-size="12"] { font-size:12px }
+  text[font-size="13"] { font-size:13px }
+  text[font-size="14"] { font-size:14px }
+  text[font-size="16"] { font-size:16px }
+  .amber { fill:#fabb0b }
+  .pipe-edge {fill:none;stroke:#ededed;stroke-width:18;stroke-linejoin:round}.pipe { fill:none; stroke-linecap:butt; stroke:#c41c1c; stroke-width:13; stroke-linejoin:round }
+  .wire,.outline { stroke-linecap:round; stroke-linejoin:round; fill:none; stroke:#ededed; stroke-width:2.5 }
+  .signal { stroke-dasharray:24 12 4 13 }
+  .arrow { marker-end:url(#arrow) }
+</style>
+<rect x="0" y="0" width="908" height="1278" fill="#000" />
+<g transform="translate(0 65)">
+<path d="M22 52l43 5 134-12 61 22 56-8 50 22v138H22z" fill="#818181" stroke="#444" stroke-width="3" />
+<defs><g id="selector"><circle r="30" fill="#9d9d9d" stroke="#494949" stroke-width="2.3" /><rect x="-11" y="-28" width="22" height="63" rx="6" fill="#9d9d9d" stroke="#494949" stroke-width="2.3" /><path d="M0-26v40" stroke="#444" stroke-width="4" /><path d="M-42 20a44 44 0 1 1 84 0" fill="none" stroke="#ededed" stroke-width="2" /></g></defs>
+<use href="#selector" transform="translate(87 142)" />
+<text x="87" y="83" text-anchor="middle" font-size="13"><tspan x="87" dy="0">CONT CAB</tspan><tspan x="87" dy="13">AUTO</tspan></text>
+<text x="48" y="182" font-size="12">C</text>
+<text x="122" y="182" font-size="12">W</text>
+<text x="87" y="194" text-anchor="middle" font-size="12">OFF</text>
+<use href="#selector" transform="translate(186 142)" />
+<text x="186" y="83" text-anchor="middle" font-size="13"><tspan x="186" dy="0">FWD CAB</tspan><tspan x="186" dy="13">AUTO</tspan></text>
+<text x="147" y="182" font-size="12">C</text>
+<text x="221" y="182" font-size="12">W</text>
+<text x="186" y="194" text-anchor="middle" font-size="12">OFF</text>
+<use href="#selector" transform="translate(284 142)" />
+<text x="284" y="83" text-anchor="middle" font-size="13"><tspan x="284" dy="0">AFT CAB</tspan><tspan x="284" dy="13">AUTO</tspan></text>
+<text x="245" y="182" font-size="12">C</text>
+<text x="319" y="182" font-size="12">W</text>
+<text x="284" y="194" text-anchor="middle" font-size="12">OFF</text>
+</g>
+<path d="M87 266V311" class="wire arrow" />
+<path d="M186 266V295H284" class="wire" />
+<path d="M284 266V311" class="wire arrow" />
+<path d="M87 295H186" class="wire" />
+<circle cx="87" cy="295" r="7" fill="#ededed" />
+<circle cx="186" cy="295" r="7" fill="#ededed" />
+<circle cx="284" cy="295" r="7" fill="#ededed" />
+<g transform="translate(0 30)">
+<rect x="33" y="283" width="109" height="173" fill="#000" stroke="#ededed" stroke-width="4" />
+<path d="M33 342h109" class="wire" />
+<path d="M33 380h109m-109 38h109" class="wire signal" />
+<text x="87.5" y="299" text-anchor="middle" font-size="14"><tspan x="87.5" dy="0">L</tspan><tspan x="87.5" dy="17">ELECTRONIC</tspan><tspan x="87.5" dy="17">CONTROLLER</tspan></text>
+<text x="87.5" y="358" text-anchor="middle" font-size="14"><tspan x="87.5" dy="0">L PRIMARY</tspan><tspan x="87.5" dy="16">PACK CONTROL</tspan></text>
+<text x="87.5" y="396" text-anchor="middle" font-size="14"><tspan x="87.5" dy="0">L RAM</tspan><tspan x="87.5" dy="16">AIR CONTROL</tspan></text>
+<text x="87.5" y="434" text-anchor="middle" font-size="14"><tspan x="87.5" dy="0">R STBY</tspan><tspan x="87.5" dy="16">PACK CONTROL</tspan></text>
+<rect x="231" y="283" width="109" height="173" fill="#000" stroke="#ededed" stroke-width="4" />
+<path d="M231 342h109" class="wire" />
+<path d="M231 380h109m-109 38h109" class="wire signal" />
+<text x="285.5" y="299" text-anchor="middle" font-size="14"><tspan x="285.5" dy="0">R</tspan><tspan x="285.5" dy="17">ELECTRONIC</tspan><tspan x="285.5" dy="17">CONTROLLER</tspan></text>
+<text x="285.5" y="358" text-anchor="middle" font-size="14"><tspan x="285.5" dy="0">R PRIMARY</tspan><tspan x="285.5" dy="16">PACK CONTROL</tspan></text>
+<text x="285.5" y="396" text-anchor="middle" font-size="14"><tspan x="285.5" dy="0">R RAM</tspan><tspan x="285.5" dy="16">AIR CONTROL</tspan></text>
+<text x="285.5" y="434" text-anchor="middle" font-size="14"><tspan x="285.5" dy="0">L STBY</tspan><tspan x="285.5" dy="16">PACK CONTROL</tspan></text>
+</g>
+<path d="M660 312H375L345 342H343" class="wire arrow" />
+<path d="M340 392H428V513H460" class="wire arrow" />
+<path d="M340 430H349L363 416H824l35 20" class="wire arrow" />
+<path d="M142 469H169V639H353" class="wire signal arrow" />
+<path d="M232 392H205V577H42V854H80" class="wire signal" />
+<path d="M281 854H600V583" class="wire signal arrow" />
+<path d="M600 583v447h-59" class="wire signal arrow" />
+<circle cx="600" cy="854" r="7" fill="#ededed" />
+<path d="M518 1074V713H788 M788 713H378V446H674 M483 446V713 M518 918H711V853" class="pipe-edge" /><path d="M518 1074V713H788 M788 713H378V446H674 M483 446V713 M518 918H711V853" class="pipe" style="stroke-width:15" />
+<path d="M674 602v39h115" fill="none" stroke="#ededed" stroke-width="18" />
+<path d="M674 602v39h115" fill="none" stroke="#e5b90f" stroke-width="13" />
+<path d="M674 210V517" fill="none" stroke="#ededed" stroke-width="19" />
+<path d="M674 210V517" fill="none" stroke="#0b6bcb" stroke-width="14" />
+<circle cx="674" cy="220" r="5.1" fill="#ededed" />
+<circle cx="674" cy="279" r="5.1" fill="#ededed" />
+<circle cx="674" cy="335" r="5.1" fill="#ededed" />
+<circle cx="674" cy="365" r="5.1" fill="#ededed" />
+<circle cx="674" cy="394" r="5.1" fill="#ededed" />
+<circle cx="674" cy="423" r="5.1" fill="#ededed" />
+<circle cx="674" cy="452" r="5.1" fill="none" stroke="#ededed" stroke-width="1.7" />
+<circle cx="674" cy="482" r="5.1" fill="none" stroke="#ededed" stroke-width="1.7" />
+<circle cx="674" cy="511" r="5.1" fill="none" stroke="#ededed" stroke-width="1.7" />
+<path d="M60 680l38 2 35-7 30 6 87-10 31 8v234l-28 9-18-5-21 7-21-8-25 5-17-7-30 2-25-8-29 2-11-20 6-22-13-30 18-64-11-28z" fill="#a6a6a6" stroke="#515151" stroke-width="3" />
+<use href="#toggle" transform="translate(196 773) rotate(90)" />
+<text x="199" y="736" text-anchor="middle" font-size="16" style="fill:#202020">R PACK</text>
+<text x="144" y="757" text-anchor="middle" font-size="14" style="fill:#202020"><tspan x="144" dy="0">OFF</tspan><tspan x="144" dy="20">AUTO</tspan><tspan x="144" dy="20">HIGH</tspan></text>
+<rect x="81" y="836" width="93" height="25" fill="#000" stroke="#fabb0b" stroke-width="1.8" />
+<text x="127.5" y="846" text-anchor="middle" font-size="11" class="amber"><tspan x="127.5" dy="0">PACK</tspan></text>
+<rect x="81" y="861" width="93" height="25" fill="#000" stroke="#fabb0b" stroke-width="1.8" />
+<text x="127.5" y="871" text-anchor="middle" font-size="11" class="amber"><tspan x="127.5" dy="0">WING-BODY</tspan><tspan x="127.5" dy="10">OVERHEAT</tspan></text>
+<text x="226" y="832" text-anchor="middle" font-size="13" style="fill:#262626"><tspan x="226" dy="0">WING</tspan><tspan x="226" dy="15">ANTI</tspan><tspan x="226" dy="15">ICE</tspan></text>
+<path d="M215 773H374v257h119" class="wire arrow" />
+<use href="#round-valve" transform="translate(483 513) rotate(90)" />
+<path d="M42 854H79" class="wire arrow" />
+<path d="M202 854H175" class="wire arrow" />
+<circle cx="378" cy="639" r="24" fill="#ededed" stroke="#000" stroke-width="1.5" />
+<path d="M355 639h46" stroke="#000" stroke-width="4" />
+<circle cx="378" cy="639" r="4.5" fill="#000" />
+<use href="#round-valve" transform="translate(518 1030) rotate(90)" />
+<use href="#check" transform="translate(646 918)" />
+<use href="#check" transform="translate(674 249) rotate(-90)" />
+<rect x="619" y="517" width="110" height="85" fill="#000" stroke="#ededed" stroke-width="4" />
+<text x="632" y="544"><tspan x="632" dy="0">AIR</tspan><tspan x="632" dy="21">CYCLE</tspan><tspan x="632" dy="21">MACHINE</tspan></text>
+<path d="M592 573h14v22h-14zM606 579h16v10h-16zM639 303h14v19h-14zM653 309h22v9h-22z" fill="#000" stroke="#ededed" stroke-width="2.5" />
+<circle cx="620" cy="584" r="4.5" fill="#ededed" />
+<circle cx="673" cy="313" r="4.5" fill="#ededed" />
+<path d="M870 382v43l-81 101v300l83 103v42m0-408v286" class="outline" />
+<path d="M863 434q-9 17-7 27m16-33q13 12 10 18-4 3-10-4" class="outline" />
+<rect x="789" y="634" width="82" height="87" fill="none" stroke="#ededed" stroke-width="2" />
+<path d="M789 712L798 721M789 701L809 721M789 690L820 721M789 679L831 721M789 668L842 721M789 657L853 721M789 646L864 721M789 635L871 717M799 634L871 706M810 634L871 695M821 634L871 684M832 634L871 673M843 634L871 662M854 634L871 651M865 634L871 640M796 634L789 641M807 634L789 652M818 634L789 663M829 634L789 674M840 634L789 685M851 634L789 696M862 634L789 707M871 636L789 718M871 647L797 721M871 658L808 721M871 669L819 721M871 680L830 721M871 691L841 721M871 702L852 721M871 713L863 721" fill="none" stroke="#ede" stroke-width=".7" />
+<path d="M822 710v-27h-8l16-17 17 17h-8v27z" fill="#000" stroke="#ededed" stroke-width="3" />
+<path d="M825 582v18h-5l9 15 9-15h-5v-18zm0 173v18h-5l9 15 9-15h-5v-18zm-4-262-6 15-5-2 2 16 13-10-5-2 6-15zm10 80m6 258 7 13-5 2 14 9 1-16-4 2-7-13z" fill="#000" stroke="#ededed" stroke-width="2" />
+<path d="M674 208V173" class="wire arrow" />
+<path d="M711 852v-38" class="wire arrow" />
+<path d="M518 1113V1079" class="wire arrow" />
+<path d="M493 914v-47" class="wire arrow" />
+<text x="625" y="144"><tspan x="625" dy="0">TO MIX</tspan><tspan x="625" dy="22">MANIFOLD</tspan></text>
+<text x="695" y="311"><tspan x="695" dy="0">WATER</tspan><tspan x="695" dy="22">SEPARATOR</tspan></text>
+<text x="514" y="488"><tspan x="514" dy="0">PACK</tspan><tspan x="514" dy="22">TEMP</tspan><tspan x="514" dy="22">CONT</tspan><tspan x="514" dy="22">VALVE</tspan></text>
+<text x="410" y="598"><tspan x="410" dy="0">STBY</tspan><tspan x="410" dy="22">PACK</tspan><tspan x="410" dy="22">TEMP</tspan><tspan x="410" dy="22">CONT</tspan><tspan x="410" dy="22">VALVE</tspan></text>
+<text x="861" y="491"><tspan x="861" dy="0">RAM</tspan><tspan x="861" dy="22">AIR</tspan></text>
+<text x="650" y="782"><tspan x="650" dy="0">TO TRIM</tspan><tspan x="650" dy="22">AIR SYSTEM</tspan></text>
+<text x="540" y="1077"><tspan x="540" dy="0">PACK</tspan><tspan x="540" dy="22">VALVE</tspan></text>
+<text x="518" y="1135" text-anchor="middle"><tspan x="518" dy="0">RIGHT BLEED</tspan><tspan x="518" dy="22">AIR</tspan></text>
+<g transform="translate(0 -152)">
+<rect x="16" y="1125" width="89" height="16" fill="#0b6bcb" stroke="#ededed" stroke-width="1.5" />
+<text x="121" y="1138">CONDITIONED AIR</text>
+<circle cx="30" cy="1133" r="5" fill="#ededed" />
+<circle cx="60" cy="1133" r="5" fill="#ededed" />
+<circle cx="90" cy="1133" r="5" fill="#ededed" />
+<rect x="16" y="1158" width="89" height="16" fill="#0b6bcb" stroke="#ededed" stroke-width="1.5" />
+<text x="121" y="1171">COLD AIR</text>
+<circle cx="30" cy="1166" r="5" fill="none" stroke="#ededed" stroke-width="1.5" />
+<circle cx="60" cy="1166" r="5" fill="none" stroke="#ededed" stroke-width="1.5" />
+<circle cx="90" cy="1166" r="5" fill="none" stroke="#ededed" stroke-width="1.5" />
+<rect x="16" y="1199" width="89" height="16" fill="#e5b90f" stroke="#ededed" stroke-width="1.5" />
+<text x="121" y="1212"><tspan x="121" dy="0">HEAT EXCHANGER</tspan><tspan x="121" dy="19">COOLED AIR</tspan></text>
+<rect x="16" y="1243" width="89" height="16" fill="#c41c1c" stroke="#ededed" stroke-width="1.5" />
+<text x="121" y="1256">BLEED AIR</text>
+</g>
+</svg>

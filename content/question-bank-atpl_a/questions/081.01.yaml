@@ -1,0 +1,5572 @@
+- id: QDSOR
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812776
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.01.01
+  templates:
+    - type: simple
+      question: |-
+        A rate of climb is given in feet per minute. Convert it to metres per second (1 ft = 0.3048 m).
+
+        - Rate of climb: {{fpm}} ft/min
+
+        What is this rate in m/s?
+      explanation: |-
+        Convert the feet to metres (1 ft = 0.3048 m) and the minutes to seconds (divide by 60).
+
+        **Solution**
+
+        $$
+        \frac{\text{Rate of climb}\times 0.3048}{60} = \frac{ {{fpm}}\times 0.3048}{60} = \mathbf{ {{answer}}\ \text{m/s} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} m/s**: halves the rate instead of converting it.
+        - **{{d2}} m/s**: forgets to convert feet to metres.
+        - **{{d3}} m/s**: applies the metre conversion twice.
+        - **{{d4}} m/s**: stops after the metre conversion, so the result is in metres per minute.
+      presets:
+        - variables:
+            fpm: 470
+            answer: 2.4
+            d1: 235
+            d2: 7.8
+            d3: 0.7
+            d4: 143.3
+          correctAnswers:
+            - text: 2.4 m/s
+          wrongAnswers:
+            - text: 235 m/s
+            - text: 0.7 m/s
+            - text: 143.3 m/s
+            - text: 7.8 m/s
+        - variables:
+            fpm: 1000
+            answer: 5.1
+            d1: 500
+            d2: 16.7
+            d3: 1.5
+            d4: 304.8
+          correctAnswers:
+            - text: 5.1 m/s
+          wrongAnswers:
+            - text: 500 m/s
+            - text: 1.5 m/s
+            - text: 304.8 m/s
+            - text: 16.7 m/s
+- id: QJJUI
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816943
+    - ATPLQ-817316
+    - AVEXAM-62420
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.01.01
+  templates:
+    - type: definition
+      question: What is the SI unit of measurement for {term}?
+      explanation: ""
+      options:
+        - id: OUKC9HP1M
+          term: power
+          definition: W
+        - id: OAHI4AV2H
+          term: pressure
+          definition: N/m2
+      fakeOptions:
+        - id: F2IKUPI8C0
+          definition: N
+        - id: F2IKUPI8C1
+          definition: J
+        - id: F2IKUPI8C2
+          definition: Pa
+        - id: F2IKUPI8C3
+          definition: lb/gal
+        - id: F2IKUPI8C4
+          definition: kg/m3
+        - id: F2IKUPI8C5
+          definition: bar/dm2
+- id: QNRDI
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818194
+    - BGS-810002
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.01.01
+    - 081.01.01.01.08
+  templates:
+    - type: simple
+      question: "The units of wing loading (I) W / S and (II) dynamic pressure q are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (I) N / m2, (II) N / m2.
+          wrongAnswers:
+            - text: (I) N / m3, (II) kg / m2.
+            - text: (I) N / m, (II) kg.
+            - text: (I) kg / m, (II) N / m2.
+- id: QOEER
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815942
+    - BGS-810048
+    - BGS-811477
+    - BGS-810065
+    - BGS-811478
+    - AVEXAM-92858
+    - AVEXAM-22003
+    - BGS-811479
+    - BGS-810070
+    - AVEXAM-74759
+    - BGS-810064
+    - BGS-811475
+    - BGS-810068
+    - AVEXAM-73887
+    - AVEXAM-51175
+    - BGS-810049
+    - BGS-811476
+    - AVEXAM-26344
+    - BGS-810069
+    - AVEXAM-12421
+    - ATPLQ-814815
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.01.02
+  templates:
+    - type: simple
+      question: Which of these statements about weight or mass is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The weight of a body is the product of its mass and the acceleration due to gravity.
+          wrongAnswers:
+            - text: The mass of a body depends solely on the acceleration due to gravity.
+            - text: The weight of a body is independent of the acceleration due to gravity.
+            - text: Mass equals weight multiplied by volume.
+        - correctAnswers:
+            - text: The mass of a body can be determined by dividing its weight by the acceleration due to gravity.
+          wrongAnswers:
+            - text: The weight of a body can be determined by dividing its mass by the acceleration due to gravity.
+            - text: The weight of a body can be determined by dividing the acceleration due to gravity by its mass.
+            - text: The mass of a body can be determined by multiplying its weight by the acceleration due to gravity.
+- id: QPIOG
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816408
+    - AVEXAM-18869
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.01.03
+  templates:
+    - type: simple
+      question: "Lift is generated when:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the flow direction of a certain mass of air is changed.
+          wrongAnswers:
+            - text: a certain mass of air is retarded.
+            - text: a symmetrical aerofoil is placed in a high velocity air stream at zero angle of attack.
+            - text: a certain mass of air is accelerated in its flow direction.
+- id: QLTUK
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QLYHL
+  externalQuestionIds:
+    - ATPLQ-811528
+    - BGS-810053
+    - AVEXAM-64542
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.01.06
+    - 081.01.01.01.16
+  templates:
+    - type: simple
+      question: "Consider a steady flow through a stream tube at a given constant velocity. An increase in the flow's temperature will:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: lower the mass flow.
+          wrongAnswers:
+            - text: not affect the mass flow.
+            - text: increase the mass flow.
+            - text: increase the mass flow when the tube is divergent in the direction of the flow.
+- id: QRQMG
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814495
+    - BGS-812704
+    - AVEXAM-32505
+    - AVEXAM-12467
+    - BGS-812650
+    - BGS-812604
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.01.06
+    - 081.01.03.03.01
+  templates:
+    - type: simple
+      question: Based on the two-dimensional drag formula, if the altitude increases while all other parameters remain constant, the drag will (1)\_\_\_\_\_ because the air density will (2)\_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) decrease; (2) decrease.
+          wrongAnswers:
+            - text: (1) increase; (2) decrease.
+            - text: (1) increase; (2) increase.
+            - text: (1) decrease; (2) increase.
+- id: QXOVJ
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814564
+    - BGS-810006
+    - AVEXAM-54343
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.01.07
+  templates:
+    - type: simple
+      question: "The (subsonic) static pressure:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: decreases in a flow in a tube when the diameter decreases.
+          wrongAnswers:
+            - text: is the pressure in a point at which the velocity has become zero.
+            - text: increases in a flow in a tube when the diameter decreases.
+            - text: is the total pressure plus the dynamic pressure.
+- id: QXRTD
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812708
+    - BGS-810047
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.01.07
+  templates:
+    - type: simple
+      question: "Static pressure acts:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: in all directions.
+          wrongAnswers:
+            - text: only in the direction of the flow.
+            - text: only perpendicular to the direction of the flow.
+            - text: only in the direction of the total pressure.
+- id: QPCVL
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811456
+    - BGS-810054
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.01.09
+  templates:
+    - type: simple
+      question: The pascal is the SI derived unit of pressure. It is equivalent to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: N/m2.
+          wrongAnswers:
+            - text: bar/dm2.
+            - text: kg/m3.
+            - text: lb/gal.
+- id: QXOGY
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814970
+    - AVEXAM-82049
+    - AVEXAM-49683
+    - AVEXAM-41145
+    - BGS-810009
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.01.09
+  templates:
+    - type: simple
+      question: According to Bernoulli's theorem, which of the following is true?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The dynamic pressure is zero when velocity is zero.
+          wrongAnswers:
+            - text: The dynamic pressure depends on density only.
+            - text: The dynamic pressure decreases as static pressure decreases.
+            - text: The dynamic pressure is always greater than the static pressure.
+- id: QHGTO
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816338
+    - BGS-812212
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.01.10
+  templates:
+    - type: simple
+      question: An aircraft is flying straight and level. Assuming there are no mechanical malfunctions or environmental errors affecting the indicator, what can be said to remain constant if the speed indicated in the Airspeed Indicator does not change?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The dynamic pressure.
+          wrongAnswers:
+            - text: The air density.
+            - text: The true airspeed.
+            - text: The temperature.
+- id: QLUIX
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813214
+    - AVEXAM-31925
+    - BGS-810059
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.01.11
+  templates:
+    - type: simple
+      question: |-
+        Bernoulli's equation is:   
+         (note: rho is density; PSTAT is static pressure; PDYN is dynamic pressure; PTOT is total pressure)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: PSTAT \+ ½rho × TAS2 \= constant
+          wrongAnswers:
+            - text: PSTAT \+ ½rho × IAS2 \= constant
+            - text: PDYN \+ ½rho × IAS2 \= constant
+            - text: PTOT \+ ½rho × TAS2 \= constant
+- id: QAOTP
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817105
+    - BGS-810063
+    - BGS-810060
+    - AVEXAM-316
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.01.12
+  templates:
+    - type: simple
+      question: "Total pressure is: (rho = density)"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: static pressure plus dynamic pressure.
+          wrongAnswers:
+            - text: is ½ rho V².
+            - text: static pressure minus dynamic pressure.
+            - text: measured at a small hole in a surface, parallel to the local stream.
+- id: QZKGP
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811230
+    - ATPLQ-811358
+    - ATPLQ-812202
+    - ATPLQ-812212
+    - ATPLQ-812330
+    - ATPLQ-812457
+    - ATPLQ-812987
+    - ATPLQ-813174
+    - ATPLQ-813292
+    - ATPLQ-813310
+    - ATPLQ-813959
+    - ATPLQ-814116
+    - ATPLQ-814413
+    - ATPLQ-814930
+    - ATPLQ-815088
+    - ATPLQ-815156
+    - ATPLQ-815715
+    - ATPLQ-815872
+    - ATPLQ-816187
+    - ATPLQ-816383
+    - ATPLQ-816687
+    - ATPLQ-816717
+    - ATPLQ-816844
+    - ATPLQ-816913
+    - ATPLQ-817315
+    - ATPLQ-817629
+    - ATPLQ-817698
+    - ATPLQ-817816
+    - ATPLQ-817943
+    - ATPLQ-818473
+    - ATPLQ-818483
+    - ATPLQ-818600
+    - ATPLQ-819071
+    - ATPLQ-819445
+    - ATPLQ-819455
+    - ATPLQ-819572
+    - ATPLQ-819671
+    - ATPLQ-819700
+    - AVEXAM-19443
+    - AVEXAM-32419
+    - AVEXAM-34779
+    - AVEXAM-36422
+    - AVEXAM-37641
+    - AVEXAM-38573
+    - AVEXAM-44855
+    - AVEXAM-45153
+    - AVEXAM-53224
+    - AVEXAM-5466
+    - AVEXAM-54901
+    - AVEXAM-54919
+    - AVEXAM-55455
+    - AVEXAM-58245
+    - AVEXAM-59697
+    - AVEXAM-60094
+    - AVEXAM-6411
+    - AVEXAM-6513
+    - AVEXAM-67521
+    - AVEXAM-7361
+    - AVEXAM-75039
+    - AVEXAM-76762
+    - AVEXAM-77234
+    - AVEXAM-79293
+    - AVEXAM-79888
+    - AVEXAM-8867
+    - AVEXAM-9113
+    - AVEXAM-96682
+    - BGS-810012
+    - BGS-810013
+    - BGS-810014
+    - BGS-810017
+    - BGS-810018
+    - BGS-810019
+    - BGS-810020
+    - BGS-810022
+    - BGS-810025
+    - BGS-810026
+    - BGS-810027
+    - BGS-810028
+    - BGS-810029
+    - BGS-810032
+    - BGS-810033
+    - BGS-810034
+    - BGS-810035
+    - BGS-810037
+    - BGS-810038
+    - BGS-810039
+    - BGS-810040
+    - BGS-810041
+    - BGS-810042
+    - BGS-810043
+    - BGS-810044
+    - BGS-810045
+    - ATPLQ-818443
+    - AVEXAM-42602
+    - AVEXAM-63388
+    - AVEXAM-25003
+    - AVEXAM-6983
+    - AVEXAM-13841
+    - BGS-810036
+    - AVEXAM-56734
+    - BGS-810003
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.01.13
+  templates:
+    - type: one-two
+      question: Considering subsonic incompressible airflow through a Venturi, which statement is correct?
+      explanation: |-
+        ### TLDR
+
+        In a venturi...
+
+        - **Total Pressure remains constant**, and...
+        - **Mass flow remains constant** (for incompressible flows). Therefore...
+        - **Speed increases at the throat**, therefore...
+        - **Dynamic pressure increases at the throat**, therefore...
+        - **Static pressure decreases at the throat**
+
+        # Long Explanation
+
+        The Bernoulli's principle states that in a fluid flow, an increase in velocity
+        results in a decrease in pressure, and vice versa. This principle is commonly
+        used to explain the behavior of fluids in motion, such as in the case of an
+        airplane wing or a Venturi tube.
+        The formula for total pressure in a fluid flow is the sum of dynamic pressure
+        and static pressure. Dynamic pressure is the pressure due to the motion of the
+        fluid, while static pressure is the pressure of the fluid when it is at rest.
+        The total pressure is important to consider in fluid flow calculations, as it
+        is a measure of the energy contained in the fluid.
+
+        When a fluid flows through a Venturi tube, the constriction in the tube causes
+        the velocity of the fluid to increase, according to the Bernoulli's principle.
+        This increase in velocity results in a decrease in static pressure in the
+        throat of the tube. However, the total pressure of the fluid remains constant
+        throughout the tube. Therefore, as the velocity increases, the static
+        pressure decreases to maintain the constant total pressure. This phenomenon
+        is used in many applications, such as in carburetors for gasoline engines
+        or in fluid metering devices.
+      pairs:
+        - right:
+            - The dynamic pressure in the throat is higher than in the undisturbed airflow.
+          wrong:
+            - The dynamic pressure in the throat is lower than in the undisturbed airflow.
+        - right:
+            - The static pressure in the throat is lower than in the undisturbed airflow.
+          wrong:
+            - The static pressure in the throat is higher than in the undisturbed airflow.
+        - right: []
+          wrong:
+            - The dynamic pressure in the throat is same than in the undisturbed airflow.
+        - right:
+            - The total pressure in the throat is the same as in the undisturbed airflow.
+          wrong:
+            - The static pressure in the throat is the same than in the undisturbed airflow.
+        - right: []
+          wrong:
+            - The total pressure in the throat is higher than in the undisturbed airflow.
+        - right: []
+          wrong:
+            - The total pressure in the throat is lower than in the undisturbed airflow.
+    - type: simple
+      question: |-
+        Considering subsonic incompressible airflow through a Venturi, which statement is correct? 
+         
+        I. The dynamic pressure in the undisturbed airflow is higher than in the throat. 
+        II. The total pressure in the undisturbed airflow is higher than in the throat.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: I is incorrect, II is incorrect.
+          wrongAnswers:
+            - text: I is incorrect, II is correct.
+            - text: I is correct, II is correct.
+            - text: I is correct, II is incorrect.
+    - type: simple
+      question: |-
+        Considering subsonic incompressible airflow through a Venturi, which statements are correct or incorrect?
+
+         The static pressure in the throat is lower than in the undisturbed airflow.
+         The speed of the airflow in the throat is lower than in the undisturbed airflow.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1) is correct, 2) is incorrect.
+          wrongAnswers:
+            - text: 1) is incorrect, 2) is correct.
+            - text: 1) is correct, 2) is correct.
+            - text: 1) is incorrect, 2) is incorrect.
+- id: QLKQI
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816727
+    - AVEXAM-36769
+    - BGS-810057
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.01.15
+  templates:
+    - type: simple
+      question: |-
+        Given:
+
+        p = pressure   
+         rho = density   
+         T = absolute temperature
+
+        The relationship between pressure, density and absolute temperature of a given mass of air can be expressed as follows:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: p / (rho × T) = constant
+          wrongAnswers:
+            - text: p × T / rho = constant
+            - text: p × rho / T = constant
+            - text: rho / ( T × p) = constant
+- id: QHBKO
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817725
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.01.16
+  templates:
+    - type: simple
+      question: "According to the equation of continuity, the constant mass flow in a stream tube is dependent on the following for a low subsonic flow, assuming that the air is incompressible:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Velocity of the air and cross-sectional area of the stream tube
+          wrongAnswers:
+            - text: Velocity of the air only
+            - text: Mass of the air only
+            - text: Density of the air only
+- id: QLYHL
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QLTUK
+  externalQuestionIds:
+    - ATPLQ-813400
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.01.16
+  templates:
+    - type: simple
+      question: Consider a low subsonic flow through a stream tube. An increase in the temperature of the airflow will...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: not affect the mass flow.
+          wrongAnswers:
+            - text: increase the mass flow.
+            - text: decrease the mass flow.
+            - text: increase the mass flow when the tube is divergent in the direction of the flow.
+- id: QVBUS
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818640
+    - BGS-811441
+    - AVEXAM-43477
+    - BGS-811435
+    - BGS-811444
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.02.03
+  templates:
+    - type: simple
+      question: Select the correct statement in regard to a steady subsonic airflow.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Velocity increases as streamlines converge.
+          wrongAnswers:
+            - text: Static pressure increases as streamlines converge.
+            - text: Velocity does not change as streamlines converge.
+            - text: Static pressure does not change as streamlines converge.
+- id: QQYKY
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815330
+    - BGS-810175
+    - AVEXAM-62048
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.02.04
+  templates:
+    - type: simple
+      question: "The fundamental difference between the aerodynamic characteristics of two and three-dimensional flow is that, in a three-dimensional flow about a wing:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a spanwise component exists in addition to the chordwise speed component.
+          wrongAnswers:
+            - text: flow separation occurs at the stall.
+            - text: a downward component is added to the chordwise speed component of the flow behind the wing.
+            - text: an upward component is added to the chordwise speed component.
+- id: QBGQP
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811348
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.03.01
+  templates:
+    - type: simple
+      question: Consider the resultant force caused by pressure distribution around an aerofoil moving through the air, its originating point is the (1)\_\_\_\_\_ and its direction forms a(n) (2)\_\_\_\_\_ angle with the relative air flow.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) Centre of Pressure (CP); (2) 90 degree
+          wrongAnswers:
+            - text: (1) Aerodynamic Centre (AC); (2) 90 degrees
+            - text: (1) Aerodynamic Centre (AC); (2) acute (small)
+            - text: (1) Centre of Pressure (CP); (2) acute (small)
+- id: QKYVP
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816321
+    - AVEXAM-79796
+    - BGS-810076
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.03.01
+  templates:
+    - type: simple
+      question: "The lift- and drag forces, acting on an aerofoil:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: depend on the pressure distribution around the aerofoil.
+          wrongAnswers:
+            - text: are normal to each other at just one angle of attack.
+            - text: vary linearly with the angle of attack.
+            - text: are proportional to each other, independent of angle of attack.
+- id: QEJEZ
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811426
+    - AVEXAM-80462
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.03.02
+  templates:
+    - type: simple
+      question: What is/are the force(s) acting on a symmetrical aerofoil element when the upstream airflow is parallel to the chord line?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Weight and drag.
+          wrongAnswers:
+            - text: Lift and drag.
+            - text: Weight only.
+            - text: Zero force because zero lift is generated.
+- id: QVWVI
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817773
+    - BGS-810074
+    - AVEXAM-44029
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.03.02
+    - 081.01.01.03.03
+  templates:
+    - type: simple
+      question: "Lift is the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: component of the total aerodynamic force, perpendicular to the undisturbed airflow.
+          wrongAnswers:
+            - text: component of the total aerodynamic force, perpendicular to the mean aerodynamic chord.
+            - text: vertical component of the total aerodynamic force, perpendicular to the undisturbed airflow.
+            - text: component of the total aerodynamic force, perpendicular to the local airflow.
+- id: QLVNI
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QUSHZ
+  externalQuestionIds:
+    - ATPLQ-813680
+    - BGS-810080
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.03.03
+  templates:
+    - type: simple
+      question: "Drag is in the direction of – and lift is perpendicular to the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: relative wind/airflow.
+          wrongAnswers:
+            - text: longitudinal axis.
+            - text: horizon.
+            - text: chord line.
+- id: QUSHZ
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QLVNI
+  externalQuestionIds:
+    - ATPLQ-818669
+    - AVEXAM-6088
+    - BGS-810081
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.03.03
+  templates:
+    - type: simple
+      question: The forces of lift and drag on an aerofoil are, respectively, normal and parallel to the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: relative airflow.
+          wrongAnswers:
+            - text: longitudinal axis.
+            - text: horizontal.
+            - text: chord line.
+- id: QBPQK
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818954
+    - BGS-810085
+    - AVEXAM-92241
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.03.06
+  templates:
+    - type: simple
+      question: "When the lift coefficient CL of a symmetrical aerofoil section is zero, the pitching moment is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: zero.
+          wrongAnswers:
+            - text: positive (pitch-up).
+            - text: equal to the moment coefficient for stabilized angle of attack.
+            - text: negative (pitch-down).
+- id: QOZLX
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816128
+    - AVEXAM-83915
+    - BGS-810079
+    - BGS-810078
+    - AVEXAM-47211
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.03.07
+  templates:
+    - type: simple
+      question: When the lift coefficient of a positively cambered aerofoil section is zero, the pitching moment is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: negative.
+          wrongAnswers:
+            - text: maximum.
+            - text: positive.
+            - text: zero.
+- id: QTJJN
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811266
+    - AVEXAM-85986
+    - BGS-810560
+    - BGS-810604
+    - ATPLQ-817131
+    - BGS-811236
+    - BGS-810593
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.04.03
+  templates:
+    - type: simple
+      question: "When the speed over an aerofoil section increases from subsonic to supersonic, its aerodynamic centre:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: moves from approximately 25% to about 50% of the chord.
+          wrongAnswers:
+            - text: moves aft by approximately 10% of the chord.
+            - text: moves slightly forward.
+            - text: does not move.
+- id: QFADN
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QXBNL
+  externalQuestionIds:
+    - ATPLQ-817147
+    - AVEXAM-85655
+    - BGS-812633
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.04.04
+  templates:
+    - type: simple
+      question: Consider an aerofoil section. The relative thickness is the ratio of...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: maximum thickness to chord length.
+          wrongAnswers:
+            - text: maximum thickness to maximum camber.
+            - text: average thickness to chord length.
+            - text: average thickness to medium camber-line length.
+- id: QXBNL
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QFADN
+  externalQuestionIds:
+    - ATPLQ-814063
+    - AVEXAM-68358
+    - BGS-810086
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.04.04
+  templates:
+    - type: simple
+      question: "The relative thickness of an aerofoil is expressed in:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "% chord."
+          wrongAnswers:
+            - text: camber.
+            - text: meters.
+            - text: degrees cross section tail angle.
+- id: QCTHQ
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818856
+    - BGS-810087
+    - AVEXAM-80249
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.04.06
+  templates:
+    - type: simple
+      question: A line connecting the leading and trailing edge midway between the upper and lower surface of an aerofoil, is the definition of the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: camber line.
+          wrongAnswers:
+            - text: mean aerodynamic chord line.
+            - text: upper camber line.
+            - text: chord line.
+- id: QOEZR
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816346
+    - AVEXAM-78987
+    - BGS-810088
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.04.07
+  templates:
+    - type: simple
+      question: "An aerofoil is cambered when:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the line, which connects the centres of all inscribed circles, is curved.
+          wrongAnswers:
+            - text: the upper surface of the aerofoil is curved.
+            - text: the maximum thickness is large compared with the length of the chord.
+            - text: the chord line is curved.
+- id: QGVEI
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814156
+    - AVEXAM-52875
+  annexes:
+    - id: ADML
+  learningObjectiveIds:
+    - 081.01.01.05.03
+    - 081.01.01.05.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Given the wing planform represented in the diagram and the following dimensions: Span 12.5 m Root chord 1.5 m Tip chord 1.0 m. The correct values of wing area and taper ratio or aspect ratio are:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "Wing area: 15.625 m2 Taper ratio: 0.666"
+          wrongAnswers:
+            - text: "Wing area: 18.75 m2 Taper ratio: 1.5"
+            - text: "Wing area: 15.625 m2 Aspect ratio: 12.5"
+            - text: "Wing area: 18.75 m2 Aspect ratio: 10"
+- id: QKBAN
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811784
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.05.03
+  templates:
+    - type: simple
+      question: A tapered wing will have a taper ratio of...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: less than 1.
+          wrongAnswers:
+            - text: less than 0.
+            - text: equal to 1.
+            - text: more than 1.
+- id: QUNSD
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815127
+    - BGS-810095
+    - AVEXAM-92828
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.05.06
+  templates:
+    - type: simple
+      question: The mean geometric chord of a wing is the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: wing area divided by the wing span.
+          wrongAnswers:
+            - text: wingspan squared divided by the wing area.
+            - text: wing area divided by the mean aerodynamic chord.
+            - text: wingspan divided by the gross wing area.
+- id: QOUYZ
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811614
+    - AVEXAM-58388
+    - BGS-810091
+    - ATPLQ-812399
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.05.07
+  templates:
+    - type: simple
+      question: The Mean Aerodynamic Chord (MAC) for a given wing of any planform is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the chord of an equivalent untwisted, rectangular wing with the same pitching moment and lift characteristics as the actual wing.
+          wrongAnswers:
+            - text: the chord of a equivalent rectangular wing with the same leading and trailing edge positions as the actual wing half way between the wing root and wing tip.
+            - text: the average chord of the aeroplane’s wing, which is used to determine the pitching moment and lift characteristic of the whole wing.
+            - text: determined by dividing the actual aeroplane’s wing area by the wing span.
+    - type: simple
+      question: "The Mean Aerodynamic Chord (MAC) for a given wing of any platform is basically:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the chord of an equivalent untwisted, rectangular wing with the same pitching moment and lift characteristics as the actual wing.
+          wrongAnswers:
+            - text: the wing area divided by the wingspan.
+            - text: the chord of a large rectangular wing.
+            - text: the average chord of the actual aeroplane.
+- id: QENYR
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813370
+    - AVEXAM-39470
+    - BGS-811352
+    - BGS-810097
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.05.08
+  templates:
+    - type: simple
+      question: Aspect ratio of a tapered wing, is the ratio of...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: wing span squared over gross wing area.
+          wrongAnswers:
+            - text: average wing chord over wingspan.
+            - text: wing tip chord over wing root chord.
+            - text: net wing area over wing span.
+- id: QRBSI
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811561
+  annexes:
+    - id: ADML
+  learningObjectiveIds:
+    - 081.01.01.05.08
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Given the wing planform represented in the diagram with the following dimensions, calculate the aspect ratio:
+
+        Wingspan: 12.5 m   
+         Tip chord: 1 m   
+         Root chord: 1.5 m
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "10"
+          wrongAnswers:
+            - text: "8.3"
+            - text: "12.5"
+            - text: "4"
+- id: QCAXF
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812940
+    - AVEXAM-45509
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.05.11
+    - 081.03.01.03.02
+  templates:
+    - type: simple
+      question: In order to improve the stalling characteristics of an airplane, the wing's angle of incidence was changed but within limits. What is likely to happen?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The wing section with a bigger angle of incidence will stall.
+          wrongAnswers:
+            - text: There is an increased tendency to spiral dive.
+            - text: The wing will stall at a different angle of incidence.
+            - text: No major consequeces should be expected.
+- id: QRECS
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815437
+    - BGS-810089
+    - BGS-810071
+    - AVEXAM-62363
+    - AVEXAM-83225
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.01.05.12
+  templates:
+    - type: simple
+      question: "The angle between the aeroplane longitudinal axis and the wing root chord line is the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: angle of incidence.
+          wrongAnswers:
+            - text: flight path angle.
+            - text: glide angle.
+            - text: angle of attack.
+- id: QLYWS
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815274
+    - AVEXAM-63493
+    - BGS-811421
+    - ATPLQ-817317
+    - AVEXAM-75293
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.02.01.02
+  templates:
+    - type: simple
+      question: Assuming incompressible flow, when considering streamlines in the vicinity of an aerofoil, which of the following answers is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Converging streamlines indicate that the speed of the flow is increasing and that the static pressure is decreasing.
+          wrongAnswers:
+            - text: Converging streamlines indicate that the speed of the flow is decreasing and that the static pressure is increasing.
+            - text: Diverging streamlines indicate that the speed of the flow is increasing and that the static pressure is increasing.
+            - text: Diverging streamlines indicate that the speed of the flow is decreasing and that the static pressure is decreasing.
+    - type: simple
+      question: "Considering streamlines over an aerofoil, which of the following is correct:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Streamlines converge over the top, pressure decreases.
+          wrongAnswers:
+            - text: Streamlines diverge over the top.
+            - text: Streamlines diverge over the bottom of the wing.
+            - text: Streamlines diverge over the the bottom,pressure increases.
+- id: QSKCB
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816972
+    - AVEXAM-76563
+    - AVEXAM-91793
+    - AVEXAM-326
+    - AVEXAM-75317
+    - AVEXAM-67136
+    - BGS-810016
+    - AVEXAM-4662
+    - AVEXAM-24113
+    - AVEXAM-16670
+    - AVEXAM-96934
+    - AVEXAM-78566
+    - AVEXAM-32455
+    - AVEXAM-76470
+    - AVEXAM-23
+    - AVEXAM-37243
+    - AVEXAM-32214
+    - AVEXAM-60395
+    - AVEXAM-70123
+    - AVEXAM-14705
+    - AVEXAM-59451
+    - AVEXAM-11706
+    - AVEXAM-69849
+    - AVEXAM-94228
+    - AVEXAM-73773
+    - AVEXAM-28286
+    - AVEXAM-95107
+    - AVEXAM-53877
+    - AVEXAM-75919
+    - AVEXAM-97566
+    - AVEXAM-55528
+    - AVEXAM-776
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.02.01.02
+  templates:
+    - type: one-two
+      question: Which of these statements about a steady subsonic flow are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - The velocity decreases as the streamlines diverge.
+          wrong:
+            - The velocity increases as the streamlines diverge.
+        - right:
+            - The static pressure does not change as the streamlines diverge.
+          wrong:
+            - The static pressure changes as the streamlines diverge.
+- id: QZCFD
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818327
+    - AVEXAM-38990
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.02.01.03
+    - 081.01.04.02.03
+  templates:
+    - type: simple
+      question: Regarding downwash, which of the following answers is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The greater the downwash, the greater the lift being generated by the aerofoil.
+          wrongAnswers:
+            - text: Downwash is caused by the converging airflow above the aerofoil.
+            - text: The greater the downwash, the less lift is being produced by the aerofoil due to energy loss.
+            - text: Downwash is caused by the lower surface of the aerofoil deflecting the airflow downwards, producing lift upwards.
+- id: QGEYE
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816884
+    - AVEXAM-97211
+    - BGS-810101
+  annexes:
+    - id: AOZT
+  learningObjectiveIds:
+    - 081.01.02.02.01
+    - 081.01.02.03.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        How are the speeds (shown in the figure) at point 1 and point 2 related to the relative wind/airflow V?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: V1 \= 0 and V2 \> V
+          wrongAnswers:
+            - text: V1 < V2 and V2 < V
+            - text: V1 \= 0 and V2 \= V
+            - text: V1 \> V2 and V2 < V
+- id: QZYLR
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818102
+    - BGS-810067
+    - BGS-811483
+    - AVEXAM-22021
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.02.02.01
+  templates:
+    - type: simple
+      question: "The stagnation point is the point:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: where the velocity of the relative airflow is reduced to zero.
+          wrongAnswers:
+            - text: of the intersection of the total aerodynamic force and the chord line.
+            - text: relative to which the sum of all moments is independent of angle of attack.
+            - text: of the intersection of the thrust vector and the chord line.
+- id: QOAKH
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819080
+    - BGS-812361
+    - AVEXAM-43056
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.02.02.02
+  templates:
+    - type: simple
+      question: Where would you expect the forward stagnation point of an aerofoil to be during slow flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Lower surface.
+          wrongAnswers:
+            - text: Leading edge point.
+            - text: Upper surface.
+            - text: Upper surface, at a location nearly 25% of the chord.
+- id: QYDYB
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812895
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.02.02.02
+    - 081.01.02.03.01
+  templates:
+    - type: one-two
+      question: Assuming no flow separation, which of these statements about the flow around an aerofoil as the angle of attack increases are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - The stagnation point moves down.
+          wrong:
+            - The stagnation point moves up.
+        - right:
+            - The point of lowest static pressure moves forward.
+          wrong:
+            - The point of lowest static pressure moves backward.
+- id: QZQBW
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817393
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.02.02.02
+    - 081.01.02.03.01
+  templates:
+    - type: one-two
+      question: Assuming no flow separation, which of these statements about the flow around an aerofoil as the angle of attack decreases are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - The stagnation point moves up.
+          wrong:
+            - The stagnation point moves down.
+        - right:
+            - The point of lowest static pressure moves aft.
+          wrong:
+            - The point of lowest static pressure moves forward.
+- id: QEXVC
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812840
+    - BGS-811337
+    - BGS-812066
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.02.03.01
+  templates:
+    - type: simple
+      question: At a constant airspeed, a reduction in an aerofoil’s angle of attack results in the speed of the flow over the upper surface to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: decrease and the lifting ability of the aerofoil to decrease.
+          wrongAnswers:
+            - text: increase and the lifting ability of the aerofoil to increase.
+            - text: decrease and the lifting ability of the aerofoil to increase.
+            - text: increase and the lifting ability of the aerofoil to decrease.
+- id: QNHYV
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815601
+    - AVEXAM-14656
+    - BGS-812581
+    - AVEXAM-89411
+    - AVEXAM-1699
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.02.03.01
+  templates:
+    - type: simple
+      question: The point of minimum static pressure on a positively cambered aerofoil flying at a low subsonic speeds at a positive angle of attack is…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: on the upper surface, where the speed is highest.
+          wrongAnswers:
+            - text: on the lower surface, where the dynamic pressure is highest.
+            - text: on the upper surface, where the speed is lowest.
+            - text: on the lower surface, where the dynamic pressure is lowest.
+- id: QEFOW
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QXVHS
+  externalQuestionIds:
+    - ATPLQ-815333
+    - BGS-810118
+    - AVEXAM-81674
+    - AVEXAM-91370
+    - AVEXAM-12980
+    - ATPLQ-813075
+    - AVEXAM-87102
+    - BGS-810116
+    - AVEXAM-53400
+    - BGS-811489
+    - BGS-810117
+    - ATPLQ-819111
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.02.04.01
+  templates:
+    - type: simple
+      question: "Assuming no flow separation and no compressibility effects the location of the centre of pressure of a positively cambered aerofoil section:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: moves backward when the angle of attack decreases.
+          wrongAnswers:
+            - text: is at approximately 25% chord irrespective of angle of attack.
+            - text: is independent of angle of attack.
+            - text: moves forward when the angle of attack decreases.
+        - correctAnswers:
+            - text: is independent of angle of attack.
+          wrongAnswers:
+            - text: moves forward when the angle of attack decreases.
+            - text: is at approximately 50% of the chord irrespective of angle of attack.
+            - text: moves backward when the angle of attack decreases.
+- id: QWUSZ
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816447
+    - AVEXAM-3289
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.02.04.01
+    - 081.01.09.01.03
+    - 081.04.03.07.01
+  templates:
+    - type: multiple-correct
+      question: The C**m** (pitching moment) vs alpha (angle of attack) graph is mainly determined by aerofoil and aircraft design, and dictates aircraft longitudinal stability. Which of the following factors can the pilot influence whilst in flight?
+      explanation: ""
+      options:
+        - text: The centre of pressure, by changing the flap setting.
+          correct: true
+        - text: The neutral point, by varying alpha.
+          correct: false
+        - text: The centre of pressure, by varying alpha.
+          correct: true
+        - text: The centre of gravity, which influences the degree of pitching moment.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QXVHS
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QEFOW
+  externalQuestionIds:
+    - ATPLQ-817089
+    - AVEXAM-48122
+    - BGS-810115
+    - BGS-810114
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.02.04.01
+  templates:
+    - type: simple
+      question: "Assuming no flow separation and no compressibility effects, the location of the aerodynamic centre of an aerofoil section:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is at approximately 25% chord irrespective of angle of attack.
+          wrongAnswers:
+            - text: is at approximately 50% chord irrespective of angle of attack.
+            - text: moves backward when the angle of attack decreases.
+            - text: moves backward when the angle of attack increases.
+- id: QWSFI
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818146
+    - BGS-810272
+    - BGS-810261
+    - AVEXAM-86490
+    - AVEXAM-58834
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.02.06.01
+  templates:
+    - type: simple
+      question: "The total drag of an aerofoil in two dimensional flow comprises:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: pressure drag and skin friction drag.
+          wrongAnswers:
+            - text: induced drag and form drag.
+            - text: interference drag and skin friction drag.
+            - text: skin friction drag and induced drag.
+- id: QBHJR
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QRRZE
+  externalQuestionIds:
+    - ATPLQ-818454
+  annexes:
+    - id: AHIF
+  learningObjectiveIds:
+    - 081.01.02.06.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Assuming all bodies have the same cross-sectional area and are in motion, which body will have the highest form drag?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Shape 2.
+          wrongAnswers:
+            - text: Shape 4.
+            - text: Shape 1.
+            - text: Shape 3.
+- id: QRRZE
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QBHJR
+  externalQuestionIds:
+    - ATPLQ-812183
+    - BGS-810161
+    - BGS-810163
+  annexes:
+    - id: AHIF
+  learningObjectiveIds:
+    - 081.01.02.06.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Assuming all bodies have the same cross-sectional area and are in motion, place these bodies in order of decreasing pressure drag. The correct answer is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2, 1, 4, 3.
+          wrongAnswers:
+            - text: 1, 2, 4, 3.
+            - text: 2, 1, 3, 4.
+            - text: 3, 4, 1, 2.
+- id: QBUEV
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812497
+    - BGS-810126
+    - BGS-810125
+    - AVEXAM-36386
+    - ATPLQ-818955
+    - AVEXAM-84162
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.02.09.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.   
+        The point in the annex corresponding to CL for minimum horizontal flight speed is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: point C.
+          wrongAnswers:
+            - text: point A.
+            - text: point D.
+            - text: point B.
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The point in the annex showing zero lift is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: point A.
+          wrongAnswers:
+            - text: point C.
+            - text: point B.
+            - text: point D.
+- id: QPAAQ
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817926
+    - ATPLQ-816345
+    - AVEXAM-14307
+    - ATPLQ-818487
+    - AVEXAM-79112
+    - BGS-812327
+    - AVEXAM-26184
+    - ATPLQ-815429
+    - ATPLQ-814168
+    - AVEXAM-66034
+    - BGS-812402
+    - BGS-812571
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.03.02.01
+  templates:
+    - type: simple
+      question: |-
+        Calculate the coefficient of lift for an aircraft in straight and level flight, in clean configuration, flying at its stall speed (VS).
+
+        - Density: {{rho}} kg/m³
+        - TAS at the stall speed: {{tas}} kt
+        - Mass: {{mass}} kg
+        - Wing area: {{area}} m²
+        - g: {{g}} m/s²
+      explanation: |-
+        In level flight the lift equals the weight. The lift coefficient follows from the lift equation, which uses the air density, the speed squared and the wing area. The speed must be in metres per second, so the knots are converted with 1 kt = 0.514444 m/s.
+
+        **Solution**
+
+        The speed in metres per second is {{macro1}} m/s.
+
+        $$
+        \frac{2\times \text{Mass}\times \text{Gravity}}{\text{Density}\times {(\text{TAS}\times 0.514444)}^{2}\times \text{Wing area}} = \frac{2\times {{mass}}\times {{g}} }{1.225\times {({{tas}}\times 0.514444)}^{2}\times {{area}} } = \mathbf{ {{answer}} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}**: leaves out the factor of 2 from the lift equation.
+        - **{{d2}}**: uses the speed once instead of squaring it.
+        - **{{d3}}**: leaves out the wing area.
+        - **{{d4}}**: uses the speed in knots without converting it to metres per second.
+      presets:
+        - variables:
+            rho: 1.225
+            tas: 73
+            mass: 7300
+            area: 49
+            g: 9.81
+            macro1: 37.55
+            answer: 1.69
+            d1: 0.85
+            d2: 63.54
+            d3: 82.9
+            d4: 0.45
+          correctAnswers:
+            - text: "1.69 "
+          wrongAnswers:
+            - text: "0.85 "
+            - text: "82.9 "
+            - text: "0.45 "
+            - text: "63.54 "
+        - variables:
+            rho: 1.225
+            tas: 70
+            mass: 1400
+            area: 13.5
+            g: 9.8
+            macro1: 36.01
+            answer: 1.28
+            d1: 0.64
+            d2: 46.08
+            d3: 17.27
+            d4: 0.34
+          correctAnswers:
+            - text: "1.28 "
+          wrongAnswers:
+            - text: "0.64 "
+            - text: "17.27 "
+            - text: "0.34 "
+            - text: "46.08 "
+        - variables:
+            rho: 1.225
+            tas: 70
+            mass: 1300
+            area: 13.5
+            g: 9.81
+            macro1: 36.01
+            answer: 1.19
+            d1: 0.59
+            d2: 42.83
+            d3: 16.06
+            d4: 0.31
+          correctAnswers:
+            - text: "1.19 "
+          wrongAnswers:
+            - text: "0.59 "
+            - text: "16.06 "
+            - text: "0.31 "
+            - text: "42.83 "
+- id: QQYFM
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818334
+    - AVEXAM-51904
+    - BGS-811397
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.03.02.01
+    - 081.03.01.02.04
+  templates:
+    - type: simple
+      question: |-
+        A light aircraft is flying straight and level:
+
+        - Speed: {{speed}} kt
+        - CL: {{cl}}
+
+        The pilot immediately pulls into a climb with a load factor of {{n}} g. What is the new CL?
+      explanation: |-
+        The speed stays the same, so the lift needed for the manoeuvre is the load factor times the weight. The lift coefficient therefore rises in the same proportion as the load factor, and the new CL is the initial CL multiplied by the load factor.
+
+        **Solution**
+
+        - $$\text{Initial CL}\times \text{Load factor} = {{cl}}\times {{n}} = \mathbf{ {{answer}} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}**: divides instead of multiplies, as if the load factor reduced the lift.
+        - **{{d2}}**: keeps the original CL and ignores the extra load.
+        - **{{d3}}**: squares the load factor.
+        - **{{d4}}**: uses only the extra load (load factor minus 1) and ignores the weight already carried.
+      presets:
+        - variables:
+            speed: 110
+            cl: 0.42
+            n: 2.2
+            answer: 0.92
+            d1: 0.19
+            d2: 0.42
+            d3: 2.03
+            d4: 0.5
+          correctAnswers:
+            - text: "0.92 "
+          wrongAnswers:
+            - text: "0.19 "
+            - text: "2.03 "
+            - text: "0.5 "
+            - text: "0.42 "
+        - variables:
+            speed: 100
+            cl: 0.35
+            n: 1.8
+            answer: 0.63
+            d1: 0.19
+            d2: 0.35
+            d3: 1.13
+            d4: 0.28
+          correctAnswers:
+            - text: "0.63 "
+          wrongAnswers:
+            - text: "0.19 "
+            - text: "1.13 "
+            - text: "0.28 "
+            - text: "0.35 "
+    - type: simple
+      question: |-
+        An aircraft is in level flight maintaining 220Kts.  CL is 0.42.
+        The pilot starts a pull-up manoeuvre by increasing LF to 2.2.
+        What is the new value of CL ?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "0.924"
+          wrongAnswers:
+            - text: "0.504"
+            - text: "0.63"
+            - text: "2.03"
+- id: QTVCS
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815350
+    - AVEXAM-90636
+    - BGS-812228
+  annexes:
+    - id: AJHS
+  learningObjectiveIds:
+    - 081.01.03.02.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The correct sequence that represents the ordering of the aerofoils by increasing CL is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3, 4, 1, 2.
+          wrongAnswers:
+            - text: 4, 2, 1, 3.
+            - text: 4, 1, 2, 3.
+            - text: 1, 2, 3, 4.
+- id: QRXOH
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816252
+  annexes:
+    - id: AOJC
+  learningObjectiveIds:
+    - 081.01.03.02.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Match the various wing types with their corresponding slopes:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A - 1; B - 2; C - 3.
+          wrongAnswers:
+            - text: A - 3; B - 1; C - 2.
+            - text: A - 2; B - 3; C - 1.
+            - text: A - 2; B - 1; C - 3.
+- id: QYLTT
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816475
+    - AVEXAM-9153
+    - BGS-812833
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.03.02.04
+  templates:
+    - type: simple
+      question: |-
+        Consider the ‘’CL vs angle of attack’’ graph of a non-symmetrical airfoil with the X axis representing angle of attack, and the Y axis representing CL.  
+        The angle of attack at which the aerofoil achieves CLMAX can be found on the graph…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: at its highest Y value.
+          wrongAnswers:
+            - text: at the point where it crosses the X axis.
+            - text: at the point where it crosses the Y axis.
+            - text: at its highest X value.
+- id: QAPXM
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812158
+    - BGS-812183
+    - ATPLQ-819757
+    - AVEXAM-27410
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.03.02.05
+  templates:
+    - type: simple
+      question: "Coefficient of lift is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A variable depending on dynamic pressure and the wing area
+          wrongAnswers:
+            - text: A variable depending on thrust and empange
+            - text: A variable depending on static pressure and the wing area
+            - text: A variable depending on wing camber and static pressure
+        - correctAnswers:
+            - text: A dimensionless number that gives the relationship between lift force per unit wing area and dynamic pressure.
+          wrongAnswers:
+            - text: A number, measured in units of force, that gives the lift force at a given airspeed.
+            - text: A dimensionless number that gives the relationship between lift force per unit area and true airspeed.
+            - text: A number, measured in units of pressure, that gives the dynamic pressure produced at a given airspeed.
+- id: QBCRX
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814233
+    - AVEXAM-69110
+    - BGS-811555
+    - AVEXAM-69160
+    - BGS-810138
+    - ATPLQ-811369
+    - AVEXAM-34755
+    - BGS-811512
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.03.03.01
+  templates:
+    - type: simple
+      question: Which of these variables are required to calculate drag from the drag formula?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Dynamic pressure, drag coefficient and wing area.
+          wrongAnswers:
+            - text: Total pressure and wing area only.
+            - text: Frontal wing area, density and wing loading.
+            - text: Angle of attack, aspect ratio and dynamic pressure.
+    - type: simple
+      question: The coefficient of drag can be defined as the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ratio of drag pressure to dynamic pressure.
+          wrongAnswers:
+            - text: ratio of lift forces to drag forces.
+            - text: sum of induced drag and parasite drag.
+            - text: measure of the efficiency of the aeroplane.
+- id: QPLBU
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813385
+    - AVEXAM-58777
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.03.03.01
+  templates:
+    - type: simple
+      question: |-
+        Calculate the new value of drag force, given: An airplane flying at 100 kt at an angle (alpha 1) of 4º, has a drag coefficient (CD1) of 0.028\. Total drag force is 900 N.  
+        The airplane decelerates to 55 kt, flying at an angle of attack (alpha 2) of 15º, when drag coefficient (CD2) is 0.148.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 420 N
+          wrongAnswers:
+            - text: 3 475 N
+            - text: 1 305 N
+            - text: 1 272 N
+- id: QOYGW
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812489
+    - BGS-812748
+    - BGS-812229
+    - AVEXAM-61626
+  annexes:
+    - id: ARRA
+  learningObjectiveIds:
+    - 081.01.03.03.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What is the correct combination of letters identifying the airfoils with the corresponding numbers from the CD graphic?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 – d, 2 – a, 3 – c, 4 – b
+          wrongAnswers:
+            - text: 1 – a, 2 – b, 3 – c, 4 – d
+            - text: 1 – d, 2 – a, 3 – b, 4 – c
+            - text: 1 – a, 2 – d, 3 – c, 4 – b
+    - type: simple
+      question: |-
+        Refer to figure 081-58.
+        Choose the correct combination of numbers and letters, identifying the aerofoils with the corresponding numbers from the CD graphic?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1B, 2D, 3C, 4A
+          wrongAnswers:
+            - text: 1A, 2B, 3C, 4D
+            - text: 1D, 2A, 3B, 4C
+            - text: 1A, 2D, 3C, 4B
+- id: QYEEA
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815696
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.01.01
+  templates:
+    - type: simple
+      question: "An aeroplane's angle of attack can be defined as the angle between its:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: speed vector and longitudinal axis.
+          wrongAnswers:
+            - text: longitudinal axis and the horizontal plane.
+            - text: speed vector and the horizontal plane.
+            - text: lateral axis and the horizontal plane.
+- id: QESFL
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813420
+    - AVEXAM-93360
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.02.02
+  templates:
+    - type: simple
+      question: Describe the airflow with regards to the induced drag...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: From the bottom to the top via the tip.
+          wrongAnswers:
+            - text: From the top to the bottom via the leading edge.
+            - text: From the bottom to the top via the trailing edge.
+            - text: From the top to the bottom via the tip.
+- id: QYKNJ
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816668
+    - AVEXAM-66460
+    - BGS-811533
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.02.02
+  templates:
+    - type: simple
+      question: Considering a rectangular unswept wing, which statement is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The flow on the upper surface of the wing has a component acting in the direction of the wing root.
+          wrongAnswers:
+            - text: Tip vortices can be diminished by vortex generators.
+            - text: Tip vortices and induced drag decrease with increasing Angle Of Attack.
+            - text: The flows on the upper and lower surfaces of the wing are both in the direction of the wing tip.
+- id: QXTFT
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815883
+    - BGS-811532
+    - AVEXAM-55050
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.02.03
+  templates:
+    - type: simple
+      question: Wing-tip vortices are formed by the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: spanwise flow of higher pressure air from beneath the wing outward and upward into the lower pressure air above the wing.
+          wrongAnswers:
+            - text: mixing of the high energy airflow over the wing with the free stream air behind the trailing edge of the wing.
+            - text: rotational velocity imparted to the free stream air resulting from the propeller wash across the top of the wing.
+            - text: aerodynamic interference of boundary layers from different parts of the aeroplane with those of the wing.
+- id: QRBQN
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812878
+    - BGS-811515
+    - BGS-810628
+    - BGS-810627
+    - BGS-810629
+    - BGS-810185
+    - AVEXAM-7497
+    - AVEXAM-49975
+    - BGS-810188
+    - AVEXAM-79078
+    - AVEXAM-19314
+    - AVEXAM-23178
+    - AVEXAM-32475
+    - AVEXAM-63246
+    - AVEXAM-66625
+    - BGS-810179
+    - AVEXAM-67655
+    - AVEXAM-52641
+    - AVEXAM-80552
+    - AVEXAM-88828
+    - AVEXAM-80142
+    - AVEXAM-83202
+    - BGS-810190
+    - AVEXAM-24240
+    - AVEXAM-7811
+    - BGS-810178
+    - AVEXAM-25491
+    - AVEXAM-7722
+    - AVEXAM-51425
+    - AVEXAM-81034
+    - BGS-810183
+    - BGS-810197
+    - BGS-810192
+    - BGS-810180
+    - BGS-810626
+    - BGS-810625
+    - BGS-811701
+    - BGS-810200
+    - BGS-810195
+    - BGS-810187
+    - BGS-810196
+    - BGS-810182
+    - BGS-811520
+    - BGS-811516
+    - BGS-811513
+    - ATPLQ-813155
+    - AVEXAM-99900
+    - AVEXAM-90975
+    - AVEXAM-1976
+    - AVEXAM-87985
+    - AVEXAM-12742
+    - AVEXAM-38619
+    - AVEXAM-86329
+    - AVEXAM-40450
+    - AVEXAM-1748
+    - AVEXAM-63509
+    - AVEXAM-66116
+    - AVEXAM-89647
+    - AVEXAM-13467
+    - AVEXAM-71502
+    - AVEXAM-11439
+    - AVEXAM-42541
+    - AVEXAM-56614
+    - AVEXAM-64801
+    - AVEXAM-86289
+    - AVEXAM-94671
+    - AVEXAM-76040
+    - AVEXAM-32915
+    - ATPLQ-815607
+    - ATPLQ-816078
+    - BGS-810624
+    - ATPLQ-819894
+    - ATPLQ-818806
+    - ATPLQ-811339
+    - BGS-810198
+    - BGS-810199
+    - BGS-810193
+    - BGS-810201
+    - BGS-810202
+    - ATPLQ-813663
+    - ATPLQ-819109
+    - ATPLQ-818138
+    - ATPLQ-817049
+    - ATPLQ-811867
+    - ATPLQ-813192
+    - ATPLQ-819149
+    - ATPLQ-812407
+    - ATPLQ-815293
+    - ATPLQ-813152
+    - ATPLQ-813850
+    - ATPLQ-815106
+    - ATPLQ-817834
+    - ATPLQ-814321
+    - ATPLQ-812565
+    - ATPLQ-811122
+    - ATPLQ-817353
+    - ATPLQ-816391
+    - ATPLQ-813349
+    - ATPLQ-814635
+    - ATPLQ-811593
+    - ATPLQ-811563
+    - BGS-810186
+    - BGS-810194
+    - BGS-810191
+    - BGS-810184
+    - BGS-810189
+    - BGS-810181
+    - ATPLQ-818678
+    - ATPLQ-811720
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.02.04
+    - 081.01.04.02.08
+    - 081.01.04.03.10
+  templates:
+    - type: one-two
+      question: Which statements about wingtip vortex strength are correct?
+      explanation: Before separation, raising angle of attack increases circulation and typically strengthens the tip vortices. For a like-for-like comparison at the same lift, a greater span spreads the circulation and reduces induced effects. Aspect ratio alone is insufficient to predict vortex strength without specifying what is held fixed.
+      pairs:
+        - right:
+            - Before separation, increasing the angle of attack of a given wing generally strengthens its tip vortices.
+            - Before separation, reducing the angle of attack of a given wing generally weakens its tip vortices.
+          wrong:
+            - Before separation, increasing the angle of attack of a given wing generally weakens its tip vortices.
+            - Before separation, reducing the angle of attack of a given wing generally strengthens its tip vortices.
+        - right:
+            - For wings of equal area supporting the same lift at the same airspeed, increasing span reduces the induced effects.
+          wrong:
+            - For wings of equal area supporting the same lift at the same airspeed, decreasing span reduces the induced effects.
+            - Span has no effect on the induced flow at the same lift and airspeed.
+    - type: simple
+      question: |-
+        Which of these statements about the strength of wing tip vortices are correct or incorrect?
+
+        I. Assuming no flow separation, {{first}}.
+        II. {{second}}.
+      explanation: "Wing tip vortices are a by-product of lift: the pressure difference between the lower and upper surface drives air round the tip. Before flow separation, a higher angle of attack increases that pressure difference and strengthens the vortices, so statements that the strength is unaffected by, or decreases with, angle of attack are incorrect. A lower aspect ratio (short span for the chord) makes the tip flow affect a larger share of the wing, so the vortices become stronger as aspect ratio decreases and weaker as it increases; the strength is therefore affected by aspect ratio."
+      presets:
+        - variables:
+            first: the strength of wing tip vortices is not affected by angle of attack
+            second: The strength of wing tip vortices decreases as the aspect ratio decreases
+          correctAnswers:
+            - text: I is incorrect, II is incorrect.
+          wrongAnswers:
+            - text: I is correct, II is correct.
+            - text: I is correct, II is incorrect.
+            - text: I is incorrect, II is correct.
+        - variables:
+            first: the strength of wing tip vortices is not affected by angle of attack
+            second: The strength of wing tip vortices increases as the aspect ratio decreases
+          correctAnswers:
+            - text: I is incorrect, II is correct.
+          wrongAnswers:
+            - text: I is correct, II is correct.
+            - text: I is correct, II is incorrect.
+            - text: I is incorrect, II is incorrect.
+        - variables:
+            first: the strength of wing tip vortices decreases as the angle of attack increases
+            second: The strength of wing tip vortices increases as the aspect ratio increases
+          correctAnswers:
+            - text: I is incorrect, II is incorrect.
+          wrongAnswers:
+            - text: I is correct, II is correct.
+            - text: I is correct, II is incorrect.
+            - text: I is incorrect, II is correct.
+        - variables:
+            first: the strength of wing tip vortices decreases as the angle of attack increases
+            second: The strength of wing tip vortices is not affected by aspect ratio
+          correctAnswers:
+            - text: I is incorrect, II is incorrect.
+          wrongAnswers:
+            - text: I is correct, II is correct.
+            - text: I is correct, II is incorrect.
+            - text: I is incorrect, II is correct.
+        - variables:
+            first: the strength of wing tip vortices is not affected by angle of attack
+            second: The strength of wing tip vortices increases as the aspect ratio increases
+          correctAnswers:
+            - text: I is incorrect, II is incorrect.
+          wrongAnswers:
+            - text: I is correct, II is correct.
+            - text: I is correct, II is incorrect.
+            - text: I is incorrect, II is correct.
+- id: QHANV
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819343
+    - AVEXAM-86981
+    - BGS-812612
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.02.05
+  templates:
+    - type: simple
+      question: With regards to wing planforms and spanwise lift distribution, which statement is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An elliptical wing produces more lift closer to the root.
+          wrongAnswers:
+            - text: A rectangular wing produces more lift closer to the tip.
+            - text: An elliptical wing produces the same amount of lift along the wing span.
+            - text: A rectangular wing produces the same amount of lift along the wing span.
+- id: QZRML
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818329
+    - AVEXAM-83317
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.02.07
+  templates:
+    - type: simple
+      question: By lowering the trailing edge flaps...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: wing tip vortex decrease due to CP closer to wing root.
+          wrongAnswers:
+            - text: wing tip vortex increase due to CP closer to wing root.
+            - text: wing tip vortex increase due to CP closer to wing tip.
+            - text: wing tip vortex decrease due to CP closer to wing tip.
+- id: QTBLZ
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815181
+    - AVEXAM-29908
+    - BGS-812622
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.02.08
+  templates:
+    - type: simple
+      question: Regarding wake turbulence, choose the correct sentence.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Heavy aircraft produce stronger wake turbulence than lighter ones.
+          wrongAnswers:
+            - text: As an aircraft’s angle of attack increases to a high angle, the wake turbulence becomes weaker.
+            - text: Wake turbulence is stronger behind a light aircraft than a heavier aircraft.
+            - text: Aircraft mass does NOT influence wake turbulence.
+- id: QAWAS
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818352
+    - BGS-810253
+    - AVEXAM-12137
+    - ATPLQ-815418
+    - BGS-810220
+    - AVEXAM-31164
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.03.01
+  templates:
+    - type: simple
+      question: "Induced drag is created by the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: spanwise flow pattern resulting in the tip vortices.
+          wrongAnswers:
+            - text: interference of the air stream between wing and fuselage.
+            - text: propeller wash blowing across the wing.
+            - text: separation of the boundary layer over the wing.
+    - type: simple
+      question: "Induced drag is the result of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: downwash generated by tip vortices.
+          wrongAnswers:
+            - text: aerodynamic interaction between aeroplane parts.
+            - text: propeller slipstream over the wing.
+            - text: boundary layer separation on the aft portion of the wing.
+- id: QVWKQ
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817324
+    - AVEXAM-33047
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.03.01
+  templates:
+    - type: simple
+      question: Which of the following creates induced drag on a wing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Angle of attack.
+          wrongAnswers:
+            - text: Turbulence.
+            - text: Airflow around the fuselage and wing root meeting.
+            - text: Ground effect.
+- id: QDYAI
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812535
+    - ATPLQ-813664
+    - ATPLQ-814449
+    - ATPLQ-815420
+    - ATPLQ-816205
+    - ATPLQ-817357
+    - ATPLQ-819777
+    - AVEXAM-12247
+    - AVEXAM-16272
+    - AVEXAM-17199
+    - AVEXAM-17674
+    - AVEXAM-19931
+    - AVEXAM-24170
+    - AVEXAM-28455
+    - AVEXAM-51081
+    - AVEXAM-74597
+    - AVEXAM-9778
+    - BGS-811534
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.03.04
+    - 081.01.04.03.10
+  templates:
+    - type: one-two
+      question: Given a constant load factor, which of these statements about the variation of induced drag with changes of speed and mass are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - When speed increases, induced drag decreases.
+          wrong:
+            - When speed increases, induced drag increases.
+        - right:
+            - When mass increases, induced drag increases.
+          wrong:
+            - When mass decreases, induced drag increases.
+        - right:
+            - When speed decreases, induced drag increases.
+          wrong:
+            - When speed decreases, induced drag decreases.
+        - right:
+            - When mass decreases, induced drag decreases.
+          wrong:
+            - When mass increases, induced drag decreases.
+- id: QJTUY
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813692
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.03.04
+    - 081.01.05.07.01
+  templates:
+    - type: simple
+      question: If the aircraft's mass changes, the VMD (1)\_\_\_\_\_ and the induced drag (2)\_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) varies; (2) varies.
+          wrongAnswers:
+            - text: (1) remains constant; (2) varies.
+            - text: (1) varies; (2) remains constant.
+            - text: (1) remains constant; (2) remains costant.
+- id: QNYRM
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814880
+    - AVEXAM-84989
+    - AVEXAM-23773
+    - AVEXAM-52155
+    - BGS-811538
+    - BGS-810223
+    - BGS-810229
+    - BGS-810235
+    - AVEXAM-64482
+    - AVEXAM-60330
+    - BGS-810241
+    - BGS-810236
+    - BGS-811541
+    - BGS-811543
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.03.04
+  templates:
+    - type: one-two
+      question: Which of these statements about induced drag are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - Induced drag increases as angle of attack increases.
+          wrong:
+            - Induced drag decreases as angle of attack increases.
+        - right:
+            - At constant load factor, induced drag increases with increasing aeroplane mass.
+          wrong:
+            - At constant load factor, induced drag decreases with increasing aeroplane mass.
+- id: QCNAT
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812616
+    - AVEXAM-90166
+    - BGS-810250
+    - ATPLQ-812905
+    - ATPLQ-814662
+    - BGS-810208
+    - AVEXAM-50844
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.03.05
+  templates:
+    - type: simple
+      question: What is the effect on induced drag of an increase in aspect ratio?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Induced drag decreases, because the effect of tip vortices decreases.
+          wrongAnswers:
+            - text: Induced drag decreases, because a larger aspect ratio causes more downwash.
+            - text: Induced drag increases, because the effect of tip vortices increases.
+            - text: Induced drag increases, because a larger aspect ratio increases the frontal area.
+    - type: simple
+      question: "Induced drag may be reduced by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: an increase in aspect ratio.
+          wrongAnswers:
+            - text: the use of a wing tip with a much thinner aerofoil.
+            - text: a decrease of the aspect ratio.
+            - text: an increase in wing sweep back.
+    - type: simple
+      question: "The relationship between induced drag and the aspect ratio is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a decrease in the aspect ratio increases the induced drag.
+          wrongAnswers:
+            - text: induced drag = 1.3 aspect ratio value.
+            - text: an increase in the aspect ratio increases the induced drag.
+            - text: there is no relationship.
+- id: QPMRB
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816567
+    - BGS-810245
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.03.05
+    - 081.01.05.02.02
+  templates:
+    - type: one-two
+      question: Which statement, about the effects on drag of fitting external tip tanks to the wings of an aeroplane, is correct?
+      explanation: ""
+      pairs:
+        - right:
+            - Induced drag decreases.
+          wrong:
+            - Induced drag increases.
+        - right:
+            - Parasite drag increases.
+          wrong:
+            - Parasite drag decreases.
+- id: QYFCS
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812152
+    - AVEXAM-45490
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.03.06
+    - 081.01.04.03.10
+  templates:
+    - type: one-two
+      question: Which of these statements about induced drag are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - An elliptical spanwise lift distribution generates less induced drag than a rectangular lift distribution.
+          wrong:
+            - An elliptical spanwise lift distribution generates more induced drag than a rectangular lift distribution.
+        - right:
+            - Induced drag increases with decreasing aspect ratio.
+          wrong:
+            - Induced drag decreases with decreasing aspect ratio.
+- id: QFPRS
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818047
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.03.07
+    - 081.01.04.03.10
+  templates:
+    - type: simple
+      question: In order to keep straight and level, if the airspeed increases, the EAF is (1) \_\_\_\_\_, the effective AoA is (2) \_\_\_\_\_\_ and the induced drag is (3) \_\_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) shallower, (2) greater, (3) smaller
+          wrongAnswers:
+            - text: (1) steeper, (2) greater, (3) greater
+            - text: (1) shallower, (2) smaller, (3) smaller
+            - text: (1) shallower, (2) greater, (3) greater
+- id: QWRIR
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819916
+    - AVEXAM-61212
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.03.07
+  templates:
+    - type: simple
+      question: What is the consequence of decreasing the wing's upwash?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Decrease induced drag since effective AoA increases.
+          wrongAnswers:
+            - text: Increase induced drag since effective AoA increases.
+            - text: Increase induced drag since decrease of AoA.
+            - text: Decrease induced drag since decrease of AoA.
+- id: QKNMS
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QYWHB
+    - QHWCE
+  externalQuestionIds:
+    - ATPLQ-815353
+    - AVEXAM-30675
+    - AVEXAM-28634
+    - ATPLQ-819054
+    - AVEXAM-37809
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.03.08
+    - 081.01.04.03.09
+  templates:
+    - type: simple
+      question: Induced drag will decrease if ahead of the wing the upwash...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: decreases because induced angle of attack decreases
+          wrongAnswers:
+            - text: increases because effective angle of attack increases
+            - text: decreases because effective angle of attack decreases
+            - text: increases because induced angle of attack increases
+    - type: simple
+      question: Which statement is true regarding a reduction in induced drag?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Decrease upwash and decrease induced angle of attack.
+          wrongAnswers:
+            - text: Increase upwash and decrease induced angle of attack.
+            - text: Increase downwash and decrease the induced angle of attack.
+            - text: Decrease downwash and increase induced angle of attack.
+- id: QPFER
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812377
+    - AVEXAM-7746
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.03.10
+  templates:
+    - type: simple
+      question: An aircraft is flying straight and level, and decelerates in order to operate the flaps. Which statement is true?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Induced drag increases, especially near the wing tips.
+          wrongAnswers:
+            - text: Induced drag decreases, especially near the wing tips.
+            - text: Induced drag increases, especially near the leading edge.
+            - text: Induced drag decreases, especially near the leading edge.
+    - type: simple
+      question: When an aircraft flies straight and level and decelerates to set the flaps, what happens to induced drag?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Induced drag increases, especially near the wing tips.
+          wrongAnswers:
+            - text: Induced drag decreases, especially near the wing tips.
+            - text: Induced drag increases, especially near the leading edge.
+            - text: Induced drag decreases, especially near the leading edge.
+- id: QTVFH
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813877
+    - AVEXAM-66215
+    - BGS-810218
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.03.10
+    - 081.01.04.03.12
+  templates:
+    - type: simple
+      question: "High aspect ratio, as compared with low aspect ratio, has the effect of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: decreasing induced drag and critical angle of attack.
+          wrongAnswers:
+            - text: increasing induced drag and decreasing critical angle of attack.
+            - text: increasing lift and critical angle of attack.
+            - text: increasing lift and drag.
+- id: QESQR
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815163
+    - BGS-812386
+    - AVEXAM-86142
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.03.11
+  templates:
+    - type: simple
+      question: |-
+        An aeroplane is in level flight. Given:
+
+        - Lift coefficient (CL): {{cl}}
+        - Induced drag coefficient (CDi): {{cdi}}
+
+        The aeroplane slows down, keeping level flight, and the lift coefficient increases by a factor of {{f}} to maintain lift. There is no change in configuration.
+
+        What is the new CDi?
+      explanation: |-
+        The induced drag coefficient is proportional to the square of the lift coefficient. When the lift coefficient increases by a factor, the induced drag coefficient increases by the square of that factor, provided the configuration does not change.
+
+        **Solution**
+
+        The new lift coefficient is {{macro1}}, but the induced drag coefficient depends on its square. Starting from a CDi of {{cdi}}:
+
+        $$
+        \text{Induced drag coefficient}\times {\text{Increase factor of CL}}^{2} = {{cdi}}\times {{f}}^{2} = \mathbf{ {{answer}} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}**: uses the factor once instead of squaring it.
+        - **{{d2}}**: divides by the factor instead of multiplying, so CDi would fall when CL rises.
+        - **{{d3}}**: raises the factor to the power of three.
+        - **{{d4}}**: multiplies by CL as well, which is not part of the relationship.
+      presets:
+        - variables:
+            cl: 0.6
+            cdi: 0.1
+            f: 1.5
+            macro1: 0.9
+            answer: 0.225
+            d1: 0.15
+            d2: 0.067
+            d3: 0.338
+            d4: 0.09
+          correctAnswers:
+            - text: "0.225 "
+          wrongAnswers:
+            - text: "0.15 "
+            - text: "0.338 "
+            - text: "0.09 "
+            - text: "0.067 "
+        - variables:
+            cl: 0.4
+            cdi: 0.05
+            f: 2
+            macro1: 0.8
+            answer: 0.2
+            d1: 0.1
+            d2: 0.025
+            d3: 0.4
+            d4: 0.04
+          correctAnswers:
+            - text: "0.2 "
+          wrongAnswers:
+            - text: "0.1 "
+            - text: "0.4 "
+            - text: "0.04 "
+            - text: "0.025 "
+        - variables:
+            cl: 0.5
+            cdi: 0.08
+            f: 1.25
+            macro1: 0.625
+            answer: 0.125
+            d1: 0.1
+            d2: 0.064
+            d3: 0.156
+            d4: 0.05
+          correctAnswers:
+            - text: "0.125 "
+          wrongAnswers:
+            - text: "0.1 "
+            - text: "0.156 "
+            - text: "0.05 "
+            - text: "0.064 "
+- id: QYHOM
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815730
+    - BGS-812630
+  annexes:
+    - id: AVCX
+  learningObjectiveIds:
+    - 081.01.04.03.12
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which figure best illustrates how the CL/alpha curve changes as the aspect ratio increases?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Figure 3
+          wrongAnswers:
+            - text: Figure 1
+            - text: Figure 2
+            - text: Figure 4
+- id: QERJX
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811712
+    - BGS-811918
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.03.13
+  templates:
+    - type: simple
+      question: Considering the polar curve of a subsonic aerofoil, the maximum lift-to-drag ratio is determined by...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: drawing a tangent to the curve from the origin.
+          wrongAnswers:
+            - text: the minimum value of the drag coefficient.
+            - text: the maximum value of the lift coefficient.
+            - text: the point where total lift and total drag are equal.
+- id: QLSBT
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815633
+  annexes:
+    - id: AMMA
+  learningObjectiveIds:
+    - 081.01.04.03.13
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which of the following statements is correct with regards to 1 and 2 in the annex above?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 has higher CL than 1, but a higher CD.
+          wrongAnswers:
+            - text: 1 has a higher CL/CD than 2.
+            - text: 2 has a higher CL but a lower CD.
+            - text: 2 has a lower CL but higher critical angle.
+- id: QYJYD
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814882
+    - BGS-811539
+    - AVEXAM-30648
+    - AVEXAM-45230
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.04.03.15
+  templates:
+    - type: simple
+      question: An aeroplane’s Lift/Drag (L/D) ratio is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a measure of its efficiency.
+          wrongAnswers:
+            - text: maximum when drag is maximum.
+            - text: obtained by multiplying CL with CD.
+            - text: the inverse of the glide ratio.
+    - type: simple
+      question: What does the lift-to-drag (L/D) ratio primarily determine in a jet aircraft's performance?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: horizontal glide distance from a given altitude at zero wind and zero thrust.
+          wrongAnswers:
+            - text: horizontal distance in the climb up to a given altitude.
+            - text: maximum rate of climb.
+            - text: endurance speed.
+- id: QOTQI
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817390
+    - AVEXAM-40287
+    - BGS-810258
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.05.01.01
+  templates:
+    - type: simple
+      question: "Total drag is the sum of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: parasite drag and induced drag.
+          wrongAnswers:
+            - text: friction drag and pressure drag.
+            - text: parasite drag, interference drag and pressure drag.
+            - text: induced drag and friction drag.
+- id: QFVXV
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818952
+    - BGS-810257
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.05.02.01
+  templates:
+    - type: multiple-correct
+      question: "Parasite Drag can be divided into:"
+      explanation: ""
+      options:
+        - text: Tip-vortex drag
+          correct: false
+        - text: Interference drag
+          correct: true
+        - text: Pressure drag
+          correct: true
+        - text: Friction drag
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QUODP
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813485
+    - AVEXAM-48640
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.05.02.01
+  templates:
+    - type: simple
+      question: Parasite drag is made up of multiple different types of drag, which all...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: still act when the wings produce no lift.
+          wrongAnswers:
+            - text: do not act in two-dimensional airflow.
+            - text: only act when the wings produce lift.
+            - text: act in two-dimensional airflow only.
+- id: QNKXI
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817189
+    - AVEXAM-16175
+    - BGS-812366
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.05.02.02
+  templates:
+    - type: simple
+      question: An aeroplane is fitted with an external piece of scientific equipment. Which of the following factors will minimise the increase in form (pressure) drag?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An aerodynamically-shaped fairing.
+          wrongAnswers:
+            - text: Minimising the weight of the equipment and fitting.
+            - text: A shape-minimising formation of shockwaves.
+            - text: A smooth or shiny surface that is kept clean.
+- id: QNNCA
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814859
+    - BGS-812680
+    - BGS-812641
+    - BGS-812642
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.05.02.03
+  templates:
+    - type: simple
+      question: "A light-weight fillet is installed at the wing root of an airplane, combining the wing shape into the fuselage with a gentle curve. This fillet's primary aerodynamic effect is to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: reduce interference drag.
+          wrongAnswers:
+            - text: reduce induced drag.
+            - text: increase lift.
+            - text: reduce wave drag.
+- id: QXCOQ
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816584
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.05.02.03
+  templates:
+    - type: simple
+      question: Which of the following would cause a reduction in interference drag?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Reducing the number of external surfaces meeting at an angle.
+          wrongAnswers:
+            - text: Increasing the wingspan and reducing the mean geometric chord length.
+            - text: Ensuring that all external surfaces meet at close to 90 degrees.
+            - text: Tapering the fuselage to a point at the tail.
+- id: QCAVR
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QEJJH
+  externalQuestionIds:
+    - ATPLQ-811384
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.05.02.04
+  templates:
+    - type: simple
+      question: An aircraft with dirt on the airframe is subject to what type of drag?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Friction Drag
+          wrongAnswers:
+            - text: Decrease Parasite Drag
+            - text: Less Induced Drag
+            - text: Form Drag
+- id: QEJJH
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QCAVR
+  externalQuestionIds:
+    - ATPLQ-814685
+    - BGS-812206
+    - AVEXAM-17772
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.05.02.04
+  templates:
+    - type: simple
+      question: What type of drag is increased when an aerofoil is contaminated by dust and other particles?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Friction drag
+          wrongAnswers:
+            - text: Wave drag
+            - text: Material drag
+            - text: Induced drag
+- id: QWDQX
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815187
+    - AVEXAM-75593
+    - ATPLQ-813838
+    - AVEXAM-12136
+    - BGS-812371
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.05.02.04
+    - 081.03.01.01.03
+    - 081.03.01.01.05
+  templates:
+    - type: simple
+      question: "To reduce friction drag, some aeroplanes are equipped with modified wing designs to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Delay the transition point and have a larger laminar flow.
+          wrongAnswers:
+            - text: Increase the effective angle of attack.
+            - text: Accelerate separation and have a larger turbulent flow.
+            - text: Increase wing lift.
+    - type: simple
+      question: In order to reduce friction drag, some wings are designed so that, compared to a conventional aerofoil...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the transition point is further aft to have more area with laminar flow.
+          wrongAnswers:
+            - text: the separation point is further aft to keep the boundary layer attached to the wing.
+            - text: the separation point is further forward, to keep the boundary layer off the wing.
+            - text: the transition point is further forward to have more area with turbulent flow.
+- id: QRUTS
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812340
+    - BGS-811556
+    - AVEXAM-62651
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.05.03.01
+  templates:
+    - type: simple
+      question: What happens to parasite drag if the true airspeed of an aircraft is multiplied by two, and all other parameters are kept constant? The parasite drag...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: will be multiplied by four.
+          wrongAnswers:
+            - text: is unaffected by speed.
+            - text: will be multiplied by two.
+            - text: will be divided by two.
+- id: QEQOT
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817610
+    - AVEXAM-72614
+    - BGS-810271
+  annexes:
+    - id: AJHC
+  learningObjectiveIds:
+    - 081.01.05.05.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which line represents the total drag line of an aeroplane?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Line C.
+          wrongAnswers:
+            - text: Line D.
+            - text: Line B.
+            - text: Line A.
+- id: QMIXG
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813505
+  annexes:
+    - id: AYMS
+  learningObjectiveIds:
+    - 081.01.05.05.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What does line 3 represent?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Induced drag
+          wrongAnswers:
+            - text: Parasite drag
+            - text: Profile drag
+            - text: Total drag
+- id: QIZZA
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QPVOT
+  externalQuestionIds:
+    - ATPLQ-819276
+    - BGS-812677
+  annexes:
+    - id: AHYE
+  learningObjectiveIds:
+    - 081.01.05.07.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which figure best describes the change in Drag vs. True Airspeed (TAS) curve if altitude is increased?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Figure 2
+          wrongAnswers:
+            - text: Figure 4
+            - text: Figure 3
+            - text: Figure 1
+- id: QPVOT
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QIZZA
+  externalQuestionIds:
+    - ATPLQ-812921
+  annexes:
+    - id: AMJL
+  learningObjectiveIds:
+    - 081.01.05.07.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which of the figures shows the change in the total drag graph when density altitude is increased?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Figure 3.
+          wrongAnswers:
+            - text: Figure 4.
+            - text: Figure 2.
+            - text: Figure 1.
+- id: QMAWY
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818922
+    - AVEXAM-3725
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.05.07.04
+  templates:
+    - type: simple
+      question: Consider an aircraft flying in unaccelerated level flight in the speed stable region. How does the drag change following a sudden increase in CAS with no change in thrust available, and what will happen to the airspeed after this?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The total drag increases and the airspeed will decrease.
+          wrongAnswers:
+            - text: The total drag increases and the airspeed will further increase.
+            - text: The induced drag increases and the airspeed will remain the same.
+            - text: The parasite drag decreases and the airspeed will further increase.
+- id: QTYKF
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819754
+    - AVEXAM-15816
+    - BGS-810273
+    - BGS-812583
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.05.07.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        If an Aeroplane is flying such that the speed stability is negative, the CAS is in the region of the curve where...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: parasite drag is less than induced drag
+          wrongAnswers:
+            - text: induced drag is less than parasite drag
+            - text: parasite drag is at its greatest
+            - text: induced drag is equal to parasite drag
+- id: QYQFR
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817602
+    - AVEXAM-53639
+    - BGS-810274
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.05.07.05
+  templates:
+    - type: simple
+      question: "An aeroplane, being manually flown in the speed unstable region, experiences a disturbance that causes a speed reduction. If the altitude is maintained and thrust remains constant, the aeroplane speed will:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: further decrease.
+          wrongAnswers:
+            - text: initially further decrease and thereafter increase.
+            - text: increase.
+            - text: initially increase and thereafter decrease.
+- id: QZPUY
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812308
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.05.07.05
+  templates:
+    - type: simple
+      question: An aircraft is flying in the speed unstable region of the drag curve when a disturbance causes its airspeed to decrease. If the pilot maintains a constant thrust setting and altitude, the total drag will (1) \_\_\_\_\_ and the aircraft's IAS will (2) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) increase; (2) decrease.
+          wrongAnswers:
+            - text: (1) increase; (2) increase.
+            - text: (1) decrease; (2) increase.
+            - text: (1) decrease; (2) decrease.
+- id: QHWPA
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817361
+    - AVEXAM-75043
+    - BGS-810316
+    - AVEXAM-87057
+    - BGS-810315
+    - ATPLQ-817480
+    - ATPLQ-811140
+    - AVEXAM-61849
+    - AVEXAM-90030
+    - AVEXAM-807
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.06.01.01
+  templates:
+    - type: simple
+      question: "When an aeroplane enters ground effect:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the lift is increased and the drag is decreased.
+          wrongAnswers:
+            - text: drag and lift are reduced.
+            - text: the induced angle of attack is increased.
+            - text: the effective angle of attack is decreased.
+    - type: simple
+      question: For an aeroplane entering ground effect during landing...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the intensity of the wing tip vortices decreases, leading to more efficient lift generation.
+          wrongAnswers:
+            - text: both lift and total drag decrease, due to the reduction in downwash behind the wing.
+            - text: the wing tip vortices maintain their intensity, but both downwash and lift decrease.
+            - text: both lift and induced drag increase, due to the reduction in downwash behind the wing.
+    - type: simple
+      question: When entering ground effect, an aeroplane will experience the…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A reduction in wing tip vortices, causing an increase in the lift capability.
+          wrongAnswers:
+            - text: An increase in lift and induced drag.
+            - text: A decrease in lift and drag.
+            - text: No significant changes to lift or drag.
+    - type: simple
+      question: In which aeroplane and situation is the reduction in lift the most significant?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Low-wing, exiting ground effect.
+          wrongAnswers:
+            - text: Low-wing, entering ground effect.
+            - text: High-wing, exiting ground effect.
+            - text: High-wing, entering ground effect.
+    - type: simple
+      question: What happens to an aeroplane when entering ground effect?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A reduction in wing tip vortices, causing an increase in the lift capability.
+          wrongAnswers:
+            - text: No significant changes to lift or drag.
+            - text: A decrease in lift and drag.
+            - text: An increase in lift and induced drag.
+- id: QLRLM
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814252
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.06.01.01
+    - 081.01.06.01.02
+  templates:
+    - type: one-two
+      question: Which statement about an aeroplane leaving ground effect is correct?
+      explanation: ""
+      pairs:
+        - right:
+            - The downwash angle increases.
+          wrong:
+            - The downwash angle decreases.
+        - right:
+            - The induced angle of attack increases.
+          wrong:
+            - The induced angle of attack decreases.
+- id: QMXRW
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811053
+    - AVEXAM-2310
+    - AVEXAM-4572
+    - BGS-812697
+    - BGS-812665
+    - BGS-812561
+    - AVEXAM-6312
+    - AVEXAM-70224
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.06.01.01
+    - 081.01.06.01.02
+  templates:
+    - type: simple
+      question: On an aircraft leaving ground effect after lift-off, wing tip vortices (1) \_\_\_\_\_ and the induced angle of attack will (2) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) increase; (2) increase
+          wrongAnswers:
+            - text: (1) decrease; (2) increase
+            - text: (1) increase; (2) decrease
+            - text: (1) decrease; (2) decrease
+- id: QUSJC
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816476
+    - AVEXAM-74042
+    - BGS-812389
+    - AVEXAM-57876
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.06.01.01
+  templates:
+    - type: simple
+      question: You are planning to take off on runway XX. Field elevation is 52 ft. Wing span 20 m. At what height is the downwash least?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 30 ft
+          wrongAnswers:
+            - text: 120 ft
+            - text: 80 ft
+            - text: 60 ft
+- id: QVGZF
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818582
+    - AVEXAM-61375
+    - AVEXAM-43613
+    - AVEXAM-25942
+    - AVEXAM-46806
+    - AVEXAM-53131
+    - AVEXAM-50925
+    - AVEXAM-1027
+    - AVEXAM-11385
+    - AVEXAM-96863
+    - AVEXAM-92393
+    - AVEXAM-80702
+    - AVEXAM-24256
+    - AVEXAM-1330
+    - AVEXAM-46761
+    - AVEXAM-42184
+    - AVEXAM-23307
+    - AVEXAM-16893
+    - AVEXAM-71263
+    - AVEXAM-3369
+    - AVEXAM-49115
+    - AVEXAM-42657
+    - AVEXAM-56424
+    - AVEXAM-1698
+    - AVEXAM-66691
+    - AVEXAM-45199
+    - AVEXAM-36687
+    - AVEXAM-51252
+    - AVEXAM-32636
+    - AVEXAM-99577
+    - AVEXAM-51131
+    - AVEXAM-13951
+    - AVEXAM-21942
+    - AVEXAM-68034
+    - AVEXAM-91997
+    - AVEXAM-34168
+    - AVEXAM-45478
+    - AVEXAM-14315
+    - AVEXAM-34531
+    - AVEXAM-20239
+    - AVEXAM-84698
+    - AVEXAM-82125
+    - AVEXAM-83889
+    - AVEXAM-5306
+    - AVEXAM-33540
+    - AVEXAM-64075
+    - AVEXAM-53756
+    - AVEXAM-46571
+    - AVEXAM-85583
+    - AVEXAM-83641
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.06.01.01
+  templates:
+    - type: one-two
+      question: Which statements about an aeroplane entering ground effect are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - The induced angle of attack decreases.
+          wrong:
+            - The induced angle of attack increases.
+        - right:
+            - The downwash angle remains constant.
+          wrong:
+            - The downwash angle increases.
+        - right: []
+          wrong:
+            - The induced angle of attack remains constant.
+        - right: []
+          wrong:
+            - The downwash angle decreases.
+- id: QWPMH
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - AVEXAM-48035
+    - AVEXAM-62801
+    - AVEXAM-94760
+    - AVEXAM-49375
+    - AVEXAM-97384
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.06.01.01
+    - 081.01.06.01.02
+  templates:
+    - type: one-two
+      question: Which statements about an aeroplane leaving ground effect are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - The downwash angle increases.
+          wrong:
+            - The downwash angle decreases.
+        - right:
+            - The induced angle of attack increases.
+          wrong:
+            - The induced angle of attack decreases.
+- id: QZIYD
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814281
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.06.01.01
+    - 081.01.06.01.02
+  templates:
+    - type: one-two
+      question: Which statement about an aeroplane entering ground effect is correct?
+      explanation: ""
+      pairs:
+        - right:
+            - The downwash angle decreases.
+          wrong:
+            - The downwash angle increases.
+        - right:
+            - The induced angle of attack decreases.
+          wrong:
+            - The induced angle of attack increases.
+- id: QEWJX
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819349
+    - BGS-812702
+    - BGS-812590
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.06.01.02
+  templates:
+    - type: simple
+      question: Entering ground effect, an aeroplane's effective angle of attack (1) \_\_\_\_\_ due to the (2) \_\_\_\_\_ downwash.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) increases; (2) reduced
+          wrongAnswers:
+            - text: (1) decreases; (2) reduced
+            - text: (1) decreases; (2) increased
+            - text: (1) increases; (2) increased
+- id: QHWCE
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QYWHB
+    - QKNMS
+  externalQuestionIds:
+    - ATPLQ-817797
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.06.01.02
+  templates:
+    - type: simple
+      question: "Assuming constant IAS, when an aeroplane enters ground effect:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: induced drag reduces.
+          wrongAnswers:
+            - text: downwash does not change.
+            - text: the induced angle of attack increases.
+            - text: the effective angle of attack decreases.
+- id: QIRXP
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812839
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.06.01.02
+    - 081.01.06.03.01
+  templates:
+    - type: one-two
+      question: Which statement, about an aeroplane entering ground effect at constant angle of attack, is correct?
+      explanation: ""
+      pairs:
+        - right:
+            - The lift coefficient CL increases.
+          wrong:
+            - The lift coefficient CL decreases.
+        - right:
+            - The induced drag coefficient CDI decreases.
+          wrong:
+            - The induced drag coefficient CDI increases.
+- id: QYWHB
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QHWCE
+    - QKNMS
+  externalQuestionIds:
+    - ATPLQ-818544
+    - AVEXAM-13837
+    - AVEXAM-73684
+    - AVEXAM-4842
+    - AVEXAM-35553
+    - BGS-812569
+    - AVEXAM-20134
+    - BGS-811580
+    - BGS-810314
+    - BGS-811577
+    - BGS-810311
+    - BGS-810313
+    - AVEXAM-85956
+    - ATPLQ-812311
+    - ATPLQ-814067
+    - ATPLQ-818268
+    - BGS-812765
+    - AVEXAM-10682
+    - BGS-811561
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.06.01.02
+    - 081.01.06.01.03
+    - 081.01.06.03.01
+  templates:
+    - type: simple
+      question: "Assuming constant IAS, when an aeroplane leaves ground effect:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: induced drag increases.
+          wrongAnswers:
+            - text: downwash does not change.
+            - text: the induced angle of attack decreases.
+            - text: the effective angle of attack increases.
+        - correctAnswers:
+            - text: the effective angle of attack decreases.
+          wrongAnswers:
+            - text: the induced angle of attack decreases.
+            - text: the effective angle of attack increases.
+            - text: induced drag decreases.
+        - correctAnswers:
+            - text: the induced angle of attack increases.
+          wrongAnswers:
+            - text: the effective angle of attack increases.
+            - text: induced drag decreases.
+            - text: the effective angle of attack does not change.
+    - type: simple
+      question: An aeroplane leaving the ground effect after take-off will experience...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: an increase in induced drag.
+          wrongAnswers:
+            - text: a reduction in wing-tip vortices.
+            - text: a nose-down pitching moment.
+            - text: an increase in form drag.
+- id: QEKZB
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QWUEN
+  externalQuestionIds:
+    - ATPLQ-812782
+    - BGS-811566
+    - AVEXAM-44050
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.06.04.01
+  templates:
+    - type: simple
+      question: During the landing phase of flight, an aeroplane entering ground effect with a constant angle of attack will...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: experience an increase in coefficient of lift and have a tendency to float.
+          wrongAnswers:
+            - text: indicate a higher airspeed and require more rudder for directional control.
+            - text: require a gradual increase in the required thrust in order to avoid a hard landing.
+            - text: experience an increase in induced drag and have a tendency to land short.
+- id: QWUEN
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QEKZB
+  externalQuestionIds:
+    - ATPLQ-816511
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.06.04.01
+  templates:
+    - type: simple
+      question: A low wing aircraft entering the ground effect during the landing phase will experience...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a nose-down pitching moment and tendency to float.
+          wrongAnswers:
+            - text: an increase in induced drag.
+            - text: an increase in wing-tip vortices.
+            - text: a reduction in interference drag and tendency to float.
+- id: QAOMR
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813857
+    - BGS-812384
+    - BGS-812194
+    - AVEXAM-42179
+    - ATPLQ-815717
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.06.04.02
+  templates:
+    - type: simple
+      question: Which type of aeroplane and situation will experience a larger decrease in induced drag at heights between ground level and a wingspan?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Low wing on landing
+          wrongAnswers:
+            - text: High wing on take-off
+            - text: Low wing on take-off
+            - text: High wing on landing
+        - correctAnswers:
+            - text: Low wing aeroplane during landing.
+          wrongAnswers:
+            - text: High wing aeroplane during take-off.
+            - text: Low-wing aeroplane during take-off.
+            - text: High wing aeroplane during landing.
+- id: QXMHP
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815169
+    - AVEXAM-35242
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.06.04.02
+  templates:
+    - type: simple
+      question: Which plane and situation experiences the least amount of lift reduction?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: High wing on take-off
+          wrongAnswers:
+            - text: Low wing on landing
+            - text: High wing on landing
+            - text: Low wing on take-off
+- id: QFXEQ
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815571
+    - BGS-811593
+    - AVEXAM-2835
+    - ATPLQ-817101
+    - ATPLQ-811861
+    - ATPLQ-811086
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.07.01.01
+  templates:
+    - type: simple
+      question: |-
+        An aeroplane is in straight and level flight.
+
+        - Speed: {{v}} VS
+
+        What is its lift coefficient (CL) as a percentage of the maximum lift coefficient (CLMAX)?
+      explanation: |-
+        The lift needed is always the weight, so the faster the aeroplane flies, the less CL it needs. Lift depends on speed squared, so CL compared with CLMAX (reached at the stall speed VS) is the square of the speed ratio VS / V.
+
+        **Solution**
+
+        - CL / CLMAX = (VS / V) ^ 2 = 1 / {{v}} ^ 2
+        - As a percentage: $$\frac{100}{{\text{Speed}}^{2}} = \frac{100}{ {{v}}^{2}} = \mathbf{ {{answer}}\ \text{%} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}%**: uses the speed multiple once instead of squaring it.
+        - **{{d2}}%**: squares the speed instead of its inverse, giving a value above 100 %.
+        - **{{d3}}%**: uses the square root of the speed multiple instead of its square.
+        - **{{d4}}%**: multiplies the speed multiple by 100 instead of dividing by its square.
+      presets:
+        - variables:
+            v: 2
+            answer: 25
+            d1: 50
+            d2: 400
+            d3: 71
+            d4: 200
+          correctAnswers:
+            - text: 25 %
+          wrongAnswers:
+            - text: 50 %
+            - text: 71 %
+            - text: 200 %
+            - text: 400 %
+        - variables:
+            v: 1.8
+            answer: 31
+            d1: 56
+            d2: 324
+            d3: 75
+            d4: 180
+          correctAnswers:
+            - text: 31 %
+          wrongAnswers:
+            - text: 56 %
+            - text: 75 %
+            - text: 180 %
+            - text: 324 %
+        - variables:
+            v: 1.5
+            answer: 44
+            d1: 67
+            d2: 225
+            d3: 82
+            d4: 150
+          correctAnswers:
+            - text: 44 %
+          wrongAnswers:
+            - text: 67 %
+            - text: 82 %
+            - text: 150 %
+            - text: 225 %
+- id: QNPNE
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811210
+    - BGS-812607
+    - AVEXAM-70514
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.07.01.01
+    - 081.01.09.01.02
+  templates:
+    - type: simple
+      question: Whilst maintaining straight and level flight, extending trailing edge flaps enables an aircraft to fly at (1) \_\_\_\_\_ indicated air speeds due to a higher (2) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) lower; (2) CL
+          wrongAnswers:
+            - text: (1) higher; (2) CD
+            - text: (1) higher; (2) CL
+            - text: (1) lower; (2) CD
+- id: QQXQW
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815997
+    - BGS-812764
+    - ATPLQ-813489
+    - AVEXAM-80285
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.07.01.01
+  templates:
+    - type: simple
+      question: |-
+        You are flying straight and level with the following data:
+
+        - Speed: {{v1}} kt
+        - Lift coefficient (CL): {{cl1}}
+
+        ATC asks you to reduce speed to {{v2}} kt.
+
+        What is the new CL needed to stay in straight and level flight?
+      explanation: |-
+        Lift must still equal weight. Lift grows with speed squared times CL, so for the same weight a lower speed needs a higher CL. The CL needed scales with the square of the speed ratio.
+
+        **Solution**
+
+        $$
+        \text{Initial CL}\times {\frac{\text{Initial speed}}{\text{New speed}}}^{2} = {{cl1}}\times {\frac{ {{v1}} }{ {{v2}} }}^{2} = \mathbf{ {{answer}} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}**: uses the speed ratio once instead of squaring it.
+        - **{{d2}}**: inverts the speed ratio, so CL appears to fall when the speed drops.
+        - **{{d3}}**: inverts the speed ratio and squares it, so CL falls instead of rising.
+        - **{{d4}}**: cubes the speed ratio instead of squaring it.
+      presets:
+        - variables:
+            v1: 230
+            cl1: 0.3
+            v2: 200
+            answer: 0.4
+            d1: 0.34
+            d2: 0.26
+            d3: 0.23
+            d4: 0.46
+          correctAnswers:
+            - text: "0.4 "
+          wrongAnswers:
+            - text: "0.34 "
+            - text: "0.23 "
+            - text: "0.46 "
+            - text: "0.26 "
+        - variables:
+            v1: 250
+            cl1: 0.5
+            v2: 210
+            answer: 0.71
+            d1: 0.6
+            d2: 0.42
+            d3: 0.35
+            d4: 0.84
+          correctAnswers:
+            - text: "0.71 "
+          wrongAnswers:
+            - text: "0.6 "
+            - text: "0.35 "
+            - text: "0.84 "
+            - text: "0.42 "
+    - type: simple
+      question: You are flying at 295 kts with a CL of 0.25. ATC instructs you to reduce the speed to 250 kts. What is the new CL?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "0.35"
+          wrongAnswers:
+            - text: "0.30"
+            - text: "0.23"
+            - text: "0.18"
+    - type: simple
+      question: An aircraft is flying a speed of 295 kt with a CL of 0.25. ATC instructs a speed reduction to 250 kt. What is the new CL?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "0.35"
+          wrongAnswers:
+            - text: "0.30"
+            - text: "0.23"
+            - text: "0.18"
+- id: QUJEU
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QXOWN
+  externalQuestionIds:
+    - ATPLQ-813337
+    - AVEXAM-15699
+    - BGS-811586
+    - AVEXAM-45546
+    - BGS-811590
+    - BGS-810324
+    - AVEXAM-94326
+    - AVEXAM-27567
+    - AVEXAM-70391
+    - AVEXAM-78104
+    - ATPLQ-812842
+    - ATPLQ-812058
+    - BGS-812195
+    - ATPLQ-816572
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.07.01.01
+  templates:
+    - type: simple
+      question: |-
+        An aeroplane is in straight and level flight at a speed of {{k}} VS, where VS is the stalling speed.
+
+        What would the lift coefficient be, expressed as a percentage of its maximum CLMAX?
+      explanation: |-
+        In level flight lift equals weight, and lift grows with the square of the speed. So for a fixed weight the lift coefficient falls with the square of the speed. At the stalling speed VS the lift coefficient is at its maximum, CLMAX.
+
+        **Solution**
+
+        The lift coefficient as a fraction of CLMAX is 1 / {{k}} squared, which is {{macro1}}.
+
+        $$
+        \frac{100}{{\text{Speed as a multiple of VS}}^{2}} = \frac{100}{ {{k}}^{2}} = \mathbf{ {{answer}}\ \text{%} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} %**: multiplies by the square of the speed ratio instead of dividing, which would put the lift coefficient above its maximum.
+        - **{{d2}} %**: uses the speed ratio directly, with no squaring.
+        - **{{d3}} %**: divides by the speed ratio once instead of by its square.
+        - **{{d4}} %**: divides by the cube of the speed ratio.
+      presets:
+        - variables:
+            k: 1.2
+            macro1: 1
+            answer: 69
+            d1: 144
+            d2: 120
+            d3: 83
+            d4: 58
+          correctAnswers:
+            - text: 69 %
+          wrongAnswers:
+            - text: 144 %
+            - text: 83 %
+            - text: 58 %
+            - text: 120 %
+        - variables:
+            k: 1.6
+            macro1: 0
+            answer: 39
+            d1: 256
+            d2: 160
+            d3: 63
+            d4: 24
+          correctAnswers:
+            - text: 39 %
+          wrongAnswers:
+            - text: 256 %
+            - text: 63 %
+            - text: 24 %
+            - text: 160 %
+        - variables:
+            k: 1.8
+            macro1: 0
+            answer: 31
+            d1: 324
+            d2: 180
+            d3: 56
+            d4: 17
+          correctAnswers:
+            - text: 31 %
+          wrongAnswers:
+            - text: 324 %
+            - text: 56 %
+            - text: 17 %
+            - text: 180 %
+        - variables:
+            k: 1.3
+            macro1: 1
+            answer: 59
+            d1: 169
+            d2: 130
+            d3: 77
+            d4: 46
+          correctAnswers:
+            - text: 59 %
+          wrongAnswers:
+            - text: 169 %
+            - text: 77 %
+            - text: 46 %
+            - text: 130 %
+- id: QVCGM
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818260
+    - AVEXAM-66873
+    - BGS-810322
+    - AVEXAM-86660
+    - BGS-810323
+    - BGS-811584
+    - ATPLQ-813357
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.07.01.01
+  templates:
+    - type: simple
+      question: Whilst maintaining straight and level flight with a lift coefficient CL of {{cl}}, what will be the new approximate value of CL after the speed is increased by {{pct}}%?
+      explanation: |-
+        In level flight the lift equals the weight, so the lift coefficient falls with the square of the speed. Increasing the speed by a given percentage multiplies the speed by (1 + percentage / 100), so the CL is divided by that factor squared.
+
+        **Solution**
+
+        - New speed = {{macro1}} times the old speed
+        - New CL = old CL / (speed factor)²
+        - $$\frac{\text{Initial CL}}{{(1+\frac{\text{Speed increase}}{100})}^{2}} = \frac{1}{{(1+\frac{ {{pct}} }{100})}^{2}} = \mathbf{ {{answer}} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}**: subtracts the speed increase instead of dividing by the speed factor.
+        - **{{d2}}**: divides by the speed factor once, not squared.
+        - **{{d3}}**: divides by the speed factor cubed.
+        - **{{d4}}**: multiplies by the squared factor, so the CL increases with the speed.
+      presets:
+        - variables:
+            cl: 1
+            pct: 30
+            macro1: 1.3
+            answer: 0.6
+            d1: 0.7
+            d2: 0.8
+            d3: 0.5
+            d4: 1.7
+          correctAnswers:
+            - text: "0.6 "
+          wrongAnswers:
+            - text: "0.7 "
+            - text: "0.5 "
+            - text: "1.7 "
+            - text: "0.8 "
+        - variables:
+            cl: 1
+            pct: 41
+            macro1: 1.4
+            answer: 0.5
+            d1: 0.6
+            d2: 0.7
+            d3: 0.4
+            d4: 2
+          correctAnswers:
+            - text: "0.5 "
+          wrongAnswers:
+            - text: "0.6 "
+            - text: "0.4 "
+            - text: "2 "
+            - text: "0.7 "
+- id: QVFNB
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819217
+    - AVEXAM-70440
+    - BGS-811379
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.07.01.01
+  templates:
+    - type: simple
+      question: |-
+        In level flight, an aircraft has the following data:
+
+        - Lift coefficient (CL): {{cl1}}
+        - Speed: {{v1}} VS
+
+        The speed is reduced to {{v2}} VS, still in level flight, with no change in weight or configuration.
+
+        What is the value of CL at the lower speed?
+      explanation: |-
+        With a fixed weight in level flight, lift is constant, so the lift coefficient is proportional to 1 / V squared. A lower speed therefore needs a higher lift coefficient.
+
+        **Solution**
+
+        The speed ratio is {{macro1}}, so the new lift coefficient is
+
+        $$
+        \text{Initial CL}\times {\frac{\text{Initial speed}}{\text{New speed}}}^{2} = {{cl1}}\times {\frac{ {{v1}} }{ {{v2}} }}^{2} = \mathbf{ {{answer}} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}**: inverts the speed ratio, which would lower CL at a lower speed.
+        - **{{d2}}**: uses the speed ratio once instead of squaring it.
+        - **{{d3}}**: cubes the speed ratio.
+        - **{{d4}}**: leaves CL unchanged, ignoring the change of speed.
+      presets:
+        - variables:
+            cl1: 0.35
+            v1: 1.6
+            v2: 1.1
+            macro1: 1.45
+            answer: 0.74
+            d1: 0.17
+            d2: 0.51
+            d3: 1.08
+            d4: 0.35
+          correctAnswers:
+            - text: "0.74 "
+          wrongAnswers:
+            - text: "0.17 "
+            - text: "1.08 "
+            - text: "0.35 "
+            - text: "0.51 "
+        - variables:
+            cl1: 0.4
+            v1: 2
+            v2: 1.5
+            macro1: 1.33
+            answer: 0.71
+            d1: 0.23
+            d2: 0.53
+            d3: 0.95
+            d4: 0.4
+          correctAnswers:
+            - text: "0.71 "
+          wrongAnswers:
+            - text: "0.23 "
+            - text: "0.95 "
+            - text: "0.4 "
+            - text: "0.53 "
+        - variables:
+            cl1: 0.25
+            v1: 1.4
+            v2: 1.2
+            macro1: 1.17
+            answer: 0.34
+            d1: 0.18
+            d2: 0.29
+            d3: 0.4
+            d4: 0.25
+          correctAnswers:
+            - text: "0.34 "
+          wrongAnswers:
+            - text: "0.18 "
+            - text: "0.4 "
+            - text: "0.25 "
+            - text: "0.29 "
+- id: QXOWN
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QUJEU
+  externalQuestionIds:
+    - ATPLQ-818328
+    - BGS-811587
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.07.01.01
+  templates:
+    - type: simple
+      question: |-
+        In straight and level flight the aeroplane is flying at the following speed:
+
+        - Speed: {{k}} VS
+
+        Expressed as a percentage of its maximum lift coefficient CLmax, what is the lift coefficient?
+      explanation: |-
+        At a constant weight the coefficient of lift is inversely proportional to the speed squared. At the stall speed VS the coefficient of lift is CLmax, so at {{k}} VS it is CLmax divided by {{k}} squared.
+
+        **Solution**
+
+        $$\frac{100}{{\text{Speed}}^{2}} = \frac{100}{ {{k}}^{2}} = \mathbf{ {{answer}}\ \text{%} }$$ of CLmax
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} %**: uses the speed rather than its square.
+        - **{{d2}} %**: multiplies by the speed squared instead of dividing.
+        - **{{d3}} %**: multiplies by the speed instead of dividing by its square.
+        - **{{d4}} %**: gives the share of CLmax lost, not the share that remains.
+      presets:
+        - variables:
+            k: 1.4
+            answer: 51
+            d1: 71.4
+            d2: 196
+            d3: 140
+            d4: 49
+          correctAnswers:
+            - text: 51 %
+          wrongAnswers:
+            - text: 71.4 %
+            - text: 140 %
+            - text: 49 %
+            - text: 196 %
+        - variables:
+            k: 1.3
+            answer: 59.2
+            d1: 76.9
+            d2: 169
+            d3: 130
+            d4: 40.8
+          correctAnswers:
+            - text: 59.2 %
+          wrongAnswers:
+            - text: 76.9 %
+            - text: 130 %
+            - text: 40.8 %
+            - text: 169 %
+- id: QZZLD
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819358
+    - AVEXAM-48384
+    - BGS-810321
+    - BGS-812834
+    - AVEXAM-4010
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.07.01.01
+  templates:
+    - type: simple
+      question: |-
+        An aircraft is in straight and level flight with a lift coefficient (CL) of {{cl1}}. The speed is then multiplied by {{factor}}, and the aircraft remains in straight and level flight.
+
+        What is the new value of CL?
+      explanation: |-
+        For a fixed weight in level flight, the lift coefficient is inversely proportional to the square of the speed. Doubling the speed therefore divides CL by four. In general, the new CL is the old CL divided by the square of the speed factor.
+
+        **Solution**
+
+        $$
+        \frac{\text{Initial CL}}{{\text{Speed change factor}}^{2}} = \frac{ {{cl1}} }{ {{factor}}^{2}} = \mathbf{ {{answer}} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}**: assumes CL stays the same, ignoring the change of speed.
+        - **{{d2}}**: multiplies by the speed factor, as if CL rose with speed.
+        - **{{d3}}**: divides by the factor once instead of by its square.
+        - **{{d4}}**: multiplies by the square of the factor, as if CL rose with the square of the speed.
+      presets:
+        - variables:
+            cl1: 1
+            factor: 2
+            answer: 0.25
+            d1: 1
+            d2: 2
+            d3: 0.5
+            d4: 4
+          correctAnswers:
+            - text: "0.25 "
+          wrongAnswers:
+            - text: "1 "
+            - text: "0.5 "
+            - text: "4 "
+            - text: "2 "
+        - variables:
+            cl1: 0.6
+            factor: 3
+            answer: 0.07
+            d1: 0.6
+            d2: 1.8
+            d3: 0.2
+            d4: 5.4
+          correctAnswers:
+            - text: "0.07 "
+          wrongAnswers:
+            - text: "0.6 "
+            - text: "0.2 "
+            - text: "5.4 "
+            - text: "1.8 "
+        - variables:
+            cl1: 0.8
+            factor: 1.5
+            answer: 0.36
+            d1: 0.8
+            d2: 1.2
+            d3: 0.53
+            d4: 1.8
+          correctAnswers:
+            - text: "0.36 "
+          wrongAnswers:
+            - text: "0.8 "
+            - text: "0.53 "
+            - text: "1.8 "
+            - text: "1.2 "
+    - type: simple
+      question: An aeroplane maintains straight and level flight at a speed corresponding to 1.1 VS with a lift coefficient (CL) of 1.22. What will be the new value of CL, if the aeroplane accelerates up to 1.8 VS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "0.46"
+          wrongAnswers:
+            - text: "0.38"
+            - text: "0.95"
+            - text: "0.75"
+    - type: simple
+      question: An aircraft flying straight and level at 1.1 VS has a lift coefficient (CL) of 1.22. If it accelerates to 1.8 VS while maintaining level flight, what will the new CL be?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "0.46"
+          wrongAnswers:
+            - text: "3.27"
+            - text: "0.75"
+            - text: "0.38"
+- id: QAHZT
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815024
+    - AVEXAM-65804
+    - AVEXAM-11005
+  annexes:
+    - id: AYWZ
+  learningObjectiveIds:
+    - 081.01.07.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The diagram shows the parameter Y against TAS. What does the axis Y represent if horizontal flight is considered?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Lift coefficient.
+          wrongAnswers:
+            - text: Parasite drag.
+            - text: Total lift force.
+            - text: Total drag.
+- id: QBTWI
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811829
+  annexes:
+    - id: AIOP
+  learningObjectiveIds:
+    - 081.01.07.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What will be the consequence on the speed of the aircraft while going from Point B to Point C and maintaining steady, straight and level flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The aircraft will be flown at a slower speed.
+          wrongAnswers:
+            - text: The aircraft will stall.
+            - text: The aircraft will be flown at a faster speed.
+            - text: The aircraft’s speed remains unchanged.
+- id: QEMHA
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816856
+    - AVEXAM-37685
+  annexes:
+    - id: ASVF
+  learningObjectiveIds:
+    - 081.01.09.01.01
+    - 081.01.09.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Name the leading and trailling edge devices in the attached figure.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: |-
+                1\. Krueger Flap;   
+                 2\. Slat;   
+                 3\. Split Flap;   
+                 4\. Slotted Flap.
+          wrongAnswers:
+            - text: |-
+                1\. Slat;   
+                 2\. Krueger Flap;   
+                 3\. Split Flap;   
+                 4\. Slotted Flap.
+            - text: |-
+                1\. Slat;   
+                 2\. Krueger Flap;   
+                 3\. Slotted Flap;   
+                 4\. Split Flap.
+            - text: |-
+                1\. Krueger Flap;   
+                 2\. Slat;   
+                 3\. Slotted Flap;   
+                 4\. Split Flap.
+- id: QIWFO
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818636
+    - AVEXAM-69899
+    - BGS-810434
+    - ATPLQ-811394
+    - BGS-810441
+    - AVEXAM-54924
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.01.01
+  templates:
+    - type: simple
+      question: What is the most effective flap system?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Fowler flap.
+          wrongAnswers:
+            - text: Split flap.
+            - text: Plain flap.
+            - text: Single slotted flap.
+    - type: simple
+      question: "Deploying a Fowler flap, the flap will:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: move aft, then turn down.
+          wrongAnswers:
+            - text: just turn down.
+            - text: turn down, then move aft.
+            - text: just move aft.
+- id: QHOBI
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816150
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.01.02
+    - 081.01.09.02.03
+  templates:
+    - type: simple
+      question: |-
+        Leading and trailing edge flaps, when compared to the clean wing:
+
+        I. Increase CLMAX   
+         II. Increase CL/CD   
+         III. Decrease Critical Angle of Attack   
+         IV. Increase camber
+
+        Which of the following statements are correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: I and IV
+          wrongAnswers:
+            - text: I and II
+            - text: II and III
+            - text: I, II and III
+- id: QVHNA
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816379
+    - BGS-810438
+    - AVEXAM-50548
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.01.02
+    - 081.01.09.02.02
+  templates:
+    - type: simple
+      question: "A slotted flap will increase the CLMAX by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: increasing the camber of the aerofoil and re-energising the airflow.
+          wrongAnswers:
+            - text: increasing only the camber of the aerofoil.
+            - text: decreasing the skin friction.
+            - text: increasing the critical angle of attack.
+- id: QPMNT
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815133
+    - BGS-811596
+    - BGS-810153
+    - AVEXAM-56839
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.01.04
+  templates:
+    - type: simple
+      question: "The critical angle of attack:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: remains unchanged regardless of gross weight.
+          wrongAnswers:
+            - text: changes with an increase in gross weight.
+            - text: decreases if the CG is moved aft.
+            - text: increases if the CG is moved forward.
+- id: QCXUV
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811900
+    - AVEXAM-52219
+    - BGS-810442
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.01.04
+  templates:
+    - type: simple
+      question: "Compared with the clean configuration, the angle of attack at CLMAX with trailing edge flaps extended is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: smaller.
+          wrongAnswers:
+            - text: smaller or larger depending on the degree of flap extension.
+            - text: unchanged.
+            - text: larger.
+- id: QVFBC
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812179
+    - AVEXAM-46716
+    - BGS-810427
+    - BGS-810453
+    - AVEXAM-15208
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.01.04
+  templates:
+    - type: simple
+      question: "Trailing edge flap extension will:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: decrease the critical angle of attack and increase the value of CLMAX.
+          wrongAnswers:
+            - text: increase the critical angle of attack and decrease the value of CLMAX.
+            - text: increase the critical angle of attack and increase the value of CLMAX.
+            - text: decrease the critical angle of attack and decrease the value of CLMAX.
+- id: QDKZS
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811031
+    - AVEXAM-53723
+  annexes:
+    - id: ABGH
+  learningObjectiveIds:
+    - 081.01.09.01.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Arrange the flaps in order of increasing L/D ratio:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 4, 2, 3
+          wrongAnswers:
+            - text: 3, 1, 4, 2
+            - text: 4, 3, 2, 1
+            - text: 2, 4, 1, 3
+- id: QQPZG
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811486
+    - BGS-811342
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.01.05
+  templates:
+    - type: simple
+      question: Which of the following configurations will give the highest Lift/Drag ratio?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Clean wing.
+          wrongAnswers:
+            - text: Leading edge devices extended.
+            - text: Both leading and trailing edge devices extended.
+            - text: Trailing edge devices extended.
+- id: QKGRG
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812562
+    - BGS-810428
+    - AVEXAM-96566
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.01.06
+  templates:
+    - type: simple
+      question: "Trailing edge flaps once extended:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: degrade the minimum glide angle.
+          wrongAnswers:
+            - text: significantly increase the angle of attack for maximum lift.
+            - text: increase the zero lift angle of attack.
+            - text: significantly lower the drag.
+- id: QSZBA
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814624
+    - BGS-812218
+    - AVEXAM-28952
+    - AVEXAM-32285
+    - ATPLQ-811136
+    - ATPLQ-812490
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.01.07
+  templates:
+    - type: simple
+      question: "During straight and level flight, the pilot starts extending flaps to the landing configuration. Due to a malfunction, the trailing edge flaps on the right wing remain retracted. If the malfunction goes unnoticed, the possible consequence is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The aircraft will roll to the right and the right wing could stall.
+          wrongAnswers:
+            - text: The aircraft will roll to the left and the left wing could stall.
+            - text: The aircraft will roll to the left and the right wing could stall.
+            - text: The aircraft will roll to the right and the left wing could stall.
+    - type: simple
+      question: An aircraft equipped with trailing edge flaps and leading-edge slats is about to take-off and extends the devices to the take-off position. Due to a malfunction, the slats on the right wing remain retracted. If the malfunction goes undetected, the possible consequences are that...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the starboard wing could stall shortly after rotation.
+          wrongAnswers:
+            - text: the port side wing could stall upon trailing edge flap retraction.
+            - text: there will be a strong rolling tendency to the starboard side.
+            - text: the aircraft will enter a spiral dive to the starboard side.
+- id: QEURZ
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812018
+    - AVEXAM-55004
+    - BGS-810417
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.01.08
+    - 081.01.09.02.08
+  templates:
+    - type: simple
+      question: After take-off the slats (when installed) are always retracted later than the flaps. Why?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Because SLATS EXTENDED gives a large decrease in stall speed with relatively less drag.
+          wrongAnswers:
+            - text: Because FLAPS EXTENDED gives a large decrease in stall speed with relatively less drag.
+            - text: Because SLATS EXTENDED provides a better view from the cockpit than FLAPS EXTENDED.
+            - text: Because VMCA with SLATS EXTENDED is more favourable compared with the FLAPS EXTENDED situation.
+- id: QAGJC
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817280
+    - AVEXAM-55798
+    - BGS-812219
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.01.09
+  templates:
+    - type: simple
+      question: During the Final Approach, the Pilot Flying is struggling to maintain the aircraft’s speed under control. At the correct altitude, the aircraft’s speed keeps increasing above the desired. From the options below, what would be the most likely causes?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An inadequate flap setting.
+          wrongAnswers:
+            - text: The Flaps are extended too soon.
+            - text: Excessive spoiler deflection.
+            - text: The landing gear is extended too soon.
+- id: QIIID
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811035
+    - BGS-812430
+    - AVEXAM-21051
+    - AVEXAM-61379
+    - AVEXAM-43649
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.01.09
+  templates:
+    - type: simple
+      question: Whilst setting up for landing, the crew are distracted by an external event on the radio. In doing so, they forget to set the final stage of flaps. The aircraft system automatically adjusts the approach speed for the reduced flap setting, but does not notify the pilots, so they land with a lower flap setting (less flaps) than planned and computed. The landing distance will (1) \_\_\_\_\_ due to (2) \_\_\_\_\_ and (3)\_\_\_\_\_ being generated by the lower flap setting, and therefore a (4) \_\_\_\_\_ touchdown speed.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) increase; (2) less drag; (3) less lift; (4) higher
+          wrongAnswers:
+            - text: (1) decrease; (2) less drag; (3) less lift; (4) lower
+            - text: (1) increase; (2) more drag; (3) more lift; (4) higher
+            - text: (1) increase; (2) less drag; (3) more lift; (4) lower
+- id: QOMOH
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811870
+    - AVEXAM-1452
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.01.09
+  templates:
+    - type: simple
+      question: When approaching to land, the pilot forgets to lower the flaps. What is going to happen to the LDR, drag and speed at threshold?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Increases, decreases, increases (respectively).
+          wrongAnswers:
+            - text: Increases, decreases, decreases (respectively).
+            - text: Decrease, increases, increases (respectively).
+            - text: Decreases, increases, decreases (respectively).
+- id: QXSCG
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814106
+    - AVEXAM-97907
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.01.09
+  templates:
+    - type: simple
+      question: Before takeoff, the pilot decides for an an intermediate flap setting due to climb performance. After engine start, a greater flap setting is selected by mistake. In these circumstances, the rotation speed will be (1) \_\_\_\_\_ and climb performance will be (2) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) lower; (2) worse
+          wrongAnswers:
+            - text: (1) lower; (2) better
+            - text: (1) greater; (2) worse
+            - text: (1) greater; (2) better
+- id: QCUWJ
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817110
+    - AVEXAM-35635
+    - AVEXAM-63656
+    - BGS-810457
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The high lift device shown in the figure 2 is a:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: slat.
+          wrongAnswers:
+            - text: slotted flap.
+            - text: Krueger flap.
+            - text: Fowler flap.
+- id: QRKHV
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818552
+    - AVEXAM-33196
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.02.02
+  templates:
+    - type: simple
+      question: "What is correct about a Slat? A deployed slat will:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Increase the boundary layer energy and increase the suction peak on the fixed part of the wing, so that the stall is postponed to higher angles of attack.
+          wrongAnswers:
+            - text: Decrease the boundary layer energy and decrease the suction peak on the slat, so that CLMAX is reached at lower angles of attack.
+            - text: Increase the boundary layer energy, move the suction peak from the fixed part of the wing to the slat, so that the stall is postponed to higher angles of attack.
+            - text: Increase the camber of the aerofoil and increase the effective angle of attack, so that CLMAX is reached at higher angles of attack.
+- id: QGCPI
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811493
+    - BGS-812381
+    - AVEXAM-26937
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.02.04
+  templates:
+    - type: simple
+      question: The main effect of leading-edge slats is to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: delay boundary layer separation and therefore decrease the stalling speed.
+          wrongAnswers:
+            - text: increase wing lift and therefore increase its stalling speed.
+            - text: decrease wing lift and therefore increase its stalling angle.
+            - text: delay boundary layer separation and therefore decrease the stalling angle.
+- id: QYRLP
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815854
+    - ATPLQ-813860
+    - BGS-812411
+  annexes:
+    - id: AWKP
+  learningObjectiveIds:
+    - 081.01.09.02.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which of the three lift augmentation devices is/are represented by the graph in the annex?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 and 2
+          wrongAnswers:
+            - text: 1 only
+            - text: 1 and 3
+            - text: 3 only
+        - correctAnswers:
+            - text: 3 only
+          wrongAnswers:
+            - text: 1 and 3
+            - text: 1 and 2
+            - text: 1 only
+- id: QIBIT
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819602
+    - BGS-812220
+    - AVEXAM-89802
+    - BGS-812892
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.02.07
+  templates:
+    - type: simple
+      question: An aircraft with trailing edge flaps and leading-edge slats is flying at a speed close to the clean wing stall speed when the flaps are extended to the landing configuration. The slats on the left wing remain retracted. If the speed is decreased, what are the possible consequences?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The left wing could stall when the trailing edge flaps are extended and speed decreases.
+          wrongAnswers:
+            - text: The left wing could stall when the slats are extended, after the extension of the trailing edge flaps.
+            - text: The right wing could stall when the slats are extended, after the extension of the trailing edge flaps.
+            - text: The right wing could stall when the trailing edge flaps are extended and speed increases.
+- id: QJAFD
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812345
+    - BGS-812221
+    - AVEXAM-76720
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.02.07
+  templates:
+    - type: simple
+      question: During take-off, the right slat does not extend. What might happen on rotation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Right wing will stall on rotation.
+          wrongAnswers:
+            - text: Left wing will stall on rotation.
+            - text: Left wing will stall on rotation after the flaps have been retracted.
+            - text: Right wing will stall on rotation after the flaps have been retracted.
+- id: QBFGC
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818322
+    - BGS-812728
+    - AVEXAM-18954
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.03.02
+  templates:
+    - type: simple
+      question: Vortex generators (1)\_\_\_\_\_ boundary layer separation by (2)\_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) delay; (2) adding energy to it.
+          wrongAnswers:
+            - text: (1) force; (2) adding drag to it.
+            - text: (1) force; (2) making the flow turbulent.
+            - text: (1) delay; (2) keeping the flow laminar.
+- id: QYOBZ
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811624
+    - BGS-810459
+    - AVEXAM-60693
+    - ATPLQ-817360
+    - AVEXAM-15455
+    - ATPLQ-817543
+    - BGS-811640
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.03.02
+  templates:
+    - type: simple
+      question: "Vortex generators:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: transfer energy from the free airflow into the boundary layer.
+          wrongAnswers:
+            - text: reduce the spanwise flow on swept wing.
+            - text: take kinetic energy out of the boundary layer to reduce separation.
+            - text: change the turbulent boundary layer into a laminar boundary layer.
+    - type: simple
+      question: What is the purpose of vortex generators?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To increase the kinetic energy of the boundary layer.
+          wrongAnswers:
+            - text: To increase high-speed buffet due to shock wave formation.
+            - text: To promote an earlier separation of the boundary layer.
+            - text: To reduce the aerofoil’s critical Angle Of Attack.
+- id: QSJLS
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813979
+    - AVEXAM-88027
+    - BGS-810639
+    - ATPLQ-814589
+    - ATPLQ-812223
+    - BGS-810638
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.03.02
+    - 081.02.05.03.01
+  templates:
+    - type: simple
+      question: "Vortex generators mounted on the upper wing surface will:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: decrease the shock wave induced separation.
+          wrongAnswers:
+            - text: increase the effectiveness of the spoiler due to increase in parasite drag.
+            - text: decrease the interference drag of the trailing edge flaps.
+            - text: decrease the stall speed by increasing spanwise flow on the wing.
+        - correctAnswers:
+            - text: To energise the boundary layer
+          wrongAnswers:
+            - text: To increase the effectiveness of the spoiler due to increase in parasite drag
+            - text: To decrease the stall speed by increasing spanwise flow over the wing
+            - text: To combat the interference drag of the trailing edge flaps
+    - type: simple
+      question: "Vortex generators on the upper side of the wing surface will:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: decrease shock wave induced flow separation.
+          wrongAnswers:
+            - text: increase the critical Mach number.
+            - text: increase the magnitude of the shock wave.
+            - text: decrease the span wise flow at high Mach numbers.
+- id: QKFHH
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813975
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.09.03.03
+  templates:
+    - type: multiple-correct
+      question: Which of the following are advantages associated with the use of vortex generators?
+      explanation: ""
+      options:
+        - text: Increase in maximum CL/CD.
+          correct: false
+        - text: Decrease in form drag.
+          correct: false
+        - text: Delay in the separation of the boundary layer.
+          correct: true
+        - text: Increase in critical angle of attack.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QPJGN
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812990
+    - AVEXAM-94092
+    - BGS-810464
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.10.01.01
+  templates:
+    - type: simple
+      question: "When a wing spoiler is extended at constant angle of attack:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: drag increases but lift decreases.
+          wrongAnswers:
+            - text: both drag and lift increase.
+            - text: drag increases but lift remains constant.
+            - text: both drag and lift decrease.
+- id: QFXTX
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818899
+    - AVEXAM-17088
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.10.01.03
+  templates:
+    - type: simple
+      question: How does the drag polar change with spoiler deployment?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The polar moves down and to the right.
+          wrongAnswers:
+            - text: The polar stays nearly the same.
+            - text: "The polar moves up and to the left. "
+            - text: The polar moves to the right.
+- id: QTNOM
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819849
+  annexes:
+    - id: ATWR
+  learningObjectiveIds:
+    - 081.01.10.01.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The figure shows a polar diagram of C**L** vs C**D**. Extending which of the following devices would cause the line to move from position 1 to position 2?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Lift dumpers.
+          wrongAnswers:
+            - text: Flaps.
+            - text: Landing Gear.
+            - text: Slats.
+- id: QYRRT
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819723
+    - AVEXAM-90092
+  annexes:
+    - id: ATWR
+  learningObjectiveIds:
+    - 081.01.10.02.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which device could you use to change from curve 1 to curve 2?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Speed brakes
+          wrongAnswers:
+            - text: Trailing edge flaps
+            - text: Leading edge flaps
+            - text: Slats
+- id: QENPC
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815220
+    - AVEXAM-80495
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.10.02.03
+  templates:
+    - type: simple
+      question: "Many aeroplanes are equipped with speed brakes. Speed brakes are usually made up of one or several panels:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Somewhere on the fuselage or wing which extends into the airstream to create a turbulent airflow and increase parasite drag.
+          wrongAnswers:
+            - text: That form part of the primary flight controls and deflect to generate more downash which in turn increases induced drag.
+            - text: Which extend into the airstream to create vortices that re-energise the boundary layer resulting in an increase in parasite drag.
+            - text: Which extend from the wings upper surface into the airstream to disrupt the laminar flow, reducing lift and increasing induced drag.
+- id: QQYMZ
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816332
+    - BGS-812872
+    - ATPLQ-819118
+    - BGS-810318
+    - AVEXAM-16199
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.10.02.04
+  templates:
+    - type: simple
+      question: When deploying speedbrakes, you can expect the minimum drag to (1) \_\_\_\_\_ and the minimum drag speed to (2)\_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) increase; (2) decrease.
+          wrongAnswers:
+            - text: (1) decrease; (2) increase.
+            - text: (1) decrease; (2) decrease.
+            - text: (1) increase; (2) increase.
+    - type: simple
+      question: Ground effect has the following influence on the landing distance…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: increases, due to the decreased induced drag.
+          wrongAnswers:
+            - text: increases, only if the landing flaps are fully extended.
+            - text: does not change.
+            - text: decreases.
+        - correctAnswers:
+            - text: increases.
+          wrongAnswers:
+            - text: decreases.
+            - text: does not change.
+            - text: increases, only if the landing flaps are fully extended.
+- id: QVKMN
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815912
+    - AVEXAM-85430
+    - BGS-812451
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.10.02.05
+  templates:
+    - type: simple
+      question: What would happen to an aircraft’s rate of descent and the angle of descent when deploying the speed brakes in flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both the rate of descent and the descent angle will increase.
+          wrongAnswers:
+            - text: Both the rate of descent and the descent angle will decrease.
+            - text: The rate of descent will decrease and the descent angle will increase.
+            - text: The rate of descent will increase and the descent angle will decrease.
+- id: QXQTM
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817368
+    - BGS-812364
+    - AVEXAM-40135
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.12.01.01
+  templates:
+    - type: simple
+      question: What locations are the most susceptible to ice build-up during flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Parts of the aircraft that have a small radius, bend sharply, and hence have a higher curvature, such as narrow leading edges of the wings and tail, probes and antennas.
+          wrongAnswers:
+            - text: Parts of the aircraft that have a large radius, and hence are gently curving, with a lower curvature, such as leading edge of a thick wing, the radome, and the fuselage.
+            - text: The radome, all the leading edges, upper wing surfaces, and the fuselage.
+            - text: The windscreens and other cockpit windows.
+- id: QMYMY
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QZYWD
+  externalQuestionIds:
+    - ATPLQ-814915
+    - AVEXAM-57606
+    - AVEXAM-26854
+    - BGS-812574
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.12.01.02
+    - 081.03.01.05.12
+  templates:
+    - type: simple
+      question: |-
+        What is the effect of icing or other airframe contaminants on the value of CLMAX, stall speed, and critical angle of attack?  
+        The CLMAX…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: decreases, stall speed increases, and critical angle of attack decreases.
+          wrongAnswers:
+            - text: increases, stall speed increases, and critical angle of attack decreases.
+            - text: increases, stall speed decreases, and critical angle of attack increases.
+            - text: remains unchanged, stall speed increases, and critical angle of attack decreases.
+- id: QZPCS
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816980
+    - BGS-811322
+    - AVEXAM-1194
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.12.01.02
+  templates:
+    - type: simple
+      question: What will happen to the stall speed, stalling Angle Of Attack (AOA) and controllability of an aircraft in flight due to icing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Stall speed will increase but stalling AOA and controllability will both decrease.
+          wrongAnswers:
+            - text: Stall speed, stalling AOA and controllability will all increase.
+            - text: Stall speed will decrease but stalling AOA and controllability will both increase.
+            - text: Stall speed, stalling AOA and controllability will all decrease.
+- id: QZYWD
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds:
+    - QMYMY
+  externalQuestionIds:
+    - ATPLQ-817340
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.12.01.02
+  templates:
+    - type: simple
+      question: An aeroplane without icing protection ventures into atmospheric conditions where icing will occur. What effect will this have on the aeroplane?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Stall speed will increase, and both the critical angle of attack and controllability will decrease.
+          wrongAnswers:
+            - text: Stall speed, the critical angle of attack and controllability will all increase.
+            - text: Stall speed will remain unchanged, and the critical angle of attack and controllability will decrease.
+            - text: Stall speed will decrease, and both the critical angle of attack and controllability will increase.
+- id: QGIRX
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815411
+    - BGS-812433
+    - AVEXAM-98701
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.12.01.03
+  templates:
+    - type: simple
+      question: While performing a take-off under icing conditions, the pilot rotates the aircraft at the correct speed and rate, but notices that the aircraft does NOT lift off as expected. What could be the cause?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The angle of attack during rotation exceeds the lower, icing-induced critical angle of attack, preventing the aircraft from becoming airborne.
+          wrongAnswers:
+            - text: The rotation speed is too fast, significantly increasing drag and preventing the aircraft to lift off.
+            - text: Ice can distort the flow of air over the wing, increasing the angle of attack for maximum lift and significantly increasing drag.
+            - text: The rotation rate is too fast, increasing the critical angle of attack and preventing the aircraft to lift off.
+- id: QBMHI
+  subjectId: "081"
+  chapterId: "081.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212065
+    - ATPLQ-814438
+    - AVEXAM-38638
+    - AVEXAM-43690
+    - BGS-811281
+    - BGS-810260
+  annexes: []
+  learningObjectiveIds:
+    - 081.01.12.02.02
+  templates:
+    - type: simple
+      question: On which type of drag does airframe ageing have the greatest influence?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Skin-friction drag
+          wrongAnswers:
+            - text: Wave drag
+            - text: Form drag
+            - text: Induced drag

@@ -1,0 +1,1254 @@
+- id: QHGAI
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-617900
+    - AVEXAM-62614
+    - ATPLQ-612213
+    - AVEXAM-12819
+    - BGS-611701
+    - ATPLQ-613450
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.01.01.01
+  templates:
+    - type: simple
+      question: Which is the best visual ground feature to establish a checkpoint for a day VFR flight over a mountainous area for an aircraft A flying at 5 000 ft AGL and an aircraft B flying at 1 000 ft AGL?
+      explanation: A good checkpoint must be seen early and identified easily. From 5 000 ft AGL a large feature such as a lake is easy to see, while a small or low feature is lost. At 1 000 ft the horizon is close, so a tall mast stands out.
+      presets:
+        - correctAnswers:
+            - text: A large lake for aircraft A and a 200-ft-high mast for aircraft B.
+          wrongAnswers:
+            - text: A 200-ft-high mast for aircraft A and a small lake for aircraft B.
+            - text: A path for aircraft A and a small river for aircraft B.
+            - text: A small lake for aircraft A and a path for aircraft B.
+    - type: simple
+      question: Which is the best visual ground feature to establish a checkpoint for a day VFR flight over a mountainous area for an aircraft A flying at 1 000 ft AGL and an aircraft B flying at 5 000 ft AGL?
+      explanation: At 1 000 ft AGL the range of view is short, so a tall feature such as a high mast stands out. At 5 000 ft AGL a large feature such as a big lake is visible from far away and easy to recognise.
+      presets:
+        - correctAnswers:
+            - text: High mast for A and big lake for B.
+          wrongAnswers:
+            - text: High mast for both A and B.
+            - text: Big lake for both A and B.
+            - text: Big lake for A and high mast for B.
+- id: QOVNF
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-617548
+    - BGS-611597
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.01.01.01
+  templates:
+    - type: multiple-correct
+      question: A VFR flight is planned in winter with snowfall expected the night before. Which of the following ground features should be used for orientation?
+      explanation: ""
+      options:
+        - text: Farmland and vegetation
+          correct: false
+        - text: Roads
+          correct: false
+        - text: Railroads
+          correct: false
+        - text: Large waterways
+          correct: true
+        - text: Vertical checkpoints (e.g. broadcast antennas)
+          correct: true
+        - text: Coastlines.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+    - type: simple
+      question: |-
+        Which of the following visual checkpoints are suitable for a VFR navigation flight when the underlying terrain is fully covered by fresh snow?
+        1. Farm land and vegetation,
+        2. Roads,
+        3. Railroads,
+        4. Large waterways,
+        5. Vertical checkpoints (e.g. broadcast antennas),
+        6. Coastlines.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 4, 5, and 6
+          wrongAnswers:
+            - text: 2, 3, and 4
+            - text: 1,4, and 6
+            - text: 1, 2, 3, and 5
+- id: QQETD
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-611064
+    - AVEXAM-730626
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.01.01.01
+  templates:
+    - type: simple
+      question: What is the best visual reporting point for an aircraft flying a VFR flight above a hilly area?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A valley.
+          wrongAnswers:
+            - text: A hill.
+            - text: A slightly steeper hillside.
+            - text: Few small rivers that leave a big river.
+- id: QZBEO
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-614119
+    - BGS-611301
+    - AVEXAM-74533
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.01.01.01
+  templates:
+    - type: multiple-correct
+      question: "The following features are the most useful for VFR navigation by day:"
+      explanation: ""
+      options:
+        - text: Tall masts
+          correct: true
+        - text: Large lakes
+          correct: true
+        - text: Streets in a large town
+          correct: false
+        - text: Area with several small woods
+          correct: false
+        - text: Active power station
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+    - type: simple
+      question: |-
+        Which of the following features are particularly important for VFR navigation by day?
+        1. Tall masts,
+        2. Large lakes
+        3. Streets in a large town
+        4. Area with several small woods
+        5. Active power station.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, and 5
+          wrongAnswers:
+            - text: 2, 3, and 5
+            - text: 2 and 4 only
+            - text: 1, 3, and 4
+    - type: simple
+      question: |-
+        Which of the following features would make the best visual check points for a VFR flight? 
+
+         Streets in a large city
+         Area with several small woods
+         Large lakes
+         Tall masts
+         Active power station
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3, 4, 5
+          wrongAnswers:
+            - text: 1, 2, 3
+            - text: 2, 3, 4
+            - text: 1, 4, 5
+- id: QXPXJ
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-611419
+    - BGS-611403
+    - AVEXAM-62753
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.01.02.01
+  templates:
+    - type: simple
+      question: A pilot is planning a VFR flight which crosses a controlled airspace. Because of restrictions of the controlled airspace, part of the flight must be flown at a low level. Which of the following is a problem of navigation at low level that could be faced in a VFR flight?
+      explanation: At low level the horizon is close and the visual range is restricted by terrain and haze. Features may be hidden behind terrain, and the visual cues needed for navigation are available for a shorter time.
+      presets:
+        - correctAnswers:
+            - text: Visual range to the horizon is restricted at low level.
+          wrongAnswers:
+            - text: Features with great vertical extent are harder to see.
+            - text: The feeling that you are flying more slowly over the ground changes how you perceive distance.
+            - text: Navigation features can be noticed more easily, but are more difficult to identify.
+- id: QXSAX
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-619003
+    - BGS-611629
+    - AVEXAM-32034
+    - AVEXAM-4466
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.01.02.01
+  templates:
+    - type: simple
+      question: Which one of the following situations mostly increases the risk of Controlled Flight Into Terrain (CFIT) during a VFR flight?
+      explanation: Overcast sky over snow-covered terrain removes the contrast and the visible horizon. The pilot loses depth perception and visual references, which is a white-out, and the risk of CFIT is the highest.
+      presets:
+        - correctAnswers:
+            - text: Overcast sky and Snow-Covered Terrain.
+          wrongAnswers:
+            - text: Significant thermal turbulence.
+            - text: Flying overwater with a strong surface wind.
+            - text: High humidity & Unstable Air.
+- id: QBSKS
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds:
+    - QNSQI
+  externalQuestionIds:
+    - ATPLQ-616943
+    - AVEXAM-63375
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.01.02.01
+  templates:
+    - type: simple
+      question: What is the danger about power lines when flying VFR over a snowy area?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Represent a danger when power lines cross a valley.
+          wrongAnswers:
+            - text: Always marked on the map, no problem.
+            - text: Due to their small vertical extents, not a factor.
+            - text: Represent a danger when flying over a mountain's ridge.
+- id: QDODQ
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-618957
+    - BGS-611423
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.01.02.01
+  templates:
+    - type: simple
+      question: A pilot is planning a VFR flight across steep, mountainous terrain. Due to airspace restrictions, the flight will be relatively low above the terrain. Restrictions in VFR navigation in such circumstances can include...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a shorter time to see navigation features on the near side of valleys, compared to when flying over a flat landscape.
+          wrongAnswers:
+            - text: difficulty in identifying navigation features that are situated on ridges.
+            - text: poor visibility in the valleys when the flight is taking place at mid-day.
+            - text: a shorter visual range for navigation features that are down slope, compared to the visual range for similar features situated on flat land.
+- id: QFOHN
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-616200
+    - AVEXAM-71722
+    - BGS-611608
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.01.02.01
+  templates:
+    - type: simple
+      question: An aircraft is flying a low-level VFR route over a mountainous area, which is covered by snow, in high latitudes. Power lines are...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Dangerous, especially if they cross valleys, but pose less of a risk if they are situated along ridge.
+          wrongAnswers:
+            - text: Easily identified, as they are always marked on maps and can therefore be safely avoided.
+            - text: Dangerous if they are situated along a ridge, but pose less of a risk of they are crossing a valley.
+            - text: Safely overflown due to their small vertical extent.
+- id: QNKIT
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-618798
+    - ATPLQ-617912
+    - AVEXAM-13514
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.01.02.01
+  templates:
+    - type: simple
+      question: Which one of the following below may reduce the visibility for an aircraft performing a low level VFR flight on a day with clear sky?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Downwind smoke from a factory.
+          wrongAnswers:
+            - text: Man-made obstacle ahead of the aircraft.
+            - text: Sun high in the sky.
+            - text: Heavy showers of rain.
+        - correctAnswers:
+            - text: Flying downwind of factories producing smoke.
+          wrongAnswers:
+            - text: Sun is high in the sky.
+            - text: Flying with the sun behind the aircraft.
+            - text: Climbing to a higher altitude.
+- id: QNSQI
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds:
+    - QBSKS
+  externalQuestionIds:
+    - ATPLQ-614954
+    - AVEXAM-81243
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.01.02.01
+  templates:
+    - type: simple
+      question: You are flying over a snowy area. What is the danger about power lines?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Dangerous if crossing a valley, but less dangerous when crossing a ridge.
+          wrongAnswers:
+            - text: Dangerous along a ridge, but safe if crossing a valley.
+            - text: Always safe as they're easily identified.
+            - text: Not dangerous as they're always indicated on the chart.
+- id: QOEBU
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-614394
+    - AVEXAM-88839
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.01.02.01
+  templates:
+    - type: simple
+      question: '"Whiteout" occurs:'
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When the terrain is covered with snow and the horizon blends with the sky, visual determination of height becomes difficult.
+          wrongAnswers:
+            - text: When taking-off from a snow-covered lake.
+            - text: When flying in heavy snow.
+            - text: In flight conditions when you suddenly enter a cloud and everything "gets white" outside the cockpit windows.
+- id: QWOKS
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-611792
+    - AVEXAM-35148
+    - BGS-611596
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.01.02.01
+  templates:
+    - type: simple
+      question: A pilot is flying VFR and is about to conduct an approach to an unfamiliar airfield just after the sunrise. What should he/she pay extra attention to?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The position of the sun.
+          wrongAnswers:
+            - text: The position of the moon.
+            - text: The aerodrome reference point.
+            - text: The duration of the morning civil twilight.
+- id: QECHK
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-613809
+    - BGS-611261
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.01.02.02
+  templates:
+    - type: simple
+      question: What is the greatest potential threat for VFR navigation at night?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The aircraft height during an approach can be easily misjudged due to insufficient external visual cues.
+          wrongAnswers:
+            - text: It is difficult to determine the flight direction of other aircraft unless their landing lights are on.
+            - text: Exposure to red light can cause the eyes to lose dark adaptation and may cause temporary blindness.
+            - text: When external lighting provides good visual cues, flying by cross-reference to instruments may cause spatial disorientation.
+- id: QERLQ
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-616568
+    - AVEXAM-99507
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.01.02.02
+  templates:
+    - type: simple
+      question: On a VFR flight during night, which one of the following has to be considered by a pilot most carefully?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Terrain and obstacles along an approach may not be clearly visible.
+          wrongAnswers:
+            - text: The trajectory of other aircraft will not be clear, unless their landing lights are illuminated.
+            - text: Use of red lights in the cockpit can cause temporary blindness for pilots.
+            - text: When looking outside at lit objects, it can cause disorientation with respect to the instrument readings.
+- id: QOXCJ
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-614088
+    - AVEXAM-63029
+    - BGS-611253
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.01.02.02
+  templates:
+    - type: simple
+      question: What will be the risk if a night VFR flight navigates out of the studied route?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The presence of obstacles in the area not studied before the flight.
+          wrongAnswers:
+            - text: The airport can not be identified due to lighting.
+            - text: The obstacles seem to be closer.
+            - text: The obstacles marked with red light due to red wavelength.
+- id: QZLET
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-616492
+    - AVEXAM-9192
+    - AVEXAM-53397
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.01.02.02
+  templates:
+    - type: simple
+      question: What should a pilot pay special attention to when planning a VFR night flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The reduced ability to identify colors at night.
+          wrongAnswers:
+            - text: It is difficult to determine the flight path of other traffic.
+            - text: Even high-traffic roads may not be easily identifiable.
+            - text: The position of the moon due to reflecting light inhibiting visibility.
+    - type: simple
+      question: During a VFR flight in the night, when the moon shines bright, what should the pilot be aware of?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Color changes may not be as obvious.
+          wrongAnswers:
+            - text: Turning points are difficult to be identified.
+            - text: A small river is visible.
+            - text: The destination aerodrome cannot be easily identified.
+- id: QGSVS
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds:
+    - QNKYO
+  externalQuestionIds:
+    - ATPLQ-614239
+    - AVEXAM-15137
+    - BGS-610753
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.01.02
+  templates:
+    - type: simple
+      question: A visual check point
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is a distinct point which is easily visually identifiable on the terrain as well as on the chart.
+          wrongAnswers:
+            - text: is a point used to establish the horizontal visibility or the runway visual range.
+            - text: is a land mark or feature visible to both, the radar and the naked eye.
+            - text: is a reference point which may not be used when proceeding on an instrument flight plan.
+- id: QNKYO
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds:
+    - QGSVS
+  externalQuestionIds:
+    - ATPLQ-613309
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.01.02
+  templates:
+    - type: simple
+      question: What is a visual check point?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A feature, or group of features, that is/ are clearly marked on the chart and are easily identifiable on the ground, standing out from the background. Selected as waypoints for visual route navigation.
+          wrongAnswers:
+            - text: A point on the approach to an airfield at which you assess the chances of making a visual approach.
+            - text: A ground feature used to check the visibility and RVR on the runway.
+            - text: A pre-determined feature, marked on the chart, used for describing your location to Air Traffic Control.
+- id: QVNFP
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-611132
+    - BGS-611266
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.01.03
+  templates:
+    - type: simple
+      question: "A pilot is planning for a VFR cross-country flight, using visual checkpoints. The following would be the most suitable checkpoint:"
+      explanation: A good visual checkpoint is easy to see and identify, unique, and contrasts with its surroundings. A valley among low hills, or a small lake in mountains, is hard to distinguish from similar features.
+      presets:
+        - correctAnswers:
+            - text: A feature that contrasts with its natural surroundings.
+          wrongAnswers:
+            - text: A valley in an area of low hills.
+            - text: A small lake in a mountainous region.
+            - text: A feature that merges into its natural surroundings.
+- id: QFNII
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-617427
+    - AVEXAM-66481
+    - BGS-611448
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.01.03
+  templates:
+    - type: simple
+      question: An aircraft is making a VFR cross-country flight at low level. The flight involves at least four visual checkpoints on the route. What is the most suitable type of checkpoint?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Look for distinctive features such as a railway line to lead into a checkpoint.
+          wrongAnswers:
+            - text: If flying over a wet, lowland area, choose small lakes rather than large ones.
+            - text: Fly as low as possible and select aerodromes that are active for parachuting and gliding.
+            - text: Choose large, built-up areas that can be seen easily from low level.
+- id: QOFZH
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-613684
+    - AVEXAM-681
+    - BGS-611739
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.01.03
+    - 061.02.02.01.08
+  templates:
+    - type: simple
+      question: A pilot is flying VFR in VMC at 1 500 ft above ground, passing small separated villages. The pilot chose a church tower in such a village as a turning point for a new course. After completing the turn and flying towards the next waypoint, which is shown on the chart as a framework tower, the pilot is not able to find this tower at the expected time overhead. What is a likely reason for this navigation error?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The pilot changed course at a wrong village.
+          wrongAnswers:
+            - text: The framework tower is hidden behind buildings of the same height.
+            - text: It is hard to recognize church towers in villages.
+            - text: The vertical visibility was not sufficient to recognize the waypoints.
+- id: QDBEX
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-617707
+    - AVEXAM-95735
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.01.05
+  templates:
+    - type: simple
+      question: What is required to establish a track plot?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: At least two pinpoints or fixes.
+          wrongAnswers:
+            - text: The air position and a pinpoint.
+            - text: The last position, air position and DR position.
+            - text: The last position and the DR position.
+- id: QZMMI
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-615166
+    - BGS-611652
+    - AVEXAM-730631
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.01.06
+  templates:
+    - type: multiple-correct
+      question: A pilot planning a VFR flight leg is looking for a ground feature part-way a long a leg that is NOT in built up area. All of the following are depicted on the VFR chart in suitable locations for a visual fix. Which might allow the pilot to check for any drifting error along the track?
+      explanation: A drift check needs a point feature on or near the track, so the pilot can see how far off it lies. Two linear features that cross each other, such as a road over a river or a railway, give a unique point. A single road crossing the track gives only an along-track position line.
+      options:
+        - text: Dual-carriageway (four line) road crossing the intended track.
+          correct: false
+        - text: Dual-carriageway (four line) road crossing a river close to the intended track.
+          correct: true
+        - text: Disused railway crossing a river on intended track.
+          correct: true
+        - text: Single carriageway (two line) road crossing a railway close to intended track.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QEUFK
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-617620
+    - ATPLQ-615025
+    - AVEXAM-98735
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.01.06
+    - 061.02.02.01.14
+  templates:
+    - type: simple
+      question: "The best ground feature to check a time deviation while flying on a heading 360º is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A railway in an East-West orientation.
+          wrongAnswers:
+            - text: A big town 5 NM off-track.
+            - text: 4 windmills in a coordinated position.
+            - text: A large river in a North-South orientation.
+        - correctAnswers:
+            - text: A large river in a North-South orientation.
+          wrongAnswers:
+            - text: A railway in an East-West orientation.
+            - text: 4 windmills in a coordinated position.
+            - text: A big town 5 NM off-track.
+- id: QMHWC
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-614079
+    - AVEXAM-12746
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.01.07
+  templates:
+    - type: simple
+      question: "The main reason to keep the VFR chart lined up with the current track is that:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It is easier to recognize landmarks and terrain.
+          wrongAnswers:
+            - text: It saves space in the cockpit.
+            - text: It stores the chart more easily.
+            - text: It is easier to distinguish the required track in case of diversion.
+- id: QUMTZ
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-613367
+    - AVEXAM-730627
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.01.07
+  templates:
+    - type: simple
+      question: "Identifying landmarks and overall orientation and visualisation of the inflight situation on a VFR flight can be made easy by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Holding a relevant part of the map with track-up orientation.
+          wrongAnswers:
+            - text: Holding the complete map with track-up orientation.
+            - text: Holding the complete map with North-up orientation.
+            - text: Holding only a small part of the map with North-up orientation.
+- id: QJPNM
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-614102
+    - AVEXAM-98867
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.01.08
+  templates:
+    - type: simple
+      question: What is the primary advantage of using line features during a VFR flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Line features can be followed towards a significant position.
+          wrongAnswers:
+            - text: Following line features, particularly if they are distinctive, removes the need for dead reckoning navigation.
+            - text: Line features should normally be free of the other VFR navigation traffic.
+            - text: Overflying an area containing several railway lines and roads, the correct line features can still be reliably identified.
+- id: QPMDC
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-618630
+    - AVEXAM-80052
+    - BGS-611434
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.01.08
+  templates:
+    - type: simple
+      question: |-
+        An aircraft takes two relative bearings from the same landmark.
+
+        - First relative bearing: {{rb1}}°
+        - Time between the bearings: {{t}} min
+        - Second relative bearing: {{rb2}}°
+        - TAS: {{tas}} kt
+        - Tailwind component: {{tw}} kt
+
+        Assume no drift. What is the distance to the landmark at the time of the second bearing?
+      explanation: |-
+        With a steady wind along the track, the ground speed is the TAS plus the tailwind. The ground distance flown between the two bearings and the two bearing angles then give the distance from the landmark with the sine rule.
+
+        **Solution**
+
+        Ground speed: $$\text{TAS}+\text{Tailwind component} = {{tas}}+{{tw}}$$ kt
+
+        Distance flown between the bearings: {{macro3}} NM
+
+        Distance at the second bearing: $$\frac{\frac{(\text{TAS}+\text{Tailwind component})\times \text{Time between bearings}}{60}\times \text{sin}(\text{First relative bearing})}{\text{sin}(\text{Second relative bearing}-\text{First relative bearing})} = \mathbf{ {{answer}}\ \text{NM} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: forgets the tailwind and uses the TAS only.
+        - **{{d2}} NM**: subtracts the tailwind instead of adding it.
+        - **{{d3}} NM**: forgets to convert minutes to hours.
+        - **{{d4}} NM**: applies an extra square root of 2 factor that is not part of the triangle.
+      presets:
+        - variables:
+            rb1: 315
+            t: 3
+            rb2: 270
+            tas: 90
+            tw: 30
+            macro3: 6
+            answer: 6
+            d1: 5
+            d2: 3
+            d3: 360
+            d4: 8
+          correctAnswers:
+            - text: 6 NM
+          wrongAnswers:
+            - text: 5 NM
+            - text: 360 NM
+            - text: 8 NM
+            - text: 3 NM
+        - variables:
+            rb1: 315
+            t: 6
+            rb2: 270
+            tas: 120
+            tw: 40
+            macro3: 16
+            answer: 16
+            d1: 12
+            d2: 8
+            d3: 960
+            d4: 23
+          correctAnswers:
+            - text: 16 NM
+          wrongAnswers:
+            - text: 12 NM
+            - text: 960 NM
+            - text: 23 NM
+            - text: 8 NM
+- id: QKWHA
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-611226
+    - AVEXAM-73738
+    - AVEXAM-8002
+    - BGS-611604
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.01.09
+  templates:
+    - type: simple
+      question: An aircraft is flying a VFR flight at a low level over a snowy area with no visual checkpoints. What action by the pilot is recommended?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Proceed and turn at the next checkpoint based on time.
+          wrongAnswers:
+            - text: Climb to avoid blowing snow.
+            - text: Climb and initiate lost procedure.
+            - text: Turn back 180 degrees.
+- id: QXXWY
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-616003
+    - BGS-611780
+    - AVEXAM-22274
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.01.09
+  templates:
+    - type: simple
+      question: Flying a VFR cross-country flight in Western Europe, the pilot has planned a turning point WITHOUT a visual checkpoint. What is the best means of determining that the pilot has reached the turning point?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VOR radial from a facility across the route.
+          wrongAnswers:
+            - text: DME distance from a facility across the route.
+            - text: Bearing from an NDB ahead of or behind the aircraft.
+            - text: A request to the Flight Information Service for a QDR.
+    - type: simple
+      question: |-
+        For a VFR cross-country flight over Western Europe, a pilot plans a turning point without a visual checkpoint.
+
+        What is the best means to be used approaching that point?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A VOR radial of a beacon across the route.
+          wrongAnswers:
+            - text: A request to the Flight Information Service for a QDR.
+            - text: A DME distance from a DME across the route.
+            - text: A bearing of an NDB ahead of or behind the aircraft.
+    - type: simple
+      question: Flying between two waypoints, the pilot has planned a turning point without a visual checkpoint. What is the best way to know when it's time to turn?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VOR radial from a facility across the route.
+          wrongAnswers:
+            - text: DME distance from a facility across the route.
+            - text: Bearing from NDB behind or ahead of the aircraft.
+            - text: QDR from the Flight Information Service.
+- id: QKCCN
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-611138
+    - AVEXAM-6896
+    - BGS-610305
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.01.11
+  templates:
+    - type: simple
+      question: Contour lines on aeronautical maps and charts connect points..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: having the same elevation.
+          wrongAnswers:
+            - text: having the same longitude.
+            - text: with the same variation.
+            - text: of equal latitude.
+- id: QLTXF
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-611425
+    - AVEXAM-30482
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.01.11
+    - 061.02.02.01.12
+  templates:
+    - type: multiple-correct
+      question: "Relief is usually portrayed by combinations of:"
+      explanation: ""
+      options:
+        - text: Contour lines
+          correct: true
+        - text: Shading
+          correct: true
+        - text: Lines of latitude
+          correct: false
+        - text: Different colours
+          correct: true
+        - text: Spot heights
+          correct: true
+        - text: Gradual scale
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QLAQZ
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-617728
+    - AVEXAM-99967
+    - BGS-611252
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.01.12
+  templates:
+    - type: simple
+      question: How is layer tinting used to define elevation on a chart?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Different colours indicate ranges of elevation, between defined limits.
+          wrongAnswers:
+            - text: Different colours indicate the change from land to water features.
+            - text: Different colours indicate points of equal elevation.
+            - text: Different colours indicate specific steepness of elevation.
+- id: QBORR
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-613533
+    - BGS-611675
+  annexes:
+    - id: AOUI
+  learningObjectiveIds:
+    - 061.02.02.01.13
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which point on the annex represents a terrain with the steepest slope?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Number 4
+          wrongAnswers:
+            - text: Number 2
+            - text: Number 1
+            - text: Number 3
+- id: QBQTZ
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds:
+    - QRAOW
+  externalQuestionIds:
+    - ATPLQ-616244
+    - BGS-611409
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.01.14
+  templates:
+    - type: simple
+      question: |-
+        What will be the revised ETA (to the nearest minute) over turning point B in the following situation? Assume that all other conditions remain unchanged.
+
+        - Planned ETA over turning point B: 14:14 UTC
+        - Planned distance from turning point A to turning point B: {{dist}} NM
+        - Planned distance from turning point A to check feature X: {{dist_fix}} NM
+        - Actual time over check feature X: {{lag}} min late
+
+        What is the revised ETA over turning point B?
+      explanation: |-
+        The aircraft is late over check feature X. The lateness grows in proportion to distance, so the lateness at turning point B is the lateness at X multiplied by the ratio of the two distances. The revised ETA is the planned ETA plus that extra lateness.
+
+        **Solution**
+
+        - Ratio of distances: {{dist}} NM / {{dist_fix}} NM = {{macro1}}
+        - Extra lateness at B: {{lag}} min × {{macro1}} = {{macro2}} min, rounded to the nearest minute
+        - Revised ETA: 14:14 plus the extra lateness = **{{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}**: the lateness at X is added without scaling to B.
+        - **{{d2}}**: the scaling uses the distance beyond X instead of the whole distance to B.
+        - **{{d3}}**: the lateness is ignored and the planned ETA is given.
+      presets:
+        - variables:
+            dist: 43
+            dist_fix: 10
+            lag: 1.25
+            macro1: 4
+            macro2: 5
+            answer: 14:19
+            d1: 14:15
+            d2: 14:18
+            d3: 14:14
+          correctAnswers:
+            - text: 14:19
+          wrongAnswers:
+            - text: 14:14
+            - text: 14:15
+            - text: 14:18
+        - variables:
+            dist: 60
+            dist_fix: 15
+            lag: 2
+            macro1: 4
+            macro2: 8
+            answer: 14:22
+            d1: 14:16
+            d2: 14:20
+            d3: 14:14
+          correctAnswers:
+            - text: 14:22
+          wrongAnswers:
+            - text: 14:14
+            - text: 14:16
+            - text: 14:20
+        - variables:
+            dist: 60
+            dist_fix: 15
+            lag: 1.6
+            macro1: 4
+            macro2: 6
+            answer: 14:20
+            d1: 14:16
+            d2: 14:19
+            d3: 14:14
+          correctAnswers:
+            - text: 14:20
+          wrongAnswers:
+            - text: 14:14
+            - text: 14:16
+            - text: 14:19
+- id: QKVBO
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-616637
+    - AVEXAM-30418
+    - BGS-611293
+  annexes:
+    - id: AEXH
+  learningObjectiveIds:
+    - 061.02.02.01.14
+  templates:
+    - type: simple
+      question: |-
+        (For this question use the VFR chart ED-4 from the Jeppesen GSPRM 2017).   
+         You are planning a VFR flight departing at midday from aerodrome Arnbruck (EDNB) (N49°08', E012°59') to aerodrome Hohenfels (ETIH) (N49°13', E011°50'). What is the best means of checking the groundspeed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The road A93, which crosses the track.
+          wrongAnswers:
+            - text: The parallel river running through the town of Nittenau (N49°12',E012°18").
+            - text: Passing abeam Griesau aerodrome (EDPG) (N48°57', E012º25").
+            - text: Passing abeam (opposite) the lighted mast at N49°03', E012°10'.
+- id: QEEAZ
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-615844
+    - BGS-611717
+    - AVEXAM-80544
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.02.01
+  templates:
+    - type: multiple-correct
+      question: |-
+        When flying VFR by day in early summer over part of central Europe, you have been busy looking at the scenery and NOT concentrating on where exactly you are.
+
+        What are the features which would be suitable for you to set your heading towards, when unsure of your position?
+      explanation: ""
+      options:
+        - text: A motorway
+          correct: true
+        - text: A junction of two small roads.
+          correct: false
+        - text: A railway.
+          correct: true
+        - text: A river.
+          correct: true
+        - text: A coastline
+          correct: true
+        - text: A fruit farm.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+    - type: simple
+      question: |-
+        During a VFR flight overhead Central Europe in summer, you were too busy with looking out and thereby got lost. Which of the following landmarks should be preferred to regain orientation?
+
+         A motorway
+         A junction of two small roads
+         A railway
+         A river
+         A coastline
+         A fruit farm
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 3, 4, 5
+          wrongAnswers:
+            - text: 3, 4, 5, 6
+            - text: 1, 2, 3, 5
+            - text: 1, 2, 4, 6
+- id: QWUFV
+  subjectId: "061"
+  chapterId: "061.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-616600
+    - BGS-611271
+  annexes: []
+  learningObjectiveIds:
+    - 061.02.02.02.01
+  templates:
+    - type: simple
+      question: "The pilot is in radio contact with an Air Traffic Control unit but has become unsure of the aircraft's position. The pilot's initial action(s) if fuel is NOT critical is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Note the time and request assistance from the ATC unit.
+          wrongAnswers:
+            - text: Change frequency to 121.5 MHz and make an urgency (PAN) call.
+            - text: Turn back towards the aircraft's last confirmed position.
+            - text: Continue to fly on the current heading until position is established.

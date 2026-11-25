@@ -1,0 +1,1023 @@
+- id: QDEOL
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds:
+    - QTGEA
+  externalQuestionIds:
+    - ATPLQ-105588
+    - BGS-100530
+    - AVEXAM-45778
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.01.02.01
+  templates:
+    - type: simple
+      question: In the event of non-compliance with an International Standard, what is the obligation of the State?
+      explanation: |-
+        ### Chicago Convention (1944), Article 38
+
+        > Any State which finds it impracticable to comply in all respects with any such international standard or procedure, […] or which deems it necessary to adopt regulations or practices differing in any particular respect from those established by an international standard, **shall give immediate notification to the International Civil Aviation Organization of the differences** between its own practice and that established by the international standard. In the case of amendments to international standards, any State which does not make the appropriate amendments to its own regulations or practices **shall give notice to the Council within sixty days** of the adoption of the amendment to the international standard, or indicate the action which it proposes to take. […]
+
+        The State must therefore notify ICAO, and publish the differences in the national AIP so that pilots are aware of these differences.
+      presets:
+        - correctAnswers:
+            - text: The State must notify the Council of ICAO and publish such differences in the national AIP.
+          wrongAnswers:
+            - text: The State must publish such differences in the national AIP only.
+            - text: Binding for all member states.
+            - text: Modifications to International Standards shall be published in the national AIP only; differences to Recommended Practices have to be notified to ICAO.
+- id: QTGEA
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds:
+    - QDEOL
+  externalQuestionIds:
+    - ATPLQ-103402
+    - AVEXAM-37385
+    - BGS-100001
+    - ATPLQ-106130
+    - BGS-100807
+    - AVEXAM-28471
+    - BGS-100006
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.01.02.01
+    - 010.01.01.03.03
+  templates:
+    - type: simple
+      question: ICAO publications – Standards defined in the Annexes to the Chicago convention are...
+      explanation: |-
+        ### Chicago Convention (1944), Article 38
+
+        > Any State which finds it impracticable to comply in all respects with any such international standard or procedure, […] or which deems it necessary to adopt regulations or practices differing in any particular respect from those established by an international standard, **shall give immediate notification to the International Civil Aviation Organization of the differences** between its own practice and that established by the international standard. […]
+
+        So Standards bind the Contracting States, but a State may deviate from one if it notifies ICAO of the difference.
+      presets:
+        - correctAnswers:
+            - text: binding for the Contracting States unless they have notified ICAO about a national difference.
+          wrongAnswers:
+            - text: advice and guidance for the aviation related legislation within the legal framework of the Contracting States.
+            - text: recommended explanatory material for the aviation related legislation of the Contracting States.
+            - text: binding for all Contracting States without deviation or exception.
+    - type: simple
+      question: The Annexes established by the International Civil Aviation Organisation contain...
+      explanation: |-
+        ### Chicago Convention (1944), Article 37
+
+        > […] the International Civil Aviation Organization shall adopt and amend from time to time, as may be necessary, **international standards and recommended practices and procedures** dealing with: (a) Communications systems and air navigation aids, including ground marking; […]
+
+        The Annexes contain these Standards and Recommended Practices. A State that does not follow a Standard must notify ICAO of the difference (Article 38).
+      presets:
+        - correctAnswers:
+            - text: Standards and Recommended Practices to be adopted by Contracting States.
+          wrongAnswers:
+            - text: proposals for aeronautical regulations in the form of 19 Annexes.
+            - text: aeronautical standards binding in all states.
+            - text: Standards and Recommended Practices applied without exception by all States, signatory to the Chicago Convention.
+- id: QUZQL
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101597
+    - AVEXAM-76418
+    - BGS-101366
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.01.02.02
+  templates:
+    - type: simple
+      question: An aircraft is flying from the USA to Germany. the pilot is told that they are no longer allowed to enter Germany. All mentioned countries signed the International Aviation Convention. This situation is…
+      explanation: |-
+        ### Chicago Convention (1944), Article 1
+
+        > The contracting States recognize that every State has **complete and exclusive sovereignty over the airspace above its territory**.
+
+        Germany can therefore refuse entry. Signing the Convention does not oblige a State to admit any aircraft.
+      presets:
+        - correctAnswers:
+            - text: legal, because each contracting state has the right of sovereignty over its own airspace.
+          wrongAnswers:
+            - text: illegal, because they signed the convention and therefore are obliged to permit the aircraft to land.
+            - text: legal, because the US is not part of EASA.
+            - text: illegal, because a permission to enter cannot be withdrawn once given.
+- id: QWPMV
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105955
+    - AVEXAM-86435
+    - ATPLQ-103912
+    - BGS-100856
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.01.02.02
+  templates:
+    - type: simple
+      question: According to ICAO, who is responsible for providing air traffic services over the high seas?
+      explanation: |-
+        ### Chicago Convention (1944), Article 12
+
+        > […] **Over the high seas, the rules in force shall be those established under this Convention.** […]
+
+        No State owns the high seas, so nothing there is tied to a national territory. Under Annex 11 (2.1.2), regional air navigation agreements decide which parts of that airspace get air traffic services, and a Contracting State that has accepted the responsibility provides them. Being the nearest State, the nearest ICAO regional office, or a historical arrangement does not give that responsibility.
+
+        Example: Portugal has accepted responsibility for the Santa Maria Oceanic FIR, a vast part of the North Atlantic. Its air traffic services are provided from the Azores, even though most of that airspace is far from Portuguese territory.
+      presets:
+        - correctAnswers:
+            - text: A Contracting State that has accepted the responsibility for providing those services.
+          wrongAnswers:
+            - text: The Member State closest to the area.
+            - text: The regional ICAO office closest to the area.
+            - text: "By delegation: the US over the Atlantic, Russia over the Arctic and Australia over the Pacific."
+- id: QAZAW
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102523
+    - AVEXAM-87973
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.01.02.03
+  templates:
+    - type: simple
+      question: According to ICAO Doc 7300/9 Convention on International Civil Aviation, Article ‘Landing at customs airport’, what statement is correct?
+      explanation: |-
+        ### Chicago Convention (1944), Article 10
+
+        > Except in a case where, under the terms of this Convention or a special authorization, aircraft are permitted to **cross the territory of a contracting State without landing**, every aircraft which enters the territory of a contracting State shall, **if the regulations of that State so require, land at an airport designated by that State for the purpose of customs and other examination**. On departure […] such aircraft shall depart from a similarly designated customs airport. Particulars of all designated customs airports shall be published by the State and transmitted to the International Civil Aviation Organization […].
+      presets:
+        - correctAnswers:
+            - text: Aircraft are permitted to cross the territory of a Contracting State without landing, unless the regulations of that State require you to land for customs examination.
+          wrongAnswers:
+            - text: Aircraft departing from one Contracting State to another Contracting State may depart from a non-customs airport provided that the destination airport has customs facilities.
+            - text: Aircraft from another Contracting State may land at a non-designated customs airport for the purpose of re-fuelling and then continue to another Contracting State.
+            - text: Particulars of all designated customs airports shall be published by the State and transmitted to the International Air Transport Association (IATA).
+- id: QTCMJ
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106915
+    - BGS-100013
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.01.02.03
+  templates:
+    - type: simple
+      question: Chicago Convention – Cabotage refers to..
+      explanation: |-
+        ### Chicago Convention (1944), Article 7
+
+        > Each contracting State shall have the right to refuse permission to the aircraft of other contracting States to take on in its territory passengers, mail and cargo carried for remuneration or hire and **destined for another point within its territory**. […]
+
+        Cabotage is the carriage of traffic between two points in the same State, that is, domestic air services.
+      presets:
+        - correctAnswers:
+            - text: domestic air services.
+          wrongAnswers:
+            - text: international air services.
+            - text: required documents for cargo.
+            - text: security matters.
+- id: QHDGU
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds:
+    - QUIRR
+  externalQuestionIds:
+    - ATPLQ-108644
+    - AVEXAM-38646
+    - BGS-100005
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.01.03.01
+  templates:
+    - type: simple
+      question: ICAO – Objectives of ICAO were established and are ratified by the...
+      explanation: The Chicago Convention (1944) created ICAO and set out its aims and objectives. The Warsaw Convention (1929) deals with the liability of the carrier and the Geneva Convention (1948) with the recognition of rights in aircraft.
+      presets:
+        - correctAnswers:
+            - text: Chicago Convention 1944.
+          wrongAnswers:
+            - text: Warsaw Convention 1929.
+            - text: Geneva Convention 1948.
+            - text: Geneva Convention 1936.
+- id: QUIRR
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds:
+    - QOJTR
+    - QHDGU
+  externalQuestionIds:
+    - ATPLQ-108063
+    - AVEXAM-63425
+    - AVEXAM-84693
+    - ATPLQ-108671
+    - AVEXAM-63868
+    - BGS-100004
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.01.03.01
+  templates:
+    - type: simple
+      question: "Select the option which corresponds to ICAO's mission statement:"
+      explanation: |-
+        The correct option is ICAO's own mission statement, not a legal text. ICAO develops Standards and Recommended Practices for the States; it does not approve airlines, aircraft or licences. The other options describe IATA (the airlines' trade body) and EASA (the European rule-maker).
+
+        Remember: ICAO is the States' forum, IATA is the airlines' club, EASA is Europe's rule-maker.
+      presets:
+        - correctAnswers:
+            - text: ICAO's mission is to serve as the global forum of States for international civil aviation. ICAO develops policies and Standards, undertakes compliance audits, performs studies and analyses, provides assistance and builds aviation capacity through many other activities and the cooperation of its Member States and stakeholders.
+          wrongAnswers:
+            - text: ICAO's mission is to approve new international airlines, aircrafts and pilot's licenses.
+            - text: ICAO's mission is to represent, lead and serve the airline industry. IATA seeks to improve understanding of the industry among decision makers and increase awareness of the benefits that aviation brings to national and global economies. It fights for the interests of airlines across the globe, challenging unreasonable rules and charges, holding regulators and governments to account, and striving for sensible regulation.
+            - text: ICAO produces rules and regulations, and promotes the highest common standards of civil aviation safety and environmental protection in Europe and worldwide.
+    - type: simple
+      question: One of the main objectives of ICAO is to..
+      explanation: |-
+        ### Chicago Convention (1944), Article 44
+
+        > The aims and objectives of the Organization are to **develop the principles and techniques of international air navigation** and to foster the planning and development of international air transport so as to: […]
+
+        Approving airlines or fares is not among ICAO's aims.
+      presets:
+        - correctAnswers:
+            - text: develop the principles and techniques for international air navigation.
+          wrongAnswers:
+            - text: approve new international airlines operating jet aircraft.
+            - text: approve air fares set by international airlines.
+            - text: approve new international airlines.
+- id: QCFMQ
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds:
+    - QWSXE
+  externalQuestionIds:
+    - ATPLQ-102236
+    - AVEXAM-1437
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.01.03.02
+  templates:
+    - type: simple
+      question: Who is the governing body of ICAO?
+      explanation: |-
+        ### Chicago Convention (1944), Article 43
+
+        > An organization to be named the International Civil Aviation Organization is formed by the Convention. It is made up of an Assembly, a Council, and such other bodies as may be necessary.
+
+        ### Article 50(a)
+
+        > The Council shall be a **permanent body responsible to the Assembly**. […]
+
+        The Council is the permanent body that runs ICAO between Assembly meetings, and it is the one ICAO calls its governing body. The Assembly elects the Council's members.
+      presets:
+        - correctAnswers:
+            - text: The Council.
+          wrongAnswers:
+            - text: The Authority.
+            - text: The Secretariat.
+            - text: The Assembly.
+- id: QWSXE
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds:
+    - QCFMQ
+  externalQuestionIds:
+    - ATPLQ-103140
+    - BGS-100536
+    - AVEXAM-11053
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.01.03.02
+  templates:
+    - type: simple
+      question: "The Air Navigation Commission is composed of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 19 members appointed by the ICAO Council.
+          wrongAnswers:
+            - text: 15 members appointed by the ICAO Council.
+            - text: 33 members appointed by the ICAO Assembly.
+            - text: 33 members appointed by the ICAO Council.
+- id: QCIFX
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101349
+    - ATPLQ-109614
+    - BGS-101779
+    - AVEXAM-32773
+    - AVEXAM-17378
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.01.03.03
+  templates:
+    - type: definition
+      question: What is ICAO Annex {term} about?
+      explanation: |-
+        The Annexes to the Chicago Convention are numbered by subject:
+
+        | No. | Content                                           |
+        | --- | ------------------------------------------------- |
+        | 1   | Personnel Licensing                               |
+        | 2   | Rules of the Air                                  |
+        | 3   | Meteorological Services                           |
+        | 4   | Aeronautical Charts                               |
+        | 5   | Units of Measurement                              |
+        | 6   | Operation of Aircraft                             |
+        | 7   | Aircraft Nationality and Registration Marks       |
+        | 8   | Airworthiness of Aircraft                         |
+        | 9   | Facilitation                                      |
+        | 10  | Aeronautical Telecommunications                   |
+        | 11  | Air Traffic Services                              |
+        | 12  | Search and Rescue                                 |
+        | 13  | Aircraft Accident and Incident Investigation      |
+        | 14  | Aerodromes                                        |
+        | 15  | Aeronautical Information Services                 |
+        | 16  | Environmental Protection                          |
+        | 17  | Security                                          |
+        | 18  | The Safe Transportation of Dangerous Goods by Air |
+        | 19  | Safety Management                                 |
+      options:
+        - id: O1Q74U6VX
+          term: "1"
+          definition: Personnel Licensing
+        - id: OI8G5RW3T
+          term: "2"
+          definition: Rules of the Air
+        - id: OW6EJL2VK
+          term: "3"
+          definition: Meteorological Services
+        - id: OX7N9MFP4
+          term: "4"
+          definition: Aeronautical Charts
+        - id: O3KPT2DHB
+          term: "5"
+          definition: Units of Measurement
+        - id: OZSFAK6HC
+          term: "6"
+          definition: Operation of Aircraft
+        - id: OYUQ9XNVK
+          term: "7"
+          definition: Aircraft Nationality and Registration Marks
+        - id: O2AI3LBG9
+          term: "8"
+          definition: Airworthiness of Aircraft
+        - id: ODP4WXIY8
+          term: "9"
+          definition: Facilitation
+        - id: OTCHYW63M
+          term: "10"
+          definition: Aeronautical Telecommunications
+        - id: O4JQ62UVO
+          term: "11"
+          definition: Air Traffic Services
+        - id: O1SR7HNTL
+          term: "12"
+          definition: Search and Rescue
+        - id: OG8Z2T9FJ
+          term: "13"
+          definition: Aircraft Accident and Incident Investigation
+        - id: OX5ER1DM9
+          term: "14"
+          definition: Aerodromes
+        - id: OS6PKYFZA
+          term: "15"
+          definition: Aeronautical Information Services
+        - id: OJYTVW7NK
+          term: "16"
+          definition: Environmental Protection
+        - id: ORKL59V6H
+          term: "17"
+          definition: Security
+        - id: O3PI6HX4U
+          term: "18"
+          definition: The Safe Transportation of Dangerous Goods by Air
+        - id: O77MG5R6T
+          term: "19"
+          definition: Safety Management
+      fakeOptions: []
+    - type: simple
+      question: Which of the following ICAO Annexes covers Rules of the Air?
+      explanation: |-
+        The Annexes to the Chicago Convention are numbered by subject:
+
+        | No. | Content                                           |
+        | --- | ------------------------------------------------- |
+        | 1   | Personnel Licensing                               |
+        | 2   | Rules of the Air                                  |
+        | 3   | Meteorological Services                           |
+        | 4   | Aeronautical Charts                               |
+        | 5   | Units of Measurement                              |
+        | 6   | Operation of Aircraft                             |
+        | 7   | Aircraft Nationality and Registration Marks       |
+        | 8   | Airworthiness of Aircraft                         |
+        | 9   | Facilitation                                      |
+        | 10  | Aeronautical Telecommunications                   |
+        | 11  | Air Traffic Services                              |
+        | 12  | Search and Rescue                                 |
+        | 13  | Aircraft Accident and Incident Investigation      |
+        | 14  | Aerodromes                                        |
+        | 15  | Aeronautical Information Services                 |
+        | 16  | Environmental Protection                          |
+        | 17  | Security                                          |
+        | 18  | The Safe Transportation of Dangerous Goods by Air |
+        | 19  | Safety Management                                 |
+      presets:
+        - correctAnswers:
+            - text: "2"
+          wrongAnswers:
+            - text: "8"
+            - text: "6"
+            - text: "4"
+    - type: simple
+      question: ICAO Annex 2 contains the Standards for...
+      explanation: |-
+        The Annexes to the Chicago Convention are numbered by subject:
+
+        | No. | Content                                           |
+        | --- | ------------------------------------------------- |
+        | 1   | Personnel Licensing                               |
+        | 2   | Rules of the Air                                  |
+        | 3   | Meteorological Services                           |
+        | 4   | Aeronautical Charts                               |
+        | 5   | Units of Measurement                              |
+        | 6   | Operation of Aircraft                             |
+        | 7   | Aircraft Nationality and Registration Marks       |
+        | 8   | Airworthiness of Aircraft                         |
+        | 9   | Facilitation                                      |
+        | 10  | Aeronautical Telecommunications                   |
+        | 11  | Air Traffic Services                              |
+        | 12  | Search and Rescue                                 |
+        | 13  | Aircraft Accident and Incident Investigation      |
+        | 14  | Aerodromes                                        |
+        | 15  | Aeronautical Information Services                 |
+        | 16  | Environmental Protection                          |
+        | 17  | Security                                          |
+        | 18  | The Safe Transportation of Dangerous Goods by Air |
+        | 19  | Safety Management                                 |
+      presets:
+        - correctAnswers:
+            - text: the Rules of the Air.
+          wrongAnswers:
+            - text: Air Traffic Management.
+            - text: Aircraft Operations and Flight Procedures.
+            - text: Air Traffic Services.
+    - type: simple
+      question: "The ICAO annex which deals with Rules of the Air is:"
+      explanation: |-
+        The Annexes to the Chicago Convention are numbered by subject:
+
+        | No. | Content                                           |
+        | --- | ------------------------------------------------- |
+        | 1   | Personnel Licensing                               |
+        | 2   | Rules of the Air                                  |
+        | 3   | Meteorological Services                           |
+        | 4   | Aeronautical Charts                               |
+        | 5   | Units of Measurement                              |
+        | 6   | Operation of Aircraft                             |
+        | 7   | Aircraft Nationality and Registration Marks       |
+        | 8   | Airworthiness of Aircraft                         |
+        | 9   | Facilitation                                      |
+        | 10  | Aeronautical Telecommunications                   |
+        | 11  | Air Traffic Services                              |
+        | 12  | Search and Rescue                                 |
+        | 13  | Aircraft Accident and Incident Investigation      |
+        | 14  | Aerodromes                                        |
+        | 15  | Aeronautical Information Services                 |
+        | 16  | Environmental Protection                          |
+        | 17  | Security                                          |
+        | 18  | The Safe Transportation of Dangerous Goods by Air |
+        | 19  | Safety Management                                 |
+      presets:
+        - correctAnswers:
+            - text: Annex 2.
+          wrongAnswers:
+            - text: Annex 14.
+            - text: Annex 1.
+            - text: Annex 11.
+    - type: simple
+      question: ICAO Annex 2 refers to...
+      explanation: |-
+        The Annexes to the Chicago Convention are numbered by subject:
+
+        | No. | Content                                           |
+        | --- | ------------------------------------------------- |
+        | 1   | Personnel Licensing                               |
+        | 2   | Rules of the Air                                  |
+        | 3   | Meteorological Services                           |
+        | 4   | Aeronautical Charts                               |
+        | 5   | Units of Measurement                              |
+        | 6   | Operation of Aircraft                             |
+        | 7   | Aircraft Nationality and Registration Marks       |
+        | 8   | Airworthiness of Aircraft                         |
+        | 9   | Facilitation                                      |
+        | 10  | Aeronautical Telecommunications                   |
+        | 11  | Air Traffic Services                              |
+        | 12  | Search and Rescue                                 |
+        | 13  | Aircraft Accident and Incident Investigation      |
+        | 14  | Aerodromes                                        |
+        | 15  | Aeronautical Information Services                 |
+        | 16  | Environmental Protection                          |
+        | 17  | Security                                          |
+        | 18  | The Safe Transportation of Dangerous Goods by Air |
+        | 19  | Safety Management                                 |
+      presets:
+        - correctAnswers:
+            - text: rules of the air.
+          wrongAnswers:
+            - text: facilitation.
+            - text: operational procedures.
+            - text: aerodromes.
+- id: QCVNT
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109643
+    - ATPLQ-106138
+    - AVEXAM-29794
+    - BGS-101917
+    - ATPLQ-108858
+    - ATPLQ-102400
+    - ATPLQ-104102
+    - ATPLQ-102795
+    - AVEXAM-3160
+    - AVEXAM-48799
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.02.01.01
+    - 010.01.02.02.01
+  templates:
+    - type: definition
+      question: What is the right granted by the {term} of the air?
+      explanation: |-
+        The first two freedoms are the technical freedoms. They let an aircraft cross or stop in another State without carrying traffic. The last three are the commercial freedoms, because they let an airline earn revenue by carrying passengers and cargo to, from or beyond another State.
+
+        {table}
+      options:
+        - id: OFQ3J7K2M
+          term: First freedom
+          definition: To fly across the territory of another State without landing.
+        - id: OS8N4W6RX
+          term: Second freedom
+          definition: To land in another State for non-traffic purposes, such as a technical stop.
+        - id: OT5H9C1LD
+          term: Third freedom
+          definition: To put down, in another State, traffic coming from the home State of the carrier.
+        - id: OF2V7B3ZP
+          term: Fourth freedom
+          definition: To take on, in another State, traffic destined for the home State of the carrier.
+        - id: OF6Y1G8TA
+          term: Fifth freedom
+          definition: To put down and take on, in another State, traffic coming from or destined to a third State.
+      fakeOptions:
+        - id: OX8E2N7KV
+          definition: To carry traffic between two other States by stopping in the home State of the carrier.
+        - id: OX5W9R3FD
+          definition: To carry traffic between two points within the same foreign State.
+    - type: simple
+      question: "An aircraft registered in State A is on the following flight: {{operation}}. Which freedom of the air does it exercise?"
+      explanation: "The first two freedoms are the technical freedoms: an aircraft crosses or stops in another State without carrying traffic. The third, fourth and fifth freedoms are the commercial freedoms, because the airline earns revenue by carrying traffic. The third freedom carries traffic from the home State of the carrier to another State, and the fourth freedom carries traffic from another State back to the home State of the carrier."
+      presets:
+        - variables:
+            operation: it flies from State A to State B and overflies State C without landing
+          correctAnswers:
+            - text: The first freedom.
+          wrongAnswers:
+            - text: The second freedom.
+            - text: The third freedom.
+            - text: The fourth freedom.
+        - variables:
+            operation: it flies from State A to State B and lands in State C for a technical stop only
+          correctAnswers:
+            - text: The second freedom.
+          wrongAnswers:
+            - text: The first freedom.
+            - text: The third freedom.
+            - text: The fourth freedom.
+        - variables:
+            operation: it carries passengers from State A to State B
+          correctAnswers:
+            - text: The third freedom.
+          wrongAnswers:
+            - text: The first freedom.
+            - text: The second freedom.
+            - text: The fourth freedom.
+        - variables:
+            operation: it carries passengers from State B to State A
+          correctAnswers:
+            - text: The fourth freedom.
+          wrongAnswers:
+            - text: The first freedom.
+            - text: The second freedom.
+            - text: The third freedom.
+- id: QPDMK
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103800
+    - BGS-101491
+    - AVEXAM-42187
+    - ATPLQ-102930
+    - AVEXAM-14368
+    - ATPLQ-105128
+    - AVEXAM-87188
+    - BGS-100016
+    - ATPLQ-101745
+    - ATPLQ-107502
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.02.03.01
+  templates:
+    - type: simple
+      question: The cabin crew notify the aircraft commander that they have reasonable grounds to believe that a person is about to commit an unlawful act on board the aircraft. What action should the commander take?
+      explanation: |-
+        ### Tokyo Convention (1963), Article 6
+
+        > 1. The aircraft commander may, when he has **reasonable grounds to believe that a person has committed, or is about to commit**, on board the aircraft, an offence or act contemplated in Article 1, paragraph 1, **impose upon such person reasonable measures including restraint** which are necessary:
+        >    (a) to protect the safety of the aircraft, or of persons or property therein; or
+        >    (b) to maintain good order and discipline on board; or
+        >    (c) to enable him to deliver such person to competent authorities or to disembark him in accordance with the provisions of this Chapter.
+        >
+        > 2. The aircraft commander may require or authorize the assistance of other crew members and may request or authorize, **but not require**, the assistance of passengers to restrain any person whom he is entitled to restrain.
+
+        The commander does not have to wait for the act: "about to commit" is enough to impose restraint. Crew can be told to help, but passengers can only be **requested** to help, so any option that **requires** passengers  to assist is wrong.
+      presets:
+        - correctAnswers:
+            - text: Impose upon that person reasonable measures, including restraining that person, to maintain good order on board.
+            - text: Take necessary actions to restrain or secure the passenger in question.
+            - text: Request that passengers help the cabin crew to restrain that person.
+          wrongAnswers:
+            - text: Immediately inform ATC and squawk Code 7600.
+            - text: Leave controlled airspace and land at the nearest suitable aerodrome.
+            - text: Require passengers to provide the cabin crew with extra assistance to restrain that person, in order to protect the safety of the aircraft.
+            - text: Conduct an emergency descent and land as soon as possible.
+            - text: Not require or authorise the assistance of other crew members.
+            - text: Divert and land as soon as possible.
+            - text: Wait until the person commits the act before taking any action.
+- id: QXLZS
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108354
+    - BGS-101461
+    - AVEXAM-11810
+    - ATPLQ-105740
+    - AVEXAM-761
+    - BGS-101681
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.02.05.01
+    - 010.01.02.05.02
+  templates:
+    - type: simple
+      question: Why must the airline issue a ticket?
+      explanation: |-
+        ### Montreal Convention (1999), Article 3
+
+        > 1. In respect of carriage of passengers, **an individual or collective document of carriage shall be delivered** containing:
+        >    (a) an indication of the places of departure and destination;
+        >    (b) if the places of departure and destination are within the territory of a single State Party, one or more agreed stopping places being within the territory of another State, an indication of at least one such stopping place.
+
+        > 5. Non-compliance with the provisions of the foregoing paragraphs **shall not affect the existence or the validity of the contract of carriage**, which shall, nonetheless, be subject to the rules of this Convention including those relating to limitation of liability.
+
+        Paragraph 1 defines what a ticket is without ever calling it a ticket.
+      presets:
+        - correctAnswers:
+            - text: To establish a legal contract between the airline and the passenger.
+          wrongAnswers:
+            - text: To document that a flight has been made.
+            - text: Official identification documents of the pax.
+            - text: "To ensure that, if the passenger fails to attend the flight, they have the right to board another flight. "
+    - type: simple
+      question: A passenger has lost their ticket, which was issued by an airline. In this case\_\_.
+      explanation: |-
+        ### Montreal Convention (1999), Article 3
+
+        > 1. In respect of carriage of passengers, **an individual or collective document of carriage shall be delivered** containing:
+        >    (a) an indication of the places of departure and destination;
+        >    (b) if the places of departure and destination are within the territory of a single State Party, one or more agreed stopping places being within the territory of another State, an indication of at least one such stopping place.
+
+        > 5. Non-compliance with the provisions of the foregoing paragraphs **shall not affect the existence or the validity of the contract of carriage**, which shall, nonetheless, be subject to the rules of this Convention including those relating to limitation of liability.
+
+        Paragraph 1 defines what a ticket is without ever calling it a ticket.
+      presets:
+        - correctAnswers:
+            - text: The contract of carriage is NOT affected.
+          wrongAnswers:
+            - text: The airline CANNOT carry the passenger to their destination.
+            - text: A penalty fee will be applied, depending on the number of available seats on the aircraft.
+            - text: The passenger must buy another ticket for the same flight.
+- id: QYGEQ
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104328
+    - BGS-101652
+    - AVEXAM-88997
+    - ATPLQ-104716
+    - AVEXAM-95796
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.02.05.04
+  templates:
+    - type: simple
+      question: According to the Montreal Convention of 1999 (ICAO Doc 9740), a carrier is liable for damage sustained in case of destruction or loss of, or of damage to, baggage upon condition only that the event which caused the destruction, loss or damage took place…
+      explanation: |-
+        ### Montreal Convention (1999), Article 17(2)
+
+        > The carrier is liable for damage sustained in case of destruction or loss of, or of damage to, checked baggage upon condition only that the event which caused the destruction, loss or damage **took place on board the aircraft or during any period within which the checked baggage was in the charge of the carrier**. […] In the case of unchecked baggage, including personal items, the carrier is liable if the damage resulted from its fault or that of its servants or agents.
+
+        For checked baggage, what matters is who has charge of it, not where it is. The airport perimeter and the check-in desk play no part in the test.
+      presets:
+        - correctAnswers:
+            - text: On board the aircraft or during any period within which the checked baggage was in the charge of the carrier.
+          wrongAnswers:
+            - text: Whether in the possession of the passenger or the baggage handling service.
+            - text: After the passenger has claimed the baggage and while the baggage is still within the perimeter of aerodrome.
+            - text: Before check-in, while the baggage is within the perimeter of the aerodrome.
+    - type: simple
+      question: According to the 1999 Montreal Convention, when is an airline responsible for the passenger's checked baggage?
+      explanation: |-
+        ### Montreal Convention (1999), Article 17(2)
+
+        > The carrier is liable for damage sustained in case of destruction or loss of, or of damage to, checked baggage upon condition only that the event which caused the destruction, loss or damage **took place on board the aircraft or during any period within which the checked baggage was in the charge of the carrier**. […]
+
+        The airline has charge of the checked baggage from check-in until off-loading.
+      presets:
+        - correctAnswers:
+            - text: From the baggage check-in until its off-loading.
+          wrongAnswers:
+            - text: From entering the departure airport until leaving at the destination airport.
+            - text: From the moment of the check-in until the passenger leaves the plane.
+            - text: From the moment the baggage is stowed in the aircraft until off-loading it.
+- id: QOJTR
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds:
+    - QUIRR
+  externalQuestionIds:
+    - ATPLQ-109397
+    - ATPLQ-109929
+    - AVEXAM-81780
+    - ATPLQ-107072
+    - AVEXAM-53620
+    - BGS-100590
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.03.01.01
+  templates:
+    - type: simple
+      question: "Select the option which corresponds to IATA's mission statement:"
+      explanation: |-
+        The correct option is IATA's own mission statement:
+
+        > IATA’s mission is to represent, lead and serve the airline industry. **IATA seeks to improve understanding of the industry among decision makers** […] **It fights for the interests of airlines across the globe**, challenging unreasonable rules and charges, holding regulators and governments to account, and striving for sensible regulation.
+
+        The other options describe ICAO (a forum of States) and EASA (the European rule-maker), or attribute a rule-making role to IATA that it does not have.
+      presets:
+        - correctAnswers:
+            - text: IATA’s mission is to represent, lead and serve the airline industry. IATA seeks to improve understanding of the industry among decision makers and increase awareness of the benefits that aviation brings to national and global economies. It fights for the interests of airlines across the globe, challenging unreasonable rules and charges, holding regulators and governments to account, and striving for sensible regulation.
+          wrongAnswers:
+            - text: IATA's mission is to serve as the global forum of States for international civil aviation. IATA provides assistance and builds aviation capacity through many other activities and the cooperation of its Member States and stakeholders.
+            - text: IATA produces rules and regulations, and promotes the highest common standards of civil aviation safety and environmental protection in Asia and worldwide. It is a counterpart of EASA for countries in Asia.
+            - text: IATA produces rules and regulations, and promotes the highest common standards of civil aviation safety and environmental protection in Europe and worldwide.
+    - type: simple
+      question: Which of these is a primary function of IATA?
+      explanation: |-
+        IATA describes its mission as follows:
+
+        > IATA’s mission is to represent, lead and serve the airline industry. […] **It fights for the interests of airlines across the globe**, challenging unreasonable rules and charges, holding regulators and governments to account, and striving for sensible regulation.
+
+        IATA is the airlines' trade body, so it tackles the critical issues of the industry on their behalf. It does not act as their lawyer, and it does not set policy for individual airlines.
+      presets:
+        - correctAnswers:
+            - text: To tackle critical issues in Aviation.
+          wrongAnswers:
+            - text: To help airlines if they were indicted by a customer.
+            - text: To give individual airlines policy guidelines.
+            - text: To perform the job of a lawyer in order to represent an Airline when they are being sued.
+    - type: simple
+      question: Which one of the following statements applies to the general organisation and objectives of the IATA? – The IATA is...
+      explanation: |-
+        IATA describes its mission as follows:
+
+        > IATA’s mission is to **represent, lead and serve the airline industry**. […]
+
+        IATA is a trade body of airlines. It is not a United Nations organisation and it does not develop trade agreements.
+      presets:
+        - correctAnswers:
+            - text: an international trade body which represents, leads and serves airline business in general.
+          wrongAnswers:
+            - text: a specialised organisation of the United Nations for international air traffic agreements.
+            - text: an international organisation for innovation, efficient co-operation and assistance for telecommunications in aviation.
+            - text: a multi-national organisation for developing trade agreements in international aviation (scheduled and non-scheduled services).
+- id: QWUQM
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds:
+    - QJYCD
+  externalQuestionIds:
+    - ATPLQ-103058
+    - BGS-100660
+    - AVEXAM-13815
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.04.01.01
+    - 010.01.04.01.02
+  templates:
+    - type: simple
+      question: What is the role and objective of EASA?
+      explanation: |-
+        ### Regulation (EU) 2018/1139 (Basic Regulation), Article 76(1)
+
+        > The Agency shall, upon request, **assist the Commission in the preparation of proposals** for amendments to this Regulation and of **delegated and implementing acts** to be adopted on the basis of this Regulation […]. The documents that the Agency submits to the Commission for those purposes shall take the form of opinions.
+
+        ### Article 1(1)
+
+        > The principal objective of this Regulation is to establish and maintain **a high uniform level of civil aviation safety** in the Union.
+
+        ### Article 1(2)(c)
+
+        > This Regulation further aims to: […] contribute to **a high, uniform level of environmental protection**;
+
+        EASA proposes, the European Commission adopts. The Agency's proposals reach the Commission as opinions, not the National Aviation Authorities, and the Agency does not adopt implementing rules itself.
+      presets:
+        - correctAnswers:
+            - text: EASA proposes implementing rules to the European Commission and promotes the highest common standards of safety and environmental protection in civil aviation.
+          wrongAnswers:
+            - text: EASA proposes rules to the National Aviation Authorities and promotes the highest common standards of safety and environmental protection in civil aviation.
+            - text: EASA makes only rule propositions to the National Aviation Authorities without the obligation to implement these.
+            - text: EASA proposes guidelines to the aviation industry and promotes the highest common standards of safety and environmental protection in civil aviation.
+- id: QJYCD
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds:
+    - QWUQM
+  externalQuestionIds:
+    - ATPLQ-104302
+    - AVEXAM-80700
+    - BGS-101426
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.04.01.02
+  templates:
+    - type: simple
+      question: "During a flight from Prague to Vienna, an in-flight loss of control occurred. The European Regulation on Air Operations includes rules on reporting such occurrences. This Regulation has been:"
+      explanation: |-
+        ### Regulation (EU) 2018/1139 (Basic Regulation), Article 76(1)
+
+        > The Agency shall, upon request, **assist the Commission in the preparation of proposals** for amendments to this Regulation and of **delegated and implementing acts** to be adopted on the basis of this Regulation […]. The documents that the Agency submits to the Commission for those purposes shall take the form of opinions.
+
+        The Air Operations Regulation is Commission Regulation (EU) No 965/2012. EASA prepares it as an opinion and the Commission adopts it, so it is drafted by EASA for the European Commission. Eurocontrol and the JAA play no part in it.
+      presets:
+        - correctAnswers:
+            - text: Drafted by EASA for the European Commission.
+          wrongAnswers:
+            - text: Drafted by the European Commission.
+            - text: Drafted by EASA and Eurocontrol.
+            - text: Prepared by the JAA.
+- id: QXOXR
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101768
+    - BGS-101936
+    - AVEXAM-9952
+    - BGS-101732
+    - AVEXAM-96958
+    - BGS-101450
+    - ATPLQ-106411
+    - ATPLQ-108324
+    - AVEXAM-61710
+    - AVEXAM-9446
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.04.01.03
+  templates:
+    - type: simple
+      question: What does "Hard Law" include? (EASA regulatory material)
+      explanation: |-
+        Hard law is the binding material: the Basic Regulation, the delegated acts, the implementing acts and the implementing rules. These are adopted by the European Parliament and the Council or by the European Commission.
+
+        Soft law is non-binding and is issued by EASA under Article 76(3) of the Basic Regulation: certification specifications (CS), acceptable means of compliance (AMC) and guidance material (GM).
+
+        "Hard law" and "soft law" are EASA's own names for these two groups. The Basic Regulation does not use them.
+      presets:
+        - correctAnswers:
+            - text: Regulations, Delegated Acts, Implementing Acts and Implementing Rules.
+          wrongAnswers:
+            - text: Certification Specifications, Acceptable Means of Compliance and Guidance Material.
+            - text: Guidance Material, Regulations, Delegated Acts and Implementing Acts.
+            - text: Implementing Rules, Implementing Acts and Certification Specifications.
+    - type: simple
+      question: EASA is responsible for proposing hard law, such...
+      explanation: |-
+        ### Regulation (EU) 2018/1139 (Basic Regulation), Article 76(1)
+
+        > The Agency shall, upon request, **assist the Commission in the preparation of proposals** for amendments to this Regulation and of **delegated and implementing acts** to be adopted on the basis of this Regulation […]. The documents that the Agency submits to the Commission for those purposes shall take the form of opinions.
+
+        ### Regulation (EU) 2018/1139 (Basic Regulation), Article 76(3)
+
+        > The Agency shall, in accordance with Article 115 and with the applicable delegated and implementing acts adopted on the basis of this Regulation, **issue certification specifications and other detailed specifications, acceptable means of compliance and guidance material** for the application of this Regulation and of the delegated and implementing acts adopted on the basis thereof.
+
+        EASA proposes hard law, and the Commission adopts it. EASA publishes soft law itself.
+      presets:
+        - correctAnswers:
+            - text: Regulations, Implementing Acts, and Delegated Acts, and publishing soft law, such as Acceptable Means of Compliance and Guidance Material.
+          wrongAnswers:
+            - text: Acceptable Means of Compliance and Guidance Material, and publishing soft law, such as Regulations, Implementing Acts, and Delegated Acts.
+            - text: Acceptable Means of Compliance, and publishing soft law, such as Guidance Material.
+            - text: Guidance Material, and publishing soft law, such as Acceptable Means of Compliance.
+    - type: simple
+      question: What does the structure of the regulatory material related to EASA involve?
+      explanation: |-
+        Hard law is the binding material: the Basic Regulation, the delegated acts, the implementing acts and the implementing rules. These are adopted by the European Parliament and the Council or by the European Commission.
+
+        Soft law is non-binding and is issued by EASA under Article 76(3) of the Basic Regulation: certification specifications (CS), acceptable means of compliance (AMC) and guidance material (GM).
+
+        "Hard law" and "soft law" are EASA's own names for these two groups. The Basic Regulation does not use them.
+      presets:
+        - correctAnswers:
+            - text: A unique structure of hard law (regulations, delegated acts, implementing acts and implementing rules) and soft law (certification specifications, acceptable means of compliance and guidance material).
+          wrongAnswers:
+            - text: Hard law only (regulations, delegated acts, implementing acts and implementing rules).
+            - text: Soft law only (certification specifications, acceptable means of compliance and guidance material).
+            - text: Hard law (certification specifications and acceptable means of compliance) and soft law (regulations, delegated acts and implementing acts).
+- id: QNPNM
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102027
+    - AVEXAM-47840
+    - BGS-101998
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.04.01.04
+  templates:
+    - type: simple
+      question: What do you understand by “EASA certification specifications”?
+      explanation: |-
+        ### Regulation (EU) 2018/1139 (Basic Regulation), Article 76(3)
+
+        > The Agency shall, in accordance with Article 115 and with the applicable delegated and implementing acts adopted on the basis of this Regulation, **issue certification specifications and other detailed specifications, acceptable means of compliance and guidance material** for the application of this Regulation and of the delegated and implementing acts adopted on the basis thereof.
+
+        Certification specifications (CS) are issued by EASA itself, not adopted by the Commission as an act, so they are soft law and are non-binding. They are technical standards for showing that the essential requirements of the Basic Regulation are met. The explanatory and interpretation material in the third option is guidance material (GM), not a CS. The binding rules are the Commission's delegated and implementing acts.
+      presets:
+        - correctAnswers:
+            - text: They are non-binding technical standards, adopted by EASA, to meet the essential requirements of the basic regulation.
+          wrongAnswers:
+            - text: They are binding technical standards, adopted by EASA, to meet the essential requirements of the basic regulation.
+            - text: They are non-binding explanatory and interpretation materials on how to achieve the requirements contained in the basic regulation.
+            - text: They are non-binding special detailed technical specifications determined by the NAA for an aerodrome.
+- id: QVHTM
+  subjectId: "010"
+  chapterId: "010.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106124
+    - BGS-101580
+    - AVEXAM-8722
+    - ATPLQ-107680
+    - AVEXAM-730382
+  annexes: []
+  learningObjectiveIds:
+    - 010.01.04.01.04
+  templates:
+    - type: simple
+      question: The Basic Regulation refers to a…
+      explanation: |-
+        The Basic Regulation is **Regulation (EU) 2018/1139**. It is a binding act adopted by the European Parliament and the Council, and it established EASA.
+
+        EASA calls binding rules such as this one hard law. Certification specifications, acceptable means of compliance and guidance material are adopted by EASA and are called soft law.
+      presets:
+        - correctAnswers:
+            - text: Binding rule adopted by the European Parliament and the Council, establishing the EASA.
+          wrongAnswers:
+            - text: Non-Binding rule adopted by the European Commission, establishing aeronautical rules and basic standards.
+            - text: Non-Binding rule adopted by EASA, establishing implementing Acts and Delegated Acts.
+            - text: Binding rule adopted by the EASA, establishing Acceptable Means of Compliance.
+    - type: simple
+      question: A term used to describe a binding rule adopted by the European Parliament and the Council is known as...
+      explanation: |-
+        The Basic Regulation is **Regulation (EU) 2018/1139**. It is a binding act adopted by the European Parliament and the Council, and it established EASA.
+
+        EASA calls binding rules such as this one hard law. Certification specifications, acceptable means of compliance and guidance material are adopted by EASA and are called soft law.
+      presets:
+        - correctAnswers:
+            - text: Basic regulation.
+          wrongAnswers:
+            - text: Certification Specification.
+            - text: Guidance Material (GM).
+            - text: Acceptable Means of Compliance (AMC).

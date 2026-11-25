@@ -1,0 +1,148 @@
+- id: QVDNV
+  subjectId: "03"
+  chapterId: "03.03"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.03.01.01"
+  templates:
+    - type: simple
+      question: Which answer contains every state of water found in the atmosphere?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Liquid, solid, and gaseous
+          wrongAnswers:
+            - text: Liquid and solid
+            - text: Gaseous and liquid
+            - text: Liquid
+- id: QDPNF
+  subjectId: "03"
+  chapterId: "03.03"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.03.01.03"
+  templates:
+    - type: simple
+      question: How do dew point and relative humidity change with decreasing temperature?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Dew point remains constant, relative humidity increases
+          wrongAnswers:
+            - text: Dew point remains constant, relative humidity decreases
+            - text: Dew point decreases, relative humidity increases
+            - text: Dew point increases, relative humidity decreases
+    - type: simple
+      question: How do spread and relative humidity change with increasing temperature?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Spread increases, relative humidity decreases
+          wrongAnswers:
+            - text: Spread remains constant, relative humidity decreases
+            - text: Spread increases, relative humidity increases
+            - text: Spread remains constant, relative humidity increases
+    - type: simple
+      question: With other factors remaining constant, decreasing temperature results in...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: decreasing spread and increasing relative humidity.
+          wrongAnswers:
+            - text: decreasing spread and decreasing relative humidity.
+            - text: increasing spread and decreasing relative humidity.
+            - text: increasing spread and increasing relative humidity.
+- id: QSKCT
+  subjectId: "03"
+  chapterId: "03.03"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.03.01.03"
+  templates:
+    - type: simple
+      question: The "spread" is defined as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: difference between actual temperature and dew point.
+          wrongAnswers:
+            - text: relation of actual to maximum possible humidity of air.
+            - text: maximum amount of water vapour that can be contained in air.
+            - text: difference between dew point and condensation point.
+- id: QRDLW
+  subjectId: "03"
+  chapterId: "03.03"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.03.02.01"
+  templates:
+    - type: simple
+      question: What process causes latent heat being released into the upper troposphere?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cloud forming due to condensation
+          wrongAnswers:
+            - text: Descending air across widespread areas
+            - text: Stabilisation of inflowing air masses
+            - text: Evaporation over widespread water areas
+- id: QNLOH
+  subjectId: "03"
+  chapterId: "03.03"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.03.03.01"
+  templates:
+    - type: simple
+      question: The saturated adiabatic lapse rate is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: lower than the dry adiabatic lapse rate.
+          wrongAnswers:
+            - text: proportional to the dry adiabatic lapse rate.
+            - text: higher than the dry adiabatic lapse rate.
+            - text: equal to the dry adiabatic lapse rate.
+    - type: simple
+      question: The dry adiabatic lapse rate has a value of...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1.0 °C / 100 m
+          wrongAnswers:
+            - text: 2° / 1000 ft
+            - text: 0.6 °C / 100 m
+            - text: 0.65 °C / 100 m
+    - type: simple
+      question: "The saturated adiabatic lapse rate should be assumed with a mean value of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 0.6 °C / 100 m
+          wrongAnswers:
+            - text: 1.0 °C / 100 m
+            - text: 0 °C / 100 m
+            - text: 2 °C / 1000 ft
+- id: QZYGJ
+  subjectId: "03"
+  chapterId: "03.03"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "03.03.03.01"
+  templates:
+    - type: simple
+      question: What weather conditions may be expected during conditionally unstable conditions?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Towering cumulus, isolated showers of rain or thunderstorms
+          wrongAnswers:
+            - text: Layered clouds up to high levels, prolonged rain or snow
+            - text: Shallow cumulus clouds with base at medium levels
+            - text: Sky clear of clouds, sunshine, low winds

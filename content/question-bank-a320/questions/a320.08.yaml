@@ -1,0 +1,666 @@
+- id: QVNRJ
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The Amber FAULT light illuminates on the MOD SEL Pushbutton when:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Centre tank has more than 250 kg of fuel and any wing tank has less than 5000 kg
+          wrongAnswers:
+            - text: The fuel delivery pressure fluctuates
+            - text: The two centre tank pumps are selected off
+            - text: The switch has no FAULT light. Just OFF white light or AUTO position (light off)
+- id: QIPNH
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The message CTR TK FEEDG appears in the MEMO. What does it mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: At least one center tank pump is energized.
+          wrongAnswers:
+            - text: The center tank fuel mode selector is OFF.
+            - text: The center tank pumps are OFF.
+            - text: A reminder to switch the center tank pumps OFF.
+- id: QHUGK
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The message OUTER TK FUEL XFRD appears in the MEMO. What does it mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It is a reminder to show that a transfer valve is open.
+          wrongAnswers:
+            - text: Fuel is transferring from the center tank to the inner tank.
+            - text: It is a reminder to open the outer tank transfer valve.
+            - text: Fuel is transferring from the inner tank to the outer tank.
+- id: QUGPH
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How has the fuel been transferred from the outer to the inner tanks?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The transfer valve has been opened automatically by the low level sensor in the inner tank.
+          wrongAnswers:
+            - text: By setting the MODE SEL pb to MAN.
+            - text: The transfer valve has been opened automatically by the low level sensor in the center tanks.
+            - text: By setting the MODE SEL PB to AUTO.
+- id: QIDJV
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Concerning fuel transfer, which statement is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Transfer valves open automatically, when inner tank fuel level reaches 750kg, which enables fuel drain from outer to inner tanks.
+          wrongAnswers:
+            - text: Fuel transfer levels both wing tanks if the level difference reaches 750 kg.
+            - text: Fuel transfer is used to drain center tank fuel to wing tanks to optimize CG.
+            - text: On ground only fuel is drained from outer to inner tanks by transfer pumps.
+- id: QQCII
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the minimum fuel quantity for take-off?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1500 kg
+          wrongAnswers:
+            - text: 1000 kg.
+            - text: 2000 kg
+            - text: 2500 kg
+- id: QKIMS
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The main fuel pump system of an A319 or A320 supplies fuel from the fuel tanks to the engines. The system has:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 6 main fuel pumps
+          wrongAnswers:
+            - text: 2 main fuel pumps
+            - text: 4 main fuel pumps
+            - text: 8 main fuel pumps
+- id: QLPAJ
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Fuel feed sequence. The tanks empty in the following sequence:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1. Center tank. 2. Inner tanks. 3. Outer tanks
+          wrongAnswers:
+            - text: 1. Outer tanks. 2. Inner tanks. 3. Center tank
+            - text: 1. Inner tanks. 2. Center tanks. 3. Outer tanks
+            - text: 1. Center tank. 2. Outer tanks. 3. Inner tanks
+- id: QEKPR
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "If the fuel temperature is below or above a defined temperature value, the crew is alerted by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ECAM advisory or ECAM caution
+          wrongAnswers:
+            - text: ECAM advisory or ECAM warning
+            - text: ECAM warning or an ECAM caution
+            - text: ECAM advisory only
+- id: QMVEP
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Defueling:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Defueling of all tanks is possible and the procedure to be found in the FCOM/PER/LOD/FUL section.
+          wrongAnswers:
+            - text: Defueling of the wing tanks only is possible and the procedure to be found in the FCOM/PER/LOD/FUL section.
+            - text: Defueling of all tanks is possible and the procedure to be found in the FCOM/PRO/FUL section.
+            - text: Defueling of the center tank only is possible and the procedure to be found in the FCOM/PER/LOD/FUL section.
+- id: QZLMJ
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Fuel Recirculation System
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Some of the fuel is used to cool the IDGs
+          wrongAnswers:
+            - text: Some of the fuel is used to heat the IDGs
+            - text: Some of the fuel is used to heat the airconditioning packs
+            - text: Some of the fuel is used to cool the airconditioning packs
+- id: QCWZU
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: ____ electrical transfer valve(s) is (are) mounted in each wing to permit fuel transfer from the outer to the inner tank.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Two
+          wrongAnswers:
+            - text: One
+            - text: Three
+            - text: Four
+- id: QTHVH
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The ECAM FUEL page displays the fuel temperature value for:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The outer & inner tanks
+          wrongAnswers:
+            - text: The inner & center tanks
+            - text: The center tank only
+            - text: The outer tank only
+- id: QZRCL
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The fuel transfer valves automatically open when the inner tank fuel quantity reaches ____ kg:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Approx. 750 kg
+          wrongAnswers:
+            - text: Approx. 1.000 kg
+            - text: Approx. 250 kg
+            - text: Approx. 500 kg
+- id: QNPGK
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The fuel flow to an engine can be stopped by its low pressure fuel valve. This can be done with :"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Engine master switch or engine fire pb switch
+          wrongAnswers:
+            - text: Engine master switch only
+            - text: Tank pumps switches
+            - text: Engine fire push button only
+- id: QCKRA
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Moving the ENG1 (ENG2) MASTER switch to OFF directly commands the closing of the _____ fuel shut off valve (s).
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: LP and HP and the fuel return valve
+          wrongAnswers:
+            - text: LP only
+            - text: HP only
+            - text: LP and HP
+- id: QMWOH
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Fuel Mixability: The following mixtures are allowed:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The various certified types of fuel and additives can be mixed in all proportions. If required the fuel freezing point must be determined
+          wrongAnswers:
+            - text: Only JET A1 is allowed
+            - text: Only JET A1 and JET A are allowed
+            - text: Only JET A1 and Jet B are allowed
+- id: QJSZZ
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What indication will you see on the overhead panel if the center tank has more than 250 kilograms of fuel and the left or right wing tank has less than 5000 kilograms?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Mode selector fault
+          wrongAnswers:
+            - text: Auto feed fault
+            - text: Center tank pump fault
+            - text: Fuel imbalance
+- id: QETQT
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The message CTR TK FEEDG appears in green on the upper ECAM Memo display. What does this mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: At least one center tank pump is energized
+          wrongAnswers:
+            - text: The center tank fuel mode selector is OFF
+            - text: The center tank pumps are OFF
+            - text: A reminder to switch the center tank pumps OFF
+- id: QVIAQ
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: After engine start, the center tank fuel pumps run for ______ minutes regardless of the slats position.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 minutes
+          wrongAnswers:
+            - text: 10 minutes
+            - text: 5 minutes
+            - text: 1 minute
+- id: QEQIX
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Refueling time at nominal pump pressure is approx.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 17 minutes for the wing tanks and 20 minutes for all tanks
+          wrongAnswers:
+            - text: 7 minutes for the wing tanks and 25 minutes for all tanks
+            - text: 16 minutes for the wing tanks and 30 minutes for all tanks
+            - text: 9 minutes for the wing tanks and 15 minutes for all tanks
+- id: QIONF
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The wing fuel transfer valves are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Automatically opened if low level is sensed in either main wing tank and they automatically closed at the next refueling
+          wrongAnswers:
+            - text: Manually controlled open when the MODE SEL pb is selected MAN
+            - text: Opened automatically at the start of refueling
+            - text: Electrically held closed
+- id: QWJWR
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The fuel feeding system consists of, among others, the following components:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An AC ESS SHED powered APU pump supplied by the left fuel feed line, four transfer valves between the outer and inner wing tanks and one X-FEED valve
+          wrongAnswers:
+            - text: An AC STAT INV BUS powered APU pump supplied by the right fuel feed line, four center tank pumps, four wing tank pumps
+            - text: A DC BUS 1 powered APU pump supplied by the left fuel feed line, two transfer valves between the inner tanks and the center tank
+            - text: A DC BUS 2 powered APU pump supplied by the right fuel feed line, two center gravity feed only pumps, one refuel valve
+- id: QFVVD
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The fuel storage is organized as follows:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: One center tank, two inner tanks, two outer tanks, two vent tanks
+          wrongAnswers:
+            - text: Two wing tanks, two external tanks, two deaerating tanks, one fuselage tank
+            - text: One center wing spar tank, two outer tanks, two vent tanks, two wing bending tanks
+            - text: Two center tanks, two inner tanks, two outer tanks, two vent tanks
+- id: QMUIE
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What happens to the transfer valves once they are open after a fuel transfer?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The four electrical transfer valves are latched open and close again automatically at the next refuelling operation
+          wrongAnswers:
+            - text: The two hydraulic transfer valves close again as soon as all the fuel has transferred into the inner tank. They might not, however, close during refueling if on battery power only
+            - text: The two electrical transfer valves are latched open when a certain level of fuel in the inner tank is reached. They close when the transfer is completed
+            - text: The four electric transfer valves are latched open and close again when the aircraft is on ground (left landing gear strut compressed)
+- id: QREMT
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If the FUEL MODE SEL pb-sw is in the AUTO mode, how much fuel will have to be used from the full wing tanks if the center tank is feeding?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: approximately 500 kg per wingtank
+          wrongAnswers:
+            - text: approximately 850 kg per wingtank
+            - text: approximately 250 kg per wingtank
+            - text: In this situation, there is no need to burn fuel off the wing tanks as the output pressure of the wing tanks pumps is stronger than the output pressure of the center tank pumps
+- id: QRBHF
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What could be the reason for a half amber box appearing around the FOB value?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The displayed quantity is not all usable due to the failure of both transfer valves or the failure of the center tank pumps
+          wrongAnswers:
+            - text: One of the pressure sensors upstream of the high pressure fuel pump detected a low pressure condition
+            - text: The fuel level in the tanks is below 1500 kgs
+            - text: All the fuel pumps in one wing outer tank have failed
+- id: QFQLV
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Is gravity feeding from the center tank possible?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No
+          wrongAnswers:
+            - text: Yes
+            - text: Yes, on ground only
+            - text: Yes, but only up to FL200
+- id: QGQZN
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When do you switch ON the fuel pumps?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: During Cockpit Preparation (all white lights extinguished)
+          wrongAnswers:
+            - text: After refueling
+            - text: Just before &ldquo;Before Start Checklist&rdquo;
+            - text: Just before engine start
+- id: QZMIF
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Is take off allowed on center tanks?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: NO
+          wrongAnswers:
+            - text: YES
+            - text: ---
+            - text: ---
+- id: QOHFW
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Suction valves are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Closed by fuel pump pressure in normal operation, they allow engines to be fed by gravity if the inner tank pumps fail
+          wrongAnswers:
+            - text: Always open regardless of fuel pump status
+            - text: Open automatically when fuel X-Feed is selected on
+            - text: Opened, if center tank pumps are switched on
+- id: QNQRE
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the purpose of the pressure relief sequence valves?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When all pumps are running, the centre tank pumps will deliver fuel preferentially.
+          wrongAnswers:
+            - text: Allows the transfer from wing tanks to centre tank.
+            - text: Allows transfer of fuel in case of overflow caused by pump failure.
+            - text: ---
+- id: QIWLO
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Is gravity feeding from centre tank possible?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No
+          wrongAnswers:
+            - text: Yes
+            - text: ---
+            - text: ---
+- id: QAELC
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "FOB (fuel on board) boxed amber on ECAM fuel page means:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both transfer valves in either wing tank fail to open when inner cell is at low level and Center tank pumps failed or switched off.
+          wrongAnswers:
+            - text: One transfer valve fails to open when inner cell is at low level.
+            - text: FQI (fuel quantity indicator) is degraded.
+            - text: One center tank pump has failed or is switched off.
+- id: QAVXK
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "FOB (fuel on board) half-boxed amber on EWD means:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: The displayed quantity is not all usable
+            - text: Innercell transfer valves fail to open, when inner tank is at low level
+            - text: Center tank pumps fail, or are switched OFF
+- id: QKVQJ
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "With slats extended, the centre tank pumps run on ground:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes, after engine start for 2 minutes.
+          wrongAnswers:
+            - text: Always.
+            - text: Never
+            - text: Yes, 2 minutes after Engine start.
+- id: QUAJX
+  subjectId: a320
+  chapterId: "08"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "When the centre tank is empty (mode auto), centre tank pumps:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Stop automatically 5 min after LOW LEVEL reached in centre tank
+          wrongAnswers:
+            - text: Must be manually switched off
+            - text: Stop automatically and wing tank pumps start running
+            - text: "ECAM caution is triggered: Fuel center tank low level"

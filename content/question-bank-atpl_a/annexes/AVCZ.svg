@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1726 1828" width="1726" height="1828">
+  <title>Forward and aft cargo compartment load limits</title>
+  <defs>
+    <path id="grid" d="M54 198V856H1637V198M861 198V856M1110 198V386M1388 198V386M1110 516V652M1388 516V652M54 266H1637M54 386H1637M54 516H1637M54 584H1637M54 652H1637M54 720H1637M54 788H1637" fill="none" stroke="#111" stroke-width="2.2"/>
+    <g id="labels" text-anchor="start">
+      <text x="80" y="314">Maximum Compartment Running Load</text>
+      <text x="80" y="361">(kg per inch)</text>
+      <text x="80" y="432">Maximum Distribution Load Intensity</text>
+      <text x="80" y="491">(kg per ft<tspan baseline-shift="super" font-size="65%">2</tspan>)</text>
+      <text x="80" y="562">Maximum Compartment Load (kg)</text>
+      <text x="80" y="630">Compartment Centroid (BA - in)</text>
+      <text x="80" y="698">Maximum Total Load (kg)</text>
+    </g>
+  </defs>
+  <path fill="#fff" d="M0 0h1726v1828H0z"/>
+  <g fill="#111" font-family="Arial, sans-serif" font-size="42" text-anchor="middle">
+    <use href="#grid"/>
+    <use href="#labels"/>
+    <text x="880" y="100">Forward Cargo Compartment (Cargo Hold 1)</text>
+    <text y="177"><tspan x="655">BA - in</tspan><tspan x="861">228</tspan><tspan x="1110">286</tspan><tspan x="1388">343</tspan><tspan x="1637">500</tspan></text>
+    <text y="314"><tspan x="986">13.15</tspan><tspan x="1249">8.47</tspan><tspan x="1512">13.12</tspan></text>
+    <text x="1249" y="432">68</text>
+    <text y="562"><tspan x="986">762</tspan><tspan x="1249">483</tspan><tspan x="1512">2059</tspan></text>
+    <text y="630"><tspan x="986">257</tspan><tspan x="1249">314.5</tspan><tspan x="1512">421.5</tspan></text>
+    <text x="1249" y="698">3305</text>
+    <text x="80" y="766" text-anchor="start">Fwd Hold Centroid (BA - in)</text>
+    <text x="1249" y="766">367.9</text>
+    <text x="80" y="834" text-anchor="start">Fwd Hold Volume (cu. ft)</text>
+    <text x="1249" y="834">607</text>
+    <g transform="translate(0 926)">
+      <use href="#grid"/>
+      <use href="#labels"/>
+      <text x="891" y="95">Aft Cargo Compartment (Cargo Hold 4)</text>
+      <text y="177"><tspan x="655">BA - IN</tspan><tspan x="861">731</tspan><tspan x="1110">940</tspan><tspan x="1388">997</tspan><tspan x="1637">1096</tspan></text>
+      <text y="314"><tspan x="986">14.65</tspan><tspan x="1249">7.26</tspan><tspan x="1512">7.18</tspan></text>
+      <text x="1249" y="432">68</text>
+      <text y="562"><tspan x="986">3,062</tspan><tspan x="1249">414</tspan><tspan x="1512">711</tspan></text>
+      <text y="630"><tspan x="986">835.5</tspan><tspan x="1249">968.5</tspan><tspan x="1512">1,046.5</tspan></text>
+      <text x="1249" y="698">4187</text>
+      <text x="80" y="766" text-anchor="start">Aft Hold Centroid (BA - in)</text>
+      <text x="1249" y="766">884.5</text>
+      <text x="80" y="834" text-anchor="start">Aft Hold Volume (cu. ft)</text>
+      <text x="1249" y="834">766</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="949" viewBox="0 0 700 949" role="img" aria-labelledby="title desc" xml:lang="en-GB">
+<title id="title">737-800 Roll Control Schematic</title>
+<desc id="desc">The control wheels and aileron transfer mechanism, aileron trim, spoiler mixer and hydraulic A and B circuits to the ailerons and flight spoilers.</desc>
+<metadata>Boeing 737-800 FCOM Rev 40, 9.20.5. Redrawn as SVG.</metadata>
+<defs>
+  <marker id="arrow" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="13" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto">
+    <path d="M0 0 12 5 0 10Z" fill="#ededed"/>
+  </marker>
+  <g id="junction"><circle r="4.5" fill="#ededed"/></g>
+</defs>
+<style>
+  svg {background:#080808;color:#ededed}
+  text {font-family:Menlo,Consolas,"Liberation Mono",monospace}
+  .wire,.signal {fill:none;stroke:#ededed;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round}
+  .signal {stroke-dasharray:19 10 3 10}
+  .arr {marker-end:url(#arrow)}
+  .duct-edge,.duct {fill:none;stroke-linecap:butt;stroke-linejoin:round}
+  .duct-edge {stroke:#ededed;stroke-width:15}
+  .duct {stroke:#c41c1c;stroke-width:12}
+  .component {fill:#080808;stroke:#ededed;stroke-width:2.1}
+</style>
+<rect x="0" y="0" width="700" height="949" fill="#080808"/>
+<g fill="#ededed">
+<path class="signal" d="M78 185v113h142m205 5h193V186"/>
+<path class="signal" d="M101 143h493M101 179h493"/>
+<path class="signal" d="M48 465v140h602V465"/>
+<path class="signal" d="M122 605v29h402v-29"/>
+<path class="signal" d="M275 337v24h39v274m-92-175v116h255V450"/>
+<path class="signal" d="M371 325v251m23-250v277"/>
+<path class="wire arr" d="M275 226v30"/>
+<path class="wire arr" d="M394 513V327"/>
+<path class="wire arr" d="M269 739h-54"/>
+<path class="wire arr" d="M371 739h55"/>
+<path class="wire arr" d="M531 329h-35l-16 49"/>
+<path class="wire arr" d="M616 376l-19 47"/>
+<path class="wire arr" d="M196 910v-26"/>
+<path class="wire arr" d="M443 910v-26"/>
+<path d="M197 882V492m0 53h297v-52m-297 296h-75V662m49-194v25h67v-41m222 1v40h65v-29" fill="none" stroke="#ededed" stroke-width="10" stroke-linejoin="round"/>
+<path d="M197 882V492m0 53h297v-52m-297 296h-75V662m49-194v25h67v-41m222 1v40h65v-29" fill="none" stroke="#ec2422" stroke-width="7" stroke-linejoin="round"/>
+<path d="M443 882V471m0 49H255v-49m188 318h81V662m-318-204v13h65v-25m153 0v25h70v-12" fill="none" stroke="#ededed" stroke-width="10" stroke-linejoin="round"/>
+<path d="M443 882V471m0 49H255v-49m188 318h81V662m-318-204v13h65v-25m153 0v25h70v-12" fill="none" stroke="#38b53e" stroke-width="7" stroke-linejoin="round"/>
+<circle cx="197" cy="739" r="15" fill="none" stroke="#ededed" stroke-width="1.8"/>
+<circle cx="444" cy="739" r="15" fill="none" stroke="#ededed" stroke-width="1.8"/>
+<g transform="translate(171 450) rotate(0) scale(0.85)">
+<path class="wire" d="M0-19v8"/>
+<rect class="component" x="-7" y="-11" width="14" height="22"/>
+<rect class="component" x="-11" y="10" width="22" height="6"/>
+</g>
+<g transform="translate(206 445) rotate(0) scale(0.85)">
+<path class="wire" d="M0-19v8"/>
+<rect class="component" x="-7" y="-11" width="14" height="22"/>
+<rect class="component" x="-11" y="10" width="22" height="6"/>
+</g>
+<g transform="translate(238 438) rotate(0) scale(0.85)">
+<path class="wire" d="M0-19v8"/>
+<rect class="component" x="-7" y="-11" width="14" height="22"/>
+<rect class="component" x="-11" y="10" width="22" height="6"/>
+</g>
+<g transform="translate(271 431) rotate(0) scale(0.85)">
+<path class="wire" d="M0-19v8"/>
+<rect class="component" x="-7" y="-11" width="14" height="22"/>
+<rect class="component" x="-11" y="10" width="22" height="6"/>
+</g>
+<g transform="translate(424 433) rotate(0) scale(0.85)">
+<path class="wire" d="M0-19v8"/>
+<rect class="component" x="-7" y="-11" width="14" height="22"/>
+<rect class="component" x="-11" y="10" width="22" height="6"/>
+</g>
+<g transform="translate(461 437) rotate(0) scale(0.85)">
+<path class="wire" d="M0-19v8"/>
+<rect class="component" x="-7" y="-11" width="14" height="22"/>
+<rect class="component" x="-11" y="10" width="22" height="6"/>
+</g>
+<g transform="translate(494 444) rotate(0) scale(0.85)">
+<path class="wire" d="M0-19v8"/>
+<rect class="component" x="-7" y="-11" width="14" height="22"/>
+<rect class="component" x="-11" y="10" width="22" height="6"/>
+</g>
+<g transform="translate(525 452) rotate(0) scale(0.85)">
+<path class="wire" d="M0-19v8"/>
+<rect class="component" x="-7" y="-11" width="14" height="22"/>
+<rect class="component" x="-11" y="10" width="22" height="6"/>
+</g>
+<g transform="translate(122 634) rotate(0) scale(1.4)">
+<path class="wire" d="M0-19v8"/>
+<rect class="component" x="-7" y="-11" width="14" height="22"/>
+<rect class="component" x="-11" y="10" width="22" height="6"/>
+</g>
+<g transform="translate(524 634) rotate(0) scale(1.4)">
+<path class="wire" d="M0-19v8"/>
+<rect class="component" x="-7" y="-11" width="14" height="22"/>
+<rect class="component" x="-11" y="10" width="22" height="6"/>
+</g>
+<g transform="translate(78 61) scale(1)">
+<path d="M-62-4q6-10-1-21-7-14 4-18 9-4 12 8l3 11-7 4 4 7-6 5 4 7-4 7 5 7q6 4 20-2l16-6 3-46h37l3 46 18 6q16 6 20-2l3-8-5-7 5-7-5-6 3-5-7-7q-8-13 5-16 14-4 14 11l-2 14q10 27-3 40-6 5-23 5h-80q-32 0-26-32Z" fill="#aaa" stroke="#454545" stroke-width="2"/>
+<path d="M-18-41h36l-6 79h-24Z" fill="#bbb" stroke="#454545" stroke-width="2"/>
+<rect x="-6" y="38" width="12" height="26" rx="2" fill="#aaa" stroke="#454545" stroke-width="2"/>
+<path d="M-14-38h28m-25 4h22" stroke="#454545" stroke-width="1.7"/>
+</g>
+<circle cx="78" cy="160" r="26" fill="#a8a8a8" stroke="#555" stroke-width="2"/>
+<circle cx="78" cy="160" r="18.2" fill="#a8a8a8" stroke="#555" stroke-width="1.6"/>
+<circle cx="78" cy="160" r="2" fill="#444"/>
+<g transform="translate(618 61) scale(1)">
+<path d="M-62-4q6-10-1-21-7-14 4-18 9-4 12 8l3 11-7 4 4 7-6 5 4 7-4 7 5 7q6 4 20-2l16-6 3-46h37l3 46 18 6q16 6 20-2l3-8-5-7 5-7-5-6 3-5-7-7q-8-13 5-16 14-4 14 11l-2 14q10 27-3 40-6 5-23 5h-80q-32 0-26-32Z" fill="#aaa" stroke="#454545" stroke-width="2"/>
+<path d="M-18-41h36l-6 79h-24Z" fill="#bbb" stroke="#454545" stroke-width="2"/>
+<rect x="-6" y="38" width="12" height="26" rx="2" fill="#aaa" stroke="#454545" stroke-width="2"/>
+<path d="M-14-38h28m-25 4h22" stroke="#454545" stroke-width="1.7"/>
+</g>
+<circle cx="618" cy="160" r="26" fill="#a8a8a8" stroke="#555" stroke-width="2"/>
+<circle cx="618" cy="160" r="18.2" fill="#a8a8a8" stroke="#555" stroke-width="1.6"/>
+<circle cx="618" cy="160" r="2" fill="#444"/>
+<path d="M157 394l134-27v37l-134 25Z" fill="#c7c7c7" stroke="#555" stroke-width="2"/>
+<text x="171" y="414" font-size="17" text-anchor="middle" fill="#111">2</text>
+<text x="205" y="408" font-size="17" text-anchor="middle" fill="#111">3</text>
+<text x="239" y="400" font-size="17" text-anchor="middle" fill="#111">4</text>
+<text x="273" y="393" font-size="17" text-anchor="middle" fill="#111">5</text>
+<path d="M408 367l134 27v35l-134-25Z" fill="#c7c7c7" stroke="#555" stroke-width="2"/>
+<text x="425" y="396" font-size="17" text-anchor="middle" fill="#111">8</text>
+<text x="460" y="403" font-size="17" text-anchor="middle" fill="#111">9</text>
+<text x="494" y="409" font-size="17" text-anchor="middle" fill="#111">10</text>
+<text x="526" y="415" font-size="17" text-anchor="middle" fill="#111">11</text>
+<path d="M22 439l111-22v30l-111 22Zm541-22 111 22v30l-111-22Z" fill="#c7c7c7" stroke="#555" stroke-width="2"/>
+<path d="M85 456v-8l48-10m430 0 47 10v8" fill="none" stroke="#555" stroke-width="1.4"/>
+<use href="#junction" transform="translate(122 605)"/>
+<use href="#junction" transform="translate(314 633)"/>
+<use href="#junction" transform="translate(371 576)"/>
+<use href="#junction" transform="translate(394 605)"/>
+<use href="#junction" transform="translate(524 605)"/>
+<rect class="component" x="232" y="189" width="86" height="39"/>
+<text x="275" y="205.07" font-size="14" text-anchor="middle"><tspan x="275" dy="0">AILERON</tspan><tspan x="275" dy="16.1">TRIM</tspan></text>
+<rect class="component" x="221" y="258" width="108" height="79"/>
+<text x="275" y="277.97" font-size="14" text-anchor="middle"><tspan x="275" dy="0">AILERON</tspan><tspan x="275" dy="16.1">FEEL AND</tspan><tspan x="275" dy="16.1">CENTERING</tspan><tspan x="275" dy="16.1">UNIT</tspan></text>
+<rect class="component" x="340" y="279" width="86" height="47"/>
+<text x="383" y="299.07" font-size="14" text-anchor="middle"><tspan x="383" dy="0">SPOILER</tspan><tspan x="383" dy="16.1">MIXER</tspan></text>
+<rect x="262" y="648" width="114" height="116" fill="#777"/>
+<text x="319" y="662" font-size="11" text-anchor="middle">SPOILER</text>
+<text x="300.76" y="674" font-size="11" text-anchor="middle">A</text>
+<rect x="286.76" y="678" width="28" height="77" rx="5" fill="#101010" stroke="#434343" stroke-width="2"/>
+<path d="M288.76 694h5q7 11 14 0h5" fill="none" stroke="#626262" stroke-width="1.4"/>
+<text x="337.24" y="674" font-size="11" text-anchor="middle">B</text>
+<rect x="323.24" y="678" width="28" height="77" rx="5" fill="#101010" stroke="#434343" stroke-width="2"/>
+<path d="M325.24 694h5q7 11 14 0h5" fill="none" stroke="#626262" stroke-width="1.4"/>
+<text x="273" y="715" font-size="8" text-anchor="middle">OFF</text>
+<text x="273" y="743" font-size="8" text-anchor="middle">ON</text>
+<text x="365" y="715" font-size="8" text-anchor="middle">OFF</text>
+<text x="365" y="743" font-size="8" text-anchor="middle">ON</text>
+<text x="263" y="158" font-size="15" text-anchor="start"><tspan x="263" dy="0">AILERON TRANSFER</tspan><tspan x="263" dy="17">MECHANISM</tspan></text>
+<text x="534" y="334" font-size="14" text-anchor="start"><tspan x="534" dy="0">FLIGHT</tspan><tspan x="534" dy="17">SPOILERS</tspan></text>
+<text x="614" y="385" font-size="14" text-anchor="start">AILERON</text>
+<text x="197" y="926" font-size="16" text-anchor="middle">A</text>
+<text x="444" y="926" font-size="16" text-anchor="middle">B</text>
+</g>
+</svg>

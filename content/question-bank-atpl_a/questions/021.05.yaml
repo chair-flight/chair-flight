@@ -1,0 +1,1257 @@
+- id: QOUIL
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds:
+    - QYGMY
+  externalQuestionIds:
+    - ATPLQ-216304
+    - BGS-210420
+    - BGS-210203
+    - BGS-210178
+    - AVEXAM-14199
+    - ATPLQ-214488
+    - AVEXAM-87074
+    - BGS-210177
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.01.01.02
+  templates:
+    - type: multiple-correct
+      question: 'The expression "primary flight control" applies to the:'
+      explanation: |-
+        Primary flight controls rotate the aeroplane about its three axes and so change its attitude and flight path: the ailerons (roll), the elevator (pitch) and the rudder (yaw).
+
+        The trimmable horizontal stabiliser, the speed brakes and the lift-augmentation devices (flaps and slats) are secondary flight controls.
+      options:
+        - text: stabiliser
+          correct: false
+        - text: rudder
+          correct: true
+        - text: speed brake
+          correct: false
+        - text: aileron
+          correct: true
+        - text: elevator
+          correct: true
+        - text: lift-augmentation devices
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 3
+            - 4
+            - 5
+            - 0
+        - show:
+            - 4
+            - 5
+            - 0
+            - 1
+        - show:
+            - 5
+            - 0
+            - 1
+            - 2
+    - type: simple
+      question: Primary flight controls are ..
+      explanation: |-
+        Primary flight controls rotate the aeroplane about its three axes and so change its attitude and flight path: the ailerons (roll), the elevator (pitch) and the rudder (yaw).
+
+        The trimmable horizontal stabiliser, the speed brakes and the lift-augmentation devices (flaps and slats) are secondary flight controls.
+      presets:
+        - correctAnswers:
+            - text: ailerons, elevators and rudder.
+          wrongAnswers:
+            - text: ailerons, elevators, rudder and flaps.
+            - text: control wheel or stick, rudder pedals and speed brake.
+            - text: control wheel or stick, rudder pedals, flap lever and throttle.
+- id: QGJWD
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212219
+    - AVEXAM-26584
+    - BGS-211170
+    - ATPLQ-211369
+    - AVEXAM-59740
+    - BGS-211171
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.01.02.01
+  templates:
+    - type: simple
+      question: What is the basic principle of a fully manual flight control system?
+      explanation: |-
+        In a fully manual flight control system the pilot's inputs reach the control surfaces only through mechanical links (cables, pulleys and pushrods). There is no hydraulic or electrical assistance, so the pilot supplies all the force needed to move the surface and must overcome the aerodynamic loads acting on it.
+
+        The system is therefore reversible: the aerodynamic loads on the surface are felt directly at the cockpit controls, so no artificial feel system is needed. Because those loads grow with airspeed, the control forces are not constant.
+      presets:
+        - correctAnswers:
+            - text: The flight control surfaces are connected to the flight deck controls by means of mechanical links only.
+          wrongAnswers:
+            - text: The deflection angle of the flight control surface will vary with airspeed, therefore, the flight control forces are constant.
+            - text: A fully manual flight control system is an irreversible system because there is no flight deck flight control feedback when a flight control surface is in motion.
+            - text: A fully manual flight control system is manually operated by the pilot by means of the flight control elements and is powered by a hydraulic system.
+    - type: simple
+      question: In a fully manual flight control system, the pilot must exert sufficient force to ..
+      explanation: |-
+        In a fully manual flight control system the pilot's inputs reach the control surfaces only through mechanical links (cables, pulleys and pushrods). There is no hydraulic or electrical assistance, so the pilot supplies all the force needed to move the surface and must overcome the aerodynamic loads acting on it.
+
+        The system is therefore reversible: the aerodynamic loads on the surface are felt directly at the cockpit controls, so no artificial feel system is needed. Because those loads grow with airspeed, the control forces are not constant.
+      presets:
+        - correctAnswers:
+            - text: overcome the aerodynamic loads felt at the control surface.
+          wrongAnswers:
+            - text: allow pressure to build up in the flight control actuators.
+            - text: separate each pilot's yaw control in the case of a jam.
+            - text: activate the artificial feel system.
+- id: QRIQY
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213681
+    - AVEXAM-67242
+    - ATPLQ-217610
+    - AVEXAM-12929
+    - AVEXAM-54149
+    - BGS-211317
+    - BGS-211316
+    - AVEXAM-11748
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.01.03.01
+    - 021.05.01.05.01
+  templates:
+    - type: simple
+      question: What is the function of the hydraulic control valves in a fully powered flight control system?
+      explanation: |-
+        In a fully powered flight control system the pilot's input does not move the control surface directly. It moves a control valve, which directs hydraulic pressure to the actuator, and the actuator moves the surface. The valve therefore controls the actuator. It does not move the surface itself and does not reduce a force generated by cables or pushrods.
+
+        Because the actuator carries the aerodynamic load, the pilot feels no feedback from the surface, which is why a fully powered system needs an artificial feel system.
+      presets:
+        - correctAnswers:
+            - text: They act on the actuator of the control surface.
+            - text: The control valves control the movement of the hydraulic actuators.
+          wrongAnswers:
+            - text: They decrease the control force generated by the cables or pushrods.
+            - text: They only provide the pilot with an “artificial feel” feedback.
+            - text: They directly cause a movement of the control surface.
+            - text: Fully powered flight control systems operate actuators without control valves.
+            - text: The actuators operate the control valves, which in turn move the control surfaces.
+            - text: Control valves convert hydraulic pressure into control column movement.
+- id: QTRZZ
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds:
+    - QPHKO
+    - QLJIU
+  externalQuestionIds:
+    - ATPLQ-215202
+    - AVEXAM-2109
+    - BGS-211172
+    - ATPLQ-216638
+    - BGS-211174
+    - AVEXAM-15658
+    - ATPLQ-218060
+    - BGS-210185
+    - BGS-210186
+    - AVEXAM-56327
+    - AVEXAM-3923
+    - ATPLQ-216245
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.01.03.01
+    - 021.05.01.03.02
+    - 021.05.01.04.01
+  templates:
+    - type: definition
+      question: '{term} flight control system is one that is..'
+      explanation: |-
+        Reversible and irreversible describe whether the aerodynamic loads on a control surface are fed back to the cockpit controls.
+
+        - **Reversible**: the controls are linked to the surface mechanically, so the aerodynamic forces on the surface are felt at the cockpit controls. A fully manual system is reversible and needs no artificial feel system.
+        - **Irreversible**: the surface is moved by an actuator, so there is no direct mechanical feedback from the surface to the cockpit controls. A fully powered system is irreversible and needs an artificial feel system to give the pilot control forces. A partially powered system is not fully irreversible, because the pilot still feels part of the aerodynamic load.
+      options:
+        - id: OIRRA
+          term: An irreversible
+          definition: fully powered.
+        - id: OREVA
+          term: A reversible
+          definition: completely mechanical.
+      fakeOptions:
+        - id: FA0
+          definition: partially powered.
+        - id: FA1
+          definition: not powered.
+    - type: definition
+      question: 'A flight control surface actuator is said to be "{term}" when:'
+      explanation: |-
+        Reversible and irreversible describe whether the aerodynamic loads on a control surface are fed back to the cockpit controls.
+
+        - **Reversible**: the controls are linked to the surface mechanically, so the aerodynamic forces on the surface are felt at the cockpit controls. A fully manual system is reversible and needs no artificial feel system.
+        - **Irreversible**: the surface is moved by an actuator, so there is no direct mechanical feedback from the surface to the cockpit controls. A fully powered system is irreversible and needs an artificial feel system to give the pilot control forces. A partially powered system is not fully irreversible, because the pilot still feels part of the aerodynamic load.
+      options:
+        - id: OIRRB
+          term: irreversible
+          definition: there is no feedback to the pilot's controls of the aerodynamic forces acting on the control surface.
+        - id: OREVB
+          term: reversible
+          definition: there is feedback to the pilot's controls of the aerodynamic forces acting on the control surface.
+      fakeOptions:
+        - id: FB0
+          definition: there is a need to lock the flight controls on the ground.
+        - id: FB1
+          definition: the flight control system has an alternate means of control in case of a control jam.
+        - id: FB2
+          definition: there is a need to have an artificial feel system.
+    - type: definition
+      question: What option describes {term} flight control system?
+      explanation: |-
+        Reversible and irreversible describe whether the aerodynamic loads on a control surface are fed back to the cockpit controls.
+
+        - **Reversible**: the controls are linked to the surface mechanically, so the aerodynamic forces on the surface are felt at the cockpit controls. A fully manual system is reversible and needs no artificial feel system.
+        - **Irreversible**: the surface is moved by an actuator, so there is no direct mechanical feedback from the surface to the cockpit controls. A fully powered system is irreversible and needs an artificial feel system to give the pilot control forces. A partially powered system is not fully irreversible, because the pilot still feels part of the aerodynamic load.
+      options:
+        - id: OIRRC
+          term: an irreversible
+          definition: If the cockpit controls are moved, the aerodynamic surface controls move, but the system is without a direct mechanical feedback from the control surface to the cockpit controls.
+        - id: OREVC
+          term: a reversible
+          definition: The flight controls are directly linked with a cable to the control lever in the cockpit, which also provides direct feedback to the pilot when the aerodynamic surface controls are moved.
+      fakeOptions:
+        - id: FC0
+          definition: The flight controls can only be moved in one direction from the control lever in the cockpit.
+        - id: FC1
+          definition: There is a direct mechanical linkage connecting the control lever and the autopilot.
+- id: QPHKO
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds:
+    - QGBBH
+    - QLJIU
+    - QTRZZ
+  externalQuestionIds:
+    - ATPLQ-214301
+    - BGS-211432
+    - BGS-210181
+    - AVEXAM-70827
+    - AVEXAM-92786
+    - BGS-211431
+    - BGS-210182
+    - ATPLQ-213753
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.01.03.03
+  templates:
+    - type: simple
+      question: "An aeroplane equipped with fully powered flight controls (irreversible type):"
+      explanation: With fully powered, irreversible controls the actuators move the surfaces and the pilot feels nothing from the airflow, so an artificial feel system gives stick forces. Without power the surfaces cannot be moved normally.
+      presets:
+        - correctAnswers:
+            - text: requires the use of an artificial feel system.
+          wrongAnswers:
+            - text: remains normally controllable in case of total loss of power to the flight control system.
+            - text: is flown without the use of an artificial feel system.
+            - text: must be equipped with control locks.
+- id: QBLDI
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217373
+    - BGS-210212
+    - AVEXAM-98492
+    - BGS-210214
+    - BGS-210213
+    - BGS-210215
+    - AVEXAM-45348
+    - AVEXAM-81288
+    - AVEXAM-20131
+    - ATPLQ-218688
+    - BGS-211322
+    - BGS-211324
+    - BGS-211323
+    - ATPLQ-218372
+    - ATPLQ-211339
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.01.03.04
+    - 021.05.01.03.05
+  templates:
+    - type: one-two
+      question: Which of these statements about trimming in an irreversible flight control system of a conventional aeroplane are correct or incorrect?
+      explanation: |-
+        Trimming moves the zero-force position of the controls, the control position at which the pilot feels no force.
+
+        - **Pitch**: in an aeroplane with a trimmable horizontal stabiliser, trimming moves the stabiliser and not the feel unit. The elevator and the control column stay where they were, so the zero-force position of the control column does not change.
+        - **Roll (and yaw)**: in an irreversible system trimming shifts the neutral position of the artificial feel unit. The zero-force position of the control wheel changes.
+      pairs:
+        - right:
+            - The zero force position of the control column does not change when using the pitch trim.
+          wrong:
+            - The zero force position of the control column changes when using the pitch trim.
+        - right:
+            - The zero force position of the control wheel changes when using the aileron trim.
+          wrong:
+            - The zero force position of the control wheel does not change when using the aileron trim.
+    - type: one-two
+      question: Which of these statements is correct as regards trimming in an irreversible flight control system of a conventional aeroplane equipped with a trimmable horizontal stabiliser?
+      explanation: |-
+        Trimming moves the zero-force position of the controls, the control position at which the pilot feels no force.
+
+        - **Pitch**: in an aeroplane with a trimmable horizontal stabiliser, trimming moves the stabiliser and not the feel unit. The elevator and the control column stay where they were, so the zero-force position of the control column does not change.
+        - **Roll (and yaw)**: in an irreversible system trimming shifts the neutral position of the artificial feel unit. The zero-force position of the control wheel changes.
+      pairs:
+        - right:
+            - The zero force position of the control column does not change when using the pitch trim.
+          wrong:
+            - The zero force position of the control column changes when using the pitch trim.
+        - right:
+            - The zero force position of the control wheel changes when using the aileron trim.
+          wrong:
+            - The zero force position of the control wheel does not change when using the aileron trim.
+- id: QBYBY
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219473
+    - BGS-210206
+    - AVEXAM-93200
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.01.03.04
+  templates:
+    - type: simple
+      question: A double-pole switch is used to activate the elevator trim..
+      explanation: |-
+        In an electrically operated pitch trim system a trim runaway is a failure in which the trimmable stabiliser keeps moving towards its stops without being commanded. A double-pole switch needs both of its contacts to close, so a single failed or shorted contact cannot start trim motion. This reduces the probability of a trim runaway.
+
+        The switch does not select the trim rate, does not relate to the number of trim motors and does not arbitrate between the two pilots.
+      presets:
+        - correctAnswers:
+            - text: to reduce the probability of a trim runaway.
+          wrongAnswers:
+            - text: to allow the use of a slow trim rate at high speed and a high trim rate at low speed.
+            - text: because there are two trim motors.
+            - text: to prevent both pilots from performing opposite trim inputs.
+- id: QGBBH
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds:
+    - QPHKO
+    - QLJIU
+  externalQuestionIds:
+    - ATPLQ-219814
+    - BGS-212131
+    - AVEXAM-46136
+    - ATPLQ-215869
+    - AVEXAM-88111
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.01.04.01
+  templates:
+    - type: simple
+      question: Which of these statements is correct with regards to primary flight controls?
+      explanation: With partially powered controls the pilot supplies part of the force on the surface, so part of the aerodynamic load is felt. Fully powered controls need artificial feel, and partially powered systems still have a manual back-up.
+      presets:
+        - correctAnswers:
+            - text: Partially powered controls allow the pilot to feel some of the actual aerodynamic loads of the control surface.
+          wrongAnswers:
+            - text: Fully powered controls provide the pilot with feedback from the control surfaces without the need for an artificial feel system.
+            - text: Partially powered systems do not provide any kind of redundancy in case of hydraulic pressure loss.
+            - text: In a partially powered system, some of the control surfaces are powered, but not all.
+- id: QLJIU
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds:
+    - QPHKO
+    - QGBBH
+    - QTRZZ
+  externalQuestionIds:
+    - ATPLQ-213860
+    - BGS-210184
+    - AVEXAM-48914
+    - AVEXAM-53610
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.01.04.02
+  templates:
+    - type: simple
+      question: An aeroplane equipped with reversible flight controls ..
+      explanation: Reversible controls are connected mechanically, so aerodynamic loads reach the stick directly and the pilot feels them. No artificial feel system is needed. Artificial feel is needed only when the controls are irreversible.
+      presets:
+        - correctAnswers:
+            - text: does not require an artificial feel system.
+          wrongAnswers:
+            - text: does not have mechanical back-up.
+            - text: does not need trim tabs.
+            - text: need not be equipped with a separate gust lock system.
+- id: QBBML
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216960
+    - AVEXAM-24884
+    - ATPLQ-216394
+    - AVEXAM-87904
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.01.05.02
+    - 021.05.04.01.09
+    - 021.05.04.01.10
+  templates:
+    - type: simple
+      question: An electrical connection from the fly-by-wire (FBW) system to the left-hand aileron has become broken in flight. How can directional control be maintained?
+      explanation: In a fly-by-wire system each control surface has redundant actuators controlled by independent computers and wiring. If the electrical connection to one actuator is broken, another actuator with its own computer takes over the control of the surface. It does not require the use of direct law, a disconnection of the autopilot or cables and pulleys.
+      presets:
+        - correctAnswers:
+            - text: Through a separate, identical, actuator.
+          wrongAnswers:
+            - text: Through a second set of wires connected to the same actuator and flight computer.
+            - text: Controllability cannot be maintained
+            - text: Through cables and pulleys.
+    - type: simple
+      question: On Fly-By-Wire equipped aircraft, in case of failure of the electric wiring controlling one of the ailerons, the system can...
+      explanation: In a fly-by-wire system each control surface has redundant actuators controlled by independent computers and wiring. If the electrical connection to one actuator is broken, another actuator with its own computer takes over the control of the surface. It does not require the use of direct law, a disconnection of the autopilot or cables and pulleys.
+      presets:
+        - correctAnswers:
+            - text: use a different actuator with a different computer.
+          wrongAnswers:
+            - text: immediately revert to direct law.
+            - text: immediately disconnect the autopilot.
+            - text: use a different cable with the same computer and actuator.
+- id: QRIRA
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216471
+    - BGS-211312
+    - AVEXAM-58661
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.01.05.03
+  templates:
+    - type: simple
+      question: A large transport aircraft is fitted with flight spoilers, speed brakes, trailing-edge flaps, and a moveable horizontal stabiliser. If this aircraft’s ailerons are jammed, roll control may be achieved by using the..
+      explanation: |-
+        If the ailerons are jammed, roll control can be obtained with the flight spoilers. Used asymmetrically, the spoilers on the wing that should go down are raised and reduce the lift on that wing.
+
+        The speed brakes are deployed symmetrically and do not produce a rolling moment. A moveable horizontal stabiliser controls pitch, and differential flaps are not a roll control on a large transport aeroplane.
+      presets:
+        - correctAnswers:
+            - text: flight spoilers.
+          wrongAnswers:
+            - text: differential flaps.
+            - text: speed brakes.
+            - text: horizontal stabiliser.
+- id: QUTKY
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213202
+    - BGS-211315
+    - AVEXAM-50773
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.01.05.03
+  templates:
+    - type: simple
+      question: How can sufficient control-capability be maintained in case of a malfunction/jam in the flight control system?
+      explanation: |-
+        Control capability after a malfunction or jam is maintained by redundancy: several actuators, usually on independent hydraulic systems, are coupled to the same control surface. If one actuator fails or jams, the others can still move the surface.
+
+        An actuator-disconnect system lets a jammed or failed actuator be disconnected from the surface so that the remaining ones can move it. Disconnecting all of the actuators, or engaging the autopilot, would not restore control.
+      presets:
+        - correctAnswers:
+            - text: By having multiple actuators coupled to a single flight control surface.
+          wrongAnswers:
+            - text: By implementing an actuator-disconnect system so that all actuators can be disconnected from the control surface.
+            - text: By engaging the autopilot system.
+            - text: By coupling more than one flight control surface to a single actuator.
+- id: QUURR
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217400
+    - AVEXAM-32010
+    - AVEXAM-1703
+    - AVEXAM-45247
+    - AVEXAM-97885
+    - BGS-211437
+    - BGS-210195
+    - AVEXAM-65691
+    - AVEXAM-24222
+    - BGS-211436
+    - BGS-211433
+    - BGS-211435
+    - BGS-210191
+    - BGS-210193
+    - BGS-211434
+    - BGS-210194
+    - BGS-210192
+    - BGS-210197
+    - ATPLQ-219995
+    - BGS-210198
+    - AVEXAM-89723
+    - AVEXAM-61459
+    - ATPLQ-213887
+    - ATPLQ-215644
+    - ATPLQ-216615
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.01.05.04
+  templates:
+    - type: one-two
+      question: Which of these statements about a gust lock system are correct or incorrect?
+      explanation: |-
+        A gust lock holds the flight controls and control surfaces in position on the ground so that wind gusts cannot damage them when the aeroplane is parked.
+
+        - Reversible controls, including a fully manual system, transmit the wind loads on the surfaces to the cockpit controls, so they need a gust lock.
+        - Irreversible controls hold the surfaces in position through their actuators, and wind on the surface cannot move the control column, so they need no gust lock.
+        - A gust lock must never be used in flight. There must be suitable design precautions to prevent flight with the gust lock engaged.
+      pairs:
+        - right:
+            - Reversible flight controls should have a gust lock.
+            - There is a need for a gust lock on reversible flight controls.
+          wrong:
+            - Reversible flight controls should not have a gust lock.
+            - There is no need for a gust lock on reversible flight controls.
+        - right:
+            - There is no need for a gust lock on irreversible flight controls.
+          wrong:
+            - There is a need for a gust lock on irreversible flight controls.
+            - Irreversible flight controls should have a gust lock.
+        - right:
+            - There is a need for a gust lock on a fully manual flight control system.
+            - A fully manual flight control system should have a gust lock.
+          wrong:
+            - There is no need for a gust lock on a fully manual flight control system.
+            - A fully manual flight control system should not have a gust lock.
+        - right:
+            - There should be suitable design precautions to prevent flight with the gust lock engaged.
+          wrong:
+            - There should be suitable design precautions to allow flight with the gust lock engaged.
+            - There should be unsuitable design precautions to prevent flight with the gust lock engaged.
+        - right:
+            - A gust lock cannot be used in flight to reduce the effects of turbulence.
+          wrong:
+            - A gust lock can be used in flight to reduce the effects of turbulence.
+            - A gust lock can be used in flight to increase the effects of turbulence.
+- id: QHXNX
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216261
+    - AVEXAM-10919
+    - BGS-211779
+    - BGS-211318
+    - BGS-211311
+    - AVEXAM-15127
+    - BGS-211439
+    - BGS-211441
+    - BGS-211313
+    - BGS-211440
+    - BGS-210201
+    - AVEXAM-45759
+    - AVEXAM-34191
+    - ATPLQ-215537
+    - ATPLQ-212752
+    - ATPLQ-215960
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.01.05.05
+  templates:
+    - type: one-two
+      question: Which of these statements about rudder limiting are correct or incorrect?
+      explanation: |-
+        At high airspeed full rudder deflection would load the fin and the structure excessively, so the available rudder deflection is reduced as the IAS increases.
+
+        - **Rudder ratio changer**: reduces the rudder deflection for a given rudder pedal deflection as the IAS increases. The rudder pedals still move through their full range at all speeds.
+        - **Variable stop**: limits the rudder and the rudder pedal travel together as the IAS increases.
+        - On powered controls the available force can also be limited by reducing the hydraulic pressure as the IAS increases.
+      pairs:
+        - right:
+            - A rudder ratio changer system reduces the rudder deflection for a given rudder pedal deflection as the IAS increases.
+          wrong:
+            - A rudder ratio changer system increases the rudder deflection for a given rudder pedal deflection as the IAS increases.
+            - A rudder ratio changer system reduces the rudder deflection for a given rudder pedal deflection as the IAS decreases.
+        - right:
+            - A variable stop system limits both rudder and rudder pedal deflection as the IAS increases.
+          wrong:
+            - A variable stop system limits neither rudder nor rudder pedal deflection as the IAS increases.
+            - A variable stop system limits both rudder and rudder pedal deflection as the IAS decreases.
+        - right:
+            - With a rudder ratio changer system the rudder pedals move through their full range at all speeds.
+          wrong:
+            - A rudder ratio changer system limits both rudder and rudder pedal deflection as the IAS increases.
+            - A variable stop system reduces the rudder deflection for a given rudder pedal deflection as the IAS increases.
+- id: QYGMY
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds:
+    - QOUIL
+  externalQuestionIds:
+    - ATPLQ-219817
+    - AVEXAM-97155
+    - ATPLQ-212300
+    - AVEXAM-29274
+    - BGS-210202
+    - AVEXAM-34508
+    - BGS-212184
+    - BGS-212197
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.02.01.02
+  templates:
+    - type: multiple-correct
+      question: 'The expression "secondary flight control" applies to the:'
+      explanation: The secondary flight controls are the trimmable stabiliser, the speed brakes and the lift augmentation devices such as flaps and slats. The rudder, ailerons, elevator and roll spoilers are primary controls.
+      options:
+        - text: stabiliser
+          correct: true
+        - text: rudder
+          correct: false
+        - text: speed brake
+          correct: true
+        - text: aileron
+          correct: false
+        - text: elevator.
+          correct: false
+        - text: lift-augmentation devices.
+          correct: true
+        - text: roll spoiler.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 3
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 1
+            - 5
+            - 6
+        - show:
+            - 0
+            - 1
+            - 2
+            - 6
+- id: QOATP
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216668
+    - BGS-210204
+    - AVEXAM-66891
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.02.01.02
+  templates:
+    - type: simple
+      question: "A Krueger flap is normally located at the:"
+      explanation: A Krueger flap is a hinged panel on the underside of the wing leading edge that folds forward into the airflow to increase the camber and lift at low speed. It is a leading-edge device and a secondary flight control.
+      presets:
+        - correctAnswers:
+            - text: leading edge.
+          wrongAnswers:
+            - text: trailing edge close to the wing tip.
+            - text: trailing edge.
+            - text: trailing edge close to the wing root.
+- id: QVIUG
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212738
+    - AVEXAM-55690
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.02.01.02
+  templates:
+    - type: simple
+      question: "Ground spoilers are activated:"
+      explanation: Ground spoilers are deployed automatically when the weight-on-wheels (squat) switch signals that the aeroplane is on the ground. They destroy lift and put the weight on the wheels so that the brakes become effective. They can also be deployed manually, and their deployment does not depend on reverse thrust being selected.
+      presets:
+        - correctAnswers:
+            - text: When the weight on wheels switch is activated.
+          wrongAnswers:
+            - text: Only if reverse thrust is selected.
+            - text: If spin-up of all wheels has been detected.
+            - text: Manually only.
+- id: QWHMC
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218883
+    - BGS-210209
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.02.01.02
+  templates:
+    - type: simple
+      question: For most large aeroplanes, spoilers are..
+      explanation: Spoilers are hinged panels on the upper surface of the wing. Flight spoilers deflect asymmetrically to assist the ailerons in roll and symmetrically as speed brakes. Ground spoilers deflect symmetrically after touchdown. Their deflection can therefore be symmetrical or asymmetrical, and they are never on the lower wing surface.
+      presets:
+        - correctAnswers:
+            - text: upper wing surface devices and their deflection can be either symmetrical or asymmetrical.
+          wrongAnswers:
+            - text: lower wing surface devices and their deflection is always asymmetrical.
+            - text: lower wing surface devices and their deflection can be either symmetrical or asymmetrical.
+            - text: upper wing surface devices and their deflection is always asymmetrical.
+- id: QMWRN
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213174
+    - AVEXAM-26861
+    - BGS-211163
+    - BGS-212421
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.02.01.03
+  templates:
+    - type: simple
+      question: "Regarding a trimmable horizontal stabiliser on a large transport aeroplane, the most common basic design is that the horizontal stabiliser:"
+      explanation: On most large transport aeroplanes pitch trim is provided by a trimmable horizontal stabiliser. The whole stabiliser is rotated about its pivot by a hydraulically driven jack, so the elevator can stay aligned with it. It does not rely on control tabs and does not respond to lateral control inputs.
+      presets:
+        - correctAnswers:
+            - text: Is moved by hydraulically actuated jack.
+          wrongAnswers:
+            - text: Moves in response to lateral control column/stick movements.
+            - text: Trim is adjusted by control tabs.
+            - text: Is moved by hydraulically actuated control tabs.
+- id: QBEMH
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218856
+    - AVEXAM-98133
+    - BGS-211900
+    - ATPLQ-213990
+    - AVEXAM-32890
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.02.01.05
+  templates:
+    - type: simple
+      question: "Some aircraft have maximum speeds for the deployment of speed brakes to:"
+      explanation: |-
+        Spoilers and speed brakes are extended into the airflow and are loaded by the dynamic pressure, which increases with speed. A maximum speed for their deployment protects the panels and their actuators from structural damage caused by excessive aerodynamic forces.
+
+        The limit is structural. It has nothing to do with fuel economy, roll control or longitudinal stability.
+      presets:
+        - correctAnswers:
+            - text: Prevent damage to the speed brakes due to excessive aerodynamic forces.
+          wrongAnswers:
+            - text: Ensure that fuel economy is maximised by reducing drag at high speeds.
+            - text: Avoid the roll control from being compromised by turbulence from the speed brakes.
+            - text: Prevent longitudinal pitch instability at high speeds caused by speed brake operation.
+    - type: simple
+      question: Extension of the wing spoilers is often limited to a maximum airspeed. What is the reason for this?
+      explanation: |-
+        Spoilers and speed brakes are extended into the airflow and are loaded by the dynamic pressure, which increases with speed. A maximum speed for their deployment protects the panels and their actuators from structural damage caused by excessive aerodynamic forces.
+
+        The limit is structural. It has nothing to do with fuel economy, roll control or longitudinal stability.
+      presets:
+        - correctAnswers:
+            - text: To prevent structural damage to the spoilers at excessive dynamic pressures.
+          wrongAnswers:
+            - text: To prevent roll control problems at high speed.
+            - text: To prevent longitudinal instability at high speed.
+            - text: To ensure maximum fuel efficiency by braking at the highest possible speed.
+- id: QCTQB
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215273
+    - AVEXAM-94302
+    - BGS-211029
+    - ATPLQ-216932
+    - BGS-212137
+    - ATPLQ-219267
+    - ATPLQ-218188
+    - BGS-212135
+    - AVEXAM-48146
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.02.01.06
+  templates:
+    - type: simple
+      question: What is the function of a flap load limiting (relief) protection system?
+      explanation: |-
+        Flap load relief (flap load limiting) protects the flaps against excessive aerodynamic loads. If the airspeed exceeds the limit for the selected flap position, the flaps automatically retract, for example when a pressure-relief valve opens under the excessive load, until the load is acceptable again.
+
+        It protects the flaps at their various positions. It does not select flaps to reduce the workload and does not extend them at the correct speeds.
+      presets:
+        - correctAnswers:
+            - text: To retract the flaps when exceeding the limiting speed of the currently selected flap position.
+          wrongAnswers:
+            - text: To reduce flight deck workload by automatically selecting flaps.
+            - text: To increase the aircraft's angle of attack such that the limiting speed of the currently selected flap position is respected.
+            - text: To increase the lift of the aeroplane.
+    - type: simple
+      question: The function of the flap load relief system is to..
+      explanation: |-
+        Flap load relief (flap load limiting) protects the flaps against excessive aerodynamic loads. If the airspeed exceeds the limit for the selected flap position, the flaps automatically retract, for example when a pressure-relief valve opens under the excessive load, until the load is acceptable again.
+
+        It protects the flaps at their various positions. It does not select flaps to reduce the workload and does not extend them at the correct speeds.
+      presets:
+        - correctAnswers:
+            - text: "protect flaps at various positions from excessive loads. "
+          wrongAnswers:
+            - text: automatically retract the flaps when the limit load factor is exceeded.
+            - text: extend flaps at the correct operational speeds.
+            - text: retract flaps at the correct operational speeds.
+    - type: simple
+      question: What is the concept of control-surface protection by means of a pressure-relief valve?
+      explanation: |-
+        Flap load relief (flap load limiting) protects the flaps against excessive aerodynamic loads. If the airspeed exceeds the limit for the selected flap position, the flaps automatically retract, for example when a pressure-relief valve opens under the excessive load, until the load is acceptable again.
+
+        It protects the flaps at their various positions. It does not select flaps to reduce the workload and does not extend them at the correct speeds.
+      presets:
+        - correctAnswers:
+            - text: A pressure-relief valve provides the automatic retraction of a flight control surface under excessive aerodynamic loads.
+          wrongAnswers:
+            - text: A pressure-relief valve is used to resist the aerodynamic loads that are exerted on a flight control surface.
+            - text: It is the method by which a flight control surface can be moved by the pilot.
+            - text: It is a feature used to increase the aerodynamic lift induced by the control surface.
+- id: QALBH
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds:
+    - QYGZV
+  externalQuestionIds:
+    - ATPLQ-217146
+    - AVEXAM-69858
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.02.01.07
+  templates:
+    - type: simple
+      question: Which of these correctly describes a flap/slat asymmetry protection system?
+      explanation: A flap/slat asymmetry protection system compares the left and right flap and slat positions. If it detects an asymmetry it stops any further movement of the surfaces, so the asymmetry cannot grow. It does not compensate for the asymmetry through the FMS, the air data computer or the yaw damper.
+      presets:
+        - correctAnswers:
+            - text: A system which detects flaps and slats position in real time and which prevents any further extension if asymmetry is detected.
+          wrongAnswers:
+            - text: Automatic compensation of the asymmetry via FMS (or ADC).
+            - text: Automatic compensation of the asymmetry via the yaw damper and AFCS.
+            - text: Automatic selection of full flap extension for landing upon detection of an asymmetric condition.
+- id: QYGZV
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds:
+    - QALBH
+  externalQuestionIds:
+    - ATPLQ-218634
+    - AVEXAM-42850
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.02.01.07
+  templates:
+    - type: simple
+      question: You are on an approach when extending flaps, due to a malfunction the right flap does not extend. What will happen to the aircraft?
+      explanation: The wing whose flap has not extended produces less lift than the other wing, so the aeroplane rolls towards it, here to the right. The aileron input needed to keep the wings level increases the angle of attack on the wing with the retracted flap, which on approach at low speed may stall that wing.
+      presets:
+        - correctAnswers:
+            - text: Plane will bank right and right wing may stall.
+          wrongAnswers:
+            - text: Plane will bank right and left wing may stall.
+            - text: Plane will bank left and right wing may stall.
+            - text: Plane will go into a spin.
+- id: QDSER
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219366
+    - AVEXAM-32163
+    - BGS-211326
+    - ATPLQ-214372
+    - AVEXAM-28867
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.02.01.08
+  templates:
+    - type: simple
+      question: What is the function of an auto-slat system?
+      explanation: Auto-slats extend automatically when the angle of attack approaches the stall, which delays the stalling angle of attack and improves the stall characteristics during take-off, approach and landing. They retract when the condition no longer exists, which minimises drag.
+      presets:
+        - correctAnswers:
+            - text: It provides improved stall characteristics at high angles of attack during take-off, approach, and landing.
+          wrongAnswers:
+            - text: It provides for increased endurance during holding operations in icing conditions.
+            - text: It is activated together with the gear extension in the case that the pilot has failed to select the appropriate slat setting.
+            - text: It provides improved handling qualities by retracting the slats at high angles of attack.
+    - type: simple
+      question: How do auto-slat systems function and what is their main purpose?
+      explanation: Auto-slats extend automatically when the angle of attack approaches the stall, which delays the stalling angle of attack and improves the stall characteristics during take-off, approach and landing. They retract when the condition no longer exists, which minimises drag.
+      presets:
+        - correctAnswers:
+            - text: Hydraulically powered auto-slats are extended if the aircraft's angle of attack approaches the stall, in order to delay the stalling angle of attack. They retract when the condition no longer exists to minimise drag.
+          wrongAnswers:
+            - text: Electrically operated auto-slats are linked to the angle of attack probe and retract only during cruise. Otherwise, they remain extended to prevent icing from forming on the leading edge.
+            - text: Spring-powered auto-slats are extended by aerodynamic suction to delay the stalling angle of attack and are retracted by spring force to minimise drag.
+            - text: Pneumatically operated auto-slats are heated by bleed air to prevent icing on the leading edge. They are operated by the landing gear lever, extending when the gear is selected down and retracting when up is selected.
+- id: QJMIP
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214941
+    - AVEXAM-23834
+    - AVEXAM-94259
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.04.01.01
+  templates:
+    - type: simple
+      question: In a Fly-By-Wire flight control system, the control valve is operated (1)\_\_\_\_\_ and the flight control surfaces are operated (2)\_\_\_\_\_.
+      explanation: In a fly-by-wire system the pilot's inputs are converted into electrical signals. These signals operate the control valves electrically, and the control valves direct hydraulic pressure to the actuators, which move the control surfaces hydraulically.
+      presets:
+        - correctAnswers:
+            - text: (1) electrically, (2) hydraulically.
+          wrongAnswers:
+            - text: (1) mechanically, (2) electrically.
+            - text: (1) mechanically, (2) hydraulically.
+            - text: (1) electrically, (2) electrically.
+- id: QBMMV
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211415
+    - AVEXAM-31795
+    - BGS-212164
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.04.01.02
+  templates:
+    - type: one-two
+      question: Which of these statements about a Fly-By-Wire (FBW) flight control system are correct or incorrect?
+      explanation: |-
+        A fly-by-wire system replaces cables, pulleys and pushrods with wiring and computers, which reduces the weight of the system.
+
+        It depends on electrical power and digital circuits, so it is regarded as less reliable than a conventional mechanical system. This is why it needs redundancy in computers, sensors, actuators and power supplies.
+      pairs:
+        - right:
+            - An advantage of a FBW flight control system is the reduced weight of its components in comparison with a conventional flight control system.
+          wrong:
+            - A FBW flight control system relies on electricity and digital control circuits and it is therefore more reliable than a conventional flight control system.
+        - right:
+            - A FBW flight control system relies on electricity and digital control circuits and it is therefore less reliable than a conventional flight control system.
+          wrong:
+            - An advantage of a FBW flight control system is the increased weight of its components in comparison with a conventional flight control system.
+- id: QCBJN
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213021
+    - AVEXAM-23470
+    - ATPLQ-218296
+    - AVEXAM-98671
+    - BGS-211921
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.04.01.02
+  templates:
+    - type: simple
+      question: You are flying a FBW (fly by wire) aircraft in a 30-degree angle of bank turn when the bank angle protection system activates due to a failure. What will happen?
+      explanation: In normal law the bank angle protection limits the bank angle that can be reached. The pilot must hold sidestick force to maintain or increase the bank angle, and releasing the sidestick returns the aircraft towards the protected bank angle. The protection does not engage the autopilot, does not roll the aircraft to wings level and does not by itself change the control law to direct law.
+      presets:
+        - correctAnswers:
+            - text: Increased stick force will be required to maintain or increase the bank angle.
+          wrongAnswers:
+            - text: The auto-pilot engages in heading mode.
+            - text: The aircraft downgrades to direct law
+            - text: The aircraft will roll to wings level
+    - type: simple
+      question: You are flying a FBW (Fly By Wire) aircraft in a steep turn and the bank angle protection system is activated inadvertently, what will happen?
+      explanation: In normal law the bank angle protection limits the bank angle that can be reached. The pilot must hold sidestick force to maintain or increase the bank angle, and releasing the sidestick returns the aircraft towards the protected bank angle. The protection does not engage the autopilot, does not roll the aircraft to wings level and does not by itself change the control law to direct law.
+      presets:
+        - correctAnswers:
+            - text: Force will be required to maintain the correct bank angle.
+          wrongAnswers:
+            - text: The aircraft will roll to wings level
+            - text: Force will be required over 20 degrees angle of bank.
+            - text: The aircraft downgrades to direct law
+- id: QRBCI
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219773
+    - AVEXAM-56246
+    - BGS-212532
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.04.01.02
+  templates:
+    - type: simple
+      question: Compared with an aircraft with conventional controls, in an aircraft with fly-by-wire...
+      explanation: In normal law the flight control computers trim the horizontal stabiliser automatically as long as the airspeed is within the flying limits. The pilot should not trim manually, and the workload is lower than in an aircraft with conventional controls.
+      presets:
+        - correctAnswers:
+            - text: The auto-trim system will automatically trim the horizontal stabiliser when the airspeed is within the flying limits, meaning less workload for the pilot.
+          wrongAnswers:
+            - text: The auto-trim system will automatically trim the horizontal stabiliser when the airspeed is within the flying limits and the flaps and slats are extended, meaning less workload for the pilot.
+            - text: The pilot is responsible for manually trimming the horizontal stabiliser when the airspeed is within the flying limits, and this does not bring any reduction in pilot workload.
+            - text: The pilot is responsible for manually trimming the horizontal stabiliser when the airspeed is within the flying limits and the flaps and slats are extended, and this does not bring any reduction in pilot workload.
+    - type: simple
+      question: A pilot flying an aircraft with a fly-by-wire control system in normal law, as opposed to a conventional aircraft with a traditional flight control system,…..
+      explanation: In normal law the flight control computers trim the horizontal stabiliser automatically as long as the airspeed is within the flying limits. The pilot should not trim manually, and the workload is lower than in an aircraft with conventional controls.
+      presets:
+        - correctAnswers:
+            - text: SHOULD NOT manually trim the horizontal stabiliser as the auto-trim function is available. The pilot's workload is therefore reduced.
+          wrongAnswers:
+            - text: SHOULD NOT manually trim the horizontal stabiliser as the auto-trim function is available when in-trim speed is maintained. The pilot therefore has nearly the same level of workload.
+            - text: MUST manually trim the horizontal stabiliser when flying within the aircraft's limits. The pilot therefore has the same level of workload.
+            - text: MUST manually trim the horizontal stabiliser when flaps and slats are extended. The pilot therefore has nearly the same level of workload.
+- id: QCPCN
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213814
+    - AVEXAM-91730
+    - BGS-212154
+    - ATPLQ-218583
+    - AVEXAM-10017
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.04.01.02
+    - 021.05.04.01.04
+  templates:
+    - type: simple
+      question: You are flying an aircraft with fly-by-wire operating in normal law. You must perform a terrain escape manoeuvre to avoid a mountain. How should this be performed?
+      explanation: In normal law the flight envelope protections prevent a stall and an overstress of the structure, so the pilot can use the full performance of the aeroplane. For a terrain escape manoeuvre the sidestick must be pulled fully back without hesitation. A cautious input, or releasing the input early, wastes the performance that the protections make available.
+      presets:
+        - correctAnswers:
+            - text: Firmly pull back on the sidestick with no hesitation.
+          wrongAnswers:
+            - text: Gently pull back on the sidestick with caution so as to not stall.
+            - text: Pull back on the sidestick to decelerate below VFE, then reduce the back pressure and extend flaps.
+            - text: Firmly pull back on the sidestick but be careful to not exceed the limit load factor.
+            - text: Keep the autopilot engaged and let it execute the manoeuvre.
+- id: QJSMC
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218227
+    - BGS-211893
+    - AVEXAM-12508
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.04.01.03
+  templates:
+    - type: simple
+      question: A Fly-By-Wire system is always irreversible because..
+      explanation: In a fly-by-wire system the link between the pilot's inputs and the surfaces goes through computers, so the surfaces are moved indirectly by the pilot's inputs. There is no direct feedback of the aerodynamic forces on the surfaces to the sidestick, so the system is always irreversible.
+      presets:
+        - correctAnswers:
+            - text: the link between the pilot inputs and control surfaces is via a computer, so the control surfaces are moved indirectly by the pilot inputs.
+          wrongAnswers:
+            - text: there is a mechanical linkage between the flight control surfaces and the pilot controls. The pilot inputs move the control surfaces directly.
+            - text: linked mechanically to a computer and then to the flight control surface.
+            - text: the pilot can reverse the inputs of the autopilot system as they also has a direct link to the hydraulic commands of the control surfaces.
+- id: QHUDM
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds:
+    - QUION
+  externalQuestionIds:
+    - ATPLQ-219412
+    - AVEXAM-49178
+    - ATPLQ-214679
+    - AVEXAM-36097
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.04.01.04
+    - 021.05.04.01.05
+  templates:
+    - type: simple
+      question: You are flying a fly-by-wire aircraft which is operating using direct law. What are the possible implications of this?
+      explanation: In direct law the sidestick commands the control surfaces proportionally, without computer augmentation. The pitch and roll protections are lost, but the aural and visual alerts remain available.
+      presets:
+        - correctAnswers:
+            - text: Roll and pitch augmentation are lost but you still have aural and visual alerts.
+          wrongAnswers:
+            - text: Roll augmentation is lost but you still have pitch augmentation.
+            - text: Roll and pitch augmentation are lost.
+            - text: Pitch augmentation is lost but you still have roll augmentation.
+    - type: simple
+      question: What are the implications for flight envelope protections when flying a fly-by-wire aircraft in direct law?
+      explanation: In direct law the sidestick commands the control surfaces proportionally, without computer augmentation. The pitch and roll protections are lost, but the aural and visual alerts remain available.
+      presets:
+        - correctAnswers:
+            - text: Loss of pitch and roll protections.
+          wrongAnswers:
+            - text: Loss of pitch protections.
+            - text: You will be degraded to audio and visual warnings only.
+            - text: No degradation of flight envelope protections but loss of all warnings.
+- id: QUION
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds:
+    - QHUDM
+  externalQuestionIds:
+    - ATPLQ-217083
+    - AVEXAM-50493
+    - BGS-211986
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.04.01.05
+  templates:
+    - type: simple
+      question: A mode degradation due to failing subsystems within a fly by wire flight control system increases the workload of the flight crew. Degradation to which flight control modes/laws would have the highest impact on the flight crew's workload?
+      explanation: Each degradation of the control laws, from normal to alternate to direct law, removes protections and augmentation. Direct law is the lowest level, with no flight envelope protections and a direct relationship between the sidestick and the surfaces. The crew must then avoid exceeding the limits themselves, so the workload is the highest.
+      presets:
+        - correctAnswers:
+            - text: Direct law
+          wrongAnswers:
+            - text: Secondary mode
+            - text: Alternate law
+            - text: Normal law
+- id: QXZHV
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds:
+    - QYKED
+  externalQuestionIds:
+    - ATPLQ-213130
+    - BGS-211994
+    - AVEXAM-36096
+    - ATPLQ-213348
+    - AVEXAM-50421
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.04.01.07
+  templates:
+    - type: simple
+      question: In a fly by wire aircraft controlled with a sidestick, the sticks are not physically connected, so both pilots can perform independent control inputs. Which of the following statements correctly describes how unintended dual control inputs are prevented?
+      explanation: The two sidesticks are not mechanically linked, so the inputs of both pilots are added together. To take control, a pilot presses the priority push-button on their own sidestick, which cancels the input of the other sidestick. Each sidestick has such a button, and there is no selector switch on the centre console.
+      presets:
+        - correctAnswers:
+            - text: Both sidesticks have a priority push-button which, when pushed, deactivates the control inputs from the other sidestick.
+          wrongAnswers:
+            - text: A selector switch (positions left/right/both) in the main centre console is used to select the control inputs from one side stick and deactivate the other side stick.
+            - text: The left-hand seat sidestick (Commander) has a priority push button which, when pushed, deactivates the control inputs from the right sidestick. The right side stick has no push-button.
+            - text: One pilot announces 'I have control' and the other pilot must neutralise his/her side stick control input. Only the pilot relinquishing control can deactivate his/her sidestick.
+    - type: simple
+      question: On Airbus aircraft, both sidesticks are not mechanically linked, so they can operate independently of each other. How does a pilot take control over the other sidestick?
+      explanation: The two sidesticks are not mechanically linked, so the inputs of both pilots are added together. To take control, a pilot presses the priority push-button on their own sidestick, which cancels the input of the other sidestick. Each sidestick has such a button, and there is no selector switch on the centre console.
+      presets:
+        - correctAnswers:
+            - text: A priority push-button is provided on each stick. By pressing this button, a pilot may cancel the inputs of the other pilot.
+          wrongAnswers:
+            - text: Only the left sidestick (captain) has a priority push-button to take control over the other sidestick.
+            - text: Both sidesticks add a signal to the system which calculates the input.
+            - text: There is a switch button with positions left/neutral/right.
+- id: QYKED
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds:
+    - QXZHV
+  externalQuestionIds:
+    - ATPLQ-219631
+    - AVEXAM-8676
+    - BGS-212222
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.04.01.07
+  templates:
+    - type: one-two
+      question: Which of these statements is correct/incorrect regarding fly by wire flight controls?
+      explanation: With dual inputs from both sidesticks the signals are added together. The sum is electronically limited to the maximum deflection of a single sidestick, and neither sidestick has priority unless a pilot presses the priority push-button.
+      pairs:
+        - right: []
+          wrong:
+            - When two inputs in a fly by wire system are detected they are not mixed together. The commander's inputs are given the priority electronically.
+        - right:
+            - When two inputs are detected they are mixed together and if the combined inputs are a full deflection, the result will be not more than a full single stick deflection
+          wrong: []
+    - type: simple
+      question: |-
+        Which of these statements about a fly-by-wire flight control system with sidesticks for manual control are correct or incorrect? 
+        1. In the case of a dual control input from both sidesticks these inputs are mixed. In this situation, the signal from the left sidestick (Commander) is electronically prioritised over the commands coming from the right sidestick.
+        2. The resulting control input of a dual control input from both sidesticks is electronically limited to the maximum deflection limit of one sidestick.
+      explanation: With dual inputs from both sidesticks the signals are added together. The sum is electronically limited to the maximum deflection of a single sidestick, and neither sidestick has priority unless a pilot presses the priority push-button.
+      presets:
+        - correctAnswers:
+            - text: 1 is incorrect, 2 is correct
+          wrongAnswers:
+            - text: Both 1 and 2 are correct.
+            - text: Both 1 and 2 are incorrect.
+            - text: 1 is correct, 2 is incorrect
+- id: QHPOI
+  subjectId: "021"
+  chapterId: "021.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214410
+    - BGS-211987
+    - AVEXAM-10297
+  annexes: []
+  learningObjectiveIds:
+    - 021.05.04.01.11
+  templates:
+    - type: simple
+      question: In a fly-by-wire flight control system, why do critical parameters require multiple sensors?
+      explanation: Critical parameters are measured by multiple sensors so that flight control can be maintained after a single sensor failure. The computers compare the sensor values to detect a failed sensor and ignore it.
+      presets:
+        - correctAnswers:
+            - text: To allow flight control to be maintained in the event of a single sensor failure.
+          wrongAnswers:
+            - text: To improve aircraft performance and handling.
+            - text: To provide a separate input for each flight control computer.
+            - text: To allow flight control to be maintained if inputs from the sensors are valid but have different values.

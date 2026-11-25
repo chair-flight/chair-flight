@@ -1,0 +1,1960 @@
+- id: QQJQD
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817346
+    - AVEXAM-29215
+    - BGS-812616
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.01.02
+  templates:
+    - type: simple
+      question: How does the Local Speed of Sound (LSS) change with increasing altitude?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: LSS will decrease in the troposphere
+          wrongAnswers:
+            - text: LSS will remain constant below the troposphere
+            - text: LSS will decrease in the lower stratosphere
+            - text: LSS will increase in the lower stratosphere
+- id: QUZNG
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819838
+    - AVEXAM-95866
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.01.02
+  templates:
+    - type: simple
+      question: How does the speed of sound change with changing altitude in International Standard Atmosphere (ISA) conditions? As the altitude increases, the speed of sound...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: decreases in the troposphere.
+          wrongAnswers:
+            - text: increases in the troposphere.
+            - text: increases in the lower part of the stratosphere.
+            - text: decreases in the lower part of the stratosphere.
+- id: QJTMQ
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds:
+    - QUAXD
+    - QLBSF
+  externalQuestionIds:
+    - ATPLQ-816207
+    - AVEXAM-46242
+    - BGS-812639
+    - ATPLQ-818082
+    - AVEXAM-63020
+    - BGS-810477
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.01.03
+  templates:
+    - type: simple
+      question: What is the relationship between speed of sound and absolute temperature?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Directly proportional to square root of temperature.
+          wrongAnswers:
+            - text: Inversely proportional to square root of temperature.
+            - text: Inversely proportional to square of temperature.
+            - text: Directly proportional to square of temperature.
+    - type: simple
+      question: Which statement with respect to the speed of sound is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Varies with the square root of the absolute temperature.
+          wrongAnswers:
+            - text: Doubles if the temperature increases from 9° to 36°C.
+            - text: Is independent of altitude.
+            - text: Increases always if the density of the air decreases.
+- id: QLBSF
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds:
+    - QUAXD
+    - QJTMQ
+  externalQuestionIds:
+    - ATPLQ-816899
+    - AVEXAM-92809
+    - AVEXAM-54399
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.01.03
+  templates:
+    - type: simple
+      question: The local speed of sound in air is proportional to the…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Square root of the air temperature in Kelvin (K).
+          wrongAnswers:
+            - text: Air temperature in Kelvin (K).
+            - text: Air temperature in degrees Celsius (ºC).
+            - text: Square root of the air temperature in degrees Celsius (ºC).
+- id: QUAXD
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds:
+    - QLBSF
+    - QJTMQ
+  externalQuestionIds:
+    - ATPLQ-817034
+    - AVEXAM-87474
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.01.03
+  templates:
+    - type: simple
+      question: The local speed of sound (LSS) is (2)\_\_\_\_\_ proportional to the (2)\_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) directly; (2) square root of the absolute temperature.
+          wrongAnswers:
+            - text: (1) inversely; (2) absolute temperature squared.
+            - text: (1) inversely; (2) square root of the absolute temperature.
+            - text: (1) directly; (2) absolute temperature squared.
+- id: QTTGU
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819808
+    - AVEXAM-27182
+    - BGS-811405
+    - ATPLQ-813867
+    - AVEXAM-47580
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.03.01
+  templates:
+    - type: simple
+      question: You are in cruise flight and maintaining a constant pressure altitude (flight level) and IAS, which keeps you flying close to MCRIT. You suddenly encounter a cold air mass. What is most probable to happen?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Mach speed stays constant.
+          wrongAnswers:
+            - text: Mach speed increases
+            - text: Mach speed increases or decreases, depending on the exact temperature of the cold air mass.
+            - text: Mach speed decreases, and you could stall if you do not intervene.
+- id: QULXG
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814424
+    - AVEXAM-28358
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.03.01
+  templates:
+    - type: simple
+      question: You are in the cruise, allowing the aircraft to accelerate with the autopilot engaged. The pilot observes the control trim moving continuously, and the aircraft is struggling to maintain level flight. What should the pilot do in this situation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Disconnect the autopilot and try to recover the situation.
+          wrongAnswers:
+            - text: Leave the autopilot connected as any intervention from the pilot will worsen the situation.
+            - text: Protect the movement of the CG so it doesn't exceed the limits.
+            - text: Switch off the electrical master switch to remove power to the system.
+    - type: simple
+      question: An airplane is in the cruise phase and the pilot flying increases airspeed with the autopilot engaged. What should the pilot do if the control trim is continously moving and if the airplane is struggeling to maintain level flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Disconnect the autopilot and try to recover the situation.
+          wrongAnswers:
+            - text: Disconnect the electrical trim.
+            - text: Leave the autopilot connected as any intervention from the pilot will worsen the situation.
+            - text: Protect the movement of the CG so it doesn't exceed the limits.
+- id: QENGU
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds:
+    - QQXAQ
+    - QXJXX
+  externalQuestionIds:
+    - ATPLQ-811499
+    - AVEXAM-91695
+    - AVEXAM-32013
+    - BGS-811649
+    - AVEXAM-28801
+    - BGS-811647
+    - AVEXAM-10037
+    - ATPLQ-812889
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.03.02
+  templates:
+    - type: simple
+      question: "Assuming ISA conditions and a climb above the tropopause at constant Mach number and aeroplane mass, the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: TAS remains constant
+          wrongAnswers:
+            - text: TAS decrease
+            - text: Lift coefficient remains constant
+            - text: A lower AoA
+    - type: simple
+      question: An aeroplane descends below the tropopause in ISA conditions at constant Mach number and mass. What happens to true airspeed?
+      explanation: In an ISA descent below the tropopause, the temperature rises and so does the local speed of sound. The Mach number equals TAS divided by the local speed of sound, so TAS increases.
+      presets:
+        - correctAnswers:
+            - text: It increases.
+          wrongAnswers:
+            - text: It decreases.
+            - text: It stays constant.
+            - text: It initially drops to the indicated airspeed.
+- id: QQXAQ
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds:
+    - QENGU
+    - QXJXX
+  externalQuestionIds:
+    - ATPLQ-815324
+    - BGS-811648
+    - AVEXAM-18156
+    - BGS-811643
+    - ATPLQ-814352
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.03.02
+  templates:
+    - type: simple
+      question: "Assuming ISA conditions and a climb below the tropopause at constant Mach number and aeroplane mass, the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: IAS decreases.
+          wrongAnswers:
+            - text: TAS remains constant.
+            - text: lift coefficient decreases.
+            - text: lift coefficient remains constant.
+    - type: simple
+      question: "Assuming ISA conditions and a climb above the tropopause at constant Mach number and aeroplane mass, the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: IAS decreases.
+          wrongAnswers:
+            - text: lift coefficient decreases.
+            - text: lift coefficient remains constant.
+            - text: TAS increases.
+- id: QXJXX
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds:
+    - QENGU
+    - QQXAQ
+  externalQuestionIds:
+    - ATPLQ-813567
+    - AVEXAM-26938
+    - AVEXAM-84280
+    - BGS-811644
+    - BGS-811645
+    - AVEXAM-25987
+    - BGS-810493
+    - BGS-811650
+    - ATPLQ-816295
+    - ATPLQ-818287
+    - ATPLQ-812143
+    - ATPLQ-811803
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.03.02
+  templates:
+    - type: simple
+      question: "Assuming ISA conditions and a descent above the tropopause at constant Mach number and aeroplane mass, the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: lift coefficient decreases.
+          wrongAnswers:
+            - text: TAS increases.
+            - text: IAS decreases.
+            - text: lift coefficient increases.
+    - type: simple
+      question: "Assuming ISA conditions and a climb below the tropopause at constant Mach number and aeroplane mass, the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: lift coefficient increases.
+          wrongAnswers:
+            - text: lift coefficient decreases.
+            - text: TAS remains constant.
+            - text: IAS increases.
+    - type: simple
+      question: At a constant Mach number and aeroplane mass, what happens to the lift coefficient in a steady climb above the ISA tropopause?
+      explanation: As pressure falls in the climb, dynamic pressure falls at constant Mach number. In a steady climb at the same flight-path angle, the lift required is unchanged. A higher lift coefficient is therefore needed.
+      presets:
+        - correctAnswers:
+            - text: The lift coefficient increases.
+          wrongAnswers:
+            - text: The lift coefficient decreases.
+            - text: The lift coefficient remains constant.
+            - text: The lift coefficient becomes zero.
+- id: QXECM
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812595
+    - BGS-811948
+    - BGS-811292
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        Calculate the Mach number, given the following:
+
+        CAS: 293 kt 
+         
+        TAS: 385 kt 
+         
+        Temperature: -48°C
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "0.658"
+          wrongAnswers:
+            - text: "0.582"
+            - text: "0.761"
+            - text: "0.501"
+    - type: simple
+      question: |-
+        Calculate the Mach Number, given the following conditions:
+
+        TAS 385 Knots, CAS 293 kts, Temp -48 °C
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: M 0.659
+          wrongAnswers:
+            - text: M 0.552
+            - text: M 0.503
+            - text: M 0.421
+- id: QRCXG
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815209
+    - AVEXAM-28955
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.03.02
+  templates:
+    - type: simple
+      question: What happens when an aeroplane climbs at constant IAS before the crossover altitude?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Lift coefficient remains unchanged.
+          wrongAnswers:
+            - text: Lift coefficient increases and then decreases.
+            - text: Lift coefficient increases.
+            - text: Lift coefficient decreases.
+- id: QAONX
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819024
+    - AVEXAM-73968
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.03.03
+  templates:
+    - type: simple
+      question: An aircraft is climbing at a constant IAS close to VMO above FL230\. What could the flight crew do to avoid accidentally exceeding MMO? The flight crew must...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: stop flying at a constant IAS and fly at a constant Mach number.
+          wrongAnswers:
+            - text: accelerate past VMO to avoid exceeding MMO.
+            - text: decelerate past VS0 to avoid exceeding MMO.
+            - text: stop flying at a constant IAS and fly at a constant TAS.
+- id: QCBPZ
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814442
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.03.03
+  templates:
+    - type: simple
+      question: "An aeroplane is descending from FL 390 to ground level at maximum speed. The limit(s) in speed is (are):"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: initially MMO, then VMO below a given flight level.
+          wrongAnswers:
+            - text: initially VMO, then MMO below a given flight level.
+            - text: VMO only during all the descent.
+            - text: MMO only during all the descent.
+- id: QTCVM
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819598
+    - AVEXAM-25101
+    - BGS-812595
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.04.01
+  templates:
+    - type: simple
+      question: For this question, consider high speed aerodynamics. An aeroplane accelerates from low speed to a speed just below MCRIT in straight and level flight. What changes to the airflow around the aeroplane can you expect to take place?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The total pressure will increase slightly due to compressibility of the air which, for example, gives an artificially high reading of CAS.
+          wrongAnswers:
+            - text: The total pressure will Increase as shock waves start forming In areas where there is significant local acceleration, causing wave drag.
+            - text: The airflow becomes more turbulent due to the presence of areas of Increased compressibility slowing down the speed of the airflow.
+            - text: The airflow has a greater tendency to separate as small and weak shock waves start to form In areas of Increased compressibility.
+- id: QTCLI
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819235
+    - AVEXAM-9337
+    - BGS-810497
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.04.03
+  templates:
+    - type: simple
+      question: "Compressibility effects depend on:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Mach number.
+          wrongAnswers:
+            - text: TAS.
+            - text: EAS.
+            - text: IAS.
+- id: QLVAZ
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816453
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.04.04
+  templates:
+    - type: simple
+      question: Immediately above MCRIT in the transonic speed regime, at a constant angle of attack, stall speed will...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: increase at high altitudes.
+          wrongAnswers:
+            - text: remain constant until reaching the upper end of the transonic speed regime.
+            - text: remain constant until reaching the lower end of the transonic speed regime.
+            - text: decrease at high altitudes.
+- id: QZADJ
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811044
+    - AVEXAM-71182
+    - BGS-811324
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.04.04
+  templates:
+    - type: simple
+      question: Compared with the low subsonic regime, in the high subsonic regime the streamlines ahead of the wing change direction...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: closer to the leading edge, resulting in an increased indicated stall speed.
+          wrongAnswers:
+            - text: further from the leading edge, resulting in a reduced Mach number for the high-speed stall.
+            - text: at the same distance from the leading edge but are closer together above the wing due to compressibility.
+            - text: further from the leading edge, resulting in an increased Mach number for the low-speed stall.
+- id: QFXMQ
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811876
+    - AVEXAM-44283
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.05.01
+  templates:
+    - type: simple
+      question: "The speed range from approximately M = 1.3 to approximately M = 5 is called the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: supersonic range.
+          wrongAnswers:
+            - text: hypersonic range.
+            - text: transonic range.
+            - text: subsonic range.
+- id: QOHAJ
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817028
+    - BGS-810505
+    - AVEXAM-37405
+    - AVEXAM-51618
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.05.01
+  templates:
+    - type: simple
+      question: Which of these statements about the transonic speed range is correct ?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The transonic speed range starts at MCRIT and extends to Mach numbers above M = 1.
+          wrongAnswers:
+            - text: The airflow everywhere around the aeroplane is supersonic.
+            - text: The transonic speed range starts at M = 0.5 and ends at MCRIT.
+            - text: The airflow everywhere around the aeroplane is subsonic.
+- id: QJKOZ
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818898
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.01.05.03
+  templates:
+    - type: simple
+      question: "During the cruise, modern large jet aeroplanes normally fly at speeds faster than MCRIT since the increase in speed is more significant than the increase in drag. This is achieved:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: By fitting supercritical wings.
+          wrongAnswers:
+            - text: By flying at lower altitudes where the TAS is higher for a given Mach number and therefore experience a delay in the onset of shock waves and wave drag.
+            - text: By decreasing the leading-edge radius of the wing.
+            - text: By using an advanced wing technology with a greater curvature underneath to balance the acceleration over the top and therefore reduce the severity of the shock waves.
+- id: QSIGV
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816262
+    - AVEXAM-36612
+    - BGS-810521
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.02.01.01
+  templates:
+    - type: simple
+      question: Which statement is correct about a normal shock wave?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The airflow changes from supersonic to subsonic.
+          wrongAnswers:
+            - text: The airflow changes direction.
+            - text: The airflow changes from subsonic to supersonic.
+            - text: The airflow expands when passing the aerofoil.
+- id: QZOLK
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819552
+    - BGS-812177
+    - BGS-810524
+    - ATPLQ-814800
+    - BGS-810507
+    - AVEXAM-93963
+    - AVEXAM-39861
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.02.02.01
+  templates:
+    - type: simple
+      question: |-
+        When supersonic airflow passes through a normal shock wave, how do the following conditions change?
+
+        I. static pressure,   
+         II. density,   
+         III. local speed of sound.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: I. increases, II. increases, III. increases
+          wrongAnswers:
+            - text: I. decreases, II. decreases, III. decreases
+            - text: I. remains constant, II. decreases, III. increases
+            - text: I. increases, II. increases, III. decreases
+    - type: simple
+      question: How will the density and static temperature change in a supersonic flow from a position in front of a shock wave to behind it?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Density will increase, static temperature will increase.
+          wrongAnswers:
+            - text: Density will decrease, static temperature will increase.
+            - text: Density will increase, static temperature will decrease.
+            - text: Density will decrease, static temperature will decrease.
+        - correctAnswers:
+            - text: Density will increase, temperature will increase.
+          wrongAnswers:
+            - text: Density will decrease, temperature will decrease.
+            - text: Density will increase, temperature will decrease.
+            - text: Density will decrease, temperature will increase.
+    - type: simple
+      question: A supersonic airflow passes through a normal shock wave. The static pressure will (1) ___, the density (2) ___, and the local speed of sound (3) ___.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) increase, (2), increase, (3) increase
+          wrongAnswers:
+            - text: (1) remain constant, (2), decrease, (3) increase
+            - text: (1) increase, (2), increase, (3) decrease
+            - text: (1) decrease, (2), decrease, (3) decrease
+- id: QPTKU
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813324
+    - AVEXAM-32320
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.02.02.02
+  templates:
+    - type: simple
+      question: When a profile reaches the speed of sound, what kind of shock wave is produced at the point of maximum speed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Straight/right shock wave
+          wrongAnswers:
+            - text: Conformal shockwave
+            - text: Oblique shock wave
+            - text: Mach shock wave
+- id: QWSBL
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811814
+    - AVEXAM-5082
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.02.02.02
+  templates:
+    - type: simple
+      question: On a wing flying in supersonic flow, the normal shock wave forms at an angle of…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 90° to the wing surface.
+          wrongAnswers:
+            - text: less than 70° to the wing surface, that further reduces towards the edge of the shockwave.
+            - text: less than 70° to the wing surface.
+            - text: more than 90° to the wing surface.
+- id: QDUYE
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813632
+    - AVEXAM-68295
+    - BGS-810513
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.02.02.03
+  templates:
+    - type: simple
+      question: "As the Mach number increases in straight and level flight, a shock wave on the upper surface of the wing will:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: move towards the trailing edge.
+          wrongAnswers:
+            - text: move towards the leading edge.
+            - text: not move.
+            - text: disappear.
+- id: QKYQE
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds:
+    - QBXZY
+  externalQuestionIds:
+    - ATPLQ-819995
+    - AVEXAM-56100
+    - BGS-811657
+    - BGS-811332
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.02.02.03
+    - 081.02.03.02.01
+  templates:
+    - type: simple
+      question: Regarding a normal shock wave on the upper surface of a wing, as Mach number increases towards Mach drag divergence...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the shock wave moves aft and the coefficient of lift increases.
+          wrongAnswers:
+            - text: the coefficient of drag increases and the coefficient of lift decreases.
+            - text: the reduction in the local speed of sound from in front of the shock wave to behind it increases.
+            - text: the shock wave intensifies and the reduction in air density from in front of the shock wave to behind it increases.
+- id: QBXZY
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds:
+    - QKYQE
+  externalQuestionIds:
+    - ATPLQ-816138
+    - AVEXAM-87641
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.02.02.03
+  templates:
+    - type: simple
+      question: A shockwave is formed both on the upper and lower surface of the wing. Mach number is increased. Where is the lower surface shock wave in relation to the upper surface?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: More aft.
+          wrongAnswers:
+            - text: At the same position.
+            - text: Impossible to say.
+            - text: More forward.
+- id: QODMT
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817608
+    - AVEXAM-60050
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.02.02.03
+  templates:
+    - type: simple
+      question: On a normally cambered airfoil which increases its speed through the transonic region, the lower shock wave…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: moves aft and reaches the trailing edge first.
+          wrongAnswers:
+            - text: moves aft until reaching the upper shock wave.
+            - text: moves aft slower than upper shock wave.
+            - text: does not move.
+- id: QPFUA
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816660
+    - BGS-810523
+    - AVEXAM-90861
+    - ATPLQ-813749
+    - BGS-810519
+    - AVEXAM-26734
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.02.02.03
+  templates:
+    - type: simple
+      question: "Just above the critical Mach number the first evidence of a shock wave will appear at the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: upper side of the wing.
+          wrongAnswers:
+            - text: leading edge of the wing.
+            - text: lower side of the wing.
+            - text: trailing edge of the wing.
+    - type: simple
+      question: "When the Mach number is slowly increased in straight and level flight the first shock waves will occur:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: On the upper wing, where it is thickest.
+          wrongAnswers:
+            - text: Somewhere on the horizontal tail.
+            - text: On the lower surface of the wing.
+            - text: On the upper wing, close to the leading edge.
+- id: QZMXB
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814684
+    - AVEXAM-81626
+    - BGS-812579
+    - BGS-813105
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.02.02.03
+  templates:
+    - type: simple
+      question: An aircraft with a conventional, cambered aerofoil accelerates through the transonic speed range. Shock waves form on the upper and lower surfaces of the wing. While the aircraft continues to accelerate, the shock wave on the lower surface initially moves aft…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: more quickly than the upper shock wave.
+          wrongAnswers:
+            - text: but remains ahead of the upper shock wave.
+            - text: directly beneath the upper shock wave and at the same rate.
+            - text: to the location of the upper shock wave, then remains static.
+    - type: simple
+      question: As an aircraft with a standard aerofoil moves into the transonic speed range at a shallow angle of attack. Where on the wing is the initial shock wave expected to develop?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: On the upper surface at the point of greatest wing thickness.
+          wrongAnswers:
+            - text: At the trailing edge.
+            - text: On the lower surface at the lowest point of the wing's curvature.
+            - text: At the leading edge close to the stagnation point.
+- id: QLNAX
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817484
+    - BGS-811418
+    - ATPLQ-813015
+    - BGS-810516
+    - AVEXAM-9882
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.02.02.04
+  templates:
+    - type: simple
+      question: What is the impact of a change in Angle of Attack (AoA) on a normal shock wave at a constant Mach number?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The intensity of the shock wave increases as AoA increases.
+          wrongAnswers:
+            - text: The intensity of the shock wave decreases as AoA increases.
+            - text: The location of the shock wave moves forwards on the wing.
+            - text: The location of the shock wave moves rearwards on the wing.
+- id: QGDKF
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819706
+    - AVEXAM-49834
+    - AVEXAM-37074
+    - BGS-810570
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.01.01
+  templates:
+    - type: simple
+      question: "The critical Mach number of an aeroplane is the free stream Mach number at which for the first time, somewhere on the aeroplane, the following occurs:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: local sonic flow.
+          wrongAnswers:
+            - text: buffet.
+            - text: supersonic flow.
+            - text: a shock wave.
+- id: QRFOT
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819775
+    - AVEXAM-70389
+    - BGS-811689
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.01.01
+  templates:
+    - type: simple
+      question: "The critical Mach number of an aeroplane is the Mach number:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: above which, locally, supersonic flow exists somewhere over the aeroplane.
+          wrongAnswers:
+            - text: at which there is subsonic flow over all parts of the aeroplane.
+            - text: at which the aeroplane has zero buffet margin.
+            - text: at which there is supersonic flow over a part of the aeroplane.
+- id: QMAXT
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813232
+    - AVEXAM-78360
+    - AVEXAM-84891
+    - AVEXAM-28388
+    - AVEXAM-69288
+    - BGS-811614
+    - AVEXAM-11061
+    - BGS-810275
+    - BGS-811610
+    - AVEXAM-15614
+    - AVEXAM-51571
+    - BGS-811306
+    - AVEXAM-93827
+    - AVEXAM-10482
+    - BGS-811124
+    - AVEXAM-62755
+    - BGS-810270
+    - AVEXAM-47224
+    - BGS-811268
+    - BGS-810276
+    - BGS-811368
+    - AVEXAM-64675
+    - AVEXAM-84709
+    - AVEXAM-54618
+    - AVEXAM-60537
+    - AVEXAM-54991
+    - BGS-810566
+    - BGS-810565
+    - BGS-810215
+    - AVEXAM-93087
+    - AVEXAM-58472
+    - AVEXAM-93241
+    - BGS-811016
+    - BGS-810309
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.01.02
+  templates:
+    - type: simple
+      question: "Whilst flying at a constant IAS and at n = 1, as the aeroplane mass increases, the value of MCRIT:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: decreases.
+          wrongAnswers:
+            - text: increases.
+            - text: remains constant.
+            - text: is independent of the angle of attack.
+- id: QBUSH
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811113
+    - BGS-812372
+    - AVEXAM-85215
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.02.01
+  templates:
+    - type: simple
+      question: A large turbojet aeroplane is being flown at its optimum altitude and the crew try to achieve the most efficient flight performance. If the speed were to be increased slightly above the critical Mach number, the coefficient of lift would (1)\_\_\_\_\_, requiring (2) \_\_\_\_\_ in the angle of attack.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) increase; (2) decrease
+          wrongAnswers:
+            - text: (1) decrease; (2) decrease
+            - text: (1) increase; (2) increase
+            - text: (1) decrease; (2) increase
+- id: QOQFC
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813724
+    - BGS-811691
+    - AVEXAM-6393
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.02.02
+  templates:
+    - type: simple
+      question: "When shock stall occurs, lift will decrease because:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: flow separation occurs behind the shock wave.
+          wrongAnswers:
+            - text: the bow wave appears.
+            - text: MCRIT is reached.
+            - text: of the existence of a shock wave being located at the trailing edge of the wing.
+- id: QTDLA
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813900
+    - BGS-810574
+    - AVEXAM-1990
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.02.02
+  templates:
+    - type: simple
+      question: Shock induced separation can occur...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: behind a strong, normal shock wave, ranging from low to high angles of attack.
+          wrongAnswers:
+            - text: at high Mach numbers, only at high angles of attack.
+            - text: at high Mach numbers, only at low angles of attack.
+            - text: in supersonic flow only.
+- id: QCKCI
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812474
+    - AVEXAM-40484
+    - AVEXAM-15217
+    - AVEXAM-68772
+    - AVEXAM-10259
+    - BGS-812761
+    - BGS-810578
+    - AVEXAM-75953
+    - BGS-810622
+    - AVEXAM-41190
+    - AVEXAM-5032
+    - BGS-810357
+    - BGS-810004
+    - BGS-812217
+    - AVEXAM-27142
+    - BGS-811913
+    - BGS-812611
+    - BGS-810404
+    - AVEXAM-99715
+    - AVEXAM-35854
+    - BGS-811385
+    - BGS-810249
+    - AVEXAM-94229
+    - BGS-812423
+    - AVEXAM-91091
+    - BGS-812385
+    - BGS-811200
+    - BGS-810490
+    - AVEXAM-83986
+    - AVEXAM-40877
+    - BGS-811270
+    - BGS-811243
+    - AVEXAM-6080
+    - AVEXAM-79213
+    - BGS-812689
+    - AVEXAM-76831
+    - AVEXAM-87386
+    - AVEXAM-58558
+    - BGS-810390
+    - BGS-811629
+    - AVEXAM-62077
+    - AVEXAM-9949
+    - BGS-810575
+    - AVEXAM-55942
+    - BGS-812439
+    - AVEXAM-15040
+    - AVEXAM-16088
+    - AVEXAM-23709
+    - BGS-810492
+    - AVEXAM-57555
+    - AVEXAM-1499
+    - AVEXAM-45085
+    - ATPLQ-817234
+    - BGS-810579
+    - AVEXAM-16161
+    - ATPLQ-819717
+    - ATPLQ-812463
+    - BGS-810580
+    - AVEXAM-69614
+    - AVEXAM-92334
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.02.03
+  templates:
+    - type: simple
+      question: "When altitude increases, the stall speed (IAS) will:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: increase due to increasing compressibility effects as a result of increasing Mach number.
+          wrongAnswers:
+            - text: increase due to decreasing MCRIT.
+            - text: decrease due to decreasing temperature and decreasing Mach number.
+            - text: decrease due to increasing MCRIT.
+        - correctAnswers:
+            - text: initially remains constant but at higher altitudes increases.
+          wrongAnswers:
+            - text: initially remains constant but at higher altitudes decreases.
+            - text: remains constant regardless of altitude.
+            - text: remains constant until the tropopause but at higher altitudes increases.
+    - type: simple
+      question: How does stall speed (IAS) vary with altitude?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It remains constant at lower altitudes but increases at higher altitudes due to compressibility effects.
+          wrongAnswers:
+            - text: It remains constant.
+            - text: It increases with increasing altitude, because the density decreases.
+            - text: It remains constant at lower altitudes but decreases at higher altitudes due to compressibility effects.
+- id: QLAWY
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818363
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.02.05
+  templates:
+    - type: simple
+      question: In aircraft with supercritical wings, what are the advantages of cruising at speeds slightly above MCRIT?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Specific range increases.
+          wrongAnswers:
+            - text: The speed versus drag ratio decreases.
+            - text: Optimum altitude decreases.
+            - text: Specific range decreases.
+- id: QSCAP
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812781
+    - AVEXAM-19599
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.02.05
+  templates:
+    - type: simple
+      question: An airplane cruises with a Mach number slightly higher than MCRIT, what are the benefits?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A higher speed for a small increase in CD.
+          wrongAnswers:
+            - text: The lowest safety speed in relation to shock stall.
+            - text: No shockwaves are present upon passing MCRIT, they don't develop until Mach 2.
+            - text: There are no benefits and it is highly dangerous to exceed MCRIT.
+- id: QAXMT
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815844
+    - AVEXAM-44808
+    - BGS-811349
+    - AVEXAM-73891
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.03.01
+  templates:
+    - type: simple
+      question: What are the components of Wave Drag?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Energy drag and boundary layer separation
+          wrongAnswers:
+            - text: Induced and Parasite drag
+            - text: MCRIT drag
+            - text: Shock drag
+- id: QGUCB
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819814
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.03.01
+  templates:
+    - type: simple
+      question: Some aircraft have design options often referred to as the "waistline" or "coke bottle shape", mainly characterised by the reduction of the fuselage cross-section. What is the purpose of these designs?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Reduce wave drag through application of the area rule
+          wrongAnswers:
+            - text: Reduce friction drag by reducing surface areas
+            - text: Improve aerodynamic stability
+            - text: Improve airflow to the engine air inlet
+- id: QGYZC
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds:
+    - QHGNR
+    - QGZHF
+    - QINNP
+  externalQuestionIds:
+    - ATPLQ-811329
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.03.02
+    - 081.02.03.03.05
+  templates:
+    - type: one-two
+      question: Which of these statements about drag divergence Mach number are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - Below the drag divergence Mach number and for a given angle of attack the drag coefficient CD decreases as the Mach number decreases.
+          wrong:
+            - Below the drag divergence Mach number and for a given angle of attack the drag coefficient CD increases as the Mach number decreases.
+        - right:
+            - The drag divergence Mach number is lower than MCRIT.
+          wrong:
+            - The drag divergence Mach number is higher than MCRIT.
+- id: QGZHF
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds:
+    - QHGNR
+    - QGYZC
+  externalQuestionIds:
+    - ATPLQ-817286
+    - AVEXAM-6164
+    - BGS-811956
+    - AVEXAM-44109
+    - AVEXAM-77502
+    - AVEXAM-42163
+    - ATPLQ-819356
+    - ATPLQ-814872
+    - ATPLQ-812114
+    - ATPLQ-813115
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.03.02
+    - 081.02.03.03.05
+  templates:
+    - type: one-two
+      question: Which of these statements about drag divergence Mach number are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - Below the drag divergence Mach number and for a given angle of attack the drag coefficient CD is practically constant as the Mach number changes.
+          wrong:
+            - The drag divergence Mach number is not equal to M**CRIT**.
+        - right:
+            - The drag divergence Mach number is equal to M**CRIT**.
+          wrong:
+            - Below the drag divergence Mach number and for a given angle of attack the drag coefficient CD is not constant as the Mach number changes.
+    - type: simple
+      question: |-
+        Which of these statements about drag divergence Mach number are correct or incorrect?
+
+        1. MCRIT is equal to the drag divergence Mach number.
+
+        2. Assuming a given angle of attack and for M D decreases above the drag divergence Mach number.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 is incorrect, 2 is incorrect.
+          wrongAnswers:
+            - text: 1 is incorrect, 2 is correct.
+            - text: 1 is correct, 2 is correct.
+            - text: 1 is correct, 2 is incorrect.
+- id: QNWTP
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815843
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.03.02
+    - 081.02.03.03.05
+  templates:
+    - type: one-two
+      question: Which of these statements about drag divergence Mach number are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - Assuming a given angle of attack and for M < 1 the drag coefficient CD increases above the drag divergence Mach number.
+          wrong:
+            - Assuming a given angle of attack and for M < 1 the drag coefficient CD decreases above the drag divergence Mach number.
+        - right:
+            - MCRIT is higher than the drag divergence Mach number.
+          wrong:
+            - MCRIT is lower than the drag divergence Mach number.
+- id: QAULW
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815167
+    - AVEXAM-92222
+    - BGS-811371
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.03.03
+  templates:
+    - type: simple
+      question: In the transonic speed region the L/D ratio is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: reduced.
+          wrongAnswers:
+            - text: always at its maximum.
+            - text: constant.
+            - text: increased.
+- id: QBVCK
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815906
+    - AVEXAM-94640
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.03.04
+  templates:
+    - type: simple
+      question: In high speed flight, as an aeroplane exceeds the drag divergence Mach number, it becomes (1) \_\_\_\_\_ stable with respect to speed, because of the (2) \_\_\_\_\_ movement of the centre of pressure.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) less; (2) rearward
+          wrongAnswers:
+            - text: (1) less; (2) forward
+            - text: (1) more; (2) forward
+            - text: (1) more; (2) rearward
+- id: QVFZR
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811497
+    - AVEXAM-6047
+    - BGS-812685
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.03.05
+  templates:
+    - type: simple
+      question: Which statement is correct regarding the Drag Divergence Mach number (MDRAG DIVERGENCE)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Drag Divergence Mach number is close to, and always greater than MCRIT.
+          wrongAnswers:
+            - text: Drag Divergence Mach number is slightly less than MCRIT, except for supercritical wings where it is greater than MCRIT.
+            - text: Drag Divergence Mach number is greater than MCRIT, except for supercritical wings where it is slightly less than MCRIT.
+            - text: Drag Divergence Mach number is close to, and always less than MCRIT.
+- id: QEVFB
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817600
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.03.05
+  templates:
+    - type: one-two
+      question: Which of these statements about drag divergence Mach number are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - MCRIT is lower than the drag divergence Mach number.
+          wrong:
+            - MCRIT is higher than the drag divergence Mach number.
+        - right:
+            - Assuming a given angle of attack and for M < 1 the drag coefficient CD increases above the drag divergence Mach number.
+          wrong:
+            - Assuming a given angle of attack and for M < 1 the drag coefficient CD decreases above the drag divergence Mach number.
+- id: QHGNR
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds:
+    - QGZHF
+    - QGYZC
+    - QINNP
+  externalQuestionIds:
+    - ATPLQ-819966
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.03.05
+  templates:
+    - type: one-two
+      question: Which of these statements about drag divergence Mach number are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - The drag divergence Mach number is higher than MCRIT.
+          wrong:
+            - The drag divergence Mach number is lower than MCRIT.
+        - right:
+            - Below the drag divergence Mach number and for a given angle of attack the drag coefficient CD decreases as the Mach number increases.
+          wrong:
+            - Below the drag divergence Mach number and for a given angle of attack the drag coefficient CD does not change as the Mach number increases.
+- id: QINNP
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds:
+    - QHGNR
+    - QGYZC
+  externalQuestionIds:
+    - ATPLQ-818571
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.03.05
+  templates:
+    - type: one-two
+      question: Which of these statements about drag divergence Mach number are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - The drag divergence Mach number is higher than MCRIT.
+          wrong:
+            - The drag divergence Mach number is lower than MCRIT.
+        - right:
+            - Below the drag divergence Mach number and for a given angle of attack the drag coefficient CD decreases as the Mach number increases.
+          wrong:
+            - Below the drag divergence Mach number and for a given angle of attack the drag coefficient CD increases as the Mach number increases.
+- id: QNNES
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816415
+    - AVEXAM-25675
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.04.01
+  templates:
+    - type: simple
+      question: "As the Mach number increases from subsonic to supersonic, the centre of pressure moves:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: to the mid chord position.
+          wrongAnswers:
+            - text: to a position near the trailing edge.
+            - text: to a position near the leading edge.
+            - text: forward.
+- id: QDVHH
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815374
+    - AVEXAM-59246
+    - BGS-811695
+    - AVEXAM-46435
+    - BGS-810606
+    - ATPLQ-811438
+    - BGS-810599
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.04.02
+  templates:
+    - type: simple
+      question: "Tuck under can happen:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: only above the critical Mach number.
+          wrongAnswers:
+            - text: above or below the critical Mach number depending on the angle of attack.
+            - text: only below the critical Mach number.
+            - text: only at the critical Mach number.
+- id: QICAI
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817261
+    - AVEXAM-63996
+    - AVEXAM-42613
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.04.02
+  templates:
+    - type: simple
+      question: Behind a normal shock wave, the downwash is greatly reduced. As a consequence, this causes...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: tuck under.
+          wrongAnswers:
+            - text: an increase in CL.
+            - text: a reduction in CD.
+            - text: an increase in critical AoA.
+    - type: simple
+      question: You are experiencing decreasing downwash after a shockwave, what will happen?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Contribute to tuck under.
+          wrongAnswers:
+            - text: Induced drag will decrease.
+            - text: Contribute to wave drag.
+            - text: Lift coefficient will increase.
+- id: QMRNH
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815879
+    - AVEXAM-26509
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.04.02
+  templates:
+    - type: one-two
+      question: Which of these statements about "tuck under" are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - '"Tuck under" is caused by an aft movement of the centre of pressure of the wing.'
+          wrong:
+            - '"Tuck under" is caused by a forward movement of the centre of pressure of the wing.'
+        - right:
+            - '"Tuck under" is caused by a reduction in the downwash angle at the location of the horizontal stabiliser.'
+          wrong:
+            - '"Tuck under" is caused by an increase in the downwash angle at the location of the horizontal stabiliser.'
+- id: QIEQP
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817273
+    - BGS-810589
+    - AVEXAM-13561
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.04.03
+  templates:
+    - type: simple
+      question: What is the effect of exceeding MCRIT on the stick force stability of an aeroplane with swept-back wings without any form of stability augmentation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A decrease, due to loss of lift in the wing root area.
+          wrongAnswers:
+            - text: No effect, because stick force stability is independent of Mach number.
+            - text: An increase, due to shock wave formation in the wing root area.
+            - text: No effect, because MCRIT is not relevant when considering stick force stability.
+- id: QMBDQ
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819928
+    - AVEXAM-66110
+    - BGS-810609
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.04.03
+  templates:
+    - type: simple
+      question: "The Mach trim system will prevent:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: tuck under.
+          wrongAnswers:
+            - text: buffeting.
+            - text: Dutch roll.
+            - text: shock stall.
+- id: QILNN
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds:
+    - QWNAV
+  externalQuestionIds:
+    - ATPLQ-811645
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.04.04
+  templates:
+    - type: simple
+      question: "Which one of the following statements is true with regard to the operation of a Mach trim system:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It only operates above a pre-determined Mach number.
+          wrongAnswers:
+            - text: It operates to counteract the larger than normal forward movements of the wing centre of pressure at high subsonic airspeeds.
+            - text: It operates over the full aeroplane speed range.
+            - text: It only operates when the autopilot is engaged.
+- id: QWNAV
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds:
+    - QILNN
+  externalQuestionIds:
+    - ATPLQ-818171
+    - BGS-812024
+    - AVEXAM-19617
+    - BGS-810592
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.04.04
+  templates:
+    - type: simple
+      question: "The Mach trim system will:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: adjust the stabiliser, depending on the Mach number.
+          wrongAnswers:
+            - text: keep the Mach number automatically constant.
+            - text: adjust the elevator trim tab, depending on the Mach number.
+            - text: pump the fuel from tank to tank, depending on the Mach number.
+- id: QFPXS
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818058
+    - BGS-810607
+    - AVEXAM-46705
+    - ATPLQ-815382
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.03.04.05
+  templates:
+    - type: simple
+      question: "In the event of failure of the Mach trimmer:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the Mach number must be limited.
+          wrongAnswers:
+            - text: the centre of gravity must be moved aft.
+            - text: the aeroplane mass must be limited.
+            - text: the speed must be kept constant.
+    - type: simple
+      question: In the event of a Mach trimmer failure, what is the appropriate course of action?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The Mach number must be limited.
+          wrongAnswers:
+            - text: The Mach number be decreased.
+            - text: The Mach number be increased.
+            - text: You should switch to VMO.
+- id: QDEYF
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811787
+    - BGS-810620
+    - AVEXAM-47540
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.05.01.01
+    - 081.02.05.02.01
+  templates:
+    - type: simple
+      question: "Mcrit is increased by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: sweepback, thin aerofoils and area ruling.
+          wrongAnswers:
+            - text: sweepback, dihedral and thin aerofoils.
+            - text: sweepback, area ruling and high aspect ratio.
+            - text: dihedral, thin aerofoils and supercritical aerofoil sections.
+- id: QJHUF
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814092
+    - AVEXAM-28743
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.05.01.01
+  templates:
+    - type: simple
+      question: What is the advantage of a swept back wing when compared to a rectangular wing of the same wing area and wing loading?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Higher critical Mach number.
+          wrongAnswers:
+            - text: It has greater strength.
+            - text: It has a lower stalling speed.
+            - text: The longitudinal stability is increased for a swept wing.
+- id: QHCFK
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816195
+    - AVEXAM-96589
+    - BGS-811286
+    - BGS-811277
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.05.01.02
+  templates:
+    - type: simple
+      question: Which of the following wing designs would have the least effective high lift devices (airspeed and all other factors being constant)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Wing with a sweepback angle of 25 degrees.
+          wrongAnswers:
+            - text: Sweep angle has no influence on the effectiveness of high lift devices.
+            - text: Wing with a sweepback angle of 15 degrees.
+            - text: Wing with no sweep angle.
+- id: QZBEI
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818023
+    - AVEXAM-71578
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.05.01.02
+  templates:
+    - type: simple
+      question: A swept-back wing, in comparison to a straight wing, has an increased tendency to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: tip stall.
+          wrongAnswers:
+            - text: root stall.
+            - text: mid-wing stall.
+            - text: high-speed stall.
+- id: QKAVJ
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812388
+    - AVEXAM-42149
+    - AVEXAM-39568
+    - BGS-810636
+    - BGS-811711
+    - BGS-811716
+    - BGS-811712
+    - BGS-811714
+    - BGS-812370
+    - BGS-811713
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.05.02.01
+  templates:
+    - type: simple
+      question: "The critical Mach number of a conventional aerofoil section increases if:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: its thickness to chord ratio is reduced.
+          wrongAnswers:
+            - text: its leading edge radius is increased.
+            - text: its camber is increased.
+            - text: it is flown at higher angles of attack.
+- id: QXHJQ
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816737
+    - AVEXAM-67888
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.05.02.01
+  templates:
+    - type: simple
+      question: An aerofoil with reduced camber compared to one with increased camber at high subsonic speed, at the same level and configuration will...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: have a higher MCRIT.
+          wrongAnswers:
+            - text: be more sensitive to gust turbulence.
+            - text: produce more lift.
+            - text: have a lower MCRIT.
+- id: QCZUV
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818698
+    - AVEXAM-56586
+    - BGS-812449
+    - BGS-812599
+    - BGS-812174
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.05.02.02
+  templates:
+    - type: simple
+      question: Modern jet aeroplanes usually fly at speeds faster than MCRIT, since the increase in speed is more significant than the increase in drag. How is this achieved?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: By using a supercritical aerofoil to reduce the severity of shock waves and the amount of wave drag at a given Mach number, when compared to a conventional aerofoil.
+          wrongAnswers:
+            - text: By using an advanced wing technology with a greater curvature underneath to balance the acceleration over the top and therefore reduce the severity of the shock waves.
+            - text: The aeroplanes are flown at lower altitudes where the TAS is higher for a given Mach number and therefore experience a delay in the onset of shock waves and wave drag.
+            - text: The aeroplanes are capable of flying at a higher altitude where the air is less dense and therefore the effects of the shock waves are less severe and create less wave drag.
+- id: QNGSA
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819279
+    - AVEXAM-67307
+    - BGS-811709
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.05.02.02
+  templates:
+    - type: simple
+      question: One of the advantages of a supercritical aerofoil when compared with a conventional aerofoil is that..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: it increases MCRIT.
+          wrongAnswers:
+            - text: complex high lift devices can be omitted.
+            - text: it produces less trim drag.
+            - text: it gives less negative pitching moments.
+- id: QOXOV
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813544
+    - AVEXAM-31605
+    - BGS-810637
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.05.02.02
+  templates:
+    - type: simple
+      question: "A supercritical wing:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: will develop no noticeable shock waves when flying just above MCRIT.
+          wrongAnswers:
+            - text: always cruises at MCRIT.
+            - text: will develop no transonic flow just above MCRIT.
+            - text: will be free of Mach buffet in the transonic range.
+- id: QQJPX
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817522
+    - AVEXAM-29738
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.05.02.02
+  templates:
+    - type: simple
+      question: Which design characteristic is typical for a supercritical aerofoil when compared to a conventional positive-cambered aerofoil?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A flatter upper surface.
+          wrongAnswers:
+            - text: A smaller leading edge radius.
+            - text: A thinner trailing edge.
+            - text: A smaller thickness.
+- id: QVALN
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818494
+    - BGS-812727
+    - AVEXAM-85779
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.05.02.02
+  templates:
+    - type: simple
+      question: Compared to a conventional aerofoil at a given flight level, the MCRIT of a supercritical aerofoil will be...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: higher.
+          wrongAnswers:
+            - text: the same.
+            - text: the same at lower speeds and higher at transonic speeds.
+            - text: lower.
+- id: QHVJD
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813178
+    - AVEXAM-95105
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.05.02.04
+  templates:
+    - type: simple
+      question: Large jet aeroplanes are often made with supercritical aerofoils, rather than conventional aerofoils. Which of the following is one of the benefits of this, with regards to flying at speeds greater than M**CRIT**?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The aeroplane may fly at a greater Mach number and, initially, only experience a slight increase in drag.
+          wrongAnswers:
+            - text: Flying faster than MCRIT reduces the amount of wave drag as the shock waves are weaker than when flying below MCRIT.
+            - text: The aeroplane will have stronger, opposing shock waves that will cancel each other out and reduce drag.
+            - text: Flying faster than MCRIT will NOT cause any shock waves around the profile until the aeroplane reaches Mach 1.0.
+- id: QJPXW
+  subjectId: "081"
+  chapterId: "081.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813008
+    - AVEXAM-82758
+    - BGS-811690
+  annexes: []
+  learningObjectiveIds:
+    - 081.02.05.03.01
+  templates:
+    - type: simple
+      question: What will help against shock-induced separation of the boundary layer?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Using vortex generators.
+          wrongAnswers:
+            - text: Deploying the high lift devices.
+            - text: Increasing the Mach number.
+            - text: Increasing the Angle of Attack.

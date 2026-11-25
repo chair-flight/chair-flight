@@ -1,0 +1,758 @@
+- id: QKAKR
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "If electrical power fails, the engine anti-ice valve:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Opens
+          wrongAnswers:
+            - text: Closes
+            - text: Remains it its last position
+            - text: Moves automatically in the mid position
+- id: QJXAR
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The probes are heated:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Automatically when at least one engine is running
+            - text: Manually, when the flight crew switches ON the PROBE/WINDOW HEAT pb
+            - text: Automatically when the aircraft is in flight
+- id: QONGW
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "WING ANTI-ICE pb sw ON: On the ground the wing anti-icing control valves open for ___ only (test sequence)."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 30 s
+          wrongAnswers:
+            - text: 15 s
+            - text: 20 s
+            - text: 25 s
+- id: QQUQV
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "WING ANTI-ICE: In flight, hot air from the pneumatic system heats:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The three outboard slats (3-4-5) of each wing
+          wrongAnswers:
+            - text: All the slats of each wing
+            - text: The three inboard slats (1-2-3) of each wing
+            - text: All the slats of each wing and leading edges of flaps if extended
+- id: QSCIC
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which components are electrically heated?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Flight compartment window
+            - text: Sensors, pitot probes and static ports
+            - text: Waste water drain mast
+- id: QJMDB
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "ENGINE ANTI-ICE: If air is unavailable (engine not running):"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The engine anti-ice valve closes automatically
+          wrongAnswers:
+            - text: The engine anti-ice valve opens automatically
+            - text: There is no effect on the engine anti-ice valve position
+            - text: The engine anti-ice must be closed manually
+- id: QIXVO
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Electrical heating protects:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pitot probes, Static ports, Angle-Of-Attack (AOAs) probes and Total Air Temperature (TAT) probes
+          wrongAnswers:
+            - text: Pitot probes and Static ports only
+            - text: Pitot probes, Static ports and TAT probes only
+            - text: Pitot probes and Angle-Of-Attack (AOAs) probes only
+- id: QQCIY
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Where are the Wing Anti-Ice indications on ECAM?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ANTI-ICE appears in white on the ECAM BLEED page and WING A. ICE appears on the ECAM MEMO DISPLAY
+          wrongAnswers:
+            - text: There is no indication for Wing Anti-Ice on the ECAM
+            - text: An amber triangle appears on the ECAM BLEED page only
+            - text: WING A. ICE ON appears on ECAM STATUS page
+- id: QYGAE
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: With reference to the PROBE/WINDOW HEAT pushbutton, which of the following statements is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In AUTO mode, the window heating comes ON automatically after the first engine start
+          wrongAnswers:
+            - text: When in AUTO mode, the windows are heated only when necessary
+            - text: The system should only be selected ON after first engine start
+            - text: The system should only be selected ON in icing conditions and one engine running
+- id: QWUTF
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "If a leak is detected on one side of the WING ANTI-ICE system during normal operation:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The affected side's wing anti-ice valve closes automatically
+          wrongAnswers:
+            - text: The crossbleed will close automatically and the APU must be used to supply the left and right bleed ducts to ensure continuous operation of the system
+            - text: The FADEC will automatically close the affected bleed valve and increase N2 to satisfy the increased bleed air demand on the other engine
+            - text: Both wing anti-ice valves will close automatically
+- id: QKOUQ
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which of the following statements is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The window and windshield heating comes on automatically when at least one engine is running or when the aircraft is in flight
+          wrongAnswers:
+            - text: The cockpit windshields are anti-iced by hot air and the cockpit side windows are not anti-iced
+            - text: The window heating system has three heating levels
+            - text: The windshield heating operates at the same power on ground and in flight
+- id: QFTKQ
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: With reference to the PROBE/WINDOW HEAT pb, which of the following statements is true?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Probes and windows are heated permanently
+          wrongAnswers:
+            - text: The system should only be selected ON in icing conditions.
+            - text: When in AUTO mode, the windows are heated only when necessary.
+            - text: The system should only be selected ON after first engine start.
+- id: QCWWP
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: In the event of an electrical power supply loss ...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The engine anti-ice valves will open automatically, anti-icing is ensured.
+          wrongAnswers:
+            - text: The engine anti-ice valves will close automatically, anti-icing is lost.
+            - text: The engine anti-ice valves will be controlled by the wing anti-ice controls.
+            - text: ---
+- id: QYKSJ
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The engine anti-ice system...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When selected ON causes N1 limit to be reduced
+          wrongAnswers:
+            - text: Operates only in flight and is fully automatic in case of icing conditions.
+            - text: Can not be operated on the ground to prevent damage to the slats
+            - text: ---
+- id: QKDPG
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When engine anti ice is used, does this have an effect on the descent?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes
+          wrongAnswers:
+            - text: No
+            - text: ---
+            - text: ---
+- id: QMDRR
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Can you use APU bleed for wing anti ice?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No, APU bleed will not deliver sufficient flow and pressure for the WING ANTI-ICE system
+          wrongAnswers:
+            - text: Yes, but it should only be used in severe icing conditions
+            - text: Yes, always
+            - text: Yes, but only according supplementary procedures for flight with APU bleed and WING ANTI-ICE
+- id: QWBTS
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Thin hoarfrost is acceptable on:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The upper surface of the fuselage and up to a maximum layer of 3mm on the underside of the wing tank area
+          wrongAnswers:
+            - text: The upper surface of the fuselage
+            - text: The upper surface of the fuselage, the underside of the wing tank area and the upper side of the wing tank area
+            - text: The upper surface of the fuselage, the underside of the wing tank area, the upper side of the wing tank area and stabilizer
+- id: QRZJT
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The PROBE/WINDOW HEAT pb should:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Not be used if there is a large amount of ice and snow covering the windshields
+            - text: Be switched ON during cockpit preparation in cold weather operation
+            - text: Only be used if ensured that probe covers are removed
+- id: QLCFJ
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: On the ground, the TAT probes are ____ and pitot heating operates at a ____ level.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Not heated / low
+          wrongAnswers:
+            - text: Heated / low
+            - text: Not heated / high
+            - text: Heated / high
+- id: QGMKU
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "There are three independent Probe Heat Computers (PHCs) automatically control and monitor:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All answers are correct
+          wrongAnswers:
+            - text: Captain probes
+            - text: F/O probes
+            - text: STBY Probes
+- id: QKBXT
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: On ground, the TAT probes are not heated and pitot heating operates at a low level (the changeover to normal power in flight is automatic).
+          answer: true
+- id: QQPYJ
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The timer supplies a measured quantity of rain repellent to the wind shield. To repeat the cycle the pushbutton must be pressed again.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes
+          wrongAnswers:
+            - text: No
+            - text: ---
+            - text: ---
+- id: QSQKE
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: 3 When not used, the wipers are in the lower position.
+          answer: true
+- id: QLFKE
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The WING ANTI-ICE shut off valves close automatically in case of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Loss electrical power supply or leak detection on affected side during normal operation
+          wrongAnswers:
+            - text: The affected side's valve in case of an engine failure
+            - text: Cross bleed valve fault when wing anti-ice is used
+            - text: All answers are correct
+- id: QZECK
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The engine nacelle is anti-iced by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Independent air bleed from high pressure compressor
+          wrongAnswers:
+            - text: Independent air bleed from low pressure compressorr
+            - text: Electrically independent from its associated engine generator
+            - text: The nacelle does not have an anti-ice system
+- id: QRYKY
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The window heating comes on automatically when at least one engine is running or when A/C is in flight.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes
+          wrongAnswers:
+            - text: No
+            - text: ---
+            - text: ---
+- id: QDRRN
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Pitot heating operates:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: At low on ground and normal power in flight.
+          wrongAnswers:
+            - text: In flight only.
+            - text: On ground above 80 kts.
+            - text: ---
+- id: QOJEP
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: "Window heating can be selected on manually at any time by the probe window heat pushbutton:"
+          answer: true
+- id: QREBE
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "When an engine anti-ice valve is open:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The N1 limit is automatically reduced and, if necessary, the idle N1 is automatically increased for both engines in order to provide the required pressure.
+          wrongAnswers:
+            - text: The N2 of the associated engine decreases.
+            - text: There is no change in N1 limit or N2
+            - text: ---
+- id: QRIBO
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "On ground, if the wing anti-ice valves remain open for more than 35 seconds after wing anti-ice is selected ON the crew is warned by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A single chime and A MASTER CAUT.
+          wrongAnswers:
+            - text: A single chime and a MASTER WARN.
+            - text: ---
+            - text: ---
+- id: QTBVA
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The anti-icing system provides hot air to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Engine air intakes.
+          wrongAnswers:
+            - text: Three outboard leading-edge slats of each wing.
+            - text: Only to the inboard leading-edge slats
+            - text: Waste-water drain mast.
+- id: QNAOI
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The maximum speed to use the windshield wipers is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 230 kts
+          wrongAnswers:
+            - text: 200 kts
+            - text: 250 kts
+            - text: ---
+- id: QABDJ
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The windshield heating operates at:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Normal power in flight.
+          wrongAnswers:
+            - text: High level when above 20,000ft.
+            - text: High level in icing conditions
+            - text: ---
+- id: QHWYI
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The WING ANTI ICE PB switch controls the wing anti ice system on the left and right sides simultaneously. The ON light:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Lights up blue.
+          wrongAnswers:
+            - text: Lights up amber.
+            - text: Lights up white.
+            - text: ---
+- id: QNCTK
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "An independent air bleed from the high pressure compressor protects each engine nacelle from ice. Air is supplied through a two-position (open and closed) valve that the flight crew controls with:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Two pushbuttons
+          wrongAnswers:
+            - text: One pushbutton.
+            - text: The valves are controlled automatically
+            - text: ---
+- id: QLYSU
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Failure of the L or R windshield heating triggers:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Single Chime and MASTER CAUT
+          wrongAnswers:
+            - text: No visual or aural warning
+            - text: Double Chime and MASTER CAUT.
+            - text: ---
+- id: QBQBI
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "The ON light illuminates on the wing anti-ice pushbutton:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When the push button switch is set to on.
+          wrongAnswers:
+            - text: When the anti-ice valves open and pneumatic PX is available
+            - text: When the fault light goes out.
+            - text: ---
+- id: QOAIA
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "In case of loss of electrical power supply, the engine anti-ice valve:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Opens when the engine is running.
+          wrongAnswers:
+            - text: Opens when the engine is stopped.
+            - text: Closes when the engine is running.
+            - text: ---
+- id: QORKF
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Probe heating starts automatically when the switch is in the AUTO position:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In low heat after engine start (except TAT probes) and then high heat after lift off.
+          wrongAnswers:
+            - text: Not heated on the ground, heats automatically at lift off.
+            - text: Operates in high heat after engine start.
+            - text: Operates in low heat until manually selected to high.
+- id: QAVQV
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The wing anti-ice shut off valves are controlled by
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: One wing anti-ice push button.
+          wrongAnswers:
+            - text: Two wing anti-ice push buttons.
+            - text: Automatically
+            - text: ---
+- id: QEMKZ
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Wing anti-ice switch is pushed 'ON', indications on the ECAM BLEED PAGE are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ANTI-ICE appears in white on the ECAM BLEED PAGE when the wing anti-ice pushbutton is depressed.
+          wrongAnswers:
+            - text: There is no indication on ECAM BLEED PAGE for wing anti-ice system.
+            - text: A magenta triangle appears on the ECAM BLEED PAGE when the wing anti-ice pushbutton is depressed.
+            - text: ---
+- id: QNIQO
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: "Each front windshield has an electrical wiper which can operate at:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Low speed and high speed
+          wrongAnswers:
+            - text: Only one speed
+            - text: Low, medium, high speed
+            - text: Interval, high speed
+- id: QFTVV
+  subjectId: a320
+  chapterId: "10"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: ""
+      statements:
+        - text: "Ice and Rain Protection: The electric wipers are controlled by two individual rotary selectors:"
+          answer: true

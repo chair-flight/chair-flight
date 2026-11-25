@@ -1,0 +1,286 @@
+- id: QMWYZ
+  subjectId: "021"
+  chapterId: "021.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214524
+    - AVEXAM-11895
+  annexes: []
+  learningObjectiveIds:
+    - 021.13.01.01.01
+  templates:
+    - type: simple
+      question: A pilot using a diluter-demand cockpit oxygen mask receives undiluted oxygen on demand. Which of the following selections is this?
+      explanation: A diluter-demand mask has a normal setting that mixes cabin air with oxygen on demand, and a 100% setting that gives undiluted oxygen. 100% is the setting for smoke or fumes or high altitude.
+      presets:
+        - correctAnswers:
+            - text: 100%
+          wrongAnswers:
+            - text: Normal
+            - text: Diluter-demand
+            - text: Emergency
+- id: QTDTB
+  subjectId: "021"
+  chapterId: "021.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211004
+    - AVEXAM-28932
+    - BGS-211922
+  annexes: []
+  learningObjectiveIds:
+    - 021.13.01.01.02
+  templates:
+    - type: simple
+      question: What are the basic functionalities of a smoke hood?
+      explanation: A smoke hood covers the head and provides breathable gas, protecting the eyes, nose and mouth against toxic fumes and smoke. It does not protect the body against heat or flames.
+      presets:
+        - correctAnswers:
+            - text: To provide breathable gas and protect the user's eyes, nose, and mouth from toxic fumes and smoke.
+          wrongAnswers:
+            - text: To protect the entire body of the user against toxic fumes, smoke, and heat.
+            - text: To protect the user from flames and smoke irritating the eyes by providing goggles that are integrated in the smoke hood.
+            - text: For sealing a smoke source by tightly covering it such that the smoke stops through oxygen starvation and cooling the smoke source.
+- id: QOPTF
+  subjectId: "021"
+  chapterId: "021.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217989
+    - BGS-211204
+    - AVEXAM-81965
+    - BGS-211210
+    - ATPLQ-212928
+    - ATPLQ-219608
+    - ATPLQ-213318
+    - AVEXAM-8731
+  annexes: []
+  learningObjectiveIds:
+    - 021.13.01.01.02
+    - 021.13.01.01.03
+  templates:
+    - type: simple
+      question: Which of these statements concerning oxygen on board of passenger transport aeroplanes is correct?
+      explanation: Portable oxygen bottles in the cabin are mainly for first aid, for passengers who need oxygen. Chemical generators give heat when activated, and run for about 12 to 22 minutes, not an hour.
+      presets:
+        - correctAnswers:
+            - text: Portable oxygen bottles in the cabin are primarily intended for first aid purposes.
+          wrongAnswers:
+            - text: After being activated a chemical oxygen generator does not produce any heat.
+            - text: A chemical oxygen generator is able to provide oxygen for at least one hour.
+            - text: Since lavatories are not fitted with an oxygen system, they should be evacuated quickly in case of decompression.
+        - correctAnswers:
+            - text: "Lavatories also have an oxygen drop out system to protect passengers in case of decompression.  "
+          wrongAnswers:
+            - text: "After being activated a chemical oxygen generator does not produce any heat.  "
+            - text: "Portable oxygen bottles are primarily intended for use in case the chemical oxygen generators fail.  "
+            - text: "A chemical oxygen generator is able to provide oxygen for at least one hour.  "
+        - correctAnswers:
+            - text: Lavatories are equipped with oxygen masks in case of a decompression.
+          wrongAnswers:
+            - text: A chemical oxygen generator is able to provide oxygen for at least one hour.
+            - text: Since lavatories are not fitted with an oxygen system, they should be evacuated quickly in case of decompression.
+            - text: After being activated a chemical oxygen generator does not produce any heat.
+        - correctAnswers:
+            - text: A chemical oxygen generator delivers oxygen for about 15 minutes.
+          wrongAnswers:
+            - text: After being activated a chemical oxygen generator does not produce any heat.
+            - text: Portable oxygen bottles are primarily intended for use in case the chemical oxygen generators fail.
+            - text: Since lavatories are not fitted with an oxygen system, they should be evacuated quickly in case of decompression.
+    - type: simple
+      question: Which of the following is true regarding oxygen systems on a transport aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Portable oxygen bottles are generally for first aid use.
+          wrongAnswers:
+            - text: Every crew member has its own portable oxygen bottle.
+            - text: Portable oxygen systems are only required for medical transport flights.
+            - text: Portable oxygen bottles are only used for the cockpit and cabin crew members.
+- id: QSAYI
+  subjectId: "021"
+  chapterId: "021.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215723
+    - BGS-211913
+    - AVEXAM-2394
+  annexes: []
+  learningObjectiveIds:
+    - 021.13.01.01.02
+  templates:
+    - type: simple
+      question: What is the purpose of first-aid portable oxygen bottles?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: They are used for passengers who, for physiological reasons, might require oxygen following a cabin depressurisation.
+          wrongAnswers:
+            - text: They are used by the crew in order to prevent fatigue.
+            - text: They must be used if an onboard fire needs to be extinguished.
+            - text: They are only to be used in case of a sudden loss in aeroplane pressurisation, for pressurised aeroplanes operated at pressure altitudes of 10000 ft and above.
+- id: QLBVY
+  subjectId: "021"
+  chapterId: "021.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213447
+  annexes: []
+  learningObjectiveIds:
+    - 021.13.01.01.03
+  templates:
+    - type: simple
+      question: Which statement concerning oxygen on board of passenger transport aeroplanes is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Chemical oxygen generators are provided with a heat shield.
+          wrongAnswers:
+            - text: Since lavatories are not fitted with an oxygen system, they should be evacuated quickly in case of decompression.
+            - text: A chemical oxygen generator is able to provide oxygen for at least one hour.
+            - text: Portable oxygen bottles are primarily intended for use in case the chemical oxygen generators fail.
+- id: QIAHF
+  subjectId: "021"
+  chapterId: "021.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216735
+    - AVEXAM-63195
+    - AVEXAM-31437
+    - BGS-211381
+    - BGS-211379
+    - BGS-211209
+    - BGS-211380
+    - AVEXAM-22612
+    - ATPLQ-212143
+    - ATPLQ-215656
+    - AVEXAM-43285
+    - ATPLQ-217413
+  annexes: []
+  learningObjectiveIds:
+    - 021.13.01.01.04
+    - 021.13.01.01.05
+  templates:
+    - type: simple
+      question: Which of these statements about oxygen in transport aeroplanes is correct?
+      explanation: A passenger oxygen mask has a flow indicator showing that oxygen flows when the mask is pulled down. Chemical generators serve the passengers and not the cockpit, which uses gaseous oxygen, and masks can be released manually.
+      presets:
+        - correctAnswers:
+            - text: A passenger oxygen mask contains a device to check if a flow of oxygen is present.
+          wrongAnswers:
+            - text: Chemical oxygen generators are used in the cockpit to supply the flight crew because of the low weight of this system.
+            - text: If the automatic passenger oxygen mask presentation fails, there is no manual backup.
+            - text: A chemical oxygen generator can be switched off.
+        - correctAnswers:
+            - text: "A chemical oxygen generator cannot be switched off.  "
+          wrongAnswers:
+            - text: " It is not possible to visually verify when the oxygen flows to a passenger mask.  "
+            - text: "If the automatic passenger oxygen mask presentation fails, there is no manual backup.  "
+            - text: "Chemical oxygen generators are used in the cockpit to supply the flight crew because of the low weight of this system.  "
+        - correctAnswers:
+            - text: "Chemical oxygen generators are not used in the cockpit to supply the flight crew because they cannot be switched off.  "
+          wrongAnswers:
+            - text: "It is not possible to visually verify when the oxygen flows to a passenger mask.  "
+            - text: "If the automatic passenger oxygen mask presentation fails, there is no manual backup.  "
+            - text: "A chemical oxygen generator can be switched off.  "
+- id: QYTAJ
+  subjectId: "021"
+  chapterId: "021.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218135
+    - BGS-211203
+    - AVEXAM-69905
+    - ATPLQ-215602
+  annexes: []
+  learningObjectiveIds:
+    - 021.13.01.01.04
+  templates:
+    - type: simple
+      question: "Oxygen for the passengers should automatically be presented and ready for use before exceeding a cabin altitude of:"
+      explanation: Passenger oxygen masks must drop automatically before the cabin altitude exceeds 15 000 ft, as a rule at about 14 000 ft.
+      presets:
+        - correctAnswers:
+            - text: 15000 ft
+          wrongAnswers:
+            - text: 10000 ft
+            - text: 25000 ft
+            - text: 8000 ft
+- id: QBUXC
+  subjectId: "021"
+  chapterId: "021.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215478
+    - AVEXAM-5599
+    - BGS-210875
+    - ATPLQ-216379
+    - AVEXAM-42336
+    - BGS-210867
+  annexes: []
+  learningObjectiveIds:
+    - 021.13.01.01.04
+  templates:
+    - type: simple
+      question: "When a cabin oxygen mask is pulled downwards, the passenger breathes:"
+      explanation: A passenger mask in a chemical or gaseous system supplies a mix of oxygen and cabin air. The flow is not under pressure and is not pure oxygen.
+      presets:
+        - correctAnswers:
+            - text: a mixture of oxygen and cabin air.
+          wrongAnswers:
+            - text: cabin air under pressure.
+            - text: pure oxygen under pressure.
+            - text: pure oxygen at the ambient pressure.
+    - type: simple
+      question: "The passenger oxygen mask will supply:"
+      explanation: A passenger mask supplies a mixture of cabin air and oxygen. The reservoir bag fills with oxygen during exhalation and the cabin air is added on inhalation.
+      presets:
+        - correctAnswers:
+            - text: a mixture of cabin air and oxygen.
+          wrongAnswers:
+            - text: a mixture of compressed air and oxygen or 100 % oxygen.
+            - text: a mixture of oxygen and freon gas.
+            - text: 100 % oxygen.
+- id: QPBFG
+  subjectId: "021"
+  chapterId: "021.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212673
+    - BGS-210881
+    - AVEXAM-20847
+  annexes: []
+  learningObjectiveIds:
+    - 021.13.01.01.06
+  templates:
+    - type: simple
+      question: "An oxygen supply system must be kept absolutely free of oil or grease as:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: these substances catch fire spontaneously in the presence of oxygen.
+          wrongAnswers:
+            - text: these substances mixed with oxygen could catch fire in the presence of a spark.
+            - text: the breathing oxygen would be contaminated by these substances.
+            - text: these substances could block the oxygen mask filters.
+- id: QQRQL
+  subjectId: "021"
+  chapterId: "021.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211021
+    - AVEXAM-77333
+  annexes: []
+  learningObjectiveIds:
+    - 021.13.01.01.06
+  templates:
+    - type: simple
+      question: Which of the following is a potential risk of carrying supplemental oxygen canisters onboard?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When mixed with oil or grease, spontaneous combustion could happen.
+          wrongAnswers:
+            - text: Pure oxygen in canisters runs out too fast, and will not last until the aircraft gets to a safe altitude.
+            - text: After maintenance there is always some residual grease or oil left, and mixing it with oxygen could result in toxic gases.
+            - text: At high altitude and low outside pressure, the pressure of the oxygen system might not be enough for normal respiration.

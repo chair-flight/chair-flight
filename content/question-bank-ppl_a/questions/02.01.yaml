@@ -1,0 +1,558 @@
+- id: QEEZN
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QKHDZ
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.02.01"
+  templates:
+    - type: simple
+      question: What is the percentage of oxygen in the atmosphere at 6000 ft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 21 %
+          wrongAnswers:
+            - text: 12 %
+            - text: 78 %
+            - text: 18.9 %
+    - type: simple
+      question: What is the percentage of nitrogen in the atmosphere?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 78 %
+          wrongAnswers:
+            - text: 1 %
+            - text: 21 %
+            - text: 0.1 %
+    - type: simple
+      question: Air consists of oxygen, nitrogen and other gases. What is the approximate percentage of other gases?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 %
+          wrongAnswers:
+            - text: 0.1 %
+            - text: 78 %
+            - text: 21 %
+    - type: simple
+      question: What is the gas composition of "air"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Oxygen 21 % Nitrogen 78 % Noble gases / carbon dioxide 1 %
+          wrongAnswers:
+            - text: Oxygen 21 % Water vapour 78 % Noble gases / carbon dioxide 1 %
+            - text: Oxygen 78 % Water vapour 21 % Nitrogen 1 %
+            - text: Nitrogen 21 % Oxygen 78 % Noble gases / carbon dioxide 1 %
+- id: QKHDZ
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QEEZN
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.02.01"
+  templates:
+    - type: simple
+      question: At which altitude is the atmospheric pressure approximately half the MSL value?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 18000 ft
+          wrongAnswers:
+            - text: 5000 ft
+            - text: 10000 ft
+            - text: 22000 ft
+    - type: simple
+      question: Approximately what pressure corresponds to FL 180 in the ISA?
+      explanation: Atmospheric pressure is approximately half its sea-level value at 18 000 ft in the standard atmosphere.
+      presets:
+        - correctAnswers:
+            - text: 500 hPa
+          wrongAnswers:
+            - text: 250 hPa
+            - text: 700 hPa
+            - text: 850 hPa
+- id: QBUIE
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.02.02"
+  templates:
+    - type: definition
+      question: What is the function of the {term}?
+      explanation: ""
+      options:
+        - id: erythrocytes
+          term: red blood cells (erythrocytes)
+          definition: Oxygen transport
+        - id: leucocytes
+          term: white blood cells (leucocytes)
+          definition: Immune defense
+        - id: thrombocytes
+          term: blood platelets (thrombocytes)
+          definition: Blood coagulation
+      fakeOptions:
+        - id: sugar
+          definition: Blood sugar regulation
+    - type: simple
+      question: Which of the following is responsible for the blood coagulation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Blood platelets (thrombocytes)
+          wrongAnswers:
+            - text: Red blood cells (erythrocytes)
+            - text: Capillaries of the arteries
+            - text: White blood cells (leucocytes)
+            - text: Blood sugar regulation
+- id: QOEEI
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QKMHP
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.02.02"
+  templates:
+    - type: simple
+      question: From which altitude on does the body usually react to the decreasing atmospheric pressure?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 7000 feet
+          wrongAnswers:
+            - text: 2000 feet
+            - text: 10000 feet
+            - text: 12000 feet
+- id: QKMHP
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QOEEI
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.02.02"
+  templates:
+    - type: simple
+      question: Which altitude marks the lower limit where the body is unable to completely compensate the effects of the low atmospheric pressure?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 12000 feet
+          wrongAnswers:
+            - text: 22000 feet
+            - text: 5000 feet
+            - text: 7000 feet
+- id: QCWMR
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QUFNK
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.02.02"
+  templates:
+    - type: simple
+      question: Carbon monoxide poisoning can be caused by...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cracks in the heat exchanger.
+          wrongAnswers:
+            - text: Fuel or hydraulic fluids.
+            - text: Generator failure.
+            - text: Pitot icing.
+        - correctAnswers:
+            - text: Smoking.
+          wrongAnswers:
+            - text: Little sleep.
+            - text: Alcohol.
+            - text: Unhealthy food.
+- id: QUFNK
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QCWMR
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.02.02"
+  templates:
+    - type: simple
+      question: Anaemic hypoxia can be caused by...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Carbon monoxide poisoning.
+          wrongAnswers:
+            - text: Low pressure.
+            - text: High altitudes.
+            - text: Alcohol.
+- id: QOCAU
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QZFIS
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.02.02"
+  templates:
+    - type: simple
+      question: Which of the following is NOT a risk factor for hypoxia?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Diving
+          wrongAnswers:
+            - text: Smoking
+            - text: Menstruation
+            - text: Blood donation
+- id: QZFIS
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QOCAU
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.02.02"
+  templates:
+    - type: simple
+      question: A risk factor for decompression sickness is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Scuba diving prior to flight.
+          wrongAnswers:
+            - text: Smoking.
+            - text: Sports.
+            - text: 100 % oxygen after decompression.
+- id: QFJFW
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QZHJT
+    - QBBTD
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.02.02"
+  templates:
+    - type: simple
+      question: Which of the following symptoms may indicate hypoxia?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Blue discolouration of lips and fingernails
+          wrongAnswers:
+            - text: Joint pain in knees and feet
+            - text: Muscle cramps in the upper body area
+            - text: Blue marks all over the body
+- id: QZHJT
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QFJFW
+    - QBBTD
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.02.02"
+  templates:
+    - type: simple
+      question: Which of the human senses is most influenced by hypoxia?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The visual perception (vision)
+          wrongAnswers:
+            - text: The tactile perception (sense of touch)
+            - text: The auditory perception (hearing)
+            - text: The oltfactory perception (smell)
+- id: QBBTD
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QFJFW
+    - QZHJT
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.02.02"
+  templates:
+    - type: simple
+      question: Which of the following is NOT a symptom of hyperventilation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cyanose
+          wrongAnswers:
+            - text: Tingling
+            - text: Spasm
+            - text: Disturbance of consciousness
+- id: QSHLZ
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QETBI
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.02.02"
+  templates:
+    - type: simple
+      question: What does the term "Red-out" mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: '"Red vision" during negative g-loads'
+          wrongAnswers:
+            - text: Rash during decompression sickness
+            - text: Anaemia caused by an injury
+            - text: Falsified colour perception during sunrise and sunset
+- id: QETBI
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QSHLZ
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.02.02"
+  templates:
+    - type: simple
+      question: A Grey-out is the result of...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Positive g-forces
+          wrongAnswers:
+            - text: Hypoxia
+            - text: Tiredness
+            - text: Hyperventilation
+- id: QVYFS
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QUJZS
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.03.01"
+  templates:
+    - type: simple
+      question: What is the correct term for the system which, among others, controls breathing, digestion, and heart frequency?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Autonomic nervous system
+          wrongAnswers:
+            - text: Critical nervous system
+            - text: Automatical nervous system
+            - text: Compliant nervous system
+- id: QUJZS
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QVYFS
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.03.01"
+  templates:
+    - type: simple
+      question: What is the correct term for an involuntary and stereotypical reaction of an organism to the stimulation of a receptor?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Reflex
+          wrongAnswers:
+            - text: Reduction
+            - text: Virulence
+            - text: Coherence
+- id: QCTNA
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QVZUL
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.03.02"
+  templates:
+    - type: simple
+      question: Which part of the visual system is responsible for colour vision?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cones
+          wrongAnswers:
+            - text: Rods
+            - text: Macula
+            - text: Blind spot
+- id: QVZUL
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QCTNA
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.03.02"
+  templates:
+    - type: simple
+      question: Which characteristic is important when choosing sunglasses used by pilots?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Non-polarised
+          wrongAnswers:
+            - text: No UV filter
+            - text: Curved sidepiece
+            - text: Unbreakable
+- id: QFOCV
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QYUIV
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.03.03"
+  templates:
+    - type: simple
+      question: The connection between middle ear and nose and throat region is called...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Eustachian tube
+          wrongAnswers:
+            - text: Eardrum
+            - text: Cochlea
+            - text: Inner ear
+- id: QYUIV
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QFOCV
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.03.03"
+  templates:
+    - type: simple
+      question: In which situation is it NOT possible to achieve a pressure compensation between the middle ear and the environment?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The Eustachian tube is blocked.
+          wrongAnswers:
+            - text: During a light and slow climb.
+            - text: All windows are completely closed.
+            - text: Breathing takes place using the mouth only.
+- id: QTXQM
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QONNL
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.03.04"
+  templates:
+    - type: simple
+      question: The occurrence of a vertigo is most likely when moving the head...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: During a turn.
+          wrongAnswers:
+            - text: During a straight horizontal flight.
+            - text: During a descent.
+            - text: During a climb.
+- id: QONNL
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QMJEJ
+    - QTXQM
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.03.04"
+  templates:
+    - type: simple
+      question: Wings level after a longer period of turning can lead to the impression of...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Turning into the opposite direction.
+          wrongAnswers:
+            - text: Starting a descent.
+            - text: Starting a climb.
+            - text: Steady turning in the same direction as before.
+- id: QEOJQ
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QCVLY
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.03.04"
+  templates:
+    - type: simple
+      question: Which of the following options does NOT stimulate motion sickness (disorientation)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Non-accelerated straight and level flight
+          wrongAnswers:
+            - text: Head movements during turns
+            - text: Flying under the influence of alcohol
+            - text: Turbulence in level flight
+- id: QCVLY
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds:
+    - QEOJQ
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.03.04"
+  templates:
+    - type: simple
+      question: What is an appropriate reaction when a passenger during cruise flight suddenly feels uncomfortable?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Adjust cabin temperature and prevent excessive bank
+          wrongAnswers:
+            - text: Give additional oxygen and avoid low load factors
+            - text: Avoid conversation and choose a higher airspeed
+            - text: Switch on the heater blower and provide thermal blankets
+- id: QZORC
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.04.01"
+  templates:
+    - type: simple
+      question: Which answer states a risk factor for diabetes?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Overweight
+          wrongAnswers:
+            - text: Smoking
+            - text: Sleep deficiency
+            - text: Alcohol consumption
+- id: QKFBL
+  subjectId: "02"
+  chapterId: "02.01"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "02.01.04.04"
+  templates:
+    - type: simple
+      question: The average decrease of blood alcohol level for an adult in one hour is approximately...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 0.01 percent
+          wrongAnswers:
+            - text: 0.1 percent
+            - text: 0.03 percent
+            - text: 0.3 percent

@@ -1,0 +1,699 @@
+- id: QHZZO
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds:
+    - QOJRG
+  annexes: []
+  learningObjectiveIds:
+    - "07.02.03.01"
+  templates:
+    - type: simple
+      question: How does aircraft flap configuration influence the take-off performance?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A higher flap setting decreases ground roll and lift-off speed, but also climb performance.
+          wrongAnswers:
+            - text: A higher flap setting decreases ground roll and lift-off speed and increases climb performance.
+            - text: A higher flap setting decreases ground roll and increases lift-off speed and climb performance.
+            - text: A higher flap setting increases ground roll, lift-off speed, and climb performance.
+- id: QOJRG
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds:
+    - QHZZO
+    - QECWN
+  annexes: []
+  learningObjectiveIds:
+    - "07.02.01.03"
+  templates:
+    - type: simple
+      question: How does wind affect the take-off performance?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Tailwind reduces the relative wind on the airfoil. The take-off distance will increase.
+          wrongAnswers:
+            - text: Headwind imposes an increased drag on the aircraft. The take-off distance will increase.
+            - text: Headwind causes an increased airflow around the wing. The take-off distance will increase.
+            - text: Tailwind aids the aircraft in overcoming the initial drag at the commencement of the take-off roll.
+- id: QECWN
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds:
+    - QOJRG
+  annexes: []
+  learningObjectiveIds:
+    - "07.02.01.03"
+  templates:
+    - type: simple
+      question: Which factor shortens landing distance?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Strong headwind
+          wrongAnswers:
+            - text: High pressure altitude
+            - text: High density altitude
+            - text: Heavy rain
+- id: QDIBO
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.02.01.04"
+  templates:
+    - type: simple
+      question: The angle of descent is defined as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The angle between a horizontal plane and the actual flight path, expressed in degrees [°].
+          wrongAnswers:
+            - text: The angle between a horizontal plane and the actual flight path, expressed in percent [%].
+            - text: The ratio between the change in height and the horizontal distance distance travelled within the.
+            - text: The ratio between the change in height and the horizontal distance travelled within the same.
+- id: QLBJP
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds:
+    - QSYNF
+    - QWHUX
+  annexes: []
+  learningObjectiveIds:
+    - "07.02.02.01"
+  templates:
+    - type: simple
+      question: The speed VS0 is defined as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Stalling speed or minimum steady flight speed in landing configuration.
+          wrongAnswers:
+            - text: Maximum landing gear extended speed.
+            - text: Stalling speed or minimum steady flight speed obtained in a specific configuration.
+            - text: Never-exceed speed.
+- id: QSYNF
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds:
+    - QLBJP
+  annexes: []
+  learningObjectiveIds:
+    - "07.02.02.01"
+  templates:
+    - type: simple
+      question: The speed VFE is defined as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Maximum flap extended speed.
+          wrongAnswers:
+            - text: Stalling or minimum steady flight speed with the flaps extended.
+            - text: Stalling or minimum steady flight speed with the flaps retracted.
+            - text: Maximum landing gear extended speed.
+- id: QWHUX
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds:
+    - QUZLA
+    - QLBJP
+  annexes: []
+  learningObjectiveIds:
+    - "07.02.02.01"
+  templates:
+    - type: simple
+      question: What happens to the true airspeed at a constant indicated airspeed during a climb?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It increases
+          wrongAnswers:
+            - text: It decreases
+            - text: It remains constant above 5000 ft
+            - text: It remains constant below 5000 ft
+- id: QUZLA
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds:
+    - QWHUX
+  annexes: []
+  learningObjectiveIds:
+    - "07.02.02.01"
+  templates:
+    - type: simple
+      question: The speed Vy is defined as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Best rate of climb
+          wrongAnswers:
+            - text: Best angle of climb
+            - text: Best distance of climb
+            - text: Best speed of climb
+    - type: simple
+      question: The speed Vx means...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: That a given altitude is reached within minimum distance.
+          wrongAnswers:
+            - text: Maximum altitude gain per 10 % power.
+            - text: That a given altitude is reached with minimum fuel consumption.
+            - text: That a given altitude is reached within minimum flight time.
+    - type: simple
+      question: Which climb speed may be used to optimise the rate of climb (e.g. to reach a desired altitude within minimum time)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Vy, the best rate of climb speed
+          wrongAnswers:
+            - text: Vx, the best angle of climb speed
+            - text: Vx, the best rate of climb speed
+            - text: Vy, the best angle of climb speed
+- id: QBWNG
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.02.01.03"
+  templates:
+    - type: simple
+      question: A pilot wants to take off on runway 36, the reported wind is 240 degrees, 12 knots. What is the value of the wind components acting on the aircraft on take-off and landing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Crosswind from the left 10.4 kt. Tailwind 6 kt.
+          wrongAnswers:
+            - text: Crosswind from the right 10.4 kt.
+            - text: Crosswind from the left 6 kt.
+            - text: Crosswind from the right 6 kt.
+            - text: 9 kt tailwind.
+            - text: 5 kt headwind.
+            - text: 5 kt tailwind.
+    - type: simple
+      question: A pilot wants to take off on runway 36, the reported wind is 240 degrees, 12 knots. What are the wind components acting on the aircraft on take-off and landing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Crosswind from the left 10.4 kt. Tailwind 6 kt.
+          wrongAnswers:
+            - text: Crosswind from the right 10.4 kt.
+            - text: Crosswind from the left 6 kt.
+            - text: Crosswind from the right 6 kt.
+            - text: 9 kt tailwind.
+            - text: 5 kt headwind.
+            - text: 5 kt tailwind.
+    - type: simple
+      question: For a take-off from runway 22 and a reported wind of 250°/10 kt, the longitudinal wind component equals...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 9 kt headwind.
+          wrongAnswers:
+            - text: 9 kt tailwind.
+            - text: 5 kt headwind.
+            - text: 5 kt tailwind.
+- id: QGBKJ
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds: []
+  annexes:
+    - id: AOBF
+  learningObjectiveIds:
+    - "07.02.01.02"
+  templates:
+    - type: simple
+      question: |-
+        How does the aircraft configuration influence take-off performance while all other parameters remain constant?
+
+        ![Two take-off profiles from the same runway](annex:AOBF)
+      explanation: A higher flap setting adds lift at low speed, so the aeroplane lifts off after a shorter ground roll. The extra drag gives a shallower climb after lift-off. Aircraft A lifts off sooner and climbs at the shallower angle, so it has the higher flap setting.
+      presets:
+        - correctAnswers:
+            - text: Aircraft A has a higher flap setting than aircraft B.
+          wrongAnswers:
+            - text: Aircraft B has a higher flap setting than aircraft A.
+            - text: Aircraft A has a higher tyre pressure than aircraft B.
+            - text: Aircraft B has a higher tyre pressure than aircraft A.
+- id: QPDXI
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds: []
+  annexes:
+    - id: AVOA
+  learningObjectiveIds:
+    - "07.02.02.01"
+  templates:
+    - type: simple
+      question: |-
+        {{marker}} indicates which airspeed?
+
+        ![Airspeed indicator in knots with a white arc, a green arc and a yellow arc and a red line](annex:AVOA)
+      explanation: |-
+        The colour arcs on the airspeed indicator mark the operating ranges:
+
+        | Marking             | Range                         |
+        | ------------------- | ----------------------------- |
+        | White arc           | VS0 to VFE, flap operating range |
+        | Green arc           | VS1 to VNO, normal operating range |
+        | Yellow arc          | VNO to VNE, caution range     |
+        | Red radial line     | VNE, never-exceed speed       |
+      presets:
+        - variables:
+            marker: The beginning of the white arc (1)
+          correctAnswers:
+            - text: "VS0: Stall speed in landing configuration"
+          wrongAnswers:
+            - text: "VS1: Stall speed with flaps up"
+            - text: "VNO: Maximum speed for normal operations"
+            - text: "VFE: Maximum flap extended speed"
+            - text: "VNE: Never-exceed speed"
+        - variables:
+            marker: The beginning of the green arc (2)
+          correctAnswers:
+            - text: "VS1: Stall speed with flaps up"
+          wrongAnswers:
+            - text: "VS0: Stall speed in landing configuration"
+            - text: "VNO: Maximum speed for normal operations"
+            - text: "VFE: Maximum flap extended speed"
+            - text: "VNE: Never-exceed speed"
+        - variables:
+            marker: The end of the white arc (3)
+          correctAnswers:
+            - text: "VFE: Maximum flap extended speed"
+          wrongAnswers:
+            - text: "VS0: Stall speed in landing configuration"
+            - text: "VS1: Stall speed with flaps up"
+            - text: "VNO: Maximum speed for normal operations"
+            - text: "VNE: Never-exceed speed"
+        - variables:
+            marker: The end of the green arc (4)
+          correctAnswers:
+            - text: "VNO: Maximum speed for normal operations"
+          wrongAnswers:
+            - text: "VS0: Stall speed in landing configuration"
+            - text: "VS1: Stall speed with flaps up"
+            - text: "VFE: Maximum flap extended speed"
+            - text: "VNE: Never-exceed speed"
+        - variables:
+            marker: The red marking at the end of the yellow arc (5)
+          correctAnswers:
+            - text: "VNE: Never-exceed speed"
+          wrongAnswers:
+            - text: "VS0: Stall speed in landing configuration"
+            - text: "VS1: Stall speed with flaps up"
+            - text: "VNO: Maximum speed for normal operations"
+            - text: "VFE: Maximum flap extended speed"
+- id: QLRIY
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds: []
+  annexes:
+    - id: AWZM
+  learningObjectiveIds:
+    - "07.02.03.01"
+  templates:
+    - type: simple
+      question: |-
+        {{conditions}} What is the take-off distance?
+
+        ![Take-off distance chart](annex:AWZM:editable)
+      explanation: Start at the outside air temperature on the left scale and go up to the pressure altitude line. Go across to the aircraft mass line, then to the wind reference line. Follow the wind lines parallel to the sloping lines for the given head wind or tail wind, then read the take-off distance on the right.
+      presets:
+        - variables:
+            conditions: "Outside air temperature: -20 °C, pressure altitude: 5000 ft, aeroplane mass: 750 kg, head wind: 10 kt."
+          correctAnswers:
+            - text: 380 m
+          wrongAnswers:
+            - text: 450 m
+            - text: 410 m
+            - text: 310 m
+        - variables:
+            conditions: "Take-off mass: 750 kg, standard (ISA) conditions, elevation: 4000 ft, tail wind: 5 kt."
+          correctAnswers:
+            - text: 900 m
+          wrongAnswers:
+            - text: 320 m
+            - text: 480 m
+            - text: 630 m
+        - variables:
+            conditions: "Take-off mass: 705 kg, OAT: 20 °C, QNH: 1013 hPa, elevation: 3500 ft, tail wind: 5 kt."
+          correctAnswers:
+            - text: 880 m
+          wrongAnswers:
+            - text: 720 m
+            - text: 820 m
+            - text: 790 m
+- id: QBIAE
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds: []
+  annexes:
+    - id: AIRG
+  learningObjectiveIds:
+    - "07.02.04.01"
+    - "07.02.04.02"
+  templates:
+    - type: simple
+      question: |-
+        What is the rate of climb under the following conditions? {{conditions}}
+
+        ![Rate of climb chart](annex:AIRG:editable)
+      explanation: Start at the outside air temperature on the bottom left scale, go up to the pressure altitude line, then across to the sloping rate of climb line and down to read the rate of climb in ft/min.
+      presets:
+        - variables:
+            conditions: "Outside air temperature: -20 °C, pressure altitude: 10 000 ft."
+          correctAnswers:
+            - text: 390 ft/min
+          wrongAnswers:
+            - text: 200 ft/min
+            - text: 350 ft/min
+            - text: 450 ft/min
+        - variables:
+            conditions: "Outside air temperature: 12 °C, pressure altitude: 9000 ft."
+          correctAnswers:
+            - text: 200 ft/min
+          wrongAnswers:
+            - text: 300 ft/min
+            - text: 250 ft/min
+            - text: 350 ft/min
+        - variables:
+            conditions: "Outside air temperature: 0 °C, pressure altitude: 6500 ft."
+          correctAnswers:
+            - text: 480 ft/min
+          wrongAnswers:
+            - text: 520 ft/min
+            - text: 800 ft/min
+            - text: 400 ft/min
+- id: QQCFF
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds: []
+  annexes:
+    - id: AVSX
+  learningObjectiveIds:
+    - "07.02.04.04"
+  templates:
+    - type: simple
+      question: |-
+        What range can be achieved under the following conditions? {{conditions}}
+
+        ![Range chart](annex:AVSX:editable)
+      explanation: Start at the outside air temperature, go up to the pressure altitude line, then across to the curve of the chosen power setting and down to read the range in NM.
+      presets:
+        - variables:
+            conditions: "Outside air temperature: 6 °C, pressure altitude: 6000 ft, power: 65 %."
+          correctAnswers:
+            - text: 482 NM
+          wrongAnswers:
+            - text: 457 NM
+            - text: 444 NM
+            - text: 503 NM
+        - variables:
+            conditions: "Outside air temperature: 22 °C, pressure altitude: 2000 ft, power: 55 %."
+          correctAnswers:
+            - text: 500 NM
+          wrongAnswers:
+            - text: 550 NM
+            - text: 480 NM
+            - text: 450 NM
+- id: QEDNP
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds: []
+  annexes:
+    - id: AXXH
+  learningObjectiveIds:
+    - "07.02.04.03"
+  templates:
+    - type: simple
+      question: |-
+        What is the true airspeed (TAS) under the following conditions? {{conditions}}
+
+        ![Cruise chart](annex:AXXH:editable)
+      explanation: Start at the outside air temperature, go up to the pressure altitude line, then across to the curve of the chosen power setting and down to read the TAS in kt.
+      presets:
+        - variables:
+            conditions: "Outside air temperature: -2 °C, pressure altitude: 8000 ft, power: 75 %."
+          correctAnswers:
+            - text: 104 kt
+          wrongAnswers:
+            - text: 95 kt
+            - text: 110 kt
+            - text: 100 kt
+        - variables:
+            conditions: "Outside air temperature: 10 °C, pressure altitude: 6000 ft, power: 65 %."
+          correctAnswers:
+            - text: 92 kt
+          wrongAnswers:
+            - text: 96 kt
+            - text: 88 kt
+            - text: 100 kt
+    - type: simple
+      question: |-
+        What are the fuel flow and the true airspeed for cruise flight with 60 % power in flight level 85 at an OAT of -25 °C?
+
+        ![Cruise chart](annex:AXXH:editable)
+      explanation: The chart gives 17 l/h at 55 % power and 20 l/h at 65 % power, so 60 % lies half way between them at 18.5 l/h. The TAS is read in the same way from the 55 % and 65 % curves.
+      presets:
+        - correctAnswers:
+            - text: "Fuel flow: 18.5 l/h, TAS: 85 kt"
+          wrongAnswers:
+            - text: "Fuel flow: 17.5 l/h, TAS: 83 kt"
+            - text: "Fuel flow: 17 l/h, TAS: 81 kt"
+            - text: "Fuel flow: 20 l/h, TAS: 89 kt"
+- id: QDECK
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds: []
+  annexes:
+    - id: AJOL
+  learningObjectiveIds:
+    - "07.02.04.03"
+  templates:
+    - type: simple
+      question: |-
+        Given the following conditions, what is the fuel consumption? Pressure altitude: 2000 ft, temperature: 31 °C, RPM: 2400.
+
+        ![Performance table for an aircraft mass of 785 kg listing, for pressure altitudes of 2000](annex:AJOL)
+      explanation: ISA at 2000 ft is 11 °C, so 31 °C is ISA +20 °C. In the 2000 ft block, the +20 °C column at 2400 RPM gives 19.5 l/h.
+      presets:
+        - correctAnswers:
+            - text: 19.5 l/h
+          wrongAnswers:
+            - text: 21.7 l/h
+            - text: 22.8 l/h
+            - text: 19.1 l/h
+    - type: simple
+      question: |-
+        What are the true airspeed (TAS) and fuel consumption for cruise flight with {{power}} % power in flight level 60, temperature ISA -20 °C and QNH 980 hPa?
+
+        ![Performance table for an aircraft mass of 785 kg listing, for pressure altitudes of 2000](annex:AJOL)
+      explanation: |-
+        Flight level 60 is a pressure altitude of 6000 ft whatever the QNH. Use the 6000 ft block and the 20 °C below ISA columns.
+        {{reading}}
+      presets:
+        - variables:
+            power: 70
+            reading: At 2600 RPM the table shows 70 % BHP, 110 kt and 23.9 l/h.
+          correctAnswers:
+            - text: 110 kt, 23.9 l/h
+          wrongAnswers:
+            - text: 95 kt, 19.6 l/h
+            - text: 100 kt, 19.3 l/h
+            - text: 105 kt, 21.5 l/h
+        - variables:
+            power: 60
+            reading: 60 % lies half way between 64 % at 2500 RPM (98 kt, 20.5 l/h) and 56 % at 2400 RPM (92 kt, 18.7 l/h), which gives 95 kt and 19.6 l/h.
+          correctAnswers:
+            - text: 95 kt, 19.6 l/h
+          wrongAnswers:
+            - text: 95.75 kt, 19.8 l/h
+            - text: 110 kt, 25.1 l/h
+            - text: 96 kt, 19.1 l/h
+- id: QQCJE
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds: []
+  annexes:
+    - id: AZAH
+  learningObjectiveIds:
+    - "07.02.04.03"
+  templates:
+    - type: simple
+      question: |-
+        Use the attached CAP 697 table 2.2.3. {{flight}} Cruise weight: 3400 lb. Power setting: 23.0 in. Hg at 2300 RPM. {{ask}}
+
+        ![CAP 697 table 2.2.3, cruise at 23.0 in](annex:AZAH)
+      explanation: "{{working}}"
+      presets:
+        - variables:
+            flight: Planning a flight from EDWF (Leer Papenburg) to EDWH (Oldenburg Hatten), cruise level FL 75, temperature ISA.
+            ask: Determine the true airspeed (TAS) and the fuel flow (FF).
+            working: ISA means the 0 block. FL 75 lies between 6000 ft (159 KTAS, 12.0 GPH) and 8000 ft (160 KTAS, 11.9 GPH) and is closer to 8000 ft, which gives 160 kt and 11.9 GPH.
+          correctAnswers:
+            - text: TAS = 160 kt, FF = 11.9 GPH
+          wrongAnswers:
+            - text: TAS = 145 kt, FF = 71.1 GPH
+            - text: TAS = 145 kt, FF = 11.9 GPH
+            - text: TAS = 160 kt, FF = 12.3 GPH
+        - variables:
+            flight: Planning a flight from EDWH (Oldenburg Hatten) to EDWF (Leer Papenburg), cruise level FL 65, temperature ISA +20.
+            ask: What indicated airspeed (IAS) and fuel flow (FF) can be expected?
+            working: ISA +20 means the +20 block. FL 65 lies between 6000 ft (142 KIAS, 11.5 GPH) and 8000 ft (140 KIAS, 11.4 GPH) and is closer to 6000 ft, which gives 142 kt and 11.5 GPH.
+          correctAnswers:
+            - text: IAS = 142 kt, FF = 11.5 GPH
+          wrongAnswers:
+            - text: IAS = 158 kt, FF = 11.5 GPH
+            - text: IAS = 145 kt, FF = 11.9 GPH
+            - text: IAS = 150 kt, FF = 12.3 GPH
+- id: QWZEI
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds: []
+  annexes:
+    - id: AQLM
+  learningObjectiveIds:
+    - "07.02.04.01"
+  templates:
+    - type: simple
+      question: |-
+        What is the required {{quantity}} to climb from FL 65 to FL 95 under the following conditions? Aircraft mass: 3000 lb, OAT at FL 65: -5 °C, OAT at FL 95: -15 °C.
+
+        ![Time, fuel and distance to climb chart](annex:AQLM:editable)
+      explanation: Read the chart at FL 95 and at FL 65 and subtract. Start at the OAT on the bottom left scale, go up to the pressure altitude line, then across to the initial mass curve (3000 lb) and down to the scale of the wanted quantity. The difference between the two readings is the climb from FL 65 to FL 95.
+      presets:
+        - variables:
+            quantity: fuel
+          correctAnswers:
+            - text: 1 gal
+          wrongAnswers:
+            - text: 3 gal
+            - text: 2 gal
+            - text: 6 gal
+        - variables:
+            quantity: distance
+          correctAnswers:
+            - text: 6 NM
+          wrongAnswers:
+            - text: 3 NM
+            - text: 16 NM
+            - text: 10 NM
+    - type: simple
+      question: |-
+        After a departure from an airfield at a pressure altitude of 3000 ft with an initial mass of 3000 lb, you climb to flight level (FL) 75. OAT at the airfield: 25 °C. OAT at FL 75: 0 °C. What is the {{quantity}}?
+
+        ![Time, fuel and distance to climb chart](annex:AQLM:editable)
+      explanation: "{{working}}"
+      presets:
+        - variables:
+            quantity: climb airspeed
+            working: The conditions printed on the chart give a climb speed of 110 kt for all masses.
+          correctAnswers:
+            - text: 110 kt
+          wrongAnswers:
+            - text: 100 kt
+            - text: 90 kt
+            - text: 120 kt
+        - variables:
+            quantity: distance required to climb
+            working: Read the distance scale at FL 75 and at 3000 ft with the 3000 lb curve and subtract the two readings.
+          correctAnswers:
+            - text: 7 NM
+          wrongAnswers:
+            - text: 10 NM
+            - text: 4 NM
+            - text: 6 NM
+- id: QFSDJ
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.02.01.03"
+  templates:
+    - type: simple
+      question: It is possible that the surface wind speed at an airport is reduced due to friction. When a surface area with a minor tailwind condition is left during the initial climb, the pilot might expect...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a decrease in airspeed and rate of climb due to increasing tailwind.
+          wrongAnswers:
+            - text: a deacrease in airspeed and climb performance due to decreasing tailwind.
+            - text: an increase in airspeed and rate of climb due to increasing tailwind.
+            - text: an increase in airspeed and rate of climb due to decreasing tailwind.
+- id: QMKAT
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.02.04.04"
+  templates:
+    - type: simple
+      question: In comparison to the true airspeed in still air conditions, the TAS in a strong tailwind will be...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: slightly lower for maximum range.
+          wrongAnswers:
+            - text: the same for maximum range.
+            - text: slightly higher for maximum endurance.
+            - text: significantly lower for maximum endurance.
+- id: QDREY
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.02.04.02"
+  templates:
+    - type: simple
+      question: How does higher ambient air temperature affect the power of a normally aspirated piston engine, other conditions being equal?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Warmer, less dense air reduces the available power.
+          wrongAnswers:
+            - text: Warmer, less dense air increases the available power.
+            - text: Warmer, denser air reduces the available power.
+            - text: Air temperature has no effect on the available power.
+- id: QJCIQ
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.02.01.03"
+  templates:
+    - type: simple
+      question: How is the take-off distance influenced on a grass runway in comparison to a paved surface?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The required distance for take-off will be increased. The braking performance on grass will not be as good as it would be on a paved surface.
+          wrongAnswers:
+            - text: The required distance for take-off will be decreased. The braking performance on grass will not be as good as it would be on a paved surface.
+            - text: The required distance for take-off will be increased. The braking performance on grass will be better than on a paved surface.
+            - text: The required distance for take-off will be decreased. The braking performance on grass will be better than on a paved surfacef.
+- id: QRZJA
+  subjectId: "07"
+  chapterId: "07.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "07.02.01.03"
+  templates:
+    - type: simple
+      question: How does precipitation affect aeroplane performance?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Water on the wing may disturb the airflow, thus decreasing aircraft performance
+          wrongAnswers:
+            - text: Water can enter the engine cowl, thus decreasing the engine performance
+            - text: Rain does not affect aircraft performance
+            - text: Heavy rain can increase the mass of the aircraft, thus decreasing aircraft performance

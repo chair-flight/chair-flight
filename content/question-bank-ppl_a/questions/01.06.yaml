@@ -1,0 +1,152 @@
+- id: QEMCN
+  subjectId: "01"
+  chapterId: "01.06"
+  relatedQuestionIds:
+    - QZOQP
+  annexes: []
+  learningObjectiveIds:
+    - "01.06.01.01"
+  templates:
+    - type: simple
+      question: The altimeter is switched from local QNH to 1013.25 hPa...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When climbing above the transition altitude.
+          wrongAnswers:
+            - text: At 4000 ft.
+            - text: When descending below FL 100.
+            - text: At the decision height.
+- id: QZOQP
+  subjectId: "01"
+  chapterId: "01.06"
+  relatedQuestionIds:
+    - QEMCN
+  annexes: []
+  learningObjectiveIds:
+    - "01.06.01.01"
+  templates:
+    - type: simple
+      question: During a flight at FL 80, the altimeter setting has to be...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1013.25 hPa
+          wrongAnswers:
+            - text: Local QNH
+            - text: Local QFE
+            - text: 1030.25 hPa
+- id: QIILI
+  subjectId: "01"
+  chapterId: "01.06"
+  relatedQuestionIds:
+    - QINBQ
+  annexes: []
+  learningObjectiveIds:
+    - "01.06.02.01"
+  templates:
+    - type: simple
+      question: A transponder with the ability to send the current pressure level is a...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Mode C or S transponder
+          wrongAnswers:
+            - text: Mode A transponder
+            - text: Transponder approved for airspace "B"
+            - text: Pressure-decoder
+- id: QINBQ
+  subjectId: "01"
+  chapterId: "01.06"
+  relatedQuestionIds:
+    - QIILI
+  annexes: []
+  learningObjectiveIds:
+    - "01.06.02.01"
+  templates:
+    - type: simple
+      question: Which of the following options are possible SSR transponder modes?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A, C, S
+          wrongAnswers:
+            - text: B, C, V
+            - text: A, C, R
+            - text: B, R, S
+- id: QKNKU
+  subjectId: "01"
+  chapterId: "01.06"
+  relatedQuestionIds:
+    - QCFKA
+    - QUMME
+    - QBBWF
+    - QUDTK
+    - QHUDT
+  annexes: []
+  learningObjectiveIds:
+    - "01.06.02.01"
+  templates:
+    - type: simple
+      question: Which transponder code indicates a loss of radio communication?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "'7600'"
+          wrongAnswers:
+            - text: "2000"
+            - text: "7700"
+            - text: "7000"
+            - text: "7500"
+    - type: simple
+      question: The transponder code in case of a radio communication failure is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "'7600'"
+          wrongAnswers:
+            - text: "2000"
+            - text: "7700"
+            - text: "7000"
+            - text: "7500"
+    - type: simple
+      question: Which transponder code should be set during a radio failure without any request?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "'7600'"
+          wrongAnswers:
+            - text: "2000"
+            - text: "7700"
+            - text: "7000"
+            - text: "7500"
+    - type: simple
+      question: In what situation is it appropriate to set the transponder code 7600?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Loss of radio
+          wrongAnswers:
+            - text: Hijacking
+            - text: Emergency
+            - text: Flight into clouds
+- id: QCFKA
+  subjectId: "01"
+  chapterId: "01.06"
+  relatedQuestionIds:
+    - QKNKU
+    - QUMME
+  annexes: []
+  learningObjectiveIds:
+    - "01.06.02.01"
+  templates:
+    - type: simple
+      question: The transponder code in case of hijacking is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "'7500'"
+          wrongAnswers:
+            - text: "7600"
+            - text: "7700"
+            - text: "7000"

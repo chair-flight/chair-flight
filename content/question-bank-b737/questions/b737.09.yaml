@@ -1,0 +1,469 @@
+- id: QLWAH
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 9.20.20, Flap Load Relief
+
+        > YW098 - YW164 Flap load relief is available when flaps are selected to 10, 15, 25, 30, or 40. Flap load relief is not available during alternate flap extension.
+        >
+        > YA573 - YW097 **Flap load relief is available when flaps are selected to 30, or 40.**
+
+        The Flap Slat Electronic Unit provides the function, but the range depends on the airplane, so the statement is false.
+
+        ![Leading edge devices and trailing edge flaps](annex:AQAC)
+      statements:
+        - text: The flap slat electronic unit (FSEU) provides flap load relief for all aircraft from Flap 10 through to Flap 40.
+          answer: false
+- id: QGSKP
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The yaw damper provides inputs to the rudder to provide which of the following, and what effect does it have on the rudder pedals?
+      explanation: |-
+        ### FCOM 9.20.13, Yaw Control
+
+        > Either yaw damper is capable of providing **dutch roll prevention, gust damping and turn coordination**. **Yaw damper operation does not result in rudder pedal movement.** The pilot can override either main or standby yaw damper inputs using either the rudder pedals or trim inputs.
+
+        ![Yaw control schematic](annex:AZIT)
+      presets:
+        - correctAnswers:
+            - text: Provides Gust Dampening, Dutch roll prevention and Turn coordination. The rudder pedals are not displaced by yaw damper operation.
+          wrongAnswers:
+            - text: Provides Gust Dampening and Turn coordination. The rudder pedals are not displaced by yaw damper operation.
+            - text: Provides Gust Dampening, Dutch roll prevention and Turn coordination. The rudder pedals are displaced by yaw damper operation to provide feedback to the pilot.
+            - text: Provides Gust Dampening and Turn coordination. The rudder pedals move to match rudder movement for feedback to the pilot.
+- id: QEABX
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How does the Stall Identification system help the pilot identify and prevent further movement into a stalled condition?
+      explanation: |-
+        ### FCOM 9.20.12, Stall Identification
+
+        > The EFS module **increases hydraulic system A pressure to the elevator feel and centering unit during a stall. This approximately doubles control column forces.** [...] During high AOA operations, the Stall Management/Yaw Damper (SMYD) reduces yaw damper commanded rudder movement.
+
+        The system makes it harder to pull the column further back. It does not move the elevator.
+
+        ![Pitch control schematic](annex:AAPH)
+      presets:
+        - correctAnswers:
+            - text: Elevator Feel Shift Module increase, hydraulic system A pressure to the Elevator Feel and Centering Unit, significantly increasing the force required to move the control column rearwards to continue into a stalled condition.
+          wrongAnswers:
+            - text: The elevator feel shift module prevents the yaw damper from making any rudder movement, and the stick shaker activates.
+            - text: Elevator Feel Shift Module increase, hydraulic system A pressure to the Elevator Feel and Centering Unit, moving the elevator to provide at least 15 degrees of nose down pitch.
+            - text: The yaw damper provides 2 degrees of rudder movement, and the speed trim system automatically pushes the control column forward to warn the pilot that a stall condition was being approached.
+- id: QCVNE
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Selecting the Flap lever to the FLAP 1 Gate causes the LE Flaps to move to what position?
+      explanation: |-
+        ### FCOM 9.20.19, Flap and Slat Sequencing
+
+        > When the FLAP lever is moved from the UP position to the 1, 2, 5, 10, 15, or 25 position, the TE flaps extend to the commanded position and the LE: • **flaps extend to the full extended position** and • slats extend to the extend position.
+        >
+        > When the FLAP lever is moved beyond the 25 position the TE flaps extend to the commanded position and the LE: • flaps remain at the full extended position and • **slats extend to the full extended position.**
+
+        ![Leading edge devices and trailing edge flaps](annex:AQAC)
+      presets:
+        - correctAnswers:
+            - text: Fully Extended
+          wrongAnswers:
+            - text: Flap 1 position
+            - text: Flap 15 position.
+            - text: Takeoff setting
+- id: QQQMH
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What should the maximum flap extension altitude be?
+      explanation: |-
+        ### FCOM 9.20.19, Trailing Edge Flaps
+
+        > To prevent excessive structural loads from increased Mach at higher altitude, **flap extension above 20,000 feet should not be attempted.**
+      presets:
+        - correctAnswers:
+            - text: 20,000 feet
+          wrongAnswers:
+            - text: 41,000 feet
+            - text: 2500 feet RA
+            - text: Field elevation plus 1000 feet.
+- id: QPLXN
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does a FLT CONTROL "LOW PRESSURE" light illuminated amber indicate?
+      explanation: |-
+        ### FCOM 9.10.2, Flight Control LOW PRESSURE Lights
+
+        > Illuminated (amber) - • **indicates low hydraulic system (A or B) pressure to ailerons, elevator and rudder** • deactivated when associated FLIGHT CONTROL switch is positioned to STBY RUD and standby rudder shutoff valve opens.
+
+        The light belongs to one system (A or B) and does not refer to the standby rudder system.
+      presets:
+        - correctAnswers:
+            - text: Related hydraulic system pressure to ailerons, elevator and rudder is low.
+          wrongAnswers:
+            - text: The STBY RUD system pressure is low.
+            - text: Both hydraulic systems pressure to ailerons, elevator and rudder are low.
+            - text: This light is illuminated whenever the associated FLT CONTROL switch is in the OFF position.
+- id: QTWOT
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 9.20.19, Flap and Slat Sequencing
+
+        > When the FLAP lever is moved from the UP position to the 1, 2, 5, 10, 15, or 25 position, the TE flaps extend to the commanded position and the LE: • **flaps extend to the full extended position** and • slats extend to the extend position.
+        >
+        > When the FLAP lever is moved beyond the 25 position the TE flaps extend to the commanded position and the LE: • flaps remain at the full extended position and • **slats extend to the full extended position.**
+
+        The quoted logic applies to the airplanes with the higher breakpoint (flap 25). The earlier airplanes use flap 5.
+
+        ![Leading edge devices and trailing edge flaps](annex:AQAC)
+      statements:
+        - text: On short field performance aircraft the leading edge slats do not move from the extended to the fully extended position until the Flap lever is moved beyond the Flap 25 position.
+          answer: true
+- id: QFJZX
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 9.20.25, Trailing Edge Uncommanded Motion
+
+        > The FSEU shuts down the TE drive unit by **closing the TE flap bypass valve**. The TE flap shutdown cannot be reset by the flight crew and they **must use the alternate flap system** to control TE flaps.
+
+        ![Leading edge devices and trailing edge flaps](annex:AQAC)
+      statements:
+        - text: The flap slat electronic unit (FSEU) will close the trailing edge bypass valve if it detects trailing edge flap asymmetry, skew or uncommanded motion; thus stopping the movement of the flaps via the normal system.  However, the flaps can still be moved by means of electric motors.
+          answer: true
+- id: QYZOR
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What happens to the speed brakes if the SPEED BRAKE lever is left in the DOWN position during landing.
+      explanation: |-
+        ### FCOM 9.20.17, Ground Operation
+
+        > If the SPEED BRAKE lever is in the DOWN position during landing or rejected takeoff, the auto speed brake system operates when these conditions occur: • main landing gear wheels spin up (more than 60 kts) • both thrust levers are retarded to IDLE • reverse thrust levers are positioned for reverse thrust. **The SPEED BRAKE lever automatically moves to the UP position and spoilers deploy.**
+
+        ![Speed brake schematic](annex:AOTZ)
+      presets:
+        - correctAnswers:
+            - text: The speed brake lever will automatically move to the up position and the spoilers will deploy as normal if all other required conditions are met.
+          wrongAnswers:
+            - text: The ground spoilers will deploy on landing if all other conditions are met, but flight spoilers will not deploy.
+            - text: The spoilers will not deploy regardless of all other required conditions being met.
+            - text: The flight spoilers will deploy on landing if all other conditions are met, but ground spoilers will not deploy.
+- id: QHFWU
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does the SPEED BRAKE DO NOT ARM light (located on the left forward panel) indicate when illuminated amber?
+      explanation: |-
+        ### FCOM 9.10.11, SPEED BRAKE DO NOT ARM Light
+
+        > Illuminated (amber) – • **indicates abnormal condition or test inputs to the automatic speed brake system**, or • **during landing, indicates wheel speed has dropped below 60 kts, and the speedbrake lever is not in the DOWN position.**
+
+        ![Speed brake schematic](annex:AOTZ)
+      presets:
+        - correctAnswers:
+            - text: Indicates an abnormal condition or test input in the speed brake system and indicates that the wheel speed has dropped below 60 kts on landing and the speedbrake lever has not been moved to the down position.
+          wrongAnswers:
+            - text: The speed brakes must not be extended as airspeed currently too high for safe operation.
+            - text: Indicates an abnormal condition or test input in the speed brake system.
+            - text: Illuminated whenever forward thrust levers are advanced beyond takeoff thrust whilst aircraft on the ground
+- id: QAWXB
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the purpose of the ALTERNATE FLAPS master switch, and why is the cover red?
+      explanation: |-
+        ### FCOM 9.10.3, ALTERNATE FLAPS Master Switch
+
+        > ARM – **closes TE flap bypass valve, activates standby pump, and arms the ALTERNATE FLAPS position switch.**
+
+        ### FCOM 9.20.22, Alternate Extension
+
+        > When using alternate flap extension the LE flaps and slats are driven to the full extended position using power from the standby hydraulic system. [...] Note: **The LE devices cannot be retracted by the standby hydraulic system.**
+
+        That is why the cover is red: extending the leading edge devices cannot be reversed in flight.
+
+        ![Leading edge devices and trailing edge flaps](annex:AQAC)
+      presets:
+        - correctAnswers:
+            - text: Closes the trailing edge flap bypass valve, activates standby pump, and arms ALTERNATE FLAPS position switch.  Red because the action of extending the leading edge devices cannot be reversed in flight.
+          wrongAnswers:
+            - text: Closes the trailing edge flap bypass valve, activates standby pump, and arms ALTERNATE FLAPS position switch.  Red because the action of extending the trailing edge devices cannot be reversed in flight.
+            - text: Fully extends the leading and trailing edge flaps. Red because the action cannot be reversed, leading and trailing edge devices cannot be retracted once extended.
+            - text: Fully extends the leading edge devices, and can extend and retract the trailing edge flaps. Red because the action cannot be reversed, leading and trailing edge devices cannot be retracted once extended.
+- id: QMCOY
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What will cause the STBY RUDDER ON light to illuminate?
+      explanation: |-
+        ### FCOM 9.10.2, STBY RUD ON Light
+
+        > Illuminated (amber) - **indicates the standby rudder system is commanded on to pressurize the standby rudder power control unit.**
+
+        The command can come from either FLT CONTROL switch, automatically at takeoff or landing, or from the Force Fight Monitor (FCOM 9.20.13).
+
+        ![Yaw control schematic](annex:AZIT)
+      presets:
+        - correctAnswers:
+            - text: Standby rudder system is commanded on, either manually or automatically, to pressurise the standby rudder PCU.
+          wrongAnswers:
+            - text: Standby rudder system is commanded on, to pressurise the standby rudder PCU, by selecting YAW DAMPER switch to OFF.
+            - text: Only illuminated when the standby rudder system has been automatically commanded on - not illuminated when standby rudder system has been manually commanded on by selecting the FLT CONTROL switch to STBY RUD.
+            - text: Only illuminated when the standby rudder system has been manually commanded on by selecting a FLT CONTROL switch to STBY RUD - not illuminated when standby rudder system automatically commanded on.
+- id: QFBJR
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: On landing, when do the ground spoilers extend?
+      explanation: |-
+        ### FCOM 9.20.17, Ground Operation
+
+        > Note: Compression of any landing gear strut enables the flight spoilers to deploy. **Compression of the right main landing gear strut enables the ground spoilers to deploy.**
+
+        ![Speed brake schematic](annex:AOTZ)
+      presets:
+        - correctAnswers:
+            - text: Compression of the right main landing gear strut.
+          wrongAnswers:
+            - text: Compression of the nose landing gear.
+            - text: Compression of the left main landing gear strut.
+            - text: Compression of any landing gear strut.
+- id: QENVS
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: On the B737-800, if the STAB TRIM AUTOPILOT cutout switch is set to CUTOUT, how is autopilot engagement affected?
+      explanation: |-
+        ### FCOM 9.10.6, Stabilizer Trim AUTOPILOT Cutout Switch
+
+        > CUTOUT – • deactivates autopilot stabilizer trim operation • **autopilot disengages if engaged.**
+
+        ### FCOM 4.20.2, Autopilot Engagement Criteria
+
+        > A/P engagement in CMD or CWS is inhibited unless both of the following pilot–controlled conditions are met: • no force is being applied to the control wheel • **the STAB TRIM AUTOPILOT cutout switch is at NORMAL.**
+
+        While the switch is in CUTOUT the autopilot cannot be re-engaged.
+      presets:
+        - correctAnswers:
+            - text: The autopilot disengages if engaged and cannot be re-engaged.
+          wrongAnswers:
+            - text: The autopilot remains engaged.
+            - text: The autopilot disengages if engaged, but it can be re-engaged.
+- id: QWLIG
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If you encounter elevator tab vibration, what action should the crew take to reduce it?
+      explanation: |-
+        ### QRH 9.7, Elevator Tab Vibration
+
+        > Do not use speedbrakes or change aircraft configuration to reduce airspeed. Do not reduce airspeed below the minimum speed for the existing flap setting and gross weight. 2 **Smoothly reduce airspeed until the vibration stops.**
+      presets:
+        - correctAnswers:
+            - text: Smoothly reduce airspeed without changing the configuration until the vibration stops.
+          wrongAnswers:
+            - text: Increase speed and move the flaps to UP.
+            - text: Increase thrust and airspeed in the current configuration until the vibration stops.
+            - text: Deploy the speedbrakes to reduce airspeed as quickly as possible.
+- id: QJUTK
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the effect of moving the STAB TRIM OVERRIDE switch to OVERRIDE?
+      explanation: |-
+        ### FCOM 9.20.7, Stabilizer Trim
+
+        > Control column actuated stabilizer trim cutout switches stop operation of the main electric and autopilot trim when the control column movement opposes trim direction. **When the STAB TRIM override switch is positioned to OVERRIDE, electric trim can be used regardless of control column position.**
+
+        ![Pitch control schematic](annex:AAPH)
+      presets:
+        - correctAnswers:
+            - text: It allows the electric stabiliser trim to be used regardless of control column position.
+          wrongAnswers:
+            - text: It removes power to the stabiliser trim motor.
+            - text: It deactivates all stabiliser trim inputs.
+            - text: It removes the autopilot inputs to the stabiliser trim system.
+- id: QMFWA
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the function of the Force Fight Monitor in the main rudder PCU?
+      explanation: |-
+        ### FCOM 9.20.13, Yaw Control
+
+        > The main rudder PCU contains a Force Fight Monitor (FFM) that **detects opposing pressure (force fight) between A and B actuators.** This may occur if either system A or B input is jammed or disconnected. The FFM output is used to **automatically turn on the Standby Hydraulic pump, open the standby rudder shutoff valve to pressurize the standby rudder PCU**, and illuminate the STBY RUD ON, Master Caution, and Flight Control (FLT CONT) lights.
+
+        ![Yaw control schematic](annex:AZIT)
+      presets:
+        - correctAnswers:
+            - text: It monitors the pressures applied by the A and B actuators and, if opposing forces are detected, turns on the standby hydraulic pump and opens the standby rudder shutoff valve to pressurise the standby rudder PCU.
+          wrongAnswers:
+            - text: It reduces rudder deflection at airspeeds above approximately 135 kt.
+            - text: It detects a difference in force between the main rudder PCU and the standby rudder PCU and shuts down the main PCU.
+- id: QXFFJ
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If the Captain's control wheel becomes jammed in roll, how can the First Officer maintain roll control?
+      explanation: |-
+        ### FCOM 9.20.3, Aileron Transfer Mechanism
+
+        > If the ailerons or spoilers are jammed, force applied to the Captain’s and the First Officer’s control wheels will identify which system, ailerons or spoilers, is usable and which control wheel, Captain’s or First Officer’s, can provide roll control. **If the aileron control system is jammed, force applied to the First Officer’s control wheel provides roll control from the spoilers.** The ailerons and the Captain’s control wheel are inoperative.
+
+        ### QRH 9.10, Jammed or Restricted Flight Controls
+
+        > 4 Overpower the jammed or restricted system. **Use maximum force, including a combined effort of both pilots, if needed.** 5 Do not turn off any flight control switches.
+
+        ![Roll control schematic](annex:AJTX)
+      presets:
+        - correctAnswers:
+            - text: Apply sufficient roll force to break out the First Officer's control wheel. Roll is then controlled through the flight spoilers.
+          wrongAnswers:
+            - text: Remove hydraulic power from the flight controls to free the Captain's wheel and control the ailerons in manual reversion.
+            - text: Roll control is unavailable for the rest of the flight. Roll can only be maintained with the rudder.
+- id: QIPKH
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the function of the Speed Trim system?
+      explanation: |-
+        ### FCOM 9.20.8, Speed Trim System
+
+        > The Speed Trim System (STS) is a speed stability augmentation system designed to improve flight characteristics during operations with a low gross weight, aft center of gravity and high thrust **when the autopilot is not engaged.** The purpose of the STS is to return the airplane to a trimmed speed by commanding the stabilizer in a direction opposite the speed change.
+
+        ![Pitch control schematic](annex:AAPH)
+      presets:
+        - correctAnswers:
+            - text: It provides trim inputs to improve speed stability characteristics during manual flight.
+          wrongAnswers:
+            - text: It increases the rate at which the trim wheel operates with flaps not up.
+            - text: It improves speed stability above Mach 0.615 with the autopilot engaged.
+            - text: It increases control column forces when approaching VMO/MMO.
+- id: QDHXB
+  subjectId: b737
+  chapterId: "09"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When extending the flaps with the ALTERNATE FLAPS switch, why should you monitor the flap position indicator carefully as the flaps extend?
+      explanation: |-
+        ### FCOM 9.20.22, Alternate Extension
+
+        > The switch must be held in the DOWN position until the flaps reach the desired position. **No asymmetry or skew protection is provided through the alternate (electrical) flap drive system.**
+
+        ![Leading edge devices and trailing edge flaps](annex:AQAC)
+      presets:
+        - correctAnswers:
+            - text: No asymmetry protection is provided when using the alternate flap system.
+          wrongAnswers:
+            - text: Only the R needle indicates flap position when using alternate flaps.
+            - text: Only the L needle indicates flap position when using alternate flaps.
+            - text: If the switch is operated to DOWN it latches on and the flaps fully extend until the switch is returned to the centre.

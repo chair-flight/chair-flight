@@ -1,0 +1,786 @@
+- id: QFEEH
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When operating on the standby pack controls, what temperature do the packs produce?
+      explanation: |-
+        ### FCOM 2.31.6, Standby Pack Average Temperature
+
+        > If all zone controls and primary pack controls fail, the standby pack controls command the packs to produce air temperatures which will satisfy the **average temperature demand of the two cabin zones**. The trim air modulating valves will close. The flight deck zone Temperature Selector will have no effect on the standby pack controls.
+
+        ![Air conditioning pack schematic](annex:ATEV)
+      presets:
+        - correctAnswers:
+            - text: The average temperature demand of the two passenger cabin zones.
+          wrongAnswers:
+            - text: A fixed 24°C from the left pack and 18°C from the right pack.
+            - text: The temperature selected on the flight deck zone Temperature Selector.
+            - text: The last temperature set before the failure.
+    - type: simple
+      question: If all zone controls and primary pack controls fail, how is cabin temperature controlled?
+      explanation: |-
+        ### FCOM 2.31.6, Standby Pack Average Temperature
+
+        > If all zone controls and primary pack controls fail, the standby pack controls command the packs to produce air temperatures which will satisfy the **average temperature demand of the two cabin zones**. The trim air modulating valves will close. The flight deck zone Temperature Selector will have no effect on the standby pack controls.
+
+        ![Air conditioning pack schematic](annex:ATEV)
+      presets:
+        - correctAnswers:
+            - text: The standby pack controls command the packs to produce the average temperature demand of the two passenger cabin zones.
+          wrongAnswers:
+            - text: The last settings before the failure are maintained until the packs are selected OFF.
+            - text: Cabin temperature cannot be controlled in this situation.
+            - text: A fixed 24°C from the left pack and 18°C from the right pack.
+- id: QOMUS
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: If all Temperature Selectors are positioned OFF, which fixed temperatures do the packs produce?
+      explanation: |-
+        ### FCOM 2.31.6, Fixed Cabin Temperature
+
+        > If all Temperature Selectors are positioned OFF, the pack controls will cause the **left pack to maintain a fixed temperature of 75°F (24°C)** and the **right pack to maintain 65°F (18°C)** as measured at the pack temperature sensor.
+
+        ![Air conditioning pack schematic](annex:ATEV)
+      presets:
+        - correctAnswers:
+            - text: Left pack 24°C, right pack 18°C.
+          wrongAnswers:
+            - text: Left pack 20°C, right pack 22°C.
+            - text: Left pack 18°C, right pack 24°C.
+            - text: Left pack 22°C, right pack 20°C.
+    - type: simple
+      question: What is the result if all zone Temperature Selectors are positioned OFF?
+      explanation: |-
+        ### FCOM 2.31.6, Fixed Cabin Temperature
+
+        > If all Temperature Selectors are positioned OFF, the pack controls will cause the **left pack to maintain a fixed temperature of 75°F (24°C)** and the **right pack to maintain 65°F (18°C)** as measured at the pack temperature sensor.
+
+        ![Air conditioning pack schematic](annex:ATEV)
+      presets:
+        - correctAnswers:
+            - text: The left pack maintains 24°C and the right pack maintains 18°C.
+          wrongAnswers:
+            - text: The right pack maintains 75°F and the left pack maintains 65°F.
+            - text: The packs maintain an average temperature across all zones.
+            - text: The packs stop producing conditioned air.
+- id: QNTJV
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which systems rely on the bleed air system?
+      explanation: |-
+        ### FCOM 2.20.1, Introduction
+
+        > The following systems rely on the bleed air system for operation:
+        > - Air conditioning/pressurization
+        > - Wing and engine thermal anti-icing
+        > - Engine starting
+        > - Hydraulic reservoirs pressurization
+        > - Water tank pressurization
+
+        {{wrong-answers-table}}
+
+        ![Bleed air system schematic](annex:AQQH)
+      presets:
+        - correctAnswers:
+            - text: Air conditioning and pressurisation, wing and engine anti-ice, engine starting, hydraulic reservoir pressurisation, water tank pressurisation.
+          wrongAnswers:
+            - text: Air conditioning and pressurisation, wing and engine anti-ice, engine starting, hydraulic reservoir pressurisation.
+              mistake: Missing water tank pressurisation.
+            - text: Air conditioning and pressurisation, wing and engine anti-ice, hydraulic reservoir pressurisation, water tank pressurisation.
+              mistake: Missing engine starting.
+            - text: Wing and engine anti-ice, engine starting, hydraulic reservoir pressurisation, water tank pressurisation.
+              mistake: Missing air conditioning and pressurisation.
+- id: QQHMB
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 2.10.10, TRIP RESET Switch
+
+        > Push (if fault condition is corrected) –
+        > - resets BLEED TRIP OFF, PACK or ZONE TEMP lights
+        > - related engine bleed air valve opens, or related pack valve opens, or related trim air modulating valve opens
+        >
+        > Lights remain illuminated until reset.
+
+        ### FCOM 2.10.3, WING–BODY OVERHEAT Light
+
+        The TRIP RESET switch does not reset the WING–BODY OVERHEAT light.
+
+        ![Bleed air system schematic](annex:AQQH)
+      statements:
+        - text: Pushing the TRIP RESET switch resets a BLEED TRIP OFF light and opens the related engine bleed air valve.
+          answer: true
+        - text: Pushing the TRIP RESET switch resets a ZONE TEMP light and opens the related trim air modulating valve.
+          answer: true
+        - text: Pushing the TRIP RESET switch resets the WING-BODY OVERHEAT light.
+          answer: false
+        - text: Pushing the TRIP RESET switch closes the valve associated with the alert and extinguishes the light.
+          answer: false
+- id: QVBXL
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 2.31.1, Air Conditioning Pack
+
+        > The APU is capable of supplying bleed air for **two packs on the ground**, or **one pack in flight**.
+
+        ![Bleed air system schematic](annex:AGCY)
+      statements:
+        - text: The APU can supply bleed air for two packs on the ground, or one pack in flight.
+          answer: true
+        - text: The APU can supply bleed air for one pack on the ground, or two packs in flight.
+          answer: false
+- id: QCXMW
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 2.20.1, Engine Bleed Air Valves
+
+        > The engine bleed air valve acts as a **pressure regulator and shutoff valve**. With the engine bleed air switch ON, the valve is DC activated and pressure operated. The valve maintains proper system operating pressure and reduces bleed air outflow in response to high bleed air temperature.
+
+        ![Bleed air system schematic](annex:AGCY)
+      statements:
+        - text: The engine bleed air valve acts as both a pressure regulator and a shutoff valve.
+          answer: true
+        - text: The engine bleed air valve is a shutoff valve only; pressure regulation is done by the pack valves.
+          answer: false
+- id: QUDEO
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 2.20.1, Engine Bleed System Supply
+
+        > Engine bleed air is obtained from the **5th and 9th stages** of the compressor section.
+
+        ![Bleed air system schematic](annex:AGCY)
+      statements:
+        - text: Engine bleed air is obtained from the 5th and 9th stages of the compressor section.
+          answer: true
+        - text: Engine bleed air is obtained from the 4th and 10th stages of the compressor section.
+          answer: false
+- id: QKFTD
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: When is engine bleed air taken from the 9th stage?
+      explanation: |-
+        ### FCOM 2.20.1, Engine Bleed System Supply
+
+        > When 5th stage low pressure bleed air is insufficient for the bleed air system requirements, the **high stage valve modulates open** to maintain adequate bleed air pressure. During takeoff, climb, and most cruise conditions, low pressure bleed air from the 5th stage is adequate and the high stage valve remains closed.
+
+        ![Bleed air system schematic](annex:AGCY)
+      presets:
+        - correctAnswers:
+            - text: Only when 5th stage bleed air is insufficient and the high stage valve modulates open.
+          wrongAnswers:
+            - text: Constantly, together with the 5th stage.
+            - text: Only during takeoff and climb.
+            - text: Only when the APU bleed air valve is open.
+- id: QZZRQ
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: With the ISOLATION VALVE switch in AUTO, when is the isolation valve closed?
+      explanation: |-
+        ### FCOM 2.20.2, Isolation Valve
+
+        > The isolation valve isolates the left and right sides of the bleed air duct during normal operations. [...]
+        >
+        > With the isolation valve switch in AUTO, **both engine bleed air switches ON**, and **both air conditioning pack switches AUTO or HIGH**, the isolation valve is **closed**. The isolation valve opens if either engine bleed air switch or air conditioning pack switch is positioned OFF.
+
+        ![Bleed air system schematic](annex:AQQH)
+      presets:
+        - correctAnswers:
+            - text: When both engine BLEED air switches are ON and both PACK switches are AUTO or HIGH.
+          wrongAnswers:
+            - text: When the APU BLEED air switch is ON.
+            - text: When either engine BLEED air switch is OFF.
+            - text: When both PACK switches are OFF.
+    - type: simple
+      question: With the ISOLATION VALVE switch in AUTO, what opens the isolation valve?
+      explanation: |-
+        ### FCOM 2.20.2, Isolation Valve
+
+        > The isolation valve isolates the left and right sides of the bleed air duct during normal operations. [...]
+        >
+        > With the isolation valve switch in AUTO, **both engine bleed air switches ON**, and **both air conditioning pack switches AUTO or HIGH**, the isolation valve is **closed**. The isolation valve opens if either engine bleed air switch or air conditioning pack switch is positioned OFF.
+
+        ![Bleed air system schematic](annex:AQQH)
+      presets:
+        - correctAnswers:
+            - text: Either an engine BLEED air switch or a PACK switch positioned OFF.
+          wrongAnswers:
+            - text: The APU BLEED air switch positioned ON.
+            - text: Both PACK switches positioned HIGH.
+            - text: Both engine BLEED air switches positioned ON.
+- id: QGLLH
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the function of the DUAL BLEED light?
+      explanation: |-
+        ### FCOM 2.20.2, DUAL BLEED Light
+
+        > The DUAL BLEED light illuminates whenever the APU bleed air valve is open and the position of the engine bleed air switches and isolation valve would permit possible backpressure of the APU. Therefore, **thrust must be limited to idle** with the DUAL BLEED light illuminated.
+
+        ### FCOM 2.20.2, APU Bleed Air Valve
+
+        > With both the APU and engine bleed air valves open, and the engines operating at idle thrust, there is a possibility of APU bleed air back-pressuring the 9th stage modulating and shutoff valve. This would cause the 9th stage valve to close.
+
+        ![Bleed air system schematic](annex:AQQH)
+      presets:
+        - correctAnswers:
+            - text: It illuminates when the APU bleed air valve is open and the engine bleed air switches and isolation valve would permit possible backpressure of the APU.
+          wrongAnswers:
+            - text: It illuminates whenever both engines are providing bleed air at different thrust settings.
+            - text: It illuminates whenever the APU and both engines are running.
+            - text: It illuminates whenever APU duct pressure rises above a preset value.
+    - type: simple
+      question: The DUAL BLEED light is illuminated. What limit applies to engine thrust?
+      explanation: |-
+        ### FCOM 2.20.2, DUAL BLEED Light
+
+        > The DUAL BLEED light illuminates whenever the APU bleed air valve is open and the position of the engine bleed air switches and isolation valve would permit possible backpressure of the APU. Therefore, **thrust must be limited to idle** with the DUAL BLEED light illuminated.
+
+        ### FCOM 2.20.2, APU Bleed Air Valve
+
+        > With both the APU and engine bleed air valves open, and the engines operating at idle thrust, there is a possibility of APU bleed air back-pressuring the 9th stage modulating and shutoff valve. This would cause the 9th stage valve to close.
+
+        ![Bleed air system schematic](annex:AQQH)
+      presets:
+        - correctAnswers:
+            - text: Thrust must be limited to idle.
+          wrongAnswers:
+            - text: Thrust must be limited to the takeoff thrust setting.
+            - text: Thrust must be limited to the climb thrust setting.
+            - text: There is no thrust limit.
+- id: QEGAM
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which condition illuminates the amber DUAL BLEED light?
+      explanation: |-
+        ### FCOM 2.10.2, DUAL BLEED Light
+
+        > Illuminated (amber) – APU bleed air valve open and engine No. 1 BLEED air switch ON, or engine No. 2 BLEED air switch ON, APU bleed air valve and isolation valve open.
+
+        ![Bleed air system schematic](annex:AQQH)
+      presets:
+        - correctAnswers:
+            - text: APU bleed air valve open and engine No. 1 BLEED air switch ON.
+          wrongAnswers:
+            - text: APU bleed air valve open and isolation valve closed with both engine BLEED air switches OFF.
+            - text: APU BLEED air switch ON and both PACK switches OFF.
+            - text: Engine No. 2 BLEED air switch ON and isolation valve open, with the APU bleed air valve closed.
+- id: QMRLH
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does the BLEED TRIP OFF light indicate?
+      explanation: |-
+        ### FCOM 2.10.3, BLEED TRIP OFF Light
+
+        > Illuminated (amber) – **excessive engine bleed air temperature or pressure**
+        > - related engine bleed air valve closes automatically
+        > - requires reset
+
+        ![Bleed air system schematic](annex:AQQH)
+      presets:
+        - correctAnswers:
+            - text: Excessive engine bleed air temperature or pressure; the related engine bleed air valve has closed automatically.
+          wrongAnswers:
+            - text: A bleed air duct leak; the related engine bleed air valve has closed automatically.
+            - text: APU backpressure; the APU bleed air valve has closed automatically.
+            - text: Excessive pack temperature; the related pack valve has closed automatically.
+- id: QQWLB
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Where are the wing-body overheat sensors located?
+      explanation: |-
+        ### FCOM 2.20.6, Wing-Body Overheat
+
+        > A wing-body overheat condition is caused by a **bleed air duct leak**. It is sensed by the overheat sensors located as shown.
+
+        ### FCOM 2.10.3, WING–BODY OVERHEAT Light
+
+        > - **left light** indicates overheat from bleed air duct leak in left engine strut, left inboard wing leading edge, left air conditioning bay, **keel beam** or **APU bleed air duct**
+        > - **right light** indicates overheat from bleed air duct leak in right engine strut, right inboard wing leading edge or right air conditioning bay
+
+        ![Bleed air system schematic](annex:AGCY)
+      presets:
+        - correctAnswers:
+            - text: Engine struts, inboard wing leading edges, air conditioning bays, APU bleed duct, keel beam.
+          wrongAnswers:
+            - text: Engine struts, wing leading edge slats, air conditioning bays, APU duct, keel beam.
+            - text: Engine cowling lips, wing leading edge slats, air conditioning bays, APU compartment, keel beam.
+            - text: Engine cowl lips, wing leading edge slats, air conditioning bays, electronic equipment bay, APU bleed duct.
+- id: QIFHB
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Which wing-body overheat light illuminates for a leak in the APU bleed air duct?
+      explanation: |-
+        ### FCOM 2.20.6, Wing-Body Overheat
+
+        > A wing-body overheat condition is caused by a **bleed air duct leak**. It is sensed by the overheat sensors located as shown.
+
+        ### FCOM 2.10.3, WING–BODY OVERHEAT Light
+
+        > - **left light** indicates overheat from bleed air duct leak in left engine strut, left inboard wing leading edge, left air conditioning bay, **keel beam** or **APU bleed air duct**
+        > - **right light** indicates overheat from bleed air duct leak in right engine strut, right inboard wing leading edge or right air conditioning bay
+
+        ![Bleed air system schematic](annex:AQQH)
+      presets:
+        - correctAnswers:
+            - text: The left WING-BODY OVERHEAT light.
+          wrongAnswers:
+            - text: The right WING-BODY OVERHEAT light.
+            - text: Both WING-BODY OVERHEAT lights.
+            - text: The DUAL BLEED light.
+    - type: simple
+      question: A bleed air duct leak in the keel beam illuminates which light?
+      explanation: |-
+        ### FCOM 2.20.6, Wing-Body Overheat
+
+        > A wing-body overheat condition is caused by a **bleed air duct leak**. It is sensed by the overheat sensors located as shown.
+
+        ### FCOM 2.10.3, WING–BODY OVERHEAT Light
+
+        > - **left light** indicates overheat from bleed air duct leak in left engine strut, left inboard wing leading edge, left air conditioning bay, **keel beam** or **APU bleed air duct**
+        > - **right light** indicates overheat from bleed air duct leak in right engine strut, right inboard wing leading edge or right air conditioning bay
+
+        ![Bleed air system schematic](annex:AQQH)
+      presets:
+        - correctAnswers:
+            - text: The left WING-BODY OVERHEAT light.
+          wrongAnswers:
+            - text: The right WING-BODY OVERHEAT light.
+            - text: Both WING-BODY OVERHEAT lights.
+            - text: The BLEED TRIP OFF light.
+- id: QAYFW
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: How many trim air modulating valves are there?
+      explanation: |-
+        ### FCOM 2.31.5, Zone Temperature Control
+
+        > There are three zones: flight deck (CONT CAB), forward passenger cabin (FWD CAB) and aft passenger cabin (AFT CAB). [...] The quantity of trim air is regulated by **individual trim air modulating valves**.
+
+        ![Air conditioning distribution schematic](annex:ANKO)
+      presets:
+        - correctAnswers:
+            - text: Three, one for each zone.
+          wrongAnswers:
+            - text: One.
+            - text: Two.
+            - text: Four.
+- id: QDQCB
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 2.31.5, Zone Temperature Control
+
+        > The packs produce an air temperature that satisfies the zone which requires the **most cooling**. Zone temperature is controlled by introducing the proper amount of trim air to the zone supply ducts. The quantity of trim air is regulated by individual trim air modulating valves.
+
+        Trim air is decompressed bleed air that has not been cooled. Mixing it with the cold pack air lets one pack satisfy several zones.
+
+        ![Air conditioning distribution schematic](annex:ANKO)
+      statements:
+        - text: The packs produce the air temperature required by the zone that needs the most cooling, and trim air warms the other zones.
+          answer: true
+        - text: The packs produce the air temperature required by the zone that needs the least cooling, and the other zones are cooled with trim air.
+          answer: false
+- id: QDGCB
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: A flight deck zone temperature control fails. What happens?
+      explanation: |-
+        ### FCOM 2.31.5, Zone Temperature Control Modes
+
+        > Failure of the primary flight deck temperature control will cause an **automatic switch to the back up control** and will illuminate the CONT CAB amber ZONE TEMP light upon Master Caution Recall. Failure of both the primary and standby controls will illuminate the lights automatically.
+
+        ![Air conditioning distribution schematic](annex:ANKO)
+      presets:
+        - correctAnswers:
+            - text: Control switches automatically to the backup controller and the CONT CAB ZONE TEMP light illuminates on Master Caution Recall.
+          wrongAnswers:
+            - text: The flight deck is supplied with fixed 24°C air by the left pack.
+            - text: The CONT CAB ZONE TEMP light illuminates at once and the trim air valve closes.
+            - text: Control transfers to the forward cabin Temperature Selector.
+    - type: simple
+      question: Pressing Master Caution Recall illuminates the CONT CAB ZONE TEMP light. What does this indicate?
+      explanation: |-
+        ### FCOM 2.10.9, ZONE TEMP Lights
+
+        > During Master Caution light recall:
+        > - CONT CAB indicates **failure of the flight deck primary or standby temperature control**
+        > - either FWD CAB or AFT CAB indicates failure of the associated zone temperature control
+        > - lights will extinguish when Master Caution is reset
+
+        ![Air conditioning distribution schematic](annex:ANKO)
+      presets:
+        - correctAnswers:
+            - text: Failure of either the flight deck primary or the standby temperature control.
+          wrongAnswers:
+            - text: A flight deck duct overheat.
+            - text: Failure of both the primary and standby flight deck temperature controls.
+            - text: Failure of the forward cabin temperature control.
+- id: QZUHX
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What happens if the primary pack control of one pack fails?
+      explanation: |-
+        ### FCOM 2.31.2, Pack Temperature Control
+
+        > If a primary pack control fails, the affected pack is controlled by the **standby pack control in the opposite controller**. A primary or standby pack control failure causes the PACK, MASTER CAUTION and AIR COND System Annunciator lights to illuminate during recall.
+
+        ![Air conditioning pack schematic](annex:ATEV)
+      presets:
+        - correctAnswers:
+            - text: The pack is controlled by the standby pack control in the opposite controller.
+          wrongAnswers:
+            - text: The pack shuts down and the PACK light illuminates.
+            - text: The pack is controlled by the standby pack control in the same controller.
+            - text: The pack goes to a fixed temperature.
+    - type: simple
+      question: The right pack primary controller fails. Which controller now controls the right pack?
+      explanation: |-
+        ### FCOM 2.31.2, Pack Temperature Control
+
+        > If a primary pack control fails, the affected pack is controlled by the **standby pack control in the opposite controller**.
+
+        ![Air conditioning pack schematic](annex:ATEV)
+      presets:
+        - correctAnswers:
+            - text: The standby pack control in the left controller.
+          wrongAnswers:
+            - text: The standby pack control in the right controller.
+            - text: The primary pack control in the left controller.
+            - text: No controller; the pack operates uncontrolled.
+- id: QWYYZ
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: Both PACK switches are AUTO and one pack fails in flight with the flaps up. What flow does the remaining pack deliver?
+      explanation: |-
+        ### FCOM 2.31.1, Air Conditioning Pack
+
+        > When the aircraft is not on the ground and the flaps are up, and both air conditioning pack switches are set to AUTO, and the engine bleed switches are both set to ON, if one pack fails or one engine fails or a pack switch is selected to OFF, the **remaining pack automatically switches to high air flow**.
+      presets:
+        - correctAnswers:
+            - text: High flow, selected automatically.
+          wrongAnswers:
+            - text: Low flow, until HIGH is selected manually.
+            - text: Normal flow, until the flaps are extended.
+            - text: No flow; the second pack must be restarted.
+    - type: simple
+      question: What is the result if one pack fails in flight?
+      explanation: |-
+        ### FCOM 2.31.1, Air Conditioning Pack
+
+        > A single pack in high flow is capable of maintaining pressurization and acceptable temperatures throughout the airplane **up to the maximum certified ceiling**.
+
+        ### FCOM 2.40.1, Cabin Pressure Controller
+
+        > [...] at the airplane maximum certified ceiling of 41,000 feet.
+      presets:
+        - correctAnswers:
+            - text: The remaining pack, in high flow, maintains pressurisation and acceptable cabin temperatures up to 41,000 feet.
+          wrongAnswers:
+            - text: The remaining pack maintains pressurisation only if all Temperature Selectors are OFF.
+            - text: The remaining pack cannot operate in high flow.
+            - text: The remaining pack maintains pressurisation only up to FL250.
+- id: QPWCG
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What is the primary function of the recirculation fans?
+      explanation: |-
+        ### FCOM 2.31.7, Recirculation Fans
+
+        > The recirculation fan system **reduces the air conditioning system pack load and the engine bleed air demand**. Air from the passenger cabin and electrical equipment compartment is drawn to the forward cargo compartment where it is filtered and recirculated to the mix manifold.
+      presets:
+        - correctAnswers:
+            - text: Reduce the load on the packs and the engine bleed air demand.
+          wrongAnswers:
+            - text: To provide standby air conditioning if the packs fail.
+            - text: To remove contaminants with HEPA filters, as their main purpose.
+            - text: To heat the forward cargo compartment.
+- id: QZNFD
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 2.31.1, Air Conditioning System Description
+
+        > Conditioned air from the **left pack, upstream of the mix manifold, flows directly to the flight deck**. Excess air from the left pack, air from the right pack, and air from the recirculation system is combined in the mix manifold.
+
+        ### FCOM 2.31.6, Air Conditioning Distribution
+
+        > Since the flight deck requires only a fraction of the air supply provided by the left pack, most of the left pack output is routed to the mix manifold.
+      statements:
+        - text: Conditioned air from the left pack flows directly to the flight deck, upstream of the mix manifold.
+          answer: true
+        - text: Conditioned air from the left pack flows to the flight deck from the mix manifold.
+          answer: false
+        - text: Most of the left pack output goes to the flight deck.
+          answer: false
+- id: QITUR
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: The differential pressure of the cabin is limited by a pressure relief system. Which statement is correct?
+      explanation: |-
+        ### FCOM 2.40.1, Pressure Relief Valves
+
+        > **Two pressure relief valves** provide safety pressure relief by limiting the differential pressure to a maximum of **9.1 psi**. A negative relief valve prevents external atmospheric pressure from exceeding internal cabin pressure.
+      presets:
+        - correctAnswers:
+            - text: Two pressure relief valves limit the differential pressure to 9.1 psi.
+          wrongAnswers:
+            - text: A negative pressure relief valve limits the cabin pressure to 9.1 psi above ambient.
+            - text: The outflow valve opens when the differential pressure reaches 9.1 psi.
+            - text: Two negative pressure relief valves limit the cabin pressure to 9.1 psi above ambient.
+- id: QBOTX
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: With the pressurisation in MANUAL during descent and the outflow valve still closed or partially closed, what misleading indication might the CABIN ALT gauge show?
+      explanation: |-
+        ### FCOM 2.10.12, Cabin Altitude Panel
+
+        > Note: The CABIN ALT indicator can show a cabin altitude of **less than 0 feet** and reach the upper end of the cabin altitude scale. This can occur under the following conditions:
+        > - on the ground at airports close to or below sea level
+        > - **in flight when the cabin is pressurized below sea level**
+
+        The needle continues past zero, so it points to a high cabin altitude when the cabin is in fact below sea level.
+      presets:
+        - correctAnswers:
+            - text: The needle may continue anti-clockwise past zero and point to a high cabin altitude.
+          wrongAnswers:
+            - text: The needle sticks at zero.
+            - text: The needle shows the airplane altitude.
+            - text: The needle oscillates between 0 and 10,000 feet.
+- id: QJRXW
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: In MANUAL pressurisation mode, what position should the outflow valve be in on landing?
+      explanation: |-
+        ### FCOM SP.2.4, Pressurization Control Operation – Manual Mode
+
+        > Before entering the landing pattern, slowly position the outflow valve to **full open** to depressurize the airplane. Verify differential pressure is zero.
+      presets:
+        - correctAnswers:
+            - text: Fully open.
+          wrongAnswers:
+            - text: Fully closed.
+            - text: Half open.
+            - text: Closed, until after touchdown.
+- id: QQJPP
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: simple
+      question: What does the ALT HORN CUTOUT switch do?
+      explanation: |-
+        ### FCOM 2.10.13, Altitude (ALT) HORN CUTOUT Switch
+
+        > Push –
+        > - **cuts out intermittent cabin altitude warning horn**
+        > - altitude warning horn sounds when cabin exceeds 10,000 feet altitude
+      presets:
+        - correctAnswers:
+            - text: It silences the intermittent cabin altitude warning horn.
+          wrongAnswers:
+            - text: It silences the takeoff configuration warning horn.
+            - text: It resets the AUTO FAIL light.
+            - text: It closes the outflow valve.
+    - type: simple
+      question: At what cabin altitude does the cabin altitude warning horn sound?
+      explanation: |-
+        ### FCOM 2.10.13, Altitude (ALT) HORN CUTOUT Switch
+
+        > Push –
+        > - cuts out intermittent cabin altitude warning horn
+        > - altitude warning horn sounds when **cabin exceeds 10,000 feet** altitude
+      presets:
+        - correctAnswers:
+            - text: When the cabin altitude exceeds 10,000 feet.
+          wrongAnswers:
+            - text: When the cabin altitude exceeds 8,000 feet.
+            - text: When the cabin altitude exceeds 12,500 feet.
+            - text: When the cabin altitude exceeds 15,800 feet.
+    - type: simple
+      question: How can you silence the CABIN ALTITUDE warning horn?
+      explanation: |-
+        ### FCOM 15.20.6, Intermittent Cabin Altitude/Configuration Warning
+
+        > Cabin altitude warning activates when cabin altitude exceeds 10,000 feet. **An intermittent warning horn sounds and the CABIN ALTITUDE warning light illuminates.** The warning horn may be silenced by momentarily pressing the ALT HORN CUTOUT switch on the Cabin Altitude Panel. The warning light remains illuminated until the cabin altitude descends below 10,000 feet.
+      presets:
+        - correctAnswers:
+            - text: Press the ALT HORN CUTOUT switch on the cabin altitude panel.
+          wrongAnswers:
+            - text: It cannot be silenced until the cabin altitude descends below 10,000 ft.
+            - text: Put the pressurisation panel into MAN mode.
+            - text: Descend below 14,000 ft.
+- id: QXNHW
+  subjectId: b737
+  chapterId: "02"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds: []
+  templates:
+    - type: true-or-false
+      question: ""
+      explanation: |-
+        ### FCOM 2.40.3, Pressurization Outflow
+
+        > Cabin air outflow is controlled by the **outflow valve and the overboard exhaust valve**. A small amount is also exhausted through toilet and galley vents, miscellaneous fixed vents, and by seal leakage.
+      statements:
+        - text: Cabin air outflow is controlled by the outflow valve and the overboard exhaust valve, and a small amount leaves through toilet and galley vents.
+          answer: true
+        - text: All cabin air outflow passes through the outflow valve.
+          answer: false

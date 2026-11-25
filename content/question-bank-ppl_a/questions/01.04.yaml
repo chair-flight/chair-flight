@@ -1,0 +1,157 @@
+- id: QZWSB
+  subjectId: "01"
+  chapterId: "01.04"
+  relatedQuestionIds:
+    - QPLOA
+  annexes: []
+  learningObjectiveIds:
+    - "01.04.02"
+  templates:
+    - type: simple
+      question: What is the subject of ICAO Annex 1?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Flight crew licensing
+          wrongAnswers:
+            - text: Air traffic services
+            - text: Operation of aircraft
+            - text: Rules of the air
+- id: QTEBN
+  subjectId: "01"
+  chapterId: "01.04"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "01.04.02"
+  templates:
+    - type: simple
+      question: The validity of a medical examination certificate class 2 for a 62-year-old pilot is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 12 months
+          wrongAnswers:
+            - text: 48 months
+            - text: 24 months
+            - text: 60 months
+- id: QLLTI
+  subjectId: "01"
+  chapterId: "01.04"
+  relatedQuestionIds:
+    - QELSV
+  annexes: []
+  learningObjectiveIds:
+    - "01.04.02"
+  templates:
+    - type: simple
+      question: What is the minimum age for a PPL(A) student pilot for the first solo flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 16 years
+          wrongAnswers:
+            - text: 21 years
+            - text: 18 years
+            - text: 17 years
+- id: QELSV
+  subjectId: "01"
+  chapterId: "01.04"
+  relatedQuestionIds:
+    - QLLTI
+    - QLNQX
+    - QJBIQ
+  annexes: []
+  learningObjectiveIds:
+    - "01.04.02"
+  templates:
+    - type: simple
+      question: What is the minimum age to obtain a private pilot licence?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 17 years
+          wrongAnswers:
+            - text: 16 years
+            - text: 21 years
+            - text: 18 years
+- id: QJBIQ
+  subjectId: "01"
+  chapterId: "01.04"
+  relatedQuestionIds:
+    - QLNQX
+    - QELSV
+    - QUQTP
+  annexes: []
+  learningObjectiveIds:
+    - "01.04.02"
+  templates:
+    - type: simple
+      question: The possession of a European PPL(A) entitles the holder to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Act as PIC on non-commercial flights without compensation as well as to receive compensation as a flight instructor.
+          wrongAnswers:
+            - text: Act as pilot in commercial and non-commercial flights with single engine aircraft.
+            - text: Act as pilot on a commercial flight when there are at most 4 people on board.
+            - text: Act as PIC, and only for flights in aircraft with a MTOW of maximum 2000 kg a compensation may be obtained.
+- id: QLNQX
+  subjectId: "01"
+  chapterId: "01.04"
+  relatedQuestionIds:
+    - QELSV
+    - QJBIQ
+  annexes: []
+  learningObjectiveIds:
+    - "01.04.02"
+  templates:
+    - type: simple
+      question: What is the period of validity of a private pilot licence (PPL)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Unlimited
+          wrongAnswers:
+            - text: 60 months
+            - text: 24 months
+            - text: 48 months
+- id: QUQTP
+  subjectId: "01"
+  chapterId: "01.04"
+  relatedQuestionIds:
+    - QJBIQ
+    - QXPYI
+  annexes: []
+  learningObjectiveIds:
+    - "01.04.02"
+  templates:
+    - type: simple
+      question: In which way is a SEP (land) rating renewed if you do not meet the required flight time?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A proficiency check with an examiner.
+          wrongAnswers:
+            - text: The ATO can renew the rating after a training flight with a flight instructor.
+            - text: The required flight experience has to be accumulated under supervision of a flight instructor.
+            - text: According to the flight experience there have to be several training flights under supervision of an ATO.
+- id: QXPYI
+  subjectId: "01"
+  chapterId: "01.04"
+  relatedQuestionIds:
+    - QUQTP
+  annexes: []
+  learningObjectiveIds:
+    - "01.04.02"
+  templates:
+    - type: simple
+      question: What are the minimum requirements among others to acquire a rating for VFR night flights?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: At least 5 additional flight hours at night, three of them with a flight instructor, with at least 1 hour cross-country flight plus 5 solo take-offs and full-stop landings.
+          wrongAnswers:
+            - text: At least 10 additional flight hours at night, three of them with a flight instructor with at least 1 hour cross-country flight plus 5 solo take-offs and full-stop landings.
+            - text: At least 5 additional flight hours at night, four of them with a flight instructor with at least 1 hour cross-country flight plus 5 solo take-offs and full-stop landings.
+            - text: At least 5 additional flight hours at night, three of them with a flight instructor with at least 1 hour cross-country flight plus 10 solo take-offs and full-stop landings.

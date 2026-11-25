@@ -1,0 +1,476 @@
+- id: QMKVY
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.01.02"
+  templates:
+    - type: simple
+      question: What is the parallax error?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Wrong interpretation of instruments caused by the angle of vision
+          wrongAnswers:
+            - text: Misperception of speed during taxiing
+            - text: A decoding error in communication between pilots
+            - text: Long-sightedness due to aging especially during night
+- id: QMJEJ
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds:
+    - QBBRX
+    - QONNL
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.01.02"
+  templates:
+    - type: simple
+      question: An acceleration during a straight horizontal flight can lead to the illusion of...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A climb.
+          wrongAnswers:
+            - text: A descent.
+            - text: An inverted flight.
+            - text: A bank.
+- id: QBBRX
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds:
+    - QMJEJ
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.01.02"
+  templates:
+    - type: simple
+      question: A deceleration during a straight horizontal flight can lead to the illusion of...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A descent.
+          wrongAnswers:
+            - text: A climb.
+            - text: A bank.
+            - text: An inverted flight.
+- id: QRSFH
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds:
+    - QKINK
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.01.02"
+  templates:
+    - type: simple
+      question: Visual illusions are mostly caused by...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Misinterpretation of the brain.
+          wrongAnswers:
+            - text: Rapid eye movements.
+            - text: Colour blindness.
+            - text: Binocular vision.
+- id: QKINK
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds:
+    - QRSFH
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.01.02"
+  templates:
+    - type: simple
+      question: Which optical illusion might be caused by a runway with an upslope during the approach?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The pilot has the feeling that the approach is too high and therefore descends below the regular glide slope.
+          wrongAnswers:
+            - text: The pilot has the feeling that the approach is too fast and reduces the speed below the normal approach speed.
+            - text: The pilot has the feeling that the approach is too slow and speeds up above the normal approach speed.
+            - text: The pilot has the feeling that the approach is too low and therefore approaches the runway above the regular glide slope.
+            - text: A landing beside the centerline.
+            - text: A hard landing.
+            - text: An undershoot.
+    - type: simple
+      question: What impression may be caused when approaching a runway with an upslope?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An overshoot
+          wrongAnswers:
+            - text: A hard landing
+            - text: An undershoot
+            - text: A landing beside the centerline
+- id: QMSDQ
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.01.03"
+  templates:
+    - type: simple
+      question: For what approximate time period can the short-term memory store information?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 10 to 20 seconds
+          wrongAnswers:
+            - text: 35 to 50 seconds
+            - text: 30 to 40 seconds
+            - text: 3 to 7 seconds
+    - type: simple
+      question: Which statement is correct with regard to the short-term memory?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It can store 7 (±2) items for 10 to 20 seconds.
+          wrongAnswers:
+            - text: It can store 10 (±5) items for 30 to 60 seconds.
+            - text: It can store 3 (±1) items for 5 to 10 seconds.
+            - text: It can store 5 (±2) items for 1 to 2 minutes.
+- id: QQIAL
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.02.01"
+  templates:
+    - type: simple
+      question: The majority of aviation accidents are caused by...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Human failure
+          wrongAnswers:
+            - text: Technical failure
+            - text: Meteorological influences
+            - text: Geographical influences
+- id: QXCBV
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.02.01"
+  templates:
+    - type: simple
+      question: What does the term "confirmation bias" mean?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The preference to find arguments to prove one's own mental model
+          wrongAnswers:
+            - text: The feedback loop in a closed communication
+            - text: The bias to confirm each radio call
+            - text: The critical check of ambiguous situations in flight
+            - text: Double check of relevant actions
+            - text: Proper use of checklists
+            - text: To be doubtful if something looks unclear or ambiguous
+    - type: simple
+      question: Which factor can lead to human error?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The bias to see what we expect to see
+          wrongAnswers:
+            - text: Double check of relevant actions
+            - text: Proper use of checklists
+            - text: To be doubtful if something looks unclear or ambiguous
+- id: QDRWM
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds:
+    - QMEUI
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.02.01"
+  templates:
+    - type: simple
+      question: The "Swiss cheese model" can be used to explain the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Error chain.
+          wrongAnswers:
+            - text: Procedure for an emergency landing.
+            - text: Optimal problem solution.
+            - text: State of readiness of a pilot.
+- id: QMEUI
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds:
+    - QDRWM
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.02.01"
+  templates:
+    - type: simple
+      question: What is a latent error?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An error which remains undetected in the system for a long time.
+          wrongAnswers:
+            - text: An error which is made by the pilot actively and consciously.
+            - text: An error which only has consequences after landing.
+            - text: An error which has an immediate effect on the controls.
+- id: QMNTQ
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.02.02"
+  templates:
+    - type: simple
+      question: Under which circumstances is it more likely to accept higher risks?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Due to group-dynamic effects
+          wrongAnswers:
+            - text: If there is not enough information available
+            - text: During check flights due to a high level of nervousness
+            - text: During flight planning when excellent weather is forecast
+    - type: simple
+      question: What is the meaning of "risky shift"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The tendency to accept higher risks in groups
+          wrongAnswers:
+            - text: Crossing of rudder and ailerons on short final
+            - text: Spontaneous change of landing direction when the runway has an upslope
+            - text: Seat adjustment in flight
+- id: QKRVF
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds:
+    - QHZMA
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.03.01"
+  templates:
+    - type: simple
+      question: In what different ways can a risk be handled appropriately?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Avoid, reduce, transfer, accept
+          wrongAnswers:
+            - text: Extrude, avoid, palliate, transfer
+            - text: Ignore, accept, transfer, extrude
+            - text: Avoid, ignore, palliate, reduce
+- id: QHZMA
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds:
+    - QKRVF
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.03.01"
+  templates:
+    - type: simple
+      question: During flight a problem occurs which you must solve, how do you proceed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Solve the problem immediately, and otherwise refer to the operation manual.
+          wrongAnswers:
+            - text: Contact another pilot via radio for help while continuing to fly.
+            - text: Stress and its different symptoms are irrelevant for flight safety.
+            - text: There is no time for solving problems during flight.
+- id: QHZJV
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.04.01"
+  templates:
+    - type: simple
+      question: The ongoing process to monitor the current flight situation is called...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Situational awareness
+          wrongAnswers:
+            - text: Constant flight check
+            - text: Situational thinking
+            - text: Anticipatory check procedure
+- id: QTOZZ
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.04.02"
+  templates:
+    - type: simple
+      question: Regarding the communication model, how can the use of the same code during radio communication be ensured?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: By the use of radio phraseology
+          wrongAnswers:
+            - text: By using radios certified for aviation use only
+            - text: By the use of proper headsets
+            - text: By a particular frequency allocation
+- id: QUDNK
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.05.01"
+  templates:
+    - type: simple
+      question: What is the best combination of traits with respect to the individual attitude and behaviour for a pilot?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Extroverted - stable
+          wrongAnswers:
+            - text: Introverted - unstable
+            - text: Introverted - stable
+            - text: Extroverted - unstable
+- id: QVQRQ
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds:
+    - QELRV
+    - QNXCI
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.05.02"
+  templates:
+    - type: simple
+      question: Which dangerous attitudes are often combined?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Macho and invulnerability
+          wrongAnswers:
+            - text: Impulsivity and carefulness
+            - text: Invulnerability and self-abandonment
+            - text: Self-abandonment and macho
+- id: QELRV
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds:
+    - QVQRQ
+    - QNXCI
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.05.02"
+  templates:
+    - type: simple
+      question: What is an indication for a macho attitude?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Risky flight manoeuvres to impress spectators on ground
+          wrongAnswers:
+            - text: Careful walkaround procedure
+            - text: Comprehensive risk assessment when faced with unfamiliar situations
+            - text: Quick resignation in complex and critical situations
+- id: QNXCI
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds:
+    - QVQRQ
+    - QELRV
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.05.02"
+  templates:
+    - type: simple
+      question: Complacency is a risk due to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Increased cockpit automation.
+          wrongAnswers:
+            - text: The high number of mistakes normally made by humans.
+            - text: The high error rate of technical systems.
+            - text: Better training options for young pilots.
+- id: QLDWH
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds:
+    - QTYIJ
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.06.02"
+  templates:
+    - type: simple
+      question: Which answer is correct concerning stress?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Stress can occur if there seems to be no solution for a given problem
+          wrongAnswers:
+            - text: Stress and its different symptoms are irrelevant for flight safety
+            - text: Everybody reacts to stress in the same manner
+            - text: Training and experience have no influence on the occurence of stress
+- id: QTYIJ
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds:
+    - QLDWH
+  annexes: []
+  learningObjectiveIds:
+    - "02.02.06.02"
+  templates:
+    - type: simple
+      question: Which of the following qualities are influenced by stress? 1. Attention 2. Concentration 3. Responsiveness 4. Memory
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, 3, 4
+          wrongAnswers:
+            - text: 2, 4
+            - text: 1, 2, 3
+            - text: "1"
+- id: QWEUY
+  subjectId: "02"
+  chapterId: "02.02"
+  relatedQuestionIds: []
+  annexes:
+    - id: AUSO
+  learningObjectiveIds:
+    - "02.02.06.01"
+  templates:
+    - type: simple
+      question: |-
+        At which point in the diagram will a pilot find themself overstrained? P = performance, A = arousal / stress.
+
+        ![Curve of performance (vertical axis P) against arousal or stress (horizontal axis A)](annex:AUSO)
+      explanation: Performance rises with arousal up to an optimum and then falls again. Point D lies on the falling side of the curve, at high arousal and falling performance, which is overload.
+      presets:
+        - correctAnswers:
+            - text: Point D
+          wrongAnswers:
+            - text: Point A
+            - text: Point B
+            - text: Point C
+    - type: simple
+      question: |-
+        The ideal level of arousal is at which point in the diagram? P = Performance A = Arousal / Stress
+
+        ![Curve of performance (vertical axis P) against arousal or stress (horizontal axis A)](annex:AUSO)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Point B
+          wrongAnswers:
+            - text: Point A
+            - text: Point D
+            - text: Point C

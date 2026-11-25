@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="285" height="250" viewBox="94 123 285 250" role="img" aria-labelledby="title description" xml:lang="en-GB">
+  <title id="title">System A reservoir after an engine-driven pump leak</title>
+  <desc id="description">A leak in the System A engine-driven pump supply line drains the reservoir to the lip of its standpipe, about 20 per cent on the quantity indication. The electric pump continues to draw fluid from below the standpipe and maintains System A pressure.</desc>
+  <metadata>Detail adapted from the 737-800 Hydraulic Power Distribution Schematic, FCOM Rev 38, with the leak and residual fluid level based on 13.20.3.</metadata>
+  <style>
+    :root { --ink: #171a1c; --paper: #ffffff; --red: #c41c1c; --backdrop: #f3f4f6 }
+    @media (prefers-color-scheme: dark) {
+      :root { --ink: #f0f4f8; --paper: #171a1c; --red: #e5484d; --backdrop: #0b0d0e }
+    }
+    :root[data-theme="light"] { --ink: #171a1c; --paper: #ffffff; --red: #c41c1c; --backdrop: #f3f4f6 }
+    :root[data-theme="dark"] { --ink: #f0f4f8; --paper: #171a1c; --red: #e5484d; --backdrop: #0b0d0e }
+    .outline { fill: none; stroke: var(--ink); stroke-width: 2.2 }
+    .pipe-edge { fill: none; stroke: var(--ink); stroke-width: 15 }
+    .pipe-core { fill: none; stroke-width: 10.5 }
+    .a { stroke: var(--red) }
+    .depleted { stroke: var(--paper) }
+    .fill-a { fill: var(--red) }
+    .component { fill: var(--paper); stroke: var(--ink); stroke-width: 2.2 }
+    .component-fill { fill: var(--paper) }
+    .label { font-family: Menlo, Consolas, "Liberation Mono", monospace; font-size: 14px; font-weight: 700; fill: var(--ink) }
+    .backdrop { fill: var(--backdrop) }
+    .leak { fill: var(--red) }
+    .spray { fill: none; stroke: var(--red); stroke-width: 2.6; stroke-linecap: round }
+  </style>
+  <rect x="94" y="123" width="285" height="250" class="backdrop"/>
+
+  <path d="M207 148Q243 132 279 148V240L269 244V257H296V281H282V271H256V247Q243 249 230 247L223 252L216 250V244L207 240Z" class="component-fill"/>
+  <path d="M207 220H216V244L207 240Z M230 220H279V240L269 244V257H296V281H282V271H256V247Q243 249 230 247Z" class="fill-a"/>
+  <path d="M190 281V257H216L223 260 230 257V271H204V281Z" class="component-fill"/>
+  <path d="M216 220V250L223 252 230 249V220 M216 244L207 240V148Q243 132 279 148V240L269 244V257H296V281 M282 281V271H256V247Q243 249 230 247 M190 281V257H216L223 260 230 257V271H204V281 M207 155H192 M207 167H192" class="outline"/>
+  <text x="243" y="185" text-anchor="middle" class="label"><tspan x="243">SYSTEM</tspan><tspan x="243" dy="16">A</tspan></text>
+  <text x="110" y="167" class="label"><tspan x="110">AIR</tspan><tspan x="110" dy="16">PRESSURE</tspan></text>
+
+  <path d="M216 252q-9-8-21-10 M215 254q-11-1-19 2 M214 255q-6 3-9 8" class="spray"/>
+  <path d="M189 238q-6-5-11-3 3 5 11 3Zm0 20q-6-1-10 4 6 3 10-4Zm14 10q-6 2-6 8 5-2 6-8Z" class="leak"/>
+  <text x="147" y="227" class="label leak">LEAK</text>
+
+  <path d="M197 301V319H290V300 M243 319V373" class="pipe-edge"/>
+  <path d="M197 301V319H243" class="pipe-core depleted"/>
+  <path d="M290 300V319H243V373" class="pipe-core a"/>
+
+  <g transform="translate(145 235) rotate(45)">
+    <rect width="15" height="35" class="component"/>
+    <path d="M0 7h15 M0 14h15 M0 21h15 M0 28h15 M15 17.5h10" class="outline"/>
+  </g>
+  <path d="M137 277L162 251 188 278H206V304H161Z" class="component"/>
+  <circle cx="351" cy="251" r="18" class="component"/>
+  <text x="351" y="256" text-anchor="middle" class="label">M</text>
+  <path d="M280 278H297L324 251 350 277 324 304H280Z" class="component"/>
+</svg>

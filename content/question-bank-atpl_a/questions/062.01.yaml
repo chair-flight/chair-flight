@@ -1,0 +1,1934 @@
+- id: QKZLU
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622399
+    - AVEXAM-63890
+    - BGS-621052
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.01.01
+  templates:
+    - type: simple
+      question: At what velocity do electromagnetic waves travel?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The speed of light.
+          wrongAnswers:
+            - text: The speed of sound.
+            - text: It depends on the frequency of the wave.
+            - text: The speed of light + velocity of the transmitter.
+- id: QJCSW
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627662
+    - BGS-621011
+    - AVEXAM-35539
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.02.01
+  templates:
+    - type: simple
+      question: How is the unit Hertz (Hz) defined?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The number of electromagnetic oscillations per second.
+          wrongAnswers:
+            - text: The time of one complete oscillation.
+            - text: The distance a radio wave travels in one second.
+            - text: The number of electromagnetic oscillations per minute.
+- id: QFKSO
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621459
+    - AVEXAM-6849
+    - BGS-621119
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.02.03
+  templates:
+    - type: simple
+      question: "The amplitude of a wave or oscillation is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Its maximum deflection.
+          wrongAnswers:
+            - text: The information impressed onto the carrier wave.
+            - text: Speed of light divided by frequency.
+            - text: Its maximum length.
+- id: QAVQB
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627110
+    - AVEXAM-70814
+    - BGS-620040
+    - ATPLQ-627246
+    - BGS-620019
+    - AVEXAM-94428
+    - BGS-621268
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.02.04
+  templates:
+    - type: simple
+      question: What is the wavelength of a non-directional beacon (NDB) transmitting on {{freq}} kHz? Give the answer in metres.
+      explanation: |-
+        A radio wave travels at the speed of light, about 300 000 000 m/s. The wavelength is that speed divided by the frequency in hertz. The frequency is given in kHz, so the same result is found by dividing 300 000 by the frequency in kHz.
+
+        **Solution**
+
+        $$
+        \frac{300000}{\text{Frequency}} = \frac{300000}{ {{freq}} } = \mathbf{ {{answer}}\ \text{m} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} m**: a factor of ten too small, the decimal point is in the wrong place.
+        - **{{d2}} m**: a factor of ten too large.
+        - **{{d3}} m**: uses 3 000 instead of 300 000 in the calculation.
+        - **{{d4}} m**: multiplies by the frequency instead of dividing.
+      presets:
+        - variables:
+            freq: 375
+            answer: 800
+            d1: 80
+            d2: 8000
+            d3: 8
+            d4: 112500000
+          correctAnswers:
+            - text: 800 m
+          wrongAnswers:
+            - text: 80 m
+            - text: 8 m
+            - text: 112500000 m
+            - text: 8000 m
+        - variables:
+            freq: 300
+            answer: 1000
+            d1: 100
+            d2: 10000
+            d3: 10
+            d4: 90000000
+          correctAnswers:
+            - text: 1000 m
+          wrongAnswers:
+            - text: 100 m
+            - text: 10 m
+            - text: 90000000 m
+            - text: 10000 m
+- id: QBSCY
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds:
+    - QTHFL
+  externalQuestionIds:
+    - ATPLQ-628427
+    - BGS-621144
+    - AVEXAM-33709
+    - ATPLQ-625127
+    - BGS-621113
+    - BGS-620660
+    - BGS-620661
+    - AVEXAM-80397
+    - AVEXAM-45881
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.02.04
+  templates:
+    - type: simple
+      question: |-
+        A radio wave has a frequency of {{freq}} kHz.
+
+        What is its wavelength in metres?
+      explanation: |-
+        Wavelength is the speed of light divided by the frequency. The speed of light is 300 000 km/s, or 3 × 10^8 m/s. A kilohertz is 1000 Hz, so with the frequency in kHz the wavelength in metres is 300 000 divided by the frequency.
+
+        **Solution**
+
+        - $$\frac{300000}{\text{Frequency}} = \frac{300000}{ {{freq}} } = \mathbf{ {{answer}}\ \text{m} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} m**: does not convert kHz to Hz, so the result is out by a factor of 1000.
+        - **{{d2}} m**: has an extra factor of ten.
+        - **{{d3}} m**: is a factor of ten too small.
+        - **{{d4}} m**: gives half the wavelength.
+      presets:
+        - variables:
+            freq: 400
+            answer: 750
+            d1: 0.8
+            d2: 7500
+            d3: 75
+            d4: 375
+          correctAnswers:
+            - text: 750 m
+          wrongAnswers:
+            - text: 0.8 m
+            - text: 75 m
+            - text: 375 m
+            - text: 7500 m
+        - variables:
+            freq: 427
+            answer: 702.6
+            d1: 0.7
+            d2: 7025.8
+            d3: 70.3
+            d4: 351.3
+          correctAnswers:
+            - text: 702.6 m
+          wrongAnswers:
+            - text: 0.7 m
+            - text: 70.3 m
+            - text: 351.3 m
+            - text: 7025.8 m
+        - variables:
+            freq: 1000
+            answer: 300
+            d1: 0.3
+            d2: 3000
+            d3: 30
+            d4: 150
+          correctAnswers:
+            - text: 300 m
+          wrongAnswers:
+            - text: 0.3 m
+            - text: 30 m
+            - text: 150 m
+            - text: 3000 m
+    - type: simple
+      question: "The frequency which corresponds to a wavelength of 8.25 m is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 36.36 MHz
+          wrongAnswers:
+            - text: 3636 MHz
+            - text: 3.63 MHz
+            - text: 363.6 MHz
+    - type: simple
+      question: "The frequency which corresponds to a wavelength of 3 km is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 100 kHz
+          wrongAnswers:
+            - text: 10 kHz
+            - text: 1000 kHz
+            - text: 1 MHz
+    - type: simple
+      question: "The frequency which corresponds to a wavelength of 8.24 m is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 36.4 MHz
+          wrongAnswers:
+            - text: 3.64 MHz
+            - text: 36.4 kHz
+            - text: 3 640 MHz
+- id: QEPBM
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds:
+    - QUJBG
+  externalQuestionIds:
+    - ATPLQ-626884
+    - AVEXAM-59520
+    - BGS-620927
+    - ATPLQ-628052
+    - BGS-620363
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.02.04
+  templates:
+    - type: simple
+      question: |-
+        An airborne weather radar operates at a frequency of {{freq}} GHz.
+
+        What is the corresponding wavelength in centimetres?
+      explanation: |-
+        Radio waves travel at the speed of light, about 300 000 km per second, so the wavelength is that speed divided by the frequency. With the frequency in GHz, the wavelength comes out in centimetres as 30 divided by the frequency.
+
+        **Solution**
+
+        - $$\frac{30}{\text{Frequency}} = \frac{30}{ {{freq}} } = \mathbf{ {{answer}}\ \text{cm} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} cm**: uses 300 instead of 30, which is out by a factor of ten.
+        - **{{d2}} cm**: multiplies by the frequency instead of dividing.
+        - **{{d3}} cm**: gives the wavelength in metres without converting it to centimetres.
+        - **{{d4}} cm**: halves the wavelength.
+      presets:
+        - variables:
+            freq: 9.33
+            answer: 3.2
+            d1: 32.2
+            d2: 279.9
+            d3: 0.3
+            d4: 1.6
+          correctAnswers:
+            - text: 3.2 cm
+          wrongAnswers:
+            - text: 32.2 cm
+            - text: 0.3 cm
+            - text: 1.6 cm
+            - text: 279.9 cm
+        - variables:
+            freq: 2.4
+            answer: 12.5
+            d1: 125
+            d2: 72
+            d3: 1.3
+            d4: 6.3
+          correctAnswers:
+            - text: 12.5 cm
+          wrongAnswers:
+            - text: 125 cm
+            - text: 1.3 cm
+            - text: 6.3 cm
+            - text: 72 cm
+        - variables:
+            freq: 10.5
+            answer: 2.9
+            d1: 28.6
+            d2: 315
+            d3: 0.3
+            d4: 1.4
+          correctAnswers:
+            - text: 2.9 cm
+          wrongAnswers:
+            - text: 28.6 cm
+            - text: 0.3 cm
+            - text: 1.4 cm
+            - text: 315 cm
+    - type: simple
+      question: The frequency of airborne weather radar is..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 9375 MHz.
+          wrongAnswers:
+            - text: 9375 GHz.
+            - text: 93.75 MHz.
+            - text: 9375 kHz.
+- id: QLKQT
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627855
+    - BGS-621121
+    - BGS-621122
+    - ATPLQ-621398
+    - BGS-621120
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.02.04
+  templates:
+    - type: simple
+      question: |-
+        A radio wave has a wavelength of {{lam}} m.
+
+        What is its frequency in MHz?
+      explanation: |-
+        Frequency is the speed of light divided by the wavelength. The speed of light is 300 million m/s, so with the wavelength in metres the frequency in MHz is 300 divided by the wavelength.
+
+        **Solution**
+
+        - $$\frac{300}{\text{Wavelength}} = \frac{300}{ {{lam}} } = \mathbf{ {{answer}}\ \text{MHz} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} MHz**: divides by an extra factor of ten.
+        - **{{d2}} MHz**: uses half the speed of light.
+        - **{{d3}} MHz**: inverts the ratio, dividing the wavelength by 300.
+        - **{{d4}} MHz**: squares the wavelength instead of using it once.
+      presets:
+        - variables:
+            lam: 8.25
+            answer: 36.4
+            d1: 3.6
+            d2: 18.2
+            d3: 0
+            d4: 4.4
+          correctAnswers:
+            - text: 36.4 MHz
+          wrongAnswers:
+            - text: 3.6 MHz
+            - text: 0 MHz
+            - text: 4.4 MHz
+            - text: 18.2 MHz
+        - variables:
+            lam: 3
+            answer: 100
+            d1: 10
+            d2: 50
+            d3: 0
+            d4: 33.3
+          correctAnswers:
+            - text: 100 MHz
+          wrongAnswers:
+            - text: 10 MHz
+            - text: 0 MHz
+            - text: 33.3 MHz
+            - text: 50 MHz
+        - variables:
+            lam: 15
+            answer: 20
+            d1: 2
+            d2: 10
+            d3: 0.1
+            d4: 1.3
+          correctAnswers:
+            - text: 20 MHz
+          wrongAnswers:
+            - text: 2 MHz
+            - text: 0.1 MHz
+            - text: 1.3 MHz
+            - text: 10 MHz
+- id: QTHFL
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds:
+    - QBSCY
+  externalQuestionIds:
+    - ATPLQ-621132
+    - BGS-620926
+    - AVEXAM-94720
+    - ATPLQ-626618
+    - BGS-620005
+    - AVEXAM-408
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.02.04
+  templates:
+    - type: simple
+      question: |-
+        A radio signal has a frequency of {{freq}} MHz.
+
+        What is its wavelength in metres?
+      explanation: |-
+        Wavelength is the speed of light divided by the frequency. The speed of light is 300 million m/s, so with the frequency in MHz the wavelength in metres is 300 divided by the frequency.
+
+        **Solution**
+
+        - $$\frac{300}{\text{Frequency}} = \frac{300}{ {{freq}} } = \mathbf{ {{answer}}\ \text{m} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} m**: has an extra factor of ten.
+        - **{{d2}} m**: is a factor of ten too small.
+        - **{{d3}} m**: gives half the wavelength.
+        - **{{d4}} m**: inverts the ratio, dividing the frequency by 300.
+      presets:
+        - variables:
+            freq: 121.95
+            answer: 2.46
+            d1: 24.6
+            d2: 0.25
+            d3: 1.23
+            d4: 0.41
+          correctAnswers:
+            - text: 2.46 m
+          wrongAnswers:
+            - text: 24.6 m
+            - text: 1.23 m
+            - text: 0.41 m
+            - text: 0.25 m
+        - variables:
+            freq: 118.7
+            answer: 2.53
+            d1: 25.27
+            d2: 0.25
+            d3: 1.26
+            d4: 0.4
+          correctAnswers:
+            - text: 2.53 m
+          wrongAnswers:
+            - text: 25.27 m
+            - text: 1.26 m
+            - text: 0.4 m
+            - text: 0.25 m
+        - variables:
+            freq: 130
+            answer: 2.31
+            d1: 23.08
+            d2: 0.23
+            d3: 1.15
+            d4: 0.43
+          correctAnswers:
+            - text: 2.31 m
+          wrongAnswers:
+            - text: 23.08 m
+            - text: 1.15 m
+            - text: 0.43 m
+            - text: 0.23 m
+- id: QUJBG
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds:
+    - QEPBM
+  externalQuestionIds:
+    - ATPLQ-628640
+    - AVEXAM-68100
+    - BGS-620928
+    - AVEXAM-90278
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.02.04
+  templates:
+    - type: simple
+      question: |-
+        An airborne weather radar transmits pulses with a wavelength of {{lam}} cm.
+
+        What is the corresponding frequency in GHz?
+      explanation: |-
+        Frequency is the speed of light divided by the wavelength. With the wavelength in centimetres, the frequency comes out in GHz as 30 divided by the wavelength.
+
+        **Solution**
+
+        - $$\frac{30}{\text{Wavelength}} = \frac{30}{ {{lam}} } = \mathbf{ {{answer}}\ \text{GHz} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} GHz**: uses 300 instead of 30, which is out by a factor of ten.
+        - **{{d2}} GHz**: inverts the ratio, dividing the wavelength by 30.
+        - **{{d3}} GHz**: divides by an extra factor of ten.
+        - **{{d4}} GHz**: multiplies by the wavelength instead of dividing.
+      presets:
+        - variables:
+            lam: 3.2
+            answer: 9.38
+            d1: 93.75
+            d2: 0.11
+            d3: 0.94
+            d4: 96
+          correctAnswers:
+            - text: 9.38 GHz
+          wrongAnswers:
+            - text: 93.75 GHz
+            - text: 0.94 GHz
+            - text: 96 GHz
+            - text: 0.11 GHz
+        - variables:
+            lam: 10.5
+            answer: 2.86
+            d1: 28.57
+            d2: 0.35
+            d3: 0.29
+            d4: 315
+          correctAnswers:
+            - text: 2.86 GHz
+          wrongAnswers:
+            - text: 28.57 GHz
+            - text: 0.29 GHz
+            - text: 315 GHz
+            - text: 0.35 GHz
+        - variables:
+            lam: 1.25
+            answer: 24
+            d1: 240
+            d2: 0.04
+            d3: 2.4
+            d4: 37.5
+          correctAnswers:
+            - text: 24 GHz
+          wrongAnswers:
+            - text: 240 GHz
+            - text: 2.4 GHz
+            - text: 37.5 GHz
+            - text: 0.04 GHz
+- id: QXOYX
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624861
+    - BGS-621110
+    - AVEXAM-1449
+    - BGS-620747
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.02.04
+  templates:
+    - type: simple
+      question: Which frequency corresponds to a wavelength of {{wl}} cm? Give the answer in MHz.
+      explanation: |-
+        Radio waves travel at about 300 000 000 m/s, and frequency equals this speed divided by the wavelength. The wavelength is in cm, so it is first converted to metres (÷ 100), and the result is then given in MHz (÷ 1 000 000).
+
+        **Solution**
+
+        $$\frac{300000000}{\frac{\text{Wavelength}}{100}} = \frac{300000000}{\frac{ {{wl}} }{100}}$$ Hz = **{{answer}} MHz**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} MHz**: uses the wavelength in cm as if it were in metres.
+        - **{{d2}} MHz**: uses 3000 instead of 30000, a factor of ten too small.
+        - **{{d3}} MHz**: multiplies by the wavelength instead of dividing by it.
+        - **{{d4}} MHz**: uses half the speed of the wave, so the frequency is halved.
+      presets:
+        - variables:
+            wl: 12
+            answer: 2500
+            d1: 25
+            d2: 250
+            d3: 36
+            d4: 1250
+          correctAnswers:
+            - text: 2500 MHz
+          wrongAnswers:
+            - text: 25 MHz
+            - text: 36 MHz
+            - text: 1250 MHz
+            - text: 250 MHz
+        - variables:
+            wl: 3
+            answer: 10000
+            d1: 100
+            d2: 1000
+            d3: 9
+            d4: 5000
+          correctAnswers:
+            - text: 10000 MHz
+          wrongAnswers:
+            - text: 100 MHz
+            - text: 9 MHz
+            - text: 5000 MHz
+            - text: 1000 MHz
+        - variables:
+            wl: 75
+            answer: 400
+            d1: 4
+            d2: 40
+            d3: 225
+            d4: 200
+          correctAnswers:
+            - text: 400 MHz
+          wrongAnswers:
+            - text: 4 MHz
+            - text: 225 MHz
+            - text: 200 MHz
+            - text: 40 MHz
+- id: QJUYN
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628718
+    - BGS-621118
+    - AVEXAM-71477
+    - ATPLQ-627573
+    - AVEXAM-46977
+    - AVEXAM-6314
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.02.05
+  templates:
+    - type: simple
+      question: "The phase angle of a wave is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The fraction of one wavelength expressed in degrees from 000° to 360°.
+          wrongAnswers:
+            - text: The angle of the modulation on a wavelength expressed in degrees from 000° to 360°.
+            - text: The position of a modulation on a wavelength expressed in degrees from 000° to 360°.
+            - text: The deflection on a wave expressed in degrees from 000° to 360°.
+    - type: simple
+      question: 'The term "phase" can be defined as:'
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the fraction of one wavelength expressed in degrees from 000° to 360°.
+          wrongAnswers:
+            - text: the sequence of events in which the RF energy goes from zero to maximum positive, to zero, to maximum negative and returns to zero forming a single wave.
+            - text: the angular difference between the corresponding points of two cycles of equal wavelength, which is measurable in degrees.
+            - text: the number of complete cycles formed per second.
+- id: QAKLA
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625379
+    - BGS-621397
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.03.01
+  templates:
+    - type: simple
+      question: 3-30 kHz frequency band is referred to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VLF.
+          wrongAnswers:
+            - text: ULF.
+            - text: LF.
+            - text: ELF.
+- id: QFANT
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds:
+    - QKIFG
+  externalQuestionIds:
+    - ATPLQ-621146
+    - BGS-621053
+    - ATPLQ-621557
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.03.01
+  templates:
+    - type: simple
+      question: "Electromagnetic waves in the VLF – band have a frequency spectrum of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3-30 kHz.
+          wrongAnswers:
+            - text: 30-300 kHz.
+            - text: 30-300 MHz.
+            - text: 300-3000 kHz.
+- id: QKIFG
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds:
+    - QFANT
+    - QXHYM
+  externalQuestionIds:
+    - ATPLQ-625002
+    - AVEXAM-9257
+    - AVEXAM-79319
+    - AVEXAM-67710
+    - BGS-620924
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.03.01
+  templates:
+    - type: simple
+      question: "MF (Medium Frequency) waves appear in the frequency spectrum:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 300 kHz - 3 000 kHz
+          wrongAnswers:
+            - text: 30 GHz - 300 GHz
+            - text: 30 MHz - 300 MHz
+            - text: 3 MHz - 30 MHz
+- id: QXHYM
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds:
+    - QKIFG
+  externalQuestionIds:
+    - ATPLQ-624972
+    - AVEXAM-92940
+    - AVEXAM-50047
+    - AVEXAM-90181
+    - AVEXAM-43658
+    - ATPLQ-622178
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.03.01
+  templates:
+    - type: simple
+      question: MF (Medium Frequency) waves occur in which frequency range below?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 300 kHz – 3000 kHz
+          wrongAnswers:
+            - text: 30 MHz – 300 MHz
+            - text: 3 MHz – 30 MHz
+            - text: 30 kHz – 300 kHz
+- id: QMVDH
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625769
+    - AVEXAM-64436
+    - AVEXAM-12781
+    - BGS-621625
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.03.03
+    - 062.01.03.04.02
+  templates:
+    - type: simple
+      question: Which of the following options contains the correct frequency band, propagation path and frequency range for radio communications using a single side band?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: HF, surface and sky waves, 3 MHz to 30 MHz.
+          wrongAnswers:
+            - text: HF, surface waves only, 3 MHz to 30 MHz.
+            - text: MF, surface and sky waves, 190 KHz to 1750 KHz.
+            - text: VHF, sky waves, 108 MHz to 117.975 MHz.
+- id: QSBBC
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626656
+    - AVEXAM-86736
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.03.03
+  templates:
+    - type: simple
+      question: A student pilot has just learnt that meteorological information for aircraft en route on long-haul flights is sent by radio. What kind of radio receiver is needed to receive this information?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Single sideband receiver.
+          wrongAnswers:
+            - text: Double sideband receiver.
+            - text: LF/MF receiver.
+            - text: VHF receiver.
+- id: QXHPI
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625047
+    - BGS-621393
+    - AVEXAM-77167
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.03.04
+  templates:
+    - type: simple
+      question: International Telecommunication Union (ITU) classification abbreviations used in aviation include the (1) \_\_\_\_\_ abbreviation. This designates carrier wave emissions amplitude modulated with Morse code which is used by (2) \_\_\_\_\_.
+      explanation: A2A is an amplitude modulated carrier with a Morse code modulating tone, used for the ident of NDBs. A3E is amplitude modulated speech, used for VHF-COM.
+      presets:
+        - correctAnswers:
+            - text: (1) A2A; (2) NDBs
+          wrongAnswers:
+            - text: (1) A2A; (2) VORs
+            - text: (1) A3E; (2) NDBs
+            - text: (1) A3E; (2) VORs
+- id: QGRBD
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627678
+    - BGS-620878
+    - ATPLQ-623619
+    - ATPLQ-625293
+    - AVEXAM-66439
+    - AVEXAM-72643
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.03.04
+  templates:
+    - type: simple
+      question: "According to the International Telecommunication Union (ITU) code, a radio signal may be classified by three symbols. The abbreviation A3E is used for the type of transmission in which the carrier wave is:"
+      explanation: In the ITU code, A3E designates a double sideband carrier that is amplitude modulated with a speech signal, as used in VHF-COM. An NDB uses A2A for its Morse ident.
+      presets:
+        - correctAnswers:
+            - text: Amplitude modulated by a speech signal, such as is used for VHF-COM.
+          wrongAnswers:
+            - text: A continuous wave interrupted with a keyed Morse code ident as used by an NDB.
+            - text: Amplitude modulated to transmit the Morse code ident, as is used by a VOR.
+            - text: Interrupted to transmit the Morse code identification, as used by an NDB.
+- id: QUZYN
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629671
+    - AVEXAM-44628
+    - AVEXAM-57239
+    - BGS-620697
+    - AVEXAM-66662
+    - AVEXAM-62476
+    - AVEXAM-22514
+    - AVEXAM-13506
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.03.04
+  templates:
+    - type: simple
+      question: A radio signal may be classified by three symbols in accordance with the ITU radio regulation e.g. A1A. Which statement is true?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The first symbol indicates the type of modulation of the main carrier
+          wrongAnswers:
+            - text: The second symbol indicates the nature of information to be transmitted
+            - text: The third symbol indicates the nature of the signal modulating the main carrier
+            - text: The three symbols together indicate which device is transmitting on the carrier
+    - type: simple
+      question: "In accordance with the ITU (International Telecommunication Union) a radio signal may be classified by three symbols. Third symbol indicates (e.g. A1A):"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Nature of the information to be transmitted.
+          wrongAnswers:
+            - text: Nature of signal(s) modulating the main carrier.
+            - text: Type of modulation of the secondary carrier.
+            - text: Type of modulation of the main carrier.
+- id: QHMPO
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628279
+    - BGS-621301
+    - AVEXAM-65744
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.04.01
+  templates:
+    - type: simple
+      question: "Pulse length is expressed as:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Time.
+          wrongAnswers:
+            - text: An amplitude.
+            - text: A frequency.
+            - text: Distance.
+- id: QABSV
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623314
+    - BGS-621074
+    - AVEXAM-25195
+    - ATPLQ-628563
+    - AVEXAM-29486
+    - BGS-621076
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.05.02
+  templates:
+    - type: simple
+      question: "Modulation is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the addition of information onto a radio wave during transmission.
+          wrongAnswers:
+            - text: the separation of information from a radio wave during receiving.
+            - text: the amplification of the received radio wave in the detector.
+            - text: the transformation of the radio wave into a digital signal.
+        - correctAnswers:
+            - text: the process of impressing and transporting information by radio waves.
+          wrongAnswers:
+            - text: the process to provide a radio carrier wave for transmission.
+            - text: to allow the signal to be amplified to the required power level.
+            - text: a continuous wave which is capable of carrying audible signals without modification.
+- id: QASQC
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621115
+    - AVEXAM-39872
+    - AVEXAM-25853
+    - BGS-621032
+    - BGS-621033
+    - ATPLQ-628358
+    - ATPLQ-622621
+  annexes:
+    - id: AKWP
+  learningObjectiveIds:
+    - 062.01.01.06.01
+    - 062.01.01.06.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What type of modulation is shown in the figure below?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Frequency modulation
+          wrongAnswers:
+            - text: no modulation
+            - text: Pulse modulation
+            - text: Amplitude modulation
+        - correctAnswers:
+            - text: Amplitude modulation
+          wrongAnswers:
+            - text: Frequency modulation
+            - text: No modulation
+            - text: Pulse modulation
+- id: QDXVL
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625070
+    - BGS-621066
+    - AVEXAM-51566
+    - BGS-620984
+    - ATPLQ-626827
+    - AVEXAM-63887
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.06.01
+  templates:
+    - type: simple
+      question: How is amplitude modulation achieved?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The information is added onto the carrier wave by altering the amplitude of the carrier.
+          wrongAnswers:
+            - text: The information is added onto the carrier wave by altering the frequency of the carrier.
+            - text: The information is added onto the carrier wave by reversing the phases of the carrier.
+            - text: The information is added onto the carrier wave by interrupting the carrier.
+- id: QIKUU
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624286
+    - BGS-620998
+    - AVEXAM-70676
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.06.03
+  templates:
+    - type: simple
+      question: Where is pulse modulation used?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In Radar.
+          wrongAnswers:
+            - text: In VHF.
+            - text: In ILS localiser.
+            - text: In VOR.
+- id: QMWBU
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624285
+    - AVEXAM-63651
+    - BGS-620648
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.01.06.04
+  templates:
+    - type: simple
+      question: Phase modulation...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is a modulation form used in GPS where the phase of the carrier wave is reversed.
+          wrongAnswers:
+            - text: results in a change of polarisation of the modulated signal.
+            - text: is a modulation form used in ILS where the phase of the navigation signals is changed with 90° or 150°.
+            - text: results in a change of amplitude of the carrier wave.
+- id: QBEGX
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625255
+    - BGS-621083
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.02.01.01
+  templates:
+    - type: simple
+      question: The function of the antenna in a radio communication system is to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: act as a transducer between free-space propagation and transmission line propagation.
+          wrongAnswers:
+            - text: prevent the receiver from demodulating background noise.
+            - text: split the electromagnetic field into separate E (Electric) and H (Magnetic) waves for transmission.
+            - text: separate the baseband signal from the carrier wave signal.
+- id: QBUAV
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627799
+    - BGS-620876
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.02.01.02
+  templates:
+    - type: simple
+      question: What is the simplest Type of an antenna called?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Dipole
+          wrongAnswers:
+            - text: Loop antenna
+            - text: Quadrupole
+            - text: Monopole
+- id: QGQNY
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629503
+    - BGS-620866
+    - AVEXAM-60150
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.02.01.02
+  templates:
+    - type: simple
+      question: "A dipole antenna in its simplest form, suited for a frequency of {{freq}} MHz, should have a length of (in cm):"
+      explanation: |-
+        A simple dipole is half a wavelength long. The wavelength in metres equals 300 divided by the frequency in MHz, so half the wavelength in cm equals 15000 divided by the frequency in MHz.
+
+        **Solution**
+
+        $$
+        \frac{15000}{\text{Frequency}} = \frac{15000}{ {{freq}} } = \mathbf{ {{answer}}\ \text{cm} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} cm**: a third of the wavelength instead of half of it.
+        - **{{d2}} cm**: the full wavelength instead of half of it.
+        - **{{d3}} cm**: three quarters of the wavelength.
+        - **{{d4}} cm**: a quarter of the wavelength.
+      presets:
+        - variables:
+            freq: 110
+            answer: 136
+            d1: 91
+            d2: 273
+            d3: 205
+            d4: 68
+          correctAnswers:
+            - text: 136 cm
+          wrongAnswers:
+            - text: 91 cm
+            - text: 205 cm
+            - text: 68 cm
+            - text: 273 cm
+        - variables:
+            freq: 121.5
+            answer: 123
+            d1: 82
+            d2: 247
+            d3: 185
+            d4: 62
+          correctAnswers:
+            - text: 123 cm
+          wrongAnswers:
+            - text: 82 cm
+            - text: 185 cm
+            - text: 62 cm
+            - text: 247 cm
+        - variables:
+            freq: 146
+            answer: 103
+            d1: 68
+            d2: 205
+            d3: 154
+            d4: 51
+          correctAnswers:
+            - text: 103 cm
+          wrongAnswers:
+            - text: 68 cm
+            - text: 154 cm
+            - text: 51 cm
+            - text: 205 cm
+- id: QQRJT
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622428
+    - AVEXAM-80152
+    - BGS-620700
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.02.01.04
+  templates:
+    - type: simple
+      question: An electromagnetic wave consists of an oscillating electric (E) and an oscillating magnetic (H) field. Which of the following answers is true?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The (E) field and the (H) field are perpendicular to each other.
+          wrongAnswers:
+            - text: When a constant current is sent through the antenna the (E) and (H) field are parallel.
+            - text: A dipole antenna is only capable to transmit the (H) field.
+            - text: The (H) field is parallel to the wire and the (E) field is perpendicular to it.
+- id: QBZYC
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623333
+    - BGS-621270
+    - BGS-620664
+    - AVEXAM-49977
+    - BGS-620653
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.02.02.01
+  templates:
+    - type: simple
+      question: What describes polarization?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Orientation of the plane of oscillation of the electrical component (E) of the electromagnetic wave.
+          wrongAnswers:
+            - text: Rotation of the antenna around a fixed axis.
+            - text: Orientation of the plane of oscillation of the magnetic component (H) of the electromagnetic wave.
+            - text: Orientation of the antenna to the North Pole.
+- id: QQBQM
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629555
+    - BGS-621084
+    - AVEXAM-8076
+    - ATPLQ-626719
+    - AVEXAM-29436
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.02.03.01
+  templates:
+    - type: simple
+      question: What type of antenna is used in a modern Airborne Weather Radar?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Slotted planar antenna
+          wrongAnswers:
+            - text: omnidirectional antenna
+            - text: Loop antenna
+            - text: Dipole
+    - type: simple
+      question: Why are slotted planar array antennas usually preferred for use in aviation weather radar installations rather than a parabolic antenna?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Better ability to distinguish weather echoes from ground clutter.
+          wrongAnswers:
+            - text: Broader bandwidth coverage for increased weather detection.
+            - text: Cheaper to install
+            - text: One fixed beam pattern means it is more accurate at detecting weather returns.
+- id: QQBTK
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628220
+    - BGS-621371
+  annexes:
+    - id: ADEI
+  learningObjectiveIds:
+    - 062.01.02.03.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which figure represents an ADF receiver antenna?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Figure 3
+          wrongAnswers:
+            - text: Figure 2
+            - text: Figure 4
+            - text: Figure 1
+- id: QTZHV
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628336
+    - BGS-620010
+    - AVEXAM-56230
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.02.03.01
+  templates:
+    - type: simple
+      question: The advantage of slotted antennas in modern radar technology is to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: greatly reduce lateral lobes, consequently concentrating more energy into the main beam.
+          wrongAnswers:
+            - text: simultaneously transmit weather and mapping beams.
+            - text: produce a wide beam for better target detection.
+            - text: eliminate the need for azimuth slaving.
+- id: QVHEA
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629857
+    - BGS-620646
+    - AVEXAM-41387
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.02.03.01
+  templates:
+    - type: simple
+      question: Which of the following summaries lists only directional antennas?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Loop antenna, parabolic antenna, slotted planar array antenna, helical antenna.
+          wrongAnswers:
+            - text: Sense antenna, parabolic antenna, slotted planar array antenna, helical antenna.
+            - text: Dipole antenna, loop antenna, parabolic antenna, slotted planar array antenna.
+            - text: Dipole antenna, sense antenna, parabolic antenna, helical antenna.
+- id: QVYJZ
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621605
+    - ATPLQ-621246
+    - AVEXAM-5640
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.02.03.02
+  templates:
+    - type: definition
+      question: What does the term {term} mean?
+      explanation: Antenna shadowing is when the aircraft structure blocks the signal between the antenna and the transmitter, depending on the aircraft attitude. SBAS stands for Satellite Based Augmentation System.
+      options:
+        - id: OC6PRI8IZ
+          term: antenna shadowing
+          definition: The antenna is masked from the transmitter due to the aircraft attitude.
+        - id: OOWPI0DQF
+          term: SBAS
+          definition: Satellite Based Augmentation System
+      fakeOptions:
+        - id: FH3OTIHBH0
+          definition: Terrain is in between the receiver and the transmitter.
+        - id: FH3OTIHBH1
+          definition: The antenna shielded from the sun in order to reduce the influence of the ionosphere.
+        - id: FH3OTIHBH2
+          definition: The antenna is placed under a dome.
+        - id: FH3OTIHBH3
+          definition: Supplement Based Augmentation System
+        - id: FH3OTIHBH4
+          definition: Satellite Based Area System
+        - id: FH3OTIHBH5
+          definition: Service Broadcast Application System
+- id: QHQLB
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626922
+    - AVEXAM-75510
+    - BGS-620549
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.02.03.02
+  templates:
+    - type: simple
+      question: What are the effects of shadowing by parts of the aircraft on the reception of signals from NAVSTAR GPS satellites?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It may prevent the reception of signals.
+          wrongAnswers:
+            - text: It causes multipath propagation.
+            - text: It has no influence because high frequency signals are unaffected.
+            - text: The signals will be distorted, however the error can be corrected for using an algorithm and information from unaffected signals.
+- id: QOMBV
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627871
+    - BGS-621163
+    - AVEXAM-1717
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.02.03.02
+  templates:
+    - type: simple
+      question: "The following might be caused by antenna shadowing:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Poor radio reception of a VOR ident signal while the aircraft is making an orbit (360° medium-level turn).
+          wrongAnswers:
+            - text: A weather radar failing to show a distant turbulent cloud due to the signals being blocked by a nearer cloud.
+            - text: Blocking of a VOR transmission caused by buildings close to the antenna.
+            - text: An aircraft appearing as two distinct Indications on a radar controller's display.
+- id: QTIBU
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625335
+    - BGS-621173
+    - AVEXAM-91548
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.02.03.03
+  templates:
+    - type: simple
+      question: "The correct position for the GPS antenna on an airplane is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: On the top of the fuselage.
+          wrongAnswers:
+            - text: In the nose of the aircraft.
+            - text: In the tailplane.
+            - text: On the bottom of the fuselage.
+    - type: simple
+      question: Where can we find the GPS antenna on an aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: On the top of the aircraft.
+          wrongAnswers:
+            - text: On the bottom of the aircraft.
+            - text: In the nose of the aircraft.
+            - text: In the ADF.
+- id: QOVRA
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626846
+    - BGS-621069
+    - AVEXAM-69733
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.01.03
+  templates:
+    - type: simple
+      question: "The Sky Wave propagates as follows:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A wave transmitted into space will be reflected back to the earth’s surface by the ionosphere.
+          wrongAnswers:
+            - text: It travels between ground and D layer of the ionosphere.
+            - text: It travels along the earth’s surface.
+            - text: It travels inside the Ionosphere along the boundary between E and F layer.
+- id: QYJSE
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624057
+    - BGS-620651
+    - AVEXAM-71212
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.01.03
+  templates:
+    - type: simple
+      question: From which physical phenomenon do sky waves originate?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: refraction
+          wrongAnswers:
+            - text: diffraction
+            - text: interference
+            - text: absorption
+- id: QDSXE
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625089
+    - BGS-621068
+    - AVEXAM-74416
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.02.01
+  templates:
+    - type: simple
+      question: "The Ground Wave propagates as follows:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It travels along the earth’s surface and follows the curvature of the earth.
+          wrongAnswers:
+            - text: The wave will be reflected at the ionosphere back to the ground.
+            - text: The ground wave is transmitted toward the earth’s surface and will be reflected.
+            - text: It travels beneath the ground.
+- id: QNGVY
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628571
+    - ATPLQ-626255
+    - BGS-621057
+    - BGS-620724
+    - AVEXAM-69291
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.04.01
+  templates:
+    - type: simple
+      question: The superposition of two EM-waves of the same or nearly the same frequency is called
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: interference
+          wrongAnswers:
+            - text: diffraction
+            - text: reflection
+            - text: absorption
+    - type: simple
+      question: "The superposition of radio waves with approximately the same frequency is called:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: interference
+          wrongAnswers:
+            - text: diffraction
+            - text: absorption
+            - text: reflection
+    - type: simple
+      question: The superimposition of two radio waves of the same or nearly the same frequency is called?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Interference
+          wrongAnswers:
+            - text: Diffraction
+            - text: Reflection
+            - text: Refraction
+- id: QLXGC
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628602
+    - AVEXAM-71681
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.04.01
+  templates:
+    - type: simple
+      question: "Describe the propagation of VHF radio waves:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Line of sight propagation
+          wrongAnswers:
+            - text: Earth reflected waves
+            - text: During daytime as ground waves, at night as sky waves
+            - text: During day and night time as ground waves
+- id: QVSPZ
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623648
+    - BGS-621170
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.04.01
+    - 062.02.05.01.05
+  templates:
+    - type: simple
+      question: Which of the following options are the correct frequency band, propagation type, and range of usable frequencies for an ILS localiser?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VHF, space waves, 108.10 MHz to 111.975 MHz.
+          wrongAnswers:
+            - text: VHF, ground waves, 108 MHz to 117.975 MHz.
+            - text: UHF, sky waves, 190 kHz to 1750 KHz.
+            - text: UHF, space waves, 329.15 MHz to 335 MHz.
+- id: QXGSH
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626327
+    - AVEXAM-98540
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.04.01
+  templates:
+    - type: simple
+      question: A VHF radio wave is propagated...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: as a space wave during day and night.
+          wrongAnswers:
+            - text: as a ground during day and space during night.
+            - text: as a ground during night and space during day.
+            - text: as a ground wave during day and night.
+- id: QCLLK
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds:
+    - QYTWN
+    - QVTPL
+  externalQuestionIds:
+    - ATPLQ-624187
+    - BGS-621031
+    - BGS-621117
+    - AVEXAM-16737
+    - AVEXAM-47004
+    - BGS-620877
+    - BGS-620805
+    - AVEXAM-34912
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.04.02
+  templates:
+    - type: simple
+      question: How are radio waves in MF propagated?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: At daytime as ground wave, during night as ground wave and sky wave.
+          wrongAnswers:
+            - text: At daytime as ground wave, during night only as sky wave.
+            - text: At daytime and during night only as ground wave.
+            - text: At daytime as ground wave and sky wave, during night only as ground wave.
+- id: QCULR
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621369
+    - AVEXAM-46050
+    - BGS-620013
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.04.02
+  templates:
+    - type: simple
+      question: Which aeronautical radio frequency band uses refraction within ionospheric layers?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: HF
+          wrongAnswers:
+            - text: VHF
+            - text: VLF
+            - text: UHF
+- id: QVTPL
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds:
+    - QYTWN
+    - QCLLK
+  externalQuestionIds:
+    - ATPLQ-625944
+    - BGS-620873
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.04.02
+  templates:
+    - type: simple
+      question: "VLF-radio waves travel:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: during day and night as ground waves
+          wrongAnswers:
+            - text: by line-of-sight
+            - text: during daytime as ground and sky waves, during night time as ground waves only
+            - text: during day time as sky waves
+- id: QYTWN
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds:
+    - QCLLK
+    - QVTPL
+  externalQuestionIds:
+    - ATPLQ-627533
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.04.02
+  templates:
+    - type: simple
+      question: "HF-radio waves travel:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: during daytime and night time as sky waves, and the range of the ground wave is very small.
+          wrongAnswers:
+            - text: during daytime as ground and sky waves, during night time as ground waves only.
+            - text: during daytime and at night as ground waves only.
+            - text: quasi-optically.
+- id: QQJKR
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627600
+    - AVEXAM-20410
+    - BGS-620644
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.05.01
+  templates:
+    - type: simple
+      question: In aviation electronic systems the so-called Doppler principle may be used in
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VOR, GPS and MTI and the turbulence mode of AWR.
+          wrongAnswers:
+            - text: VOR , DME and GPS.
+            - text: VOR, MTI and the mapping mode of AWR.
+            - text: VOR, DME and ILS.
+- id: QVWRL
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621478
+    - AVEXAM-57201
+    - BGS-620932
+    - AVEXAM-10806
+    - BGS-620015
+    - BGS-620014
+    - BGS-620931
+    - ATPLQ-621389
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.05.01
+  templates:
+    - type: simple
+      question: An apparent increase in the transmitted frequency, which is proportional to the transmitter velocity, will occur when the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: transmitter moves towards the receiver.
+          wrongAnswers:
+            - text: transmitter goes into standby.
+            - text: transmitter moves away from the receiver.
+            - text: receiver moves away from the transmitter.
+- id: QEUQK
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628672
+    - BGS-620934
+    - AVEXAM-25015
+    - ATPLQ-623186
+    - AVEXAM-41402
+    - BGS-620016
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.06.01
+  templates:
+    - type: simple
+      question: "The skip distance is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the distance from transmitter to earth surface up to the point where the first sky wave can be received
+          wrongAnswers:
+            - text: the distance from transmitter to an obstacle which limits the extension of the ground wave
+            - text: the distance from transmitter to the maximum range of the sky wave
+            - text: the distance from transmitter to the maximum range of the ground wave
+        - correctAnswers:
+            - text: range from the transmitter to the first sky wave return.
+          wrongAnswers:
+            - text: thickness of the ionosphere.
+            - text: wavelength distance of a certain frequency.
+            - text: highest critical frequency distance.
+- id: QDHMV
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626915
+    - BGS-620933
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.06.02
+  templates:
+    - type: simple
+      question: "The skip-zone is defined as:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the area, where neither the ground waves nor the sky waves are received.
+          wrongAnswers:
+            - text: the area, where only the sky wave is receivable.
+            - text: the area, where only the ground wave is receivable.
+            - text: the area, where ground and sky waves are receivable.
+- id: QYHJP
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628866
+    - AVEXAM-23762
+    - BGS-620017
+    - ATPLQ-629289
+    - BGS-620937
+    - AVEXAM-93279
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.06.03
+  templates:
+    - type: simple
+      question: "In the propagation of MF waves, the phenomenon of FADING is particularly found:"
+      explanation: At night the D layer disappears and MF sky waves are reflected by the ionosphere back to the receiver. They arrive together with the ground wave, and the two interfere, causing fading.
+      presets:
+        - correctAnswers:
+            - text: at night, due to the combination of the sky and ground waves.
+          wrongAnswers:
+            - text: by day and when raining.
+            - text: at night and when raining.
+            - text: by day, due to the combination of sky and ground waves.
+    - type: simple
+      question: What is meant by the term "Fading"?
+      explanation: Fading is the variation of signal strength that occurs when the ground wave and the sky wave of the same transmission reach the receiver by paths of different lengths and interfere.
+      presets:
+        - correctAnswers:
+            - text: The interference of the ground and sky wave.
+          wrongAnswers:
+            - text: The disappearance of the D-layer with beginning of the evening twilight.
+            - text: An effect at RADAR which leads to ‘blind speed’.
+            - text: An effect which can be observed only in the F-layer of the ionosphere.
+- id: QLDHL
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622090
+    - BGS-621428
+    - AVEXAM-83503
+    - ATPLQ-628843
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.06.04
+  templates:
+    - type: simple
+      question: A pilot departs an aerodrome on the West coast of Spain at dawn for a flight to New York. Half an hour after departure, the VHF station for communication can no longer be received. What are two of the main reasons that VHF radio range is limited to line of sight?
+      explanation: VHF waves pass through the ionosphere instead of being refracted back, and the ground wave is attenuated quickly. VHF is therefore limited to line-of-sight range.
+      presets:
+        - correctAnswers:
+            - text: No ionospheric refraction and no ground wave.
+          wrongAnswers:
+            - text: Absorption by the ionosphere, and no direct waves.
+            - text: Inversion of polarisation by the ionosphere, and attenuation.
+            - text: Fading by reflected signals, and limited transmission power.
+- id: QSWVR
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624599
+    - AVEXAM-38695
+    - BGS-621184
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.06.04
+  templates:
+    - type: simple
+      question: Why do VHF radio signals used for communication and navigation have a limited range?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Because of the curvature of the Earth.
+          wrongAnswers:
+            - text: Sky waves are refracted from the D-layer.
+            - text: Direct waves interfere with ionosphere waves.
+            - text: Ground waves are absorbed by the Earth’s surface.
+- id: QWYOW
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621270
+    - AVEXAM-10077
+    - BGS-621056
+    - AVEXAM-56352
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.06.05
+  templates:
+    - type: simple
+      question: "The damping of a radio wave is so strong that no signal can be received. This phenomenon is called:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: absorption
+          wrongAnswers:
+            - text: reflection
+            - text: refraction
+            - text: diffraction
+- id: QXSMF
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627317
+    - BGS-620939
+    - AVEXAM-762
+    - BGS-621102
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.06.05
+  templates:
+    - type: simple
+      question: Under what conditions can VHF voice communications often suffer interference from transmissions on the same frequency at a distance considerably greater than line-of-sight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A temperature inversion in the atmosphere can cause 'super-refraction'.
+          wrongAnswers:
+            - text: The interfering signal may be refracted as a surface wave over a large expanse of water.
+            - text: The interfering signal may be refracted from mountains between the transmitter and receiver.
+            - text: The interfering signal may be refracted from the ionosphere at night.
+- id: QNBYH
+  subjectId: "062"
+  chapterId: "062.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628310
+    - BGS-621283
+    - AVEXAM-36277
+  annexes: []
+  learningObjectiveIds:
+    - 062.01.03.06.06
+  templates:
+    - type: simple
+      question: "Multipath interference in ground-based radar systems is the result of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: echoes from targets caused, for example, by ground reflection.
+          wrongAnswers:
+            - text: line-of-sight echoes being repeated multiple times.
+            - text: ionospheric reflection, which amplifies the echoes from targets.
+            - text: multiple echo paths, and enables targets to be accurately identified.

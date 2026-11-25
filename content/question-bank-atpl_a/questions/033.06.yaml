@@ -1,0 +1,5046 @@
+- id: QAXZA
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338271
+    - BGS-331512
+    - AVEXAM-98118
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.01.01
+  templates:
+    - type: simple
+      question: During the preparation of an IFR flight, the track indicated between two VOR stations on the IFR map is 137°. The applicable variation is 6°E. The reported wind is 210°/25 kt. The planned cruising speed for this leg is 175 kt. To keep the track, the wind correction angle is (1) _____. The corresponding groundspeed is (2) _____.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) 8° to the right; (2) 164 kt
+          wrongAnswers:
+            - text: (1) 2° to the right; (2) 166 kt
+            - text: (1) 14° to the left; (2) 181 kt
+            - text: (1) 8° to the left; (2) 183 kt
+    - type: simple
+      question: Given an IFR map with a track of 137° between two VOR stations, variation of 6°E, wind of 210° / 25 kt, and a planned cruising speed of 175 kt. What is the required wind correction angle (1) ___ to maintain track and the resulting ground speed (2) ___?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) 8° to the right; (2) 164 kt
+          wrongAnswers:
+            - text: (1) 8° to the left; (2) 183 kt
+            - text: (1) 14° to the left; (2) 181 kt
+            - text: (1) 2° to the right; (2) 166 kt
+- id: QMLRK
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337360
+    - AVEXAM-72803
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.01.01
+    - 033.06.01.01.06
+  templates:
+    - type: one-two
+      question: An aircraft is flying along a true course of 276º and the actual wind is different than the forecast wind. The forecast wind is 240/15 and the actual wind is 290/25. The airspeed remains the same. Which statements are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - The lower ground speed will result in a later time of arrival.
+          wrong: []
+        - right: []
+          wrong:
+            - The wind correction angle will change from a value to the right to a value to the left.
+    - type: simple
+      question: |-
+        Given:
+
+         
+
+         
+         
+         Planned track:
+         276°(T)
+         
+         
+         Forecast wind:
+         240°(T) / 15 kt
+         
+         
+         Actual wind:
+         290°(T) / 25 kt
+         
+         
+         Airspeed:
+         remains unchanged
+         
+         
+
+
+
+        Select the correct statement about the given situation:
+
+         With a lower ground speed, the actual timings will be later than the planned timings.
+         The wind correction angle must be altered from a value to the right to a value to the left.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 is correct, 2 is incorrect.
+          wrongAnswers:
+            - text: 1 is incorrect, 2 is correct.
+            - text: Both 1 and 2 are correct.
+            - text: Both 1 and 2 are incorrect.
+- id: QSAIA
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-336706
+    - BGS-331296
+    - BGS-331295
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.01.01
+  templates:
+    - type: one-two
+      question: "A pilot has planned a track of 276° (T) taking into account the following forecast wind: 240°(T)/15 kt. But, during the cruise phase, he/she realizes that the actual wind is not as forecasted, but it is 290°(T)/25 kt. Which statement below is correct/incorrect, assuming that the actual airspeed is the same as the planned airspeed?"
+      explanation: ""
+      pairs:
+        - right:
+            - With a lower groundspeed, the actual timings will be later than the planned timings.
+          wrong:
+            - With a higher groundspeed, the actual timings will be later than the planned timings.
+        - right:
+            - The wind correction angle must be altered from a value to the right to a value to the left.
+          wrong:
+            - The wind correction angle must be altered from a value to the left to a value to the right.
+- id: QYKST
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-333232
+    - AVEXAM-64060
+    - AVEXAM-37973
+    - ATPLQ-333487
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.01.01
+  templates:
+    - type: simple
+      question: |-
+        In order to follow the planned track, a pilot flies a True Heading of 040º, which was calculated for the forecast wind of 100°/40kt. The actual wind encountered at their altitude is 160°/40kt.
+
+        What will the in-flight track be?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Right of the planned course.
+          wrongAnswers:
+            - text: Left of the planned course.
+            - text: It will be in the planned track and the planned course.
+            - text: On the planned course.
+        - correctAnswers:
+            - text: Left of the planned course.
+          wrongAnswers:
+            - text: On the planned course.
+            - text: There is not enough information to answer this question.
+            - text: Right of the planned course.
+- id: QOAPJ
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331027
+    - BGS-330068
+    - AVEXAM-2135
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.01.02
+  templates:
+    - type: simple
+      question: You are flying a constant compass heading of 252°. Variation is 22°E, deviation is 3°W and your INS is showing a drift of 9° right. True track is…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 280°
+          wrongAnswers:
+            - text: 262°
+            - text: 242°
+            - text: 224°
+- id: QNYPT
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337707
+    - BGS-331092
+    - AVEXAM-28053
+    - ATPLQ-335178
+    - AVEXAM-39742
+    - AVEXAM-77144
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        You are flying a heading of {{hdg}}° with a TAS of {{tas}} kt. The wind is from {{wd}}° at {{ws}} kt.
+
+        What will be your ground speed?
+      explanation: |-
+        With the heading known, the ground speed is the vector sum of the air vector (heading, TAS) and the wind vector. Split the wind into a component along the heading (head/tailwind) and a component across it (crosswind), then combine them with Pythagoras.
+
+        **Solution**
+
+        Along-heading speed: {{macro1}} kt
+
+        Cross component: {{macro2}} kt
+
+        $$
+        \sqrt{{(\text{TAS}-\text{Wind speed}\times \text{cos}(\text{Wind direction (from)}-\text{Heading}))}^{2}+{(\text{Wind speed}\times \text{sin}(\text{Wind direction (from)}-\text{Heading}))}^{2}} = \sqrt{{({{tas}}-{{ws}}\times \text{cos}({{wd}}-{{hdg}}))}^{2}+{({{ws}}\times \text{sin}({{wd}}-{{hdg}}))}^{2}} = \mathbf{ {{answer}}\ \text{kt} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kt**: full wind speed subtracted as if it were a direct headwind.
+        - **{{d2}} kt**: full wind speed added as if it were a direct tailwind.
+        - **{{d3}} kt**: only the along-heading wind component applied, the crosswind effect is ignored.
+        - **{{d4}} kt**: the wind component along the heading added with the wrong sign.
+        - **{{d5}} kt**: the crosswind removed from the TAS but the wind component along the heading ignored.
+      presets:
+        - variables:
+            hdg: 120
+            tas: 110
+            wd: 260
+            ws: 30
+            macro1: 133
+            macro2: 19
+            answer: 134
+            d1: 80
+            d2: 140
+            d3: 133
+            d4: 87
+            d5: 108
+          correctAnswers:
+            - text: 134 kt
+          wrongAnswers:
+            - text: 133 kt
+            - text: 87 kt
+            - text: 80 kt
+            - text: 140 kt
+            - text: 108 kt
+        - variables:
+            hdg: 20
+            tas: 180
+            wd: 60
+            ws: 30
+            macro1: 157
+            macro2: 19
+            answer: 158
+            d1: 150
+            d2: 210
+            d3: 157
+            d4: 203
+            d5: 179
+          correctAnswers:
+            - text: 158 kt
+          wrongAnswers:
+            - text: 157 kt
+            - text: 203 kt
+            - text: 150 kt
+            - text: 210 kt
+            - text: 179 kt
+        - variables:
+            hdg: 270
+            tas: 120
+            wd: 330
+            ws: 25
+            macro1: 108
+            macro2: 22
+            answer: 110
+            d1: 95
+            d2: 145
+            d3: 108
+            d4: 133
+            d5: 118
+          correctAnswers:
+            - text: 110 kt
+          wrongAnswers:
+            - text: 108 kt
+            - text: 133 kt
+            - text: 95 kt
+            - text: 145 kt
+            - text: 118 kt
+    - type: simple
+      question: |-
+        Determine the drift angle, given:
+
+
+         
+         
+         True heading:
+         330°
+         
+         
+         Wind:
+         030°(T) / 36 kt
+         
+         
+         Distance from A to B:
+         110 NM
+         
+         
+         Time overhead point A:
+         1522 UTC
+         
+         
+         Time overhead point B:
+         1552 UTC
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 8°L
+          wrongAnswers:
+            - text: 11°R
+            - text: 10°R
+            - text: 5°L
+- id: QQCXE
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331765
+    - AVEXAM-73594
+    - AVEXAM-5268
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        Given the following information, calculate the ground speed (kt):
+
+        - TAS: {{tas}} kt
+        - Reported wind: {{wd}}°/{{ws}} kt
+        - Course: {{mc}}° (M)
+        - Variation: {{var_w}}° (W)
+      explanation: |-
+        The reported wind is a true direction, so the magnetic course must first be converted to a true course (west variation is added: magnetic + west = true). Then the wind triangle gives the ground speed.
+
+        **Solution**
+
+        True course = {{mc}}° + {{var_w}}° = {{macro1}}°; WCA = {{macro2}}°
+
+        $$
+        \text{TAS}\times \text{cos}(\text{asin}(\frac{\text{Wind speed}\times \text{sin}(\text{Wind direction (true)}-(\text{Magnetic course}+\text{West variation}))}{\text{TAS}}))-\text{Wind speed}\times \text{cos}(\text{Wind direction (true)}-(\text{Magnetic course}+\text{West variation})) = {{tas}}\times \text{cos}(\text{asin}(\frac{ {{ws}}\times \text{sin}({{wd}}-({{mc}}+{{var_w}}))}{ {{tas}} }))-{{ws}}\times \text{cos}({{wd}}-({{mc}}+{{var_w}})) = \mathbf{ {{answer}}\ \text{kt} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kt**: TAS and wind speed were added as if there were a pure tail wind.
+        - **{{d2}} kt**: The variation was subtracted instead of added.
+        - **{{d3}} kt**: The cross wind component was used instead of the head wind component.
+        - **{{d4}} kt**: The variation was subtracted from the ground speed.
+      presets:
+        - variables:
+            tas: 150
+            wd: 204
+            ws: 30
+            mc: 200
+            var_w: 10
+            macro1: 210
+            macro2: -1
+            answer: 120
+            d1: 180
+            d2: 121
+            d3: 153
+            d4: 110
+          correctAnswers:
+            - text: 120 kt
+          wrongAnswers:
+            - text: 180 kt
+            - text: 153 kt
+            - text: 110 kt
+            - text: 121 kt
+        - variables:
+            tas: 120
+            wd: 135
+            ws: 25
+            mc: 90
+            var_w: 5
+            macro1: 95
+            macro2: 8
+            answer: 100
+            d1: 145
+            d2: 102
+            d3: 104
+            d4: 90
+          correctAnswers:
+            - text: 100 kt
+          wrongAnswers:
+            - text: 145 kt
+            - text: 104 kt
+            - text: 90 kt
+            - text: 102 kt
+        - variables:
+            tas: 200
+            wd: 250
+            ws: 40
+            mc: 300
+            var_w: 8
+            macro1: 308
+            macro2: -10
+            answer: 176
+            d1: 240
+            d2: 168
+            d3: 234
+            d4: 152
+          correctAnswers:
+            - text: 176 kt
+          wrongAnswers:
+            - text: 240 kt
+            - text: 234 kt
+            - text: 152 kt
+            - text: 168 kt
+- id: QXIJI
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339034
+    - BGS-339592
+    - AVEXAM-73673
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        The planned flight time between two waypoints is {{tplan}} minutes, and the distance is {{dist}} NM. During the actual flight, the flight time between these waypoints is found to be {{tact}} minutes.
+
+        How much lower is the actual groundspeed compared to the one that has been used for planning? Answer in kt.
+      explanation: |-
+        Groundspeed is distance divided by time. Compute the planned and the actual groundspeed and subtract them. Times in minutes are converted to hours by multiplying the result by 60.
+
+        **Solution**
+
+        Planned GS = {{dist}} NM / {{tplan}} min × 60 = {{macro1}} kt
+
+        Actual GS = {{dist}} NM / {{tact}} min × 60 = {{macro2}} kt
+
+        $$
+        \frac{\text{Distance}}{\text{Planned flight time}}\times 60-\frac{\text{Distance}}{\text{Actual flight time}}\times 60 = \frac{ {{dist}} }{ {{tplan}} }\times 60-\frac{ {{dist}} }{ {{tact}} }\times 60 = \mathbf{ {{answer}}\ \text{kt} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kt**: this is the planned groundspeed, not the difference.
+        - **{{d2}} kt**: this is the actual groundspeed, not the difference.
+        - **{{d3}} kt**: the difference was taken with the wrong sign (actual minus planned).
+        - **{{d4}} kt**: the time difference was multiplied by the planned distance per minute, which is not a speed difference.
+        - **{{d5}} kt**: the distance was divided by the time difference only.
+      presets:
+        - variables:
+            tplan: 25
+            dist: 30
+            tact: 32
+            macro1: 72
+            macro2: 56
+            answer: 16
+            d1: 72
+            d2: 56
+            d3: -16
+            d4: 8
+            d5: 257
+          correctAnswers:
+            - text: 16 kt
+          wrongAnswers:
+            - text: -16 kt
+            - text: 8 kt
+            - text: 72 kt
+            - text: 56 kt
+            - text: 257 kt
+        - variables:
+            tplan: 30
+            dist: 60
+            tact: 40
+            macro1: 120
+            macro2: 90
+            answer: 30
+            d1: 120
+            d2: 90
+            d3: -30
+            d4: 20
+            d5: 360
+          correctAnswers:
+            - text: 30 kt
+          wrongAnswers:
+            - text: -30 kt
+            - text: 20 kt
+            - text: 120 kt
+            - text: 90 kt
+            - text: 360 kt
+        - variables:
+            tplan: 20
+            dist: 45
+            tact: 26
+            macro1: 135
+            macro2: 104
+            answer: 31
+            d1: 135
+            d2: 104
+            d3: -31
+            d4: 14
+            d5: 450
+          correctAnswers:
+            - text: 31 kt
+          wrongAnswers:
+            - text: -31 kt
+            - text: 14 kt
+            - text: 135 kt
+            - text: 104 kt
+            - text: 450 kt
+- id: QVCIP
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - BGS-331557
+    - AVEXAM-97453
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.01.03
+  templates:
+    - type: simple
+      question: For a descent from FL165 to an altitude of 3000 ft, the descent table gives a distance of 37 NM and a time of 13 minutes. The tailwind component is 20 kt, and it is in ISA conditions. This means that the average TAS is ....; and the actual descent distance is .....
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: TAS is 171 kt; 41 NGM.
+          wrongAnswers:
+            - text: GS is 151 kt; 37 NAM.
+            - text: TAS is 151 kt; 33 NGM.
+            - text: GS is 191 kt; 37 NGM.
+    - type: simple
+      question: An aircraft descends from FL165 to an altitude of 3 000 ft. According to the descent table, the distance covered is 37 NM in 13 minutes. If the aircraft experiences a tailwind component of 20 kt and flies in ISA conditions, then its average TAS is ___ and the actual descent distance covered is ___.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 171 kt; 41 NGM
+          wrongAnswers:
+            - text: 151 kt; 33 NGM
+            - text: 151 kt; 37 NAM
+            - text: 191 kt; 37 NGM
+- id: QCAJH
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338956
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.01.03
+  templates:
+    - type: simple
+      question: |-
+        Given the following information, what time deviation will be encountered on the leg? Give the delay in minutes (a negative value means an advance).
+
+        - Reference leg time on the flight plan: {{ref}} minutes
+        - Leg track: {{trk}}°
+        - Leg distance: {{dist}} NM
+        - TAS: {{tas}} kt
+        - Wind: {{wdir}}°/{{wspd}} kt
+      explanation: |-
+        The actual leg time is distance over ground speed. The deviation is the actual time minus the reference time on the flight plan; a positive result is a delay.
+
+        **Solution**
+
+        Ground speed: {{macro1}} kt
+
+        Actual time: {{macro2}} min
+
+        $$\frac{\text{Leg distance}}{\text{TAS}\times \text{cos}(\text{asin}(\frac{\text{Wind speed}\times \text{sin}(\text{Wind direction (from)}-\text{Leg track})}{\text{TAS}}))-\text{Wind speed}\times \text{cos}(\text{Wind direction (from)}-\text{Leg track})}\times 60-\text{Reference leg time} = \frac{ {{dist}} }{ {{tas}}\times \text{cos}(\text{asin}(\frac{ {{wspd}}\times \text{sin}({{wdir}}-{{trk}})}{ {{tas}} }))-{{wspd}}\times \text{cos}({{wdir}}-{{trk}})}\times 60-{{ref}} = \mathbf{ {{answer}}\ \text{min} }$$ (delay)
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} min**: ignores the wind when computing the actual time.
+        - **{{d2}} min**: adds the wind component with the wrong sign (tailwind instead of headwind).
+        - **{{d3}} min**: gives the total leg time without subtracting the reference time.
+        - **{{d4}} min**: subtracts in the wrong order, so the sign is inverted.
+      presets:
+        - variables:
+            ref: 17
+            trk: 90
+            dist: 100
+            tas: 345
+            wdir: 65
+            wspd: 50
+            macro1: 299
+            macro2: 20
+            answer: 3
+            d1: 0
+            d2: -2
+            d3: 20
+            d4: -3
+          correctAnswers:
+            - text: 3 min
+          wrongAnswers:
+            - text: 0 min
+            - text: 20 min
+            - text: -3 min
+            - text: -2 min
+        - variables:
+            ref: 30
+            trk: 180
+            dist: 150
+            tas: 300
+            wdir: 230
+            wspd: 60
+            macro1: 258
+            macro2: 35
+            answer: 5
+            d1: 0
+            d2: -3
+            d3: 35
+            d4: -5
+          correctAnswers:
+            - text: 5 min
+          wrongAnswers:
+            - text: 0 min
+            - text: 35 min
+            - text: -5 min
+            - text: -3 min
+        - variables:
+            ref: 25
+            trk: 270
+            dist: 160
+            tas: 400
+            wdir: 330
+            wspd: 70
+            macro1: 360
+            macro2: 27
+            answer: 2
+            d1: -1
+            d2: -3
+            d3: 27
+            d4: -2
+          correctAnswers:
+            - text: 2 min
+          wrongAnswers:
+            - text: -1 min
+            - text: 27 min
+            - text: -2 min
+            - text: -3 min
+- id: QNQBI
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337233
+  annexes:
+    - id: AYVV
+  learningObjectiveIds:
+    - 033.06.01.01.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. The annex depicts a pilot's flight log from LPFR to LEMG, extracted by a flight planning software. When approaching VJF, the pilots feel abnormal airframe vibrations and reduce speed from VJF. Their IAS and TAS both decrease by 30 kt.
+
+        What will be the new time to cover the next two legs of their flight?
+      explanation: A lower speed makes each leg take longer, so both leg times go up. The new times follow from the old and new true airspeed of each leg, which the flight log gives. The option where both legs are longer by the right amount is correct. The others either shorten a leg or lengthen it by an amount that does not match the 30 kt reduction.
+      presets:
+        - correctAnswers:
+            - text: 23 minutes to Estepona then 23 minutes to TOD.
+          wrongAnswers:
+            - text: 11 minutes to Estepona then 9 minutes to TOD.
+            - text: 20 minutes to Estepona then 17 minutes to TOD.
+            - text: 20 minutes to Estepona then 33 minutes to TOD.
+- id: QZJHE
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331520
+  annexes:
+    - id: AGJO
+  learningObjectiveIds:
+    - 033.06.01.01.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure. If the actual time overhead waypoint 5 was {{t0}} UTC, determine the ETA at waypoint 7 (answer as hhmm UTC).
+
+        The planned time from waypoint 5 to waypoint 7 read from the figure is {{leg}} min.
+      explanation: |-
+        With a time overhead a known waypoint, later ETAs are found by adding the planned leg times (read from the flight plan figure) to the actual time at that waypoint.
+
+        **Solution**
+
+        $$
+        \text{Actual time overhead waypoint 5}+\text{Planned time waypoint 5 to 7 (from figure)} = {{t0}}+{{leg}} = \mathbf{ {{answer}}\ \text{UTC} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} UTC**: the leg time was misread (too short) in the figure.
+        - **{{d2}} UTC**: legs were misread, giving a time that is too early.
+        - **{{d3}} UTC**: a leg was misread as a shorter time.
+        - **{{d4}} UTC**: the leg time was misread as too long.
+      presets:
+        - variables:
+            t0: 1240
+            leg: 15
+            answer: 1255
+            d1: 1253
+            d2: 1249
+            d3: 1252
+            d4: 1258
+          correctAnswers:
+            - text: 1255 UTC (hhmm)
+          wrongAnswers:
+            - text: 1253 UTC (hhmm)
+            - text: 1252 UTC (hhmm)
+            - text: 1258 UTC (hhmm)
+            - text: 1249 UTC (hhmm)
+        - variables:
+            t0: 1015
+            leg: 22
+            answer: 1037
+            d1: 1035
+            d2: 1031
+            d3: 1034
+            d4: 1040
+          correctAnswers:
+            - text: 1037 UTC (hhmm)
+          wrongAnswers:
+            - text: 1035 UTC (hhmm)
+            - text: 1034 UTC (hhmm)
+            - text: 1040 UTC (hhmm)
+            - text: 1031 UTC (hhmm)
+        - variables:
+            t0: 1405
+            leg: 28
+            answer: 1433
+            d1: 1431
+            d2: 1427
+            d3: 1430
+            d4: 1436
+          correctAnswers:
+            - text: 1433 UTC (hhmm)
+          wrongAnswers:
+            - text: 1431 UTC (hhmm)
+            - text: 1430 UTC (hhmm)
+            - text: 1436 UTC (hhmm)
+            - text: 1427 UTC (hhmm)
+- id: QGNKZ
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335839
+    - BGS-331047
+    - AVEXAM-53657
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.01.05
+  templates:
+    - type: simple
+      question: The purpose of the Receiver Autonomous Integrity Monitoring (RAIM) is to ensure the (1) _____ of the GNSS navigation signals. For the RAIM function, at least one additional (2) _____ needs to be available to determine with precision its actual position and known potential error.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) integrity; (2) satellite
+          wrongAnswers:
+            - text: (1) integrity; (2) receiver
+            - text: (1) availability; (2) satellite
+            - text: (1) availability; (2) receiver
+    - type: simple
+      question: Receiver Autonomous Integrity Monitoring (RAIM) is a form of ABAS whereby a GNSS receiver processor determines the (1)_______ of the GNSS navigation signals. At least one additional (2) _______ needs to be available, for the receiver to perform the RAIM function.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) integrity; (2) satellite
+          wrongAnswers:
+            - text: (1) availability; (2) satellite
+            - text: (1) integrity; (2) receiver
+            - text: (1) availability; (2) receiver
+    - type: simple
+      question: The purpose of Receiver Autonomous Integrity Monitoring (RAIM) is to ensure the (1) ___ of the GNSS navigation signals. To enable the RAIM function, the presence of at least one additional (2) ___ is required to accurately determine its actual position and the known potential error.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) integrity; (2) satellite
+          wrongAnswers:
+            - text: (1) availability; (2) receiver
+            - text: (1) integrity; (2) receiver
+            - text: (1) availability; (2) satellite
+- id: QLHUP
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds:
+    - QSYJT
+  externalQuestionIds:
+    - ATPLQ-335501
+    - AVEXAM-64012
+    - AVEXAM-73300
+    - BGS-330244
+    - ATPLQ-337516
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.01.05
+  templates:
+    - type: simple
+      question: |-
+        An aircraft is in cruising flight at FL {{fl}} with a ground speed of {{gs}} kt. The pilot intends to descend at {{rod}} ft/min to arrive overhead the VOR at {{alt}} ft (QNH {{qnh}} hPa). The TAS remains constant in the descent, the wind is negligible and the temperature is standard.
+
+        At which distance from the VOR should the pilot commence the descent? (Use 1 hPa = 30 ft and standard pressure 1013 hPa; answer in NM.)
+      explanation: |-
+        The descent distance is the time needed to lose the height multiplied by the ground speed. The height to lose is measured from the true altitude at cruise level: a flight level is flown on the standard setting (1013 hPa), so with QNH {{qnh}} hPa the aeroplane is {{macro1}} ft ({{macro2}} hPa × 30 ft/hPa) higher above the QNH datum than the flight level suggests.
+
+        **Solution**
+
+        Height to lose = {{macro3}} ft + {{macro1}} ft - {{alt}} ft = {{macro4}} ft
+
+        Time = {{macro5}} ft / {{rod}} ft/min = {{macro6}} min
+
+        $$
+        \frac{\frac{\text{Cruise flight level}\times 100+(\text{QNH}-1013)\times 30-\text{Altitude to reach}}{\text{Rate of descent}}\times \text{Ground speed}}{60} = \frac{\frac{ {{fl}}\times 100+({{qnh}}-1013)\times 30-{{alt}} }{ {{rod}} }\times {{gs}} }{60} = \mathbf{ {{answer}}\ \text{NM} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: the QNH correction was ignored and the descent was planned from the flight level as if it were altitude.
+        - **{{d2}} NM**: the QNH correction was subtracted instead of added.
+        - **{{d3}} NM**: the target altitude was not subtracted, so too much height was assumed.
+        - **{{d4}} NM**: this is the descent time in minutes, not multiplied by the ground speed.
+      presets:
+        - variables:
+            fl: 95
+            gs: 155
+            rod: 500
+            alt: 2000
+            qnh: 1030
+            macro1: 510
+            macro2: 17
+            macro3: 9500
+            macro4: 8010
+            macro5: 8010
+            macro6: 16
+            answer: 41
+            d1: 39
+            d2: 36
+            d3: 52
+            d4: 16
+          correctAnswers:
+            - text: 41 NM
+          wrongAnswers:
+            - text: 39 NM
+            - text: 52 NM
+            - text: 16 NM
+            - text: 36 NM
+        - variables:
+            fl: 75
+            gs: 130
+            rod: 500
+            alt: 2500
+            qnh: 1025
+            macro1: 360
+            macro2: 12
+            macro3: 7500
+            macro4: 5360
+            macro5: 5360
+            macro6: 11
+            answer: 23
+            d1: 22
+            d2: 20
+            d3: 34
+            d4: 11
+          correctAnswers:
+            - text: 23 NM
+          wrongAnswers:
+            - text: 22 NM
+            - text: 34 NM
+            - text: 11 NM
+            - text: 20 NM
+        - variables:
+            fl: 120
+            gs: 160
+            rod: 600
+            alt: 3000
+            qnh: 1005
+            macro1: -240
+            macro2: -8
+            macro3: 12000
+            macro4: 8760
+            macro5: 8760
+            macro6: 15
+            answer: 39
+            d1: 40
+            d2: 41
+            d3: 52
+            d4: 15
+          correctAnswers:
+            - text: 39 NM
+          wrongAnswers:
+            - text: 40 NM
+            - text: 52 NM
+            - text: 15 NM
+            - text: 41 NM
+    - type: simple
+      question: |-
+        Given the following information, at what distance from MAN VOR should the pilot commence the descent, in order to arrive overhead MAN VOR at 2000 ft?
+
+        Cruise level: FL155 
+         
+        TAS: 260 kt, constant during descent 
+         
+        Wind component: negligible 
+         
+        Temperature: ISA 
+         
+        QNH: 1030 hPa 
+         
+        Rate of Descent: 500 ft/min
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 120 NM
+          wrongAnswers:
+            - text: 140 NM
+            - text: 110 NM
+            - text: 130 NM
+- id: QXJME
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337917
+    - AVEXAM-36328
+    - BGS-331209
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.01.05
+  templates:
+    - type: simple
+      question: What must the pilot determine before commencing descent in order to ensure safe ground clearance?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Aircraft position
+          wrongAnswers:
+            - text: Rate of descent
+            - text: True altitude
+            - text: Outside air temperature
+- id: QSKKJ
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337361
+    - AVEXAM-52597
+    - AVEXAM-96236
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.01
+  templates:
+    - type: simple
+      question: An airline has decided to implement fuel checks every 20 mins. Why is checking fuel consumption important?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To check actual fuel consumption for a better fuel prediction on arrival.
+          wrongAnswers:
+            - text: Better prediction of final reserve fuel.
+            - text: To fly economically
+            - text: To ensure the aircraft's weight remains within legal limits.
+    - type: simple
+      question: Why is checking fuel consumption every 20 minutes important if the operator requires the pilot to do so?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To check the aircraft's actual fuel consumption for better fuel prediction on arrival.
+          wrongAnswers:
+            - text: To ensure the aircraft's CG remains within limits.
+            - text: To fly economically.
+            - text: To better predict the final reserve fuel.
+    - type: simple
+      question: Why is regular monitoring fuel usage crucial during flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To check actual fuel consumption for a better fuel prediction on arrival.
+          wrongAnswers:
+            - text: To fly economically.
+            - text: To ensure the aircraft's weight remains within legal limits.
+            - text: Better prediction of final reserve fuel.
+- id: QTWEN
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-336414
+    - BGS-331427
+    - BGS-331352
+    - BGS-331111
+    - AVEXAM-14197
+    - BGS-331290
+    - ATPLQ-332847
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.01
+  templates:
+    - type: multiple-correct
+      question: Consider a Commercial Air Transport aeroplane flight. Which of the items listed below are the reasons given in the European Regulations on Air Operations for conducting and recording fuel checks at regular intervals?
+      explanation: ""
+      options:
+        - text: To compare actual consumption with planned consumption.
+          correct: true
+        - text: To check that the usable remaining fuel is sufficient to complete the flight.
+          correct: true
+        - text: To ensure dumping of excess fuel during the cruise that may otherwise result in exceeding the Maximum Landing Mass.
+          correct: false
+        - text: To determine the expected usable fuel remaining on arrival at the destination aerodrome
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+    - type: simple
+      question: |-
+        Consider a Commercial Air Transport aeroplane flight. Which of the items listed below are the reasons given in the European Regulations on Air Operations for conducting and recording fuel checks at regular intervals?1. To compare actual consumption with planned consumption
+        2. To check the effect of operational impacts and ensure that at least the final reserve fuel will remain upon arrival at the destination
+        3. To ensure fuel consumption remains as economical as possible
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 and 2
+          wrongAnswers:
+            - text: 1 only
+            - text: 1 and 3
+            - text: 1, 2 and 3
+- id: QAZGP
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339547
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.02
+  templates:
+    - type: simple
+      question: |-
+        An aeroplane is performing a commercial air transport flight. Regular fuel checks performed approximately every 30 min as required by the operator. The flight follows the planned route and then flies at the Mach number as planned. The fuel measurements are accurate within +/- 20 kg and the fuel flow indicators show a constant 1340 kg/h per engine throughout.
+
+        | Position | ETO | ATO | Required fuel | Actual fuel |
+        | --- | --- | --- | --- | --- |
+        | PBD01 | 0518 | 0516 | 9,925 kg | 10,170 kg |
+        | PBD02 | 0548 | 0546 | 8,590 kg | 8,850 kg |
+        | PBD03 | 0630 | 0628 | 6,721 kg | 6,930 kg |
+        | PBD04 | 0702 | 0700 | 5,297 kg | 5,410 kg |
+        | PBD05 | 0738 | 0736 | 3,695 kg | 3,700 kg |
+        | PBD05 + 10 min | — | 0746 | 3,225 kg | 3,080 kg |
+
+        What is the reason for the creation of the position of PBD05 + 10 min?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The fuel flow appears to be gradually increasing and one way of verifying this is to create a waypoint based on time and use the last known fuel depletion rate to assess any trends.
+          wrongAnswers:
+            - text: The aeroplane has less fuel than required but the fuel flow is verified as correct enabling a reasonable conclusion that any discrepancy is due to the wind being different to planned.
+            - text: The fuel flow is confirmed to be different from the plan and therefore the fuel flow indicators are showing incorrect and the thrust can be reduced to match the planned fuel flow.
+            - text: The fuel flow appears to be gradually reducing and in order to verify a revised fuel flow of 2850 kg/h the new waypoint enables this and a revised landing fuel may be calculated.
+- id: QZGQG
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334030
+    - BGS-330561
+    - AVEXAM-89492
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.03
+  templates:
+    - type: simple
+      question: An aircraft flies at a TAS of 380 kt. It flies from A to B and back to A. Distance AB is 480 NM. When going from A to B, it experiences a headwind componentof 60 kt. The wind remains constant. The duration of the flight will be
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 h 35 min.
+          wrongAnswers:
+            - text: 3 h 00 min.
+            - text: 2 h 32 min.
+            - text: 2 h 10 min.
+    - type: simple
+      question: "An aeroplane flies at an airspeed of 380 kt. It flies from A to B and back to A. Distance AB = 480 NM. When going from A to B, it experiences a headwind component = 60 kt. The wind remains constant. The duration of the flight will be:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 hrs 35 min
+          wrongAnswers:
+            - text: 2 hrs 10 min
+            - text: 3 hrs 00 min
+            - text: 2 hrs 32 min
+- id: QOXGI
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339224
+    - AVEXAM-41951
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.03
+  templates:
+    - type: simple
+      question: Extra fuel is carried to account for foreseen situations that may require more fuel than originally planned. Which of the following scenarios justifies the addition of extra fuel?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Expected higher fuel consumption due to a known MEL item.
+          wrongAnswers:
+            - text: Unforeseen weather phenomena en route.
+            - text: Unanticipated runway closure at the destination.
+            - text: Unexpected air traffic delays at the alternate airport.
+    - type: simple
+      question: Extra fuel is carried for situations that may require more fuel than planned. Which scenario justifies adding extra fuel?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Expected higher fuel consumption due to a known MEL item.
+          wrongAnswers:
+            - text: Unanticipated runway closure at the destination.
+            - text: Unforeseen weather phenomena en route.
+            - text: Unexpected air traffic delays at the alternate airport.
+- id: QZJVZ
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - BGS-330526
+    - AVEXAM-3193
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        (Refer to the image)
+        True Air speed: 170 kt.  Wind in the area: 270°/40 kt.  According to the attached the navigation log, an aircraft performs a turn overhead BULEN to re-route to ARD via TGJ. The given wind conditions remaining constant. The fuel consumption during the turn is 20 litres. The total fuel consumption at position overhead ARD will be:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 545 litres
+          wrongAnswers:
+            - text: 1 182 litres
+            - text: 1 326 litres
+            - text: 1 600 litres
+    - type: simple
+      question: |-
+        Refer to figure 033-88.
+
+         
+         
+         True Air speed:
+         170 kt
+         
+         
+         Wind in the area:
+         270°/40 kt
+         
+         
+
+
+
+        According to the attached the navigation log, an aircraft performs a turn overhead BULEN to reroute to ARD via TGJ. The given wind conditions remaining constant. The fuel consumption during the turn is 20 litres. The total fuel consumption at position overhead ARD will be:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 545 litres
+          wrongAnswers:
+            - text: 1 182 litres
+            - text: 1 326 litres
+            - text: 1 600 litres
+- id: QUKYO
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332393
+    - AVEXAM-95825
+    - AVEXAM-91303
+    - AVEXAM-6851
+    - BGS-331349
+    - BGS-331185
+    - BGS-331017
+    - AVEXAM-21742
+    - ATPLQ-333086
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        A pilot plans to fly from airport A to airport B, {{dtot}} NM away. After flying for {{t}} min covering {{dfl}} NM, the fuel remaining is {{frem}} lb plus reserves. Assuming conditions remain unchanged, what will be the remaining fuel at airport B (in lb, plus reserves)?
+
+        - Average TAS: {{tas}} kt
+        - Headwind component: {{hw}} kt
+        - Trip fuel: {{trip}} lb
+        - Planned average fuel flow: {{ffp}} lb/h
+      explanation: |-
+        The actual fuel flow is the fuel used so far (trip fuel minus fuel remaining) divided by the elapsed time. The remaining time uses the ground speed (TAS minus headwind). Fuel at destination is the present fuel minus the burn for the remaining distance.
+
+        **Solution**
+
+        Actual fuel flow = ({{trip}} - {{frem}}) / ({{t}} / 60) = {{macro1}} lb/h
+
+        Remaining time = {{macro2}} NM / {{macro3}} kt = {{macro4}} h
+
+        Fuel at B = **{{answer}} lb** plus reserves
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} lb**: the planned fuel flow was used instead of the actual one.
+        - **{{d2}} lb**: this is only the fuel used so far.
+        - **{{d3}} lb**: the wind was ignored in the remaining time.
+        - **{{d4}} lb**: the headwind was added to the TAS.
+      presets:
+        - variables:
+            dtot: 460
+            t: 84
+            dfl: 197
+            frem: 765
+            tas: 160
+            hw: 20
+            trip: 1051
+            ffp: 320
+            macro1: 204
+            macro2: 263
+            macro3: 140
+            macro4: 2
+            answer: 382
+            d1: 164
+            d2: 286
+            d3: 430
+            d4: 467
+          correctAnswers:
+            - text: 382 lb
+          wrongAnswers:
+            - text: 164 lb
+            - text: 430 lb
+            - text: 467 lb
+            - text: 286 lb
+        - variables:
+            dtot: 380
+            t: 60
+            dfl: 150
+            frem: 700
+            tas: 150
+            hw: 20
+            trip: 1000
+            ffp: 280
+            macro1: 300
+            macro2: 230
+            macro3: 130
+            macro4: 2
+            answer: 169
+            d1: 205
+            d2: 300
+            d3: 240
+            d4: 294
+          correctAnswers:
+            - text: 169 lb
+          wrongAnswers:
+            - text: 205 lb
+            - text: 240 lb
+            - text: 294 lb
+            - text: 300 lb
+        - variables:
+            dtot: 300
+            t: 50
+            dfl: 100
+            frem: 900
+            tas: 130
+            hw: 10
+            trip: 1220
+            ffp: 450
+            macro1: 384
+            macro2: 200
+            macro3: 120
+            macro4: 2
+            answer: 260
+            d1: 150
+            d2: 320
+            d3: 309
+            d4: 351
+          correctAnswers:
+            - text: 260 lb
+          wrongAnswers:
+            - text: 150 lb
+            - text: 309 lb
+            - text: 351 lb
+            - text: 320 lb
+    - type: simple
+      question: |-
+        You have planned to fly from airport A to airport B, which is 460 NM away. After flying for 1 hour 11 minutes, covering 183 NM, your fuel remaining is 780 lb plus reserves. Given the following information, and assuming conditions remain the same, what will be the remaining fuel at airport B?
+        Average TAS: 185 Kt
+        Wind: 30 Kt headwind
+        Trip Fuel: 1098 lb
+        Planned average fuel flow: 370 lb / h
+      explanation: Subtract the current usable fuel from planned take-off fuel to find fuel used. Divide by elapsed time for the observed burn rate. Find time remaining from distance remaining and the expected groundspeed, then deduct the estimated burn from current fuel. The result is fuel remaining in addition to the stated reserves.
+      presets:
+        - correctAnswers:
+            - text: 299 lb plus reserves.
+          wrongAnswers:
+            - text: 385 lb plus reserves.
+            - text: 199 lb plus reserves.
+            - text: 236 lb plus reserves.
+    - type: simple
+      question: |-
+        You have planned to fly from airport A to airport B, which is 460 NM away. After flying for 1 hour 20 minutes, covering 187 NM, your fuel remaining is 795 lb plus reserves. Given the following information, and assuming conditions remain the same, what will be the remaining fuel at airport B?
+        Average TAS: 120 Kt
+        Wind: 20 Kt tailwind
+        Trip Fuel: 1314 lb
+        Planned average fuel flow: 400 lb / h
+      explanation: Subtract the current usable fuel from planned take-off fuel to find fuel used. Divide by elapsed time for the observed burn rate. Find time remaining from distance remaining and the expected groundspeed, then deduct the estimated burn from current fuel. The result is fuel remaining in addition to the stated reserves.
+      presets:
+        - correctAnswers:
+            - text: 36 lb plus reserves.
+          wrongAnswers:
+            - text: 167 lb plus reserves.
+            - text: 15 lb plus reserves.
+            - text: 184 lb plus reserves.
+- id: QNRYD
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337231
+    - BGS-331281
+    - AVEXAM-91704
+    - ATPLQ-337697
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        An aircraft planning to fly a total distance of {{total}} NM covers {{cov}} NM in {{el}} min, and its actual fuel remaining is {{fn}} l. Given the following information and assuming that the actual fuel consumption remains at the same rate, what will be the actual fuel remaining at destination?
+
+        - Average TAS: {{tas}} kt
+        - Average wind component: {{hw}} kt headwind
+        - Trip fuel (fuel at start): {{trip}} l
+        - Planned average fuel flow: {{pff}} l/h
+      explanation: |-
+        The actual fuel flow is the fuel used so far (initial fuel minus fuel remaining) divided by the elapsed time. The remaining time is the remaining distance divided by the ground speed (TAS minus headwind). Fuel remaining at destination is the current fuel minus actual fuel flow times remaining time (fuel flow rounded to whole litres per hour and time to 0.01 h).
+
+        **Solution**
+
+        Actual fuel flow: {{macro1}} l/h
+
+        Remaining time: {{macro2}} h
+
+        $$
+        \text{Actual fuel remaining}-\frac{\text{round}(\frac{\text{Trip fuel (fuel at start)}-\text{Actual fuel remaining}}{\frac{\text{Elapsed time}}{60}})\times \text{round}(\frac{\text{Total distance}-\text{Distance covered}}{\text{TAS}-\text{Headwind}}\times 100)}{100} = \mathbf{ {{answer}}\ \text{l} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} l**: planned fuel flow used (and wind ignored) instead of the actual rate.
+        - **{{d2}} l**: wind ignored in the ground speed.
+        - **{{d3}} l**: headwind added to TAS instead of subtracted.
+        - **{{d4}} l**: planned proportion of trip fuel used instead of actual consumption.
+      presets:
+        - variables:
+            total: 460
+            cov: 178
+            el: 69
+            fn: 1019
+            tas: 145
+            hw: 25
+            trip: 1350
+            pff: 360
+            macro1: 288
+            macro2: 2
+            answer: 342
+            d1: 319
+            d2: 459
+            d3: 541
+            d4: 191
+          correctAnswers:
+            - text: 342 l
+          wrongAnswers:
+            - text: 319 l
+            - text: 541 l
+            - text: 191 l
+            - text: 459 l
+        - variables:
+            total: 450
+            cov: 160
+            el: 80
+            fn: 890
+            tas: 145
+            hw: 25
+            trip: 1350
+            pff: 360
+            macro1: 345
+            macro2: 2
+            answer: 55
+            d1: 170
+            d2: 200
+            d3: 301
+            d4: 20
+          correctAnswers:
+            - text: 55 l
+          wrongAnswers:
+            - text: 170 l
+            - text: 301 l
+            - text: 20 l
+            - text: 200 l
+- id: QWDTJ
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332041
+    - AVEXAM-45273
+    - BGS-331336
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        Given the following information, calculate the actual fuel at the destination for a Commercial Air Transport flight (Performance Class A). Assume the actual fuel consumption is maintained at the same rate.
+
+        - Total distance A to B: {{dtot}} NM
+        - Fuel remaining after {{t}} min: {{frem}} US gal
+        - Distance travelled after {{t}} min: {{dfl}} NM
+        - Average TAS: {{tas}} kt
+        - Wind component: {{hw}} kt headwind
+        - Trip fuel (fuel at start): {{trip}} US gal
+        - Planned average fuel flow: {{ffp}} US gal/h
+      explanation: |-
+        The actual fuel flow is the fuel used so far divided by the elapsed time. The remaining flight time uses the ground speed (TAS minus headwind). Fuel at destination is the present fuel minus the burn for the remaining distance at the actual flow.
+
+        **Solution**
+
+        Actual fuel flow = ({{trip}} - {{frem}}) / ({{t}} / 60) = {{macro1}} US gal/h
+
+        Remaining time = {{macro2}} NM / {{macro3}} kt = {{macro4}} h
+
+        Fuel at destination = **{{answer}} US gal**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} US gal**: the planned fuel flow was used instead of the actual one.
+        - **{{d2}} US gal**: this is only the fuel used so far.
+        - **{{d3}} US gal**: the wind was ignored in the remaining time.
+        - **{{d4}} US gal**: the headwind was added to the TAS.
+      presets:
+        - variables:
+            dtot: 320
+            t: 75
+            frem: 859
+            dfl: 119
+            tas: 115
+            hw: 20
+            trip: 1280
+            ffp: 380
+            macro1: 337
+            macro2: 201
+            macro3: 95
+            macro4: 2
+            answer: 146
+            d1: 55
+            d2: 421
+            d3: 270
+            d4: 357
+          correctAnswers:
+            - text: 146 US gal
+          wrongAnswers:
+            - text: 55 US gal
+            - text: 270 US gal
+            - text: 357 US gal
+            - text: 421 US gal
+        - variables:
+            dtot: 300
+            t: 60
+            frem: 800
+            dfl: 100
+            tas: 120
+            hw: 15
+            trip: 1000
+            ffp: 220
+            macro1: 200
+            macro2: 200
+            macro3: 105
+            macro4: 2
+            answer: 419
+            d1: 381
+            d2: 200
+            d3: 467
+            d4: 504
+          correctAnswers:
+            - text: 419 US gal
+          wrongAnswers:
+            - text: 381 US gal
+            - text: 467 US gal
+            - text: 504 US gal
+            - text: 200 US gal
+        - variables:
+            dtot: 280
+            t: 50
+            frem: 600
+            dfl: 90
+            tas: 110
+            hw: 10
+            trip: 800
+            ffp: 250
+            macro1: 240
+            macro2: 190
+            macro3: 100
+            macro4: 2
+            answer: 144
+            d1: 125
+            d2: 200
+            d3: 185
+            d4: 220
+          correctAnswers:
+            - text: 144 US gal
+          wrongAnswers:
+            - text: 125 US gal
+            - text: 185 US gal
+            - text: 220 US gal
+            - text: 200 US gal
+- id: QAKLE
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds:
+    - QGURP
+  externalQuestionIds:
+    - ATPLQ-337277
+    - BGS-330538
+    - AVEXAM-25851
+    - BGS-330593
+    - BGS-330535
+    - AVEXAM-40361
+    - BGS-330588
+    - BGS-330682
+    - BGS-330540
+    - AVEXAM-41276
+    - BGS-330592
+    - BGS-330541
+    - AVEXAM-8842
+    - BGS-330594
+    - BGS-330537
+    - AVEXAM-97618
+    - BGS-330539
+    - AVEXAM-62788
+    - BGS-330536
+    - BGS-330591
+    - AVEXAM-38160
+    - BGS-330596
+    - BGS-330595
+    - ATPLQ-339976
+    - ATPLQ-332733
+    - ATPLQ-336870
+    - AVEXAM-53450
+    - ATPLQ-339564
+    - AVEXAM-55225
+    - ATPLQ-339191
+    - ATPLQ-338219
+    - ATPLQ-336463
+  annexes:
+    - id: AABF
+    - id: ACET
+    - id: AHMY
+    - id: AJZQ
+    - id: AGJO
+  learningObjectiveIds:
+    - 033.06.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure (Flight Log excerpt with planned and actual data).
+
+        Arriving overhead a waypoint with {{fs}} kg fuel remaining, you are cleared for direct routeing to a later waypoint.
+
+        The actual fuel flow shown in the log is {{ff}} kg/h and the flight time for the direct leg will be {{time}} min.
+
+        Provided that flight conditions and fuel consumption remain unchanged, what fuel remaining should be expected at the end of the direct leg?
+
+        Fuel remaining and fuel flow are read from the Flight Log.
+      explanation: |-
+        The fuel remaining at the end of the direct leg is the fuel remaining at its start minus the fuel burned during the leg, which is fuel flow multiplied by flight time.
+
+        **Solution**
+
+        Fuel burned: $$\frac{\text{Actual fuel flow (from log)}\times \text{Direct leg flight time}}{60} = \frac{ {{ff}}\times {{time}} }{60}$$ kg
+
+        $$
+        \text{Fuel remaining at the start waypoint (from log)}-\frac{\text{Actual fuel flow (from log)}\times \text{Direct leg flight time}}{60} = {{fs}}-\frac{ {{ff}}\times {{time}} }{60} = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: minutes converted to hours by dividing by 100 instead of 60.
+        - **{{d2}} kg**: fuel burned was added instead of subtracted.
+        - **{{d3}} kg**: leg time taken 10 min too long.
+        - **{{d4}} kg**: leg time taken 10 min too short.
+        - **{{d5}} kg**: fuel flow increased by 10 %.
+      presets:
+        - variables:
+            fs: 2290
+            ff: 600
+            time: 57
+            answer: 1720
+            d1: 1948
+            d2: 2860
+            d3: 1620
+            d4: 1820
+            d5: 1663
+          correctAnswers:
+            - text: 1720 kg
+          wrongAnswers:
+            - text: 1620 kg
+            - text: 1820 kg
+            - text: 1948 kg
+            - text: 2860 kg
+            - text: 1663 kg
+        - variables:
+            fs: 2059
+            ff: 900
+            time: 45
+            answer: 1384
+            d1: 1654
+            d2: 2734
+            d3: 1234
+            d4: 1534
+            d5: 1317
+          correctAnswers:
+            - text: 1384 kg
+          wrongAnswers:
+            - text: 1234 kg
+            - text: 1534 kg
+            - text: 1654 kg
+            - text: 2734 kg
+            - text: 1317 kg
+        - variables:
+            fs: 2700
+            ff: 1200
+            time: 40
+            answer: 1900
+            d1: 2220
+            d2: 3500
+            d3: 1700
+            d4: 2100
+            d5: 1820
+          correctAnswers:
+            - text: 1900 kg
+          wrongAnswers:
+            - text: 1700 kg
+            - text: 2100 kg
+            - text: 2220 kg
+            - text: 3500 kg
+            - text: 1820 kg
+        - variables:
+            fs: 6822
+            ff: 1200
+            time: 35
+            answer: 6122
+            d1: 6402
+            d2: 7522
+            d3: 5922
+            d4: 6322
+            d5: 6052
+          correctAnswers:
+            - text: 6122 kg
+          wrongAnswers:
+            - text: 5922 kg
+            - text: 6322 kg
+            - text: 6402 kg
+            - text: 7522 kg
+            - text: 6052 kg
+        - variables:
+            fs: 2700
+            ff: 1200
+            time: 70
+            answer: 1300
+            d1: 1860
+            d2: 4100
+            d3: 1100
+            d4: 1500
+            d5: 1160
+          correctAnswers:
+            - text: 1300 kg
+          wrongAnswers:
+            - text: 1100 kg
+            - text: 1500 kg
+            - text: 1860 kg
+            - text: 4100 kg
+            - text: 1160 kg
+- id: QEZRV
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331949
+    - AVEXAM-66304
+    - BGS-330534
+    - AVEXAM-46272
+    - AVEXAM-54376
+    - AVEXAM-59759
+    - BGS-330532
+    - AVEXAM-76884
+    - BGS-330683
+    - AVEXAM-74829
+    - AVEXAM-74142
+    - BGS-330531
+    - BGS-330530
+    - BGS-330533
+    - BGS-330657
+  annexes:
+    - id: ALZO
+  learningObjectiveIds:
+    - 033.06.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Given: Planned and actual data as shown in the Flight Log excerpt.
+
+        Provided that flight conditions on the leg GAMMA to DELTA remain unchanged and fuel consumption remains unchanged, what fuel remaining should be expected at waypoint DELTA?
+      explanation: The flight log shows planned remaining fuel of 5 690, 5 270, 4 970 and 4 430 kg, and actual remaining fuel of 5 690, 5 200 and 4 850 kg. The actual consumption is 490 kg against 420 kg planned, and 350 kg against 300 kg planned, which is 1.17 times the plan. The planned burn on GAMMA to DELTA is 540 kg, so the actual burn is about 630 kg, and 4 850 - 630 = 4 220 kg.
+      presets:
+        - correctAnswers:
+            - text: 4220 kg
+          wrongAnswers:
+            - text: 4340 kg
+            - text: 4430 kg
+            - text: 3800 kg
+- id: QGURP
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds:
+    - QAKLE
+  externalQuestionIds:
+    - ATPLQ-336433
+    - BGS-330529
+    - BGS-330528
+    - ATPLQ-338190
+    - BGS-331593
+  annexes:
+    - id: ALJS
+    - id: ASYM
+  learningObjectiveIds:
+    - 033.06.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure (Flight Log excerpt with planned and actual data).
+
+        Fuel remaining at waypoint GAMMA is {{fs}} kg, the fuel flow is {{ff}} kg/h and the leg time from GAMMA to DELTA is {{time}} min (all read from the Flight Log).
+
+        Provided that flight conditions on the leg GAMMA to DELTA remain unchanged and fuel consumption remains unchanged, what fuel remaining should be expected at waypoint DELTA?
+      explanation: |-
+        Fuel at the next waypoint equals the fuel at the previous waypoint minus fuel flow multiplied by leg time.
+
+        **Solution**
+
+        $$
+        \text{Fuel remaining at GAMMA (from log)}-\frac{\text{Fuel flow (from log)}\times \text{Leg time GAMMA to DELTA (from log)}}{60} = {{fs}}-\frac{ {{ff}}\times {{time}} }{60} = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: minutes converted to hours by dividing by 100.
+        - **{{d2}} kg**: fuel burned added instead of subtracted.
+        - **{{d3}} kg**: leg time taken 10 min too long.
+        - **{{d4}} kg**: leg time taken 10 min too short.
+      presets:
+        - variables:
+            fs: 5440
+            ff: 1000
+            time: 30
+            answer: 4940
+            d1: 5140
+            d2: 5940
+            d3: 4773
+            d4: 5107
+          correctAnswers:
+            - text: 4940 kg
+          wrongAnswers:
+            - text: 5140 kg
+            - text: 4773 kg
+            - text: 5107 kg
+            - text: 5940 kg
+        - variables:
+            fs: 5150
+            ff: 900
+            time: 40
+            answer: 4550
+            d1: 4790
+            d2: 5750
+            d3: 4400
+            d4: 4700
+          correctAnswers:
+            - text: 4550 kg
+          wrongAnswers:
+            - text: 4790 kg
+            - text: 4400 kg
+            - text: 4700 kg
+            - text: 5750 kg
+- id: QJBMI
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338259
+    - BGS-330553
+    - AVEXAM-89379
+    - BGS-330656
+    - BGS-330551
+    - AVEXAM-99597
+    - BGS-330926
+    - AVEXAM-80066
+    - BGS-330549
+    - AVEXAM-3593
+    - BGS-330552
+    - AVEXAM-91513
+    - BGS-330554
+    - BGS-330550
+    - BGS-330687
+    - AVEXAM-90610
+  annexes:
+    - id: AMRU
+  learningObjectiveIds:
+    - 033.06.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure.
+
+        Planned and actual data are shown in the Flight Log excerpt.
+
+        Fuel remaining at BETA is {{fb}} kg, the fuel flow is {{ff}} kg/h and the leg BETA to GAMMA is {{dist}} NM long (all read from the log).
+
+        The actual ground speed on this leg will be {{gs}} kt.
+
+        If all other flight parameters remain unchanged, what actual fuel remaining should be expected at waypoint GAMMA?
+      explanation: |-
+        The leg time is distance divided by actual ground speed. The fuel burned is the fuel flow times that time, and it is subtracted from the fuel at the start of the leg.
+
+        **Solution**
+
+        Leg time: {{macro1}} min
+
+        $$
+        \text{Fuel remaining at BETA (from log)}-\frac{\text{Fuel flow (from log)}\times \text{Leg distance BETA to GAMMA (from log)}}{\text{Actual ground speed}} = {{fb}}-\frac{ {{ff}}\times {{dist}} }{ {{gs}} } = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: ground speed taken 10 kt too high.
+        - **{{d2}} kg**: ground speed taken 10 kt too low.
+        - **{{d3}} kg**: distance divided by 60 (treated as a speed of 60 kt).
+        - **{{d4}} kg**: fuel burned added instead of subtracted.
+      presets:
+        - variables:
+            fb: 2550
+            ff: 1100
+            dist: 55
+            gs: 110
+            macro1: 30
+            answer: 2000
+            d1: 2046
+            d2: 1945
+            d3: 1542
+            d4: 3100
+          correctAnswers:
+            - text: 2000 kg
+          wrongAnswers:
+            - text: 2046 kg
+            - text: 1542 kg
+            - text: 3100 kg
+            - text: 1945 kg
+        - variables:
+            fb: 3200
+            ff: 900
+            dist: 80
+            gs: 120
+            macro1: 40
+            answer: 2600
+            d1: 2646
+            d2: 2545
+            d3: 2000
+            d4: 3800
+          correctAnswers:
+            - text: 2600 kg
+          wrongAnswers:
+            - text: 2646 kg
+            - text: 2000 kg
+            - text: 3800 kg
+            - text: 2545 kg
+- id: QBNIC
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334277
+    - AVEXAM-66423
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        A flight log records ETO, ATO, planned fuel and actual fuel at each waypoint.
+
+        At the last waypoint the actual fuel was {{lf}} l (ETO 10:10, ATO 10:08).
+
+        The next waypoint has an ETO of 10:32, which is {{gap}} min after the last ETO.
+
+        If the fuel flow is {{ff}} l/h, find the fuel remaining in litres at that waypoint.
+      explanation: |-
+        Fuel at the next waypoint is the last actual fuel minus the fuel burned over the planned interval to the next ETO (fuel flow times time).
+
+        **Solution**
+
+        $$
+        \text{Last actual fuel}-\frac{\text{Fuel flow}\times \text{Time from last ETO to next ETO}}{60} = {{lf}}-\frac{ {{ff}}\times {{gap}} }{60} = \mathbf{ {{answer}}\ \text{l} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} l**: the interval was taken 2 min too long (ETO to ATO mix-up).
+        - **{{d2}} l**: minutes converted by dividing by 100.
+        - **{{d3}} l**: fuel burned added instead of subtracted.
+        - **{{d4}} l**: the interval was taken 8 min too long.
+      presets:
+        - variables:
+            lf: 130
+            gap: 22
+            ff: 52
+            answer: 111
+            d1: 109
+            d2: 119
+            d3: 149
+            d4: 104
+          correctAnswers:
+            - text: 111 l
+          wrongAnswers:
+            - text: 109 l
+            - text: 149 l
+            - text: 104 l
+            - text: 119 l
+        - variables:
+            lf: 120
+            gap: 18
+            ff: 48
+            answer: 106
+            d1: 104
+            d2: 111
+            d3: 134
+            d4: 99
+          correctAnswers:
+            - text: 106 l
+          wrongAnswers:
+            - text: 104 l
+            - text: 134 l
+            - text: 99 l
+            - text: 111 l
+- id: QDBYU
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331221
+    - AVEXAM-32995
+    - BGS-331158
+    - ATPLQ-338222
+    - AVEXAM-47674
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        Calculate your expected fuel state at the destination after flying a leg with the following data:
+
+        - Distance: {{dist}} NM
+        - Usable fuel at the start: {{fuel}} kg
+        - TAS: {{tas}} kt
+        - Wind component: {{wc}} kt (negative = headwind)
+        - Fuel flow: {{ff}} kg/h
+      explanation: |-
+        Fuel remaining is the fuel on board minus the fuel burned on the leg. The burn is fuel flow times time, and time is distance divided by ground speed (TAS plus wind component, a negative component being a headwind).
+
+        **Solution**
+
+        Ground speed = {{macro1}} kt
+
+        $$
+        \text{Fuel at start}-\frac{\text{Fuel flow}\times \text{Distance}}{\text{TAS}+\text{Wind component}} = {{fuel}}-\frac{ {{ff}}\times {{dist}} }{ {{tas}}+({{wc}})} = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: this is the fuel burned, not the fuel remaining.
+        - **{{d2}} kg**: applies the wind with the wrong sign (tailwind instead of headwind).
+        - **{{d3}} kg**: ignores the wind and uses TAS as ground speed.
+      presets:
+        - variables:
+            dist: 189
+            fuel: 560
+            tas: 155
+            wc: -20
+            ff: 195
+            macro1: 135
+            answer: 287
+            d1: 273
+            d2: 349
+            d3: 322
+          correctAnswers:
+            - text: 287 kg
+          wrongAnswers:
+            - text: 322 kg
+            - text: 273 kg
+            - text: 349 kg
+        - variables:
+            dist: 210
+            fuel: 700
+            tas: 160
+            wc: -25
+            ff: 210
+            macro1: 135
+            answer: 373
+            d1: 327
+            d2: 462
+            d3: 424
+          correctAnswers:
+            - text: 373 kg
+          wrongAnswers:
+            - text: 424 kg
+            - text: 327 kg
+            - text: 462 kg
+        - variables:
+            dist: 150
+            fuel: 450
+            tas: 140
+            wc: -15
+            ff: 180
+            macro1: 125
+            answer: 234
+            d1: 216
+            d2: 276
+            d3: 257
+          correctAnswers:
+            - text: 234 kg
+          wrongAnswers:
+            - text: 257 kg
+            - text: 216 kg
+            - text: 276 kg
+    - type: simple
+      question: |-
+        Calculate your expected fuel state at MALIV, after flying from NINTA to MALIV at FL80 with the following data given.NINTA-MALIV: 189 NM 
+        Usable fuel at NINTA: 560 kg 
+        TAS at FL80: 155 kt 
+        Wind component at FL80: +20 kt 
+        Fuel flow: 195 kg/hr
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 349 kg
+          wrongAnswers:
+            - text: 322 kg
+            - text: 287 kg
+            - text: 273 kg
+    - type: simple
+      question: |-
+        Given:
+
+         
+         
+         NINTA-MALIV:
+         189 NM
+         
+         
+         Usable fuel at NINTA:
+         560 kg
+         
+         
+         TAS at FL80:
+         155 kt
+         
+         
+         Wind component at FL80:
+         +20 kt
+         
+         
+         Fuel flow:
+         195 kg/hr
+         
+         
+
+
+
+        Determine your anticipated fuel level at MALIV, after flying from NINTA to MALIV at FL80:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 349 kg
+          wrongAnswers:
+            - text: 287 kg
+            - text: 322 kg
+            - text: 273 kg
+- id: QFRPF
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339820
+    - AVEXAM-81540
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        Calculate the estimated total fuel used from Beta to Delta. The fuel remaining at each waypoint was:
+
+        - Alpha: {{fa}} gallons (reference time)
+        - Beta: {{fb}} gallons, {{tab}} min after Alpha
+        - Charlie: {{fc}} gallons, {{tbc}} min after Beta
+        - Delta: ? gallons, {{tcd}} min after Charlie
+      explanation: |-
+        The fuel flow is assumed constant and is derived from the last interval for which both fuel quantities and times are known. The fuel used over the elapsed time from Beta to Delta is then the fuel flow multiplied by that time.
+
+        **Solution**
+
+        Fuel flow Beta to Charlie: $$\frac{\text{Fuel at Beta}-\text{Fuel at Charlie}}{\text{Time Beta to Charlie}}$$ = $$\frac{ {{fb}}-{{fc}} }{ {{tbc}} }$$ = {{macro3}} gallons/min
+
+        Time Beta to Delta: {{tbc}} + {{tcd}} = {{macro4}} min
+
+        $$
+        \frac{\text{Fuel at Beta}-\text{Fuel at Charlie}}{\text{Time Beta to Charlie}}\times (\text{Time Beta to Charlie}+\text{Time Charlie to Delta}) = \frac{ {{fb}}-{{fc}} }{ {{tbc}} }\times ({{tbc}}+{{tcd}}) = \mathbf{ {{answer}}\ \text{gallons} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} gallons**: only the fuel used from Charlie to Delta; the interval Beta to Charlie is left out.
+        - **{{d2}} gallons**: the fuel actually burnt between Alpha and Beta is added to the Charlie-Delta estimate, mixing different intervals.
+        - **{{d3}} gallons**: the fuel flow is taken over the interval Alpha to Charlie and applied to the whole time Alpha to Delta, which is the fuel used from Alpha, not from Beta.
+        - **{{d4}} gallons**: the actual fuel used from Alpha to Charlie, not the estimate to Delta.
+      presets:
+        - variables:
+            fa: 52.4
+            fb: 48.7
+            tab: 10
+            fc: 46.3
+            tbc: 18
+            tcd: 50
+            macro3: 0
+            macro4: 68
+            answer: 9
+            d1: 7
+            d2: 10
+            d3: 17
+            d4: 6
+          correctAnswers:
+            - text: 9 gallons
+          wrongAnswers:
+            - text: 7 gallons
+            - text: 17 gallons
+            - text: 6 gallons
+            - text: 10 gallons
+        - variables:
+            fa: 60.2
+            fb: 55.1
+            tab: 12
+            fc: 51.3
+            tbc: 20
+            tcd: 45
+            macro3: 0
+            macro4: 65
+            answer: 12
+            d1: 9
+            d2: 14
+            d3: 21
+            d4: 9
+          correctAnswers:
+            - text: 12 gallons
+          wrongAnswers:
+            - text: 21 gallons
+            - text: 9 gallons
+            - text: 14 gallons
+        - variables:
+            fa: 41.5
+            fb: 38.9
+            tab: 8
+            fc: 36
+            tbc: 15
+            tcd: 40
+            macro3: 0
+            macro4: 55
+            answer: 11
+            d1: 8
+            d2: 10
+            d3: 15
+            d4: 6
+          correctAnswers:
+            - text: 11 gallons
+          wrongAnswers:
+            - text: 8 gallons
+            - text: 15 gallons
+            - text: 6 gallons
+            - text: 10 gallons
+- id: QIHKS
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-336199
+    - AVEXAM-60039
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        Calculate the estimated total fuel used from Alpha to Delta. The fuel remaining at each waypoint was:
+
+        - Alpha: {{fa}} gallons (reference time)
+        - Beta: {{fb}} gallons, {{tab}} min after Alpha
+        - Charlie: {{fc}} gallons, {{tbc}} min after Beta
+        - Delta: ? gallons, {{tcd}} min after Charlie
+      explanation: |-
+        Assuming an unchanged fuel flow, the fuel flow measured over the known interval (Alpha to Charlie) is extrapolated over the whole elapsed time from Alpha to Delta.
+
+        **Solution**
+
+        Fuel flow Alpha to Charlie: $$\frac{\text{Fuel at Alpha}-\text{Fuel at Charlie}}{\text{Time Alpha to Beta}+\text{Time Beta to Charlie}}$$ = $$\frac{ {{fa}}-{{fc}} }{ {{tab}}+{{tbc}} }$$ = {{macro3}} gallons/min
+
+        Time Alpha to Delta: {{tab}} + {{tbc}} + {{tcd}} = {{macro4}} min
+
+        $$
+        \frac{\text{Fuel at Alpha}-\text{Fuel at Charlie}}{\text{Time Alpha to Beta}+\text{Time Beta to Charlie}}\times (\text{Time Alpha to Beta}+\text{Time Beta to Charlie}+\text{Time Charlie to Delta}) = \frac{ {{fa}}-{{fc}} }{ {{tab}}+{{tbc}} }\times ({{tab}}+{{tbc}}+{{tcd}}) = \mathbf{ {{answer}}\ \text{gallons} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} gallons**: the measured fuel Alpha to Beta is added to an estimate for Charlie to Delta only, with the flow of the Beta-Charlie leg.
+        - **{{d2}} gallons**: this is the fuel remaining at Delta, not the fuel used.
+        - **{{d3}} gallons**: the fuel actually used from Alpha to Charlie; the leg to Delta is not included.
+      presets:
+        - variables:
+            fa: 52.4
+            fb: 48.7
+            tab: 10
+            fc: 46.3
+            tbc: 18
+            tcd: 50
+            macro3: 0
+            macro4: 78
+            answer: 17
+            d1: 10
+            d2: 35
+            d3: 6
+          correctAnswers:
+            - text: 17 gallons
+          wrongAnswers:
+            - text: 6 gallons
+            - text: 10 gallons
+            - text: 35 gallons
+        - variables:
+            fa: 60.2
+            fb: 55.1
+            tab: 12
+            fc: 51.3
+            tbc: 20
+            tcd: 45
+            macro3: 0
+            macro4: 77
+            answer: 21
+            d1: 14
+            d2: 39
+            d3: 9
+          correctAnswers:
+            - text: 21 gallons
+          wrongAnswers:
+            - text: 9 gallons
+            - text: 14 gallons
+            - text: 39 gallons
+        - variables:
+            fa: 41.5
+            fb: 38.9
+            tab: 8
+            fc: 36
+            tbc: 15
+            tcd: 40
+            macro3: 0
+            macro4: 63
+            answer: 15
+            d1: 10
+            d2: 26
+            d3: 6
+          correctAnswers:
+            - text: 15 gallons
+          wrongAnswers:
+            - text: 6 gallons
+            - text: 10 gallons
+            - text: 26 gallons
+- id: QJBXY
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331756
+    - AVEXAM-24727
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        Based on the operational flight plan excerpt below, calculate the estimated remaining fuel overhead waypoint B, assuming ground speed and actual fuel flow stay the same as on the leg before:
+
+        - Departure: fuel {{f0}} kg
+        - Waypoint A: distance {{d1}} NM, {{t1}} min after departure, planned fuel {{fp}} kg, actual fuel {{fa}} kg
+        - Waypoint B: distance {{d2}} NM from A
+      explanation: |-
+        The time on the next leg follows from the ground speed of the previous leg; the fuel burn uses the actual fuel flow (actual fuel used divided by time), starting from the actual fuel at the last waypoint.
+
+        **Solution**
+
+        Leg time A-B = {{macro1}} min
+
+        Actual fuel flow = {{macro2}} kg / {{t1}} min = {{macro3}} kg/h
+
+        $$
+        \text{Actual fuel at A}-\frac{\text{Fuel at departure}-\text{Actual fuel at A}}{\text{Time departure-A}}\times \frac{\text{Time departure-A}\times \text{Distance A-B}}{\text{Distance departure-A}} = {{fa}}-\frac{ {{f0}}-{{fa}} }{ {{t1}} }\times \frac{ {{t1}}\times {{d2}} }{ {{step1}} } = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: starts from the planned fuel at A instead of the actual fuel.
+        - **{{d2}} kg**: subtracts the burn of the whole first leg instead of the second leg.
+        - **{{d3}} kg**: starts from the departure fuel instead of the fuel actually remaining at A.
+        - **{{d4}} kg**: uses the planned fuel flow instead of the actual one.
+      presets:
+        - variables:
+            f0: 2800
+            d1: 2018
+            t1: 40
+            fp: 2400
+            fa: 2290
+            d2: 1780
+            macro1: 35
+            macro2: 510
+            macro3: 765
+            answer: 1908
+            d3: 2418
+            d4: 1990
+            step1: 2017.5
+          correctAnswers:
+            - text: 1908 kg
+          wrongAnswers:
+            - text: 2018 kg
+            - text: 2418 kg
+            - text: 1990 kg
+            - text: 1780 kg
+        - variables:
+            f0: 3200
+            d1: 2360
+            t1: 45
+            fp: 2800
+            fa: 2650
+            d2: 2100
+            macro1: 40
+            macro2: 550
+            macro3: 733
+            answer: 2210
+            d3: 2760
+            d4: 2330
+            step1: 2360
+          correctAnswers:
+            - text: 2210 kg
+          wrongAnswers:
+            - text: 2360 kg
+            - text: 2760 kg
+            - text: 2330 kg
+            - text: 2100 kg
+        - variables:
+            f0: 2500
+            d1: 1910
+            t1: 30
+            fp: 2150
+            fa: 2100
+            d2: 1700
+            macro1: 27
+            macro2: 400
+            macro3: 800
+            answer: 1860
+            d3: 2260
+            d4: 1890
+            step1: 1910
+          correctAnswers:
+            - text: 1860 kg
+          wrongAnswers:
+            - text: 1910 kg
+            - text: 2260 kg
+            - text: 1890 kg
+            - text: 1700 kg
+    - type: simple
+      question: |-
+        Based on the operational flight plan excerpt below, calculate ETO and estimated remaining fuel overhead waypoint B:
+
+         
+
+         
+         
+         WPT
+         DISTANCE
+
+         (NM)
+         ETO
+
+         (UTC)
+         ATO
+
+         (UTC)
+         ESTIMATED
+
+         FUEL (KG)
+         ACTUAL
+
+         FUEL (KG)
+         
+         
+         
+         
+         14:30
+         
+         
+         2 800
+         
+         
+         A
+         200
+         15:10
+         15:10
+         2 400
+         2 290
+         
+         
+         B
+         150
+         ?
+         
+         ?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 15:40 UTC and 1 907 kg
+          wrongAnswers:
+            - text: 15:40 UTC and 2 017 kg
+            - text: 15:50 UTC and 1 780 kg
+            - text: 15:30 UTC and 1 990 kg
+- id: QPDEJ
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335609
+    - AVEXAM-99638
+    - AVEXAM-80420
+    - AVEXAM-72695
+    - AVEXAM-6367
+    - AVEXAM-70688
+    - AVEXAM-23934
+    - ATPLQ-337365
+    - ATPLQ-336502
+    - ATPLQ-339122
+    - AVEXAM-75347
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        For a planned flight the calculated fuel is as follows:
+
+        - Trip fuel: sufficient for a planned flight time of {{plan}} min
+        - Reserve fuel: {{res}} % of the planned trip fuel
+        - Start up and Taxi fuel: {{taxi}} kg
+        - Block fuel: {{block}} kg
+
+        How much fuel should remain after a flight time of {{el}} min?
+      explanation: |-
+        Block fuel minus taxi fuel is the fuel available for trip plus reserve. With the reserve being a percentage of the trip fuel, trip fuel = available / (1 + reserve %). Fuel burned is assumed proportional to flight time, and the remaining fuel is what is left of the available fuel.
+
+        **Solution**
+
+        Trip fuel: {{macro1}} kg
+
+        Fuel burned: {{macro2}} kg
+
+        $$
+        \text{Block fuel}-\text{Start up and taxi fuel}-\frac{\frac{\text{Block fuel}-\text{Start up and taxi fuel}}{1+\frac{\text{Reserve fuel percentage}}{100}}\times \text{Elapsed flight time}}{\text{Planned trip time}} = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: taxi fuel was not subtracted.
+        - **{{d2}} kg**: the reserve was not separated, the whole available fuel was scaled by time.
+        - **{{d3}} kg**: fuel for the remaining time was subtracted instead of the elapsed time.
+        - **{{d4}} kg**: this is the trip fuel still to be burned, reserve not included.
+      presets:
+        - variables:
+            plan: 325
+            res: 30
+            taxi: 12
+            block: 945
+            el: 240
+            macro1: 718
+            macro2: 530
+            answer: 403
+            d1: 415
+            d2: 244
+            d3: 745
+            d4: 188
+          correctAnswers:
+            - text: 403 kg
+          wrongAnswers:
+            - text: 415 kg
+            - text: 745 kg
+            - text: 188 kg
+            - text: 244 kg
+        - variables:
+            plan: 260
+            res: 30
+            taxi: 15
+            block: 650
+            el: 180
+            macro1: 488
+            macro2: 338
+            answer: 297
+            d1: 312
+            d2: 195
+            d3: 485
+            d4: 150
+          correctAnswers:
+            - text: 297 kg
+          wrongAnswers:
+            - text: 312 kg
+            - text: 485 kg
+            - text: 150 kg
+            - text: 195 kg
+    - type: simple
+      question: |-
+        For a planned flight the calculated fuel is as follows:
+
+        Trip fuel: sufficient for a planned flight time of 3h 36min 
+         
+        Reserve fuel: 30% of the planned trip fuel. 
+         
+        Start up and Taxi fuel: 26 kg 
+         
+        Block fuel: 786 kg
+
+        How much fuel should remain after a flight time of 1h 30min?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 516 kg
+          wrongAnswers:
+            - text: 538 kg
+            - text: 380 kg
+            - text: 562 kg
+        - correctAnswers:
+            - text: 158 kg
+          wrongAnswers:
+            - text: 170 kg
+            - text: 183 kg
+            - text: 73 kg
+    - type: simple
+      question: |-
+        For a planned flight the calculated fuel is as follows:
+
+        Flight time: 4 hrs 10 min 
+         
+        Taxi fuel: 12 kg 
+         
+        Block fuel: 452 kg
+
+        Reserve fuel is 30% of the Planned Trip fuel. An airborne fuel check is performed at a waypoint from which the flight time remaining to reach the destination is 1 hour 50 minutes. How much fuel should remain on board to reach the destination from this waypoint?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 250 kg
+          wrongAnswers:
+            - text: 148 kg
+            - text: 102 kg
+            - text: 338 kg
+    - type: simple
+      question: |-
+        For a planned flight the calculated fuel is as follows:
+
+
+         
+         
+         Trip fuel:
+         sufficient for a planned flight time of 3 hours 36 minutes 
+         
+         
+         Reserve fuel:
+         30 % of the planned trip fuel
+         
+         
+         Start up and taxi fuel:
+         12 kg
+         
+         
+         Block fuel:
+         452 kg
+         
+         
+
+
+        How much fuel should remain after a flight time of 3 hours?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 158 kg
+          wrongAnswers:
+            - text: 183 kg
+            - text: 170 kg
+            - text: 73 kg
+- id: QYVTK
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337587
+    - AVEXAM-87056
+    - BGS-331350
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure.
+
+        The fuel flow in the cruise was exactly as the crew expected when planning the flight.
+
+        The Flight Log shows {{fp}} kg remaining at the previous waypoint and a planned fuel flow of {{ff}} kg/h; {{el}} min later the fuel check is made overhead TORDU at 19:42.
+
+        What is the expected fuel remaining at TORDU?
+
+        All Flight Log fuels are in kg.
+      explanation: |-
+        The expected fuel remaining is the fuel at the last known point minus the fuel burned since then (fuel flow multiplied by elapsed time).
+
+        **Solution**
+
+        $$
+        \text{Fuel remaining at the previous waypoint (from log)}-\frac{\text{Planned fuel flow (from log)}\times \text{Time since the previous waypoint}}{60} = {{fp}}-\frac{ {{ff}}\times {{el}} }{60} = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: minutes converted to hours by dividing by 100.
+        - **{{d2}} kg**: fuel burned added instead of subtracted.
+        - **{{d3}} kg**: elapsed time taken 5 min too long.
+        - **{{d4}} kg**: elapsed time taken 5 min too short.
+      presets:
+        - variables:
+            fp: 383
+            ff: 240
+            el: 30
+            answer: 263
+            d1: 311
+            d2: 503
+            d3: 243
+            d4: 283
+          correctAnswers:
+            - text: 263 kg
+          wrongAnswers:
+            - text: 311 kg
+            - text: 243 kg
+            - text: 283 kg
+            - text: 503 kg
+        - variables:
+            fp: 450
+            ff: 300
+            el: 24
+            answer: 330
+            d1: 378
+            d2: 570
+            d3: 305
+            d4: 355
+          correctAnswers:
+            - text: 330 kg
+          wrongAnswers:
+            - text: 378 kg
+            - text: 305 kg
+            - text: 355 kg
+            - text: 570 kg
+    - type: simple
+      question: "(For this question use the image)\rIf the fuel flow in the cruise was exactly as the crew expected when planning the flight, what is the expected fuel remaining for the fuel check overhead TORDU at 1942?\rAll flight logs are in kg."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 263kg
+          wrongAnswers:
+            - text: 256kg
+            - text: 277kg
+            - text: 248kg
+- id: QYYZO
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-333008
+    - BGS-330952
+    - BGS-330007
+    - AVEXAM-76733
+    - BGS-331080
+    - AVEXAM-55397
+    - ATPLQ-334580
+    - ATPLQ-331794
+    - AVEXAM-8892
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        For a planned flight the calculated fuel is as follows:
+
+        Trip fuel: sufficient for a planned flight time of 4 h 24 min   
+        Reserve fuel: 30% of the planned trip fuel   
+        Start up and Taxi fuel: 15 kg   
+        Block fuel: 138 kg
+
+        How much fuel should remain after a flight time of 3 h 18 min?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 53 kg
+          wrongAnswers:
+            - text: 31 kg
+            - text: 59 kg
+            - text: 68 kg
+    - type: simple
+      question: |-
+        For a planned flight the calculated fuel is as listed below. How much fuel should remain after a flight time of 3 hours 15 minutes?
+
+        Trip Fuel: sufficient for a planned flight time of 4 hours 25 minutes 
+         
+        Operator's specified Reserve Fuel: 30% of the planned Trip Fuel 
+         
+        Start up and Taxi Fuel: 45 kg 
+         
+        Block Fuel: 600 kg
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 241 kg
+          wrongAnswers:
+            - text: 269 kg
+            - text: 147 kg
+            - text: 221 kg
+        - correctAnswers:
+            - text: 215 kg
+          wrongAnswers:
+            - text: 260 kg
+            - text: 247 kg
+            - text: 230 kg
+    - type: simple
+      question: |-
+        Given:
+
+         
+
+         
+         
+         Trip fuel:
+         sufficient for a planned flight time of 3 h 36 min
+         
+         
+         Reserve fuel:
+         30 % of the planned trip fuel
+         
+         
+         Start up and taxi fuel: 
+         26 kg
+         
+         
+         Block fuel:
+         786 kg
+         
+         
+
+
+
+        After a flight time of 1 h 30 min, the remaining fuel should be:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 516 kg
+          wrongAnswers:
+            - text: 380 kg
+            - text: 562 kg
+            - text: 538 kg
+- id: QAQYQ
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332185
+    - BGS-331010
+    - AVEXAM-12199
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.04
+  templates:
+    - type: simple
+      question: |-
+        On a cross country flight from A to B, an aircraft has been consistently 2° off course since leaving A.
+
+        The distance between A and B is 90 NM. After 90 NM, how far will the aircraft have deviated from the planned course, if this error remains uncorrected?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3.0 NM
+          wrongAnswers:
+            - text: 2.0 NM
+            - text: 1.5 NM
+            - text: 2.5 NM
+    - type: simple
+      question: During a cross-country flight from position A to position B the aircraft is flying permanently 2° off course. If the total distance between A and B is 90 NM, what will be the deviation after 90 NM?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3.0 NM
+          wrongAnswers:
+            - text: 2.0 NM
+            - text: 1.5 NM
+            - text: 3.5 NM
+- id: QHIFS
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-333313
+    - AVEXAM-17944
+    - AVEXAM-58959
+    - ATPLQ-333149
+    - BGS-331331
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.04
+  templates:
+    - type: simple
+      question: |-
+        Given the following information, the pilot decides to fly with a TAS of {{tas2}} kt because of a stronger headwind than forecast. What will be the difference in fuel consumption between the planned and the actual conditions?
+
+        - Distance A-B: {{dist}} NM
+        - Planned TAS: {{tas1}} kt
+        - Planned headwind component: {{hw1}} kt
+        - Actual headwind component: {{hw2}} kt
+        - Fuel flow at TAS {{tas1}} kt: {{ff1}} kg/h
+        - Fuel flow at TAS {{tas2}} kt: {{ff2}} kg/h
+      explanation: |-
+        Fuel for a leg is the fuel flow multiplied by the flight time, and the flight time is the distance divided by the ground speed (TAS minus headwind). Compute the fuel for the planned and the actual conditions and subtract.
+
+        **Solution**
+
+        Planned: $$\frac{ {{ff1}}\times {{dist}} }{ {{tas1}}-{{hw1}} }$$ = {{macro2}} kg
+
+        Actual: $$\frac{ {{ff2}}\times {{dist}} }{ {{tas2}}-{{hw2}} }$$ = {{macro4}} kg
+
+        Difference = **{{answer}} kg**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: this is only the planned fuel, not the difference.
+        - **{{d2}} kg**: this is just the difference in fuel flow, ignoring the flight time.
+        - **{{d3}} kg**: the planned fuel is computed with TAS instead of ground speed (wind ignored).
+        - **{{d4}} kg**: this is the actual fuel consumption, not the difference.
+      presets:
+        - variables:
+            tas2: 140
+            dist: 240
+            tas1: 130
+            hw1: 10
+            hw2: 25
+            ff1: 36
+            ff2: 42
+            macro2: 72
+            macro4: 88
+            answer: 16
+            d1: 72
+            d2: 6
+            d3: 21
+            d4: 88
+          correctAnswers:
+            - text: 16 kg
+          wrongAnswers:
+            - text: 72 kg
+            - text: 21 kg
+            - text: 88 kg
+            - text: 6 kg
+        - variables:
+            tas2: 160
+            dist: 300
+            tas1: 150
+            hw1: 10
+            hw2: 30
+            ff1: 48
+            ff2: 55
+            macro2: 103
+            macro4: 127
+            answer: 24
+            d1: 103
+            d2: 7
+            d3: 31
+            d4: 127
+          correctAnswers:
+            - text: 24 kg
+          wrongAnswers:
+            - text: 103 kg
+            - text: 31 kg
+            - text: 127 kg
+            - text: 7 kg
+        - variables:
+            tas2: 130
+            dist: 180
+            tas1: 120
+            hw1: 5
+            hw2: 20
+            ff1: 30
+            ff2: 37
+            macro2: 47
+            macro4: 61
+            answer: 14
+            d1: 47
+            d2: 7
+            d3: 16
+            d4: 61
+          correctAnswers:
+            - text: 14 kg
+          wrongAnswers:
+            - text: 47 kg
+            - text: 16 kg
+            - text: 61 kg
+            - text: 7 kg
+    - type: simple
+      question: |-
+        A crew finds that the actual headwind is stronger than the forecast wind, and so flies at 140 kt TAS instead of the planned 130 kt TAS to minimise the delay to arrival. Determine the increase in fuel use for the flight leg, given:Fuel flow at 130 kt TAS: 162 kg/h 
+         Fuel flow at 140 kt TAS: 188 kg/h 
+         Forecast headwind component: 10 kt 
+         Actual headwind component: 25 kt 
+         Leg distance: 166 NM
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 47 kg
+          wrongAnswers:
+            - text: 11 kg
+            - text: 15 kg
+            - text: 25 kg
+- id: QJKPQ
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337589
+    - AVEXAM-76125
+    - ATPLQ-336151
+    - ATPLQ-334594
+    - AVEXAM-35875
+    - AVEXAM-54863
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.04
+  templates:
+    - type: simple
+      question: |-
+        An aircraft flies a distance of {{dist}} NM at a ground speed of {{gs}} kt.
+
+        After {{t}} minutes of flight, {{left}} kg of fuel is left in the tanks.
+
+        The planned fuel flow is {{ff}} kg/h.
+
+        By how many kg/h is the actual fuel flow lower than planned? (Give the difference as a positive number.)
+      explanation: |-
+        The planned trip fuel is the planned fuel flow times the planned flight time (distance / ground speed). The fuel used so far is the planned trip fuel minus the fuel remaining; dividing by the elapsed time gives the actual fuel flow.
+
+        **Solution**
+
+        Planned trip fuel = {{macro1}} kg
+        Fuel used = {{macro2}} kg in {{t}} min
+        Actual fuel flow = {{macro3}} kg/h
+
+        Difference = $$\text{Planned fuel flow}-\frac{\frac{\text{Planned fuel flow}\times \text{Distance}}{\text{Ground speed}}-\text{Fuel remaining}}{\frac{\text{Elapsed time}}{60}} = {{ff}}-\frac{\frac{ {{ff}}\times {{dist}} }{ {{gs}} }-{{left}} }{\frac{ {{t}} }{60}} = \mathbf{ {{answer}}\ \text{kg/h less than planned} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg/h**: this is the actual fuel flow itself, not the difference from the plan.
+        - **{{d2}} kg/h**: treats the remaining fuel as if it were the fuel used.
+        - **{{d3}} kg/h**: uses the whole planned trip fuel as fuel used and gets the opposite relation to the plan.
+        - **{{d4}} kg/h**: gives the fuel used, forgetting to divide by the elapsed time.
+      presets:
+        - variables:
+            dist: 220
+            gs: 140
+            t: 40
+            left: 46
+            ff: 45
+            macro1: 71
+            macro2: 25
+            macro3: 37
+            answer: 8
+            d1: 37
+            d2: 24
+            d3: 61
+            d4: 25
+          correctAnswers:
+            - text: 8 kg/h
+          wrongAnswers:
+            - text: 37 kg/h
+            - text: 61 kg/h
+            - text: 25 kg/h
+            - text: 24 kg/h
+        - variables:
+            dist: 240
+            gs: 120
+            t: 90
+            left: 55
+            ff: 50
+            macro1: 100
+            macro2: 45
+            macro3: 30
+            answer: 20
+            d1: 30
+            d2: 13
+            d3: 17
+            d4: 45
+          correctAnswers:
+            - text: 20 kg/h
+          wrongAnswers:
+            - text: 30 kg/h
+            - text: 17 kg/h
+            - text: 45 kg/h
+            - text: 13 kg/h
+    - type: simple
+      question: An aircraft flying a distance of 260 NM with a ground speed of 140 kt, after 40 minutes of flight a fuel amount of 46 kg is left in its tanks. If the planned fuel flow is 45 kg/h, what will be the difference between the planned and the actual fuel flow?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 12 kg/hr more than planned
+          wrongAnswers:
+            - text: 8 kg/hr less than planned
+            - text: 8 kg/hr more than planned
+            - text: 12 kg/hr less than planned
+        - correctAnswers:
+            - text: 35 kg/hr more than planned
+          wrongAnswers:
+            - text: 8 kg/hr less than planned
+            - text: 8 kg/hr more than planned
+            - text: 35 kg/hr less than planned
+- id: QDYVZ
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds:
+    - QSFXL
+  externalQuestionIds:
+    - ATPLQ-334982
+    - AVEXAM-25387
+    - BGS-330830
+    - AVEXAM-18562
+    - BGS-330831
+    - BGS-330832
+  annexes:
+    - id: AFUU
+  learningObjectiveIds:
+    - 033.06.01.02.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. An aeroplane uses its fuel by these rules: each engine always feeds from the inner tank on its side. The aft trim tank transfers all its content to the inner tanks when these hold less than 4 000 kg. The outer tanks transfer all their content to the inner tanks when the inner tanks hold less than 3 500 kg. The trim tank and outer tanks are full at the start.
+
+        During the flight, the trim tank transfer pump fails when the total fuel on board is {{total_fuel}} kg. The fuel still in the trim tank at that moment (read from the figure) is {{trim_fuel}} kg. The fuel consumption is {{consumption}} kg/min.
+
+        What is the remaining endurance?
+      explanation: |-
+        Fuel in the trim tank cannot be transferred once its pump has failed, so it is not usable. The remaining endurance is the usable fuel divided by the fuel consumption, converted into hours and minutes.
+
+        **Solution**
+
+        - Usable fuel: $$\text{Total fuel on board when the pump fails}-\text{Fuel in trim tank (read from figure)} = 18590-4910$$ kg
+        - Endurance: $$\frac{\text{Total fuel on board when the pump fails}-\text{Fuel in trim tank (read from figure)}}{\text{Fuel consumption}} = \frac{18590-4910}{95}$$ minutes = **{{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}**: counts the fuel in the trim tank as usable.
+        - **{{d2}}**: divides by a consumption 10 % lower than the given value.
+        - **{{d3}}**: removes the trim tank fuel twice.
+        - **{{d4}}**: adds the trim tank fuel instead of removing it.
+      presets:
+        - variables:
+            total_fuel: 18590
+            trim_fuel: 4910
+            consumption: 95
+            answer: 2 h 24 min
+            d1: 3 h 16 min
+            d2: 2 h 40 min
+            d3: 1 h 32 min
+            d4: 4 h 07 min
+          correctAnswers:
+            - text: 2 h 24 min
+          wrongAnswers:
+            - text: 3 h 16 min
+            - text: 1 h 32 min
+            - text: 4 h 07 min
+            - text: 2 h 40 min
+- id: QFZAV
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339112
+    - BGS-330818
+    - AVEXAM-66491
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.05
+  templates:
+    - type: simple
+      question: |-
+        A twin-engine piston aeroplane has two wing tanks with a capacity of {{wing}} litres each and a centre tank. A fuel pump ensures that the wing tanks are fed from the centre tank at a rate that they are always full. Fuel consumption is {{ff}} litres/h per engine. You depart with {{total}} litres of fuel on board. {{tf}} minutes into the flight, the fuel pump feeding the wing tanks from the centre tank fails (the centre tank still holds fuel at that moment).
+
+        What is your endurance in hours?
+      explanation: |-
+        As long as the pump works, the wing tanks stay full. When it fails, only the fuel in the two wing tanks is available to the engines (the centre tank cannot feed them), and it is consumed by both engines.
+
+        **Solution**
+
+        Fuel available to the engines: 2 x {{wing}} l = {{macro1}} l
+
+        $$
+        \frac{2\times \text{Capacity of each wing tank}}{2\times \text{Fuel consumption per engine}} = \frac{2\times {{wing}} }{2\times {{ff}} } = \mathbf{ {{answer}}\ \text{h} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} h**: the centre tank fuel counted as usable.
+        - **{{d2}} h**: the fuel burned before the failure deducted from the total, but the wing tanks were still full.
+        - **{{d3}} h**: only one wing tank counted.
+        - **{{d4}} h**: the fuel burned before the failure deducted although the pump refilled the wing tanks.
+      presets:
+        - variables:
+            wing: 250
+            ff: 125
+            total: 700
+            tf: 35
+            macro1: 500
+            answer: 2
+            d1: 2.8
+            d2: 2.22
+            d3: 1
+            d4: 1.42
+          correctAnswers:
+            - text: 2 h
+          wrongAnswers:
+            - text: 2.8 h
+            - text: 1 h
+            - text: 1.42 h
+            - text: 2.22 h
+        - variables:
+            wing: 200
+            ff: 80
+            total: 560
+            tf: 30
+            macro1: 400
+            answer: 2.5
+            d1: 3.5
+            d2: 3
+            d3: 1.25
+            d4: 2
+          correctAnswers:
+            - text: 2.5 h
+          wrongAnswers:
+            - text: 3.5 h
+            - text: 1.25 h
+            - text: 2 h
+            - text: 3 h
+        - variables:
+            wing: 300
+            ff: 100
+            total: 800
+            tf: 40
+            macro1: 600
+            answer: 3
+            d1: 4
+            d2: 3.33
+            d3: 1.5
+            d4: 2.33
+          correctAnswers:
+            - text: 3 h
+          wrongAnswers:
+            - text: 4 h
+            - text: 1.5 h
+            - text: 2.33 h
+            - text: 3.33 h
+- id: QGLBG
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339761
+    - BGS-330213
+    - AVEXAM-6758
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. Finish the endurance and fuel calculation and determine the ATC endurance for a twin jet aeroplane, with the help of the table provided.
+
+        - Trip fuel (read from the figure): {{trip_fuel}} kg
+        - Fuel on board (read from the figure): {{fuel_on_board}} kg
+        - Contingency fuel: 5 % of the trip fuel
+        - Fuel flow for extra fuel: {{extra_flow}} kg/h
+
+        What is the ATC endurance?
+      explanation: |-
+        The ATC endurance is the fuel left over after the trip and the contingency fuel, divided by the fuel flow for the extra fuel. The contingency fuel is 5 % of the trip fuel and is added to the trip fuel before it is taken off the fuel on board.
+
+        **Solution**
+
+        $$\frac{\text{Fuel on board (read from figure)}-1.05\times \text{Trip fuel (read from figure)}}{\text{Fuel flow for extra fuel}}\times 60 = \frac{30880-1.05\times 20000}{2400}\times 60$$ minutes = **{{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}**: leaves out the contingency fuel, so too much fuel is left for the extra endurance.
+        - **{{d2}}**: takes the contingency off the trip fuel instead of adding it, so too much fuel is left.
+        - **{{d3}}**: divides by 2 500 kg/h instead of the given fuel flow of 2 400 kg/h.
+        - **{{d4}}**: uses the correct fuel but adds 5 minutes to the result.
+      presets:
+        - variables:
+            trip_fuel: 20000
+            fuel_on_board: 30880
+            extra_flow: 2400
+            answer: 04:07
+            d1: 04:32
+            d2: 04:57
+            d3: 03:57
+            d4: 04:12
+          correctAnswers:
+            - text: 04:07
+          wrongAnswers:
+            - text: 04:32
+            - text: 03:57
+            - text: 04:12
+            - text: 04:57
+- id: QPDJY
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334335
+    - AVEXAM-95847
+    - BGS-330522
+    - AVEXAM-85549
+    - ATPLQ-336364
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.05
+  templates:
+    - type: simple
+      question: |-
+        The Block fuel for an IFR flight with a single engine aircraft was {{block}} lb.
+
+        - Alternate fuel = {{alt}} lb
+        - Final reserve fuel = {{frf}} lb
+        - Taxi fuel = {{taxi}} lb
+
+        After a flight time of {{elapsed}} minutes the remaining fuel is {{remaining}} lb. Considering a constant fuel flow, the remaining flight time to fly to the destination, landing with the required reserve fuel is (in minutes):
+      explanation: |-
+        Fuel flow is constant, so fuel burned in flight is proportional to time. The fuel used in flight is block fuel minus taxi fuel minus remaining fuel; the fuel still usable to the destination is the remaining fuel minus alternate and final reserve.
+
+        **Solution**
+
+        Fuel used in flight = {{block}} - {{taxi}} - {{remaining}} = {{macro1}} lb in {{elapsed}} min
+
+        Usable fuel left = {{remaining}} - {{alt}} - {{frf}} = {{macro2}} lb
+
+        Time = {{macro2}} * {{elapsed}} / {{macro1}} = **{{answer}} min**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} min**: does not subtract the alternate and final reserve fuel from the remaining fuel.
+        - **{{d2}} min**: does not subtract the final reserve fuel.
+        - **{{d3}} min**: does not subtract the alternate fuel.
+        - **{{d4}} min**: includes the taxi fuel in the fuel burned in flight, which gives a too low fuel flow... actually a too high burn and therefore a too short time.
+      presets:
+        - variables:
+            block: 200
+            alt: 40
+            frf: 50
+            taxi: 10
+            elapsed: 36
+            remaining: 110
+            macro1: 80
+            macro2: 20
+            answer: 9
+            d1: 50
+            d2: 32
+            d3: 27
+            d4: 8
+          correctAnswers:
+            - text: 9 min
+          wrongAnswers:
+            - text: 50 min
+            - text: 27 min
+            - text: 8 min
+            - text: 32 min
+        - variables:
+            block: 300
+            alt: 50
+            frf: 60
+            taxi: 15
+            elapsed: 45
+            remaining: 160
+            macro1: 125
+            macro2: 50
+            answer: 18
+            d1: 58
+            d2: 40
+            d3: 36
+            d4: 16
+          correctAnswers:
+            - text: 18 min
+          wrongAnswers:
+            - text: 58 min
+            - text: 36 min
+            - text: 16 min
+            - text: 40 min
+        - variables:
+            block: 120
+            alt: 15
+            frf: 20
+            taxi: 8
+            elapsed: 30
+            remaining: 62
+            macro1: 50
+            macro2: 27
+            answer: 16
+            d1: 37
+            d2: 28
+            d3: 25
+            d4: 14
+          correctAnswers:
+            - text: 16 min
+          wrongAnswers:
+            - text: 37 min
+            - text: 25 min
+            - text: 14 min
+            - text: 28 min
+    - type: simple
+      question: |-
+        During a flight the fuel indicators show that the remaining amount of fuel is 100 lb after 38 minutes.The total amount of fuel at take off was 160 lb. For the alternate fuel, 30 lb is necessary. The planned fuel for taxi is 13 lb. Final reserve fuel is estimated at 50 lb.
+
+        If the fuel flow remains the same, how many minutes can be flown to the destination with the remaining fuel?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 12 minutes.
+          wrongAnswers:
+            - text: 44 minutes.
+            - text: 4 minutes.
+            - text: 63 minutes.
+- id: QSFXL
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds:
+    - QDYVZ
+  externalQuestionIds:
+    - ATPLQ-337790
+  annexes:
+    - id: AFUU
+  learningObjectiveIds:
+    - 033.06.01.02.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. The engines always feed from their own inner tank (left engine from the left inner tank, right engine from the right inner tank). During flight, when the total fuel quantity reaches 12 730 kg, the left hand transfer valve between the left outer and inner tanks fails to open.
+
+        - Fuel in the right inner tank at that moment (read from the figure): {{right_inner_fuel}} kg
+        - Fuel flow of each engine: {{flow_per_engine}} kg/h
+
+        What is the remaining endurance for the right engine?
+      explanation: |-
+        The right engine only uses fuel from the right inner tank, so its endurance is the fuel in that tank divided by the engine's fuel flow. The fuel flow is given in kilograms per hour, so the result is converted into minutes.
+
+        **Solution**
+
+        $$\frac{\text{Fuel in right inner tank (read from figure)}}{\text{Fuel flow of each engine}}\times 60 = \frac{6323}{5420}\times 60$$ minutes = **{{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}**: doubles the fuel in the right inner tank, as if both inner tanks fed the right engine.
+        - **{{d2}}**: halves the fuel flow, which doubles the result wrongly.
+        - **{{d3}}**: adds 10 minutes to the correct result.
+        - **{{d4}}**: adds 30 minutes to the correct result.
+      presets:
+        - variables:
+            right_inner_fuel: 6323
+            flow_per_engine: 5420
+            answer: 1H 10
+            d1: 2H 20
+            d2: 0H 35
+            d3: 1H 20
+            d4: 1H 40
+          correctAnswers:
+            - text: 1H 10
+          wrongAnswers:
+            - text: 2H 20
+            - text: 1H 20
+            - text: 1H 40
+            - text: 0H 35
+- id: QZQUX
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-333534
+    - AVEXAM-21956
+    - AVEXAM-26112
+    - AVEXAM-35003
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.05
+  templates:
+    - type: simple
+      question: |-
+        A two-engine aircraft has three fuel tanks. At take-off the fuel on board is:
+
+        - Centre tank: {{centre}} kg
+        - Left wing tank: {{left}} kg
+        - Right wing tank: {{right}} kg
+
+        A pump continuously transfers fuel from the centre tank to the wing tanks at {{pump}} kg/h. On the flight from A to B the fuel flow is {{flow}} kg/h. {{t}} minutes into the flight the centre tank pump fails.
+
+        From the point of the failure, how long can the aircraft fly? Give the answer in hours and minutes.
+      explanation: |-
+        The engines burn fuel from the wing tanks, and the pump keeps moving fuel from the centre tank into the wings. Until the pump fails, the wings gain what the pump transfers and lose what the engines burn. After the failure, the fuel left in the wing tanks is all that can be used, so the endurance is that fuel divided by the fuel flow.
+
+        **Solution**
+
+        Fuel in the wings at the failure = {{left}} + {{right}} + ({{pump}} - {{flow}}) x {{t}} / 60 = {{macro1}} kg
+
+        Endurance = {{macro1}} / {{flow}} x 60 = **{{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} min**: forgets the fuel transferred by the pump during the first {{t}} minutes.
+        - **{{d2}} min**: counts the fuel in the centre tank, which cannot be used after the pump fails.
+        - **{{d3}} min**: reverses the pump and fuel flow, so the wings are assumed to gain fuel faster than the engines burn it.
+        - **{{d4}} min**: ignores the pump completely and uses the wing fuel at take-off.
+      presets:
+        - variables:
+            centre: 650
+            left: 250
+            right: 250
+            pump: 150
+            flow: 170
+            t: 35
+            macro1: 488
+            answer: 2 h 52 min
+            d1: 2 h 21 min
+            d2: 6 h 11 min
+            d3: 3 h 01 min
+            d4: 2 h 56 min
+          correctAnswers:
+            - text: 2 h 52 min
+          wrongAnswers:
+            - text: 2 h 21 min
+            - text: 3 h 01 min
+            - text: 2 h 56 min
+            - text: 6 h 11 min
+        - variables:
+            centre: 800
+            left: 300
+            right: 220
+            pump: 120
+            flow: 160
+            t: 40
+            macro1: 493
+            answer: 3 h 05 min
+            d1: 2 h 35 min
+            d2: 7 h 35 min
+            d3: 3 h 25 min
+            d4: 3 h 15 min
+          correctAnswers:
+            - text: 3 h 05 min
+          wrongAnswers:
+            - text: 2 h 35 min
+            - text: 3 h 25 min
+            - text: 3 h 15 min
+            - text: 7 h 35 min
+- id: QJHOH
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335347
+    - BGS-330986
+    - BGS-330972
+    - AVEXAM-69043
+    - AVEXAM-24553
+    - BGS-331454
+    - AVEXAM-33965
+    - BGS-331326
+    - AVEXAM-98975
+    - ATPLQ-333329
+    - ATPLQ-335629
+    - ATPLQ-334007
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.06
+  templates:
+    - type: simple
+      question: |-
+        Calculate the change in planned Trip Fuel with updated forecast meteorological conditions. By how many kg is the Trip Fuel reduced? (Give a positive number.)
+
+        - Trip distance: {{dist}} NGM
+        - Planned average trip TAS: {{tas}} kt
+        - Planned average Trip Fuel consumption: {{fpn}} kg/NAM
+        - Change in OAT: {{dt}}° C higher
+        - Change in wind component: increase from +{{w1}} kt to +{{w2}} kt
+
+        Effect on TAS: 2 kt increase for every 5° C increase in OAT
+        Effect on Trip Fuel: 0.5% increase for every 10° C increase in OAT
+      explanation: |-
+        Trip fuel = air distance (NAM) * fuel per NAM, where air distance = ground distance * TAS / ground speed and ground speed = TAS + wind component. The warmer OAT raises the TAS and the fuel consumption per NAM, and the larger tailwind raises the ground speed.
+
+        **Solution**
+
+        Planned: air distance = {{macro1}} NAM, trip fuel = {{macro2}} kg
+        Updated: TAS = {{macro3}} kt, ground speed = {{macro4}} kt, air distance = {{macro5}} NAM
+        Fuel per NAM = {{macro6}} kg/NAM, trip fuel = {{macro7}} kg
+
+        Change = **{{answer}} kg less**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: ignores the increase in fuel consumption per NAM due to OAT.
+        - **{{d2}} kg**: ignores the TAS increase due to OAT.
+        - **{{d3}} kg**: considers only the wind change and ignores both OAT effects.
+        - **{{d4}} kg**: applies the TAS increase twice.
+      presets:
+        - variables:
+            dist: 150
+            tas: 120
+            fpn: 3
+            dt: 10
+            w1: 5
+            w2: 10
+            macro1: 144
+            macro2: 432
+            macro3: 124
+            macro4: 134
+            macro5: 138.8
+            macro6: 3
+            macro7: 418.5
+            answer: 13.5
+            d1: 15.6
+            d2: 14.5
+            d3: 16.6
+            d4: 12.5
+          correctAnswers:
+            - text: 13.5 kg
+          wrongAnswers:
+            - text: 15.6 kg
+            - text: 16.6 kg
+            - text: 12.5 kg
+            - text: 14.5 kg
+        - variables:
+            dist: 200
+            tas: 140
+            fpn: 4
+            dt: 20
+            w1: 10
+            w2: 20
+            macro1: 186.7
+            macro2: 746.7
+            macro3: 148
+            macro4: 168
+            macro5: 176.2
+            macro6: 4
+            macro7: 711.8
+            answer: 34.9
+            d1: 41.9
+            d2: 39.7
+            d3: 46.7
+            d4: 30.5
+          correctAnswers:
+            - text: 34.9 kg
+          wrongAnswers:
+            - text: 41.9 kg
+            - text: 46.7 kg
+            - text: 30.5 kg
+            - text: 39.7 kg
+        - variables:
+            dist: 300
+            tas: 250
+            fpn: 6
+            dt: 10
+            w1: -10
+            w2: 10
+            macro1: 312.5
+            macro2: 1875
+            macro3: 254
+            macro4: 264
+            macro5: 288.6
+            macro6: 6
+            macro7: 1740.5
+            answer: 134.5
+            d1: 143.2
+            d2: 135.6
+            d3: 144.2
+            d4: 133.5
+          correctAnswers:
+            - text: 134.5 kg
+          wrongAnswers:
+            - text: 143.2 kg
+            - text: 144.2 kg
+            - text: 133.5 kg
+            - text: 135.6 kg
+    - type: simple
+      question: |-
+        Given the following data, calculate the change in planned trip fuel when applying the updated wind information.
+
+        - Average TAS: {{tas}} kt
+        - Trip distance: {{dist}} NGM
+        - Forecast wind component: {{planned}} kt
+        - Actual wind component: {{actual}} kt
+        - Average fuel consumption: {{burn}} kg/NAM
+
+        The revised planned trip fuel will be...
+      explanation: |-
+        Trip fuel = air distance x fuel per NAM, where air distance = ground distance x TAS / ground speed and ground speed = TAS + wind component.
+
+        Planned: ground speed {{gsPlanned}} kt, so the air distance is {{distPlanned}} NAM. Updated: ground speed {{gsActual}} kt, so the air distance is {{distActual}} NAM. The difference in air distance multiplied by the fuel per NAM gives the change in trip fuel.
+      presets:
+        - variables:
+            tas: 118
+            dist: 57
+            planned: "-15"
+            actual: "+5"
+            burn: 3
+            gsPlanned: 103
+            gsActual: 123
+            distPlanned: "65.4"
+            distActual: "54.7"
+          correctAnswers:
+            - text: 32 kg less than originally planned.
+          wrongAnswers:
+            - text: 28 kg less than originally planned.
+            - text: 39 kg less than originally planned.
+            - text: 60 kg less than originally planned.
+    - type: simple
+      question: |-
+        Given the following information, calculate the change in planned trip fuel when applying the updated meteorological conditions. Round up to the next full kilogram.
+
+        - Trip distance: {{dist}} NAM
+        - Planned TAS: 150 kt
+        - TAS changes by 1 kt for every 1 °C change in OAT
+        - Planned average trip fuel consumption: 3 kg/NAM
+        - Trip fuel required increases by 0.5 % for every 10 °C increase in OAT
+        - Revised OAT: 10 °C above planned OAT
+
+        The change in trip fuel will be...
+      explanation: |-
+        The trip distance is given in NAM, so the air distance does not change with the TAS and the TAS change is irrelevant. Only the fuel consumption changes: it increases by 0.5 % for the 10 °C rise, from 3 kg/NAM to 3.015 kg/NAM.
+
+        Planned trip fuel is {{dist}} NAM x 3 kg/NAM = {{planned}} kg and the revised trip fuel is {{revised}} kg, so the change is an increase of {{change}} kg after rounding up.
+      presets:
+        - variables:
+            dist: 200
+            planned: 600
+            revised: 603
+            change: 3
+          correctAnswers:
+            - text: An increase of 3 kg.
+          wrongAnswers:
+            - text: A decrease of 29 kg.
+            - text: A decrease of 27 kg.
+            - text: An increase of 10 kg.
+        - variables:
+            dist: 150
+            planned: 450
+            revised: "452.25"
+            change: 3
+          correctAnswers:
+            - text: An increase of 3 kg.
+          wrongAnswers:
+            - text: A decrease of 29 kg.
+            - text: An increase of 23 kg.
+            - text: A decrease of 27 kg.
+    - type: simple
+      question: |-
+        Given the following information, determine the change in fuel required for a Medium-Range Jet Transport (MRJT) flight:Cruise distance: 150 NM 
+        TAS planned: 450 kt 
+        Forecast wind component: -10 kt 
+        Fuel consumption: 5 kg / NAM 
+        Revised wind component: +20 kt
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Decrease by approx. 49 kg.
+          wrongAnswers:
+            - text: Increase by approx. 51 kg.
+            - text: Decrease by approx. 16 kg.
+            - text: Increase by approx. 18 kg.
+- id: QCKVU
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334522
+    - AVEXAM-83624
+    - AVEXAM-98522
+    - BGS-331011
+    - BGS-331008
+    - ATPLQ-335307
+    - ATPLQ-333550
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.06
+  templates:
+    - type: simple
+      question: |-
+        For a planned flight the calculated fuel is as listed below. How much fuel should be aboard to cover the rest of the flight, if the remaining flight time to destination is {{t_rem}} minutes?
+
+        - Trip Fuel: sufficient for a planned flight time of {{t_trip}} minutes
+        - Operator's specified Reserve Fuel: {{res_pct}}% of the planned Trip Fuel
+        - Start up and Taxi Fuel: {{taxi}} kg
+        - Block Fuel: {{block}} kg
+      explanation: |-
+        Block fuel is the sum of start-up and taxi fuel, trip fuel and reserve fuel. Fuel required for the rest of the flight is the part of the trip fuel still to be burnt (proportional to the remaining time) plus the full reserve, which must still be on board. Start-up and taxi fuel has already been used.
+
+        **Solution**
+
+        Trip fuel: $$\frac{\text{Block fuel}-\text{Start-up and taxi fuel}}{1+\frac{\text{Reserve percentage}}{100}}$$ = $$\frac{ {{block}}-{{taxi}} }{1+\frac{ {{res_pct}} }{100}}$$ = {{macro3}} kg
+
+        Reserve fuel: {{res_pct}}% of trip fuel = {{macro4}} kg
+
+        Trip fuel still to burn: {{macro3}} kg * {{t_rem}} / {{t_trip}} = {{macro5}} kg
+
+        Fuel required = {{macro5}} + {{macro4}} = **{{answer}} kg**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: only the remaining trip fuel; the reserve fuel is forgotten.
+        - **{{d2}} kg**: the reserve is taken as {{res_pct}}% of the remaining trip fuel instead of the full planned trip fuel.
+        - **{{d3}} kg**: the start-up and taxi fuel is added again although it has already been used.
+      presets:
+        - variables:
+            t_rem: 105
+            t_trip: 285
+            res_pct: 30
+            taxi: 35
+            block: 890
+            macro3: 658
+            macro4: 197
+            macro5: 242
+            answer: 440
+            d1: 242
+            d2: 315
+            d3: 475
+          correctAnswers:
+            - text: 440 kg
+          wrongAnswers:
+            - text: 475 kg
+            - text: 242 kg
+            - text: 315 kg
+        - variables:
+            t_rem: 130
+            t_trip: 330
+            res_pct: 30
+            taxi: 40
+            block: 1250
+            macro3: 931
+            macro4: 279
+            macro5: 367
+            answer: 646
+            d1: 367
+            d2: 477
+            d3: 686
+          correctAnswers:
+            - text: 646 kg
+          wrongAnswers:
+            - text: 686 kg
+            - text: 367 kg
+            - text: 477 kg
+        - variables:
+            t_rem: 90
+            t_trip: 240
+            res_pct: 20
+            taxi: 25
+            block: 620
+            macro3: 496
+            macro4: 99
+            macro5: 186
+            answer: 285
+            d1: 186
+            d2: 223
+            d3: 310
+          correctAnswers:
+            - text: 285 kg
+          wrongAnswers:
+            - text: 310 kg
+            - text: 186 kg
+            - text: 223 kg
+    - type: simple
+      question: |-
+        For a planned flight the calculated fuel is as listed below. How much fuel should be aboard, if the remaining flight time to destination is 1 hour 50 minutes?
+
+        Trip Fuel: sufficient for a planned flight time of 5 hours 10 minutes 
+         
+        Operator's specified Reserve Fuel: 30% of the planned Trip Fuel 
+         
+        Start up and Taxi Fuel: 25 kg 
+         
+        Block Fuel: 645 kg
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 312 kg
+          wrongAnswers:
+            - text: 220 kg
+            - text: 337 kg
+            - text: 169 kg
+        - correctAnswers:
+            - text: 250 kg
+          wrongAnswers:
+            - text: 194 kg
+            - text: 262 kg
+            - text: 149 kg
+- id: QNJHL
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337063
+    - AVEXAM-43871
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.01.02.06
+  templates:
+    - type: simple
+      question: |-
+        For a planned flight the calculated fuel is as listed below. How much fuel should be aboard to cover the rest of the flight, if the remaining flight time to destination is {{remaining}} min?
+
+        - Trip fuel: sufficient for a planned flight time of {{planned}} min
+        - Operator's specified reserve fuel: {{reserve}} % of the planned trip fuel
+        - Start-up and taxi fuel: {{taxi}} kg
+        - Block fuel: {{block}} kg
+
+        Give the answer in kg.
+      explanation: |-
+        Block fuel = taxi fuel + planned trip fuel + reserve, and the reserve is a percentage of the planned trip fuel. The planned trip fuel is therefore (block - taxi) / (1 + reserve). The fuel for the rest of the flight is the planned trip fuel scaled by the ratio of remaining to planned time, plus the reserve.
+
+        **Solution**
+
+        Planned trip fuel = (block - taxi) / (1 + reserve) = {{macro1}} kg
+
+        Trip fuel for the rest of the flight = {{macro2}} kg
+
+        Reserve = {{macro3}} kg
+
+        $$
+        \frac{\text{Block fuel}-\text{Start-up and taxi fuel}}{1+\frac{\text{Reserve fuel}}{100}}\times (\frac{\text{Remaining flight time}}{\text{Planned flight time}}+\frac{\text{Reserve fuel}}{100}) = \frac{ {{block}}-{{taxi}} }{1+\frac{ {{reserve}} }{100}}\times (\frac{ {{remaining}} }{ {{planned}} }+\frac{ {{reserve}} }{100}) = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: the rest-of-flight trip fuel only, forgetting the reserve.
+        - **{{d2}} kg**: does not divide by (1 + reserve), so the block fuel is treated as if the reserve were not part of it.
+        - **{{d3}} kg**: forgets to subtract the taxi fuel from the block fuel.
+        - **{{d4}} kg**: uses (1 - reserve) instead of (1 + reserve) in the trip fuel.
+      presets:
+        - variables:
+            remaining: 85
+            planned: 285
+            reserve: 30
+            taxi: 35
+            block: 735
+            macro1: 538
+            macro2: 161
+            macro3: 162
+            answer: 322
+            d1: 161
+            d2: 419
+            d3: 440
+            d4: 598
+          correctAnswers:
+            - text: 322 kg
+          wrongAnswers:
+            - text: 161 kg
+            - text: 440 kg
+            - text: 598 kg
+            - text: 419 kg
+        - variables:
+            remaining: 120
+            planned: 300
+            reserve: 25
+            taxi: 40
+            block: 1200
+            macro1: 928
+            macro2: 371
+            macro3: 232
+            answer: 603
+            d1: 371
+            d2: 754
+            d3: 780
+            d4: 1005
+          correctAnswers:
+            - text: 603 kg
+          wrongAnswers:
+            - text: 371 kg
+            - text: 780 kg
+            - text: 1005 kg
+            - text: 754 kg
+- id: QXTXT
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339879
+    - AVEXAM-93458
+    - BGS-331243
+    - BGS-331474
+  annexes:
+    - id: AYVV
+  learningObjectiveIds:
+    - 033.06.01.02.06
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The annex depicts a pilot's flight plan/log from LPFR to LEMG extracted by a flight planning software. When approaching VJF, the pilots realizes abnormal airframe vibrations and reduces speed from VJF. When overhead Tarifa, the pilot calculates that according to the new speed, the flight time from Tarifa to LEMG will be 47 minutes. Taking into account the latest fuel flow after VJF, the fuel consumption will be...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: greater since the effect of the reduced fuel flow is offset by the lower speed giving 24 kg less fuel than planned in LEMG.
+          wrongAnswers:
+            - text: lower since the fuel flow has reduced to 141 kg/h giving 120 kg fuel remaining when landing in LEMG.
+            - text: lower since the lower speed gives a lower fuel flow which results in landing with 24 kg more fuel than planned in LEMG.
+            - text: greater since the fuel flow has increased to 163 kg/h giving 120 kg fuel remaining when landing in LEMG.
+    - type: simple
+      question: Please refer to the annex which shows a navigation log produced by a flight planning tool that is used by a pilotflying en-route from LPFR to LEMG. Between the waypoints VJF and Tarifa the aircraft suffers some airframe vibration forcing the pilot to reduce the IAS by 30 kt. This speed reduction results in the TAS changing by the same value for the remainder of the flight. What are the revised leg times?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "Tarifa to Estepona: 23 minutes; Estepona to Banalmadena: 23 minutes."
+          wrongAnswers:
+            - text: "Tarifa to Estepona: 20 minutes; Estepona to Banalmadena: 20 minutes."
+            - text: "Tarifa to Estepona: 13 minutes; Estepona to Banalmadena: 14 minutes."
+            - text: "Tarifa to Estepona: 20 minutes; Estepona to Banalmadena: 19 minutes."
+- id: QYLXP
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339247
+    - AVEXAM-85939
+    - AVEXAM-88118
+    - BGS-330822
+    - AVEXAM-93455
+    - BGS-331583
+  annexes:
+    - id: AAML
+  learningObjectiveIds:
+    - 033.06.01.02.06
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure. You are cruising at FL380 with a twin-engined jet aeroplane. ATC instructs you to reduce speed to Mach .754. Given:
+
+        Distance to Top-of-Descent: {{dist}} NM
+        Aircraft mass: 50 000 kg (constant)
+        TAT: -42 °C
+        Average wind component: {{tw}} kt tailwind
+
+        The TAS ({{tas}} kt) and total fuel flow ({{ff}} kg/h) at this Mach number are read from the figure. What fuel will you use for the remainder of the cruise?
+      explanation: |-
+        Ground speed is TAS plus the tailwind component. The time to the top of descent is distance divided by ground speed, and the fuel is that time multiplied by the fuel flow from the chart.
+
+        **Solution**
+
+        Ground speed: {{macro1}} kt
+
+        $$
+        \frac{\text{Distance to top of descent}}{\text{TAS read from the figure}+\text{Tailwind component}}\times \text{Fuel flow read from the figure} = \frac{ {{dist}} }{440+{{tw}} }\times {{ff}} = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: tailwind subtracted instead of added.
+        - **{{d2}} kg**: wind ignored (ground speed = TAS).
+        - **{{d3}} kg**: fuel flow read about 6 % too high.
+        - **{{d4}} kg**: ground speed taken 10 kt too high.
+      presets:
+        - variables:
+            dist: 220
+            tw: 45
+            tas: 440
+            ff: 1845
+            macro1: 485
+            answer: 837
+            d1: 1028
+            d2: 923
+            d3: 887
+            d4: 820
+          correctAnswers:
+            - text: 837 kg
+          wrongAnswers:
+            - text: 1028 kg
+            - text: 887 kg
+            - text: 820 kg
+            - text: 923 kg
+        - variables:
+            dist: 180
+            tw: 30
+            tas: 440
+            ff: 1850
+            macro1: 470
+            answer: 709
+            d1: 812
+            d2: 757
+            d3: 751
+            d4: 694
+          correctAnswers:
+            - text: 709 kg
+          wrongAnswers:
+            - text: 812 kg
+            - text: 751 kg
+            - text: 694 kg
+            - text: 757 kg
+    - type: simple
+      question: "Please refer to the annex. You are cruising at FL370 with a twin-engined jet aeroplane. An in-flight fuel check reveals a higher consumption than planned. You do NOT suspect a fuel leak and decide to reduce the cruise speed initially to Long Range Cruise (LRC). Given the following information, what is the fuel you will use for the remainder of the cruise time? Distance to Top-of-Descent: 320 NM, Aircraft mass: 60000 kg, TAT: -22° C, Average wind component: 20 kt headwind Consider a constant aircraft mass of 60000 kg for calculation purposes."
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1640 kg
+          wrongAnswers:
+            - text: 1629 kg
+            - text: 1593 kg
+            - text: 1678 kg
+- id: QZQGW
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332724
+    - AVEXAM-27783
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.02.01.01
+  templates:
+    - type: simple
+      question: After an approach at your destination, the weather is found to be below limits, and you decide to divert to your alternate aerodrome. During initial climb you notice that the leading-edge devices are not completely retracted. After completing all necessary actions to deal with this abnormal condition, you check the FMS for ETA and fuel remaining at the diversion aerodrome. Based on the above, you can...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Use the FMS time predictions, but you can NOT use the fuel predictions.
+          wrongAnswers:
+            - text: NOT use the FMS time predictions, but you can use the FMS fuel predictions.
+            - text: NOT use any of the FMS time or fuel predictions.
+            - text: Use both the FMS time and fuel predictions.
+    - type: simple
+      question: After an approach at your destination, where the weather is below the limits, you decide to divert to the planned alternate. During the initial climb you notice that the leading-edge flaps are not fully retracted. After completing all required actions concerning this abnormal situation, you check your FMS for the ETA and fuel remaining at the diversion aerodrome. Based on the current situation...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: you can use the FMS time predictions but you cannot use the fuel predictions.
+          wrongAnswers:
+            - text: you can use both, the FMS time and fuel predictions.
+            - text: you cannot use the FMS time predictions but you can use the fuel predictions.
+            - text: you cannot use any of the FMS time or fuel predictions.
+- id: QPTRS
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334208
+    - BGS-331096
+    - AVEXAM-37629
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.02.01.01
+  templates:
+    - type: simple
+      question: |-
+        A flight has been diverted off the planned route due to bad weather. ATC clears the flight to re-join the planned route at TUSKA. The pilot wishes to decide early whether there is enough fuel to safely complete the flight, so the fuel is checked {{t}} minutes before the ETO TUSKA. Given the following data, what is the minimum fuel required at the time of the check to complete the planned flight?
+
+        - Minimum fuel at TUSKA to complete the flight: {{fmin}} litres
+        - Average fuel flow: {{ff}} kg/h
+        - Fuel density: {{rho}} kg/lt
+      explanation: |-
+        The fuel needed at the check point is the minimum fuel at the re-join point plus the fuel burned in between. Fuel flow is in kg/h while the quantities are in litres, so the mass must be converted with the density.
+
+        **Solution**
+
+        Minimum fuel at TUSKA = {{fmin}} x {{rho}} = {{macro1}} kg
+
+        Fuel burned until TUSKA = {{ff}} x {{t}} / 60 = {{macro2}} kg
+
+        Total = {{macro3}} kg, which is {{macro3}} / {{rho}} = **{{answer}} litres**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} litres**: the burned fuel in kg was added directly to litres without converting with the density.
+        - **{{d2}} litres**: the fuel to be burned was subtracted instead of added.
+        - **{{d3}} litres**: the burned fuel was converted from kg to litres in the wrong direction (multiplied by the density).
+      presets:
+        - variables:
+            t: 37
+            fmin: 144
+            ff: 45
+            rho: 0.72
+            macro1: 104
+            macro2: 28
+            macro3: 131
+            answer: 183
+            d1: 172
+            d2: 105
+            d3: 164
+          correctAnswers:
+            - text: 183 litres
+          wrongAnswers:
+            - text: 164 litres
+            - text: 172 litres
+            - text: 105 litres
+        - variables:
+            t: 50
+            fmin: 160
+            ff: 40
+            rho: 0.8
+            macro1: 128
+            macro2: 33
+            macro3: 161
+            answer: 202
+            d1: 193
+            d2: 118
+            d3: 187
+          correctAnswers:
+            - text: 202 litres
+          wrongAnswers:
+            - text: 187 litres
+            - text: 193 litres
+            - text: 118 litres
+        - variables:
+            t: 25
+            fmin: 120
+            ff: 50
+            rho: 0.78
+            macro1: 94
+            macro2: 21
+            macro3: 114
+            answer: 147
+            d1: 141
+            d2: 93
+            d3: 136
+          correctAnswers:
+            - text: 147 litres
+          wrongAnswers:
+            - text: 136 litres
+            - text: 141 litres
+            - text: 93 litres
+- id: QYNEP
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds:
+    - QWXFI
+  externalQuestionIds:
+    - ATPLQ-337268
+    - AVEXAM-8114
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.02.01.01
+  templates:
+    - type: simple
+      question: The Commander of a Commercial Air Transport flight is required to carry out in flight fuel checks at regular intervals. The fuel must be managed so that the expected usable fuel remaining on arrival at the destination aerodrome, which is planned with a destination alternate, is NOT less than the required
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Alternate Fuel plus Final Reserve Fuel.
+          wrongAnswers:
+            - text: Final Reserve Fuel.
+            - text: Alternate Fuel plus Contingency Fuel plus Final Reserve Fuel.
+            - text: Contingency Fuel plus Final Reserve Fuel.
+- id: QSSRG
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338307
+    - AVEXAM-66703
+    - BGS-330511
+    - AVEXAM-69313
+    - AVEXAM-62167
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.02.01.02
+  templates:
+    - type: simple
+      question: "For a repetitive ATC flight plan (RPL) to be used, flights must take place on a regular basis on at least:"
+      explanation: A repetitive flight plan can be used for flights that are operated on a regular basis on at least 10 occasions, or on every day for a period of at least 10 consecutive days.
+      presets:
+        - correctAnswers:
+            - text: 10 occasions
+          wrongAnswers:
+            - text: 50 occasions
+            - text: 20 occasions
+            - text: 30 occasions
+    - type: simple
+      question: RPLs (Repetitive Flight Plans) are used for flights with which of the following properties?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: IFR flights operated regularly on the same day of consecutive weeks, on at least 10 occasions.
+          wrongAnswers:
+            - text: All flights operated regularly on the same day of consecutive weeks, on at least 10 occasions.
+            - text: IFR and SVFR flights operated regularly on the same day of consecutive weeks, on at least 10 occasions.
+            - text: VFR flights operated regularly on the same day of consecutive weeks, on at least 10 occasions.
+    - type: simple
+      question: "Repetitive flight plans (RPLs) shall be used for flights operated regularly on the same day(s) of consecutive weeks and:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: on at least ten (10) occasions or every day over a period of at least 10 consecutive days.
+          wrongAnswers:
+            - text: on at least ten (10) occasions or every day over a period of at least 20 consecutive days.
+            - text: on at least 20 occasions.
+            - text: on at least 20 days consecutively.
+- id: QIGEP
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331176
+    - BGS-330270
+    - BGS-330271
+    - ATPLQ-337249
+    - BGS-330527
+  annexes:
+    - id: AOXF
+  learningObjectiveIds:
+    - 033.06.02.01.02
+  templates:
+    - type: simple
+      question: |-
+        (For this question use annex 033-103 rev. 05.11.2004 or Flight Planning Manual MRJT 1 Figure 4.7.3.) Given:
+
+        - Distance to alternate: 950 NM
+        - Head wind component: 20 kt
+        - Mass at point of diversion: 50 000 kg
+        - Diversion fuel available: 5 800 kg
+
+        What is the minimum pressure altitude at which these conditions may be met?
+      explanation: The diversion chart shows which pressure altitudes give enough fuel for the distance to the alternate with this wind and mass. Lower altitudes use more fuel, so the lowest altitude that still meets the fuel available is the answer.
+      presets:
+        - correctAnswers:
+            - text: 22000 ft
+          wrongAnswers:
+            - text: 26000 ft
+            - text: 18000 ft
+            - text: 20000 ft
+    - type: simple
+      question: |-
+        Refer to figure or CAP 697 Figure 4.7.3. 
+         
+        Given:
+
+        Diversion distance: 720 NM 
+         
+        Tail wind component: 25 kt 
+         
+        Mass at point of diversion: 55 000 kg 
+         
+        Temperature: ISA 
+         
+        Diversion fuel available: 4250 kg
+
+        What is the minimum pressure altitude at which the above conditions may be met?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 24 500 ft
+          wrongAnswers:
+            - text: 20 000 ft
+            - text: 14 500 ft
+            - text: 16 000 ft
+    - type: simple
+      question: |-
+        (Refer to the image or Flight Planning Manual MRJT 1 Figure 4.7.3) 
+        Given: Diversion distance 650 NM Diversion pressure altitude 16 000 ft Mass at point of diversion 57 000 kg Head wind component 20 kt Temperature ISA + 15°C The diversion (a) fuel required and (b) time, are approximately :
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (a) 4800kg (b) 2h 03min
+          wrongAnswers:
+            - text: (a) 3900kg (b) 1h 45min
+            - text: (a) 6200kg (b) 2h 10min
+            - text: (a) 4400kg (b) 1h 35min
+- id: QUGUB
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332125
+    - BGS-331186
+    - BGS-330726
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.02.01.03
+  templates:
+    - type: simple
+      question: Which of the following calculations would be equal to the amount of trip fuel?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Trip Fuel = TOM – DOM – Traffic Load – Contingency Fuel – Alternate Fuel – Final Reserve Fuel – Extra Fuel.
+          wrongAnswers:
+            - text: Trip Fuel = TOM – DOM – Traffic Load – Taxi Fuel – Contingency Fuel – Alternate Fuel – Final Reserve Fuel – Extra Fuel.
+            - text: Trip Fuel = TOM – DOM – Contingency Fuel – Alternate Fuel – Final Reserve Fuel – Extra Fuel.
+            - text: Trip Fuel = TOM – Traffic Load – Contingency Fuel – Alternate Fuel – Final Reserve Fuel – Extra Fuel.
+        - correctAnswers:
+            - text: Trip Fuel = TOM - DOM - Traffic Load - Contingency Fuel - Alternate Fuel - Final Reserve - Extra Fuel.
+          wrongAnswers:
+            - text: Trip Fuel = TOM - Traffic Load - Contingency  Fuel - Alternate Fuel - Final Reserve - Extra Fuel.
+            - text: Trip Fuel = TOM - DOM - Traffic Load - Taxi Fuel - Contingency Fuel - Alternate Fuel - Final Reserve - Extra Fuel.
+            - text: Trip Fuel = TOM - DOM - Contingency Fuel - Alternate Fuel - Final Reserve - Extra Fuel.
+    - type: simple
+      question: "Trip fuel is equal to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: T/O MASS – DOM – TRAFFIC LOAD – CONTINGENCY FUEL – ALTERNATE FUEL – FINAL RESERVE FUEL
+          wrongAnswers:
+            - text: T/O MASS – DOM – TRAFFIC LOAD – ALTERNATE FUEL – FINAL RESERVE FUEL
+            - text: T/O MASS – TRAFFIC LOAD – CONTINGENCY FUEL – ALTERNATE FUEL
+            - text: T/O MASS – DOM – TRAFFIC LOAD – CONTINGENCY FUEL
+- id: QHRND
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339453
+    - AVEXAM-57903
+    - AVEXAM-54317
+    - AVEXAM-80607
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.02.01.03
+  templates:
+    - type: simple
+      question: |-
+        Provided that the flight is performed as planned, determine the in-flight revised landing mass at the destination (kg), given:
+
+        - Dry Operating Mass (DOM): {{dom}} kg
+        - Traffic Load: {{tl}} kg
+        - Remaining Usable Fuel: {{rem_fuel}} kg
+        - Remaining Trip Fuel: {{rem_trip}} kg
+        - Final reserve fuel: {{fr}} kg
+        - Alternate fuel: {{alt}} kg
+      explanation: |-
+        The current aircraft mass is DOM + traffic load + remaining usable fuel. If the flight goes as planned only the remaining trip fuel is burned, so reserves stay on board at landing.
+
+        **Solution**
+
+        $$
+        \text{Dry operating mass}+\text{Traffic load}+\text{Remaining usable fuel}-\text{Remaining trip fuel} = {{dom}}+{{tl}}+{{rem_fuel}}-{{rem_trip}} = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: The remaining trip fuel was not subtracted (this is the current mass).
+        - **{{d2}} kg**: The final reserve fuel was subtracted as well, although it is still on board at landing.
+        - **{{d3}} kg**: The alternate fuel was subtracted as well, although it is still on board at landing.
+        - **{{d4}} kg**: The remaining usable fuel was left out of the mass.
+      presets:
+        - variables:
+            dom: 30510
+            tl: 8000
+            rem_fuel: 3788
+            rem_trip: 1725
+            fr: 883
+            alt: 1075
+            answer: 40573
+            d1: 42298
+            d2: 39690
+            d3: 39498
+            d4: 36785
+          correctAnswers:
+            - text: 40573 kg
+          wrongAnswers:
+            - text: 42298 kg
+            - text: 39498 kg
+            - text: 36785 kg
+            - text: 39690 kg
+        - variables:
+            dom: 28400
+            tl: 6500
+            rem_fuel: 4200
+            rem_trip: 2100
+            fr: 800
+            alt: 1000
+            answer: 37000
+            d1: 39100
+            d2: 36200
+            d3: 36000
+            d4: 32800
+          correctAnswers:
+            - text: 37000 kg
+          wrongAnswers:
+            - text: 39100 kg
+            - text: 36000 kg
+            - text: 32800 kg
+            - text: 36200 kg
+        - variables:
+            dom: 35200
+            tl: 9500
+            rem_fuel: 5100
+            rem_trip: 2600
+            fr: 950
+            alt: 1200
+            answer: 47200
+            d1: 49800
+            d2: 46250
+            d3: 46000
+            d4: 42100
+          correctAnswers:
+            - text: 47200 kg
+          wrongAnswers:
+            - text: 49800 kg
+            - text: 46000 kg
+            - text: 42100 kg
+            - text: 46250 kg
+- id: QODPO
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335109
+    - BGS-331189
+    - BGS-330941
+    - BGS-330301
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.02.01.03
+  templates:
+    - type: simple
+      question: |-
+        Given the following information:
+
+        - DOM: {{dom}} kg
+        - Traffic load: {{load}} kg
+        - Remaining usable fuel: {{fuel}} kg
+        - Remaining trip fuel to destination: {{trip}} kg
+        - Alternate fuel: {{alt}} kg
+        - Final reserve fuel: {{res}} kg
+
+        Calculate the revised estimated landing mass at the destination aerodrome.
+      explanation: |-
+        The landing mass is the dry operating mass plus the traffic load plus the fuel still on board at landing. That fuel is the remaining usable fuel minus the remaining trip fuel to the destination; alternate and final reserve fuel are part of what remains and are not burned on the way to the destination.
+
+        **Solution**
+
+        Fuel at landing = {{macro1}} kg
+
+        $$
+        \text{DOM}+\text{Traffic load}+\text{Remaining usable fuel}-\text{Remaining trip fuel} = {{dom}}+{{load}}+{{fuel}}-{{trip}} = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: the trip fuel was added instead of subtracted.
+        - **{{d2}} kg**: the final reserve fuel was subtracted as well, although it stays in the tanks at landing.
+        - **{{d3}} kg**: alternate and final reserve fuel were added on top of the remaining usable fuel, although they are already included in it.
+      presets:
+        - variables:
+            dom: 4565
+            load: 2590
+            fuel: 990
+            trip: 410
+            alt: 235
+            res: 275
+            macro1: 580
+            answer: 7735
+            d1: 7565
+            d2: 7460
+            d3: 8245
+          correctAnswers:
+            - text: 7735 kg
+          wrongAnswers:
+            - text: 8245 kg
+            - text: 7565 kg
+            - text: 7460 kg
+        - variables:
+            dom: 5100
+            load: 2300
+            fuel: 1200
+            trip: 520
+            alt: 250
+            res: 300
+            macro1: 680
+            answer: 8080
+            d1: 7920
+            d2: 7780
+            d3: 8630
+          correctAnswers:
+            - text: 8080 kg
+          wrongAnswers:
+            - text: 8630 kg
+            - text: 7920 kg
+            - text: 7780 kg
+        - variables:
+            dom: 4800
+            load: 2750
+            fuel: 1100
+            trip: 450
+            alt: 220
+            res: 260
+            macro1: 650
+            answer: 8200
+            d1: 8000
+            d2: 7940
+            d3: 8680
+          correctAnswers:
+            - text: 8200 kg
+          wrongAnswers:
+            - text: 8680 kg
+            - text: 8000 kg
+            - text: 7940 kg
+    - type: simple
+      question: |-
+        Given the following information, calculate the revised estimated Landing Mass at the destination aerodrome.
+
+        DOM: 4515 Kg
+        Traffic Load: 2540 Kg
+        Remaining Useable Fuel: 960 Kg
+        Remaining Trip Fuel to the destination: 350 Kg
+        Alternate Fuel: 240 Kg
+        Final Reserve: 250 Kg.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 7665 Kg
+          wrongAnswers:
+            - text: 7405 Kg
+            - text: 7415 Kg
+            - text: 8155 Kg
+    - type: simple
+      question: |-
+        Given:  Dry Operating Mass = 33510 kg  Traffic Load = 7600 kg  Trip Fuel = 2040 kg  Final Reserve Fuel = 983 kg   Alternate Fuel = 1100 kg   
+        Contingency Fuel = 5 % of Trip Fuel 
+        Which of the listed estimated masses is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Estimated landing mass at destination = 43295 kg.
+          wrongAnswers:
+            - text: Estimated take-off mass = 45233 kg.
+            - text: Estimated take-off mass = 43295 kg.
+            - text: Estimated landing mass at destination = 43193 kg.
+- id: QPRXD
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337974
+    - AVEXAM-10321
+    - BGS-330546
+    - BGS-330548
+    - AVEXAM-73357
+    - ATPLQ-338759
+  annexes:
+    - id: APTG
+  learningObjectiveIds:
+    - 033.06.02.01.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Planning data are shown in the Flight Log excerpt (Fuel Planning Section).
+
+        After a balked landing at the destination airport you divert to the alternate with the gear extended.
+
+        The mass at the balked landing, read from the flight log, is {{m_dest}} kg.
+
+        The re-calculated flight time to the alternate due to the reduced speed is {{t_min}} min and the fuel flow will be {{ff}} kg/h.
+
+        Final Reserve Fuel remains unchanged.
+
+        What will be the estimated landing mass at the alternate airport (kg)?
+      explanation: |-
+        The landing mass at the alternate equals the mass at the balked landing minus the fuel burnt on the diversion. The fuel burnt is fuel flow times flight time, and the flight time must be converted to hours.
+
+        **Solution**
+
+        Fuel burnt = $$\frac{\text{Fuel flow}\times \text{Flight time to alternate}}{60}$$ = $$\frac{ {{ff}}\times {{t_min}} }{60}$$ = {{macro3}} kg
+
+        Landing mass = $$\text{Mass at balked landing (read from flight log)}-\frac{\text{Fuel flow}\times \text{Flight time to alternate}}{60} = {{m_dest}}-\frac{ {{ff}}\times {{t_min}} }{60} = \mathbf{ {{answer}}\ \text{kg} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: no diversion fuel is subtracted.
+        - **{{d2}} kg**: the diversion fuel is added instead of subtracted.
+        - **{{d3}} kg**: the flight time in minutes is multiplied by the hourly fuel flow without converting to hours.
+        - **{{d4}} kg**: only one hour of fuel flow is subtracted instead of the actual flight time.
+        - **{{d5}} kg**: the time is divided by 30 instead of 60 (wrong minute-to-hour conversion).
+      presets:
+        - variables:
+            m_dest: 6549
+            t_min: 70
+            ff: 600
+            macro3: 700
+            answer: 5849
+            d1: 6549
+            d2: 7249
+            d3: -35451
+            d4: 5949
+            d5: 5149
+          correctAnswers:
+            - text: 5849 kg
+          wrongAnswers:
+            - text: -35451 kg
+            - text: 5949 kg
+            - text: 6549 kg
+            - text: 7249 kg
+            - text: 5149 kg
+        - variables:
+            m_dest: 7200
+            t_min: 55
+            ff: 520
+            macro3: 477
+            answer: 6723
+            d1: 7200
+            d2: 7677
+            d3: -21400
+            d4: 6680
+            d5: 6247
+          correctAnswers:
+            - text: 6723 kg
+          wrongAnswers:
+            - text: -21400 kg
+            - text: 6680 kg
+            - text: 7200 kg
+            - text: 7677 kg
+            - text: 6247 kg
+        - variables:
+            m_dest: 6100
+            t_min: 80
+            ff: 640
+            macro3: 853
+            answer: 5247
+            d1: 6100
+            d2: 6953
+            d3: -45100
+            d4: 5460
+            d5: 4393
+          correctAnswers:
+            - text: 5247 kg
+          wrongAnswers:
+            - text: -45100 kg
+            - text: 5460 kg
+            - text: 6100 kg
+            - text: 6953 kg
+            - text: 4393 kg
+- id: QQPEO
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339819
+    - AVEXAM-55140
+    - AVEXAM-31791
+    - BGS-330547
+    - BGS-330544
+    - BGS-330543
+    - BGS-330542
+    - BGS-330659
+    - BGS-330655
+    - AVEXAM-63857
+    - BGS-330545
+    - AVEXAM-82986
+    - AVEXAM-4982
+    - ATPLQ-334519
+    - ATPLQ-338062
+    - ATPLQ-335778
+    - ATPLQ-336218
+  annexes:
+    - id: ABLF
+    - id: AJGK
+    - id: AYRZ
+    - id: AQNM
+  learningObjectiveIds:
+    - 033.06.02.01.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure. Planning data as shown in the Flight Log excerpt (Fuel Planning Section). After a balked landing at the destination airport, you have to divert to the alternate airport with the gear extended. The aircraft mass at the balked landing, read from the figure, is {{m0}} kg. The re-calculated flight time to the alternate due to the reduced speed is {{t_h}} h {{t_min}} min and the fuel flow will be {{ff}} kg/h. Final Reserve Fuel remains unchanged.
+
+        What will be the estimated landing mass at the alternate airport (kg)?
+      explanation: |-
+        The mass at the alternate is the mass at the balked landing minus the fuel burned during the diversion, which is the fuel flow times the flight time in hours.
+
+        **Solution**
+
+        Fuel burned: {{macro1}} kg
+
+        $$
+        \text{Mass at balked landing (read from figure)}-\text{Fuel flow}\times (\text{Flight time, hours}+\frac{\text{Flight time, minutes}}{60}) = {{m0}}-{{ff}}\times ({{t_h}}+\frac{ {{t_min}} }{60}) = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: The diversion fuel was not subtracted.
+        - **{{d2}} kg**: The diversion fuel was added instead of subtracted.
+        - **{{d3}} kg**: The minutes were converted to hours by dividing by 100 instead of 60.
+        - **{{d4}} kg**: The minutes of the flight time were ignored.
+      presets:
+        - variables:
+            m0: 7037
+            t_h: 1
+            t_min: 10
+            ff: 900
+            macro1: 1050
+            answer: 5987
+            d1: 7037
+            d2: 8087
+            d3: 6047
+            d4: 6137
+          correctAnswers:
+            - text: 5987 kg
+          wrongAnswers:
+            - text: 7037 kg
+            - text: 6047 kg
+            - text: 6137 kg
+            - text: 8087 kg
+        - variables:
+            m0: 7430
+            t_h: 1
+            t_min: 50
+            ff: 840
+            macro1: 1540
+            answer: 5890
+            d1: 7430
+            d2: 8970
+            d3: 6170
+            d4: 6590
+          correctAnswers:
+            - text: 5890 kg
+          wrongAnswers:
+            - text: 7430 kg
+            - text: 6170 kg
+            - text: 6590 kg
+            - text: 8970 kg
+        - variables:
+            m0: 7260
+            t_h: 2
+            t_min: 20
+            ff: 780
+            macro1: 1820
+            answer: 5440
+            d1: 7260
+            d2: 9080
+            d3: 5544
+            d4: 5700
+          correctAnswers:
+            - text: 5440 kg
+          wrongAnswers:
+            - text: 7260 kg
+            - text: 5544 kg
+            - text: 5700 kg
+            - text: 9080 kg
+        - variables:
+            m0: 6834
+            t_h: 1
+            t_min: 20
+            ff: 720
+            macro1: 960
+            answer: 5874
+            d1: 6834
+            d2: 7794
+            d3: 5970
+            d4: 6114
+          correctAnswers:
+            - text: 5874 kg
+          wrongAnswers:
+            - text: 6834 kg
+            - text: 5970 kg
+            - text: 6114 kg
+            - text: 7794 kg
+    - type: simple
+      question: |-
+        (For this question use annex 033-143 rev. 05.11.2004). 
+         
+        Given: Planning data as shown in the Flight Log excerpt (Fuel Planning Section). After a balked landing at the destination airport, you have to divert to the alternate airport with the gear extended.
+
+        The re-calculated flight time to the alternate due to the reduced speed is 1 h 20 min and the fuel flow will be 720 kg/h. Final Reserve Fuel remains unchanged. What will be the estimated landing mass at the alternate airport?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 5669 kg
+          wrongAnswers:
+            - text: 6749 kg
+            - text: 6175 kg
+            - text: 5320 kg
+- id: QTPHY
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334433
+    - AVEXAM-29957
+    - AVEXAM-14105
+    - BGS-331222
+    - ATPLQ-334516
+    - ATPLQ-333241
+    - BGS-331416
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.02.01.03
+  templates:
+    - type: simple
+      question: |-
+        Determine the revised estimated landing mass at the destination aerodrome, given the following information:
+
+        - DOM: {{dom}} lb
+        - Traffic load: {{load}} lb
+        - Remaining usable fuel: {{fuel}} lb
+        - Remaining trip fuel to the destination: {{trip}} lb
+        - Alternate fuel: {{alt}} lb
+        - Final reserve fuel: {{res}} lb
+      explanation: |-
+        The landing mass is the mass the aeroplane has when it arrives: the dry operating mass plus the traffic load plus the fuel that is still on board at landing. The fuel still on board at landing is the remaining usable fuel minus the remaining trip fuel to the destination. Alternate and final reserve fuel are part of the remaining usable fuel and are not burned on the way to the destination, so they are not subtracted.
+
+        **Solution**
+
+        Fuel at landing = {{macro1}} lb
+
+        $$
+        \text{DOM}+\text{Traffic load}+\text{Remaining usable fuel}-\text{Remaining trip fuel} = {{dom}}+{{load}}+{{fuel}}-{{trip}} = \mathbf{ {{answer}}\ \text{lb} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} lb**: the trip fuel was added instead of subtracted, so the fuel burned is counted as fuel on board.
+        - **{{d2}} lb**: the final reserve fuel was subtracted as well, although it stays in the tanks at landing.
+        - **{{d3}} lb**: alternate and final reserve fuel were added on top of the remaining usable fuel, although they are already included in it.
+      presets:
+        - variables:
+            dom: 9825
+            load: 2950
+            fuel: 1950
+            trip: 900
+            alt: 475
+            res: 400
+            macro1: 1050
+            answer: 13825
+            d1: 13675
+            d2: 13425
+            d3: 14700
+          correctAnswers:
+            - text: 13825 lb
+          wrongAnswers:
+            - text: 14700 lb
+            - text: 13675 lb
+            - text: 13425 lb
+        - variables:
+            dom: 9950
+            load: 3450
+            fuel: 2500
+            trip: 1200
+            alt: 525
+            res: 415
+            macro1: 1300
+            answer: 14700
+            d1: 14600
+            d2: 14285
+            d3: 15640
+          correctAnswers:
+            - text: 14700 lb
+          wrongAnswers:
+            - text: 15640 lb
+            - text: 14600 lb
+            - text: 14285 lb
+        - variables:
+            dom: 9900
+            load: 3160
+            fuel: 2100
+            trip: 800
+            alt: 485
+            res: 420
+            macro1: 1300
+            answer: 14360
+            d1: 13860
+            d2: 13940
+            d3: 15265
+          correctAnswers:
+            - text: 14360 lb
+          wrongAnswers:
+            - text: 15265 lb
+            - text: 13860 lb
+            - text: 13940 lb
+- id: QXIOA
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - BGS-330892
+    - BGS-330299
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.02.01.03
+  templates:
+    - type: simple
+      question: |-
+        Given:
+        DOM  33 510 Kg      Traffic Load 7 600 Kg    Final Reserve 983 Kg
+
+        Alternate Fuel 1 100 kg  and Contingency Fuel 102 Kg (not consumed)
+
+        The estimated Landing Mass at the Alternate would be:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 42 195 Kg
+          wrongAnswers:
+            - text: 42 093 Kg
+            - text: 42 312 Kg
+            - text: 42 210 Kg
+    - type: simple
+      question: |-
+        Given: 
+        Dry Operating Mass = 33510 kg  Traffic Load = 7600 kg  Final reserve fuel = 983 kg  Alternate fuel = 1100 kg   Contingency fuel 102 kg (not consumed) 
+        The estimated landing mass at alternate should be:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 42195 kg.
+          wrongAnswers:
+            - text: 42093 kg.
+            - text: 42210 kg.
+            - text: 42312 kg.
+- id: QZZOK
+  subjectId: "033"
+  chapterId: "033.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-336688
+    - AVEXAM-35762
+  annexes: []
+  learningObjectiveIds:
+    - 033.06.02.01.03
+  templates:
+    - type: simple
+      question: |-
+        Due to a passenger's serious illness while en-route, the aircraft must divert to the nearest suitable airfield.
+
+        The FMC calculates a flight time of {{time}} minutes to the nearest diversion airfield and shows a gross mass of {{gross}} kg.
+
+        The fuel on board is {{fob}} kg and the FMC gives a fuel on landing of {{fol}} kg.
+
+        How much is the landing mass (kg)?
+      explanation: |-
+        The fuel burned until landing is the fuel on board minus the predicted fuel on landing. The landing mass is the current gross mass minus that fuel burn.
+
+        **Solution**
+
+        Fuel burned: {{macro1}} kg
+
+        $$
+        \text{Gross mass}-\text{Fuel on board}+\text{FMC fuel on landing} = {{gross}}-{{fob}}+{{fol}} = \mathbf{ {{answer}}\ \text{kg} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kg**: The whole fuel on board was subtracted, as if all of it were burned.
+        - **{{d2}} kg**: The fuel on landing was subtracted instead of the fuel burned.
+        - **{{d3}} kg**: The fuel burn was added instead of subtracted.
+        - **{{d4}} kg**: Both the fuel on board and the fuel on landing were subtracted.
+      presets:
+        - variables:
+            time: 26
+            gross: 78200
+            fob: 9200
+            fol: 8700
+            macro1: 500
+            answer: 77700
+            d1: 69000
+            d2: 69500
+            d3: 78700
+            d4: 60300
+          correctAnswers:
+            - text: 77700 kg
+          wrongAnswers:
+            - text: 69000 kg
+            - text: 78700 kg
+            - text: 60300 kg
+            - text: 69500 kg
+        - variables:
+            time: 35
+            gross: 64500
+            fob: 7800
+            fol: 7000
+            macro1: 800
+            answer: 63700
+            d1: 56700
+            d2: 57500
+            d3: 65300
+            d4: 49700
+          correctAnswers:
+            - text: 63700 kg
+          wrongAnswers:
+            - text: 56700 kg
+            - text: 65300 kg
+            - text: 49700 kg
+            - text: 57500 kg
+        - variables:
+            time: 18
+            gross: 71200
+            fob: 8400
+            fol: 7650
+            macro1: 750
+            answer: 70450
+            d1: 62800
+            d2: 63550
+            d3: 71950
+            d4: 55150
+          correctAnswers:
+            - text: 70450 kg
+          wrongAnswers:
+            - text: 62800 kg
+            - text: 71950 kg
+            - text: 55150 kg
+            - text: 63550 kg

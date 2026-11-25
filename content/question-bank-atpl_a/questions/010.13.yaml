@@ -1,0 +1,818 @@
+- id: QDNGF
+  subjectId: "010"
+  chapterId: "010.13"
+  relatedQuestionIds:
+    - QWDBX
+  externalQuestionIds:
+    - BGS-102244
+    - AVEXAM-47448
+    - ATPLQ-104590
+  annexes: []
+  learningObjectiveIds:
+    - 010.13.01.01.01
+  templates:
+    - type: simple
+      question: "According to ICAO Annex 13, a flight recorder is any type of recorder installed in the aircraft for the purpose of:"
+      explanation: |-
+        ### ICAO Annex 13, Chapter 1, Definitions
+
+        > Flight recorder. Any type of recorder installed in the aircraft for the purpose of **complementing accident/incident investigation**.
+      presets:
+        - correctAnswers:
+            - text: complementing accident/incident investigation.
+          wrongAnswers:
+            - text: verifying insurance and liability issues.
+            - text: verifying infringements of applicable regulations.
+            - text: allowing crews direct access to flight data.
+- id: QXOZW
+  subjectId: "010"
+  chapterId: "010.13"
+  relatedQuestionIds:
+    - QRHPQ
+  externalQuestionIds:
+    - ATPLQ-107985
+    - BGS-100500
+    - AVEXAM-96553
+  annexes: []
+  learningObjectiveIds:
+    - 010.13.01.01.03
+  templates:
+    - type: simple
+      question: During the climb-out phase of a flight, the pilot-in-command becomes incapacitated. The co-pilot takes control of the aircraft and returns it safely to the aerodrome of departure. What notification or reporting action must be taken after landing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The crew must follow the procedure relevant to a serious incident.
+          wrongAnswers:
+            - text: The pilot-in-command or the operator must complete a report on behalf of the airport authority within 48 hours.
+            - text: The operator must inform the airport authority by writing an irregularity report.
+            - text: The crew must follow the procedure relevant to an accident.
+    - type: simple
+      question: During the climb-out phase of a flight, the pilot-in-command becomes incapacitated. The co-pilot takes over control of the aircraft and decides to return for landing.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The crew must follow the procedure relevant to an incident.
+          wrongAnswers:
+            - text: The crew must follow the procedure relevant to an accident.
+            - text: The pilot-in-command or the Operator must deposit a report on behalf of the involved airport Authority within the following 48 hours.
+            - text: The operator must inform the Authority by writing an Irregularity Report.
+- id: QIXHQ
+  subjectId: "010"
+  chapterId: "010.13"
+  relatedQuestionIds:
+    - QJGEX
+  externalQuestionIds:
+    - ATPLQ-107402
+    - AVEXAM-52286
+    - BGS-101493
+    - ATPLQ-107203
+    - BGS-101206
+  annexes: []
+  learningObjectiveIds:
+    - 010.13.01.01.03
+    - 010.13.03.01.01
+  templates:
+    - type: simple
+      question: Shortly before landing the Co-Pilot reports feeling unwell and becomes incapacitated. The aircraft lands safely. How and when should the event be reported, according to Regulation (EU) No. 996/2010?
+      explanation: |-
+        ### Regulation (EU) No 996/2010, Annex
+
+        > List of examples of serious incidents
+        >
+        > The incidents listed are typical examples of incidents that are likely to be serious incidents. […]
+        > - **flight crew incapacitation in flight**,
+
+        ### Regulation (EU) No 996/2010, Article 9(1)
+
+        > Any person involved who has knowledge of the occurrence of an accident or serious incident shall **notify without delay the competent safety investigation authority** of the State of Occurrence thereof.
+      presets:
+        - correctAnswers:
+            - text: As a serious incident, to the national Civil Aviation Safety Investigation Authority, WITHOUT delay.
+          wrongAnswers:
+            - text: In a mandatory occurrence report, to the national Civil Aviation Authority, within 72 hours.
+            - text: As an accident, to the national Civil Aviation Safety Investigation Authority, WITHOUT delay.
+            - text: In a voluntary occurrence report, to the national Civil Aviation Authority, within 72 hours.
+    - type: simple
+      question: "The first-officer and the commander have just taken off from an airport and are now on the climb-out. The commander suddenly suffers from a major heart attack, which incapacitates them from performing as a crew member. Fortunately, the first officer is able to land the aircraft by themselves. When submitting a report of the occurrence to the CAA, the event will be classified as:"
+      explanation: |-
+        ### Regulation (EU) No 996/2010, Annex
+
+        > List of examples of serious incidents
+        >
+        > The incidents listed are typical examples of incidents that are likely to be serious incidents. […]
+        > - **flight crew incapacitation in flight**,
+      presets:
+        - correctAnswers:
+            - text: A serious incident.
+          wrongAnswers:
+            - text: A serious injury.
+            - text: An incident.
+            - text: An accident.
+- id: QMIXL
+  subjectId: "010"
+  chapterId: "010.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102956
+    - BGS-101769
+    - ATPLQ-102591
+  annexes: []
+  learningObjectiveIds:
+    - 010.13.01.01.03
+    - 010.13.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        During a Commercial Air Transport flight under IFR with a jet aeroplane, a warning by the fuel low level alarm was triggered. The flight crew declares an emergency and lands safely. During the landing roll, a tyre deflates. After coming to a stop, the crew cancels the distress message.
+
+        The fuel quantity measured by the Safety Investigation Authority is less than the final reserve (30 min).According to Regulation (EU) No 996/2010, this event is…
+      explanation: |-
+        ### Regulation (EU) No 996/2010, Annex
+
+        > List of examples of serious incidents
+        >
+        > The incidents listed are typical examples of incidents that are likely to be serious incidents. […]
+        > - **fuel quantity requiring the declaration of an emergency by the pilot**,
+      presets:
+        - correctAnswers:
+            - text: Serious incident.
+          wrongAnswers:
+            - text: An accident.
+            - text: An incident.
+            - text: Serious accident.
+    - type: simple
+      question: "An aircraft lands at the destination with less than 30 minutes fuel. This is reported as:"
+      explanation: |-
+        ### Regulation (EU) No 996/2010, Annex
+
+        > List of examples of serious incidents
+        >
+        > The incidents listed are typical examples of incidents that are likely to be serious incidents. […]
+        > - **fuel quantity requiring the declaration of an emergency by the pilot**,
+      presets:
+        - correctAnswers:
+            - text: Serious Incident.
+          wrongAnswers:
+            - text: Incident.
+            - text: Accident.
+            - text: As long as the aircraft land safely, there is no need to report.
+- id: QOCYW
+  subjectId: "010"
+  chapterId: "010.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108075
+    - AVEXAM-98703
+    - BGS-101688
+    - ATPLQ-103661
+    - BGS-101201
+  annexes: []
+  learningObjectiveIds:
+    - 010.13.01.01.03
+  templates:
+    - type: simple
+      question: |-
+        Which option correctly describes the following events?
+
+        1\. A near collision which required an avoidance manoeuvre, where no damage or injuries were sustained.   
+         2\. A runway excursion which resulted in significant damage to the fuselage and undercarriage, but no injuries.
+      explanation: |-
+        ### Regulation (EU) No 996/2010, Annex
+
+        > List of examples of serious incidents
+        >
+        > The incidents listed are typical examples of incidents that are likely to be serious incidents. […]
+        > - a **near collision requiring an avoidance manoeuvre** to avoid a collision or an unsafe situation or when an avoidance action would have been appropriate,
+
+        ### Regulation (EU) No 996/2010, Article 2(1)
+
+        > ‘accident’ means an occurrence associated with the operation of an aircraft which, in the case of a manned aircraft, takes place between the time any person boards the aircraft with the intention of flight until such time as all such persons have disembarked […], in which:
+        > - […]
+        > - (b) the aircraft sustains **damage or structural failure which adversely affects the structural strength, performance or flight characteristics of the aircraft, and would normally require major repair or replacement of the affected component**, except for engine failure or damage, when the damage is limited to a single engine, (including its cowlings or accessories), to propellers, wing tips, antennas, probes, vanes, tires, brakes, wheels, fairings, panels, landing gear doors, windscreens, the aircraft skin (such as small dents or puncture holes) or minor damages to main rotor blades, tail rotor blades, landing gear, and those resulting from hail or bird strike, (including holes in the radome); or
+        > - […]
+      presets:
+        - correctAnswers:
+            - text: |-
+                Event 1 is classed as a serious incident because a collision almost happened, but did NOT result in damage or harm.   
+                 Event 2 is classed as an accident because there was significant damage to the aircraft.
+          wrongAnswers:
+            - text: |-
+                Event 1 is classed as a serious incident because a collision almost happened, but did NOT result in damage or harm.   
+                 Event 2 is classed as a serious incident because only the landing gears and fuselage were damaged.
+            - text: |-
+                Event 1 is classed as an accident because an emergency manoeuvre was required.   
+                 Event 2 is classed as a serious incident because, although there was aircraft damage, there were NO injuries.
+            - text: |-
+                Event 1 is classed as an accident because emergency manoeuvring was required.   
+                 Event 2 is classed as an accident because there was significant damage to the aircraft.
+    - type: simple
+      question: An aircraft has suffered damage to the landing gear and fuselage, as well as experiencing an AIRPROX. How are these two events classified?
+      explanation: |-
+        ### Regulation (EU) No 996/2010, Annex
+
+        > List of examples of serious incidents
+        >
+        > The incidents listed are typical examples of incidents that are likely to be serious incidents. […]
+        > - a **near collision requiring an avoidance manoeuvre** to avoid a collision or an unsafe situation or when an avoidance action would have been appropriate,
+
+        ### Regulation (EU) No 996/2010, Article 2(1)
+
+        > ‘accident’ means an occurrence associated with the operation of an aircraft which, in the case of a manned aircraft, takes place between the time any person boards the aircraft with the intention of flight until such time as all such persons have disembarked […], in which:
+        > - […]
+        > - (b) the aircraft sustains **damage or structural failure which adversely affects the structural strength, performance or flight characteristics of the aircraft, and would normally require major repair or replacement of the affected component**, except for engine failure or damage, when the damage is limited to a single engine, (including its cowlings or accessories), to propellers, wing tips, antennas, probes, vanes, tires, brakes, wheels, fairings, panels, landing gear doors, windscreens, the aircraft skin (such as small dents or puncture holes) or minor damages to main rotor blades, tail rotor blades, landing gear, and those resulting from hail or bird strike, (including holes in the radome); or
+        > - […]
+      presets:
+        - correctAnswers:
+            - text: Accident and Serious Incident, respectively.
+          wrongAnswers:
+            - text: Both serious incident.
+            - text: Accident and incident, respectively.
+            - text: Serious incident and incident, respectively.
+- id: QRHPQ
+  subjectId: "010"
+  chapterId: "010.13"
+  relatedQuestionIds:
+    - QXOZW
+  externalQuestionIds:
+    - ATPLQ-108770
+    - BGS-100498
+    - AVEXAM-44719
+  annexes: []
+  learningObjectiveIds:
+    - 010.13.01.01.03
+  templates:
+    - type: simple
+      question: After landing, while taxiing the landing gear sinks into a hole. No person gets injured, but the aircraft sustains structural failure, which delays the departure. Which of the following correctly describes the situation and following action...
+      explanation: |-
+        ### Regulation (EU) No 996/2010, Article 2(1)
+
+        > ‘accident’ means an occurrence associated with the operation of an aircraft which, in the case of a manned aircraft, takes place between the time any person boards the aircraft with the intention of flight until such time as all such persons have disembarked […], in which:
+        > - […]
+        > - (b) the aircraft sustains **damage or structural failure which adversely affects the structural strength, performance or flight characteristics of the aircraft, and would normally require major repair or replacement of the affected component**, except for engine failure or damage, when the damage is limited to a single engine, (including its cowlings or accessories), to propellers, wing tips, antennas, probes, vanes, tires, brakes, wheels, fairings, panels, landing gear doors, windscreens, the aircraft skin (such as small dents or puncture holes) or minor damages to main rotor blades, tail rotor blades, landing gear, and those resulting from hail or bird strike, (including holes in the radome); or
+        > - […]
+
+        ### Regulation (EU) No 996/2010, Article 9(1)
+
+        > Any person involved who has knowledge of the occurrence of an accident or serious incident shall **notify without delay the competent safety investigation authority** of the State of Occurrence thereof.
+      presets:
+        - correctAnswers:
+            - text: This is an accident. The crew must follow the procedure relevant to this case.
+          wrongAnswers:
+            - text: This is an irregularity in the operation. The crew must inform the operator of the aerodrome and establish a report.
+            - text: This is a technical incident. Since there is no person injured and the flight is terminated, a damage report has to be made out for the respective insurance company.
+            - text: This is an incident. The pilot-in-command must report it to the airport authority within the next 48 hours.
+- id: QLPBN
+  subjectId: "010"
+  chapterId: "010.13"
+  relatedQuestionIds:
+    - QMDUW
+  externalQuestionIds:
+    - ATPLQ-102008
+    - AVEXAM-40228
+    - BGS-101636
+  annexes: []
+  learningObjectiveIds:
+    - 010.13.01.01.04
+  templates:
+    - type: simple
+      question: Which of the following occurrences is classified as an aircraft accident?
+      explanation: |-
+        ### Regulation (EU) No 996/2010, Article 2(1)
+
+        > ‘accident’ means an occurrence associated with the operation of an aircraft which, in the case of a manned aircraft, **takes place between the time any person boards the aircraft with the intention of flight until such time as all such persons have disembarked** […], in which:
+        > - (a) **a person is fatally or seriously injured** as a result of:
+        >   - being in the aircraft, or,
+        >   - direct contact with any part of the aircraft, including parts which have become detached from the aircraft, or,
+        >   - direct exposure to jet blast,
+        >
+        >   except when the injuries are from natural causes, self-inflicted or **inflicted by other persons**, or when the injuries are to **stowaways hiding outside the areas normally available to the passengers and crew**; or
+        > - (b) the aircraft sustains damage or structural failure which adversely affects the structural strength, performance or flight characteristics of the aircraft, and would normally require major repair or replacement of the affected component, except for engine failure or damage, **when the damage is limited to a single engine, (including its cowlings or accessories)**, to propellers, wing tips, antennas, probes, vanes, tires, brakes, wheels, fairings, panels, landing gear doors, windscreens, the aircraft skin (such as small dents or puncture holes) or minor damages to main rotor blades, tail rotor blades, landing gear, and those resulting from hail or bird strike, (including holes in the radome); or
+        > - […]
+      presets:
+        - correctAnswers:
+            - text: An engineer is struck and seriously injured after the crew has boarded the aircraft.
+          wrongAnswers:
+            - text: A stowaway is killed by falling from the undercarriage bay on approach to land.
+            - text: In flight, an engine turbine destroys the engine and its cowling but no other part of the aircraft suffers serious damage.
+            - text: A cabin crew member is attacked and seriously injured by a passenger during flight.
+- id: QMDUW
+  subjectId: "010"
+  chapterId: "010.13"
+  relatedQuestionIds:
+    - QLPBN
+  externalQuestionIds:
+    - ATPLQ-106228
+    - BGS-100499
+    - AVEXAM-65165
+  annexes: []
+  learningObjectiveIds:
+    - 010.13.01.01.04
+  templates:
+    - type: simple
+      question: The aircraft has made a complete stop on the apron. When leaving the aircraft, one of the passengers walks into the trailing edge of the wing and gets seriously injured. What is this and what reporting procedure must be followed?
+      explanation: |-
+        ### Regulation (EU) No 996/2010, Article 2(1)
+
+        > ‘accident’ means an occurrence associated with the operation of an aircraft which, in the case of a manned aircraft, takes place between the time any person boards the aircraft with the intention of flight until such time as all such persons have disembarked […], in which:
+        > - (a) **a person is fatally or seriously injured** as a result of:
+        >   - being in the aircraft, or,
+        >   - **direct contact with any part of the aircraft, including parts which have become detached from the aircraft, or,**
+        >   - direct exposure to jet blast,
+        >
+        >   except when the injuries are from natural causes, self-inflicted or inflicted by other persons, or when the injuries are to stowaways hiding outside the areas normally available to the passengers and crew; or
+        > - […]
+
+        ### Regulation (EU) No 996/2010, Article 9(1)
+
+        > Any person involved who has knowledge of the occurrence of an accident or serious incident shall **notify without delay the competent safety investigation authority** of the State of Occurrence thereof.
+      presets:
+        - correctAnswers:
+            - text: An accident and the crew must follow the procedure relevant to this case.
+          wrongAnswers:
+            - text: An incident and the pilot-in-command must report it to the airport authority within 48 hours.
+            - text: A matter of passenger insurance and the airport operator or the company in charge of the handling shall write a report for the insurance company.
+            - text: An irregularity in passenger handling and the handling agent must inform their insurance company.
+- id: QWDBX
+  subjectId: "010"
+  chapterId: "010.13"
+  relatedQuestionIds:
+    - QDNGF
+  externalQuestionIds:
+    - ATPLQ-105227
+    - BGS-100502
+    - ATPLQ-107393
+    - AVEXAM-40019
+    - BGS-101402
+    - ATPLQ-106199
+    - AVEXAM-77838
+    - BGS-100507
+  annexes: []
+  learningObjectiveIds:
+    - 010.13.02.01.01
+  templates:
+    - type: simple
+      question: What is the objective of the investigation of an accident or incident, according to ICAO Annex 13 (Aircraft Accident and Incident Investigation)?
+      explanation: |-
+        ### ICAO Annex 13, 3.1
+
+        > The **sole objective** of the investigation of an accident or incident shall be **the prevention of accidents and incidents**. It is not the purpose of this activity to apportion blame or liability.
+      presets:
+        - correctAnswers:
+            - text: To prevent accidents and incidents.
+          wrongAnswers:
+            - text: To determine the aircraft manufacturer's liability.
+            - text: To determine the operator's liability.
+            - text: To apportion blame for the subsequent legal proceedings.
+    - type: simple
+      question: An aircraft is flying over the threshold prior to touchdown when the pilots observe a vehicle crossing the runway and take immediate action to go around to avoid causing a collision between the aircraft and the vehicle. The pilots report this incident and an investigation takes place following the procedures set out in ICAO Annex 13\. What is the sole purpose of this investigation?
+      explanation: |-
+        ### ICAO Annex 13, 3.1
+
+        > The **sole objective** of the investigation of an accident or incident shall be **the prevention of accidents and incidents**. It is not the purpose of this activity to apportion blame or liability.
+      presets:
+        - correctAnswers:
+            - text: To prevent such incidents from occurring again.
+          wrongAnswers:
+            - text: To apportion adequate blame, or liability, on the agency or personnel responsible for the incursion.
+            - text: To ensure that factual data are collated and analysed for use in any subsequent judicial proceedings.
+            - text: To ensure that the flight crew, air traffic control and any additional units or agencies followed the correct operating procedures.
+    - type: simple
+      question: The sole objective of the investigation of an accident or incident shall be the...
+      explanation: |-
+        ### ICAO Annex 13, 3.1
+
+        > The **sole objective** of the investigation of an accident or incident shall be **the prevention of accidents and incidents**. It is not the purpose of this activity to apportion blame or liability.
+      presets:
+        - correctAnswers:
+            - text: prevention of accidents or incidents.
+          wrongAnswers:
+            - text: prevention of accidents or incidents and to establish liability.
+            - text: prevention of accidents or incidents and to provide the manufacturer with investigation data for the improvement of the design.
+            - text: prevention of accidents or incidents and to provide legal evidence for subsequent court cases.
+- id: QGWHI
+  subjectId: "010"
+  chapterId: "010.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103591
+    - AVEXAM-65055
+    - ATPLQ-104391
+    - AVEXAM-42110
+    - BGS-101429
+    - ATPLQ-103871
+  annexes: []
+  learningObjectiveIds:
+    - 010.13.02.01.02
+  templates:
+    - type: simple
+      question: An aircraft has crashed in France. Its state of registry is the USA and the company is Spanish. Who should contact who?
+      explanation: |-
+        ### ICAO Annex 13, 4.1
+
+        > The State of Occurrence shall forward a notification of an accident, a serious incident, or an incident to be investigated within the context of this Annex, with a minimum of delay and by the most suitable and quickest means available, to:
+        > - a) the **State of Registry**;
+        > - b) the **State of the Operator**;
+        > - c) the **State of Design**;
+        > - d) the **State of Manufacture**; and
+        > - e) the **International Civil Aviation Organization**, when the aircraft involved is of a maximum mass of over 2 250 kg or is a turbojet-powered aeroplane.
+        >
+        > […]
+      presets:
+        - correctAnswers:
+            - text: France shall notify the USA and Spain.
+          wrongAnswers:
+            - text: France shall notify the USA and the USA shall notify Spain.
+            - text: France shall notify Spain.
+            - text: France shall notify the USA.
+    - type: simple
+      question: |-
+        An aircraft designed and manufactured in the United States of America (USA), registered and operated in the United Kingdom (UK), and having a maximum mass of 10 tonnes, crashes in France.   
+         According to ICAO Annex 13 "Aircraft Accident and incident investigation", which State/organisation(s) must be notified of the accident and by whom?
+      explanation: |-
+        ### ICAO Annex 13, 4.1
+
+        > The State of Occurrence shall forward a notification of an accident, a serious incident, or an incident to be investigated within the context of this Annex, with a minimum of delay and by the most suitable and quickest means available, to:
+        > - a) the **State of Registry**;
+        > - b) the **State of the Operator**;
+        > - c) the **State of Design**;
+        > - d) the **State of Manufacture**; and
+        > - e) the **International Civil Aviation Organization**, when the aircraft involved is of a maximum mass of over 2 250 kg or is a turbojet-powered aeroplane.
+        >
+        > […]
+      presets:
+        - correctAnswers:
+            - text: France must notify the UK, the USA, and ICAO.
+          wrongAnswers:
+            - text: The USA, the UK, and France must be notified by ICAO.
+            - text: The UK must notify France, the USA, and ICAO.
+            - text: The USA must notify the UK, France, and ICAO.
+- id: QCVAS
+  subjectId: "010"
+  chapterId: "010.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103470
+    - AVEXAM-54999
+    - ATPLQ-105673
+    - BGS-101430
+    - AVEXAM-35410
+    - ATPLQ-104545
+  annexes: []
+  learningObjectiveIds:
+    - 010.13.02.01.02
+  templates:
+    - type: simple
+      question: When the location of the accident or the serious incident cannot definitely be established as being in the territory of any State, who shall institute and conduct any necessary investigation of the accident or serious incident according to ICAO Annex 13?
+      explanation: |-
+        ### ICAO Annex 13, 5.3
+
+        > When the location of the accident or the serious incident cannot definitely be established as being in the territory of any State, the **State of Registry shall institute and conduct** any necessary investigation of the accident or serious incident. […]
+      presets:
+        - correctAnswers:
+            - text: The State of Registry.
+          wrongAnswers:
+            - text: ICAO.
+            - text: The State from where the aircraft departed.
+            - text: The State being closest to where the accident/serious incident took place.
+    - type: simple
+      question: |-
+        An aircraft with a maximum mass of 230 tonnes and registered in France disappeared on 1 June 2009 in the middle of the Atlantic Ocean, being outside the territory of any State of design/Manufacture/The Operator. The Aircraft took off from Rio de Janeiro Galeao aerodrome (Brazil) and was bound for Paris Charles de Gaulle aerodrome (France). The last radio contact occurred with a Brazil ACC.   
+         In Accordance with ICAO Annex 13 " Aircraft Accident and incident Investigation", which State/Organisation was in charge of the technical investigation of the accident?
+      explanation: |-
+        ### ICAO Annex 13, 5.3
+
+        > When the location of the accident or the serious incident cannot definitely be established as being in the territory of any State, the **State of Registry shall institute and conduct** any necessary investigation of the accident or serious incident. […]
+      presets:
+        - correctAnswers:
+            - text: France.
+          wrongAnswers:
+            - text: ICAO.
+            - text: The State closest to the accident site.
+            - text: Brazil.
+- id: QZOYN
+  subjectId: "010"
+  chapterId: "010.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105403
+    - AVEXAM-80870
+    - ATPLQ-106345
+    - ATPLQ-106849
+    - BGS-101755
+    - AVEXAM-24410
+  annexes: []
+  learningObjectiveIds:
+    - 010.13.03.01.02
+  templates:
+    - type: simple
+      question: Which of the following statements about EU regulation No. 996/2010 and EU regulation No. 376/2014 describes the correct relationship between the two regulations and their contributions to air safety?
+      explanation: |-
+        ### Regulation (EU) No 996/2010, Article 1(1)
+
+        > This Regulation aims to improve aviation safety by ensuring a high level of efficiency, expediency, and quality of **European civil aviation safety investigations**, the sole objective of which is the prevention of future accidents and incidents without apportioning blame or liability […].
+        ### Regulation (EU) No 376/2014, Article 1(1)
+
+        > This Regulation aims to improve aviation safety by ensuring that relevant safety information relating to civil aviation is **reported, collected, stored, protected, exchanged, disseminated and analysed**.
+      presets:
+        - correctAnswers:
+            - text: Both EU regulation No. 996/2010, and EU regulation No. 376/2014, aim to improve aviation safety, whereas 996/2010 focuses on investigations, and 376/2014 focuses on reporting and management of safety relevant information.
+          wrongAnswers:
+            - text: EU regulation No. 996/2010 refers to the investigation of incidents and occurrences, and EU regulation No. 376/2014 refers to the investigation of accidents.
+            - text: EU regulation No. 996/2010 aims to improve aviation safety by ensuring that relevant safety information relating to civil aviation is collected, stored, protected, exchanged, disseminated and analysed, and EU regulation No. 376/2014 aims to improve aviation safety by ensuring that relevant safety information relating to civil aviation is reported.
+            - text: EU regulation No. 996/2010 refers to the investigation of accidents involving aircraft with a total mass of less than 5 700 kg, and EU regulation No. 376/2014 refers to the investigation of accidents involving aircraft with a total mass of more than 5 700 kg.
+    - type: simple
+      question: |-
+        Regulation 376/2014 on the reporting, analysis and follow-up of occurrences in civil aviation and Regulation 996/2010 on the investigation and prevention of accidents and incidents both deal with incident reports.
+
+        Regulation 376/2014 intends to...
+      explanation: |-
+        ### Regulation (EU) No 996/2010, Article 1(1)
+
+        > This Regulation aims to improve aviation safety by ensuring a high level of efficiency, expediency, and quality of **European civil aviation safety investigations**, the sole objective of which is the prevention of future accidents and incidents without apportioning blame or liability […].
+        ### Regulation (EU) No 376/2014, Article 1(1)
+
+        > This Regulation aims to improve aviation safety by ensuring that relevant safety information relating to civil aviation is **reported, collected, stored, protected, exchanged, disseminated and analysed**.
+      presets:
+        - correctAnswers:
+            - text: assist Member states, the Agency and organisations in managing aviation safety risk, Regulation 996/2010 prevents accidents by investigating.
+          wrongAnswers:
+            - text: help judicial authorities in managing aviation safety risks, Regulation 996/2010 aims to prevent accidents by prosecuting.
+            - text: prevent accidents by investigating, Regulation 996/2010 aims to assist Member states, the Agency and organisations in managing aviation safety risk.
+            - text: prevent accidents by prosecuting, Regulation 996/2010 helps judicial authorities in managing aviation safety risks.
+    - type: simple
+      question: Consider EU Regulations on accidents, incidents, and occurrences in aviation. Which of the following options is correct?
+      explanation: |-
+        ### Regulation (EU) No 996/2010, Article 1(1)
+
+        > This Regulation aims to improve aviation safety by ensuring a high level of efficiency, expediency, and quality of **European civil aviation safety investigations**, the sole objective of which is the prevention of future accidents and incidents without apportioning blame or liability […].
+        ### Regulation (EU) No 996/2010, Article 3(3)
+
+        > This Regulation shall **not apply to safety investigations into accidents and serious incidents which involve aircraft engaged in military, customs, police or similar services**, except when the Member State concerned so determines […].
+        ### Regulation (EU) No 376/2014, Article 1(1)
+
+        > This Regulation aims to improve aviation safety by ensuring that relevant safety information relating to civil aviation is **reported, collected, stored, protected, exchanged, disseminated and analysed**.
+      presets:
+        - correctAnswers:
+            - text: Reg.(EU) 996/2010 addresses safety investigations but excludes, amongst others, incident investigation involving military aircraft; Reg. (EU) 376/2014 addresses occurrence reporting and use of safety information in order to improve aviation safety.
+          wrongAnswers:
+            - text: Reg.(EU) 996/2010 addresses accident and incident investigations, and implements the SARPs of ICAO Annex 13; Reg.(EU) 376/2014 contains procedures for accident and incident investigations, applicable to all ICAO Member States.
+            - text: "Reg.(EU) 996/2010 contains procedures for the investigation of occurrences and incidents; Reg(EU) 376/2014 contains the procedures for the investigation of accidents: both regulations aim to prove aviation safety."
+            - text: Reg.(EU) 996/2010 addresses accident and incident investigations for aircraft with an MTOM > 5700 kg; Reg.(EU) 376/2014 regulates accident and incident investigations for aircraft with an MTOM =< 5700 kg.
+- id: QXCWW
+  subjectId: "010"
+  chapterId: "010.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103409
+    - BGS-101411
+    - ATPLQ-102961
+    - AVEXAM-89928
+  annexes: []
+  learningObjectiveIds:
+    - 010.13.03.01.03
+  templates:
+    - type: simple
+      question: Regulation (EU) No 376/2014 of the European Parliament and of the Council on the reporting, analysis and follow-up of occurrences in civil aviation specifies the rules on the...
+      explanation: |-
+        ### Regulation (EU) No 376/2014, Article 1(1)
+
+        > This Regulation aims to improve aviation safety by ensuring that relevant safety information relating to civil aviation is **reported, collected, stored, protected, exchanged, disseminated and analysed**.
+      presets:
+        - correctAnswers:
+            - text: occurrence reporting, analysis and dissemination of safety information.
+          wrongAnswers:
+            - text: issuance of Acceptable Means of Compliance and Guidance Material for investigation reports.
+            - text: certification and maintenance of aircraft.
+            - text: safety investigation into accidents and serious incidents in order to prevent future accidents and incidents.
+    - type: simple
+      question: What is the subject matter of Regulation (EU) No 376/2014?
+      explanation: |-
+        ### Regulation (EU) No 376/2014, Article 1(1)
+
+        > This Regulation aims to improve aviation safety by ensuring that relevant safety information relating to civil aviation is **reported, collected, stored, protected, exchanged, disseminated and analysed**.
+      presets:
+        - correctAnswers:
+            - text: Follow-up and dissemination of safety information.
+          wrongAnswers:
+            - text: Sets down the special considerations referring to flight crew compartment doors with regard to aviation security.
+            - text: Analysis and follow-up of unlawful interferences and bomb threats.
+            - text: Management of international airspace and Air Traffic Control Units.
+- id: QQILP
+  subjectId: "010"
+  chapterId: "010.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105912
+    - AVEXAM-34598
+  annexes: []
+  learningObjectiveIds:
+    - 010.13.03.01.04
+  templates:
+    - type: simple
+      question: When the safety demonstration takes place, some passengers are distracted and using their phones, ignoring the demonstration. What should the pilot do?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Report this occurrence as a voluntary reporting.
+          wrongAnswers:
+            - text: Report this event as a mandatory occurrence report.
+            - text: Do not report this event as it has no impact on the flight.
+            - text: Inform the cabin manager to document the incident for ATC notification.
+    - type: simple
+      question: When passengers are distracted and using their phones during the safety demonstration, what action should the pilot take?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Report this occurrence as a voluntary reporting.
+          wrongAnswers:
+            - text: Report this event as a mandatory occurrence report.
+            - text: Inform the cabin manager to document the incident for ATC notification.
+            - text: Do not report this event as it has no impact on the flight.
+- id: QFQNU
+  subjectId: "010"
+  chapterId: "010.13"
+  relatedQuestionIds:
+    - QJGEX
+  externalQuestionIds:
+    - ATPLQ-102412
+    - BGS-101427
+    - AVEXAM-96523
+  annexes: []
+  learningObjectiveIds:
+    - 010.13.03.01.04
+  templates:
+    - type: simple
+      question: "During the flight, the crew becomes aware that a navigation instrument which has NOT been required on this flight but will be required on a future flight is indicating incorrectly. In addition to having the fault investigated by the engineers, Regulation (EU) No 376/2014 requires:"
+      explanation: |-
+        ### Regulation (EU) No 376/2014, Article 4(6) and 4(7)
+
+        > 6. The following natural persons shall report the occurrences referred to in paragraph 1 through the system established in accordance with paragraph 2 **by the organisation which employs, contracts or uses the services of the reporter** […]:
+        >    - (a) the **pilot in command** […]
+        >
+        > 7. The persons listed in paragraph 6 shall report occurrences **within 72 hours** of becoming aware of the occurrence, unless exceptional circumstances prevent this.
+      presets:
+        - correctAnswers:
+            - text: The Pilot in Command to report the occurrence to the Operator's safety reporting system within 72 hours.
+          wrongAnswers:
+            - text: Nothing more is required because the failure did NOT affect that flight.
+            - text: The Pilot in Command to report the occurrence as a serious incident to the national Civil Aviation Safety Investigation Authority within 7 days.
+            - text: The crew member who noticed the fault to report the occurrence as a serious incident to the national Civil Aviation Safety Investigation Authority within 72 hours.
+- id: QJGEX
+  subjectId: "010"
+  chapterId: "010.13"
+  relatedQuestionIds:
+    - QFQNU
+    - QIXHQ
+  externalQuestionIds:
+    - ATPLQ-104383
+    - ATPLQ-107637
+    - AVEXAM-56683
+    - AVEXAM-5277
+    - ATPLQ-107932
+    - AVEXAM-59886
+  annexes: []
+  learningObjectiveIds:
+    - 010.13.03.01.04
+    - 010.13.03.01.05
+  templates:
+    - type: simple
+      question: For which one of the following does mandatory reporting apply?
+      explanation: |-
+        ### Regulation (EU) No 376/2014, Article 4(1)
+
+        > Occurrences which may represent a significant risk to aviation safety and which fall into the following categories shall be reported by the persons listed in paragraph 6 through the mandatory occurrence reporting systems pursuant to this Article:
+        > - (a) occurrences related to the operation of the aircraft, such as:
+        >   - […]
+        >   - (vii) **crew incapacitation** and other crew-related occurrences;
+        >   - […]
+      presets:
+        - correctAnswers:
+            - text: Crew incapacitation.
+          wrongAnswers:
+            - text: Debris in the walkway.
+            - text: Both passenger and crew sickness.
+            - text: Lost baggage.
+    - type: simple
+      question: Which of the following events is subject to voluntary reporting according to Regulation (EU) No 376/2014?
+      explanation: |-
+        ### Regulation (EU) No 376/2014, Article 5(4)
+
+        > The voluntary reporting systems shall be used to facilitate the collection of details of occurrences and safety-related information:
+        > - (a) **not subject to mandatory reporting** pursuant to Article 4(1);
+        > - (b) reported by persons who are not listed in Article 4(6).
+
+        ### Regulation (EU) No 376/2014, Article 4(1)
+
+        > […]
+        > - (a) occurrences related to the operation of the aircraft, such as:
+        >   - (i) collision-related occurrences;
+        >   - […]
+        >   - (iii) fuel-related occurrences;
+        >   - […]
+        >   - (vii) crew incapacitation and other crew-related occurrences;
+        >   - […]
+        > - (b) occurrences related to technical conditions, maintenance and repair of aircraft, such as:
+        >   - […]
+        >   - (ii) system malfunctions;
+        >   - […]
+        >   - (iv) propulsion problems (including engines, propellers and rotor systems) and auxiliary power unit problems;
+        > - (c) occurrences related to air navigation services and facilities, such as:
+        >   - (i) collisions, near collisions or potential for collisions;
+        >   - […]
+      presets:
+        - correctAnswers:
+            - text: Small speed fluctuations during approach.
+          wrongAnswers:
+            - text: Engine-failure in cruise.
+            - text: Abnormal fuel check discrepancies.
+            - text: TCAS RA.
+        - correctAnswers:
+            - text: Debris in the walkway.
+          wrongAnswers:
+            - text: Crew incapacitation.
+            - text: System malfunctions.
+            - text: Collisions, near collisions or potential for collisions.
+- id: QTGDM
+  subjectId: "010"
+  chapterId: "010.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105821
+    - AVEXAM-62397
+  annexes: []
+  learningObjectiveIds:
+    - 010.13.03.01.04
+  templates:
+    - type: simple
+      question: A malfunctioning lock on the lavatory is to be reported as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Voluntary Reporting.
+          wrongAnswers:
+            - text: Mandatory Reporting.
+            - text: Safety Reporting.
+            - text: Incident Reporting.
+    - type: simple
+      question: How should a faulty lavatory lock be documented?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Voluntary Reporting.
+          wrongAnswers:
+            - text: Mandatory Reporting.
+            - text: Incident Reporting.
+            - text: Safety Reporting.
+- id: QJVRM
+  subjectId: "010"
+  chapterId: "010.13"
+  relatedQuestionIds:
+    - QKDYZ
+  externalQuestionIds:
+    - ATPLQ-108681
+    - AVEXAM-6740
+  annexes: []
+  learningObjectiveIds:
+    - 010.13.03.01.06
+  templates:
+    - type: simple
+      question: According to the collection and storage policy of EU regulation No. 376/2014, one or more persons who collect all the reports…
+      explanation: |-
+        ### Regulation (EU) No 376/2014, Article 6(1)
+
+        > Each organisation established in a Member State shall **designate one or more persons to handle independently the collection, evaluation, processing, analysis and storage** of details of occurrences reported pursuant to Articles 4 and 5.
+        >
+        > The handling of the reports shall be done with a view to preventing the use of information for purposes other than safety, and shall appropriately **safeguard the confidentiality of the identity of the reporter** and of the persons mentioned in occurrence reports, with a view to promoting a ‘just culture’.
+      presets:
+        - correctAnswers:
+            - text: And will evaluate, process, analyze and store them while taking all the necessary measures to safeguard the confidentiality of the identity of the reporter.
+          wrongAnswers:
+            - text: And will evaluate them while taking all the necessary measures to safeguard the confidentiality of the identity of the reporter.
+            - text: And will conduct the investigation of accidents and serious incidents with a third-party member state. But mainly the voluntary reporting occurrences.
+            - text: And will evaluate, process, analyze and store them.
+- id: QKDYZ
+  subjectId: "010"
+  chapterId: "010.13"
+  relatedQuestionIds:
+    - QJVRM
+  externalQuestionIds:
+    - ATPLQ-105024
+    - AVEXAM-40388
+  annexes: []
+  learningObjectiveIds:
+    - 010.13.03.01.06
+  templates:
+    - type: simple
+      question: "According to Regulation (EU) 376/2014, when an organisation, as certified/approved by the Agency, identifies an actual/potential safety risk through the analysis of reportable occurrences, then it shall share that information with the Agency:"
+      explanation: |-
+        ### Regulation (EU) No 376/2014, Article 13(5)
+
+        > Where an organisation established in a Member State and certified or approved by the Agency identifies an actual or potential aviation safety risk as a result of its analysis of occurrences […], it shall transmit to the Agency, **within 30 days from the date of notification of the occurrence by the reporter**: […]
+      presets:
+        - correctAnswers:
+            - text: Within 30 days from the date of notification by the reporter.
+          wrongAnswers:
+            - text: At the next scheduled safety forum.
+            - text: No later than two weeks (14 days) from the date of notification by the person listed as reporter in the original submission.
+            - text: As soon as possible after it has been reported.

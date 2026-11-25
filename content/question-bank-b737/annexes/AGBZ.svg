@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="908" height="799" viewBox="0 0 908 799" role="img" aria-labelledby="title desc" xml:lang="en-GB">
+<title id="title">737-800 Engine Anti-Ice System Schematic</title>
+<desc id="desc">Engine cowl anti-ice and the fifth- and ninth-stage bleed sources. Shows the cowl anti-ice, modulating and shutoff, and engine bleed valves with their related cockpit controls.</desc>
+<metadata>Boeing 737-800 FCOM Rev 40, 3.20.6. Redrawn as SVG.</metadata>
+<defs>
+  <marker id="arrow" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="13" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto">
+    <path d="M0 0 12 5 0 10Z" fill="#ededed"/>
+  </marker>
+  <g id="toggle-body">
+    <circle r="18" fill="#a6a6a6" stroke="#393939" stroke-width="2"/>
+    <circle r="13" fill="#676767" stroke="#393939" stroke-width="2"/>
+    <circle r="9" fill="#8c8c8c" stroke="#393939" stroke-width="1.6"/>
+  </g>
+  <g id="toggle-lever" stroke="#393939" stroke-width="1.7">
+    <path d="M-4 0a4 4 0 0 1 8 0l2 10H-6z" fill="#b7b7b7"/>
+    <circle cy="12" r="6.6" fill="#cecece"/>
+  </g>
+  <g id="toggle"><use href="#toggle-body"/><use href="#toggle-lever"/></g>
+  <g id="shutoff">
+    <rect x="-21" y="-20" width="42" height="40" rx="1.5" fill="#ededed" stroke="#111" stroke-width="2"/>
+    <path d="M0-19V19" stroke="#111" stroke-width="4"/>
+    <circle r="4.7" fill="#ededed" stroke="#111" stroke-width="2"/>
+  </g>
+  <g id="modulating">
+    <rect x="-24" y="-24" width="48" height="48" fill="#ededed" stroke="#111" stroke-width="2"/>
+    <path d="M-23-22H23Q0-7-23-22ZM-23 22H23Q0 7-23 22Z" fill="#111"/>
+    <path d="M-18 12 5-11h13L-5 12Z" fill="#111"/>
+    <circle r="5" fill="#ededed" stroke="#111" stroke-width="2"/>
+  </g>
+  <g id="check">
+    <rect x="-21" y="-12" width="42" height="24" rx="1.5" fill="#ededed" stroke="#111" stroke-width="2"/>
+    <path d="M-15-4H4v-6L17 0 4 10V4h-19Z" fill="#111"/>
+  </g>
+</defs>
+<style>
+  svg {background:#080808;color:#ededed}
+  text {font-family:Menlo,Consolas,"Liberation Mono",monospace}
+  .wire,.signal {fill:none;stroke:#ededed;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round}
+  .signal {stroke-dasharray:19 10 3 10}
+  .arr {marker-end:url(#arrow)}
+  .duct-edge,.duct {fill:none;stroke-linecap:butt;stroke-linejoin:round}
+  .duct-edge {stroke:#ededed;stroke-width:15}
+  .duct {stroke:#c41c1c;stroke-width:12}
+  .component {fill:#080808;stroke:#ededed;stroke-width:2.1}
+</style>
+<rect x="0" y="0" width="908" height="799" fill="#080808"/>
+<g fill="#ededed">
+<path class="wire" d="M82 98q-22 22-22 82v78q3 137 28 267h223q27-128 28-267v-83q0-52-20-77Z"/>
+<path class="wire" d="M115 525l20 86h130l20-86M146 611l47 136v25h14v-25l46-136"/>
+<path d="M622 28h225v246H620l-5-28 9-60-10-16 10-24-6-65 7-14Z" fill="#797979"/>
+<path class="duct-edge" d="M82 100H319M196 100V388H456V303M196 207h36M340 303H598M322 469H456V387"/>
+<path class="duct" d="M82 100H319M196 100V388H456V303M196 207h36M340 303H598M322 469H456V387"/>
+<path class="signal arr" d="M251 209H362V89H629"/>
+<path class="wire arr" d="M247 361V237H387V130H629"/>
+<path class="wire arr" d="M658 224H411v50H272v87"/>
+<path class="wire arr" d="M170 428l63-24"/>
+<path d="M231 199q3-4 7 0l3 4 4-4q5-2 7 3v13q-3 5-7 1l-4-4-4 4q-5 3-6-2Z" fill="#c41c1c" stroke="#ededed" stroke-width="1.2"/>
+<use href="#shutoff" transform="translate(262 388) rotate(90) scale(1.23)"/>
+<use href="#check" transform="translate(382 303) scale(1.18)"/>
+<use href="#modulating" transform="translate(534 303)"/>
+<use href="#modulating" transform="translate(395 469)"/>
+<path class="wire arr" d="M604 303h36"/>
+<text x="134" y="43" font-size="18" text-anchor="start"><tspan x="134" dy="0">ENGINE COWL</tspan><tspan x="134" dy="21.42">ANTI-ICE (TAI)</tspan></text>
+<text x="286" y="307" font-size="18" text-anchor="start">5th</text>
+<text x="271" y="471" font-size="18" text-anchor="start">9th</text>
+<text x="120" y="436" font-size="18" text-anchor="start"><tspan x="120" dy="0">COWL</tspan><tspan x="120" dy="21.42">ANTI-ICE</tspan><tspan x="120" dy="21.42">VALVE</tspan></text>
+<text x="497" y="350" font-size="18" text-anchor="start"><tspan x="497" dy="0">ENGINE</tspan><tspan x="497" dy="21.42">BLEED</tspan><tspan x="497" dy="21.42">VALVE</tspan></text>
+<text x="321" y="515" font-size="18" text-anchor="start"><tspan x="321" dy="0">MODULATING &amp;</tspan><tspan x="321" dy="21.42">SHUTOFF VALVE</tspan></text>
+<text x="650" y="307" font-size="18" text-anchor="start"><tspan x="650" dy="0">TO</tspan><tspan x="650" dy="21.42">BLEED AIR</tspan><tspan x="650" dy="21.42">DUCT</tspan></text>
+<text x="722" y="170" font-size="17" text-anchor="middle"><tspan x="722" dy="0">ENG</tspan><tspan x="722" dy="19">ANTI-ICE</tspan></text>
+<use href="#toggle" transform="translate(678 224) scale(1.18)"/>
+<use href="#toggle" transform="translate(767 224) scale(1.18)"/>
+<text x="722" y="208" font-size="13" text-anchor="middle">OFF</text>
+<text x="722" y="245" font-size="13" text-anchor="middle">ON</text>
+<text x="678" y="271" font-size="15" text-anchor="middle">1</text>
+<text x="767" y="271" font-size="15" text-anchor="middle">2</text>
+<rect x="553" y="720" width="149" height="13" fill="#c41c1c" stroke="#ededed" stroke-width="1"/>
+<text x="717" y="733" font-size="18" text-anchor="start">BLEED AIR</text>
+<rect x="633" y="71" width="85" height="38" fill="#080808" stroke="#ffbc17" stroke-width="1.5"/>
+<text x="675.5" y="86.685" font-size="13" text-anchor="middle" fill="#ffbc17"><tspan x="675.5" dy="0">COWL</tspan><tspan x="675.5" dy="14.95">ANTI-ICE</tspan></text>
+<rect x="633" y="110" width="85" height="39" fill="#173a72" stroke="#2d70ba" stroke-width="1.5"/>
+<text x="675.5" y="126.185" font-size="13" text-anchor="middle" fill="#ededed"><tspan x="675.5" dy="0">COWL VALVE</tspan><tspan x="675.5" dy="14.95">OPEN</tspan></text>
+<rect x="722" y="71" width="85" height="38" fill="#080808" stroke="#ffbc17" stroke-width="1.5"/>
+<text x="764.5" y="86.685" font-size="13" text-anchor="middle" fill="#ffbc17"><tspan x="764.5" dy="0">COWL</tspan><tspan x="764.5" dy="14.95">ANTI-ICE</tspan></text>
+<rect x="722" y="110" width="85" height="39" fill="#173a72" stroke="#2d70ba" stroke-width="1.5"/>
+<text x="764.5" y="126.185" font-size="13" text-anchor="middle" fill="#ededed"><tspan x="764.5" dy="0">COWL VALVE</tspan><tspan x="764.5" dy="14.95">OPEN</tspan></text>
+</g>
+</svg>

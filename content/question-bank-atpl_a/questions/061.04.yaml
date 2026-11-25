@@ -1,0 +1,5289 @@
+- id: QMJFP
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-614867
+    - BGS-610199
+    - AVEXAM-91038
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.01.01
+  templates:
+    - type: simple
+      question: "An aeronautical chart is conformal when:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: at any point the scale over a short distance in the direction of the parallel is equal to the scale in the direction of the meridian and the meridians are perpendicular to the parallels.
+          wrongAnswers:
+            - text: the map is an equidistant normal projection.
+            - text: the meridians and parallels are perpendicular to each other.
+            - text: every great circle is represented by a straight line in the map.
+- id: QSIAH
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-612425
+    - AVEXAM-79788
+    - BGS-611408
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.01.01
+  templates:
+    - type: simple
+      question: A chart meets the ICAO recommendation for conformity. What does it mean for you when you intend to use it for navigational purposes?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A straight line drawn on the chart will approximate a great circle.
+          wrongAnswers:
+            - text: Meridians are printed as vertical lines perpendicular to the edges of the chart.
+            - text: A straight line of the chart between two points does not necessarily represent the shortest distance between those points on the Earth.
+            - text: For two same sized squares drawn on the chart at different locations, the underlying ground of the Earth will have the same surface size.
+- id: QYRNP
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-619348
+    - BGS-611284
+    - BGS-611432
+    - AVEXAM-44542
+    - ATPLQ-612533
+    - BGS-610222
+    - AVEXAM-49799
+    - ATPLQ-616741
+    - ATPLQ-617613
+    - AVEXAM-99949
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.02.01
+  templates:
+    - type: simple
+      question: |-
+        A Lambert conformal conic chart has two standard parallels:
+
+        - First standard parallel: {{sp1}}°N
+        - Second standard parallel: {{sp2}}°N
+
+        What is the constant of the cone of this chart?
+      explanation: |-
+        The constant of the cone is the sine of the mean of the two standard parallels.
+
+        **Solution**
+
+        $$
+        \text{sin}(\frac{\text{First standard parallel}+\text{Second standard parallel}}{2})
+        $$
+
+        $$
+        \text{sin}(\frac{ {{sp1}}+{{sp2}} }{2}) = \mathbf{ {{answer}} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}**: uses the cosine instead of the sine
+        - **{{d2}}**: uses only the first parallel
+        - **{{d3}}**: uses only the second parallel
+        - **{{d4}}**: divides the mean parallel by 90
+      presets:
+        - variables:
+            sp1: 77
+            sp2: 56
+            answer: 0.92
+            d1: 0.4
+            d2: 0.97
+            d3: 0.83
+            d4: 0.74
+          correctAnswers:
+            - text: "0.92 "
+          wrongAnswers:
+            - text: "0.4 "
+            - text: "0.83 "
+            - text: "0.74 "
+            - text: "0.97 "
+        - variables:
+            sp1: 10.67
+            sp2: 41.33
+            answer: 0.44
+            d1: 0.9
+            d2: 0.19
+            d3: 0.66
+            d4: 0.29
+          correctAnswers:
+            - text: "0.44 "
+          wrongAnswers:
+            - text: "0.9 "
+            - text: "0.66 "
+            - text: "0.29 "
+            - text: "0.19 "
+        - variables:
+            sp1: 31
+            sp2: 47
+            answer: 0.63
+            d1: 0.78
+            d2: 0.52
+            d3: 0.73
+            d4: 0.43
+          correctAnswers:
+            - text: "0.63 "
+          wrongAnswers:
+            - text: "0.78 "
+            - text: "0.73 "
+            - text: "0.43 "
+            - text: "0.52 "
+        - variables:
+            sp1: 31
+            sp2: 37
+            answer: 0.56
+            d1: 0.83
+            d2: 0.52
+            d3: 0.6
+            d4: 0.38
+          correctAnswers:
+            - text: "0.56 "
+          wrongAnswers:
+            - text: "0.83 "
+            - text: "0.6 "
+            - text: "0.38 "
+            - text: "0.52 "
+- id: QLDIR
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QQOXZ
+  externalQuestionIds:
+    - ATPLQ-618008
+    - AVEXAM-26723
+    - BGS-611722
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.02.02
+  templates:
+    - type: simple
+      question: If a straight line is drawn on an aeronautical chart between any two positions, what will determine the true track change along that line between the two positions?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The chart convergence between the two meridians.
+          wrongAnswers:
+            - text: The Earth convergence between the two meridians.
+            - text: The Earth convergence between the two meridians and the sine of the mean latitude.
+            - text: The chart convergence between the two meridians and the sine of the parallel of origin.
+- id: QNHHH
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-619645
+    - AVEXAM-87931
+    - BGS-611289
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.02.02
+  templates:
+    - type: simple
+      question: What is the chart characteristic which achieves the ICAO requirement of a straight line on an en-route chart approximating to a great circle track on the Earth?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Chart convergence approximates to Earth convergence.
+          wrongAnswers:
+            - text: Meridians and parallels of latitude intersect at 90°.
+            - text: The chart conversion angle must be less than 30°.
+            - text: The scale must change at the same rate in all directions.
+- id: QQMPO
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-619746
+    - AVEXAM-51586
+    - AVEXAM-22176
+    - BGS-610181
+    - BGS-610235
+    - ATPLQ-618196
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.02.02
+  templates:
+    - type: simple
+      question: The constant of the cone, which is also known as convergence factor, of a Lambert conformal conic chart, is quoted as 0.78535\. At what latitude on the chart is earth convergency correctly represented?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 51°45′.
+          wrongAnswers:
+            - text: 80°39′.
+            - text: 38°15′.
+            - text: 52°05′.
+    - type: simple
+      question: The constant of cone of a Lambert conformal conic chart is quoted as 0.3955. At what latitude on the chart is earth convergency correctly represented?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 23°18′
+          wrongAnswers:
+            - text: 21°35′
+            - text: 66°42′
+            - text: 68°25′
+- id: QQOXZ
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QLDIR
+  externalQuestionIds:
+    - ATPLQ-614897
+    - BGS-610203
+    - AVEXAM-25271
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.02.02
+  templates:
+    - type: simple
+      question: "A straight line is drawn on a Lamberts conformal conic chart between two positions of different longitude. The angular difference between the initial true track and the final true track of the line is equal to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: chart convergency
+          wrongAnswers:
+            - text: earth convergency
+            - text: difference in longitude
+            - text: conversion angle
+- id: QSBNF
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-612789
+    - AVEXAM-66778
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.02.02
+  templates:
+    - type: simple
+      question: "In an aeronautical chart, the convergence of a line between two points is determined by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Chart meridian convergence.
+          wrongAnswers:
+            - text: Earth meridian convergence.
+            - text: Chart meridian convergence and sin parallel of origin.
+            - text: Earth meridian convergence and sin mean latitude.
+- id: QSKKM
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-618439
+    - AVEXAM-33051
+    - BGS-610223
+    - ATPLQ-611750
+    - BGS-610224
+    - AVEXAM-88551
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.02.02
+  templates:
+    - type: simple
+      question: "On a Lambert Conformal Conic chart earth convergency is most accurately represented at the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: parallel of origin
+          wrongAnswers:
+            - text: Equator
+            - text: north and south limits of the chart
+            - text: standard parallels
+    - type: simple
+      question: On a Lambert conformal conic chart the convergence of the meridians..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is the same as earth convergency at the parallel of origin.
+          wrongAnswers:
+            - text: equals earth convergency at the standard parallels.
+            - text: is zero throughout the chart.
+            - text: varies as the secant of the latitude.
+- id: QGHGH
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-619750
+    - BGS-611686
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.03.01
+  templates:
+    - type: multiple-correct
+      question: |-
+        The following scales are provided:
+
+        The two smallest scales are...
+      explanation: ""
+      options:
+        - text: \. 1:500 000
+          correct: false
+        - text: \. 1 INCH = 10 KM
+          correct: false
+        - text: \. 1/2 000 000
+          correct: true
+        - text: \. 1 INCH = 60 NM
+          correct: true
+        - text: \. 1 CM = 10 NM
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+    - type: simple
+      question: |-
+        Which are the two smallest scales?
+        (1) 1:500 000
+        (2) 1 INCH = 10 KM
+        (3) 1/2 000 000
+        (4) 1 INCH = 60 NM
+        (5) 1 CM = 10 NM
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3 and 4
+          wrongAnswers:
+            - text: 1 and 3
+            - text: 1 and 2
+            - text: 4 and 5
+- id: QLYJX
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-611744
+    - ATPLQ-619167
+    - AVEXAM-730675
+    - AVEXAM-36994
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.03.01
+    - 061.04.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        Determine the two smallest map scales, given the following:
+
+        A) 1:500 000   
+         B) 10 cm = 10 NM   
+         C) 5 inch = 10 NM   
+         D) 1:110 000
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A) and B)
+          wrongAnswers:
+            - text: A) and D)
+            - text: C) and D)
+            - text: B) and C)
+        - correctAnswers:
+            - text: C) and D)
+          wrongAnswers:
+            - text: A) and B)
+            - text: A) and D)
+            - text: B) and C)
+    - type: simple
+      question: |-
+        The provided scales are:
+
+         1 : 500 000
+         1 inch = 10 km
+         1 : 2 000 000
+         1 inch = 60 NM
+         1 cm = 10 NM
+
+        Identify the two smallest scales:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3 and 4
+          wrongAnswers:
+            - text: 4 and 5
+            - text: 1 and 3
+            - text: 1 and 2
+    - type: simple
+      question: |-
+        Given:
+
+         1 : 500 000 
+         10 cm = 10 NM 
+         5 inch = 10 NM 
+         1 : 110 000
+
+        The two greatest map scales are:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3, 4
+          wrongAnswers:
+            - text: 2, 3
+            - text: 1, 4
+            - text: 1, 2
+- id: QRQSV
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-618676
+    - AVEXAM-89075
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.03.01
+  templates:
+    - type: simple
+      question: What are the two largest scales?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1:1 000 000 and 1:500 000
+          wrongAnswers:
+            - text: 1:500 000 and 1 cm = 10 NM
+            - text: 1:500 000 and 1 inch = 60 NM
+            - text: 1:1 000 000 and 1 cm = 10 NM
+- id: QVGXG
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-617330
+    - BGS-611299
+    - BGS-611651
+    - AVEXAM-87085
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.03.01
+  templates:
+    - type: multiple-correct
+      question: Choose the two largest scales from the options below.
+      explanation: ""
+      options:
+        - text: \. 1:5 000 000
+          correct: false
+        - text: \. 1 inch:50 km
+          correct: false
+        - text: \. 1/1 000 000
+          correct: true
+        - text: \. 1:500 000
+          correct: true
+        - text: \. 1 cm=10 NM
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+    - type: simple
+      question: |-
+        Which are the two largest scales? 
+        1. 1 : 500 000
+        2. 1 cm = 10 NM
+        3. 1/1 000 000
+        4. 1 5 000 000
+        5. 1 inch = 50 km
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 and 3
+          wrongAnswers:
+            - text: 2 and 3
+            - text: 4 and 5
+            - text: 1 and 2
+    - type: simple
+      question: |-
+        Given:
+
+         1 : 5000000 
+         1 inch : 50 km 
+         1 / 1000000 
+         1 : 500000 
+         1 cm = 10 NM
+
+        The two largest scales are:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3, 4
+          wrongAnswers:
+            - text: 4, 5
+            - text: 1, 4
+            - text: 2, 5
+- id: QJNQK
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-617828
+    - BGS-611696
+    - AVEXAM-36088
+    - ATPLQ-612513
+    - BGS-611308
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        An aeronautical chart has a published scale of 1 inch = {{nm_per_inch}} NM. An aircraft flies at a groundspeed of {{gs}} kt for {{minutes}} minutes.
+
+        What is the chart distance covered by the aircraft, in cm?
+      explanation: |-
+        The chart distance is the ground distance divided by the chart scale. The ground distance is the groundspeed multiplied by the time flown, and the scale gives the number of nautical miles per inch on the chart, so the result in inches is converted to centimetres (1 inch = 2.54 cm).
+
+        **Solution**
+
+        Ground distance = {{gs}} kt × {{minutes}} min ÷ 60 = {{macro1}} NM
+
+        Chart distance = {{macro1}} NM ÷ {{nm_per_inch}} NM per inch = {{macro2}} inch
+
+        In centimetres: {{macro2}} × 2.54 = **{{answer}} cm**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} cm**: gives the distance in inches and does not convert it to centimetres.
+        - **{{d2}} cm**: inverts the scale, multiplying by the NM per inch instead of dividing.
+        - **{{d3}} cm**: forgets to convert minutes to hours.
+        - **{{d4}} cm**: uses 2.5 cm per inch instead of 2.54 cm.
+      presets:
+        - variables:
+            nm_per_inch: 20
+            gs: 150
+            minutes: 50
+            macro1: 125
+            macro2: 6.3
+            answer: 15.9
+            d1: 6.3
+            d2: 984.3
+            d3: 952.5
+            d4: 15.6
+          correctAnswers:
+            - text: 15.9 cm
+          wrongAnswers:
+            - text: 6.3 cm
+            - text: 952.5 cm
+            - text: 15.6 cm
+            - text: 984.3 cm
+        - variables:
+            nm_per_inch: 15
+            gs: 150
+            minutes: 25
+            macro1: 62.5
+            macro2: 4.2
+            answer: 10.6
+            d1: 4.2
+            d2: 369.1
+            d3: 635
+            d4: 10.4
+          correctAnswers:
+            - text: 10.6 cm
+          wrongAnswers:
+            - text: 4.2 cm
+            - text: 635 cm
+            - text: 10.4 cm
+            - text: 369.1 cm
+        - variables:
+            nm_per_inch: 10
+            gs: 120
+            minutes: 40
+            macro1: 80
+            macro2: 8
+            answer: 20.3
+            d1: 8
+            d2: 315
+            d3: 1219.2
+            d4: 20
+          correctAnswers:
+            - text: 20.3 cm
+          wrongAnswers:
+            - text: 8 cm
+            - text: 1219.2 cm
+            - text: 20 cm
+            - text: 315 cm
+- id: QESPG
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QFUZN
+    - QWKUN
+  externalQuestionIds:
+    - ATPLQ-613403
+    - BGS-610190
+    - AVEXAM-76982
+    - AVEXAM-47870
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        Use the chart scale to find the earth distance between two points.
+
+        - Chart scale: 1:{{ratio}}
+        - Chart distance: {{cm}} cm
+
+        What is the earth distance, in metres?
+      explanation: |-
+        The chart distance in centimetres is multiplied by the scale denominator to give the earth distance in centimetres. Dividing by 100 gives metres.
+
+        **Solution**
+
+        Earth distance in cm: $$\text{Chart distance}\times \text{Scale denominator} = {{cm}}\times {{ratio}}$$ cm
+
+        Earth distance: $$\frac{\text{Chart distance}\times \text{Scale denominator}}{100} = \frac{ {{cm}}\times {{ratio}} }{100} = \mathbf{ {{answer}}\ \text{m} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} m**: divides by 1 000 instead of 100.
+        - **{{d2}} m**: converts to nautical miles and does not convert back to metres.
+        - **{{d3}} m**: divides by 10 000 instead of 100.
+        - **{{d4}} m**: divides by 100 000, which gives a value in kilometres.
+      presets:
+        - variables:
+            ratio: 500000
+            cm: 7
+            answer: 35000
+            d1: 3500
+            d2: 19
+            d3: 350
+            d4: 35
+          correctAnswers:
+            - text: 35000 m
+          wrongAnswers:
+            - text: 3500 m
+            - text: 350 m
+            - text: 35 m
+            - text: 19 m
+        - variables:
+            ratio: 250000
+            cm: 5
+            answer: 12500
+            d1: 1250
+            d2: 7
+            d3: 125
+            d4: 13
+          correctAnswers:
+            - text: 12500 m
+          wrongAnswers:
+            - text: 1250 m
+            - text: 125 m
+            - text: 13 m
+            - text: 7 m
+        - variables:
+            ratio: 1000000
+            cm: 9
+            answer: 90000
+            d1: 9000
+            d2: 49
+            d3: 900
+            d4: 90
+          correctAnswers:
+            - text: 90000 m
+          wrongAnswers:
+            - text: 9000 m
+            - text: 900 m
+            - text: 90 m
+            - text: 49 m
+    - type: simple
+      question: If the chart scale is 1:500 000, what Earth distance would be represented by 7 cm on the chart?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 35 000 m
+          wrongAnswers:
+            - text: 35 NM
+            - text: 0.35 km
+            - text: 3.5 km
+    - type: simple
+      question: If the chart scale is 1:500000, what chart distance would represent a distance of 35 NM on the Earth?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 13 cm
+          wrongAnswers:
+            - text: 12 cm
+            - text: 7 cm
+            - text: 4 cm
+- id: QFUZN
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QWKUN
+    - QESPG
+  externalQuestionIds:
+    - ATPLQ-615976
+    - BGS-611649
+    - AVEXAM-50155
+    - ATPLQ-616444
+    - ATPLQ-618724
+    - ATPLQ-612338
+    - BGS-610773
+    - AVEXAM-89941
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        Use the chart scale to find the earth distance between two points.
+
+        - Chart scale: 1 inch = {{scale}} NM
+        - Chart distance: {{cm}} cm
+
+        What is the earth distance, in km?
+      explanation: |-
+        The chart distance is converted into inches, multiplied by the scale to give nautical miles, and then converted into kilometres (1 NM = 1.852 km).
+
+        **Solution**
+
+        Chart distance in inches: $$\frac{\text{Chart distance}}{2.54} = \frac{ {{cm}} }{2.54}$$ in
+
+        Earth distance in NM: {{macro3}} NM
+
+        Earth distance: $$\frac{\text{Chart distance}}{2.54}\times \text{Chart scale}\times 1.852 = \frac{ {{cm}} }{2.54}\times {{scale}}\times 1.852 = \mathbf{ {{answer}}\ \text{km} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} km**: stops at nautical miles and does not convert to kilometres.
+        - **{{d2}} km**: divides by 1.852 instead of multiplying.
+        - **{{d3}} km**: uses the chart distance in cm as if it were inches.
+        - **{{d4}} km**: uses the statute mile instead of the nautical mile.
+      presets:
+        - variables:
+            scale: 20
+            cm: 17
+            macro3: 134
+            answer: 248
+            d1: 134
+            d2: 72
+            d3: 630
+            d4: 215
+          correctAnswers:
+            - text: 248 km
+          wrongAnswers:
+            - text: 134 km
+            - text: 630 km
+            - text: 215 km
+            - text: 72 km
+        - variables:
+            scale: 30
+            cm: 9
+            macro3: 106
+            answer: 197
+            d1: 106
+            d2: 57
+            d3: 500
+            d4: 171
+          correctAnswers:
+            - text: 197 km
+          wrongAnswers:
+            - text: 106 km
+            - text: 500 km
+            - text: 171 km
+            - text: 57 km
+        - variables:
+            scale: 10
+            cm: 12
+            macro3: 47
+            answer: 87
+            d1: 47
+            d2: 26
+            d3: 222
+            d4: 76
+          correctAnswers:
+            - text: 87 km
+          wrongAnswers:
+            - text: 47 km
+            - text: 222 km
+            - text: 76 km
+            - text: 26 km
+    - type: simple
+      question: A chart has a scale of 1 inch = 20 NM. The distance between two points on the chart is 13 cm. Determine the Earth distance.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 189 km
+          wrongAnswers:
+            - text: 248 km
+            - text: 146 km
+            - text: 98 km
+    - type: simple
+      question: "The scale of a chart is 1 : 500 000. Calculate the distance on this chart which is equivalent to 10 NM on the earth. The distance is approximately:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3.7 cm.
+          wrongAnswers:
+            - text: 1.9 cm.
+            - text: 0.19 m.
+            - text: 0.37 m.
+    - type: simple
+      question: What earth distance is represented by a line 47 mm long on a chart with a scale of 1:130 000?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3.3 NM
+          wrongAnswers:
+            - text: 3.3 km
+            - text: 61.1 km
+            - text: 33 NM
+        - correctAnswers:
+            - text: 3.3NM
+          wrongAnswers:
+            - text: 33NM
+            - text: 61.1 km
+            - text: 3.3km
+- id: QJOZW
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-612697
+    - AVEXAM-51505
+    - AVEXAM-8493
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        Which of the following is the smallest map scale?
+
+        A) 1/2 000 000   
+         B) 1 inch = 38 NM   
+         C) 1 cm = 4.5 km   
+         D) 1/500 000
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: scale B
+          wrongAnswers:
+            - text: scale D
+            - text: scale C
+            - text: scale A
+- id: QMHOH
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-612155
+    - AVEXAM-77245
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.03.02
+  templates:
+    - type: multiple-correct
+      question: "Determine the two smallest map scales, given the following:"
+      explanation: ""
+      options:
+        - text: \. 1:1 000 000
+          correct: true
+        - text: \. 10 cm = 10 NM
+          correct: false
+        - text: \. 1 inch = 10 NM
+          correct: false
+        - text: \. 1 inch = 60 NM
+          correct: true
+        - text: \. 1:110 000
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QQRMR
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QHNOS
+  externalQuestionIds:
+    - ATPLQ-616252
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        Calculate the ground distance in km on an ATS route between two VORs, using the following data:
+
+        - Distance measured on the en-route chart: {{chart_mm}} mm
+        - Quoted scale: 1 inch = {{scale_nm}} NM
+
+        What is the ground distance in km?
+      explanation: |-
+        The distance on the chart is first converted into inches (25.4 mm per inch). The quoted scale then gives the distance in nautical miles, which is converted into kilometres (1 NM = 1.852 km).
+
+        **Solution**
+
+        - Distance in inches: {{macro1}} in
+        - Ground distance: {{macro2}} NM
+
+        $$
+        \frac{\text{Distance measured on the chart}}{25.4}\times \text{Quoted scale (NM per inch)}\times 1.852 = \frac{ {{chart_mm}} }{25.4}\times {{scale_nm}}\times 1.852 = \mathbf{ {{answer}}\ \text{km} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} km**: the value in nautical miles is given, the conversion to kilometres is forgotten.
+        - **{{d2}} km**: the kilometre conversion is inverted (divided instead of multiplied).
+        - **{{d3}} km**: the inch conversion is forgotten and the millimetres are multiplied by the scale.
+        - **{{d4}} km**: statute miles (1.609 km) are used instead of nautical miles.
+      presets:
+        - variables:
+            chart_mm: 200
+            scale_nm: 20
+            macro1: 8
+            macro2: 157
+            answer: 292
+            d1: 157
+            d2: 85
+            d3: 7408
+            d4: 253
+          correctAnswers:
+            - text: 292 km
+          wrongAnswers:
+            - text: 157 km
+            - text: 7408 km
+            - text: 253 km
+            - text: 85 km
+        - variables:
+            chart_mm: 150
+            scale_nm: 25
+            macro1: 6
+            macro2: 148
+            answer: 273
+            d1: 148
+            d2: 80
+            d3: 6945
+            d4: 238
+          correctAnswers:
+            - text: 273 km
+          wrongAnswers:
+            - text: 148 km
+            - text: 6945 km
+            - text: 238 km
+            - text: 80 km
+        - variables:
+            chart_mm: 85
+            scale_nm: 40
+            macro1: 3
+            macro2: 134
+            answer: 248
+            d1: 134
+            d2: 72
+            d3: 6297
+            d4: 215
+          correctAnswers:
+            - text: 248 km
+          wrongAnswers:
+            - text: 134 km
+            - text: 6297 km
+            - text: 215 km
+            - text: 72 km
+- id: QTLGX
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-619765
+    - ATPLQ-618793
+    - AVEXAM-95832
+    - AVEXAM-23967
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        What is the approximate scale of a chart with the following quoted scale? Express the answer as a ratio 1 : n and give n, rounded to the nearest thousand.
+
+        - Quoted scale: 1 inch = {{nm}} NM
+
+        What is n?
+      explanation: |-
+        A chart scale is the ratio between a distance on the chart and the same distance on the ground. The quoted scale says that one inch on the chart represents {{nm}} NM on the ground. Both distances are converted to the same unit (centimetres), and the answer is rounded to the nearest thousand because the scale is approximate.
+
+        **Solution**
+
+        - {{nm}} NM = {{macro1}} m = {{macro2}} cm
+        - 1 inch = 2.54 cm, so the ratio is 2.54 : {{macro2}} cm, which is 1 : {{macro3}}
+        - Rounded to the nearest thousand: $$\text{round}(\frac{\frac{\text{Quoted scale (NM per inch)}\times 1852\times 100}{2.54}}{1000})\times 1000 = \text{round}(\frac{\frac{ {{nm}}\times 1852\times 100}{2.54}}{1000})\times 1000$$ = **1 : {{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **1 : {{d1}}**: the inch was treated as one centimetre, so the ratio is 2.54 times too large.
+        - **1 : {{d2}}**: metres were used where centimetres are needed, so the ratio is 100 times too small.
+        - **1 : {{d3}}**: the thousands were not restored after rounding, so the ratio is 1000 times too small.
+        - **1 : {{d4}}**: 2.54 was multiplied instead of divided, which inverts the conversion.
+      presets:
+        - variables:
+            nm: 15
+            macro1: 27780
+            macro2: 2778000
+            macro3: 1093701
+            answer: 1094000
+            d1: 2778000
+            d2: 11000
+            d3: 1094
+            d4: 7056000
+          correctAnswers:
+            - text: "1094000 "
+          wrongAnswers:
+            - text: "2778000 "
+            - text: "1094 "
+            - text: "7056000 "
+            - text: "11000 "
+        - variables:
+            nm: 120
+            macro1: 222240
+            macro2: 22224000
+            macro3: 8749606
+            answer: 8750000
+            d1: 22224000
+            d2: 87000
+            d3: 8750
+            d4: 56449000
+          correctAnswers:
+            - text: "8750000 "
+          wrongAnswers:
+            - text: "22224000 "
+            - text: "8750 "
+            - text: "56449000 "
+            - text: "87000 "
+        - variables:
+            nm: 30
+            macro1: 55560
+            macro2: 5556000
+            macro3: 2187402
+            answer: 2187000
+            d1: 5556000
+            d2: 22000
+            d3: 2187
+            d4: 14112000
+          correctAnswers:
+            - text: "2187000 "
+          wrongAnswers:
+            - text: "5556000 "
+            - text: "2187 "
+            - text: "14112000 "
+            - text: "22000 "
+    - type: simple
+      question: What is the approximate scale, expressed as ratio, of a low altitude en-route chart with a quoted scale of 1 inch = 15 NM?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1 : 1 094 000"
+          wrongAnswers:
+            - text: "1 : 7 056 120"
+            - text: "1 : 2 778 000"
+            - text: "1 : 2 057 235"
+- id: QTQHL
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-613230
+    - BGS-610209
+    - AVEXAM-63198
+    - BGS-611207
+    - AVEXAM-730666
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        What is the chart distance between longitudes {{lon_e}}°E and {{lon_w}}°W on a direct Mercator chart with a scale of 1 : {{scale}} at the Equator?
+
+        Give the chart distance in mm.
+      explanation: |-
+        On a direct Mercator chart the scale along the Equator is the same as the chart scale, so a longitude difference measured along the Equator can be converted directly into a chart distance. The angle between the two meridians is the difference between 360° and the sum of the two longitudes, because they are on opposite sides of the 180° meridian.
+
+        **Solution**
+
+        Longitude difference = 360 − {{lon_e}} − {{lon_w}} = {{macro1}}°
+
+        Ground distance = {{macro1}} × 60 NM = {{macro2}} NM
+
+        Chart distance = {{macro3}} mm ÷ {{scale}} = **{{answer}} mm**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} mm**: uses the direct difference of the two longitudes, not the angle across the 180° meridian.
+        - **{{d2}} mm**: forgets to convert degrees of longitude into nautical miles.
+        - **{{d3}} mm**: gives the chart distance in cm instead of mm.
+        - **{{d4}} mm**: uses 1 000 m for the nautical mile instead of 1 852 m.
+      presets:
+        - variables:
+            lon_e: 179
+            lon_w: 175
+            scale: 5000000
+            macro1: 6
+            macro2: 360
+            macro3: 666720000
+            answer: 133
+            d1: 89
+            d2: 2
+            d3: 13
+            d4: 72
+          correctAnswers:
+            - text: 133 mm
+          wrongAnswers:
+            - text: 89 mm
+            - text: 13 mm
+            - text: 72 mm
+            - text: 2 mm
+        - variables:
+            lon_e: 170
+            lon_w: 160
+            scale: 5000000
+            macro1: 30
+            macro2: 1800
+            macro3: 3333600000
+            answer: 667
+            d1: 222
+            d2: 11
+            d3: 67
+            d4: 360
+          correctAnswers:
+            - text: 667 mm
+          wrongAnswers:
+            - text: 222 mm
+            - text: 67 mm
+            - text: 360 mm
+            - text: 11 mm
+        - variables:
+            lon_e: 120
+            lon_w: 110
+            scale: 10000000
+            macro1: 130
+            macro2: 7800
+            macro3: 14445600000
+            answer: 1445
+            d1: 111
+            d2: 24
+            d3: 144
+            d4: 780
+          correctAnswers:
+            - text: 1445 mm
+          wrongAnswers:
+            - text: 111 mm
+            - text: 144 mm
+            - text: 780 mm
+            - text: 24 mm
+    - type: simple
+      question: Determine the approximate scale of a chart if the distance measured between two Meridians spaced 5° apart is 8 cm at latitude 60°N on a direct Mercator projection.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1 : 3 500 000"
+          wrongAnswers:
+            - text: "1 : 4 750 000"
+            - text: "1 : 6 000 000"
+            - text: "1 : 7 000 000"
+- id: QWKUN
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QFUZN
+    - QESPG
+  externalQuestionIds:
+    - ATPLQ-615760
+    - AVEXAM-95698
+    - BGS-610179
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        Use the chart scale to find the approximate earth distance between two points.
+
+        - Chart scale: 1:{{ratio}}
+        - Chart distance: {{cm}} cm
+
+        What is the approximate earth distance, in NM?
+      explanation: |-
+        The chart distance in centimetres is multiplied by the scale denominator to give the earth distance in centimetres. Dividing by 100 000 gives kilometres, and dividing by 1.852 gives nautical miles.
+
+        **Solution**
+
+        Earth distance in km: $$\frac{\text{Chart distance}\times \text{Scale denominator}}{100000} = \frac{ {{cm}}\times {{ratio}} }{100000}$$ km
+
+        Earth distance: $$\frac{\frac{\text{Chart distance}\times \text{Scale denominator}}{100000}}{1.852} = \frac{\frac{ {{cm}}\times {{ratio}} }{100000}}{1.852} = \mathbf{ {{answer}}\ \text{NM} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: gives the distance in km but labels it as NM.
+        - **{{d2}} NM**: multiplies by 1.852 instead of dividing.
+        - **{{d3}} NM**: moves the decimal point by one place too many.
+        - **{{d4}} NM**: uses the statute mile instead of the nautical mile.
+      presets:
+        - variables:
+            ratio: 1850000
+            cm: 4
+            answer: 40
+            d1: 74
+            d2: 137
+            d3: 7
+            d4: 46
+          correctAnswers:
+            - text: 40 NM
+          wrongAnswers:
+            - text: 74 NM
+            - text: 7 NM
+            - text: 46 NM
+            - text: 137 NM
+        - variables:
+            ratio: 1500000
+            cm: 6
+            answer: 49
+            d1: 90
+            d2: 167
+            d3: 9
+            d4: 56
+          correctAnswers:
+            - text: 49 NM
+          wrongAnswers:
+            - text: 90 NM
+            - text: 9 NM
+            - text: 56 NM
+            - text: 167 NM
+        - variables:
+            ratio: 2500000
+            cm: 3
+            answer: 40
+            d1: 75
+            d2: 139
+            d3: 8
+            d4: 47
+          correctAnswers:
+            - text: 40 NM
+          wrongAnswers:
+            - text: 75 NM
+            - text: 8 NM
+            - text: 47 NM
+            - text: 139 NM
+- id: QZBPZ
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-615692
+    - AVEXAM-46211
+    - BGS-610186
+    - ATPLQ-619805
+    - AVEXAM-43340
+    - ATPLQ-619332
+    - ATPLQ-612278
+    - BGS-610177
+    - BGS-610192
+    - AVEXAM-39149
+    - AVEXAM-730665
+    - AVEXAM-32145
+    - ATPLQ-616622
+    - BGS-610185
+    - BGS-610178
+    - AVEXAM-730662
+    - AVEXAM-40948
+    - ATPLQ-612428
+    - BGS-610180
+    - AVEXAM-730663
+    - AVEXAM-86842
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        A distance of {{ground_nm}} NM is represented by a length of {{chart_cm}} cm on the chart.
+
+        What is the scale of the chart, written as 1 : N? Give N.
+      explanation: |-
+        The chart scale is the ratio of a distance on the chart to the same distance on the ground. Both must be in the same unit, so the ground distance is converted from nautical miles into centimetres (1 NM = 1 852 m = 185 200 cm).
+
+        **Solution**
+
+        Ground distance = {{ground_nm}} NM × 185 200 = {{macro1}} cm
+
+        Scale denominator = {{macro1}} cm ÷ {{chart_cm}} cm = {{macro2}}
+
+        Rounded to the nearest 10 000: 1 : **{{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **1 : {{d1}}**: a factor of ten too small in the calculation.
+        - **1 : {{d2}}**: inverts the ratio, dividing the chart distance by the ground distance.
+        - **1 : {{d3}}**: forgets to convert metres into centimetres.
+        - **1 : {{d4}}**: uses the statute mile (1 609 m) instead of the nautical mile.
+      presets:
+        - variables:
+            ground_nm: 76
+            chart_cm: 12.7
+            macro1: 14075200
+            macro2: 1108283
+            answer: 1110000
+            d1: 110828
+            d2: 309
+            d3: 11083
+            d4: 963070
+          correctAnswers:
+            - text: "1110000 "
+          wrongAnswers:
+            - text: "110828 "
+            - text: "11083 "
+            - text: "963070 "
+            - text: "309 "
+        - variables:
+            ground_nm: 60
+            chart_cm: 6
+            macro1: 11112000
+            macro2: 1852000
+            answer: 1850000
+            d1: 185200
+            d2: 185
+            d3: 18520
+            d4: 1609340
+          correctAnswers:
+            - text: "1850000 "
+          wrongAnswers:
+            - text: "185200 "
+            - text: "18520 "
+            - text: "1609340 "
+            - text: "185 "
+        - variables:
+            ground_nm: 120
+            chart_cm: 4
+            macro1: 22224000
+            macro2: 5556000
+            answer: 5560000
+            d1: 555600
+            d2: 62
+            d3: 55560
+            d4: 4828020
+          correctAnswers:
+            - text: "5560000 "
+          wrongAnswers:
+            - text: "555600 "
+            - text: "55560 "
+            - text: "4828020 "
+            - text: "62 "
+    - type: simple
+      question: The chart distance between two meridians, which are 10° apart, is 9.5 cm at latitude 65° North. What is the approximate chart scale at this latitude?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1:5 000 000
+          wrongAnswers:
+            - text: 1:2 500 000
+            - text: 1:6 000 000
+            - text: 1:3 000 000
+    - type: simple
+      question: At 47° North the chart distance between Meridians 10° apart is 12.7 cm. What is the approximate scale of the chart at 47° North?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1: 6 000 000"
+          wrongAnswers:
+            - text: "1: 2 500 000"
+            - text: "1: 3 000 000"
+            - text: "1: 8 000 000"
+    - type: simple
+      question: A straight line on a chart 4.89 cm long represents 185 NM. What is the approximate scale of this chart?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1: 7 000 000"
+          wrongAnswers:
+            - text: "1: 3 500 000"
+            - text: "1: 5 000 000"
+            - text: "1: 6 000 000"
+- id: QDDRB
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-619934
+    - AVEXAM-35032
+    - BGS-610202
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.01.01
+  templates:
+    - type: simple
+      question: A Direct Mercator graticule is based on a projection that is..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: cylindrical.
+          wrongAnswers:
+            - text: concentric.
+            - text: conical.
+            - text: spherical.
+- id: QAXHE
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-617625
+    - BGS-610229
+    - AVEXAM-19105
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.02.01
+  templates:
+    - type: simple
+      question: What is the value of the convergence factor on a Polar Stereographic chart?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1.0"
+          wrongAnswers:
+            - text: "0.5"
+            - text: "0.866"
+            - text: "0.0"
+- id: QBTZR
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-615881
+    - BGS-610232
+    - BGS-610251
+    - AVEXAM-4101
+    - AVEXAM-1135
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.02.01
+  templates:
+    - type: simple
+      question: Which one of the following statements is correct concerning the appearance of great circles, with the exception of meridians, on a Polar Stereographic chart?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The higher the latitude, the closer they approximate to a straight line.
+          wrongAnswers:
+            - text: Any straight line is a great circle.
+            - text: They are complex curves that can be convex and/or concave to the Pole.
+            - text: They are curves convex to the Pole.
+- id: QEIUM
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-613526
+    - AVEXAM-46313
+    - BGS-611818
+    - AVEXAM-43741
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.02.01
+  templates:
+    - type: simple
+      question: How would a great circle between 80°00’N, 010°00’W and 80°00’N, 020°00’W appear on a Polar Stereographic chart?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A curve concave to the North Pole.
+          wrongAnswers:
+            - text: A curve convex to the North Pole.
+            - text: Aligned with a parallel of latitude.
+            - text: A straight line along the parallel.
+    - type: simple
+      question: "On a Polar Stereographic chart, the initial great circle course from 70°N 030°W to 70°N 030°E is approximately:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 060°(T)
+          wrongAnswers:
+            - text: 210°(T)
+            - text: 030°(T)
+            - text: 150°(T)
+- id: QKDRM
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-619381
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.02.01
+  templates:
+    - type: simple
+      question: Which one of the following describes the appearance of rhumb lines, except meridians, on a Polar Stereographic chart?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Curves concave to the Pole
+          wrongAnswers:
+            - text: Curves convex to the Pole
+            - text: Ellipses around the Pole
+            - text: Straight lines
+- id: QHNGZ
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-615210
+    - AVEXAM-41489
+    - BGS-611621
+    - BGS-611849
+    - BGS-611684
+    - ATPLQ-616757
+    - AVEXAM-730659
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.02.02
+  templates:
+    - type: simple
+      question: What is the initial track direction of a straight line on a Polar Stereographic chart when flying from position A (83°N,130°E) to position B (83°N, 160°W).
+      explanation: "On a polar stereographic chart a straight line is close to a great circle. Its track equals 090° at the mid-meridian and changes by the difference of longitude: the change in longitude is 70°, so the initial track is 090° - 35° = 055°."
+      presets:
+        - correctAnswers:
+            - text: 055°(T)
+          wrongAnswers:
+            - text: 090°(T)
+            - text: 020° (T)
+            - text: 125° (T)
+    - type: simple
+      question: On a Polar Stereographic chart, an aircraft is to fly from A ({{latA}}, {{lonA}}) to B ({{latB}}, {{lonB}}). What is the final straight track at B?
+      explanation: On a polar stereographic chart a straight line is close to a great circle. At the mid-meridian its track is perpendicular to the meridian ({{mid}}), and the track changes by half the change of longitude ({{half}}°) at each end. The change of longitude is {{change}}°, so the final track is {{mid}} {{sign}} {{half}}° = {{answer}}.
+      presets:
+        - variables:
+            latA: 85°S
+            lonA: 030°E
+            latB: 85°S
+            lonB: 050°W
+            mid: 270°
+            half: 40
+            change: 80
+            sign: +
+            answer: 310°
+          correctAnswers:
+            - text: 310°(T).
+          wrongAnswers:
+            - text: 190°(T).
+            - text: 270°(T).
+            - text: 230°(T).
+- id: QEAEO
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QPDNG
+  externalQuestionIds:
+    - ATPLQ-616450
+    - AVEXAM-29102
+    - AVEXAM-81380
+    - AVEXAM-61489
+    - BGS-610218
+    - ATPLQ-611492
+    - ATPLQ-611040
+    - BGS-610659
+    - BGS-611228
+    - ATPLQ-616408
+    - BGS-610253
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.02.02
+  templates:
+    - type: simple
+      question: "A straight line from A (75°N, 120°E) to B (75°N, 160°E) is drawn on a Polar Stereographic chart.When passing the meridian 155°E, the True Track is:"
+      explanation: The track of a straight line is 090° at the mid-meridian, which is 140°E. It changes by the difference of longitude with it. At 155°E that is 15° further east in the northern hemisphere, so the track is 090° + 15° = 105°.
+      presets:
+        - correctAnswers:
+            - text: 105°
+          wrongAnswers:
+            - text: 255°
+            - text: 075°
+            - text: 285°
+    - type: simple
+      question: On a Polar Stereographic chart showing the South Pole, a straight line joins position A 70°S, 065°E to position B 70°S, 025°W. What is the approximate true track on departure from position A?
+      explanation: The route runs westwards from 065°E to 025°W, which is 90° of longitude, with the mid-meridian at 020°E. In the south polar case the track at A is 270° - 45° = 225°.
+      presets:
+        - correctAnswers:
+            - text: 225°
+          wrongAnswers:
+            - text: 315°
+            - text: 135°
+            - text: 250°
+    - type: simple
+      question: "A straight line from A (75°S, 120°E) to B (75°S, 160°E) is drawn on a Polar Stereographic chart. When passing the meridian 155°E, the True Track is:"
+      explanation: The track is 090° at the mid-meridian of 140°E. In the southern hemisphere the track decreases eastwards, so at 155°E, 15° east of it, the track is 090° - 15° = 075°.
+      presets:
+        - correctAnswers:
+            - text: 075°
+          wrongAnswers:
+            - text: 105°
+            - text: 255°
+            - text: 095°
+    - type: simple
+      question: A straight line on a north polar stereographic chart runs from 70°N 102°W to 80°N 006°E and reaches its northernmost point at 035°W. What is the initial true track?
+      explanation: The line crosses the meridian at its highest latitude on an easterly track of 090°T. The difference in longitude back to the departure point is 67°. Subtract it from 090° to obtain 023°T.
+      presets:
+        - correctAnswers:
+            - text: 023°
+          wrongAnswers:
+            - text: 077°
+            - text: 229°
+            - text: 049°
+- id: QPDNG
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QEAEO
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.02.02
+  templates:
+    - type: simple
+      question: On a north polar stereographic chart, A is at 75°N 166°E and B is at 78°N 154°E. The rhumb-line course from A to B is 317°T. Using the usual half-convergence approximation, what is the initial true track of the straight line?
+      explanation: The longitude difference is 12°, so the conversion angle is approximately 6°. On the north polar chart, the initial course of this westbound straight line is 6° clockwise from the rhumb-line course, giving 323°T.
+      presets:
+        - correctAnswers:
+            - text: 323°
+          wrongAnswers:
+            - text: 311°
+            - text: 329°
+            - text: 305°
+- id: QKGXZ
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-618146
+    - BGS-610254
+    - AVEXAM-59082
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.02.02
+  templates:
+    - type: simple
+      question: |-
+        On a Polar Stereographic chart, point A at 80°N, 000° and point B at 70°N, 102°W are joined by a straight line, with the highest latitude reached at 035°W.
+
+        What is the true track from A to B at point B?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 203°
+          wrongAnswers:
+            - text: 247°
+            - text: 023°
+            - text: 305°
+- id: QECKU
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QZHIR
+  externalQuestionIds:
+    - ATPLQ-616909
+    - BGS-610244
+    - AVEXAM-52586
+    - ATPLQ-616653
+    - BGS-610246
+    - AVEXAM-13636
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.03.01
+  templates:
+    - type: simple
+      question: On a Direct Mercator chart, meridians are..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: parallel, equally spaced, vertical straight lines.
+          wrongAnswers:
+            - text: inclined, equally spaced, straight lines that meet at the nearer pole.
+            - text: inclined, unequally spaced, curved lines that meet at the nearer pole.
+            - text: parallel, unequally spaced, vertical straight lines.
+- id: QFBML
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-615263
+    - AVEXAM-57905
+    - AVEXAM-51654
+    - BGS-610242
+    - BGS-610245
+    - BGS-610247
+    - AVEXAM-16140
+    - BGS-611667
+    - ATPLQ-618665
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.03.01
+  templates:
+    - type: simple
+      question: On a Direct Mercator chart, apart from meridians and the Equator, a great circle will be represented by a..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: curve concave to the Equator.
+          wrongAnswers:
+            - text: curve convex to the Equator.
+            - text: straight line.
+            - text: curves concave to the closest pole.
+    - type: simple
+      question: Select the correct statement regarding great circles on a Direct Mercator chart.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: With the exception of meridians and the Equator, they are curves concave to the Equator.
+          wrongAnswers:
+            - text: They are all curves concave to the Equator.
+            - text: They are all curves convex to the Equator.
+            - text: They approximate to straight lines between the standard parallels.
+- id: QLNMB
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-611822
+    - AVEXAM-16892
+    - BGS-611460
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.03.01
+  templates:
+    - type: simple
+      question: |-
+        An aircraft is coasting in from the North Sea and plans to fly from ST ABBS VOR towards ASRUS. Assume the track is a straight line on a Mercator chart.
+
+        - ST ABBS VOR: {{ad}}°{{am}}' N, {{ald}}°{{alm}}' W
+        - ASRUS: {{bd}}°{{bm}}' N, {{bld}}°{{blm}}' W
+
+        What is the true track from ST ABBS to ASRUS, measured at ST ABBS? Give the answer to the nearest degree.
+      explanation: |-
+        A rhumb line keeps the same true track all the way from A to B. On a Mercator chart it is drawn as a straight line, and its track follows from the longitude difference and the latitude difference, where the latitude difference is stretched to suit the chart.
+
+        **Solution**
+
+        - Longitude difference: {{macro1}}°
+        - Stretched latitude difference: {{macro2}}
+        - Angle from true north: {{macro3}}°
+        - True track, between 0° and 360°: **{{answer}}°**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}°**: ignores the sign of the angle, so the track lies on the wrong side of north
+        - **{{d2}}°**: the reciprocal, which is the track from ASRUS back to ST ABBS
+        - **{{d3}}°**: uses plain differences in latitude and longitude and ignores the stretch of the Mercator chart
+        - **{{d4}}°**: scales the longitude difference by the cosine of the latitude, a distance correction that is not part of the track
+      presets:
+        - variables:
+            ad: 55
+            am: 54.5
+            ald: 2
+            alm: 12.4
+            bd: 55
+            bm: 3.4
+            bld: 3
+            blm: 20.8
+            macro1: -1.1
+            macro2: 0
+            macro3: -142.8
+            answer: 217
+            d1: 143
+            d2: 37
+            d3: 233
+            d4: 203
+          correctAnswers:
+            - text: 217 °
+          wrongAnswers:
+            - text: 143 °
+            - text: 233 °
+            - text: 203 °
+            - text: 37 °
+        - variables:
+            ad: 52
+            am: 10
+            ald: 1
+            alm: 30
+            bd: 51
+            bm: 45
+            bld: 2
+            blm: 15
+            macro1: -0.8
+            macro2: 0
+            macro3: -132
+            answer: 228
+            d1: 132
+            d2: 48
+            d3: 241
+            d4: 214
+          correctAnswers:
+            - text: 228 °
+          wrongAnswers:
+            - text: 132 °
+            - text: 241 °
+            - text: 214 °
+            - text: 48 °
+        - variables:
+            ad: 54
+            am: 20
+            ald: 2
+            alm: 40
+            bd: 56
+            bm: 10
+            bld: 1
+            blm: 5
+            macro1: 1.6
+            macro2: 0.1
+            macro3: 26.2
+            answer: 26
+            d1: 334
+            d2: 206
+            d3: 41
+            d4: 16
+          correctAnswers:
+            - text: 26 °
+          wrongAnswers:
+            - text: 334 °
+            - text: 41 °
+            - text: 16 °
+            - text: 206 °
+- id: QRZIC
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-612535
+    - BGS-610204
+    - AVEXAM-14629
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.03.01
+  templates:
+    - type: simple
+      question: How does the scale vary on a Direct Mercator chart?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The scale increases with increasing distance from the Equator.
+          wrongAnswers:
+            - text: The scale increases south of the Equator and decreases north of the Equator.
+            - text: The scale is constant.
+            - text: The scale decreases with increasing distance from the Equator.
+- id: QUZUB
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-619195
+    - BGS-611416
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.03.01
+  templates:
+    - type: simple
+      question: What is the convergency factor on a Direct Mercator projection?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "0"
+          wrongAnswers:
+            - text: "1"
+            - text: It varies as it is dependent on the latitude.
+            - text: The convergency factor is infinite.
+- id: QZHIR
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QECKU
+  externalQuestionIds:
+    - ATPLQ-618422
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.03.01
+  templates:
+    - type: simple
+      question: On a Direct Mercator, rhumb lines are..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: straight lines.
+          wrongAnswers:
+            - text: curves convex to the Equator.
+            - text: ellipses.
+            - text: curves concave to the Equator.
+- id: QAWOC
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QSQMW
+  externalQuestionIds:
+    - ATPLQ-613162
+    - BGS-610207
+    - AVEXAM-32192
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.03.02
+  templates:
+    - type: simple
+      question: |-
+        On a Mercator chart the distance between the meridians 2°E and 3°E is {{mm}} mm. The scale of the chart at latitude {{lat}}°N is:
+
+        Give the denominator N of 1 : N to two significant figures.
+      explanation: |-
+        On a Mercator chart one degree of longitude is 111.12 km along the Equator. The chart shows it as the gap between the meridians, which fixes the scale at the Equator. The scale at any other latitude is the Equator scale multiplied by the cosine of that latitude. The answer is given to two significant figures.
+
+        **Solution**
+
+        Scale at the Equator: 1 : {{macro1}}
+
+        Scale at {{lat}}°N: $$\frac{111120000}{\text{Distance between the meridians}}\times \text{cos}(\text{Latitude}) = \frac{111120000}{ {{mm}} }\times \text{cos}({{lat}})$$, to two significant figures = **1 : {{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **1 : {{d1}}**: uses the Equator scale and makes no change for latitude.
+        - **1 : {{d2}}**: divides by the cosine instead of multiplying.
+        - **1 : {{d3}}**: uses the cosine squared instead of the cosine.
+        - **1 : {{d4}}**: forgets to convert the distance from metres to millimetres.
+      presets:
+        - variables:
+            mm: 60
+            lat: 45
+            macro1: 1852000
+            answer: 1300000
+            d1: 1852000
+            d2: 2619124
+            d3: 926000
+            d4: 1310
+          correctAnswers:
+            - text: "1300000 "
+          wrongAnswers:
+            - text: "1852000 "
+            - text: "926000 "
+            - text: "1310 "
+            - text: "2619124 "
+        - variables:
+            mm: 40
+            lat: 60
+            macro1: 2778000
+            answer: 1400000
+            d1: 2778000
+            d2: 5556000
+            d3: 694500
+            d4: 1389
+          correctAnswers:
+            - text: "1400000 "
+          wrongAnswers:
+            - text: "2778000 "
+            - text: "694500 "
+            - text: "1389 "
+            - text: "5556000 "
+        - variables:
+            mm: 50
+            lat: 30
+            macro1: 2222400
+            answer: 1900000
+            d1: 2222400
+            d2: 2566206
+            d3: 1666800
+            d4: 1925
+          correctAnswers:
+            - text: "1900000 "
+          wrongAnswers:
+            - text: "2222400 "
+            - text: "1666800 "
+            - text: "1925 "
+            - text: "2566206 "
+    - type: simple
+      question: "On a direct Mercator projection, the distance measured between two Meridians spaced 5° apart at latitude 60°N is 8 cm.  The scale of this chart at latitude 60°N is approximately:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1: 3 500 000"
+          wrongAnswers:
+            - text: "1: 4 750 000"
+            - text: "1: 7 000 000"
+            - text: "1: 6 000 000"
+- id: QFVDU
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QZSVW
+    - QVGGU
+  externalQuestionIds:
+    - ATPLQ-614820
+    - BGS-611741
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.03.02
+  templates:
+    - type: simple
+      question: |-
+        On a Mercator chart the scale at the Equator is 1 inch = {{eq_nm}} NM.
+
+        What is the scale of the chart at a latitude of {{lat}}°? Give the denominator N of 1 : N.
+      explanation: |-
+        On a Mercator chart the scale gets larger towards the poles, so the denominator of 1 : N gets smaller. The scale at a latitude is the Equator scale multiplied by the cosine of that latitude.
+
+        **Solution**
+
+        - Equator scale: 1 inch = {{eq_nm}} NM = {{macro1}} cm on the ground, so the scale is 1 : {{macro2}}
+        - Scale at {{lat}}°: $$\frac{\text{Distance on the Earth per inch at the Equator}\times 1852\times 100}{2.54}\times \text{cos}(\text{Latitude}) = \frac{ {{eq_nm}}\times 1852\times 100}{2.54}\times \text{cos}({{lat}}) = 1$$ : **{{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **1 : {{d1}}**: the cosine was divided instead of multiplied, which makes the scale too small.
+        - **1 : {{d2}}**: the sine of the latitude was used instead of the cosine.
+        - **1 : {{d3}}**: a factor of ten slipped into the calculation.
+        - **1 : {{d4}}**: the inch was not converted to 2.54 cm, so the denominator is 2.54 times too large.
+      presets:
+        - variables:
+            eq_nm: 28
+            lat: 34
+            macro1: 5185600
+            macro2: 2041575
+            answer: 1692542
+            d1: 2462584
+            d2: 1141634
+            d3: 169254
+            d4: 4299057
+          correctAnswers:
+            - text: "1692542 "
+          wrongAnswers:
+            - text: "2462584 "
+            - text: "169254 "
+            - text: "4299057 "
+            - text: "1141634 "
+        - variables:
+            eq_nm: 25
+            lat: 20
+            macro1: 4630000
+            macro2: 1822835
+            answer: 1712904
+            d1: 1939820
+            d2: 623446
+            d3: 171290
+            d4: 4350777
+          correctAnswers:
+            - text: "1712904 "
+          wrongAnswers:
+            - text: "1939820 "
+            - text: "171290 "
+            - text: "4350777 "
+            - text: "623446 "
+        - variables:
+            eq_nm: 30
+            lat: 60
+            macro1: 5556000
+            macro2: 2187402
+            answer: 1093701
+            d1: 4374803
+            d2: 1894345
+            d3: 109370
+            d4: 2778000
+          correctAnswers:
+            - text: "1093701 "
+          wrongAnswers:
+            - text: "4374803 "
+            - text: "109370 "
+            - text: "2778000 "
+            - text: "1894345 "
+    - type: simple
+      question: |-
+        For a Direct Mercator chart, the scale at the Equator is stated as 1 inch = 25 NM. 
+        What is the scale of this chart at 43°N?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1: 1 333 137"
+          wrongAnswers:
+            - text: "1: 1 822 835"
+            - text: "1: 2 492 412"
+            - text: "1: 1 243 170"
+- id: QLWTN
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-613622
+    - BGS-611431
+    - BGS-611265
+    - AVEXAM-17785
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.03.02
+  templates:
+    - type: simple
+      question: |-
+        For a direct Mercator projection chart, the scale at {{lat1}}°N is 1 : {{scale1}}. What is the scale of the same chart at {{lat2}}°N?
+
+        Give the denominator N of 1 : N.
+      explanation: |-
+        On a Mercator chart the scale denominator changes with the cosine of the latitude. It is larger nearer the Equator and smaller nearer the poles. The new scale is the known scale multiplied by cos of the new latitude, divided by cos of the known latitude.
+
+        **Solution**
+
+        $$\frac{\text{Scale at the known latitude (denominator)}\times \text{cos}(\text{Latitude})}{\text{cos}(\text{Known latitude})} = \frac{ {{scale1}}\times \text{cos}({{lat2}})}{\text{cos}({{lat1}})}$$ = **1 : {{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **1 : {{d1}}**: inverts the latitude ratio.
+        - **1 : {{d2}}**: makes no change for latitude.
+        - **1 : {{d3}}**: uses the sine instead of the cosine.
+        - **1 : {{d4}}**: multiplies by both cosines instead of dividing.
+      presets:
+        - variables:
+            lat1: 23
+            scale1: 2761515
+            lat2: 56
+            answer: 1677579
+            d1: 4545816
+            d2: 2761515
+            d3: 5859271
+            d4: 1421462
+          correctAnswers:
+            - text: "1677579 "
+          wrongAnswers:
+            - text: "4545816 "
+            - text: "5859271 "
+            - text: "1421462 "
+            - text: "2761515 "
+        - variables:
+            lat1: 40
+            scale1: 1500000
+            lat2: 70
+            answer: 669713
+            d1: 3359646
+            d2: 1500000
+            d3: 2192853
+            d4: 393004
+          correctAnswers:
+            - text: "669713 "
+          wrongAnswers:
+            - text: "3359646 "
+            - text: "2192853 "
+            - text: "393004 "
+            - text: "1500000 "
+        - variables:
+            lat1: 10
+            scale1: 4000000
+            lat2: 35
+            answer: 3327155
+            d1: 4808913
+            d2: 4000000
+            d3: 13212380
+            d4: 3226829
+          correctAnswers:
+            - text: "3327155 "
+          wrongAnswers:
+            - text: "4808913 "
+            - text: "13212380 "
+            - text: "3226829 "
+            - text: "4000000 "
+    - type: simple
+      question: "What is the approximate scale at 22°00'N on a Direct Mercator chart if the scale at 35°00'N is 1 : 200 000?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 :226 000
+          wrongAnswers:
+            - text: "1 : 177 000"
+            - text: "1 : 131 000"
+            - text: "1 : 306 000"
+- id: QOVHR
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QVGGU
+  externalQuestionIds:
+    - ATPLQ-612926
+    - BGS-610195
+    - ATPLQ-614291
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.03.02
+  templates:
+    - type: simple
+      question: |-
+        On a Mercator chart, the distance measured along a parallel is:
+
+        - {{lon_min}} minutes of longitude: {{chart_cm}} cm on the chart
+
+        What is the approximate scale of the chart at a latitude of {{lat}}°? Give the denominator N of 1 : N.
+      explanation: |-
+        On a Mercator chart the scale is the chart distance divided by the true distance on the Earth. One minute of longitude is 1 NM at the Equator, but at a higher latitude the same minute covers only 1 NM multiplied by the cosine of the latitude, so the scale is larger there.
+
+        **Solution**
+
+        - True distance at {{lat}}°: {{lon_min}} NM × cos {{lat}}° = {{macro1}} NM = {{macro2}} cm
+        - Scale: $$\frac{\text{Longitude difference}\times \text{cos}(\text{Latitude})\times 185200}{\text{Distance on the chart}} = \frac{ {{lon_min}}\times \text{cos}({{lat}})\times 185200}{ {{chart_cm}} } = 1$$ : **{{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **1 : {{d1}}**: the distance was not shortened for latitude, so this is the Equator scale.
+        - **1 : {{d2}}**: the sine of the latitude was used instead of the cosine.
+        - **1 : {{d3}}**: the chart distance was multiplied instead of divided.
+        - **1 : {{d4}}**: a factor of 100 slipped in (metres used where centimetres are needed).
+      presets:
+        - variables:
+            lon_min: 300
+            chart_cm: 5
+            lat: 57
+            macro1: 163
+            macro2: 30260145
+            answer: 6052029
+            d1: 11112000
+            d2: 9319307
+            d3: 151300724
+            d4: 60520
+          correctAnswers:
+            - text: "6052029 "
+          wrongAnswers:
+            - text: "11112000 "
+            - text: "151300724 "
+            - text: "60520 "
+            - text: "9319307 "
+        - variables:
+            lon_min: 1
+            chart_cm: 0.31
+            lat: 40
+            macro1: 1
+            macro2: 141871
+            answer: 457650
+            d1: 597419
+            d2: 384014
+            d3: 43980
+            d4: 4576
+          correctAnswers:
+            - text: "457650 "
+          wrongAnswers:
+            - text: "597419 "
+            - text: "43980 "
+            - text: "4576 "
+            - text: "384014 "
+        - variables:
+            lon_min: 120
+            chart_cm: 4
+            lat: 25
+            macro1: 109
+            macro2: 20141784
+            answer: 5035446
+            d1: 5556000
+            d2: 2348067
+            d3: 80567137
+            d4: 50354
+          correctAnswers:
+            - text: "5035446 "
+          wrongAnswers:
+            - text: "5556000 "
+            - text: "80567137 "
+            - text: "50354 "
+            - text: "2348067 "
+- id: QSQMW
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QAWOC
+  externalQuestionIds:
+    - ATPLQ-619123
+    - AVEXAM-9908
+    - BGS-610200
+    - BGS-610216
+    - AVEXAM-57695
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.03.02
+  templates:
+    - type: simple
+      question: |-
+        On a Mercator chart the distance between the meridians 2°E and 3°E is {{cm}} cm. The scale of the chart at latitude {{lat}}°N is:
+
+        Give the denominator N of 1 : N.
+      explanation: |-
+        On a Mercator chart one degree of longitude is 111.12 km along the Equator. The chart shows it as the gap between the meridians, which fixes the scale at the Equator. The scale at any other latitude is the Equator scale multiplied by the cosine of that latitude.
+
+        **Solution**
+
+        Scale at the Equator: 1 : {{macro1}}
+
+        Scale at {{lat}}°N: $$\frac{111120\times 100}{\text{Distance between the meridians}}\times \text{cos}(\text{Latitude}) = \frac{111120\times 100}{ {{cm}} }\times \text{cos}({{lat}})$$ = **1 : {{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **1 : {{d1}}**: uses the Equator scale and makes no change for latitude.
+        - **1 : {{d2}}**: divides by the cosine instead of multiplying.
+        - **1 : {{d3}}**: forgets to convert the distance from metres to centimetres.
+        - **1 : {{d4}}**: uses the cosine squared instead of the cosine.
+      presets:
+        - variables:
+            cm: 6
+            lat: 45
+            macro1: 1852000
+            answer: 1309562
+            d1: 1852000
+            d2: 2619124
+            d3: 13096
+            d4: 926000
+          correctAnswers:
+            - text: "1309562 "
+          wrongAnswers:
+            - text: "1852000 "
+            - text: "13096 "
+            - text: "926000 "
+            - text: "2619124 "
+        - variables:
+            cm: 4
+            lat: 60
+            macro1: 2778000
+            answer: 1389000
+            d1: 2778000
+            d2: 5556000
+            d3: 13890
+            d4: 694500
+          correctAnswers:
+            - text: "1389000 "
+          wrongAnswers:
+            - text: "2778000 "
+            - text: "13890 "
+            - text: "694500 "
+            - text: "5556000 "
+        - variables:
+            cm: 5
+            lat: 30
+            macro1: 2222400
+            answer: 1924655
+            d1: 2222400
+            d2: 2566206
+            d3: 19247
+            d4: 1666800
+          correctAnswers:
+            - text: "1924655 "
+          wrongAnswers:
+            - text: "2222400 "
+            - text: "19247 "
+            - text: "1666800 "
+            - text: "2566206 "
+    - type: simple
+      question: On a Mercator chart, at latitude 60°N, the distance measured between W002° and E008° is 20 cm. The scale of this chart at latitude 60°N is approximately…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1: 2 780 000."
+          wrongAnswers:
+            - text: "1: 278 000."
+            - text: "1: 556 000."
+            - text: "1: 5 560 000."
+    - type: simple
+      question: The total length of the 53°N parallel of latitude on a direct Mercator chart is 133 cm. What is the approximate scale of the chart at latitude 30°S?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1: 26 000 000"
+          wrongAnswers:
+            - text: "1: 30 000 000"
+            - text: "1: 18 000 000"
+            - text: "1: 21 000 000"
+- id: QZSVW
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QFVDU
+  externalQuestionIds:
+    - ATPLQ-618913
+    - ATPLQ-618284
+    - BGS-610217
+    - BGS-610214
+    - AVEXAM-46636
+    - AVEXAM-71364
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.03.02
+  templates:
+    - type: simple
+      question: |-
+        A Mercator chart has a scale of 1 : {{eq_scale}} at the Equator.
+
+        What is the scale of the chart at latitude {{lat}}°? Give the denominator N of 1 : N.
+      explanation: |-
+        On a Mercator chart the scale increases with latitude as the east-west direction is stretched, so the representative fraction at latitude φ is the Equator scale multiplied by cos φ. The denominator therefore becomes smaller towards the poles. A distance given at the Equator as 1 inch = 25 NM is converted first into the Equator scale denominator (25 NM = 46 300 m, 1 inch = 0.0254 m).
+
+        **Solution**
+
+        Scale at {{lat}}° = 1 : {{eq_scale}} × cos {{lat}}° = 1 : {{macro1}}
+
+        Rounded to the nearest 1 000: 1 : **{{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **1 : {{d1}}**: divides by cos φ, which makes the chart scale smaller at latitude instead of larger.
+        - **1 : {{d2}}**: uses sin φ instead of cos φ.
+        - **1 : {{d3}}**: divides the Equator scale by ten, a decimal slip.
+        - **1 : {{d4}}**: multiplies the Equator scale by ten, a decimal slip.
+      presets:
+        - variables:
+            eq_scale: 3704000
+            lat: 60
+            macro1: 1852000
+            answer: 1852000
+            d1: 7408000
+            d2: 3207758
+            d3: 185200
+            d4: 18520000
+          correctAnswers:
+            - text: "1852000 "
+          wrongAnswers:
+            - text: "7408000 "
+            - text: "185200 "
+            - text: "18520000 "
+            - text: "3207758 "
+        - variables:
+            eq_scale: 1822835
+            lat: 43
+            macro1: 1333137
+            answer: 1333000
+            d1: 2492412
+            d2: 1243170
+            d3: 133314
+            d4: 13331371
+          correctAnswers:
+            - text: "1333000 "
+          wrongAnswers:
+            - text: "2492412 "
+            - text: "133314 "
+            - text: "13331371 "
+            - text: "1243170 "
+        - variables:
+            eq_scale: 2000000
+            lat: 30
+            macro1: 1732051
+            answer: 1732000
+            d1: 2309401
+            d2: 1000000
+            d3: 173205
+            d4: 17320508
+          correctAnswers:
+            - text: "1732000 "
+          wrongAnswers:
+            - text: "2309401 "
+            - text: "173205 "
+            - text: "17320508 "
+            - text: "1000000 "
+    - type: simple
+      question: "At 60°N the scale of a direct Mercator chart is 1: 3 000 000.What is the scale at the Equator?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1: 6 000 000"
+          wrongAnswers:
+            - text: "1: 3 000 000"
+            - text: "1: 3 500 000"
+            - text: "1: 1 500 000"
+    - type: simple
+      question: "A Mercator chart has a scale at the equator = 1 : 3 704 000. What is the scale at latitude 60°S?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1 : 1 852 000"
+          wrongAnswers:
+            - text: "1 : 185 200"
+            - text: "1 : 3 208 000"
+            - text: "1 : 7 408 000"
+- id: QGYEW
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QHPUF
+  externalQuestionIds:
+    - ATPLQ-613379
+    - AVEXAM-48817
+    - BGS-611700
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.03.03
+  templates:
+    - type: simple
+      question: |-
+        On a Mercator chart at the latitude of {{lat1}}°N, a distance of {{chart}} cm on the chart equals {{nm}} NM on the ground.
+
+        What is the same distance on the ground, in km, at a latitude of {{lat2}}°N?
+
+        Give the answer in km.
+      explanation: |-
+        On a Mercator chart the same chart distance covers less ground the further it is from the Equator. The ground distance changes with the cosine of the latitude, so the new ground distance is the old one multiplied by cos of the new latitude, divided by cos of the old latitude. Nautical miles are converted to kilometres at 1.852 km per NM.
+
+        **Solution**
+
+        Ground distance at {{lat2}}°N: $$\frac{\text{Ground distance at the first latitude}\times 1.852\times \text{cos}(\text{Second latitude})}{\text{cos}(\text{First latitude})} = \frac{ {{nm}}\times 1.852\times \text{cos}({{lat2}})}{\text{cos}({{lat1}})} = \mathbf{ {{answer}}\ \text{km} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} km**: inverts the latitude ratio.
+        - **{{d2}} km**: converts the ground distance but makes no change for latitude.
+        - **{{d3}} km**: uses the sine instead of the cosine.
+        - **{{d4}} km**: multiplies by both cosines instead of dividing.
+      presets:
+        - variables:
+            lat1: 30
+            chart: 8.3
+            nm: 40
+            lat2: 45
+            answer: 60
+            d1: 91
+            d2: 74
+            d3: 105
+            d4: 45
+          correctAnswers:
+            - text: 60 km
+          wrongAnswers:
+            - text: 91 km
+            - text: 105 km
+            - text: 45 km
+            - text: 74 km
+        - variables:
+            lat1: 20
+            chart: 10
+            nm: 100
+            lat2: 60
+            answer: 99
+            d1: 348
+            d2: 185
+            d3: 469
+            d4: 87
+          correctAnswers:
+            - text: 99 km
+          wrongAnswers:
+            - text: 348 km
+            - text: 469 km
+            - text: 87 km
+            - text: 185 km
+        - variables:
+            lat1: 40
+            chart: 5
+            nm: 25
+            lat2: 10
+            answer: 60
+            d1: 36
+            d2: 46
+            d3: 13
+            d4: 35
+          correctAnswers:
+            - text: 60 km
+          wrongAnswers:
+            - text: 36 km
+            - text: 13 km
+            - text: 35 km
+            - text: 46 km
+- id: QVGGU
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QFVDU
+    - QOVHR
+  externalQuestionIds:
+    - ATPLQ-617967
+    - BGS-611481
+    - AVEXAM-64294
+    - ATPLQ-614399
+    - BGS-610205
+    - BGS-610206
+    - AVEXAM-406
+    - AVEXAM-88563
+    - ATPLQ-619147
+    - BGS-611886
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.03.03
+  templates:
+    - type: simple
+      question: |-
+        On a Direct Mercator chart, a certain chart length has the following meaning:
+
+        - Latitude {{lat1}}° (negative values are south): it represents {{dist1}} NM on the Earth
+
+        What distance on the Earth does the same chart length represent at latitude {{lat2}}°? Give the answer in NM.
+      explanation: |-
+        A Mercator chart keeps the same chart length for the same change in longitude, but the distance on the Earth covered by that length shrinks with the cosine of the latitude. A given chart length therefore covers more Earth distance at a lower latitude and less at a higher one.
+
+        **Solution**
+
+        - Earth distance = {{dist1}} NM × cos {{lat2}}° / cos {{lat1}}°
+        - $$\frac{\text{Distance on the Earth}\times \text{cos}(\text{Latitude of the new distance})}{\text{cos}(\text{Latitude of the known distance})} = \frac{ {{dist1}}\times \text{cos}({{lat2}})}{\text{cos}({{lat1}})} = \mathbf{ {{answer}}\ \text{NM} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: the ratio is inverted, so the distance is scaled the wrong way.
+        - **{{d2}} NM**: the latitude ratio is left out and only the cosine of the new latitude is applied.
+        - **{{d3}} NM**: only the cosine of the known latitude is applied, with no ratio.
+        - **{{d4}} NM**: the ratio is squared instead of applied once.
+      presets:
+        - variables:
+            lat1: 45
+            dist1: 90
+            lat2: 30
+            answer: 110.2
+            d1: 73.5
+            d2: 77.9
+            d3: 63.6
+            d4: 135
+          correctAnswers:
+            - text: 110.2 NM
+          wrongAnswers:
+            - text: 73.5 NM
+            - text: 63.6 NM
+            - text: 135 NM
+            - text: 77.9 NM
+        - variables:
+            lat1: -15
+            dist1: 120
+            lat2: 10
+            answer: 122.3
+            d1: 117.7
+            d2: 118.2
+            d3: 115.9
+            d4: 124.7
+          correctAnswers:
+            - text: 122.3 NM
+          wrongAnswers:
+            - text: 117.7 NM
+            - text: 115.9 NM
+            - text: 124.7 NM
+            - text: 118.2 NM
+        - variables:
+            lat1: -30
+            dist1: 80
+            lat2: 45
+            answer: 65.3
+            d1: 98
+            d2: 56.6
+            d3: 69.3
+            d4: 53.3
+          correctAnswers:
+            - text: 65.3 NM
+          wrongAnswers:
+            - text: 98 NM
+            - text: 69.3 NM
+            - text: 53.3 NM
+            - text: 56.6 NM
+- id: QHPUF
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QGYEW
+  externalQuestionIds:
+    - ATPLQ-617560
+    - AVEXAM-5869
+    - BGS-611283
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.03.03
+  templates:
+    - type: simple
+      question: |-
+        On a Mercator chart, on the Equator, a distance of {{chart}} cm equals {{nm}} NM. At a latitude of {{lat}}°N, {{chart}} cm on the chart equals a real distance of:
+
+        Give the real distance in km.
+      explanation: |-
+        On a Mercator chart the scale at the Equator is the ground distance divided by the chart distance. At a latitude the scale is smaller by the cosine of the latitude, so the same chart distance covers less ground. The real distance is the chart distance times that latitude scale.
+
+        **Solution**
+
+        Scale at the Equator: 1 : {{macro1}}
+
+        Scale at {{lat}}°N: 1 : {{macro2}}
+
+        Real distance: $$\frac{\text{Distance on the chart}\times \frac{\text{Distance on the Equator}\times 185200}{\text{Distance on the chart}}\times \text{cos}(\text{Latitude})}{100000} = \frac{ {{chart}}\times \frac{ {{nm}}\times 185200}{ {{chart}} }\times \text{cos}({{lat}})}{100000} = \mathbf{ {{answer}}\ \text{km} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} km**: uses the Equator distance and ignores the change with latitude.
+        - **{{d2}} km**: divides by the cosine instead of multiplying.
+        - **{{d3}} km**: treats the nautical miles as kilometres.
+        - **{{d4}} km**: uses the sine of the latitude instead of the cosine.
+      presets:
+        - variables:
+            chart: 6.2
+            nm: 248
+            lat: 42
+            macro1: 7408000
+            macro2: 5505217
+            answer: 341
+            d1: 459
+            d2: 618
+            d3: 184
+            d4: 307
+          correctAnswers:
+            - text: 341 km
+          wrongAnswers:
+            - text: 459 km
+            - text: 184 km
+            - text: 307 km
+            - text: 618 km
+        - variables:
+            chart: 5
+            nm: 300
+            lat: 60
+            macro1: 11112000
+            macro2: 5556000
+            answer: 278
+            d1: 556
+            d2: 1111
+            d3: 150
+            d4: 481
+          correctAnswers:
+            - text: 278 km
+          wrongAnswers:
+            - text: 556 km
+            - text: 150 km
+            - text: 481 km
+            - text: 1111 km
+        - variables:
+            chart: 4
+            nm: 200
+            lat: 20
+            macro1: 9260000
+            macro2: 8701554
+            answer: 348
+            d1: 370
+            d2: 394
+            d3: 188
+            d4: 127
+          correctAnswers:
+            - text: 348 km
+          wrongAnswers:
+            - text: 370 km
+            - text: 188 km
+            - text: 127 km
+            - text: 394 km
+- id: QMPER
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-616392
+    - AVEXAM-25142
+    - BGS-610184
+    - AVEXAM-45671
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.03.03
+  templates:
+    - type: simple
+      question: On a Direct Mercator projection a particular chart length is measured at 30°N. What earth distance will the same chart length be if measured at 60°N?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A smaller distance.
+          wrongAnswers:
+            - text: The same distance.
+            - text: A larger distance.
+            - text: Twice the distance.
+    - type: simple
+      question: "If the scale of a Direct Mercator projection chart at 23°N is 1 : 2 761 515, what would be the scale of the same chart at 56°N?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "1 : 1 677 579"
+          wrongAnswers:
+            - text: "1 : 1 421 462"
+            - text: "1 : 2 541 988"
+            - text: "1 : 1 544 220"
+- id: QDIPV
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-619411
+    - AVEXAM-11222
+    - BGS-610250
+    - AVEXAM-96147
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.01
+  templates:
+    - type: simple
+      question: "On a Lambert Conformal Conic chart great circles that are not meridians are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: curves concave to the parallel of origin
+          wrongAnswers:
+            - text: straight lines regardless of distance
+            - text: straight lines within the standard parallels
+            - text: curves concave to the pole of projection
+- id: QMUHO
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QDVDQ
+  externalQuestionIds:
+    - ATPLQ-618623
+    - BGS-611452
+    - AVEXAM-18863
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.02
+  templates:
+    - type: simple
+      question: |-
+        Crossing the North Atlantic on a westbound track from position X to position Y, which lies {{dlon}}° of longitude further west, the average true track is {{avg}}°.
+
+        The Lambert chart has standard parallels at 30°N and 75°N.
+
+        What is the approximate true track of the straight line at X?
+      explanation: |-
+        On a Lambert chart a straight line keeps a constant angle to the chart grid, while the meridians converge. The track at the ends of the line differs from the average track by half the convergency. Convergency is approximately the longitude difference times the sine of the mean standard parallel, here (30 + 75) / 2 = 52.5°.
+
+        **Solution**
+
+        - Convergency = {{dlon}}° × sin 52.5° = {{macro1}}°
+        - Track at X = {{avg}}° + half the convergency = {{avg}}° + {{macro2}}° = **{{answer}}°**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}°**: gives the track at Y, which has the opposite change.
+        - **{{d2}}°**: ignores the convergency.
+        - **{{d3}}°**: uses the full convergency instead of half of it.
+        - **{{d4}}°**: adds half the longitude difference in degrees instead of the convergency.
+      presets:
+        - variables:
+            dlon: 10
+            avg: 282.2
+            macro1: 8
+            macro2: 4
+            answer: 286
+            d1: 278
+            d2: 282
+            d3: 290
+            d4: 287
+          correctAnswers:
+            - text: 286 °
+          wrongAnswers:
+            - text: 278 °
+            - text: 290 °
+            - text: 287 °
+            - text: 282 °
+        - variables:
+            dlon: 20
+            avg: 270
+            macro1: 16
+            macro2: 8
+            answer: 278
+            d1: 262
+            d2: 270
+            d3: 286
+            d4: 280
+          correctAnswers:
+            - text: 278 °
+          wrongAnswers:
+            - text: 262 °
+            - text: 286 °
+            - text: 280 °
+            - text: 270 °
+- id: QLJOR
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-616703
+    - AVEXAM-61516
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.02
+  templates:
+    - type: simple
+      question: Crossing the North Atlantic on an eastbound track from position X(52ºN, 040ºW) to position Y(53ºN, 030ºW), the average true track is 080º. On a Lambert chart with standard parallels at 75ºN and 30ºN, the direction of the straight line at position…
+      explanation: On a Lambert chart, a straight line is a great circle approximation, and the track varies by the convergence factor times the difference of longitude. With a factor of about 0.8, the track at X, 5° west of the mid-meridian, is about 080° - 4° = 076°.
+      presets:
+        - correctAnswers:
+            - text: X is 076º.
+          wrongAnswers:
+            - text: Y is 080º.
+            - text: Y is 088º.
+            - text: X is 084º.
+- id: QDPTR
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-613754
+    - BGS-611764
+    - AVEXAM-55271
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.02
+  templates:
+    - type: simple
+      question: |-
+        A pilot uses a Lambert conformal chart for navigation. At a waypoint (A), the course of the route is changed by the FMS in order to follow the next route segment, which is indicated as a straight line on the chart. What is the initial great circle track angle (M) after the passage of waypoint A?
+
+        Standard parallels of the Lambert chart: 45°N and 61°N. 
+         
+        The segment: from A (45°N 120°W) to B (45°N 100°W) 
+         
+        Magnetic variation: 12°W
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 095°
+          wrongAnswers:
+            - text: 086°
+            - text: 110°
+            - text: 088°
+    - type: simple
+      question: A pilot uses a Lambert conformal chart for navigation. At a waypoint (A), the course of the route is changed by the FMS in order to follow the next route segment, which is indicated as a straight line on the chart. What is the initial great circle track angle after passing waypoint A on a Lambert chart with standard parallels 45°N and 61°N, flying from A (45°N 120°W) to B (45°N 100°W), considering a magnetic variation of 12°W?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 095°
+          wrongAnswers:
+            - text: 086°
+            - text: 088°
+            - text: 110°
+- id: QDVDQ
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QMUHO
+  externalQuestionIds:
+    - ATPLQ-614065
+    - AVEXAM-9339
+    - BGS-610196
+    - AVEXAM-93928
+    - BGS-610197
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.02
+  templates:
+    - type: simple
+      question: |-
+        A straight line is drawn from A to B on a Lambert conformal conical chart with standard parallels at 50°S and 56°S. A is at 53°S, 155°E, and B lies {{dlon}}° of longitude east of A, also at 53°S.
+
+        When passing the meridian {{dpt}}° of longitude east of A, what is the true track?
+      explanation: |-
+        On a Lambert chart a straight line keeps a constant grid direction. The track is 090° on the meridian halfway between A and B, and it changes by the convergency for every degree of longitude you move away from that midpoint meridian. Convergency is approximately the cone constant, the sine of the mean standard parallel (50 + 56) / 2 = 53°, times the longitude.
+
+        **Solution**
+
+        - Midpoint meridian: {{macro1}}° east of A, and the point is {{macro2}}° beyond it
+        - Change of track = {{macro3}}°
+        - True track = 090° − change = **{{answer}}°**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}°**: applies the change with the wrong sign.
+        - **{{d2}}°**: ignores the convergency altogether.
+        - **260°**: the reciprocal track of the answer.
+        - **{{d4}}°**: uses the full longitude from A to B instead of the midpoint.
+      presets:
+        - variables:
+            dlon: 35
+            dpt: 30
+            macro1: 17.5
+            macro2: 12.5
+            macro3: 10
+            answer: 80
+            d1: 100
+            d2: 90
+            d4: 94
+          correctAnswers:
+            - text: 80 °
+          wrongAnswers:
+            - text: 100 °
+            - text: 260 °
+            - text: 94 °
+            - text: 90 °
+        - variables:
+            dlon: 40
+            dpt: 25
+            macro1: 20
+            macro2: 5
+            macro3: 4
+            answer: 86
+            d1: 94
+            d2: 90
+            d4: 102
+          correctAnswers:
+            - text: 86 °
+          wrongAnswers:
+            - text: 94 °
+            - text: 260 °
+            - text: 102 °
+            - text: 90 °
+- id: QGROT
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QLXKE
+  externalQuestionIds:
+    - ATPLQ-611130
+    - AVEXAM-76309
+    - AVEXAM-7797
+    - ATPLQ-619227
+    - AVEXAM-77118
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.02
+  templates:
+    - type: simple
+      question: |-
+        A straight line is drawn on a Lambert conformal conic chart with standard parallels at {{sp1}}° and {{sp2}}° (negative means south). It runs from position A to position B.
+
+        - Position A: latitude {{lat_a}}°, longitude {{lon_a}}°
+        - Position B: latitude {{lat_b}}°, longitude {{lon_b}}°
+        - True track at A: {{trk}}°
+
+        Longitudes are east positive and west negative. Calculate the true track at position B.
+      explanation: |-
+        On a Lambert conformal chart the meridians converge towards the pole. The convergence between two meridians is the constant of the cone times the longitude difference between them. A straight line on the chart changes its true track by this convergence, so the track at B is the track at A plus the convergence. The constant of the cone is the sine of the mean latitude of the two standard parallels.
+
+        **Solution**
+
+        - Constant of the cone: $$\text{sin}(\frac{\text{First standard parallel}+\text{Second standard parallel}}{2})$$ = {{macro2}}
+        - Change in longitude from A to B: {{lon_b}}° − {{lon_a}}° = {{macro3}}°
+        - Convergence = constant × change in longitude = {{macro4}}°
+        - $$\text{True track at A}+\text{sin}(\frac{\text{First standard parallel}+\text{Second standard parallel}}{2})\times (\text{Longitude of B}-\text{Longitude of A}) = {{trk}}+\text{sin}(\frac{ {{sp1}}+({{sp2}})}{2})\times ({{lon_b}}-{{lon_a}}) = \mathbf{ {{answer}}\ \text{°} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}°**: applies the convergence with the wrong sign
+        - **{{d2}}°**: adds the longitude difference without the constant of the cone
+        - **{{d3}}°**: subtracts the longitude difference without the constant of the cone
+        - **{{d4}}°**: uses the cosine instead of the sine for the constant of the cone
+      presets:
+        - variables:
+            sp1: 54
+            sp2: 59
+            lat_a: 55
+            lon_a: 165
+            lat_b: 58
+            lon_b: 154
+            trk: 301
+            macro2: 0.83
+            macro3: -11
+            macro4: -9.17
+            answer: 291.83
+            d1: 310.17
+            d2: 290
+            d3: 312
+            d4: 294.93
+          correctAnswers:
+            - text: 291.83 °
+          wrongAnswers:
+            - text: 310.17 °
+            - text: 312 °
+            - text: 294.93 °
+            - text: 290 °
+        - variables:
+            sp1: -54
+            sp2: -59
+            lat_a: -55
+            lon_a: 165
+            lat_b: -58
+            lon_b: 154
+            trk: 239
+            macro2: -0.83
+            macro3: -11
+            macro4: 9.17
+            answer: 248.17
+            d1: 229.83
+            d2: 228
+            d3: 250
+            d4: 232.93
+          correctAnswers:
+            - text: 248.17 °
+          wrongAnswers:
+            - text: 229.83 °
+            - text: 250 °
+            - text: 232.93 °
+            - text: 228 °
+        - variables:
+            sp1: 50
+            sp2: 60
+            lat_a: 40
+            lon_a: 20
+            lat_b: 45
+            lon_b: 35
+            trk: 120
+            macro2: 0.82
+            macro3: 15
+            macro4: 12.29
+            answer: 132.29
+            d1: 107.71
+            d2: 135
+            d3: 105
+            d4: 128.6
+          correctAnswers:
+            - text: 132.29 °
+          wrongAnswers:
+            - text: 107.71 °
+            - text: 105 °
+            - text: 128.6 °
+            - text: 135 °
+- id: QHVOA
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-615891
+    - ATPLQ-616262
+    - ATPLQ-618245
+    - BGS-610712
+    - AVEXAM-730671
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.02
+    - 061.04.02.04.07
+  templates:
+    - type: simple
+      question: |-
+        A Lambert conformal conic chart with standard parallels at 54°N and 59°N is used for navigation. The straight line between A 55° 00.0’N 165° 00.0’E and B 58° 00.0’N ’E is drawn on this chart. The True track along the straight line at A is 301° and at is B 292°.
+
+        Calculate the longitude of position B.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 154° 12.4’E
+          wrongAnswers:
+            - text: 175° 47.6’E
+            - text: 156° 00.0’E
+            - text: 174° 00.0’E
+        - correctAnswers:
+            - text: 010° 47.6’W
+          wrongAnswers:
+            - text: 010° 47.6’E
+            - text: 009°00.0’W
+            - text: 009° 00.0’E
+    - type: simple
+      question: A Lambert conformal conic chart, whose standard parallels 54°N and 59°N is used for navigation. Straight line from A (53°N, 165°E) to B (58°N, 145°E) is drawn on the chart. The true course of the straight-line track drawn on this chart at A is 301°. What is the true course of the straight-line track drawn on this chart at B?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 284°T
+          wrongAnswers:
+            - text: 290°T
+            - text: 310°T
+            - text: 312°T
+- id: QLXKE
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QGROT
+  externalQuestionIds:
+    - ATPLQ-615364
+    - BGS-611267
+    - AVEXAM-50049
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.02
+  templates:
+    - type: simple
+      question: On a Lambert Conformal Chart with standard parallels at {{p1}}°N and {{p2}}°N, the initial track angle of an airway from point A ({{lat}}°N {{lonw}}°W) to a point B ({{lat2}}°N {{lone}}°E) is {{trk}}°(T). Determine the arrival track at B.
+      explanation: |-
+        On a Lambert chart meridians converge with the cone constant n, so the track changes along the route by convergency = change of longitude x n, with n = ln(cos p1 / cos p2) / ln(tan(45 - p1/2) / tan(45 - p2/2)). Flying east in the northern hemisphere the track increases.
+
+        **Solution**
+
+        Change of longitude = {{macro1}}°, n = {{macro2}}
+
+        Arrival track = {{trk}} + {{macro3}} = **{{answer}}°(T)**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}°(T)**: the convergency is subtracted instead of added.
+        - **{{d2}}°(T)**: the full change of longitude is used (n = 1).
+        - **{{d3}}°(T)**: the sine of the latitude of B is used as the cone constant instead of the chart's n.
+      presets:
+        - variables:
+            p1: 40
+            p2: 55
+            lat: 54
+            lonw: 15
+            lat2: 57
+            lone: 10
+            trk: 68
+            macro1: 25
+            macro2: 1
+            macro3: 18
+            answer: 86
+            d1: 50
+            d2: 93
+            d3: 89
+          correctAnswers:
+            - text: 86 °(T)
+          wrongAnswers:
+            - text: 89 °(T)
+            - text: 50 °(T)
+            - text: 93 °(T)
+        - variables:
+            p1: 40
+            p2: 55
+            lat: 52
+            lonw: 10
+            lat2: 55
+            lone: 12
+            trk: 75
+            macro1: 22
+            macro2: 1
+            macro3: 16
+            answer: 91
+            d1: 59
+            d2: 97
+            d3: 93
+          correctAnswers:
+            - text: 91 °(T)
+          wrongAnswers:
+            - text: 93 °(T)
+            - text: 59 °(T)
+            - text: 97 °(T)
+        - variables:
+            p1: 40
+            p2: 55
+            lat: 50
+            lonw: 20
+            lat2: 53
+            lone: 5
+            trk: 60
+            macro1: 25
+            macro2: 1
+            macro3: 18
+            answer: 78
+            d1: 42
+            d2: 85
+            d3: 80
+          correctAnswers:
+            - text: 78 °(T)
+          wrongAnswers:
+            - text: 80 °(T)
+            - text: 42 °(T)
+            - text: 85 °(T)
+- id: QYYJK
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-619068
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.02
+  templates:
+    - type: simple
+      question: |-
+        A straight line is drawn on a Lambert conformal conic chart between two positions at the same latitude. Longitudes are counted eastwards from 0° to 360°.
+
+        - Latitude of A and B: {{lat}}° N
+        - Position A: longitude {{lon_a}}°
+        - Position B: longitude {{lon_b}}°
+        - Standard parallels: {{sp1}}° N and {{sp2}}° N
+
+        When the line passes the meridian {{lon_x}}°, what is the true track?
+      explanation: |-
+        Along a straight line on a Lambert chart joining two points of the same latitude, the true track is exactly 270° (due west or due east) where the line crosses the middle meridian between the two points. Further away from that meridian the track changes by the constant of the cone times the distance from it.
+
+        **Solution**
+
+        - Middle meridian: ({{lon_a}}° + {{lon_b}}°) ÷ 2 = {{macro1}}°
+        - Distance of the crossing from the middle meridian: {{lon_x}}° − {{macro1}}° = {{macro2}}°
+        - Constant of the cone: $$\text{sin}(\frac{\text{First standard parallel}+\text{Second standard parallel}}{2})$$ = {{macro4}}
+        - $$270+\text{sin}(\frac{\text{First standard parallel}+\text{Second standard parallel}}{2})\times (\text{Crossed meridian}-\frac{\text{Longitude of A}+\text{Longitude of B}}{2}) = 270+\text{sin}(\frac{ {{sp1}}+{{sp2}} }{2})\times ({{lon_x}}-\frac{ {{lon_a}}+{{lon_b}} }{2}) = \mathbf{ {{answer}}\ \text{°} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}°**: subtracts the change instead of adding it
+        - **{{d2}}°**: forgets the constant of the cone
+        - **{{d3}}°**: uses the cosine instead of the sine
+        - **{{d4}}°**: measures the distance from position A instead of from the middle meridian
+      presets:
+        - variables:
+            lat: 53
+            lon_a: 205
+            lon_b: 170
+            sp1: 50
+            sp2: 56
+            lon_x: 175
+            macro1: 187.5
+            macro2: -12.5
+            macro4: 0.799
+            answer: 260.017
+            d1: 279.983
+            d2: 257.5
+            d3: 262.477
+            d4: 246.041
+          correctAnswers:
+            - text: 260.017 °
+          wrongAnswers:
+            - text: 279.983 °
+            - text: 262.477 °
+            - text: 246.041 °
+            - text: 257.5 °
+        - variables:
+            lat: 50
+            lon_a: 200
+            lon_b: 180
+            sp1: 45
+            sp2: 60
+            lon_x: 185
+            macro1: 190
+            macro2: -5
+            macro4: 0.793
+            answer: 266.033
+            d1: 273.967
+            d2: 265
+            d3: 266.956
+            d4: 258.1
+          correctAnswers:
+            - text: 266.033 °
+          wrongAnswers:
+            - text: 273.967 °
+            - text: 266.956 °
+            - text: 258.1 °
+            - text: 265 °
+        - variables:
+            lat: 45
+            lon_a: 150
+            lon_b: 120
+            sp1: 30
+            sp2: 50
+            lon_x: 140
+            macro1: 135
+            macro2: 5
+            macro4: 0.643
+            answer: 273.214
+            d1: 266.786
+            d2: 275
+            d3: 273.83
+            d4: 263.572
+          correctAnswers:
+            - text: 273.214 °
+          wrongAnswers:
+            - text: 266.786 °
+            - text: 273.83 °
+            - text: 263.572 °
+            - text: 275 °
+- id: QAIMT
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-615106
+    - AVEXAM-26465
+    - BGS-610213
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.03
+  templates:
+    - type: simple
+      question: The standard parallels of a Lambert chart are 26°N and 48°N and the stated scale is 1:2 500 000\. Which statement is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The scale at 28°N is smaller than the scale at 24°N.
+          wrongAnswers:
+            - text: The scale at 30°N is smaller than the scale at 37°N.
+            - text: The scale at 37°N is larger than the scale at 20°N.
+            - text: The scale at 46°N is larger than the scale at 50°N.
+- id: QDJNS
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QWCEZ
+  externalQuestionIds:
+    - ATPLQ-611168
+    - AVEXAM-61065
+    - BGS-610237
+    - BGS-610858
+    - ATPLQ-616683
+    - AVEXAM-82234
+    - BGS-610227
+    - ATPLQ-613506
+    - BGS-610220
+    - AVEXAM-54761
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.03
+  templates:
+    - type: simple
+      question: "The scale of a Lambert conformal conic chart is the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: scale at the standard parallels
+          wrongAnswers:
+            - text: mean scale between pole and equator
+            - text: scale at the equator
+            - text: mean scale between the parallels of the secant cone
+    - type: simple
+      question: "On a Lambert conformal conic chart, with two standard parallels, the quoted scale is correct:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: along the two standard parallels
+          wrongAnswers:
+            - text: along the parallel of origin
+            - text: along the prime meridian
+            - text: in the area between the standard parallels
+    - type: simple
+      question: On a Lambert conformal conic projection with two standard parallels..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the scale is only correct along the standard parallels.
+          wrongAnswers:
+            - text: all great circles are shown as straight lines.
+            - text: the scale is only correct at the parallel of origin.
+            - text: the lines of longitude are shown as parallel straight lines.
+- id: QOLPK
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-612996
+    - BGS-610208
+    - AVEXAM-58670
+    - ATPLQ-615033
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.03
+  templates:
+    - type: simple
+      question: "On a Lambert conformal conic chart, the distance between parallels of latitude spaced the same number of degrees apart:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is smaller between the standard parallels than outside them
+          wrongAnswers:
+            - text: is constant between the standard parallels and is greater outside them
+            - text: is larger between the standard parallels and is smaller outside them
+            - text: is constant throughout the chart
+    - type: simple
+      question: A chart of Lambert Conformal Conic projection has a standard parallel at 45°N. If the distance between two points along the standard parallels is 68 NM, what would be the approximate distance between the two points on the same meridians at a latitude of 46°N?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 67 NM
+          wrongAnswers:
+            - text: 76 NM
+            - text: 46 NM
+            - text: 64 NM
+- id: QWCEZ
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QDJNS
+  externalQuestionIds:
+    - ATPLQ-612140
+    - BGS-611473
+    - BGS-611805
+    - BGS-611791
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.03
+  templates:
+    - type: simple
+      question: On a Lambert conformal chart, the given scale differs from the scale at latitudes between the standard parallels. The limitation for this difference is a maximum of...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1% of the scale at the standard parallels.
+          wrongAnswers:
+            - text: 0.01% of the given scale in the index.
+            - text: 0.01%of the scale of the globe.
+            - text: 0.1% of the scale at the parallel of origin.
+- id: QFLAQ
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-613905
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.04
+  templates:
+    - type: simple
+      question: |-
+        Calculate the average true track of the final leg of a VFR flight, given the start point and the destination aerodrome:
+
+        - Start point: {{lat1}}° N, {{lon1}}° E
+        - Destination: {{lat2}}° N, {{lon2}}° E
+
+        What is the average true track?
+      explanation: |-
+        The track is the direction of the line from the start point to the destination, measured clockwise from true north. The east-west difference is scaled by the cosine of the mean latitude to allow for the meridians converging towards the pole. The result is then given as a bearing between 0° and 360°.
+
+        **Solution**
+
+        Mean latitude = ({{lat1}} + {{lat2}}) / 2 = {{macro1}}°
+
+        Corrected longitude difference = {{macro2}}°
+
+        Latitude difference = {{macro3}}°
+
+        Track = **{{answer}}°T**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}°T**: ignores the scaling of the longitude difference by the cosine of the latitude.
+        - **{{d2}}°T**: swaps the latitude and longitude differences, so the angle is measured from east instead of north.
+        - **{{d3}}°T**: uses the reciprocal sign for the longitude difference, so the track is mirrored.
+        - **{{d4}}°T**: gives the reciprocal track (the direction back from the destination).
+      presets:
+        - variables:
+            lat1: 48.384722
+            lon1: 14.255
+            lat2: 48.901389
+            lon2: 12.5175
+            macro1: 49
+            macro2: -1
+            macro3: 1
+            answer: 294
+            d1: 287
+            d2: 523
+            d3: 426
+            d4: 114
+          correctAnswers:
+            - text: 294 °T
+          wrongAnswers:
+            - text: 287 °T
+            - text: 426 °T
+            - text: 114 °T
+            - text: 523 °T
+        - variables:
+            lat1: 47.8
+            lon1: 13
+            lat2: 49.5
+            lon2: 11.2
+            macro1: 49
+            macro2: -1
+            macro3: 2
+            answer: 325
+            d1: 313
+            d2: 497
+            d3: 395
+            d4: 145
+          correctAnswers:
+            - text: 325 °T
+          wrongAnswers:
+            - text: 313 °T
+            - text: 395 °T
+            - text: 145 °T
+            - text: 497 °T
+        - variables:
+            lat1: 50.1
+            lon1: 8.6
+            lat2: 48.2
+            lon2: 10.4
+            macro1: 49
+            macro2: 1
+            macro3: -2
+            answer: 148
+            d1: 497
+            d2: 313
+            d3: 212
+            d4: 328
+          correctAnswers:
+            - text: 148 °T
+          wrongAnswers:
+            - text: 497 °T
+            - text: 212 °T
+            - text: 328 °T
+            - text: 313 °T
+- id: QLLIC
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QUWXF
+  externalQuestionIds:
+    - ATPLQ-615909
+    - AVEXAM-50103
+    - ATPLQ-619427
+    - ATPLQ-619263
+    - AVEXAM-90572
+    - ATPLQ-611695
+    - AVEXAM-85038
+    - ATPLQ-612707
+    - ATPLQ-613491
+    - AVEXAM-62519
+    - ATPLQ-615425
+    - ATPLQ-612220
+    - AVEXAM-19934
+    - BGS-611660
+    - AVEXAM-16357
+    - BGS-611878
+    - BGS-611656
+    - BGS-611754
+    - BGS-611729
+  annexes:
+    - id: ADSV
+    - id: ASNU
+    - id: ATZI
+    - id: ATAE
+    - id: AEXH
+  learningObjectiveIds:
+    - 061.04.02.04.04
+  templates:
+    - type: simple
+      question: |-
+        Determine the initial true track and the distance from point A to point B, given:
+
+        - Point A: latitude {{lat1}}°, longitude {{lon1}}°
+        - Point B: latitude {{lat2}}°, longitude {{lon2}}°
+
+        South latitude and west longitude are negative. Give the track in degrees and the distance in NM.
+      explanation: "{{explanation}}"
+      presets:
+        - variables:
+            lat1: 52.1833
+            lon1: -7.0833
+            lat2: 52.1833
+            lon2: -9.5333
+            explanation: |-
+              The track is the direction from point A to point B, measured clockwise from true north. The distance is the length of the straight line between the two points. Latitude gives the north-south part of the route, and longitude gives the east-west part, which is shorter at higher latitudes, so it has to be corrected before the distance and track are found.
+
+              **Solution**
+
+              Both points lie on the same latitude, so point B is due west of point A. The track is 270° true and the longitude difference of about 2°27’ at this latitude is about 90 NM.
+
+              ## Why the other answers are wrong
+
+              - **266º/94 NM**: a rounded position gives a slightly different track and distance.
+              - **270°/94 NM**: the right track, but the distance does not match the latitude correction.
+              - **273°/90 NM**: the right distance, but the track is read slightly wrongly.
+          correctAnswers:
+            - text: 270°/90 NM
+          wrongAnswers:
+            - text: 273°/90 NM
+            - text: 266º/94 NM
+            - text: 270°/94 NM
+        - variables:
+            lat1: 54
+            lon1: -2
+            lat2: 53
+            lon2: -4
+            explanation: |-
+              The track is the direction from point A to point B, measured clockwise from true north. The distance is the length of the straight line between the two points. Latitude gives the north-south part of the route, and longitude gives the east-west part, which is shorter at higher latitudes, so it has to be corrected before the distance and track are found.
+
+              **Solution**
+
+              Point B is south-west of point A. The track from A to B is 231° true and the distance is about 93 NM.
+
+              ## Why the other answers are wrong
+
+              - **Initial track: 051º (T); Distance: 112 NM**: the reciprocal track (from B back to A) together with a distance that is not corrected for latitude.
+              - **Initial track: 051º (T); Distance: 93 NM**: the reciprocal track, the direction from B back to A.
+              - **Initial track: 231º (T); Distance: 112 NM**: the correct track, but the distance is not corrected for latitude.
+          correctAnswers:
+            - text: "Initial track: 231º (T); Distance: 93 NM"
+          wrongAnswers:
+            - text: "Initial track: 231º (T); Distance: 112 NM"
+            - text: "Initial track: 051º (T); Distance: 112 NM"
+            - text: "Initial track: 051º (T); Distance: 93 NM"
+        - variables:
+            lat1: 52.9
+            lon1: 4.7667
+            lat2: 54
+            lon2: 4
+            explanation: |-
+              The track is the direction from point A to point B, measured clockwise from true north. The distance is the length of the straight line between the two points. Latitude gives the north-south part of the route, and longitude gives the east-west part, which is shorter at higher latitudes, so it has to be corrected before the distance and track are found.
+
+              **Solution**
+
+              Point A lies north and slightly west of the VOR. The track from the VOR to A is 338° true and the distance is about 71 NM.
+
+              ## Why the other answers are wrong
+
+              - **158° (T) and 118 NM**: the reciprocal track (from A back to the VOR) with a distance that is not corrected for latitude.
+              - **158° (T) and 71 NM**: the reciprocal track, the direction from A back to the VOR.
+              - **338° (T) and 118 NM**: the correct track, but the distance is not corrected for latitude.
+          correctAnswers:
+            - text: 338° (T) and 71 NM
+          wrongAnswers:
+            - text: 338° (T) and 118 NM
+            - text: 158° (T) and 118 NM
+            - text: 158° (T) and 71 NM
+        - variables:
+            lat1: 54.6667
+            lon1: -6.2333
+            lat2: 55.5
+            lon2: -3.35
+            explanation: |-
+              The track is the direction from point A to point B, measured clockwise from true north. The distance is the length of the straight line between the two points. Latitude gives the north-south part of the route, and longitude gives the east-west part, which is shorter at higher latitudes, so it has to be corrected before the distance and track are found.
+
+              **Solution**
+
+              The track from BELFAST to TALLA is 062° true and the distance is about 111 NM.
+
+              ## Why the other answers are wrong
+
+              - **066°(T) and 192 NM**: a slip in the track calculation together with a distance that is far too large.
+              - **066°(T) and 111 NM**: the distance is right, but the track is about 4° off.
+              - **062°(T) and 192 NM**: the track is right, but the distance is far too large.
+          correctAnswers:
+            - text: 062°(T) and 111 NM
+          wrongAnswers:
+            - text: 062°(T) and 192 NM
+            - text: 066°(T) and 192 NM
+            - text: 066°(T) and 111 NM
+        - variables:
+            lat1: 54.9167
+            lon1: -4.0833
+            lat2: 55.5833
+            lon2: -5.4333
+            explanation: |-
+              The track is the direction from point A to point B, measured clockwise from true north. The distance is the length of the straight line between the two points. Latitude gives the north-south part of the route, and longitude gives the east-west part, which is shorter at higher latitudes, so it has to be corrected before the distance and track are found.
+
+              **Solution**
+
+              Point B is to the north-west of point A. The track is 311° true and the distance is about 62 NM.
+
+              ## Why the other answers are wrong
+
+              - **Track 303º(T); Distance: 58 NM**: a track about 8° too far to the west, with a distance that is too short.
+              - **Track 347º(T); Distance: 53 NM**: a track that is far too far to the north, with a distance that is too short.
+              - **Track 317º(T); Distance: 68 NM**: a track about 6° too far to the north, with a distance that is too long.
+          correctAnswers:
+            - text: "Track 311º(T); Distance: 62 NM"
+          wrongAnswers:
+            - text: "Track 317º(T); Distance: 68 NM"
+            - text: "Track 303º(T); Distance: 58 NM"
+            - text: "Track 347º(T); Distance: 53 NM"
+        - variables:
+            lat1: 48.4
+            lon1: 13.45
+            lat2: 48.6833
+            lon2: 13.7
+            explanation: |-
+              The track is the direction from point A to point B, measured clockwise from true north. The distance is the length of the straight line between the two points. Latitude gives the north-south part of the route, and longitude gives the east-west part, which is shorter at higher latitudes, so it has to be corrected before the distance and track are found.
+
+              **Solution**
+
+              Sonnen lies north and slightly east of Scharding Suben. The track is about 030° true and the distance is about 19.5 NM.
+
+              ## Why the other answers are wrong
+
+              - **(1) 027°; (2) 19,5**: the distance is right, but the track is about 3° too far to the west.
+              - **(1) 030°; (2) 29,5**: the track is right, but the distance is read too long.
+              - **(1) 027°; (2) 29,5**: both the track and the distance are wrong.
+          correctAnswers:
+            - text: (1) 030°; (2) 19,5
+          wrongAnswers:
+            - text: (1) 027°; (2) 29,5
+            - text: (1) 027°; (2) 19,5
+            - text: (1) 030°; (2) 29,5
+        - variables:
+            lat1: 48.9
+            lon1: 12.5167
+            lat2: 48.6333
+            lon2: 13.2
+            explanation: |-
+              The track is the direction from point A to point B, measured clockwise from true north. The distance is the length of the straight line between the two points. Latitude gives the north-south part of the route, and longitude gives the east-west part, which is shorter at higher latitudes, so it has to be corrected before the distance and track are found.
+
+              **Solution**
+
+              Vilshofen lies south-east of Straubing. The track is about 121° true and the distance is about 32 NM.
+
+              ## Why the other answers are wrong
+
+              - **121° / 62 NM.**: the track is right, but the distance is about twice the real distance.
+              - **124° / 31 NM.**: a track that is slightly off, with a distance that is slightly short.
+              - **301° / 32 NM.**: the reciprocal track is used, the direction from Vilshofen back to Straubing has a different value.
+          correctAnswers:
+            - text: 121° / 32 NM.
+          wrongAnswers:
+            - text: 301° / 32 NM.
+            - text: 121° / 62 NM.
+            - text: 124° / 31 NM.
+        - variables:
+            lat1: 48.9
+            lon1: 12.5183
+            lat2: 48.83
+            lon2: 12.88
+            explanation: |-
+              The track is the direction from point A to point B, measured clockwise from true north. The distance is the length of the straight line between the two points. Latitude gives the north-south part of the route, and longitude gives the east-west part, which is shorter at higher latitudes, so it has to be corrected before the distance and track are found.
+
+              **Solution**
+
+              Deggendorf lies east and slightly south of Straubing. The track is about 106° true and the distance is about 15 NM.
+
+              ## Why the other answers are wrong
+
+              - **286° / 15 NM.**: the distance is right, but the track is the reciprocal direction on the wrong side.
+              - **111° / 20 NM.**: a track that is slightly too far to the south, with a distance that is too long.
+              - **103° / 20 NM.**: a track that is slightly too far to the north, with a distance that is too long.
+          correctAnswers:
+            - text: 106° / 15 NM.
+          wrongAnswers:
+            - text: 103° / 20 NM.
+            - text: 286° / 15 NM.
+            - text: 111° / 20 NM.
+    - type: simple
+      question: |-
+        Please refer to the annex or to chart E(LO)2 from the Jeppesen GSPRM 2017. 
+        Determine the initial track and distance from position A (N52°47', E005°05') to position B (N53°55', E005°52').
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "Track: 021°(M); Distance: 73 NM."
+          wrongAnswers:
+            - text: "Track: 015°(M); Distance: 75 NM."
+            - text: "Track: 018°(M); Distance: 83 NM."
+            - text: "Track: 024°(M); Distance: 63 NM."
+    - type: simple
+      question: Please refer to the annex or to chart E(LO)2 from the Jeppesen GSPRM 2017. Determine the initial track and distance from position A (N54°53', W006°23') to position B (N55°57', W004°48').
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "Track: 040°(T); Distance: 83 NM."
+          wrongAnswers:
+            - text: "Track: 046°(T); Distance: 93 NM."
+            - text: "Track: 036°(M); Distance: 83 NM."
+            - text: "Track: 042°(M); Distance: 93 NM."
+- id: QAGJW
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-612687
+    - AVEXAM-730657
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.05
+  templates:
+    - type: simple
+      question: |-
+        Two locations A and B have the same latitude and lie on a meridian and its anti-meridian, so they are 180° apart in longitude. On a Lambert conical projection map, the angle between these two meridians is {{angle}}°.
+
+        What is the latitude of the parallel of origin of this map?
+      explanation: |-
+        On a Lambert conical projection the meridians converge towards the pole of the cone. The angle between two meridians on the map is the difference in longitude multiplied by the cone constant, and the cone constant is the sine of the parallel of origin. Here the difference in longitude is 180°.
+
+        **Solution**
+
+        - $$\text{asin}(\frac{\text{Angle between the two meridians on the chart}}{180}) = \text{asin}(\frac{ {{angle}} }{180}) = \mathbf{ {{answer}}\ \text{°N or S} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}°N or S**: uses the cosine instead of the sine.
+        - **{{d2}}°N or S**: uses the tangent instead of the sine.
+        - **{{d3}}°N or S**: uses 360° as the difference in longitude instead of 180°.
+        - **{{d4}}°N or S**: takes the complement of the tangent value instead of the sine.
+      presets:
+        - variables:
+            angle: 104
+            answer: 35
+            d1: 55
+            d2: 30
+            d3: 17
+            d4: 60
+          correctAnswers:
+            - text: 35 °N or S
+          wrongAnswers:
+            - text: 55 °N or S
+            - text: 17 °N or S
+            - text: 60 °N or S
+            - text: 30 °N or S
+        - variables:
+            angle: 60
+            answer: 19
+            d1: 71
+            d2: 18
+            d3: 10
+            d4: 72
+          correctAnswers:
+            - text: 19 °N or S
+          wrongAnswers:
+            - text: 71 °N or S
+            - text: 10 °N or S
+            - text: 72 °N or S
+            - text: 18 °N or S
+        - variables:
+            angle: 120
+            answer: 42
+            d1: 48
+            d2: 34
+            d3: 19
+            d4: 56
+          correctAnswers:
+            - text: 42 °N or S
+          wrongAnswers:
+            - text: 48 °N or S
+            - text: 19 °N or S
+            - text: 56 °N or S
+            - text: 34 °N or S
+- id: QNXQQ
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-616274
+    - BGS-611638
+    - AVEXAM-730652
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.05
+  templates:
+    - type: simple
+      question: |-
+        On a Lambert chart, a straight line is drawn between two waypoints, from VAXTI and RATSU. Using the following information, calculate the latitude of the parallel of origin of the chart.
+
+        Waypoint VAXTI: 58º12.0'N, 004º00.0'E   
+         Waypoint RATSU: 63º30.0'N, 011º00.0'W   
+         True track from VAXTI: 302º   
+         True track at the mean longitude: 297º
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 41º48.6'N
+          wrongAnswers:
+            - text: 44º25.6'
+            - text: 60º51.0'N
+            - text: 19º28.3'
+- id: QVUHB
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-616986
+    - BGS-611422
+    - BGS-611440
+    - AVEXAM-91358
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.05
+  templates:
+    - type: simple
+      question: |-
+        Two locations A and B have the same latitude and lie on a meridian and its anti-meridian. On a Lambert conical projection map:
+
+        - Difference in longitude between the two meridians: {{dlon}}°
+        - Convergency between the two meridians: {{conv}}°
+
+        What is the parallel of origin of this map?
+      explanation: |-
+        On a Lambert conical chart, the convergency between two meridians equals the constant of the cone multiplied by their difference in longitude. The constant of the cone equals the sine of the parallel of origin.
+
+        **Solution**
+
+        - Constant of the cone = {{conv}}° / {{dlon}}° = {{macro1}}
+        - Parallel of origin = arcsin({{macro1}}) = **{{answer}}°**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}°**: uses the tangent instead of the sine.
+        - **{{d2}}°**: uses the cosine instead of the sine.
+        - **{{d3}}°**: multiplies the ratio by 90 and forgets the arcsin.
+        - **{{d4}}°**: uses half the difference in longitude.
+      presets:
+        - variables:
+            dlon: 180
+            conv: 156
+            macro1: 1
+            answer: 60
+            d1: 41
+            d2: 30
+            d3: 78
+            d4: 26
+          correctAnswers:
+            - text: 60 °
+          wrongAnswers:
+            - text: 41 °
+            - text: 78 °
+            - text: 26 °
+            - text: 30 °
+        - variables:
+            dlon: 180
+            conv: 120
+            macro1: 1
+            answer: 42
+            d1: 34
+            d2: 48
+            d3: 60
+            d4: 19
+          correctAnswers:
+            - text: 42 °
+          wrongAnswers:
+            - text: 34 °
+            - text: 60 °
+            - text: 19 °
+            - text: 48 °
+- id: QGRRO
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-611620
+    - BGS-610198
+    - AVEXAM-90402
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.06
+  templates:
+    - type: simple
+      question: |-
+        Two positions lie on the same parallel of latitude, and a straight line is drawn between them on a Lambert conformal projection.
+
+        - Latitude of both positions: {{lat}}° N
+        - Longitude of position A: {{lon_a}}° E
+        - Longitude of position B: {{lon_b}}° E
+        - True track of departure from A along the straight line: {{track}}°
+
+        What is the constant of the cone of this Lambert conformal projection?
+      explanation: |-
+        On a Lambert conformal chart a straight line joining two points of the same latitude is symmetric about the middle meridian between them. On that middle meridian the line has a track of exactly 270°. At each end the track differs from 270° by half the convergence between the meridians, and the convergence is the constant of the cone times the longitude difference. The constant of the cone is therefore twice the track difference divided by the longitude difference.
+
+        **Solution**
+
+        - Track difference from 270°: {{track}}° − 270° = {{macro1}}°
+        - Longitude difference: {{lon_a}}° − {{lon_b}}° = {{macro2}}°
+        - $$\frac{2\times (\text{Track of departure}-270)}{\text{Longitude of A}-\text{Longitude of B}} = \frac{2\times ({{track}}-270)}{ {{lon_a}}-{{lon_b}} } = \mathbf{ {{answer}} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}**: forgets to double the track difference
+        - **{{d2}}**: uses the latitude instead of the track
+        - **{{d3}}**: inverts the ratio
+        - **{{d4}}**: forgets to divide by the longitude difference
+      presets:
+        - variables:
+            lat: 50.0983
+            lon_a: 13.6917
+            lon_b: 8.6383
+            track: 272
+            macro1: 2
+            macro2: 5.053
+            answer: 0.792
+            d1: 0.396
+            d2: 0.767
+            d3: 0.198
+            d4: 4
+          correctAnswers:
+            - text: "0.792 "
+          wrongAnswers:
+            - text: "0.396 "
+            - text: "0.198 "
+            - text: "4 "
+            - text: "0.767 "
+        - variables:
+            lat: 45
+            lon_a: 10
+            lon_b: 2
+            track: 273
+            macro1: 3
+            macro2: 8
+            answer: 0.75
+            d1: 0.375
+            d2: 0.707
+            d3: 0.125
+            d4: 6
+          correctAnswers:
+            - text: "0.75 "
+          wrongAnswers:
+            - text: "0.375 "
+            - text: "0.125 "
+            - text: "6 "
+            - text: "0.707 "
+        - variables:
+            lat: 60
+            lon_a: 20
+            lon_b: 14
+            track: 272.5
+            macro1: 2.5
+            macro2: 6
+            answer: 0.833
+            d1: 0.417
+            d2: 0.866
+            d3: 0.167
+            d4: 5
+          correctAnswers:
+            - text: "0.833 "
+          wrongAnswers:
+            - text: "0.417 "
+            - text: "0.167 "
+            - text: "5 "
+            - text: "0.866 "
+- id: QLGHT
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-618799
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.06
+  templates:
+    - type: simple
+      question: The coverage area of a Lambert chart extends from parallel (20°00'N) to (31°00'N). The standard parallels are at (22°00'N) and (30°00'N). What is the parallel of origin?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 26°00'N.
+          wrongAnswers:
+            - text: 25°00'N.
+            - text: 26°30'N.
+            - text: 25°30'N.
+- id: QIUPW
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-611938
+    - BGS-611595
+    - BGS-611834
+    - AVEXAM-21649
+    - ATPLQ-619613
+    - AVEXAM-78673
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.07
+  templates:
+    - type: simple
+      question: |-
+        Positions X and Y are plotted on a Lambert chart. The constant of the cone is {{cone}}.
+
+        - Initial great-circle track from X to Y: {{trk_xy}}°
+        - Initial great-circle track from Y to X: {{trk_yx}}°
+
+        Determine the difference in longitude between X and Y.
+      explanation: |-
+        On a Lambert chart the meridians converge towards the pole. The convergency between two meridians is the constant of the cone multiplied by their difference in longitude. The back track from Y to X differs from the track from X to Y by 180° plus the convergency, so the convergency is found first.
+
+        **Solution**
+
+        Convergency = {{trk_yx}}° − {{trk_xy}}° − 180° = {{macro1}}°
+
+        Difference in longitude = {{macro1}}° ÷ {{cone}} = **{{answer}}°**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}°**: the convergency is given as the answer without dividing by the cone.
+        - **{{d2}}°**: the cone is multiplied instead of divided.
+        - **{{d3}}°**: the result is divided by twice the cone.
+        - **{{d4}}°**: the convergency is halved instead of divided by the cone.
+      presets:
+        - variables:
+            cone: 0.6
+            trk_xy: 43
+            trk_yx: 235
+            macro1: 12
+            answer: 20
+            d1: 12
+            d2: 7
+            d3: 10
+            d4: 6
+          correctAnswers:
+            - text: 20 °
+          wrongAnswers:
+            - text: 12 °
+            - text: 10 °
+            - text: 6 °
+            - text: 7 °
+        - variables:
+            cone: 0.4
+            trk_xy: 30
+            trk_yx: 230
+            macro1: 20
+            answer: 50
+            d1: 20
+            d2: 8
+            d3: 25
+            d4: 10
+          correctAnswers:
+            - text: 50 °
+          wrongAnswers:
+            - text: 20 °
+            - text: 25 °
+            - text: 10 °
+            - text: 8 °
+        - variables:
+            cone: 0.6
+            trk_xy: 50
+            trk_yx: 240
+            macro1: 10
+            answer: 17
+            d1: 10
+            d2: 6
+            d3: 8
+            d4: 5
+          correctAnswers:
+            - text: 17 °
+          wrongAnswers:
+            - text: 10 °
+            - text: 8 °
+            - text: 5 °
+            - text: 6 °
+- id: QCGUK
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QGSHZ
+  externalQuestionIds:
+    - ATPLQ-619598
+    - BGS-611268
+    - AVEXAM-5001
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.07
+  templates:
+    - type: simple
+      question: |-
+        A pilot uses a Lambert conformal conic navigation chart with a constant of the cone of {{cone}}. A straight line is drawn from the current position to the destination.
+
+        - Current position: latitude {{lat}}° N, longitude {{lon_a}}° (east positive, west negative)
+        - True track at the current position: {{track_a}}°
+        - True track at the destination: {{track_b}}°
+
+        What is the longitude of the destination? Give the answer in degrees west (east is negative).
+      explanation: |-
+        On a Lambert chart the track changes along a straight line by the convergence between the two meridians, which is the constant of the cone times the longitude difference. The new longitude is the longitude of the current position plus the change in track divided by the constant of the cone. The result is then brought into the range from 180° east to 180° west, and given here as a west longitude.
+
+        **Solution**
+
+        - Change in track: {{track_b}}° − {{track_a}}° = {{macro1}}°
+        - Longitude change = change in track ÷ constant of the cone = {{macro2}}°
+        - Longitude before converting: {{lon_a}}° + {{macro2}}° = {{macro3}}°
+        - Brought into the range 180° east to 180° west, expressed as west: **{{answer}}° W**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}°**: keeps the unconverted longitude and ignores the west sign
+        - **{{d2}}°**: forgets the starting longitude of the current position
+        - **{{d3}}°**: applies the change with the wrong sign
+        - **{{d4}}°**: multiplies by the constant of the cone instead of dividing
+      presets:
+        - variables:
+            cone: 0.83
+            lat: 50
+            lon_a: 175
+            track_a: 73
+            track_b: 78
+            macro1: 5
+            macro2: 6.02
+            macro3: 181.02
+            answer: 178.98
+            d1: 181.02
+            d2: 6.02
+            d3: -168.98
+            d4: -179.15
+          correctAnswers:
+            - text: 178.98 °
+          wrongAnswers:
+            - text: 181.02 °
+            - text: -168.98 °
+            - text: -179.15 °
+            - text: 6.02 °
+        - variables:
+            cone: 0.6
+            lat: 45
+            lon_a: -150
+            track_a: 210
+            track_b: 200
+            macro1: -10
+            macro2: -16.67
+            macro3: -166.67
+            answer: 166.67
+            d1: -166.67
+            d2: -16.67
+            d3: 133.33
+            d4: 156
+          correctAnswers:
+            - text: 166.67 °
+          wrongAnswers:
+            - text: -166.67 °
+            - text: 133.33 °
+            - text: 156 °
+            - text: -16.67 °
+        - variables:
+            cone: 0.5
+            lat: 30
+            lon_a: -20
+            track_a: 280
+            track_b: 250
+            macro1: -30
+            macro2: -60
+            macro3: -80
+            answer: 80
+            d1: -80
+            d2: -60
+            d3: -40
+            d4: 35
+          correctAnswers:
+            - text: 80 °
+          wrongAnswers:
+            - text: -80 °
+            - text: -40 °
+            - text: 35 °
+            - text: -60 °
+- id: QGSHZ
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QCGUK
+  externalQuestionIds:
+    - ATPLQ-618314
+    - BGS-610231
+    - BGS-610234
+    - AVEXAM-37652
+    - AVEXAM-26005
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.07
+  templates:
+    - type: simple
+      question: |-
+        A straight line track is drawn on a Lambert conformal conic chart from position A to position B.
+
+        - Constant of the cone: {{cone}}
+        - Position A: latitude {{lat}}° N, longitude {{lon_a}}° (east positive, west negative)
+        - True track at A: {{track_a}}°
+        - True track at B: {{track_b}}°
+
+        What is the longitude of B? Give the answer in degrees east (west is negative).
+      explanation: |-
+        On a Lambert chart the track changes along a straight line by the convergence between the two meridians, which is the constant of the cone times the longitude difference. The longitude difference is therefore the change in track divided by the constant of the cone, and it is added to the longitude of A.
+
+        **Solution**
+
+        - Change in track: {{track_b}}° − {{track_a}}° = {{macro1}}°
+        - Longitude difference = change in track ÷ constant of the cone = {{macro2}}°
+        - $$\text{Longitude of A}+\frac{\text{True track at B}-\text{True track at A}}{\text{Constant of the cone}} = {{lon_a}}+\frac{ {{track_b}}-{{track_a}} }{ {{cone}} } = \mathbf{ {{answer}}\ \text{°} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}°**: subtracts the longitude difference instead of adding it
+        - **{{d2}}°**: multiplies by the constant of the cone instead of dividing
+        - **{{d3}}°**: forgets the constant of the cone
+        - **{{d4}}°**: forgets the starting longitude of A
+      presets:
+        - variables:
+            cone: 0.8
+            lat: 53
+            lon_a: -4
+            track_a: 80
+            track_b: 92
+            macro1: 12
+            macro2: 15
+            answer: 11
+            d1: -19
+            d2: 5.6
+            d3: 8
+            d4: 15
+          correctAnswers:
+            - text: 11 °
+          wrongAnswers:
+            - text: -19 °
+            - text: 8 °
+            - text: 15 °
+            - text: 5.6 °
+        - variables:
+            cone: 0.6
+            lat: 45
+            lon_a: 20
+            track_a: 100
+            track_b: 110
+            macro1: 10
+            macro2: 16.67
+            answer: 36.67
+            d1: 3.33
+            d2: 26
+            d3: 30
+            d4: 16.67
+          correctAnswers:
+            - text: 36.67 °
+          wrongAnswers:
+            - text: 3.33 °
+            - text: 30 °
+            - text: 16.67 °
+            - text: 26 °
+        - variables:
+            cone: 0.4
+            lat: 60
+            lon_a: -30
+            track_a: 250
+            track_b: 240
+            macro1: -10
+            macro2: -25
+            answer: -55
+            d1: -5
+            d2: -34
+            d3: -40
+            d4: -25
+          correctAnswers:
+            - text: -55 °
+          wrongAnswers:
+            - text: -5 °
+            - text: -40 °
+            - text: -25 °
+            - text: -34 °
+    - type: simple
+      question: A Lambert conformal conic chart has a constant of the cone of 0.80.  A straight line course drawn on this chart from A (53°N 004°W) to B is 080° at A; course at B is 092°(T). What is the longitude of B?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 011°E
+          wrongAnswers:
+            - text: 009°36'E
+            - text: 008°E
+            - text: 019°E
+    - type: simple
+      question: A Lambert conformal conic chart has a constant of the cone of 0.75. The initial course of a straight line track drawn on this chart from A (40°N 050°W) to B is 043°(T) at A; course at B is 055°(T). What is the longitude of B?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 34°W
+          wrongAnswers:
+            - text: 38°W
+            - text: 36°W
+            - text: 41°W
+- id: QQFYZ
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-614255
+    - AVEXAM-34185
+    - AVEXAM-32160
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.07
+  templates:
+    - type: simple
+      question: |-
+        A great circle track is drawn on a Lambert conformal chart between positions X and Z in the Northern Hemisphere.
+
+        - True track at X: {{track_x}}°
+        - True track at Z: {{track_z}}°
+        - Constant of the cone: {{cone}}
+
+        What is the longitude difference between positions X and Z? Give the answer in decimal degrees.
+      explanation: |-
+        On a Lambert conformal chart the meridians converge towards the pole. The angle between two meridians is the constant of the cone multiplied by the longitude difference between them. A straight line on the chart changes its true track by that same convergence, so the longitude difference is the change in track divided by the constant of the cone.
+
+        **Solution**
+
+        - Change in track: {{track_x}}° − {{track_z}}° = {{macro1}}°
+        - Longitude difference = change in track ÷ constant of the cone
+        - $$\frac{\text{Track at X}-\text{Track at Z}}{\text{Constant of the cone}} = \frac{ {{track_x}}-{{track_z}} }{ {{cone}} } = \mathbf{ {{answer}}\ \text{°} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}°**: multiplies by the constant of the cone instead of dividing
+        - **{{d2}}°**: divides by twice the constant of the cone
+        - **{{d3}}°**: gives the change in track itself, without the cone constant
+        - **{{d4}}°**: divides by the square of the constant of the cone
+      presets:
+        - variables:
+            track_x: 300
+            track_z: 291
+            cone: 0.809
+            macro1: 9
+            answer: 11.125
+            d1: 7.281
+            d2: 5.562
+            d3: 9
+            d4: 13.751
+          correctAnswers:
+            - text: 11.125 °
+          wrongAnswers:
+            - text: 7.281 °
+            - text: 9 °
+            - text: 13.751 °
+            - text: 5.562 °
+        - variables:
+            track_x: 310
+            track_z: 298
+            cone: 0.7
+            macro1: 12
+            answer: 17.143
+            d1: 8.4
+            d2: 8.571
+            d3: 12
+            d4: 24.49
+          correctAnswers:
+            - text: 17.143 °
+          wrongAnswers:
+            - text: 8.4 °
+            - text: 12 °
+            - text: 24.49 °
+            - text: 8.571 °
+        - variables:
+            track_x: 255
+            track_z: 243
+            cone: 0.55
+            macro1: 12
+            answer: 21.818
+            d1: 6.6
+            d2: 10.909
+            d3: 12
+            d4: 39.669
+          correctAnswers:
+            - text: 21.818 °
+          wrongAnswers:
+            - text: 6.6 °
+            - text: 12 °
+            - text: 39.669 °
+            - text: 10.909 °
+    - type: simple
+      question: "On a Lambert chart in the Northern Hemisphere, a Great Circle track is drawn between positions X and Z. The Great Circle true track at position X is 300°, and at position Z it is 291°. Given that the constant of the cone of the chart is 0.35, the longitude difference between position X and Z is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 025°43'.
+          wrongAnswers:
+            - text: 003°09'.
+            - text: 012°51'.
+            - text: 009°00'.
+- id: QSXRE
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-619371
+    - BGS-611493
+    - AVEXAM-59781
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.02.04.07
+  templates:
+    - type: simple
+      question: |-
+        A great-circle track is drawn on a Lambert chart between positions A and B in the Northern Hemisphere. The great-circle true track at position A is measured as 070°, while at position B, it is measured as 076°.
+
+        If the parallel of origin of the Lambert chart is 37°, what is the longitude difference between positions A and B?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 009°58’
+          wrongAnswers:
+            - text: 003°45’
+            - text: 004°59’
+            - text: 007°30’
+- id: QMBXI
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-613160
+    - ATPLQ-612324
+    - BGS-611710
+  annexes:
+    - id: ANCA
+  learningObjectiveIds:
+    - 061.04.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.   
+        According to ICAO Annex 4, what does symbol 5 represent?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VOR check-point
+          wrongAnswers:
+            - text: Aerodrome Reference Point (ARP)
+            - text: Compulsory RP
+            - text: Fly-by waypoint
+    - type: simple
+      question: |-
+        Refer to figure. 
+         
+        According to ICAO Annex 4, which symbol represents a VOR check-point?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "5"
+          wrongAnswers:
+            - text: "6"
+            - text: "7"
+            - text: "8"
+        - correctAnswers:
+            - text: Symbol 5
+          wrongAnswers:
+            - text: Symbol 6
+            - text: Symbol 7
+            - text: Symbol 8
+- id: QABLL
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-612154
+    - AVEXAM-70574
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.03.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to Jeppesen GSPRM Chart 'E LO 2'. Given:
+
+        - Position A: N54°53', W005°18'
+        - Position B: N55°18', W003°35'
+
+        Find the initial track from A to B and determine the distance from position A to the point of crossing meridian W004°00'.
+      explanation: |-
+        The track from A to B is measured on the chart and converted to magnetic. The distance is measured along the track from A to the point where it crosses meridian W004°00'.
+
+        **Solution**
+
+        - Track from A to B, magnetic: **070°(M)**
+        - Distance from A to the crossing of meridian W004°00': **48 NM**
+
+        ## Why the other answers are wrong
+
+        - **064°(M), 48 NM**: the track is misread on the compass rose.
+        - **070°(T), 63 NM**: the true track is given instead of the magnetic track, and the distance is measured to B.
+        - **067°(T), 63 NM**: the track is misread and the distance is measured to B.
+      presets:
+        - correctAnswers:
+            - text: 070°(M), 48 NM
+          wrongAnswers:
+            - text: 067°(T), 63 NM
+            - text: 064°(M), 48 NM
+            - text: 070°(T), 63 NM
+- id: QCLUX
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-612340
+    - BGS-611733
+    - BGS-611234
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.03.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure or to chart E(LO)2 from the Jeppesen GSPRM 2017.  
+        Find the true track and distance from BELFAST VOR/DME (BEL, 54°39’N, 006°13’W) to DEAN CROSS DME (DCS, N54°43' W003°20'):
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 087° (T) and 100 NM.
+          wrongAnswers:
+            - text: 087° (T) and 107 NM.
+            - text: 091° (T) and 107 NM.
+            - text: |-
+                091° (T) and 100 NM.   
+                 ​​​
+    - type: simple
+      question: |-
+        (See image or refer to Jeppesen GSPRM (2017) chart E LO 2)
+          Find the average magnetic track and distance from Dublin VOR/DME (DUB, 53°30'N, 006°18'W) to Connaught VOR/DME (CON, 53°55'N, 008°49'W).
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 290°, 93NM
+          wrongAnswers:
+            - text: 286°, 167km
+            - text: 292°, 92NM
+            - text: 288°, 93NM
+- id: QCSYK
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-617747
+    - BGS-611230
+    - AVEXAM-83197
+    - BGS-611746
+  annexes:
+    - id: AASQ
+  learningObjectiveIds:
+    - 061.04.03.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to "E(LO)2" chart from the Jeppesen GSPRM 2017\.   
+         What is the initial track direction (°T) and distance (NM) from Point A (54°00'N, 002° 00'W) to Point B (53°00'N, 004°00'W)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 231°T and 93 NM
+          wrongAnswers:
+            - text: 231°T and 126 NM
+            - text: 051°T and 96 NM
+            - text: 051°T and 126 NM
+    - type: simple
+      question: |-
+        Please refer to the annex or to chart E(LO)2 from the Jeppesen GSPRM 2017. 
+
+        What is the initial track direction (°M) and distance (NM) from point A (55°00'N, 006°00'W) to point B (56°00'N, 003°00'W)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 063°(M) and 118 NM
+          wrongAnswers:
+            - text: 059°(M) and 118 NM
+            - text: 059°(M) and 205 NM
+            - text: 063°(M) and 205 NM
+- id: QKPEQ
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-617325
+    - BGS-611639
+    - BGS-611657
+    - AVEXAM-6539
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.03.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to chart E(LO)2 from the Jeppesen GSPRM 2017.
+
+        An aircraft is en-route from position A (N55°43', W004°17') to position B (N54°53', W002°53').
+
+        Using this information, determine the initial track from position A to position B and also the distance from position A to the point of crossing latitude N55°00'.
+      explanation: |-
+        The true track from A to B is measured on the chart with a plotter from the compass rose. The distance is measured along that track from A to the point where it crosses latitude N55°00'.
+
+        **Solution**
+
+        - Draw the line from A to B and read the true track: **136°(T)**
+        - Measure along the track from A to the crossing of N55°00': **58 NM**
+
+        ## Why the other answers are wrong
+
+        - **Track 139°(T), 68 NM**: the track is misread and the distance is measured to the wrong point.
+        - **Track 139°(M), 48 NM**: the magnetic track is given instead of the true track, and the distance is misread.
+        - **Track 139°(M), 68 NM**: the magnetic track is given and the distance is measured to the wrong point.
+      presets:
+        - correctAnswers:
+            - text: "Track: 136°(T); Distance: 58 NM"
+          wrongAnswers:
+            - text: "Track: 139°(M); Distance: 68 NM"
+            - text: "Track: 139°(T); Distance: 68 NM"
+            - text: "Track: 139°(M); Distance: 48 NM"
+- id: QPREN
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-619801
+    - BGS-611454
+    - AVEXAM-23672
+    - BGS-611743
+    - BGS-611641
+  annexes:
+    - id: AEXH
+  learningObjectiveIds:
+    - 061.04.03.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure (VFR chart ED-4, Jeppesen GSPRM 2017). A flight is planned as a direct flight from Sonnen (EDPS, N48°41', E013°42') to Vilshofen (EDMV, N48°38', E013°12').
+
+        Determine the true track from EDPS to EDMV (1) and the distance in NM (2).
+      explanation: |-
+        Find Sonnen (EDPS) and Vilshofen (EDMV) on the chart and draw a straight line between them. Read the true track of that line from the nearest meridian, and measure its length with the scale of the chart in nautical miles.
+
+        ## Why the other answers are wrong
+
+        - **(1) 259°; (2) 20**: the track is read wrongly by 3 degrees.
+        - **(1) 259°; (2) 31**: both the track and the distance are wrong.
+        - **(1) 262°; (2) 31**: the distance is measured wrongly, it is about 20 NM.
+      presets:
+        - correctAnswers:
+            - text: (1) 262°; (2) 20
+          wrongAnswers:
+            - text: (1) 262°; (2) 31
+            - text: (1) 259°; (2) 20
+            - text: (1) 259°; (2) 31
+    - type: simple
+      question: |-
+        Please refer to the annex or to VFR chart ED-4 from the Jeppesen GSPRM 2017. 
+
+        A flight is planned from EDPG, Griesau (N48°57.2', E012°25.3') to EDNB, Arnbruck (N49°07.5', E012°59.1'). 
+
+        From the chart, what is the highest elevation within a radius of 5 NM of the aircraft's position ay any time while flying the route?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 4055 ft
+          wrongAnswers:
+            - text: 3438 ft
+            - text: 4777 ft
+            - text: 3717 ft
+    - type: simple
+      question: |-
+        (Refer to the Annex or to VFR chart ED-4 from the Jeppesen GSPRM).
+        You are flying a VFR flight from Straubing EDMS (N48°54.0', E012°31.1') to Eisenthal-Grafenau EDNF (N48°49.4' E013°22.0').
+        What are the magnetic track and distance to be flown?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 095° and 34 NM
+          wrongAnswers:
+            - text: 101° and 43 NM
+            - text: 098° and 34 NM
+            - text: 090° and 32 NM
+- id: QBDWX
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-618575
+    - AVEXAM-98748
+    - ATPLQ-619390
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.03.02.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to Jeppesen GSPRM Training Route Manual - Chart "E LO 2".   
+        Find the radials from Turnberry (TRN) and Talla (TLA) to the aircraft position, given:
+
+        TALLA (TLA) VOR/DME (55°30N, 003°21´W)   
+        TURNBERRY (TRN) VOR/DME (55°19´N, 004°47´W)   
+        Aircraft position: 54°58´N, 003°47´W
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 123° from TRN and 209° from TLA.
+          wrongAnswers:
+            - text: 302° from TRN and 29° from TLA.
+            - text: 161° from TRN and 316° from TLA.
+            - text: 161° from TRN and 29° from TLA.
+- id: QFRMY
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QRPFF
+  externalQuestionIds:
+    - ATPLQ-618732
+    - BGS-611247
+  annexes:
+    - id: AASQ
+  learningObjectiveIds:
+    - 061.04.03.02.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. Refer to the 'E(LO)2' chart from the Jeppesen GSPRM 2017. Given the following bearing and range information obtained from TRENT (TNT) VOR/DME (53°03'N, 001°40'W), what is the aircraft's position?
+
+        - Radial: 093°
+        - Range: 72 NM
+      explanation: |-
+        Plot radial 093° from TRENT VOR/DME and measure 72 NM along it. The end of the line is the position of the aircraft.
+
+        **Solution**
+
+        - Plot radial 093° from TNT and mark 72 NM along it
+        - Read the position of that point: **52°59'N, 000°20'E**
+
+        ## Why the other answers are wrong
+
+        - **53°00'N, 000°20'W**: the longitude is taken on the wrong side of the prime meridian.
+        - **53°01'N, 001°40'E**: the position is plotted from the station's longitude instead of the range.
+        - **53°59'N, 000°25'W**: the range is measured from the wrong point.
+      presets:
+        - correctAnswers:
+            - text: 52°59'N, 000°20'E
+          wrongAnswers:
+            - text: 53°59'N, 000°25'W
+            - text: 53°00'N, 000°20'W
+            - text: 53°01'N, 001°40'E
+- id: QFTWN
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-616097
+    - BGS-611721
+    - AVEXAM-63352
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.03.02.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. 
+         
+        An aircraft is executing a VFR navigation. The navigation log refers to a leg that begins over CWD VOR/DME. The aircraft reaches CWD VOR/DME at 10:06 UTC and then follows the calculated heading and speed. At 10:21 UTC the aircraft is on radial 247° at a DME distance of 24 NM from CWD VOR/DME. The cross-track error is.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1.6 NM
+          wrongAnswers:
+            - text: 2.4 NM
+            - text: 4.8 NM
+            - text: 4.0 NM
+    - type: simple
+      question: |-
+        Please refer to the annex which shows a line from a navigation log for a VFR flight, for a leg that starts over a VOR/DME station with identifier CWD. 
+        The aircraft flies over the CWD at 10:06 UTC and turns to the correct heading and speed.
+        At 10:21 UTC the pilot takes a position fix off the CWD and the aircraft is on the 247° radial at a DME range of 24 NM. 
+        What is the approximate cross-track error?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1.6 NM
+          wrongAnswers:
+            - text: 4.0 NM
+            - text: 2.4 NM
+            - text: 4.8 NM
+    - type: simple
+      question: |-
+        Refer to figure 061-53.
+        You are on a VFR flight and the navigation log refers to a leg that begins over CWD VOR/DME. Your reach CWD VOR/DME at 10:06 UTC and then follow the calculated heading and speed. At 10:21 UTC, your aircraft is on radial 247° at a DME distance of 24 NM from CWD VOR/DME. Your cross-track error is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1.6 NM
+          wrongAnswers:
+            - text: 2.4 NM
+            - text: 4.8 NM
+            - text: 4.0 NM
+- id: QRPFF
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds:
+    - QFRMY
+  externalQuestionIds:
+    - ATPLQ-611123
+    - AVEXAM-16402
+    - AVEXAM-65177
+    - BGS-611655
+    - BGS-611766
+    - BGS-611633
+  annexes:
+    - id: AASQ
+    - id: ASNU
+  learningObjectiveIds:
+    - 061.04.03.02.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to chart E(LO)2\_02 from Jeppesen GSPRM 2017\.   
+        Given the following bearing and range information obtained from DEN HELDER (HDR) VOR/DME (52°54´N, 004°46´E), what is the aircraft's position? (Note: Slant range corrections should be ignored)
+
+        Radial: 258°   
+        Range: 63 NM
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 52°42´N, 003°04´E
+          wrongAnswers:
+            - text: 52°46´N, 003°48´E
+            - text: 53°10´N, 003°03´E
+            - text: 52°46´N, 003°42´E
+    - type: simple
+      question: |-
+        For this question use question annex or chart E(LO)2 from the Jeppesen GSPRM 2017. 
+        Given the following bearing and range information obtained from HONILEY (HON) VOR/DME (52°21'N, 001°40'W), what is the aircraft's position? Radial: 034°. Range: 44 NM. Slant range corrections should be ignored.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 52°59'N, 000°59'W
+          wrongAnswers:
+            - text: 52°44'N, 001°17'W
+            - text: 53°03'N, 001°07'W
+            - text: 52°56'N, 000°50'W
+    - type: simple
+      question: |-
+        (Refer to the Annex or to chart E(LO)2 from the Jeppesen GSPRM 2017).
+        Given the following information, what is the aircraft's position if both DME ranges are decreasing? 
+        TRENT (TNT) VOR/DME (53°03'N, 001°40'W), range: 62 NM
+        MARHAM (MAM) TAC (52°39'N, 000°33'E), range: 44 NM
+        Aircraft's track: 190°(T)
+        Slant range corrections should be ignored.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 53°18'N, 000°01'W
+          wrongAnswers:
+            - text: 52°18'N, 000°31'W
+            - text: 53°25'N, 000°38'W
+            - text: 52°26'N, 001°05'W
+- id: QSHJC
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-619480
+  annexes:
+    - id: AASQ
+  learningObjectiveIds:
+    - 061.04.03.02.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to chart E(LO)2 from Jeppesen GSPRM 2017\.   
+         Given the following bearing and range information obtained from POLE HILL (POL) VOR/DME (53°45'N, 002°06'W), what is the aircraft's position?
+
+        Radial: 017°   
+         Range: 85 NM   
+         Slat range corrections should be ignored.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 55°06'N, 001°27'W
+          wrongAnswers:
+            - text: 53°42'N, 001°38'W
+            - text: 55°07'N, 001°40'W
+            - text: 53°42'N, 001°18'W
+- id: QIKWU
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-615219
+    - BGS-611680
+    - BGS-611292
+    - AVEXAM-56140
+  annexes:
+    - id: AASA
+  learningObjectiveIds:
+    - 061.04.03.02.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure or chart E(LO)2 from the Jeppesen GSPRM 2017. The Lambert chart has its standard parallels at 37°N and 65°N.
+
+        An aircraft is flying at N55°00.0', W011°00.0' with a magnetic heading of {{mag}}°. The magnetic variation at the aircraft position is read from the chart.
+
+        The relative bearing from the aircraft to the Donegal NDB (CFN) (N55°02.6', W008°20.4') is {{rel}}°.
+
+        What is the true bearing to be plotted from the NDB to the aircraft position?
+      explanation: |-
+        The magnetic heading is turned into a true heading by correcting for the magnetic variation. With west variation the magnetic reading is larger than the true reading, so the variation is subtracted. The true heading plus the relative bearing gives the true bearing from the aircraft to the NDB. The bearing to be plotted from the NDB to the aircraft is the reverse, so 180° is added. Results are given between 0° and 360°.
+
+        **Solution**
+
+        - True heading = magnetic heading - variation = {{macro1}}°T
+        - Bearing from the aircraft to the NDB = true heading + relative bearing = {{macro2}}°, which is {{macro3}}° after removing full circles
+        - Bearing from the NDB to the aircraft = reverse bearing = **{{answer}}°T**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}°T**: the variation is added instead of subtracted.
+        - **{{d2}}°T**: the reverse bearing is not worked out, so the bearing from the aircraft to the NDB is given.
+        - **{{d3}}°T**: the relative bearing is subtracted instead of added.
+        - **{{d4}}°T**: the relative bearing is left out.
+      presets:
+        - variables:
+            mag: 136
+            rel: 318
+            macro1: 132
+            macro2: 450
+            macro3: 90
+            answer: 270
+            d1: 278
+            d2: 90
+            d3: 354
+            d4: 132
+          correctAnswers:
+            - text: 270 °T
+          wrongAnswers:
+            - text: 278 °T
+            - text: 354 °T
+            - text: 132 °T
+            - text: 90 °T
+        - variables:
+            mag: 50
+            rel: 120
+            macro1: 48
+            macro2: 168
+            macro3: 168
+            answer: 348
+            d1: 352
+            d2: 168
+            d3: 108
+            d4: 48
+          correctAnswers:
+            - text: 348 °T
+          wrongAnswers:
+            - text: 352 °T
+            - text: 108 °T
+            - text: 48 °T
+            - text: 168 °T
+- id: QRPOT
+  subjectId: "061"
+  chapterId: "061.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-614036
+    - AVEXAM-60307
+    - BGS-610350
+  annexes: []
+  learningObjectiveIds:
+    - 061.04.03.02.03
+  templates:
+    - type: simple
+      question: |-
+        An NDB and a DR position are plotted on a Lambert conformal chart with standard parallels at {{std1}}°N and {{std2}}°N:
+
+        - NDB position: {{ndb_lat_deg}}°{{ndb_lat_min}}'N, {{ndb_lon_deg}}°{{ndb_lon_min}}'E
+        - DR position: {{dr_lat_deg}}°{{dr_lat_min}}'N, {{dr_lon_deg}}°{{dr_lon_min}}'E
+        - Magnetic variation: {{var_w}}°W
+        - The NDB on the RMI reads {{rmi}}°
+
+        Calculate the true direction (T) of the bearing to be plotted from the NDB, in whole degrees.
+      explanation: |-
+        The NDB bears {{rmi}}° magnetic from the aircraft. To plot the position line from the NDB, three steps are needed: reverse the bearing to get the bearing from the NDB back to the aircraft, convert magnetic to true (for west variation, true = magnetic minus the variation), and then apply the convergence of the meridians on the Lambert chart. The convergence is the longitude difference multiplied by the sine of the mean standard parallel.
+
+        **Solution**
+
+        - Reciprocal magnetic bearing: {{rmi}}° + 180° = {{macro1}}°M
+        - True bearing: {{macro1}}° - {{var_w}}° (west variation) = {{macro2}}°T
+        - Convergence: $$\text{sin}(\frac{\text{First standard parallel}+\text{Second standard parallel}}{2})\times (\text{NDB longitude (degrees)}+\frac{\text{NDB longitude (minutes)}}{60}-\text{DR longitude (degrees)}-\frac{\text{DR longitude (minutes)}}{60}) = \text{sin}(\frac{ {{std1}}+{{std2}} }{2})\times ({{ndb_lon_deg}}+\frac{ {{ndb_lon_min}} }{60}-{{dr_lon_deg}}-\frac{ {{dr_lon_min}} }{60})$$°
+        - Bearing on the chart: {{macro2}}° + convergence = **{{answer}}°T**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}°**: the variation was added instead of subtracted.
+        - **{{d2}}°**: the convergence correction was applied with the wrong sign.
+        - **{{d3}}°**: the bearing from the aircraft was not reversed and no convergence correction was made.
+        - **{{d4}}°**: the convergence correction was left out.
+      presets:
+        - variables:
+            std1: 40
+            std2: 48
+            ndb_lat_deg: 55
+            ndb_lat_min: 10
+            ndb_lon_deg: 12
+            ndb_lon_min: 55
+            dr_lat_deg: 54
+            dr_lat_min: 53
+            dr_lon_deg: 9
+            dr_lon_min: 58
+            var_w: 10
+            rmi: 90
+            macro1: 270
+            macro2: 260
+            answer: 262
+            d1: 282
+            d2: 258
+            d3: 80
+            d4: 260
+          correctAnswers:
+            - text: 262 °T
+          wrongAnswers:
+            - text: 282 °T
+            - text: 80 °T
+            - text: 260 °T
+            - text: 258 °T
+        - variables:
+            std1: 35
+            std2: 55
+            ndb_lat_deg: 50
+            ndb_lat_min: 20
+            ndb_lon_deg: 10
+            ndb_lon_min: 30
+            dr_lat_deg: 48
+            dr_lat_min: 40
+            dr_lon_deg: 8
+            dr_lon_min: 15
+            var_w: 5
+            rmi: 120
+            macro1: 300
+            macro2: 295
+            answer: 297
+            d1: 307
+            d2: 293
+            d3: 115
+            d4: 295
+          correctAnswers:
+            - text: 297 °T
+          wrongAnswers:
+            - text: 307 °T
+            - text: 115 °T
+            - text: 295 °T
+            - text: 293 °T
+        - variables:
+            std1: 30
+            std2: 60
+            ndb_lat_deg: 52
+            ndb_lat_min: 5
+            ndb_lon_deg: 5
+            ndb_lon_min: 40
+            dr_lat_deg: 50
+            dr_lat_min: 10
+            dr_lon_deg: 4
+            dr_lon_min: 20
+            var_w: 15
+            rmi: 45
+            macro1: 225
+            macro2: 210
+            answer: 211
+            d1: 241
+            d2: 209
+            d3: 30
+            d4: 210
+          correctAnswers:
+            - text: 211 °T
+          wrongAnswers:
+            - text: 241 °T
+            - text: 30 °T
+            - text: 210 °T
+            - text: 209 °T

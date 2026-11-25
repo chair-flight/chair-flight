@@ -1,0 +1,2306 @@
+- id: QYBWT
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621373
+    - AVEXAM-5284
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.01.01
+  templates:
+    - type: multiple-correct
+      question: Which of the following are current or planned Global Navigation Satellite Systems (GNSS)?
+      explanation: ""
+      options:
+        - text: EGNOS
+          correct: false
+        - text: WAAS
+          correct: false
+        - text: GLONASS
+          correct: true
+        - text: BEIDOU
+          correct: true
+        - text: GAGAN
+          correct: false
+        - text: NAVSTAR GPS
+          correct: true
+        - text: MSAS
+          correct: false
+        - text: GALILEO
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 3
+            - 4
+            - 5
+            - 6
+        - show:
+            - 4
+            - 5
+            - 6
+            - 7
+        - show:
+            - 0
+            - 5
+            - 6
+            - 7
+        - show:
+            - 0
+            - 1
+            - 6
+            - 7
+        - show:
+            - 0
+            - 1
+            - 2
+            - 7
+- id: QTJGT
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627715
+    - ATPLQ-625088
+    - AVEXAM-54729
+    - AVEXAM-54807
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.01.01
+  templates:
+    - type: simple
+      question: Which of the following is a GNSS error caused by the ionosphere?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Longer path length.
+          wrongAnswers:
+            - text: Dilution Of Precision.
+            - text: Clock error.
+            - text: Multipath error.
+    - type: simple
+      question: What is the Global Navigation Satellite Systems (GNSS) error triggered by the ionosphere?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Variations in signal path length.
+          wrongAnswers:
+            - text: Receiver clock error.
+            - text: Signal multipath.
+            - text: Dilution of Precision (DoP).
+    - type: simple
+      question: What type of GNSS error results from the ionosphere?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Longer path length.
+          wrongAnswers:
+            - text: Multipath error.
+            - text: Clock error.
+            - text: Dilution Of Precision.
+    - type: simple
+      question: What type of GNSS error is caused due to the ionosphere?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Variations in signal path length.
+          wrongAnswers:
+            - text: Signal multipath.
+            - text: Receiver clock error.
+            - text: Dilution of Precision (DoP).
+- id: QGBOH
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627025
+    - AVEXAM-54698
+    - BGS-621198
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.01.02
+  templates:
+    - type: simple
+      question: "For a satellite to be visible to a GPS receiver:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It needs a higher elevation than 5° above the horizon.
+          wrongAnswers:
+            - text: It needs a higher elevation than 5° below the horizon.
+            - text: It needs a higher elevation than 15° above the horizon.
+            - text: It needs a higher elevation than 55° above the horizon.
+- id: QRBXS
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626431
+    - AVEXAM-2927
+    - BGS-620566
+    - AVEXAM-90902
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.01.02
+    - 062.06.01.02.07
+  templates:
+    - type: simple
+      question: What is one of the primary tasks of the space segment of NAVSTAR/GPS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Transmitting signals which can be used, by suitable receivers, to determine time, position and velocity.
+          wrongAnswers:
+            - text: Transmitting signals to suitable receivers and monitoring the orbital planes autonomously.
+            - text: Monitoring the satellites' orbits and status.
+            - text: Computing the user position from the receiver user messages and transmitting the computed position back to the user segment.
+- id: QHLSE
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627217
+    - BGS-621244
+    - AVEXAM-33915
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.01
+  templates:
+    - type: simple
+      question: In the NAVSTAR GPS system, what can authorised users calculate positions from?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: PPS as well as the less accurate SPS.
+          wrongAnswers:
+            - text: SBAS as well as the less accurate C/A code.
+            - text: C/A code as well as the less accurate SBAS.
+            - text: SPS as well as the less accurate PPS.
+- id: QYBJY
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624493
+    - BGS-621391
+    - AVEXAM-44396
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.02
+  templates:
+    - type: simple
+      question: The GPS Standard Positioning Service (SPS) was originally designed to provide civilian users with a less accurate positioning capability than the Precise Positioning Service (PPS) which is reserved for authorised users only. What makes the SPS less accurate than the PPS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The SPS uses one carrier wave frequency.
+          wrongAnswers:
+            - text: The PPS uses more accurate atomic clocks.
+            - text: The SPS has NO correction for ionospheric propagation delay.
+            - text: The SPS uses a lower resolution grid.
+- id: QOBDA
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625372
+    - BGS-621108
+    - AVEXAM-9161
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.03
+  templates:
+    - type: simple
+      question: The type of GPS receiver that is used in aviation is
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a multichannel receiver
+          wrongAnswers:
+            - text: a two channel receiver
+            - text: a multiplex receiver
+            - text: a sequential receiver
+    - type: simple
+      question: GPS receivers used in aviation are typically...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: multi-channel receivers
+          wrongAnswers:
+            - text: multiplex receivers
+            - text: two channel receivers
+            - text: sequential receivers
+- id: QVKLP
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621086
+    - AVEXAM-54264
+    - BGS-620563
+    - BGS-620564
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.03
+  templates:
+    - type: simple
+      question: The different segments of the satellite navigation system NAVSTAR/GPS are the..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: control, space, and user.
+          wrongAnswers:
+            - text: atomic clock, power supply, and transponder.
+            - text: main control station, the monitoring station, and the ground antennas.
+            - text: antenna, the receiver, and the central control unit.
+    - type: simple
+      question: One of the tasks of the control segment of the satellite navigation system NAVSTAR/GPS is to…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: monitor the status of the satellites.
+          wrongAnswers:
+            - text: manipulate the signals of selected satellites to reduce the precision of the position fix.
+            - text: manufacture and launch the satellites.
+            - text: grant and monitor user authorisations.
+- id: QFMFV
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626678
+    - BGS-621260
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.04
+  templates:
+    - type: simple
+      question: A NAVSTAR GPS satellite broadcasts on two frequencies. What is broadcast on both L1 and L2 frequencies?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ranging signals
+          wrongAnswers:
+            - text: C/A code
+            - text: SBAS signals
+            - text: RAIM code
+- id: QPIEF
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622033
+    - BGS-621418
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.04
+  templates:
+    - type: simple
+      question: "GPS satellites broadcast signals that enable a suitable receiver to obtain a position. Each satellite transmits:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ranging signals on the L1 and L2 UHF frequencies.
+          wrongAnswers:
+            - text: Receiver position data on the L1 UHF frequency only.
+            - text: Distance information for civilian users on the L1 UHF frequency only.
+            - text: Receiver position data on the L1 and L2 UHF frequencies.
+- id: QSRCD
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629013
+    - BGS-621381
+    - AVEXAM-93844
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.05
+  templates:
+    - type: simple
+      question: GPS uses two frequencies, L1 and L2. Choose the correct statement from these options.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: L1 is required for the standard positioning and timing service, SPS.
+          wrongAnswers:
+            - text: L2 is required for civilian users in order to achieve basic accuracy.
+            - text: The L2C part of L2 is required to achieve the required accuracy.
+            - text: L1 and L2 are both required for the Standard Positioning Service (SPS).
+- id: QYINS
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625740
+    - BGS-621386
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.05
+    - 062.06.01.02.06
+    - 062.06.01.02.10
+  templates:
+    - type: simple
+      question: GPS employs two frequencies, L1 and L2, to offer Standard Positioning Service (SPS) and Precise Positioning Service (PPS). L1 is essential for delivering...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: SPS using only the C/A code, while PPS requires the P code, which is transmitted on both L1 and L2.
+          wrongAnswers:
+            - text: SPS using the P code, while PPS requires both the C/A code and the P code transmitted on L1 and L2.
+            - text: PPS using both the C/A code and the P code, while SPS requires the C/A code transmitted on L2.
+            - text: PPS using only the C/A code, while SPS requires both the C/A code and the P code transmitted on L1 and L2.
+- id: QBHFY
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623840
+    - BGS-621196
+    - AVEXAM-98990
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.08
+  templates:
+    - type: multiple-correct
+      question: Which of the following are contents of the navigation message from NAVSTAR/GPS?
+      explanation: ""
+      options:
+        - text: Almanac data
+          correct: false
+        - text: Ephemeris
+          correct: false
+        - text: Satellite clock correction parameters
+          correct: true
+        - text: UTC parameters
+          correct: true
+        - text: Ionospheric model
+          correct: true
+        - text: Satellite health data
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QBMFC
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621928
+    - AVEXAM-2949
+    - ATPLQ-624952
+    - BGS-621597
+    - AVEXAM-26832
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.08
+  templates:
+    - type: simple
+      question: |-
+        Regarding NAVSTAR/GPS which of the following statements is correct?
+
+        1\. It takes 7 minutes for a GPS receiver to receive all the data frames in the navigation message   
+        2\. The almanac contains only the orbital data of the specific satellite   
+        3\. The clock correction parameters are data for correction of the satellite clock   
+        4\. The UTC parameters are factors determining the difference between GMT and UTC
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "3"
+          wrongAnswers:
+            - text: "4"
+            - text: "1"
+            - text: "2"
+    - type: simple
+      question: |-
+        Which of the following is/are subjected to the AIRAC cycle?
+
+         Navigation database
+         Performance database
+         FMS software
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) only
+          wrongAnswers:
+            - text: (2) only
+            - text: (1) and (2)
+            - text: (1), (2) and (3)
+- id: QBMFW
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623911
+    - AVEXAM-67333
+    - BGS-621013
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.09
+  templates:
+    - type: simple
+      question: The navigation message of a GPS satellite contains the parameters of the model of the ionosphere. This enables..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the receiver to calculate the delay of GPS signals passing through the ionosphere.
+          wrongAnswers:
+            - text: the use of the satellites with the least tropospheric delay.
+            - text: the authorised users to work on the L1 and L2 frequencies.
+            - text: the receiver to choose the satellites with the best geometric dilution of precision.
+- id: QZEHE
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - BGS-620532
+    - AVEXAM-63124
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.09
+  templates:
+    - type: simple
+      question: Which of the following lists all the parameters that can be determined by a GPS receiver tracking signals from 4 different satellites?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Latitude, longitude, altitude and time.
+          wrongAnswers:
+            - text: Latitude and longitude
+            - text: Latitude, longitude and time.
+            - text: Latitude, longitude and altitude.
+    - type: simple
+      question: Which of the following lists all the parameters that can be determined by a GNSS receiver tracking signals from 4 different satellites?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Latitude, longitude, altitude and time.
+          wrongAnswers:
+            - text: Latitude, longitude and time.
+            - text: Latitude, longitude and altitude.
+            - text: Latitude and longitude.
+- id: QUCLR
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623608
+    - AVEXAM-14254
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.10
+  templates:
+    - type: simple
+      question: Which of the follwing codes can an unauthorized aircraft read?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: C/A codes
+          wrongAnswers:
+            - text: Neither C/A nor P codes
+            - text: P and C/A codes
+            - text: P codes
+- id: QYFLG
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627669
+    - AVEXAM-45370
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.11
+  templates:
+    - type: multiple-correct
+      question: Which of the following statements correctly describe the clock system in the Galileo Global Navigation Satellite System (GNSS)?
+      explanation: ""
+      options:
+        - text: There are two independent, identical atomic clocks on each satellite.
+          correct: false
+        - text: There are two independent, non-identical atomic clocks on each satellite.
+          correct: true
+        - text: There is one master atomic clock and one reference clock on each satellite.
+          correct: false
+        - text: The satellite clocks are synchronised with each other.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QHTQQ
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622635
+    - BGS-621018
+    - AVEXAM-66478
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.13
+  templates:
+    - type: simple
+      question: Which statement is true about the navigation data in the navigation message of GPS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The navigation data are uploaded to the satellites by the GPS control segment.
+          wrongAnswers:
+            - text: The navigation data are checked and, if necessary, corrected by the satellite itself.
+            - text: The navigation data are valid for a period of 28 days.
+            - text: During normal operation, the navigation data of one satellite are checked by other satellites in the constellation and, if necessary, corrected.
+- id: QMMHH
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629828
+    - BGS-620915
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.14
+  templates:
+    - type: simple
+      question: "In general a GNSS-receiver is able to determine:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a three dimensional position, groundspeed and a precise time reference.
+          wrongAnswers:
+            - text: only a three dimensional position and groundspeed.
+            - text: only a three dimensional position.
+            - text: only a three dimensional position and a time reference.
+- id: QJEYD
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626599
+    - AVEXAM-46990
+    - BGS-620678
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.15
+  templates:
+    - type: simple
+      question: What is a common characteristic of GPS, GLONASS and GALILEO?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: All three systems use time measurement to determine a position.
+          wrongAnswers:
+            - text: They all reach their highest degree of accuracy in polar areas.
+            - text: For position fixing they are all based on the WGS 84 ellipsoid.
+            - text: They are all using the same frequencies to permit a single receiver to work all three systems.
+- id: QAZTA
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - BGS-620540
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.17
+  templates:
+    - type: simple
+      question: Why is the measured distance between a NAVSTAR/GPS satellite and a receiver called a pseudo-range?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The calculated range includes receiver clock error.
+          wrongAnswers:
+            - text: The measured distance is based on the pseudo random noise code.
+            - text: The movement of the satellite and receiver during the distance calculation is excluded.
+            - text: The calculated range is based on an idealised Keplerian orbit.
+- id: QGYSM
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629327
+    - BGS-620870
+    - AVEXAM-41308
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.17
+  templates:
+    - type: simple
+      question: Each range calculated by the GPS-receiver defines
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a sphere with its centre at the satellite.
+          wrongAnswers:
+            - text: a sphere with its centre at the receiver.
+            - text: a circle with its centre at the receiver.
+            - text: a circle with its centre at the satellite.
+- id: QDFPP
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622499
+    - AVEXAM-60356
+    - BGS-621284
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.18
+    - 062.06.02.01.01
+  templates:
+    - type: simple
+      question: "Ground-Based Augmentation System (GBAS) provides differential GPS positioning to calculate an error correction. The ground-based receiver uses:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Timing signals from at least four satellites to establish the position error correction, which is then relayed to the aircraft's GPS receiver.
+          wrongAnswers:
+            - text: Only the satellites being used by the aircraft to compute the error information.
+            - text: Only one satellite to check its position with the position calculated by the incoming signal, and then relays any error back to the satellite.
+            - text: The precision codes broadcast by the satellites to determine any position errors.
+- id: QDWBX
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627827
+    - AVEXAM-82918
+    - BGS-620537
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.18
+    - 062.06.01.02.23
+  templates:
+    - type: simple
+      question: How many satellites are required for signal reception to perform an independent three-dimensional fix, Receiver Autonomous Integrity Monitoring (RAIM), and identify and exclude any faulty satellites for failure detection?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "6"
+          wrongAnswers:
+            - text: "4"
+            - text: "7"
+            - text: "5"
+- id: QNEYO
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624981
+    - AVEXAM-37261
+    - BGS-620529
+    - BGS-620535
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.18
+  templates:
+    - type: simple
+      question: What is the minimum number of satellites required by a GPS in order to obtain a three dimensional fix?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "4"
+          wrongAnswers:
+            - text: "5"
+            - text: "3"
+            - text: "6"
+    - type: simple
+      question: What is the minimum number of satellites required for the NAVSTAR/GPS to carry out two dimensional operation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "3"
+          wrongAnswers:
+            - text: "4"
+            - text: "5"
+            - text: "2"
+- id: QTRXC
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623362
+    - AVEXAM-32152
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.18
+  templates:
+    - type: simple
+      question: How many satellites are required for GBAS to function correctly?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 4 satellites are required for GBAS operations.
+          wrongAnswers:
+            - text: GBAS uses the signals from at least 3 geostationary satellites.
+            - text: GBAS uses the exact same satellites as the receiver in the aircraft.
+            - text: GBAS requires at least 5 satellites to detect and exclude the possible faulty satellite.
+- id: QAPFO
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628592
+    - BGS-620988
+    - AVEXAM-10191
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.20
+  templates:
+    - type: simple
+      question: The Doppler frequency shift of the received GPS carrier frequency may be used to..
+      explanation: The receiver can measure the Doppler shift of the satellite carrier frequency and, from it, the relative velocity, and so calculate the groundspeed.
+      presets:
+        - correctAnswers:
+            - text: calculate the groundspeed of the aircraft.
+          wrongAnswers:
+            - text: correct the calculated position for frequency shifts.
+            - text: correct the calculated position for a change in receiver clock error.
+            - text: calculate the height of the aircraft more accurately.
+- id: QIVEK
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626535
+    - AVEXAM-34350
+    - BGS-620904
+    - ATPLQ-628014
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.20
+  templates:
+    - type: simple
+      question: How is the GPS receiver able to calculate aircraft's ground speed?
+      explanation: The Doppler frequency shift of the signal from the satellite gives the relative velocity between the satellite and the receiver, from which the ground speed is calculated. Pseudo-range measurements are used for position.
+      presets:
+        - correctAnswers:
+            - text: Using the space vehicle (SV) Doppler frequency shift.
+          wrongAnswers:
+            - text: Using the time measured from the signal leaving the satellite to the receiver.
+            - text: Using the pseudo-range measurements.
+            - text: Using aircraft position and known reference points on the ground.
+- id: QUREU
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335839
+    - AVEXAM-53657
+    - BGS-331047
+    - AVEXAM-7029
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.21
+    - 062.06.01.02.23
+  templates:
+    - type: simple
+      question: The purpose of the Receiver Autonomous Integrity Monitoring (RAIM) is to ensure the (1) \_\_\_\_\_ of the GNSS navigation signals. For the RAIM function, at least one additional (2) \_\_\_\_\_ needs to be available to determine with precision its actual position and known potential error.
+      explanation: "RAIM ensures the integrity of the GNSS signals. It needs redundant measurements: at least one satellite more than the four needed for a position fix."
+      presets:
+        - correctAnswers:
+            - text: (1) integrity; (2) satellite
+          wrongAnswers:
+            - text: (1) availability; (2) receiver
+            - text: (1) availability; (2) satellite
+            - text: (1) integrity; (2) receiver
+- id: QKVMN
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621105
+    - BGS-620533
+    - BGS-620527
+    - AVEXAM-65555
+    - AVEXAM-17900
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.21
+  templates:
+    - type: simple
+      question: "In a Satellite-Assisted Navigation System (GNSS/GPS), a fix is obtained by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: measuring the time taken for a minimum number of satellites' transmissions, in known positions, to reach the aircraft's receiver.
+          wrongAnswers:
+            - text: measuring the time taken for an aircraft's transmissions to travel to a number of satellites, in known positions, and return to the aircraft's receiver.
+            - text: the aircraft's receiver measuring the phase angle of signals received from a number of satellites in known positions.
+            - text: measuring the pulse lengths of signals received from a minimum number of satellites received in a specific sequential order.
+    - type: simple
+      question: In a Satellite-Assisted Navigation System (GNSS/GPS) a position line is obtained by…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: timing the period that is taken for a satellite's transmission to reach the aircraft's receiver.
+          wrongAnswers:
+            - text: the aircraft's receiver measuring the time difference between signals received from a minimum number of satellites.
+            - text: timing the period that is taken for a transmission from the aircraft's transmitter/receiver to reach and return from a satellite in a known position.
+            - text: the aircraft's receiver measuring the phase angle of the signal received from a satellite in a known position.
+        - correctAnswers:
+            - text: timing the period that is taken for a satellites transmission to reach the aircraft receiver.
+          wrongAnswers:
+            - text: the aircraft receiver measuring the phase angle of the signal received from a satellite in a known position.
+            - text: timing the period that is taken for a transmission from the aircraft transmitter/receiver to reach and return from a satellite in a known position.
+            - text: the aircraft receiver measuring the time difference between signals received from a minimum number of satellites.
+- id: QVDXO
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds:
+    - QVHBJ
+  externalQuestionIds:
+    - ATPLQ-628394
+    - BGS-620582
+    - AVEXAM-64705
+    - AVEXAM-28223
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.21
+  templates:
+    - type: simple
+      question: What is the meaning of the term Receiver Autonomous Integrity Monitoring (RAIM) with regards to GPS/NAVSTAR?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It is a technique by which a receiver checks the reliability of the signals it is receiving and can detect if one of the signals is incorrect.
+          wrongAnswers:
+            - text: It is the ability of the GPS satellites to check the integrity of the data transmitted by the monitoring stations of the ground segment.
+            - text: It is a technique whereby the receivers of the world-wide distributed monitor stations (ground segment) automatically determine the integrity of the navigation message.
+            - text: It is a method whereby a receiver ensures the integrity of the Pseudo Random Noise (PRN) code transmitted by the satellites.
+- id: QVHBJ
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds:
+    - QVDXO
+  externalQuestionIds:
+    - ATPLQ-625815
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.21
+  templates:
+    - type: simple
+      question: Referring to the NAVSTAR/GPS satellite navigation system, what is the meaning of the term Receiver Autonomous Integrity Monitoring (RAIM)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: it is a technique that ensures the integrity of the provided data by redundant measurements.
+          wrongAnswers:
+            - text: it is a technique whereby the receivers of the world-wide distributed monitor stations – ground segment – automatically determine the integrity of the navigation message.
+            - text: it is a method whereby a receiver ensures the integrity of the Pseudo Random Noise -PRN- code transmitted by the satellites.
+            - text: it is the ability of the GPS satellites to check the integrity of the data transmitted by the monitoring stations of the ground segment.
+- id: QYTTK
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628539
+    - AVEXAM-44397
+    - BGS-621322
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.21
+  templates:
+    - type: simple
+      question: What is the definition of Receiver Autonomous Integrity Monitoring (RAIM) as a system utilised by an aviation GNSS receiver? RAIM is the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: use of redundant range measurements to verify the position produced by the minimum number of satellites required for a 3D fix.
+          wrongAnswers:
+            - text: ability of the receiver to perform a receiver clock-error computation and enhance the accuracy of the initial pseudo-ranges.
+            - text: exclusion of faulty satellites by means of comparing the satellite clock data and isolating satellites transmitting differing clock data.
+            - text: use of ground-based facilities such as VOR and/or DME to verify and enhance the accuracy of its calculated position.
+- id: QHQTR
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623178
+    - BGS-621321
+    - AVEXAM-98802
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.22
+  templates:
+    - type: simple
+      question: Receiver Autonomous Integrity Monitoring (RAIM) is a method used to ensure GNSS position integrity within a GNSS receiver. This is achieved by using the 3D position and timing data from...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: any number of visible satellites beyond 4 to create several independent positions which should agree.
+          wrongAnswers:
+            - text: multiple aircraft systems and compare to the GPS 3D position and time data to check for consistency.
+            - text: more than one GPS receiver and compare these to eliminate the receiver that shows incorrect data.
+            - text: a database in the GPS receiver and compare to the 3D position and time data derived from 4 satellites.
+- id: QXMVP
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627874
+    - AVEXAM-83460
+    - BGS-621169
+    - ATPLQ-624084
+    - BGS-621593
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.22
+    - 062.06.01.02.23
+  templates:
+    - type: simple
+      question: Receiver Autonomous Integrity Monitoring (RAIM) is a method used to ensure the integrity of navigational data. With GNSS, this is achieved by…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: checking the consistency of the range measurements from a group of at least five satellites.
+          wrongAnswers:
+            - text: averaging the position solutions obtained from five satellites.
+            - text: using information from additional on-board sensors such as the Inertial Reference System (IRS)
+            - text: applying the ionospheric and atmospheric corrections to the range measurements from satellites.
+    - type: simple
+      question: Receiver autonomous integrity monitoring (RAIM) is achieved by consistency checks between the range measurements…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: of the GNSS satellites in view.
+          wrongAnswers:
+            - text: obtained from VOR ground stations.
+            - text: provided by DME ground stations.
+            - text: provided by the WAAS or EGNOS satellites.
+- id: QEPVV
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds:
+    - QICZX
+  externalQuestionIds:
+    - ATPLQ-623684
+    - AVEXAM-99183
+    - BGS-621399
+    - AVEXAM-27320
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.23
+  templates:
+    - type: simple
+      question: "Assume that one of the satellites used by a GPS-receiver is faulty. When the signals of 5 satellites are received (including the faulty one) the RAIM software in the receiver:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is able to detect that one of the satellites is faulty but is unable to identify the faulty one.
+          wrongAnswers:
+            - text: is unable to detect and identify the faulty satellite.
+            - text: is able to detect that one of the satellites is faulty and is able to identify the faulty one.
+            - text: is not active, as the software needs at least 8 satellites to function correctly.
+- id: QICZX
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds:
+    - QEPVV
+  externalQuestionIds:
+    - ATPLQ-621571
+    - AVEXAM-7335
+    - BGS-620893
+    - BGS-621055
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.23
+  templates:
+    - type: simple
+      question: "Assume that one of the satellites used by a GPS receiver is faulty and that the PDOP has a relatively low value. When the signals of six satellites are received (including the faulty one) the RAIM software in the receiver is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Able to detect that one of the satellites is faulty and is able to identify and isolate the faulty one.
+          wrongAnswers:
+            - text: Able to detect that one of the satellites is faulty but is unable to identify the faulty one.
+            - text: Unable to detect and identify the faulty satellite.
+            - text: NOT active, as the software needs at least eight satellites to function correctly.
+- id: QNWWY
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629771
+    - BGS-620818
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.23
+  templates:
+    - type: simple
+      question: Which of the following correctly describes the principle of Receiver Autonomous Integrity Monitoring (RAIM)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: requires at least five satellites with good geometry to provide the service of detecting faulty signals and alerting the crew.
+          wrongAnswers:
+            - text: is guaranteed to be available for all scheduled flight operations at mid-latitudes.
+            - text: must be assured at all times in order to utilise Global Navigation Satellite System (GNSS) signals in any augmentation system.
+            - text: is available if range from at least three satellites is supplemented by barometric aiding.
+- id: QRNCP
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629534
+    - BGS-621494
+    - AVEXAM-29808
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.23
+  templates:
+    - type: simple
+      question: |-
+        Complete the following sentence:
+
+        Receiver Autonomous Integrity Monitoring (RAIM) of GNSS signals requires (1) \_\_\_\_\_ satellites with good geometry. For Fault Detection and Exclusion (FDE) (2) \_\_\_\_\_ satellites are required.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) five; (2) six
+          wrongAnswers:
+            - text: (1) six; (2) seven
+            - text: (1) three; (2) four
+            - text: (1) four; (2) five
+- id: QINGJ
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624792
+    - AVEXAM-22839
+    - BGS-621404
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.24
+  templates:
+    - type: simple
+      question: With regards to ICAO Annex 10, Volume 1, GPS and GLONASS...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: can both be used in a suitably equipped aircraft as the systems are compatible and their functions are interoperable.
+          wrongAnswers:
+            - text: are two completely separate systems but only GPS is capable of providing approved position data.
+            - text: can both be used, but because their information is NOT compatible an aircraft CANNOT use both systems.
+            - text: are two separate systems and only GPS is covered by EU regulations so only that service can be used by European Operators.
+- id: QLCYL
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds:
+    - QYEXX
+  externalQuestionIds:
+    - ATPLQ-626916
+    - BGS-621254
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.24
+    - 062.06.01.02.25
+  templates:
+    - type: simple
+      question: Which statement is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: NAVSTAR GPS and GLONASS use different data for navigation services but are interoperable.
+          wrongAnswers:
+            - text: NAVSTAR GPS and GLONASS use different data for navigation services, and for this reason they are NOT interoperable.
+            - text: NAVSTAR GPS and GLONASS use the same data for navigation services but are NOT interoperable.
+            - text: NAVSTAR GPS and GLONASS use the same data for navigation services, by agreement.
+- id: QYEXX
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds:
+    - QLCYL
+  externalQuestionIds:
+    - ATPLQ-623231
+    - AVEXAM-88323
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.02.24
+    - 062.06.01.02.25
+  templates:
+    - type: simple
+      question: "What is correct regarding NAVSTAR GPS and GLONASS? The two systems have:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Different data for navigation services but are interoperable.
+          wrongAnswers:
+            - text: Different data for navigation services, and for this reason they are NOT interoperable.
+            - text: The same data for navigation services, by agreement.
+            - text: The same data for navigation services but are NOT interoperable.
+- id: QKQFJ
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628520
+    - AVEXAM-19669
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.03.01
+    - 062.06.01.03.02
+  templates:
+    - type: simple
+      question: What factors contribute to the formation of User Equivalent Range Error (UERE)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Combination of various errors including Selective Availability (SA), Ephemeris Error (EE), Satellite Clock Error, and Atmospheric Delays.
+          wrongAnswers:
+            - text: Position Dilution of Precision (PDOP) and Ephemeris Error (EE).
+            - text: Geometric Dilution of Precision (GDOP) and Ionospheric Delay.
+            - text: Satellite Clock Error and Tropospheric Delay.
+- id: QUFKS
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628611
+    - BGS-620536
+    - AVEXAM-21995
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.03.01
+  templates:
+    - type: simple
+      question: Which of the following options correctly lists errors that affect the accuracy and reliability of the Satellite-Assisted Navigation system (GNSS/GPS)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Satellite clock, satellite ephemeris, and ionospheric propagation.
+          wrongAnswers:
+            - text: Satellite mutual interference, frequency drift, and satellite to ground time lag.
+            - text: Satellite to ground time lag, atmospheric propagation, and satellite clock.
+            - text: Satellite mutual interference, satellite ephemeris, and atmospheric propagation.
+- id: QAUSR
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624156
+    - AVEXAM-80100
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.03.02
+  templates:
+    - type: simple
+      question: Which of the following errors are used to calculate UERE?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The sum of errors that affect pseudo range.
+          wrongAnswers:
+            - text: Troposhpheric delay and satellite clock error.
+            - text: Satellite clock error and ionospheric modelling.
+            - text: Satellite clock error and GDOP.
+        - correctAnswers:
+            - text: The sum of errors that affect pseudo range.
+          wrongAnswers:
+            - text: Tropospheric delay and satellite clock error.
+            - text: Satellite clock error and GDOP.
+            - text: Satellite clock error and ionospheric modelling.
+- id: QAQMS
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622754
+    - AVEXAM-72988
+    - BGS-621209
+    - BGS-621165
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.03.02
+  templates:
+    - type: simple
+      question: "In the Global Navigation Satellite System (GNSS), what is the User Equivalent Range Error (UERE)? It is a computed value for:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Residual errors in the receivers which have not been corrected.
+          wrongAnswers:
+            - text: Inaccuracies from the geometry of the satellites above the user's horizon.
+            - text: The correction for the receiver errors as transmitted in the navigation message.
+            - text: The correction for the receiver clock error as transmitted by a differential station.
+- id: QVKJD
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621350
+    - AVEXAM-69423
+    - BGS-620754
+    - ATPLQ-621006
+    - AVEXAM-45887
+    - BGS-620581
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.03.03
+  templates:
+    - type: simple
+      question: By using both GPS frequencies L1 and L2, GPS receivers can almost eliminate..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ionospheric propagation delay.
+          wrongAnswers:
+            - text: atmospheric propagation delay.
+            - text: both ionospheric and atmospheric propagation delay.
+            - text: position dilution of precision.
+    - type: simple
+      question: Which one of the following errors can be compensated for by a NAVSTAR/GPS receiver comparing L1 and L2 frequencies?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ionospheric delay
+          wrongAnswers:
+            - text: Tropospheric
+            - text: Receiver noise
+            - text: Multipath
+- id: QASEJ
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628540
+    - AVEXAM-39521
+    - BGS-621261
+    - BGS-621407
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.03.04
+  templates:
+    - type: simple
+      question: "User Equivalent Range Error (UERE) or User Range Accuracy (URA) is a signal-in-space error consisting of several individual errors. The most significant of these errors is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: lonospheric Propagation Delay (IPD)
+          wrongAnswers:
+            - text: Receiver clock error
+            - text: Dilution of Precision (DOP)
+            - text: Satellite clock errors
+- id: QHOAL
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623714
+    - AVEXAM-27856
+    - BGS-621422
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.03.05
+  templates:
+    - type: simple
+      question: One of the more significant errors that reduces the accuracy of the GNSS signal-in-space is…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: dilution of precision caused by the relative positions of the navigation satellites.
+          wrongAnswers:
+            - text: interference from other space vehicles operating in the same frequency band.
+            - text: receiver clock error caused by variations in the satellites' orbits.
+            - text: tropospheric propagation delay caused by pollution in lower atmospheric layers.
+- id: QURFG
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629405
+    - AVEXAM-45390
+    - BGS-620523
+    - AVEXAM-81004
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.03.05
+  templates:
+    - type: simple
+      question: "Geometric Dilution of precision (GDOP) error can be minimized when:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Three satellites are spaced by 120 degrees in azimuth and one satellite is directly overhead.
+          wrongAnswers:
+            - text: Four satellites are spaced by 90 degrees in azimuth.
+            - text: Two satellites are spaced by 180 degrees in azimuth, one satellite is directly overhead, and one satellite is directly opposed to the satellite overhead.
+            - text: Three satellites are spaced by 120 degrees in the vertical plane and one satellite is directly overhead.
+- id: QITOF
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626907
+    - BGS-621525
+    - ATPLQ-629658
+    - AVEXAM-67718
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.03.06
+  templates:
+    - type: simple
+      question: Which pair of factors, when brought together, can establish the estimate of the GNSS position accuracy?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The User Equivalent Range Error (UERE) and the Geometric Dilution of Precision (GDOP).
+          wrongAnswers:
+            - text: The User Equivalent Range Error (UERE) and Precision Dilution of Precision (PDOP).
+            - text: The Time Dilution of Precision (TDOP) and the Geometric Dilution of Precision (GDOP).
+            - text: The Horizontal Dilution of Precision (HDOP) and Vertical Dilution of Precision (VDOP).
+- id: QGSAO
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629221
+    - BGS-621372
+    - AVEXAM-57235
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.01.03.07
+  templates:
+    - type: simple
+      question: User Equivalent Range Error (UERE) or User Range Error (URE) is a signal in space error consisting of several individual GNSS errors. One of these individual errors consists of the variations of the satellites' orbits, called ephemeris. What causes this ephemeris error to occur?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: solar winds and gravitational forces of the Sun and the Moon.
+          wrongAnswers:
+            - text: jet streams and areas of significant weather along the orbit.
+            - text: stronger than forecast ionospheric winds and electromagnetic forces.
+            - text: high solar activity causing variations to the depth of the ionosphere.
+- id: QBURS
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629329
+    - AVEXAM-72460
+    - ATPLQ-627856
+    - BGS-621629
+    - AVEXAM-59338
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.01.01
+  templates:
+    - type: simple
+      question: The system capable of "on the ground" measuring the signal errors transmitted by GNSS satellites and relaying the measured errors to the user for receiver correction is?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: GBAS
+          wrongAnswers:
+            - text: ABAS
+            - text: SBAS
+            - text: TBAS
+- id: QYXPJ
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621616
+    - BGS-621410
+    - AVEXAM-99533
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.01.01
+  templates:
+    - type: simple
+      question: Some of the inherent errors in NAVSTAR/GPS signals can be corrected by using a Ground Based Augmentation System (GBAS). The GBAS station…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is located in an accurately surveyed position and analyses the received signals to provide an error correction.
+          wrongAnswers:
+            - text: will only calculate errors in the signals that are being viewed by the users receiver.
+            - text: transmits error information to each satellite where there is a conflict as regards position.
+            - text: checks the position calculated by the received signals against its own position, then sends error signals back to the satellites, which correct the errors.
+- id: QYZEV
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629220
+    - AVEXAM-72133
+    - BGS-620524
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.01.01
+  templates:
+    - type: simple
+      question: In relation to the NAVSTAR/GPS satellite navigation system, what is involved in the differential technique (D-GPS)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Fixed ground stations compute position errors and transmit correction data to a suitable receiver on the aircraft.
+          wrongAnswers:
+            - text: Receivers from various manufacturers are operated in parallel to reduce the characteristic receiver noise error.
+            - text: The difference between signals transmitted on the L1 and L2 frequencies are processed by the receiver to determine an error correction.
+            - text: Signals from satellites are received by 2 different antennas which are located a fixed distance apart. This enables a suitable receiver on the aircraft to recognise and correct for multipath errors.
+- id: QDJZL
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623454
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.01.02
+  templates:
+    - type: simple
+      question: How is GBAS information sent from the ground station to the aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VHF datalink.
+          wrongAnswers:
+            - text: VHF voice transmission.
+            - text: UHF voice transmission.
+            - text: UHF datalink.
+- id: QRYGF
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628208
+    - AVEXAM-16715
+    - AVEXAM-56303
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.01.02
+  templates:
+    - type: simple
+      question: What is the frequency band of the GBAS data link?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VHF band of ILS and VOR systems.
+          wrongAnswers:
+            - text: VHF band 108.0 to 111.975 MHz.
+            - text: UHF band between 960 - 1215 MHz.
+            - text: A signal with the same frequency as GPS.
+- id: QGUYR
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623360
+    - BGS-621286
+    - AVEXAM-50201
+    - BGS-621515
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.01.03
+  templates:
+    - type: simple
+      question: The typical coverage of a Ground-Based Augmentation System (GBAS) station is approximately…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 20 NM
+          wrongAnswers:
+            - text: 10 NM
+            - text: 25 NM
+            - text: 30 NM
+- id: QCRHH
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627749
+    - BGS-620853
+    - AVEXAM-70469
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.01.04
+  templates:
+    - type: simple
+      question: What is one of the advantages of GLS (GBAS Landing System) compared to ILS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: GLS allows for more precise navigation within the vicinity of the airfield.
+          wrongAnswers:
+            - text: Aircraft fitted with GPS receivers do NOT need any additional receivers for GBAS operations.
+            - text: GLS approaches do NOT need to be published.
+            - text: GLS approaches are approved for low visibility operations.
+- id: QMALZ
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626362
+    - AVEXAM-71034
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.01.04
+  templates:
+    - type: simple
+      question: How does the GBAS precision approach work?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A GBAS ground station sends correction data to the aircraft, which uses the data to determine the correct azimuth and glidepath.
+          wrongAnswers:
+            - text: A GBAS station sends approach path information directly to the aircraft.
+            - text: A GBAS satellite sends azimuth and glidepath information to the aircraft.
+            - text: A GBAS ground station sends correction signals to a ground transmitter, which sends azimuth and glidepath information to the aircraft.
+- id: QPRYR
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622255
+    - BGS-621166
+    - AVEXAM-72408
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.01.05
+  templates:
+    - type: simple
+      question: Ground Based Augmentation System (GBAS) provides data which defines the Final Approach Segment (FAS). The data is transmitted on…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VHF to arriving aircraft, together with differential position corrections and integrity information for each satellite.
+          wrongAnswers:
+            - text: UHF providing error corrections for the glide slope.
+            - text: VHF to arriving aircraft to correct any anomalies in the localiser aspect of the approach.
+            - text: UHF to arriving aircraft, together with differential position corrections and integrity information for each satellite in view.
+- id: QHVPE
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624743
+    - BGS-621208
+    - ATPLQ-627146
+  annexes:
+    - id: ARBS
+  learningObjectiveIds:
+    - 062.06.02.01.06
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which of these diagrams shows the correct standard coverage area for a Ground-Based Augmentation System (GBAS) providing three-dimensional (3D) guidance in the final approach segment?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Figure D
+          wrongAnswers:
+            - text: Figure B
+            - text: Figure A
+            - text: Figure C
+- id: QVNCX
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624681
+    - BGS-621230
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.01.06
+  templates:
+    - type: simple
+      question: An aircraft is being vectored for a GLS approach. ATC has given a final heading in order for the aircraft to intercept the final approach course at 25 NM from the landing runway threshold. What should the pilot do?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: They should NOT accept the vector because it is outside the minimum software-designed coverage area for this approach.
+          wrongAnswers:
+            - text: Accept the vector because it is within the minimum software-designed coverage area for this type of approach.
+            - text: They may accept this vector because satellite-based approaches have NO minimum software-designed coverage area limitations.
+            - text: They should NOT accept the vector because the minimum software-designed coverage area for this approach is 12 NM from the landing runway threshold.
+    - type: simple
+      question: An aircraft is vectored for a GLS approach. ATC has provided the final approach course intercept heading to join the final approach course at 25 NM from the landing runway threshold. The pilot...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: should NOT accept the vector because it is outside the minimum software designed coverage area for this approach.
+          wrongAnswers:
+            - text: should NOT accept the vector because the minimum software designed coverage area for this approach is 12 NM from the landing runway threshold.
+            - text: can accept the vector because satellite-based approaches have NO minimum software designed coverage area limitations.
+            - text: can accept the vector because it is within the minimum software designed coverage area for this approach.
+- id: QDLNY
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629529
+    - AVEXAM-23603
+    - BGS-621314
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.01.09
+  templates:
+    - type: simple
+      question: A GNSS approach may achieve lower minima by using correction signals from a nearby ground station within the limits of a small, defined geographical area (historically known as LAAS, Local Area Augmentation System). An example of such an approach is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: GLS approach (GBAS Landing System) to CAT I, II or III standard.
+          wrongAnswers:
+            - text: LNAV/VNAV approach procedure to CAT I, II or III standard.
+            - text: APV (Approach Procedure with Vertical guidance) to CATI, II or III standard.
+            - text: ILS approach (Instrument Landing System) to CAT I, II or III standard.
+- id: QQQCW
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625816
+    - AVEXAM-16008
+    - BGS-620683
+    - BGS-621040
+    - ATPLQ-622183
+    - AVEXAM-24514
+    - BGS-621038
+    - ATPLQ-624656
+    - AVEXAM-78090
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.02.01
+    - 062.06.02.02.08
+  templates:
+    - type: simple
+      question: Which statement is correct about the SBAS (Satellite-Based Augmentation Systems)?
+      explanation: In an SBAS, ground stations measure the errors, and the corrections are broadcast to users by geostationary satellites.
+      presets:
+        - correctAnswers:
+            - text: In an SBAS the pseudo range corrections are sent to the users by geostationary satellites.
+          wrongAnswers:
+            - text: In an SBAS the pseudo range corrections are determined by geostationary satellites and sent to the users by a network of ground stations.
+            - text: In an SBAS the pseudo range corrections are determined by geostationary satellites and sent to the users by the satellite of the satellite systems (e.g. by GPS satellites for GPS).
+            - text: In an SBAS the pseudo range corrections are sent to the users by the satellite of the satellite systems (e.g. by GPS satellites for GPS).
+        - correctAnswers:
+            - text: The use of SBAS improves both the accuracy and the integrity of the position of the user.
+          wrongAnswers:
+            - text: The use of SBAS improves neither the integrity nor the accuracy of the position of the user, but augments the number of satellites available.
+            - text: The use of SBAS improves the accuracy of the position of the user but does not improve the integrity.
+            - text: The use of SBAS improves the integrity of the position of the user but does not improve the accuracy.
+- id: QPERE
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623056
+    - AVEXAM-92093
+    - BGS-621036
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.02.02
+  templates:
+    - type: simple
+      question: What is the frequency band used by the data-link of a GPS-based Satellite Based Augmentation System (SBAS)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: UHF
+          wrongAnswers:
+            - text: HF
+            - text: VHF
+            - text: SHF
+- id: QYQSL
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622412
+    - AVEXAM-65182
+    - BGS-621385
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.02.02
+    - 062.06.02.02.03
+  templates:
+    - type: simple
+      question: Flying around different parts of Europe, it is apparent that there are a significant number of EGNOS based procedures available. When it comes to approaches, all parts of the continent use the same EGNOS system but for each runway there is a given 5-digit channel number. Which of the following statements is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: EGNOS covers an extensive area by using geostationary satellites and the channel number is used for approach identification only since EGNOS uses the normal GPS frequency.
+          wrongAnswers:
+            - text: Any GNSS receivers are by default capable of using the EGNOS signals since they use the same frequency as GPS whereas additional equipment is needed to receive GBAS.
+            - text: EGNOS is the European SBAS that is used to improve accuracy and integrity of general GNSS navigation and GBAS is used to augment SBAS when selecting its channel number.
+            - text: EGNOS is the European satellite system running in parallel with GPS but has more satellites, enabling greater accuracy, and the channel number is to tune the receiver to EGNOS.
+- id: QWPMJ
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-628101
+    - BGS-621517
+    - AVEXAM-80978
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.02.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. 
+         
+        An aircraft is cleared to execute an RNP approach. The pilots cannot find anywhere to enter the channel number in the GNSS receiver in their aircraft. Which of the following statements is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: This GNSS receiver does NOT support SBAS and therefore any EGNOS-based minima are unavailable and non-augmented GNSS minima must be chosen.
+          wrongAnswers:
+            - text: The GNSS receiver may still be used for EGNOS-based approaches since it is an independent navigation system but using the standard GPS frequency.
+            - text: The channel number is a code for the VHF frequency of the GBAS transmitter that forms part of the EGNOS and must be selected on the VOR receiver.
+            - text: This does NOT affect the ability to fly a GNSS approach augmented by SBAS, provided the FAS data block is manually programmed by the pilots.
+    - type: simple
+      question: While preparing the aircraft for making the RNP approach into an airport, attention is drawn to the information highlighted in red on the relevant chart extract. There was a last-minute aircraft change before departure and the pilots cannot find anywhere to enter the channel number in the GNSS receiver in this aircraft. What implications does that have when the RNP approach is the only available instrument approach procedure?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "This GNSS receiver does NOT support SBAS and therefore any EGNOS-based\rminima are unavailable and non-augmented GNSS minima must be chosen."
+          wrongAnswers:
+            - text: The GNSS receiver may still be used for EGNOS-based approaches since it is an independent navigation system but using the standard GPS frequency.
+            - text: "This does NOT affect the ability to fly a GNSS approach augmented by SBAS,\rprovided the FAS data block is manually programmed by the pilots."
+            - text: The channel number is a code for the VHF frequency of the GBAS transmitter that forms part of the EGNOS and must be selected on the VOR receiver.
+    - type: simple
+      question: |-
+        An approach chart provides the following information:
+
+
+
+        EGNOS
+
+        CH 61 578
+
+        E09A
+
+
+
+        While cleared for an RNP approach, the flight crew is not able to enter the channel number in their GNSS receiver. The reason is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: This GNSS receiver does NOT support SBAS and therefore any EGNOS-based minima are unavailable and non-augmented GNSS minima must be chosen.
+          wrongAnswers:
+            - text: The channel number is a code for the VHF frequency of the GBAS transmitter that forms part of the EGNOS and must be selected on the VOR receiver.
+            - text: This does NOT affect the ability to fly a GNSS approach augmented by SBAS, provided the FAS data block is manually programmed by the pilots.
+            - text: The GNSS receiver may still be used for EGNOS-based approaches since it is an independent navigation system but using the standard GPS frequency.
+- id: QBIOI
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623106
+    - BGS-621037
+    - AVEXAM-58288
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.02.03
+  templates:
+    - type: simple
+      question: One of the advantages of a Satellite Based Augmentation System (SBAS) over a Ground Based Augmentation System (GBAS) is..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the coverage area of an SBAS is much larger than that of a GBAS.
+          wrongAnswers:
+            - text: the rate at which the pseudo-range corrections reach the users is much higher for a GBAS than for an SBAS.
+            - text: the pseudo-range corrections of an SBAS are much more accurate than those of a GBAS.
+            - text: an SBAS does not, like a GBAS, need ground stations for the estimation of the pseudo-range corrections.
+- id: QCBCR
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626167
+    - AVEXAM-78708
+    - BGS-621200
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.02.03
+    - 062.06.02.02.07
+  templates:
+    - type: simple
+      question: Which one of the following statements about EGNOS is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: EGNOS consists of 3 geostationary satellites which broadcast GPS look-alike signals in order to improve accuracy.
+          wrongAnswers:
+            - text: With EGNOS installed in an aircraft, the GNSS-receiver can use satellites from all Global Navigation Satellite Systems in order to get better accuracy.
+            - text: EGNOS can improve accuracy to 0,1 dm horizontally and 0,03 dm vertically.
+            - text: EGNOS is a local area augmentations system operation in North America.
+- id: QLDAC
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623841
+    - BGS-620901
+    - AVEXAM-37769
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.02.03
+  templates:
+    - type: simple
+      question: What is a difference between satellites used by EGNOS and those used by GPS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: EGNOS satellites are geostationary and GPS satellites are not.
+          wrongAnswers:
+            - text: EGNOS satellites have much shorter orbit times than GPS satellites.
+            - text: The signal format broadcasted by EGNOS differs considerably from GPS signal format.
+            - text: The signals broadcasted by EGNOS are more prone to multipath effects than GPS signals.
+- id: QWQIM
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-626324
+    - AVEXAM-1930
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.02.03
+    - 062.06.02.02.04
+  templates:
+    - type: simple
+      question: "Select the correct statement about the European Satellite Based Augmentation System, EGNOS:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: EGNOS uses up to 4 geostationary satellites to transmit integrity data and ranging signals to aircraft.
+          wrongAnswers:
+            - text: EGNOS uses at least 1 geostationary satellite to transmit integrity and safety related messages to aircraft.
+            - text: EGNOS uses up to 2 geostationary satellites to transmit ranging signals in the L2 frequency.
+            - text: EGNOS uses at least 3 geostationary satellites to transmit receiver clock error and integrity data.
+- id: QKOHI
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624494
+    - AVEXAM-80140
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.02.05
+  templates:
+    - type: simple
+      question: How many elements of an SBAS (Satellite Based Augmentation System) are there?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 elements
+          wrongAnswers:
+            - text: 1 element
+            - text: 3 elements
+            - text: 4 elements
+- id: QCMRI
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622273
+    - AVEXAM-31733
+    - ATPLQ-622527
+    - BGS-621039
+    - AVEXAM-63998
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.02.06
+  templates:
+    - type: simple
+      question: Which statement about a Satellite Based Augmentation System (SBAS) is correct?
+      explanation: SBAS corrects satellite signals using geostationary satellites and ground stations, and supports three-dimensional approaches with vertical guidance, which can be precision approaches. It is not an augmentation device for GBAS.
+      presets:
+        - correctAnswers:
+            - text: SBAS is able to provide guidance for precision approaches.
+          wrongAnswers:
+            - text: SBAS is an augmentation device for Ground Based Augmentation Systems.
+            - text: SBAS is able to provide approach and landing operations with vertical guidance only.
+            - text: SBAS is able to provide approach and landing operations with horizontal guidance only.
+    - type: simple
+      question: Which statement from the choice below characterises a Satellite Based Augmentation System (SBAS)?
+      explanation: SBAS supports approach and landing operations with vertical guidance. GBAS is a separate system, and SBAS corrections come from geostationary satellites, not from monitor stations to nearby users.
+      presets:
+        - correctAnswers:
+            - text: SBAS is able to provide approach and landing operations with vertical guidance.
+          wrongAnswers:
+            - text: The SBAS monitor stations send corrected positions to the users within the range of the station.
+            - text: SBAS is an augmentation device for Ground Based Augmentation Systems.
+            - text: The ground reference station transmits corrections directly to the user by VHF/UHF data-link.
+- id: QVEOG
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627073
+    - AVEXAM-59048
+    - BGS-621156
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.02.06
+  templates:
+    - type: simple
+      question: "Amongst others, SBAS allows for the implementation of:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3D Type-A and Type-B approaches.
+          wrongAnswers:
+            - text: 2D precision and non-precision approaches.
+            - text: 4D FMS approaches.
+            - text: 1D Baro-VNAV approaches.
+- id: QNUTH
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-623961
+    - AVEXAM-19837
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.02.07
+  templates:
+    - type: simple
+      question: Which of the following systems and country/region pairings is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: EGNOS - Europe
+          wrongAnswers:
+            - text: Galileo - China
+            - text: GAGAN - Japan
+            - text: WAAS - Europe
+    - type: simple
+      question: Which system and country/region pairing is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: EGNOS - Europe
+          wrongAnswers:
+            - text: GAGAN - Japan
+            - text: WAAS - Europe
+            - text: Galileo - China
+- id: QDCCN
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625678
+    - BGS-621097
+    - ATPLQ-627436
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.02.09
+  templates:
+    - type: simple
+      question: When a GPS position is augmented by EGNOS, what time to alert can be expected after a loss of integrity?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 6 seconds
+          wrongAnswers:
+            - text: 10 seconds
+            - text: 15 seconds
+            - text: 0.3 seconds
+    - type: simple
+      question: "If a GPS malfunction occurs, EGNOS provides an alert time within:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 6 seconds.
+          wrongAnswers:
+            - text: 6 minutes.
+            - text: 3 seconds.
+            - text: 3 hours.
+- id: QHXCZ
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622315
+    - BGS-621361
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.02.09
+    - 062.07.04.02.02
+  templates:
+    - type: simple
+      question: During the final approach segment of an RNP APCH using SBAS augmentation, the signal-in-space errors cause a lateral position error that is beyond the limits of the approach. What must the aircraft navigation equipment provide in this scenario?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An alert within six seconds.
+          wrongAnswers:
+            - text: A reversion to a conventional approach.
+            - text: A warning within ten seconds.
+            - text: Guidance to the missed approach.
+- id: QJFUC
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-622085
+    - BGS-621096
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.02.09
+  templates:
+    - type: simple
+      question: By using EGNOS in combination with GPS
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the integrity is improved by reducing the mean failure reporting time from up to 3 hours to 6 seconds.
+          wrongAnswers:
+            - text: no improvements are obtained apart from the redundancy.
+            - text: a better position accuracy is obtained but the integrity of the system is not improved.
+            - text: the errors caused by multi path and noise are eliminated.
+- id: QIKAI
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627459
+    - BGS-621557
+    - AVEXAM-50258
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.04.01
+  templates:
+    - type: simple
+      question: What is the purpose of ABAS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ensure integrity of navigational data.
+          wrongAnswers:
+            - text: Update IRS navigational data.
+            - text: Correct GPS altitude calculated by the FMC.
+            - text: Increase accuracy of GNSS transmission.
+- id: QXBII
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-629205
+    - AVEXAM-6579
+    - BGS-621181
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.04.01
+    - 062.06.02.04.02
+    - 062.06.02.04.04
+  templates:
+    - type: simple
+      question: An aircraft flying out of sight of land, using GNSS and ABAS (without SBAS), briefly loses power to the IRS. The navigation Information of the IRS is lost due to the temporary power loss. What effect could this failure have on how GNSS is used during the flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Reducing ABAS to RAIM and barometric altitude only.
+          wrongAnswers:
+            - text: Reduced accuracy of the GNSS position.
+            - text: Loss of all integrity monitoring of the GNSS.
+            - text: Loss of RAIM, leaving only barometric altitude for ABAS.
+- id: QYWPL
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds:
+    - QKPXL
+  externalQuestionIds:
+    - ATPLQ-624602
+    - BGS-621411
+    - AVEXAM-75165
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.04.02
+  templates:
+    - type: simple
+      question: Which of the following is an Aircraft-Based Augmentation System?
+      explanation: RAIM is an aircraft-based augmentation system, because it uses only the receiver's own GNSS data. WAAS is an SBAS, and GBAS is ground-based.
+      presets:
+        - correctAnswers:
+            - text: RAIM
+          wrongAnswers:
+            - text: WAAS
+            - text: GBAS
+            - text: SBAS
+- id: QKZAG
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-625547
+    - AVEXAM-27617
+    - BGS-621335
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.04.02
+  templates:
+    - type: simple
+      question: What is Receiver Autonomous Integrity Monitoring (RAIM)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An aircraft-based augmentation system.
+          wrongAnswers:
+            - text: An ATC-based augmentation system.
+            - text: A space-based augmentation system.
+            - text: A ground-based augmentation system.
+- id: QYRMW
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627591
+    - BGS-621312
+    - BGS-620793
+    - AVEXAM-42082
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.04.02
+  templates:
+    - type: simple
+      question: In an Airborne-Based Augmentation System (ABAS), the method of integrity monitoring that only uses information from the GNSS is called..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Receiver Autonomous Integrity Monitoring (RAIM).
+          wrongAnswers:
+            - text: Aircraft Station Autonomous Integrity Monitoring (ASAIM).
+            - text: GNSS Autonomous Integrity Monitoring (GAIM).
+            - text: Aircraft Autonomous Integrity Monitoring (AAIM).
+- id: QKPXL
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds:
+    - QYWPL
+    - QEXLE
+  externalQuestionIds:
+    - ATPLQ-629191
+    - AVEXAM-7490
+    - BGS-621071
+    - BGS-621627
+    - BGS-620891
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.04.03
+  templates:
+    - type: simple
+      question: In the case of an Airborne-Based Augmentation System (ABAS), which method of integrity monitoring uses information from GNSS and from additional on-board sensors such as Inertial Reference Systems (IRS)?
+      explanation: AAIM uses GNSS information together with other on-board sensors such as an inertial reference system. RAIM uses GNSS information only.
+      presets:
+        - correctAnswers:
+            - text: Aircraft Autonomous Integrity Monitoring (AAIM)
+          wrongAnswers:
+            - text: Receiver Autonomous Integrity Monitoring (RAIM)
+            - text: Aircraft Station Autonomous Integrity Monitoring (ASAIM)
+            - text: GNSS/IRS Autonomous Integrity Monitoring (GIAIM)
+- id: QEXLE
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds:
+    - QKPXL
+  externalQuestionIds:
+    - ATPLQ-626163
+    - AVEXAM-72820
+    - BGS-621419
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.04.03
+    - 062.06.02.04.04
+  templates:
+    - type: simple
+      question: A flight is planned to Longyear Airport in Svalbard (lat. 78°15'N), Due to the high latitude the aircraft GPS will NOT be able to achieve RAIM during the arrival phase of flight, as not enough satellites will be in view. If the aircraft is suitably equipped, which of the following systems could be used for integrity monitoring?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: AAIM (Aircraft Autonomous Integrity Monitoring) using the IRS and barometric altimeter.
+          wrongAnswers:
+            - text: AAIM (Aircraft Autonomous Integrity Monitoring) using the VOR and DME.
+            - text: GBAS using the DME only.
+            - text: GBAS using the INS and barometric altimeter.
+- id: QKQEV
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-627197
+    - BGS-621093
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.04.03
+  templates:
+    - type: simple
+      question: AAIM (Aircraft Autonomous Integrity Monitoring) is a type of Airborne Based Augmentation System that
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: relies on GNSS information as well as information from additional on-board sensors.
+          wrongAnswers:
+            - text: relies on information from additional on-board sensors only.
+            - text: can only function within the range of a Ground Based Augmentation System.
+            - text: relies on GNSS information only.
+- id: QTCWV
+  subjectId: "062"
+  chapterId: "062.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-624295
+    - AVEXAM-20635
+  annexes: []
+  learningObjectiveIds:
+    - 062.06.02.04.04
+  templates:
+    - type: simple
+      question: Which of the following is an ABAS input device mounted in an aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: IRS
+          wrongAnswers:
+            - text: TCAS II
+            - text: WAAS
+            - text: ADS-B

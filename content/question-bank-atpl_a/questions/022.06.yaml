@@ -1,0 +1,1871 @@
+- id: QKCWJ
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229517
+    - AVEXAM-24274
+    - BGS-221579
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.01.01.02
+  templates:
+    - type: multiple-correct
+      question: "Among the following functions of an autopilot, those related to the aeroplane stabilisation are:"
+      explanation: Stabilisation functions hold the aircraft attitude, such as pitch angle and wings level. Guidance functions follow a target, such as speed, altitude or a VOR radial.
+      options:
+        - text: – pitch angle hold
+          correct: true
+        - text: – IAS or Mach number hold
+          correct: false
+        - text: – wings level hold
+          correct: true
+        - text: – VOR radial hold
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QUUTU
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222381
+    - BGS-220438
+    - AVEXAM-16562
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.01.01.02
+  templates:
+    - type: simple
+      question: "In an autopilot system, the functions that control the path of the aircraft are the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: guidance functions.
+          wrongAnswers:
+            - text: inner loop functions.
+            - text: stability functions.
+            - text: attitude functions.
+- id: QKYPC
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214526
+    - AVEXAM-33557
+    - BGS-221331
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.01.01.03
+  templates:
+    - type: simple
+      question: What is the basic principle of a closed loop system?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Measurement of the controlled variable, calculation of the control error, and adjustment of the controlled variable to reduce/remove the control error.
+          wrongAnswers:
+            - text: Calculation of the control error, adjustment of the controlled variable to reduce/remove the control error, and without feedback.
+            - text: Adjustment of the controlled variable based on a fixed setting.
+            - text: Measurement of an independent variable, calculation of the control error, and adjustment of the controlled variable to reduce/remove the control error.
+- id: QRAWB
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226590
+    - AVEXAM-64748
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.01.01.03
+  templates:
+    - type: simple
+      question: "A closed loop control system in which a small power input controls a much larger power output in a strictly proportionate manner is known as:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a servomechanism.
+          wrongAnswers:
+            - text: an amplifier.
+            - text: an autopilot.
+            - text: a feedback control circuit.
+- id: QJUAF
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229388
+    - AVEXAM-99235
+    - BGS-220458
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.01.01.04
+  templates:
+    - type: multiple-correct
+      question: "On a large aeroplane, an autopilot comprises, in addition to the mode display devices, the following fundamental elements:"
+      explanation: ""
+      options:
+        - text: – Airflow valve
+          correct: false
+        - text: – Sensors
+          correct: true
+        - text: – Comparators
+          correct: true
+        - text: – Computers
+          correct: true
+        - text: – Amplifiers
+          correct: true
+        - text: – Servo-actuators.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QNAPI
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221962
+    - BGS-222418
+    - AVEXAM-53563
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.01.01.05
+  templates:
+    - type: simple
+      question: With respect to an autopilot, what does the term "self-induced oscillation" refer to?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Oscillation caused by erroneous autopilot systems.
+          wrongAnswers:
+            - text: Aircraft vibration triggered by exceeding VMO or MMO.
+            - text: Abnormal pilot interaction with manual flight controls.
+            - text: Manual flight control inputs exceeding structural limitations.
+- id: QWPAY
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224349
+    - BGS-221750
+    - AVEXAM-66499
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.01.01.06
+  templates:
+    - type: simple
+      question: "The crew of a multi-pilot aircraft are performing an approach, with the autopilot (AP) coupled to the ILS. They notice the AP system making large corrections in pitch close to the ground, leading to oscillations. The safest course of action for the crew is to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Disconnect the AP and perform a go-around.
+          wrongAnswers:
+            - text: Reduce thrust with the AP engaged.
+            - text: Disconnect the AP and continue flying manually.
+            - text: Conduct a go-around with the AP engaged.
+- id: QWVAK
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229330
+    - BGS-221761
+    - AVEXAM-94134
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.01
+  templates:
+    - type: simple
+      question: "The autopilot consists of a number of control channels and their basic function is to provide automatic control of the aeroplane:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: About the three axes in pitch, roll and yaw.
+          wrongAnswers:
+            - text: During phases of flight with high workload, to improve the mental capacity of the pilot(s).
+            - text: About the lateral, vertical and longitudinal axes, and to control the thrust of the engines.
+            - text: During all phases of flight at all times.
+- id: QCPEX
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221747
+    - AVEXAM-78395
+    - BGS-221712
+    - BGS-221512
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.03
+  templates:
+    - type: simple
+      question: The purpose of an FCU/MCP is to…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: operate automation modes.
+          wrongAnswers:
+            - text: operate the FMC.
+            - text: verify engaged modes of operation.
+            - text: verify thrust mode selections.
+- id: QOLLC
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223117
+    - AVEXAM-96527
+    - AVEXAM-14856
+    - BGS-222185
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.04
+    - 022.06.02.01.06
+  templates:
+    - type: multiple-correct
+      question: "Among the following functions of an autopilot, those related to the aeroplane guidance are:"
+      explanation: "Guidance modes steer the aircraft towards a target value: IAS or Mach hold, altitude hold and VOR radial hold. Pitch angle hold, wings level and yaw damping stabilise the aircraft."
+      options:
+        - text: – pitch angle hold
+          correct: false
+        - text: – wings level hold
+          correct: false
+        - text: – IAS or Mach number hold
+          correct: true
+        - text: – altitude hold
+          correct: true
+        - text: – VOR radial hold
+          correct: true
+        - text: – yaw damping.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QHVQG
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227367
+    - AVEXAM-74548
+    - BGS-220483
+    - ATPLQ-229099
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.04
+  templates:
+    - type: simple
+      question: "When engaged in the FMS lateral navigation mode (NAV or LNAV) the autopilot uses the command provided by the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FMS.
+          wrongAnswers:
+            - text: VOR receiver.
+            - text: track selector.
+            - text: VOR or Localizer receiver.
+    - type: simple
+      question: For a FMS designed with the lateral navigation (LNAV) capability coupled to the autopilot, which of the following is a lateral command output?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A roll angle or a heading target.
+          wrongAnswers:
+            - text: A calibrated airspeed (CAS) and a cross track distance (XTK).
+            - text: A longitudinal acceleration and a roll rate.
+            - text: A lateral acceleration.
+- id: QDYWS
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228197
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.05
+  templates:
+    - type: simple
+      question: Control laws are part of an autopilot system...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To ensure the limits of the aircraft won’t be exceeded.
+          wrongAnswers:
+            - text: To comply with the ATC constraints faster.
+            - text: To improve passenger’s comfort.
+            - text: To comply with the operator's SOP.
+- id: QLBUJ
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223757
+    - BGS-221933
+    - BGS-221709
+    - AVEXAM-29295
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.05
+  templates:
+    - type: simple
+      question: When engaged, the autopilot manoeuvres the aeroplane in accordance with a set of control laws. The purpose of these control laws is to…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: prevent unacceptable loads on the aeroplane or prevent hazardous deviations from the flight path.
+          wrongAnswers:
+            - text: ensure any movement of the control surface(s) is smooth and accurate for improved passenger comfort.
+            - text: prevent the ability to by-pass the computers or the standby systems to operate without the computers.
+            - text: prevent the aeroplane from deviating from its desired flight path by an amount exceeding the limits established by the operator.
+- id: QPCKU
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224093
+    - AVEXAM-67414
+    - BGS-221585
+    - ATPLQ-229110
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.07
+  templates:
+    - type: simple
+      question: An aeroplane in straight and level flight, as airspeed increases, the autopilot will \_\_\_ the deflection of the flight control surfaces.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Decrease.
+          wrongAnswers:
+            - text: Increase.
+            - text: Increase then decrease.
+            - text: NOT change.
+- id: QZECZ
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228709
+    - BGS-222403
+    - BGS-221926
+    - AVEXAM-46196
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.08
+  templates:
+    - type: simple
+      question: The flight guidance system has mixed modes. What describes the functions of the take-off mode (considering the autopilot only)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pitch commands should stabilise at a speed referenced to V2, and the roll commands should maintain the runway centreline or wings level.
+          wrongAnswers:
+            - text: The pitch mode should be vertical speed to ensure sufficient climb rate to follow the departure profile, and the roll mode should be heading or track.
+            - text: Pitch commands should be to obtain an attitude that achieved obstacle clearance, and the roll commands should follow the standard departure (SID).
+            - text: The pitch mode should maintain a fixed pitch attitude that prevents tailstrike, and the roll mode should use runway localiser to maintain the direction.
+- id: QSLJY
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226131
+    - AVEXAM-41303
+    - BGS-221930
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.10
+  templates:
+    - type: simple
+      question: What is the main function of the control surface position sensors?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Comparing the directed inputs with the actual surface movement.
+          wrongAnswers:
+            - text: Detecting a restricted movement/jamming in a control surface.
+            - text: To inhibit the control surface exceeding their aerodynamic limitations.
+            - text: Comparing the restricted inputs with the actual surface movement.
+- id: QAKUD
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221834
+    - BGS-220463
+    - AVEXAM-84083
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.11
+  templates:
+    - type: multiple-correct
+      question: "The automatic synchronisation function of an autopilot control system:"
+      explanation: ""
+      options:
+        - text: – operates only when the autopilot is engaged
+          correct: false
+        - text: – prevents the aircraft's control system from jerking when disengaging the autopilot
+          correct: false
+        - text: – prevents the aircraft's control system from jerking when engaging the autopilot
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+- id: QPHMV
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224739
+    - AVEXAM-81720
+    - BGS-220486
+    - BGS-220482
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.11
+  templates:
+    - type: simple
+      question: "When engaging the autopilot, the function providing a smooth 'take-over' is the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: automatic synchronisation function.
+          wrongAnswers:
+            - text: Mach trim function.
+            - text: automatic CWS (Control Wheel Steering) function .
+            - text: automatic pitch trim function .
+- id: QNYVF
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223216
+    - AVEXAM-11652
+    - BGS-221785
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.12
+  templates:
+    - type: simple
+      question: "In a large jet aeroplane with powered controls when the pilot is operating the aircraft Control Wheel Steering mode, the flight controls are operated:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: by the pilot through the autopilot computer and actuators.
+          wrongAnswers:
+            - text: by the pilot through fully-powered manual controls.
+            - text: under the control of the pilot using the heading bug and altitude selector.
+            - text: under control of the FMS through the autopilot.
+- id: QQBEJ
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222647
+    - BGS-221764
+    - AVEXAM-87560
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.13
+  templates:
+    - type: simple
+      question: If a large transport aeroplane is flown in Control Wheel Steering mode, the pitch attitude is controlled with the…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Control column.
+          wrongAnswers:
+            - text: Pitch mode of the autopilot.
+            - text: Control column or any autopilot pitch mode.
+            - text: Autopilot in IAS hold mode only.
+- id: QRNWU
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223590
+    - AVEXAM-10023
+    - BGS-220444
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.13
+  templates:
+    - type: simple
+      question: "A pilot engages the control wheel steering (CWS) of a conventional autopilot and carries out a manoeuvre in roll. When the control wheel is released, the autopilot will:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: maintain the flight attitude obtained at that moment.
+          wrongAnswers:
+            - text: maintain the track and the flight attitude obtained at that moment.
+            - text: roll wings level and maintain the heading obtained at that moment.
+            - text: restore the flight attitude and the rate of turn selected on the autopilot control display unit.
+- id: QGTZF
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds:
+    - QPZYE
+  externalQuestionIds:
+    - ATPLQ-222362
+    - BGS-221667
+    - AVEXAM-17229
+    - BGS-221934
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.14
+  templates:
+    - type: simple
+      question: How can the TCS (Touch Control Steering) system be activated?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: By pressing a button to disengage the flight controls from the autopilot.
+          wrongAnswers:
+            - text: When the pilot touches the flight controls, the autopilot is automatically disengaged.
+            - text: By using a touchpad instead of a control stick/wheel to control the aircraft.
+            - text: By using a separate set of flight controls to provide the autopilot with new control inputs.
+- id: QPZYE
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds:
+    - QGTZF
+  externalQuestionIds:
+    - ATPLQ-223717
+    - AVEXAM-82249
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.14
+  templates:
+    - type: simple
+      question: What is the use of the TCS (Touch Control Steering)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: temporary manual flying while the autopilot is still engaged.
+          wrongAnswers:
+            - text: steering of the aircraft via a touch screen.
+            - text: assist the flare during the autoland.
+            - text: disengagement of the autopilot to make a flight path change, before reengaging it back.
+- id: QLOYP
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223745
+    - AVEXAM-85271
+    - BGS-221661
+    - ATPLQ-229539
+    - AVEXAM-73224
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.15
+  templates:
+    - type: simple
+      question: When can more than one autopilot be engaged at the same time in an aircraft?
+      explanation: Only one autopilot may be engaged at a time, except during an automatic landing. When the approach mode is armed, more than one autopilot is engaged to give redundancy in the landing.
+      presets:
+        - correctAnswers:
+            - text: During autoland.
+          wrongAnswers:
+            - text: When flying above FL50.
+            - text: At any time.
+            - text: Never.
+- id: QMQMO
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223687
+    - AVEXAM-90666
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.16
+  templates:
+    - type: simple
+      question: A pilot wants the aeroplane to climb at 800 ft/min up to 6 000 ft. How does they program the autopilot?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: V/S engaged mode, ALT armed mode.
+          wrongAnswers:
+            - text: V/S armed mode, ALT armed mode.
+            - text: V/S armed mode, ALT engaged mode.
+            - text: V/S engaged mode, ALT engaged mode.
+- id: QZHCQ
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226716
+    - AVEXAM-85000
+    - BGS-221912
+    - BGS-222460
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.16
+  templates:
+    - type: simple
+      question: Which of the following correctly describes the difference between an armed mode and an engaged mode in an autopilot system?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An armed mode will only become engaged when certain criteria are met.
+          wrongAnswers:
+            - text: An armed mode will only become engaged when the flight crew switches to the engaged mode.
+            - text: Only a three-axis autopilot can operate in an engaged mode.
+            - text: "They are the same thing: different manufacturers use different terminology."
+- id: QEGLF
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225440
+    - BGS-221678
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.17
+  templates:
+    - type: simple
+      question: When talking about an engaged autopilot mode, the initial phase is where the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: attitude is changed to obtain a new trajectory.
+          wrongAnswers:
+            - text: pilot is programming the autopilot on the ground before take-off.
+            - text: aircraft maintains a set parameter.
+            - text: aircraft is waiting for a certain set of parameters to engage the mode in question.
+- id: QQIJU
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226346
+    - AVEXAM-53358
+    - AVEXAM-58071
+    - BGS-222416
+    - BGS-222442
+    - BGS-222443
+    - AVEXAM-5886
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.17
+  templates:
+    - type: simple
+      question: Which of the following is correct regarding the hold phase of the autopilot?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The autopilot maintains the set parameter without any change.
+          wrongAnswers:
+            - text: The autopilot obtains a trajectory through the third channel in case of failure.
+            - text: A new trajectory is obtained via a change in attitude to achieve a desired parameter.
+            - text: A given rate of change of trajectory is maintained to achieve a new parameter without undershooting.
+- id: QHWJZ
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221979
+    - BGS-222420
+    - AVEXAM-23860
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.19
+  templates:
+    - type: simple
+      question: "The pilot engages the autopilot and selects Vertical Speed (VS) mode during the climb. If an excessive vertical speed is selected, the risk would be:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An uncontrolled loss of airspeed.
+          wrongAnswers:
+            - text: A wrong airspeed indication.
+            - text: A level bust.
+            - text: An exceedance of the Exhaust Gas Temperature (EGT) limit.
+- id: QDTLP
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225746
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.20
+    - 022.06.02.01.22
+  templates:
+    - type: multiple-correct
+      question: What would cause the auto-pilot to automatically disengage?
+      explanation: ""
+      options:
+        - text: Pilot activation of the trim.
+          correct: true
+        - text: Hydraulic system failure.
+          correct: true
+        - text: Failure of the IRS.
+          correct: true
+        - text: Disconnect the FBW system.
+          correct: false
+        - text: Pressing either TOGA switch with a single autopilot.
+          correct: true
+        - text: Loss of electrical power.
+          correct: true
+        - text: Triggering the emergency landing gear release.
+          correct: false
+        - text: Overshooting the localiser.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 3
+            - 4
+            - 5
+            - 6
+        - show:
+            - 4
+            - 5
+            - 6
+            - 7
+        - show:
+            - 0
+            - 5
+            - 6
+            - 7
+        - show:
+            - 0
+            - 1
+            - 6
+            - 7
+        - show:
+            - 0
+            - 1
+            - 2
+            - 7
+- id: QKYED
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225012
+    - BGS-221631
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.20
+  templates:
+    - type: simple
+      question: Assuming the autopilot is in heading hold mode, what would happen to the autopilot if the flux valve started drifting in an aircraft equipped with a single flux valve?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The autopilot would start drifting off too.
+          wrongAnswers:
+            - text: Nothing. The autopilot is independent from the flux valve.
+            - text: The autopilot would disengage automatically.
+            - text: The 'FLUX ERROR' warning light would illuminate on the autopilot control panel, and the autopilot would use its internal logic to compensate for the error.
+- id: QGMHF
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229533
+    - BGS-221916
+    - AVEXAM-84939
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.21
+  templates:
+    - type: multiple-correct
+      question: How can you disengage autopilot?
+      explanation: ""
+      options:
+        - text: disengage fly by wire.
+          correct: false
+        - text: press and hold priority button.
+          correct: true
+        - text: disengage on MCP.
+          correct: true
+        - text: forcefully move the control column.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+    - type: simple
+      question: |-
+        From the following options, how can the autopilot be disengaged in a fly-by-wire aircraft?
+
+         Disengage fly-by-wire.
+         Press and hold the priority button while moving the sidestick.
+         Disengage on MCP.
+         Forcefully move the control column.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2, 3, 4
+          wrongAnswers:
+            - text: 1, 2, 3
+            - text: 1, 2, 4
+            - text: 1, 3, 4
+- id: QYNPU
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222501
+    - AVEXAM-50574
+    - BGS-221721
+    - AVEXAM-25180
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.21
+  templates:
+    - type: simple
+      question: "A pilot is flying a GNSS non-precision approach using the autopilot. The pilot intends to disconnect the autopilot on final approach after having obtained sufficient visual references to complete a manual landing. When disconnecting the autopilot using the instinctive or quick disengagement control, the pilot should expect:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A unique autopilot disconnect aural warning and a visual warning for a limited period of time confirming that the autopilot is disconnected.
+          wrongAnswers:
+            - text: At least a single cycle aural and visual master warning to signal that the autopilot is disconnected, and NO ONE is controlling the aeroplane.
+            - text: A continuous aural and visual master warning highlighting to the pilot that they must put the hand on the control column/stick to control the aeroplane.
+            - text: A continuous aural and visual master warning sounding until the pilot presses the autopilot ON/OFF switch to confirm the disconnection was intended.
+- id: QTEBA
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223669
+    - AVEXAM-28428
+    - BGS-221851
+    - BGS-221932
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.22
+  templates:
+    - type: simple
+      question: To ensure that, in case of autopilot failure, flight path deviations remain within safe limits, when the autopilot is engaged...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: engagement occurs only if the aircraft is in trim, with control loads very low.
+          wrongAnswers:
+            - text: a delay of 5 seconds occurs while the autopilot motors the auto-trim up and down, until the trim position has been identified.
+            - text: a pitch-up trim load is always maintained by the autopilot, ensuring the deviation when the autopilot disconnects is predictable and consistent.
+            - text: trim is mechanically centred, ensuring that the full range of movement is available to the auto-trim system.
+- id: QTTYT
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226388
+    - AVEXAM-50660
+    - BGS-221593
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.02.01.22
+  templates:
+    - type: simple
+      question: What will happen if the pilot uses manual trim while the autopilot is engaged?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The autopilot will disengage.
+          wrongAnswers:
+            - text: The autopilot will continue to fly the aircraft, but it may be out of trim when the pilot disconnects.
+            - text: The trim system will respond, but then the autopilot will re-trim the aircraft.
+            - text: Nothing. Manual trim is inhibited with the autopilot engaged.
+- id: QHDGZ
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227051
+    - AVEXAM-7210
+    - BGS-222337
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.03.01.01
+  templates:
+    - type: simple
+      question: What is the purpose of the Flight Director (FD)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It helps the crew with attitude control and guidance tasks.
+          wrongAnswers:
+            - text: It enables the crew to cross-check autopilot orders.
+            - text: It gives a visual indication of the Flight Mode Annunciator (FMA).
+            - text: It repeats the flight control orders of the opposite crew member.
+- id: QISKO
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222664
+    - AVEXAM-12787
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.03.01.01
+    - 022.06.03.01.05
+  templates:
+    - type: simple
+      question: The following can be displayed by a Flight Director (FD)...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Commands for capturing and maintaining the glide slope.
+          wrongAnswers:
+            - text: Terrain avoidance warnings.
+            - text: A trend arrow indicating speed development.
+            - text: Pitch limits for TCAS RA.
+- id: QIRAI
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223178
+    - AVEXAM-10827
+    - BGS-221758
+  annexes:
+    - id: AUSD
+  learningObjectiveIds:
+    - 022.06.03.01.03
+    - 022.06.05.01.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What is correct regarding the autopilot and flight director?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The autopilot is engaged and is conducting an autoland. The flight director is giving flight guidance as a backup.
+          wrongAnswers:
+            - text: The autopilot is engaged and is on the ILS. The flight director is not engaged.
+            - text: The flight director is engaged on the ILS, the autopilot is primed for engagement for the flare.
+            - text: Number 1 autopilot is engaged on the ILS, number 2 autopilot will initiate the Land.
+- id: QJVLR
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224787
+    - AVEXAM-85845
+    - BGS-221786
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.03.01.04
+  templates:
+    - type: simple
+      question: What are the responsibilities of the pilots during an instrument approach on a multi-pilot aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Pilot flying operates the controls, or monitors the autopilot. Pilot monitoring duplicates some selections, confirms parameters, and performs radio communications.
+          wrongAnswers:
+            - text: The commander operates the controls, or monitors the autopilot. The co-pilot duplicates selections and confirms parameters.
+            - text: The autopilot flies the aircraft, the commander monitors the parameters, while the co-pilot monitors the commander.
+            - text: Pilot flying operates the controls or monitors the autopilot. Pilot monitoring prepares for the next departure.
+- id: QOJWS
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223656
+    - AVEXAM-83346
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.03.01.05
+  templates:
+    - type: simple
+      question: "An aircraft controlled by the autopilot is about to be establishes on an ILS. If the pilot disconnects the autopilot to fly manually while intending to use FD for guidance:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FMAs remain visible and FD starts to move and directs the pilot to give appropriate control inputs in order to follow planned trajectory.
+          wrongAnswers:
+            - text: FMAs disappears and FD starts to move and directs the pilot to give appropriate control inputs in order to follow planned trajectory.
+            - text: FD indications will most likely become unavailable upon autopilot disengagement.
+            - text: The FD cannot be used with the autopilot disconnected.
+- id: QFNLX
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225275
+    - AVEXAM-53045
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.03.01.06
+  templates:
+    - type: simple
+      question: Which combination of AFCS modes would have to be engaged to follow a vertical and horizontal flight path at a desired speed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: LNAV and VNAV
+          wrongAnswers:
+            - text: Flight path angle, vertical speed and heading.
+            - text: Longitudinal navigation
+            - text: Speed and Altitude Hold.
+    - type: simple
+      question: What AFCS mode combination is required for tracking a vertical and horizontal flight trajectory while maintaining the desired airspeed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: LNAV and VNAV.
+          wrongAnswers:
+            - text: Flight path angle, vertical speed and heading.
+            - text: Longitudinal navigation.
+            - text: Speed and Altitude Hold.
+- id: QCULI
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226405
+    - AVEXAM-99381
+    - BGS-220496
+    - AVEXAM-84393
+    - BGS-222062
+    - BGS-220504
+    - BGS-220497
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.03.01.06
+  templates:
+    - type: multiple-correct
+      question: "During a final approach, the flight director system is engaged in the G/S mode (tracking of ILS Glide Slope). The position of the horizontal command bar indicates:"
+      explanation: ""
+      options:
+        - text: – the position of the aircraft relative to the ILS Glide Slope
+          correct: false
+        - text: – the correction to be applied to the pitch angle in order to capture and follow the ILS Glide Slope
+          correct: true
+        - text: – the pitch angle of the aircraft.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+    - type: simple
+      question: "During a final approach, the flight director is engaged in the G/S mode (tracking the ILS Glide Slope). If the horizontal command bar is deviating upward, it means that:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The pitch attitude must be increased.
+          wrongAnswers:
+            - text: the pitch angle must be reduced.
+            - text: the aircraft is below the glide slope.
+            - text: The aircraft is above the glide slope.
+- id: QXXZT
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229679
+    - AVEXAM-50979
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.03.01.07
+  templates:
+    - type: simple
+      question: Which statement is true about a suction or vacuum gyroscope?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Air is used to rotate the rotor and therefore does not need an electrical power supply.
+          wrongAnswers:
+            - text: It is air-driven but requires electrical power to maintain RPM.
+            - text: It operates solely on electrical power.
+            - text: It uses both air and electrical power simultaneously.
+    - type: simple
+      question: What is a characteristic of a suction or vacuum gyroscope?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Air is used to rotate the rotor, so it does not need electrical power.
+          wrongAnswers:
+            - text: It operates solely on electrical power.
+            - text: It is air-driven but requires electrical power to maintain RPM.
+            - text: It uses both air and electrical power simultaneously.
+- id: QERSX
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222304
+    - BGS-221915
+    - ATPLQ-226162
+    - AVEXAM-50647
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.03.01.07
+  templates:
+    - type: simple
+      question: Which option is correct regarding an aircraft equipped with a flight Director (FD) and an Automatic Flight Control System (AFCS)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The available modes and the control panel are the same for both the FD and the AFCS.
+          wrongAnswers:
+            - text: The FD and the AFCS share the same control panel, but the available modes are different.
+            - text: The available modes are the same, but the AFCS control panel is different to that of the FD.
+            - text: The FD and the AFCS have different modes and control panels.
+    - type: simple
+      question: Which statement is correct about the autopilot/flight director modes and their respective selection panel?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The modes available for the flight director are the same as those available for the autopilot, and the same panel is used for the selection of both.
+          wrongAnswers:
+            - text: The modes available for the flight director are the same as those available for the autopilot, but a separate panel is used for their selection.
+            - text: The modes available for the flight director are different from those available for the autopilot, and a separate panel is used for their selection.
+            - text: The modes available for the flight director are different from those available for the autopilot, but the same panel is used for the selection of both.
+- id: QUGKD
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226822
+    - BGS-221850
+    - BGS-222405
+    - AVEXAM-83071
+    - BGS-221495
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.03.01.08
+  templates:
+    - type: simple
+      question: You are manually flying the aircraft using the FD, when suddenly the command bars disappear from the ADI. What should you do?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Check for an FD caution light on the FMA and possibly disengage the FD.
+          wrongAnswers:
+            - text: Wait for a caution on the FMA before reverting to manual control.
+            - text: Disengage the FD and immediately engage the autopilot to take over.
+            - text: Manually fly the aircraft because this indicates that the autopilot is not available.
+- id: QBQRM
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228178
+    - AVEXAM-94101
+    - BGS-221577
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.04.01.01
+  templates:
+    - type: simple
+      question: In an autopilot system, what does the Flight Mode Annunciator (FMA) indicate?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: AFCS and autothrust modes.
+          wrongAnswers:
+            - text: EGPWS modes.
+            - text: Flight Warning System (FWS) modes.
+            - text: Weather radar modes.
+- id: QBVNN
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224828
+    - BGS-222270
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.04.01.01
+  templates:
+    - type: simple
+      question: "The purpose of the Flight Mode Annunciator (FMA) is to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Check and confirm any selection made by the pilot on the autopilot control panel.
+          wrongAnswers:
+            - text: Visualise the instantaneous flight path of the aeroplane
+            - text: Check and confirm in which mode the FMS is operating.
+            - text: Visualise any input made by the pilot on the control commands.
+- id: QGAYF
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225016
+    - AVEXAM-62264
+    - BGS-221473
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.04.01.02
+  templates:
+    - type: simple
+      question: During an auto coupled approach, where can the pilots verify the landing capability of the aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FMA that is located on each pilot's PFD.
+          wrongAnswers:
+            - text: FMA that is located on the MCP or FCU.
+            - text: Thrust mode display that is located on the MCP or FCU.
+            - text: Thrust mode display that is located on each pilot's PFD.
+- id: QDNYN
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227090
+    - BGS-221722
+    - AVEXAM-62567
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.04.01.03
+  templates:
+    - type: simple
+      question: 'How can you distinguish between an "armed" and an "engaged" mode on the Flight Mode Annunciator (FMA)? The caption:'
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Changes in colour or in font size, or becomes surrounded by a box.
+          wrongAnswers:
+            - text: Is accompanied by a horn sound that lasts for two seconds.
+            - text: Is accompanied by a single gong sound.
+            - text: Activates the stick shaker for three seconds.
+- id: QEDWH
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228098
+    - AVEXAM-13024
+    - BGS-222331
+    - BGS-221470
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.04.01.04
+  templates:
+    - type: simple
+      question: Which statement about the Flight Mode Annunciator (FMA) is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: If the mode changes, a caption on the Electronic Attitude Direction Indicator will change colour or appearance.
+          wrongAnswers:
+            - text: When the mode is changed, a caption appears on the Electronic Attitude Direction Indicator that reads "MODE CHG".
+            - text: Every mode change is accompanied by a recognisable aural indication.
+            - text: A mode change is indicated by a series of gong sounds, normally four (4).
+- id: QXWDI
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228967
+    - BGS-220815
+    - AVEXAM-49663
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.04.01.04
+    - 022.13.03.02.07
+  templates:
+    - type: simple
+      question: "The Primary Flight Display (PFD) of an EFIS equipped aircraft can display information relative to the following conditions:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: altitude capture, TCAS resolution advisory, autopilot and flight director mode changes.
+          wrongAnswers:
+            - text: pressurisation failure, altitude capture, TCAS resolution advisory.
+            - text: low engine oil pressure, terrain alerts, windshear detection.
+            - text: altitude capture, braking system, autopilot and flight director mode changes.
+- id: QIXCH
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228571
+    - AVEXAM-40664
+    - BGS-221909
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.04.01.05
+  templates:
+    - type: simple
+      question: The use of autopilot can lead to a loss of situational awareness and the comprehension of the implication of the used mode. How can you mitigate these risks?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Apply Standard Operating Procedures and follow/respect the call-outs.
+          wrongAnswers:
+            - text: Disconnect the AP and fly manually.
+            - text: Ask the colleague to take over.
+            - text: Advise ATC as they will always assist you.
+- id: QYZMJ
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228801
+    - AVEXAM-39877
+    - BGS-222441
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.04.01.05
+  templates:
+    - type: simple
+      question: During flight, you fail to notice that the autopilot mode has changed. What should you do?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Follow the standard operating procedures and be aware of how to read the FMA.
+          wrongAnswers:
+            - text: Switch to a higher mode.
+            - text: Disengage the autopilot and fly manually, as its indications cannot be trusted anymore.
+            - text: Switch to a reduced mode.
+- id: QLIVM
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229222
+    - AVEXAM-75695
+    - BGS-222051
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.05.01.01
+  templates:
+    - type: simple
+      question: "The purpose of an automatic landing system is to:"
+      explanation: The purpose of an automatic landing system is to make landing possible in poor weather, with low visibility, when a pilot could not land safely by eye. Runway length and smoothness are not its purpose.
+      presets:
+        - correctAnswers:
+            - text: make the landing possible in poor weather conditions.
+          wrongAnswers:
+            - text: have a smoother flare than when manually flying.
+            - text: make the landing possible in case of a short runway.
+            - text: have a safer go-around in case of autopilot failure.
+- id: QEANU
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221029
+    - BGS-221374
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.05.01.02
+  templates:
+    - type: simple
+      question: Which of the following aircraft components are incorporated in an Autoland system?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Autopilot(s), autothrust, and radio altimeter(s).
+          wrongAnswers:
+            - text: Flight controls, hydraulics, and control columns.
+            - text: Autopilot(s), autothrust, and control columns.
+            - text: Flight controls, hydraulics, and radio altimeter(s).
+- id: QHICN
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229537
+    - BGS-221681
+    - BGS-221689
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.05.01.02
+  templates:
+    - type: simple
+      question: In case of a Radio Altimeter (R/A) failure, is the ability to perform an automatic landing affected?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes, because the R/A is used during the automatic flare.
+          wrongAnswers:
+            - text: No, because the barometric altitude is used.
+            - text: No, because the GPS altitude is used.
+            - text: Yes, because the R/A is used during the tracking of the glide path.
+- id: QHKTX
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225954
+    - AVEXAM-42927
+    - BGS-220443
+    - BGS-220457
+    - AVEXAM-44308
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.05.01.03
+  templates:
+    - type: simple
+      question: "A flight control system is fail-passive if, in the event of a failure:"
+      explanation: A fail-passive system, after a failure, causes no significant out-of-trim condition or deviation in flight path or attitude. The landing, however, is not completed automatically, and the pilot takes over.
+      presets:
+        - correctAnswers:
+            - text: there is no significant out-of-trim condition or deviation of flight path or attitude but the landing is not completed automatically.
+          wrongAnswers:
+            - text: the system operates as a fail-operational system.
+            - text: the system operates as a fail-operational hybrid landing system.
+            - text: there is no significant out-of-trim condition or deviation of flight path or attitude and the landing is completed automatically.
+- id: QPAGU
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229467
+    - BGS-220451
+    - AVEXAM-71536
+    - ATPLQ-224710
+    - AVEXAM-73874
+    - BGS-220452
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.05.01.03
+  templates:
+    - type: multiple-correct
+      question: "Concerning a fail-passive flight control system, in the event of a failure:"
+      explanation: A fail-passive system, in case of a failure, has no significant out-of-trim condition and no significant deviation of path or attitude. The landing is not completed automatically. A fail-operational system would continue to a landing.
+      options:
+        - text: – there may be a significant deviation of flight path or attitude
+          correct: false
+        - text: – there is no significant deviation of flight path or attitude
+          correct: true
+        - text: – the landing is not completed automatically
+          correct: true
+        - text: – the landing is completed automatically
+          correct: false
+        - text: – there is no significant out-of-trim condition
+          correct: true
+        - text: – there may be a significant out-of-trim condition
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QLCKN
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224403
+    - AVEXAM-70583
+    - BGS-220442
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.05.01.03
+  templates:
+    - type: simple
+      question: "If, in the event of a failure, there is no significant out-of-trim condition or deviation of flight path or attitude but the landing is not completed automatically, such an automatic landing system is considered as:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: fail-passive.
+          wrongAnswers:
+            - text: fail-safe.
+            - text: fail-operational.
+            - text: fail-redundant.
+- id: QLXPC
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226568
+    - BGS-222372
+    - AVEXAM-24061
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.05.01.03
+  templates:
+    - type: simple
+      question: You are flying an aeroplane equipped with a fail-passive automatic landing system. If, during the autoland coupled ILS approach, a single component of the autoland system fails, the system is able to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: maintain safe flight, but is unable to complete the automatic landing.
+          wrongAnswers:
+            - text: complete the automatic landing, including the landing roll-out to a full stop.
+            - text: maintain safe flight, providing the autoland capability but without auto-flare.
+            - text: complete the automatic landing, but unable to provide roll-out guidance.
+- id: QPHGD
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227890
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.05.01.03
+  templates:
+    - type: simple
+      question: What happens if one of the autopilots in a fail passive autoland system fails?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Landing must be done manually.
+          wrongAnswers:
+            - text: The pilots should prepare for an out of trim condition.
+            - text: Landing completed automatically.
+            - text: Nothing will change.
+- id: QDRJP
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228911
+    - BGS-221931
+    - AVEXAM-171
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.05.01.04
+  templates:
+    - type: simple
+      question: How can you ascertain the landing capability in an auto-coupled approach?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Checking the FMA.
+          wrongAnswers:
+            - text: By observing the primary indications on the PFD.
+            - text: By checking the primary indications on the PFD.
+            - text: Checking your current RA and the integrity of your RA.
+- id: QOSMF
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224196
+    - BGS-222451
+  annexes:
+    - id: AXTM
+  learningObjectiveIds:
+    - 022.06.05.01.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        An aeroplane is established on the ILS to conduct an autoland. At 1 000 feet the FMA indicates the display as shown FMA-1.
+
+        What is the normal sequence of FMA displays after FMA-1, until the aeroplane touch-down on the runway?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: FMA-3 then FMA-4
+          wrongAnswers:
+            - text: FMA-2 then FMA-4
+            - text: FMA-5 then FMA-6
+            - text: FMA-4 then FMA-5
+- id: QFDGA
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226584
+    - AVEXAM-19252
+    - BGS-221970
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.05.01.05
+  templates:
+    - type: multiple-correct
+      question: "When performing an automatic landing, some additional operational limitations may apply, like:"
+      explanation: ""
+      options:
+        - text: "- maximum headwind or crosswind."
+          correct: true
+        - text: "- airport maximum pressure altitude."
+          correct: true
+        - text: "- runway conditions."
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+- id: QRYOO
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225257
+    - BGS-221913
+    - AVEXAM-85260
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.05.01.05
+  templates:
+    - type: simple
+      question: "An automatic ILS approach can be flown only:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: within a range of crosswinds and levels of turbulence.
+          wrongAnswers:
+            - text: within a range of levels of turbulence and no limit for crosswinds.
+            - text: without limits for crosswind or turbulence.
+            - text: within a range of crosswinds and no limit for turbulence.
+- id: QDMER
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228593
+    - AVEXAM-35566
+    - BGS-221645
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.05.01.06
+  templates:
+    - type: simple
+      question: "During a CAT III approach with NO decision height, you have passed the Alert Height, at this point there is a failure of one autopilot. All systems are working normally. As Co-Pilot and Pilot Monitoring (PM), you should:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Continue normal PM monitoring duties until the aircraft has landed.
+          wrongAnswers:
+            - text: Cancel the warning and immediately call ‘Go-Around’.
+            - text: Wait for the Commander to decide whether to continue or Go-Around.
+            - text: Call ‘Check FMA’.
+- id: QXKGJ
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229148
+    - AVEXAM-95696
+    - BGS-221675
+    - ATPLQ-224334
+    - AVEXAM-29011
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.05.01.07
+  templates:
+    - type: simple
+      question: "During a CAT III approach with NO decision height, you have passed the Alert Height, with NO visual references, when the ILS signal is lost. All other systems are working normally. As Co-Pilot and Pilot Monitoring (PM), you should:"
+      explanation: With no decision height, a failure of the ILS signal below the alert height without visual references means the landing cannot be completed safely. The pilot monitoring cancels the warning and calls for a go-around.
+      presets:
+        - correctAnswers:
+            - text: Cancel the warning and immediately call ‘Go-Around’.
+          wrongAnswers:
+            - text: Wait for the Commander to decide whether to continue or Go-Around.
+            - text: Continue normal PM monitoring duties until the aircraft has landed.
+            - text: Call ‘Check FMA’.
+    - type: simple
+      question: You are pilot monitoring on a CAT IIIB approach in LVO descending below alert height, when suddenly you get an ILS signal failure. Choose the correct action.
+      explanation: Below the alert height in a CAT IIIB approach, a failure does not by itself require a go-around when visual references have been established. The approach may be continued to a landing.
+      presets:
+        - correctAnswers:
+            - text: Provided that visual references have been established, the approach may be continued.
+          wrongAnswers:
+            - text: Call for a go around and continue with your monitoring duties.
+            - text: Do not interrupt the pilot flying and confront the pilot when you have landed.
+            - text: Call «Check FMA».
+- id: QKYUA
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229948
+    - AVEXAM-97042
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.05.01.07
+  templates:
+    - type: simple
+      question: An ILS signal failure occurs below the alert height. Provided that visual references have been established, how should the pilot react?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cancel the warning and continue the approach.
+          wrongAnswers:
+            - text: Only go around if ATC tells you.
+            - text: Nothing will happen since all warnings including loss of ILS signal are inhibited below the alert height.
+            - text: Cancel the warning and go around.
+- id: QZPAA
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226617
+    - AVEXAM-10242
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.05.01.07
+    - 022.12.08.01.04
+  templates:
+    - type: simple
+      question: What are the consequences of a radio altimeter failure during an autoland?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The radio altitude indication will disappear.
+          wrongAnswers:
+            - text: The aircraft automatically initiates a go-around.
+            - text: The alert height is increased by another 100’ to increase the safety margin.
+            - text: The flare mode will not engage at the correct altitude.
+- id: QAMVE
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-713016
+    - AVEXAM-92303
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.05.01.08
+  templates:
+    - type: simple
+      question: A crew preparing for a low visibility approach with RVR 200 m experience a window heat failure, but the screen is clear. What should the crew do?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: They should wait until RVR improves for CAT I minima.
+          wrongAnswers:
+            - text: They should ask MCC advice before starting the approach preparation.
+            - text: Nothing, window heat does not affect auto-land capabilities.
+            - text: They must divert to an alternate airport.
+- id: QGVAR
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229007
+    - AVEXAM-32246
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.05.01.08
+  templates:
+    - type: simple
+      question: Consider an aircraft established on an ILS with both autopilots engaged. When passing 35 feet of radio height, one of the IRS fails. What are the consequences?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The autopilot system will continue to operate normally, and the pilot will receive no warning or annunciation of the failed IRS.
+          wrongAnswers:
+            - text: The autopilot system will continue to operate normally, but the pilot will receive a message on the flight deck display indicating the failed IRS.
+            - text: The autopilot system will automatically switch to the remaining IRS, and the pilot will receive a cautionary message indicating the failed IRS.
+            - text: The autopilot system will disengage automatically, and the pilot will receive a warning or annunciation of the failed IRS.
+- id: QVYML
+  subjectId: "022"
+  chapterId: "022.06"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228298
+    - BGS-221600
+    - BGS-221640
+  annexes: []
+  learningObjectiveIds:
+    - 022.06.05.01.09
+  templates:
+    - type: simple
+      question: A fail-operational hybrid landing system is fitted to an aircraft. What does this consist of?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A fail-passive automatic landing system and a secondary independent guidance system such as a head-up display (HUD). This enables the pilot to land manually if the automatic landing system fails.
+          wrongAnswers:
+            - text: A fail-passive guidance system and a secondary independent landing system enabling automatic landing if the guidance system fails.
+            - text: A fail-operational landing system with a synthetic vision overlay, enabling better monitoring, and so a lower minimum RVR, than is possible with a simple fail-operational automatic landing system.
+            - text: A fail-operational landing system which, if the runway has NO low visibility approach aid, can overlay the enhanced vision system on the head-up display to allow continued operations below normal RVR minima.

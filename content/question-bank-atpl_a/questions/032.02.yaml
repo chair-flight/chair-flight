@@ -1,0 +1,2374 @@
+- id: QIWMD
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-323334
+    - AVEXAM-79404
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.01.01.02
+  templates:
+    - type: simple
+      question: You are in a single engine piston aircraft with a stall speed of 68 kt. What is the minimum value of VR for this aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 68 kt
+          wrongAnswers:
+            - text: 82 kt
+            - text: 71 kt
+            - text: 75 kt
+- id: QMOLW
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-321900
+    - AVEXAM-66533
+    - BGS-321010
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        What will be the V_REF speed for a Class B performance category single-engined piston aeroplane with a maximum take-off mass of 1633 kg, given the following stall speeds?
+
+        - V_SO: {{vso}} kt
+        - V_S1: {{vs1}} kt
+        - V_S: {{vs}} kt
+      explanation: |-
+        For a Class B aeroplane the reference landing speed V_REF is 1.3 times the stall speed in the landing configuration, V_SO.
+
+        **Solution**
+
+        $$
+        1.3\times \text{V_SO} = 1.3\times {{vso}} = \mathbf{ {{answer}}\ \text{kt} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kt**: uses a factor of 1.2 applied to V_S1.
+        - **{{d2}} kt**: applies 1.3 to V_S1 (clean/specified configuration) instead of V_SO (landing configuration).
+        - **{{d3}} kt**: applies 1.3 to V_S instead of V_SO.
+      presets:
+        - variables:
+            vso: 60
+            vs1: 63
+            vs: 68
+            answer: 78
+            d1: 76
+            d2: 82
+            d3: 88
+          correctAnswers:
+            - text: 78 kt
+          wrongAnswers:
+            - text: 88 kt
+            - text: 76 kt
+            - text: 82 kt
+        - variables:
+            vso: 56
+            vs1: 60
+            vs: 64
+            answer: 73
+            d1: 72
+            d2: 78
+            d3: 83
+          correctAnswers:
+            - text: 73 kt
+          wrongAnswers:
+            - text: 83 kt
+            - text: 72 kt
+            - text: 78 kt
+        - variables:
+            vso: 50
+            vs1: 53
+            vs: 57
+            answer: 65
+            d1: 64
+            d2: 69
+            d3: 74
+          correctAnswers:
+            - text: 65 kt
+          wrongAnswers:
+            - text: 74 kt
+            - text: 64 kt
+            - text: 69 kt
+- id: QSPPR
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324036
+    - AVEXAM-77780
+    - BGS-320641
+    - AVEXAM-36803
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.01.01.02
+  templates:
+    - type: simple
+      question: What is the minimum speed at 50 ft above the take-off surface for a single-engine aeroplane with a VS1 of {{vs1}} kt?
+      explanation: |-
+        For single-engine aeroplanes (performance class B) the speed at the 50 ft screen height must be at least 1.2 times the stall speed VS1 in the take-off configuration. The result is rounded up to the next whole knot.
+
+        **Solution**
+
+        $$1.2\times \text{VS1}$$ = $$1.2\times {{vs1}}$$ = {{macro3}} kt, rounded up to **{{answer}} kt**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kt**: uses a factor of 1.3 instead of 1.2.
+        - **{{d2}} kt**: uses a factor of 1.1 instead of 1.2.
+        - **{{d3}} kt**: uses a factor of only 1.05, which is too low for the 50 ft screen height.
+      presets:
+        - variables:
+            vs1: 67
+            macro3: 80
+            answer: 81
+            d1: 88
+            d2: 74
+            d3: 71
+          correctAnswers:
+            - text: 81 kt
+          wrongAnswers:
+            - text: 71 kt
+            - text: 88 kt
+            - text: 74 kt
+        - variables:
+            vs1: 58
+            macro3: 70
+            answer: 70
+            d1: 76
+            d2: 64
+            d3: 61
+          correctAnswers:
+            - text: 70 kt
+          wrongAnswers:
+            - text: 61 kt
+            - text: 76 kt
+            - text: 64 kt
+        - variables:
+            vs1: 62
+            macro3: 74
+            answer: 75
+            d1: 81
+            d2: 69
+            d3: 66
+          correctAnswers:
+            - text: 75 kt
+          wrongAnswers:
+            - text: 66 kt
+            - text: 81 kt
+            - text: 69 kt
+- id: QUNKS
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322515
+    - AVEXAM-21310
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.01.01.02
+  templates:
+    - type: simple
+      question: Which option describes, for a Class B performance category single engine piston aeroplane, a restriction on determining the take-off speed VR?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VR must be equal to or greater than VS1.
+          wrongAnswers:
+            - text: VR and V2 both must be equal to or greater than VS.
+            - text: VR must be equal to or greater than VS and V2 must be equal to or greater than 1.3 x VSO.
+            - text: VR must be equal to or greater than VSO.
+- id: QAYTB
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-323182
+    - ATPLQ-326910
+    - BGS-320637
+    - BGS-320192
+    - AVEXAM-83907
+    - AVEXAM-50269
+    - AVEXAM-52083
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.01.01.02
+  templates:
+    - type: simple
+      question: "The decision speed at take-off (V1) is the calibrated airspeed:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: below which take-off must be rejected if an engine failure is recognised, above which take-off must be continued.
+          wrongAnswers:
+            - text: at which the failure of the critical engine is expected to occur.
+            - text: below which the take-off must be continued.
+            - text: at which the take-off must be rejected.
+        - correctAnswers:
+            - text: below which take-off must be rejected if an engine failure is recognized, above which take-off must be continued.
+          wrongAnswers:
+            - text: below which the take-off must be continued.
+            - text: at which the failure of the critical engine is expected to occur.
+            - text: at which the take-off must be rejected.
+    - type: simple
+      question: "Regarding take-off, the take-off decision speed V1:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is the airspeed on the ground at which the pilot is assumed to have made a decision to continue or discontinue the take-off.
+          wrongAnswers:
+            - text: is the airspeed of the aeroplane upon reaching 35 feet above the take-off surface.
+            - text: is an airspeed at which the aeroplane is airborne but below 35 feet and the pilot is assumed to have made a decision to continue or discontinue the take-off .
+            - text: is always equal to VEF (Engine Failure speed).
+    - type: simple
+      question: The take-off decision speed V1 is the ___ for continuing the take-off.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: minimum calibrated airspeed
+          wrongAnswers:
+            - text: maximum true airspeed
+            - text: minimum true airspeed
+            - text: maximum calibrated airspeed
+- id: QAAHE
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326356
+    - BGS-321225
+    - AVEXAM-24883
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.01.01.03
+  templates:
+    - type: simple
+      question: |-
+        A multi-engine turboprop aircraft with a max take-off weight of 5 300 kg is under performance class B.
+
+        Given the following speeds, what is its V**R** and V**2**.
+
+        V**SO**: 63 kt V**S1**: 69 kt V**S**: 77 kt V**MC**: 70 kt
+      explanation: For a Performance Class B aeroplane the rotation speed is 1.1 × VS1 = 1.1 × 69 = 76 kt. The take-off safety speed is 1.2 × VS1 = 1.2 × 69 = 83 kt. Both are above VMC (70 kt), so the answer is **VR 76 kt, V2 83 kt**.
+      presets:
+        - correctAnswers:
+            - text: "VR: 76 kt, V2: 83 kt"
+          wrongAnswers:
+            - text: "VR: 95 kt, V2: 102 kt"
+            - text: "VR: 85 kt, V2: 92 kt"
+            - text: "VR: 69 kt, V2: 76 kt"
+- id: QADYU
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326861
+    - AVEXAM-36327
+    - BGS-320439
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.01.01.03
+  templates:
+    - type: simple
+      question: |-
+        According to CS-23, determine the minimum VR speed for a Class B twin-engine aeroplane, given:
+
+        - VS: {{vs}} kt
+        - VMC: {{vmc}} kt
+      explanation: |-
+        For a CS-23 Class B twin, the rotation speed VR must not be less than the larger of 1.05 VMC and 1.10 VS.
+
+        **Solution**
+
+        $$
+        \text{max}(1.05\times \text{VMC},1.1\times \text{VS}) = \text{max}(1.05\times {{vmc}},1.1\times {{vs}}) = \mathbf{ {{answer}}\ \text{kt} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kt**: applies the 1.10 factor to VMC instead of 1.05.
+        - **{{d2}} kt**: applies the 1.05 factor to VS instead of 1.10.
+        - **{{d3}} kt**: takes the smaller of the two limits instead of the larger.
+        - **{{d4}} kt**: uses 1.2 VS, which is the V2 factor, not the VR minimum.
+      presets:
+        - variables:
+            vs: 76
+            vmc: 84
+            answer: 88
+            d1: 92
+            d2: 80
+            d3: 84
+            d4: 91
+          correctAnswers:
+            - text: 88 kt
+          wrongAnswers:
+            - text: 92 kt
+            - text: 84 kt
+            - text: 91 kt
+            - text: 80 kt
+        - variables:
+            vs: 80
+            vmc: 70
+            answer: 88
+            d1: 77
+            d2: 84
+            d3: 74
+            d4: 96
+          correctAnswers:
+            - text: 88 kt
+          wrongAnswers:
+            - text: 77 kt
+            - text: 74 kt
+            - text: 96 kt
+            - text: 84 kt
+        - variables:
+            vs: 72
+            vmc: 80
+            answer: 84
+            d1: 88
+            d2: 76
+            d3: 79
+            d4: 86
+          correctAnswers:
+            - text: 84 kt
+          wrongAnswers:
+            - text: 88 kt
+            - text: 79 kt
+            - text: 86 kt
+            - text: 76 kt
+- id: QOEGU
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-323781
+    - AVEXAM-38556
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.01.01.03
+  templates:
+    - type: simple
+      question: "For a class B performance twin-engined aircraft, VR must:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Not be less than the greater of 1.10 VS1 or 1.05 VMC.
+          wrongAnswers:
+            - text: Not be less than the greater of 1.1 VMC or 1.2 VS.
+            - text: Be equal 1.1 VMC.
+            - text: Be equal to 1.2.VS1.
+- id: QCTIA
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322899
+    - AVEXAM-6923
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.01.01.04
+  templates:
+    - type: simple
+      question: "For a multi-engine aircraft in Performance Class B the minimum gross gradient of climb after a balked landing is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2.5%
+          wrongAnswers:
+            - text: 2%
+            - text: 1.5%
+            - text: 3.2%
+- id: QXJAM
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-329881
+    - AVEXAM-61106
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.01.01.04
+  templates:
+    - type: simple
+      question: For a multi-engine aircraft in the class B performance category, what is the minimum all engine take-off climb gradient?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 4%
+          wrongAnswers:
+            - text: 2.5%
+            - text: 3.3%
+            - text: 2.8%
+- id: QSCZQ
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-323209
+    - BGS-321326
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.01.01.05
+  templates:
+    - type: simple
+      question: "In twin engine aeroplanes with propellers turning clockwise as seen from behind:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the left engine is the critical engine.
+          wrongAnswers:
+            - text: the left engine produces a higher yaw moment if the right engine fails than vice versa.
+            - text: the right engine is the critical engine.
+            - text: the 'minimum control speed' is determined by the failure of the right engine.
+    - type: simple
+      question: An aircraft has two wing-mounted counter-rotating propellers that rotate away from the fuselage. Which engine is considered the critical engine?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both are critical
+          wrongAnswers:
+            - text: Left engine
+            - text: right engine
+            - text: Neither is critical because the trust line is moved closer to the fuselage.
+- id: QTNZN
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326450
+    - BGS-320724
+    - ATPLQ-325615
+    - BGS-321259
+    - AVEXAM-2495
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.01.01.05
+  templates:
+    - type: simple
+      question: The critical engine of a multi-engined, propeller-driven aeroplane is the one whose failure would result in the most adverse effect on the aeroplane’s...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: handling and performance characteristics.
+          wrongAnswers:
+            - text: endurance.
+            - text: maximum altitude.
+            - text: fuel consumption.
+    - type: simple
+      question: What is the critical engine of a multi-engined, fixed-wing propeller-driven aeroplane?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The engine whose failure would result in the largest asymmetric yaw moment.
+          wrongAnswers:
+            - text: The left engine in an aeroplane with two anti-clockwise turning (from the pilot's viewpoint) propellers.
+            - text: The remaining engine after an engine failure that would produce the largest asymmetric yaw moment.
+            - text: The engine installed on the wing where the fuel tank is carrying the least amount of fuel.
+- id: QPVRS
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds:
+    - QSKPL
+  externalQuestionIds:
+    - ATPLQ-323494
+    - AVEXAM-94460
+    - BGS-321217
+    - BGS-320873
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.01.01.06
+  templates:
+    - type: simple
+      question: |-
+        A twin-engine, class B aeroplane is flying straight and level when it loses one engine. Complete the following sentence:
+
+        The Thrust Required will (1)\_\_\_\_\_ and the Excess Thrust will (2)\_\_\_\_\_.
+      explanation: After an engine failure, the thrust required rises, because of the drag of the dead engine and the rudder needed to balance. The remaining engine gives half the thrust, so the excess thrust falls by more than 50%.
+      presets:
+        - correctAnswers:
+            - text: (1) Increase; (2) Decrease by more than 50%.
+          wrongAnswers:
+            - text: (1) Increase; (2) Decrease by 50%.
+            - text: (1) Increase; (2) Increase by more than 50%.
+            - text: (1) Decrease by 50%; (2) Decrease by more than 50%.
+- id: QSKPL
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds:
+    - QPVRS
+  externalQuestionIds:
+    - ATPLQ-324562
+    - AVEXAM-21030
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.01.01.06
+  templates:
+    - type: simple
+      question: Complete the statement with regards to a twin engine propeller aircraft certified under CS-23. In the event of an engine failure, the thrust required will (1) \_\_\_\_\_ and the excess thrust will (2) \_\_\_\_\_.
+      explanation: With one engine out, the thrust required increases because of the extra drag of the failed engine and of the rudder deflection. Thrust available halves, so the excess thrust decreases by more than 50%.
+      presets:
+        - correctAnswers:
+            - text: (1) increase; (2) decrease by more than 50%
+          wrongAnswers:
+            - text: (1) decrease by 50%; (2) decrease by more than 50%
+            - text: (1) increase; (2) decrease by 50%
+            - text: (1) increase; (2) decrease by less than 50%
+- id: QXSRM
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-329453
+    - AVEXAM-92710
+    - BGS-321157
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.01.01.06
+  templates:
+    - type: simple
+      question: A light twin piston-engined aeroplane is cruising at 2000 ft when one of its engines fails. Whilst the pilot is performing the necessary actions to secure the engine, they observe that the aircraft is in a very slow descent, even with their operative engine at maximum continuous power. What is the reason for this?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The increased drag from the propeller of the failed engine and the required control inputs to maintain direction mean that the power from the remaining engine is insufficient to maintain altitude.
+          wrongAnswers:
+            - text: The power required has reduced because drag is increased by the stationary propeller and the required control inputs to maintain direction, and the remaining engine has sufficient excess power.
+            - text: The power available has reduced because the feathered propeller only produces a small amount of thrust compared to normal and therefore the power required is less than the power available.
+            - text: The pilot must NOT have feathered the propeller of the failed engine, because ALL twin-engined aeroplanes that are certified in accordance with CS-23 must be able to climb within their environmental envelope.
+- id: QEEFF
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322251
+    - AVEXAM-730554
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.01.01.07
+  templates:
+    - type: simple
+      question: A multi-engine piston aircraft is in a constant-speed descent from 2000 feet. If the descent was started at V**MC**, at a lower altitude, the aircraft may become (1) \_\_\_\_\_ due to the (2) \_\_\_\_\_ in VMC with decreasing pressure altitude.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "(1) uncontrollable, (2) increase "
+          wrongAnswers:
+            - text: (1) uncontrollable, (2) decrease
+            - text: (1) controllable, (2) decrease
+            - text: (1) controllable, (2) increase
+- id: QYAYM
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-323125
+    - AVEXAM-38336
+    - BGS-321034
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.01.01.07
+    - 032.04.01.01.05
+  templates:
+    - type: simple
+      question: V**MC** means minimum control speed with…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The critical engine inoperative, and it will be lower at higher temperatures.
+          wrongAnswers:
+            - text: The critical engine inoperative, and it will be higher at higher temperatures.
+            - text: All engines operating and it will be lower at low temperatures.
+            - text: All engines operating and it will be lower at high temperatures.
+- id: QBTZM
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-321643
+    - BGS-320801
+    - AVEXAM-81165
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.02
+  templates:
+    - type: simple
+      question: How does an approach and landing with full flaps compare to one with zero flaps? The full flap approach and landing will have a...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: slower approach speed and shorter ground roll distance.
+          wrongAnswers:
+            - text: faster approach speed and larger ground roll distance.
+            - text: slower approach speed and larger ground roll distance.
+            - text: faster approach speed and shorter ground roll distance.
+- id: QVFFP
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-323350
+    - AVEXAM-48317
+    - BGS-320140
+    - AVEXAM-7059
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.03
+  templates:
+    - type: simple
+      question: The take-off distance required increases...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: due to slush on the runway.
+          wrongAnswers:
+            - text: due to downhill slope because of the smaller angle of attack.
+            - text: due to lower gross mass at take-off.
+            - text: due to head wind because of the drag augmentation.
+    - type: simple
+      question: "During a take-off from a runway contaminated by slush the drag caused by the slush will:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: increase then decrease due to less friction.
+          wrongAnswers:
+            - text: increase then remain constant.
+            - text: increase with increasing speed.
+            - text: increase up to VP then increase at a greater rate.
+- id: QEJJX
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-328619
+    - AVEXAM-87298
+    - BGS-320097
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.04
+  templates:
+    - type: simple
+      question: How does the thrust of a propeller vary during take-off run, assuming unstalled flow conditions at the propeller blades? The thrust...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: decreases while the aeroplane speed builds up.
+          wrongAnswers:
+            - text: has no change during take-off and climb.
+            - text: increases while the aeroplane speed builds up.
+            - text: varies with mass changes only.
+- id: QQVUH
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-327292
+    - AVEXAM-12175
+    - BGS-321033
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.04
+  templates:
+    - type: simple
+      question: Consider a constant speed propeller aeroplane in the take-off configuration with full throttle position and forward RPM lever. How does thrust change when the aeroplane accelerates from the brake-release point to V**LOF**? As speed builds up, the thrust…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Decreases.
+          wrongAnswers:
+            - text: Remains constant.
+            - text: Decrease or increases, depending on the form of the wing.
+            - text: Increases.
+- id: QVIVN
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-321731
+    - BGS-321119
+    - AVEXAM-25469
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.04
+  templates:
+    - type: simple
+      question: Consider a fixed-pitch propeller aeroplane at take-off. When the aeroplane accelerates during the take-off run phase, the blade angle of attack will (1) \_\_\_\_\_ and the thrust produced by the propeller will (2) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) decrease; (2) decrease
+          wrongAnswers:
+            - text: (1) decrease; (2) increase
+            - text: (1) increase; (2) increase
+            - text: (1) increase; (2) decrease
+- id: QIWOR
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds:
+    - QLVGE
+  externalQuestionIds:
+    - ATPLQ-329004
+    - AVEXAM-730494
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.05
+  templates:
+    - type: simple
+      question: What are the implications on takeoff distances if a pilot increases thrust while aligning with the runway for a rolling takeoff?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: TOD and ASD increase
+          wrongAnswers:
+            - text: TOD increases and ASD decreases
+            - text: TOD and ASD decrease
+            - text: TOD decreases and ASD increases
+- id: QLVGE
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds:
+    - QIWOR
+  externalQuestionIds:
+    - ATPLQ-324277
+    - AVEXAM-730539
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.05
+  templates:
+    - type: simple
+      question: A flight crew is trying to minimise delay by setting takeoff thrust before having fully lined up on the runway, and have released the brakes before setting takeoff thrust. What will happen to the TOD and ASD?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both TOD and ASD will increase.
+          wrongAnswers:
+            - text: TOD will increase and ASD will decrease.
+            - text: Both TOD and ASD will decrease.
+            - text: TOD will decrease and ASD will increase.
+- id: QCYII
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326034
+    - AVEXAM-72394
+    - BGS-320555
+    - AVEXAM-75316
+    - ATPLQ-328168
+  annexes:
+    - id: AOSM
+  learningObjectiveIds:
+    - 032.02.03.01.06
+  templates:
+    - type: simple
+      question: The wind direction is {{wd}}°(M) and the runway direction is {{rwy}}°(M). With a maximum allowable tailwind component of {{tw}} kt, determine the maximum wind speed for take-off.
+      explanation: |-
+        The tailwind component is the wind speed multiplied by the cosine of the angle between the wind direction and the runway heading. To find the largest wind speed that keeps the tailwind at its limit, divide the limit by the absolute value of that cosine.
+
+        **Solution**
+
+        Angle between wind and runway = {{macro1}}°
+
+        $$
+        \frac{\text{Maximum tailwind component}}{|\text{cos}(\text{Wind direction}-\text{Runway direction})|} = \frac{10}{|\text{cos}({{wd}}-{{rwy}})|} = \mathbf{ {{answer}}\ \text{kt} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kt**: multiplies the limit by the cosine instead of dividing, which gives the tailwind component of a wind as strong as the limit.
+        - **{{d2}} kt**: uses the sine (the crosswind relation) instead of the cosine.
+        - **{{d3}} kt**: takes the limit itself as the wind speed, ignoring the angle.
+      presets:
+        - variables:
+            wd: 180
+            rwy: 60
+            tw: 10
+            macro1: 120
+            answer: 20
+            d1: 5
+            d2: 11
+            d3: 10
+          correctAnswers:
+            - text: 20 kt
+          wrongAnswers:
+            - text: 10 kt
+            - text: 5 kt
+            - text: 11 kt
+        - variables:
+            wd: 250
+            rwy: 100
+            tw: 10
+            macro1: 150
+            answer: 12
+            d1: 9
+            d2: 20
+            d3: 10
+          correctAnswers:
+            - text: 12 kt
+          wrongAnswers:
+            - text: 10 kt
+            - text: 9 kt
+            - text: 20 kt
+        - variables:
+            wd: 210
+            rwy: 80
+            tw: 10
+            macro1: 130
+            answer: 16
+            d1: 6
+            d2: 13
+            d3: 10
+          correctAnswers:
+            - text: 16 kt
+          wrongAnswers:
+            - text: 10 kt
+            - text: 6 kt
+            - text: 13 kt
+    - type: simple
+      question: |-
+        Refer to figure or CAP698 file 4.1.
+
+        Wind direction is 090°(M), the runway direction is 210°(M). With a maximum allowable crosswind component of 26 kt, determine the maximum wind speed for take-off.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 30 kt
+          wrongAnswers:
+            - text: 52 kt
+            - text: 15 kt
+            - text: 26 kt
+- id: QIHVX
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-323905
+    - BGS-321006
+    - AVEXAM-21010
+  annexes:
+    - id: AOSM
+  learningObjectiveIds:
+    - 032.02.03.01.06
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure or CAP file 4.1.
+
+        During an approach and landing on Rwy 07, the controller informs the pilot that the weather has changed significantly according to the last report and the wind is now 220°(M)/25 kt.
+
+        Considering that the Rwy 07/25 is fully operational and available, which of the following options provides the greatest performance safety margin?
+      explanation: |-
+        The wind of 220° is 150° away from runway 07 (070°), so the component is 25 × cos 150° = 22 kt of **tailwind**.
+
+        Runway 25 (250°) is only 30° away from the wind, giving 25 × cos 30° = 22 kt of headwind. The pilot should request runway 25.
+      presets:
+        - correctAnswers:
+            - text: There is a tailwind of approximately 22 kt on Rwy 07; the pilot should request landing on runway 25 instead.
+          wrongAnswers:
+            - text: There is a headwind of 12 kt on Rwy 25 and a request to land on it should be considered.
+            - text: Rwy 07 only has a tailwind of 7 kt and a normal approach and landing on Rwy 07 should continue.
+            - text: The 22 kt headwind on Rwy 07 means the pilot should continue the approach and land on Rwy 07.
+- id: QLGHW
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324972
+    - AVEXAM-36779
+    - BGS-320875
+  annexes:
+    - id: AOSM
+  learningObjectiveIds:
+    - 032.02.03.01.06
+    - 032.02.03.01.07
+  templates:
+    - type: simple
+      question: |-
+        A single-engined Class B aeroplane takes off from runway 02/20. Refer to figure or CAP file 4.1. Runway 02 has a heading of {{rwy_hdg}}°. The wind direction during take-off is {{wind_dir}}°. The wind component limits are:
+
+        - Crosswind component limit: {{cw_limit}} kt
+        - Headwind component limit: {{hw_limit}} kt
+        - Tailwind component limit: {{tw_limit}} kt
+
+        What is the maximum allowed wind velocity (kt) on the most favourable runway?
+      explanation: |-
+        The crosswind is the part of the wind that blows across the runway. It is found from the angle between the wind and the runway heading, using the sine. The maximum wind is therefore the crosswind limit divided by that crosswind factor.
+
+        **Solution**
+
+        - Crosswind factor for each knot of wind: {{macro1}}
+        - Maximum wind = {{cw_limit}} kt / {{macro1}} = **{{answer}} kt**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kt**: the tailwind limit is used instead of the crosswind limit.
+        - **{{d2}} kt**: the cosine is used instead of the sine, which gives the headwind-based result.
+        - **{{d3}} kt**: the headwind limit is used in place of the crosswind limit.
+        - **{{d4}} kt**: the crosswind limit is multiplied by the sine instead of divided.
+      presets:
+        - variables:
+            rwy_hdg: 20
+            wind_dir: 330
+            cw_limit: 13
+            hw_limit: 30
+            tw_limit: 10
+            macro1: 1
+            answer: 17
+            d1: 13
+            d2: 20
+            d3: 47
+            d4: 10
+          correctAnswers:
+            - text: 17 kt
+          wrongAnswers:
+            - text: 13 kt
+            - text: 47 kt
+            - text: 10 kt
+            - text: 20 kt
+        - variables:
+            rwy_hdg: 270
+            wind_dir: 250
+            cw_limit: 15
+            hw_limit: 25
+            tw_limit: 10
+            macro1: 0
+            answer: 44
+            d1: 29
+            d2: 16
+            d3: 27
+            d4: 5
+          correctAnswers:
+            - text: 44 kt
+          wrongAnswers:
+            - text: 29 kt
+            - text: 27 kt
+            - text: 5 kt
+            - text: 16 kt
+- id: QOGCW
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324137
+    - BGS-320968
+    - AVEXAM-64614
+  annexes:
+    - id: AOSM
+  learningObjectiveIds:
+    - 032.02.03.01.06
+    - 032.04.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure or CAP698 file 4.1.
+
+        A flight has been planned to operate at the maximum field-length limited take-off mass (FLLTOM).
+
+        This was based upon the planned runway being 04 and the forecast wind to be light and variable.
+
+        During the taxi, an aircraft just ahead was cleared to take-off and the reported wind was 270° (M)/20 kt.
+
+        What observations should the flight crew raise given this updated wind?
+      explanation: |-
+        The wind of 270° is 130° away from runway 04 (040°), so the component is 20 × cos 130° = 13 kt of **tailwind**.
+
+        The planned mass assumed light and variable wind, so the performance must be **re-calculated** before take-off.
+      presets:
+        - correctAnswers:
+            - text: The aircraft performance should be re-calculated prior to take-off because there is now a tailwind of approximately 13 kt.
+          wrongAnswers:
+            - text: The approximate headwind of 15 kt means the aircraft should return to stand because the actual take-off distance has decreased and therefore the take-off mass can be increased.
+            - text: The departure can be continued because the planned take-off mass is based on a calculation that included the maximum tailwind.
+            - text: The take-off can be commenced because the updated wind means that the new headwind has increased the take-off performance and therefore increased the maximum FLLTOM.
+- id: QBBNQ
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-327825
+    - AVEXAM-63746
+    - AVEXAM-74131
+    - BGS-320777
+    - AVEXAM-43074
+    - AVEXAM-74967
+    - AVEXAM-52316
+  annexes:
+    - id: AOSM
+  learningObjectiveIds:
+    - 032.02.03.01.07
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure (CAP 698 file 4.1). Given the following information, what is the maximum allowed wind speed (round down to whole knots)?
+
+        - Aeroplane maximum allowed crosswind component: {{cw}} kt
+        - Runway direction: {{rwy}}°(M)
+        - Wind direction: {{wd}}°(M)
+      explanation: |-
+        The crosswind component is the wind speed times the sine of the angle between wind direction and runway direction. The maximum wind speed that keeps the crosswind within its limit is therefore the limit divided by that sine.
+
+        **Solution**
+
+        Angle = {{macro1}}°
+
+        $$\frac{\text{Max crosswind component}}{|\text{sin}(\text{Wind direction}-\text{Runway direction})|}$$ = $$\frac{ {{cw}} }{|\text{sin}({{wd}}-{{rwy}})|}$$ = {{macro4}} kt, rounded down to **{{answer}} kt**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kt**: uses the cosine (headwind component) instead of the sine of the angle.
+        - **{{d2}} kt**: multiplies the limit by the sine instead of dividing, which gives the crosswind component of a wind equal to the limit.
+        - **{{d3}} kt**: uses the tangent of the angle.
+        - **{{d4}} kt**: multiplies by the cosine, a mix-up of the component formulas.
+      presets:
+        - variables:
+            cw: 25
+            rwy: 240
+            wd: 190
+            macro1: 50
+            macro4: 33
+            answer: 32
+            d1: 38
+            d2: 19
+            d3: 20
+            d4: 16
+          correctAnswers:
+            - text: 32 kt
+          wrongAnswers:
+            - text: 38 kt
+            - text: 20 kt
+            - text: 16 kt
+            - text: 19 kt
+        - variables:
+            cw: 20
+            rwy: 120
+            wd: 170
+            macro1: 50
+            macro4: 26
+            answer: 26
+            d1: 31
+            d2: 15
+            d3: 16
+            d4: 12
+          correctAnswers:
+            - text: 26 kt
+          wrongAnswers:
+            - text: 31 kt
+            - text: 16 kt
+            - text: 12 kt
+            - text: 15 kt
+        - variables:
+            cw: 20
+            rwy: 90
+            wd: 130
+            macro1: 40
+            macro4: 31
+            answer: 31
+            d1: 26
+            d2: 12
+            d3: 23
+            d4: 15
+          correctAnswers:
+            - text: 31 kt
+          wrongAnswers:
+            - text: 26 kt
+            - text: 23 kt
+            - text: 15 kt
+            - text: 12 kt
+- id: QQPDY
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-328420
+    - AVEXAM-62580
+    - ATPLQ-322892
+    - ATPLQ-321537
+    - ATPLQ-322196
+    - BGS-321258
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.07
+  templates:
+    - type: simple
+      question: |-
+        A single-engine class B aeroplane has the following wind limitations: crosswind {{xw}} kt, headwind 30 kt, tailwind 10 kt.
+
+        Consider a take-off from runway 20 (heading {{rwy}} degrees) with the wind from {{wdir}} degrees.
+
+        Using trigonometry, determine the maximum wind speed that stays within the crosswind limit and allows take-off.
+
+        Round down to a whole number of knots (use 2 decimal places in the intermediate calculation).
+      explanation: |-
+        The crosswind component is wind speed x sin(angle between wind and runway heading). The maximum wind speed that keeps the crosswind at the limit is therefore the limit divided by that sine, rounded down so that the limit is not exceeded.
+
+        **Solution**
+
+        Wind angle = {{wdir}} - {{rwy}} = {{macro1}} degrees
+
+        Maximum wind speed = $$\frac{\text{Crosswind limit}}{\text{sin}(\text{Wind direction}-\text{Runway heading})}$$ = $$\frac{17}{\text{sin}({{wdir}}-200)}$$ = {{macro4}} kt, rounded down to **{{answer}} kt**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kt**: rounds up, which would exceed the crosswind limit.
+        - **{{d2}} kt**: simply takes the crosswind limit as the wind speed, ignoring the wind angle.
+        - **{{d3}} kt**: uses cos instead of sin (headwind instead of crosswind component).
+        - **{{d4}} kt**: multiplies by sin instead of dividing.
+      presets:
+        - variables:
+            xw: 17
+            rwy: 200
+            wdir: 250
+            macro1: 50
+            macro4: 22
+            answer: 22
+            d1: 23
+            d2: 17
+            d3: 26
+            d4: 13
+          correctAnswers:
+            - text: 22 kt
+          wrongAnswers:
+            - text: 23 kt
+            - text: 26 kt
+            - text: 13 kt
+            - text: 17 kt
+        - variables:
+            xw: 17
+            rwy: 200
+            wdir: 265
+            macro1: 65
+            macro4: 19
+            answer: 18
+            d1: 19
+            d2: 17
+            d3: 40
+            d4: 15
+          correctAnswers:
+            - text: 18 kt
+          wrongAnswers:
+            - text: 19 kt
+            - text: 40 kt
+            - text: 15 kt
+            - text: 17 kt
+        - variables:
+            xw: 17
+            rwy: 200
+            wdir: 240
+            macro1: 40
+            macro4: 26
+            answer: 26
+            d1: 27
+            d2: 17
+            d3: 22
+            d4: 10
+          correctAnswers:
+            - text: 26 kt
+          wrongAnswers:
+            - text: 27 kt
+            - text: 22 kt
+            - text: 10 kt
+            - text: 17 kt
+    - type: simple
+      question: |-
+        A single-engine class B aeroplane has the following wind limitations: 
+        Crosswind: 17 kt 
+        Headwind: 30 kt 
+        Tailwind: 10 kt 
+        Consider a take-off from runway 20 with wind from 260°. 
+
+        Using trigonometry, determine the wind speed which allows to stay below the crosswind limit of 17 kt and take-off: 
+        (2 decimal places for the calculations)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 19 kt
+          wrongAnswers:
+            - text: 18 kt
+            - text: 20 kt
+            - text: 11 kt
+        - correctAnswers:
+            - text: 20 kt
+          wrongAnswers:
+            - text: 22 kt
+            - text: 21 kt
+            - text: 19 kt
+- id: QYINW
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-327893
+    - AVEXAM-98974
+    - BGS-320974
+  annexes:
+    - id: AOSM
+  learningObjectiveIds:
+    - 032.02.03.01.07
+  templates:
+    - type: simple
+      question: |-
+        Using the information provided below, calculate the maximum crosswind component that can be expected on departure.
+
+        - Runway heading: {{hdg}}°(M)
+        - Wind: {{wdir}}°(M) / {{wspd}} gusting {{gust}} kt
+      explanation: |-
+        The crosswind component is the part of the wind speed that blows perpendicular to the runway: wind speed times the sine of the angle between wind direction and runway heading. The maximum value expected is found with the gust speed.
+
+        **Solution**
+
+        Angle between wind and runway = {{wdir}}° - {{hdg}}° = {{macro1}}°
+
+        $$
+        \text{Gust speed}\times \text{sin}(\text{Wind direction}-\text{Runway heading}) = {{gust}}\times \text{sin}({{wdir}}-{{hdg}}) = \mathbf{ {{answer}}\ \text{kt} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kt**: uses the mean wind speed instead of the gust speed.
+        - **{{d2}} kt**: uses the cosine, which gives the headwind component with the gust speed.
+        - **{{d3}} kt**: uses the cosine (headwind component) with the mean wind speed.
+      presets:
+        - variables:
+            hdg: 190
+            wdir: 270
+            wspd: 24
+            gust: 35
+            macro1: 80
+            answer: 34
+            d1: 24
+            d2: 6
+            d3: 4
+          correctAnswers:
+            - text: 34 kt
+          wrongAnswers:
+            - text: 4 kt
+            - text: 24 kt
+            - text: 6 kt
+        - variables:
+            hdg: 90
+            wdir: 130
+            wspd: 22
+            gust: 32
+            macro1: 40
+            answer: 21
+            d1: 14
+            d2: 25
+            d3: 17
+          correctAnswers:
+            - text: 21 kt
+          wrongAnswers:
+            - text: 17 kt
+            - text: 14 kt
+            - text: 25 kt
+        - variables:
+            hdg: 110
+            wdir: 160
+            wspd: 28
+            gust: 38
+            macro1: 50
+            answer: 29
+            d1: 21
+            d2: 24
+            d3: 18
+          correctAnswers:
+            - text: 29 kt
+          wrongAnswers:
+            - text: 18 kt
+            - text: 21 kt
+            - text: 24 kt
+- id: QWGAH
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-324233
+    - AVEXAM-60897
+    - AVEXAM-21540
+    - BGS-320726
+    - AVEXAM-8777
+    - BGS-320725
+    - ATPLQ-325529
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.08
+  templates:
+    - type: simple
+      question: A Performance Class B, multi engined aeroplane is used for Commercial Air Transport. The Take-Off Distance calculations must take into account...
+      explanation: For a Class B aeroplane in commercial air transport, the take-off distance calculation must use not more than 50% of the reported headwind component and at least 150% of the reported tailwind component, so that wind benefits are underestimated.
+      presets:
+        - correctAnswers:
+            - text: at least 150% of the reported Tailwind Component.
+          wrongAnswers:
+            - text: 50% of the reported Tailwind Component.
+            - text: at most only 50% of the reported Tailwind Component.
+            - text: the actual Tailwind Component.
+- id: QNNUZ
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325927
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.08
+  templates:
+    - type: simple
+      question: For (1) \_\_\_\_\_ aeroplane(s), the take-off distance calculations must take into account (2) \_\_\_\_\_ and (3) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) single engine and multi-engine; (2) up to 50% headwind; (3) more than 150% tailwind.
+          wrongAnswers:
+            - text: (1) single engine; (2) up to 50% headwind; (3) more than 150% tailwind.
+            - text: (1) single engine and multi-engine; (2) more than 50% headwind; (3) up to 150% tailwind.
+            - text: (1) multi-engine; (2) more than 50% headwind; (3) more than 150% tailwind.
+- id: QWHQY
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-326096
+    - BGS-320108
+    - AVEXAM-47969
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.08
+    - 032.04.01.02.03
+  templates:
+    - type: simple
+      question: What percentages of the head wind and tail wind component are taken into account when calculating the take-off field length required?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: not more than 50% head wind and not less than 150% tail wind.
+          wrongAnswers:
+            - text: not more than 50% head wind and not less than 100% tail wind.
+            - text: not less than 150% head wind and not more than 50% tail wind.
+            - text: 100% head wind and 100% tail wind.
+- id: QFTUU
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds:
+    - QTSMR
+  externalQuestionIds:
+    - ATPLQ-323800
+    - AVEXAM-82381
+    - BGS-320783
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.09
+  templates:
+    - type: simple
+      question: Unless otherwise specified, when landing on a runway with a downslope of 2%, the landing distances required should be increased by..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 10%.
+          wrongAnswers:
+            - text: 5%.
+            - text: 15%.
+            - text: 2%.
+- id: QGFIX
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-329191
+    - AVEXAM-57246
+    - BGS-321005
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.09
+  templates:
+    - type: simple
+      question: Which of the following options correctly describes the effects on aircraft performance of landing on wet or contaminated runways?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The lower effective braking force has a much greater effect on increasing the landing distance than the benefit of higher drag.
+          wrongAnswers:
+            - text: The effect of the increased wheel drag through the water is far greater than the loss of friction and reduced braking effect, therefore landing distances decrease.
+            - text: Hydroplaning creates more drag on the wheels, which is evenly balanced by less effective brake drag, thus creating a similar deceleration force compared to a dry runway.
+            - text: The coefficient of friction is dramatically increased, which reduces the maximum braking energy that can be applied, which increases the landing distance.
+- id: QTSMR
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds:
+    - QFTUU
+  externalQuestionIds:
+    - ATPLQ-325235
+    - AVEXAM-1862
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.09
+  templates:
+    - type: simple
+      question: "Unless otherwise specified, when landing on a runway with a downslope of 2.5%, the landing distances required should be increased by:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 12.5%
+          wrongAnswers:
+            - text: 10%
+            - text: 5%
+            - text: 2%
+- id: QJCRX
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-321539
+    - AVEXAM-6481
+    - BGS-321039
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.10
+  templates:
+    - type: simple
+      question: Your route of the day is London-Paris-London in a performance class B aeroplane. During your approach into London, the QNH has reduced considerably since your earlier departure, with a small increase in temperature. You expect your aircraft's performance to (1) \_\_\_\_\_ as the landing distance required will (2) \_\_\_\_\_ and the missed approach climb gradient will (3) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) reduce; (2) increase; (3) reduce
+          wrongAnswers:
+            - text: (1) increase; (2) reduce; (3) increase
+            - text: (1) increase; (2) reduce; (3) reduce
+            - text: (1) reduce; (2) increase; (3) increase
+- id: QNOGZ
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds:
+    - QQHBK
+  externalQuestionIds:
+    - ATPLQ-323119
+    - AVEXAM-29860
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.11
+  templates:
+    - type: simple
+      question: What will be the effect on the landing distance for an aircraft A crossing the threshold at 100 ft, instead of 50 ft, (higher than recommended) and another aircraft B crossing the threshold at 50 ft, but 5 kt faster than the correct VREF?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both will have a greater Landing Distance, but depending on the braking action can stop within the LDA.
+          wrongAnswers:
+            - text: Aircraft A will have a greater Landing Distance and aircraft B will have the same landing distance.
+            - text: The Landing distance will not be affected.
+            - text: Aircraft B will have a greater landing distance and aircraft A will have the same landing distance.
+- id: QPEGX
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-325767
+    - AVEXAM-63642
+    - BGS-321247
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.11
+  templates:
+    - type: simple
+      question: |-
+        A pilot performs two landings onto the same runway. Both are from 3º approaches, with the same conditions present.
+
+        Landing 1: The aeroplane passes the runway threshold at a height of almost 100 ft and the correct landing airspeed   
+         Landing 2: The aeroplane passes the runway threshold at 50 ft but with an airspeed 5 knots higher than the correct landing airspeed.
+
+        Choose the correct statement.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both landings result in a greater landing distance than expected, where landing 2 is less predictable as it depends on how excess energy is dissipated during the flare and subsequent ground roll.
+          wrongAnswers:
+            - text: Landing 1 has a greater landing distance due to excess energy while landing 2 achieves the planned landing distance since the aeroplane touches down at the optimum touchdown point.
+            - text: Both landings result in the planned landing distance being used since the landing distance allows for small deviations in height above the landing threshold and landing speed.
+            - text: Landing 1 achieves the planned landing distance since the landing distance starts at 50 ft while landing 2 has a greater landing distance due to excess energy.
+- id: QQHBK
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds:
+    - QTFSP
+    - QNOGZ
+  externalQuestionIds:
+    - ATPLQ-322570
+    - AVEXAM-20186
+    - AVEXAM-91587
+    - BGS-320888
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.11
+  templates:
+    - type: simple
+      question: "On landing an aircraft crosses the threshold at a correct screen height of 50 ft but 10 kt faster than the correct VREF. Select the correct statement:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Landing distance increases.
+          wrongAnswers:
+            - text: Landing distance increases and the ground roll reduces.
+            - text: Landing distance decreases and the ground roll increases.
+            - text: Landing distance decreases.
+- id: QTFSP
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds:
+    - QQHBK
+  externalQuestionIds:
+    - ATPLQ-329504
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.11
+  templates:
+    - type: simple
+      question: You are crossing the threshold at a landing screen height of 67 ft. Compared to the standard screen height, what will be the effect on the landing distance?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Landing distance increases.
+          wrongAnswers:
+            - text: Landing distance decreases and the ground roll increase.
+            - text: Landing distance increases and the ground roll reduces.
+            - text: Landing distance decreases.
+- id: QWSUI
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322264
+    - BGS-320842
+    - AVEXAM-9367
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.12
+  templates:
+    - type: simple
+      question: "For a multi-engine Class B aircraft, all engines operating, the take-off flight path is equal to the gross gradient of the actual flight path:"
+      explanation: For a Class B multi-engine aeroplane with all engines operating, the take-off flight path is the actual gross gradient multiplied by 0.77.
+      presets:
+        - correctAnswers:
+            - text: Multiplied by 0.77.
+          wrongAnswers:
+            - text: Flown up to a height of 35 ft.
+            - text: Until reaching cruise altitude.
+            - text: Flown up to a height of 400 ft.
+- id: QGCYT
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-329589
+    - BGS-321235
+    - AVEXAM-61837
+    - BGS-321124
+    - AVEXAM-47544
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.03.01.13
+  templates:
+    - type: simple
+      question: A pilot is operating a commercial air transport flight in accordance with EU Regulations (Part-CAT) in a twin-engine Performance Class B aeroplane. It is a sightseeing flight under VFR during the day. Considering the performance requirements for take-off and departure, which of the following options is correct regarding the horizontal extent of the flight path accountability area for this flight? The obstacle clearance accountability area...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is effectively substituted by ensuring the weather conditions during operation are sufficient to visually navigate and avoid obstacles.
+          wrongAnswers:
+            - text: commences at the end of the TODA and consists of a 90 m wide corridor along the flight path until the aeroplane reaches 50 ft above any obstacle.
+            - text: commences at the assumed engine failure height and will gradually widen as the distance along the flight path increases.
+            - text: is at least 60 m wide from the end of the TORA, gradually extending to a maximum 300m width along the planned flight path.
+- id: QONPT
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-328977
+    - BGS-321064
+    - AVEXAM-88810
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.04.01.01
+  templates:
+    - type: simple
+      question: A pilot of a single-engined turbine aeroplane performs a Commercial Air Transport flight with passengers over land with no significant terrain and the cruise phase will be above a solid layer of cloud. The planned route must be such that, in the event of an engine failure, the aeroplane is able to glide...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: to a point 1000 ft above a suitable landing area and the bottom of any solid cloud layer should be above the minimum safe altitude.
+          wrongAnswers:
+            - text: from an altitude where the rate of climb is at least 300 fpm to a point 1000 ft above a runway, onto which a successful landing can be made.
+            - text: to the point of landing on a suitable landing site and there should be no cloud below a height of 1000 ft agl.
+            - text: to a point 1000 ft above a runway onto which a successful emergency landing can be made and there should be no cloud below the minimum safe altitude.
+- id: QCHZM
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-321439
+    - AVEXAM-94172
+    - BGS-321202
+    - BGS-321246
+    - AVEXAM-730507
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.04.01.02
+  templates:
+    - type: simple
+      question: From the screen height of 50 ft, a single-engined piston aeroplane performs a straight-out climb in visual meteorological conditions with a rate of climb of 500 ft/min, a TAS of 110 kt, NIL wind. What will be the expected height clearance of a group of trees that are 9 m tall and located at a distance of 352 m on the extended runway centre line from reference zero?
+      explanation: "The climb gradient is the rate of climb divided by the TAS: 500 ft/min is about 2.5 m/s and 110 kt about 56.6 m/s, giving a gradient of about 4.5%. Over 352 m from reference zero the aeroplane gains about 15.8 m on top of the 15.2 m (50 ft) screen height. It passes at about 31 m, and the clearance over the 9 m trees is about 22.5 m."
+      presets:
+        - correctAnswers:
+            - text: 22.5 m
+          wrongAnswers:
+            - text: 30.9 m
+            - text: 7.20 m
+            - text: 18.75 m
+- id: QDEJJ
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-328116
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.04.01.02
+  templates:
+    - type: simple
+      question: From the screen height of {{sh}} ft, a single-engined piston aeroplane performs a straight-out climb in VMC with an air climb gradient of {{grad}}%, a TAS of {{tas}} kt and a headwind component of {{hw}} kt. What will be the expected height clearance above a group of trees that are {{obst}} m tall and located {{dist}} m from reference zero on the extended runway centre line? (1 ft = 0.3048 m)
+      explanation: |-
+        The climb gradient is flown through the air, so a headwind steepens the flight path over the ground: the gradient over the ground is the air gradient multiplied by TAS / ground speed. The height at the obstacle is the screen height plus the climb gained over the horizontal distance; the clearance is that height minus the obstacle height.
+
+        **Solution**
+
+        Ground speed = $${{tas}}-{{hw}}$$ = {{macro2}} kt
+
+        Gradient over the ground = $$\frac{ {{grad}}\times {{tas}} }{ {{tas}}-{{hw}} }$$ = {{macro4}} %
+
+        Height gained = $$\frac{\frac{ {{grad}} }{100}\times {{dist}}\times {{tas}} }{ {{tas}}-{{hw}} }$$ = {{macro6}} m
+
+        Clearance = $$50\times 0.3048+\frac{\frac{ {{grad}} }{100}\times {{dist}}\times {{tas}} }{ {{tas}}-{{hw}} }-{{obst}} = \mathbf{ {{answer}}\ \text{m} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} m**: ignores the wind effect and uses the air gradient directly over the ground.
+        - **{{d2}} m**: forgets the screen height ({{sh}} ft) that the climb starts from.
+        - **{{d3}} m**: adds the screen height in feet to a result in metres without converting.
+      presets:
+        - variables:
+            sh: 50
+            grad: 9
+            tas: 60
+            hw: 10
+            obst: 8
+            dist: 250
+            macro2: 50
+            macro4: 11
+            macro6: 27
+            answer: 34
+            d1: 30
+            d2: 19
+            d3: 69
+          correctAnswers:
+            - text: 34 m
+          wrongAnswers:
+            - text: 69 m
+            - text: 30 m
+            - text: 19 m
+        - variables:
+            sh: 50
+            grad: 8
+            tas: 70
+            hw: 10
+            obst: 10
+            dist: 300
+            macro2: 60
+            macro4: 9
+            macro6: 28
+            answer: 33
+            d1: 29
+            d2: 18
+            d3: 68
+          correctAnswers:
+            - text: 33 m
+          wrongAnswers:
+            - text: 68 m
+            - text: 29 m
+            - text: 18 m
+        - variables:
+            sh: 50
+            grad: 7
+            tas: 80
+            hw: 15
+            obst: 12
+            dist: 400
+            macro2: 65
+            macro4: 9
+            macro6: 34
+            answer: 38
+            d1: 31
+            d2: 22
+            d3: 72
+          correctAnswers:
+            - text: 38 m
+          wrongAnswers:
+            - text: 72 m
+            - text: 31 m
+            - text: 22 m
+- id: QIRWY
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-329520
+    - BGS-321156
+    - AVEXAM-76690
+    - AVEXAM-62897
+    - ATPLQ-328713
+    - AVEXAM-55288
+    - AVEXAM-47079
+    - ATPLQ-326660
+    - BGS-321018
+    - ATPLQ-325644
+    - BGS-321251
+  annexes:
+    - id: AFUC
+    - id: AZQE
+  learningObjectiveIds:
+    - 032.02.04.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to the figure. You are taking off with a single-engined aeroplane at a field-length-limited take-off mass, in VMC, for a straight-out departure. Given the following information, what is the expected obstacle clearance over the obstacle on the extended centre line?
+
+        - Climb gradient: {{gradient}} %
+        - TAS: {{tas}} kt
+        - Wind component: {{headwind}} kt (positive = headwind, negative = tailwind)
+
+        1 NM = 6080 ft
+
+        The ground distance to the obstacle ({{gd}} NM) and the obstacle height ({{obst}} ft) are the values read from the figure.
+
+        Height gain = ((GD x TAS) / GS) x gradient / 100. Give the obstacle clearance in ft.
+      explanation: |-
+        The obstacle clearance is the height the aeroplane has gained at the obstacle minus the obstacle height. The climb gradient is flown relative to the air, while the distance to the obstacle is measured over the ground, so the gained height is corrected by TAS/GS.
+
+        **Solution**
+
+        GS = TAS - headwind = {{macro1}} kt
+
+        Height gain = $$\frac{\frac{\text{Ground distance to obstacle (read from the figure)}\times 6080\times \text{Climb gradient}}{100}\times \text{TAS}}{\text{TAS}-\text{Headwind component (negative = tailwind)}}$$ = $$\frac{\frac{ {{gd}}\times 6080\times {{gradient}} }{100}\times {{tas}} }{ {{tas}}-({{headwind}})}$$ = {{macro4}} ft
+
+        Clearance = {{macro4}} ft - {{obst}} ft = **{{answer}} ft**
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft**: ignores the wind (uses TAS = GS).
+        - **{{d2}} ft**: applies the wind component with the wrong sign when computing GS.
+        - **{{d3}} ft**: this is the height gain; the obstacle height was not subtracted.
+        - **{{d4}} ft**: uses GS/TAS instead of TAS/GS.
+        - **{{d5}} ft**: adds the obstacle height instead of subtracting it.
+      presets:
+        - variables:
+            gradient: 8
+            tas: 111
+            headwind: -4
+            gd: 2.3
+            obst: 810
+            macro1: 115
+            macro4: 1080
+            answer: 270
+            d1: 309
+            d2: 351
+            d3: 1080
+            d4: 349
+            d5: 1890
+          correctAnswers:
+            - text: 270 ft
+          wrongAnswers:
+            - text: 1080 ft
+            - text: 349 ft
+            - text: 309 ft
+            - text: 351 ft
+            - text: 1890 ft
+        - variables:
+            gradient: 5
+            tas: 133
+            headwind: -10
+            gd: 2.1
+            obst: 520
+            macro1: 143
+            macro4: 594
+            answer: 74
+            d1: 118
+            d2: 170
+            d3: 594
+            d4: 166
+            d5: 1114
+          correctAnswers:
+            - text: 74 ft
+          wrongAnswers:
+            - text: 594 ft
+            - text: 166 ft
+            - text: 118 ft
+            - text: 170 ft
+            - text: 1114 ft
+        - variables:
+            gradient: 9
+            tas: 124
+            headwind: 10
+            gd: 2
+            obst: 750
+            macro1: 114
+            macro4: 1190
+            answer: 440
+            d1: 344
+            d2: 263
+            d3: 1190
+            d4: 256
+            d5: 1940
+          correctAnswers:
+            - text: 440 ft
+          wrongAnswers:
+            - text: 1190 ft
+            - text: 256 ft
+            - text: 344 ft
+            - text: 263 ft
+            - text: 1940 ft
+    - type: simple
+      question: |-
+        Refer to figure. 
+        Given the following information, calculate the expected obstacle clearance overhead the power lines for a single engine piston aircraft at its FLLTOM (Field Length Limited Take-off Mass) on a straight out departure from Runway 09 in VMC.Aerodrome elevation: MSL 
+        Climb gradient: 6% 
+        True Airspeed: 110 kt 
+        Headwind component: 20 kt 
+        1 NM = 6080 ft 
+        Height Difference = [(Ground Distance x TAS)/GS] x Gradient(%)/100
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 319 ft
+          wrongAnswers:
+            - text: 496 ft
+            - text: 246 ft
+            - text: 469 ft
+    - type: simple
+      question: |-
+        Please refer to the annex. You are taking-off with a single-engined aeroplane, and at a field-length limited take-off mass, from runway 27, in VMC, for a straight-out departure. Given the following information, what will be the expected obstacle clearance over the water tank on the extended centreline? 
+        Climb gradient: 8 %
+        TAS: 111 kt
+        Wind component: 5 kt tailwind
+        1 NM = 6080 ft
+        Height Difference= ((Ground Distance x TAS) / Ground Speed) x Gradient) / 100
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 265 ft
+          wrongAnswers:
+            - text: 515 ft
+            - text: 215 ft
+            - text: 465 ft
+- id: QRFQO
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-327546
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.04.01.02
+  templates:
+    - type: simple
+      question: You are flying an aircraft just after takeoff with a rate of climb of 500 ft/min, a TAS of 110 kt and no wind. You are at the 50 ft screen height, and there is a crane located 374 m ahead with a height of 9 m (over the runway elevation). What will be the obstacle clearance over the crane?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 22.9 m
+          wrongAnswers:
+            - text: 55 m
+            - text: 10.1 m
+            - text: 7.6 m
+- id: QSVPQ
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-322660
+    - AVEXAM-77257
+    - BGS-320823
+    - AVEXAM-30091
+    - AVEXAM-57906
+    - AVEXAM-67543
+    - BGS-321179
+    - AVEXAM-70704
+    - AVEXAM-32628
+    - BGS-320829
+    - BGS-320938
+    - ATPLQ-326561
+    - ATPLQ-328359
+    - ATPLQ-323738
+    - BGS-321027
+    - ATPLQ-321245
+    - AVEXAM-32446
+    - AVEXAM-38922
+    - AVEXAM-12304
+    - AVEXAM-1424
+    - AVEXAM-43859
+    - ATPLQ-329618
+    - AVEXAM-730499
+    - AVEXAM-730500
+    - ATPLQ-325394
+    - ATPLQ-324288
+    - ATPLQ-327648
+    - ATPLQ-323642
+    - AVEXAM-48560
+    - AVEXAM-61491
+    - AVEXAM-73912
+    - AVEXAM-55890
+    - AVEXAM-8639
+    - ATPLQ-326853
+    - AVEXAM-52965
+    - ATPLQ-326540
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.04.01.03
+  templates:
+    - type: simple
+      question: |-
+        For a single-engine aeroplane, calculate the net glide distance following an engine failure. Given:
+
+        - Altitude: {{alt}} ft
+        - Terrain elevation: {{elev}} ft
+        - Gross gradient: {{grad}}%
+        - TAS: {{tas}} kt
+        - Headwind: {{hw}} kt (a negative value is a tailwind)
+
+        Still air distance = (height difference (ft) x 100) / net gradient (%)
+        Ground distance = still air distance x (GS / TAS)
+        Assume 1 NM = 6 080 ft.
+      explanation: |-
+        After an engine failure the aeroplane glides at the net gradient, which is the gross gradient increased by 0.5% (the net glide path is steeper than the gross one). The still-air distance is the height above the terrain divided by that gradient, and it is converted to a ground distance with the groundspeed to TAS ratio, so a headwind shortens the glide.
+
+        **Solution**
+
+        Height difference = {{macro1}} ft
+
+        Net gradient = {{macro2}}%
+
+        GS = {{macro3}} kt
+
+        $$
+        \frac{\frac{\frac{(\text{altitude}-\text{terrain elevation})\times 100}{\text{gross gradient}+0.5}}{6080}\times (\text{TAS}-\text{headwind})}{\text{TAS}} = \frac{\frac{\frac{({{alt}}-{{elev}})\times 100}{ {{grad}}+0.5}}{6080}\times ({{tas}}-{{hw}})}{ {{tas}} } = \mathbf{ {{answer}}\ \text{NM} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: still-air distance, the wind correction GS / TAS is not applied.
+        - **{{d2}} NM**: the ratio is inverted (TAS / GS), so a headwind wrongly lengthens the glide.
+        - **{{d3}} NM**: gross gradient used instead of net, and the ratio is inverted.
+        - **{{d4}} NM**: gross gradient used instead of the net gradient.
+        - **{{d5}} NM**: the 0.5% is subtracted instead of added, giving a gradient that is too shallow.
+      presets:
+        - variables:
+            alt: 9500
+            elev: 500
+            grad: 11
+            tas: 250
+            hw: 42
+            macro1: 9000
+            macro2: 11.5
+            macro3: 208
+            answer: 10.7
+            d1: 12.9
+            d2: 15.5
+            d3: 16.2
+            d4: 11.2
+            d5: 11.7
+          correctAnswers:
+            - text: 10.7 NM
+          wrongAnswers:
+            - text: 16.2 NM
+            - text: 11.2 NM
+            - text: 12.9 NM
+            - text: 15.5 NM
+            - text: 11.7 NM
+        - variables:
+            alt: 8000
+            elev: 300
+            grad: 10
+            tas: 120
+            hw: 20
+            macro1: 7700
+            macro2: 10.5
+            macro3: 100
+            answer: 10.1
+            d1: 12.1
+            d2: 14.5
+            d3: 15.2
+            d4: 10.6
+            d5: 11.1
+          correctAnswers:
+            - text: 10.1 NM
+          wrongAnswers:
+            - text: 15.2 NM
+            - text: 10.6 NM
+            - text: 12.1 NM
+            - text: 14.5 NM
+            - text: 11.1 NM
+        - variables:
+            alt: 7500
+            elev: 0
+            grad: 12
+            tas: 180
+            hw: 30
+            macro1: 7500
+            macro2: 12.5
+            macro3: 150
+            answer: 8.2
+            d1: 9.9
+            d2: 11.8
+            d3: 12.3
+            d4: 8.6
+            d5: 8.9
+          correctAnswers:
+            - text: 8.2 NM
+          wrongAnswers:
+            - text: 12.3 NM
+            - text: 8.6 NM
+            - text: 9.9 NM
+            - text: 11.8 NM
+            - text: 8.9 NM
+    - type: simple
+      question: "For planning purposes, determine the net distance travelled down to 4 000 ft for a single-engine piston aircraft following an engine failure at 8 000 ft. Given the following data: TAS: 120 kts GS: 150 kts Gross gradient of descent 11% Gross/net gradient decrement 0.5% Still air distance (ft) = (Height difference (ft) x 100) / % net gradient Ground distance = still air distance x (groundspeed / TAS)"
+      explanation: The net gradient is 11 + 0.5 = 11.5 %. The still-air distance for the 4 000 ft descent is 4 000 × 100 ÷ 11.5 = 34 783 ft, about 5.7 NM. Correcting for the wind multiplies it by 150 ÷ 120, giving about **7.1 NM**.
+      presets:
+        - correctAnswers:
+            - text: 7.1 NM
+          wrongAnswers:
+            - text: 7.8 NM
+            - text: 5.7 NM
+            - text: 6.2 NM
+    - type: simple
+      question: |-
+        For a single engine aeroplane, calculate the net glide distance following an engine failure. Given:
+
+        - Altitude: {{alt}} ft
+        - Terrain elevation: {{elev}} ft
+        - Gross gradient: {{gross}} %
+        - TAS: {{tas}} kt
+        - Tailwind: {{tw}} kt
+
+        Assume the net gradient is the gross gradient plus a 0.5 % decrement, and 1 NM = 6 080 ft.
+
+        Still air distance = (height difference (ft) x 100) / net gradient (%)
+        Ground distance = still air distance x (GS / TAS)
+      explanation: |-
+        In a glide the aeroplane covers a still-air distance set by the height available and the net glide gradient (the gross gradient made 0.5 % steeper to allow for the decrement). Wind then scales this distance by the ratio of ground speed to TAS; a tailwind increases the ground speed.
+
+        **Solution**
+
+        Height difference = {{alt}} - {{elev}} = {{macro1}} ft
+
+        Net gradient = {{gross}} + 0.5 = {{macro2}} %
+
+        Still air distance = {{macro3}} ft = {{macro4}} NM
+
+        GS = {{tas}} + {{tw}} = {{macro5}} kt
+
+        $$
+        \frac{\frac{\frac{(\text{Altitude}-\text{Terrain elevation})\times 100}{\text{Gross gradient}+0.5}}{6080}\times (\text{TAS}+\text{Tailwind})}{\text{TAS}} = \frac{\frac{\frac{({{alt}}-{{elev}})\times 100}{ {{gross}}+0.5}}{6080}\times ({{tas}}+{{tw}})}{ {{tas}} } = \mathbf{ {{answer}}\ \text{NM} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: uses the gross gradient without the 0.5 % decrement.
+        - **{{d2}} NM**: gives the still-air distance and ignores the tailwind.
+        - **{{d3}} NM**: subtracts the tailwind instead of adding it (headwind correction).
+        - **{{d4}} NM**: inverts the ratio and uses TAS / GS instead of GS / TAS.
+      presets:
+        - variables:
+            alt: 9000
+            elev: 250
+            gross: 11
+            tas: 101
+            tw: 3
+            macro1: 8750
+            macro2: 11.5
+            macro3: 76087
+            macro4: 12.5
+            macro5: 104
+            answer: 12.9
+            d1: 13.5
+            d2: 12.5
+            d3: 12.1
+            d4: 12.2
+          correctAnswers:
+            - text: 12.9 NM
+          wrongAnswers:
+            - text: 13.5 NM
+            - text: 12.1 NM
+            - text: 12.2 NM
+            - text: 12.5 NM
+        - variables:
+            alt: 8000
+            elev: 500
+            gross: 10
+            tas: 110
+            tw: 10
+            macro1: 7500
+            macro2: 10.5
+            macro3: 71428.6
+            macro4: 11.7
+            macro5: 120
+            answer: 12.8
+            d1: 13.5
+            d2: 11.7
+            d3: 10.7
+            d4: 10.8
+          correctAnswers:
+            - text: 12.8 NM
+          wrongAnswers:
+            - text: 13.5 NM
+            - text: 10.7 NM
+            - text: 10.8 NM
+            - text: 11.7 NM
+        - variables:
+            alt: 10000
+            elev: 300
+            gross: 9
+            tas: 95
+            tw: 8
+            macro1: 9700
+            macro2: 9.5
+            macro3: 102105.3
+            macro4: 16.8
+            macro5: 103
+            answer: 18.2
+            d1: 19.2
+            d2: 16.8
+            d3: 15.4
+            d4: 15.5
+          correctAnswers:
+            - text: 18.2 NM
+          wrongAnswers:
+            - text: 19.2 NM
+            - text: 15.4 NM
+            - text: 15.5 NM
+            - text: 16.8 NM
+    - type: simple
+      question: |-
+        A single-engined piston aeroplane is flying at an altitude of {{alt}} ft with a constant headwind component of {{hw}} kt. If the engine fails at this altitude, what is the expected net glide distance over the ground to an elevation of {{elev}} ft?
+
+        - L/D: {{ld}}:1
+        - TAS: {{tas}} kt
+
+        Assume 1 NM = 6 080 ft and a 0.5 % decrement (net gradient = 100 / (L/D) + 0.5 %).
+
+        Still air distance = (height difference / net gradient) x 100
+        Ground distance = still air distance x (GS / TAS)
+      explanation: |-
+        The glide gradient follows from the lift-to-drag ratio (100 / (L/D) in %), made 0.5 % steeper for the decrement. The still-air distance is the height available divided by this net gradient; a headwind reduces the ground speed, so the ground distance is scaled by GS / TAS.
+
+        **Solution**
+
+        Height difference = {{macro1}} ft
+
+        Net gradient = 100 / {{ld}} + 0.5 = {{macro2}} %
+
+        GS = {{tas}} - {{hw}} = {{macro3}} kt
+
+        $$
+        \frac{\frac{\frac{(\text{Altitude}-\text{Terrain elevation})\times 100}{\frac{100}{\text{L/D ratio}}+0.5}}{6080}\times (\text{TAS}-\text{Headwind component})}{\text{TAS}} = \frac{\frac{\frac{({{alt}}-{{elev}})\times 100}{\frac{100}{ {{ld}} }+0.5}}{6080}\times ({{tas}}-{{hw}})}{ {{tas}} } = \mathbf{ {{answer}}\ \text{NM} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: ignores the headwind (no GS / TAS correction).
+        - **{{d2}} NM**: adds the headwind to the TAS as if it were a tailwind.
+        - **{{d3}} NM**: omits the 0.5 % decrement.
+        - **{{d4}} NM**: uses the full altitude instead of the height above the terrain.
+      presets:
+        - variables:
+            alt: 5000
+            hw: 25
+            elev: 250
+            ld: 9.1
+            tas: 140
+            macro1: 4750
+            macro2: 11.5
+            macro3: 115
+            answer: 5.6
+            d1: 6.8
+            d2: 8
+            d3: 5.8
+            d4: 5.9
+          correctAnswers:
+            - text: 5.6 NM
+          wrongAnswers:
+            - text: 6.8 NM
+            - text: 5.8 NM
+            - text: 5.9 NM
+            - text: 8 NM
+        - variables:
+            alt: 6000
+            hw: 20
+            elev: 300
+            ld: 10
+            tas: 130
+            macro1: 5700
+            macro2: 10.5
+            macro3: 110
+            answer: 7.6
+            d1: 8.9
+            d2: 10.3
+            d3: 7.9
+            d4: 8
+          correctAnswers:
+            - text: 7.6 NM
+          wrongAnswers:
+            - text: 8.9 NM
+            - text: 7.9 NM
+            - text: 8 NM
+            - text: 10.3 NM
+        - variables:
+            alt: 4000
+            hw: 15
+            elev: 200
+            ld: 8.5
+            tas: 120
+            macro1: 3800
+            macro2: 12.3
+            macro3: 105
+            answer: 4.5
+            d1: 5.1
+            d2: 5.7
+            d3: 4.6
+            d4: 4.7
+          correctAnswers:
+            - text: 4.5 NM
+          wrongAnswers:
+            - text: 5.1 NM
+            - text: 4.6 NM
+            - text: 4.7 NM
+            - text: 5.7 NM
+    - type: simple
+      question: "A commercial air transport flight is conducted in a single-engined piston aeroplane. At the most critical point of the flight the distance to a safe landing place is {{distance}} NM. Given: terrain elevation {{elev}} ft, gross glide gradient {{gross}} %, TAS {{tas}} kt, expected {{windtype}} component {{wind}} kt, 1 NM = 6 080 ft. What is the lowest altitude at which the aeroplane should fly over this critical point?"
+      explanation: |-
+        ### EASA Part-CAT, GM1 CAT.POL.A.320
+
+        > The operator should first **increase the scheduled engine-inoperative gliding performance data by 0.5 % gradient** when verifying the en-route clearance of obstacles and the ability to reach a suitable place for a forced landing.
+
+        The net gradient is therefore the gross gradient plus 0.5 %, here {{net}} %. The ground speed is {{gs}} kt, so the still-air distance equals the ground distance multiplied by TAS ÷ GS. Distance in feet, {{distance}} NM × 6 080 = {{feet}} ft, gives a still-air distance of {{still}} ft. Height above the terrain = still-air distance × net gradient ÷ 100 = {{height}} ft, so the lowest altitude is **{{answer}}**.
+      presets:
+        - variables:
+            distance: 10
+            elev: 0
+            gross: 10
+            tas: 110
+            windtype: tailwind
+            wind: 20
+            net: "10.5"
+            gs: 130
+            feet: 60 800
+            still: 51 446
+            height: 5 402
+            answer: 5 400 ft
+          correctAnswers:
+            - text: 5 400 ft
+          wrongAnswers:
+            - text: 5 100 ft
+            - text: 5 800 ft
+            - text: 6 200 ft
+        - variables:
+            distance: 10
+            elev: 0
+            gross: "10.2"
+            tas: 130
+            windtype: headwind
+            wind: 10
+            net: "10.7"
+            gs: 120
+            feet: 60 800
+            still: 65 867
+            height: 7 047
+            answer: 7 046 ft
+          correctAnswers:
+            - text: 7 046 ft
+          wrongAnswers:
+            - text: 6 760 ft
+            - text: 7 827 ft
+            - text: 7 420 ft
+        - variables:
+            distance: 10
+            elev: 0
+            gross: "10.2"
+            tas: 130
+            windtype: tailwind
+            wind: 10
+            net: "10.7"
+            gs: 140
+            feet: 60 800
+            still: 56 457
+            height: 6 041
+            answer: 6 000 ft
+          correctAnswers:
+            - text: 6 000 ft
+          wrongAnswers:
+            - text: 5 500 ft
+            - text: 5 700 ft
+            - text: 6 300 ft
+    - type: simple
+      question: A single-engined piston aeroplane is flying at an altitude of {{alt}} ft with a constant {{windtype}} component of {{wind}} kt. Given a gross gradient of {{gross}} %, TAS {{tas}} kt, terrain elevation {{elev}} ft and 1 NM = 6 080 ft, what is the expected net glide distance over the ground after an engine failure?
+      explanation: The net gradient is the gross gradient plus 0.5 %, here {{net}} %. The height above the terrain is {{alt}} − {{elev}} = {{height}} ft, so the still-air distance is {{height}} ÷ {{net}} × 100 = {{still}} ft. The ground speed is {{gs}} kt, so the ground distance is {{still}} × {{gs}} ÷ {{tas}} = {{ground}} ft, which is **{{answer}}**.
+      presets:
+        - variables:
+            alt: 5000
+            windtype: tailwind
+            wind: 15
+            gross: 10
+            tas: 120
+            elev: 300
+            net: "10.5"
+            height: 4 700
+            still: 44 762
+            gs: 135
+            ground: 50 357
+            answer: 8.3 NM
+          correctAnswers:
+            - text: 8.3 NM
+          wrongAnswers:
+            - text: 9.2 NM
+            - text: 7.4 NM
+            - text: 8.7 NM
+- id: QQXZD
+  subjectId: "032"
+  chapterId: "032.02"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-329072
+    - BGS-321107
+  annexes: []
+  learningObjectiveIds:
+    - 032.02.04.01.03
+  templates:
+    - type: simple
+      question: |-
+        A commercial air transport flight is to be conducted in a single-engined piston aircraft. At the most critical point during the flight, the distance to be travelled to a safe landing place is 10 NM. Given the following information, what is the lowest altitude the aircraft should fly over this critical point?
+
+        Terrain elevation: 0 ft   
+         Gross glide gradient: 10%   
+         TAS: 110 kt   
+         Expected tailwind component: 20 kt   
+         1 NM = 6080 ft   
+         Still air distance = (height difference / net gradient) x 100   
+         Ground distance = Still Air Distance x (GS / TAS)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 5400 ft
+          wrongAnswers:
+            - text: 5100 ft
+            - text: 5800 ft
+            - text: 6200 ft

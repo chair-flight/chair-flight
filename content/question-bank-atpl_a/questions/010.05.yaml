@@ -1,0 +1,2514 @@
+- id: QNWZG
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds:
+    - QKXMX
+  externalQuestionIds:
+    - ATPLQ-719746
+    - AVEXAM-58198
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.01.01.01
+  templates:
+    - type: multiple-correct
+      question: An aircraft is operating a commercial flight from Italy to Libya. Whose rules of the air should be followed?
+      explanation: |-
+        ### SERA.1001 and SERA.2001, Applicability
+
+        > SERA.1001 (a) For flight over the high seas, the rules specified in **Annex 2 to the Chicago Convention shall apply** without exception.
+        >
+        > SERA.2001 This Annex applies to airspace users and aircraft […] (b) bearing the nationality and registration marks of a Member State of the Union, and operating in any airspace **to the extent that they do not conflict with the rules published by the State having jurisdiction over the territory overflown**.
+
+        Over the high seas the ICAO rules of the air (Annex 2) apply. Over the territory of a State the rules of the State being overflown apply, here Libya. The State of departure does not set the rules for the whole flight.
+      options:
+        - text: Italy.
+          correct: false
+        - text: Libya.
+          correct: false
+        - text: ICAO rules of the air.
+          correct: true
+        - text: The state being overflown.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QKXMX
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds:
+    - QNWZG
+    - QHCFU
+  externalQuestionIds:
+    - ATPLQ-109358
+    - AVEXAM-19265
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.01.01.01
+  templates:
+    - type: multiple-correct
+      question: Which of the following units are responsible to control the aircraft during the approach?
+      explanation: |-
+        ### ICAO Doc 4444, 4.1.2 Approach control service
+
+        > Approach control service shall be provided: a) by an aerodrome control tower or an ACC, when it is necessary or desirable to combine under the responsibility of one unit the functions of the approach control service and those of the aerodrome control service or the area control service; or b) by an approach control unit, when it is necessary or desirable to establish a separate unit.
+
+        The approach can therefore be controlled by an approach control unit, an aerodrome control tower or an area control centre. ATIS is a broadcast of routine information and not a control unit.
+      options:
+        - text: Approach Control.
+          correct: true
+        - text: ATIS Approach.
+          correct: false
+        - text: Control Tower.
+          correct: true
+        - text: Area Control Center.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QHCFU
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds:
+    - QKXMX
+  externalQuestionIds:
+    - ATPLQ-105281
+    - AVEXAM-1488
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.01.01.01
+  templates:
+    - type: multiple-correct
+      question: A pilot planning an IFR flight is reviewing the data needed through the NOTAMs and the AIPs. What are the FIRs of concern?
+      explanation: ""
+      options:
+        - text: FIR affecting the aerodrome of departure.
+          correct: true
+        - text: FIR of the whole state.
+          correct: false
+        - text: FIR of adjacent states.
+          correct: true
+        - text: FIR of the whole continent where the departure aerodrome is.
+          correct: false
+        - text: FIR affecting the route flown.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+            - 4
+- id: QQVSL
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101837
+    - AVEXAM-40434
+    - BGS-101768
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.01.01.02
+  templates:
+    - type: simple
+      question: The objective of Standardised European Rules of the Air (SERA) Regulation (EU) No 923/2012 is to establish the (1) \_\_\_\_\_ and operational provisions regarding services and procedures in air navigation. SERA shall apply to aircraft engaged in general air traffic, the Competent Authorities of (2) \_\_\_\_\_, aerodrome operators, and ground personnel engaged in aircraft operations.
+      explanation: |-
+        ### Regulation (EU) No 923/2012 (SERA), Article 1, Subject matter and scope
+
+        > 1. The objective of this Regulation is to establish the **common rules of the air** and operational provisions regarding services and procedures in air navigation that shall be applicable to general air traffic within the scope of Regulation (EC) No 551/2004.
+        >
+        > 3. This Regulation shall also apply to the competent authorities of the **Member States, air navigation service providers**, the Network Manager, aerodrome operators and ground personnel engaged in aircraft operations.
+      presets:
+        - correctAnswers:
+            - text: (1) common rules of the air; (2) EU Member States, air navigation service providers
+          wrongAnswers:
+            - text: (1) rules of the air that shall apply within the EU; (2) EU Member States, military aviation authorities
+            - text: (1) rules of the air that shall apply within the EU; (2) ICAO Contracting States, certification authorities
+            - text: (1) common rules of the air; (2) ICAO Contracting States, search and rescue service providers
+- id: QSNEE
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101092
+    - AVEXAM-17749
+    - AVEXAM-38103
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        Complete the following statement:  
+          
+        “The objective of the Standardised European Rules of the Air (SERA) is..”
+      explanation: |-
+        ### Regulation (EU) No 923/2012 (SERA), Article 1, Subject matter and scope
+
+        > 1. The objective of this Regulation is to establish the **common rules of the air and operational provisions regarding services and procedures in air navigation** that shall be applicable to general air traffic within the scope of Regulation (EC) No 551/2004.
+
+        Common requirements for ATM/ANS providers belong to Regulation (EU) 2017/373, not to SERA.
+      presets:
+        - correctAnswers:
+            - text: To establish the common rules of the air and operational provisions regarding services and procedures in air navigation that shall be applicable to general air traffic within the scope of Regulation (EC) No 551/2004.
+          wrongAnswers:
+            - text: To establish common requirements for the provision of air traffic management and air navigation services (‘ATM/ANS’) and other air traffic management network functions.
+            - text: To lay down common requirements for the competent authorities, and the qualified entities acting on their behalf, which exercise certification, oversight and enforcement tasks.
+            - text: To lay down detailed rules for commercial air transport operations with aeroplanes and helicopters, including ramp inspections of aircraft of operators under the safety oversight of another State when landed at aerodromes located in the territory subject to the provisions of the treaty.
+- id: QTTHF
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102211
+    - BGS-101771
+    - AVEXAM-730476
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.02.01.01
+  templates:
+    - type: simple
+      question: An aircraft departs from the United States of America (USA) to its destination in France. During its cruise in IMC conditions above the Atlantic Ocean and still overflying USA territory, radio communication failure is experienced. The radio communication failure procedure outlined in the USA's AIP is different than the one described in ICAO Annex 2. The aircraft is registered in Italy. Which radio communication failure procedure should the aircraft follow?
+      explanation: An aircraft is bound by the rules of the air of the State whose territory it overflies, whatever its State of registry or its destination. ICAO Annex 2 applies directly only over the high seas, and SERA is the European implementation of it. While over the USA, the aircraft therefore follows the USA radio communication failure procedure published in its AIP.
+      presets:
+        - correctAnswers:
+            - text: According to ICAO Annex 2 and Part-SERA, the aircraft must follow the USA procedure.
+          wrongAnswers:
+            - text: According to ICAO Annex 2, the aircraft must follow the French procedure because its destination is in France.
+            - text: According to Part-SERA, the aircraft must follow the European rules, which comply with the USA Rules of the Air.
+            - text: According to the Italian Rules of the Air, the aircraft must follow the Italian procedure because it is registered in Italy.
+- id: QENNE
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102954
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.02.01.01
+    - 010.05.02.01.03
+  templates:
+    - type: simple
+      question: New pilot in the airline has just completed their checks. They are flying with a captain who is commencing a line check. The new pilot is in the commander's seat. What is the role of the new pilot on this flight?
+      explanation: |-
+        ### Regulation (EU) No 923/2012 (SERA), Article 2, Definitions
+
+        > 100. 'pilot-in-command' means the pilot **designated by the operator**, or in the case of general aviation, the owner, as being in command and charged with the safe conduct of a flight;
+
+        The seat occupied does not make a pilot the commander. The designation by the operator does.
+      presets:
+        - correctAnswers:
+            - text: New pilot will be a commander if the operator designates them as such.
+          wrongAnswers:
+            - text: New pilot is a commander because they are in the commander's seat.
+            - text: Both are commanders on this flight.
+            - text: The captain commencing a check is a pilot of this flight.
+- id: QNVSY
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105105
+    - BGS-101391
+    - AVEXAM-60451
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.02.01.01
+  templates:
+    - type: simple
+      question: According to Part SERA, aircraft bearing the nationality and registration marks of a Member State of the EU, when flying over the high seas, are required to follow the Rules of the Air specified\_\_\_.
+      explanation: |-
+        ### SERA.1001, General
+
+        > (a) For flight over the high seas, the rules specified in **Annex 2 to the Chicago Convention shall apply without exception**.
+
+        Over the territory of a State, SERA applies to the extent that it does not conflict with the rules published by that State (SERA.2001). Over the high seas no State has jurisdiction, so Annex 2 applies without exception.
+      presets:
+        - correctAnswers:
+            - text: In Annex 2 of the Chicago Convention.
+          wrongAnswers:
+            - text: By the State through whose airspace the aircraft last flew.
+            - text: By the State of Registry of the aircraft.
+            - text: In Part FCL.
+- id: QDZLG
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106443
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.02.01.03
+    - 010.07.02.05.02
+  templates:
+    - type: simple
+      question: An aircraft is taking off while another military aircraft is approaching the runway in front of the aircraft taking off. ATC instructs the aircraft taking off to increase its vertical speed and climb at 2500 ft/minute. If the flight crew follows the instruction, the aircraft will approach the stall. What is the correct course of action by the flight crew?
+      explanation: |-
+        ### SERA.8015(ea), Changes in clearance regarding route or level
+
+        > (2) When traffic conditions will not permit clearance of a requested change, the word '**UNABLE**' shall be used.
+
+        The pilot-in-command may depart from the rules only in circumstances that render such departure absolutely necessary in the interests of safety (SERA.2010(a)). When the aircraft cannot comply with an instruction, the standard pilot reply is UNABLE. AFFIRMATIVE means yes and NEGATIVE means no.
+      presets:
+        - correctAnswers:
+            - text: "They cannot comply with the instructions, so they respond: UNABLE."
+          wrongAnswers:
+            - text: Do what ATC instructs them to do.
+            - text: "They can comply with the instructions, so they respond: AFFIRMATIVE."
+            - text: "They cannot comply with the instructions, so they respond: NEGATIVE."
+- id: QKNXB
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103819
+    - AVEXAM-63213
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.02.01.03
+    - 010.07.02.05.03
+  templates:
+    - type: simple
+      question: An aircraft is cleared to transit a zone at 2 000 ft. Who is responsible for terrain separation?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The Pilot-In-Command, unless being radar vectored in IFR.
+          wrongAnswers:
+            - text: The ATC when flying IFR in Class A,B,C or D airspace.
+            - text: The Pilot-In-Command is never responsible when receiving ATS.
+            - text: The ATC when flying VFR.
+- id: QKXEP
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109028
+    - AVEXAM-31661
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.02.01.03
+  templates:
+    - type: simple
+      question: In the event of an ATC controller giving instructions which violate SERA, who is responsible for maintaining compliance with SERA?
+      explanation: |-
+        ### SERA.2010, Responsibilities
+
+        > (a) The pilot-in-command of an aircraft shall, whether manipulating the controls or not, be **responsible for the operation of the aircraft in accordance with this Regulation**, except that the pilot-in-command may depart from these rules in circumstances that render such departure absolutely necessary in the interests of safety.
+
+        The responsibility for compliance with SERA stays with the pilot-in-command even when ATC issues an instruction.
+      presets:
+        - correctAnswers:
+            - text: Pilot in command
+          wrongAnswers:
+            - text: ATC
+            - text: Operator
+            - text: Dispatcher
+- id: QQXZW
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108427
+    - AVEXAM-89691
+    - AVEXAM-66917
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.02.01.04
+  templates:
+    - type: simple
+      question: In which case may the pilot-in-command depart from the rules of the air?
+      explanation: |-
+        ### SERA.2010, Responsibilities
+
+        > (a) The pilot-in-command of an aircraft shall, whether manipulating the controls or not, be responsible for the operation of the aircraft in accordance with this Regulation, except that the pilot-in-command may depart from these rules in **circumstances that render such departure absolutely necessary in the interests of safety**.
+
+        Fuel saving, passenger comfort, the environment, money, time and commercial benefit are not reasons to depart from the rules.
+      presets:
+        - correctAnswers:
+            - text: In circumstances that render such departure absolutely necessary in the interest of safety.
+          wrongAnswers:
+            - text: In case of sick or injured persons aboard.
+            - text: If it is necessary in the interest of fuel saving.
+            - text: In circumstances that render such deviation necessary due to bad weather conditions.
+    - type: simple
+      question: Refer to EASA SERA. Which of the following reasons may allow the pilot in command of a commercial flight to depart from these rules?
+      explanation: |-
+        ### SERA.2010, Responsibilities
+
+        > (a) The pilot-in-command of an aircraft shall, whether manipulating the controls or not, be responsible for the operation of the aircraft in accordance with this Regulation, except that the pilot-in-command may depart from these rules in **circumstances that render such departure absolutely necessary in the interests of safety**.
+
+        Fuel saving, passenger comfort, the environment, money, time and commercial benefit are not reasons to depart from the rules.
+      presets:
+        - correctAnswers:
+            - text: Safety of the flight.
+          wrongAnswers:
+            - text: Passenger comfort.
+            - text: Environment protection.
+            - text: Fuel efficiency.
+- id: QYKJY
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108658
+    - AVEXAM-15445
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.02.01.04
+  templates:
+    - type: simple
+      question: According to SERA, you can only deviate from the rules during a commercial flight for reasons of...
+      explanation: |-
+        ### SERA.2010, Responsibilities
+
+        > (a) The pilot-in-command of an aircraft shall, whether manipulating the controls or not, be responsible for the operation of the aircraft in accordance with this Regulation, except that the pilot-in-command may depart from these rules in **circumstances that render such departure absolutely necessary in the interests of safety**.
+
+        Fuel saving, passenger comfort, the environment, money, time and commercial benefit are not reasons to depart from the rules.
+      presets:
+        - correctAnswers:
+            - text: safety.
+          wrongAnswers:
+            - text: time.
+            - text: commercial benefit.
+            - text: money.
+- id: QNMWO
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109212
+    - AVEXAM-15650
+    - ATPLQ-101506
+    - AVEXAM-28058
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.02.01.05
+  templates:
+    - type: simple
+      question: The pre-flight actions performed by the pilot-in-command before the beginning of an IFR flight shall include...
+      explanation: |-
+        ### SERA.2010, Responsibilities
+
+        > (b) Before beginning a flight, the pilot-in-command of an aircraft shall become familiar with all available information appropriate to the intended operation. Pre-flight action for flights away from the vicinity of an aerodrome, and **for all IFR flights, shall include a careful study of available current weather reports and forecasts, taking into consideration fuel/energy requirements and an alternative course of action if the flight cannot be completed as planned**.
+
+        VFR flights are covered only when they operate away from the vicinity of an aerodrome.
+      presets:
+        - correctAnswers:
+            - text: a consideration of fuel requirements.
+          wrongAnswers:
+            - text: a short briefing of the crew about the flight.
+            - text: a detailed computation of mass and balance requirements.
+            - text: a careful study of the navigation charts.
+    - type: simple
+      question: What must pre-flight actions for all IFR flights include?
+      explanation: |-
+        ### SERA.2010, Responsibilities
+
+        > (b) Before beginning a flight, the pilot-in-command of an aircraft shall become familiar with all available information appropriate to the intended operation. Pre-flight action for flights away from the vicinity of an aerodrome, and **for all IFR flights, shall include a careful study of available current weather reports and forecasts, taking into consideration fuel/energy requirements and an alternative course of action if the flight cannot be completed as planned**.
+
+        VFR flights are covered only when they operate away from the vicinity of an aerodrome.
+      presets:
+        - correctAnswers:
+            - text: The pilot-in-command of an aircraft shall become familiar with all available information appropriate to the intended operation. Pre-flight action for flights away from the vicinity of an aerodrome, and for all IFR flights, shall include a careful study of available current weather reports and forecasts, taking into consideration fuel requirements and an alternative course of action if the flight cannot be completed as planned.
+          wrongAnswers:
+            - text: All flight crew of an aircraft shall become familiar with all available information appropriate to the intended operation. Pre-flight action for flights away from the vicinity of an aerodrome, and for all IFR flights, shall include a careful study of available current weather reports and forecasts, taking into consideration fuel requirements and an alternative course of action if the flight cannot be completed as planned.
+            - text: All flight crew of an aircraft shall become familiar with all available information appropriate to the intended operation. Pre-flight action for flights away from the vicinity of an aerodrome, and for all VFR flights, shall include a careful study of available current weather reports and forecasts, taking into consideration fuel requirements and an alternative course of action if the flight cannot be completed as planned.
+            - text: The pilot-in-command of an aircraft shall become familiar with all available information appropriate to the intended operation. Pre-flight action for flights away from the vicinity of an aerodrome, and for all VFR flights, shall include a careful study of available current weather reports and forecasts. Fuel considerations are operator's responsibility.
+    - type: simple
+      question: What pre-flight actions are required for all IFR flights?
+      explanation: |-
+        ### SERA.2010, Responsibilities
+
+        > (b) Before beginning a flight, the pilot-in-command of an aircraft shall become familiar with all available information appropriate to the intended operation. Pre-flight action for flights away from the vicinity of an aerodrome, and **for all IFR flights, shall include a careful study of available current weather reports and forecasts, taking into consideration fuel/energy requirements and an alternative course of action if the flight cannot be completed as planned**.
+
+        VFR flights are covered only when they operate away from the vicinity of an aerodrome.
+      presets:
+        - correctAnswers:
+            - text: The pilot-in-command of an aircraft shall become familiar with all available information appropriate to the intended operation. Pre-flight action for flights away from the vicinity of an aerodrome, and for all IFR flights, shall include a careful study of available current weather reports and forecasts, taking into consideration fuel requirements and an alternative course of action if the flight cannot be completed as planned.
+          wrongAnswers:
+            - text: The pilot-in-command of an aircraft shall become familiar with all available information appropriate to the intended operation. Pre-flight action for flights away from the vicinity of an aerodrome, and for all VFR flights, shall include a careful study of available current weather reports and forecasts, taking into consideration fuel requirements and an alternative course of action if the flight cannot be completed as planned.
+            - text: All flight crew of an aircraft shall become familiar with all available information appropriate to the intended operation. Pre-flight action for flights away from the vicinity of an aerodrome, and for all VFR flights, shall include a careful study of available current weather reports and forecasts, taking into consideration fuel requirements and an alternative course of action if the flight cannot be completed as planned.
+            - text: All flight crew of an aircraft shall become familiar with all available information appropriate to the intended operation. Pre-flight action for flights away from the vicinity of an aerodrome, and for all IFR flights, shall include a careful study of available current weather reports and forecasts, taking into consideration fuel requirements and an alternative course of action if the flight cannot be completed as planned.
+- id: QMDAM
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109578
+    - AVEXAM-71827
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.02.01.06
+  templates:
+    - type: simple
+      question: A flight is in controlled airspace, when circumstances arise, making the Pilot in Command, First Officer and Senior Cabin Crew Member disagree about the continuation of a flight. According to SERA, how should the crew reach a decision?
+      explanation: |-
+        ### SERA.2015, Authority of pilot-in-command of an aircraft
+
+        > The pilot-in-command of an aircraft shall have **final authority as to the disposition of the aircraft while in command**.
+
+        Neither a vote of the crew, nor the operator, nor ATC takes that authority away.
+      presets:
+        - correctAnswers:
+            - text: The PIC holds final authority as to the disposition of the aircraft.
+          wrongAnswers:
+            - text: According to the Standardised European Rules of the Air, all crew members should reach a consensus for the safe continuation of the flight.
+            - text: The pilots should consult their current ATS unit who shall make the final choice.
+            - text: The Commander should agree with the decision of the First Officer.
+- id: QVDVR
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107420
+    - BGS-101702
+    - AVEXAM-36833
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.02.01.06
+  templates:
+    - type: simple
+      question: You are appointed as the Pilot-in-Command of an aircraft departing from Airport A, State 1, and bound for destination Airport B, State 2\. Who has the final authority as to the disposition of the aircraft?
+      explanation: |-
+        ### SERA.2015, Authority of pilot-in-command of an aircraft
+
+        > The pilot-in-command of an aircraft shall have **final authority as to the disposition of the aircraft while in command**.
+
+        The authority does not pass to the ATC unit of the State or FIR being flown through, nor to the operator.
+      presets:
+        - correctAnswers:
+            - text: You, while in command.
+          wrongAnswers:
+            - text: The departure ATC of State 1 while inside that departure FIR, the relevant en-route ATC unit while en route, and the destination ATC while inside the destination FIR.
+            - text: The Operator, provided that you operate the aircraft in accordance with the specifications laid out within the Operations Manual.
+            - text: You, while manipulating the controls, and your Co-Pilot pilot while they are manipulating the controls.
+- id: QJSMS
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107624
+    - AVEXAM-36136
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.02.01.07
+  templates:
+    - type: simple
+      question: "Before sleeping the PIC takes some sedative in order to sleep, the following day:"
+      explanation: |-
+        ### SERA.2020, Problematic use of psychoactive substances
+
+        > No person whose function is critical to the safety of aviation (safety-sensitive personnel) shall undertake that function **while under the influence of any psychoactive substance, by reason of which human performance is impaired**. No such person shall engage in any kind of problematic use of substances.
+
+        A sedative impairs human performance. A pilot under its influence must not fly, whether or not they are the pilot-in-command.
+      presets:
+        - correctAnswers:
+            - text: The pilot must not fly.
+          wrongAnswers:
+            - text: The pilot can undertake their function only if the impact of the substances on the human performance is minor.
+            - text: The pilot shall not undertake their function if they act as pilot-in-command for that flight.
+            - text: The pilot can undertake their function only if not acting as pilot flying.
+- id: QTLOP
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102453
+    - AVEXAM-68430
+    - BGS-101503
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.02.01.07
+  templates:
+    - type: simple
+      question: A pilot visits a psychiatrist who prescribes an antidepressant drug containing psychoactive substances. The pilot hasn’t notified their AME of this. According to SERA (the Standardised European Rules of the Air), the pilot...
+      explanation: |-
+        ### SERA.2020, Problematic use of psychoactive substances
+
+        > No person whose function is critical to the safety of aviation (safety-sensitive personnel) shall undertake that function **while under the influence of any psychoactive substance, by reason of which human performance is impaired**. No such person shall engage in any kind of problematic use of substances.
+
+        A prescription does not make the pilot fit to fly, and a decision by an AME is not needed for the rule to apply. What matters is that the substance impairs human performance.
+      presets:
+        - correctAnswers:
+            - text: must NOT fly, because these substances impair human performance.
+          wrongAnswers:
+            - text: may fly, because the psychiatrist has prescribed them the substances.
+            - text: must NOT fly, because their AME has assessed them as unfit.
+            - text: may fly, because their AME is unaware of the substances.
+    - type: simple
+      question: A pilot had to consult several doctors, including a psychiatrist, who prescribed anti-depressant medication containing a psychoactive substance. The pilot has NOT contacted an Aero-Medical Examiners (AME). According to the Standardised European Rules of the Air (SERA), when the pilot takes this antidepressant medication, they...
+      explanation: |-
+        ### SERA.2020, Problematic use of psychoactive substances
+
+        > No person whose function is critical to the safety of aviation (safety-sensitive personnel) shall undertake that function **while under the influence of any psychoactive substance, by reason of which human performance is impaired**. No such person shall engage in any kind of problematic use of substances.
+
+        A prescription does not make the pilot fit to fly, and a decision by an AME is not needed for the rule to apply. What matters is that the substance impairs human performance.
+      presets:
+        - correctAnswers:
+            - text: CANNOT fly the aircraft because their performance is impaired.
+          wrongAnswers:
+            - text: can fly the aircraft because psychoactive substances are allowed.
+            - text: can fly the aircraft because the medicine is doping their performance.
+            - text: can fly the aircraft because it is NOT mandatory to contact the AME.
+- id: QQRPB
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109328
+    - ATPLQ-102449
+    - AVEXAM-40707
+    - AVEXAM-14528
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.02.01.07
+  templates:
+    - type: simple
+      question: A pilot needed to extract a tooth and the dentist used local anaesthesia. Thirty minutes after the application of anaesthesia, the pilot is asked by the company to fly. Is that possible?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No, the pilot may not fly 24 hours after local anaesthesia, after that period they must decide if they are fit to fly.
+          wrongAnswers:
+            - text: No, the pilot needs to consult an AME because the treatment was invasive.
+            - text: Yes, the pilot can fly straight away.
+            - text: Yes, as long as the other pilot is under 60 years old.
+        - correctAnswers:
+            - text: No, because the effects of anesthesia can impair your ability to fly safely.
+          wrongAnswers:
+            - text: Yes, if you feel well enough to fly.
+            - text: Yes, because the anesthesia wears off quickly.
+            - text: No, but you can fly after an hour.
+    - type: simple
+      question: Can a pilot fly after receiving local anaesthesia for a tooth extraction thirty minutes prior?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No, the pilot must wait 24 hours, and then decide whether they are fit to fly.
+          wrongAnswers:
+            - text: Yes, the pilot can fly straight away.
+            - text: No, the pilot needs to consult an AME because the treatment was invasive.
+            - text: Yes, as long as the other pilot is under 60 years old.
+    - type: simple
+      question: Can a pilot who received local anaesthesia for a tooth extraction thirty minutes prior fly at the request of the company?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No, because the effects of anesthesia can impair your ability to fly safely.
+          wrongAnswers:
+            - text: Yes, if you feel well enough to fly.
+            - text: No, but you can fly after an hour.
+            - text: Yes, because the anesthesia wears off quickly.
+- id: QFXFN
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102254
+    - AVEXAM-90974
+    - BGS-100131
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.01
+  templates:
+    - type: simple
+      question: When two aircraft are approaching head-on or approximately so and there is a danger of collision, each aircraft shall..
+      explanation: |-
+        ### SERA.3210, Right-of-way
+
+        > (c) An aircraft that is obliged by the following rules to keep out of the way of another shall avoid passing over, under or in front of the other, unless it passes well clear and takes into account the effect of aircraft wake turbulence. (1) **Approaching head-on**. When two aircraft are approaching head-on or approximately so and there is danger of collision, **each shall alter its heading to the right**.
+      presets:
+        - correctAnswers:
+            - text: alter its heading to the right.
+          wrongAnswers:
+            - text: switch on all lights to warn the other aircraft of its position.
+            - text: alter its heading to the left.
+            - text: turn, climb or descend as necessary to avoid a collision.
+- id: QLQYN
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103250
+    - BGS-101637
+    - AVEXAM-57936
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.02
+  templates:
+    - type: multiple-correct
+      question: "According to SERA, unless subjecting outside observers to harmful dazzle, the following lights shall be displayed at night by all aircraft in flight (in the cruise):"
+      explanation: |-
+        ### SERA.3215, Lights to be displayed by aircraft
+
+        > (a) Except as provided by (e), at night all aircraft in flight shall display: (1) **anti-collision lights** intended to attract attention to the aircraft; and (2) except for balloons, **navigation lights** intended to indicate the relative path of the aircraft to an observer. Other lights shall not be displayed if they are likely to be mistaken for these lights.
+
+        Landing lights and cabin lights are not required in flight. Landing lights may be used in addition to enhance conspicuity (GM1 SERA.3215(a);(b)).
+      options:
+        - text: Anti-collision lights intended to attract attention to the aircraft
+          correct: true
+        - text: Lights in all relevant passenger and accessible cargo compartments
+          correct: false
+        - text: Navigation lights intended to indicate the relative path of the aircraft
+          correct: true
+        - text: Two landing lights conveniently positioned on the aircraft.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QPVKI
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101498
+    - AVEXAM-1696
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.02
+  templates:
+    - type: multiple-correct
+      question: According to SERA (Standardised European Rules of the Air), which of the following lights should be displayed in the cruise at night.
+      explanation: |-
+        ### SERA.3215, Lights to be displayed by aircraft
+
+        > (a) Except as provided by (e), at night all aircraft in flight shall display: (1) **anti-collision lights** intended to attract attention to the aircraft; and (2) except for balloons, **navigation lights** intended to indicate the relative path of the aircraft to an observer. Other lights shall not be displayed if they are likely to be mistaken for these lights.
+
+        Landing lights and cabin lights are not required in flight. Landing lights may be used in addition to enhance conspicuity (GM1 SERA.3215(a);(b)).
+      options:
+        - text: Anti-Collision Light(s)
+          correct: true
+        - text: Lights in Passenger Cabin
+          correct: false
+        - text: Two convenient lights on the landing gear
+          correct: false
+        - text: Navigation Lights
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QVJZE
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105758
+    - AVEXAM-92028
+    - AVEXAM-21156
+    - BGS-101978
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.02
+  templates:
+    - type: simple
+      question: According to SERA (Standardised European Rules of the Air), in normal flight, what lights shall be displayed for an aircraft in flight at night?
+      explanation: |-
+        ### SERA.3215, Lights to be displayed by aircraft
+
+        > (a) Except as provided by (e), at night all aircraft in flight shall display: (1) **anti-collision lights** intended to attract attention to the aircraft; and (2) except for balloons, **navigation lights** intended to indicate the relative path of the aircraft to an observer. Other lights shall not be displayed if they are likely to be mistaken for these lights.
+      presets:
+        - correctAnswers:
+            - text: Anti-Collision lights and navigation lights.
+          wrongAnswers:
+            - text: Position lights and strobe lights.
+            - text: Anti-Collision Lights, strobe lights, and flashing lights.
+            - text: Position lights only.
+- id: QEGVU
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108225
+    - BGS-102283
+    - AVEXAM-56916
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.02
+  templates:
+    - type: simple
+      question: An aircraft registered in France is executing a flight from Paris, France to Santiago, Chile. When should the aircraft follow the European Rules of the Air (SERA)?
+      explanation: |-
+        ### SERA.2001, Subject
+
+        > Without prejudice to SERA.1001, this Annex applies to airspace users and aircraft: […] (b) bearing the nationality and registration marks of a Member State of the Union, and operating in any airspace **to the extent that they do not conflict with the rules published by the State having jurisdiction over the territory overflown**.
+
+        A French-registered aircraft therefore follows SERA on the whole flight, including over other States, except where SERA conflicts with the rules of the State being overflown.
+      presets:
+        - correctAnswers:
+            - text: All the time, except when the SERA regulations conflict with those from the state overflying.
+          wrongAnswers:
+            - text: All the time, without exception.
+            - text: Only over European Airspace, but not over other states.
+            - text: Never.
+    - type: simple
+      question: A French-registered aircraft flies from Paris, France, to Santiago, Chile. For which portions of the flight do the European rules of the air (SERA) apply?
+      explanation: |-
+        ### SERA.2001, Subject
+
+        > Without prejudice to SERA.1001, this Annex applies to airspace users and aircraft: […] (b) bearing the nationality and registration marks of a Member State of the Union, and operating in any airspace **to the extent that they do not conflict with the rules published by the State having jurisdiction over the territory overflown**.
+
+        A French-registered aircraft therefore follows SERA on the whole flight, including over other States, except where SERA conflicts with the rules of the State being overflown.
+      presets:
+        - correctAnswers:
+            - text: all parts of the flight in the airspaces of the States overflown, so long as SERA does NOT conflict with the rules of these States.
+          wrongAnswers:
+            - text: the high seas and the parts over the territory of the European Union, but SERA does NOT apply over the territories of other States.
+            - text: the whole flight regardless of any regulations of the States being overflown.
+            - text: the part over any ICAO Member State and the high seas, but NOT over the territories of other States.
+- id: QCMQE
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds:
+    - QHRLJ
+  externalQuestionIds:
+    - ATPLQ-107269
+    - AVEXAM-54960
+    - ATPLQ-101813
+    - BGS-100123
+    - AVEXAM-23220
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.03
+  templates:
+    - type: definition
+      question: |-
+        What does this marshalling signal mean?
+
+        {term}
+      explanation: |-
+        The same hand shape can mean different things depending on who gives the signal and how the hand moves.
+
+        See SERA Appendix 1, section 4 in the [CAA Regulatory Library](https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm).
+      options:
+        - id: OMART0001
+          term: The marshaller holds their right wand upright above their head and swings their left wand down towards their body.
+          definition: "Wingwalker: the path into or out of the stand is clear."
+        - id: OMART0002
+          term: The marshaller holds both arms straight up overhead, with both wands vertical.
+          definition: Identify the gate or stand.
+        - id: OMART0003
+          term: The marshaller starts with both arms pointing up, then brings them out to point to one side, using the wands to indicate the onward direction.
+          definition: Proceed in the direction indicated to the next marshaller or as directed by tower or ground control.
+        - id: OMART0004
+          term: The marshaller bends both elbows and repeatedly moves the wands between chest and head height.
+          definition: Continue straight ahead.
+        - id: OMART0005
+          term: The marshaller holds their right wand straight out at shoulder height and beckons with their left wand, setting the turn rate with the speed of the gesture.
+          definition: Turn left from the pilot’s perspective.
+        - id: OMART0006
+          term: The marshaller holds their left wand straight out at shoulder height and beckons with their right wand, setting the turn rate with the speed of the gesture.
+          definition: Turn right from the pilot’s perspective.
+        - id: OMART0007
+          term: Starting with both wands held out at shoulder height, the marshaller slowly raises them until they cross overhead.
+          definition: Normal stop.
+        - id: OMART0008
+          term: The marshaller snaps both arms up and crosses their wands over their head in one abrupt movement.
+          definition: Emergency stop.
+        - id: OMART0009
+          term: After making eye contact, the marshaller closes their raised open hand into a fist just above shoulder height and waits for a thumbs-up.
+          definition: Set the brakes.
+        - id: OMART0010
+          term: After making eye contact, the marshaller opens their raised fist into a flat palm just above shoulder height and waits for a thumbs-up.
+          definition: Release the brakes.
+        - id: OMART0011
+          term: With both arms high overhead, the marshaller jabs the wands towards each other until they touch and waits for acknowledgement.
+          definition: Chocks inserted.
+        - id: OMART0012
+          term: With both arms high overhead, the marshaller jabs the wands apart. They must receive authorisation before removing the chocks.
+          definition: Chocks removed.
+        - id: OMART0013
+          term: The marshaller circles their upright right wand near head height and points their raised left wand at the engine to be started.
+          definition: Start the indicated engine.
+        - id: OMART0014
+          term: The marshaller extends a wand forwards at shoulder height, then draws it across their throat from their left shoulder to their right.
+          definition: Cut the engines.
+        - id: OMART0015
+          term: The marshaller makes a low patting motion with both wands, between waist and knee height.
+          definition: Reduce the aircraft’s speed.
+        - id: OMART0016
+          term: From a position with both arms low and both wands down, the marshaller waves one wand up and down to indicate the engine on the opposite side from their own raised hand.
+          definition: Reduce power on the indicated side.
+        - id: OMART0017
+          term: The marshaller rolls both forearms forwards in front of their waist.
+          definition: Move the aircraft backwards.
+        - id: OMART0018
+          term: The marshaller keeps their left wand pointed down and repeatedly lowers their right arm from overhead to point forwards at shoulder height.
+          definition: While backing up, turn the tail to starboard.
+        - id: OMART0019
+          term: The marshaller keeps their right wand pointed down and repeatedly lowers their left arm from overhead to point forwards at shoulder height.
+          definition: While backing up, turn the tail to port.
+        - id: OMART0020
+          term: The marshaller gives a right-handed thumbs-up at head height, or holds the right wand upright at that height, while keeping their left arm down.
+          definition: Affirmative or all clear.
+        - id: OMART0021
+          term: The marshaller holds both arms and wands fixed straight out at shoulder height.
+          definition: Hover.
+        - id: OMART0022
+          term: With arms spread at shoulder height and palms up, the marshaller raises both hands. The speed of the movement indicates the climb rate.
+          definition: Ascend from the hover.
+        - id: OMART0023
+          term: With arms spread at shoulder height and palms down, the marshaller lowers both hands. The speed of the movement indicates the descent rate.
+          definition: Descend from the hover.
+        - id: OMART0024
+          term: The marshaller extends their right arm sideways at shoulder height and sweeps their other arm towards it.
+          definition: Move sideways to the pilot’s left.
+        - id: OMART0025
+          term: The marshaller extends their left arm sideways at shoulder height and sweeps their other arm towards it.
+          definition: Move sideways to the pilot’s right.
+        - id: OMART0026
+          term: The marshaller crosses both arms low in front of their body, with the wands pointing down.
+          definition: Land.
+        - id: OMART0027
+          term: The marshaller keeps both arms straight and still, angled down and out at 45 degrees.
+          definition: Hold position or stand by.
+        - id: OMART0028
+          term: The marshaller salutes with their right hand or wand and keeps eye contact until the aircraft starts taxiing.
+          definition: Aircraft dispatched.
+        - id: OMART0029
+          term: The marshaller extends their right arm all the way overhead, with a closed fist or a horizontal wand, and leaves their left arm down.
+          definition: Do not touch the controls.
+        - id: OMART0030
+          term: With both arms overhead, the marshaller brings the fingers of their right hand up against their horizontal left palm to form a T.
+          definition: Connect ground power.
+        - id: OMART0031
+          term: The marshaller forms a T overhead with their hands, then moves their right fingers away from their left palm. They wait for authorisation before disconnecting power.
+          definition: Disconnect ground power.
+        - id: OMART0032
+          term: With their left arm down, the marshaller extends their right arm sideways at shoulder height and points the wand down or gives a thumbs-down.
+          definition: Negative.
+        - id: OMART0033
+          term: The marshaller starts with arms spread at shoulder height, then brings both hands in to cup their ears.
+          definition: Establish contact via interphone.
+        - id: OMART0034
+          term: The marshaller holds their left arm diagonally overhead, then sweeps their right hand up from their side towards their left shoulder.
+          definition: Open or close the aircraft stairs.
+        - id: OMART0035
+          term: In the cockpit, the pilot raises an open hand in front of their face and closes it into a fist as they engage the brakes.
+          definition: The pilot has engaged the brakes.
+        - id: OMART0036
+          term: In the cockpit, the pilot raises a clenched fist in front of their face and opens it as they release the brakes.
+          definition: The pilot has released the brakes.
+        - id: OMART0037
+          term: With both palms facing out, the pilot moves their outstretched arms inwards to cross their hands in front of their face.
+          definition: The pilot requests that chocks be inserted.
+        - id: OMART0038
+          term: The pilot starts with hands crossed in front of their face and palms out, then moves both arms apart.
+          definition: The pilot requests that chocks be removed.
+        - id: OMART0039
+          term: In the cockpit, the pilot raises the number of fingers corresponding to the engine they are ready to start.
+          definition: The pilot is ready to start the engine indicated.
+      fakeOptions: []
+- id: QHRLJ
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds:
+    - QCMQE
+  externalQuestionIds:
+    - ATPLQ-107664
+    - AVEXAM-44872
+    - ATPLQ-108643
+    - AVEXAM-71151
+    - ATPLQ-101490
+    - AVEXAM-44860
+    - BGS-100135
+    - ATPLQ-105582
+    - ATPLQ-102525
+    - AVEXAM-39512
+    - ATPLQ-105697
+    - AVEXAM-76354
+    - ATPLQ-109664
+    - ATPLQ-105867
+    - ATPLQ-104523
+    - AVEXAM-86527
+    - ATPLQ-103559
+  annexes:
+    - id: ANLK
+    - id: AATP
+    - id: AMYZ
+    - id: AKDC
+    - id: AEFO
+    - id: ALLV
+    - id: ALMR
+    - id: ALZB
+    - id: AULT
+    - id: AOKU
+    - id: AISU
+    - id: AGYR
+    - id: ALZD
+    - id: AUQD
+    - id: ADVI
+    - id: AHWS
+    - id: ADAC
+    - id: ACLK
+    - id: AIQQ
+    - id: AAST
+    - id: APRN
+    - id: AKYY
+    - id: AJEO
+    - id: ASSM
+    - id: AFCS
+    - id: AOQS
+    - id: AKNQ
+    - id: APXU
+    - id: APRV
+    - id: AQWK
+    - id: AFCF
+    - id: AYGU
+    - id: AJII
+  learningObjectiveIds:
+    - 010.05.03.01.03
+  templates:
+    - type: definition
+      question: |-
+        What is the meaning of the hand signal shown?
+
+        ![Aircraft marshalling signal](annex:{{term}}:sm)
+      explanation: |-
+        {table}
+
+        See SERA Appendix 1, section 4 in the [CAA Regulatory Library](https://regulatorylibrary.caa.co.uk/923-2012/Content/Regs/03830_4._MARSHALLING_SIGNALS.htm).
+      options:
+        - id: OMARI0001
+          term: ANLK
+          definition: "Wingwalker: the path into or out of the stand is clear."
+        - id: OMARI0002
+          term: AATP
+          definition: Identify the gate or stand.
+        - id: OMARI0003
+          term: AMYZ
+          definition: Proceed in the direction indicated to the next marshaller or as directed by tower or ground control.
+        - id: OMARI0004
+          term: AKDC
+          definition: Continue straight ahead.
+        - id: OMARI0005
+          term: AEFO
+          definition: Turn left from the pilot’s perspective.
+        - id: OMARI0006
+          term: ALLV
+          definition: Turn right from the pilot’s perspective.
+        - id: OMARI0007
+          term: ALMR
+          definition: Normal stop.
+        - id: OMARI0008
+          term: ALZB
+          definition: Emergency stop.
+        - id: OMARI0009
+          term: AULT
+          definition: Set the brakes.
+        - id: OMARI0010
+          term: AOKU
+          definition: Release the brakes.
+        - id: OMARI0011
+          term: AISU
+          definition: Chocks inserted.
+        - id: OMARI0012
+          term: AGYR
+          definition: Chocks removed.
+        - id: OMARI0013
+          term: ALZD
+          definition: Start the indicated engine.
+        - id: OMARI0014
+          term: AUQD
+          definition: Cut the engines.
+        - id: OMARI0015
+          term: ADVI
+          definition: Reduce the aircraft’s speed.
+        - id: OMARI0016
+          term: AHWS
+          definition: Reduce power on the indicated side.
+        - id: OMARI0017
+          term: ADAC
+          definition: Move the aircraft backwards.
+        - id: OMARI0018
+          term: ACLK
+          definition: While backing up, turn the tail to starboard.
+        - id: OMARI0019
+          term: AIQQ
+          definition: While backing up, turn the tail to port.
+        - id: OMARI0020
+          term: AAST
+          definition: Affirmative or all clear.
+        - id: OMARI0027
+          term: APRN
+          definition: Hold position or stand by.
+        - id: OMARI0028
+          term: AKYY
+          definition: Aircraft dispatched.
+        - id: OMARI0029
+          term: AJEO
+          definition: Do not touch the controls.
+        - id: OMARI0030
+          term: ASSM
+          definition: Connect ground power.
+        - id: OMARI0031
+          term: AFCS
+          definition: Disconnect ground power.
+        - id: OMARI0032
+          term: AOQS
+          definition: Negative.
+        - id: OMARI0033
+          term: AKNQ
+          definition: Establish contact via interphone.
+        - id: OMARI0034
+          term: APXU
+          definition: Open or close the aircraft stairs.
+        - id: OMARI0035
+          term: APRV
+          definition: The pilot has engaged the brakes.
+        - id: OMARI0036
+          term: AQWK
+          definition: The pilot has released the brakes.
+        - id: OMARI0037
+          term: AFCF
+          definition: The pilot requests that chocks be inserted.
+        - id: OMARI0038
+          term: AYGU
+          definition: The pilot requests that chocks be removed.
+        - id: OMARI0039
+          term: AJII
+          definition: The pilot is ready to start the engine indicated.
+      fakeOptions: []
+- id: QIMCA
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104180
+    - AVEXAM-31985
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.04
+  templates:
+    - type: simple
+      question: "VFR flights shall not be flown over the congested areas of cities at a height less than:"
+      explanation: |-
+        ### SERA.5005(f), Visual flight rules
+
+        > Except when necessary for take-off or landing, or except by permission from the competent authority, a VFR flight shall not be flown: (1) over the congested areas of cities, towns or settlements or over an open-air assembly of persons at a height less than **300 m (1 000 ft) above the highest obstacle within a radius of 600 m** from the aircraft; […]
+
+        Elsewhere the VFR minimum is 150 m (500 ft) above the ground, water or the highest obstacle within 150 m of the aircraft.
+      presets:
+        - correctAnswers:
+            - text: 1 000 ft above the highest obstacle within a radius of 600 m from the aircraft.
+          wrongAnswers:
+            - text: 500 ft above the highest obstacle.
+            - text: 2 000 ft above the highest obstacle within a radius of 600 m from the aircraft.
+            - text: the highest obstacle.
+- id: QJNYE
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105404
+    - BGS-101418
+    - AVEXAM-91456
+    - BGS-100763
+    - ATPLQ-102165
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.04
+  templates:
+    - type: simple
+      question: "Except when necessary for take-off or landing, or except by permission from the appropriate authority, the minimum height to be maintained by an aircraft over the congested areas of cities, towns or settlements is:"
+      explanation: |-
+        ### SERA.3105, Minimum heights
+
+        > Except when necessary for take-off or landing, or except by permission from the competent authority, aircraft shall not be flown over the congested areas of cities, towns or settlements or over an open-air assembly of persons, unless at such a height as will **permit, in the event of an emergency arising, a landing to be made without undue hazard to persons or property on the surface**. The minimum heights for VFR flights shall be those specified in SERA.5005(f) and minimum levels for IFR flights shall be those specified in SERA.5015(b).
+
+        Flight below the minimum height is permitted only when necessary for take-off or landing, or with permission from the competent authority. The VFR figure is 300 m (1 000 ft) above the highest obstacle within a radius of 600 m (SERA.5005(f)).
+      presets:
+        - correctAnswers:
+            - text: A height that will permit an emergency landing to be made without undue hazard to persons or property.
+          wrongAnswers:
+            - text: At least 1 NM radius from the centre of the town.
+            - text: A height of 600 m (2000 ft) above the highest obstacle within a radius of 300 m.
+            - text: A height of 1500 ft above the highest obstacle within a radius of 600 m.
+    - type: simple
+      question: Under which circumstances is flight permitted below the minimum height to be maintained over the congested areas of cities, towns or settlements?
+      explanation: |-
+        ### SERA.3105, Minimum heights
+
+        > Except when necessary for take-off or landing, or except by permission from the competent authority, aircraft shall not be flown over the congested areas of cities, towns or settlements or over an open-air assembly of persons, unless at such a height as will **permit, in the event of an emergency arising, a landing to be made without undue hazard to persons or property on the surface**. The minimum heights for VFR flights shall be those specified in SERA.5005(f) and minimum levels for IFR flights shall be those specified in SERA.5015(b).
+
+        Flight below the minimum height is permitted only when necessary for take-off or landing, or with permission from the competent authority. The VFR figure is 300 m (1 000 ft) above the highest obstacle within a radius of 600 m (SERA.5005(f)).
+      presets:
+        - correctAnswers:
+            - text: When necessary for take-off and landing.
+          wrongAnswers:
+            - text: When flying under VFR during daytime.
+            - text: When operating under an ATC clearance.
+            - text: When flying in uncontrolled airspace.
+- id: QYVLW
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107710
+    - AVEXAM-37452
+    - AVEXAM-45925
+    - BGS-100728
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.04
+  templates:
+    - type: simple
+      question: Except when necessary for take-off or landing, a VFR flight shall not be flown over the congested areas of cities, towns, settlements or over an open-air assembly of persons at a height less than [1] ft above the highest obstacle within a radius of 600 m from the aircraft. What is the correct value for [1]?
+      explanation: |-
+        ### SERA.5005(f), Visual flight rules
+
+        > Except when necessary for take-off or landing, or except by permission from the competent authority, a VFR flight shall not be flown: (1) over the congested areas of cities, towns or settlements or over an open-air assembly of persons at a height less than **300 m (1 000 ft) above the highest obstacle within a radius of 600 m** from the aircraft; […]
+      presets:
+        - correctAnswers:
+            - text: 1000 ft
+          wrongAnswers:
+            - text: 100 ft
+            - text: 500 ft
+            - text: 2000 ft
+- id: QWYIA
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106641
+    - BGS-101794
+    - AVEXAM-13867
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.05
+  templates:
+    - type: simple
+      question: The cruising levels at which a flight or a portion of a flight is to be conducted shall be in terms of
+      explanation: Cruising levels are expressed as flight levels at or above the lowest usable flight level, and as altitudes below it. Flight levels use the standard 1013.2 hPa setting, while altitudes use QNH.
+      presets:
+        - correctAnswers:
+            - text: flight levels, if the flight is at or above the lowest usable flight level.
+          wrongAnswers:
+            - text: heights, if the flight is below the transition altitude.
+            - text: altitudes, if the flight is above the lowest usable flight level.
+            - text: flight levels, for flights in and above the transition layer.
+- id: QGCZG
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104168
+    - BGS-101948
+    - BGS-100720
+    - AVEXAM-17371
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.05
+  templates:
+    - type: simple
+      question: When flying on an airway with an easterly magnetic heading, the correct flight level will be..
+      explanation: |-
+        ### SERA.5020(b) and Appendix 3, Table of cruising levels
+
+        > An IFR flight operating in cruising flight in controlled airspace shall be flown at a cruising level […] selected from the table of cruising levels in Appendix 3, except that the correlation of levels to track prescribed therein shall not apply whenever otherwise indicated in air traffic control clearances or specified by the competent authority in aeronautical information publications.
+
+        | Track        | Cruising levels            |
+        | ------------ | -------------------------- |
+        | 000° to 179° | **Odd** (FL130, FL150, …)  |
+        | 180° to 359° | **Even** (FL120, FL140, …) |
+
+        An easterly heading is a track between 000° and 179°, so the level is odd, unless ATC or the competent authority says otherwise.
+      presets:
+        - correctAnswers:
+            - text: usually odd (FL130, FL150, etc.), unless stated by the authorities.
+          wrongAnswers:
+            - text: always even.
+            - text: usually even (FL120, FL140, etc.), unless stated by the authorities.
+            - text: always odd.
+- id: QBYGI
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109851
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.06
+  templates:
+    - type: simple
+      question: You are cruising in uncontrolled airspace at 2 600 ft. Is this allowed?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes, if the competent authority defines the transition altitude as 3 000 ft or higher.
+          wrongAnswers:
+            - text: No, under 3 000 ft IFR is not allowed.
+            - text: No, they should fly at FL20 or FL30.
+            - text: Yes, provided that the transition altitude is lower than 3 000 ft.
+- id: QHSOF
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds:
+    - QWZLO
+  externalQuestionIds:
+    - ATPLQ-107740
+    - AVEXAM-71315
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.08
+  templates:
+    - type: simple
+      question: A series of red flashes from aerodrome control directed towards an aircraft on the ground means..
+      explanation: |-
+        ### SERA Appendix 1, Signals
+
+        | Light signal from aerodrome control | Aircraft on the ground                    |
+        | ----------------------------------- | ----------------------------------------- |
+        | Steady red                          | Stop                                      |
+        | Series of red flashes               | **Taxi clear of landing area in use**     |
+        | Series of green flashes             | Cleared to taxi                           |
+        | Series of white flashes             | Return to starting point on the aerodrome |
+      presets:
+        - correctAnswers:
+            - text: taxi clear of the landing area in use.
+          wrongAnswers:
+            - text: the aircraft is on the wrong taxiway and must stop and taxi back.
+            - text: slow down taxi speed.
+            - text: give way to other aircraft that are taxiing.
+- id: QWZLO
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds:
+    - QHSOF
+  externalQuestionIds:
+    - ATPLQ-105983
+    - AVEXAM-76268
+    - BGS-100111
+    - ATPLQ-109496
+    - AVEXAM-72656
+    - BGS-100126
+    - ATPLQ-105056
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.08
+  templates:
+    - type: simple
+      question: A series of green flashes from aerodrome control directed towards an aircraft in flight means...
+      explanation: |-
+        ### SERA Appendix 1, Signals
+
+        | Light signal from aerodrome control | Aircraft in flight                                                        |
+        | ----------------------------------- | ------------------------------------------------------------------------- |
+        | Steady green                        | Cleared to land                                                           |
+        | Steady red                          | Give way to other aircraft and continue circling                          |
+        | Series of green flashes             | **Return for landing**                                                    |
+        | Series of red flashes               | Aerodrome unsafe, do not land                                             |
+        | Series of white flashes             | Land at this aerodrome and proceed to apron                               |
+        | Red pyrotechnic                     | Notwithstanding any previous instructions, do not land for the time being |
+
+        A "return for landing" signal is followed in due course by a clearance to land.
+      presets:
+        - correctAnswers:
+            - text: return for landing.
+          wrongAnswers:
+            - text: make a short approach and land as soon as possible.
+            - text: cleared to land.
+            - text: continue circling and give way to other aircraft.
+        - correctAnswers:
+            - text: cleared to taxi.
+          wrongAnswers:
+            - text: stand by, clearance for take off will be given shortly.
+            - text: accelerate taxi speed and expedite.
+            - text: reduce taxi speed, but continue taxiing.
+    - type: simple
+      question: 'The light signal from aerodrome control tower directed towards an aircraft in flight indicating "return for landing" is:'
+      explanation: |-
+        ### SERA Appendix 1, Signals
+
+        | Light signal from aerodrome control | Aircraft in flight                                                        |
+        | ----------------------------------- | ------------------------------------------------------------------------- |
+        | Steady green                        | Cleared to land                                                           |
+        | Steady red                          | Give way to other aircraft and continue circling                          |
+        | Series of green flashes             | **Return for landing**                                                    |
+        | Series of red flashes               | Aerodrome unsafe, do not land                                             |
+        | Series of white flashes             | Land at this aerodrome and proceed to apron                               |
+        | Red pyrotechnic                     | Notwithstanding any previous instructions, do not land for the time being |
+
+        A "return for landing" signal is followed in due course by a clearance to land.
+      presets:
+        - correctAnswers:
+            - text: A series of green flashes.
+          wrongAnswers:
+            - text: A steady green.
+            - text: A series of white flashes.
+            - text: A series of red flashes.
+- id: QDZRF
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105796
+    - BGS-100096
+    - AVEXAM-40554
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.08
+  templates:
+    - type: simple
+      question: Which of the following signal means that an aircraft wishes to give notice of difficulties which compel it to land without requiring immediate assistance?
+      explanation: |-
+        ### SERA Appendix 1, 1.3.1 Urgency signals
+
+        > The following signals, used either together or separately, mean that an aircraft wishes to give notice of difficulties which compel it to land without requiring immediate assistance: (a) **the repeated switching on and off of the landing lights**; or (b) the repeated switching on and off of the navigation lights in such manner as to be distinct from flashing navigation lights.
+
+        The group XXX is the signal for a very urgent message about the safety of a ship, aircraft or other vehicle, or of a person on board or within sight. SOS is a distress signal.
+      presets:
+        - correctAnswers:
+            - text: The repeated switching on and off of the landing lights.
+          wrongAnswers:
+            - text: The switching on and off three times of the navigation lights.
+            - text: The switching on and off alternatively of the landing and navigation lights.
+            - text: The switching on and off of the landing lights in a sequence to indicate the Morse code letters SOS.
+    - type: simple
+      question: "The following signal means that an aircraft wishes to give notice of difficulties which compel it to land without requiring immediate assistance (urgency signals):"
+      explanation: |-
+        ### SERA Appendix 1, 1.3.1 Urgency signals
+
+        > The following signals, used either together or separately, mean that an aircraft wishes to give notice of difficulties which compel it to land without requiring immediate assistance: (a) **the repeated switching on and off of the landing lights**; or (b) the repeated switching on and off of the navigation lights in such manner as to be distinct from flashing navigation lights.
+
+        The group XXX is the signal for a very urgent message about the safety of a ship, aircraft or other vehicle, or of a person on board or within sight. SOS is a distress signal.
+      presets:
+        - correctAnswers:
+            - text: The repeated switching on and off of the landing lights.
+          wrongAnswers:
+            - text: Switching on and off three times the landing lights.
+            - text: Switching on and off of the landing lights in a sequence consisting of the letter group SOS.
+            - text: Switching on and off three times the navigation lights.
+- id: QYLML
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105669
+    - BGS-101439
+    - AVEXAM-54080
+    - BGS-101465
+    - AVEXAM-65027
+    - AVEXAM-3622
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.09
+  templates:
+    - type: simple
+      question: When undertaking a simulated instrument flight, in accordance with ICAO Annex 2, Rules of the Air, what specific requirements are applicable? The aircraft shall be equipped with..
+      explanation: |-
+        ### SERA.3220, Simulated instrument flights
+
+        > An aircraft shall not be flown under simulated instrument flight conditions unless: (a) **fully functioning dual controls** are installed in the aircraft; and (b) an additional **qualified pilot (in this rule called a safety pilot) occupies a control seat** to act as safety pilot for the person who is flying under simulated instrument conditions. The safety pilot shall have adequate vision forward and to each side of the aircraft, or a competent observer in communication with the safety pilot shall occupy a position in the aircraft from which the observer's field of vision adequately supplements that of the safety pilot.
+
+        A competent observer is an addition to the safety pilot when the safety pilot's vision is not adequate. It never replaces the safety pilot.
+      presets:
+        - correctAnswers:
+            - text: dual flight controls, and a qualified pilot acting as a safety pilot shall occupy one of the control seats.
+          wrongAnswers:
+            - text: a complete set of flight instruments at each control seat, and a qualified Flight Instructor must occupy one of these seats.
+            - text: dual flight controls, and a competent observer shall occupy one of the control seats.
+            - text: a complete set of flight instruments at each control seat, and a competent observer shall occupy one of these seats.
+    - type: simple
+      question: As part of your flying training, you are informed that there is a requirement to conduct a flight under simulated instrument flight conditions. Which condition(s) must be satisfied in order to conduct this flight?
+      explanation: |-
+        ### SERA.3220, Simulated instrument flights
+
+        > An aircraft shall not be flown under simulated instrument flight conditions unless: (a) **fully functioning dual controls** are installed in the aircraft; and (b) an additional **qualified pilot (in this rule called a safety pilot) occupies a control seat** to act as safety pilot for the person who is flying under simulated instrument conditions. The safety pilot shall have adequate vision forward and to each side of the aircraft, or a competent observer in communication with the safety pilot shall occupy a position in the aircraft from which the observer's field of vision adequately supplements that of the safety pilot.
+
+        A competent observer is an addition to the safety pilot when the safety pilot's vision is not adequate. It never replaces the safety pilot.
+      presets:
+        - correctAnswers:
+            - text: The aircraft must be equipped with functioning dual controls and a safety pilot must occupy a control seat.
+          wrongAnswers:
+            - text: The flight must take place during daylight hours and the aircraft must remain inside a control zone.
+            - text: A competent observer must be carried. The competent observer must have a 360° field of vision during all phases of flight.
+            - text: The student pilot must have completed an instrument rating skill test prior to conducting this flight.
+    - type: simple
+      question: "An aircraft used for simulated instrument flying must have:"
+      explanation: |-
+        ### SERA.3220, Simulated instrument flights
+
+        > An aircraft shall not be flown under simulated instrument flight conditions unless: (a) **fully functioning dual controls** are installed in the aircraft; and (b) an additional **qualified pilot (in this rule called a safety pilot) occupies a control seat** to act as safety pilot for the person who is flying under simulated instrument conditions. The safety pilot shall have adequate vision forward and to each side of the aircraft, or a competent observer in communication with the safety pilot shall occupy a position in the aircraft from which the observer's field of vision adequately supplements that of the safety pilot.
+
+        A competent observer is an addition to the safety pilot when the safety pilot's vision is not adequate. It never replaces the safety pilot.
+      presets:
+        - correctAnswers:
+            - text: a qualified safety pilot and fully functioning dual controls.
+          wrongAnswers:
+            - text: dual controls and a competent observer.
+            - text: a competent observer in the front seat.
+            - text: dual controls.
+    - type: simple
+      question: During a flight in simulated instrument conditions, the following is required...
+      explanation: |-
+        ### SERA.3220, Simulated instrument flights
+
+        > An aircraft shall not be flown under simulated instrument flight conditions unless: (a) **fully functioning dual controls** are installed in the aircraft; and (b) an additional **qualified pilot (in this rule called a safety pilot) occupies a control seat** to act as safety pilot for the person who is flying under simulated instrument conditions. The safety pilot shall have adequate vision forward and to each side of the aircraft, or a competent observer in communication with the safety pilot shall occupy a position in the aircraft from which the observer's field of vision adequately supplements that of the safety pilot.
+
+        A competent observer is an addition to the safety pilot when the safety pilot's vision is not adequate. It never replaces the safety pilot.
+      presets:
+        - correctAnswers:
+            - text: a dual set of controls and a safety pilot.
+          wrongAnswers:
+            - text: a dual set of controls and a competent observer.
+            - text: a full set of instruments at each control position and a competent observer.
+            - text: a full set of instruments at each control position and an instructor pilot.
+- id: QSHGO
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103945
+    - AVEXAM-49091
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.10
+  templates:
+    - type: simple
+      question: You are on final when an aircraft enters the traffic circuit without proper authorisation and cuts you off. What should you do?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Let the aircraft land and inform ATC.
+          wrongAnswers:
+            - text: Speed up and pass the aircraft on the right.
+            - text: Cut the aircraft off and continue to land since you have clearance to land.
+            - text: Speed up and pass the aircraft on the left.
+- id: QJQRC
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106177
+    - BGS-101784
+    - AVEXAM-730473
+    - BGS-100121
+    - ATPLQ-109526
+    - AVEXAM-12844
+    - BGS-101511
+    - ATPLQ-103239
+    - AVEXAM-94664
+    - ATPLQ-107911
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.11
+  templates:
+    - type: simple
+      question: Submission of a flight plan is required for any...
+      explanation: A flight plan is required for any flight, or portion of a flight, that receives air traffic control service, and for any IFR flight within advisory airspace. A VFR flight by day, or a flight in class G airspace, does not need one on those grounds alone.
+      presets:
+        - correctAnswers:
+            - text: IFR flight in advisory airspace.
+          wrongAnswers:
+            - text: flight by day.
+            - text: flight in class G airspace.
+            - text: domestic flight.
+    - type: simple
+      question: "For flights under IFR within advisory airspace, a flight plan:"
+      explanation: |-
+        A flight plan is required for any flight, or portion of a flight, that receives air traffic control service, and for any IFR flight within advisory airspace. A VFR flight by day, or a flight in class G airspace, does not need one on those grounds alone.
+
+        A participating IFR flight in advisory airspace must also report changes to its flight plan to the air traffic services unit.
+      presets:
+        - correctAnswers:
+            - text: shall be submitted and changes to the flight plan shall be reported.
+          wrongAnswers:
+            - text: does not have to be submitted.
+            - text: shall be submitted, with no obligation to report changes.
+            - text: may be submitted at the pilot's discretion, with all changes reported as soon as practicable.
+    - type: simple
+      question: "An IFR flight in VMC is conducted in class {{class}} airspace. Submission of a flight plan is:"
+      explanation: |-
+        A flight plan is required for any flight, or portion of a flight, that receives air traffic control service, and for any IFR flight within advisory airspace. A VFR flight by day, or a flight in class G airspace, does not need one on those grounds alone.
+
+        Class C and class D are controlled airspace in which every flight, whatever its flight rules or meteorological conditions, receives air traffic control service, so the flight plan is mandatory.
+      presets:
+        - variables:
+            class: C
+          correctAnswers:
+            - text: mandatory.
+          wrongAnswers:
+            - text: optional.
+            - text: recommended.
+            - text: not required.
+        - variables:
+            class: D
+          correctAnswers:
+            - text: mandatory.
+          wrongAnswers:
+            - text: optional.
+            - text: recommended.
+            - text: not required.
+- id: QPBOW
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107897
+    - AVEXAM-53544
+    - BGS-100770
+    - AVEXAM-87035
+    - ATPLQ-101487
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.12
+  templates:
+    - type: simple
+      question: A pilot intends to change from VFR to IFR in the middle of a flight. A flight plan has already been submitted. What action is the pilot required to take?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Communicate the necessary changes to be effected to their current flight plan.
+          wrongAnswers:
+            - text: Cancel the current VFR flight plan and submit an IFR flight plan.
+            - text: Land at the nearest suitable aerodrome and submit an IFR flight plan.
+            - text: Cancel the current VFR flight plan and adjust to the table of cruising levels for IFR flights.
+    - type: simple
+      question: The pilot of an aircraft flying under VFR wishes to change to IFR. The pilot has already submitted a VFR flight plan. What are the appropriate actions?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Cancel the VFR flight and submit a new flight plan.
+          wrongAnswers:
+            - text: Land at the next airfield, change the flight rules on ground and thereafter depart IFR.
+            - text: It is not allowed to change from VFR to IFR.
+            - text: Cancel the VFR flight plan and adjust the flight level according to the new setting.
+- id: QHCAN
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103926
+    - AVEXAM-59615
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.12
+  templates:
+    - type: simple
+      question: The pilot of an aircraft has submitted a flight plan for a VFR flight and is flying towards an uncontrolled airfield. Should the pilot close the flight plan after arrival to the airfield?
+      explanation: |-
+        ### SERA.4020, Closing a flight plan
+
+        > (c) When no air traffic services unit exists at the arrival aerodrome or operating site, the arrival report, when required, shall be made **as soon as practicable after landing and by the quickest means available to the nearest air traffic services unit**.
+
+        A flight plan is not closed automatically by landing or by radar identification. The pilot closes it by making the arrival report.
+      presets:
+        - correctAnswers:
+            - text: After landing, the pilot should contact the closest ATS and close their flight plan.
+          wrongAnswers:
+            - text: The aircraft is under flight radar and the flight plan will automatically be closed.
+            - text: The pilot should inform the aerodrome operator as soon as possible after landing.
+            - text: The flight plan will automatically be closed when landing on an uncontrolled airfield.
+- id: QYGWQ
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108134
+    - AVEXAM-1311
+    - ATPLQ-107082
+    - BGS-100122
+    - AVEXAM-55947
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.13
+  templates:
+    - type: simple
+      question: "Deviation from Flight Plan: Pilots of controlled flights are requested to inform the appropriate ATS whenever the average TAS at cruising level between reporting points varies or is expected to vary from the TAS given in the flight plan by:"
+      explanation: |-
+        ### ICAO Annex 2, Chapter 3, 3.6.2.2
+
+        > Deviations from the current flight plan. In the event that a controlled flight deviates from its current flight plan, the following action shall be taken: […]
+        >
+        > c) Deviation from Mach number/true airspeed: if the sustained Mach number/true airspeed at cruising level varies by plus or minus Mach 0.02 or more, or **plus or minus 19 km/h (10 kt)** true airspeed or more from the current flight plan, the appropriate air traffic services unit shall be so informed.
+
+        ### SERA.8020(b), Adherence to flight plan
+
+        > (3) Deviation from Mach number/true airspeed: if the sustained Mach number/true airspeed at cruising level varies by plus or minus Mach 0,02 or more, or plus or minus **19 km/h (10 kt)** true airspeed or more from the current flight plan, the appropriate air traffic services unit shall be so informed.
+
+        Earlier editions of Annex 2 set this threshold as a percentage, plus or minus 5 per cent of the true airspeed. 
+        That wording is no longer in effect: the current Annex 2 and SERA use a fixed value of 10 kt true airspeed, 
+        or Mach 0.02, and this is the value to apply. 
+
+        Question banks and exams written against the older text still key 5 %, 
+        so you may see it as the correct answer in an exam.
+
+        In summary:
+
+        - **TAS deviation**: +/- 10 kt (19 km/h) or Mach 0.02. Older editions: +/- 5 % of the TAS.
+      presets:
+        - correctAnswers:
+            - text: 10 kt
+          wrongAnswers:
+            - text: 19 kt
+            - text: 7 kt
+            - text: 25 kt
+    - type: simple
+      question: Pilots of controlled flights shall inform the appropriate ATS when the average TAS at cruising level varies or is expected to vary from the TAS given in the flight plan by..
+      explanation: |-
+        ### ICAO Annex 2, Chapter 3, 3.6.2.2
+
+        > Deviations from the current flight plan. In the event that a controlled flight deviates from its current flight plan, the following action shall be taken: […]
+        >
+        > c) Deviation from Mach number/true airspeed: if the sustained Mach number/true airspeed at cruising level varies by plus or minus Mach 0.02 or more, or plus or minus **19 km/h (10 kt)** true airspeed or more from the current flight plan, the appropriate air traffic services unit shall be so informed.
+
+        ### SERA.8020(b), Adherence to flight plan
+
+        > (3) Deviation from Mach number/true airspeed: if the sustained Mach number/true airspeed at cruising level varies by plus or minus Mach 0,02 or more, or plus or minus **19 km/h (10 kt)** true airspeed or more from the current flight plan, the appropriate air traffic services unit shall be so informed.
+
+        Earlier editions of Annex 2 set this threshold as a percentage, plus or minus 5 per cent of the true airspeed. That wording is no longer in effect: the current Annex 2 and SERA use a fixed value of 10 kt true airspeed, or Mach 0.02, and this is the value to apply. Question banks and exams written against the older text still key 5 %, so you may see it as the correct answer in an exam.
+
+        In summary:
+
+        - **TAS deviation**: plus or minus 10 kt (19 km/h) or Mach 0.02. Older editions: plus or minus 5 % of the TAS.
+        - **Altitude deviation** (ICAO Doc 4444, 8.5.5.1.1, tolerance for level information displayed to the controller): plus or minus 300 ft (90 m), or plus or minus 200 ft (60 m) in RVSM airspace.
+      presets:
+        - correctAnswers:
+            - text: plus or minus 10 kt
+          wrongAnswers:
+            - text: plus or minus 5 %
+            - text: plus or minus 5 kt
+            - text: plus or minus 20 kt
+        - correctAnswers:
+            - text: plus or minus 5 %
+          wrongAnswers:
+            - text: plus or minus 2 %
+            - text: plus or minus 3 %
+            - text: plus or minus 4 %
+- id: QADBY
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101469
+    - BGS-101727
+    - BGS-101459
+    - AVEXAM-68433
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.14
+  templates:
+    - type: simple
+      question: If a flight plan has been submitted, a report of arrival shall be made when closing the flight plan. Which of the items listed below shall be included in the arrival report?
+      explanation: |-
+        ### SERA.4020(e), Closing a flight plan
+
+        > Arrival reports made by aircraft shall contain the following elements of information: (1) aircraft identification; (2) departure aerodrome or operating site; (3) destination aerodrome or operating site (only in the case of a diversionary landing); (4) arrival aerodrome or operating site; (5) **time of arrival**.
+
+        Remaining fuel and persons on board are flight plan data and are not part of the arrival report. The time of departure is not an element of the arrival report either.
+      presets:
+        - correctAnswers:
+            - text: Time of arrival
+          wrongAnswers:
+            - text: Remaining fuel
+            - text: Time of departure
+            - text: Persons on board
+- id: QHFUW
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds:
+    - QQJPS
+  externalQuestionIds:
+    - ATPLQ-101155
+    - AVEXAM-57596
+    - BGS-101654
+    - AVEXAM-13950
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.15
+  templates:
+    - type: simple
+      question: When performing a flight in accordance with ICAO provisions, an air traffic control clearance is necessary...
+      explanation: |-
+        ### SERA.8015(b), Air traffic control clearances
+
+        > (1) An air traffic control clearance shall be obtained prior to operating a controlled flight, or a portion of a flight as a controlled flight. Such clearance shall be requested through the submission of a flight plan to an air traffic control unit.
+
+        A clearance is tied to the flight being controlled, wholly or in part, and not to the class of airspace being entered or to a particular area.
+      presets:
+        - correctAnswers:
+            - text: if the flight is operated totally or partially as a controlled flight.
+          wrongAnswers:
+            - text: prior to entering an airspace class A, B, C, D, E, or F.
+            - text: when operating a VFR flight into an advisory airspace.
+            - text: prior to passing through a dangerous area.
+- id: QQJPS
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds:
+    - QHFUW
+  externalQuestionIds:
+    - ATPLQ-108087
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.15
+  templates:
+    - type: simple
+      question: When performing a flight in accordance with ICAO provisions, an air traffic control clearance is necessary...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: if the flight is operated under IFR in advisory airspace.
+          wrongAnswers:
+            - text: prior to pass through a dangerous area.
+            - text: prior to enter into an airspace class G.
+            - text: if the flight is operated during daylight.
+- id: QKNHB
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101470
+    - BGS-101474
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.17
+    - 010.07.02.05.02
+  templates:
+    - type: simple
+      question: An aircraft is cruising at FL130\. ATC issues a climb clearance to FL150\. This new level is incompatible with the aircraft's performance. According to SERA, the crew will respond to ATC clearance using the word...
+      explanation: |-
+        ### SERA.8015(ea), Changes in clearance regarding route or level
+
+        > (2) When traffic conditions will not permit clearance of a requested change, the word '**UNABLE**' shall be used.
+
+        The word UNABLE is also the standard pilot phraseology for a clearance or instruction the aircraft cannot comply with.
+      presets:
+        - correctAnswers:
+            - text: UNABLE.
+          wrongAnswers:
+            - text: IMPOSSIBLE.
+            - text: REFUSED.
+            - text: CANNOT.
+- id: QDYRM
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-103315
+    - AVEXAM-43392
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.18
+  templates:
+    - type: simple
+      question: Weather conditions in a control zone fall below the VMC minima. What is the appropriate course of action by the control tower?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Talk to incoming VFR traffic about it and call back the VFR traffic on the ground.
+          wrongAnswers:
+            - text: VFR flights not permitted but local flights may depart.
+            - text: Control unit should decide if traffic may be permitted as control tower may not decide.
+            - text: Close control zone and get the VFR traffic clear.
+    - type: simple
+      question: If weather conditions in a control zone drop below VMC minima, what action should the control tower take?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Talk to incoming VFR traffic about it and call back the VFR traffic on the ground.
+          wrongAnswers:
+            - text: VFR flights not permitted but local flights may depart.
+            - text: Close control zone and get the VFR traffic clear.
+            - text: Control unit should decide if traffic may be permitted as control tower may not decide.
+- id: QSYCN
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds:
+    - QZJOG
+  externalQuestionIds:
+    - ATPLQ-101500
+    - AVEXAM-45761
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.18
+  templates:
+    - type: simple
+      question: You are flying on a VFR flight in VMC in a controlled airspace. Suddenly, you realize you are unable to maintain VMC. What are your actions according ICAO Annex 2?
+      explanation: |-
+        ### SERA.8020(d), Adherence to flight plan
+
+        > Weather deterioration below the VMC. When it becomes evident that flight in VMC in accordance with its current flight plan will not be practicable, a VFR flight operated as a controlled flight shall: (1) request an amended clearance enabling the aircraft to continue in VMC to destination or to an alternative aerodrome or operating site, or to leave the airspace within which an ATC clearance is required; or (2) if no clearance in accordance with point (1) can be obtained, continue to operate in VMC and notify the appropriate ATC unit of the action being taken either to leave the airspace concerned or to land at the nearest suitable aerodrome or operating site; or (3) if operated within a control zone, **request authorisation to operate as a special VFR flight**; or (4) request clearance to operate in accordance with the instrument flight rules.
+
+        A controlled VFR flight never continues in IMC without a clearance.
+      presets:
+        - correctAnswers:
+            - text: Request a special VFR clearance if flying in a control zone.
+          wrongAnswers:
+            - text: Continue in IMC and land on the next airport which is equipped for instrument approaches.
+            - text: Continue in IMC and land on the next suitable airport.
+            - text: Continue to fly in VMC as best as possible and land at the nearest suitable airport immediately.
+- id: QZJOG
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds:
+    - QSYCN
+  externalQuestionIds:
+    - ATPLQ-106140
+    - BGS-101453
+    - BGS-101682
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.18
+  templates:
+    - type: simple
+      question: If it becomes evident that a controlled VFR flight cannot be continued in VMC, according with the provisions of ICAO Annex 2, Rules of the Air, it shall..
+      explanation: |-
+        ### SERA.8020(d), Adherence to flight plan
+
+        > Weather deterioration below the VMC. When it becomes evident that flight in VMC in accordance with its current flight plan will not be practicable, a VFR flight operated as a controlled flight shall: (1) request an amended clearance enabling the aircraft to continue in VMC to destination or to an alternative aerodrome or operating site, or to leave the airspace within which an ATC clearance is required; or (2) if no clearance in accordance with point (1) can be obtained, continue to operate in VMC and notify the appropriate ATC unit of the action being taken either to leave the airspace concerned or to land at the nearest suitable aerodrome or operating site; or (3) if operated within a control zone, **request authorisation to operate as a special VFR flight**; or (4) request clearance to operate in accordance with the instrument flight rules.
+
+        A controlled VFR flight never continues in IMC without a clearance.
+      presets:
+        - correctAnswers:
+            - text: request authorisation to operate as a special VFR flight, if the flight is operated within a control zone.
+          wrongAnswers:
+            - text: continue to operate in VMC and inform the appropriate ATC unit after landing.
+            - text: continue to operate in IMC and inform the appropriate ATC unit of the action being taken either to leave the airspace concerned or to land at the nearest suitable aerodrome.
+            - text: continue the flight in VMC as far as practicable and land at the nearest airport.
+- id: QOSDG
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104575
+    - BGS-101392
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.19
+  templates:
+    - type: simple
+      question: According to the Standardised European Rules of the Air (SERA) Regulation (EU) No 923/2012, any controlled flight must report to the appropriate air traffic services unit the (1) \_\_\_\_\_ of passing each designated (2) \_\_\_\_\_ reporting point (3) \_\_\_\_\_.
+      explanation: |-
+        ### SERA.8025, Position reports
+
+        > Unless exempted by the competent authority or by the appropriate air traffic services unit under conditions specified by that authority, a controlled flight shall report to the appropriate air traffic services unit, **as soon as possible, the time and level of passing each designated compulsory reporting point**, together with any other required information.
+      presets:
+        - correctAnswers:
+            - text: (1) time and level; (2) compulsory; (3) as soon as possible
+          wrongAnswers:
+            - text: (1) TAS and level; (2) Non-compulsory; (3) 3 minutes before reaching the point
+            - text: (1) heading and TAS; (2) compulsory; (3) 3 minutes before reaching the point
+            - text: (1) heading and time; (2) Non-compulsory; (3) as soon as possible
+- id: QEUVC
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104093
+    - AVEXAM-45429
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.20
+  templates:
+    - type: simple
+      question: "If, during a VFR flight, a communication failure is experienced, the pilot shall:"
+      explanation: |-
+        ### SERA.14083(c), Radio communication failure procedures
+
+        > (2) The aircraft shall set the transponder on Mode A Code **7600** […] (3) A VFR flight shall **continue to fly in visual meteorological conditions, land at the nearest suitable aerodrome, and report its arrival by the most expeditious means** to the appropriate air traffic services unit.
+
+        An aircraft forming part of the aerodrome traffic at a controlled aerodrome also keeps a watch for visual signals. The light signals are therefore an addition to, and not a replacement for, the code 7600 and the landing.
+      presets:
+        - correctAnswers:
+            - text: Set transponder code 7600 and land at the nearest suitable airport.
+          wrongAnswers:
+            - text: Set transponder code 7600 and follow the light and pyrotechnic signals.
+            - text: Inform ATC and continue according to the flight plan.
+            - text: Land at the nearest suitable airport.
+- id: QKWAS
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107112
+    - BGS-100923
+    - AVEXAM-58452
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.20
+  templates:
+    - type: simple
+      question: In accordance with ICAO Annex 2, Rules of the Air, a controlled flight operated in VMC which encounters a communication failure shall...
+      explanation: |-
+        ### SERA.14083(c), Radio communication failure procedures
+
+        > (6) If an IFR flight encounters visual meteorological conditions and the pilot-in-command decides to continue to fly in visual meteorological conditions, the pilot shall set Mode A Code 7601, **land at the nearest suitable aerodrome, and report arrival by the most expeditious means** to the appropriate air traffic services unit.
+
+        A VFR flight in the same situation sets code 7600, continues in VMC, lands at the nearest suitable aerodrome and reports its arrival (SERA.14083(c)(3)).
+      presets:
+        - correctAnswers:
+            - text: continue to fly in VMC to the nearest suitable aerodrome and after landing inform the appropriate ATC unit as soon as possible.
+          wrongAnswers:
+            - text: use the emergency frequency to inform the ATC unit about the failure and land at the nearest aerodrome.
+            - text: make use of the specific provisions for visual signals and set the transponder code for communication failure.
+            - text: continue to fly in VMC to the destination aerodrome and after landing inform the appropriate ATC unit.
+- id: QZBAB
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106768
+    - BGS-100141
+    - AVEXAM-84726
+    - AVEXAM-48186
+    - BGS-100351
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.20
+  templates:
+    - type: simple
+      question: After experiencing a two-way communication failure during a flight under IFR in VMC, the correct procedure is
+      explanation: |-
+        ### SERA.14083(c), Radio communication failure procedures
+
+        > (6) If an IFR flight encounters visual meteorological conditions and the pilot-in-command decides to continue to fly in visual meteorological conditions, the pilot shall set Mode A Code 7601, **land at the nearest suitable aerodrome, and report arrival by the most expeditious means** to the appropriate air traffic services unit.
+
+        The procedure of keeping the assigned level and route and starting the approach at the planned time applies to an IFR flight that remains in IMC, not to one that continues in VMC.
+      presets:
+        - correctAnswers:
+            - text: continue to fly in VMC, land at the nearest suitable aerodrome, report the arrival by the most expeditious means to the appropriate Air Traffic Control unit.
+          wrongAnswers:
+            - text: continue the flight at the assigned level and route, carry out level changes as indicated in the filed ATS flight plan, start the approach to the flight plan destination at the planned ETA.
+            - text: continue to fly in VMC and return to the aerodrome of departure.
+            - text: maintain the assigned level and route and land at the nearest aerodrome where VMC conditions prevail.
+- id: QDZLV
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-105178
+    - BGS-101447
+    - AVEXAM-96965
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.03.01.21
+  templates:
+    - type: simple
+      question: A flight in controlled airspace is being subjected to unlawful interference, with a hostage situation. According to SERA, the pilot shall attempt to notify ATC of...
+      explanation: A pilot subjected to unlawful interference attempts to inform the ATS unit of any significant circumstances associated with the interference and of any deviation from the current flight plan that the circumstances make necessary, so that ATS can give priority and keep other traffic clear.
+      presets:
+        - correctAnswers:
+            - text: any significant circumstances associated with the interference.
+          wrongAnswers:
+            - text: the type of aircraft being flown.
+            - text: the position of the aircraft and the time in UTC when the interference started.
+            - text: the flight number, the flight time remaining, and any information about the type(s) of weapon being used.
+- id: QMKWB
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106222
+    - AVEXAM-19428
+    - BGS-101952
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.04.01.01
+    - 010.05.05.01.01
+  templates:
+    - type: simple
+      question: An IFR-rated pilot is performing a flight between two European aerodromes 100 NM apart. The weather conditions are VMC during the flight. According to SERA (Standardized European Rules of the Air), under which rules can the flight be performed?
+      explanation: |-
+        ### SERA.5005, Visual flight rules and SERA.5015, Instrument flight rules
+
+        > (a) Except when operating as a special VFR flight, VFR flights shall be conducted so that the aircraft is flown in conditions of visibility and distance from clouds equal to or greater than those specified in Table S5-1.
+
+        In VMC both sets of rules can be used. A pilot with an instrument rating may therefore choose VFR or IFR. Special VFR is a clearance for flights in a control zone in conditions below the VMC minima, so it is not needed here.
+      presets:
+        - correctAnswers:
+            - text: VFR or IFR.
+          wrongAnswers:
+            - text: Special VFR only.
+            - text: IFR only.
+            - text: VFR only.
+- id: QAASV
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102156
+    - AVEXAM-58211
+    - BGS-101785
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.05.01.01
+  templates:
+    - type: simple
+      question: On a VMC day, can the pilot-in-command elect to fly in accordance with the Instrument Flight Rules, despite being in visual conditions?
+      explanation: |-
+        ### SERA.5005, Visual flight rules and SERA.5015, Instrument flight rules
+
+        > (a) Except when operating as a special VFR flight, VFR flights shall be conducted so that the aircraft is flown in conditions of visibility and distance from clouds equal to or greater than those specified in Table S5-1.
+
+        VMC is the condition required to fly VFR, not an obligation to do so. An IFR flight may be flown in any meteorological conditions, so the pilot-in-command may choose IFR on a VMC day. No rule makes IFR mandatory because the pilot and aircraft are approved for it, and no rule ties the choice to a cruising level.
+      presets:
+        - correctAnswers:
+            - text: Yes, the pilot may choose to do so if desired.
+          wrongAnswers:
+            - text: No, if the filed cruise level is below 5000 ft AMSL.
+            - text: It is mandatory, if the pilot and the aircraft are IFR-approved.
+            - text: No, the pilot must fly in accordance with the Visual Flight Rules.
+- id: QDHUX
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds:
+    - QVDOP
+    - QKRGO
+  externalQuestionIds:
+    - ATPLQ-109153
+    - AVEXAM-64907
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.05.01.01
+  templates:
+    - type: simple
+      question: What is the minimum flight altitude for an IFR flight over mountainous area
+      explanation: |-
+        ### SERA.5015(b), Minimum levels
+
+        > Except when necessary for take-off or landing, or except when specifically authorised by the competent authority, an IFR flight shall be flown at a level which is not below the minimum flight altitude established by the State whose territory is overflown, or, where no such minimum flight altitude has been established: (1) over high terrain or in mountainous areas, at a level which is at least **600 m (2 000 ft) above the highest obstacle located within 8 km** of the estimated position of the aircraft; (2) elsewhere than as specified in (1), at a level which is at least 300 m (1 000 ft) above the highest obstacle located within 8 km of the estimated position of the aircraft.
+      presets:
+        - correctAnswers:
+            - text: A level that is at least 600 m (2000 ft) above the highest obstacle located within 8 km of the aircraft's estimated position.
+          wrongAnswers:
+            - text: A level that is at least 600 m (2000 ft) above the highest obstacle located within 25 NM of the aircraft's estimated position.
+            - text: A level that is at least 600 m (2000 ft) above the highest obstacle located within 8 NM of the aircraft's estimated position.
+            - text: A level that is at least 300 m (1000) ft above the highest obstacle located within 8 km of the aircraft’s estimated position.
+- id: QKBZT
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-104639
+    - AVEXAM-43933
+    - AVEXAM-6457
+    - BGS-100872
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.05.01.01
+  templates:
+    - type: simple
+      question: What is the minimum clearance above obstacles to be maintained by an IFR flight overflying mountainous areas...
+      explanation: |-
+        ### SERA.5015(b), Minimum levels
+
+        > (1) over high terrain or in mountainous areas, at a level which is at least **600 m (2 000 ft)** above the highest obstacle located within 8 km of the estimated position of the aircraft; (2) elsewhere than as specified in (1), at a level which is at least **300 m (1 000 ft)** above the highest obstacle located within 8 km of the estimated position of the aircraft.
+
+        | Terrain                   | Minimum clearance above the highest obstacle within 8 km |
+        | ------------------------- | -------------------------------------------------------- |
+        | High terrain or mountains | 2 000 ft (**twice** the value for other terrain)         |
+        | Elsewhere                 | 1 000 ft                                                 |
+      presets:
+        - correctAnswers:
+            - text: Twice the minimum terrain clearance under IFR when overflying low terrain.
+          wrongAnswers:
+            - text: The same as the minimum clearance for VFR flights overflying the congested areas of cities.
+            - text: The same as the minimum terrain clearance under IFR when overflying low terrain.
+            - text: Three times the minimum clearance under VFR above water.
+- id: QKRGO
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds:
+    - QVDOP
+    - QDHUX
+  externalQuestionIds:
+    - ATPLQ-106582
+    - AVEXAM-98879
+    - AVEXAM-41148
+    - BGS-100139
+    - BGS-100140
+    - ATPLQ-102882
+    - AVEXAM-60014
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.05.01.01
+  templates:
+    - type: simple
+      question: Minimum level for flights under IFR – When not flying over high terrain or mountainous areas and where no minimum flight altitude has been established, flights under IFR shall be flown at a level that is at least..
+      explanation: |-
+        ### SERA.5015(b), Minimum levels
+
+        > (2) elsewhere than as specified in (1), at a level which is at least **300 m (1 000 ft) above the highest obstacle located within 8 km** of the estimated position of the aircraft.
+
+        Over high terrain or in mountainous areas the figure doubles to 600 m (2 000 ft). The distance is always 8 km, never 6 km or NM.
+      presets:
+        - correctAnswers:
+            - text: 1000 ft above the highest obstacle located within 8 km of the estimated position of the aircraft.
+          wrongAnswers:
+            - text: 2000 ft above the highest obstacle located within 8 km of the estimated position of the aircraft.
+            - text: 2000 ft above the highest obstacle located within 6 km of the estimated position of the aircraft.
+            - text: 1000 ft above the highest obstacle located within 6 km of the estimated position of the aircraft.
+- id: QVDOP
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds:
+    - QKRGO
+    - QDHUX
+  externalQuestionIds:
+    - ATPLQ-108368
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.05.01.01
+  templates:
+    - type: simple
+      question: Except for a take-off or landing, an IFR flight has to be flown at a level which is not below the minimum flight altitude established by the State overflown. If no such minimum flight altitude has been established, what is the minimum altitude of an aircraft above the highest obstacle over high terrain, or in mountainous areas?
+      explanation: |-
+        ### SERA.5015(b), Minimum levels
+
+        > (1) over high terrain or in mountainous areas, at a level which is at least **600 m (2 000 ft) above the highest obstacle located within 8 km** of the estimated position of the aircraft;
+
+        Elsewhere the figure is 300 m (1 000 ft). The distance is always 8 km, never 6 km or NM.
+      presets:
+        - correctAnswers:
+            - text: At least 2000 ft above the highest obstacle located within 8 km of the estimated position of the aircraft.
+          wrongAnswers:
+            - text: At least 2000 ft above the highest obstacle located within 6 km of the estimated position of the aircraft.
+            - text: At least 1000 ft above the highest obstacle located within 6 km of the estimated position of the aircraft.
+            - text: At least 1000 ft above the highest obstacle located within 8 km of the estimated position of the aircraft.
+- id: QDJVG
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108217
+    - BGS-101711
+    - AVEXAM-13204
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.06.01.01
+  templates:
+    - type: simple
+      question: According to ICAO Doc 9433, which of the following is a circumstance under which interception of a civil aircraft may occur?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Deviating from a designated ATS route without a known or apparent valid reason.
+          wrongAnswers:
+            - text: A variation of true airspeed (TAS) of more than 3% with respect to the planned speed.
+            - text: The time estimate for the next applicable reporting point changes by more than 2 minutes.
+            - text: Requesting a change of the flight plan after departure.
+- id: QXWRR
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-102232
+    - AVEXAM-15999
+    - BGS-101789
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.06.01.01
+  templates:
+    - type: simple
+      question: According to ICAO Doc 9433, the military, customs or police authorities of a state may authorise the interception of a civil aircraft…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: If an aircraft WITHOUT proper authorisation is about to enter an area in the State’s territory in which civil flights are restricted.
+          wrongAnswers:
+            - text: At any time if an aircraft deviates from the flight plan route.
+            - text: At any time that an aircraft is observed in the vicinity of the State’s sovereign airspace.
+            - text: If they suspect that the aircraft is engaged in transportation of goods which may be legal in the authorities’ own State but illegal of the States from which the aircraft departed.
+- id: QOGNN
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-109471
+    - AVEXAM-16014
+    - BGS-101634
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.06.01.02
+    - 010.05.06.01.04
+  templates:
+    - type: simple
+      question: "A civil aircraft has been intercepted. According to SERA, the correct actions to be carried out by the Pilot-in-Command of the civil aircraft are:"
+      explanation: |-
+        ### SERA.11015(b), Interception
+
+        > The pilot-in-command of a civil aircraft, when intercepted, shall: (1) immediately **follow the instructions given by the intercepting aircraft**, interpreting and responding to visual signals in accordance with the specifications in Tables S11-1 and S11-2; (2) notify, if possible, the appropriate air traffic services unit; (3) attempt to establish radio-communication with the intercepting aircraft or with the appropriate intercept control unit, by making a general call on the emergency frequency 121,5 MHz […]; (4) if equipped with SSR transponder, select Mode A, **Code 7700**, unless otherwise instructed by the appropriate air traffic services unit;
+      presets:
+        - correctAnswers:
+            - text: Follow the intercepting aircraft and squawk 7700.
+          wrongAnswers:
+            - text: Rock the aircraft and contact the intercepting aircraft on 486 MHz.
+            - text: Squawk 7500, lower the landing gear (if lifted), and show steady landing lights.
+            - text: Contact ATC and squawk 7600.
+- id: QXJUA
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-101817
+    - AVEXAM-15251
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.06.01.03
+  templates:
+    - type: multiple-correct
+      question: Berlin ATC (119.000 MHz) has been informed about a suspected unlawful interference on board an aircraft with callsign G-GGDG. The aircraft does not communicate anything about such condition. A military aircraft has taken off to intercept. What is the most appropriate course of action by Berlin ATC?
+      explanation: ""
+      options:
+        - text: Inform G-GGDG of potential interference, so they can divert and land.
+          correct: false
+        - text: Do not tell anything to G-GGDG in case it aggravates the situation.
+          correct: true
+        - text: Berlin ATC attempts to contact G-GGDG via 119.000 or 121.500 and inform them of the situation.
+          correct: false
+        - text: Berlin ATC calls for total silence on frequency until the matter has been resolved.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QCBST
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-106757
+    - AVEXAM-83980
+    - BGS-100146
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.06.01.03
+  templates:
+    - type: simple
+      question: When intercepted by a military aircraft, the crew of the intercepted aircraft should attempt to establish voice communications by broadcasting a general call on frequency...
+      explanation: |-
+        ### SERA.11015(b), Interception
+
+        > (3) attempt to establish radio-communication with the intercepting aircraft or with the appropriate intercept control unit, by making a general call on the emergency frequency **121,5 MHz**, giving the identity of the intercepted aircraft and the nature of the flight; and if no contact has been established and if practicable, repeating this call on the emergency frequency **243 MHz**,
+      presets:
+        - correctAnswers:
+            - text: 121.5 MHz. If no contact can be established and if practicable, repeat this call on the frequency 243 MHz.
+          wrongAnswers:
+            - text: 121.5 MHz. If no contact can be established and if practicable, repeat this call on the frequency 406 MHz.
+            - text: 243 MHz. If no contact can be established and if practicable, repeat this call on the frequency 406 MHz.
+            - text: 243 MHz. If no contact can be established and if practicable, repeat this call on the frequency 121.5 MHz.
+- id: QBBDD
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-107053
+    - AVEXAM-34120
+    - ATPLQ-106632
+    - BGS-101476
+    - AVEXAM-10134
+    - ATPLQ-107554
+    - BGS-100662
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.06.01.04
+  templates:
+    - type: simple
+      question: Unless otherwise instructed by the appropriate ATS unit, an aircraft intercepted by another aircraft shall immediately select its transponder to Mode A, Code?
+      explanation: |-
+        ### SERA.11015(b), Interception
+
+        > (4) if equipped with SSR transponder, select Mode A, **Code 7700**, unless otherwise instructed by the appropriate air traffic services unit;
+
+        | Code | Meaning                               |
+        | ---- | ------------------------------------- |
+        | 7500 | Unlawful interference                 |
+        | 7600 | Radio communication failure           |
+        | 7700 | **Emergency, including interception** |
+      presets:
+        - correctAnswers:
+            - text: "7700."
+          wrongAnswers:
+            - text: "7500."
+            - text: "7600."
+            - text: "7000."
+    - type: simple
+      question: Interception. An aircraft equipped with SSR transponder which is intercepted by another aircraft shall immediately, unless otherwise instructed by the appropriate air traffic service unit, select Mode A
+      explanation: |-
+        ### SERA.11015(b), Interception
+
+        > (4) if equipped with SSR transponder, select Mode A, **Code 7700**, unless otherwise instructed by the appropriate air traffic services unit;
+
+        | Code | Meaning                               |
+        | ---- | ------------------------------------- |
+        | 7500 | Unlawful interference                 |
+        | 7600 | Radio communication failure           |
+        | 7700 | **Emergency, including interception** |
+      presets:
+        - correctAnswers:
+            - text: Code 7700.
+          wrongAnswers:
+            - text: Code 7000.
+            - text: Code 7600.
+            - text: Code 7500.
+    - type: simple
+      question: An intercepted aircraft with an SSR transponder shall immediately squawk..
+      explanation: |-
+        ### SERA.11015(b), Interception
+
+        > (4) if equipped with SSR transponder, select Mode A, **Code 7700**, unless otherwise instructed by the appropriate air traffic services unit;
+
+        | Code | Meaning                               |
+        | ---- | ------------------------------------- |
+        | 7500 | Unlawful interference                 |
+        | 7600 | Radio communication failure           |
+        | 7700 | **Emergency, including interception** |
+      presets:
+        - correctAnswers:
+            - text: 7700 and select Mode A.
+          wrongAnswers:
+            - text: 7500 and select Mode C.
+            - text: 7600 and select Mode C.
+            - text: 7700 and select Mode C.
+- id: QHFRH
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds:
+    - QMWBC
+    - QVELW
+  externalQuestionIds:
+    - ATPLQ-101096
+    - BGS-102288
+    - AVEXAM-90761
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.06.01.05
+  templates:
+    - type: simple
+      question: If radio contact with the intercepting aircraft is established but communication in a common language is not possible, which phrase should be pronounced by the intercepted aircraft to communicate that the position is unknown?
+      explanation: Annex 2 lists standard phrases for use between an intercepting and an intercepted aircraft when no common language exists. "AM LOST" means position unknown. The other options are not interception phrases.
+      presets:
+        - correctAnswers:
+            - text: AM LOST (AM LOST)
+          wrongAnswers:
+            - text: POSITION UNCERTAIN ( POSITION UNCERTAIN)
+            - text: ORIENTATION LOSS ( ORIENTATION LOSS)
+            - text: NAVIGATION LOST ( NAVIGATION LOST)
+- id: QMWBC
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds:
+    - QHFRH
+  externalQuestionIds:
+    - ATPLQ-103001
+    - AVEXAM-29214
+    - BGS-100142
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.06.01.05
+  templates:
+    - type: simple
+      question: If radio contact with an intercepting aircraft is established but communication in a common language is not possible, the pilot of the intercepted aircraft shall communicate to the intercepting aircraft that they are unable to comply with the instructions by pronouncing the phrase..
+      explanation: The standard phrase for an intercepted aircraft that cannot comply with the instructions given is "CAN NOT". "UNABLE TO COMPLY" and "NOT POSSIBLE" are not in the interception phrase list.
+      presets:
+        - correctAnswers:
+            - text: CAN NOT.
+          wrongAnswers:
+            - text: NOT POSSIBLE.
+            - text: UNABLE TO COMPLY.
+            - text: CAN NOT COMPLY.
+- id: QVELW
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds:
+    - QHFRH
+  externalQuestionIds:
+    - ATPLQ-105296
+    - BGS-100700
+    - AVEXAM-1225
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.06.01.05
+  templates:
+    - type: simple
+      question: According to ICAO Annex 2, which phrase would be used by an intercepted aircraft for the meaning "position unknown"?
+      explanation: |-
+        ### SERA.11015, Interception, Table S11-2
+
+        | Phrase      | Pronunciation | Meaning                     |
+        | ----------- | ------------- | --------------------------- |
+        | CALL SIGN   | KOL SA-IN     | My call sign is (call sign) |
+        | FOLLOW      | FOL-LO        | Follow me                   |
+        | WILCO       | VILL-KO       | Understood, will comply     |
+        | DESCEND     | DEE-SEND      | Descend for landing         |
+        | CAN NOT     | KANN NOTT     | Unable to comply            |
+        | YOU LAND    | YOU LAAND     | Land at this aerodrome      |
+        | REPEAT      | REE-PEET      | Repeat your instruction     |
+        | **AM LOST** | AM LOSST      | **Position unknown**        |
+        | PROCEED     | PRO-SEED      | You may proceed             |
+        | MAYDAY      | MAYDAY        | I am in distress            |
+      presets:
+        - correctAnswers:
+            - text: Am lost
+          wrongAnswers:
+            - text: Position unknown
+            - text: Strayed
+            - text: Confused
+- id: QPNSU
+  subjectId: "010"
+  chapterId: "010.05"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-108359
+    - AVEXAM-46309
+    - AVEXAM-11357
+  annexes: []
+  learningObjectiveIds:
+    - 010.05.06.01.05
+  templates:
+    - type: simple
+      question: 'Interception. If radio contact is established during interception but communication in a common language is not possible, attempts shall be made to convey instructions and essential information by using standard phrases and pronunciations, transmitting each phrase twice. The standard phrase with the meaning "Descend for landing" for use by INTERCEPTING aircraft is:'
+      explanation: |-
+        ### SERA.11015, Interception, Table S11-2
+
+        | Phrase       | Pronunciation | Meaning                    |
+        | ------------ | ------------- | -------------------------- |
+        | FOLLOW       | FOL-LO        | Follow me                  |
+        | **DESCEND**  | DEE-SEND      | **Descend for landing**    |
+        | CAN NOT      | KANN NOTT     | Unable to comply           |
+        | **YOU LAND** | YOU LAAND     | **Land at this aerodrome** |
+        | REPEAT       | REE-PEET      | Repeat your instruction    |
+        | AM LOST      | AM LOSST      | Position unknown           |
+      presets:
+        - correctAnswers:
+            - text: DESCEND (DEE-SEND)
+          wrongAnswers:
+            - text: DESCEND FOR LAND (DEE-SEND FOR LAAND)
+            - text: YOU LAND (YOU-LAAND)
+            - text: LET DOWN (LET-DAUN)
+    - type: simple
+      question: 'If radio contact is established during interception but communication in a common language is not possible, attempts shall be made to convey instructions and essential information by using standard phrases and pronunciations, transmitting each phrase twice. The standard phrase with the meaning "Land at this aerodrome" for use by INTERCEPTING aircraft is:'
+      explanation: |-
+        ### SERA.11015, Interception, Table S11-2
+
+        | Phrase       | Pronunciation | Meaning                    |
+        | ------------ | ------------- | -------------------------- |
+        | FOLLOW       | FOL-LO        | Follow me                  |
+        | **DESCEND**  | DEE-SEND      | **Descend for landing**    |
+        | CAN NOT      | KANN NOTT     | Unable to comply           |
+        | **YOU LAND** | YOU LAAND     | **Land at this aerodrome** |
+        | REPEAT       | REE-PEET      | Repeat your instruction    |
+        | AM LOST      | AM LOSST      | Position unknown           |
+      presets:
+        - correctAnswers:
+            - text: YOU LAND (YOU-LAAND)
+          wrongAnswers:
+            - text: DESCEND (DEE-SEND)
+            - text: DESCEND FOR LAND (DEE-SEND FOR LAAND)
+            - text: LET DOWN (LET-DAUN)

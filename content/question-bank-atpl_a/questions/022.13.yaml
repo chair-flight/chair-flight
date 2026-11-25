@@ -1,0 +1,1449 @@
+- id: QADKS
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228566
+    - BGS-222159
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.01.01.01
+  templates:
+    - type: simple
+      question: Which one of the following is an advantage associated with LCD displays?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: They consume relatively little power.
+          wrongAnswers:
+            - text: They can be operated over a wide range of temperatures.
+            - text: They have a greater viewing angle than CRT displays.
+            - text: Images remain clearly visible even under strong direct light.
+- id: QGZXR
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229940
+    - AVEXAM-65136
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.02.01.02
+  templates:
+    - type: simple
+      question: On a typical mechanical ADI the following information is shown.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1\. Roll attitude 2\. Pitch attitude 3\. Flight directors 4\. Glideslope
+          wrongAnswers:
+            - text: 1\. Roll attitude 2\. Pitch attitude 3\. Altitude 4\. Airspeed
+            - text: 1\. Flight directors 2\. Altitude 3\. Airspeed 4\. Glideslope
+            - text: 1\. Roll attitude 2\. Pitch attitude 3\. Altitude 4\. GlideSlope
+- id: QRRZO
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226025
+    - BGS-221313
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.02.01.02
+  templates:
+    - type: simple
+      question: "Which of the following can be displayed on a typical mechanical ADI?
+
+
+        1\\. Air speed   2\\. Roll attitude   3\\. Pitch attitude   4\\. Altitude   5\\. Flight Director command bars   6\\. Glideslope
+
+
+        \ "
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2, 3, 5, and 6
+          wrongAnswers:
+            - text: 3, 4, 5, and 6
+            - text: 1, 2, 3, and 4
+            - text: 1, 2, 5, and 6
+- id: QBNBO
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227864
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.03.01.02
+  templates:
+    - type: simple
+      question: The commander’s PFD display fails. What is correct regarding the reconfiguration?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The copilot’s PFD display is automatically duplicated on the screen corresponding to the commander’s ND.
+          wrongAnswers:
+            - text: The copilot’s PFD display is automatically duplicated on the screen corresponding to the copilot’s ND.
+            - text: Reconfiguration is not possible since the screen is not working.
+            - text: Reconfiguration is not required since the copilot’s PFD is still working.
+- id: QKJPY
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229557
+    - BGS-222391
+    - AVEXAM-49338
+    - AVEXAM-513
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.03.01.02
+  templates:
+    - type: simple
+      question: The copilot's PFD LCD fails. What happens?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The PFD of the copilot is shown on the Co-pilot's ND.
+          wrongAnswers:
+            - text: The PFD of the copilot is shown on the Captain's ND.
+            - text: Reconfiguration is not possible since the screen is not working.
+            - text: Reconfiguration is not required since the captain’s PFD is still working.
+- id: QPXXV
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229896
+    - BGS-221654
+    - AVEXAM-49827
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.03.01.03
+  templates:
+    - type: simple
+      question: According to CS-25, in case of an EFIS failure, standby instruments must normally be…
+      explanation: Under CS-25, the standby instruments must be available without any extra crew action when the EFIS displays fail, since the crew's workload would be high at that moment.
+      presets:
+        - correctAnswers:
+            - text: available without additional flight crew action.
+          wrongAnswers:
+            - text: switched on manually by the flight crew.
+            - text: switched on manually, or in case of a combination of failures, switched on automatically
+            - text: available upon activation by the Commander or Co-pilot.
+- id: QTQFO
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223751
+    - BGS-222530
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.03.01.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure. 
+         
+        The annex shows a modern EFIS instrument layout. The aircraft has two multifunction displays and an electronic standby instrument display. What is the purpose of this standby instrument display and why is it important to have standby instruments in aircraft fitted with EFIS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The electronic standby indications may be difficult to read but are essential since the failure of an EFIS display means a significant loss of flight data.
+          wrongAnswers:
+            - text: EFIS screens are more susceptible to parallax error when they are read from an angle and the electronic standby instruments are used for clarification.
+            - text: The electronic standby instruments are easy to read and offer a clear presentation of the primary flight parameters when the EFIS becomes too cluttered.
+            - text: EFIS is using processed data and the electronic standby instruments use independent sources in order to verify that the processed data is sensible.
+    - type: simple
+      question: The annex shows a modern EFIS instrument layout that may be found in an aircraft fitted for VFR and IFR flight. The aircraft has two multifunction displays and an electronic standby instrument display. What is the significance of this standby instrument display and why is it important to have standby instruments in aircraft fitted with EFIS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: EFIS is using processed data and the electronic standby instruments use independent sources in order to verify that the processed data is sensible.
+          wrongAnswers:
+            - text: The electronic standby indications may be difficult to read but are essential since the failure of an EFIS display means a significant loss of flight data.
+            - text: EFIS screens are more susceptible to parallax error when they are read from an angle and the electronic standby instruments are used for clarification.
+            - text: The electronic standby instruments are easy to read and offer a clear presentation of the primary flight parameters when the EFIS becomes too cluttered.
+- id: QJGLQ
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228497
+    - AVEXAM-22530
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.03.01.05
+  templates:
+    - type: simple
+      question: |-
+        When an aircraft is using ADS-C in "on event" mode , which of the following events can trigger a position report?1- Waypoint change
+        2- Altimeter setting change
+        3- Altitude range change
+        4- Vertical speed change
+        5- Thrust change
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 3 and 4
+          wrongAnswers:
+            - text: 2, 3, and 5
+            - text: 1, 4 and 5
+            - text: 2, 4 and 5
+    - type: simple
+      question: |-
+        Which events can trigger a position report when an aircraft is using ADS-C in "on event" mode?
+
+         Waypoint change
+         Altimeter setting change
+         Altitude range change
+         Vertical speed change
+         Thrust change
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 3 and 4
+          wrongAnswers:
+            - text: 2, 4 and 5
+            - text: 1, 4 and 5
+            - text: 2, 3 and 5
+- id: QHNQX
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228428
+    - BGS-221879
+    - BGS-221633
+    - BGS-221623
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.03.01.05
+  templates:
+    - type: multiple-correct
+      question: The EFIS control panel allows the pilots to change which of the following?
+      explanation: ""
+      options:
+        - text: Altimeter pressure setting.
+          correct: true
+        - text: ND range.
+          correct: true
+        - text: TCAS mode.
+          correct: false
+        - text: VOR/ADF information.
+          correct: true
+        - text: GPWS display.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+    - type: simple
+      question: "Which of the following may be selected through an EFIS control panel?
+
+        \r\rAltimeter pressure setting\rND range\rTCAS mode\rVOR/ADF display\rGPWS display"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2 and 4
+          wrongAnswers:
+            - text: 2, 3 and 4
+            - text: 1, 2, 3 and 4
+            - text: 1, 3 and 5
+- id: QVQPR
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221291
+    - BGS-220814
+    - AVEXAM-48934
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.03.02.01
+  templates:
+    - type: simple
+      question: "The Primary Flight Display (PFD) displays information dedicated to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: piloting.
+          wrongAnswers:
+            - text: weather situation.
+            - text: engines and alarms.
+            - text: systems.
+- id: QVECX
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221526
+    - AVEXAM-5397
+    - BGS-221590
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.03.02.02
+    - 022.13.03.02.05
+  templates:
+    - type: multiple-correct
+      question: A pilot is flying at FL150 in an aircraft equipped with a modern EADI (Electronic Attitude Director Indicator). Which of the data listed below is likely to be displayed on the EADI in this phase of the flight?
+      explanation: The EADI shows attitude, flight director command bars and altitude and speed information. Heading and track are on the horizontal situation display, and radio height only appears close to the ground.
+      options:
+        - text: Altitude information
+          correct: true
+        - text: Flight director command bars
+          correct: true
+        - text: Heading and track
+          correct: false
+        - text: Radio height
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QSHRP
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227593
+    - AVEXAM-17110
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.03.02.03
+    - 022.13.03.02.07
+  templates:
+    - type: multiple-correct
+      question: "The following information can be displayed on a Primary Flight Display (PFD):"
+      explanation: ""
+      options:
+        - text: – IAS.
+          correct: true
+        - text: – vertical speed.
+          correct: true
+        - text: – TAS.
+          correct: false
+        - text: – selected airspeed.
+          correct: true
+        - text: – radio altitude.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QRTYU
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224576
+    - AVEXAM-20623
+    - BGS-221673
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.03.02.04
+  templates:
+    - type: simple
+      question: When the selected Mach number is displayed above the PFD speed tape, the speed bug shows the corresponding...
+      explanation: When the selected Mach number is shown above the speed tape, the speed bug sits at the corresponding IAS. The tape itself shows IAS.
+      presets:
+        - correctAnswers:
+            - text: IAS.
+          wrongAnswers:
+            - text: TAS.
+            - text: Mach.
+            - text: GS.
+- id: QFWYG
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227375
+  annexes:
+    - id: AGBA
+  learningObjectiveIds:
+    - 022.13.03.02.06
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What is the heading bug selected to?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "260"
+          wrongAnswers:
+            - text: "292"
+            - text: "272"
+            - text: "280"
+- id: QZSBI
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225982
+    - BGS-221634
+    - AVEXAM-65378
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.03.02.06
+  templates:
+    - type: multiple-correct
+      question: The Primary Flight Display (PFD) may show which of the following?
+      explanation: ""
+      options:
+        - text: Numerical read-out of the current track
+          correct: true
+        - text: Bug indication of the selected heading
+          correct: true
+        - text: Deviation bar of the VOR cross-track distance
+          correct: false
+        - text: Vector presentation of the wind direction and speed
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QXZTO
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228454
+    - BGS-621148
+    - BGS-620753
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.03.02.07
+  templates:
+    - type: simple
+      question: A pilot is flying at FL150 in an aircraft equipped with a modern EADI (Electronic Attitude Director Indicator). One of the data listed below is not displayed on the EADI in this phase of the flight. Which one is it?
+      explanation: At FL150, the aircraft is far above radio altimeter range, which is about 2 500 ft, so the radio height is not shown. Attitude and the speed tape are always displayed.
+      presets:
+        - correctAnswers:
+            - text: Radio height.
+          wrongAnswers:
+            - text: Attitude information.
+            - text: Speed Tape.
+            - text: Flight Director command bars.
+- id: QWDNU
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229616
+    - BGS-220819
+    - AVEXAM-64170
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.03.02.07
+  templates:
+    - type: multiple-correct
+      question: "The source of the data displayed on the Primary Flight Display (PFD) and Navigation Display (ND) are:"
+      explanation: ""
+      options:
+        - text: – Inertial Navigation System
+          correct: true
+        - text: – FMS
+          correct: true
+        - text: – Weather Radar
+          correct: true
+        - text: – Radio altimeter
+          correct: true
+        - text: – ADC
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QKVXW
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221589
+    - BGS-220811
+    - AVEXAM-89914
+    - BGS-222294
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.03.03.01
+  templates:
+    - type: simple
+      question: "On the navigation display (ND) of an EFIS equipped aircraft, the colours used are:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: magenta or white for the active waypoint (TO waypoint), green for light precipitation.
+          wrongAnswers:
+            - text: amber or white for the active waypoint (TO waypoint), yellow for high precipitation.
+            - text: white or blue for the active waypoint (TO waypoint), red for medium precipitation.
+            - text: magenta or red for the active waypoint (TO waypoint), amber for medium precipitation.
+- id: QLYIW
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221479
+    - BGS-222156
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.03.03.01
+  templates:
+    - type: simple
+      question: A Navigation Display..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: provides a mode-selectable flight progress display.
+          wrongAnswers:
+            - text: provides all the parameters required for flight path control.
+            - text: is an electronic instrument showing published navigation charts.
+            - text: is a full-colour aircraft systems navigation display.
+- id: QJBTV
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds:
+    - QSYJV
+  externalQuestionIds:
+    - ATPLQ-221293
+    - AVEXAM-72574
+    - BGS-221264
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.03.03.02
+  templates:
+    - type: simple
+      question: Which option correctly lists the modes of a typical Navigation Display?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: MAP (or ARC), VOR (or ROSE VOR), APP (or ROSE ILS) and PLAN.
+          wrongAnswers:
+            - text: Heading, Track and Weather Radar.
+            - text: MAP (or ARC), VOR (or ROSE VOR), TAKE OFF (TO) and PLAN.
+            - text: Heading, Track, Traffic and Weather Radar.
+- id: QSYJV
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds:
+    - QJBTV
+  externalQuestionIds:
+    - ATPLQ-225269
+    - AVEXAM-39454
+    - BGS-221214
+    - BGS-222153
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.03.03.02
+    - 022.13.03.03.05
+  templates:
+    - type: simple
+      question: Which option lists the correct modes displayed on the Navigation Display of an EFIS equipped aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: MAP or ARC (covering approximately 45° either side of the instantaneous track), ROSE (orientated to current heading up) and PLAN (flight plan map orientated to True North).
+          wrongAnswers:
+            - text: MAP or ARC (covering approximately 45° either side of the instantaneous track), ROSE (orientated to current heading up) and PLAN (flight plan map orientated to Magnetic North).
+            - text: MAP or ARC (covering approximately 45° either side of the instantaneous track), ROSE (orientated to instantaneous track up) and PLAN (flight plan map orientated to True North).
+            - text: MAP or ARC (covering approximately 45° either side of the current heading), ROSE (orientated to instantaneous track up) and PLAN (flight plan map orientated to Magnetic North).
+- id: QDVMW
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227895
+    - ATPLQ-223381
+    - BGS-620504
+    - BGS-620506
+    - BGS-620512
+    - BGS-620511
+    - BGS-620513
+    - BGS-620507
+    - BGS-620503
+    - BGS-620508
+    - BGS-620510
+    - BGS-620509
+  annexes:
+    - id: AKAT
+    - id: AREL
+    - id: ABPM
+    - id: ABIF
+    - id: AAKS
+  learningObjectiveIds:
+    - 022.13.03.03.03
+    - 022.13.03.03.04
+  templates:
+    - type: definition
+      question: |-
+        Which mode is shown on this Electronic Flight Instrument System (EFIS) navigation display?
+
+        ![EFIS navigation display](annex:{{term}}:md)
+      explanation: |-
+        1. **Full VOR** uses a 360° compass rose and shows the selected VOR frequency.
+        2. **PLAN** shows the route against a true-north-up map. The north arrow is
+           at the lower right.
+        3. **MAP** shows the route relative to the aircraft, with the track at the
+           top and the aircraft symbol near the bottom centre.
+        4. **Expanded VOR** uses a compass arc and shows the VOR frequency and a
+           TO/FROM indication.
+        5. **Expanded ILS** uses a compass arc and shows the ILS frequency and
+           glideslope deviation scale.
+      options:
+        - id: OTNACYAHY
+          term: AKAT
+          definition: Full VOR/ILS mode with a VOR frequency selected
+        - id: OVFUXLPGQ
+          term: AREL
+          definition: PLAN mode
+        - id: OY9QFT1LQ
+          term: ABPM
+          definition: MAP mode
+        - id: OMANHL6K8
+          term: ABIF
+          definition: Expanded VOR/ILS mode with a VOR frequency selected
+        - id: OU2TCM7IJ
+          term: AAKS
+          definition: Expanded VOR/ILS mode with an ILS frequency selected
+      fakeOptions: []
+- id: QHUBU
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222639
+    - AVEXAM-18959
+    - BGS-220813
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.03.03.03
+  templates:
+    - type: simple
+      question: What data are displayed on the Navigation Display (ND) of an EFIS equipped aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The flight plan, weather radar, terrain map, and intruder alerts.
+          wrongAnswers:
+            - text: The flight plan, engine failure, navigation aids, and resolution advisories.
+            - text: A terrain map, navigation aids, bearings, and flight director active modes.
+            - text: Intruder alerts, altitude, autopilot active modes, and weather radar.
+- id: QSCRB
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223067
+    - BGS-222633
+    - BGS-221885
+    - BGS-620515
+    - AVEXAM-77917
+  annexes:
+    - id: AREL
+  learningObjectiveIds:
+    - 022.13.03.03.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        What is the value of the track from TBX to YTB?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 097° (T)
+          wrongAnswers:
+            - text: 140° (M)
+            - text: 280° (T)
+            - text: 170° (M)
+- id: QINLX
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221624
+    - AVEXAM-41432
+  annexes:
+    - id: AIGH
+  learningObjectiveIds:
+    - 022.13.03.03.04
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which of the figures depicts an Electronic Flight Instrument System (EFIS) display in Expanded (EXP) VOR/ILS mode with an ILS frequency selected?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Figure 5
+          wrongAnswers:
+            - text: Figure 2
+            - text: Figure 3
+            - text: Figure 6
+- id: QOXES
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-621423
+  annexes:
+    - id: AOUA
+  learningObjectiveIds:
+    - 022.13.03.03.06
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        Which of the figures depicts an Electronic Flight Instrument System (EFIS) display in plan mode?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Figure 2
+          wrongAnswers:
+            - text: Figure 3
+            - text: Figure 1
+            - text: Figure 4
+- id: QLQVV
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229156
+    - AVEXAM-47808
+    - BGS-222212
+    - AVEXAM-8043
+  annexes:
+    - id: AOYF
+  learningObjectiveIds:
+    - 022.13.03.03.07
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The mode selected on the following Navigation Display (ND) is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Expanded Rose ILS mode.
+          wrongAnswers:
+            - text: Plan mode.
+            - text: Map/Arc mode.
+            - text: Rose VOR mode.
+- id: QHAPE
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222674
+    - BGS-222399
+    - BGS-221757
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.03.03.08
+  templates:
+    - type: multiple-correct
+      question: "On an EFIS control panel, the combination of mode and range selection can help the crew to assess the following:"
+      explanation: ""
+      options:
+        - text: How to avoid weather phenomena
+          correct: true
+        - text: The position of surrounding traffic
+          correct: true
+        - text: The manoeuvre to avoid an unusual attitude
+          correct: false
+        - text: The aircraft's position relative to the underlying terrain
+          correct: true
+        - text: The status of the autopilot engagement
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QFETK
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226132
+    - BGS-222356
+    - AVEXAM-96182
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.04.01.01
+  templates:
+    - type: simple
+      question: A PFD, ND, and ECAM comprise the EIS installed on an aircraft. There is a redundant system failure in flight that necessitates a crew advisory. On which of the displays available to the crew would they see the warning message?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: On the ECAM.
+          wrongAnswers:
+            - text: On the PFD.
+            - text: On the ND.
+            - text: On a central warning panel.
+- id: QFSUI
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229871
+    - BGS-221326
+    - BGS-222314
+    - AVEXAM-75493
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.04.01.03
+  templates:
+    - type: simple
+      question: In relation to aircraft integrated electronic displays, the abbreviation EICAS stands for
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Engine Indication and Crew Alerting System.
+          wrongAnswers:
+            - text: Electronic Indication and Crew Alarm System.
+            - text: Engine Indication and Central Alerting System.
+            - text: Electronic Indication and Crew Alerting System.
+- id: QJMXF
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227395
+    - BGS-222465
+    - AVEXAM-82740
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.04.01.07
+  templates:
+    - type: simple
+      question: An advanced electronic checklist system is installed in an aircraft to direct the pilot through the proper procedures in the event that one or more of its systems fail. When the pilot completes the ordered action, the command is erased from the screen in this particular electronic checklist. Which statement regarding the use of entirely monitored electronic checklists is true?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The pilot must maintain awareness of the technical implications of his/her actions, and NOT simply follow commands because they appear on the screen.
+          wrongAnswers:
+            - text: The pilot may be misled by the electronic checklist system as the computer is NOT able to perform a reliable diagnosis of the problem(s), even in the event of a single failure.
+            - text: Pilots are more likely to use incorrect switches since their position is NOT shown on the screen, compared to the systems overview on a normal paper checklist.
+            - text: Pilots become more proficient in following a checklist since they can be confident that the computer displays the correct checklist for the detected failure(s).
+- id: QXHWQ
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228479
+    - AVEXAM-11789
+    - BGS-222479
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.04.01.07
+  templates:
+    - type: simple
+      question: What should pilots watch out for when executing ECAM/EICAS procedures during a flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Some actions are irreversible and can cause damage to the aircraft.
+          wrongAnswers:
+            - text: Not having enough time to complete all procedures before landing.
+            - text: Some actions are forbidden during flight and can cause a safety hazard.
+            - text: The possibility of the aircraft's systems malfunctioning during the procedures.
+    - type: simple
+      question: When pilots perform ECAM or EICAS procedures, they must carefully monitor and cross-check because some actions...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: have irreversible effects.
+          wrongAnswers:
+            - text: require prior contact with the maintenance department.
+            - text: are forbidden during flight.
+            - text: require prior MEL consultation.
+- id: QCMRV
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222219
+    - AVEXAM-24273
+    - BGS-221727
+    - ATPLQ-222630
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.04.01.08
+  templates:
+    - type: simple
+      question: "With regards to engine parameters, the Flight Warning Computer:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Triggers an alert in case of exceedance of certain thresholds.
+          wrongAnswers:
+            - text: Automatically shuts down the engine in case of exceedance of certain thresholds.
+            - text: Analyses the variation rate of the main engine parameters to prevent exceedance of certain thresholds.
+            - text: Performs engine trend monitoring in case of exceedance of certain thresholds.
+    - type: simple
+      question: How does the Flight Warning Computer assist the flight crew regarding engine parameters?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Exceedance of certain thresholds can trigger main and subsequent events and programmed actions.
+          wrongAnswers:
+            - text: Analysation and trend prediction will prevent any values from exceeding certain threshold values.
+            - text: Automatically detects failures and performs required actions, such as engine shutdown.
+            - text: Upon request by the crew, all critical values exceeding certain thresholds will be displayed.
+- id: QMZHU
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228321
+    - BGS-221582
+    - AVEXAM-98401
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.04.01.09
+  templates:
+    - type: simple
+      question: |-
+        After a failure, what is an appropriate procedure in the correct order for following an on-screen checklist?
+
+        1\. Confirm the failure   
+         2\. Check the status of the FWS   
+         3\. Follow the checklist slowly and methodically   
+         4\. Seek confirmation prior to manipulating any guarded switches   
+         5\. Assess the possible implications of making certain selections
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 3, 4 and 5.
+          wrongAnswers:
+            - text: 2, 3, 4 and 5.
+            - text: 1, 2, 3 and 5.
+            - text: 1, 5, 3 and 4.
+- id: QBIGC
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224275
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.06.01.01
+  templates:
+    - type: multiple-correct
+      question: "List the typical equipment of an EFB:"
+      explanation: ""
+      options:
+        - text: Laptop
+          correct: true
+        - text: Tablet
+          correct: true
+        - text: MCDU
+          correct: false
+        - text: Integrated Avionic suite of the aircraft
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QPAHQ
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221562
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.06.01.01
+  templates:
+    - type: simple
+      question: The EFBs the flight schools provide to students are configured for...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a series of aircraft of the same type.
+          wrongAnswers:
+            - text: a particular aircraft, and specified by the aircraft's registration or tail number, e.g., D-EASA.
+            - text: an individual pilot.
+            - text: a series of aircraft of the same class, e.g., multi-engine piston (MEP).
+- id: QOLOW
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227129
+    - AVEXAM-40675
+    - BGS-222366
+    - BGS-222367
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.06.01.02
+  templates:
+    - type: simple
+      question: "The main difference between the more common PEDs EFB and the integrated avionics EFB is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The PEDs are not certified as a part of the aircraft, do not have a part number, and are not maintained by certified aircraft maintenance personnel.
+          wrongAnswers:
+            - text: Installing a PED in an aircraft is a difficult and complex task.
+            - text: The integrated avionics suite can be removed from the aircraft whereas the PEDs cannot.
+            - text: The PEDs are dangerous during some phases of the flight (cruise) while the integrated avionics suite is a more harmonised and safe solution.
+- id: QHNAU
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds:
+    - QTEZN
+  externalQuestionIds:
+    - ATPLQ-229973
+    - AVEXAM-42366
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.06.01.03
+  templates:
+    - type: simple
+      question: What type is an EFB with very important data like approach charts?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Type B
+          wrongAnswers:
+            - text: Type D
+            - text: Type A
+            - text: Type C
+- id: QPMFT
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221890
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.06.01.03
+  templates:
+    - type: simple
+      question: There are two types of software certifications for EFB systems. These are...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A and B.
+          wrongAnswers:
+            - text: Class 1, 2 and 3.
+            - text: Portable and installed.
+            - text: Laptop or tablet.
+- id: QTEZN
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds:
+    - QHNAU
+  externalQuestionIds:
+    - ATPLQ-225895
+    - AVEXAM-48671
+    - AVEXAM-23340
+    - ATPLQ-226171
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.06.01.03
+  templates:
+    - type: simple
+      question: What is the certification type of EFB systems in case a failure causes a minor impact on the safety of the flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Type B
+          wrongAnswers:
+            - text: Type A
+            - text: Type C
+            - text: Type D
+    - type: simple
+      question: On software application for EFB systems, what is the certification type when in case of failure it does not impact the safety of the flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Type A
+          wrongAnswers:
+            - text: Type D
+            - text: Type B
+            - text: Type C
+- id: QHAKL
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229756
+    - AVEXAM-38351
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.06.01.04
+  templates:
+    - type: multiple-correct
+      question: Which of the following can be provided through an EFB?
+      explanation: ""
+      options:
+        - text: Performance calculations
+          correct: true
+        - text: Mass and balance calculations
+          correct: true
+        - text: Information about the status of the AFCS
+          correct: false
+        - text: Aeronautical charts
+          correct: true
+        - text: Operations Manual.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QHYMJ
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225780
+    - BGS-221732
+    - AVEXAM-28032
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.06.01.04
+  templates:
+    - type: simple
+      question: The installed EFB has a malfunction. Which of the following may be inaccessible?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Charts and manuals.
+          wrongAnswers:
+            - text: EICAS data.
+            - text: ACARS messages.
+            - text: Systems Display pages.
+- id: QATIU
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224406
+    - AVEXAM-39625
+    - BGS-221641
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.07.01.01
+  templates:
+    - type: multiple-correct
+      question: What does a HUD typically include?
+      explanation: A head-up display consists of a computer, a projector and a collimator that makes the image appear at infinity on the combiner glass. A liquid crystal display is not part of it.
+      options:
+        - text: Liquid crystal display.
+          correct: false
+        - text: Computer.
+          correct: true
+        - text: Projector.
+          correct: true
+        - text: Collimator.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QGDMT
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221658
+    - BGS-221871
+    - AVEXAM-92054
+    - ATPLQ-223086
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.07.01.02
+  templates:
+    - type: multiple-correct
+      question: What are the benefits of having a HUD?
+      explanation: A HUD improves situational awareness and allows lower take-off and landing minima, since the pilot sees the flight path symbols while looking outside. It does not show ECAM or EICAS alerts or taxi guidance in zero visibility.
+      options:
+        - text: Increased situational awareness.
+          correct: true
+        - text: Presentation of ECAM/EICAS alerts.
+          correct: false
+        - text: Lower take-off and landing minima.
+          correct: true
+        - text: Taxi guidance with zero visibility.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QBQCY
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221030
+    - AVEXAM-13718
+    - BGS-222361
+  annexes:
+    - id: AQAG
+  learningObjectiveIds:
+    - 022.13.07.01.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.  
+        Figures depicting a pilot's perspective of a head-up display (HUD) are shown in the annex. Which illustration provides the data that must be displayed on a HUD during cruise flight with the autopilot engaged?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Figure 4
+          wrongAnswers:
+            - text: Figure 3
+            - text: Figure 2
+            - text: Figure 1
+- id: QRMSK
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225992
+    - AVEXAM-12032
+    - BGS-221247
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.07.01.03
+  templates:
+    - type: simple
+      question: The EFIS flight path vector (FPV) may show
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the glide angle.
+          wrongAnswers:
+            - text: excessive vertical speed of an intruding aircraft.
+            - text: Resolution Advisory pitch commands.
+            - text: the airspeed trend arrow.
+- id: QVVKL
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226183
+    - BGS-221509
+    - AVEXAM-49465
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.07.01.04
+  templates:
+    - type: simple
+      question: Selecting the declutter mode on a HUD…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: removes the speed and altitude tapes.
+          wrongAnswers:
+            - text: makes the display zoom in on attitude and compass symbols.
+            - text: removes the Flight Mode Annunciator (FMA).
+            - text: changes the mode from full rose to expanded arc.
+- id: QKMYK
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224897
+    - BGS-222401
+    - BGS-222332
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.07.01.05
+  templates:
+    - type: one-two
+      question: Which of these statements concerning the principle, features and limitations of an Synthetic Vision System (SVS) are correct/incorrect?
+      explanation: ""
+      pairs:
+        - right: []
+          wrong:
+            - The synthetic vision displayed on the PFD is based on actual sensory information coming from external sensors.
+        - right:
+            - An accurate aircraft position is needed for the SVS to produce a synthetic vision representation on the PFD.
+          wrong: []
+- id: QLPTX
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223785
+    - BGS-222412
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.07.01.05
+  templates:
+    - type: simple
+      question: The Synthetic vision system (SVS) shows (1)\_\_\_ on (2)\_\_\_ display.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) Terrain and ground features database; (2) PFD.
+          wrongAnswers:
+            - text: (1) Terrain; (2) PFD.
+            - text: (1) Terrain and ground features database; (2) ND.
+            - text: (1) Terrain; (2) ND.
+- id: QGFRN
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221865
+    - BGS-221573
+    - AVEXAM-25178
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.07.01.06
+  templates:
+    - type: simple
+      question: What is the principle of an EVS (Enhanced Vision System)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To generate a real-time image on the PFD or on the HUD using imaging sensors.
+          wrongAnswers:
+            - text: To provide the crew with a real-time image of the flight crew compartment door area.
+            - text: To provide the crew with a real-time image of the engine nacelles.
+            - text: To generate a real-time image on the PFD or on the ND using three-dimensional data.
+- id: QKFME
+  subjectId: "022"
+  chapterId: "022.13"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229510
+    - BGS-222453
+  annexes: []
+  learningObjectiveIds:
+    - 022.13.07.01.06
+  templates:
+    - type: one-two
+      question: Consider the following statements about the principle, features and limitations of an Enhanced Visual System (EVS). Which are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - The imagery on the Primary Flight Display (PFD) or Head-Up Display (HUD) is based on actual sensory information coming from external sensors.
+          wrong:
+            - The imagery on the Primary Flight Display (PFD) or Head-Up Display (HUD) is based on simulated information coming from onboard databases.
+        - right:
+            - An inaccurate aircraft position is needed for the EVS to provide the real-time imagery on the PFD or HUD.
+          wrong:
+            - An accurate aircraft position is needed for the EVS to provide the real-time imagery on the PFD or HUD.

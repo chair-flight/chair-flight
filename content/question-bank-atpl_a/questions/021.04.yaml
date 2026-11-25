@@ -1,0 +1,1309 @@
+- id: QTJQF
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211444
+    - BGS-210154
+    - AVEXAM-98242
+    - ATPLQ-212474
+    - BGS-210147
+    - AVEXAM-47002
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.01.02.01
+  templates:
+    - type: simple
+      question: Landing gear torsion links are used to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: prevent rotation of the landing gear piston in the oleo strut.
+          wrongAnswers:
+            - text: prevent extension of the oleo strut when the gear is retracted.
+            - text: absorb the lateral stresses to which the gear is subjected.
+            - text: control the rate of oleo strut recoil.
+- id: QJSKG
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217126
+    - BGS-210161
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.01.02.01
+  templates:
+    - type: simple
+      question: What is the purpose of the oil and the nitrogen in an oleo-pneumatic strut?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The oil supplies the damping function and the nitrogen supplies the spring function.
+          wrongAnswers:
+            - text: The oil supplies the spring function and the nitrogen supplies the damping function.
+            - text: The oil supplies the sealing and lubrification, the nitrogen supplies the damping function.
+            - text: The oil supplies the damping and lubrication function, and the nitrogen supplies the heat-dissipation function.
+- id: QBHGU
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds:
+    - QZKZE
+  externalQuestionIds:
+    - ATPLQ-213485
+    - AVEXAM-79386
+    - BGS-211298
+    - BGS-211297
+    - BGS-211304
+  annexes:
+    - id: ARSD
+  learningObjectiveIds:
+    - 021.04.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The number in the annex that shows the retraction actuator is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: number 4.
+          wrongAnswers:
+            - text: number 1.
+            - text: number 3.
+            - text: number 2.
+- id: QZKZE
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds:
+    - QBHGU
+  externalQuestionIds:
+    - ATPLQ-219511
+    - AVEXAM-97471
+    - BGS-211306
+  annexes:
+    - id: ARSD
+  learningObjectiveIds:
+    - 021.04.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The number in the annex that shows the bogie beam is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: number 6.
+          wrongAnswers:
+            - text: number 4.
+            - text: number 5.
+            - text: number 3.
+- id: QKUIS
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds:
+    - QYKNX
+  externalQuestionIds:
+    - ATPLQ-218295
+    - BGS-211249
+    - AVEXAM-70434
+    - BGS-211253
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.01.02.05
+  templates:
+    - type: simple
+      question: In transport aircraft equipped with retractable landing gear, there must be a clear indication to the pilot ..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: whenever the landing gear position is not consistent with landing gear selector lever position.
+          wrongAnswers:
+            - text: when gear selection is performed above the gear limit speed.
+            - text: whenever the gear is erroneously selected to retract on the ground.
+            - text: whenever the landing gear selector is not in the neutral position.
+- id: QYKNX
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds:
+    - QKUIS
+  externalQuestionIds:
+    - ATPLQ-215567
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.01.02.05
+  templates:
+    - type: simple
+      question: In transport aircraft equipped with retractable landing gear, an aural alert must be given to the pilot..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: whenever a landing is attempted and any gear is not locked down.
+          wrongAnswers:
+            - text: during gear retraction.
+            - text: whenever the gear is erroneously selected to retract on the ground.
+            - text: whenever the landing gear selector is not in the neutral position.
+- id: QQRYR
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218665
+    - AVEXAM-63699
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.01.02.06
+  templates:
+    - type: simple
+      question: The retraction mechanism of the landing gear is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: an active system and operated with the engine pump.
+          wrongAnswers:
+            - text: an active system and operated with the pressure pump.
+            - text: a passive system and operated with the engine pump.
+            - text: a passive system and operated with the pressure pump.
+    - type: simple
+      question: How does the retraction mechanism of the landing gear operate?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It is an active system and operated with the engine driven pump.
+          wrongAnswers:
+            - text: It is a passive system and operated with the engine driven pump.
+            - text: It is a passive system and operated with the pressure pump.
+            - text: It is an active system and operated with the pressure pump.
+- id: QBYQW
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211052
+    - AVEXAM-61156
+    - BGS-211254
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.01.02.06
+  templates:
+    - type: simple
+      question: An anti-retract latch blocks the landing gear lever when ..
+      explanation: The anti-retract latch, or ground lock, blocks the landing gear lever while the aircraft is on the ground, so the gear cannot be retracted by mistake on the ground.
+      presets:
+        - correctAnswers:
+            - text: an aircraft is on the ground.
+          wrongAnswers:
+            - text: the gear is in an improper configuration for extension.
+            - text: the IAS is too high for gear retraction.
+            - text: the IAS is too low for gear retraction.
+- id: QWNLW
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214546
+    - AVEXAM-98794
+    - BGS-211257
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.01.02.06
+  templates:
+    - type: simple
+      question: For aircraft equipped with a landing gear anti retract latch, which of these statements is correct?
+      explanation: The anti-retract latch prevents retraction on the ground and can be overridden under specified conditions, for example by an override button. Speed limits on the gear are a separate matter.
+      presets:
+        - correctAnswers:
+            - text: This system can be overridden under specified conditions.
+          wrongAnswers:
+            - text: This system blocks gear retraction at too high IAS.
+            - text: This system may never be overridden since an uncentred nose wheel can damage the wheel well structure.
+            - text: This system blocks gear retraction at too low IAS.
+- id: QCIYB
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213570
+    - AVEXAM-91461
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.01.02.08
+  templates:
+    - type: simple
+      question: How is the landing gear usually locked in the down position after an emergency extension?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A lower over-centre lock.
+          wrongAnswers:
+            - text: They are not locked down.
+            - text: A hydraulic actuator.
+            - text: A hook lock.
+- id: QIOGH
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218817
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.01.02.08
+    - 021.04.01.02.09
+  templates:
+    - type: simple
+      question: The backup system of a retractable undercarriage is of the gravity free fall type. Before the gears can free fall under their own weight, what must be first moved, either by mechanic or electronic means?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Up-lock mechanisms.
+          wrongAnswers:
+            - text: to allow the gears to free fall
+            - text: Selector valve.
+            - text: Landing gear lever selected down.
+- id: QBOGL
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218999
+    - AVEXAM-8621
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.01.02.09
+  templates:
+    - type: multiple-correct
+      question: What may the systems used for emergency extension of landing systems consist of?
+      explanation: ""
+      options:
+        - text: A pressurized CO2 bottle
+          correct: false
+        - text: A pressurized nitrogen bottle
+          correct: true
+        - text: A pressurized O2 bottle
+          correct: false
+        - text: A manually driven pump
+          correct: true
+        - text: Gravity/free fall
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 2
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 3
+            - 4
+        - show:
+            - 0
+            - 1
+            - 2
+            - 4
+- id: QDXNW
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211033
+    - BGS-212147
+    - AVEXAM-61084
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.01.02.09
+  templates:
+    - type: simple
+      question: Light aircraft and helicopters may be equipped with a “blowdown” emergency gear extension system for use in case of hydraulic failure. Which gasses are used for this purpose, and how are the gasses sent to the actuators?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Nitrogen or compressed air, which is routed through a manually operated shuttle valve.
+          wrongAnswers:
+            - text: Helium or carbon dioxide, which is routed through a manually operated shuttle valve.
+            - text: Nitrogen or compressed air, which is routed to parallel actuators on the landing gear.
+            - text: Helium or nitrogen, which is routed to parallel actuators on the landing gear.
+- id: QKKBF
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219618
+    - BGS-211260
+    - BGS-211654
+    - BGS-211259
+    - BGS-211681
+    - BGS-212196
+    - BGS-211258
+    - BGS-211261
+    - AVEXAM-69058
+    - AVEXAM-51140
+    - AVEXAM-75952
+    - BGS-211126
+    - ATPLQ-217746
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.02.01.03
+  templates:
+    - type: simple
+      question: Which of these statements about rudder pedal nose wheel steering is correct?
+      explanation: Rudder pedal nose wheel steering gives only a small deflection, enough for fine corrections on the take-off and landing roll. The tiller gives the full deflection for taxiing and tight turns.
+      presets:
+        - correctAnswers:
+            - text: Rudder pedal nose wheel steering a smaller deflection of the nose wheel than hand wheel steering (tiller)..
+          wrongAnswers:
+            - text: Rudder pedal nose wheel steering functions on the ground as well as in the air.
+            - text: Rudder pedal nose wheel steering does not function during take-off.
+            - text: Rudder pedal nose wheel steering a larger deflection of the nose wheel than manual or tiller control..
+        - correctAnswers:
+            - text: Rudder pedal nose wheel steering functions on the ground only.
+          wrongAnswers:
+            - text: Rudder pedal nose wheel steering provides the same deflection of the nose wheel as hand wheel steering (tiller) control.
+            - text: "Rudder pedal nose wheel steering C: Rudder pedal nose wheel steering provides a larger deflection of the nose wheel than hand wheel steering (tiller)."
+            - text: Rudder pedal nose wheel steering does not function during take-off.
+- id: QVSTM
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218086
+    - AVEXAM-71874
+    - AVEXAM-37658
+    - ATPLQ-213830
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.02.01.03
+  templates:
+    - type: simple
+      question: The nose-wheel steering system of a jet transport aeroplane can be controlled through the rudder pedals or a hand-wheel steering (tiller). Which statement is correct?
+      explanation: The rudder pedals steer the nose wheel through only a limited angle, much smaller than the tiller. During a rudder check while taxiing, the pilot must stop the pedals from deflecting the nose wheel, for example by disconnecting the steering, so that the check does not turn the aircraft.
+      presets:
+        - correctAnswers:
+            - text: When performing a rudder check during taxiing, an additional pilot action must be taken to avoid deflection of the nose wheel.
+          wrongAnswers:
+            - text: Rudder pedal nose-wheel steering offers the same maximum deflection of the nose wheel as hand-wheel steering (tiller).
+            - text: Rudder pedal nose-wheel steering does not function during taxiing.
+            - text: Rudder pedal nose-wheel steering functions on the ground as well as in the air.
+- id: QFHGZ
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217965
+    - AVEXAM-85528
+    - BGS-212218
+    - BGS-211914
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.02.01.03
+  templates:
+    - type: multiple-correct
+      question: In large aeroplanes, how is nose-wheel steering accomplished?
+      explanation: ""
+      options:
+        - text: Aileron control wheel.
+          correct: false
+        - text: Rudder pedals.
+          correct: true
+        - text: Differential braking.
+          correct: false
+        - text: Separate steering wheel.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+    - type: simple
+      question: |-
+        Nose-wheel steering in large aeroplanes is accomplished through which of the following?
+        Aileron control wheel.Rudder pedals.Differential braking.Separate steering wheel.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 and 4
+          wrongAnswers:
+            - text: 1 and 3
+            - text: 1 and 2
+            - text: 3 and 4
+- id: QDQMO
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213200
+    - BGS-211058
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.02.01.05
+  templates:
+    - type: simple
+      question: Select the option that best describes "nose-wheel shimmy"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An oscillatory lateral movement of the nose-wheel about the longitudinal axis of the aircraft when the nose wheel is in contact with the runway during the take-off or landing run.
+          wrongAnswers:
+            - text: An oscillatory longitudinal movement of the nose-wheel about the lateral axis of the aircraft when the nose wheel is in contact with the runway during the take-off or landing run.
+            - text: An oscillatory longitudinal movement of the nose-wheel about the lateral axis of the aircraft caused by the landing gear being lowered prior to landing or retracted after take-off.
+            - text: An oscillatory lateral movement of the nose-wheel about the longitudinal axis of the aircraft caused by the landing gear being lowered prior to landing or retracted after take-off.
+- id: QSRSD
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218520
+    - AVEXAM-91741
+    - BGS-211969
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.02.01.06
+  templates:
+    - type: simple
+      question: Some very large aeroplanes make use of main-wheel steering as well as their nose-wheel steering...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: during low speed taxiing and manoeuvring only to improve manoeuvrability and reduce excessive abrasion of the main wheel tyres.
+          wrongAnswers:
+            - text: to assist the pilot to automatically control the straight ground roll path during takeoffs and landings.
+            - text: during low- and high-speed taxi operations to improve the steering characteristics and stability of the aircraft.
+            - text: for manoeuvring the aircraft during towing operations only, and it is deactivated when the aircraft moves under its own power.
+- id: QTRTF
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214457
+    - AVEXAM-25908
+    - BGS-210150
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.01.01
+  templates:
+    - type: simple
+      question: "The type of brake unit found on most transport aeroplanes is a:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: multiple disk brake.
+          wrongAnswers:
+            - text: drum type brake.
+            - text: belt brake.
+            - text: single disk brake.
+- id: QZEWZ
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219520
+    - AVEXAM-49753
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.01.03
+  templates:
+    - type: simple
+      question: |-
+        Which of the following is correct about multi-disc steel brakes as opposed to multi-disc carbon brakes?
+
+        1. Multiple small applications is best 
+         
+        2. A small numbers of strong applications is best 
+         
+        3. They operate best at a higher brake temperature 
+         
+        4. They operate best at a lower brake temperature 
+         
+        5. They have a higher friction coefficient 
+         
+        6. They have a lower friction coefficient
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 4 and 6
+          wrongAnswers:
+            - text: 1, 3 and 4
+            - text: 2, 4 and 6
+            - text: 1, 3 and 5
+    - type: simple
+      question: |-
+        What is true regarding multi-disc steel brakes compared to multi-disc carbon brakes?
+
+         Multiple small applications is best.
+         A small number of strong applications is best.
+         They operate best at a higher brake temperature.
+         They operate best at a lower brake temperature.
+         They have a higher friction coefficient.
+         They have a lower friction coefficient.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 4, 6
+          wrongAnswers:
+            - text: 1, 3, 4
+            - text: 2, 4, 6
+            - text: 1, 3, 5
+- id: QJICC
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219505
+    - AVEXAM-41109
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.01.03
+  templates:
+    - type: simple
+      question: What is correct for an aircraft fitted with carbon brakes?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The pilot minimises brake wear by reducing the number of brake applications.
+          wrongAnswers:
+            - text: Use differential braking in order to save brake life.
+            - text: Brake wear is dependent on the applied pressure, and/or duration of the braking.
+            - text: It is recommended to apply constant braking, but vary the pressure to control taxi speed.
+- id: QVCMW
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-216010
+    - BGS-211142
+    - AVEXAM-94603
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.01.03
+  templates:
+    - type: simple
+      question: To enhance brake life in relation to brake wear, it is recommended
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: for steel brakes to use a large number of small brake applications during taxi.
+          wrongAnswers:
+            - text: for steel brakes to use a single, firm brake application during taxi.
+            - text: for both carbon and steel brakes to use differential braking to reduce brake temperatures.
+            - text: for carbon brakes to use a large number of small brake applications during taxi.
+- id: QQRTI
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214452
+    - AVEXAM-86328
+    - BGS-211990
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.02.02
+  templates:
+    - type: simple
+      question: Consider an aircraft with hydraulically operated brakes and a pneumatically operated emergency braking system, which uses the normal hydraulic brake lines. The aircraft also has an anti-skid system to avoid loss of control and locked wheels during braking. Which of the following statements is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: After using the emergency braking system, the brake pedals will feel softer underfoot.
+          wrongAnswers:
+            - text: Normal braking is available after using the emergency braking system, provided it is operational.
+            - text: The anti-skid system will allow for a lower brake temperature when braking hard.
+            - text: The emergency braking system will be able to stop in a shorter distance, compared to normal braking.
+- id: QKPNY
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213085
+    - ATPLQ-214957
+    - AVEXAM-59284
+    - BGS-210155
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.02.04
+  templates:
+    - type: simple
+      question: Purpose of an accumulator in a hydraulic brake system is to
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Supply an emergency reserve of power in the event of a hydraulic failure
+          wrongAnswers:
+            - text: Used to maintain pressure in the hydraulic system
+            - text: Allows the pilots to place bets on the hydraulic system for great returns
+            - text: Acts as a tank for refilling any lost hydraulic fuel(Reserve tank)
+    - type: simple
+      question: The function of an accumulator in a hydraulic brake system is to..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: supply a limited amount of brake energy in the event of failure of the hydraulic system(s) which are normally supplying the brake system.
+          wrongAnswers:
+            - text: store the hydraulic energy recovered by the anti-skid system when preventing the wheels from locking.
+            - text: function as a buffer to assist the hydraulic system during heavy braking and act as a power source for emergency undercarriage lowering.
+            - text: reduce pressure fluctuations of the auto-brake system.
+- id: QGXVO
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219268
+    - BGS-211262
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.02.06
+  templates:
+    - type: simple
+      question: Consider brake-wear indicators on multi-disc-type brakes. The indicators show brake wear as a measure of the
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: thickness of the brake unit’s lining material.
+          wrongAnswers:
+            - text: movement of the brake unit piston.
+            - text: drop in the brake system's hydraulic pressure.
+            - text: brake pedal deflection in the brake system.
+- id: QTGIH
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214971
+    - AVEXAM-24371
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.02.06
+  templates:
+    - type: simple
+      question: The wear of a multi-disk brake system which is commonly found on a commercial airliner can be spotted...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: By Measuring the amount that the retraction pin extends from the spring housing.
+          wrongAnswers:
+            - text: By checking the temperature of the brake system after landing.
+            - text: By evaluating the distance the brake pedals move before the pads come into contact with the brake disk.
+            - text: By visually checking the wear of the pads.
+- id: QWLIY
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds:
+    - QENAW
+  externalQuestionIds:
+    - ATPLQ-217360
+    - BGS-211686
+    - AVEXAM-86393
+    - BGS-211263
+    - BGS-211682
+    - AVEXAM-32556
+    - BGS-211078
+    - ATPLQ-217698
+    - ATPLQ-211592
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.03.02
+  templates:
+    - type: one-two
+      question: Which of these statements about an anti-skid system are correct or incorrect?
+      explanation: The anti-skid computer compares each wheel speed with the aeroplane reference speed and regulates brake pressure to hold the wheel at the slip ratio that gives the highest braking force. This optimises braking performance.
+      pairs:
+        - right:
+            - The "regulation of slip ratio" function of an anti-skid system ensures optimum braking performance.
+          wrong:
+            - The "regulation of slip ratio" function of an anti-skid system does not ensure optimum braking performance.
+        - right:
+            - Careful brake application by the pilot in case of anti-skid failure cannot achieve the same performance as a properly functioning anti-skid system.
+          wrong:
+            - Careful brake application by the pilot in case of anti-skid failure can achieve the same performance as a properly functioning anti-skid system.
+        - right:
+            - In case of failure of an anti-skid system the auto-brake system does not take over the regulation of the slip ratio.
+          wrong:
+            - In case of failure of an anti-skid system the auto-brake system takes over the regulation of the slip ratio.
+- id: QPQYT
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212848
+    - AVEXAM-73728
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.03.02
+  templates:
+    - type: one-two
+      question: Which of the following statements about an anti-skid system are correct/incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - The anti-skid computer compares wheel speed to aeroplane reference speed to provide a slip ratio for maximum braking performance.
+          wrong:
+            - The anti-skid computer compares wheel speed to aeroplane reference speed to provide a slip ratio for minimum braking performance.
+        - right:
+            - If a pilot is careful when braking manually, they will still not be able to achieve the same braking efficiency as if braking with anti-skid.
+          wrong:
+            - If a pilot is careful when braking manually, they will be able to achieve the same braking efficiency as if braking with anti-skid.
+- id: QEPIM
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214819
+    - BGS-211685
+    - BGS-211265
+    - BGS-211272
+    - BGS-211778
+    - AVEXAM-55731
+    - ATPLQ-218816
+    - ATPLQ-213126
+    - AVEXAM-79636
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.03.03
+  templates:
+    - type: simple
+      question: "The failure of an anti-skid system:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: always increases the minimum braking distance irrespective of runway condition.
+          wrongAnswers:
+            - text: increases the minimum braking distance on a dry runway only.
+            - text: increases the minimum braking distance on a slippery runway only.
+            - text: does not increase the braking distance during a rejected take-off, provided the pilot applies maximum braking.
+        - correctAnswers:
+            - text: at least doubles the minimum braking distance on a dry runway.
+          wrongAnswers:
+            - text: does not increase the braking distance during a rejected take-off, provided the pilot applies maximum braking.
+            - text: increases the minimum braking distance on a slippery runway only.
+            - text: increases the minimum braking distance on a dry runway only.
+        - correctAnswers:
+            - text: Increases the distance for both wet and dry runway.
+          wrongAnswers:
+            - text: Doubles distance on wet runway only.
+            - text: Does not affect runway distance.
+            - text: Doubles distance on dry runway only
+- id: QIETC
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-219148
+    - AVEXAM-52939
+    - AVEXAM-35636
+    - BGS-211290
+    - BGS-211702
+    - BGS-211291
+    - BGS-211701
+    - BGS-211275
+    - BGS-211696
+    - BGS-211277
+    - BGS-211697
+    - AVEXAM-21907
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.04.01
+  templates:
+    - type: simple
+      question: Choose the correct statement about auto-brake systems (ABS)...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Without pilot interference an auto-brake system continues to operate until standstill.
+          wrongAnswers:
+            - text: An armed auto-brake system will always try to achieve the selected deceleration level directly after main wheel touchdown.
+            - text: For a given touchdown ground speed on a dry runway without the use of reverse thrust, the stopping distance solely depends on the selected ABS setting and weight of the airplane.
+            - text: A take-off warning during the take-off will be generated if the auto-brake system has not been armed.
+- id: QENAW
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds:
+    - QWLIY
+  externalQuestionIds:
+    - ATPLQ-216709
+    - BGS-211264
+    - BGS-211267
+    - BGS-211289
+    - AVEXAM-85070
+    - BGS-211307
+    - BGS-211274
+    - BGS-211273
+    - AVEXAM-44964
+    - AVEXAM-50142
+    - AVEXAM-99858
+    - ATPLQ-215941
+    - AVEXAM-96469
+    - BGS-211692
+    - AVEXAM-46124
+    - AVEXAM-53647
+    - AVEXAM-83839
+    - AVEXAM-15449
+    - BGS-211269
+    - BGS-211266
+    - BGS-211292
+    - BGS-211268
+    - AVEXAM-66644
+    - ATPLQ-211975
+    - ATPLQ-218332
+    - ATPLQ-216576
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.04.02
+    - 021.04.03.04.04
+  templates:
+    - type: one-two
+      question: Which of these statements about an auto-brake system are correct or incorrect?
+      explanation: The auto-brake system commands brake pressure and relies on the anti-skid system to prevent wheel lock. It must not be used if anti-skid is inoperative.
+      pairs:
+        - right: []
+          wrong:
+            - Autobrake can be used if antiskid is inoperative
+        - right: []
+          wrong:
+            - RTO mode applies the maximum possible constant deceleration
+    - type: one-two
+      question: Which of these statements about an auto-brake system are correct or incorrect?
+      explanation: Auto-brake commands a deceleration but depends on the anti-skid system to release pressure when a wheel starts to skid. Proper functioning of the auto-brake therefore requires a working anti-skid system.
+      pairs:
+        - right:
+            - Proper functioning of an auto-brake system requires proper functioning of the anti-skid system.
+          wrong:
+            - Proper functioning of an auto-brake system does not require proper functioning of the anti-skid system.
+        - right:
+            - In the RTO mode a maximum constant acceleration is applied.
+          wrong:
+            - In the RTO mode a maximum constant deceleration is not applied.
+- id: QIYWJ
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211869
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.04.02
+    - 021.04.03.04.04
+  templates:
+    - type: one-two
+      question: Which of these statements about an auto-brake system are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - An auto-brake system can function properly only when the anti-skid system is operative.
+          wrong:
+            - An auto-brake system can function properly, even when the anti-skid system is inoperative.
+        - right:
+            - In the RTO mode a maximum constant deceleration is not applied.
+          wrong:
+            - In the RTO mode a maximum constant deceleration is applied.
+- id: QANOR
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214565
+    - AVEXAM-86772
+    - BGS-211283
+    - BGS-210160
+    - AVEXAM-97483
+    - ATPLQ-213781
+    - BGS-211691
+    - BGS-211285
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.04.03
+  templates:
+    - type: simple
+      question: The auto-brake system is disarmed during landing ..
+      explanation: During landing the auto-brake is disarmed by pilot action, for example by pressing the brake pedals or selecting the switch off. It does not disarm after a set time or below a speed.
+      presets:
+        - correctAnswers:
+            - text: by pilot action.
+          wrongAnswers:
+            - text: after a preset elapsed time.
+            - text: below a specific speed.
+            - text: when selecting the reverse thrust.
+    - type: simple
+      question: The auto-brake system stops operating during landing ..
+      explanation: The auto-brake stops operating when the pilot acts, for example by applying the brake pedals or switching it off. Selecting reverse or extending the ground spoilers does not stop it.
+      presets:
+        - correctAnswers:
+            - text: by pilot action.
+          wrongAnswers:
+            - text: by the pilot selecting idle reverse thrust.
+            - text: by the pilot extending ground spoilers.
+            - text: when the pilot does not lower the nose wheel to the ground.
+- id: QLTRR
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-213232
+    - BGS-211281
+    - AVEXAM-78408
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.04.03
+    - 021.04.03.04.04
+  templates:
+    - type: simple
+      question: Select the correct statement regarding an auto-brake system during a rejected take-off.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: When the rejected take-off mode is armed, the system will operate only when the take-off is aborted above a certain speed.
+          wrongAnswers:
+            - text: In the rejected take-off mode, the auto-brake system can function as its own anti-skid system if the normal anti-skid system fails.
+            - text: An auto-brake system disarms automatically when the aeroplane has come to a standstill after a rejected take-off.
+            - text: Manual braking is always the best stopping technique for a rejected take-off.
+- id: QNCQV
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-217431
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.04.03
+    - 021.04.03.04.04
+  templates:
+    - type: one-two
+      question: "The autobrake system is deactivated:"
+      explanation: ""
+      pairs:
+        - right:
+            - The autobrake system is deactivated above a preset minimum speed.
+          wrong:
+            - The autobrake system is deactivated below a preset minimum speed.
+        - right:
+            - The autobrake system is deactivated when reverse thrust is not activated.
+          wrong:
+            - The autobrake system is deactivated when reverse thrust is activated.
+- id: QYKKZ
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.04.03
+  templates:
+    - type: one-two
+      question: Which of these statements about an auto-brake system are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - During landing and rejected take-off auto-brakes stop operating above a certain low speed.
+          wrong:
+            - During landing and rejected take-off auto-brakes stop operating below a certain low speed.
+        - right:
+            - During landing auto-brakes continue operating even when reverse thrust is selected.
+          wrong:
+            - During landing auto-brakes stop operating and disarm when reverse thrust is selected.
+- id: QHRRI
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215104
+    - AVEXAM-23211
+    - AVEXAM-43801
+    - BGS-211278
+    - BGS-211699
+    - BGS-211698
+    - BGS-211308
+    - BGS-211695
+    - BGS-211271
+    - BGS-211284
+    - AVEXAM-19542
+    - BGS-211700
+    - BGS-211280
+    - ATPLQ-212782
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.04.04
+  templates:
+    - type: simple
+      question: Which of these statements about an auto-brake system is correct?
+      explanation: On most aeroplanes the auto-brake system holds a constant selected deceleration during landing on a dry runway, with the selected setting low, medium or high. Using manual braking does not disarm it, and reverse thrust reduces the brake energy.
+      presets:
+        - correctAnswers:
+            - text: On most aeroplanes the auto-brake system provides a constant deceleration during landing on a dry runway. (ignoring possible transition effects when the system begins to function)
+          wrongAnswers:
+            - text: When using manual braking during taxiing, the auto-brake system will disarm.
+            - text: When a low auto-brake setting is used during landing use of reverse will not influence the brake temperature.
+            - text: When the auto-brake system is inoperative, in general take-off is not allowed, because maximum manual braking does not achieve the same deceleration as the auto-brake system in the RTO mode.
+        - correctAnswers:
+            - text: The achievable deceleration levels of full manual braking and the auto-brake RTO mode are the same
+          wrongAnswers:
+            - text: When a low auto-brake setting is used during landing use of reverse will not influence the brake temperature
+            - text: On most aeroplanes the auto-brake system provides the capability to select a fixed landing distance
+            - text: When using manual braking during taxiing, the auto-brake system will disarm
+- id: QBJCU
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212342
+    - BGS-212215
+    - ATPLQ-215119
+    - AVEXAM-19171
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.04.04
+  templates:
+    - type: simple
+      question: After landing, with the autobrake system set to a constant deceleration rate, the use of thrust reversers will...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: decrease the brake pressure.
+          wrongAnswers:
+            - text: increase the brake pressure.
+            - text: change the configuration of the ground spoilers.
+            - text: increase the landing distance.
+    - type: simple
+      question: When performing a landing using autobrakes, what effect does the use of reverse thrust have?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Reduced brake pressure.
+          wrongAnswers:
+            - text: Increase stopping distance.
+            - text: Cancelling ground spoilers.
+            - text: Brakes release.
+- id: QLVTM
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211090
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.04.04
+  templates:
+    - type: one-two
+      question: Which of these statements about an auto-brake system are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - During landing auto-brakes keep operating when idle reverse thrust is selected.
+          wrong:
+            - During landing auto-brakes keep operating when idle reverse thrust is not selected.
+        - right:
+            - During landing and rejected take-off auto-brakes stop operating and disarm below a certain low speed.
+          wrong:
+            - During landing and rejected take-off auto-brakes continue operating and don't disarm below a certain low speed.
+- id: QQYUZ
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-215489
+    - AVEXAM-19014
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.04.04
+  templates:
+    - type: simple
+      question: "The pilot sets the autobrake to MAX due to fear of exceeding runway distance. The pilot will:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Expect the autobrake system to modulate braking pressure to maintain given rate.
+          wrongAnswers:
+            - text: Not use reverse thrust.
+            - text: Expect the autobrake system to apply necessary braking to stay on the runway.
+            - text: Expect the autobrake system to apply maximum braking effort.
+- id: QZQDD
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.03.04.04
+  templates:
+    - type: one-two
+      question: Which of these statements about an auto-brake system are correct or incorrect?
+      explanation: ""
+      pairs:
+        - right:
+            - During landing and rejected take-off auto-brakes keep operating until the pilot presses the brake pedals.
+          wrong:
+            - During landing and rejected take-off auto-brakes stop operating before the pilot presses the brake pedals.
+        - right:
+            - During landing auto-brakes continue to operate even when reverse thrust is selected.
+          wrong:
+            - During landing auto-brakes stop operating and disarm when reverse thrust is selected.
+- id: QCJBR
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212416
+    - BGS-210159
+    - AVEXAM-78179
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.04.01.02
+  templates:
+    - type: simple
+      question: Tyre "creep" is..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the circumferential movement of the tyre in relation to the wheel rim.
+          wrongAnswers:
+            - text: the increase in inflation pressure due to decrease in ambient temperature.
+            - text: a gradual decrease in the circumferential movement of the tyre due to wear.
+            - text: the decrease in inflation pressure due to increase in ambient temperature.
+- id: QPLPM
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214874
+    - BGS-211044
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.04.01.02
+  templates:
+    - type: simple
+      question: What happens if the grooves or tread of an aircraft tyre are worn?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The tyre can be retreaded several times.
+          wrongAnswers:
+            - text: The tyre can be retreaded once.
+            - text: The tyre can never be repaired or retreaded.
+            - text: The tyre can be used on the nose wheel only.
+- id: QHCIZ
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212005
+    - AVEXAM-98737
+    - BGS-210163
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.04.01.03
+  templates:
+    - type: simple
+      question: "The function of a fusible plug is to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: protect the tyre against explosion due to excessive temperature.
+          wrongAnswers:
+            - text: act as a special circuit breaker in the electrical system.
+            - text: protect against excessive pressure in the pneumatic system.
+            - text: protect the brake against brake disk fusion due to excessive temperature.
+- id: QLRLX
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-214730
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.04.01.04
+  templates:
+    - type: one-two
+      question: A pilot should check the wheels and tyres during their pre-flight check, which statement is correct?
+      explanation: ""
+      pairs:
+        - right: []
+          wrong:
+            - Tread separation is easily detected by visual inspection.
+        - right: []
+          wrong:
+            - Small tread separation is acceptable as long as reported in flight log.
+- id: QSYLF
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-218062
+    - AVEXAM-40770
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.04.01.04
+    - 021.04.04.01.06
+  templates:
+    - type: simple
+      question: A pilot should check the wheels and tyres during their pre-flight check, which statement is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: If tread separation is left undetected, the tyre could burst during take-off or landing.
+          wrongAnswers:
+            - text: The tyre treads are not an important item to be checked during the pre-flight inspection.
+            - text: Tread inspection is the responsibility of the maintenance personnel before the first flight of the day.
+            - text: Tread separation is easy to detect.
+- id: QEECR
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-211714
+    - AVEXAM-75756
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.04.01.06
+  templates:
+    - type: simple
+      question: How might a pilot ensure the structural integrity of the aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Check the maintenance documents.
+          wrongAnswers:
+            - text: Physically inspect all fasteners and bolts to ensure they are secure and intact.
+            - text: Review the flight crew's credentials.
+            - text: Speak to a maintenance engineer.
+    - type: simple
+      question: What actions can a pilot take to verify the structural integrity of the aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Check the maintenance documents.
+          wrongAnswers:
+            - text: Speak to a maintenance engineer.
+            - text: Physically inspect all fasteners and bolts to ensure they are secure and intact.
+            - text: Review the flight crew's credentials.
+- id: QGZGX
+  subjectId: "021"
+  chapterId: "021.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-212575
+    - AVEXAM-41651
+    - BGS-212001
+  annexes: []
+  learningObjectiveIds:
+    - 021.04.04.01.06
+  templates:
+    - type: simple
+      question: Consider a pre-flight inspection of the aircraft tyres. Which option describes a condition where a tyre can still be acceptable (airworthy)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A couple of cuts within the tyre tread.
+          wrongAnswers:
+            - text: Embedded foreign objects within the tyre tread.
+            - text: Circumferential cracks within the tyre’s side wall.
+            - text: An improperly inflated tyre.

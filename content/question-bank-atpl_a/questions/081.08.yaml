@@ -1,0 +1,2883 @@
+- id: QQSGB
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811762
+    - AVEXAM-85354
+    - BGS-811722
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.01.03
+  templates:
+    - type: simple
+      question: In straight, horizontal steady flight, the function of the tailplane is to maintain equilibrium by supplying...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a down force when the Centre of Pressure is behind the CG.
+          wrongAnswers:
+            - text: an up force when the Centre of Pressure is behind the CG.
+            - text: an up force when the CG approaches its permissible values.
+            - text: a down force when the Centre of Pressure coincides with the CG.
+- id: QOELR
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818220
+    - BGS-811129
+    - AVEXAM-87446
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.02.01
+  templates:
+    - type: simple
+      question: "An aeroplane’s flight path angle is defined as the angle between its:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: speed vector and the horizontal plane.
+          wrongAnswers:
+            - text: lateral axis and the horizontal plane.
+            - text: speed vector and its longitudinal axis.
+            - text: longitudinal axis and the horizontal plane.
+- id: QLQDN
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811437
+    - AVEXAM-9749
+  annexes:
+    - id: ABFG
+  learningObjectiveIds:
+    - 081.08.01.02.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        X, Y and Z correspond to:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Angle of attack, climb angle, pitch angle.
+          wrongAnswers:
+            - text: Climb angle, pitch angle, angle of attack.
+            - text: Pitch angle, climb angle, angle of attack.
+            - text: Angle of attack, pitch angle, climb angle.
+- id: QLQXJ
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818961
+    - AVEXAM-61466
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.02.02
+  templates:
+    - type: simple
+      question: |-
+        Given:
+
+        theta = pitch angle.   
+        gamma = flight path angle   
+        alpha = angle of attack   
+        no wind, bank or sideslip
+
+        The relationship between these three parameters is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: theta = gamma + alpha.
+          wrongAnswers:
+            - text: alpha = gamma – theta.
+            - text: theta = gamma – alpha.
+            - text: gamma = alpha – theta.
+- id: QFLHH
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818561
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.02.03
+  templates:
+    - type: simple
+      question: After an aircraft initiates a go-around, the climb performance is less than expected. Which of the following states may have caused this?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Late flap retraction.
+          wrongAnswers:
+            - text: The air temperature has decreased.
+            - text: The air density has increased.
+            - text: Early landing gear retraction.
+- id: QMVAF
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818912
+    - BGS-811110
+    - AVEXAM-52542
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.02.03
+    - 081.08.01.02.06
+  templates:
+    - type: multiple-correct
+      question: "During a straight steady climb:"
+      explanation: ""
+      options:
+        - text: – lift is less than weight.
+          correct: true
+        - text: – lift is greater than weight.
+          correct: false
+        - text: – load factor is less than 1\.
+          correct: true
+        - text: – load factor is greater than 1\.
+          correct: false
+        - text: – lift is equal to weight.
+          correct: false
+        - text: – load factor is equal to 1.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QDFHG
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812110
+    - AVEXAM-1588
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.02.04
+  templates:
+    - type: simple
+      question: |-
+        Determine the thrust in a steady climb, given:
+
+        - Climb angle: {{angle}}°
+        - Drag: {{drag}} N
+        - Weight: {{weight}} N
+
+        What is the thrust required?
+      explanation: |-
+        In a steady climb the thrust must overcome the drag and also the part of the weight that acts back along the flight path. That part is the weight multiplied by the sine of the climb angle, so the thrust is the drag plus the weight times the sine of the angle.
+
+        **Solution**
+
+        $$
+        \text{Drag}+\text{Weight}\times \text{sin}(\text{Climb angle}) = {{drag}}+{{weight}}\times \text{sin}({{angle}}) = \mathbf{ {{answer}}\ \text{N} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} N**: only the drag, leaving out the weight component.
+        - **{{d2}} N**: only the weight component, leaving out the drag.
+        - **{{d3}} N**: adds the full weight instead of its component along the flight path.
+        - **{{d4}} N**: uses the cosine, which gives the component perpendicular to the flight path.
+      presets:
+        - variables:
+            angle: 9
+            drag: 300000
+            weight: 5750000
+            answer: 1199498
+            d1: 300000
+            d2: 899498
+            d3: 6050000
+            d4: 5979208
+          correctAnswers:
+            - text: 1199498 N
+          wrongAnswers:
+            - text: 300000 N
+            - text: 6050000 N
+            - text: 5979208 N
+            - text: 899498 N
+        - variables:
+            angle: 6
+            drag: 250000
+            weight: 4000000
+            answer: 668114
+            d1: 250000
+            d2: 418114
+            d3: 4250000
+            d4: 4228088
+          correctAnswers:
+            - text: 668114 N
+          wrongAnswers:
+            - text: 250000 N
+            - text: 4250000 N
+            - text: 4228088 N
+            - text: 418114 N
+        - variables:
+            angle: 12
+            drag: 400000
+            weight: 8000000
+            answer: 2063294
+            d1: 400000
+            d2: 1663294
+            d3: 8400000
+            d4: 8225181
+          correctAnswers:
+            - text: 2063294 N
+          wrongAnswers:
+            - text: 400000 N
+            - text: 8400000 N
+            - text: 8225181 N
+            - text: 1663294 N
+    - type: simple
+      question: |-
+        Given:
+
+         
+
+         
+         
+         Thrust:
+         500 000 N
+         
+         
+         Drag:
+         115 000 N
+         
+         
+         Weight:
+         1 700 000 N
+         
+         
+
+
+
+        Calculate the climb angle:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 13°
+          wrongAnswers:
+            - text: 10°
+            - text: 18°
+            - text: 21°
+- id: QKXCC
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815457
+    - AVEXAM-16616
+    - BGS-811125
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.02.05
+  templates:
+    - type: simple
+      question: "In a straight, steady climb the thrust must be:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: greater than the drag because it must also balance a component of weight.
+          wrongAnswers:
+            - text: equal to the drag.
+            - text: greater than drag because more lift has to be produced.
+            - text: lower than the drag because it is assisted by a component of weight.
+- id: QENUF
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819417
+    - BGS-811131
+    - AVEXAM-86777
+    - BGS-811132
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.02.06
+  templates:
+    - type: simple
+      question: 'Ignoring thrust effects in a steady straight climb at a climb angle "gamma", the lift of an aeroplane with weight W is:'
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: W × cos (gamma)
+          wrongAnswers:
+            - text: W × (1-tan gamma)
+            - text: W × (1-sin gamma)
+            - text: W ÷ cos (gamma)
+- id: QNBQN
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818128
+    - BGS-811109
+    - AVEXAM-5024
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.02.06
+  templates:
+    - type: simple
+      question: "When an aeroplane performs a straight steady climb with a {{gradient}}% climb gradient, the load factor is equal to:"
+      explanation: |-
+        In a steady climb the lift is smaller than the weight, because part of the weight acts back along the flight path. The load factor is the lift divided by the weight, which equals the cosine of the climb angle. A climb gradient is the tangent of that angle, so the angle is the arctangent of the gradient.
+
+        **Solution**
+
+        $$
+        \text{cos}(\text{atan}(\frac{\text{Climb gradient}}{100})) = \text{cos}(\text{atan}(\frac{ {{gradient}} }{100})) = \mathbf{ {{answer}} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}**: divides by the cosine instead of multiplying, which gives a value above 1.
+        - **{{d2}}**: ignores the climb completely, as in level flight.
+        - **{{d3}}**: subtracts the gradient from 1, which is not a relationship of the climb angle.
+        - **{{d4}}**: uses the sine of the climb angle instead of the cosine.
+      presets:
+        - variables:
+            gradient: 20
+            answer: 0.98
+            d1: 1.02
+            d2: 1
+            d3: 0.8
+            d4: 0.2
+          correctAnswers:
+            - text: "0.98 "
+          wrongAnswers:
+            - text: "1.02 "
+            - text: "0.8 "
+            - text: "0.2 "
+            - text: "1 "
+        - variables:
+            gradient: 25
+            answer: 0.97
+            d1: 1.03
+            d2: 1
+            d3: 0.75
+            d4: 0.24
+          correctAnswers:
+            - text: "0.97 "
+          wrongAnswers:
+            - text: "1.03 "
+            - text: "0.75 "
+            - text: "0.24 "
+            - text: "1 "
+        - variables:
+            gradient: 30
+            answer: 0.96
+            d1: 1.04
+            d2: 1
+            d3: 0.7
+            d4: 0.29
+          correctAnswers:
+            - text: "0.96 "
+          wrongAnswers:
+            - text: "1.04 "
+            - text: "0.7 "
+            - text: "0.29 "
+            - text: "1 "
+- id: QOGEI
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818417
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.02.07
+  templates:
+    - type: simple
+      question: |-
+        Consider an aeroplane in a steady climb. Given the following data, and assuming g = 10 m/s², calculate the climb angle in degrees:
+
+        - Thrust: {{thrust}} N
+        - Mass: {{mass}} kg
+        - Drag: {{drag}} N
+
+        Give the answer to one decimal place.
+      explanation: |-
+        In a steady climb the thrust must be greater than drag, and the surplus pulls the aeroplane up the flight path against the part of its weight that acts along the path. The weight is the mass times g, and that part of the weight is the weight times the sine of the climb angle.
+
+        **Solution**
+
+        - Weight: {{macro1}} N
+        - Thrust minus drag: {{macro2}} N
+        - Climb angle: $$\text{asin}(\frac{\text{Thrust}-\text{Drag}}{\text{Mass}\times 10}) = \text{asin}(\frac{ {{thrust}}-50000}{ {{mass}}\times 10}) = \mathbf{ {{answer}}\ \text{°} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}°**: ignores drag, so the full thrust is used.
+        - **{{d2}}°**: uses drag alone as the force along the flight path instead of thrust minus drag.
+        - **{{d3}}°**: uses the tangent instead of the sine of the angle.
+        - **{{d4}}°**: divides by thrust instead of weight.
+      presets:
+        - variables:
+            thrust: 200000
+            mass: 50000
+            drag: 50000
+            macro1: 500000
+            macro2: 150000
+            answer: 17.5
+            d1: 23.6
+            d2: 5.7
+            d3: 16.7
+            d4: 48.6
+          correctAnswers:
+            - text: 17.5 °
+          wrongAnswers:
+            - text: 23.6 °
+            - text: 16.7 °
+            - text: 48.6 °
+            - text: 5.7 °
+        - variables:
+            thrust: 300000
+            mass: 40000
+            drag: 50000
+            macro1: 400000
+            macro2: 250000
+            answer: 38.7
+            d1: 48.6
+            d2: 7.2
+            d3: 32
+            d4: 56.4
+          correctAnswers:
+            - text: 38.7 °
+          wrongAnswers:
+            - text: 48.6 °
+            - text: 32 °
+            - text: 56.4 °
+            - text: 7.2 °
+- id: QXOVN
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816783
+    - AVEXAM-47738
+    - ATPLQ-817685
+    - AVEXAM-40393
+    - BGS-812821
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.02.07
+  templates:
+    - type: simple
+      question: Which of the following speeds would be used to calculate the climb gradient?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: TAS
+          wrongAnswers:
+            - text: EAS
+            - text: CAS
+            - text: IAS
+    - type: simple
+      question: The Rate of Descent can be calculated by multiplying the gradient of descent by...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Ground speed
+          wrongAnswers:
+            - text: EAS.
+            - text: TAS.
+            - text: IAS.
+- id: QCEAS
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818741
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.02.08
+  templates:
+    - type: simple
+      question: On a climb, if you keep the thrust setting constant while maintaining a fixed vertical speed, what will happen to the aeroplane’s IAS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It will decrease, because the pilot will have to increase pitch attitude to maintain vertical speed as Excess Thrust decreases with altitude.
+          wrongAnswers:
+            - text: It will increase, because the pilot will have to reduce pitch attitude to maintain vertical speed, which will tend to increase as TAS increases with altitude.
+            - text: It will increase, because the rearward component of Lift decreases with altitude, and as the thrust setting remains constant, the aeroplane will accelerate.
+            - text: It will decrease, because Drag increases with altitude, and as the thrust settings remain constant, the aeroplane will decelerate.
+- id: QUZKR
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819884
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.02.08
+  templates:
+    - type: simple
+      question: An aeroplane climbs to cruising level with a constant pitch attitude and maximum climb thrust (assume no supercharger). How do the following variables change during the climb? (gamma = flight path angle)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Gamma decreases, angle of attack increases, IAS decreases.
+          wrongAnswers:
+            - text: Gamma remains constant, angle of attack remains constant, IAS decreases.
+            - text: Gamma decreases, angle of attack increases, IAS remains constant.
+            - text: Gamma decreases, angle of attack remains constant, IAS decreases.
+- id: QFDKG
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814501
+    - AVEXAM-38985
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.03.02
+  templates:
+    - type: multiple-correct
+      question: Choose the correct statements with regard to the forces acting parallel and perpendicular to the flight path, for an aeroplane in a straight and steady power-on descent. (L = Lift, D = Drag, T = Thrust, W = Weight, y = descent angle, x = multiplied by)
+      explanation: ""
+      options:
+        - text: L and (W x cos y) act perpendicular to the flight path.
+          correct: true
+        - text: L and W act perpendicular to the flight path.
+          correct: false
+        - text: T, D and (L x cos y) act parallel to the flight path.
+          correct: false
+        - text: T, D and (W x sin y) act parallel to the flight path.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QESYV
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds:
+    - QFBRI
+  externalQuestionIds:
+    - ATPLQ-812415
+    - BGS-811133
+    - AVEXAM-85901
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.03.03
+  templates:
+    - type: simple
+      question: "During a straight steady descent, lift is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: less than weight, because lift only needs to balance the weight component perpendicular to the flight path.
+          wrongAnswers:
+            - text: greater than weight because it must additionally balance a component of drag.
+            - text: equal to weight to maintain a constant speed.
+            - text: less than weight, because there is less drag compared with horizontal flight.
+- id: QFBRI
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds:
+    - QESYV
+  externalQuestionIds:
+    - ATPLQ-818014
+    - BGS-811868
+    - AVEXAM-43981
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.03.03
+  templates:
+    - type: simple
+      question: In a straight and steady descent, the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: steeper the descent angle, the greater the difference between total weight and lift.
+          wrongAnswers:
+            - text: steeper the descent angle, the smaller the difference between total weight and lift.
+            - text: shallower the descent angle, the greater the difference between total weight and lift.
+            - text: total weight must be equal to lift for the aeroplane to be in equilibrium.
+- id: QDQPG
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds:
+    - QHEWM
+  externalQuestionIds:
+    - ATPLQ-816257
+    - AVEXAM-21633
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.03.04
+  templates:
+    - type: simple
+      question: In a straight and steady power-on descent, thrust is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: less than drag, because weight is giving a forward component in the same direction as thrust.
+          wrongAnswers:
+            - text: greater than drag, because lift is giving a rearward component in the same direction as drag.
+            - text: less than drag only when the throttle is closed, because then the force of thrust is removed.
+            - text: equal to drag when the descent is steady, unaccelerated, and without any power changes.
+- id: QHEWM
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds:
+    - QDQPG
+  externalQuestionIds:
+    - ATPLQ-817719
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.03.04
+  templates:
+    - type: simple
+      question: "In straight and steady flight on descent, Thrust is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Less than drag.
+          wrongAnswers:
+            - text: Greater than drag.
+            - text: Equal to drag.
+            - text: Equal to lift.
+- id: QOSRM
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812802
+    - AVEXAM-14502
+    - AVEXAM-80875
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.03.04
+  templates:
+    - type: simple
+      question: |-
+        An aircraft is in a steady power on descent with the following data: 
+         
+        Weight: 2290 kN 
+         
+        Descent Angle: 3° 
+         
+        Drag: 220 kN
+
+        What is the thrust required for this steady descent?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 100 kN
+          wrongAnswers:
+            - text: 80 kN
+            - text: 120 kN
+            - text: 140 kN
+    - type: simple
+      question: "An aircraft with a weight of 1 500 kN generates a thrust of 50 kN and experiences a drag force of 130 kN. Considering that the weight acts vertically downward and the thrust and drag forces act exactly forward and backward, respectively. The glide angle of this aircraft is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3°
+          wrongAnswers:
+            - text: 7.5°
+            - text: 21°
+            - text: 13.2°
+    - type: simple
+      question: |-
+        An aircraft in a steady power on descent has these parameters:
+
+         
+
+         
+         
+         Weight:
+         2 290 kN
+         
+         
+         Descent Angle:
+         3°
+         
+         
+         Drag:
+         220 kN
+         
+         
+
+
+
+        Calculate the thrust for the steady descent:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 100 kN
+          wrongAnswers:
+            - text: 120 kN
+            - text: 80 kN
+            - text: 140 kN
+- id: QKCVY
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812734
+    - BGS-811354
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.04.02
+  templates:
+    - type: multiple-correct
+      question: Choose the correct statements with regard to the forces acting parallel and perpendicular to the flight path, for an aeroplane in a straight and steady glide. L = Lift, D = Drag, W = Weight, y = descent angle, x = multiplied by.
+      explanation: ""
+      options:
+        - text: L and W act perpendicular to the flight path.
+          correct: false
+        - text: L and (W x cos y) act perpendicular to the flight path.
+          correct: true
+        - text: D and (L x cos y) act parallel to the flight path.
+          correct: false
+        - text: D and (W x sin y) act parallel to the flight path.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QGLNJ
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817426
+    - AVEXAM-55966
+    - BGS-812428
+    - BGS-970084
+    - AVEXAM-25357
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.04.03
+    - 081.08.01.04.05
+  templates:
+    - type: simple
+      question: |-
+        An aeroplane loses all engines and glides with no power. Given the following data:
+
+        - Altitude: {{h}} ft
+        - Lift-to-drag ratio: {{ld}} : 1
+        - Average TAS: {{tas}} kt
+        - Headwind component: {{hw}} kt
+
+        What is the maximum glide range over the ground in NM? Assume 1 NM = 6080 ft.
+      explanation: |-
+        The still-air glide distance is the glide ratio times the height. A headwind reduces the speed over the ground, so the distance covered over the ground shrinks by the ratio of ground speed to airspeed.
+
+        **Solution**
+
+        - Still-air glide distance: $$\frac{\text{Lift-to-drag ratio}\times \text{Altitude}}{6080}$$ = $$\frac{ {{ld}}\times {{h}} }{6080}$$ = {{macro3}} NM
+        - Ground speed: {{macro4}} kt
+        - Distance over the ground: $$\frac{\frac{\text{Lift-to-drag ratio}\times \text{Altitude}}{6080}\times (\text{TAS}-\text{Headwind component})}{\text{TAS}} = \frac{\frac{ {{ld}}\times {{h}} }{6080}\times ({{tas}}-{{hw}})}{ {{tas}} } = \mathbf{ {{answer}}\ \text{NM} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: ignores the headwind.
+        - **{{d2}} NM**: adds the headwind to the airspeed instead of subtracting it.
+        - **{{d3}} NM**: inverts the speed ratio.
+        - **{{d4}} NM**: divides by the airspeed plus the headwind.
+      presets:
+        - variables:
+            h: 10000
+            ld: 15
+            tas: 200
+            hw: 20
+            macro3: 24.7
+            macro4: 180
+            answer: 22.2
+            d1: 24.7
+            d2: 27.1
+            d3: 27.4
+            d4: 20.2
+          correctAnswers:
+            - text: 22.2 NM
+          wrongAnswers:
+            - text: 24.7 NM
+            - text: 27.4 NM
+            - text: 20.2 NM
+            - text: 27.1 NM
+        - variables:
+            h: 8000
+            ld: 12
+            tas: 150
+            hw: 10
+            macro3: 15.8
+            macro4: 140
+            answer: 14.7
+            d1: 15.8
+            d2: 16.8
+            d3: 16.9
+            d4: 13.8
+          correctAnswers:
+            - text: 14.7 NM
+          wrongAnswers:
+            - text: 15.8 NM
+            - text: 16.9 NM
+            - text: 13.8 NM
+            - text: 16.8 NM
+- id: QNRYX
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds:
+    - QQDDT
+  externalQuestionIds:
+    - ATPLQ-815871
+    - AVEXAM-94306
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.04.03
+  templates:
+    - type: simple
+      question: |-
+        A light aeroplane glides in still air with the following data:
+
+        - Lift-to-drag ratio: {{ld}} : 1
+        - Height: {{h}} m
+
+        What is the maximum gliding distance in metres?
+      explanation: |-
+        A glide ratio of X : 1 means the aeroplane travels X units forward for each unit it loses in height. The still-air glide distance is therefore the glide ratio times the height, in the same unit as the height.
+
+        **Solution**
+
+        - Gliding distance: $$\text{Lift-to-drag ratio}\times \text{Height} = {{ld}}\times {{h}} = \mathbf{ {{answer}}\ \text{m} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} m**: forgets to multiply by the glide ratio.
+        - **{{d2}} m**: inverts the glide ratio.
+        - **{{d3}} m**: doubles the result.
+        - **{{d4}} m**: divides by 1000, which gives kilometres rather than metres.
+      presets:
+        - variables:
+            ld: 25
+            h: 1000
+            answer: 25000
+            d1: 1000
+            d2: 40
+            d3: 50000
+            d4: 25
+          correctAnswers:
+            - text: 25000 m
+          wrongAnswers:
+            - text: 1000 m
+            - text: 50000 m
+            - text: 25 m
+            - text: 40 m
+        - variables:
+            ld: 15
+            h: 1500
+            answer: 22500
+            d1: 1500
+            d2: 100
+            d3: 45000
+            d4: 23
+          correctAnswers:
+            - text: 22500 m
+          wrongAnswers:
+            - text: 1500 m
+            - text: 45000 m
+            - text: 23 m
+            - text: 100 m
+    - type: simple
+      question: What is the maximum achievable gliding distance from a height of 1 000 m in no wind conditions and if the aircraft has a lift/drag ratio of 25?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 25 000 m
+          wrongAnswers:
+            - text: 50 000 m
+            - text: 5 000 m
+            - text: 1 000 m
+- id: QQDDT
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds:
+    - QNRYX
+  externalQuestionIds:
+    - ATPLQ-814422
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.04.03
+  templates:
+    - type: simple
+      question: |-
+        A light aeroplane glides in still air with the following data:
+
+        - Lift-to-drag ratio: {{ld}} : 1
+        - Altitude: {{h}} km
+
+        What is the maximum gliding distance in kilometres?
+      explanation: |-
+        A glide ratio of X : 1 means the aeroplane travels X units forward for each unit it loses in height. The still-air glide distance is therefore the glide ratio times the altitude, in the same unit as the altitude.
+
+        **Solution**
+
+        - Gliding distance: $$\text{Lift-to-drag ratio}\times \text{Altitude} = {{ld}}\times {{h}} = \mathbf{ {{answer}}\ \text{km} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} km**: forgets to multiply by the glide ratio.
+        - **{{d2}} km**: inverts the glide ratio.
+        - **{{d3}} km**: doubles the result.
+        - **{{d4}} km**: divides by 10 without a reason.
+      presets:
+        - variables:
+            ld: 12
+            h: 10
+            answer: 120
+            d1: 10
+            d2: 1
+            d3: 240
+            d4: 12
+          correctAnswers:
+            - text: 120 km
+          wrongAnswers:
+            - text: 10 km
+            - text: 240 km
+            - text: 12 km
+            - text: 1 km
+        - variables:
+            ld: 15
+            h: 9
+            answer: 135
+            d1: 9
+            d2: 1
+            d3: 270
+            d4: 14
+          correctAnswers:
+            - text: 135 km
+          wrongAnswers:
+            - text: 9 km
+            - text: 270 km
+            - text: 14 km
+            - text: 1 km
+- id: QRRDB
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814890
+    - AVEXAM-98910
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.04.03
+  templates:
+    - type: simple
+      question: |-
+        Calculate the still-air gliding distance for a single-engined aeroplane. Assume 1 NM = 6 080 ft.
+
+        - L/D ratio: {{ld}} : 1
+        - Altitude: {{alt}} ft
+
+        Give the answer in NM.
+      explanation: |-
+        The gliding distance depends on how far the aircraft moves forward for each unit of height it loses. With an L/D ratio of {{ld}} : 1, the still-air distance in feet is the height multiplied by the L/D ratio. Dividing by 6 080 ft per NM gives the distance in nautical miles.
+
+        **Solution**
+
+        The distance in feet is {{macro1}} ft.
+
+        $$
+        \frac{\text{Altitude}\times \text{L/D ratio}}{6080} = \frac{ {{alt}}\times {{ld}} }{6080} = \mathbf{ {{answer}}\ \text{NM} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: ignores the L/D ratio and only converts the height into nautical miles.
+        - **{{d2}} NM**: divides by 1 852 (the length of a nautical mile in metres) when the height is in feet.
+        - **{{d3}} NM**: divides by the L/D ratio, so the aircraft appears to glide a short distance.
+        - **{{d4}} NM**: uses one less than the L/D ratio, understating the glide.
+      presets:
+        - variables:
+            ld: 9
+            alt: 5000
+            macro1: 45000
+            answer: 7.4
+            d1: 0.8
+            d2: 24.3
+            d3: 0.1
+            d4: 6.6
+          correctAnswers:
+            - text: 7.4 NM
+          wrongAnswers:
+            - text: 0.8 NM
+            - text: 0.1 NM
+            - text: 6.6 NM
+            - text: 24.3 NM
+        - variables:
+            ld: 12
+            alt: 4000
+            macro1: 48000
+            answer: 7.9
+            d1: 0.7
+            d2: 25.9
+            d3: 0.1
+            d4: 7.2
+          correctAnswers:
+            - text: 7.9 NM
+          wrongAnswers:
+            - text: 0.7 NM
+            - text: 0.1 NM
+            - text: 7.2 NM
+            - text: 25.9 NM
+        - variables:
+            ld: 8
+            alt: 10000
+            macro1: 80000
+            answer: 13.2
+            d1: 1.6
+            d2: 43.2
+            d3: 0.2
+            d4: 11.5
+          correctAnswers:
+            - text: 13.2 NM
+          wrongAnswers:
+            - text: 1.6 NM
+            - text: 0.2 NM
+            - text: 11.5 NM
+            - text: 43.2 NM
+- id: QWBXD
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815749
+    - ATPLQ-816362
+    - ATPLQ-818132
+    - AVEXAM-2633
+    - AVEXAM-65109
+    - AVEXAM-86340
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.04.03
+  templates:
+    - type: simple
+      question: Two identical aeroplanes A and B have masses of 800 kg and 1200 kg respectively. In a glide descent at the speed for best glide, what is true regarding the glide range and time?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both aeroplanes have the same glide range, but aeroplane B has a shorter glide time.
+          wrongAnswers:
+            - text: Aeroplane B has a longer glide range, but both aeroplanes glide for the same time.
+            - text: Aeroplane A has a longer glide range, but both aeroplanes glide for the same time.
+            - text: Both aeroplanes have the same glide range and time.
+    - type: simple
+      question: Two identical aeroplanes A and B have masses of 900 kg and 1200 kg respectively. In a glide descent at the speed for best glide, what is true regarding the glide range and time?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both aeroplanes have the same glide range, but aeroplane B has a shorter glide time.
+          wrongAnswers:
+            - text: Aeroplane B has a longer glide range, but both aeroplanes glide for the same time.
+            - text: Aeroplane A has a longer glide range, but both aeroplanes glide for the same time.
+            - text: Both aeroplanes have the same glide range and time.
+    - type: simple
+      question: Two identical aeroplanes A and B have masses of 1000 kg and 700 kg respectively. In a glide descent at the speed for best glide, what is true regarding the glide range and time?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both aeroplanes have the same glide range, but aeroplane A has a shorter glide time.
+          wrongAnswers:
+            - text: Aeroplane B has a longer glide range, but both aeroplanes glide for the same time.
+            - text: Aeroplane A has a longer glide range, but both aeroplanes glide for the same time.
+            - text: Both aeroplanes have the same glide range and time.
+    - type: simple
+      question: Identical aircraft, with masses of 800 kg (aircraft A) and 1 200 kg (aircraft B), are in a glide at the speed for best glide. Which of the following statements is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both aeroplanes have the same glide range, but aeroplane B has a shorter glide time.
+          wrongAnswers:
+            - text: Aeroplane B has a longer glide range, but both aeroplanes glide for the same time.
+            - text: Aeroplane A has a longer glide range, but both aeroplanes glide for the same time.
+            - text: Both aeroplanes have the same glide range and time.
+    - type: simple
+      question: Identical aircraft, A and B, have masses of 900 kg and 1 200 kg respectively. During a glide descent flown at the optimum speed for best glide, what can be said about their respective glide range and duration?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both aeroplanes have the same glide range, but aeroplane B has a shorter glide time.
+          wrongAnswers:
+            - text: Aeroplane B has a longer glide range, but both aeroplanes glide for the same time.
+            - text: Both aeroplanes have the same glide range and time.
+            - text: Aeroplane A has a longer glide range, but both aeroplanes glide for the same time.
+    - type: simple
+      question: Two identical airplanes, with masses of 1 000 kg (airplane A) and 700 kg (airplane B) are in a glide descent at the speed for best glide. How do their glide ranges and times compare?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both aeroplanes have the same glide range, but aeroplane A has a shorter glide time.
+          wrongAnswers:
+            - text: Both aeroplanes have the same glide range and time.
+            - text: Aeroplane A has a longer glide range, but both aeroplanes glide for the same time.
+            - text: Aeroplane B has a longer glide range, but both aeroplanes glide for the same time.
+- id: QMHLJ
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813271
+    - ATPLQ-812437
+    - AVEXAM-40516
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.04.03
+  templates:
+    - type: simple
+      question: |-
+        Given that you are cruising in a light, single engine aircraft which suffers an engine failure. You have two options, both 17 NM from the aircraft in different directions, and both at mean sea level, airport A and airport B. Considering the following conditions, and discounting any height loss for manoeuvring, which airport(s) can your aircraft potentially reach?
+
+        Cruising altitude: 8000 ft 
+         
+        Flying to airport A: 15 kt headwind 
+         
+        Flying to airport B: 15 kt tailwind 
+         
+        TAS: 150 kt 
+         
+        L/D ratio: 12/1 
+         
+        Assume 1 NM = 6000 ft
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: You can reach Airport B but not Airport A.
+          wrongAnswers:
+            - text: You can reach Airport A but not Airport B.
+            - text: You cannot reach either airport.
+            - text: You can reach both airports.
+    - type: simple
+      question: |-
+        Given that you are cruising in a light, single engine aircraft which suffers an engine failure. You have two options, both 12 NM from the aircraft in different directions, and both at mean sea level, airport A and airport B. Considering the following conditions, and discounting any height loss for manoeuvring, which airport(s) can your aircraft potentially reach?Cruising altitude: 8000 ft 
+        Flying to airport A: 15 kt headwind 
+        Flying to airport B: 15 kt tailwind 
+        TAS: 150 kt 
+        L/D ratio: 9/1 
+        Assume 1 NM = 6000 ft
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: You can reach Airport B but not Airport A.
+          wrongAnswers:
+            - text: You can reach Airport A but not Airport B.
+            - text: You cannot reach either airport.
+            - text: You can reach both airports.
+    - type: simple
+      question: |-
+        Given an engine failure in a light, single engine aircraft while cruising, with two airfields 12 NM away in different directions at mean sea level. Which airfield(s) can be potentially reached under the following conditions, excluding manoeuvring height loss?
+
+         
+
+         
+         
+         Cruising altitude:
+         8 000 ft
+         
+         
+         Flying to airfield A:
+         15 kt headwind
+         
+         
+         Flying to airfield B:
+         15 kt tailwind
+         
+         
+         TAS:
+         150 kt
+         
+         
+         L/D ratio:
+         9/1
+         
+         
+
+        (Note: 1 NM = 6 000 ft)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: You can reach B but not A.
+          wrongAnswers:
+            - text: You can reach A but not B.
+            - text: You can reach both airfields.
+            - text: You cannot reach either airfield.
+- id: QRVYG
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812704
+    - BGS-812172
+    - BGS-812651
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.04.04
+  templates:
+    - type: simple
+      question: The maximum glide range is achieved at \_\_\_\_\_ with an angle of attack of about 4°.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VMD (minimum drag speed)
+          wrongAnswers:
+            - text: VMP (minimum power speed)
+            - text: VMO (maximum operating limit speed)
+            - text: 1.30 x VMD (minimum drag speed)
+- id: QUOLE
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818157
+    - AVEXAM-88384
+    - BGS-811143
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.04.04
+  templates:
+    - type: simple
+      question: Which statement is correct at the speed for minimum drag (subsonic)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The gliding angle is minimum (assume zero thrust).
+          wrongAnswers:
+            - text: Propeller aeroplanes fly at that speed at max. endurance.
+            - text: The CL/CD ratio is minimum (assume zero thrust).
+            - text: Induced drag is greater than the parasite drag.
+- id: QDQKA
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816558
+    - AVEXAM-65326
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.04.07
+  templates:
+    - type: simple
+      question: A twin engine aircraft is in the cruise when both of its engines fail simultaneously. The pilot deploys full flaps almost immediately. Was this the correct decision?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No, because the L/D ratio decreases and ROD increases.
+          wrongAnswers:
+            - text: Yes, because the flaps increase lift, and therefore increase the glide range.
+            - text: No, because the flaps will interfere with any attempt to restart the engines.
+            - text: Yes, because the flaps will allow the aircraft to glide for a longer duration.
+- id: QMFEJ
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813722
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.04.07
+  templates:
+    - type: simple
+      question: After losing all engines and starting a glide descent, the pilot lowers the flaps in an attempt to increase the glide range. The pilot acted...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Incorrectly, because lowering the flaps decreases glide range and increases glide angle.
+          wrongAnswers:
+            - text: Correctly, as lowering the flaps can help the pilot achieve a more efficient glide and extend the range for landing options.
+            - text: Incorrectly, because lowering the flaps decreases glide range and decreases glide angle.
+            - text: Correctly, because lowering the flaps can help improve the glide range and potentially reach a farther landing site.
+- id: QIRUA
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819764
+    - AVEXAM-80603
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.04.09
+  templates:
+    - type: simple
+      question: You are flying above VNO for a short period of time (no longer than 2 minutes), but remain below VNE. Is this acceptable?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes, when exercising caution and flying in smooth air conditions.
+          wrongAnswers:
+            - text: No, as structural damage can occur even in smooth air.
+            - text: Yes, but only when remaining within the green arc.
+            - text: Yes, when making normal manoeuvres, and only in moderate turbulence.
+    - type: simple
+      question: Is it acceptable to fly above VNO for a short period of time (no longer than 2 minutes), but remain below VNE?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes, when exercising caution and flying in smooth air conditions.
+          wrongAnswers:
+            - text: Yes, when making normal manoeuvres, and only in moderate turbulence.
+            - text: No, as structural damage can occur even in smooth air.
+            - text: Yes, but only when remaining within the green arc.
+- id: QLZSM
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814987
+    - BGS-812408
+    - AVEXAM-19539
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.04.09
+  templates:
+    - type: simple
+      question: Which speed should you fly if you want to stay in the air for the longest time possible?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VMP, because it is the speed for minimum rate of descent.
+          wrongAnswers:
+            - text: Minimum glide speed.
+            - text: Minimum clean speed.
+            - text: VMP, because it is the speed for best range.
+- id: QDARO
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817657
+    - AVEXAM-54872
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.04.10
+  templates:
+    - type: simple
+      question: Why would a pilot choose to glide for minimum rate of descent after complete engine failure?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To give the maximum time to complete emergency drills before a forced landing or ditching.
+          wrongAnswers:
+            - text: To give maximum airflow through jet engines, to assist a restart.
+            - text: To give the best chance of reaching a suitable forced landing aerodrome.
+            - text: To glide as far as possible in a headwind.
+- id: QFXEL
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813303
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.04.10
+  templates:
+    - type: simple
+      question: A pilot chooses to fly faster or slower than the optimum range speed in a glide. What is a possible reason for this?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Flying slower than optimum range speed in a strong tailwind sometimes increases range achieved.
+          wrongAnswers:
+            - text: Flying slower than optimum range speed increases speed stability.
+            - text: Flying faster than optimum range speed in a strong tailwind sometimes increases range achieved.
+            - text: Flying slower than optimum range speed will get the aircraft safely on the ground more quickly.
+- id: QQPAA
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813645
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.05.02
+  templates:
+    - type: simple
+      question: In a coordinated banked turn, the centripetal force is equal to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: L x sin(bank angle)
+          wrongAnswers:
+            - text: W x sin(bank angle)
+            - text: L x cos(bank angle)
+            - text: W x cos(bank angle)
+- id: QXBPA
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819128
+    - BGS-811148
+    - AVEXAM-1788
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.05.02
+  templates:
+    - type: simple
+      question: "If an aeroplane performs a steady co-ordinated horizontal turn at a TAS of {{tas}} kt and a turn radius of {{radius}} m, the load factor (n) will be approximately:"
+      explanation: |-
+        In a steady co-ordinated turn the bank angle is set by the speed and the radius of the turn: the speed squared divided by the product of g and the radius gives the tangent of the bank angle. The load factor is the lift divided by the weight, which equals the square root of one plus that ratio squared.
+
+        **Solution**
+
+        Speed in metres per second: {{macro1}} m/s
+
+        Ratio: $$\frac{{(\text{TAS}\times 0.5144)}^{2}}{9.81\times \text{Turn radius}} = \frac{{({{tas}}\times 0.5144)}^{2}}{9.81\times {{radius}} }$$
+
+        Load factor: $$\sqrt{1+{\frac{{(\text{TAS}\times 0.5144)}^{2}}{9.81\times \text{Turn radius}}}^{2}} = \mathbf{ {{answer}} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}**: gives the ratio itself, which is the tangent of the bank angle, not the load factor.
+        - **{{d2}}**: forgets to square the ratio inside the root.
+        - **{{d3}}**: adds 1 to the ratio, without squaring it or taking the square root.
+      presets:
+        - variables:
+            tas: 200
+            radius: 2000
+            macro1: 102.9
+            answer: 1.1
+            d1: 0.5
+            d2: 1.2
+            d3: 1.5
+          correctAnswers:
+            - text: "1.1 "
+          wrongAnswers:
+            - text: "1.5 "
+            - text: "0.5 "
+            - text: "1.2 "
+        - variables:
+            tas: 250
+            radius: 3000
+            macro1: 128.6
+            answer: 1.1
+            d1: 0.6
+            d2: 1.2
+            d3: 1.6
+          correctAnswers:
+            - text: "1.1 "
+          wrongAnswers:
+            - text: "1.6 "
+            - text: "0.6 "
+            - text: "1.2 "
+        - variables:
+            tas: 220
+            radius: 1000
+            macro1: 113.2
+            answer: 1.6
+            d1: 1.3
+            d2: 1.5
+            d3: 2.3
+          correctAnswers:
+            - text: "1.6 "
+          wrongAnswers:
+            - text: "2.3 "
+            - text: "1.3 "
+            - text: "1.5 "
+- id: QOPVT
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815087
+    - AVEXAM-76970
+    - BGS-811164
+    - BGS-811892
+    - BGS-811891
+    - BGS-811894
+    - BGS-811893
+    - AVEXAM-18334
+    - AVEXAM-26312
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.05.03
+  templates:
+    - type: simple
+      question: "An aeroplane performs a right turn, the slip indicator is right of neutral. One way to co-ordinate the turn is to apply:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: less right bank.
+          wrongAnswers:
+            - text: more right bank.
+            - text: less right rudder.
+            - text: more left rudder.
+- id: QWUAM
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817930
+    - BGS-812636
+  annexes:
+    - id: ABLI
+  learningObjectiveIds:
+    - 081.08.01.05.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The plane is performing a (1) \_\_\_\_\_ turn to the right, according to the instrument in the picture, therefore requiring (2) \_\_\_\_\_ rudder to coordinate it.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) slipping; (2) right
+          wrongAnswers:
+            - text: (1) slipping; (2) left
+            - text: (1) skidding; (2) right
+            - text: (1) skidding; (2) left
+- id: QFKFT
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811396
+    - BGS-811171
+    - AVEXAM-22101
+    - AVEXAM-57091
+    - AVEXAM-60324
+    - AVEXAM-688
+    - BGS-811177
+    - AVEXAM-46612
+    - BGS-811172
+    - BGS-811170
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.05.04
+  templates:
+    - type: simple
+      question: "An aeroplane performs a steady horizontal, co-ordinated turn with 45 degrees of bank at 230 kt TAS. The same aeroplane with the same bank angle and speed, but at a lower mass will turn with:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the same turn radius.
+          wrongAnswers:
+            - text: a higher rate of turn.
+            - text: a smaller turn radius.
+            - text: a larger turn radius.
+- id: QQTGL
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818731
+    - AVEXAM-15328
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.05.04
+    - 081.08.01.05.05
+  templates:
+    - type: simple
+      question: "A pilot is performing flight tests on two airplanes: Airplane 1 and Airplane 2, which has double the mass of Airplane 1\\. While flying Airplane 1, the pilot performs a steady level turn with 18° angle of bank and notes the radius of turn using external visual cues and/or references. If the pilot performs the same steady level turn at the same TAS with Airplane 2, the required angle of bank to maintain the same radius of turn would…"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: still be 18°, because the centripetal force to maintain the same radius of the turn will increase by the same proportion.
+          wrongAnswers:
+            - text: be less than 18°, because the centripetal force to maintain the same radius of turn will decrease by the same proportion.
+            - text: be greater than 18°, because the centripetal force to maintain the same radius of the turn will increase by the same proportion.
+            - text: be greater than 18°, because the centripetal force to maintain the same radius of turn will quadruple.
+- id: QIKGB
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-817689
+    - BGS-811168
+    - AVEXAM-91259
+    - BGS-811169
+    - AVEXAM-34807
+    - AVEXAM-84022
+    - BGS-811900
+    - BGS-811167
+    - BGS-811173
+    - AVEXAM-40302
+    - ATPLQ-817815
+    - ATPLQ-815933
+    - ATPLQ-815688
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.05.05
+    - 081.08.01.05.07
+  templates:
+    - type: simple
+      question: "Two identical aeroplanes A and B, with the same mass, are flying steady level co-ordinated 20 degree bank turns. If the TAS of A is 130 kt and the TAS of B is 200 kt:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the load factor of A and B are the same.
+          wrongAnswers:
+            - text: the rate of turn of A is less than that of B.
+            - text: the turn radius of A is greater than that of B.
+            - text: the lift coefficient of A is less than that of B.
+        - correctAnswers:
+            - text: the lift coefficient of A is greater than that of B.
+          wrongAnswers:
+            - text: the turn radius of A is greater than that of B.
+            - text: the rate of turn of A is less than that of B.
+            - text: the load factor of A is greater than that of B.
+        - correctAnswers:
+            - text: the turn radius of A is less than that of B.
+          wrongAnswers:
+            - text: the load factor of A is greater than that of B.
+            - text: the rate of turn of A is less than that of B.
+            - text: the lift coefficient of A is less than that of B.
+- id: QSISY
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818566
+    - AVEXAM-71399
+    - AVEXAM-89753
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.05.05
+    - 081.08.01.05.10
+  templates:
+    - type: simple
+      question: A pilot maintains a constant bank angle while turning towards a given heading. If TAS increases the aeroplane’s rate of turn will (1) \_\_\_\_\_ and the turn radius will (2) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) decrease; (2) increase.
+          wrongAnswers:
+            - text: (1) increase; (2) increase.
+            - text: (1) decrease; (2) decrease.
+            - text: (1) increase; (2) decrease.
+- id: QUXTU
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811631
+    - AVEXAM-14708
+    - BGS-811902
+    - AVEXAM-64391
+    - ATPLQ-815519
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.05.05
+    - 081.08.01.05.10
+  templates:
+    - type: simple
+      question: "In order to fly a steady co-ordinated horizontal rate one turn at a higher airspeed, the bank angle must be:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: increased and the turn radius will increase.
+          wrongAnswers:
+            - text: increased and the turn radius will decrease.
+            - text: decreased and the turn radius will decrease.
+            - text: decreased and the turn radius will increase.
+- id: QNKIK
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811817
+    - AVEXAM-77681
+    - BGS-811147
+    - AVEXAM-97636
+    - AVEXAM-30622
+    - BGS-811149
+    - ATPLQ-818691
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.05.06
+  templates:
+    - type: simple
+      question: |-
+        Determine the radius of a steady, level, coordinated turn, given:
+
+        - TAS: {{tas}} kt
+        - Bank angle: {{bank}}°
+        - g: {{g}} m/s²
+
+        Use 1 kt = 0.5144 m/s. Give the radius in km, to the nearest km.
+      explanation: |-
+        In a level coordinated turn the radius is the speed squared divided by (g times the tangent of the bank angle). The speed must be in metres per second, and the result in metres is divided by 1000 to give kilometres.
+
+        **Solution**
+
+        $$
+        \frac{\frac{{(\text{TAS}\times 0.5144)}^{2}}{g\times \text{tan}(\text{Bank angle})}}{1000} = \frac{\frac{{({{tas}}\times 0.5144)}^{2}}{9.81\times \text{tan}({{bank}})}}{1000} = \mathbf{ {{answer}}\ \text{km} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} km**: uses the diameter, which is twice the radius.
+        - **{{d2}} km**: does not square the speed.
+        - **{{d3}} km**: gives the radius in metres but labels it as kilometres.
+        - **{{d4}} km**: uses knots as if they were metres per second.
+      presets:
+        - variables:
+            tas: 200
+            bank: 45
+            g: 9.81
+            answer: 1
+            d1: 2
+            d2: 10
+            d3: 1079
+            d4: 4
+          correctAnswers:
+            - text: 1 km
+          wrongAnswers:
+            - text: 2 km
+            - text: 1079 km
+            - text: 4 km
+            - text: 10 km
+        - variables:
+            tas: 500
+            bank: 30
+            g: 9.81
+            answer: 12
+            d1: 23
+            d2: 45
+            d3: 11680
+            d4: 44
+          correctAnswers:
+            - text: 12 km
+          wrongAnswers:
+            - text: 23 km
+            - text: 11680 km
+            - text: 44 km
+            - text: 45 km
+        - variables:
+            tas: 250
+            bank: 20
+            g: 9.81
+            answer: 5
+            d1: 9
+            d2: 36
+            d3: 4632
+            d4: 18
+          correctAnswers:
+            - text: 5 km
+          wrongAnswers:
+            - text: 9 km
+            - text: 4632 km
+            - text: 18 km
+            - text: 36 km
+- id: QPLFN
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816304
+    - BGS-812167
+    - BGS-811881
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.05.09
+  templates:
+    - type: simple
+      question: What is the time for a heading change of {{dh}} degrees in a steady, co-ordinated, horizontal rate-one turn? Give the answer in seconds.
+      explanation: |-
+        A rate-one turn changes the heading by 3° every second. The time for a given heading change is therefore the heading change divided by 3, and the answer is in seconds.
+
+        **Solution**
+
+        - $$\frac{\text{Heading change}}{3} = \frac{ {{dh}} }{3} = \mathbf{ {{answer}}\ \text{seconds} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} seconds**: divides by 2, as if the rate were 2° per second.
+        - **{{d2}} seconds**: multiplies by 60, a unit conversion error that treats the answer as minutes.
+        - **{{d3}} seconds**: multiplies by 40 instead of dividing.
+        - **{{d4}} seconds**: multiplies by 2 instead of dividing by 3.
+      presets:
+        - variables:
+            dh: 3
+            answer: 1
+            d1: 2
+            d2: 60
+            d3: 120
+            d4: 6
+          correctAnswers:
+            - text: 1 seconds
+          wrongAnswers:
+            - text: 2 seconds
+            - text: 120 seconds
+            - text: 6 seconds
+            - text: 60 seconds
+        - variables:
+            dh: 15
+            answer: 5
+            d1: 8
+            d2: 300
+            d3: 600
+            d4: 30
+          correctAnswers:
+            - text: 5 seconds
+          wrongAnswers:
+            - text: 8 seconds
+            - text: 600 seconds
+            - text: 30 seconds
+            - text: 300 seconds
+        - variables:
+            dh: 30
+            answer: 10
+            d1: 15
+            d2: 600
+            d3: 1200
+            d4: 60
+          correctAnswers:
+            - text: 10 seconds
+          wrongAnswers:
+            - text: 15 seconds
+            - text: 1200 seconds
+            - text: 60 seconds
+            - text: 600 seconds
+- id: QPWDO
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818090
+    - BGS-811152
+    - BGS-811876
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.05.09
+  templates:
+    - type: simple
+      question: What is the heading change of an aeroplane after {{t}} seconds in a steady, co-ordinated, horizontal rate-one turn? Give the answer in degrees.
+      explanation: |-
+        A rate-one turn changes the heading by 3° every second. The heading change is therefore three times the time in seconds.
+
+        **Solution**
+
+        - Rate one = 3° per second
+        - $$3\times \text{Time in the turn} = 3\times {{t}} = \mathbf{ {{answer}}\ \text{°} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}}°**: uses the time in seconds as the heading change in degrees.
+        - **{{d2}}°**: divides by 3 instead of multiplying.
+        - **{{d3}}°**: uses 6° per second, twice the rate-one turn rate.
+        - **{{d4}}°**: uses 2° per second instead of the rate-one turn rate.
+      presets:
+        - variables:
+            t: 30
+            answer: 90
+            d1: 30
+            d2: 10
+            d3: 180
+            d4: 60
+          correctAnswers:
+            - text: 90 °
+          wrongAnswers:
+            - text: 30 °
+            - text: 180 °
+            - text: 60 °
+            - text: 10 °
+        - variables:
+            t: 20
+            answer: 60
+            d1: 20
+            d2: 7
+            d3: 120
+            d4: 40
+          correctAnswers:
+            - text: 60 °
+          wrongAnswers:
+            - text: 20 °
+            - text: 120 °
+            - text: 40 °
+            - text: 7 °
+- id: QFVRS
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds:
+    - QLHAC
+    - QGDMK
+  externalQuestionIds:
+    - ATPLQ-812168
+    - AVEXAM-85229
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.05.11
+  templates:
+    - type: simple
+      question: "A light aircraft flying straight and level has a stall speed of 100 kts. It banks to an angle of 30°. Calculate the load factor and stall speed in this turn:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Load factor = 1.15; Stall speed = 107 kts.
+          wrongAnswers:
+            - text: Load factor = 1.15; Stall speed = 115 kts.
+            - text: Load factor = 1.07; Stall speed = 107 kts.
+            - text: Load factor = 1.07; Stall speed = 115 kts.
+- id: QGDMK
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds:
+    - QFVRS
+  externalQuestionIds:
+    - ATPLQ-814683
+    - AVEXAM-86577
+    - BGS-812814
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.05.11
+  templates:
+    - type: simple
+      question: |-
+        VS \= 120 kt   
+         Bank angle = 25º   
+         What is the load factor and stall speed in the turn?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VS \= 126; Load factor = 1.1
+          wrongAnswers:
+            - text: VS \= 136; Load factor = 1.2
+            - text: VS \= 132; Load factor = 1.1
+            - text: VS \= 136; Load factor = 1.4
+    - type: simple
+      question: |-
+        Given the following information, calculate (1) the load factor and (2) the stall speed in a turn.
+        VS1G: 100 kt
+        Bank angle: 30°
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) 1.15; (2) 107
+          wrongAnswers:
+            - text: (1) 2.00; (2) 141
+            - text: (1) 1.15; (2) 115
+            - text: (1) 2.00; (2) 200
+- id: QLHAC
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds:
+    - QFVRS
+  externalQuestionIds:
+    - ATPLQ-816784
+    - AVEXAM-27135
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.05.11
+  templates:
+    - type: simple
+      question: "A light aircraft flying straight and level has a stall speed of 114 kt. It banks to an angle of 25°. Calculate the load factor and stall speed in this turn:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Load factor = 1.10; Stall speed = 120 kt.
+          wrongAnswers:
+            - text: Load factor = 1.10; Stall speed = 132 kt.
+            - text: Load factor = 1.10; Stall speed = 126 kt.
+            - text: Load factor = 1.15; Stall speed = 107 kt.
+- id: QLXTR
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818071
+    - AVEXAM-94255
+    - BGS-812394
+  annexes:
+    - id: ABSM
+  learningObjectiveIds:
+    - 081.08.01.05.12
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure Tromso chart 11-2 from Jeppesen GSPRM 2017.  
+        During the missed approach for Tromso, Norway (ENTC) ILS Rwy 19, the initial turn for an approach category C aeroplane must be performed at a speed not exceeding 160 kt, as otherwise you might...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: exceed the calculated radius of turn and thus fly outside the protected area of the procedure.
+          wrongAnswers:
+            - text: NOT be able to comply with the missed approach minimum climb gradient requirements.
+            - text: NOT be able to complete the missed approach turn within 7.7 DME TR in tailwind conditions and thus fly close to terrain.
+            - text: exceed the maximum speed for the final missed approach segment for the aircraft approach category.
+- id: QVAIY
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819895
+    - AVEXAM-54624
+    - BGS-812444
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.05.13
+  templates:
+    - type: simple
+      question: What can result if excessive rudder is used to tighten a low speed turn?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A skid which could lead to spin.
+          wrongAnswers:
+            - text: A slip which could lead to a stall.
+            - text: Excessive pitch up which could lead to a stall.
+            - text: Excessive pitch down, which could lead to a high rate dive.
+- id: QYHCZ
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816031
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.01.05.13
+  templates:
+    - type: simple
+      question: What could happen if the pilot of a large transport aircraft applied full rudder to turn right during the final approach to land?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The right wing could stall due to a skid.
+          wrongAnswers:
+            - text: The aircraft's fin could stall due to sideslip.
+            - text: "The aircraft will make a smooth turn without any issues. "
+            - text: "The right wing could stall due to increased drag. "
+- id: QSJZS
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819797
+    - AVEXAM-32627
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.01.01
+  templates:
+    - type: simple
+      question: While a multi engine aeroplane is taking off on a wet runway, the aeroplane starts becoming uncontrollable with significant yaw. This is due to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: asymmetric thrust.
+          wrongAnswers:
+            - text: the CG being close to the forward limit.
+            - text: the slipstream effect.
+            - text: the gyroscopic effect.
+- id: QJCYY
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812366
+    - AVEXAM-28850
+    - ATPLQ-818221
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.01.02
+    - 081.08.02.01.04
+    - 081.08.02.04.01
+  templates:
+    - type: simple
+      question: A light twin-engine piston aircraft with clockwise rotating propellers has suffered a failure of the right engine in flight. Which of the following situations would give the worst handling characteristics if the aircraft has to perform a balked landing (go-around) after touchdown?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Low weight, crosswind from the right.
+          wrongAnswers:
+            - text: Low weight, crosswind from the left.
+            - text: High weight, crosswind from the right.
+            - text: High weight, crosswind from the left.
+    - type: simple
+      question: While accelerating for take-off in a twin-engine aircraft with propellers turning clockwise (as seen from the pilot's seat), the left engine fails. Under which wind condition would maintaining directional control be most difficult?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Left crosswind.
+          wrongAnswers:
+            - text: Right crosswind.
+            - text: No significant influence.
+            - text: Tailwind.
+- id: QOBNM
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819176
+    - AVEXAM-51167
+    - BGS-811180
+    - AVEXAM-61776
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.01.03
+  templates:
+    - type: simple
+      question: Which statement is correct about an aeroplane, that has experienced a left engine failure and continues afterwards in straight and level cruise flight with wings level?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: turn indicator neutral, slip “ball” neutral.
+          wrongAnswers:
+            - text: turn indicator left of neutral, slip “ball” neutral.
+            - text: turn indicator left of neutral, slip “ball” left of neutral.
+            - text: turn indicator neutral, slip “ball” left of neutral.
+- id: QOSUH
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816217
+    - AVEXAM-95674
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.01.04
+  templates:
+    - type: multiple-correct
+      question: Which of the following have an effect on rudder force in asymmetric flight?
+      explanation: ""
+      options:
+        - text: Rudder deflection
+          correct: true
+        - text: Thrust setting
+          correct: false
+        - text: CG
+          correct: true
+        - text: Mass
+          correct: false
+        - text: TAS
+          correct: false
+        - text: IAS
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QPZPN
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818069
+    - BGS-811179
+    - AVEXAM-12541
+    - AVEXAM-34712
+    - BGS-811178
+    - ATPLQ-811101
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.01.04
+    - 081.08.02.02.03
+  templates:
+    - type: simple
+      question: During a take-off roll with a strong crosswind from the right, a four-engine jet aeroplane with wing-mounted engines experiences an engine failure. The failure of which engine will cause the greatest control problem?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The right outboard engine.
+          wrongAnswers:
+            - text: The right inboard engine.
+            - text: The left outboard engine.
+            - text: The left inboard engine.
+        - correctAnswers:
+            - text: The left outboard engine.
+          wrongAnswers:
+            - text: The left inboard engine.
+            - text: The right outboard engine.
+            - text: The right inboard engine.
+- id: QDJEZ
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814272
+    - AVEXAM-28237
+    - BGS-811905
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.02.02
+    - 081.08.02.02.03
+  templates:
+    - type: simple
+      question: A four-engine aeroplane has an engine failure just after take-off at the maximum take-off thrust setting. The resulting moment around the normal axis will be greatest when an...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: outboard engine fails and the airport is at low altitude.
+          wrongAnswers:
+            - text: inboard engine fails and the airport is at high altitude.
+            - text: outboard engine fails and the airport is at high altitude.
+            - text: inboard engine fails and the airport is at low altitude.
+- id: QJKZJ
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814899
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.02.02
+    - 081.08.02.11.01
+  templates:
+    - type: simple
+      question: While flying straight and level flight, maintaining constant IAS, one engine of a twin-engine propeller aircraft suddenly becomes INOP. If density decreases, thrust will (1) \_\_\_\_\_ and the yawing moment (2) \_\_\_\_\_.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) decrease; (2) decrease
+          wrongAnswers:
+            - text: (1) increase; (2) increase
+            - text: (1) decrease; (2) increase
+            - text: (1) increase; (2) decrease
+- id: QDFRY
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819633
+    - AVEXAM-40279
+    - BGS-811420
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.02.03
+  templates:
+    - type: simple
+      question: The effects of the yawing moment caused by an engine failure in a twin-engine aeroplane will be greater when the distance between the operating engine and the CG (thrust arm) is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: greater.
+          wrongAnswers:
+            - text: less.
+            - text: less than the distance between the rudder and the CG.
+            - text: greater than the distance between the rudder and the CG.
+- id: QTLTZ
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812390
+    - BGS-812034
+    - AVEXAM-75423
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.02.03
+  templates:
+    - type: simple
+      question: The strength of the yawing moment caused by an engine failure on a twin-engine aeroplane...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is independent of the location (fore or aft) of the CG.
+          wrongAnswers:
+            - text: will be greater when the CG is located at the forward CG limit.
+            - text: will be greater when the CG is located at the aft CG limit.
+            - text: will be greater when the CG is located halfway between the forward and aft CG limits.
+- id: QZATD
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816859
+    - BGS-812714
+    - AVEXAM-14896
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.02.04
+  templates:
+    - type: simple
+      question: What should the pilot do to prevent uncontrollable yaw in a twin-engine aircraft if one engine fails and the speed is below VMC?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Close the throttle on the operating engine.
+          wrongAnswers:
+            - text: Set full throttle on the operating engine.
+            - text: Apply rudder.
+            - text: Apply rudder and ailerons.
+- id: QJHOS
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818318
+    - AVEXAM-69983
+    - BGS-812045
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.03.01
+  templates:
+    - type: simple
+      question: A turboprop aeroplane has suffered an engine failure. The use of bank angle towards the live engine to tilt the lift vector...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: balances the rudder side force, creating a sideways component opposite to the rudder force.
+          wrongAnswers:
+            - text: counteracts the roll caused by uneven lift distribution due to the loss of slipstream on the side of the failed engine.
+            - text: increases the sideslip-induced side force on the fin, in order to minimise VMC.
+            - text: increases the rudder side force, giving more rudder authority to stop the yaw.
+- id: QFGBG
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-814077
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.03.02
+  templates:
+    - type: simple
+      question: After an engine failure on a twin-engine aircraft, banking towards the live engine is limited to 5 degrees. What is correct if greater angles of bank are used?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The risk of fin stall increases.
+          wrongAnswers:
+            - text: The Lift required decreases.
+            - text: The risk of fin stall decreases.
+            - text: The lateral component of Weight decreases.
+- id: QMFKP
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813833
+    - BGS-812584
+    - BGS-811415
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.03.02
+    - 081.08.02.03.03
+  templates:
+    - type: multiple-correct
+      question: Which of the following statements are correct with regards to fin angle of attack, sideslip, and rudder effectiveness, following an engine failure?
+      explanation: ""
+      options:
+        - text: The greater the sideslip, the greater the fin angle of attack.
+          correct: true
+        - text: Excessive sideslip may cause fin stall.
+          correct: true
+        - text: The greater the sideslip, the greater the rudder effectiveness.
+          correct: false
+        - text: Excessive sideslip may cause fin stall, but only at a low aeroplane mass.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QRNNW
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811002
+    - BGS-812400
+    - AVEXAM-94997
+  annexes:
+    - id: AXOS
+  learningObjectiveIds:
+    - 081.08.02.03.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        The annex illustrates an aeroplane suffering an engine failure, while flying at the normal cruising speed. After dealing appropriately with the failure, the pilot prepares the aeroplane for landing. The pilot maintains wings level as the aeroplane is slowing down; as the airspeed decreases, larger variations in rudder input are required to maintain direction, even if thrust remains constant. One reason for this is because the…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: amount of sideslip increases as speed decreases, making the airflow arrive at the vertical stabiliser at a greater angle, thereby reducing the rudder’s effectiveness.
+          wrongAnswers:
+            - text: amount of sideslip decreases with speed, making the airflow arrive at the vertical stabiliser at a smaller angle, thereby reducing the rudder’s effectiveness.
+            - text: right side of the vertical stabiliser is stalling, since the sideslip, combined with the rudder input, results in an airflow that is beyond the stabiliser’s critical angle of attack.
+            - text: left side of the vertical stabiliser is stalling since the rudder increases the effective camber to the point where the airflow separates, thereby reducing the rudder’s effectiveness.
+- id: QVZHR
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-813068
+    - AVEXAM-52869
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.03.03
+  templates:
+    - type: simple
+      question: Which considerations have to be taken into account by the pilot when flying a multi-engine aircraft with a failed left engine, causing a sideslip, and the nose pointed to the right?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The angle of attack AoA of the fin increases when there is an increase in rudder input to the operating engine side of the aircraft.
+          wrongAnswers:
+            - text: The pilot should apply full rudder input to the left to counteract the sideslip and nose deviation to the right caused by the left engine failure.
+            - text: Throttle should be reduced on the operating engine to correct the sideslip.
+            - text: The pilot should apply full power on the operating engine to counteract the left engine failure, without any additional consequences.
+- id: QATKN
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811949
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.04.01
+  templates:
+    - type: simple
+      question: A flight instructor is teaching a student of a multi-engine piston airplane the practice of an engine failure. What is the most favourable configuration during the first engine failure exercise?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: An airplane mass of 4 400 lbs so that the rudder has greater effectiveness.
+          wrongAnswers:
+            - text: An airplane mass of 4 400 lbs so that the resultant yaw from the engine failure is minimized.
+            - text: An airplane mass of 3 800 lbs so that the resultant yaw from the engine failure is minimized.
+            - text: An airplane mass of 3 800 lbs so that the rudder has greater effectiveness.
+- id: QDPSV
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-815776
+    - BGS-811365
+    - AVEXAM-17096
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.04.01
+  templates:
+    - type: simple
+      question: |-
+        A Flight Instructor is about to start a training flight with a student pilot on a multi-engine aeroplane, the lesson is on aeroplane control during engine failures. The training syllabus for this lesson includes practising engine failures during the cruise phase of flight.Which of the following possible conditions would be beneficial for this training flight and assist the student pilot with aircraft controllability?
+
+        Aircraft MTOW 6000 kg. An aeroplane mass of...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 5600 kg, for better rudder effectiveness.
+          wrongAnswers:
+            - text: 2800 kg, for less yawing moment due to asymmetric thrust.
+            - text: 2800 kg, for better rudder effectiveness.
+            - text: 5600 kg, for less yawing moment due to asymmetric thrust.
+- id: QJTNG
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818788
+    - AVEXAM-7014
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.04.01
+  templates:
+    - type: simple
+      question: A transport aircraft needs to be flown back to the maintenance facility empty following a cabin pressurisation issue. What should the crew be aware of regarding the one-engine inoperative controllability after takeoff?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A decreased safety margin to VMC due to the low operating speeds associated with low mass
+          wrongAnswers:
+            - text: "An increased safety margin to VMC due to the low operating speeds associated with low mass "
+            - text: "An increased safety margin to VMC due to the high rudder ineffectiveness at low altitudes "
+            - text: A decreased safety margin to VMC due to the high rudder ineffectiveness at low altitudes
+- id: QEOQN
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-811211
+    - AVEXAM-46637
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.08.01
+  templates:
+    - type: simple
+      question: An aeroplane has an engine failure in flight, and the pilot flies at the slowest speed possible to remain controllable. The speed is called (1) _____, and banking toward the (2) _____ engine increases the load on the vertical fin.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) VMC; (2) inoperative.
+          wrongAnswers:
+            - text: (1) VMCG; (2) inoperative.
+            - text: (1) VMCG; (2) operative.
+            - text: (1) VMC; (2) operative.
+    - type: simple
+      question: During an engine failure in flight, the pilot is flying the slowest speed possible to keep control of the aircraft. This speed is called (1) ___, and banking toward the (2) ___ engine increases the load on the vertical fin.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: (1) VMC; (2) inoperative.
+          wrongAnswers:
+            - text: (1) VMCG; (2) inoperative.
+            - text: (1) VMC; (2) operative.
+            - text: (1) VMCG; (2) operative.
+- id: QFGYS
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818505
+    - AVEXAM-36864
+    - AVEXAM-26388
+    - BGS-812383
+    - BGS-811362
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.08.01
+  templates:
+    - type: simple
+      question: The calibrated airspeed in a twin-engine aircraft at which it is possible to maintain control of the aeroplane when the critical engine is suddenly made inoperative, and maintain straight flight with an angle of bank of not more than 5°, is called...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VMC.
+          wrongAnswers:
+            - text: VMCG.
+            - text: VMCL-2.
+            - text: VMU.
+- id: QDOEO
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818772
+    - ATPLQ-819132
+    - BGS-812239
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.08.03
+  templates:
+    - type: simple
+      question: "Aircraft has two wing mounted engines, and the thrust asymmetry after an engine failure will lead to a yawing moment. The least ability to oppose the yawing moment created from a failed engine occurs when the CG:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Is located at the aft limit of the CG range.
+          wrongAnswers:
+            - text: Is located at the mid-point, halfway between the forward and aft CG limits.
+            - text: Coincides with the centre of pressure.
+            - text: Is located at the forward limit of the CG range.
+    - type: simple
+      question: The least ability to oppose the yawing moment from a failed engine occurs when the CG...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is located at the aft limit of the CG range.
+          wrongAnswers:
+            - text: is located at the mid-point, halfway between the forward and aft CG limits.
+            - text: coincides with the centre of pressure.
+            - text: is located at the forward limit of the CG range.
+- id: QGRIB
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818624
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.08.03
+    - 081.08.02.09.03
+    - 081.08.02.10.03
+  templates:
+    - type: simple
+      question: Which CG position is used when determining minimum control speeds in performance? A CG...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: at the aft limit.
+          wrongAnswers:
+            - text: mid of the aft and forward limits.
+            - text: at the average position.
+            - text: at the forward limit.
+- id: QCKEV
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816247
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.09.01
+  templates:
+    - type: simple
+      question: The calibrated airspeed during approach and landing, with all engines operating, at which, when the critical engine is suddenly made inoperative, it is possible to maintain control of the aeroplane with that engine still inoperative, and maintain straight flight with an angle of bank of not more than 5°, is called...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VMCL.
+          wrongAnswers:
+            - text: VMC.
+            - text: VMCL-2.
+            - text: VMG.
+- id: QBTLG
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818422
+    - BGS-812022
+    - AVEXAM-56773
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.09.02
+  templates:
+    - type: simple
+      question: Which situation will be taken into account when defining VMCL? The aeroplane trimmed for...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: approach with all engines operating.
+          wrongAnswers:
+            - text: approach with one engine out.
+            - text: take-off with all engines operating.
+            - text: take-off with one engine out.
+- id: QEGUT
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819254
+    - AVEXAM-2515
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.09.03
+  templates:
+    - type: simple
+      question: "Select the correct statement with reference to the relationship between VMCL and CG location for a common airplane (i.e. A320 or B737):"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "A forward CG decreases VMCL. "
+          wrongAnswers:
+            - text: The CG has no influence on VMCL.
+            - text: It depends on the airplane type.
+            - text: "A forward CG increases VMCL. "
+- id: QTUHK
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818347
+    - AVEXAM-14294
+    - BGS-812591
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.10.01
+  templates:
+    - type: simple
+      question: The calibrated airspeed during the take-off run at which, when the critical engine is suddenly made inoperative, it is possible to maintain control of the aeroplane using the rudder control alone, and the lateral control to the extent of keeping the wings level to enable the take-off to be safely continued using normal piloting skill, is called...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VMCG.
+          wrongAnswers:
+            - text: V1.
+            - text: V2.
+            - text: VMC.
+- id: QJGZM
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-812931
+    - BGS-811204
+    - BGS-811205
+    - BGS-811201
+    - BGS-811202
+    - BGS-811208
+    - BGS-811203
+    - BGS-811206
+    - BGS-811207
+    - ATPLQ-812692
+    - ATPLQ-816115
+    - AVEXAM-88225
+    - ATPLQ-816444
+    - ATPLQ-814687
+    - ATPLQ-815659
+    - ATPLQ-813903
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.10.02
+  templates:
+    - type: simple
+      question: |-
+        Which of these statements about VMCG determination are correct or incorrect?
+
+        I. VMCG may be determined using both lateral and directional control.   
+        II. During VMCG determination, the lateral deviation from the runway centreline may be not more than 30 ft.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: I is incorrect, II is correct.
+          wrongAnswers:
+            - text: I is incorrect, II is incorrect.
+            - text: I is correct, II is incorrect.
+            - text: I is correct, II is correct.
+- id: QYENM
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-816591
+    - BGS-811911
+    - BGS-811917
+    - AVEXAM-3210
+    - BGS-812429
+    - AVEXAM-37882
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.10.03
+  templates:
+    - type: simple
+      question: How does the location of the CG influence VMCG?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A forward CG reduces VMCG.
+          wrongAnswers:
+            - text: The CG location does NOT influence VMCG.
+            - text: A forward CG increases VMCG.
+            - text: The CG location does NOT influence VMCG if within the permissible CG limits.
+- id: QIICK
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - BGS-811296
+    - ATPLQ-811105
+    - AVEXAM-6759
+    - AVEXAM-31497
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.02.11.02
+  templates:
+    - type: simple
+      question: If the density altitude increases, what happens to the Minimum Control Speed (VMC)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: As thrust decreases, VMC decreases.
+          wrongAnswers:
+            - text: As thrust increases, VMC increases.
+            - text: As density increases, VMC decreases.
+            - text: As density decreases, VMC increases.
+    - type: simple
+      question: For a propeller aeroplane whose operating engine produces less thrust as density altitude increases, what happens to minimum control speed in the landing configuration, V<sub>MCL</sub>, all else being equal?
+      explanation: With less thrust on the operating engine, there is a smaller asymmetric yawing moment after the other engine fails. The rudder can counter that moment at a lower indicated airspeed.
+      presets:
+        - correctAnswers:
+            - text: It decreases because asymmetric thrust is reduced.
+          wrongAnswers:
+            - text: It increases because asymmetric thrust is reduced.
+            - text: It decreases because the available rudder force increases.
+            - text: It stays constant regardless of the available engine thrust.
+- id: QALPQ
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-818004
+    - AVEXAM-10341
+    - BGS-811212
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.03.01.01
+  templates:
+    - type: simple
+      question: |-
+        Given the following characteristic points on a jet engine aeroplane’s polar curve:
+
+        1 - CL**MAX**  
+        2 - long range cruise (zero wind)  
+        3 - maximum lift to drag ratio  
+        4 - minimum rate of descent (assume zero thrust)  
+        5 - maximum range cruise (zero wind)
+
+        Arrange these points in order of increasing angle of attack:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2, 5, 3, 4, 1.
+          wrongAnswers:
+            - text: 3, 2, 5, 1, 4.
+            - text: 1, 2, 4, 3, 5.
+            - text: 4, 5, 2, 3, 1.
+- id: QRRGU
+  subjectId: "081"
+  chapterId: "081.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-819769
+  annexes: []
+  learningObjectiveIds:
+    - 081.08.03.01.01
+  templates:
+    - type: simple
+      question: After suspecting a fuel leak, the aircrew flying a jet transport aircraft decides to divert to the nearest suitable airport. At what speed should they fly?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Maximum Range Speed
+          wrongAnswers:
+            - text: MMO
+            - text: Maximum Endurance Speed
+            - text: Long Range Speed

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="292" viewBox="0 0 300 292">
+  <title>Airspeed indicator markings</title>
+  <path fill="#fff" d="M0 0h300v292H0z"/>
+  <g transform="translate(0 -22)">
+    <rect x="6" y="25" width="289" height="286" rx="37" fill="#333"/>
+    <circle cx="150" cy="168" r="138" fill="#080808"/>
+    <g fill="none">
+      <path d="M230.53 73.71A124 124 0 0 1 195.65 283.29" stroke="#fff" stroke-width="5"/>
+      <path d="M250.25 86.82A129 129 0 0 1 88.45 281.37" stroke="#1f9b54" stroke-width="5"/>
+      <path d="M88.45 281.37A129 129 0 0 1 29.57 121.77" stroke="#f4dc00" stroke-width="5"/>
+      <path d="M214.50 56.28 196.00 88.33M233.78 69.91 218.19 88.16M250.25 86.82 231.60 101.92M263.37 106.45 242.28 117.90M272.69 128.14 237.50 139.57M277.90 151.16 254.10 154.29M278.82 174.75 254.86 173.50M275.44 198.11 252.10 192.51M267.85 220.47 234.05 205.42M256.31 241.07 236.53 227.47M241.22 259.22 224.25 242.25M223.07 274.31 209.47 254.53M202.47 285.85 187.42 252.05M180.11 293.44 174.51 270.10M156.75 296.82 155.50 272.86M133.16 295.90 136.29 272.10M110.14 290.69 121.57 255.50M88.45 281.37 99.90 260.28M68.82 268.25 83.92 249.60M51.91 251.78 70.16 236.19M38.28 232.50 70.33 214.00M28.40 211.06 51.02 203.05M22.59 188.18 46.29 184.43M21.04 164.62 45.04 165.25M23.82 141.18 60.01 148.87M30.82 118.63 52.99 127.82M41.81 97.74 61.94 110.81M56.43 79.20 73.84 95.72M74.18 63.64 95.92 93.57" stroke="#fff" stroke-width="2.7"/>
+      <path d="M28.63 121.41 54.77 131.45" stroke="#ed362f" stroke-width="5"/>
+    </g>
+    <g fill="#fff" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="central">
+      <text x="188.50" y="101.32">40</text>
+      <text x="223.23" y="144.21">60</text>
+      <text x="220.34" y="199.32">80</text>
+      <text x="181.32" y="238.34">100</text>
+      <text x="126.21" y="241.23">120</text>
+      <text x="83.32" y="206.50">140</text>
+      <text x="81.53" y="153.45">160</text>
+      <text x="104.74" y="105.71">180</text>
+      <text x="150" y="127" font-size="16">AIRSPEED</text>
+      <text x="150" y="202" font-size="12">KNOTS</text>
+    </g>
+    <path d="M149 165q3-3 7 1l65 80q4 7 0 9t-8-3l-65-78q-3-5 1-9z" fill="#fff"/>
+    <circle cx="150" cy="168" r="10" fill="#453a39"/>
+    <circle cx="229" cy="74" r="13" fill="none" stroke="#df252a" stroke-width="1.5"/>
+    <path d="M257 42L229 74" fill="none" stroke="#97b5e7" stroke-width="1.7" marker-end="url(#pointer)"/>
+    <circle cx="257" cy="42" r="13" fill="#8c080e"/>
+    <text x="257" y="48" fill="#fff" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">1</text>
+    <circle cx="253" cy="90" r="13" fill="none" stroke="#df252a" stroke-width="1.5"/>
+    <path d="M280 71L253 90" fill="none" stroke="#97b5e7" stroke-width="1.7" marker-end="url(#pointer)"/>
+    <circle cx="280" cy="71" r="13" fill="#8c080e"/>
+    <text x="280" y="77" fill="#fff" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">2</text>
+    <circle cx="196" cy="282" r="17" fill="none" stroke="#df252a" stroke-width="1.5"/>
+    <path d="M245 295L196 282" fill="none" stroke="#97b5e7" stroke-width="1.7" marker-end="url(#pointer)"/>
+    <circle cx="245" cy="295" r="13" fill="#8c080e"/>
+    <text x="245" y="301" fill="#fff" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">3</text>
+    <circle cx="88" cy="282" r="17" fill="none" stroke="#df252a" stroke-width="1.5"/>
+    <path d="M36 288L88 282" fill="none" stroke="#97b5e7" stroke-width="1.7" marker-end="url(#pointer)"/>
+    <circle cx="36" cy="288" r="13" fill="#8c080e"/>
+    <text x="36" y="294" fill="#fff" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">4</text>
+    <circle cx="42" cy="121" r="16" fill="none" stroke="#df252a" stroke-width="1.5"/>
+    <path d="M30 58L42 121" fill="none" stroke="#97b5e7" stroke-width="1.7" marker-end="url(#pointer)"/>
+    <circle cx="30" cy="58" r="13" fill="#8c080e"/>
+    <text x="30" y="64" fill="#fff" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">5</text>
+  </g>
+  <defs>
+    <marker id="pointer" viewBox="0 0 7 7" markerWidth="6" markerHeight="6" refX="6" refY="3.5" orient="auto">
+      <path d="M0 0 7 3.5 0 7z" fill="#97b5e7"/>
+    </marker>
+  </defs>
+</svg>

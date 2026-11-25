@@ -1,0 +1,899 @@
+- id: QGUGZ
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.01.02.01"
+  templates:
+    - type: simple
+      question: Which gauges involve a measurement of temperature?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Engine lubricant, engine cooling fluid, cylinder head, exhaust gas, outside air, cabin air
+          wrongAnswers:
+            - text: Engine lubricant, exhaust gas, outside air, cabin air, directional gyro
+            - text: Engine lubricant, cylinder head, exhaust gas, suction, outside air, cabin air
+            - text: Engine oil, cylinder head, exhaust gas, altimeter, airspeed indicator, vertical speed indicator
+- id: QVATG
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.01.03.01"
+  templates:
+    - type: simple
+      question: Fuel quantity in small aircraft is most commonly measured through a level sensor. The European Certification Specifications CS 23 require that...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: a fuel quantity indicator must be available for each tank and the indicator must be calibrated to read "zero" during level flight when the quantity of fuel remaining in the tank is equal to the unusable fuel supply.
+          wrongAnswers:
+            - text: at least one fuel quantity indicator must be available to indicate the total amount of fuel abord an aircraft. This Indicator must be calibrated adequately to indicate the correct amount of fuel during all phases of flight.
+            - text: if the fuel indicator fails, the pilot must land at the next available airport.
+            - text: if no fuel quantity indicator is available to the pilot in flight, the pilot must check the fuel quantity before commencing the flight and recalculate the remaining fuel on board in regular intervals during the flight.
+- id: QWBTZ
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.01.01.01"
+  templates:
+    - type: simple
+      question: Which of the instruments listed below obtain their readings through pressure measurement?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Oil pressure gauge, fuel pressure gauge, manifold pressure gauge, altimeter, vertical speed indicator, airspeed indicator, suction gauge
+          wrongAnswers:
+            - text: Oil pressure gauge, fuel pressure gauge, fuel quantity gauge, manifold pressure gauge, differential pressure gauge, altimeter
+            - text: Airspeed indicator, vertical speed indicator, altimeter, directional gyro, turn and bank coordinator, oil pressure gauge, fuel pressure gauge
+            - text: Airspeed indicator, vertical speed indicator, altimeter, magnetic compass, oil pressure gauge, fuel pressure gauge
+- id: QJRWD
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.01.01"
+    - "08.02.02.01.02"
+  templates:
+    - type: simple
+      question: The Pitot / static system is required to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: measure total and static air pressure.
+          wrongAnswers:
+            - text: prevent potential static buildup on the aircraft.
+            - text: correct the reading of the airspeed indicator to zero when the aircraft is static on the ground.
+            - text: prevent icing of the Pitot tube.
+    - type: simple
+      question: Which pressure is sensed by the Pitot tube?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Total air pressure
+          wrongAnswers:
+            - text: Cabin air pressure
+            - text: Dynamic air pressure
+            - text: Static air pressure
+- id: QKWHO
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds:
+    - QKYFF
+    - QXFAM
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.03.02"
+  templates:
+    - type: simple
+      question: QFE is the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: barometric pressure at a reference datum, typically the runway threshold of an airfield.
+          wrongAnswers:
+            - text: barometric pressure adjusted to sea level, using the international standard atmosphere (ISA).
+            - text: magnetic bearing to a station.
+            - text: altitude above the reference pressure level 1013.25 hPa
+    - type: simple
+      question: When is it necessary to adjust the pressure in the reference scale of an alitimeter?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Before every flight and during cross country flights
+          wrongAnswers:
+            - text: Every day before the first flight
+            - text: Once a month before flight operation
+            - text: After maintance has been finished
+    - type: simple
+      question: The altimeter's reference scale is set to airfield pressure (QFE). What indication is shown during the flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Height above airfield
+          wrongAnswers:
+            - text: Pressure altitude
+            - text: Airfield elevation
+            - text: Altitude above MSL
+- id: QYEYU
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.03.02"
+  templates:
+    - type: simple
+      question: QNE is the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: altitude above the reference pressure level 1013.25 hPa
+          wrongAnswers:
+            - text: barometric pressure at a reference datum, typically the runway threshold of an airfield.
+            - text: magnetic bearing to a station.
+            - text: barometric pressure adjusted to sea level, using the international standard atmosphere (ISA).
+- id: QKYFF
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds:
+    - QKWHO
+    - QXFAM
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.03.04"
+  templates:
+    - type: simple
+      question: Which is the purpose of the altimeter subscale?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To reference the altimeter reading to a predetermined level such as mean sea level, aerodrome level or pressure level 1013.25 hPa
+          wrongAnswers:
+            - text: To set the reference level for the altitude decoder of the transponder
+            - text: To adjust the altimeter reading for non-standard temperature
+            - text: To correct the altimeter reading for system errors
+- id: QMWSW
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.03.03"
+    - "08.02.02.03.04"
+  templates:
+    - type: simple
+      question: In which way may an altimeter subscale which is set to an incorrect QNH lead to an incorrect altimeter reading?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: If the subscale is set to a higher than actual pressure, the indication is too high. This may lead to much closer proximity to the ground than intended
+          wrongAnswers:
+            - text: If the subscale is set to a lower than actual pressure, the indication is too high. This may lead to much closer proximity to the ground than intended
+            - text: If the subscale is set to a lower than actual pressure, the indication is too low. This may lead to much closer proximity to the ground than intended
+            - text: If the subscale is set to a higher than actual pressure, the indication is too low. This may lead to much greater heights above the ground than intended
+    - type: simple
+      question: Lower-than-standard temperature may lead to...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: an altitude indication which is too high.
+          wrongAnswers:
+            - text: a blockage of the Pitot tube by ice, freezing the altimeter indication to its present value.
+            - text: an altitude indication which is too low.
+            - text: a correct altitude indication as long as the altimeter subscale is set to correct for non-standard temperature.
+    - type: simple
+      question: During a flight in colder-than-ISA air the indicated altitude is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: higher than the true altitude.
+          wrongAnswers:
+            - text: lower than the true altitude.
+            - text: eqal to the true altitude.
+            - text: equal to the standard altitude.
+- id: QZEMM
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.03.03"
+  templates:
+    - type: simple
+      question: A flight level is a...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: pressure altitude.
+          wrongAnswers:
+            - text: density altitude.
+            - text: altitude above ground.
+            - text: true altitude.
+- id: QAOYS
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.03.03"
+  templates:
+    - type: simple
+      question: A true altitude is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: an altitude above mean sea level corrected for non-standard temperature.
+          wrongAnswers:
+            - text: a height above ground level corrected for non-standard pressure.
+            - text: a height above ground level corrected for non-standard temperature.
+            - text: a pressure altitude corrected for non-standard temperature.
+- id: QLIAQ
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.03.03"
+  templates:
+    - type: simple
+      question: During a flight in an air mass with a temperature equal to ISA and the QNH set correctly, the indicated altitude is...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: equal to the true altitude.
+          wrongAnswers:
+            - text: lower than the true altitude.
+            - text: equal to the standard atmosphere.
+            - text: higher than the true altitude.
+- id: QECLI
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.03.04"
+  templates:
+    - type: simple
+      question: Which instrument can be affected by the hysteresis error?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Altimeter
+          wrongAnswers:
+            - text: Vertical speed indicator
+            - text: Direct reading compass
+            - text: Tachometer
+- id: QNYPI
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.03.04"
+  templates:
+    - type: simple
+      question: The measurement of altitude is based on the change of the...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: static pressure.
+          wrongAnswers:
+            - text: dynamic pressure.
+            - text: differential pressure.
+            - text: total pressure.
+- id: QMOVY
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.04.01"
+  templates:
+    - type: simple
+      question: Which of the following options states the working principle of a vertical speed indicator?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Measuring the present static air pressure and comparing it to the static air pressure inside a reservoir
+          wrongAnswers:
+            - text: Total air pressure is measured and compared to static pressure
+            - text: Measuring the vertical acceleration through the displacement of a gimbal-mounted mass
+            - text: Static air pressure is measured and compared against a vacuum
+    - type: simple
+      question: The vertical speed indicator measures the difference of pressure between...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the present static pressure and the static pressure of a previous moment.
+          wrongAnswers:
+            - text: the present total pressure and the total pressure of a previous moment.
+            - text: the present dynamic pressure and the dynamic pressure of a previous moment.
+            - text: the present dynamic pressure and the static pressure of a previous moment.
+    - type: simple
+      question: A vertical speed indicator measures the difference between...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: instantaneous static pressure and previous static pressure.
+          wrongAnswers:
+            - text: instantaneous total pressure and previous total pressure.
+            - text: total pressure and static pressure.
+            - text: dynamic pressure and total pressure.
+- id: QFPRC
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.05.01"
+  templates:
+    - type: simple
+      question: Calibrated airspeed (CAS) equals...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: indicated airspeed (IAS) corrected for instrument and position error.
+          wrongAnswers:
+            - text: equivalent airspeed (EAS) corrected for altitude.
+            - text: ground speed (GS) corrected for instrument and position error.
+            - text: true airspeed (TAS) corrected for wind.
+- id: QPNCR
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.05.01"
+  templates:
+    - type: simple
+      question: At higher altitudes, true airspeed (TAS) tends to be higher than calibrated airspeed (CAS). A rough estimate of the TAS can be obtained by...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: adding 2 % of the CAS for every 1000 ft altitude.
+          wrongAnswers:
+            - text: subtracting 2 % of the CAS for every 1000 ft altitude.
+            - text: adding 10 % of the CAS for every 1000 ft altitude.
+            - text: subtracting 10 % of the CAS for every 1000 m altitude.
+- id: QXYEA
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.05.01"
+  templates:
+    - type: simple
+      question: An aircraft cruises on a heading of 180° with a true airspeed of 100 kt. The wind comes from 180° with 30 kt. Neglecting instrument and position errors, which will be the approximate reading of the airspeed indicator?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 100 kt
+          wrongAnswers:
+            - text: 130 kt
+            - text: 30 kt
+            - text: 70 kt
+- id: QAWWF
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.05.02"
+  templates:
+    - type: simple
+      question: Which of the following factors could cause an erroneous airspeed indication?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The aircraft is covered with adhesive foils
+          wrongAnswers:
+            - text: A circuit breaker was pulled
+            - text: The earth wire is still attached
+            - text: The boost pressure line is defective
+- id: QBQAD
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds:
+    - QQZFM
+    - QTVEV
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.05.02"
+  templates:
+    - type: simple
+      question: Which of the following states the working principle of an airspeed indicator?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Total air pressure is measured and compared against static air pressure.
+          wrongAnswers:
+            - text: Total air pressure is measured by the static ports and converted into a speed indication by the airspeed indicator
+            - text: Dynamic air pressure is measured by the Pitot tube and converted into a speed indication by the airspeed indicator
+            - text: Static air pressure is measured and compared against a vacuum.
+    - type: simple
+      question: What is necessary for the determination of speed (IAS) by the airspeed indicator?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The difference betweeen the total pressure and the static presssure
+          wrongAnswers:
+            - text: The difference between the total pressure and the dynamic pressure
+            - text: The difference between the standard pressure and the total pressure
+            - text: The difference between the dynamic pressure and the static pressure
+- id: QWQBN
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.05.03"
+  templates:
+    - type: simple
+      question: What values are usually marked with a red line on instrument displays?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Operational limits
+          wrongAnswers:
+            - text: Caution areas
+            - text: Recommended areas
+            - text: Operational areas
+- id: QQZFM
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds:
+    - QBQAD
+    - QTVEV
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.05.03"
+  templates:
+    - type: simple
+      question: What is the meaning of the white arc on the airspeed indicator?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Speed range for extended flaps
+          wrongAnswers:
+            - text: Speed range in bumpy air
+            - text: Speed range in smooth air
+            - text: Speed range not to exceed
+- id: QTVEV
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds:
+    - QBQAD
+    - QQZFM
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.05.03"
+  templates:
+    - type: simple
+      question: What is the meaning of the red range on the airspeed indicator?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Speed which must not be exceeded regardless of circumstances
+          wrongAnswers:
+            - text: Speed which must not be exceeded within bumpy air
+            - text: Speed which must not be exceeded with flaps extended
+            - text: Speed which must not be exceeded in turns with more than 45° bank
+- id: QCKNJ
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.07.01"
+  templates:
+    - type: simple
+      question: The compass error caused by the aircraft's magnetic field is called...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: deviation.
+          wrongAnswers:
+            - text: variation.
+            - text: declination.
+            - text: inclination.
+- id: QKLOA
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.07.01"
+  templates:
+    - type: simple
+      question: The indication of a magnetic compass deviates from magnetic north direction due to what errors?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Deviation, turning and acceleration errors
+          wrongAnswers:
+            - text: Gravity and magnetism
+            - text: Inclination and declination of the earth's magnetic field
+            - text: Variation, turning and acceleration errors
+- id: QBNIC
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.01.02"
+  templates:
+    - type: simple
+      question: Which of the mentioned cockpit instruments is connected to the pitot tube?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Airspeed indicator
+          wrongAnswers:
+            - text: Vertical speed indicator
+            - text: Direct-reading compass
+            - text: Altimeter
+    - type: simple
+      question: Which cockpit instruments are connected to the static port?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Altimeter, vertical speed indicator, airspeed indicator
+          wrongAnswers:
+            - text: Airspeed indicator, direct-reading compass, slip indicator
+            - text: Altimeter, slip indicator, navigational computer
+            - text: Airspeed indicator, altimeter, direct-reading compass
+- id: QSIAW
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.07.02"
+  templates:
+    - type: simple
+      question: An aircraft in the northern hemisphere intends to turn on the shortest way from a heading of 270° to a heading of 360°. At approximately which indication of the magnetic compass should the turn be terminated?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 330°
+          wrongAnswers:
+            - text: 360°
+            - text: 270°
+            - text: 30°
+    - type: simple
+      question: An aircraft in the northern hemisphere intends to turn on the shortest way from a heading of 360° to a heading of 270°. At approximately which indication of the magnetic compass should the turn be terminated?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 270°
+          wrongAnswers:
+            - text: 300°
+            - text: 360°
+            - text: 240°
+    - type: simple
+      question: An aircraft in the northern hemisphere intends to turn on the shortest way from a heading of 030° to a heading of 180°. At approximately which indicated magnetic heading should the turn be terminated?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 210°
+          wrongAnswers:
+            - text: 360°
+            - text: 150°
+            - text: 180°
+- id: QUQMX
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.01.01"
+  templates:
+    - type: simple
+      question: The term "static pressure" is defined as pressure...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: of undisturbed airflow.
+          wrongAnswers:
+            - text: inside the aeroplane cabin.
+            - text: resulting from orderly flow of air particles.
+            - text: sensed by the pitot tube.
+- id: QYLSI
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.01.01"
+  templates:
+    - type: simple
+      question: What does the dynamic pressure depend directly on?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Air density and airflow speed squared
+          wrongAnswers:
+            - text: Air pressure and air temperature
+            - text: Air density and lift coefficient
+            - text: Lift- and drag coefficient
+- id: QANFH
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.06.01"
+  templates:
+    - type: simple
+      question: What is a cause for the dip error on the direct-reading compass?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Inclination of earth's magnetic field lines
+          wrongAnswers:
+            - text: Deviation in the cockpit
+            - text: Acceleration of the aeroplane
+            - text: Temperature variations
+- id: QIJAL
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.03.01.02"
+  templates:
+    - type: simple
+      question: What behaviour is shown by a rotating gyro in space?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It tends to maintain its position in space
+          wrongAnswers:
+            - text: It moves in accordance with the body surrounding it
+            - text: It swings from east to west like a pendulum
+            - text: It moves in circles with a stadily decreasing radius
+    - type: simple
+      question: A gyro which is rotating in space responds to forces being applied to it by an evasive movement...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: at an angle of 90° to the force being applied.
+          wrongAnswers:
+            - text: at an angle of 45° to the force being applied.
+            - text: in a northern direction.
+            - text: at an angle of 180° to the force being applied.
+- id: QEDGU
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds:
+    - QXEVM
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.03.02.01"
+  templates:
+    - type: simple
+      question: At a constant rate of turn of 3° per second, which airspeed determines the bank angle?
+      explanation: A rate-one turn follows a circular path relative to the surrounding air mass. At a higher true airspeed it requires more bank to maintain the same turn rate.
+      presets:
+        - correctAnswers:
+            - text: True airspeed
+          wrongAnswers:
+            - text: Calibrated airspeed
+            - text: Indicated airspeed
+            - text: Groundspeed
+- id: QFVPD
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.03.02.01"
+  templates:
+    - type: simple
+      question: A turn and bank (or turn and slip) coordinator provides information regarding...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the rate of turn and coordination, i.e. slip or skid, of the turn.
+          wrongAnswers:
+            - text: the coordination of the turn and slip angle.
+            - text: the pitch and bank angle of the aircraft.
+            - text: the rate of turn and bank angle of the aircraft.
+- id: QTWRK
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.05.02"
+  templates:
+    - type: simple
+      question: The airspeed indicator is unservicable. The aeroplane may only be operated...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: when the airspeed indicator is fully functional again.
+          wrongAnswers:
+            - text: when a GPS with speed indication is used during flight.
+            - text: if no maintenance organisation is around.
+            - text: if only airfield patterns are flown.
+- id: QIUFY
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.05.01.01"
+  templates:
+    - type: simple
+      question: Which light colour advises the pilot to the condition "corrective action may be required in the future"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Amber (orange)
+          wrongAnswers:
+            - text: Red
+            - text: Blue
+            - text: Green
+- id: QZRLT
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.05.03"
+  templates:
+    - type: simple
+      question: The Caution Area is marked on an airspeed indicator by what colour?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yellow
+          wrongAnswers:
+            - text: Green
+            - text: Red
+            - text: White
+- id: QRNKN
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.03.03.01"
+  templates:
+    - type: simple
+      question: An attitude director indicator (ADI) combines the information provided by...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the attitude indicator and the flight director.
+          wrongAnswers:
+            - text: the directional gyro and the rate gyro.
+            - text: the attitude indicator and the relative bearing indicator.
+            - text: the attitude indicator and the radio magnetic indicator.
+- id: QRLAS
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.06.01.01"
+  templates:
+    - type: simple
+      question: What does the abbreviation HSI stand for?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Horizontal Situation Indicator
+          wrongAnswers:
+            - text: Hybernating System Indication
+            - text: Horizontal Slip Indicator
+            - text: Horrifying Steep Inclination
+- id: QBLWJ
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.06.01.01"
+  templates:
+    - type: simple
+      question: A horizontal situation indicator (HSI) combines the information provided by...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the directional gyro and the VHF navigation receiver.
+          wrongAnswers:
+            - text: the directional gyro and the flight director.
+            - text: the rate gyro and the slip indicator.
+            - text: the attitude indicator and the flight director.
+- id: QQOGI
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.03.04"
+  templates:
+    - type: simple
+      question: What difference in altitude is shown by an altimeter, if the reference pressure scale setting is changed from 1000 hPa to 1010 hPa?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 80 m more than before
+          wrongAnswers:
+            - text: 80 m less than before
+            - text: Values depending on QNH
+            - text: Zero
+- id: QPSYY
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.04.01"
+  templates:
+    - type: simple
+      question: A vertical speed indicator connected to a too big equalizing tank results in...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: indication too high
+          wrongAnswers:
+            - text: no indication
+            - text: mechanical overload
+            - text: indication too low
+- id: QNZYA
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.02.06.01"
+  templates:
+    - type: simple
+      question: The term "inclination" is defined as...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: angle between earth's magnetic field lines and horizontal plane.
+          wrongAnswers:
+            - text: deviation induced by electrical fields.
+            - text: angle between aeroplane's longitudinal axis and true north.
+            - text: angle between magnetic and true north.
+- id: QBMGB
+  subjectId: "08"
+  chapterId: "08.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "08.02.03.02.01"
+  templates:
+    - type: simple
+      question: What does the slip indicator show?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Apparent vertical
+          wrongAnswers:
+            - text: Rate of turn
+            - text: Vertical to horizon
+            - text: Aeroplane's bank
+    - type: simple
+      question: The slip indicator's ball (apparent vertical) has moved to the right during a right turn. By what actions may the ball led back to middle position?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Reduce bank, increase rate of turn
+          wrongAnswers:
+            - text: Increase bank, increase rate of turn
+            - text: Reduce speed, increase bank
+            - text: Reduce rate of turn, reduce bank

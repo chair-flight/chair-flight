@@ -1,0 +1,102 @@
+- id: QIVGU
+  subjectId: "01"
+  chapterId: "01.02"
+  relatedQuestionIds:
+    - QHDCS
+    - QDKPN
+  annexes: []
+  learningObjectiveIds:
+    - "01.02.02"
+  templates:
+    - type: simple
+      question: What is the meaning of the abbreviation "ARC"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Airworthiness Review Certificate
+          wrongAnswers:
+            - text: Airworthiness Recurring Control
+            - text: Airspace Rulemaking Committee
+            - text: Airspace Restriction Criteria
+- id: QDKPN
+  subjectId: "01"
+  chapterId: "01.02"
+  relatedQuestionIds:
+    - QHDCS
+    - QIVGU
+  annexes: []
+  learningObjectiveIds:
+    - "01.02.02"
+  templates:
+    - type: simple
+      question: The "Certificate of Airworthiness" is issued by the state...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In which the aircraft is registered.
+          wrongAnswers:
+            - text: In which the aircraft is constructed.
+            - text: Of the residence of the owner.
+            - text: In which the airworthiness review is done.
+- id: QHDCS
+  subjectId: "01"
+  chapterId: "01.02"
+  relatedQuestionIds:
+    - QIVGU
+    - QDKPN
+  annexes: []
+  learningObjectiveIds:
+    - "01.02.02"
+  templates:
+    - type: simple
+      question: Which validity does the "Certificate of Airworthiness" have?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Unlimited
+          wrongAnswers:
+            - text: 6 months
+            - text: 12 months
+            - text: 12 years
+- id: QSFWZ
+  subjectId: "01"
+  chapterId: "01.02"
+  relatedQuestionIds: []
+  annexes: []
+  learningObjectiveIds:
+    - "01.02.02"
+  templates:
+    - type: multiple-correct
+      question: Which of the following documents have to be on board for an international flight?
+      explanation: ""
+      options:
+        - text: Certificate of aircraft registration
+          correct: true
+        - text: Certificate of airworthiness
+          correct: true
+        - text: Airworthiness review certificate
+          correct: true
+        - text: EASA Form 1
+          correct: false
+        - text: Aeroplane logbook
+          correct: true
+        - text: Appropriate papers for every crew member
+          correct: true
+        - text: Technical logbook
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 3
+            - 6
+        - show:
+            - 2
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5

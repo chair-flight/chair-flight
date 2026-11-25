@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="908" height="1080" viewBox="0 0 908 1080" role="img" aria-labelledby="title desc" xml:lang="en-GB">
+<title id="title">737-800 Wing Anti-Ice System Schematic</title>
+<desc id="desc">Ground configuration with wing anti-ice on, engines at idle thrust and low duct temperatures. Shows the two wing anti-ice control valves, three heated slats per wing, and the related control and indication circuits.</desc>
+<metadata>Boeing 737-800 FCOM Rev 40, 3.20.8. Redrawn as SVG.</metadata>
+<defs>
+  <marker id="arrow" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="13" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto">
+    <path d="M0 0 12 5 0 10Z" fill="#ededed"/>
+  </marker>
+  <g id="toggle-body">
+    <circle r="18" fill="#a6a6a6" stroke="#393939" stroke-width="2"/>
+    <circle r="13" fill="#676767" stroke="#393939" stroke-width="2"/>
+    <circle r="9" fill="#8c8c8c" stroke="#393939" stroke-width="1.6"/>
+  </g>
+  <g id="toggle-lever" stroke="#393939" stroke-width="1.7">
+    <path d="M-4 0a4 4 0 0 1 8 0l2 10H-6z" fill="#b7b7b7"/>
+    <circle cy="12" r="6.6" fill="#cecece"/>
+  </g>
+  <g id="toggle"><use href="#toggle-body"/><use href="#toggle-lever"/></g>
+  <g id="shutoff">
+    <rect x="-21" y="-20" width="42" height="40" rx="1.5" fill="#ededed" stroke="#111" stroke-width="2"/>
+    <path d="M0-19V19" stroke="#111" stroke-width="4"/>
+    <circle r="4.7" fill="#ededed" stroke="#111" stroke-width="2"/>
+  </g>
+  <g id="contact"><circle r="3.5" fill="#080808" stroke="#ededed" stroke-width="2"/></g>
+  <g id="junction"><circle r="4.5" fill="#ededed"/></g>
+</defs>
+<style>
+  svg {background:#080808;color:#ededed}
+  text {font-family:Menlo,Consolas,"Liberation Mono",monospace}
+  .wire,.signal {fill:none;stroke:#ededed;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round}
+  .signal {stroke-dasharray:19 10 3 10}
+  .arr {marker-end:url(#arrow)}
+  .duct-edge,.duct {fill:none;stroke-linecap:butt;stroke-linejoin:round}
+  .duct-edge {stroke:#ededed;stroke-width:15}
+  .duct {stroke:#c41c1c;stroke-width:12}
+  .component {fill:#080808;stroke:#ededed;stroke-width:2.1}
+</style>
+<rect x="0" y="0" width="908" height="1080" fill="#080808"/>
+<g fill="#ededed">
+<path d="M353 27h202l-6 27 15 62-12 20 6 29-10 12 15 52-10 48H353Z" fill="#797979"/>
+<rect x="366" y="102" width="88" height="40" fill="#173a72" stroke="#2d70ba" stroke-width="1.5"/>
+<text x="410" y="118.685" font-size="13" text-anchor="middle" fill="#ededed"><tspan x="410" dy="0">L VALVE</tspan><tspan x="410" dy="14.95">OPEN</tspan></text>
+<rect x="454" y="102" width="88" height="40" fill="#173a72" stroke="#2d70ba" stroke-width="1.5"/>
+<text x="498" y="118.685" font-size="13" text-anchor="middle" fill="#ededed"><tspan x="498" dy="0">R VALVE</tspan><tspan x="498" dy="14.95">OPEN</tspan></text>
+<text x="452" y="170" font-size="18" text-anchor="middle">WING ANTI-ICE</text>
+<use href="#toggle" transform="translate(452 218) scale(1.3)"/>
+<text x="480" y="193" font-size="13" text-anchor="start">OFF</text>
+<text x="480" y="233" font-size="13" text-anchor="start">ON</text>
+<path class="wire arr" d="M312 757 237 625H18V122H365"/>
+<path class="wire arr" d="M601 759 684 625h202V122H543"/>
+<path class="wire" d="M452 245V435"/>
+<path class="signal" d="M184 343H417"/>
+<path class="signal" d="M452 332H819V457H665"/>
+<path class="signal" d="M452 456H634"/>
+<path class="signal" d="M479 457V891M331 891H575M332 891l-44-71m287 71 46-71"/>
+<path class="wire arr" d="M452 457V838H357l-29-42"/>
+<path class="wire arr" d="M452 838h94l29-42"/>
+<path class="component" d="M450 438l-9 19h10"/>
+<path class="wire" d="M451 449h22"/>
+<use href="#contact" transform="translate(452 332)"/>
+<use href="#contact" transform="translate(452 357)"/>
+<use href="#contact" transform="translate(452 437)"/>
+<use href="#contact" transform="translate(452 457)"/>
+<use href="#junction" transform="translate(452 838)"/>
+<use href="#junction" transform="translate(479 891)"/>
+<use href="#junction" transform="translate(634 457)"/>
+<use href="#junction" transform="translate(665 457)"/>
+<path class="wire" d="M428 351h22"/>
+<path class="wire arr" d="M426 352h7"/>
+<path class="wire arr" d="M426 332h7"/>
+<text x="321" y="314" font-size="18" text-anchor="start"><tspan x="321" dy="0">ABOVE T.O.</tspan><tspan x="321" dy="21.42">WARNING</tspan></text>
+<text x="464" y="360" font-size="18" text-anchor="start"><tspan x="464" dy="0">BELOW T.O.</tspan><tspan x="464" dy="21.42">WARNING</tspan></text>
+<text x="378" y="423" font-size="18" text-anchor="start"><tspan x="378" dy="0">HIGH</tspan><tspan x="378" dy="21.42">TEMP</tspan></text>
+<text x="400" y="480" font-size="18" text-anchor="start"><tspan x="400" dy="0">LOW</tspan><tspan x="400" dy="21.42">TEMP</tspan></text>
+<text x="458" y="432" font-size="18" text-anchor="start">THERMAL SWITCH</text>
+<path class="wire" d="M625 432h50v7h-18v111h22m-54-111h18v111h-21m0 13h57m-98 35h136"/>
+<rect class="component" x="592" y="515" width="30" height="82" rx="12"/>
+<rect class="component" x="679" y="515" width="29" height="82" rx="12"/>
+<path class="wire arr" d="M634 420v10"/>
+<path class="wire arr" d="M665 420v10"/>
+<text x="675" y="421" font-size="18" text-anchor="start">GROUND</text>
+<text x="675" y="475" font-size="18" text-anchor="start">AIR</text>
+<text x="715" y="533" font-size="17" text-anchor="start"><tspan x="715" dy="0">AIR-GROUND</tspan><tspan x="715" dy="20.23">SAFETY SENSORS</tspan></text>
+<text x="78" y="290" font-size="18" text-anchor="start"><tspan x="78" dy="0">THRUST</tspan><tspan x="78" dy="21.42">LEVERS</tspan></text>
+<path class="wire" d="M80 416v-30h11q17-27 48-27t48 43h10v14ZM88 415q5-44 46-44t45 44M143 361l35-49q4-5 10 0l4 4-28 56M164 375l17-23 5 3-17 24M139 330l36-14m13-3 21-3m-15 12 14-5"/>
+<circle class="component" cx="138" cy="333" r="5"/>
+<circle class="component" cx="209" cy="315" r="6"/>
+<circle class="component" cx="209" cy="315" r="2"/>
+<path class="duct-edge" d="M400 752h-34L60 915M56 884l12 26M149 833l11 26M240 783l11 26M10 907l79-44m12-7 81-44m12-7 80-43"/>
+<path class="duct" d="M400 752h-34L60 915M56 884l12 26M149 833l11 26M240 783l11 26M10 907l79-44m12-7 81-44m12-7 80-43"/>
+<use href="#shutoff" transform="translate(321 779) rotate(60)"/>
+<g transform="translate(906 0) scale(-1 1)">
+<path class="duct-edge" d="M400 752h-34L60 915M56 884l12 26M149 833l11 26M240 783l11 26M10 907l79-44m12-7 81-44m12-7 80-43"/>
+<path class="duct" d="M400 752h-34L60 915M56 884l12 26M149 833l11 26M240 783l11 26M10 907l79-44m12-7 81-44m12-7 80-43"/>
+<use href="#shutoff" transform="translate(321 779) rotate(60)"/>
+</g>
+<path class="component" d="M279 809l10 17m-10 3 20-11 4 8-20 11Z"/>
+<path class="component" d="M628 810l-10 17m11 2-20-11-4 8 20 11Z"/>
+<path class="wire arr" d="M338 679l26 62"/>
+<path class="wire arr" d="M676 701l-65 65"/>
+<path class="wire arr" d="M125 736l102 39"/>
+<path class="wire arr" d="M125 736l11 88"/>
+<path class="wire arr" d="M125 736l-72 129"/>
+<text x="54" y="721" font-size="18" text-anchor="start"><tspan x="54" dy="0">LEADING EDGE</tspan><tspan x="54" dy="21.42">SLATS</tspan></text>
+<text x="298" y="651" font-size="18" text-anchor="start"><tspan x="298" dy="0">BLEED</tspan><tspan x="298" dy="21.42">AIR DUCT</tspan></text>
+<text x="680" y="711" font-size="18" text-anchor="start"><tspan x="680" dy="0">WING ANTI-ICE</tspan><tspan x="680" dy="21.42">CONTROL VALVE</tspan></text>
+<text x="152" y="970" font-size="18" text-anchor="start"><tspan x="152" dy="0">CONDITION:</tspan><tspan x="152" dy="21.42">ON THE GROUND</tspan><tspan x="152" dy="21.42">WING ANTI-ICE ON</tspan><tspan x="152" dy="21.42">ENGINES AT IDLE THRUST</tspan><tspan x="152" dy="21.42">DUCT TEMPS LOW</tspan></text>
+<rect x="540" y="1029" width="128" height="13" fill="#c41c1c" stroke="#ededed" stroke-width="1"/>
+<text x="680" y="1042" font-size="18" text-anchor="start">BLEED AIR</text>
+</g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="777" viewBox="0 0 1000 777">
+  <title>Cruise airspeed</title>
+  <rect x="0" y="0" width="1000" height="777" fill="#fff"/>
+  <g fill="#161a20" font-family="Arial, sans-serif">
+    <g transform="translate(0 -34)">
+    <defs><pattern id="minor" x="35" y="49" width="14.61538" height="14.62222" patternUnits="userSpaceOnUse"><path d="M14.61538 0H0V14.62222" fill="none" stroke="#969ca3" stroke-width="0.95"/></pattern></defs>
+    <rect x="35" y="49" width="950" height="658" fill="url(#minor)"/>
+    <path d="M108.08 49v658M181.15 49v658M254.23 49v658M327.31 49v658M400.38 49v658M473.46 49v658M546.54 49v658M619.62 49v658M692.69 49v658M765.77 49v658M838.85 49v658M911.92 49v658M35 122.11h950M35 195.22h950M35 268.33h950M35 341.44h950M35 414.56h950M35 487.67h950M35 560.78h950M35 633.89h950" fill="none" stroke="#373d44" stroke-width="1.1"/>
+    <path d="M35 49h950v658H35z" fill="none" stroke="#171b20" stroke-width="1.8"/>
+    <path d="M35 282 240 49M35 429 402 49M35 560 532 49M46 707 620 77M137 707 620 194M242 707 620 311M333 707 620 429M446 707 620 545" fill="none" stroke="#171b20" stroke-width="2"/>
+    <path d="M687 701C687.67 680.00 688.09 659.00 689 638C690.09 613.00 691.66 588.00 693 563C694.32 538.33 695.48 513.67 697 489C698.48 465.00 699.94 441.00 702 417C704.94 382.67 708.08 348.33 712 314C714.74 290.00 717.97 266.00 722 242C724.63 226.33 728.67 210.67 732 195C742.34 146.33 752.67 97.67 763 49M758 702C758.67 680.67 758.93 659.33 760 638C761.26 613.00 763.15 588.00 765 563C766.82 538.33 768.47 513.67 771 489C773.47 465.00 776.71 441.00 780 417C782.38 399.67 784.97 382.33 788 365C790.97 348.00 794.41 331.00 798 314C803.07 290.00 807.65 266.00 814 242C818.32 225.67 824.67 209.33 830 193M836 695C837.00 676.00 837.85 657.00 839 638C840.52 613.00 841.48 588.00 844 563C846.48 538.33 850.11 513.67 854 489C857.78 465.00 861.97 441.00 867 417C870.63 399.67 875.12 382.33 880 365C884.79 348.00 889.55 331.00 896 314C900.55 302.00 907.33 290.00 913 278" fill="none" stroke="#171b20" stroke-width="2.2"/>
+    <rect x="42" y="58" width="267" height="49" fill="#fff"/>
+    <text x="47" y="92" font-size="27" text-anchor="start" font-weight="700">Pressure altitude</text>
+    <rect x="770" y="66" width="161" height="91" fill="#fff"/>
+    <text x="780" y="102" font-size="26" text-anchor="start" font-weight="700">Power</text>
+    <text x="780" y="142" font-size="26" text-anchor="start" font-weight="700">Fuel flow</text>
+    <text x="152" y="282" font-size="18" text-anchor="middle" transform="rotate(-47 152 282)" fill="#171b20" stroke="#fff" stroke-width="6" paint-order="stroke">12 000 ft</text>
+    <text x="207" y="346" font-size="18" text-anchor="middle" transform="rotate(-47 207 346)" fill="#171b20" stroke="#fff" stroke-width="6" paint-order="stroke">10 000 ft</text>
+    <text x="292" y="410" font-size="18" text-anchor="middle" transform="rotate(-47 292 410)" fill="#171b20" stroke="#fff" stroke-width="6" paint-order="stroke">8 000 ft</text>
+    <text x="337" y="470" font-size="18" text-anchor="middle" transform="rotate(-47 337 470)" fill="#171b20" stroke="#fff" stroke-width="6" paint-order="stroke">6 000 ft</text>
+    <text x="389" y="524" font-size="18" text-anchor="middle" transform="rotate(-47 389 524)" fill="#171b20" stroke="#fff" stroke-width="6" paint-order="stroke">4 000 ft</text>
+    <text x="447" y="572" font-size="18" text-anchor="middle" transform="rotate(-47 447 572)" fill="#171b20" stroke="#fff" stroke-width="6" paint-order="stroke">2 000 ft</text>
+    <text x="517" y="620" font-size="18" text-anchor="middle" transform="rotate(-47 517 620)" fill="#171b20" stroke="#fff" stroke-width="6" paint-order="stroke">MSL</text>
+    <text x="682" y="184" font-size="18" text-anchor="middle" fill="#171b20" stroke="#fff" stroke-width="6" paint-order="stroke" transform="rotate(0)">55%</text>
+    <text x="682" y="218" font-size="18" text-anchor="middle" fill="#171b20" stroke="#fff" stroke-width="6" paint-order="stroke" transform="rotate(0)">17 l/h</text>
+    <text x="779" y="199" font-size="18" text-anchor="middle" fill="#171b20" stroke="#fff" stroke-width="6" paint-order="stroke" transform="rotate(0)">65%</text>
+    <text x="779" y="233" font-size="18" text-anchor="middle" fill="#171b20" stroke="#fff" stroke-width="6" paint-order="stroke" transform="rotate(0)">20 l/h</text>
+    <text x="861" y="271" font-size="18" text-anchor="middle" fill="#171b20" stroke="#fff" stroke-width="6" paint-order="stroke" transform="rotate(0)">75%</text>
+    <text x="861" y="307" font-size="18" text-anchor="middle" fill="#171b20" stroke="#fff" stroke-width="6" paint-order="stroke" transform="rotate(0)">23 l/h</text>
+    <defs><marker id="sample" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 6 3 0 6Z" fill="#0b6bcb"/></marker></defs>
+    <path d="M341 707V489" fill="none" stroke="#0b6bcb" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#sample)"/>
+    <path d="M341 489H771" fill="none" stroke="#0b6bcb" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#sample)"/>
+    <path d="M771 489V704" fill="none" stroke="#0b6bcb" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#sample)"/>
+    <text x="340" y="730" font-size="17" text-anchor="start" fill="#0b6bcb" font-style="italic">Sample</text>
+    <text x="35" y="736" font-size="22" text-anchor="middle">−40</text>
+    <text x="182" y="736" font-size="22" text-anchor="middle">−20</text>
+    <text x="328" y="736" font-size="22" text-anchor="middle">0</text>
+    <text x="474" y="736" font-size="22" text-anchor="middle">20</text>
+    <text x="620" y="736" font-size="22" text-anchor="middle">40</text>
+    <text x="694" y="736" font-size="22" text-anchor="middle">80</text>
+    <text x="767" y="736" font-size="22" text-anchor="middle">90</text>
+    <text x="840" y="736" font-size="22" text-anchor="middle">100</text>
+    <text x="913" y="736" font-size="22" text-anchor="middle">110</text>
+    <text x="325" y="783" font-size="28" text-anchor="middle" font-weight="700">Outside air temperature (OAT) [°C]</text>
+    <text x="821" y="783" font-size="28" text-anchor="middle" font-weight="700">TAS [kt]</text>
+    </g>
+  </g>
+</svg>

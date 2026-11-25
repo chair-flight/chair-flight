@@ -1,0 +1,1112 @@
+- id: QEOMJ
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-916220
+    - BGS-900362
+    - AVEXAM-48197
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.01
+  templates:
+    - type: multiple-correct
+      question: When a controlled VFR flight transiting a Control Zone suffers a communications failure, what shall the pilot do?
+      explanation: ""
+      options:
+        - text: Continue to fly in either VMC or IMC as meteorological conditions dictate.
+          correct: false
+        - text: Continue to fly in VMC.
+          correct: true
+        - text: Leave the Control Zone by the shortest route taking into account the weather conditions, obstacles and known areas of high traffic density
+          correct: true
+        - text: Land as soon as possible at the nearest controlled aerodrome in the Control Zone, watching for visual signals when in the aerodrome traffic circuit.
+          correct: false
+        - text: Land at the nearest suitable aerodrome.
+          correct: true
+        - text: Report the aircraft's arrival by the most expeditious means to the appropriate ATS Unit.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QEUDI
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds:
+    - QVNNY
+  externalQuestionIds:
+    - ATPLQ-919135
+    - AVEXAM-8173
+    - BGS-900252
+    - AVEXAM-3121
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.01
+    - 090.04.01.01.03
+  templates:
+    - type: multiple-correct
+      question: A pilot is flying VFR in controlled airspace when they notice a receiver failure. Which of the following actions must the pilot take?
+      explanation: ""
+      options:
+        - text: Squawk 7500 and IDENT.
+          correct: false
+        - text: Transmit reports at the scheduled times or positions.
+          correct: true
+        - text: Precede the transmitted reports with the phrase "TRANSMITTING BLIND DUE TO RECEIVER FAILURE".
+          correct: true
+        - text: Transmit the reports on the frequency in use.
+          correct: true
+        - text: Duplicate the reports on the emergency frequency 121.5 MHz.
+          correct: false
+        - text: Exit the controlled airspace as soon as practicable.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QEKTA
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-914355
+    - AVEXAM-53640
+    - BGS-900407
+    - BGS-910157
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.02
+  templates:
+    - type: simple
+      question: You are tuning in a new frequency as assigned by ATC. After making multiple calls there is no reply and you notice the frequency is silent. What should you do next?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Attempt to establish contact on the previous frequency.
+          wrongAnswers:
+            - text: Attempt to contact other traffic on the current frequency.
+            - text: Declare a state of Urgency.
+            - text: Transmit on the international guard frequency.
+- id: QTWUX
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-912382
+    - AVEXAM-74983
+    - BGS-900376
+    - BGS-900377
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.02
+  templates:
+    - type: multiple-correct
+      question: Should a pilot lose communication during a flight, which are the correct ways of trying to re-establish air-ground communication?
+      explanation: ""
+      options:
+        - text: Use the company ground frequency
+          correct: false
+        - text: Contact other aircraft
+          correct: true
+        - text: Use the previous frequency
+          correct: true
+        - text: Use the pilot-to-pilot frequency
+          correct: false
+        - text: Use another frequency appropriate to the route.
+          correct: true
+        - text: Contact other aeronautical stations
+          correct: true
+        - text: Use the designated standby frequency
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 3
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 4
+            - 5
+            - 6
+        - show:
+            - 0
+            - 1
+            - 5
+            - 6
+        - show:
+            - 0
+            - 1
+            - 2
+            - 6
+- id: QLDXG
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-929175
+    - BGS-920309
+    - AVEXAM-13298
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.02
+  templates:
+    - type: simple
+      question: When an aircraft fails to establish contact on the designated frequency, on which other frequency should the first attempt to re-establish communications be made?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: On the previous frequency used.
+          wrongAnswers:
+            - text: On the appropriate UHF emergency frequency.
+            - text: On the FIR Search And Rescue frequency.
+            - text: On 121.5 MHz.
+- id: QQVCK
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-909122
+    - BGS-910174
+    - AVEXAM-86198
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.02
+  templates:
+    - type: simple
+      question: ATC instructs the pilot to contact Stephenville Tower and there is no response on the new frequency. What action should they take?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Return to previous frequency.
+          wrongAnswers:
+            - text: Contact other aircraft for relay.
+            - text: Attempt to contact on 121.5 MHz.
+            - text: Try an alternative frequency.
+- id: QZWJD
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-914463
+    - AVEXAM-84848
+    - BGS-900222
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.02
+  templates:
+    - type: multiple-correct
+      question: In the event of a communication failure, which of the following statements are correct?
+      explanation: ""
+      options:
+        - text: Before transmitting blind, the aircraft station shall attempt to establish communication on the emergency frequency.
+          correct: false
+        - text: After recognising the voice communications failure, the aircraft station shall attempt to establish contact on the previous channel used.
+          correct: true
+        - text: An aircraft operating within a network shall monitor the appropriate VHF channel for calls from nearby aircraft.
+          correct: true
+        - text: In case all other attempts fail to establish contact, the aircraft station shall make blind transmissions on the emergency frequency.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QHHTG
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-906580
+    - AVEXAM-67197
+    - ATPLQ-901527
+    - BGS-900170
+    - AVEXAM-69881
+    - BGS-900423
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.03
+  templates:
+    - type: simple
+      question: |-
+        The pilot of an aircraft has received a take-off clearance: 
+
+        “YR-BTO, CLIMB STRAIGHT AHEAD UNTIL 6000 FT, BEFORE TURNING RIGHT, HEADING 110\. REPORT PASSING 4000 FT: RUNWAY 08L CLEARED FOR TAKE-OFF” 
+
+        The flight crew is experiencing a communications receiver failure after take-off. The aircraft is below 4000 ft and the flight crew should transmit blind their next report followed by a complete repetition.
+
+        What is the correct phraseology? “YR-BTO, TRANSMITTING BLIND DUE TO RECEIVER FAILURE…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: PASSING 4000 FT, NEXT REPORT 6000 FT. CONTINUING FLIGHT AS PLANNED.”
+          wrongAnswers:
+            - text: PASSING 6000 FT, NEXT REPORT AT 6000. CONTINUING FLIGHT AS PLANNED.
+            - text: AT 4000 FT, NEXT REPORT AT 6000 FT. ALL STATIONS RADIO CHECK.”
+            - text: AT 4000 FT, NEXT REPORT AT 6000 FT. HEADING 110 SPEED 160 KNOTS.”
+    - type: simple
+      question: |-
+        An aircraft has received the following take-off clearance: "TC-BTO, CLIMB STRAIGHT AHEAD UNTIL 4000 FT, BEFORE TURNING RIGHT HEADING 270, REPORT RIGHT TURN. RUNWAY 09 CLEARED FOR TAKE-OFF."
+
+        After take-off, the aircraft is experiencing communications receiver failure and the pilots need to transmit blind their report to ATC, followed by a complete repetition. What phraseology shall they use?
+
+        "TC-BTO, TRANSMITTING BLIND DUE TO RECEIVER FAILURE...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: ...RIGHT TURN. CONTINUING VFR FOR LANDING RWY 09. NEXT REPORT FINAL."
+          wrongAnswers:
+            - text: ...RIGHT TURN MAINTAINING 4000 FT. NEXT REPORT AT TIME 1201\. ALL STATIONS RADIO CHECK."
+            - text: ...RIGHT TURN HEADING 270 SPEED 160 KNOTS. CONTINUING VFR FOR LANDING RWY 09."
+            - text: ...RIGHT TURN HEADING 270 MAINTAINING 4000 FT. CONTINUING VFR FOR LANDING RWY 09."
+- id: QKGCY
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds:
+    - QPYBC
+  externalQuestionIds:
+    - ATPLQ-914591
+    - BGS-920201
+    - AVEXAM-17218
+    - ATPLQ-911794
+    - BGS-910249
+    - AVEXAM-61824
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.03
+  templates:
+    - type: multiple-correct
+      question: Following a radio failure, the pilot tries to re-establish communications. All transmissions are preceded with "Transmitting blind." What must the pilot do after this phrase?
+      explanation: ""
+      options:
+        - text: Set the SSR code to 7500
+          correct: false
+        - text: Repeat the message twice on the designated channels
+          correct: true
+        - text: Include the name of the station being addressed
+          correct: true
+        - text: Deviate from the assigned route by at least 45°
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+    - type: simple
+      question: In the event that a pilot is required to make a blind transmission, this should be made..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: twice on the designated frequency.
+          wrongAnswers:
+            - text: during VFR flights only.
+            - text: only once on the designated frequency.
+            - text: on the emergency frequency only.
+- id: QLGKH
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-907426
+    - AVEXAM-89156
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.03
+  templates:
+    - type: simple
+      question: "You are approaching to land and are experiencing communications receiver failure. You decide to continue the flight as planned, with an approach on RWY27\\. Next in your flight plan is a descent from 6 000 ft to 2 000 ft. You head to transmit blind your report to ATC, followed by a complete repetition. The phraseology you will use is:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: NEXT REPORT FINAL RWY 27, CONTINUING FLIGHT AS PLANNED.
+          wrongAnswers:
+            - text: NEXT REPORT AT TIME 1201, ALL STATIONS RECEIVING RADIO CHECK.
+            - text: HEADING 270, CONTINUING FLIGHT AS PER FLIGHT PLAN.
+            - text: NEXT REPORT FINAL RWY 27, ALL STATIONS RECEIVING RADIO CHECK.
+- id: QPYBC
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds:
+    - QKGCY
+  externalQuestionIds:
+    - ATPLQ-911009
+    - BGS-910256
+    - AVEXAM-20716
+    - ATPLQ-922717
+    - BGS-920448
+    - AVEXAM-35832
+    - BGS-910257
+    - AVEXAM-86350
+    - ATPLQ-919036
+    - BGS-910248
+    - AVEXAM-65750
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.03
+  templates:
+    - type: simple
+      question: When an aircraft station is unable to establish communication due to receiver failure, what procedure should be taken?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Transmit reports at scheduled times or positions, preceded by the phrase “Transmitting blind due to receiver failure”
+          wrongAnswers:
+            - text: Change to frequency 121.5 MHZ and squawk 7700.
+            - text: Land at the nearest uncontrolled airfield.
+            - text: Transmit at regular times or positions, the phrase “Transmitting blind due to receiver failure”
+    - type: simple
+      question: When an aircraft is unable to establish communication due to receiver failure, it shall transmit reports and the time of its next intended transmission on the frequency in use. Each transmission has to be preceded by the phrase..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: TRANSMITTING BLIND DUE TO RECEIVER FAILURE
+          wrongAnswers:
+            - text: NO RECEPTION TRANSMISSION
+            - text: UNABLE TO RECEIVE
+            - text: PAN PAN
+    - type: simple
+      question: When transmitting a message preceded by the phrase "Transmitting blind due to receiver failure" during an en-route flight, the aircraft station shall also…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: advise the time of its next intended transmission.
+          wrongAnswers:
+            - text: join base leg when approaching the airfield for landing.
+            - text: land at the nearest airfield/airport.
+            - text: return to the airport of departure.
+    - type: simple
+      question: If all attempts to establish radio contact with a ground station fail, the pilot of an aeroplane shall transmit messages preceded by the phrase..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Transmitting blind
+          wrongAnswers:
+            - text: Read you one, read you one.
+            - text: How do you read?
+            - text: PAN PAN, PAN PAN, PAN PAN
+- id: QVNNY
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds:
+    - QEUDI
+  externalQuestionIds:
+    - ATPLQ-912834
+    - AVEXAM-1143
+    - AVEXAM-50706
+    - BGS-900448
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.03
+    - 090.04.01.01.04
+  templates:
+    - type: multiple-correct
+      question: A pilot is flying in airspace where no Air Traffic Control service or advisory service is provided. Should the pilot suffer a receiver failure, apart from preceding all transmissions with "Transmitting blind due to receiver failure", which of the following actions must be taken?
+      explanation: ""
+      options:
+        - text: Transmit reports at scheduled times
+          correct: true
+        - text: Repeat each message after transmitting it
+          correct: true
+        - text: Advise the time of the next intended transmission
+          correct: true
+        - text: Transmit information regarding the pilot-in-command’s intention for continuation of the flight
+          correct: false
+        - text: Set the appropriate SSR code
+          correct: true
+        - text: Attempt to re-establish communications using the company frequency
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+    - type: simple
+      question: |-
+        A pilot is flying over land in airspace where no Air Traffic Control service or advisory service is provided. Should the pilot suffer a receiver failure, apart from preceding all transmissions with 'Transmitting blind due to receiver failure', which of the following actions must be taken? 
+
+        1. Transmit reports at scheduled times 
+        2. Repeat each message after transmitting it 
+        3. Advise the time of the next intended transmission 
+        4. Transmit information regarding the pilot-in-command's intention for continuation of the flight 
+        5. Set the appropriate SSR code 
+        6. Attempt to re-establish communications using the company frequency
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2, 3, 5
+          wrongAnswers:
+            - text: 1, 3, 4, 5
+            - text: 2, 4, 5, 6
+            - text: 2, 3, 5, 6
+- id: QUHYP
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-913580
+    - BGS-910247
+    - AVEXAM-47594
+    - BGS-910442
+    - AVEXAM-95083
+    - ATPLQ-913383
+    - ATPLQ-911823
+    - BGS-910253
+    - AVEXAM-59997
+    - ATPLQ-911626
+    - ATPLQ-912598
+    - AVEXAM-69444
+    - BGS-910449
+    - BGS-920203
+    - ATPLQ-904478
+    - BGS-900204
+    - BGS-900673
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.04
+  templates:
+    - type: simple
+      question: An aircraft is squawking 7600\. What does it indicate?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It is unable to establish communication due to radio equipment failure.
+          wrongAnswers:
+            - text: It is diverting to the alternate aerodrome.
+            - text: It is about to make a forced landing.
+            - text: It is requesting immediate level change.
+    - type: simple
+      question: When an aircraft is unable to establish communication due to airborne equipment failure it shall, when so equipped, squawk...
+      explanation: The SSR codes 7500, 7600 and 7700 are reserved internationally for unlawful interference, radio communication failure and emergency respectively. An aircraft unable to establish communication because of airborne equipment failure selects code 7600.
+      presets:
+        - correctAnswers:
+            - text: "7600."
+          wrongAnswers:
+            - text: "7500."
+            - text: "7700."
+            - text: "2000."
+    - type: simple
+      question: What is the transponder code for radio communication failure?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "7600"
+          wrongAnswers:
+            - text: "6700"
+            - text: "7500"
+            - text: "7700"
+    - type: simple
+      question: A pilot has set the transponder code to 7600\. This indicates..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: radio failure.
+          wrongAnswers:
+            - text: distress.
+            - text: loss of position.
+            - text: unlawful interference.
+    - type: simple
+      question: An air traffic controller observes an aircraft's SSR code to be 7600\. This indicates..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: loss of communication.
+          wrongAnswers:
+            - text: aircraft interception.
+            - text: a hijacking.
+            - text: an emergency.
+    - type: simple
+      question: ATC observes that an aircraft in their sector has recently altered its assigned squawk code, transitioning from 2000 to 7600\. What does this change indicate?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Communication failure.
+          wrongAnswers:
+            - text: The Pilot will declare a Mayday.
+            - text: Unlawful interference.
+            - text: The Pilot has changed to the standard discrete code.
+- id: QHDHK
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-923688
+    - AVEXAM-60590
+    - BGS-900590
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.04
+  templates:
+    - type: simple
+      question: An aircraft experiences an air-ground communication failure while on an IFR flight. If equipped with an SSR transponder, what Mode A code is it expected to squawk?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: "7600"
+          wrongAnswers:
+            - text: "7500"
+            - text: "7000"
+            - text: "7700"
+- id: QNQNA
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-914552
+    - BGS-910105
+    - AVEXAM-61643
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.04
+  templates:
+    - type: simple
+      question: Under which of the following circumstances shall an aircraft station squawk 7600?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: In case of radio communication failure.
+          wrongAnswers:
+            - text: When approaching a prohibited area.
+            - text: When entering bad weather areas.
+            - text: When flying over desert areas.
+- id: QQJUZ
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-915139
+    - AVEXAM-92643
+    - BGS-910186
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.04
+  templates:
+    - type: simple
+      question: ICAO has reserved a set of SSR codes for pilots to use in certain conditions. Which of the following is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 7600 – Communication Failure.
+          wrongAnswers:
+            - text: 7700 – Unlawful Interference.
+            - text: 7500 – Communication Failure.
+            - text: 7600 – Distress.
+- id: QFEKR
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-919654
+    - BGS-900361
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.05
+  templates:
+    - type: simple
+      question: Two aircraft are experiencing communication failure. Aircraft A is on a VFR flight on the downwind leg to land at a controlled aerodrome. Aircraft B is also on a VFR flight cruising at FL55\. Which of the following statements is correct?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A watch shall be kept by the pilot of aircraft A as instructions may be issued by visual signals.
+          wrongAnswers:
+            - text: The arrival report can be omitted by the pilot of aircraft A, as there is an ATC unit at the aerodrome, but one must still be filed at the aerodrome reporting office at the aerodrome of departure.
+            - text: For both aircraft, the general communication failure procedures of the ICAO “Rules of the Air” override any published local procedures.
+            - text: If aircraft B is a VFR flight above the clouds, it may descend through the clouds to land at the nearest suitable aerodrome.
+- id: QFTFS
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-919921
+    - AVEXAM-28744
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.05
+  templates:
+    - type: simple
+      question: Two aircraft are experiencing a radio communication failure. Aeroplane A is in the downwind leg of a controlled aerodrome, aeroplane B is en-route, cruising at FL055\. Select the correct statement from the options below.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Aeroplane A has to watch out for visual signals.
+          wrongAnswers:
+            - text: Aeroplane A need not notify ATC upon arrival because it is landing at a controlled aerodrome; however, a report has to be made to the aerodrome of departure.
+            - text: ICAO communication failure procedures take priority over any local regulations.
+            - text: Both aeroplanes need to squawk 7700 and make blind transmissions on 121.5 MHz.
+- id: QEHKS
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-907033
+    - BGS-900137
+    - AVEXAM-55447
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.06
+  templates:
+    - type: simple
+      question: "You are cleared to fly FL100 in an airspace where procedural separation is applied. However, your flight plan states FL310\\. You try to contact ATC to change flight level, but you do not get a response. After squawking 7600 you should:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Remain at FL100 for 20 minutes then proceed with flight plan.
+          wrongAnswers:
+            - text: Remain at FL100 for 7 minutes then proceed with flight plan.
+            - text: Remain at FL100 for 1 minute then proceed with flight plan.
+            - text: Continue to climb according to the flight plan.
+- id: QSYRB
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-909220
+    - AVEXAM-5494
+    - BGS-900150
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.07
+  templates:
+    - type: simple
+      question: "You are flying IFR and approach your destination airport in VMC. After experiencing a communication failure:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Continue the approach, land and report your arrival.
+          wrongAnswers:
+            - text: Make a low approach and wait for visual signals of the ground personnel.
+            - text: Squawk 7700 and continue in accordance with the flight plan.
+            - text: Continue to the destination aerodrome, adding 500 ft to all the altitudes in the flight plan.
+    - type: simple
+      question: You are flying under IFR, en route, and are experiencing communication failure. How would you proceed in this circumstance?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Weather permitting, proceed in VMC to the nearest suitable aerodrome, reporting your arrival by the most expeditious means to ATC.
+          wrongAnswers:
+            - text: Continue to maintain the last assigned speed and level for at least five minutes and set the transponder code to 7500.
+            - text: Rock the aircraft wings, flash the navigational lights at irregular intervals, and perform radio checks to all possible stations.
+            - text: Set the transponder code to 7700, change to VFR and complete the remainder of the flight in VMC,.
+- id: QMZBH
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-925769
+    - AVEXAM-60801
+    - BGS-900167
+    - BGS-900667
+    - ATPLQ-921932
+    - AVEXAM-15760
+    - ATPLQ-926358
+    - AVEXAM-22565
+    - BGS-920333
+    - BGS-900406
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.08
+  templates:
+    - type: simple
+      question: An IFR flight in IMC conditions is being radar vectored when the aircraft experiences radio communication failure. Taking into consideration the applicable minimum flight altitude, the PIC should..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: proceed in the most direct manner possible to rejoin the flight plan route no later than the next significant point.
+          wrongAnswers:
+            - text: "climb to the Minimum Sector Altitude and hold for a period of 7 minutes, and then rejoin the flight plan route.  "
+            - text: maintain the last assigned heading for a period of 7 minutes, and then adjust in accordance with the flight plan.
+            - text: maintain the last assigned heading for a period of 20 minutes, and then adjust in accordance with the flight plan.
+    - type: simple
+      question: While being radar-vectored in IMC, the pilot loses radio contact with ATC. Taking into consideration the minimum flight altitude, their initial action is to rejoin the current flight plan..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: no later than the next significant point.
+          wrongAnswers:
+            - text: at the final approach fix.
+            - text: at the designated navigational aid.
+            - text: at the initial approach fix.
+    - type: simple
+      question: When an aircraft flying IFR in IMC encounters radiocommunication failure as it is being vectored or has been directed by ATC to proceed offset using RNAV without a specified limit, it shall proceed in the most direct manner possible to rejoin the current flight plan route no later than the next significant point. To do this, what has to be taken into consideration?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The applicable minimum flight altitude.
+          wrongAnswers:
+            - text: Other aircraft from which separation was provided using vectors, as separation from other traffic becomes the pilot's responsibility.
+            - text: The maximum turn to return to the current flight plan route is 45 degrees.
+            - text: The deviations that may be needed to maintain visual separation from all other aircraft.
+- id: QDDDR
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-908623
+    - AVEXAM-18042
+    - BGS-900242
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.08
+  templates:
+    - type: simple
+      question: You are on an IFR flight in IMC. You have been cleared to descend from FL370 to FL60 at the initial approach fix (IAF) for an ILS approach to runway 08 at the destination. ATC requested that you report passing FL180\. You receive no acknowledgement from ATC when passing FL180 and suspect a communication failure. What action should the pilot take?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Proceed to the IAF, descending to FL60, and hold over the IAF to arrive at, or as close as possible to, the estimated time of arrival resulting from the current flight plan.
+          wrongAnswers:
+            - text: Proceed to fly the current flight plan and land within 20 minutes after the estimated time of arrival.
+            - text: Continue the descent to FL60, squawk 7600 and land as soon as possible.
+            - text: Maintain FL180 and proceed to fly the current flight plan route to the appropriate designated navigation aid to fix serving the destination aerodrome, before commencing descent.
+- id: QIVJV
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-906381
+    - BGS-900441
+    - AVEXAM-69831
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.08
+  templates:
+    - type: simple
+      question: A pilot is flying a single-engine piston aircraft and is approaching the planned destination. Both the destination and destination alternate aerodromes are reporting IMC for the rest of the day. As the aircraft is inbound to the Initial Approach Fix (IAF), the radio fails and communications is lost. The pilot sets the transponder Mode A code 7600 and should also...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: continue to the IAF, and then complete a normal instrument approach procedure as specified for the IAF.
+          wrongAnswers:
+            - text: continue to the IAF, hold for 30 minutes, and then complete a normal instrument approach procedure as specified for the IAF.
+            - text: divert to the planned destination alternate aerodrome and wait there in a hold for the weather to improve.
+            - text: cancel the flight under IFR immediately, continue under VFR to the destination aerodrome and wait for light signals from the Tower.
+    - type: simple
+      question: A pilot is flying a Single-Engined Piston aircraft and approaching the destination according to the flight plan. Both the destination and destination alternate aerodromes are reporting IMC for the remaining day. As the pilot is inbound to the Initial Approach Fix (IAF), the communication radios fail. The pilot sets the transponder Mode A code 7600 and should...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: continue to the IAF, and then complete a normal instrument approach procedure as specified for the IAF.
+          wrongAnswers:
+            - text: cancel the flight under IFR immediately, continue under VFR to the destination aerodrome and wait for the light signals from the Tower.
+            - text: continue to the IAF, hold for 30 minutes, and then complete a normal instrument approach procedure as specified for the IAF.
+            - text: divert to the planned destination alternate aerodrome and wait there in a holding for the weather to improve.
+    - type: simple
+      question: A pilot operating a single-engine piston aircraft is approaching the intended destination, where both the destination and alternate aerodromes are reporting IMC for the remainder of the day. As the aircraft nears the Initial Approach Fix (IAF), the radio fails, resulting in the loss of communication. The pilot sets the transponder to Mode A code 7600 and should also...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: continue to the IAF, and then complete a normal instrument approach procedure as specified for the IAF.
+          wrongAnswers:
+            - text: divert to the planned destination alternate aerodrome and wait there in a hold for the weather to improve.
+            - text: cancel the flight under IFR immediately, continue under VFR to the destination aerodrome and wait for light signals from the Tower.
+            - text: continue to the IAF, hold for 30 minutes, and then complete a normal instrument approach procedure as specified for the IAF.
+- id: QJKJI
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-926927
+    - AVEXAM-59953
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.08
+  templates:
+    - type: simple
+      question: A pilot is under radar control, flying in IMC, and has just reached the cleared altitude. 8 NM before the mandatory reporting point they suddenly suffer a radio failure, and set the appropriate SSR code. Given the sequence of events, how long must the pilot maintain the last cleared altitude or minimum flight altitude (whichever is higher)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 7 minutes from failing to report at the compulsory report point.
+          wrongAnswers:
+            - text: 12 minutes from reaching the last cleared altitude.
+            - text: 7 minutes from setting the SSR code.
+            - text: 12 minutes from setting the SSR code.
+    - type: simple
+      question: A pilot is on an IFR flight in airspace where radar is NOT used in the provision of air traffic control. The pilot is then experiencing a total radio failure and is not able to report their position at the last compulsory reporting point. After failing to report their position over the compulsory reporting point, how long shall the pilot maintain the last assigned speed and level or minimum flight altitude if higher?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 20 minutes.
+          wrongAnswers:
+            - text: 25 minutes.
+            - text: 15 minutes.
+            - text: 30 minutes.
+- id: QLSTW
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-929959
+    - AVEXAM-43654
+    - BGS-900106
+    - ATPLQ-928203
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.08
+  templates:
+    - type: simple
+      question: An aircraft on an IFR flight in IMC conditions, and flying in airspace where procedural separation is being applied, experiences radio communication failure. When passing over a compulsory reporting point, what action should the PIC take?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Maintain last assigned speed and level, or minimum flight altitude if higher, for a period of 20 minutes. Thereafter adjust speed and level in accordance with the flight plan.
+          wrongAnswers:
+            - text: Maintain last assigned speed and level, or minimum flight altitude if higher, for a period of 7 minutes. Thereafter adjust speed and level in accordance with the flight plan.
+            - text: Maintain last assigned level, or minimum flight altitude if higher, turn right by 30 degrees and parallel to the flight plan route with a 5 NM offset, until reaching the destination aerodrome.
+            - text: Maintain last assigned speed and initiate a 300 ft per minute climb until reaching VMC conditions, then divert to the nearest suitable aerodrome.
+    - type: simple
+      question: An aircraft on an IFR flight in IMC conditions, and flying in airspace where radar service is provided, experiences radio communication failure. The PIC must set the transponder on 7600, maintain the last assigned speed and..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: level, or minimum flight altitude if higher, for a period of 7 minutes. Thereafter, they must adjust speed and level in accordance with the flight plan.
+          wrongAnswers:
+            - text: level, or minimum flight altitude if higher, for a period of 20 minutes. Thereafter they must adjust speed and level in accordance with the flight plan.
+            - text: initiate a 300 ft per minute climb until reaching VMC conditions, then divert to the nearest suitable aerodrome.
+            - text: turn right by 30 degrees if flying odd flight levels, or turn left by 30 degrees if flying even flight levels.
+- id: QPFCU
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-926388
+    - BGS-920271
+    - AVEXAM-49810
+    - ATPLQ-925171
+    - BGS-920267
+    - AVEXAM-15536
+    - AVEXAM-97333
+    - ATPLQ-921658
+    - AVEXAM-49063
+    - ATPLQ-924985
+    - AVEXAM-60142
+    - ATPLQ-921088
+    - AVEXAM-41024
+    - BGS-920098
+    - ATPLQ-925416
+    - BGS-920269
+    - AVEXAM-67011
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.08
+  templates:
+    - type: simple
+      question: An aircraft encountering radio communication failure on an IFR flight in IMC has to land, if possible, within..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 30 minutes after ETA or the last EAT, whichever is later.
+          wrongAnswers:
+            - text: 30 minutes after noticing the radio failure.
+            - text: 30 minutes after waiting for the EAT.
+            - text: 15 minutes after vacating the transition layer.
+    - type: simple
+      question: An aircraft experiencing radio communication failure on an IFR flight in IMC has to hold over the designated navigation aid serving the destination aerodrome..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: until the expected approach time last received and acknowledged.
+          wrongAnswers:
+            - text: for 5 minutes in any case.
+            - text: until 10 minutes after the expected approach time last received and acknowledged.
+            - text: for 3 minutes, if an expected approach time has not been acknowledged.
+    - type: simple
+      question: An aircraft experiencing radio communication failure on an IFR flight in IMC should..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: proceed in accordance with the current flight plan to the designated navigation aid serving the destination aerodrome.
+          wrongAnswers:
+            - text: execute a VMC approach at the nearest suitable aerodrome.
+            - text: divert to the most suitable aerodrome according to the route of flight.
+            - text: proceed to an area from where the flight can be continued according to the visual flight rules.
+    - type: simple
+      question: Should an aircraft’s radios fail in IMC whilst conducting an IFR flight, where must the pilots begin their descent in order to perform an instrument approach?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: At the designated navigational aid or fix.
+          wrongAnswers:
+            - text: Any time when flying in the ATZ.
+            - text: At the current EAT.
+            - text: At the calculated TOD point.
+    - type: simple
+      question: An aircraft experiences radio-communication failure in IMC. When is it expected to commence the descent from the navigation aid or fix for the instrument approach?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: At the expected approach time last received and acknowledged.
+          wrongAnswers:
+            - text: When the fuel on board is the final reserve fuel plus sufficient to fly for 15 minutes.
+            - text: Immediately after reaching the designated aerodrome navigation aid or fix.
+            - text: After completing one hold over the designated aerodrome navigation aid or fix.
+    - type: simple
+      question: An aircraft experiencing radio communication failure on an IFR flight in IMC and not expecting any approach delay must start descent over the designated navigational aid serving the destination aerodrome..
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: at or as close as possible to the Estimated Time of Arrival (ETA) resulting from the Current Flight Plan (CPL).
+          wrongAnswers:
+            - text: immediately after reaching the navigation aid in any case.
+            - text: 4 minutes after reaching the Initial Approach Fix (IAP).
+            - text: at or as close as possible to the Estimated Time of Arrival (ETA) based on the Filed Flight Plan (FPO).
+- id: QCQZU
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-907026
+    - BGS-900392
+    - AVEXAM-55873
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.09
+  templates:
+    - type: simple
+      question: At the Tenerif’s Accident of 1977 two aircraft collided when one aircraft started the take off run while the other was taxiing onto the runway (taxiway was occupied). The aircraft taking off reported, “we are now at take-off”, and the tower replied “OK…, stand by for take-off. I will call you”. Simultaneously, the other aircraft taxiing onto the runway reported, “ah…hu..we are still taxiing down the runway”. What is the reason these last two transmissions might NOT have reached the take-off aircraft?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: As simultaneous transmissions on one frequency are NOT possible, they can block each other out. NOTHING or just interference noises might have been heard instead.
+          wrongAnswers:
+            - text: A technical reason is NOT to be suspected. Most likely, the crew was absorbed by the takeoff and probably failed to notice the calls.
+            - text: If neither of the two messages was received, there must have been a failure of the receiver of the aircraft taking off. There is NO other possible explanation.
+            - text: The message of the Tower must have been received. The transmissions of ground stations have a general priority to supersede other simultaneous transmissions.
+- id: QXXYE
+  subjectId: "090"
+  chapterId: "090.04"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-905279
+    - AVEXAM-75672
+  annexes: []
+  learningObjectiveIds:
+    - 090.04.01.01.09
+  templates:
+    - type: simple
+      question: |-
+        What is the likely result of a microphone button stuck in the transmit position?1. The pilot loses the capability to transmit 
+        2. In the aircraft with the stuck button, the pilot hears the intercom and back ground noise 
+        3. ATC can still receive transmissions from other traffic 
+        4. ATC can only receive the transmission from the aircraft with the stuck button
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 and 4
+          wrongAnswers:
+            - text: 1 and 2
+            - text: 1 and 3
+            - text: 2 and 3
+    - type: simple
+      question: |-
+        What happens when a microphone button gets stuck in the transmit position?
+
+         The pilot loses the capability to transmit.
+         In the aircraft with the stuck button, the pilot hears the intercom and static noise.
+         ATC can still receive transmissions from other traffic.
+         ATC can only receive the transmission from the aircraft with the stuck button.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 and 4
+          wrongAnswers:
+            - text: 1 and 2
+            - text: 1 and 3
+            - text: 2 and 3

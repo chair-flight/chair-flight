@@ -1,0 +1,59 @@
+- id: QNFPK
+  subjectId: "01"
+  chapterId: "01.10"
+  relatedQuestionIds:
+    - QUQCE
+    - QDAKO
+  annexes: []
+  learningObjectiveIds:
+    - "01.10.02"
+  templates:
+    - type: simple
+      question: Who provides search and rescue service?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Both military and civil organisations
+          wrongAnswers:
+            - text: Only civil organisations
+            - text: Only military organisations
+            - text: International approved organisations
+- id: QUQCE
+  subjectId: "01"
+  chapterId: "01.10"
+  relatedQuestionIds:
+    - QNFPK
+  annexes: []
+  learningObjectiveIds:
+    - "01.10.01"
+  templates:
+    - type: simple
+      question: What is the meaning of "DETRESFA"?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Distress phase
+          wrongAnswers:
+            - text: Alerting phase
+            - text: Uncertainty phase
+            - text: Rescue phase
+- id: QDAKO
+  subjectId: "01"
+  chapterId: "01.10"
+  relatedQuestionIds:
+    - QIKOL
+    - QNFPK
+  annexes: []
+  learningObjectiveIds:
+    - "01.10.03"
+  templates:
+    - type: simple
+      question: How can a pilot confirm a search and rescue signal on ground in flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Rock the wings
+          wrongAnswers:
+            - text: Push the rudder in both directions multiple times
+            - text: Fly in a parabolic flight path multiple times
+            - text: Deploy and retract the landing flaps multiple times

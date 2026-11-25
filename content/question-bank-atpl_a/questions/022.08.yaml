@@ -1,0 +1,793 @@
+- id: QQYVI
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228116
+    - BGS-221601
+    - AVEXAM-84327
+    - ATPLQ-225179
+    - BGS-222075
+    - AVEXAM-8688
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.01.01.01
+  templates:
+    - type: simple
+      question: What is the purpose of the trim system?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: To relieve forces on the controls while maintaining aircraft attitude.
+          wrongAnswers:
+            - text: To automatically compensate for loss of an engine, or fuel imbalance.
+            - text: To allow the pilot to make small attitude adjustments main flight controls
+            - text: To allow the autopilot to trim the aircraft in all 3 axes.
+    - type: simple
+      question: "The purpose of an aeroplane automatic trim system is to position the stabilizer automatically to off-load the:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: elevator.
+          wrongAnswers:
+            - text: elevator and rudder.
+            - text: elevator, rudder and ailerons.
+            - text: rudder.
+- id: QDERR
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224667
+    - AVEXAM-40821
+    - BGS-221635
+    - BGS-221599
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.01.01.02
+  templates:
+    - type: simple
+      question: What is the green band/area on a pitch trim indicator?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The range within which the stabiliser trim should be set for take-off.
+          wrongAnswers:
+            - text: The range within which the stabiliser should be set for landing.
+            - text: The allowable range for normal operation.
+            - text: The maximum range of trim that can be set by the autopilot.
+- id: QTPXC
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds:
+    - QZBEA
+  externalQuestionIds:
+    - ATPLQ-222363
+    - AVEXAM-38396
+    - AVEXAM-91067
+    - BGS-222077
+    - AVEXAM-62954
+    - ATPLQ-227010
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.01.01.03
+  templates:
+    - type: simple
+      question: On a conventional aeroplane, what does the automatic pitch trim system do?
+      explanation: On a conventional aeroplane, the automatic pitch trim senses a sustained force on the elevator control and moves the trim to relieve it, so the pilot does not have to hold the force.
+      presets:
+        - correctAnswers:
+            - text: When force on the elevator control is detected, the system moves the trim to relieve the load.
+          wrongAnswers:
+            - text: It is an autopilot mode to ensure the correct rotation rate is maintained during take-off.
+            - text: It is a system used to compensate for incorrect pilot inputs.
+            - text: When force on the elevator control is detected, it directs the pilot to trim the elevator to relieve the load.
+- id: QZBEA
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds:
+    - QDVDX
+    - QTPXC
+  externalQuestionIds:
+    - ATPLQ-221932
+    - BGS-222318
+    - AVEXAM-67900
+    - BGS-222687
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.01.01.03
+  templates:
+    - type: simple
+      question: "For an aeroplane fitted with mechanical flight control system, the automatic pitch trim system:"
+      explanation: On an aeroplane with mechanical flight controls, the automatic pitch trim works whenever the autopilot is engaged, so that the elevator is relieved of any steady load. When the autopilot is disengaged, the pilot trims manually.
+      presets:
+        - correctAnswers:
+            - text: is active whenever the autopilot is engaged.
+          wrongAnswers:
+            - text: is active whenever the autopilot is disengaged.
+            - text: is active whenever the autopilot is armed.
+            - text: is active whenever the flight director is engaged.
+- id: QKEEZ
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221929
+    - AVEXAM-17654
+    - BGS-220487
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.01.01.03
+    - 022.08.01.01.06
+  templates:
+    - type: simple
+      question: "When the autopilot is engaged, the role of the automatic pitch trim is to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: relieve the autopilot servo motor and return the aircraft in-trim when disconnecting the autopilot.
+          wrongAnswers:
+            - text: respond to altitude changes in Altitude Hold mode.
+            - text: block the elevator and pilot the aircraft only via the trim tab actuator or the horizontal stabiliser.
+            - text: synchronise the longitudinal loop.
+- id: QDVDX
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds:
+    - QZBEA
+  externalQuestionIds:
+    - ATPLQ-224601
+    - BGS-222078
+    - AVEXAM-63932
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.01.01.04
+  templates:
+    - type: simple
+      question: On a fly-by-wire aeroplane, what does the automatic pitch trim system do?
+      explanation: On a fly-by-wire aeroplane, the automatic pitch trim keeps the attitude that the pilot has set. When the pilot releases the pressure at the desired pitch attitude, the system holds the new attitude, and it also works when the autopilot is off.
+      presets:
+        - correctAnswers:
+            - text: If the PF changes pitch attitude and, at the desired attitude, releases control pressure, the system holds that new attitude.
+          wrongAnswers:
+            - text: It trims the aeroplane, if the autopilot has been engaged.
+            - text: If the pitch attitude is alternated and control pressure released, the system returns to the previous pitch rate setting.
+            - text: It performs the rotation during take-off.
+- id: QFGEM
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227602
+    - BGS-220554
+    - AVEXAM-21176
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.01.01.06
+  templates:
+    - type: simple
+      question: "The automatic trim is a component of the autopilot pitch channel. Its function is to:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: transfer a stabilised aeroplane to the pilot during autopilot disengagement.
+          wrongAnswers:
+            - text: automatically disengage the autopilot in the case of an excessive pitch up.
+            - text: reset the attitude, after engaging the autopilot.
+            - text: set the attitude to an instantaneous value before engaging the autopilot.
+- id: QNLKU
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225805
+    - BGS-221394
+    - BGS-220559
+    - AVEXAM-36288
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.01.01.07
+  templates:
+    - type: simple
+      question: "Which one of the following statements is true with regard to the operation of a Mach trim system:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: It only operates above a pre-determined Mach number.
+          wrongAnswers:
+            - text: It only operates when the autopilot is engaged.
+            - text: It operates to counteract the larger than normal forward movements of the wing centre of pressure at high subsonic airspeeds.
+            - text: It operates over the full aeroplane speed range.
+- id: QXYXR
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225003
+    - AVEXAM-28219
+    - BGS-220555
+    - AVEXAM-11317
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.01.01.07
+  templates:
+    - type: simple
+      question: "The Mach trim system:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: increases the static longitudinal stability of an aeroplane by adjusting the horizontal stabiliser according to Mach number.
+          wrongAnswers:
+            - text: adjust the horizontal stabiliser position during a high speed stall.
+            - text: compensates the pitch up tendency at high Mach numbers.
+            - text: ensures optimum C.G. location by transferring fuel into the horizontal stabiliser.
+- id: QRJBR
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226910
+    - AVEXAM-41407
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.01.01.08
+  templates:
+    - type: simple
+      question: Whilst flying a non Fly-By-Wire aircraft, you experience a trim runaway. What action should you take?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Trim and manipulate the control column manually.
+          wrongAnswers:
+            - text: Initiate a roll to reduce the effects of the runaway.
+            - text: Engage LNAV and VNAV on the autopilot.
+            - text: Engage the autopilot in any mode.
+    - type: simple
+      question: In case of a trim runaway in a non Fly-By-Wire aircraft, what should you do?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Trim and manipulate the control column manually.
+          wrongAnswers:
+            - text: Initiate a roll to reduce the effects of the runaway.
+            - text: Engage the autopilot in any mode.
+            - text: Engage LNAV and VNAV on the autopilot.
+- id: QMCFB
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228401
+    - BGS-221928
+    - AVEXAM-62799
+    - BGS-221680
+    - AVEXAM-98833
+    - AVEXAM-55427
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.01.01.08
+  templates:
+    - type: simple
+      question: During an automated en-route flight, the autotrim fails. What are the implications of such failure?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The autopilot should disconnect, with an associated warning for the situation. The pilot flying must be ready to take controls.
+          wrongAnswers:
+            - text: The pilot must disconnect the autopilot and take the control of the aircraft in order to avoid a runaway autotrim condition.
+            - text: The pilot flying should pay close attention to the CG, and be prepared for the aircraft to be out of trim in case the autopilot is disengaged.
+            - text: The autopilot will automatically switch to the backup autotrim.
+- id: QOSHN
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228736
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.01.01.08
+  templates:
+    - type: simple
+      question: You are flying an aircraft with the autopilot ON. Which of the following statements is true in the case of an automatic trim failure?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The autopilot will disconnect and issue an appropriate warning. The human pilot must be ready to take over control.
+          wrongAnswers:
+            - text: There will be no difference in aircraft behaviour as long as the autopilot stays engaged; however, the human pilot must be prepared for high aerodynamic loads when disconnecting the autopilot.
+            - text: The autopilot can still be used to control the aircraft; however, the human pilot must manually adjust the trim surface position to cancel out any constant loads.
+            - text: The human pilot must disconnect the autopilot and assume control over the aircraft in order to avoid trim runaway.
+- id: QOWSZ
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226202
+    - AVEXAM-88190
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.02.01.01
+  templates:
+    - type: simple
+      question: The yaw damper is installed to reduce the roll ratio in…
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Dutch roll conditions.
+          wrongAnswers:
+            - text: Automated flight.
+            - text: Moderate to severe turbulence.
+            - text: Steep turns.
+- id: QUSCS
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-223770
+    - AVEXAM-12952
+    - BGS-221742
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.02.01.02
+  templates:
+    - type: simple
+      question: What is the main purpose of dutch roll filter?
+      explanation: The Dutch roll filter separates a commanded turn from yaw due to a disturbance or apparent Dutch roll. The yaw damper then acts only on the oscillation, and does not oppose the turn.
+      presets:
+        - correctAnswers:
+            - text: To distinguish commanded turn inputs from yaw due to a disturbance or apparent Dutch roll.
+          wrongAnswers:
+            - text: To prevent yaw damper overreacting to dutch roll.
+            - text: To sense the aeroplane’s motion about the normal or vertical axis.
+            - text: To prevent yaw damper from reacting too quickly to dutch roll.
+- id: QIZBB
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224613
+    - AVEXAM-41418
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.02.01.02
+  templates:
+    - type: simple
+      question: The Yaw Damper filter is used...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: to detect the roll rates that initiate Dutch roll.
+          wrongAnswers:
+            - text: to eliminate Dutch roll rates.
+            - text: to detect the normal rates of the aircraft and eliminate the Dutch roll rates.
+            - text: to amplify normal aircraft roll rates.
+- id: QRIFB
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224436
+    - AVEXAM-54754
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.02.01.03
+  templates:
+    - type: simple
+      question: What system helps to improve directional stability at high TAS?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yaw Damper
+          wrongAnswers:
+            - text: Flight Envelope Protection System.
+            - text: Stall Protection System
+            - text: Warning System
+    - type: simple
+      question: Which system enhances directional stability during high-speed flight?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yaw Damper.
+          wrongAnswers:
+            - text: Flight Envelope Protection System.
+            - text: Warning System.
+            - text: Stall Protection System.
+- id: QCISG
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222890
+    - AVEXAM-87517
+    - AVEXAM-97644
+    - BGS-220568
+    - BGS-220567
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.02.01.03
+  templates:
+    - type: simple
+      question: "The yaw damper system controls:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the rudder, with the angular rate about the yaw axis as the input signal.
+          wrongAnswers:
+            - text: the ailerons, with the angular rate about the yaw axis as the input signal.
+            - text: the ailerons, with Mach Number as the input signal.
+            - text: the rudder, with Mach Number as the input signal.
+    - type: simple
+      question: "The yaw damper system acts on:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: the rudder only.
+          wrongAnswers:
+            - text: the rudder and the ailerons if necessary.
+            - text: the rudder and the roll trim if necessary.
+            - text: the rudder and the speed brakes if necessary.
+- id: QJJRE
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228682
+    - AVEXAM-49640
+    - BGS-220573
+    - BGS-222079
+    - AVEXAM-29378
+    - ATPLQ-227013
+    - BGS-220565
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.02.01.03
+  templates:
+    - type: simple
+      question: "When the yaw damper system sends motion orders to the rudder:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: no feedback is provided on the rudder pedals.
+          wrongAnswers:
+            - text: a feedback is provided on the rudder pedals only.
+            - text: a feedback is provided on the rudder pedals and the roll trim.
+            - text: a feedback is provided on the roll trim only.
+    - type: simple
+      question: "The yaw damper affects:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: rudder only.
+          wrongAnswers:
+            - text: ailerons and rudder.
+            - text: all control surfaces in a co-ordinated way.
+            - text: ailerons only.
+- id: QLOYY
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221514
+    - ATPLQ-225971
+    - AVEXAM-85510
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.02.01.03
+  templates:
+    - type: simple
+      question: |-
+        Which of the following statements about a yaw damper system are correct? Select the correct combination.1. Yaw damper is part of the autopilot yaw channel
+        2. Yaw dampers can participate in turn coordination 
+        3. Yaw damper acts parallel and upstream of rudder pedals 
+        4. Rudder moves independently from rudder pedals 
+        5. For given oscillation speed the signal sent to the rudder is proportional to the airspeed
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 and 4
+          wrongAnswers:
+            - text: 1, 2 and 4
+            - text: 1, 2, 3 and 4
+            - text: 3 and 5
+    - type: simple
+      question: |-
+        Which of the following statements about a yaw damper system are correct? Select the correct combination.
+
+        1. The yaw damper is part of an autopilot yaw channel 
+         
+        2. The yaw damper is controlled upstream of the rudder pedals 
+         
+        3. The yaw damper helps prevent Dutch roll oscillations 
+         
+        4. The yaw damper operates independently of pilot rudder input 
+         
+        5. The yaw damper engages automatically when the autopilot is turned on
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3, 4
+          wrongAnswers:
+            - text: 1, 2, 3
+            - text: 2, 3, 5
+            - text: 1, 3, 4
+    - type: simple
+      question: |-
+        Which of the following statements about a yaw damper system are correct? Select the correct combination.
+
+         The yaw damper is part of an autopilot yaw channel.
+         The yaw damper is controlled upstream of the rudder pedals.
+         The yaw damper helps prevent Dutch roll oscillations.
+         The yaw damper operates independently of pilot rudder input.
+         The yaw damper engages automatically when the autopilot is turned on.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 3, 4
+          wrongAnswers:
+            - text: 2, 3, 5
+            - text: 1, 2, 3
+            - text: 1, 2, 4
+- id: QWUWP
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226525
+    - AVEXAM-51820
+    - BGS-220570
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.02.01.03
+  templates:
+    - type: simple
+      question: "The yaw damper system sends a motion order to the rudder if the yawing rate of the aircraft:"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: is not constant.
+          wrongAnswers:
+            - text: is constant.
+            - text: is > 0 only.
+            - text: is > 1 only.
+- id: QQZTH
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-221969
+    - BGS-220574
+    - AVEXAM-60501
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.03.01.01
+  templates:
+    - type: multiple-correct
+      question: "The flight envelope protection function(s) consist(s) in:"
+      explanation: Flight envelope protection prevents the aircraft from exceeding aerodynamic limits, such as stall or overspeed. Ground proximity warning and collision avoidance are other systems.
+      options:
+        - text: – alerting the flight crew in case of dangerous proximity with the ground
+          correct: false
+        - text: – avoiding mid-air collision
+          correct: false
+        - text: – preventing the aircraft from exceeding some aerodynamic limits.
+          correct: true
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+- id: QYUVO
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-226907
+    - AVEXAM-80007
+    - BGS-220575
+    - BGS-221859
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.03.01.01
+  templates:
+    - type: multiple-correct
+      question: "The flight envelope protection function(s) consist(s) in:"
+      explanation: Flight envelope protection prevents the aircraft from exceeding the limits for specific flight parameters, such as angle of attack, speed or load factor. Traffic alerts and ATC clearances are outside its function.
+      options:
+        - text: – automatically performing an evasion manoeuvre if necessary
+          correct: false
+        - text: – preventing the aircraft from exceeding the limits for specific flight parameters
+          correct: true
+        - text: – alerting the flight crew in case of dangerous proximity with a threatening traffic
+          correct: false
+        - text: – preventing any incursion beyond an ATC clearance
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+- id: QXVFN
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-222139
+    - AVEXAM-45594
+    - BGS-222085
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.03.01.01
+  templates:
+    - type: simple
+      question: A flight envelope protection system is a system..
+      explanation: A flight envelope protection system generates a control signal, or a warning, when the aircraft reaches or exceeds a flight envelope limit. It is concerned with the flight envelope, not with engine parameters.
+      presets:
+        - correctAnswers:
+            - text: that generates a control signal when the aircraft exceeds the flight envelope limit.
+          wrongAnswers:
+            - text: that generates a signal during flight when engine parameters only are exceeded.
+            - text: that generates a signal when the engines have exceeded the start envelope limit.
+            - text: required to generate an ACAS warning.
+- id: QBKCF
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-229906
+    - AVEXAM-70283
+    - BGS-221686
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.03.01.02
+  templates:
+    - type: simple
+      question: Typical Flight Envelope Protection (FEP) inputs include...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Angle of Attack (AOA), airspeed and aircraft configuration.
+          wrongAnswers:
+            - text: autopilot status, airspeed, and flap position.
+            - text: Angle of Attack (AOA) and aircraft mass.
+            - text: aircraft mass, density altitude, and flight envelope database.
+- id: QAZNB
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-224427
+    - AVEXAM-84100
+    - ATPLQ-225935
+    - BGS-222087
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.03.01.03
+  templates:
+    - type: simple
+      question: "State an example of a flight envelope protection system (soft flight envelope protection system), which gives warning signal as soon as a limit will be approached:"
+      explanation: A soft flight envelope protection gives a warning as a limit is approached. The stick shaker, warning of an approach to the stall, is an example. A rudder ratio limiter and dynamic trim are not warnings.
+      presets:
+        - correctAnswers:
+            - text: stick shaker
+          wrongAnswers:
+            - text: rudder ratio limiter
+            - text: dynamic trim
+            - text: Mach tuck under
+    - type: simple
+      question: Which of the following is an example of a flight envelope protection system that generates warning signals to indicate when a limit is being approached (referred to as a soft flight envelope protection system)?
+      explanation: "The stick shaker is a soft protection: it warns the crew as a limit, here the stall, is approached, and leaves the aircraft under their control. Mach tuck is an aerodynamic effect, not a system."
+      presets:
+        - correctAnswers:
+            - text: The stick shaker.
+          wrongAnswers:
+            - text: The Mach tuck under.
+            - text: The rudder ratio limiter.
+            - text: The dynamic trim.
+- id: QVVUC
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-227936
+    - AVEXAM-14591
+    - BGS-222082
+    - ATPLQ-227326
+    - AVEXAM-13533
+    - ATPLQ-224604
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.03.01.03
+  templates:
+    - type: multiple-correct
+      question: "The flight envelope protection (FEP) can include:"
+      explanation: ""
+      options:
+        - text: – the stall protection.
+          correct: true
+        - text: – the overspeed protection.
+          correct: true
+        - text: – the maximum vertical speed protection.
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+    - type: simple
+      question: |-
+        The flight envelope protection (FEP) can include:
+        1. the stall protection
+        2. the overspeed protection
+        3. the maximum vertical speed protection
+        The combination that regroups all of the correct statements is:
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 2.
+          wrongAnswers:
+            - text: 1, 3.
+            - text: 1, 2, 3.
+            - text: 2, 3.
+    - type: simple
+      question: |-
+        Before flight, how do you check the serviceability of a direct reading compass?
+
+        1. Check its physical appearance during pre-flight preparation 
+         
+        2. Check heading indication increases when turning left while taxiing 
+         
+        3. Check heading indication increases when turning right while taxiing 
+         
+        4. Verify heading indication against runway heading
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1, 3, 4
+          wrongAnswers:
+            - text: 1, 2, 3
+            - text: 1, 4
+            - text: "4"
+- id: QEJTQ
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-225446
+    - AVEXAM-65368
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.03.01.04
+  templates:
+    - type: simple
+      question: Are there any flight envelope protections available in mechanical backup mode?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: No, flight envelope protection is not provided in mechanical backup mode.
+          wrongAnswers:
+            - text: Flight envelope protection is provided in mechanical backup mode but with reduced capabilities.
+            - text: Yes, flight envelope protection is always provided regardless of the mode.
+            - text: Flight envelope protection is only partially provided in mechanical backup mode.
+- id: QKQAW
+  subjectId: "022"
+  chapterId: "022.08"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-228552
+    - BGS-221702
+    - AVEXAM-3049
+  annexes: []
+  learningObjectiveIds:
+    - 022.08.03.01.04
+  templates:
+    - type: simple
+      question: In a conventional control system, speed protections are integrated via the trim system. Limitation in pitch and bank angle...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: would be very difficult to apply safely and consistently to a mechanical control loop. In FBW systems, simple control logic in the flight control computer systems can do this.
+          wrongAnswers:
+            - text: are available in conventional and FBW control systems. These limitations are required data for the computer systems to function but are NOT used to support flight control.
+            - text: rely on carefully calibrated electromagnets to apply brakes to control inputs when pitch and bank angle limits are exceeded.
+            - text: are NOT necessary on conventional control systems. In FBW systems, their sole purpose is to prevent flight control software faults from causing an aircraft to depart from the normal flight envelope.

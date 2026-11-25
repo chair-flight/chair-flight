@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="964" viewBox="0 0 540 964" role="img" aria-labelledby="title desc" xml:lang="en-GB">
+  <title id="title">737-800 PFD with V2 + 15 bug highlighted</title>
+  <desc id="desc">Primary flight display airspeed tape with a callout arrow pointing to the white bug just above 160 knots.</desc>
+  <metadata>Vector redraw of the existing 737 PFD annex AVRT.</metadata>
+  <defs>
+    <pattern id="barber-pole" x="188" y="538" width="16" height="35.2" patternUnits="userSpaceOnUse">
+      <rect width="16" height="35.2" fill="#0b0b0b"/>
+      <rect width="16" height="18" fill="#e3281d"/>
+    </pattern>
+    <clipPath id="attitude-window">
+      <rect x="233" y="212" width="259" height="589" rx="43"/>
+    </clipPath>
+  </defs>
+  <rect width="540" height="964" fill="#a6a6a6"/>
+  <rect x="14" y="26" width="356" height="915" fill="#000"/>
+  <rect x="53" y="97" width="135" height="817" fill="#414141"/>
+  <g clip-path="url(#attitude-window)">
+    <path d="M233 212H371V506H233Z" fill="#285bb7"/>
+    <path d="M233 506H371V801H233Z" fill="#5d3510"/>
+    <path d="M233 505.5H371" stroke="#eee" stroke-width="3"/>
+  </g>
+  <path d="M187 486.5H197.5V539" fill="none" stroke="#ecaa35" stroke-width="3"/>
+  <rect x="188" y="538" width="16" height="376" fill="url(#barber-pole)"/>
+  <path d="M155 137.5H187m-26 67H187m-32 67H187m-26 67H187m-32 66H187m-26 67H187m-32 67H187m-26 67H187m-32 67H187m-26 66H187m-32 67H187m-26 67H187" fill="none" stroke="#e8e8e8" stroke-width="3"/>
+  <g font-family="system-ui,sans-serif" font-size="36" font-weight="550" fill="#f1f1f1" text-anchor="end">
+    <text x="142" y="133">180</text>
+    <text x="142" y="282">160</text>
+    <text x="142" y="420">140</text>
+    <text x="142" y="685">100</text>
+    <text x="142" y="820">80</text>
+  </g>
+  <text x="79" y="82" font-family="system-ui,sans-serif" font-size="46" font-weight="550" fill="#dd2abe">148</text>
+  <path d="M169 114.5H194" stroke="#f1f1f1" stroke-width="3"/>
+  <path d="M165 131.5l11-8h17v16h-17zM168 250.5l11-8h17v16h-17z" fill="#f1f1f1"/>
+  <path d="M159.5 505V296m-6 14 6-14 6 14zM171 176.5H195m-26 213h25m-41 15h42" fill="none" stroke="#7fe44f" stroke-width="3"/>
+  <g font-family="system-ui,sans-serif" font-size="23" font-weight="650" fill="#7fe44f">
+    <text x="205" y="185">1</text>
+    <text x="217" y="389">R</text>
+    <text x="198" y="413">V1</text>
+  </g>
+  <path d="M159 350.5l27-14h41v28h-41z" fill="none" stroke="#dd2abe" stroke-width="3"/>
+  <path d="M44 452H138V482L159 505 138 526v32H44Z" fill="#000" stroke="#f1f1f1" stroke-width="3" stroke-linejoin="round"/>
+  <g font-family="system-ui,sans-serif" font-size="46" font-weight="550" fill="#f1f1f1">
+    <text x="48" y="521" letter-spacing="1">12</text>
+    <text x="105" y="496">5</text>
+    <text x="105" y="548">4</text>
+  </g>
+  <path d="M448 251.5H231" stroke="#f1f1f1" stroke-width="3"/>
+  <path d="M213 251.5l25-7 5 7-5 7z" fill="#f1f1f1"/>
+  <rect x="442" y="237" width="72" height="31" rx="15.5" fill="#1305e9"/>
+</svg>

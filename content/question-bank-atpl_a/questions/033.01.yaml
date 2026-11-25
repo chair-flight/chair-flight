@@ -1,0 +1,1734 @@
+- id: QAXCR
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334807
+  annexes:
+    - id: AHGJ
+  learningObjectiveIds:
+    - 033.01.01.01.01
+    - 033.01.01.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to VFR Chart ED-4 from Jeppesen GSPRM 2017.   
+         You are planning a VFR flight from Blaubeuren (EDMC, N048° 25.18' E09° 47.85') to Donaueschingen Villingen (EDTD, N047° 58.42' E08° 31.33'). Which of the following landmarks would be suitable to overfly as a turning point in order to not enter any restricted area?
+      explanation: A turning point must be a clear, unique feature that keeps the track outside restricted areas. On the chart, the radio mast south of Balingen lies clear of the restricted areas, while the Albstadt Degerfeld aerodrome lies inside one.
+      presets:
+        - correctAnswers:
+            - text: The radio mast south of the town Balingen.
+          wrongAnswers:
+            - text: Albstadt Degerfeld Aerodrome (EDSA).
+            - text: Münsingen Eisberg glider aerodrome
+            - text: Hayingen glider aerodrome.
+- id: QQJBT
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334931
+    - AVEXAM-73179
+    - BGS-331456
+    - BGS-330805
+  annexes:
+    - id: AHGJ
+  learningObjectiveIds:
+    - 033.01.01.01.01
+    - 033.01.01.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        An Aircraft is planned to fly from Blaubeuren aerodrome (EDMC) (N 48°25’,E009°48’) to Schwenningen at Neckar aerodrome (EDTS) (N 48°04’, E008°34’) following the most direct routing. The route can include any airspace at these two airports, but the remaining portions of the route shall remain clear of any airspaces classes D, E or F and any danger or restricted areas. Which of the following is the most suitable visual turning point for the route?
+      explanation: A good visual turning point is large, unique, contrasting and positioned so that the direct track stays clear of airspace classes D, E and F and of danger or restricted areas. The mast south-west of Balingen is the only option that meets these criteria on the chart.
+      presets:
+        - correctAnswers:
+            - text: The mast south-west of Balingen (N 48°13’, E 008°49’)
+          wrongAnswers:
+            - text: Hayingen gliding site (N 48°17’, E009°28’)
+            - text: Münsingen Eisberg gliding site (N 48°25’, E009°26’)
+            - text: Albstadt Degerfeld (EDSA) airfield (N 48°15’, E009°04’)
+- id: QBNGK
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331854
+    - AVEXAM-66725
+    - BGS-331568
+  annexes: []
+  learningObjectiveIds:
+    - 033.01.01.01.01
+  templates:
+    - type: simple
+      question: A VFR flight is planned from aerodrome A to aerodrome B on a 085° track. What would be an appropriate Flight Level for this route?
+      explanation: Under the semicircular rule, VFR flights on tracks from 000° to 179° fly at odd thousands plus 500 ft (FL35, FL55, FL75), and tracks from 180° to 359° at even thousands plus 500 ft. A 085° track gives FL55.
+      presets:
+        - correctAnswers:
+            - text: FL55
+          wrongAnswers:
+            - text: FL60
+            - text: FL65
+            - text: FL50
+- id: QJHOK
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-333794
+    - ATPLQ-336571
+    - AVEXAM-54361
+    - BGS-331046
+  annexes: []
+  learningObjectiveIds:
+    - 033.01.01.01.01
+    - 033.01.01.02.05
+  templates:
+    - type: simple
+      question: |-
+        A pilot flies under VFR and must clear the highest obstacle on the route by a minimum height. Given the following information:
+
+        - Highest obstacle elevation: {{obstacle}} ft
+        - Required clearance: {{clearance}} ft
+        - Magnetic track: {{track}}°
+        - QNH: {{qnh}} hPa
+        - Temperature: ISA {{isa}}°C
+
+        Assume 1 hPa = 30 ft. What is the lowest appropriate VFR flight level that gives this clearance?
+      explanation: |-
+        The required height is the obstacle elevation plus the clearance. It is corrected for the temperature (4 ft per degree per 1000 ft) and for the QNH (30 ft per hPa) to give a flight level reading, and then the lowest VFR level for the track at or above that value is chosen. For tracks of 000° to 179° magnetic the VFR levels are odd thousands plus 500 ft, and for 180° to 359° they are even thousands plus 500 ft.
+
+        **Solution**
+
+        - Required height: {{macro1}} ft
+        - Corrected for temperature: {{macro2}} ft
+        - Corrected for QNH: {{macro3}} ft
+        - Lowest VFR level for the track at or above that value: **FL{{answer}}**
+
+        ## Why the other answers are wrong
+
+        - **FL{{d1}}**: uses the IFR level pattern instead of the VFR pattern for the track.
+        - **FL{{d2}}**: rounds down, so the level does not give the required clearance.
+        - **FL{{d3}}**: only converts the obstacle height to a flight level and ignores the corrections.
+      presets:
+        - variables:
+            obstacle: 13421
+            clearance: 2000
+            track: 311
+            qnh: 989
+            isa: -10
+            macro1: 15421
+            macro2: 16064
+            macro3: 16791
+            answer: 185
+            d1: 180
+            d2: 165
+            d3: 154
+          correctAnswers:
+            - text: 185 FL
+          wrongAnswers:
+            - text: 154 FL
+            - text: 180 FL
+            - text: 165 FL
+        - variables:
+            obstacle: 4200
+            clearance: 1000
+            track: 168
+            qnh: 1026
+            isa: -12
+            macro1: 5200
+            macro2: 5462
+            macro3: 5080
+            answer: 55
+            d1: 70
+            d2: 35
+            d3: 52
+          correctAnswers:
+            - text: 55 FL
+          wrongAnswers:
+            - text: 52 FL
+            - text: 70 FL
+            - text: 35 FL
+        - variables:
+            obstacle: 9000
+            clearance: 1000
+            track: 80
+            qnh: 1010
+            isa: 5
+            macro1: 10000
+            macro2: 9804
+            macro3: 9901
+            answer: 115
+            d1: 110
+            d2: 95
+            d3: 100
+          correctAnswers:
+            - text: 115 FL
+          wrongAnswers:
+            - text: 100 FL
+            - text: 110 FL
+            - text: 95 FL
+- id: QVSQA
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338454
+  annexes:
+    - id: ARMO
+  learningObjectiveIds:
+    - 033.01.01.01.01
+    - 033.01.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to VFR Chart ED-4 from Jeppesen GSPRM 2017.   
+         On a VFR flight in Austria, the departure airfield is RIED KIRCHHEIM (LOLK, N48° 12.8' E13° 20.8') and the destination is FREISTADT (LOLF, N48° 30.9' E14° 24.5'). If the pilot intends to fly directly to the destination, the best navigation aid that could be used is located at...
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 48º25.9'N, 014º07.8'E
+          wrongAnswers:
+            - text: 48º13.8'N, 014º06.2'E
+            - text: 48º30.9'N, 014º24.6'E
+            - text: 48º14.2'N, 014º19.3'E
+- id: QZMEV
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-332021
+    - BGS-331220
+  annexes:
+    - id: AEXH
+  learningObjectiveIds:
+    - 033.01.01.01.01
+    - 033.01.01.02.04
+  templates:
+    - type: multiple-correct
+      question: |-
+        Refer to figure or to VFR chart ED-4 from the Jeppesen GSPRM 2017.  
+        You are planning a VFR flight from Schärding Süben (LOLS) (48°24'11"N, 013°26'53"E) to Pfarrkirchen (EDNP) (48°25'12"N, 012°51'53"E) aerodromes, which of the following statements are true?
+      explanation: ""
+      options:
+        - text: The cruising altitude should be 5500 ft
+          correct: false
+        - text: Your route follows the river "Rott" Westwards
+          correct: true
+        - text: The cruising altitude should be 6500 ft
+          correct: true
+        - text: Your route follows the A3 motorway Northwards
+          correct: false
+        - text: You will enter class F airspace during the final approach
+          correct: true
+        - text: You will enter class E airspace during the final approach
+          correct: false
+      variants:
+        - show:
+            - 0
+            - 1
+            - 2
+            - 3
+        - show:
+            - 1
+            - 2
+            - 3
+            - 4
+        - show:
+            - 2
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 3
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 4
+            - 5
+        - show:
+            - 0
+            - 1
+            - 2
+            - 5
+- id: QBNKC
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334539
+    - AVEXAM-17420
+    - BGS-331418
+  annexes:
+    - id: APIG
+  learningObjectiveIds:
+    - 033.01.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        (For this question use VFR chart ED-4 from the Jeppesen GSPRM 2017).   
+         Which option gives the correct type, identification, and frequency of a navigation aid?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: VOR/DME, RDG, 114.70 MHz (near N49°00ı, E012°30 ı)
+          wrongAnswers:
+            - text: VOR, END, 393 kHz (near N48°30ı, E012°30 ı)
+            - text: VOR, LKSR, 123.50 MHz (near N49°00ı, E014°00 ı)
+            - text: VOR, RODING, 114.70 MHz (near N49°00ı, E012°30 ı)
+- id: QGNUT
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337688
+  annexes:
+    - id: AAIZ
+  learningObjectiveIds:
+    - 033.01.01.01.03
+  templates:
+    - type: simple
+      question: Refer to VFR chart ED-4 from the Jeppesen GSPRM 2017. You are planning a VFR flight from Albstadt (EDSA) (N48°16' E009°04') to Saulgau (EDTU) (N48°02' E009°31' ) aerodromes. Which Flight Information Service frequency(ies) should you contact?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Only 128.95
+          wrongAnswers:
+            - text: 125.10 & 123.60
+            - text: 128.95 & 126.95
+            - text: Only 126.95
+- id: QBHSX
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335522
+    - AVEXAM-24889
+    - BGS-331214
+    - BGS-331504
+  annexes: []
+  learningObjectiveIds:
+    - 033.01.01.02.01
+    - 033.01.01.02.07
+  templates:
+    - type: simple
+      question: You want to plan a VFR flight within a controlled airspace using your GNSS flight plan as a back-up navigation method. Which of the following are best suited as significant points for entering into your GNSS flight plan as VFR waypoints using a distance and bearing?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Airport reference point.
+          wrongAnswers:
+            - text: Power lines.
+            - text: Major cities and large towns.
+            - text: Coastlines.
+    - type: simple
+      question: A pilot is planning a VFR flight close to controlled airspace with high accuracy, by using GNSS as a back-up. On the VFR chart, there is a large motorway crossing which will be used as a significant point. Can this be inserted as a waypoint into the GNSS flight plan?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes, by creating a user-defined waypoint and entering the coordinates or using a distance and bearing from the GNSS database.
+          wrongAnswers:
+            - text: No, an IFR flight plan must be submitted if GNSS is to be used as a back-up means of navigation for the VFR flight.
+            - text: Yes, by selecting the motorway crossing from the list of available GNSS waypoints.
+            - text: No, as only IFR waypoints may be selected in a situation like this.
+- id: QDYKB
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334214
+    - BGS-331026
+    - AVEXAM-39384
+  annexes:
+    - id: ANOC
+  learningObjectiveIds:
+    - 033.01.01.02.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        (For this question use VFR chart ED-4 from the Jeppesen GSPRM 2017).   
+         Which option would be the best visual point flying VFR in the vicinity of Albstadt Degerfeld aerodrome (EDSA) (N48o 15', E009o 04')?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: The T junction of the railway near GAMMERTINGEN about 6 NM east of EDSA.
+          wrongAnswers:
+            - text: The natural high point with elevation 2638 about 8 NM east of EDSA.
+            - text: The village TROCHTELFINGEN about 8 NM east-north-east of EDSA.
+            - text: One of the T junctions of the secondary roads in the area 9 NM east of EDSA.
+- id: QETFC
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339856
+    - AVEXAM-24314
+  annexes: []
+  learningObjectiveIds:
+    - 033.01.01.02.01
+    - 033.01.01.02.07
+  templates:
+    - type: simple
+      question: You want to plan a very accurate VFR route within a controlled airspace. Which of the following landmarks do you consider best suited for insertion into a GNSS flight plan using coordinates?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Motorway or railroad junctions
+          wrongAnswers:
+            - text: Large wooden areas
+            - text: Major cities
+            - text: Lakes and rivers
+- id: QERWT
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-333462
+    - AVEXAM-32720
+  annexes:
+    - id: AFBX
+  learningObjectiveIds:
+    - 033.01.01.02.02
+  templates:
+    - type: simple
+      question: Refer to VFR Chart ED-4 from Jeppesen GSPRM 2017. What is the distance and true course from RODING VOR (RDG, N49°02.5' E012°31.5') to THALMÄSSING-WAIZENHOFEN (EDPW, N49° 03.85' E011° 12.57') airfield?
+      explanation: |-
+        RODING is at 12°31.5′ E and THALMÄSSING-WAIZENHOFEN at 11°12.57′ E, so it lies to the west by 78.9′ of longitude. At 49° N one minute of longitude is about 0.655 NM, so 78.9 × 0.655 = 51.7 NM. The 1.35′ difference in latitude hardly changes this.
+
+        The true course is just north of due west, **272°**, and the distance is **52 NM**.
+      presets:
+        - correctAnswers:
+            - text: 272°, 52 NM
+          wrongAnswers:
+            - text: 272°, 39 NM
+            - text: 092°, 39 NM
+            - text: 092°, 52 NM
+- id: QXFHT
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335071
+    - BGS-331409
+  annexes:
+    - id: AWCF
+  learningObjectiveIds:
+    - 033.01.01.02.02
+  templates:
+    - type: simple
+      question: |-
+        Please refer to figure or to VFR chart ED-4 from the Jeppesen GSPRM 2017\.
+
+        You are planning a flight from Niederoblarn aerodrome (LOGO) (47°29′N, 014°00'E) to Leoben Timmersdorf aerodrome (LOGT) (47°23'N, 014°58'E).
+
+        Determine the approximate distance between the LOGO and LOGT aerodromes:
+      explanation: |-
+        The latitude difference is 6′, which is 6 NM. The longitude difference is 58′, and at 47° N one minute of longitude is about 0.68 NM, so 58 × 0.68 = 39.3 NM.
+
+        The distance is about √(39.3² + 6²) = 39.8, so approximately **39 NM**.
+      presets:
+        - correctAnswers:
+            - text: 39 NM
+          wrongAnswers:
+            - text: 45 NM
+            - text: 28 NM
+            - text: 73 NM
+- id: QPHXT
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337364
+    - AVEXAM-28836
+    - AVEXAM-3778
+    - AVEXAM-31564
+    - BGS-331125
+    - AVEXAM-66854
+    - ATPLQ-338096
+  annexes:
+    - id: AEXH
+  learningObjectiveIds:
+    - 033.01.01.02.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure.
+
+        (For this question use the VFR chart ED-4 from the Jeppesen GSPRM 2017). An aircraft is flying a direct course from Straubing aerodrome (EDMS) (N48°54', E012°31') to Sonnen aerodrome (EDPS) (N48°41', E013°42').
+
+        What is the highest obstacle within 5 NM off the course?
+      explanation: Draw the direct course from Straubing to Sonnen, mark a corridor of 5 NM each side, and compare the elevation figures of the obstacles inside it. The highest of them is 3 754 ft.
+      presets:
+        - correctAnswers:
+            - text: 3754 ft
+          wrongAnswers:
+            - text: 7200 ft
+            - text: 3111 ft
+            - text: 1540 ft
+- id: QYXEW
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-339298
+    - BGS-330017
+    - BGS-330018
+  annexes: []
+  learningObjectiveIds:
+    - 033.01.01.02.03
+  templates:
+    - type: simple
+      question: Refer to VFR Chart ED-4 from Jeppesen GSPRM 2017. You are flying from EDSZ ROTTWEIL ZEPFENHAN (48°12'N 008°44'E) to EDTM MENGEN airport (48°03'N 009°22'E). Determine the highest obstacle within a corridor 5 NM left and 5 NM right of the courseline.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3760 ft
+          wrongAnswers:
+            - text: 3331 ft
+            - text: 2605 ft
+            - text: 2920 ft
+    - type: simple
+      question: |-
+        See image or refer to chart ED 4 in the GSPRM 2017 - 
+        Flying from EDSZ ROTTWEIL ZEPFENHAN (48°12'N, 008°44'E) to EDPJ LAICHINGEN airport (48°30'N, 009°38'E). Determine the highest obstacle within a corridor 5 NM left and 5 NM right of the courseline.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3760 ft
+          wrongAnswers:
+            - text: 3278 ft
+            - text: 3612 ft
+            - text: 2852 ft
+    - type: simple
+      question: Refer to the annex - Flying from EDSZ ROTTWEIL ZEPFENHAN (48°12'N, 008°44'E) to EDTM MENGEN airport (48°03'N, 009°22'E). Determine the highest obstacle within a corridor 5 NM left and 5 NM right of the courseline.
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 3760 ft
+          wrongAnswers:
+            - text: 3331 ft
+            - text: 2920 ft
+            - text: 2605 ft
+- id: QTOCE
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334067
+    - BGS-331469
+  annexes:
+    - id: AEXH
+  learningObjectiveIds:
+    - 033.01.01.02.05
+  templates:
+    - type: simple
+      question: |-
+        Refer to the VFR chart (Jeppesen GSPRM 2017). An aircraft on a VFR flight intends to fly overhead aerodrome Straubing (EDMS). The upper limit of the Straubing Class F airspace read from the chart is {{top}} ft. What is the minimum indicated altitude (ft) required to clear the airspace by {{margin}} ft?
+
+        Altimeter temperature error with an OAT -7°C at Straubing: {{err}} ft. QNH at Straubing: 998 hPa. Altimeter setting: 998 hPa.
+      explanation: |-
+        The required true altitude is the airspace limit plus the clearance. In cold air the altimeter over-reads, so the true altitude is lower than indicated; the indicated altitude must therefore be higher by the temperature error. The altimeter setting equals QNH, so no pressure correction is needed.
+
+        **Solution**
+
+        $$
+        \text{Airspace upper limit (read from chart)}+\text{Required clearance}+\text{Altimeter temperature error} = {{top}}+{{margin}}+{{err}} = \mathbf{ {{answer}}\ \text{ft} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft**: The temperature error was subtracted instead of added.
+        - **{{d2}} ft**: The clearance was subtracted instead of added.
+        - **{{d3}} ft**: The clearance was forgotten.
+        - **{{d4}} ft**: The temperature error was forgotten.
+      presets:
+        - variables:
+            top: 3550
+            margin: 500
+            err: 240
+            answer: 4290
+            d1: 3810
+            d2: 3290
+            d3: 3790
+            d4: 4050
+          correctAnswers:
+            - text: 4290 ft
+          wrongAnswers:
+            - text: 3810 ft
+            - text: 3790 ft
+            - text: 4050 ft
+            - text: 3290 ft
+        - variables:
+            top: 4200
+            margin: 500
+            err: 180
+            answer: 4880
+            d1: 4520
+            d2: 3880
+            d3: 4380
+            d4: 4700
+          correctAnswers:
+            - text: 4880 ft
+          wrongAnswers:
+            - text: 4520 ft
+            - text: 4380 ft
+            - text: 4700 ft
+            - text: 3880 ft
+        - variables:
+            top: 2800
+            margin: 1000
+            err: 150
+            answer: 3950
+            d1: 3650
+            d2: 1950
+            d3: 2950
+            d4: 3800
+          correctAnswers:
+            - text: 3950 ft
+          wrongAnswers:
+            - text: 3650 ft
+            - text: 2950 ft
+            - text: 3800 ft
+            - text: 1950 ft
+- id: QIAAJ
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331586
+    - BGS-339578
+    - AVEXAM-16189
+    - AVEXAM-67797
+  annexes: []
+  learningObjectiveIds:
+    - 033.01.01.02.06
+  templates:
+    - type: simple
+      question: |-
+        The elevation of the departure airport is {{elev}} ft. 
+
+        An aircraft has to climb to FL{{fl}} with a rate of climb of {{roc}} ft/min. 
+
+        The QNH is {{qnh}} hPa. 
+
+        Determine the climb time.
+      explanation: |-
+        The flight level is a pressure altitude, so the height to climb is measured from the pressure altitude of the aerodrome: its elevation plus 30 ft per hPa that the QNH is below 1013 hPa. The climb time is that height divided by the rate of climb.
+
+        $$
+        \text{Aerodrome pressure altitude} &= {{elev}} + (1013 - {{qnh}}) \times 30 = {{macro1}}\ \text{ft} \\
+                    \text{Height to climb} &= {{fl}} \times 100 - {{macro1}} = {{macro3}}\ \text{ft} \\
+                               \text{Time} &= \frac{ {{macro3}}\ \text{ft} }{ {{roc}}\ \text{ft/min} } \approx \mathbf{ {{answer}}\ \text{min} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} min**: the QNH correction is ignored; the height is taken from the elevation only.
+        - **{{d2}} min**: the QNH correction is applied with the wrong sign, and twice.
+        - **{{d3}} min**: the QNH correction is applied twice in the right direction (it is added to the height instead of the aerodrome pressure altitude being computed).
+      presets:
+        - variables:
+            elev: 2500
+            fl: 105
+            roc: 750
+            qnh: 995
+            macro1: 3040
+            macro2: 10500
+            macro3: 7460
+            answer: 10
+            d1: 11
+            d2: 9
+            d3: 12
+          correctAnswers:
+            - text: 10 min
+          wrongAnswers:
+            - text: 12 min
+            - text: 11 min
+            - text: 9 min
+        - variables:
+            elev: 1800
+            fl: 85
+            roc: 700
+            qnh: 985
+            macro1: 2640
+            macro2: 8500
+            macro3: 5860
+            answer: 8
+            d1: 10
+            d2: 7
+            d3: 12
+          correctAnswers:
+            - text: 8 min
+          wrongAnswers:
+            - text: 12 min
+            - text: 10 min
+            - text: 7 min
+        - variables:
+            elev: 3200
+            fl: 120
+            roc: 600
+            qnh: 1000
+            macro1: 3590
+            macro2: 12000
+            macro3: 8410
+            answer: 14
+            d1: 15
+            d2: 13
+            d3: 16
+          correctAnswers:
+            - text: 14 min
+          wrongAnswers:
+            - text: 16 min
+            - text: 15 min
+            - text: 13 min
+- id: QYQWQ
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335582
+    - AVEXAM-22265
+    - BGS-339557
+  annexes: []
+  learningObjectiveIds:
+    - 033.01.01.02.06
+  templates:
+    - type: simple
+      question: |-
+        On a VFR flight, the traffic circuit altitude has to be established {{off}} NM before reaching the destination aerodrome. The descent must begin no later than how many nautical miles' ground distance from the airfield?
+
+        - Rate of descent: {{rod}} ft/min
+        - Ground speed during descent: {{gs}} kt
+        - Initial altitude: {{init}} ft AMSL
+        - Traffic circuit altitude: {{circ}} ft AMSL
+      explanation: |-
+        The descent has to be finished at the circuit altitude a fixed distance before the aerodrome. The descent itself covers (height to lose / rate of descent) x ground speed, and the extra distance to the aerodrome is added on top.
+
+        **Solution**
+
+        Height to lose = {{init}} - {{circ}} = {{macro1}} ft
+        Descent distance = {{macro1}} / {{rod}} x {{gs}} / 60 = {{macro2}} NM
+
+        $$
+        \frac{\frac{\text{Initial altitude}-\text{Circuit altitude}}{\text{Rate of descent}}\times \text{Ground speed}}{60}+\text{Distance before aerodrome} = \frac{\frac{ {{init}}-{{circ}} }{ {{rod}} }\times {{gs}} }{60}+{{off}} = \mathbf{ {{answer}}\ \text{NM} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} NM**: forgets to add the {{off}} NM between the end of the descent and the aerodrome.
+        - **{{d2}} NM**: descends from the initial altitude to zero instead of to the circuit altitude, and forgets the {{off}} NM.
+        - **{{d3}} NM**: descends to zero instead of to the circuit altitude.
+      presets:
+        - variables:
+            off: 5
+            rod: 500
+            gs: 130
+            init: 4500
+            circ: 2500
+            macro1: 2000
+            macro2: 9
+            answer: 14
+            d1: 9
+            d2: 20
+            d3: 25
+          correctAnswers:
+            - text: 14 NM
+          wrongAnswers:
+            - text: 25 NM
+            - text: 9 NM
+            - text: 20 NM
+        - variables:
+            off: 4
+            rod: 500
+            gs: 120
+            init: 5000
+            circ: 3000
+            macro1: 2000
+            macro2: 8
+            answer: 12
+            d1: 8
+            d2: 20
+            d3: 24
+          correctAnswers:
+            - text: 12 NM
+          wrongAnswers:
+            - text: 24 NM
+            - text: 8 NM
+            - text: 20 NM
+        - variables:
+            off: 5
+            rod: 600
+            gs: 140
+            init: 6000
+            circ: 3000
+            macro1: 3000
+            macro2: 12
+            answer: 17
+            d1: 12
+            d2: 23
+            d3: 28
+          correctAnswers:
+            - text: 17 NM
+          wrongAnswers:
+            - text: 28 NM
+            - text: 12 NM
+            - text: 23 NM
+- id: QYWWK
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335660
+    - AVEXAM-51580
+    - BGS-330004
+  annexes: []
+  learningObjectiveIds:
+    - 033.01.01.02.06
+  templates:
+    - type: simple
+      question: |-
+        How many feet do you have to climb to reach FL{{fl}}?
+
+        Given:
+
+        - Departure aerodrome elevation: {{elev}} ft
+        - QNH = {{qnh}} hPa
+
+        Temperature = ISA
+        1 hPa = 30 ft
+      explanation: |-
+        A flight level is a pressure altitude (standard setting 1013 hPa). The pressure altitude of the aerodrome is its elevation corrected by 30 ft per hPa of difference between 1013 hPa and the QNH. The climb required is the difference between the flight level and the aerodrome pressure altitude.
+
+        **Solution**
+
+        Aerodrome pressure altitude = {{elev}} + (1013 - {{qnh}}) × 30 = {{macro1}} ft
+
+        $$
+        \text{Flight level}\times 100-(\text{Aerodrome elevation}+(1013-\text{QNH})\times 30) = {{fl}}\times 100-({{elev}}+(1013-{{qnh}})\times 30) = \mathbf{ {{answer}}\ \text{ft} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} ft**: the QNH correction is applied to the flight level with the wrong sign and the aerodrome elevation is ignored.
+        - **{{d2}} ft**: the QNH correction is applied with the wrong sign, and twice.
+        - **{{d3}} ft**: the flight level minus the elevation, ignoring the QNH correction.
+      presets:
+        - variables:
+            fl: 75
+            elev: 1500
+            qnh: 1023
+            macro1: 1200
+            answer: 6300
+            d1: 7800
+            d2: 6600
+            d3: 6000
+          correctAnswers:
+            - text: 6300 ft
+          wrongAnswers:
+            - text: 6000 ft
+            - text: 7800 ft
+            - text: 6600 ft
+        - variables:
+            fl: 90
+            elev: 800
+            qnh: 1005
+            macro1: 1040
+            answer: 7960
+            d1: 8760
+            d2: 7720
+            d3: 8200
+          correctAnswers:
+            - text: 7960 ft
+          wrongAnswers:
+            - text: 8200 ft
+            - text: 8760 ft
+            - text: 7720 ft
+        - variables:
+            fl: 55
+            elev: 2200
+            qnh: 1018
+            macro1: 2050
+            answer: 3450
+            d1: 5650
+            d2: 3600
+            d3: 3300
+          correctAnswers:
+            - text: 3450 ft
+          wrongAnswers:
+            - text: 3300 ft
+            - text: 5650 ft
+            - text: 3600 ft
+- id: QJWUG
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-338738
+    - AVEXAM-5595
+  annexes: []
+  learningObjectiveIds:
+    - 033.01.01.02.07
+  templates:
+    - type: simple
+      question: Can you insert a road junction or railroad as a waypoint for the Global Navigation Satellite System (GNSS) flight plan?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes, by inserting the coordinates or referencing to an existing GNSS point.
+          wrongAnswers:
+            - text: Yes, but you must request permission from the national authority.
+            - text: Yes, by inserting the coordinates of the airport reference point, then bearing and distance from it.
+            - text: No, GNSS waypoints cannot be created.
+    - type: simple
+      question: Is it possible to insert a road junction or railroad as a waypoint for the Global Navigation Satellite System (GNSS) flight plan?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Yes, by inserting the coordinates or referencing to an existing GNSS point.
+          wrongAnswers:
+            - text: Yes, by inserting the coordinates of the airport reference point, then bearing and distance from it.
+            - text: No, GNSS waypoints cannot be created.
+            - text: Yes, but you must request permission from the national authority.
+- id: QYEBF
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-336627
+    - AVEXAM-78331
+  annexes: []
+  learningObjectiveIds:
+    - 033.01.01.02.07
+  templates:
+    - type: simple
+      question: How can we use/insert a motorway intersection as a GNSS waypoint?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Add a motorway as a user waypoint using a bearing and distance from a GNSS waypoint.
+          wrongAnswers:
+            - text: GNSS waypoints are just for IFR flights.
+            - text: You can choose the motorway intersection as a waypoint since all motorway intersections are already GNSS waypoints.
+            - text: We need to change our flight plan to IFR.
+- id: QAICD
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds:
+    - QLIRO
+  externalQuestionIds:
+    - ATPLQ-333035
+    - BGS-331005
+  annexes:
+    - id: AKEV
+  learningObjectiveIds:
+    - 033.01.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to Alicante Chart 19-1 from Jeppesen GSPRM 2017. 
+
+        An aircraft is intending to land at Alicante aerodrome (LEAL) and has been cleared to follow the Tabarca Route towards the airport. 
+        What is the maximum altitude at which it is permitted to fly?
+
+        ![Jeppesen VFR chart 19-1, Alicante-Elche](annex:AKEV:editable)
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1500 ft
+          wrongAnswers:
+            - text: FL75
+            - text: 2000 ft
+            - text: 800 ft
+- id: QHHCN
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331288
+    - AVEXAM-27697
+    - BGS-331198
+  annexes:
+    - id: ADDW
+    - id: ACDA
+  learningObjectiveIds:
+    - 033.01.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to NANTES - Charts 19-1, 19-2, 19-3 from Jeppesen GSPRM 2017.   
+         Which reporting point instructions are ATC likely to give you if you were planning to depart from Nantes airfield by following the Loire River towards the North-East, but without overflying the city of Nantes?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: NE, 1000 ft.
+          wrongAnswers:
+            - text: E, 1500 ft.
+            - text: W, 1500 ft.
+            - text: NW, 1000 ft.
+    - type: simple
+      question: "(See image or refer to Jeppesen GSPRM NANTES/ATLANTIQUE (LFRS) 19-1, 19-2, and 19-3 from the VFR section)
+
+
+        \rAn aircraft is intending to depart Nantes Atlantique aerodrome (LFRS) according to VFR. What initial departure procedure and altitude can be expected for a flight intending to follow the river Loire towards the north-east?"
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: A turn towards reporting point NE to avoid the city of Nantes and an altitude of 1000 ft.
+          wrongAnswers:
+            - text: Climb on runway heading to a minimum 1000 ft prior to following the river Loire to the north-east.
+            - text: A turn towards reporting point W to avoid the city of Nantes and an altitude of 1000 ft.
+            - text: A turn towards reporting point E to avoid the city of Nantes and an altitude of 1500 ft.
+- id: QHZEZ
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334023
+    - BGS-330779
+    - BGS-331179
+    - BGS-331238
+    - BGS-330796
+    - AVEXAM-96658
+    - AVEXAM-59654
+  annexes:
+    - id: AKEV
+  learningObjectiveIds:
+    - 033.01.01.03.02
+  templates:
+    - type: simple
+      question: Refer to Alicante (LEAL) VFR Chart 19-1 from the Jeppesen GSPRM 2017\. What is the maximum permissible altitude for an aircraft approaching to the reporting point NE (N38º 21.7', W000º 24.5')?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 2 000 feet
+          wrongAnswers:
+            - text: FL75
+            - text: 4 500 feet
+            - text: 1 500 feet
+- id: QLIRO
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds:
+    - QAICD
+    - QQWDL
+  externalQuestionIds:
+    - ATPLQ-338977
+    - BGS-330953
+    - AVEXAM-7387
+  annexes:
+    - id: AKEV
+    - id: ALGR
+  learningObjectiveIds:
+    - 033.01.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to Jeppesen GSPRM 2017, Alicante charts 19-1 and 19-3.
+
+        You are approaching from the southeast via reporting point SE and cleared via Tabarca route, then via South route. What is your maximum allowed altitude?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1500 ft AMSL
+          wrongAnswers:
+            - text: FL 75
+            - text: 2000 ft AMSL
+            - text: 8000 ft AMSL
+- id: QQWDL
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds:
+    - QLIRO
+  externalQuestionIds:
+    - ATPLQ-336406
+  annexes:
+    - id: AKEV
+    - id: ALGR
+  learningObjectiveIds:
+    - 033.01.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to ALICANTE - charts 19-1, 19-2 and 19-3 from Jeppesen GSPRM 2017.   
+         What is the maximum altitude following the Tabarca route?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 1 500 ft AMSL
+          wrongAnswers:
+            - text: 1 500 ft AGL
+            - text: 2 000 ft AMSL
+            - text: 2 000 ft AGL
+- id: QWZNP
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-334637
+    - BGS-331049
+    - ATPLQ-333213
+    - BGS-331411
+    - AVEXAM-78676
+    - AVEXAM-27380
+    - AVEXAM-53440
+  annexes:
+    - id: AKEV
+    - id: ALGR
+  learningObjectiveIds:
+    - 033.01.01.03.02
+  templates:
+    - type: simple
+      question: |-
+        Refer to ALICANTE - charts 19-1, 19-2 and 19-3 from Jeppesen GSPRM 2017.   
+        A VFR flight intends to land at Alicante Aerodrome (LEAL). The aircraft is currently overhead VFR report point SE, following the Tabarca route to intercept the South Route. The pilot expects delays, as the airport is busy with IFR arrivals and departures.
+
+        Where might the pilot be expected to hold?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Overhead VFR reporting point S as established by Alicante TWR.
+          wrongAnswers:
+            - text: Holding overhead ATE VOR (as determined by Alicante APP).
+            - text: Published holding overhead ALT VOR as determined by Alicante APP.
+            - text: Overhead VFR reporting point SE prior to entering the ATZ, as established by Alicante TWR.
+- id: QDFIF
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds:
+    - QUOTP
+  externalQuestionIds:
+    - ATPLQ-338506
+  annexes:
+    - id: AKEV
+    - id: ALGR
+  learningObjectiveIds:
+    - 033.01.01.03.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to ALICANTE - charts 19-1, 19-2 and 19-3 from Jeppesen GSPRM 2017.   
+         When approaching Alicante, what is the procedure if you experience a communication failure?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Proceed in the direction of SW reporting point, assume a track east of South Route to S reporting point and maintain a maximum of 800 ft AMSL.
+          wrongAnswers:
+            - text: Maintain heading and altitude for 7 minutes, then descend to 2 000 ft and proceed to closest VFR reporting point and hold, waiting for light signals.
+            - text: Set transponder 7600, proceed according to your filled flight plan if no instructions have been received previously, otherwise follow latest ATC instructions.
+            - text: Turn to the closest aerodrome without control zone, land there and inform ATC via phone call.
+- id: QUOTP
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds:
+    - QDFIF
+  externalQuestionIds:
+    - ATPLQ-339134
+  annexes:
+    - id: AKEV
+    - id: ALGR
+  learningObjectiveIds:
+    - 033.01.01.03.03
+  templates:
+    - type: simple
+      question: |-
+        Refer to ALICANTE - charts 19-1, 19-2 and 19-3 from Jeppesen GSPRM 2017\.   
+        Along which route do you proceed if you experience a communication failure?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: East of South route
+          wrongAnswers:
+            - text: North route
+            - text: Tabarca route
+            - text: North corridor
+- id: QAGVF
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds:
+    - QNBBD
+  externalQuestionIds:
+    - ATPLQ-333598
+    - BGS-330207
+    - BGS-330206
+    - AVEXAM-15696
+  annexes:
+    - id: AKIC
+  learningObjectiveIds:
+    - 033.01.01.05.01
+    - 033.03.01.01.02
+  templates:
+    - type: simple
+      question: |-
+        (For this question use annex 033-025 rev. 05.11.2004 or Flight planning Manual SEP 1 Figure 2.2 Table 2.2.3).   
+        Using the Power Setting Table, for the single engine aeroplane, determine the cruise TAS and fuel flow (lbs/hr) with full throttle and cruise lean mixture in the following conditions:
+
+        Given: OAT: 13°C   
+        Pressure altitude: 8000 ft   
+        RPM: 2300
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 160 kt and 69,3 lbs/hr
+          wrongAnswers:
+            - text: 160 kt and 71,1 lbs/hr
+            - text: 158 kt and 74,4 lbs/hr
+            - text: 159 kt and 71,7 lbs/hr
+- id: QWXEZ
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-335040
+    - BGS-331445
+  annexes:
+    - id: AXEW
+  learningObjectiveIds:
+    - 033.01.01.05.01
+  templates:
+    - type: simple
+      question: Refer to figure. Determine the TAS if the aeroplane's weight is {{gw}} kg and it is flying at FL{{fl}} with an OAT of {{oat}} °C.
+      explanation: |-
+        The TAS is read from the figure for the aeroplane weight, the flight level and the OAT.
+
+        **Solution**
+
+        - Enter the figure at a weight of {{gw}} kg, FL{{fl}} and an OAT of {{oat}} °C.
+        - The TAS is **463 kt**.
+
+        ## Why the other answers are wrong
+
+        - **469 kt**: a misread of the figure, slightly high.
+        - **250 kt**: a misread of the figure, far too low.
+        - **254 kt**: a misread of the figure, far too low.
+      presets:
+        - variables:
+            gw: 67500
+            fl: 370
+            oat: -36
+          correctAnswers:
+            - text: 463 kt
+          wrongAnswers:
+            - text: 254 kt
+            - text: 469 kt
+            - text: 250 kt
+- id: QZEGQ
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-337445
+    - BGS-331012
+    - AVEXAM-12213
+  annexes:
+    - id: AOVH
+  learningObjectiveIds:
+    - 033.01.01.05.01
+  templates:
+    - type: simple
+      question: |-
+        Refer to figure or CAP 697 Figure 3.4. Given the following conditions and in order to complete a navigation plan, calculate the true air speed (TAS) during cruise, for a VFR flight with a multi engined piston aeroplane.
+
+        - Level: FL{{fl}}
+        - OAT: +{{oat}} °C
+        - Power: economy
+
+        What is the TAS?
+      explanation: |-
+        The TAS is read from the chart for the flight level and the OAT at economy power. The OAT is an absolute temperature here, not a deviation from ISA.
+
+        **Solution**
+
+        - Enter the chart at FL{{fl}} with an OAT of +{{oat}} °C at economy power.
+        - The TAS is **171 kt**.
+
+        ## Why the other answers are wrong
+
+        - **156 kt**: a misread of the chart, too low.
+        - **140 kt**: a misread of the chart, too low.
+        - **189 kt**: a misread of the chart, too high.
+      presets:
+        - variables:
+            fl: 75
+            oat: 10
+          correctAnswers:
+            - text: 171 kt
+          wrongAnswers:
+            - text: 189 kt
+            - text: 156 kt
+            - text: 140 kt
+- id: QJGGV
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-336853
+    - AVEXAM-41331
+  annexes: []
+  learningObjectiveIds:
+    - 033.01.01.05.01
+  templates:
+    - type: simple
+      question: How to convert nautical ground miles (NGM) into nautical air miles (NAM)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: NGM is multiplied by TAS and then divided by GS.
+          wrongAnswers:
+            - text: NGM is multiplied by GS and then divided by TAS.
+            - text: NGM is multiplied by (GS+TAS) and then divided by TAS.
+            - text: NGM cannot be converted into NAM.
+    - type: simple
+      question: How can you calculate nautical air miles (NAM) from nautical ground miles (NGM)?
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: Multiply NGM by true airspeed (TAS) and divide by groundspeed (GS).
+          wrongAnswers:
+            - text: Multiply NGM by groundspeed (GS) and divide by true airspeed (TAS).
+            - text: Divide NGM by groundspeed (GS) and divide by true airspeed (TAS).
+            - text: Divide NGM by true airspeed (TAS) and divide by groundspeed (GS).
+- id: QLEVN
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds:
+    - QVYWC
+  externalQuestionIds:
+    - ATPLQ-331398
+  annexes: []
+  learningObjectiveIds:
+    - 033.01.01.05.02
+  templates:
+    - type: simple
+      question: The aeroplane maintains track 090°T at 150 kt TAS. The wind is 050°T at 46 kt. What is the ground speed to the nearest knot?
+      explanation: The heading correction must cancel the crosswind component, about 29.6 kt. The along-track airspeed is then about 147 kt. Subtract the headwind component of about 35.2 kt to obtain 112 kt.
+      presets:
+        - correctAnswers:
+            - text: 112 kt
+          wrongAnswers:
+            - text: 115 kt
+            - text: 128 kt
+            - text: 160 kt
+- id: QVYWC
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds:
+    - QLEVN
+  externalQuestionIds:
+    - ATPLQ-331046
+    - AVEXAM-9688
+    - AVEXAM-19867
+    - BGS-331210
+    - BGS-331090
+    - ATPLQ-332284
+    - AVEXAM-62049
+    - ATPLQ-336850
+  annexes: []
+  learningObjectiveIds:
+    - 033.01.01.05.02
+  templates:
+    - type: simple
+      question: |-
+        Given the following information, what is the ground speed (kt) of the aircraft?
+
+        - TAS: {{tas}} kt
+        - Heading: {{hdg}}°
+        - Wind: {{wd}}°/{{ws}} kt
+      explanation: |-
+        With the heading known, the ground speed is the vector sum of the TAS (along the heading) and the wind. Resolve the wind into a component along the heading and a component across it, then combine them with Pythagoras.
+
+        **Solution**
+
+        Along heading: {{macro1}} kt; across heading: {{macro2}} kt
+
+        $$
+        \sqrt{{(\text{TAS}-\text{Wind speed}\times \text{cos}(\text{Wind direction}-\text{Heading}))}^{2}+{(\text{Wind speed}\times \text{sin}(\text{Wind direction}-\text{Heading}))}^{2}} = \sqrt{{({{tas}}-{{ws}}\times \text{cos}({{wd}}-{{hdg}}))}^{2}+{({{ws}}\times \text{sin}({{wd}}-{{hdg}}))}^{2}} = \mathbf{ {{answer}}\ \text{kt} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} kt**: Only the head wind component was subtracted; the cross wind was neglected.
+        - **{{d2}} kt**: The head wind component was added instead of subtracted.
+        - **{{d3}} kt**: The full wind speed was subtracted from TAS.
+        - **{{d4}} kt**: The wind was treated as a perpendicular component to TAS.
+      presets:
+        - variables:
+            tas: 250
+            hdg: 90
+            wd: 30
+            ws: 50
+            macro1: 225
+            macro2: -43
+            answer: 229
+            d1: 225
+            d2: 275
+            d3: 200
+            d4: 255
+          correctAnswers:
+            - text: 229 kt
+          wrongAnswers:
+            - text: 225 kt
+            - text: 200 kt
+            - text: 255 kt
+            - text: 275 kt
+        - variables:
+            tas: 300
+            hdg: 90
+            wd: 330
+            ws: 46
+            macro1: 323
+            macro2: -40
+            answer: 325
+            d1: 323
+            d2: 277
+            d3: 254
+            d4: 304
+          correctAnswers:
+            - text: 325 kt
+          wrongAnswers:
+            - text: 323 kt
+            - text: 254 kt
+            - text: 304 kt
+            - text: 277 kt
+        - variables:
+            tas: 180
+            hdg: 270
+            wd: 320
+            ws: 35
+            macro1: 158
+            macro2: 27
+            answer: 160
+            d1: 158
+            d2: 202
+            d3: 145
+            d4: 183
+          correctAnswers:
+            - text: 160 kt
+          wrongAnswers:
+            - text: 158 kt
+            - text: 145 kt
+            - text: 183 kt
+            - text: 202 kt
+    - type: simple
+      question: The aeroplane is holding heading 090°T at 150 kt TAS. The wind is 030°T at 50 kt. What is the ground speed to the nearest knot?
+      explanation: Resolve the wind along and across the heading. The headwind component is 25 kt and the crosswind component is about 43.3 kt. The ground vector has components 125 kt along the heading and 43.3 kt across it. Its magnitude is about 132 kt.
+      presets:
+        - correctAnswers:
+            - text: 132 kt
+          wrongAnswers:
+            - text: 125 kt
+            - text: 150 kt
+            - text: 175 kt
+- id: QGIQM
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-333588
+    - AVEXAM-99966
+    - BGS-331042
+    - BGS-331357
+  annexes: []
+  learningObjectiveIds:
+    - 033.01.01.05.02
+    - 033.01.01.05.03
+  templates:
+    - type: simple
+      question: |-
+        Given the following information, what is the expected leg time?
+
+        - Leg track: {{trk}}°
+        - Distance: {{dist}} NM
+        - TAS: {{tas}} kt
+        - Wind: {{wd}}°/{{ws}} kt
+      explanation: |-
+        The leg time is the distance divided by the ground speed. The ground speed follows from the wind triangle: the wind correction angle (WCA) needed to hold the track changes the TAS component along the track, and the wind adds or subtracts its along-track component.
+
+        **Solution**
+
+        WCA = {{macro1}}°
+
+        Ground speed = {{macro2}} kt
+
+        Leg time = $$\frac{\text{Distance}}{\text{TAS}\times \text{cos}(\text{asin}(\frac{\text{Wind speed}\times \text{sin}(\text{Wind direction}-\text{Track})}{\text{TAS}}))-\text{Wind speed}\times \text{cos}(\text{Wind direction}-\text{Track})}\times 60 = \mathbf{ {{answer}}\ \text{minutes} }$$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} minutes**: wind ignored, distance divided by TAS.
+        - **{{d2}} minutes**: the crosswind-related sine component was used as headwind and no wind correction angle was applied.
+        - **{{d3}} minutes**: the headwind component was added to the TAS as if it were a tailwind.
+      presets:
+        - variables:
+            trk: 90
+            dist: 100
+            tas: 350
+            wd: 30
+            ws: 100
+            macro1: -14
+            macro2: 289
+            answer: 21
+            d1: 17
+            d2: 23
+            d3: 15
+          correctAnswers:
+            - text: 21 minutes
+          wrongAnswers:
+            - text: 15 minutes
+            - text: 17 minutes
+            - text: 23 minutes
+        - variables:
+            trk: 270
+            dist: 120
+            tas: 420
+            wd: 330
+            ws: 80
+            macro1: 9
+            macro2: 374
+            answer: 19
+            d1: 17
+            d2: 21
+            d3: 16
+          correctAnswers:
+            - text: 19 minutes
+          wrongAnswers:
+            - text: 16 minutes
+            - text: 17 minutes
+            - text: 21 minutes
+        - variables:
+            trk: 180
+            dist: 150
+            tas: 280
+            wd: 240
+            ws: 60
+            macro1: 11
+            macro2: 245
+            answer: 37
+            d1: 32
+            d2: 39
+            d3: 29
+          correctAnswers:
+            - text: 37 minutes
+          wrongAnswers:
+            - text: 29 minutes
+            - text: 32 minutes
+            - text: 39 minutes
+- id: QKPKM
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-331459
+  annexes: []
+  learningObjectiveIds:
+    - 033.01.01.05.02
+    - 033.01.01.05.03
+  templates:
+    - type: simple
+      question: |-
+        Calculate the time it will take to fly from A to B on a cross country flight given the data below.
+
+        - Distance A to B: {{dist}} NM
+        - TAS: {{tas}} kt
+        - TT: {{trk}}°
+        - W/V: {{wdir}}°/{{wspd}} kt
+      explanation: |-
+        The time is the distance divided by the ground speed, which is obtained from the wind triangle (wind correction angle for drift, then the wind component along the track).
+
+        **Solution**
+
+        Wind correction angle: {{macro1}}°
+
+        Ground speed: {{macro2}} kt
+
+        $$
+        \frac{\text{Distance}}{\text{TAS}\times \text{cos}(\text{asin}(\frac{\text{Wind speed}\times \text{sin}(\text{Wind direction (from)}-\text{True track})}{\text{TAS}}))-\text{Wind speed}\times \text{cos}(\text{Wind direction (from)}-\text{True track})}\times 60 = \frac{ {{dist}} }{ {{tas}}\times \text{cos}(\text{asin}(\frac{ {{wspd}}\times \text{sin}({{wdir}}-{{trk}})}{ {{tas}} }))-{{wspd}}\times \text{cos}({{wdir}}-{{trk}})}\times 60 = \mathbf{ {{answer}}\ \text{min} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} min**: ignores the wind (time at TAS).
+        - **{{d2}} min**: uses the wind component but ignores the drift correction.
+        - **{{d3}} min**: adds the wind component with the wrong sign.
+        - **{{d4}} min**: treats the whole wind speed as a headwind.
+        - **{{d5}} min**: treats the whole wind speed as a tailwind.
+      presets:
+        - variables:
+            dist: 83
+            tas: 120
+            trk: 130
+            wdir: 22
+            wspd: 23
+            macro1: -10.5
+            macro2: 125.1
+            answer: 39.8
+            d1: 41.5
+            d2: 39.2
+            d3: 44.1
+            d4: 51.3
+            d5: 34.8
+          correctAnswers:
+            - text: 39.8 min
+          wrongAnswers:
+            - text: 44.1 min
+            - text: 51.3 min
+            - text: 41.5 min
+            - text: 39.2 min
+            - text: 34.8 min
+        - variables:
+            dist: 120
+            tas: 140
+            trk: 250
+            wdir: 300
+            wspd: 30
+            macro1: 9.4
+            macro2: 118.8
+            answer: 60.6
+            d1: 51.4
+            d2: 59.6
+            d3: 45.2
+            d4: 65.5
+            d5: 42.4
+          correctAnswers:
+            - text: 60.6 min
+          wrongAnswers:
+            - text: 45.2 min
+            - text: 65.5 min
+            - text: 51.4 min
+            - text: 59.6 min
+            - text: 42.4 min
+        - variables:
+            dist: 95
+            tas: 110
+            trk: 45
+            wdir: 330
+            wspd: 25
+            macro1: -12.7
+            macro2: 100.8
+            answer: 56.5
+            d1: 51.8
+            d2: 55.1
+            d3: 48.9
+            d4: 67.1
+            d5: 42.2
+          correctAnswers:
+            - text: 56.5 min
+          wrongAnswers:
+            - text: 48.9 min
+            - text: 67.1 min
+            - text: 51.8 min
+            - text: 55.1 min
+            - text: 42.2 min
+- id: QVTFB
+  subjectId: "033"
+  chapterId: "033.01"
+  relatedQuestionIds: []
+  externalQuestionIds:
+    - ATPLQ-336159
+    - ATPLQ-338872
+    - BGS-339566
+    - AVEXAM-50933
+  annexes: []
+  learningObjectiveIds:
+    - 033.01.01.05.02
+  templates:
+    - type: simple
+      question: |-
+        Given the following information, what heading (°) must be selected in order to maintain the desired track DTK?
+
+        - DTK: {{dtk}}°
+        - TAS: {{tas}} kt
+        - Wind: {{wd}}°/{{ws}} kt
+      explanation: |-
+        To hold the desired track, the heading must be offset into the wind by the wind correction angle: WCA = asin(WS x sin(wind direction - track) / TAS). The heading is the track plus this angle (a negative angle when the wind comes from the left of track).
+
+        **Solution**
+
+        WCA = {{macro1}}°
+
+        $$
+        \text{Desired track}+\text{asin}(\frac{\text{Wind speed}\times \text{sin}(\text{Wind direction}-\text{Desired track})}{\text{TAS}}) = {{dtk}}+\text{asin}(\frac{ {{ws}}\times \text{sin}({{wd}}-{{dtk}})}{ {{tas}} }) = \mathbf{ {{answer}}\ \text{°} }
+        $$
+
+        ## Why the other answers are wrong
+
+        - **{{d1}} °**: The correction was applied in the wrong direction (away from the wind).
+        - **{{d2}} °**: The full wind speed was used as cross wind, ignoring the wind angle, and applied in the wrong direction.
+        - **{{d3}} °**: The full wind speed was used as cross wind, ignoring the wind angle.
+        - **{{d4}} °**: The correction was applied to the wind direction instead of the track.
+      presets:
+        - variables:
+            dtk: 90
+            tas: 380
+            wd: 60
+            ws: 60
+            macro1: -5
+            answer: 85
+            d1: 95
+            d2: 81
+            d3: 99
+            d4: 55
+          correctAnswers:
+            - text: 85 °
+          wrongAnswers:
+            - text: 95 °
+            - text: 99 °
+            - text: 55 °
+            - text: 81 °
+        - variables:
+            dtk: 270
+            tas: 250
+            wd: 300
+            ws: 40
+            macro1: 5
+            answer: 275
+            d1: 265
+            d2: 261
+            d3: 279
+            d4: 305
+          correctAnswers:
+            - text: 275 °
+          wrongAnswers:
+            - text: 265 °
+            - text: 279 °
+            - text: 305 °
+            - text: 261 °
+        - variables:
+            dtk: 180
+            tas: 300
+            wd: 130
+            ws: 35
+            macro1: -5
+            answer: 175
+            d1: 185
+            d2: 173
+            d3: 187
+            d4: 125
+          correctAnswers:
+            - text: 175 °
+          wrongAnswers:
+            - text: 185 °
+            - text: 187 °
+            - text: 125 °
+            - text: 173 °
+    - type: simple
+      question: |-
+        Given the following information, what magnetic heading must be selected in order to maintain desired track (DTK)?DTK (Tº): 095° 
+         TAS: 380 kt 
+         Wind: 060°/60 
+         Variation: 5ºE
+      explanation: ""
+      presets:
+        - correctAnswers:
+            - text: 085°
+          wrongAnswers:
+            - text: 095°
+            - text: 100°
+            - text: 055°

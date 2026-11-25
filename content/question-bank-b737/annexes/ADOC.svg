@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="266" viewBox="0 0 620 266" role="img" aria-labelledby="title desc" xml:lang="en-GB">
+  <title id="title">737-800 CDS FAULT (amber)</title>
+  <desc id="desc">Amber CDS FAULT annunciation in the lower-left corner of the PFD.</desc>
+  <metadata>B737 FCOM Rev 40, 10.11.30</metadata>
+  <style>
+  text{font-family:monospace;fill:#f2f2f2}
+  .amber{fill:#ffbf23}.green{fill:#00c672}.cyan{fill:#12d5ff}.magenta{fill:#ff00a0}
+  .white-line,.pink-line,.green-line,.blue-line{fill:none;stroke-width:1.5}
+  .white-line{stroke:#eee}.pink-line{stroke:#ff00a0}.green-line{stroke:#00c672}.blue-line{stroke:#12d5ff}
+  </style>
+  <rect width="620" height="266" fill="#080808"/>
+  <rect x="34" y="0" width="112" height="168" fill="#414141"/>
+  <path d="M129 27h17" class="white-line"/><path d="M125 83h21" class="white-line"/><text x="116" y="89" font-size="18" text-anchor="end">80</text><path d="M129 139h17" class="white-line"/>
+  <defs><pattern id="barber" x="146" y="6" width="10" height="22" patternUnits="userSpaceOnUse"><rect width="10" height="11" fill="#ec292c"/></pattern></defs>
+  <rect x="146" y="6" width="10" height="157" fill="url(#barber)"/>
+  <path d="M167 249A262 262 0 0 1 597 249Z" fill="#414141"/>
+  <path d="M382 136l-16-27h32zM382 136v29M349 137l11 110m-22-42 24-4" class="white-line"/>
+  <path d="M184 230l24 23m31-66 9 13m20-32 12 20m18-33 5 11m13-17 7 23m28-33 3 10m59-10-1 11m33-6-7 22M474 155l-4 10M503 165l-12 20m43 0-7 11m41 28-22 22" class="white-line"/>
+  <path d="M458 148l8-18 8 4v21l14-13 8 4-7 15" class="pink-line" stroke-linejoin="round"/>
+  <g text-anchor="middle">
+    <text x="224" y="244" font-size="19" transform="rotate(-48 224 244)">9</text>
+    <text x="271" y="206" font-size="19" transform="rotate(-34 271 206)">10</text>
+    <text x="322" y="181" font-size="19" transform="rotate(-20 322 181)">11</text>
+    <text x="382" y="180" font-size="23">12</text>
+    <text x="444" y="184" font-size="19" transform="rotate(17 444 184)">13</text>
+    <text x="501" y="212" font-size="19" transform="rotate(31 501 212)">14</text>
+    <text x="552" y="245" font-size="19" transform="rotate(46 552 245)">15</text>
+  </g>
+  <text x="282" y="242" font-size="20" class="magenta">135 H</text>
+  <text x="439" y="242" font-size="17" class="green">MAG</text>
+  <text x="15" y="219" font-size="22" class="amber">CDS</text><text x="15" y="243" font-size="22" class="amber">FAULT</text>
+</svg>
