@@ -30,6 +30,7 @@ export type TestMakerConfig = {
 };
 
 const MAX_QUESTIONS = 200;
+const DEFAULT_QUESTIONS = 10;
 
 const Step: FC<{
   title?: string;
@@ -85,7 +86,7 @@ export const TestMaker: FC<{
   const [learningObjectiveIds, setLearningObjectiveIds] = useState<string[]>(
     [],
   );
-  const [requested, setRequested] = useState(20);
+  const [requested, setRequested] = useState(DEFAULT_QUESTIONS);
 
   const subject = subjects.find((item) => item.id === subjectId);
   const chapters = subject?.chapters ?? [];
@@ -105,9 +106,14 @@ export const TestMaker: FC<{
       )
     : chapters.reduce((total, chapter) => total + chapter.numberOfQuestions, 0);
   const maxQuestions = Math.max(1, Math.min(MAX_QUESTIONS, availableQuestions));
-  const numberOfQuestions = study
-    ? Math.min(requested, maxQuestions)
-    : Math.min(subject?.numberOfExamQuestions ?? 1, maxQuestions);
+  const minQuestions = Math.min(DEFAULT_QUESTIONS, maxQuestions);
+  const numberOfQuestions = Math.max(
+    minQuestions,
+    Math.min(
+      study ? requested : subject?.numberOfExamQuestions || DEFAULT_QUESTIONS,
+      maxQuestions,
+    ),
+  );
   const allSelected = chapters.every((chapter) =>
     learningObjectiveIds.includes(chapter.id),
   );
@@ -134,7 +140,7 @@ export const TestMaker: FC<{
   const selectSubject = (next: Subject) => {
     setSubjectId(next.id);
     setLearningObjectiveIds(next.chapters.map((chapter) => chapter.id));
-    setRequested(next.numberOfExamQuestions);
+    setRequested(next.numberOfExamQuestions || DEFAULT_QUESTIONS);
     setChoosingSubject(false);
   };
 
@@ -266,7 +272,7 @@ export const TestMaker: FC<{
             }
           >
             <SliderWithInput
-              min={1}
+              min={minQuestions}
               max={maxQuestions}
               value={numberOfQuestions}
               disabled={!study || submitting}
