@@ -10,6 +10,8 @@ import {
   ScriptOnce,
   Scripts,
 } from "@tanstack/react-router";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Toaster } from "../libs/ui/components/base/toaster";
 import { THEME_SCRIPT } from "../libs/ui/hooks/use-theme";
 import { buildPageHead } from "../libs/ui/utils/build-page-head";
@@ -29,6 +31,8 @@ const RootDocument: FC<PropsWithChildren> = ({ children }) => {
         {children}
         <Toaster />
         <Scripts />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
