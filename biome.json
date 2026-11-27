@@ -5,11 +5,12 @@
   },
   "files": {
     "includes": [
+      "*.json",
+      "*.md",
       "src/**",
       "!src/routeTree.gen.ts",
       "!.workdir",
-      "*.json",
-      "*.md"
+      "!vercel.json"
     ]
   },
   "formatter": {

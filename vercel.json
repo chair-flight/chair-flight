@@ -1,18 +1,4 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "git": {
-    "deploymentEnabled": false
-  },
-  "buildCommand": "pnpm build",
-  "headers": [
-    {
-      "source": "/(favicon.ico|favicon.svg|apple-touch-icon.png|manifest.webmanifest)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=86400"
-        }
-      ]
-    }
-  ]
+  "buildCommand": "pnpm build"
 }
