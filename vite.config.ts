@@ -27,13 +27,6 @@ const questionBankPages = [
 		{ path: `/question-banks/${bank}` },
 		{ path: `/question-banks/${bank}/tests/new` },
 	]),
-	...["atpl_a", "b737", "a320"].map((bank) => ({
-		path: `/question-banks/${bank}/chapters`,
-	})),
-	{ path: "/question-banks/ppl_a/subjects" },
-	...["atpl_a", "ppl_a"].map((bank) => ({
-		path: `/question-banks/${bank}/learning-objectives`,
-	})),
 ];
 
 export default defineConfig({
