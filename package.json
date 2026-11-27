@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "node src/tools/with-env.ts vite dev",
-    "build": "node --env-file-if-exists=.env node_modules/vite/bin/vite.js build",
+    "build": "biome check && tsc --noEmit && node --env-file-if-exists=.env node_modules/vite/bin/vite.js build",
     "preview": "node --env-file-if-exists=.env node_modules/vite/bin/vite.js preview",
     "start": "node --env-file-if-exists=.env .output/server/index.mjs",
     "check": "tsc --noEmit",
