@@ -1,8 +1,8 @@
 # Contributing content
 
-Read this before writing, merging or explaining any question in `content/question-bank-*`, then the bank's own `CONTRIBUTING.md` (sources, subject guidelines, progress, questions needing review). 
+Read this before writing, merging or explaining any question in `content/question-bank-*`, then the bank's own `AGENTS.md` (sources, subject guidelines, progress, questions needing review). 
 Architecture and the content pipeline are in [`AGENTS.md`](../AGENTS.md); 
-code rules in [`src/CONTRIBUTING.md`](../src/CONTRIBUTING.md).
+code rules in [`src/AGENTS.md`](../src/AGENTS.md).
 
 
 ## General
@@ -134,7 +134,7 @@ Every template needs an `explanation`. A question without one carries `explanati
 - Units on every number in a substitution (`\frac{ {{height}}\ \text{ft} }{ {{roc}}\ \text{ft/min} }`). Words and units go in `\text{}`, multi-letter names as `\text{LSS}`, subscripts for variants (`T_{\text{Kelvin}}`).
 - Final answer `\mathbf{ {{answer}}\ \text{unit} }`; `\approx` when rounded.
 - Wrong-answer list: `- **{{d1}} unit**: reason`, no stray spaces inside the bold.
-- Reference questions for the layout are in the bank's `CONTRIBUTING.md`.
+- Reference questions for the layout are in the bank's `AGENTS.md`.
 
 ## Merging and importing (ATPL_A, PPL_A)
 
@@ -145,7 +145,7 @@ Every template needs an `explanation`. A question without one carries `explanati
 
 ## Sources
 
-- Download documents to `.external/` at the repository root (next to `content/` and `src/`, not inside `content/`; untracked), laid out as below. Each bank's `CONTRIBUTING.md` lists its sources.
+- Download documents to `.external/` at the repository root (next to `content/` and `src/`, not inside `content/`; untracked), laid out as below. Each bank's `AGENTS.md` lists its sources.
 - Before declaring a source missing, a question unsourceable or leaving it unexplained, list `.external/data/*` and grep every extraction there (ICAO annexes and docs, EASA Easy Access Rules including SERA and Doc 4444 text), never an old note about what exists: notes go stale.
 - `.workdir/knowledge.md` records every fact or source text looked up, so it is not fetched twice.
 

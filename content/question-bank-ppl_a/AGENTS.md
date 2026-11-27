@@ -1,10 +1,10 @@
 # Contributing to the PPL(A) question bank
 
-Read [`content/CONTRIBUTING.md`](../CONTRIBUTING.md) first. This file holds only what is specific to this bank.
+Read [`content/AGENTS.md`](../AGENTS.md) first. This file holds only what is specific to this bank.
 
 ## Sources
 
-Same library as the ATPL(A) bank: see [Sources in the ATPL(A) file](../question-bank-atpl_a/CONTRIBUTING.md#sources). Air Law (subject 01) follows the ATPL(A) 010 guidelines.
+Same library as the ATPL(A) bank: see [Sources in the ATPL(A) file](../question-bank-atpl_a/AGENTS.md#sources). Air Law (subject 01) follows the ATPL(A) 010 guidelines.
 
 ## State
 

@@ -1,6 +1,6 @@
 # Contributing to the A320 question bank
 
-Read [`content/CONTRIBUTING.md`](../CONTRIBUTING.md) first. This file holds only what is specific to this bank.
+Read [`content/AGENTS.md`](../AGENTS.md) first. This file holds only what is specific to this bank.
 
 ## Sources
 
