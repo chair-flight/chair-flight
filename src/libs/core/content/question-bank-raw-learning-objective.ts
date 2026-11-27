@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/mini";
 
 export type QuestionBankRawLearningObjective = {
   id: string;
@@ -13,22 +13,23 @@ export type QuestionBankRawLearningObjective = {
   version: string;
 };
 
-export const questionBankRawLearningObjectiveSchema = z
-  .object({
+export const questionBankRawLearningObjectiveSchema = z.pipe(
+  z.object({
     id: z.string(),
-    parentId: z.string().nullable(),
+    parentId: z.nullable(z.string()),
     subject: z.string(),
     level: z.number(),
     text: z.string(),
-    items: z.array(z.string()).default([]),
+    items: z._default(z.array(z.string()), []),
     source: z.string(),
-    courses: z.array(z.string()).default([]),
+    courses: z._default(z.array(z.string()), []),
     version: z.string(),
-  })
-  .transform((learningObjective) => ({
+  }),
+  z.transform((learningObjective) => ({
     ...learningObjective,
     chapter:
       learningObjective.level > 1
         ? learningObjective.id.split(".").slice(0, 2).join(".")
         : "",
-  })) satisfies z.ZodType<QuestionBankRawLearningObjective, unknown>;
+  })),
+) satisfies z.ZodMiniType<QuestionBankRawLearningObjective, unknown>;

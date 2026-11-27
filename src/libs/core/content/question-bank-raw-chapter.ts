@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/mini";
 
 export type QuestionBankRawChapter = {
   id: string;
@@ -10,4 +10,4 @@ export const questionBankRawChapterSchema = z.strictObject({
   id: z.string(),
   subject: z.string(),
   title: z.string(),
-}) satisfies z.ZodType<QuestionBankRawChapter>;
+}) satisfies z.ZodMiniType<QuestionBankRawChapter>;

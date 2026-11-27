@@ -1,5 +1,4 @@
 import { useId } from "react";
-import { parseAnnotatedAnnexHref } from "../../../core/question-templates/parse-annotated-annex-href";
 import { useAnnexDimensions } from "../../hooks/use-annex-dimensions";
 import { cn } from "../../utils/cn";
 import type { FC } from "react";
@@ -91,18 +90,30 @@ const renderAnnotation = (
 
 export const AnnexCanvas: FC<{
   href: string;
+  width?: number;
+  height?: number;
+  annotations?: Annotation[];
   alt?: string;
   crop?: boolean;
   drawings?: Annotation[];
   draft?: Annotation;
   className?: string;
-}> = ({ href, alt = "Annex", crop, drawings = [], draft, className }) => {
+}> = ({
+  href,
+  width,
+  height,
+  annotations = [],
+  alt = "Annex",
+  crop,
+  drawings = [],
+  draft,
+  className,
+}) => {
   const markerId = useId();
-  const annotated = parseAnnotatedAnnexHref(href);
-  const src = annotated?.href ?? href.split("#")[0].split("?")[0];
+  const src = href;
   const dimensions = useAnnexDimensions(src, {
-    width: annotated?.width,
-    height: annotated?.height,
+    width,
+    height,
   });
 
   if (!dimensions)
@@ -136,12 +147,8 @@ export const AnnexCanvas: FC<{
         </marker>
       </defs>
       <image href={src} width={dimensions.width} height={dimensions.height} />
-      {[
-        ...(annotated?.annotations ?? []),
-        ...drawings,
-        ...(draft ? [draft] : []),
-      ].map((annotation, index) =>
-        renderAnnotation(annotation, index, markerId),
+      {[...annotations, ...drawings, ...(draft ? [draft] : [])].map(
+        (annotation, index) => renderAnnotation(annotation, index, markerId),
       )}
     </svg>
   );

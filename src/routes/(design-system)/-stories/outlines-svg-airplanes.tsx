@@ -1,7 +1,7 @@
-import { AirplaneAirbus320 } from "../../../libs/ui/outlines/airplane-airbus-320";
-import { AirplaneBoeing737 } from "../../../libs/ui/outlines/airplane-boeing-737";
-import { AirplaneCessna172 } from "../../../libs/ui/outlines/airplane-cessna-172";
-import { AirplaneTecnamP2006t } from "../../../libs/ui/outlines/airplane-tecnam-p2006t";
+import { AirplaneAirbus320 } from "../../../libs/ui/components/outlines/airplane-airbus-320";
+import { AirplaneBoeing737 } from "../../../libs/ui/components/outlines/airplane-boeing-737";
+import { AirplaneCessna172 } from "../../../libs/ui/components/outlines/airplane-cessna-172";
+import { AirplaneTecnamP2006t } from "../../../libs/ui/components/outlines/airplane-tecnam-p2006t";
 import { StoryBlock } from "./story-block";
 import type { FC } from "react";
 

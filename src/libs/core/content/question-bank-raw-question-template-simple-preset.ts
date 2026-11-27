@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/mini";
 
 export type QuestionBankRawQuestionTemplateSimplePreset = {
   variables?: Record<string, string | number>;
@@ -13,15 +13,15 @@ export type QuestionBankRawQuestionTemplateSimplePreset = {
 
 export const questionBankRawQuestionTemplateSimplePresetSchema = z.strictObject(
   {
-    variables: z
-      .record(z.string(), z.union([z.string(), z.number()]))
-      .optional(),
+    variables: z.optional(
+      z.record(z.string(), z.union([z.string(), z.number()])),
+    ),
     correctAnswers: z.array(z.strictObject({ text: z.string() })),
     wrongAnswers: z.array(
       z.strictObject({
         text: z.string(),
-        mistake: z.string().optional(),
+        mistake: z.optional(z.string()),
       }),
     ),
   },
-) satisfies z.ZodType<QuestionBankRawQuestionTemplateSimplePreset>;
+) satisfies z.ZodMiniType<QuestionBankRawQuestionTemplateSimplePreset>;

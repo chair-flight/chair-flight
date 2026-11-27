@@ -1,17 +1,13 @@
-import { createFileRoute, notFound, useNavigate } from "@tanstack/react-router";
+import { createFileRoute, notFound } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
 import { useMemo } from "react";
 import { z } from "zod/mini";
-import { QUESTION_BANK_NAMES } from "../../libs/core/content/question-bank-name";
 import { getQuestionAnnexIds } from "../../libs/core/question-bank/get-question-annex-ids";
 import { getQuestionBankDb } from "../../libs/providers/question-bank-db";
-import { Modal } from "../../libs/ui/components/base/modal";
 import { Public } from "../../libs/ui/components/containers/public";
-import { QuestionAnnexViewer } from "../../libs/ui/components/elements/question-annex-viewer";
-import { QuestionMultipleChoice } from "../../libs/ui/components/elements/question-multiple-choice";
 import { QuestionViewer } from "../../libs/ui/components/elements/question-viewer";
 import { buildPageHead } from "../../libs/ui/utils/build-page-head";
-import { useStudySession } from "../-hooks/use-study-session";
+import { useQuestionsViewer } from "../-hooks/use-questions-viewer";
 import type { FC } from "react";
 
 const getQuestionReviewData = createServerFn({ method: "GET" })
@@ -20,10 +16,12 @@ const getQuestionReviewData = createServerFn({ method: "GET" })
     if (!import.meta.env.DEV) throw notFound();
     const db = getQuestionBankDb();
     const indexes = await Promise.all(
-      QUESTION_BANK_NAMES.map(async (questionBank) => {
-        const index = await db.getQuestionBank(questionBank);
-        return { questionBank, index };
-      }),
+      (["atpl_a", "b737", "a320", "ppl_a"] as const).map(
+        async (questionBank) => {
+          const index = await db.getQuestionBank(questionBank);
+          return { questionBank, index };
+        },
+      ),
     );
     const entries = data.questionIds.map((questionId) => {
       const match = indexes.find(({ index }) =>
@@ -58,8 +56,6 @@ const getQuestionReviewData = createServerFn({ method: "GET" })
 
 const AdminQuestionReviewPage: FC = () => {
   const { questions, missing } = Route.useLoaderData();
-  const search = Route.useSearch();
-  const navigate = useNavigate();
 
   const bankQuestions = useMemo(
     () => questions.map((item) => item.question),
@@ -70,21 +66,7 @@ const AdminQuestionReviewPage: FC = () => {
     [questions],
   );
 
-  const session = useStudySession({
-    id: `admin:${search.questions ?? ""}`,
-    questions: bankQuestions,
-    annexes,
-    tab: search.tab ?? "question",
-    onTabChange: (tab) =>
-      navigate({
-        to: ".",
-        search: (previous) => ({
-          ...previous,
-          tab: tab === "question" ? undefined : tab,
-        }),
-        replace: true,
-      }),
-  });
+  const session = useQuestionsViewer({ questions: bankQuestions, annexes });
   const details = questions[session.questionIndex]?.details ?? "";
 
   return (
@@ -100,7 +82,7 @@ const AdminQuestionReviewPage: FC = () => {
             {missing.length > 0 && ` Not found: ${missing.join(", ")}.`}
           </p>
         ) : (
-          <>
+          session.viewer && (
             <QuestionViewer
               {...session.viewer}
               information={{
@@ -112,13 +94,8 @@ const AdminQuestionReviewPage: FC = () => {
                     : []),
                 ],
               }}
-            >
-              <QuestionMultipleChoice {...session.question} />
-            </QuestionViewer>
-            <Modal {...session.annexModal}>
-              <QuestionAnnexViewer {...session.annexViewer} />
-            </Modal>
-          </>
+            />
+          )
         )}
       </Public.Main>
     </Public>
@@ -128,7 +105,6 @@ const AdminQuestionReviewPage: FC = () => {
 export const Route = createFileRoute("/(admin)/admin/question-review")({
   component: AdminQuestionReviewPage,
   validateSearch: z.object({
-    tab: z.catch(z.optional(z.enum(["explanation", "variants"])), undefined),
     questions: z.catch(z.optional(z.string()), undefined),
   }),
   beforeLoad: () => {

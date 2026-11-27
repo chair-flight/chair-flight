@@ -5,11 +5,11 @@ import {
   formatMillisecondsAsClock,
 } from "../../../base/format-values";
 import { getTestScore } from "../../../core/tests/get-test-score";
-import { CheckIcon } from "../../icons/check-icon";
-import { ChevronLeftIcon } from "../../icons/chevron-left-icon";
-import { CloseIcon } from "../../icons/close-icon";
 import { cn } from "../../utils/cn";
 import { Markdown } from "../base/markdown";
+import { CheckIcon } from "../icons/check-icon";
+import { ChevronLeftIcon } from "../icons/chevron-left-icon";
+import { CloseIcon } from "../icons/close-icon";
 import type { FC } from "react";
 import type { Test } from "../../../core/tests/test";
 

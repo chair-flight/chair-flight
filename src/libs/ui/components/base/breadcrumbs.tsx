@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Fragment, useEffect, useRef, useState } from "react";
-import { ChevronRightIcon } from "../../icons/chevron-right-icon";
 import { cn } from "../../utils/cn";
+import { ChevronRightIcon } from "../icons/chevron-right-icon";
 import type { LinkProps } from "@tanstack/react-router";
 import type { FC } from "react";
 

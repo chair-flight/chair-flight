@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/mini";
 
 export type QuestionBankRawQuestionAnnexAnnotationCircle = {
   type: "circle";
@@ -16,7 +16,7 @@ export const questionBankRawQuestionAnnexAnnotationCircleSchema =
     x: z.number(),
     y: z.number(),
     r: z.number(),
-    stroke: z.string().optional(),
-    fill: z.string().optional(),
-    width: z.number().optional(),
-  }) satisfies z.ZodType<QuestionBankRawQuestionAnnexAnnotationCircle>;
+    stroke: z.optional(z.string()),
+    fill: z.optional(z.string()),
+    width: z.optional(z.number()),
+  }) satisfies z.ZodMiniType<QuestionBankRawQuestionAnnexAnnotationCircle>;

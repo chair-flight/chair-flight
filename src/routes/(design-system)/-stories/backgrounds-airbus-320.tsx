@@ -1,4 +1,4 @@
-import { BackgroundForAirbus320QuestionBank } from "../../../libs/ui/backgrounds/background-for-airbus-320-question-bank";
+import { BackgroundForAirbus320QuestionBank } from "../../../libs/ui/components/backgrounds/background-for-airbus-320-question-bank";
 import type { FC } from "react";
 
 export const BackgroundsAirbus320: FC = () => (

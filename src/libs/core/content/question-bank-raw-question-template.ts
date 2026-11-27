@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/mini";
 import { questionBankRawQuestionTemplateDefinitionSchema } from "./question-bank-raw-question-template-definition.ts";
 import { questionBankRawQuestionTemplateMultipleCorrectSchema } from "./question-bank-raw-question-template-multiple-correct.ts";
 import { questionBankRawQuestionTemplateOneTwoSchema } from "./question-bank-raw-question-template-one-two.ts";
@@ -26,4 +26,4 @@ export const questionBankRawQuestionTemplateSchema = z.discriminatedUnion(
     questionBankRawQuestionTemplateDefinitionSchema,
     questionBankRawQuestionTemplateMultipleCorrectSchema,
   ],
-) satisfies z.ZodType<QuestionBankRawQuestionTemplate>;
+) satisfies z.ZodMiniType<QuestionBankRawQuestionTemplate>;

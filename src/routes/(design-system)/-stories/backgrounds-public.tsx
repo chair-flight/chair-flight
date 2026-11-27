@@ -1,4 +1,4 @@
-import { BackgroundForPublic } from "../../../libs/ui/backgrounds/background-for-public";
+import { BackgroundForPublic } from "../../../libs/ui/components/backgrounds/background-for-public";
 import type { FC } from "react";
 
 export const BackgroundsPublic: FC = () => (

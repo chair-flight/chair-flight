@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { parseAnnexHref } from "../../libs/core/question-templates/parse-annotated-annex-href";
 import { useDisclose } from "../../libs/ui/hooks/use-disclose";
 import { useTests } from "./use-tests";
 import type { Test } from "../../libs/core/tests/test";
@@ -88,7 +89,7 @@ export const useTestSession = (testId: string) => {
       onClose: annexModal.close,
     },
     annexViewer: {
-      href: annexHref,
+      ...parseAnnexHref(annexHref),
       onClose: annexModal.close,
     },
     goToQuestion,

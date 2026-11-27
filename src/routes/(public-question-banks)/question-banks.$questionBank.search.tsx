@@ -1,28 +1,27 @@
-import { createFileRoute, notFound, useNavigate } from "@tanstack/react-router";
+import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
 import { setResponseHeader } from "@tanstack/react-start/server";
 import { useEffect, useState } from "react";
 import { z } from "zod/mini";
 import { formatQuestionPreviewAsMarkdown } from "../../libs/base/format-values";
+import { questionBankNameSchema } from "../../libs/core/content/question-bank-name";
 import { searchLearningObjectives } from "../../libs/core/search/search-learning-objectives";
 import { searchQuestionVariants } from "../../libs/core/search/search-question-variants";
 import { searchQuestions } from "../../libs/core/search/search-questions";
 import { getQuestionBankDb } from "../../libs/providers/question-bank-db";
-import { Highlighted } from "../../libs/ui/components/base/highlighted";
+import { Highlight } from "../../libs/ui/components/base/highlight";
 import { Public } from "../../libs/ui/components/containers/public";
 import { Search } from "../../libs/ui/components/elements/search";
 import { buildPageHead } from "../../libs/ui/utils/build-page-head";
 import { cn } from "../../libs/ui/utils/cn";
 import type { FC } from "react";
 
-const QUESTION_BANKS = ["atpl_a", "ppl_a", "b737", "a320"] as const;
-const PARAMS_VALIDATOR = z.object({ questionBank: z.enum(QUESTION_BANKS) });
+const paramsSchema = z.object({ questionBank: questionBankNameSchema });
 
 const getSearchPageData = createServerFn({ method: "GET" })
-  .validator(z.object({ questionBank: z.string() }))
+  .validator(paramsSchema)
   .handler(async ({ data }) => {
-    const questionBank = data.questionBank as (typeof QUESTION_BANKS)[number];
-    if (!QUESTION_BANKS.includes(questionBank)) throw notFound();
+    const { questionBank } = data;
 
     const index = await getQuestionBankDb().getQuestionBank(questionBank);
     const { shortTitle } = index;
@@ -217,7 +216,9 @@ const EasaSearchPage: FC<{
                         {item.id}
                       </span>
                       <span className="font-semibold">
-                        <Highlighted text={item.text} words={results.words} />
+                        <Highlight highlight={results.words}>
+                          {item.text}
+                        </Highlight>
                       </span>
                     </Search.Item>
                   ))}
@@ -243,10 +244,9 @@ const EasaSearchPage: FC<{
                         </span>
                       </span>
                       <span className="line-clamp-3 font-medium">
-                        <Highlighted
-                          text={question.preview.split("\n")[0] ?? ""}
-                          words={results.words}
-                        />
+                        <Highlight highlight={results.words}>
+                          {question.preview.split("\n")[0] ?? ""}
+                        </Highlight>
                       </span>
                     </Search.Item>
                   ))}
@@ -342,8 +342,12 @@ const TypeRatingSearchPage: FC<{
                     <Search.Item
                       key={chapter.id}
                       link={{
-                        to: "/question-banks/$questionBank/chapters/$chapter",
-                        params: { questionBank, chapter: chapter.id },
+                        to: "/question-banks/$questionBank/content/$contentId",
+                        params: {
+                          questionBank,
+
+                          contentId: chapter.id,
+                        },
                       }}
                       className="items-baseline gap-3"
                     >
@@ -351,10 +355,9 @@ const TypeRatingSearchPage: FC<{
                         {chapter.id}
                       </span>
                       <span className="font-semibold">
-                        <Highlighted
-                          text={chapter.title}
-                          words={results.words}
-                        />
+                        <Highlight highlight={results.words}>
+                          {chapter.title}
+                        </Highlight>
                       </span>
                       <span className="ml-auto text-xs text-muted">
                         {chapter.numberOfQuestions} questions
@@ -371,12 +374,7 @@ const TypeRatingSearchPage: FC<{
                       link={{
                         to: "/question-banks/$questionBank/questions/$question",
                         params: { questionBank, question: question.id },
-                        search: {
-                          variant: question.variant,
-                          tab: question.explanationSnippet
-                            ? "explanation"
-                            : undefined,
-                        },
+                        search: { variant: question.variant },
                       }}
                       className="flex-col gap-2"
                     >
@@ -394,24 +392,21 @@ const TypeRatingSearchPage: FC<{
                         )}
                       </span>
                       <span className="line-clamp-3 font-medium">
-                        <Highlighted
-                          text={question.question.split("\n")[0] ?? ""}
-                          words={results.words}
-                        />
+                        <Highlight highlight={results.words}>
+                          {question.question.split("\n")[0] ?? ""}
+                        </Highlight>
                       </span>
                       <span className="line-clamp-2 text-muted">
                         ✅{" "}
-                        <Highlighted
-                          text={question.answer}
-                          words={results.words}
-                        />
+                        <Highlight highlight={results.words}>
+                          {question.answer}
+                        </Highlight>
                       </span>
                       {question.explanationSnippet && (
                         <span className="line-clamp-3 border-l-2 border-rule-strong pl-3 text-xs text-muted">
-                          <Highlighted
-                            text={question.explanationSnippet}
-                            words={results.words}
-                          />
+                          <Highlight highlight={results.words}>
+                            {question.explanationSnippet}
+                          </Highlight>
                         </span>
                       )}
                     </Search.Item>
@@ -427,7 +422,7 @@ const TypeRatingSearchPage: FC<{
 };
 
 const SearchPage: FC = () => {
-  const { questionBank } = PARAMS_VALIDATOR.parse(Route.useParams());
+  const { questionBank } = paramsSchema.parse(Route.useParams());
   if (questionBank === "a320" || questionBank === "b737")
     return <TypeRatingSearchPage questionBank={questionBank} />;
   return <EasaSearchPage questionBank={questionBank} />;
@@ -440,7 +435,9 @@ export const Route = createFileRoute(
   validateSearch: z.object({
     query: z.catch(z.optional(z.string()), undefined),
   }),
-  loader: ({ params }) => getSearchPageData({ data: params }),
+  loader: ({ params }) => getSearchPageData({ data: params as ParamsType }),
   head: ({ loaderData }) =>
     buildPageHead({ title: `Search · ${loaderData?.shortTitle}` }),
 });
+
+type ParamsType = z.infer<typeof paramsSchema>;

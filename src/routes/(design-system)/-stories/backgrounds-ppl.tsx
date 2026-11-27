@@ -1,4 +1,4 @@
-import { BackgroundForPplQuestionBank } from "../../../libs/ui/backgrounds/background-for-ppl-question-bank";
+import { BackgroundForPplQuestionBank } from "../../../libs/ui/components/backgrounds/background-for-ppl-question-bank";
 import type { FC } from "react";
 
 export const BackgroundsPpl: FC = () => (

@@ -1,6 +1,5 @@
 import { buildAnnotatedAnnexHref } from "../../../libs/core/question-templates/build-annotated-annex-href";
 import { Markdown } from "../../../libs/ui/components/base/markdown";
-import { SearchHighlightContext } from "../../../libs/ui/components/base/search-highlight-context";
 import { StoryBlock } from "./story-block";
 import type { FC } from "react";
 
@@ -106,9 +105,7 @@ export const BaseMarkdown: FC = () => (
       <Markdown>{MATHS}</Markdown>
     </StoryBlock>
     <StoryBlock title="Search highlight">
-      <SearchHighlightContext.Provider value="pressure">
-        <Markdown>{SEARCH}</Markdown>
-      </SearchHighlightContext.Provider>
+      <Markdown highlight="pressure">{SEARCH}</Markdown>
     </StoryBlock>
     <StoryBlock title="Large text">
       <Markdown large>{TEXT}</Markdown>

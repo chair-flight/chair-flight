@@ -1,10 +1,11 @@
-import { createFileRoute, createLink, notFound } from "@tanstack/react-router";
+import { createFileRoute, createLink } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod/mini";
 import {
   formatEpochAsDate,
   formatMillisecondsAsClock,
 } from "../../libs/base/format-values";
+import { questionBankNameSchema } from "../../libs/core/content/question-bank-name";
 import { getTestScore } from "../../libs/core/tests/get-test-score";
 import { getQuestionBankDb } from "../../libs/providers/question-bank-db";
 import { Button } from "../../libs/ui/components/base/button";
@@ -15,14 +16,12 @@ import { useTests } from "../-hooks/use-tests";
 import type { FC } from "react";
 import type { Test } from "../../libs/core/tests/test";
 
-const QUESTION_BANKS = ["atpl_a", "ppl_a", "b737", "a320"] as const;
-const PARAMS_VALIDATOR = z.object({ questionBank: z.enum(QUESTION_BANKS) });
+const paramsSchema = z.object({ questionBank: questionBankNameSchema });
 
 const getTestsPageData = createServerFn({ method: "GET" })
-  .validator(z.object({ questionBank: z.string() }))
+  .validator(paramsSchema)
   .handler(async ({ data }) => {
-    const questionBank = data.questionBank as (typeof QUESTION_BANKS)[number];
-    if (!QUESTION_BANKS.includes(questionBank)) throw notFound();
+    const { questionBank } = data;
 
     const index = await getQuestionBankDb().getQuestionBank(questionBank);
 
@@ -63,7 +62,7 @@ const describeTest = (test: Test) => {
 };
 
 const TestsPage: FC = () => {
-  const { questionBank } = PARAMS_VALIDATOR.parse(Route.useParams());
+  const { questionBank } = paramsSchema.parse(Route.useParams());
   const { breadcrumbs } = Route.useLoaderData();
   const { tests } = useTests();
   const bankTests = tests
@@ -116,10 +115,12 @@ export const Route = createFileRoute(
 )({
   component: TestsPage,
   ssr: false,
-  loader: ({ params }) => getTestsPageData({ data: params }),
+  loader: ({ params }) => getTestsPageData({ data: params as ParamsType }),
   head: ({ params }) =>
     buildPageHead({
       title: "Tests · Chair Flight",
       path: `/question-banks/${params.questionBank}/tests`,
     }),
 });
+
+type ParamsType = z.infer<typeof paramsSchema>;

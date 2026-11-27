@@ -1,13 +1,10 @@
 import { useState } from "react";
-import { QuestionMultipleChoice } from "../../../libs/ui/components/elements/question-multiple-choice";
 import { QuestionViewer } from "../../../libs/ui/components/elements/question-viewer";
 import { STORY_LINK, StoryBlock } from "./story-block";
 import type { FC } from "react";
 
 export const ElementsQuestionViewer: FC = () => {
-  const [tab, setTab] = useState<"question" | "explanation" | "variants">(
-    "explanation",
-  );
+  const [tab, setTab] = useState<"question" | "explanation">("explanation");
   const [selectedOptionId, setSelectedOptionId] = useState<string>();
   const [shuffleCount, setShuffleCount] = useState(0);
   const [variant, setVariant] = useState(1);
@@ -50,22 +47,26 @@ export const ElementsQuestionViewer: FC = () => {
               onVariantChange: setVariant,
             },
           }}
-        >
-          <QuestionMultipleChoice
-            title="Q1"
-            question="What is the flight crew maximum oxygen pressure?"
-            options={[
+          goBack={{ onClick: () => undefined }}
+          linkToQuestion={STORY_LINK}
+          onAnnexClick={() => undefined}
+          annexModal={{ open: false, onClose: () => undefined }}
+          annexViewer={{ href: "" }}
+          question={{
+            title: "Q1",
+            question: "What is the flight crew maximum oxygen pressure?",
+            options: [
               { id: "a", text: "1850 psi" },
               { id: "b", text: "1100 psi" },
               { id: "c", text: "3000 psi" },
               { id: "d", text: "1000 psi" },
-            ]}
-            correctOptionId="a"
-            selectedOptionId={selectedOptionId}
-            showResult={Boolean(selectedOptionId)}
-            onOptionClick={setSelectedOptionId}
-          />
-        </QuestionViewer>
+            ],
+            correctOptionId: "a",
+            selectedOptionId,
+            showResult: Boolean(selectedOptionId),
+            onOptionClick: setSelectedOptionId,
+          }}
+        />
       </div>
     </StoryBlock>
   );

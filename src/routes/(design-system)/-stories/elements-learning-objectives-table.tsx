@@ -12,7 +12,16 @@ export const ElementsLearningObjectivesTable: FC = () => (
       <div className="h-96">
         <LearningObjectivesTable
           items={STORY_LEARNING_OBJECTIVES}
-          query=""
+          courses={STORY_LEARNING_OBJECTIVE_COURSES}
+        />
+      </div>
+    </StoryBlock>
+    <StoryBlock title="Highlight and filter">
+      <div className="h-96">
+        <LearningObjectivesTable
+          items={STORY_LEARNING_OBJECTIVES}
+          highlight="atmosphere"
+          filterItems={["050", "050.01", "050.01.01"]}
           courses={STORY_LEARNING_OBJECTIVE_COURSES}
         />
       </div>
@@ -22,7 +31,6 @@ export const ElementsLearningObjectivesTable: FC = () => (
         <LearningObjectivesTable
           loading
           items={[]}
-          query=""
           courses={STORY_LEARNING_OBJECTIVE_COURSES}
         />
       </div>

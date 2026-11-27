@@ -2,9 +2,9 @@ import { createFileRoute, Link, Navigate } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Logo } from "../../libs/ui/components/base/logo";
 import { ThemeToggle } from "../../libs/ui/components/base/theme-toggle";
-import { ChevronRightIcon } from "../../libs/ui/icons/chevron-right-icon";
-import { CloseIcon } from "../../libs/ui/icons/close-icon";
-import { MenuIcon } from "../../libs/ui/icons/menu-icon";
+import { ChevronRightIcon } from "../../libs/ui/components/icons/chevron-right-icon";
+import { CloseIcon } from "../../libs/ui/components/icons/close-icon";
+import { MenuIcon } from "../../libs/ui/components/icons/menu-icon";
 import { cn } from "../../libs/ui/utils/cn";
 import { BackgroundsAirbus320 } from "./-stories/backgrounds-airbus-320";
 import { BackgroundsAtpl } from "./-stories/backgrounds-atpl";
@@ -13,18 +13,21 @@ import { BackgroundsPpl } from "./-stories/backgrounds-ppl";
 import { BackgroundsPublic } from "./-stories/backgrounds-public";
 import { BaseAnnunciatorLight } from "./-stories/base-annunciator-light";
 import { BaseBreadcrumbs } from "./-stories/base-breadcrumbs";
+import { BaseButton } from "./-stories/base-button";
 import { BaseButtonCard } from "./-stories/base-button-card";
 import { BaseButtonIcon } from "./-stories/base-button-icon";
 import { BaseButtonSearchBar } from "./-stories/base-button-search-bar";
-import { BaseButtons } from "./-stories/base-buttons";
+import { BaseButtonStat } from "./-stories/base-button-stat";
 import { BaseCheckbox } from "./-stories/base-checkbox";
-import { BaseHighlighted } from "./-stories/base-highlighted";
+import { BaseHighlight } from "./-stories/base-highlight";
 import { BaseMarkdown } from "./-stories/base-markdown";
 import { BaseMarkdownImage } from "./-stories/base-markdown-image";
 import { BaseDialog, BaseModal } from "./-stories/base-modal";
 import { BaseNestedCheckboxSelect } from "./-stories/base-nested-checkbox-select";
 import { BaseSliderWithInput } from "./-stories/base-slider-with-input";
 import { BaseThemeToggle } from "./-stories/base-theme-toggle";
+import { BaseToaster } from "./-stories/base-toaster";
+import { BaseTooltip } from "./-stories/base-tooltip";
 import { ContainersApp } from "./-stories/containers-app";
 import { ContainersLandingPage } from "./-stories/containers-landing-page";
 import { ContainersPublic } from "./-stories/containers-public";
@@ -36,6 +39,7 @@ import { ElementsQuestionBankPreviewCard } from "./-stories/elements-question-ba
 import { ElementsQuestionMultipleChoice } from "./-stories/elements-question-multiple-choice";
 import { ElementsQuestionPreviewCard } from "./-stories/elements-question-preview-card";
 import { ElementsQuestionViewer } from "./-stories/elements-question-viewer";
+import { ElementsQuestionsTable } from "./-stories/elements-questions-table";
 import { ElementsSearch } from "./-stories/elements-search";
 import { ElementsTitlePage } from "./-stories/elements-title-page";
 import { ElementsTypical } from "./-stories/elements-typical";
@@ -76,6 +80,12 @@ const GROUPS: {
     title: "Base",
     stories: [
       {
+        id: "annunciator-light",
+        name: "Annunciator light",
+        about: "A lit cockpit light, one or two lines, in five colours.",
+        Story: BaseAnnunciatorLight,
+      },
+      {
         id: "breadcrumbs",
         name: "Breadcrumbs",
         about: "The trail of parent pages in the header.",
@@ -83,10 +93,9 @@ const GROUPS: {
       },
       {
         id: "button",
-        name: "Buttons",
-        about:
-          "The one button: outline, solid or choice, with an optional icon.",
-        Story: BaseButtons,
+        name: "Button",
+        about: "Outline and solid buttons with variants, sizes, and icons.",
+        Story: BaseButton,
       },
       {
         id: "button-card",
@@ -107,16 +116,28 @@ const GROUPS: {
         Story: BaseButtonSearchBar,
       },
       {
+        id: "button-stat",
+        name: "Button stat",
+        about: "A clickable statistic with a label, value and optional detail.",
+        Story: BaseButtonStat,
+      },
+      {
         id: "checkbox",
         name: "Checkbox",
         about: "A checkbox with checked, indeterminate and disabled states.",
         Story: BaseCheckbox,
       },
       {
-        id: "highlighted",
-        name: "Highlighted",
+        id: "dialog",
+        name: "Dialog",
+        about: "A titled panel with a close button and optional footer.",
+        Story: BaseDialog,
+      },
+      {
+        id: "highlight",
+        name: "Highlight",
         about: "Text with the matching search words marked.",
-        Story: BaseHighlighted,
+        Story: BaseHighlight,
       },
       {
         id: "markdown",
@@ -138,12 +159,6 @@ const GROUPS: {
         Story: BaseModal,
       },
       {
-        id: "dialog",
-        name: "Dialog",
-        about: "A titled panel with a close button and optional footer.",
-        Story: BaseDialog,
-      },
-      {
         id: "nested-checkbox-select",
         name: "Nested checkbox select",
         about:
@@ -163,10 +178,17 @@ const GROUPS: {
         Story: BaseThemeToggle,
       },
       {
-        id: "annunciator-light",
-        name: "Annunciator light",
-        about: "A lit cockpit light, one or two lines, in five colours.",
-        Story: BaseAnnunciatorLight,
+        id: "toaster",
+        name: "Toaster",
+        about: "A short message that appears at the bottom and clears itself.",
+        Story: BaseToaster,
+      },
+      {
+        id: "tooltip",
+        name: "Tooltip",
+        about:
+          "A label that shows on hover or keyboard focus, with an optional shortcut.",
+        Story: BaseTooltip,
       },
     ],
   },
@@ -185,6 +207,12 @@ const GROUPS: {
         name: "Learning objectives table",
         about: "Learning objectives as a collapsible, searchable tree.",
         Story: ElementsLearningObjectivesTable,
+      },
+      {
+        id: "questions-table",
+        name: "Questions table",
+        about: "Questions with censorable answers, highlight and filtering.",
+        Story: ElementsQuestionsTable,
       },
       {
         id: "question-annex-viewer",
@@ -297,8 +325,7 @@ const GROUPS: {
       {
         id: "icons",
         name: "SVG Icons",
-        about:
-          "Every icon in src/libs/ui/icons, drawn in the current text colour.",
+        about: "UI icons at their default 16 × 16 px size.",
         Story: GraphicsSvgIcons,
       },
       {

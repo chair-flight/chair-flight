@@ -1,12 +1,15 @@
 import * as fs from "node:fs/promises";
 import * as path from "node:path";
 import * as YAML from "yaml";
-import { QUESTION_BANK_NAMES } from "../libs/core/content/question-bank-name.ts";
+import { z } from "zod/mini";
 import { questionBankRawLearningObjectiveSchema } from "../libs/core/content/question-bank-raw-learning-objective.ts";
 import { questionBankRawMetadataSchema } from "../libs/core/content/question-bank-raw-metadata.ts";
 import { questionBankRawQuestionSchema } from "../libs/core/content/question-bank-raw-question.ts";
+import { getQuestionAnnexIds } from "../libs/core/question-bank/get-question-annex-ids.ts";
 import { ANNEX_REFERENCE } from "../libs/core/question-bank/resolve-question-templates.ts";
 import type { QuestionBankFile } from "../libs/core/content/question-bank-file.ts";
+
+const QUESTION_BANK_NAMES = ["atpl_a", "ppl_a", "b737", "a320"];
 
 export const compileQuestionBanks = async () => {
   await Promise.all(
@@ -55,8 +58,8 @@ export const compileQuestionBanks = async () => {
           )
         : "";
 
-      const learningObjectiveRevisions = questionBankRawLearningObjectiveSchema
-        .array()
+      const learningObjectiveRevisions = z
+        .array(questionBankRawLearningObjectiveSchema)
         .parse(YAML.parse(learningObjectivesText) ?? []);
 
       const currentVersion = latestLearningObjectivesFile?.slice(0, -5);
@@ -78,8 +81,8 @@ export const compileQuestionBanks = async () => {
             path.join(questionsFolder, file),
             "utf-8",
           );
-          const fileQuestions = questionBankRawQuestionSchema
-            .array()
+          const fileQuestions = z
+            .array(questionBankRawQuestionSchema)
             .parse(YAML.parse(fileText) ?? []);
           return fileQuestions.map((question) => ({ question }));
         }),
@@ -184,7 +187,20 @@ export const compileQuestionBanks = async () => {
         );
       }
 
-      const questions = entries.map(({ question }) => question);
+      const questions = entries.map(({ question }) => {
+        const automaticTags = [
+          ...(getQuestionAnnexIds(question).length > 0 ? ["has-annex"] : []),
+          ...(question.templates.some(
+            (template) => template.explanation.trim() !== "",
+          )
+            ? ["has-explanation"]
+            : []),
+        ];
+        return {
+          ...question,
+          tags: [...new Set([...question.tags, ...automaticTags])],
+        };
+      });
 
       const index: QuestionBankFile = {
         id: questionBank,

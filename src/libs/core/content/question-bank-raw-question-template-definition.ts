@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/mini";
 
 export type QuestionBankRawQuestionTemplateDefinition = {
   type: "definition";
@@ -32,4 +32,4 @@ export const questionBankRawQuestionTemplateDefinitionSchema = z.strictObject({
       definition: z.string(),
     }),
   ),
-}) satisfies z.ZodType<QuestionBankRawQuestionTemplateDefinition>;
+}) satisfies z.ZodMiniType<QuestionBankRawQuestionTemplateDefinition>;

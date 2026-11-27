@@ -3,7 +3,10 @@ import { getSearchWords } from "./get-search-words.ts";
 type SearchableQuestion = {
   id: string;
   preview: string;
+  tags?: string[];
 };
+
+const TAG_FILTER = /(?:^|\s)tags:(\S+)/gi;
 
 const PAGE_SIZE = 40;
 const WORD_MATCH = /[a-z0-9]+/g;
@@ -129,9 +132,16 @@ export const searchQuestions = <T extends SearchableQuestion>({
   offset?: number;
   limit?: number;
 }) => {
-  const run = (text: string) => rankQuestions(candidates, text, field);
-  const matches = run(query);
-  const words = getSearchWords(query).map((word) =>
+  const requiredTags = [...query.matchAll(TAG_FILTER)].map(([, tag]) =>
+    (tag ?? "").toLowerCase(),
+  );
+  const text = query.replace(TAG_FILTER, " ").trim();
+  const tagged = candidates.filter((candidate) =>
+    requiredTags.every((tag) => candidate.tags?.includes(tag)),
+  );
+  const run = (value: string) => rankQuestions(tagged, value, field);
+  const matches = run(text);
+  const words = getSearchWords(text).map((word) =>
     word.toLowerCase().slice(0, 40),
   );
   const correctedQuery =

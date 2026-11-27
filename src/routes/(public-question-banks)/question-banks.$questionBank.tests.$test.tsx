@@ -7,6 +7,8 @@ import {
 import { useState } from "react";
 import { z } from "zod/mini";
 import { formatMillisecondsAsClock } from "../../libs/base/format-values";
+import { questionBankNameSchema } from "../../libs/core/content/question-bank-name";
+import { parseAnnexHref } from "../../libs/core/question-templates/parse-annotated-annex-href";
 import { Button } from "../../libs/ui/components/base/button";
 import { Logo } from "../../libs/ui/components/base/logo";
 import { Modal } from "../../libs/ui/components/base/modal";
@@ -21,9 +23,8 @@ import { useTestSession } from "../-hooks/use-test-session";
 import type { ComponentProps, FC } from "react";
 import type { Test as TestData } from "../../libs/core/tests/test";
 
-const QUESTION_BANKS = ["atpl_a", "ppl_a", "b737", "a320"] as const;
-const PARAMS_VALIDATOR = z.object({
-  questionBank: z.enum(QUESTION_BANKS),
+const paramsSchema = z.object({
+  questionBank: questionBankNameSchema,
   test: z.string().check(z.minLength(1)),
 });
 
@@ -200,14 +201,14 @@ const TestFinished: FC<{ test: TestData }> = ({ test }) => {
         <TestReview test={test} onAnnexClick={openAnnex} />
       </div>
       <Modal open={modal.isOpen} onClose={modal.close}>
-        <QuestionAnnexViewer href={href} onClose={modal.close} />
+        <QuestionAnnexViewer {...parseAnnexHref(href)} onClose={modal.close} />
       </Modal>
     </div>
   );
 };
 
 const TestPage: FC = () => {
-  const { test: testId } = PARAMS_VALIDATOR.parse(Route.useParams());
+  const { test: testId } = paramsSchema.parse(Route.useParams());
   const session = useTestSession(testId);
   const { test } = session;
 
@@ -223,7 +224,7 @@ export const Route = createFileRoute(
   component: TestPage,
   ssr: false,
   loader: ({ params }) => {
-    const parsedParams = PARAMS_VALIDATOR.safeParse(params);
+    const parsedParams = paramsSchema.safeParse(params);
     if (parsedParams.error) throw notFound();
   },
   head: () => ({ meta: [{ title: "Test · Chair Flight" }] }),

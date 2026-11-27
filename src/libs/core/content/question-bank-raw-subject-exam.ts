@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/mini";
 import { questionBankRawSubjectExamChapterSchema } from "./question-bank-raw-subject-exam-chapter.ts";
 import type { QuestionBankRawSubjectExamChapter } from "./question-bank-raw-subject-exam-chapter.ts";
 
@@ -13,5 +13,5 @@ export const questionBankRawSubjectExamSchema = z.strictObject({
   course: z.string(),
   minutes: z.number(),
   questions: z.number(),
-  chapters: z.array(questionBankRawSubjectExamChapterSchema).nullable(),
-}) satisfies z.ZodType<QuestionBankRawSubjectExam>;
+  chapters: z.nullable(z.array(questionBankRawSubjectExamChapterSchema)),
+}) satisfies z.ZodMiniType<QuestionBankRawSubjectExam>;

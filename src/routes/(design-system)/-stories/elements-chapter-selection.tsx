@@ -27,8 +27,12 @@ export const ElementsChapterSelection: FC = () => (
           },
         ]}
         getLink={(chapterId) => ({
-          to: "/question-banks/$questionBank/chapters/$chapter",
-          params: { questionBank: "b737", chapter: chapterId },
+          to: "/question-banks/$questionBank/content/$contentId",
+          params: {
+            questionBank: "b737",
+
+            contentId: chapterId,
+          },
         })}
       />
     </StoryBlock>
@@ -71,8 +75,12 @@ export const ElementsChapterSelection: FC = () => (
           },
         ]}
         getLink={(chapterId) => ({
-          to: "/question-banks/$questionBank/chapters/$chapter",
-          params: { questionBank: "atpl_a", chapter: chapterId },
+          to: "/question-banks/$questionBank/content/$contentId",
+          params: {
+            questionBank: "atpl_a",
+
+            contentId: chapterId,
+          },
         })}
       />
     </StoryBlock>

@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/mini";
 
 export type QuestionBankRawQuestionTemplateTrueOrFalse = {
   type: "true-or-false";
@@ -20,4 +20,4 @@ export const questionBankRawQuestionTemplateTrueOrFalseSchema = z.strictObject({
       answer: z.boolean(),
     }),
   ),
-}) satisfies z.ZodType<QuestionBankRawQuestionTemplateTrueOrFalse>;
+}) satisfies z.ZodMiniType<QuestionBankRawQuestionTemplateTrueOrFalse>;

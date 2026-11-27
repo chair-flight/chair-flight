@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
 import { staticFunctionMiddleware } from "@tanstack/start-static-server-functions";
 import { formatIsoDateAsDate } from "../../libs/base/format-values";
-import { BackgroundForPublic } from "../../libs/ui/backgrounds/background-for-public";
+import { BackgroundForPublic } from "../../libs/ui/components/backgrounds/background-for-public";
 import { Public } from "../../libs/ui/components/containers/public";
 import { buildPageHead } from "../../libs/ui/utils/build-page-head";
 import { cn } from "../../libs/ui/utils/cn";

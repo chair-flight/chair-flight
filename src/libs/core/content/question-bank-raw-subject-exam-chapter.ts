@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/mini";
 
 export type QuestionBankRawSubjectExamChapter = {
   chapter: string;
@@ -8,4 +8,4 @@ export type QuestionBankRawSubjectExamChapter = {
 export const questionBankRawSubjectExamChapterSchema = z.strictObject({
   chapter: z.string(),
   numberOfQuestions: z.number(),
-}) satisfies z.ZodType<QuestionBankRawSubjectExamChapter>;
+}) satisfies z.ZodMiniType<QuestionBankRawSubjectExamChapter>;

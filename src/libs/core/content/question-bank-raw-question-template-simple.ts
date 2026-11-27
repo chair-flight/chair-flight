@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/mini";
 import { questionBankRawQuestionAnnexAnnotationSchema } from "./question-bank-raw-question-annex-annotation.ts";
 import { questionBankRawQuestionTemplateSimplePresetSchema } from "./question-bank-raw-question-template-simple-preset.ts";
 import type { QuestionBankRawQuestionAnnexAnnotation } from "./question-bank-raw-question-annex-annotation.ts";
@@ -24,16 +24,16 @@ export const questionBankRawQuestionTemplateSimpleSchema = z.strictObject({
   type: z.literal("simple"),
   question: z.string(),
   explanation: z.string(),
-  annexes: z
-    .record(
+  annexes: z.optional(
+    z.record(
       z.string(),
       z.strictObject({
         annex: z.string(),
-        width: z.number().optional(),
-        height: z.number().optional(),
+        width: z.optional(z.number()),
+        height: z.optional(z.number()),
         annotations: z.array(questionBankRawQuestionAnnexAnnotationSchema),
       }),
-    )
-    .optional(),
+    ),
+  ),
   presets: z.array(questionBankRawQuestionTemplateSimplePresetSchema),
-}) satisfies z.ZodType<QuestionBankRawQuestionTemplateSimple>;
+}) satisfies z.ZodMiniType<QuestionBankRawQuestionTemplateSimple>;

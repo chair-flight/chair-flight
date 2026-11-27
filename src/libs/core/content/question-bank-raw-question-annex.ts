@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/mini";
 import { questionBankRawQuestionAnnexAnnotationSchema } from "./question-bank-raw-question-annex-annotation.ts";
 import type { QuestionBankRawQuestionAnnexAnnotation } from "./question-bank-raw-question-annex-annotation.ts";
 
@@ -25,4 +25,4 @@ export const questionBankRawQuestionAnnexSchema = z.union([
     height: z.number(),
     annotations: z.array(questionBankRawQuestionAnnexAnnotationSchema),
   }),
-]) satisfies z.ZodType<QuestionBankRawQuestionAnnex>;
+]) satisfies z.ZodMiniType<QuestionBankRawQuestionAnnex>;

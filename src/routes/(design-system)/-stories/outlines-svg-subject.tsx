@@ -1,4 +1,4 @@
-import { ATPL_SUBJECT_OUTLINES } from "../../../libs/ui/outlines/atpl-subject-outlines";
+import { ATPL_SUBJECT_OUTLINES } from "../../../libs/ui/components/outlines/atpl-subject-outlines";
 import { StoryBlock } from "./story-block";
 import type { FC } from "react";
 

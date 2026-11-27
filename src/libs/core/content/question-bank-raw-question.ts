@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/mini";
 import { questionBankRawQuestionAnnexSchema } from "./question-bank-raw-question-annex.ts";
 import { questionBankRawQuestionTemplateSchema } from "./question-bank-raw-question-template.ts";
 import type { QuestionBankRawQuestionAnnex } from "./question-bank-raw-question-annex.ts";
@@ -11,6 +11,7 @@ export type QuestionBankRawQuestion = {
   learningObjectiveIds: string[];
   relatedQuestionIds: string[];
   externalQuestionIds: string[];
+  tags: string[];
   annexes: QuestionBankRawQuestionAnnex[];
   templates: QuestionBankRawQuestionTemplate[];
 };
@@ -20,8 +21,12 @@ export const questionBankRawQuestionSchema = z.strictObject({
   subjectId: z.string(),
   chapterId: z.string(),
   templates: z.array(questionBankRawQuestionTemplateSchema),
-  learningObjectiveIds: z.array(z.string()).default([]),
-  relatedQuestionIds: z.array(z.string()).default([]),
-  externalQuestionIds: z.array(z.string()).default([]),
-  annexes: z.array(questionBankRawQuestionAnnexSchema).default([]),
-}) satisfies z.ZodType<QuestionBankRawQuestion>;
+  learningObjectiveIds: z._default(z.array(z.string()), []),
+  relatedQuestionIds: z._default(z.array(z.string()), []),
+  externalQuestionIds: z._default(z.array(z.string()), []),
+  tags: z._default(
+    z.array(z.string().check(z.regex(/^[a-z0-9]+(-[a-z0-9]+)*$/))),
+    [],
+  ),
+  annexes: z._default(z.array(questionBankRawQuestionAnnexSchema), []),
+}) satisfies z.ZodMiniType<QuestionBankRawQuestion>;

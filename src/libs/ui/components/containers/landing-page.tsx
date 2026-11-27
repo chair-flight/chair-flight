@@ -1,5 +1,5 @@
-import { ArrowDownIcon } from "../../icons/arrow-down-icon";
 import { cn } from "../../utils/cn";
+import { ArrowDownIcon } from "../icons/arrow-down-icon";
 import type { FC } from "react";
 
 const ExploreContent: FC<{

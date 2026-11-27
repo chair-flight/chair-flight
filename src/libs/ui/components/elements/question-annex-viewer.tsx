@@ -1,22 +1,21 @@
 import { useEffect, useRef, useState } from "react";
-import { parseAnnotatedAnnexHref } from "../../../core/question-templates/parse-annotated-annex-href";
 import { useAnnexDimensions } from "../../hooks/use-annex-dimensions";
 import { useKeyboardShortcuts } from "../../hooks/use-keyboard-shortcuts";
-import { ArrowDownIcon } from "../../icons/arrow-down-icon";
-import { CircleIcon } from "../../icons/circle-icon";
-import { CloseIcon } from "../../icons/close-icon";
-import { ExternalLinkIcon } from "../../icons/external-link-icon";
-import { FitIcon } from "../../icons/fit-icon";
-import { HandIcon } from "../../icons/hand-icon";
-import { LineIcon } from "../../icons/line-icon";
-import { PencilIcon } from "../../icons/pencil-icon";
-import { TrashIcon } from "../../icons/trash-icon";
-import { UndoIcon } from "../../icons/undo-icon";
-import { ZoomInIcon } from "../../icons/zoom-in-icon";
-import { ZoomOutIcon } from "../../icons/zoom-out-icon";
 import { cn } from "../../utils/cn";
 import { AnnexCanvas } from "../base/annex-canvas";
 import { ButtonIcon } from "../base/button-icon";
+import { ArrowDownIcon } from "../icons/arrow-down-icon";
+import { CircleIcon } from "../icons/circle-icon";
+import { CloseIcon } from "../icons/close-icon";
+import { ExternalLinkIcon } from "../icons/external-link-icon";
+import { FitIcon } from "../icons/fit-icon";
+import { HandIcon } from "../icons/hand-icon";
+import { LineIcon } from "../icons/line-icon";
+import { PencilIcon } from "../icons/pencil-icon";
+import { TrashIcon } from "../icons/trash-icon";
+import { UndoIcon } from "../icons/undo-icon";
+import { ZoomInIcon } from "../icons/zoom-in-icon";
+import { ZoomOutIcon } from "../icons/zoom-out-icon";
 import type { FC } from "react";
 import type { QuestionBankRawQuestionAnnexAnnotation as Annotation } from "../../../core/content/question-bank-raw-question-annex-annotation";
 
@@ -126,10 +125,23 @@ const downloadAnnex = async (
 
 export const QuestionAnnexViewer: FC<{
   href: string;
+  width?: number;
+  height?: number;
+  editable?: boolean;
+  annotations?: Annotation[];
   drawings?: Annotation[];
   onDrawingsChange?: (drawings: Annotation[]) => void;
   onClose?: () => void;
-}> = ({ href, drawings = [], onDrawingsChange, onClose }) => {
+}> = ({
+  href,
+  width,
+  height,
+  editable: editableProp = false,
+  annotations = [],
+  drawings = [],
+  onDrawingsChange,
+  onClose,
+}) => {
   const [selectedTool, setTool] = useState<Tool>("hand");
   const [view, setView] = useState({ scale: 1, x: 0, y: 0 });
   const [viewport, setViewport] = useState({ width: 0, height: 0 });
@@ -151,23 +163,21 @@ export const QuestionAnnexViewer: FC<{
     view: { scale: number; x: number; y: number };
   }>(undefined);
   const gestureEndedRef = useRef(false);
-  const [hrefWithoutFragment, fragment = ""] = href.split("#");
-  const editable =
-    fragment.split(":").includes("editable") && Boolean(onDrawingsChange);
-  const hrefSegments = hrefWithoutFragment.split("?")[0].split("/");
+  const editable = editableProp && Boolean(onDrawingsChange);
+  const hrefSegments = href.split("/");
   const annexId = hrefSegments.pop()?.replace(/\.[^.]+$/, "") ?? "";
   const questionBank = hrefSegments.pop() ?? "";
-  const query = hrefWithoutFragment.split("?")[1];
-  const extractQuery = [query, editable ? "editable=true" : undefined]
-    .filter(Boolean)
-    .join("&");
+  const extractQuery = new URLSearchParams(
+    [
+      annotations.length > 0
+        ? ["annotations", JSON.stringify(annotations)]
+        : undefined,
+      editable ? ["editable", "true"] : undefined,
+    ].filter((entry): entry is [string, string] => entry !== undefined),
+  ).toString();
   const tool = editable ? selectedTool : "hand";
-  const annotated = parseAnnotatedAnnexHref(href);
-  const src = annotated?.href ?? href.split("#")[0].split("?")[0];
-  const dimensions = useAnnexDimensions(src, {
-    width: annotated?.width,
-    height: annotated?.height,
-  });
+  const src = href;
+  const dimensions = useAnnexDimensions(src, { width, height });
   const addDrawing = (drawing: Annotation) =>
     onDrawingsChange?.([...drawings, drawing]);
   const undoDrawing = () => onDrawingsChange?.(drawings.slice(0, -1));
@@ -338,7 +348,7 @@ export const QuestionAnnexViewer: FC<{
             downloadAnnex(
               contentRef.current?.querySelector("svg"),
               src,
-              (annotated?.annotations.length ?? 0) + drawings.length > 0,
+              annotations.length + drawings.length > 0,
             )
           }
         />
@@ -511,7 +521,10 @@ export const QuestionAnnexViewer: FC<{
             }}
           >
             <AnnexCanvas
-              href={href}
+              href={src}
+              width={width}
+              height={height}
+              annotations={annotations}
               drawings={drawings}
               draft={draft}
               className="pointer-events-none size-full"

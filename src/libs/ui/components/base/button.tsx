@@ -1,6 +1,11 @@
 import { cn } from "../../utils/cn";
 import type { ComponentProps, FC } from "react";
 
+export const BUTTON_DEFAULT_VARIANT_CLASS = cn(
+  "border-rule-strong bg-paper text-ink",
+  "enabled:hover:border-accent enabled:hover:text-accent",
+);
+
 export const Button: FC<
   ComponentProps<"button"> & {
     href?: string;
@@ -22,11 +27,7 @@ export const Button: FC<
     size === "small" && "h-8 rounded-md px-3 text-[13px]",
     size === "medium" && "h-10 rounded-md px-4 text-sm",
     size === "large" && "h-12 rounded-lg px-6 text-base",
-    variant === "default" &&
-      cn(
-        "border-rule-strong bg-paper text-ink",
-        "enabled:hover:border-accent enabled:hover:text-accent",
-      ),
+    variant === "default" && BUTTON_DEFAULT_VARIANT_CLASS,
     variant === "primary" &&
       "border-brand bg-brand text-white enabled:hover:opacity-90",
     variant === "danger" &&

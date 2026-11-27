@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/mini";
 
 export type QuestionBankRawQuestionAnnexAnnotationText = {
   type: "text";
@@ -17,9 +17,9 @@ export const questionBankRawQuestionAnnexAnnotationTextSchema = z.strictObject({
   x: z.union([z.number(), z.array(z.number())]),
   y: z.number(),
   text: z.string(),
-  size: z.number().optional(),
-  rotation: z.number().optional(),
-  color: z.string().optional(),
-  weight: z.string().optional(),
-  anchor: z.enum(["start", "middle", "end"]).optional(),
-}) satisfies z.ZodType<QuestionBankRawQuestionAnnexAnnotationText>;
+  size: z.optional(z.number()),
+  rotation: z.optional(z.number()),
+  color: z.optional(z.string()),
+  weight: z.optional(z.string()),
+  anchor: z.optional(z.enum(["start", "middle", "end"])),
+}) satisfies z.ZodMiniType<QuestionBankRawQuestionAnnexAnnotationText>;

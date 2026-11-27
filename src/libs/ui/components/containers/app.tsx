@@ -2,16 +2,16 @@ import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { useMediaQuery } from "../../hooks/use-media-query";
 import { useTheme } from "../../hooks/use-theme";
-import { ChevronLeftIcon } from "../../icons/chevron-left-icon";
-import { MenuIcon } from "../../icons/menu-icon";
-import { MoonIcon } from "../../icons/moon-icon";
-import { SunIcon } from "../../icons/sun-icon";
 import { cn } from "../../utils/cn";
 import { ButtonIcon } from "../base/button-icon";
 import { Logo } from "../base/logo";
+import { ChevronLeftIcon } from "../icons/chevron-left-icon";
+import { MenuIcon } from "../icons/menu-icon";
+import { MoonIcon } from "../icons/moon-icon";
+import { SunIcon } from "../icons/sun-icon";
 import type { LinkProps } from "@tanstack/react-router";
 import type { FC, ReactNode } from "react";
-import type { IconProps } from "../../icons/svg-icon";
+import type { IconProps } from "../icons/svg-icon";
 
 const SIDEBAR_ITEM_CLASS_NAME = cn(
   "flex flex-none cursor-pointer items-center gap-3 border-0 border-b",

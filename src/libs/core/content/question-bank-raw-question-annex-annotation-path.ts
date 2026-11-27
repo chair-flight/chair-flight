@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/mini";
 
 export type QuestionBankRawQuestionAnnexAnnotationPath = {
   type: "path";
@@ -10,6 +10,6 @@ export type QuestionBankRawQuestionAnnexAnnotationPath = {
 export const questionBankRawQuestionAnnexAnnotationPathSchema = z.strictObject({
   type: z.literal("path"),
   points: z.array(z.tuple([z.number(), z.number()])),
-  color: z.string().optional(),
-  width: z.number().optional(),
-}) satisfies z.ZodType<QuestionBankRawQuestionAnnexAnnotationPath>;
+  color: z.optional(z.string()),
+  width: z.optional(z.number()),
+}) satisfies z.ZodMiniType<QuestionBankRawQuestionAnnexAnnotationPath>;

@@ -10,6 +10,7 @@ import {
   ScriptOnce,
   Scripts,
 } from "@tanstack/react-router";
+import { Toaster } from "../libs/ui/components/base/toaster";
 import { THEME_SCRIPT } from "../libs/ui/hooks/use-theme";
 import { buildPageHead } from "../libs/ui/utils/build-page-head";
 import { NotFoundPage } from "./-error-pages/404";
@@ -26,6 +27,7 @@ const RootDocument: FC<PropsWithChildren> = ({ children }) => {
       </head>
       <body>
         {children}
+        <Toaster />
         <Scripts />
       </body>
     </html>

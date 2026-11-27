@@ -1,12 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="580" height="210" viewBox="0 0 580 210">
-  <title>Aerofoil flow and boundary layer</title>
-  
-    <rect width="580" height="210" fill="#f8fbff"/>
-    <path d="M64 108C170 13 294 33 520 116 347 93 201 174 64 108Z" fill="#e8c398" stroke="#14243d" stroke-width="2"/>
-    <g fill="none" stroke="#2563eb" stroke-width="1.5">
-    <path d="M16 75c85 0 96-50 194-55 119-6 258 39 344 60M16 86c102 5 103-45 198-50 96-6 211 29 340 62M16 98c92 4 107-43 219-45 109-2 225 48 319 63M16 109l48-1M16 121c65-9 92 48 227 33 130-17 189-31 311-5M16 133c65-8 91 48 228 35 166-18 209-31 310-3M16 143c68-10 97 49 226 39 123-9 238-26 312 5"/>
-    <path d="M399 128c38-32 50-32 72-20 21 15-7 38-21 13m26 9c27-16 40-8 39 4-2 16-20 15-22 4" stroke-dasharray="5 3"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="298" viewBox="0 0 720 298" role="img" aria-labelledby="title">
+  <title id="title">Airflow and boundary layer around an aerofoil with four numbered callouts</title>
+  <defs>
+    <path id="aerofoil" d="M149 173C138 159 157 142 185 128C219 111 247 104 286 105C362 105 425 139 480 167C523 190 555 204 605 216C490 220 380 226 281 222C217 220 171 199 149 173Z"/>
+    <path id="arrow" d="m-8-4 8 4-8 4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </defs>
+  <rect width="720" height="298" fill="#f8fbff"/>
+  <g fill="none" stroke="#4d82b4" stroke-width="2" stroke-linecap="round">
+    <path d="M24 98C104 98 129 55 220 40C311 24 396 50 489 90C554 117 623 107 696 123"/>
+    <path d="M24 123C96 123 120 83 204 63C301 40 387 64 484 108C550 138 624 123 696 142"/>
+    <path d="M24 148C91 148 108 111 182 91C280 60 383 81 475 126C542 159 614 143 696 161"/>
+    <path d="M24 172C73 172 114 167 149 173" stroke="#25659d"/>
+    <path d="M24 196C91 196 112 207 152 222C252 260 386 249 481 245C567 241 616 229 696 236"/>
+    <path d="M24 220C92 220 119 235 169 251C263 281 386 272 484 269C572 267 623 252 696 259"/>
+    <use href="#arrow" x="60" y="97"/>
+    <use href="#arrow" x="60" y="122"/>
+    <use href="#arrow" x="60" y="147"/>
+    <use href="#arrow" x="60" y="171"/>
+    <use href="#arrow" x="60" y="197"/>
+    <use href="#arrow" x="60" y="221"/>
+    <use href="#arrow" transform="translate(675 119) rotate(10)"/>
+    <use href="#arrow" transform="translate(675 137) rotate(10)"/>
+    <use href="#arrow" transform="translate(675 157) rotate(10)"/>
+    <use href="#arrow" transform="translate(675 235) rotate(4)"/>
+    <use href="#arrow" transform="translate(675 257) rotate(4)"/>
+  </g>
+  <path d="M149 173C138 159 157 142 185 128C219 111 247 104 286 105L286 95C246 94 213 102 180 119C148 135 130 156 149 173Z" fill="#bfe9e8"/>
+  <path d="M286 105C362 105 425 139 480 167L492 148C426 116 362 87 286 95Z" fill="#cfdefa"/>
+  <path d="M480 167C530 194 606 177 696 197V176C607 155 547 172 492 148Z" fill="#cfdefa"/>
+  <path d="M149 173C130 156 148 135 180 119C213 102 246 94 286 95C362 87 426 116 492 148C547 172 607 155 696 176" fill="none" stroke="#5585b6" stroke-width="1.6"/>
+  <g fill="none" stroke="#416bb1" stroke-width="1.8" stroke-linecap="round">
+    <path d="M310 100q5-3 11 1M331 101q6-3 13 2M355 106q6-3 14 3M380 112q7-2 14 5M404 121q7-2 15 5M428 131q8-2 15 6M450 141q8-1 15 6M470 151q7-1 14 5"/>
+    <path d="M480 167C530 194 606 177 696 197" stroke="#254d97" stroke-width="2.4"/>
+    <use href="#arrow" transform="translate(675 193) rotate(11)" stroke="#254d97"/>
+  </g>
+  <g fill="none" stroke="#687d9c" stroke-width="1.7" stroke-linecap="round">
+    <path d="M543 192c18-8 27 4 13 7m30 4c17-9 29 1 15 6m28-7c17-7 29 3 15 8"/>
+  </g>
+  <use href="#aerofoil" fill="#f1ddb8" stroke="#172e48" stroke-width="2.5" stroke-linejoin="round"/>
+  <g stroke="#172e48" stroke-width="1.8" stroke-linecap="round">
+    <path d="M149 173l-32 15m169-83v41m194 21-31 24m195 19 30 6" fill="none"/>
+    <g fill="#172e48" stroke="#fff" stroke-width="1.5">
+      <circle cx="149" cy="173" r="4.5"/>
+      <circle cx="286" cy="105" r="4.5"/>
+      <circle cx="480" cy="167" r="4.5"/>
     </g>
-    <g fill="#fff" stroke="#952539" stroke-width="2"><circle cx="64" cy="108" r="11"/><circle cx="251" cy="47" r="11"/><circle cx="387" cy="130" r="11"/><circle cx="465" cy="112" r="11"/></g>
-    <g fill="#14243d" font-family="system-ui,sans-serif" font-size="14" text-anchor="middle"><text x="64" y="112">1</text><text x="251" y="52">2</text><text x="387" y="135">3</text><text x="465" y="117">4</text></g>
+    <g fill="white">
+      <circle cx="117" cy="188" r="15"/>
+      <circle cx="286" cy="146" r="15"/>
+      <circle cx="449" cy="191" r="15"/>
+      <circle cx="674" cy="216" r="15"/>
+    </g>
+  </g>
+  <g fill="none" stroke="#172e48" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path aria-label="1" transform="translate(117 188)" d="M-3-3 0-6V6m-3 0h6"/>
+    <path aria-label="2" transform="translate(286 146)" d="M-4-3C-4-7 4-7 4-2C4 1-4 3-4 6H4"/>
+    <path aria-label="3" transform="translate(449 191)" d="M-4-5C-1-7 4-6 4-3Q4 0 0 0Q4 0 4 3C4 6-1 7-4 5"/>
+    <path aria-label="4" transform="translate(674 216)" d="M2 6V-6L-5 2H5"/>
+  </g>
 </svg>

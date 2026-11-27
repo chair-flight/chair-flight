@@ -1,6 +1,7 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { getRandomId } from "../../libs/base/random";
 import { getQuestionAnnexIds } from "../../libs/core/question-bank/get-question-annex-ids";
+import { parseAnnexHref } from "../../libs/core/question-templates/parse-annotated-annex-href";
 import { createTestQuestion } from "../../libs/core/tests/create-test-question";
 import { useDisclose } from "../../libs/ui/hooks/use-disclose";
 import { useKeyboardShortcuts } from "../../libs/ui/hooks/use-keyboard-shortcuts";
@@ -10,41 +11,33 @@ import type {
 } from "../../libs/core/content/question-bank-index";
 import type { QuestionBankRawQuestionAnnexAnnotation as Annotation } from "../../libs/core/content/question-bank-raw-question-annex-annotation";
 
-type Tab = "question" | "explanation" | "variants";
+type Tab = "question" | "explanation";
 
-type Answer = {
-  selectedOptionId?: string;
-  result?: "correct" | "wrong";
-};
-
-type AnnotationMap = Record<string, Annotation[]>;
+const isDesktop = () => window.matchMedia("(min-width: 1024px)").matches;
 
 export const useQuestionViewer = ({
   question: bankQuestion,
   annexes,
   variant: selectedVariant,
   seed,
-  tab,
   onVariantChange,
   onSeedChange,
-  onTabChange,
-  onAnswerChange,
 }: {
   question: QuestionBankQuestion;
   annexes: QuestionBankAnnex[];
   variant: number;
   seed: string;
-  tab: Tab;
-  onVariantChange?: (variant: number) => void;
-  onSeedChange?: (seed: string) => void;
-  onTabChange: (tab: Tab) => void;
-  onAnswerChange?: (answer: Answer) => void;
+  onVariantChange: (variant: number) => void;
+  onSeedChange: (seed: string) => void;
 }) => {
-  const [answers, setAnswers] = useState<Record<string, Answer>>({});
+  const annexModal = useDisclose();
+  const [tab, setTab] = useState<Tab>("question");
   const [shakes, setShakes] = useState(0);
   const [annexHref, setAnnexHref] = useState("");
-  const [drawingsByAnnex, setDrawingsByAnnex] = useState<AnnotationMap>({});
-  const annexModal = useDisclose();
+  const [drawingsByAnnex, setDrawingsByAnnex] = useState<
+    Record<string, Annotation[]>
+  >({});
+  const [selectedOptionId, setSelectedOptionId] = useState<string | null>(null);
 
   const {
     id,
@@ -61,7 +54,6 @@ export const useQuestionViewer = ({
   }, [bankQuestion, annexes]);
 
   const variant = Math.max(1, Math.min(selectedVariant, variantCount));
-  const { selectedOptionId } = answers[id] ?? {};
 
   const generatedQuestion = useMemo(
     () =>
@@ -75,129 +67,152 @@ export const useQuestionViewer = ({
     [id, templates, questionAnnexHrefs, seed, variant],
   );
 
-  const answer = (nextAnswer: Answer) => {
-    setAnswers((previous) => ({ ...previous, [id]: nextAnswer }));
-    onAnswerChange?.(nextAnswer);
-  };
+  const showQuestionOnMobile = useCallback(() => {
+    if (!isDesktop()) setTab("question");
+  }, []);
 
-  const clearAnswer = () => {
-    answer({ selectedOptionId: undefined, result: undefined });
-  };
+  const onTabChange = useCallback((nextTab: Tab) => setTab(nextTab), []);
 
-  const changeVariant = (nextVariant: number) => {
-    onVariantChange?.(nextVariant);
-    clearAnswer();
-  };
+  const toggleExplanation = useCallback(() => {
+    setTab((previous) =>
+      previous === "question" ? "explanation" : "question",
+    );
+  }, []);
 
-  const selectVariant = (nextVariant: number) => {
-    changeVariant(nextVariant);
-    if (!window.matchMedia("(min-width: 1024px)").matches) {
-      onTabChange("question");
-    }
-  };
+  const changeVariant = useCallback(
+    (nextVariant: number) => {
+      onVariantChange(nextVariant);
+      setSelectedOptionId(null);
+    },
+    [onVariantChange],
+  );
 
-  const stepVariant = (offset: number) => {
-    const nextVariant = variant + offset;
-    if (nextVariant < 1 || nextVariant > variantCount) return;
-    changeVariant(nextVariant);
-  };
+  const onVariantSelect = useCallback(
+    (nextVariant: number) => {
+      changeVariant(nextVariant);
+      showQuestionOnMobile();
+    },
+    [changeVariant, showQuestionOnMobile],
+  );
 
-  const shuffleQuestion = () => {
+  const stepVariant = useCallback(
+    (offset: number) => {
+      const nextVariant = variant + offset;
+      if (nextVariant < 1 || nextVariant > variantCount) return;
+      changeVariant(nextVariant);
+    },
+    [variant, variantCount, changeVariant],
+  );
+
+  const onShuffle = useCallback(() => {
+    const prefix = `${id}|`;
     setDrawingsByAnnex((previous) =>
       Object.fromEntries(
-        Object.entries(previous).filter(([key]) => !key.startsWith(`${id}|`)),
+        Object.entries(previous).filter(([key]) => !key.startsWith(prefix)),
       ),
     );
     setShakes((previous) => previous + 1);
-    onSeedChange?.(getRandomId());
-    if (variantCount > 0) onVariantChange?.((variant % variantCount) + 1);
-    clearAnswer();
-    if (!window.matchMedia("(min-width: 1024px)").matches) {
-      onTabChange("question");
-    }
-  };
+    onSeedChange(getRandomId());
+    if (variantCount > 0) onVariantChange((variant % variantCount) + 1);
+    setSelectedOptionId(null);
+    showQuestionOnMobile();
+  }, [
+    id,
+    variant,
+    variantCount,
+    onSeedChange,
+    onVariantChange,
+    showQuestionOnMobile,
+  ]);
 
-  const selectOption = (optionId: string) => {
-    const correct = optionId === generatedQuestion.correctOptionId;
-    answer({
-      selectedOptionId: optionId,
-      result: correct ? "correct" : "wrong",
-    });
-  };
+  const onOptionClick = useCallback(
+    (optionId: string) => setSelectedOptionId(optionId),
+    [],
+  );
 
-  const selectOptionByIndex = (index: number) => {
-    const option = generatedQuestion.options[index];
-    if (!option || selectedOptionId) return;
-    selectOption(option.id);
-  };
+  const selectOptionByIndex = useCallback(
+    (index: number) => {
+      const option = generatedQuestion.options[index];
+      if (!option || selectedOptionId) return;
+      setSelectedOptionId(option.id);
+    },
+    [generatedQuestion, selectedOptionId],
+  );
 
-  const openAnnex = (href: string) => {
-    setAnnexHref(href);
-    annexModal.open();
-  };
+  const onAnnexClick = useCallback(
+    (href: string) => {
+      setAnnexHref(href);
+      annexModal.open();
+    },
+    [annexModal.open],
+  );
 
-  useKeyboardShortcuts({
-    r: shuffleQuestion,
-    i: () => onTabChange(tab === "question" ? "explanation" : "question"),
-    "1": () => selectOptionByIndex(0),
-    "2": () => selectOptionByIndex(1),
-    "3": () => selectOptionByIndex(2),
-    "4": () => selectOptionByIndex(3),
-    arrowup: () => stepVariant(-1),
-    arrowdown: () => stepVariant(1),
-  });
+  const onDrawingsChange = useCallback(
+    (drawings: Annotation[]) => {
+      const key = `${id}|${annexHref}`;
+      setDrawingsByAnnex((previous) => ({ ...previous, [key]: drawings }));
+    },
+    [id, annexHref],
+  );
+
+  const shortcuts = useMemo(
+    () => ({
+      r: onShuffle,
+      i: toggleExplanation,
+      "1": () => selectOptionByIndex(0),
+      "2": () => selectOptionByIndex(1),
+      "3": () => selectOptionByIndex(2),
+      "4": () => selectOptionByIndex(3),
+      arrowup: () => stepVariant(-1),
+      arrowdown: () => stepVariant(1),
+    }),
+    [onShuffle, toggleExplanation, selectOptionByIndex, stepVariant],
+  );
 
   useEffect(() => {
     annexModal.close();
+    setSelectedOptionId(null);
   }, [id, annexModal.close]);
+
+  useKeyboardShortcuts(shortcuts);
 
   return {
     viewer: {
       tab,
       onTabChange,
-      onAnnexClick: openAnnex,
-      shuffle: {
-        onShuffle: shuffleQuestion,
-        count: shakes,
-      },
+      onAnnexClick,
+      shuffle: { onShuffle, count: shakes },
       information: {
         explanation: generatedQuestion.explanation,
         variants: {
-          items: previews.map(({ question, answer }, index) => ({
+          items: previews.map((preview, index) => ({
             variant: index + 1,
-            question,
-            correctText: answer,
+            question: preview.question,
+            correctText: preview.answer,
           })),
           selectedVariant: variant,
-          onVariantChange: selectVariant,
+          onVariantChange: onVariantSelect,
         },
       },
-    },
-    question: {
-      title: id,
-      question: generatedQuestion.question,
-      options: generatedQuestion.options,
-      annexes: generatedQuestion.annexes,
-      selectedOptionId,
-      correctOptionId: generatedQuestion.correctOptionId,
-      showResult: Boolean(selectedOptionId),
-      disabled: Boolean(selectedOptionId),
-      onOptionClick: selectOption,
-      onAnnexClick: openAnnex,
-    },
-    annexModal: {
-      open: annexModal.isOpen,
-      onClose: annexModal.close,
-    },
-    annexViewer: {
-      href: annexHref,
-      drawings: drawingsByAnnex[`${id}|${annexHref}`],
-      onDrawingsChange: (drawings: Annotation[]) =>
-        setDrawingsByAnnex((previous) => ({
-          ...previous,
-          [`${id}|${annexHref}`]: drawings,
-        })),
-      onClose: annexModal.close,
+      question: {
+        title: id,
+        question: generatedQuestion.question,
+        options: generatedQuestion.options,
+        annexes: generatedQuestion.annexes,
+        selectedOptionId: selectedOptionId ?? undefined,
+        correctOptionId: generatedQuestion.correctOptionId,
+        showResult: Boolean(selectedOptionId),
+        disabled: Boolean(selectedOptionId),
+        onOptionClick,
+        onAnnexClick,
+      },
+      annexModal: { open: annexModal.isOpen, onClose: annexModal.close },
+      annexViewer: {
+        ...parseAnnexHref(annexHref),
+        drawings: drawingsByAnnex[`${id}|${annexHref}`],
+        onDrawingsChange,
+        onClose: annexModal.close,
+      },
     },
   };
 };

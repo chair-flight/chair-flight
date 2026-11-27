@@ -1,29 +1,23 @@
 import { createElement, useMemo } from "react";
-import { getHighlightRegExp } from "../../../base/get-highlight-reg-exp";
-import { useSearchWords } from "../../hooks/use-search-words";
 import { cn } from "../../utils/cn";
 import { parseMarkdown } from "../../utils/parse-markdown";
+import { Highlight } from "../base/highlight";
 import { MarkdownImage } from "../base/markdown-image";
 import type { FC, ReactNode } from "react";
 import type { MarkdownNode } from "../../utils/parse-markdown";
 
 const renderNode = (
   node: MarkdownNode,
-  pattern: RegExp | null,
+  highlight: string | string[] | undefined,
   key: number,
   renderAnnexes: boolean,
   onAnnexClick?: (href: string) => void,
 ): ReactNode => {
   if (typeof node === "string") {
-    if (!pattern) return node;
-    return node.split(pattern).map((part, index) =>
-      index % 2 === 1 ? (
-        <mark key={index} className="rounded-sm bg-warning/40 text-inherit">
-          {part}
-        </mark>
-      ) : (
-        part
-      ),
+    return (
+      <Highlight key={key} highlight={highlight}>
+        {node}
+      </Highlight>
     );
   }
 
@@ -59,7 +53,7 @@ const renderNode = (
   const children = node.children?.map((child, index) =>
     renderNode(
       child,
-      node.tag === "code" ? null : pattern,
+      node.tag === "code" ? undefined : highlight,
       index,
       renderAnnexes,
       onAnnexClick,
@@ -71,6 +65,7 @@ const renderNode = (
 export const Markdown: FC<{
   children: string;
   className?: string;
+  highlight?: string | string[];
   question?: boolean;
   large?: boolean;
   renderAnnexes?: boolean;
@@ -78,14 +73,13 @@ export const Markdown: FC<{
 }> = ({
   children,
   className,
+  highlight,
   question,
   large,
   renderAnnexes = false,
   onAnnexClick,
 }) => {
-  const words = useSearchWords();
   const nodes = useMemo(() => parseMarkdown(children), [children]);
-  const pattern = useMemo(() => getHighlightRegExp(words), [words]);
   return (
     <div
       className={cn(
@@ -129,7 +123,7 @@ export const Markdown: FC<{
       )}
     >
       {nodes.map((node, index) =>
-        renderNode(node, pattern, index, renderAnnexes, onAnnexClick),
+        renderNode(node, highlight, index, renderAnnexes, onAnnexClick),
       )}
     </div>
   );

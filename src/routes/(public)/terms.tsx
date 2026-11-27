@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { BackgroundForPublic } from "../../libs/ui/backgrounds/background-for-public";
+import { BackgroundForPublic } from "../../libs/ui/components/backgrounds/background-for-public";
 import { Markdown } from "../../libs/ui/components/base/markdown";
 import { Public } from "../../libs/ui/components/containers/public";
 import { buildPageHead } from "../../libs/ui/utils/build-page-head";

@@ -1,5 +1,5 @@
-import { SearchIcon } from "../../icons/search-icon";
 import { cn } from "../../utils/cn";
+import { SearchIcon } from "../icons/search-icon";
 import type { ComponentProps, FC } from "react";
 
 export const ButtonSearchBar: FC<

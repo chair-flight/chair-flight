@@ -1,3 +1,4 @@
+import { parseAnnotatedAnnexHref } from "../../../core/question-templates/parse-annotated-annex-href";
 import { cn } from "../../utils/cn";
 import { AnnexCanvas } from "./annex-canvas";
 import type { FC } from "react";
@@ -37,9 +38,13 @@ export const MarkdownImage: FC<{
       </span>
     );
 
+  const annotated = parseAnnotatedAnnexHref(href);
   const canvas = (
     <AnnexCanvas
-      href={href}
+      href={annotated?.href ?? href.split("#")[0].split("?")[0]}
+      width={annotated?.width}
+      height={annotated?.height}
+      annotations={annotated?.annotations}
       alt={alt}
       crop={size === "sm"}
       className={SIZE_CLASS_NAMES[size]}

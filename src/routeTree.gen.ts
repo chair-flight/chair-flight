@@ -19,19 +19,18 @@ import { Route as publicBlogIndexRouteImport } from './routes/(public)/blog.inde
 import { Route as publicBlogPostIdRouteImport } from './routes/(public)/blog.$postId'
 import { Route as publicQuestionBanksQuestionBanksIndexRouteImport } from './routes/(public-question-banks)/question-banks.index'
 import { Route as publicQuestionBanksQuestionBanksQuestionBankIndexRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.index'
+import { Route as publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.learning-objectives'
 import { Route as publicQuestionBanksQuestionBanksQuestionBankSearchRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.search'
-import { Route as publicQuestionBanksQuestionBanksQuestionBankStudySessionRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.study-session'
 import { Route as publicQuestionBanksQuestionBanksQuestionBankAnnexAnnexRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.annex.$annex'
-import { Route as publicQuestionBanksQuestionBanksQuestionBankChaptersIndexRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.chapters.index'
-import { Route as publicQuestionBanksQuestionBanksQuestionBankChaptersChapterRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.chapters.$chapter'
-import { Route as publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesIndexRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.learning-objectives.index'
-import { Route as publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesLearningObjectRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.learning-objectives.$learningObject'
+import { Route as publicQuestionBanksQuestionBanksQuestionBankContentIndexRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.content.index'
+import { Route as publicQuestionBanksQuestionBanksQuestionBankContentContentIdRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.content.$contentId'
 import { Route as publicQuestionBanksQuestionBanksQuestionBankQuestionsQuestionRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.questions.$question'
-import { Route as publicQuestionBanksQuestionBanksQuestionBankSubjectsIndexRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.subjects.index'
-import { Route as publicQuestionBanksQuestionBanksQuestionBankSubjectsSubjectRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.subjects.$subject'
 import { Route as publicQuestionBanksQuestionBanksQuestionBankTestsIndexRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.tests.index'
 import { Route as publicQuestionBanksQuestionBanksQuestionBankTestsTestRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.tests.$test'
 import { Route as publicQuestionBanksQuestionBanksQuestionBankTestsNewRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.tests.new'
+import { Route as publicQuestionBanksQuestionBanksQuestionBankContentContentIdIndexRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.content.$contentId.index'
+import { Route as publicQuestionBanksQuestionBanksQuestionBankContentContentIdLearningObjectivesRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.content.$contentId.learning-objectives'
+import { Route as publicQuestionBanksQuestionBanksQuestionBankContentContentIdQuestionsRouteImport } from './routes/(public-question-banks)/question-banks.$questionBank.content.$contentId.questions'
 
 const publicIndexRoute = publicIndexRouteImport.update({
   id: '/(public)/',
@@ -87,16 +86,18 @@ const publicQuestionBanksQuestionBanksQuestionBankIndexRoute =
     path: '/question-banks/$questionBank/',
     getParentRoute: () => rootRouteImport,
   } as any)
+const publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesRoute =
+  publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesRouteImport.update(
+    {
+      id: '/(public-question-banks)/question-banks/$questionBank/learning-objectives',
+      path: '/question-banks/$questionBank/learning-objectives',
+      getParentRoute: () => rootRouteImport,
+    } as any,
+  )
 const publicQuestionBanksQuestionBanksQuestionBankSearchRoute =
   publicQuestionBanksQuestionBanksQuestionBankSearchRouteImport.update({
     id: '/(public-question-banks)/question-banks/$questionBank/search',
     path: '/question-banks/$questionBank/search',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const publicQuestionBanksQuestionBanksQuestionBankStudySessionRoute =
-  publicQuestionBanksQuestionBanksQuestionBankStudySessionRouteImport.update({
-    id: '/(public-question-banks)/question-banks/$questionBank/study-session',
-    path: '/question-banks/$questionBank/study-session',
     getParentRoute: () => rootRouteImport,
   } as any)
 const publicQuestionBanksQuestionBanksQuestionBankAnnexAnnexRoute =
@@ -105,33 +106,17 @@ const publicQuestionBanksQuestionBanksQuestionBankAnnexAnnexRoute =
     path: '/question-banks/$questionBank/annex/$annex',
     getParentRoute: () => rootRouteImport,
   } as any)
-const publicQuestionBanksQuestionBanksQuestionBankChaptersIndexRoute =
-  publicQuestionBanksQuestionBanksQuestionBankChaptersIndexRouteImport.update({
-    id: '/(public-question-banks)/question-banks/$questionBank/chapters/',
-    path: '/question-banks/$questionBank/chapters/',
+const publicQuestionBanksQuestionBanksQuestionBankContentIndexRoute =
+  publicQuestionBanksQuestionBanksQuestionBankContentIndexRouteImport.update({
+    id: '/(public-question-banks)/question-banks/$questionBank/content/',
+    path: '/question-banks/$questionBank/content/',
     getParentRoute: () => rootRouteImport,
   } as any)
-const publicQuestionBanksQuestionBanksQuestionBankChaptersChapterRoute =
-  publicQuestionBanksQuestionBanksQuestionBankChaptersChapterRouteImport.update(
+const publicQuestionBanksQuestionBanksQuestionBankContentContentIdRoute =
+  publicQuestionBanksQuestionBanksQuestionBankContentContentIdRouteImport.update(
     {
-      id: '/(public-question-banks)/question-banks/$questionBank/chapters/$chapter',
-      path: '/question-banks/$questionBank/chapters/$chapter',
-      getParentRoute: () => rootRouteImport,
-    } as any,
-  )
-const publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesIndexRoute =
-  publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesIndexRouteImport.update(
-    {
-      id: '/(public-question-banks)/question-banks/$questionBank/learning-objectives/',
-      path: '/question-banks/$questionBank/learning-objectives/',
-      getParentRoute: () => rootRouteImport,
-    } as any,
-  )
-const publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesLearningObjectRoute =
-  publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesLearningObjectRouteImport.update(
-    {
-      id: '/(public-question-banks)/question-banks/$questionBank/learning-objectives/$learningObject',
-      path: '/question-banks/$questionBank/learning-objectives/$learningObject',
+      id: '/(public-question-banks)/question-banks/$questionBank/content/$contentId',
+      path: '/question-banks/$questionBank/content/$contentId',
       getParentRoute: () => rootRouteImport,
     } as any,
   )
@@ -140,20 +125,6 @@ const publicQuestionBanksQuestionBanksQuestionBankQuestionsQuestionRoute =
     {
       id: '/(public-question-banks)/question-banks/$questionBank/questions/$question',
       path: '/question-banks/$questionBank/questions/$question',
-      getParentRoute: () => rootRouteImport,
-    } as any,
-  )
-const publicQuestionBanksQuestionBanksQuestionBankSubjectsIndexRoute =
-  publicQuestionBanksQuestionBanksQuestionBankSubjectsIndexRouteImport.update({
-    id: '/(public-question-banks)/question-banks/$questionBank/subjects/',
-    path: '/question-banks/$questionBank/subjects/',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const publicQuestionBanksQuestionBanksQuestionBankSubjectsSubjectRoute =
-  publicQuestionBanksQuestionBanksQuestionBankSubjectsSubjectRouteImport.update(
-    {
-      id: '/(public-question-banks)/question-banks/$questionBank/subjects/$subject',
-      path: '/question-banks/$questionBank/subjects/$subject',
       getParentRoute: () => rootRouteImport,
     } as any,
   )
@@ -175,6 +146,33 @@ const publicQuestionBanksQuestionBanksQuestionBankTestsNewRoute =
     path: '/question-banks/$questionBank/tests/new',
     getParentRoute: () => rootRouteImport,
   } as any)
+const publicQuestionBanksQuestionBanksQuestionBankContentContentIdIndexRoute =
+  publicQuestionBanksQuestionBanksQuestionBankContentContentIdIndexRouteImport.update(
+    {
+      id: '/',
+      path: '/',
+      getParentRoute: () =>
+        publicQuestionBanksQuestionBanksQuestionBankContentContentIdRoute,
+    } as any,
+  )
+const publicQuestionBanksQuestionBanksQuestionBankContentContentIdLearningObjectivesRoute =
+  publicQuestionBanksQuestionBanksQuestionBankContentContentIdLearningObjectivesRouteImport.update(
+    {
+      id: '/learning-objectives',
+      path: '/learning-objectives',
+      getParentRoute: () =>
+        publicQuestionBanksQuestionBanksQuestionBankContentContentIdRoute,
+    } as any,
+  )
+const publicQuestionBanksQuestionBanksQuestionBankContentContentIdQuestionsRoute =
+  publicQuestionBanksQuestionBanksQuestionBankContentContentIdQuestionsRouteImport.update(
+    {
+      id: '/questions',
+      path: '/questions',
+      getParentRoute: () =>
+        publicQuestionBanksQuestionBanksQuestionBankContentContentIdRoute,
+    } as any,
+  )
 
 export interface FileRoutesByFullPath {
   '/about': typeof publicAboutRoute
@@ -186,20 +184,19 @@ export interface FileRoutesByFullPath {
   '/blog/$postId': typeof publicBlogPostIdRoute
   '/blog/': typeof publicBlogIndexRoute
   '/question-banks/': typeof publicQuestionBanksQuestionBanksIndexRoute
+  '/question-banks/$questionBank/learning-objectives': typeof publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesRoute
   '/question-banks/$questionBank/search': typeof publicQuestionBanksQuestionBanksQuestionBankSearchRoute
-  '/question-banks/$questionBank/study-session': typeof publicQuestionBanksQuestionBanksQuestionBankStudySessionRoute
   '/question-banks/$questionBank/': typeof publicQuestionBanksQuestionBanksQuestionBankIndexRoute
   '/question-banks/$questionBank/annex/$annex': typeof publicQuestionBanksQuestionBanksQuestionBankAnnexAnnexRoute
-  '/question-banks/$questionBank/chapters/$chapter': typeof publicQuestionBanksQuestionBanksQuestionBankChaptersChapterRoute
-  '/question-banks/$questionBank/learning-objectives/$learningObject': typeof publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesLearningObjectRoute
+  '/question-banks/$questionBank/content/$contentId': typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdRouteWithChildren
   '/question-banks/$questionBank/questions/$question': typeof publicQuestionBanksQuestionBanksQuestionBankQuestionsQuestionRoute
-  '/question-banks/$questionBank/subjects/$subject': typeof publicQuestionBanksQuestionBanksQuestionBankSubjectsSubjectRoute
   '/question-banks/$questionBank/tests/$test': typeof publicQuestionBanksQuestionBanksQuestionBankTestsTestRoute
   '/question-banks/$questionBank/tests/new': typeof publicQuestionBanksQuestionBanksQuestionBankTestsNewRoute
-  '/question-banks/$questionBank/chapters/': typeof publicQuestionBanksQuestionBanksQuestionBankChaptersIndexRoute
-  '/question-banks/$questionBank/learning-objectives/': typeof publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesIndexRoute
-  '/question-banks/$questionBank/subjects/': typeof publicQuestionBanksQuestionBanksQuestionBankSubjectsIndexRoute
+  '/question-banks/$questionBank/content/': typeof publicQuestionBanksQuestionBanksQuestionBankContentIndexRoute
   '/question-banks/$questionBank/tests/': typeof publicQuestionBanksQuestionBanksQuestionBankTestsIndexRoute
+  '/question-banks/$questionBank/content/$contentId/learning-objectives': typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdLearningObjectivesRoute
+  '/question-banks/$questionBank/content/$contentId/questions': typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdQuestionsRoute
+  '/question-banks/$questionBank/content/$contentId/': typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdIndexRoute
 }
 export interface FileRoutesByTo {
   '/about': typeof publicAboutRoute
@@ -211,20 +208,18 @@ export interface FileRoutesByTo {
   '/blog/$postId': typeof publicBlogPostIdRoute
   '/blog': typeof publicBlogIndexRoute
   '/question-banks': typeof publicQuestionBanksQuestionBanksIndexRoute
+  '/question-banks/$questionBank/learning-objectives': typeof publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesRoute
   '/question-banks/$questionBank/search': typeof publicQuestionBanksQuestionBanksQuestionBankSearchRoute
-  '/question-banks/$questionBank/study-session': typeof publicQuestionBanksQuestionBanksQuestionBankStudySessionRoute
   '/question-banks/$questionBank': typeof publicQuestionBanksQuestionBanksQuestionBankIndexRoute
   '/question-banks/$questionBank/annex/$annex': typeof publicQuestionBanksQuestionBanksQuestionBankAnnexAnnexRoute
-  '/question-banks/$questionBank/chapters/$chapter': typeof publicQuestionBanksQuestionBanksQuestionBankChaptersChapterRoute
-  '/question-banks/$questionBank/learning-objectives/$learningObject': typeof publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesLearningObjectRoute
   '/question-banks/$questionBank/questions/$question': typeof publicQuestionBanksQuestionBanksQuestionBankQuestionsQuestionRoute
-  '/question-banks/$questionBank/subjects/$subject': typeof publicQuestionBanksQuestionBanksQuestionBankSubjectsSubjectRoute
   '/question-banks/$questionBank/tests/$test': typeof publicQuestionBanksQuestionBanksQuestionBankTestsTestRoute
   '/question-banks/$questionBank/tests/new': typeof publicQuestionBanksQuestionBanksQuestionBankTestsNewRoute
-  '/question-banks/$questionBank/chapters': typeof publicQuestionBanksQuestionBanksQuestionBankChaptersIndexRoute
-  '/question-banks/$questionBank/learning-objectives': typeof publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesIndexRoute
-  '/question-banks/$questionBank/subjects': typeof publicQuestionBanksQuestionBanksQuestionBankSubjectsIndexRoute
+  '/question-banks/$questionBank/content': typeof publicQuestionBanksQuestionBanksQuestionBankContentIndexRoute
   '/question-banks/$questionBank/tests': typeof publicQuestionBanksQuestionBanksQuestionBankTestsIndexRoute
+  '/question-banks/$questionBank/content/$contentId/learning-objectives': typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdLearningObjectivesRoute
+  '/question-banks/$questionBank/content/$contentId/questions': typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdQuestionsRoute
+  '/question-banks/$questionBank/content/$contentId': typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -237,20 +232,19 @@ export interface FileRoutesById {
   '/(public)/blog/$postId': typeof publicBlogPostIdRoute
   '/(public)/blog/': typeof publicBlogIndexRoute
   '/(public-question-banks)/question-banks/': typeof publicQuestionBanksQuestionBanksIndexRoute
+  '/(public-question-banks)/question-banks/$questionBank/learning-objectives': typeof publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesRoute
   '/(public-question-banks)/question-banks/$questionBank/search': typeof publicQuestionBanksQuestionBanksQuestionBankSearchRoute
-  '/(public-question-banks)/question-banks/$questionBank/study-session': typeof publicQuestionBanksQuestionBanksQuestionBankStudySessionRoute
   '/(public-question-banks)/question-banks/$questionBank/': typeof publicQuestionBanksQuestionBanksQuestionBankIndexRoute
   '/(public-question-banks)/question-banks/$questionBank/annex/$annex': typeof publicQuestionBanksQuestionBanksQuestionBankAnnexAnnexRoute
-  '/(public-question-banks)/question-banks/$questionBank/chapters/$chapter': typeof publicQuestionBanksQuestionBanksQuestionBankChaptersChapterRoute
-  '/(public-question-banks)/question-banks/$questionBank/learning-objectives/$learningObject': typeof publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesLearningObjectRoute
+  '/(public-question-banks)/question-banks/$questionBank/content/$contentId': typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdRouteWithChildren
   '/(public-question-banks)/question-banks/$questionBank/questions/$question': typeof publicQuestionBanksQuestionBanksQuestionBankQuestionsQuestionRoute
-  '/(public-question-banks)/question-banks/$questionBank/subjects/$subject': typeof publicQuestionBanksQuestionBanksQuestionBankSubjectsSubjectRoute
   '/(public-question-banks)/question-banks/$questionBank/tests/$test': typeof publicQuestionBanksQuestionBanksQuestionBankTestsTestRoute
   '/(public-question-banks)/question-banks/$questionBank/tests/new': typeof publicQuestionBanksQuestionBanksQuestionBankTestsNewRoute
-  '/(public-question-banks)/question-banks/$questionBank/chapters/': typeof publicQuestionBanksQuestionBanksQuestionBankChaptersIndexRoute
-  '/(public-question-banks)/question-banks/$questionBank/learning-objectives/': typeof publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesIndexRoute
-  '/(public-question-banks)/question-banks/$questionBank/subjects/': typeof publicQuestionBanksQuestionBanksQuestionBankSubjectsIndexRoute
+  '/(public-question-banks)/question-banks/$questionBank/content/': typeof publicQuestionBanksQuestionBanksQuestionBankContentIndexRoute
   '/(public-question-banks)/question-banks/$questionBank/tests/': typeof publicQuestionBanksQuestionBanksQuestionBankTestsIndexRoute
+  '/(public-question-banks)/question-banks/$questionBank/content/$contentId/learning-objectives': typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdLearningObjectivesRoute
+  '/(public-question-banks)/question-banks/$questionBank/content/$contentId/questions': typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdQuestionsRoute
+  '/(public-question-banks)/question-banks/$questionBank/content/$contentId/': typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -264,20 +258,19 @@ export interface FileRouteTypes {
     | '/blog/$postId'
     | '/blog/'
     | '/question-banks/'
+    | '/question-banks/$questionBank/learning-objectives'
     | '/question-banks/$questionBank/search'
-    | '/question-banks/$questionBank/study-session'
     | '/question-banks/$questionBank/'
     | '/question-banks/$questionBank/annex/$annex'
-    | '/question-banks/$questionBank/chapters/$chapter'
-    | '/question-banks/$questionBank/learning-objectives/$learningObject'
+    | '/question-banks/$questionBank/content/$contentId'
     | '/question-banks/$questionBank/questions/$question'
-    | '/question-banks/$questionBank/subjects/$subject'
     | '/question-banks/$questionBank/tests/$test'
     | '/question-banks/$questionBank/tests/new'
-    | '/question-banks/$questionBank/chapters/'
-    | '/question-banks/$questionBank/learning-objectives/'
-    | '/question-banks/$questionBank/subjects/'
+    | '/question-banks/$questionBank/content/'
     | '/question-banks/$questionBank/tests/'
+    | '/question-banks/$questionBank/content/$contentId/learning-objectives'
+    | '/question-banks/$questionBank/content/$contentId/questions'
+    | '/question-banks/$questionBank/content/$contentId/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/about'
@@ -289,20 +282,18 @@ export interface FileRouteTypes {
     | '/blog/$postId'
     | '/blog'
     | '/question-banks'
+    | '/question-banks/$questionBank/learning-objectives'
     | '/question-banks/$questionBank/search'
-    | '/question-banks/$questionBank/study-session'
     | '/question-banks/$questionBank'
     | '/question-banks/$questionBank/annex/$annex'
-    | '/question-banks/$questionBank/chapters/$chapter'
-    | '/question-banks/$questionBank/learning-objectives/$learningObject'
     | '/question-banks/$questionBank/questions/$question'
-    | '/question-banks/$questionBank/subjects/$subject'
     | '/question-banks/$questionBank/tests/$test'
     | '/question-banks/$questionBank/tests/new'
-    | '/question-banks/$questionBank/chapters'
-    | '/question-banks/$questionBank/learning-objectives'
-    | '/question-banks/$questionBank/subjects'
+    | '/question-banks/$questionBank/content'
     | '/question-banks/$questionBank/tests'
+    | '/question-banks/$questionBank/content/$contentId/learning-objectives'
+    | '/question-banks/$questionBank/content/$contentId/questions'
+    | '/question-banks/$questionBank/content/$contentId'
   id:
     | '__root__'
     | '/(public)/about'
@@ -314,20 +305,19 @@ export interface FileRouteTypes {
     | '/(public)/blog/$postId'
     | '/(public)/blog/'
     | '/(public-question-banks)/question-banks/'
+    | '/(public-question-banks)/question-banks/$questionBank/learning-objectives'
     | '/(public-question-banks)/question-banks/$questionBank/search'
-    | '/(public-question-banks)/question-banks/$questionBank/study-session'
     | '/(public-question-banks)/question-banks/$questionBank/'
     | '/(public-question-banks)/question-banks/$questionBank/annex/$annex'
-    | '/(public-question-banks)/question-banks/$questionBank/chapters/$chapter'
-    | '/(public-question-banks)/question-banks/$questionBank/learning-objectives/$learningObject'
+    | '/(public-question-banks)/question-banks/$questionBank/content/$contentId'
     | '/(public-question-banks)/question-banks/$questionBank/questions/$question'
-    | '/(public-question-banks)/question-banks/$questionBank/subjects/$subject'
     | '/(public-question-banks)/question-banks/$questionBank/tests/$test'
     | '/(public-question-banks)/question-banks/$questionBank/tests/new'
-    | '/(public-question-banks)/question-banks/$questionBank/chapters/'
-    | '/(public-question-banks)/question-banks/$questionBank/learning-objectives/'
-    | '/(public-question-banks)/question-banks/$questionBank/subjects/'
+    | '/(public-question-banks)/question-banks/$questionBank/content/'
     | '/(public-question-banks)/question-banks/$questionBank/tests/'
+    | '/(public-question-banks)/question-banks/$questionBank/content/$contentId/learning-objectives'
+    | '/(public-question-banks)/question-banks/$questionBank/content/$contentId/questions'
+    | '/(public-question-banks)/question-banks/$questionBank/content/$contentId/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -340,19 +330,15 @@ export interface RootRouteChildren {
   publicBlogPostIdRoute: typeof publicBlogPostIdRoute
   publicBlogIndexRoute: typeof publicBlogIndexRoute
   publicQuestionBanksQuestionBanksIndexRoute: typeof publicQuestionBanksQuestionBanksIndexRoute
+  publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesRoute: typeof publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesRoute
   publicQuestionBanksQuestionBanksQuestionBankSearchRoute: typeof publicQuestionBanksQuestionBanksQuestionBankSearchRoute
-  publicQuestionBanksQuestionBanksQuestionBankStudySessionRoute: typeof publicQuestionBanksQuestionBanksQuestionBankStudySessionRoute
   publicQuestionBanksQuestionBanksQuestionBankIndexRoute: typeof publicQuestionBanksQuestionBanksQuestionBankIndexRoute
   publicQuestionBanksQuestionBanksQuestionBankAnnexAnnexRoute: typeof publicQuestionBanksQuestionBanksQuestionBankAnnexAnnexRoute
-  publicQuestionBanksQuestionBanksQuestionBankChaptersChapterRoute: typeof publicQuestionBanksQuestionBanksQuestionBankChaptersChapterRoute
-  publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesLearningObjectRoute: typeof publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesLearningObjectRoute
+  publicQuestionBanksQuestionBanksQuestionBankContentContentIdRoute: typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdRouteWithChildren
   publicQuestionBanksQuestionBanksQuestionBankQuestionsQuestionRoute: typeof publicQuestionBanksQuestionBanksQuestionBankQuestionsQuestionRoute
-  publicQuestionBanksQuestionBanksQuestionBankSubjectsSubjectRoute: typeof publicQuestionBanksQuestionBanksQuestionBankSubjectsSubjectRoute
   publicQuestionBanksQuestionBanksQuestionBankTestsTestRoute: typeof publicQuestionBanksQuestionBanksQuestionBankTestsTestRoute
   publicQuestionBanksQuestionBanksQuestionBankTestsNewRoute: typeof publicQuestionBanksQuestionBanksQuestionBankTestsNewRoute
-  publicQuestionBanksQuestionBanksQuestionBankChaptersIndexRoute: typeof publicQuestionBanksQuestionBanksQuestionBankChaptersIndexRoute
-  publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesIndexRoute: typeof publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesIndexRoute
-  publicQuestionBanksQuestionBanksQuestionBankSubjectsIndexRoute: typeof publicQuestionBanksQuestionBanksQuestionBankSubjectsIndexRoute
+  publicQuestionBanksQuestionBanksQuestionBankContentIndexRoute: typeof publicQuestionBanksQuestionBanksQuestionBankContentIndexRoute
   publicQuestionBanksQuestionBanksQuestionBankTestsIndexRoute: typeof publicQuestionBanksQuestionBanksQuestionBankTestsIndexRoute
 }
 
@@ -428,18 +414,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof publicQuestionBanksQuestionBanksQuestionBankIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/(public-question-banks)/question-banks/$questionBank/learning-objectives': {
+      id: '/(public-question-banks)/question-banks/$questionBank/learning-objectives'
+      path: '/question-banks/$questionBank/learning-objectives'
+      fullPath: '/question-banks/$questionBank/learning-objectives'
+      preLoaderRoute: typeof publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/(public-question-banks)/question-banks/$questionBank/search': {
       id: '/(public-question-banks)/question-banks/$questionBank/search'
       path: '/question-banks/$questionBank/search'
       fullPath: '/question-banks/$questionBank/search'
       preLoaderRoute: typeof publicQuestionBanksQuestionBanksQuestionBankSearchRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/(public-question-banks)/question-banks/$questionBank/study-session': {
-      id: '/(public-question-banks)/question-banks/$questionBank/study-session'
-      path: '/question-banks/$questionBank/study-session'
-      fullPath: '/question-banks/$questionBank/study-session'
-      preLoaderRoute: typeof publicQuestionBanksQuestionBanksQuestionBankStudySessionRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/(public-question-banks)/question-banks/$questionBank/annex/$annex': {
@@ -449,32 +435,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof publicQuestionBanksQuestionBanksQuestionBankAnnexAnnexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(public-question-banks)/question-banks/$questionBank/chapters/': {
-      id: '/(public-question-banks)/question-banks/$questionBank/chapters/'
-      path: '/question-banks/$questionBank/chapters'
-      fullPath: '/question-banks/$questionBank/chapters/'
-      preLoaderRoute: typeof publicQuestionBanksQuestionBanksQuestionBankChaptersIndexRouteImport
+    '/(public-question-banks)/question-banks/$questionBank/content/': {
+      id: '/(public-question-banks)/question-banks/$questionBank/content/'
+      path: '/question-banks/$questionBank/content'
+      fullPath: '/question-banks/$questionBank/content/'
+      preLoaderRoute: typeof publicQuestionBanksQuestionBanksQuestionBankContentIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(public-question-banks)/question-banks/$questionBank/chapters/$chapter': {
-      id: '/(public-question-banks)/question-banks/$questionBank/chapters/$chapter'
-      path: '/question-banks/$questionBank/chapters/$chapter'
-      fullPath: '/question-banks/$questionBank/chapters/$chapter'
-      preLoaderRoute: typeof publicQuestionBanksQuestionBanksQuestionBankChaptersChapterRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/(public-question-banks)/question-banks/$questionBank/learning-objectives/': {
-      id: '/(public-question-banks)/question-banks/$questionBank/learning-objectives/'
-      path: '/question-banks/$questionBank/learning-objectives'
-      fullPath: '/question-banks/$questionBank/learning-objectives/'
-      preLoaderRoute: typeof publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesIndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/(public-question-banks)/question-banks/$questionBank/learning-objectives/$learningObject': {
-      id: '/(public-question-banks)/question-banks/$questionBank/learning-objectives/$learningObject'
-      path: '/question-banks/$questionBank/learning-objectives/$learningObject'
-      fullPath: '/question-banks/$questionBank/learning-objectives/$learningObject'
-      preLoaderRoute: typeof publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesLearningObjectRouteImport
+    '/(public-question-banks)/question-banks/$questionBank/content/$contentId': {
+      id: '/(public-question-banks)/question-banks/$questionBank/content/$contentId'
+      path: '/question-banks/$questionBank/content/$contentId'
+      fullPath: '/question-banks/$questionBank/content/$contentId'
+      preLoaderRoute: typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/(public-question-banks)/question-banks/$questionBank/questions/$question': {
@@ -482,20 +454,6 @@ declare module '@tanstack/react-router' {
       path: '/question-banks/$questionBank/questions/$question'
       fullPath: '/question-banks/$questionBank/questions/$question'
       preLoaderRoute: typeof publicQuestionBanksQuestionBanksQuestionBankQuestionsQuestionRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/(public-question-banks)/question-banks/$questionBank/subjects/': {
-      id: '/(public-question-banks)/question-banks/$questionBank/subjects/'
-      path: '/question-banks/$questionBank/subjects'
-      fullPath: '/question-banks/$questionBank/subjects/'
-      preLoaderRoute: typeof publicQuestionBanksQuestionBanksQuestionBankSubjectsIndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/(public-question-banks)/question-banks/$questionBank/subjects/$subject': {
-      id: '/(public-question-banks)/question-banks/$questionBank/subjects/$subject'
-      path: '/question-banks/$questionBank/subjects/$subject'
-      fullPath: '/question-banks/$questionBank/subjects/$subject'
-      preLoaderRoute: typeof publicQuestionBanksQuestionBanksQuestionBankSubjectsSubjectRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/(public-question-banks)/question-banks/$questionBank/tests/': {
@@ -519,8 +477,50 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof publicQuestionBanksQuestionBanksQuestionBankTestsNewRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/(public-question-banks)/question-banks/$questionBank/content/$contentId/': {
+      id: '/(public-question-banks)/question-banks/$questionBank/content/$contentId/'
+      path: '/'
+      fullPath: '/question-banks/$questionBank/content/$contentId/'
+      preLoaderRoute: typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdIndexRouteImport
+      parentRoute: typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdRoute
+    }
+    '/(public-question-banks)/question-banks/$questionBank/content/$contentId/learning-objectives': {
+      id: '/(public-question-banks)/question-banks/$questionBank/content/$contentId/learning-objectives'
+      path: '/learning-objectives'
+      fullPath: '/question-banks/$questionBank/content/$contentId/learning-objectives'
+      preLoaderRoute: typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdLearningObjectivesRouteImport
+      parentRoute: typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdRoute
+    }
+    '/(public-question-banks)/question-banks/$questionBank/content/$contentId/questions': {
+      id: '/(public-question-banks)/question-banks/$questionBank/content/$contentId/questions'
+      path: '/questions'
+      fullPath: '/question-banks/$questionBank/content/$contentId/questions'
+      preLoaderRoute: typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdQuestionsRouteImport
+      parentRoute: typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdRoute
+    }
   }
 }
+
+interface publicQuestionBanksQuestionBanksQuestionBankContentContentIdRouteChildren {
+  publicQuestionBanksQuestionBanksQuestionBankContentContentIdLearningObjectivesRoute: typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdLearningObjectivesRoute
+  publicQuestionBanksQuestionBanksQuestionBankContentContentIdQuestionsRoute: typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdQuestionsRoute
+  publicQuestionBanksQuestionBanksQuestionBankContentContentIdIndexRoute: typeof publicQuestionBanksQuestionBanksQuestionBankContentContentIdIndexRoute
+}
+
+const publicQuestionBanksQuestionBanksQuestionBankContentContentIdRouteChildren: publicQuestionBanksQuestionBanksQuestionBankContentContentIdRouteChildren =
+  {
+    publicQuestionBanksQuestionBanksQuestionBankContentContentIdLearningObjectivesRoute:
+      publicQuestionBanksQuestionBanksQuestionBankContentContentIdLearningObjectivesRoute,
+    publicQuestionBanksQuestionBanksQuestionBankContentContentIdQuestionsRoute:
+      publicQuestionBanksQuestionBanksQuestionBankContentContentIdQuestionsRoute,
+    publicQuestionBanksQuestionBanksQuestionBankContentContentIdIndexRoute:
+      publicQuestionBanksQuestionBanksQuestionBankContentContentIdIndexRoute,
+  }
+
+const publicQuestionBanksQuestionBanksQuestionBankContentContentIdRouteWithChildren =
+  publicQuestionBanksQuestionBanksQuestionBankContentContentIdRoute._addFileChildren(
+    publicQuestionBanksQuestionBanksQuestionBankContentContentIdRouteChildren,
+  )
 
 const rootRouteChildren: RootRouteChildren = {
   publicAboutRoute: publicAboutRoute,
@@ -534,32 +534,24 @@ const rootRouteChildren: RootRouteChildren = {
   publicBlogIndexRoute: publicBlogIndexRoute,
   publicQuestionBanksQuestionBanksIndexRoute:
     publicQuestionBanksQuestionBanksIndexRoute,
+  publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesRoute:
+    publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesRoute,
   publicQuestionBanksQuestionBanksQuestionBankSearchRoute:
     publicQuestionBanksQuestionBanksQuestionBankSearchRoute,
-  publicQuestionBanksQuestionBanksQuestionBankStudySessionRoute:
-    publicQuestionBanksQuestionBanksQuestionBankStudySessionRoute,
   publicQuestionBanksQuestionBanksQuestionBankIndexRoute:
     publicQuestionBanksQuestionBanksQuestionBankIndexRoute,
   publicQuestionBanksQuestionBanksQuestionBankAnnexAnnexRoute:
     publicQuestionBanksQuestionBanksQuestionBankAnnexAnnexRoute,
-  publicQuestionBanksQuestionBanksQuestionBankChaptersChapterRoute:
-    publicQuestionBanksQuestionBanksQuestionBankChaptersChapterRoute,
-  publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesLearningObjectRoute:
-    publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesLearningObjectRoute,
+  publicQuestionBanksQuestionBanksQuestionBankContentContentIdRoute:
+    publicQuestionBanksQuestionBanksQuestionBankContentContentIdRouteWithChildren,
   publicQuestionBanksQuestionBanksQuestionBankQuestionsQuestionRoute:
     publicQuestionBanksQuestionBanksQuestionBankQuestionsQuestionRoute,
-  publicQuestionBanksQuestionBanksQuestionBankSubjectsSubjectRoute:
-    publicQuestionBanksQuestionBanksQuestionBankSubjectsSubjectRoute,
   publicQuestionBanksQuestionBanksQuestionBankTestsTestRoute:
     publicQuestionBanksQuestionBanksQuestionBankTestsTestRoute,
   publicQuestionBanksQuestionBanksQuestionBankTestsNewRoute:
     publicQuestionBanksQuestionBanksQuestionBankTestsNewRoute,
-  publicQuestionBanksQuestionBanksQuestionBankChaptersIndexRoute:
-    publicQuestionBanksQuestionBanksQuestionBankChaptersIndexRoute,
-  publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesIndexRoute:
-    publicQuestionBanksQuestionBanksQuestionBankLearningObjectivesIndexRoute,
-  publicQuestionBanksQuestionBanksQuestionBankSubjectsIndexRoute:
-    publicQuestionBanksQuestionBanksQuestionBankSubjectsIndexRoute,
+  publicQuestionBanksQuestionBanksQuestionBankContentIndexRoute:
+    publicQuestionBanksQuestionBanksQuestionBankContentIndexRoute,
   publicQuestionBanksQuestionBanksQuestionBankTestsIndexRoute:
     publicQuestionBanksQuestionBanksQuestionBankTestsIndexRoute,
 }

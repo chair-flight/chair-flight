@@ -21,8 +21,3 @@ Questions with every template explained: 45 of 686. A question without an explan
 | 07 Flight performance and planning | 16 / 70   |
 | 08 Aircraft general knowledge      | 1 / 104   |
 | 09 Navigation                      | 7 / 92    |
-
-### TODO (human review recommended)
-
-- ADWY: needs a better image. Streamlines do not flow over the wing; the separation point belongs on the upper surface, not the lower; the stagnation point is hidden; the image should also show the difference between the transition and separation points.
-

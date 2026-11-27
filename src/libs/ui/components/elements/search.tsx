@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { createContext, useContext } from "react";
-import { SearchIcon } from "../../icons/search-icon";
 import { cn } from "../../utils/cn";
+import { SearchIcon } from "../icons/search-icon";
 import type { LinkProps } from "@tanstack/react-router";
 import type { FC, ReactNode } from "react";
 

@@ -1,35 +1,39 @@
-import { createFileRoute, createLink, notFound } from "@tanstack/react-router";
+import { createFileRoute, createLink } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
 import { staticFunctionMiddleware } from "@tanstack/start-static-server-functions";
 import { z } from "zod/mini";
+import { questionBankNameSchema } from "../../libs/core/content/question-bank-name";
 import { getChapterSelection } from "../../libs/core/question-bank/get-chapter-selection";
 import { getQuestionBankDb } from "../../libs/providers/question-bank-db";
-import { BackgroundForAirbus320QuestionBank } from "../../libs/ui/backgrounds/background-for-airbus-320-question-bank";
-import { BackgroundForAtplQuestionBank } from "../../libs/ui/backgrounds/background-for-atpl-question-bank";
-import { BackgroundForBoeing737QuestionBank } from "../../libs/ui/backgrounds/background-for-boeing-737-question-bank";
-import { BackgroundForPplQuestionBank } from "../../libs/ui/backgrounds/background-for-ppl-question-bank";
+import { BackgroundForAirbus320QuestionBank } from "../../libs/ui/components/backgrounds/background-for-airbus-320-question-bank";
+import { BackgroundForAtplQuestionBank } from "../../libs/ui/components/backgrounds/background-for-atpl-question-bank";
+import { BackgroundForBoeing737QuestionBank } from "../../libs/ui/components/backgrounds/background-for-boeing-737-question-bank";
+import { BackgroundForPplQuestionBank } from "../../libs/ui/components/backgrounds/background-for-ppl-question-bank";
 import { Button } from "../../libs/ui/components/base/button";
 import { ButtonCard } from "../../libs/ui/components/base/button-card";
 import { ButtonSearchBar } from "../../libs/ui/components/base/button-search-bar";
 import { LandingPage } from "../../libs/ui/components/containers/landing-page";
 import { Public } from "../../libs/ui/components/containers/public";
 import { ChapterSelection } from "../../libs/ui/components/elements/chapter-selection";
-import { PlayIcon } from "../../libs/ui/icons/play-icon";
+import { PlayIcon } from "../../libs/ui/components/icons/play-icon";
 import { buildPageHead } from "../../libs/ui/utils/build-page-head";
 import { cn } from "../../libs/ui/utils/cn";
 import type { FC } from "react";
 
-const QUESTION_BANKS = ["atpl_a", "ppl_a", "b737", "a320"] as const;
-
 const ButtonLink = createLink(Button);
 const ButtonSearchBarLink = createLink(ButtonSearchBar);
 
+const paramsSchema = z.object({
+  questionBank: questionBankNameSchema,
+});
+
+type ParamsType = z.infer<typeof paramsSchema>;
+
 const getQuestionBankHomePageData = createServerFn({ method: "GET" })
-  .validator(z.object({ questionBank: z.string() }))
+  .validator(paramsSchema)
   .middleware([staticFunctionMiddleware])
   .handler(async ({ data }) => {
-    const questionBank = data.questionBank as (typeof QUESTION_BANKS)[number];
-    if (!QUESTION_BANKS.includes(questionBank)) throw notFound();
+    const { questionBank } = data;
 
     const db = getQuestionBankDb();
     const index = await db.getQuestionBank(questionBank);
@@ -149,12 +153,20 @@ const QuestionBankHomePage: FC = () => {
               getLink={(chapterId) =>
                 questionBank === "ppl_a"
                   ? {
-                      to: "/question-banks/$questionBank/subjects/$subject",
-                      params: { questionBank, subject: chapterId },
+                      to: "/question-banks/$questionBank/content/$contentId",
+                      params: {
+                        questionBank,
+
+                        contentId: chapterId,
+                      },
                     }
                   : {
-                      to: "/question-banks/$questionBank/chapters/$chapter",
-                      params: { questionBank, chapter: chapterId },
+                      to: "/question-banks/$questionBank/content/$contentId",
+                      params: {
+                        questionBank,
+
+                        contentId: chapterId,
+                      },
                     }
               }
             />
@@ -191,7 +203,8 @@ export const Route = createFileRoute(
   "/(public-question-banks)/question-banks/$questionBank/",
 )({
   component: QuestionBankHomePage,
-  loader: ({ params }) => getQuestionBankHomePageData({ data: params }),
+  loader: ({ params }) =>
+    getQuestionBankHomePageData({ data: params as ParamsType }),
   head: ({ loaderData, params }) =>
     buildPageHead({
       title: `${loaderData?.title} · Chair Flight`,

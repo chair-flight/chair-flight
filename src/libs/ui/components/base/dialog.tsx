@@ -1,5 +1,5 @@
-import { CloseIcon } from "../../icons/close-icon";
 import { cn } from "../../utils/cn";
+import { CloseIcon } from "../icons/close-icon";
 import { ButtonIcon } from "./button-icon";
 import type { FC, ReactNode } from "react";
 

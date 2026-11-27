@@ -1,26 +1,28 @@
 import { createFileRoute, notFound, useNavigate } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
-import { useEffect } from "react";
+import { useCallback, useEffect } from "react";
 import { z } from "zod/mini";
 import { formatQuestionPreviewAsMarkdown } from "../../libs/base/format-values";
+import { questionBankNameSchema } from "../../libs/core/content/question-bank-name";
 import { getQuestionAnnexIds } from "../../libs/core/question-bank/get-question-annex-ids";
 import { getQuestionBankDb } from "../../libs/providers/question-bank-db";
-import { Modal } from "../../libs/ui/components/base/modal";
 import { Public } from "../../libs/ui/components/containers/public";
-import { QuestionAnnexViewer } from "../../libs/ui/components/elements/question-annex-viewer";
-import { QuestionMultipleChoice } from "../../libs/ui/components/elements/question-multiple-choice";
 import { QuestionViewer } from "../../libs/ui/components/elements/question-viewer";
 import { buildPageHead } from "../../libs/ui/utils/build-page-head";
 import { useQuestionViewer } from "../-hooks/use-question-viewer";
 import type { FC } from "react";
 
-const QUESTION_BANKS = ["atpl_a", "ppl_a", "b737", "a320"] as const;
+const paramsSchema = z.object({
+  question: z.string(),
+  questionBank: questionBankNameSchema,
+});
+
+type ParamsType = z.infer<typeof paramsSchema>;
 
 const getQuestionPageData = createServerFn({ method: "GET" })
-  .validator(z.object({ question: z.string(), questionBank: z.string() }))
+  .validator(paramsSchema)
   .handler(async ({ data }) => {
-    const questionBank = data.questionBank as (typeof QUESTION_BANKS)[number];
-    if (!QUESTION_BANKS.includes(questionBank)) throw notFound();
+    const { questionBank } = data;
 
     const db = getQuestionBankDb();
     const index = await db.getQuestionBank(questionBank);
@@ -38,8 +40,8 @@ const getQuestionPageData = createServerFn({ method: "GET" })
       label: subject.id,
       text: subject.shortName,
       link: {
-        to: "/question-banks/$questionBank/subjects/$subject" as const,
-        params: { questionBank, subject: subject.id },
+        to: "/question-banks/$questionBank/content/$contentId" as const,
+        params: { questionBank, contentId: subject.id },
       },
     };
 
@@ -47,8 +49,8 @@ const getQuestionPageData = createServerFn({ method: "GET" })
       label: chapter.id,
       text: chapter.title,
       link: {
-        to: "/question-banks/$questionBank/chapters/$chapter" as const,
-        params: { questionBank, chapter: chapter.id },
+        to: "/question-banks/$questionBank/content/$contentId" as const,
+        params: { questionBank, contentId: chapter.id },
       },
     };
 
@@ -56,8 +58,8 @@ const getQuestionPageData = createServerFn({ method: "GET" })
       label: id,
       text: index.learningObjectivesMap.get(id)?.text ?? "",
       link: {
-        to: "/question-banks/$questionBank/learning-objectives/$learningObject" as const,
-        params: { questionBank, learningObject: id },
+        to: "/question-banks/$questionBank/content/$contentId" as const,
+        params: { questionBank, contentId: id },
       },
     }));
 
@@ -121,33 +123,33 @@ const QuestionPage: FC = () => {
     });
   }, [search.breadcrumbs, navigate]);
 
-  const { viewer, question, annexModal, annexViewer } = useQuestionViewer({
-    question: data.question,
-    annexes: data.annexes,
-    seed: search.seed,
-    variant: search.variant,
-    tab: search.tab,
-    onVariantChange: (variant) =>
+  const onVariantChange = useCallback(
+    (variant: number) =>
       navigate({
         to: ".",
         search: (previous) => ({ ...previous, variant }),
         replace: true,
       }),
-    onSeedChange: (seed) =>
+    [navigate],
+  );
+
+  const onSeedChange = useCallback(
+    (seed: string) =>
       navigate({
         to: ".",
         search: (previous) => ({ ...previous, seed }),
         replace: true,
       }),
-    onTabChange: (tab) =>
-      navigate({
-        to: ".",
-        search: (previous) => ({
-          ...previous,
-          tab: tab === "question" ? undefined : tab,
-        }),
-        replace: true,
-      }),
+    [navigate],
+  );
+
+  const { viewer } = useQuestionViewer({
+    question: data.question,
+    annexes: data.annexes,
+    seed: search.seed,
+    variant: search.variant,
+    onVariantChange,
+    onSeedChange,
   });
 
   return (
@@ -161,12 +163,7 @@ const QuestionPage: FC = () => {
             links: data.informationLinks,
             relatedQuestions: data.relatedQuestionLinks,
           }}
-        >
-          <QuestionMultipleChoice {...question} />
-        </QuestionViewer>
-        <Modal {...annexModal}>
-          <QuestionAnnexViewer {...annexViewer} />
-        </Modal>
+        />
       </Public.Main>
     </Public>
   );
@@ -185,10 +182,6 @@ export const Route = createFileRoute(
       1,
     ),
     seed: z._default(z.optional(z.string()), "default"),
-    tab: z._default(
-      z.optional(z.enum(["question", "explanation", "variants"])),
-      "question",
-    ),
     breadcrumbs: z.catch(
       z.optional(
         z.array(
@@ -210,7 +203,9 @@ export const Route = createFileRoute(
   }),
   staleTime: Infinity,
   loader: async ({ params, location }) => {
-    const data = await getQuestionPageData({ data: params });
+    const data = await getQuestionPageData({
+      data: params as ParamsType,
+    });
     const { breadcrumbs: incoming } = location.search as {
       breadcrumbs?: { label: string; mono?: boolean }[];
     };

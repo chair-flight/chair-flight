@@ -1,6 +1,6 @@
 import { useTheme } from "../../hooks/use-theme";
-import { MoonIcon } from "../../icons/moon-icon";
-import { SunIcon } from "../../icons/sun-icon";
+import { MoonIcon } from "../icons/moon-icon";
+import { SunIcon } from "../icons/sun-icon";
 import { ButtonIcon } from "./button-icon";
 import type { FC } from "react";
 

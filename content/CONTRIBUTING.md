@@ -11,7 +11,7 @@ code rules in [`src/CONTRIBUTING.md`](../src/CONTRIBUTING.md).
 - Graphics: no labels; title, subtitle only for critical info; no explainer text unless asked.
 - Markdown tables are aligned in source.
 - YAML in `content/` is the source of truth; `metadata.yaml` ids (`subjects[].id`, chapter ids) are quoted strings, and question `subjectId` and `chapterId` must match them.
-- A320 and B737 are one course (`TYPE_RATING`) and officially single-subject: `metadata.yaml` has exactly one subject (id = the bank name) whose chapters are the systems. Question files are `<subject>.<chapter>.yaml` (`a320.01.yaml`, like ATPL's `010.01.yaml`) and every question carries that `subjectId` and `chapterId`. The UI presents the two differently.
+- A320 and B737 are one course (`TYPE_RATING`) and officially single-subject: `metadata.yaml` has exactly one subject (id = the bank name) whose chapters are the systems. Chapter ids are `<bank>.NN` (`b737.01`, `a320.01`, like ATPL's `010.01`), in `metadata.yaml` and in every question's `chapterId`. Question files are `<subject>.<chapter>.yaml` (`a320.01.yaml`) and every question carries that `subjectId` and `chapterId`. The UI presents the two differently.
 - Ids: `Q` + 4 random uppercase letters; annexes `A` + 3 letters. Check uniqueness across all banks.
 
 ## Vocabulary
@@ -96,6 +96,12 @@ One `simple` template whose stem and explanation use variables, with one preset 
       wrongAnswers:
         - text: 605 kt
 ```
+
+## Tags
+
+- Every question has `tags` in its YAML (a lowercase kebab-case list). It is optional and defaults to `[]`; manual tags are for now left empty.
+- The compiler adds two tags automatically: `has-annex` (the question lists an annex) and `has-explanation` (at least one template has a non-empty explanation). Never write these by hand.
+- The app's question search filters by tag with `tags:<name>` (for example `tags:has-annex`). Several `tags:` filters must all match.
 
 ## Explanations
 

@@ -1,8 +1,8 @@
 import { Breadcrumbs } from "../../../libs/ui/components/base/breadcrumbs";
 import { App } from "../../../libs/ui/components/containers/app";
-import { BookIcon } from "../../../libs/ui/icons/book-icon";
-import { HelpIcon } from "../../../libs/ui/icons/help-icon";
-import { PlayIcon } from "../../../libs/ui/icons/play-icon";
+import { BookIcon } from "../../../libs/ui/components/icons/book-icon";
+import { HelpIcon } from "../../../libs/ui/components/icons/help-icon";
+import { PlayIcon } from "../../../libs/ui/components/icons/play-icon";
 import { cn } from "../../../libs/ui/utils/cn";
 import { STORY_LINK, StoryBlock } from "./story-block";
 import type { FC } from "react";

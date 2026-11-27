@@ -1,8 +1,8 @@
-import { CheckIcon } from "../../icons/check-icon";
-import { CloseIcon } from "../../icons/close-icon";
 import { cn } from "../../utils/cn";
 import { Markdown } from "../base/markdown";
 import { MarkdownImage } from "../base/markdown-image";
+import { CheckIcon } from "../icons/check-icon";
+import { CloseIcon } from "../icons/close-icon";
 import type { FC } from "react";
 
 const OptionMarker: FC<{
@@ -34,6 +34,7 @@ export const QuestionMultipleChoice: FC<{
   }[];
   annexes?: string[];
   selectedOptionId?: string;
+  focusedOptionIndex?: number | null;
   correctOptionId?: string;
   showResult?: boolean;
   disabled?: boolean;
@@ -45,6 +46,7 @@ export const QuestionMultipleChoice: FC<{
   options,
   annexes = [],
   selectedOptionId,
+  focusedOptionIndex,
   correctOptionId,
   showResult,
   disabled,
@@ -56,8 +58,8 @@ export const QuestionMultipleChoice: FC<{
   );
 
   return (
-    <div className="flex flex-col gap-4">
-      <div className="rounded-md border border-rule bg-paper px-4 py-3">
+    <div className="flex flex-col gap-2 lg:gap-4">
+      <div className="min-h-[4lh] rounded-md border border-rule bg-paper p-2 lg:px-4 lg:py-3">
         {title && (
           <div className="mb-1 font-mono text-[10px] leading-none text-ink">
             {title}
@@ -111,6 +113,8 @@ export const QuestionMultipleChoice: FC<{
                 state === "correct" && "border-success",
                 state === "correct" && !selected && "border-2",
                 state === "wrong" && "border-danger",
+                index === focusedOptionIndex &&
+                  "outline-2 outline-offset-2 outline-accent",
               )}
               onClick={() => onOptionClick(option.id)}
             >

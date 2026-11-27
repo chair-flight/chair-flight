@@ -1,8 +1,9 @@
-import { createFileRoute, notFound, useNavigate } from "@tanstack/react-router";
+import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
 import { staticFunctionMiddleware } from "@tanstack/start-static-server-functions";
 import { useState } from "react";
 import { z } from "zod/mini";
+import { questionBankNameSchema } from "../../libs/core/content/question-bank-name";
 import { getEasaModuleOverview } from "../../libs/core/question-bank/get-easa-module-overview";
 import { getQuestionBankDb } from "../../libs/providers/question-bank-db";
 import { Button } from "../../libs/ui/components/base/button";
@@ -17,7 +18,7 @@ import { buildQuestionBankTest } from "../-server-functions/tests/build-question
 import type { ComponentProps, FC, ReactNode } from "react";
 import type { TestMakerConfig } from "../../libs/ui/components/tests/test-maker";
 
-const QUESTION_BANKS = ["atpl_a", "ppl_a", "b737", "a320"] as const;
+const paramsSchema = z.object({ questionBank: questionBankNameSchema });
 
 type BreadcrumbItems = ComponentProps<typeof Public.Header>["breadcrumbs"];
 
@@ -348,11 +349,10 @@ const TypeRatingTestBuilder: FC<{
 };
 
 const getNewTestPageData = createServerFn({ method: "GET" })
-  .validator(z.object({ questionBank: z.string() }))
+  .validator(paramsSchema)
   .middleware([staticFunctionMiddleware])
   .handler(async ({ data }) => {
-    const questionBank = data.questionBank as (typeof QUESTION_BANKS)[number];
-    if (!QUESTION_BANKS.includes(questionBank)) throw notFound();
+    const { questionBank } = data;
 
     const db = getQuestionBankDb();
     const index = await db.getQuestionBank(questionBank);
@@ -500,7 +500,9 @@ export const Route = createFileRoute(
 )({
   component: CreateTestPage,
   validateSearch: z.object({ chapter: z.optional(z.string()) }),
-  loader: ({ params }) => getNewTestPageData({ data: params }),
+  loader: ({ params }) => getNewTestPageData({ data: params as ParamsType }),
   head: ({ loaderData }) =>
     buildPageHead({ title: `New test · ${loaderData?.breadcrumbs[0]?.label}` }),
 });
+
+type ParamsType = z.infer<typeof paramsSchema>;

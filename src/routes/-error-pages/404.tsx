@@ -2,8 +2,8 @@ import { createLink, Link } from "@tanstack/react-router";
 import { Button } from "../../libs/ui/components/base/button";
 import { Logo } from "../../libs/ui/components/base/logo";
 import { ThemeToggle } from "../../libs/ui/components/base/theme-toggle";
-import { ChevronRightIcon } from "../../libs/ui/icons/chevron-right-icon";
-import { GraphicLostFlightChart } from "../../libs/ui/outlines/graphic-lost-flight-chart";
+import { ChevronRightIcon } from "../../libs/ui/components/icons/chevron-right-icon";
+import { GraphicLostFlightChart } from "../../libs/ui/components/outlines/graphic-lost-flight-chart";
 import { cn } from "../../libs/ui/utils/cn";
 import type { FC } from "react";
 

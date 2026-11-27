@@ -27,3 +27,17 @@ export const parseAnnotatedAnnexHref = (
     return null;
   }
 };
+
+// Turns an annex href written by question templates (`?annotated=` payload and
+// `#editable` fragment) into plain props for QuestionAnnexViewer.
+export const parseAnnexHref = (href: string) => {
+  const [withoutFragment, fragment = ""] = href.split("#");
+  const annotated = parseAnnotatedAnnexHref(withoutFragment);
+  return {
+    href: annotated?.href ?? withoutFragment.split("?")[0],
+    width: annotated?.width,
+    height: annotated?.height,
+    annotations: annotated?.annotations ?? [],
+    editable: fragment.split(":").includes("editable"),
+  };
+};

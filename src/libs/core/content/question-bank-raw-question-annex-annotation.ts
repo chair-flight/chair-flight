@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/mini";
 import { questionBankRawQuestionAnnexAnnotationCircleSchema } from "./question-bank-raw-question-annex-annotation-circle.ts";
 import { questionBankRawQuestionAnnexAnnotationLineSchema } from "./question-bank-raw-question-annex-annotation-line.ts";
 import { questionBankRawQuestionAnnexAnnotationPathSchema } from "./question-bank-raw-question-annex-annotation-path.ts";
@@ -24,4 +24,4 @@ export const questionBankRawQuestionAnnexAnnotationSchema =
     questionBankRawQuestionAnnexAnnotationCircleSchema,
     questionBankRawQuestionAnnexAnnotationPathSchema,
     questionBankRawQuestionAnnexAnnotationRectSchema,
-  ]) satisfies z.ZodType<QuestionBankRawQuestionAnnexAnnotation>;
+  ]) satisfies z.ZodMiniType<QuestionBankRawQuestionAnnexAnnotation>;

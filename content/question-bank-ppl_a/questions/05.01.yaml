@@ -44,13 +44,15 @@
   templates:
     - type: simple
       question: |-
-        What point on the aerofoil does number {{marker}} identify?
+        Refer to Figure.
+
+        What does number {{marker}} identify?
 
         ![Aerofoil flow and boundary layer](annex:ADWY)
       explanation: ""
       presets:
         - variables:
-            marker: "3"
+            marker: "2"
           correctAnswers:
             - text: Transition point
           wrongAnswers:
@@ -58,7 +60,7 @@
             - text: Centre of pressure
             - text: Stagnation point
         - variables:
-            marker: "4"
+            marker: "3"
           correctAnswers:
             - text: Separation point
           wrongAnswers:
@@ -73,6 +75,14 @@
             - text: Transition point
             - text: Centre of pressure
             - text: Separation point
+        - variables:
+            marker: "4"
+          correctAnswers:
+            - text: Eddies in the wake
+          wrongAnswers:
+            - text: Separation point
+            - text: Transition point
+            - text: Stagnation point
 - id: QWSJL
   subjectId: "05"
   chapterId: "05.01"

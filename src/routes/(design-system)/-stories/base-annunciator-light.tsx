@@ -3,9 +3,8 @@ import { StoryBlock } from "./story-block";
 import type { FC } from "react";
 
 export const BaseAnnunciatorLight: FC = () => (
-  <StoryBlock title="Colours" note="One or two lines, split with a slash.">
+  <StoryBlock title="Examples">
     <div className="flex flex-wrap items-center gap-4">
-      <AnnunciatorLight label="LOW PRESSURE" colour="amber" />
       <AnnunciatorLight label="LOW/PRESSURE" colour="amber" />
       <AnnunciatorLight label="RF" colour="white" />
       <AnnunciatorLight label="FIRE" colour="red" />

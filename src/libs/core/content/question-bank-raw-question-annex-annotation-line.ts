@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/mini";
 
 export type QuestionBankRawQuestionAnnexAnnotationLine = {
   type: "line";
@@ -14,8 +14,8 @@ export const questionBankRawQuestionAnnexAnnotationLineSchema = z.strictObject({
   type: z.literal("line"),
   from: z.tuple([z.number(), z.number()]),
   to: z.tuple([z.number(), z.number()]),
-  color: z.string().optional(),
-  width: z.number().optional(),
-  dash: z.string().optional(),
-  arrow: z.boolean().optional(),
-}) satisfies z.ZodType<QuestionBankRawQuestionAnnexAnnotationLine>;
+  color: z.optional(z.string()),
+  width: z.optional(z.number()),
+  dash: z.optional(z.string()),
+  arrow: z.optional(z.boolean()),
+}) satisfies z.ZodMiniType<QuestionBankRawQuestionAnnexAnnotationLine>;

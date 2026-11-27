@@ -1,4 +1,4 @@
-import { BackgroundForAtplQuestionBank } from "../../../libs/ui/backgrounds/background-for-atpl-question-bank";
+import { BackgroundForAtplQuestionBank } from "../../../libs/ui/components/backgrounds/background-for-atpl-question-bank";
 import type { FC } from "react";
 
 export const BackgroundsAtpl: FC = () => (

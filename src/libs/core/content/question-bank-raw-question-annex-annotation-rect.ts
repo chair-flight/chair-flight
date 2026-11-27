@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/mini";
 
 export type QuestionBankRawQuestionAnnexAnnotationRect = {
   type: "rect";
@@ -18,8 +18,8 @@ export const questionBankRawQuestionAnnexAnnotationRectSchema = z.strictObject({
   y: z.number(),
   width: z.number(),
   height: z.number(),
-  stroke: z.string().optional(),
-  fill: z.string().optional(),
-  strokeWidth: z.number().optional(),
-  radius: z.number().optional(),
-}) satisfies z.ZodType<QuestionBankRawQuestionAnnexAnnotationRect>;
+  stroke: z.optional(z.string()),
+  fill: z.optional(z.string()),
+  strokeWidth: z.optional(z.number()),
+  radius: z.optional(z.number()),
+}) satisfies z.ZodMiniType<QuestionBankRawQuestionAnnexAnnotationRect>;

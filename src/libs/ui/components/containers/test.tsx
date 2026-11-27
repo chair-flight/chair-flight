@@ -1,11 +1,6 @@
 import { Children, isValidElement, useRef } from "react";
 import { useDisclose } from "../../hooks/use-disclose";
 import { useKeyboardShortcuts } from "../../hooks/use-keyboard-shortcuts";
-import { ChevronLeftIcon } from "../../icons/chevron-left-icon";
-import { ChevronRightIcon } from "../../icons/chevron-right-icon";
-import { InfoModeIcon } from "../../icons/info-mode-icon";
-import { LogOutIcon } from "../../icons/log-out-icon";
-import { NavModeIcon } from "../../icons/nav-mode-icon";
 import { cn } from "../../utils/cn";
 import { Button } from "../base/button";
 import { ButtonIcon } from "../base/button-icon";
@@ -13,8 +8,13 @@ import { Dialog } from "../base/dialog";
 import { Markdown } from "../base/markdown";
 import { Modal } from "../base/modal";
 import { ThemeToggle } from "../base/theme-toggle";
+import { ChevronLeftIcon } from "../icons/chevron-left-icon";
+import { ChevronRightIcon } from "../icons/chevron-right-icon";
+import { InfoModeIcon } from "../icons/info-mode-icon";
+import { LogOutIcon } from "../icons/log-out-icon";
+import { NavModeIcon } from "../icons/nav-mode-icon";
 import type { FC, ReactNode } from "react";
-import type { IconProps } from "../../icons/svg-icon";
+import type { IconProps } from "../icons/svg-icon";
 
 type Panel = "information" | "progress";
 

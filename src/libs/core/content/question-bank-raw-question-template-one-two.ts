@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/mini";
 
 export type QuestionBankRawQuestionTemplateOneTwo = {
   type: "one-two";
@@ -20,4 +20,4 @@ export const questionBankRawQuestionTemplateOneTwoSchema = z.strictObject({
       wrong: z.array(z.string()),
     }),
   ),
-}) satisfies z.ZodType<QuestionBankRawQuestionTemplateOneTwo>;
+}) satisfies z.ZodMiniType<QuestionBankRawQuestionTemplateOneTwo>;

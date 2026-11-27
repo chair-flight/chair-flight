@@ -1,13 +1,22 @@
 import { Link } from "@tanstack/react-router";
 import { useVirtualizer } from "@tanstack/react-virtual";
-import { memo, useEffect, useMemo, useRef, useState } from "react";
+import {
+  memo,
+  useCallback,
+  useEffect,
+  useId,
+  useLayoutEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import { createPortal, flushSync } from "react-dom";
 import { useKeyboardShortcuts } from "../../hooks/use-keyboard-shortcuts";
 import { cn } from "../../utils/cn";
-import { Checkbox } from "../base/checkbox";
-import { Highlight } from "../base/search-highlight";
+import { Highlight } from "../base/highlight";
+import { ChevronRightIcon } from "../icons/chevron-right-icon";
 import type { LinkProps } from "@tanstack/react-router";
-import type { FC } from "react";
+import type { CSSProperties, FC } from "react";
 
 type ThreadItem = {
   id: string;
@@ -18,6 +27,7 @@ type ThreadItem = {
   source: string;
   courses: string[];
   numberOfQuestions: number | null;
+  link?: LinkProps;
 };
 
 type ThreadNode = {
@@ -46,6 +56,15 @@ type Course = {
 const HEADER_HEIGHT = 32;
 const PARENT_HEIGHT = 32;
 const LEAF_HEIGHT_ESTIMATE = 56;
+const MOBILE_ID_INDENT_REM = 0.375;
+const DESKTOP_ID_INDENT_REM = 0.5;
+const GRID_COLUMNS =
+  "grid grid-cols-[var(--lo-id-width,10.5rem)_minmax(0,1fr)_5.5rem_5rem]";
+
+const getCourseMarker = (target: EventTarget | null) =>
+  target instanceof Element
+    ? target.closest<HTMLButtonElement>("button[data-courses]")
+    : null;
 
 const nestWindowRows = (rows: FlatRow[], indexes: number[]) => {
   const roots: WindowNode[] = [];
@@ -80,69 +99,27 @@ const buildThreadNodes = (items: ThreadItem[]) => {
   });
 };
 
-const findVisibleIds = (items: ThreadItem[], query: string) => {
-  const tokens = query.toLowerCase().split(/\s+/).filter(Boolean);
-  const parentIds = tokens
-    .filter((token) => token.startsWith("parent:"))
-    .map((token) => token.slice("parent:".length));
-  const words = tokens.filter((token) => !token.startsWith("parent:"));
-  if (tokens.length === 0) return null;
-  const itemsById = new Map(items.map((item) => [item.id, item]));
-  const childIdsByParentId = items.reduce((groups, item) => {
-    if (!item.parentId) return groups;
-    groups.set(item.parentId, [...(groups.get(item.parentId) ?? []), item]);
-    return groups;
-  }, new Map<string, ThreadItem[]>());
-  const visibleIds = new Set<string>();
-  const addAncestors = (parentId: string | null) => {
-    if (!parentId || !itemsById.has(parentId) || visibleIds.has(parentId)) {
-      return;
-    }
-    visibleIds.add(parentId);
-    addAncestors(itemsById.get(parentId)?.parentId ?? null);
-  };
-  const addDescendants = (id: string) => {
-    visibleIds.add(id);
-    for (const child of childIdsByParentId.get(id) ?? []) {
-      addDescendants(child.id);
-    }
-  };
-  for (const item of items) {
-    const inScope =
-      parentIds.length === 0 ||
-      parentIds.some((id) => {
-        const itemId = item.id.toLowerCase();
-        return itemId === id || itemId.startsWith(`${id}.`);
-      });
-    if (!inScope) continue;
-    const haystack = `${item.id} ${item.text}`.toLowerCase();
-    if (!words.every((word) => haystack.includes(word))) continue;
-    addDescendants(item.id);
-    addAncestors(item.parentId);
-  }
-  return visibleIds;
-};
-
 const flattenNode = (
   node: ThreadNode,
   depth: number,
   ancestorIds: string[],
-  visibleIds: Set<string> | null,
   collapsedIds: Set<string>,
 ): FlatRow[] => {
-  const children = visibleIds
-    ? node.children.filter((child) => visibleIds.has(child.item.id))
-    : node.children;
   const open = !collapsedIds.has(node.item.id);
   return [
-    { item: node.item, depth, parent: children.length > 0, open, ancestorIds },
+    {
+      item: node.item,
+      depth,
+      parent: node.children.length > 0,
+      open,
+      ancestorIds,
+    },
     ...(open
-      ? children.flatMap((child) =>
+      ? node.children.flatMap((child) =>
           flattenNode(
             child,
             depth + 1,
             [...ancestorIds, node.item.id],
-            visibleIds,
             collapsedIds,
           ),
         )
@@ -153,17 +130,17 @@ const flattenNode = (
 const ItemText: FC<{
   text: string;
   items: string[];
-  className?: string;
-}> = ({ text, items, className }) => (
-  <div className={cn("leading-6 wrap-break-word", className)}>
+  highlight?: string | string[];
+}> = ({ text, items, highlight }) => (
+  <div className="leading-6 wrap-break-word">
     <p className="m-0">
-      <Highlight>{text}</Highlight>
+      <Highlight highlight={highlight}>{text}</Highlight>
     </p>
     {items.length > 0 && (
       <ul className="mt-3 mb-0 list-disc pl-6">
         {items.map((item) => (
           <li key={item}>
-            <Highlight>{item}</Highlight>
+            <Highlight highlight={highlight}>{item}</Highlight>
           </li>
         ))}
       </ul>
@@ -182,7 +159,7 @@ const TableSkeleton: FC = () => (
   >
     <div
       className={cn(
-        "grid grid-cols-[12.5rem_minmax(0,1fr)_5.5rem_5rem]",
+        GRID_COLUMNS,
         "h-8 items-center border-b border-rule text-xs font-semibold",
         "text-muted",
       )}
@@ -202,16 +179,10 @@ const TableSkeleton: FC = () => (
       )}
     </div>
     {[0, 1, 2, 2, 2, 1, 2, 2, 3, 3, 2, 1, 2, 2, 0, 1].map((depth, index) => (
-      <div
-        key={index}
-        className={cn(
-          "grid grid-cols-[12.5rem_minmax(0,1fr)_5.5rem_5rem]",
-          "h-12 animate-pulse",
-        )}
-      >
+      <div key={index} className={cn(GRID_COLUMNS, "h-12 animate-pulse")}>
         <div
           className="flex items-center border-b border-rule"
-          style={{ marginLeft: `${0.75 + depth}rem` }}
+          style={{ marginLeft: `${0.5 + depth * DESKTOP_ID_INDENT_REM}rem` }}
         >
           <div className="h-3 w-20 rounded bg-rule" />
         </div>
@@ -238,80 +209,6 @@ const TableSkeleton: FC = () => (
   </div>
 );
 
-const CourseFilter: FC<{
-  courses: Course[];
-  hiddenCourseIds: string[];
-  className?: string;
-  onToggle: (courseId: string) => void;
-  onSelectAll: () => void;
-}> = ({ courses, hiddenCourseIds, className, onToggle, onSelectAll }) => {
-  const [open, setOpen] = useState(false);
-  const containerRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (!open) return;
-    const closeOnOutsidePress = (event: PointerEvent) => {
-      if (!containerRef.current?.contains(event.target as Node)) {
-        setOpen(false);
-      }
-    };
-    window.addEventListener("pointerdown", closeOnOutsidePress);
-    return () => window.removeEventListener("pointerdown", closeOnOutsidePress);
-  }, [open]);
-
-  return (
-    <div ref={containerRef} className={cn("relative", className)}>
-      <button
-        type="button"
-        aria-expanded={open}
-        onClick={() => setOpen((current) => !current)}
-        className={cn(
-          "flex h-6 cursor-pointer items-center gap-1 rounded-md px-1.5",
-          "text-xs font-semibold hover:text-ink",
-          hiddenCourseIds.length > 0 ? "text-accent" : "text-muted",
-        )}
-      >
-        Courses
-        {hiddenCourseIds.length > 0 &&
-          ` · ${courses.length - hiddenCourseIds.length}`}
-        <span aria-hidden>▾</span>
-      </button>
-      {open && (
-        <ul
-          className={cn(
-            "absolute top-full right-0 z-40 m-0 mt-1 flex w-56 list-none",
-            "flex-col gap-1 rounded-md border border-rule bg-paper p-2",
-            "text-xs font-normal text-ink shadow-lg",
-          )}
-        >
-          {hiddenCourseIds.length > 0 && (
-            <li>
-              <button
-                type="button"
-                onClick={onSelectAll}
-                className="cursor-pointer font-semibold text-accent"
-              >
-                Select all
-              </button>
-            </li>
-          )}
-          {courses.map((course) => (
-            <li key={course.id}>
-              <label className="flex cursor-pointer items-center gap-2 py-0.5">
-                <Checkbox
-                  checked={!hiddenCourseIds.includes(course.id)}
-                  onChange={() => onToggle(course.id)}
-                />
-                {course.text}
-              </label>
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
-  );
-};
-
 const CoursesCell: FC<{
   item: ThreadItem;
   courses: Course[];
@@ -325,14 +222,18 @@ const CoursesCell: FC<{
     )}
   >
     {item.courses.length > 0 && (
-      <span
+      <button
+        type="button"
         data-courses={item.courses.join(" ")}
-        className="inline-block cursor-default"
+        aria-label={`Course applicability for ${item.id}`}
+        className="h-7 cursor-pointer rounded px-1 hover:text-ink"
       >
-        {courses
-          .map((course) => (item.courses.includes(course.id) ? "●" : "○"))
-          .join("")}
-      </span>
+        <span aria-hidden>
+          {courses
+            .map((course) => (item.courses.includes(course.id) ? "●" : "○"))
+            .join("")}
+        </span>
+      </button>
     )}
   </div>
 );
@@ -340,8 +241,7 @@ const CoursesCell: FC<{
 const QuestionsCell: FC<{
   item: ThreadItem;
   parent: boolean;
-  questionsLink?: (learningObjectiveId: string) => LinkProps | undefined;
-}> = ({ item, parent, questionsLink }) => (
+}> = ({ item, parent }) => (
   <div
     className={cn(
       "flex items-center justify-end border-b border-rule",
@@ -349,19 +249,24 @@ const QuestionsCell: FC<{
       parent && "pointer-events-auto bg-paper",
     )}
   >
-    {item.numberOfQuestions && questionsLink?.(item.id) ? (
-      <Link
-        {...questionsLink(item.id)}
-        onClick={(event) => event.stopPropagation()}
-        onKeyDown={(event) => event.stopPropagation()}
-        className="font-semibold text-accent underline-offset-2 hover:underline"
-      >
-        {item.numberOfQuestions}
+    {item.numberOfQuestions || "-"}
+  </div>
+);
+
+const LearningObjectiveId: FC<{
+  id: string;
+  highlight?: string | string[];
+  link?: LinkProps;
+}> = ({ id, highlight, link }) => (
+  <span className="font-mono text-xs whitespace-nowrap">
+    {link ? (
+      <Link {...link} className="underline-offset-2 hover:underline">
+        <Highlight highlight={highlight}>{id}</Highlight>
       </Link>
     ) : (
-      item.numberOfQuestions || "-"
+      <Highlight highlight={highlight}>{id}</Highlight>
     )}
-  </div>
+  </span>
 );
 
 const ParentRow = memo<{
@@ -369,28 +274,45 @@ const ParentRow = memo<{
   depth: number;
   open: boolean;
   courses: Course[];
-  questionsLink?: (learningObjectiveId: string) => LinkProps | undefined;
+  highlight?: string | string[];
   onToggle: (id: string) => void;
-}>(({ item, depth, open, courses, questionsLink, onToggle }) => (
+}>(({ item, depth, open, courses, highlight, onToggle }) => (
   <div
     className={cn(
-      "pointer-events-none grid h-8",
-      "grid-cols-[12.5rem_minmax(0,1fr)_5.5rem_5rem]",
-      depth === 0 && "border-t-2 border-rule bg-paper",
+      GRID_COLUMNS,
+      "pointer-events-none h-8",
+      depth === 0 && "bg-paper",
     )}
   >
-    <button
-      type="button"
-      aria-expanded={open}
-      onClick={() => onToggle(item.id)}
+    <div
       className={cn(
-        "pointer-events-auto flex cursor-pointer items-center border-b",
-        "border-rule bg-paper pr-2 text-left font-semibold",
+        "pointer-events-auto flex items-center gap-1 border-b border-rule",
+        "bg-paper py-2 pt-2.5 pr-1 font-semibold",
       )}
-      style={{ marginLeft: `${0.75 + depth}rem` }}
+      style={{ marginLeft: `calc(${depth} * var(--lo-indent))` }}
     >
-      <Highlight>{item.id}</Highlight>
-    </button>
+      <button
+        type="button"
+        aria-expanded={open}
+        aria-label={`${open ? "Collapse" : "Expand"} ${item.id}`}
+        onClick={() => onToggle(item.id)}
+        className="grid size-3 flex-none cursor-pointer place-items-center text-muted hover:text-accent"
+      >
+        <ChevronRightIcon
+          size={12}
+          strokeWidth={2.5}
+          className={cn(
+            "transition-transform duration-150",
+            open && "rotate-90",
+          )}
+        />
+      </button>
+      <LearningObjectiveId
+        id={item.id}
+        highlight={highlight}
+        link={item.link}
+      />
+    </div>
     <div
       title={item.text}
       className={cn(
@@ -399,11 +321,11 @@ const ParentRow = memo<{
       )}
     >
       <span className="truncate">
-        <Highlight>{item.text}</Highlight>
+        <Highlight highlight={highlight}>{item.text}</Highlight>
       </span>
     </div>
     <CoursesCell item={item} courses={courses} parent />
-    <QuestionsCell item={item} parent questionsLink={questionsLink} />
+    <QuestionsCell item={item} parent />
   </div>
 ));
 
@@ -411,17 +333,31 @@ const LeafRow = memo<{
   item: ThreadItem;
   depth: number;
   courses: Course[];
-  questionsLink?: (learningObjectiveId: string) => LinkProps | undefined;
-}>(({ item, depth, courses, questionsLink }) => (
-  <div className="grid grid-cols-[12.5rem_minmax(0,1fr)_5.5rem_5rem]">
+  highlight?: string | string[];
+}>(({ item, depth, courses, highlight }) => (
+  <div className={GRID_COLUMNS}>
     <div
-      className={cn("border-b border-rule", "py-2 pt-2.5 pr-2 font-semibold")}
-      style={{ marginLeft: `${0.75 + depth}rem` }}
+      className={cn(
+        "relative flex items-center gap-1 border-b border-rule",
+        "py-2 pt-2.5 pr-1 font-semibold",
+      )}
+      style={{ marginLeft: `calc(${depth} * var(--lo-indent))` }}
     >
-      <Highlight>{item.id}</Highlight>
+      {depth > 0 && (
+        <span
+          aria-hidden
+          className="pointer-events-none absolute top-1/2 left-0 h-px w-4 bg-muted/70 md:-left-0.5"
+        />
+      )}
+      <span aria-hidden className="size-3 flex-none" />
+      <LearningObjectiveId
+        id={item.id}
+        highlight={highlight}
+        link={item.link}
+      />
     </div>
     <div className={cn("border-b border-rule", "py-2 pr-4")}>
-      <ItemText text={item.text} items={item.items} />
+      <ItemText text={item.text} items={item.items} highlight={highlight} />
       {item.source && (
         <div className="mt-1.5 text-[11px] whitespace-pre-line text-muted/75">
           {item.source}
@@ -429,43 +365,51 @@ const LeafRow = memo<{
       )}
     </div>
     <CoursesCell item={item} courses={courses} parent={false} />
-    <QuestionsCell item={item} parent={false} questionsLink={questionsLink} />
+    <QuestionsCell item={item} parent={false} />
   </div>
 ));
 
 export const LearningObjectivesTable: FC<{
   items: ThreadItem[];
-  query: string;
   courses: Course[];
+  highlight?: string | string[];
+  filterItems?: string[];
   loading?: boolean;
-  questionsLink?: (learningObjectiveId: string) => LinkProps | undefined;
-}> = ({ items, query, courses, loading = false, questionsLink }) => {
+}> = ({ items, courses, highlight, filterItems, loading = false }) => {
   const [collapsedIds, setCollapsedIds] = useState<Set<string>>(new Set());
-  const [mounted, setMounted] = useState(false);
-  const [hiddenCourseIds, setHiddenCourseIds] = useState<string[]>([]);
+  const [courseMarker, setCourseMarker] = useState<HTMLButtonElement | null>(
+    null,
+  );
   const scrollRef = useRef<HTMLDivElement>(null);
-  const popoverRef = useRef<HTMLUListElement>(null);
+  const courseLegend = useRef<HTMLUListElement>(null);
+  const courseLegendId = useId();
 
-  const filteredItems = useMemo(
+  const [mobileIdColumnWidth, desktopIdColumnWidth] = useMemo(
     () =>
-      hiddenCourseIds.length === 0
-        ? items
-        : items.filter((item) =>
-            item.courses.some((id) => !hiddenCourseIds.includes(id)),
-          ),
-    [items, hiddenCourseIds],
+      [MOBILE_ID_INDENT_REM, DESKTOP_ID_INDENT_REM].map((indent) =>
+        items.reduce(
+          (width, item) =>
+            Math.max(
+              width,
+              item.id.length * 0.46 + (item.level - 1) * indent + 1.5,
+            ),
+          7.5,
+        ),
+      ),
+    [items],
   );
+  const hideCourseLegend = useCallback(() => setCourseMarker(null), []);
+
+  const filteredItems = useMemo(() => {
+    if (!filterItems) return items;
+    const allowedIds = new Set(filterItems);
+    return items.filter((item) => allowedIds.has(item.id));
+  }, [items, filterItems]);
+  const filterKey = useMemo(() => filterItems?.join("|"), [filterItems]);
   const roots = useMemo(() => buildThreadNodes(filteredItems), [filteredItems]);
-  const visibleIds = useMemo(
-    () => findVisibleIds(filteredItems, query),
-    [filteredItems, query],
-  );
   const rows = useMemo(
-    () =>
-      roots
-        .filter((root) => !visibleIds || visibleIds.has(root.item.id))
-        .flatMap((root) => flattenNode(root, 0, [], visibleIds, collapsedIds)),
-    [roots, visibleIds, collapsedIds],
+    () => roots.flatMap((root) => flattenNode(root, 0, [], collapsedIds)),
+    [roots, collapsedIds],
   );
   const indexById = useMemo(
     () => new Map(rows.map((row, index) => [row.item.id, index])),
@@ -522,55 +466,69 @@ export const LearningObjectivesTable: FC<{
     "mod+k mod+4": () => foldToLevel(4),
   });
 
-  useEffect(() => setMounted(true), []);
+  useEffect(() => {
+    scrollRef.current?.scrollTo({ top: 0 });
+  }, [filterKey]);
 
   useEffect(() => {
-    if (query !== undefined) scrollRef.current?.scrollTo({ top: 0 });
-  }, [query]);
+    const scroller = scrollRef.current;
+    if (!scroller) return;
 
-  useEffect(() => {
-    const container = scrollRef.current;
-    const popover = popoverRef.current;
-    if (!container || !popover) return;
-    const hide = () => {
-      popover.hidden = true;
-    };
-    const show = (event: MouseEvent) => {
-      const row = (event.target as HTMLElement).closest<HTMLElement>(
-        "[data-courses]",
-      );
-      const appliesTo = row?.dataset.courses;
-      if (!row || !appliesTo) return hide();
-      const applicable = appliesTo.split(" ");
-      for (const entry of Array.from(popover.children)) {
-        const element = entry as HTMLElement;
-        element.dataset.applies = String(
-          applicable.includes(element.dataset.courseId ?? ""),
-        );
+    const showOnHover = (event: PointerEvent) => {
+      if (event.pointerType === "mouse") {
+        setCourseMarker(getCourseMarker(event.target));
       }
-      popover.hidden = false;
-      const rowRect = row.getBoundingClientRect();
-      const popoverHeight = popover.offsetHeight;
-      const below = rowRect.bottom + popoverHeight < window.innerHeight;
-      popover.style.top = `${below ? rowRect.bottom + 4 : rowRect.top - popoverHeight - 4}px`;
-      popover.style.left = `${rowRect.right - popover.offsetWidth}px`;
     };
-    container.addEventListener("mouseover", show);
-    container.addEventListener("mouseleave", hide);
-    container.addEventListener("scroll", hide, { passive: true });
-    return () => {
-      container.removeEventListener("mouseover", show);
-      container.removeEventListener("mouseleave", hide);
-      container.removeEventListener("scroll", hide);
+    const hideOnMouseLeave = (event: PointerEvent) => {
+      if (event.pointerType === "mouse") hideCourseLegend();
     };
-  }, [loading, mounted]);
+    const toggleOnPress = (event: MouseEvent) => {
+      const marker = getCourseMarker(event.target);
+      if (!marker) return;
+      setCourseMarker((current) => (current === marker ? null : marker));
+    };
 
-  const toggleCourse = (courseId: string) =>
-    setHiddenCourseIds((current) =>
-      current.includes(courseId)
-        ? current.filter((id) => id !== courseId)
-        : [...current, courseId],
-    );
+    scroller.addEventListener("pointerover", showOnHover);
+    scroller.addEventListener("pointerleave", hideOnMouseLeave);
+    scroller.addEventListener("click", toggleOnPress);
+    scroller.addEventListener("scroll", hideCourseLegend, { passive: true });
+    return () => {
+      scroller.removeEventListener("pointerover", showOnHover);
+      scroller.removeEventListener("pointerleave", hideOnMouseLeave);
+      scroller.removeEventListener("click", toggleOnPress);
+      scroller.removeEventListener("scroll", hideCourseLegend);
+    };
+  }, [loading, hideCourseLegend]);
+
+  useLayoutEffect(() => {
+    const legend = courseLegend.current;
+    if (!courseMarker || !legend) return;
+    const marker = courseMarker.getBoundingClientRect();
+    const below =
+      marker.bottom + legend.offsetHeight + 4 <= window.innerHeight - 8;
+    legend.style.top = `${Math.max(8, below ? marker.bottom + 4 : marker.top - legend.offsetHeight - 4)}px`;
+    legend.style.left = `${Math.max(8, Math.min(marker.right - legend.offsetWidth, window.innerWidth - legend.offsetWidth - 8))}px`;
+    courseMarker.setAttribute("aria-describedby", courseLegendId);
+    return () => courseMarker.removeAttribute("aria-describedby");
+  }, [courseMarker, courseLegendId]);
+
+  useEffect(() => {
+    if (!courseMarker) return;
+    const closeOnOutsidePress = (event: PointerEvent) => {
+      if (getCourseMarker(event.target) !== courseMarker) hideCourseLegend();
+    };
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") hideCourseLegend();
+    };
+    document.addEventListener("pointerdown", closeOnOutsidePress);
+    document.addEventListener("keydown", closeOnEscape);
+    window.addEventListener("resize", hideCourseLegend);
+    return () => {
+      document.removeEventListener("pointerdown", closeOnOutsidePress);
+      document.removeEventListener("keydown", closeOnEscape);
+      window.removeEventListener("resize", hideCourseLegend);
+    };
+  }, [courseMarker, hideCourseLegend]);
 
   if (loading) return <TableSkeleton />;
 
@@ -609,7 +567,7 @@ export const LearningObjectivesTable: FC<{
             item={row.item}
             depth={row.depth}
             courses={courses}
-            questionsLink={questionsLink}
+            highlight={highlight}
           />
         </div>
       );
@@ -630,61 +588,75 @@ export const LearningObjectivesTable: FC<{
             depth={row.depth}
             open={row.open}
             courses={courses}
-            questionsLink={questionsLink}
-            onToggle={toggleRow}
+            highlight={highlight}
+            onToggle={(id) =>
+              row.open ? collapseRow(node.index) : toggleRow(id)
+            }
           />
         </div>
         {node.children.length > 0 && (
           <>
-            <button
-              type="button"
-              aria-label={`Collapse ${row.item.id}`}
-              onClick={() => collapseRow(node.index)}
-              className={cn(
-                "group absolute bottom-0 z-1 flex w-4 cursor-pointer",
-                "justify-center",
-              )}
-              style={{ left: `${0.75 + row.depth}rem`, top: "2rem" }}
+            <span
+              aria-hidden
+              className="pointer-events-none absolute bottom-0 z-1 flex w-3 justify-center"
+              style={{
+                left: `calc(${row.depth} * var(--lo-indent))`,
+                top: "1.125rem",
+              }}
             >
-              <span
-                className={cn(
-                  "block w-px bg-muted/70",
-                  "group-hover:w-0.5 group-hover:bg-accent",
-                )}
-              />
-            </button>
+              <span className="block w-px bg-muted/70" />
+            </span>
             {node.children.map(renderNode)}
           </>
+        )}
+        {row.depth === 0 && (
+          <span
+            aria-hidden
+            className="pointer-events-none absolute inset-x-0 bottom-0 z-10 h-px bg-muted/70"
+          />
         )}
       </div>
     );
   };
   const empty = rows.length === 0;
+  const applicableCourses = courseMarker?.dataset.courses?.split(" ") ?? [];
 
   return (
     <div
       ref={scrollRef}
       className={cn(
-        "h-full overflow-auto rounded-lg border border-rule bg-paper",
+        "@container h-full overflow-auto rounded-lg border border-rule bg-paper",
         "text-[13px]",
       )}
     >
-      <div className="min-w-200">
+      <div
+        className={cn(
+          "w-[calc(var(--lo-id-width)_+_min(100cqw,100vw_-_20px)_+_10.5rem)]",
+          "md:w-full md:min-w-200",
+          "[--lo-id-width:var(--lo-mobile-id-width)]",
+          "md:[--lo-id-width:var(--lo-desktop-id-width)]",
+          "[--lo-indent:var(--lo-mobile-indent)]",
+          "md:[--lo-indent:var(--lo-desktop-indent)]",
+        )}
+        style={
+          {
+            "--lo-mobile-id-width": `${mobileIdColumnWidth}rem`,
+            "--lo-desktop-id-width": `${desktopIdColumnWidth}rem`,
+            "--lo-mobile-indent": `${MOBILE_ID_INDENT_REM}rem`,
+            "--lo-desktop-indent": `${DESKTOP_ID_INDENT_REM}rem`,
+          } as CSSProperties
+        }
+      >
         <div
           className={cn(
-            "grid grid-cols-[12.5rem_minmax(0,1fr)_5.5rem_5rem]",
+            GRID_COLUMNS,
             "sticky top-0 z-30 h-8 items-center border-b border-rule bg-paper",
             "text-xs font-semibold text-muted",
           )}
         >
           <div className="pl-3">Learning Objective</div>
           <div className="pr-3">Description</div>
-          <CourseFilter
-            courses={courses}
-            hiddenCourseIds={hiddenCourseIds}
-            onToggle={toggleCourse}
-            onSelectAll={() => setHiddenCourseIds([])}
-          />
+          <div>Courses</div>
           <div className="pr-3 text-right">Questions</div>
         </div>
         {empty && (
@@ -695,32 +667,44 @@ export const LearningObjectivesTable: FC<{
         {!empty && (
           <div style={{ paddingTop, paddingBottom }}>
             {windowRoots.map(renderNode)}
+            <div aria-hidden className={cn(GRID_COLUMNS, "h-8")}>
+              <div className="border-b border-rule" />
+              <div className="border-b border-rule" />
+              <div className="border-b border-rule" />
+              <div className="border-b border-rule" />
+            </div>
           </div>
         )}
       </div>
-      {mounted &&
+      {courseMarker &&
         createPortal(
           <ul
-            ref={popoverRef}
-            hidden
+            id={courseLegendId}
+            ref={courseLegend}
+            role="tooltip"
             className={cn(
-              "fixed z-40 m-0 w-56 list-none rounded-md border border-rule",
-              "bg-paper p-2 text-xs shadow-lg",
+              "pointer-events-none fixed z-50 m-0 w-48 max-w-[90vw] list-none",
+              "rounded-md border border-rule bg-paper p-2 text-xs shadow-lg",
             )}
           >
-            {courses.map((course) => (
-              <li
-                key={course.id}
-                data-course-id={course.id}
-                className={cn(
-                  "py-0.5 text-ink",
-                  "data-[applies=false]:text-muted/60",
-                  "data-[applies=false]:line-through",
-                )}
-              >
-                {course.text}
-              </li>
-            ))}
+            {courses.map((course) => {
+              const applies = applicableCourses.includes(course.id);
+              return (
+                <li key={course.id} className="flex items-center gap-2 py-0.5">
+                  <span aria-hidden className="text-[8px]">
+                    {applies ? "●" : "○"}
+                  </span>
+                  <span className="sr-only">
+                    {applies ? "Applies to" : "Does not apply to"}{" "}
+                  </span>
+                  <span
+                    className={applies ? "text-ink" : "text-muted line-through"}
+                  >
+                    {course.text}
+                  </span>
+                </li>
+              );
+            })}
           </ul>,
           document.body,
         )}

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { ChevronRightIcon } from "../../icons/chevron-right-icon";
 import { cn } from "../../utils/cn";
+import { ChevronRightIcon } from "../icons/chevron-right-icon";
 import { Checkbox } from "./checkbox";
 import type { FC } from "react";
 

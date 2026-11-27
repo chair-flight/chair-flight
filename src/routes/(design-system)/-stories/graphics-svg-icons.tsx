@@ -3,7 +3,10 @@ import { StoryBlock } from "./story-block";
 import type { FC } from "react";
 
 const ICON_MODULES = import.meta.glob<Record<string, FC<{ size?: number }>>>(
-  ["../../../libs/ui/icons/*-icon.tsx", "!../../../libs/ui/icons/svg-icon.tsx"],
+  [
+    "../../../libs/ui/components/icons/*-icon.tsx",
+    "!../../../libs/ui/components/icons/svg-icon.tsx",
+  ],
   { eager: true },
 );
 
@@ -22,7 +25,7 @@ export const GraphicsSvgIcons: FC = () => (
             "border-rule px-2 py-4",
           )}
         >
-          <Icon size={28} />
+          <Icon />
           <span className="text-center text-xs break-all text-muted">
             {name}
           </span>

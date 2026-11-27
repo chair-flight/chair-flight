@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Highlighted } from "../../../libs/ui/components/base/highlighted";
+import { Highlight } from "../../../libs/ui/components/base/highlight";
 import { Search } from "../../../libs/ui/components/elements/search";
 import { cn } from "../../../libs/ui/utils/cn";
 import { StoryBlock } from "./story-block";
@@ -73,7 +73,7 @@ export const ElementsSearch: FC = () => {
                       {item.id}
                     </span>
                     <span className="font-semibold">
-                      <Highlighted text={item.title} words={[trimmed]} />
+                      <Highlight highlight={[trimmed]}>{item.title}</Highlight>
                     </span>
                     <span className="ml-auto text-xs text-muted">
                       {item.detail}

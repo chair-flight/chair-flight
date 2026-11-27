@@ -15,8 +15,12 @@ export const BaseButtonCard: FC = () => (
             key={chapter.label}
             {...chapter}
             link={{
-              to: "/question-banks/$questionBank/chapters/$chapter",
-              params: { questionBank: "b737", chapter: chapter.label },
+              to: "/question-banks/$questionBank/content/$contentId",
+              params: {
+                questionBank: "b737",
+
+                contentId: chapter.label,
+              },
             }}
           />
         ))}

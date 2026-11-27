@@ -2,28 +2,25 @@ import { createFileRoute, notFound } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
 import { useState } from "react";
 import { z } from "zod/mini";
+import { questionBankNameSchema } from "../../libs/core/content/question-bank-name";
+import { questionBankRawQuestionAnnexAnnotationSchema as annotationSchema } from "../../libs/core/content/question-bank-raw-question-annex-annotation";
 import { getQuestionBankDb } from "../../libs/providers/question-bank-db";
 import { QuestionAnnexViewer } from "../../libs/ui/components/elements/question-annex-viewer";
 import { buildPageHead } from "../../libs/ui/utils/build-page-head";
 import type { FC } from "react";
 import type { QuestionBankRawQuestionAnnexAnnotation as Annotation } from "../../libs/core/content/question-bank-raw-question-annex-annotation";
 
-const QUESTION_BANKS = ["atpl_a", "ppl_a", "b737", "a320"] as const;
+const paramsSchema = z.object({
+  annex: z.string(),
+  questionBank: questionBankNameSchema,
+});
 
 const getAnnexPageData = createServerFn({ method: "GET" })
-  .validator(
-    z.object({
-      annex: z.string(),
-      questionBank: z.string(),
-    }),
-  )
+  .validator(paramsSchema)
   .handler(async ({ data }) => {
-    const questionBank = data.questionBank as "atpl_a";
-    if (!QUESTION_BANKS.includes(questionBank)) throw notFound();
-
     const db = getQuestionBankDb();
-    const index = await db.getQuestionBank(questionBank);
-    const annex = index.annexes.find((i) => i.id === data.annex);
+    const qb = await db.getQuestionBank(data.questionBank);
+    const annex = qb.annexes.find((i) => i.id === data.annex);
     if (!annex) throw notFound();
 
     return annex;
@@ -31,20 +28,15 @@ const getAnnexPageData = createServerFn({ method: "GET" })
 
 const AnnexPage: FC = () => {
   const annex = Route.useLoaderData();
-  const { annotated, editable } = Route.useSearch();
+  const search = Route.useSearch();
   const [drawings, setDrawings] = useState<Annotation[]>([]);
-
-  const href = annotated
-    ? `${annex.href}?annotated=${encodeURIComponent(
-        typeof annotated === "string" ? annotated : JSON.stringify(annotated),
-      )}`
-    : annex.href;
-  const viewerHref = editable ? `${href}#editable` : href;
 
   return (
     <main className="grid h-dvh place-items-center bg-canvas">
       <QuestionAnnexViewer
-        href={viewerHref}
+        href={annex.href}
+        editable={search.editable}
+        annotations={search.annotations}
         drawings={drawings}
         onDrawingsChange={setDrawings}
       />
@@ -57,22 +49,13 @@ export const Route = createFileRoute(
 )({
   component: AnnexPage,
   validateSearch: z.object({
-    annotated: z.catch(
-      z.optional(
-        z.union([
-          z.string(),
-          z.object({
-            width: z.optional(z.number()),
-            height: z.optional(z.number()),
-            annotations: z.optional(z.array(z.unknown())),
-          }),
-        ]),
-      ),
-      undefined,
-    ),
+    annotations: z.optional(z.array(annotationSchema)),
     editable: z.optional(z.boolean()),
   }),
-  loader: ({ params }) => getAnnexPageData({ data: params }),
+  loader: ({ params }) =>
+    getAnnexPageData({
+      data: paramsSchema.parse(params),
+    }),
   head: ({ params, loaderData }) =>
     buildPageHead({
       title: `Annex · ${params.annex}`,

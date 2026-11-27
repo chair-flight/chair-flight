@@ -1,7 +1,7 @@
-import { GraphicPropeller } from "../../../libs/ui/outlines/graphic-propeller";
-import { GraphicTurbofan } from "../../../libs/ui/outlines/graphic-turbofan";
-import { GraphicWing } from "../../../libs/ui/outlines/graphic-wing";
-import { GraphicYoke } from "../../../libs/ui/outlines/graphic-yoke";
+import { GraphicPropeller } from "../../../libs/ui/components/outlines/graphic-propeller";
+import { GraphicTurbofan } from "../../../libs/ui/components/outlines/graphic-turbofan";
+import { GraphicWing } from "../../../libs/ui/components/outlines/graphic-wing";
+import { GraphicYoke } from "../../../libs/ui/components/outlines/graphic-yoke";
 import { StoryBlock } from "./story-block";
 import type { FC } from "react";
 
