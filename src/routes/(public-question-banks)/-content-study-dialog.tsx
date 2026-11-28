@@ -72,8 +72,8 @@ export const ContentStudyDialog: FC<{
       });
       saveTest(test);
       await navigate({
-        to: "/question-banks/$questionBank/tests/$test",
-        params: { questionBank, test: test.id },
+        to: "/question-banks/$questionBank/tests/$testId",
+        params: { questionBank, testId: test.id },
       });
     } catch (cause) {
       setStudyError(

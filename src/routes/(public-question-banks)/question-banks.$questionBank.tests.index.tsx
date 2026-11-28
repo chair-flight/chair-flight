@@ -6,6 +6,7 @@ import {
   formatMillisecondsAsClock,
 } from "../../libs/base/format-values";
 import { questionBankNameSchema } from "../../libs/core/content/question-bank-name";
+import { getExamDeadline } from "../../libs/core/tests/get-exam-deadline";
 import { getTestScore } from "../../libs/core/tests/get-test-score";
 import { getQuestionBankDb } from "../../libs/providers/question-bank-db";
 import { Button } from "../../libs/ui/components/base/button";
@@ -18,7 +19,7 @@ import type { Test } from "../../libs/core/tests/test";
 
 const paramsSchema = z.object({ questionBank: questionBankNameSchema });
 
-const getTestsPageData = createServerFn({ method: "GET" })
+export const getTestsPageData = createServerFn({ method: "GET" })
   .validator(paramsSchema)
   .handler(async ({ data }) => {
     const { questionBank } = data;
@@ -26,16 +27,13 @@ const getTestsPageData = createServerFn({ method: "GET" })
     const index = await getQuestionBankDb().getQuestionBank(questionBank);
 
     return {
-      breadcrumbs: [
-        {
-          label: index.shortTitle,
-          link: {
-            to: "/question-banks/$questionBank" as const,
-            params: { questionBank },
-          },
+      bankBreadcrumb: {
+        label: index.shortTitle,
+        link: {
+          to: "/question-banks/$questionBank" as const,
+          params: { questionBank },
         },
-        { label: "Tests" },
-      ],
+      },
     };
   });
 
@@ -54,8 +52,9 @@ const describeTest = (test: Test) => {
   const remaining =
     test.mode === "exam"
       ? ` · ${formatMillisecondsAsClock(
-          Math.max(test.durationInMs - test.timeSpentInMs, 0),
-          test.durationInMs > 60 * 60 * 1000,
+          Math.max(0, Math.ceil((getExamDeadline(test) - Date.now()) / 1000)) *
+            1000,
+          test.durationInMs >= 60 * 60 * 1000,
         )} left`
       : "";
   return `${mode} · ${answered}/${test.questions.length} answered${remaining} · ${date}`;
@@ -63,7 +62,7 @@ const describeTest = (test: Test) => {
 
 const TestsPage: FC = () => {
   const { questionBank } = paramsSchema.parse(Route.useParams());
-  const { breadcrumbs } = Route.useLoaderData();
+  const { bankBreadcrumb } = Route.useLoaderData();
   const { tests } = useTests();
   const bankTests = tests
     .filter((test) => test.questionBank === questionBank)
@@ -71,7 +70,10 @@ const TestsPage: FC = () => {
 
   return (
     <Public>
-      <Public.Header showThemeToggle breadcrumbs={breadcrumbs} />
+      <Public.Header
+        showThemeToggle
+        breadcrumbs={[bankBreadcrumb, { label: "Tests" }]}
+      />
       <Public.Main>
         <div className="mx-auto flex w-full max-w-xl flex-col gap-4 p-4 sm:p-8">
           <div className="flex items-center justify-between gap-4">
@@ -93,12 +95,18 @@ const TestsPage: FC = () => {
               {bankTests.map((test) => (
                 <ButtonCard
                   key={test.id}
-                  label={test.status === "finished" ? "Review" : "Continue"}
+                  label={
+                    test.status === "finished"
+                      ? "Review"
+                      : test.mode === "exam"
+                        ? "Open exam"
+                        : "Continue"
+                  }
                   title={test.title}
                   subtitle={describeTest(test)}
                   link={{
-                    to: "/question-banks/$questionBank/tests/$test",
-                    params: { questionBank, test: test.id },
+                    to: "/question-banks/$questionBank/tests/$testId",
+                    params: { questionBank, testId: test.id },
                   }}
                 />
               ))}

@@ -1,4 +1,5 @@
-import { TestReview } from "../../../libs/ui/components/tests/test-review";
+import { getTestScore } from "../../../libs/core/tests/get-test-score";
+import { TestReviewer } from "../../../libs/ui/components/tests/test-reviewer";
 import { STORY_TEST_FINISHED } from "../-mock-data/design-system-mock-data";
 import { StoryBlock } from "./story-block";
 import type { FC } from "react";
@@ -15,11 +16,22 @@ const QUESTION_LEARNING_OBJECTIVES = Object.fromEntries(
   ]),
 );
 
-export const TestsTestReview: FC = () => (
+const TEST = {
+  ...STORY_TEST_FINISHED,
+  questions: STORY_TEST_FINISHED.questions.map((question, index) => ({
+    ...question,
+    flagged: index === 2 || index === 4,
+  })),
+};
+const RESULT = getTestScore(TEST);
+
+export const TestsTestReviewer: FC = () => (
   <StoryBlock title="Finished test">
     <div className="overflow-hidden rounded-lg border border-rule">
-      <TestReview
-        test={STORY_TEST_FINISHED}
+      <TestReviewer
+        test={TEST}
+        result={RESULT}
+        onOpenQuestion={() => undefined}
         chapters={CHAPTERS}
         questionLearningObjectives={QUESTION_LEARNING_OBJECTIVES}
       />

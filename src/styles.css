@@ -96,6 +96,22 @@
   --animate-spin-once: spin-once 0.5s ease-in-out;
   --animate-nudge: nudge 1.6s ease-in-out infinite;
 
+  --animate-test-complete: test-complete 650ms 300ms ease-out;
+  --animate-test-exit-pulse: test-exit-pulse 1.6s ease-in-out infinite;
+
+  @keyframes test-exit-pulse {
+    50% {
+      transform: scale(1.16);
+      filter: brightness(1.24);
+    }
+  }
+
+  @keyframes test-complete {
+    40% {
+      filter: brightness(1.5);
+    }
+  }
+
   @keyframes nudge {
     0%,
     100% {

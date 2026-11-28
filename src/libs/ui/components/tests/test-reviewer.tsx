@@ -1,17 +1,15 @@
-import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import {
   formatEpochAsDate,
   formatMillisecondsAsClock,
 } from "../../../base/format-values";
-import { getTestScore } from "../../../core/tests/get-test-score";
 import { cn } from "../../utils/cn";
 import { Markdown } from "../base/markdown";
 import { CheckIcon } from "../icons/check-icon";
 import { ChevronLeftIcon } from "../icons/chevron-left-icon";
 import { CloseIcon } from "../icons/close-icon";
+import { FlagIcon } from "../icons/flag-icon";
 import type { FC } from "react";
-import type { Test } from "../../../core/tests/test";
 
 const ScoreCircle: FC<{ score: number; passed: boolean }> = ({
   score,
@@ -79,12 +77,13 @@ const AnswerBox: FC<{ kind: "correct" | "wrong"; text: string }> = ({
   </div>
 );
 
-type View = "statistics" | "all" | "wrong" | "correct";
+type View = "statistics" | "all" | "wrong" | "correct" | "flagged";
 
 const VIEWS: { value: View; label: string }[] = [
   { value: "all", label: "All" },
   { value: "wrong", label: "Wrong" },
   { value: "correct", label: "Correct" },
+  { value: "flagged", label: "Flagged" },
   { value: "statistics", label: "Chapters" },
 ];
 
@@ -92,25 +91,56 @@ const ACTIVE_CLASS_NAMES: Record<View, string> = {
   all: "bg-ink text-canvas",
   wrong: "bg-danger text-white",
   correct: "bg-success text-white",
+  flagged: "bg-brand text-white",
   statistics: "bg-ink text-canvas",
 };
 
-export const TestReview: FC<{
-  test: Test;
+type ReviewedQuestion = {
+  questionId: string;
+  templateId: string;
+  question: string;
+  explanation: string;
+  selectedOptionId?: string;
+  correctOptionId: string;
+  flagged?: boolean;
+  options: { id: string; text: string }[];
+};
+
+const isCorrect = (question: ReviewedQuestion) =>
+  question.selectedOptionId === question.correctOptionId;
+
+export const TestReviewer: FC<{
+  test: {
+    finishedAtEpochMs: number | null;
+    timeSpentInMs: number;
+    questions: ReviewedQuestion[];
+  };
+  result: {
+    correctAnswers: number;
+    score: number;
+    passed: boolean;
+  };
   chapters?: { id: string; text: string }[];
   questionLearningObjectives?: Record<string, string[]>;
   onAnnexClick?: (href: string) => void;
-}> = ({ test, chapters, questionLearningObjectives, onAnnexClick }) => {
-  const { correctAnswers, score, passed } = getTestScore(test);
+  onOpenQuestion: (index: number) => void;
+}> = ({
+  test,
+  result,
+  chapters,
+  questionLearningObjectives,
+  onAnnexClick,
+  onOpenQuestion,
+}) => {
+  const { correctAnswers, score, passed } = result;
   const [view, setView] = useState<View>("all");
-  const isCorrect = (question: Test["questions"][number]) =>
-    question.selectedOptionId === question.correctOptionId;
   const wrongAnswers = test.questions.length - correctAnswers;
   const counts: Record<View, number> = {
     statistics: 0,
     all: test.questions.length,
     wrong: wrongAnswers,
     correct: correctAnswers,
+    flagged: test.questions.filter(({ flagged }) => flagged).length,
   };
   const [openChapterId, setOpenChapterId] = useState<string>();
   const getChapterQuestions = (chapterId: string) =>
@@ -139,32 +169,36 @@ export const TestReview: FC<{
 
   return (
     <div className="mx-auto flex w-full max-w-3xl flex-col px-4 sm:px-8">
-      <div className="flex flex-col gap-4 pt-4 pb-2">
-        <div className="flex items-center gap-5">
-          <ScoreCircle score={score} passed={passed} />
-          <div className="flex min-w-0 flex-col gap-1">
-            <span
-              className={cn(
-                "text-3xl font-bold",
-                passed ? "text-success" : "text-danger",
-              )}
-            >
-              {passed ? "Passed" : "Failed"}
-            </span>
-            <span className="text-base font-semibold">
-              {correctAnswers} of {test.questions.length} correct
-            </span>
-            <span className="text-xs text-muted">
-              {formatEpochAsDate(test.finishedAtEpochMs ?? 0)} ·{" "}
-              {formatMillisecondsAsClock(test.timeSpentInMs)}
-            </span>
-          </div>
+      <div
+        className={cn(
+          "mt-4 flex items-center gap-3 rounded-xl border border-rule",
+          "bg-paper p-3 sm:gap-5 sm:p-5",
+        )}
+      >
+        <ScoreCircle score={score} passed={passed} />
+        <div className="flex min-w-0 flex-col gap-1">
+          <h1
+            className={cn(
+              "m-0 text-3xl font-bold",
+              passed ? "text-success" : "text-danger",
+            )}
+          >
+            {passed ? "Passed" : "Failed"}
+          </h1>
+          <span className="text-base font-semibold">
+            {correctAnswers} of {test.questions.length} correct
+          </span>
+          <span className="text-xs text-muted">
+            {formatEpochAsDate(test.finishedAtEpochMs ?? 0)} ·{" "}
+            {formatMillisecondsAsClock(test.timeSpentInMs)}
+          </span>
         </div>
       </div>
-      <div className="sticky -top-px z-10 bg-canvas pt-[calc(0.5rem+1px)] pb-2">
+      <div className="sticky -top-px z-10 pt-[calc(0.5rem+1px)] pb-2">
         <div
           className={cn(
-            "grid grid-cols-4 gap-1 rounded-xl border border-rule bg-paper",
+            "grid grid-flow-col auto-cols-fr gap-1 rounded-xl border border-rule",
+            "bg-paper",
             "p-1",
           )}
         >
@@ -254,6 +288,13 @@ export const TestReview: FC<{
             </span>
           </button>
         )}
+        {view !== "statistics" && counts[view] === 0 && (
+          <p className="m-0 text-sm text-muted">
+            {view === "flagged"
+              ? "No flagged questions."
+              : "No questions to show."}
+          </p>
+        )}
         {(view !== "statistics" || openChapter) &&
           test.questions.map((question, index) => {
             const correct = isCorrect(question);
@@ -262,6 +303,7 @@ export const TestReview: FC<{
             }
             if (view === "wrong" && correct) return null;
             if (view === "correct" && !correct) return null;
+            if (view === "flagged" && !question.flagged) return null;
             const correctOption = question.options.find(
               (option) => option.id === question.correctOptionId,
             );
@@ -272,26 +314,38 @@ export const TestReview: FC<{
               <section
                 key={question.questionId}
                 className={cn(
-                  "flex flex-col gap-3 rounded-lg border border-l-10",
-                  "border-rule",
+                  "relative flex flex-col gap-3 rounded-lg border border-l-10",
+                  "border-rule hover:border-y-accent hover:border-r-accent",
+                  "[&_a]:relative [&_a]:z-10 [&_button[aria-label='Open annex']]:relative",
+                  "[&_button[aria-label='Open annex']]:z-10",
                   "bg-paper p-4",
                   correct ? "border-l-success" : "border-l-danger",
                 )}
               >
                 <div className="flex items-center gap-3 text-xs text-muted">
                   <span className="font-semibold">{index + 1}</span>
-                  <Link
-                    to="/question-banks/$questionBank/questions/$question"
-                    params={{
-                      questionBank: test.questionBank,
-                      question: question.templateId,
-                    }}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-accent"
+                  <button
+                    type="button"
+                    aria-label={`Review question ${index + 1}`}
+                    className={cn(
+                      "cursor-pointer border-0 bg-transparent p-0 text-xs",
+                      "text-accent underline after:absolute after:inset-0",
+                      "after:rounded-lg focus-visible:after:ring-2",
+                      "focus-visible:after:ring-accent",
+                    )}
+                    onClick={() => onOpenQuestion(index)}
                   >
                     {question.templateId}
-                  </Link>
+                  </button>
+                  {question.flagged && (
+                    <span
+                      aria-label="Flagged"
+                      role="img"
+                      className="text-accent"
+                    >
+                      <FlagIcon />
+                    </span>
+                  )}
                 </div>
                 <Markdown renderAnnexes onAnnexClick={onAnnexClick}>
                   {question.question}

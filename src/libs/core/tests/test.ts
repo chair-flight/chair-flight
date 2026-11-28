@@ -16,6 +16,7 @@ export type Test = {
     questionId: string;
     templateId: string;
     selectedOptionId?: string;
+    flagged?: boolean;
     correctOptionId: string;
     seed: string;
     variant: number;

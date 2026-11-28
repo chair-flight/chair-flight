@@ -98,7 +98,7 @@ export const QuestionViewer: FC<{
   annexModal: { open: boolean; onClose: () => void };
   annexViewer: ComponentProps<typeof QuestionAnnexViewer>;
   onAnnexClick?: (href: string) => void;
-  goBack?: { onClick: () => void };
+  goBack?: { label?: string; onClick: () => void };
   linkToQuestion?: LinkProps;
   shuffle?: {
     onShuffle: () => void;
@@ -108,6 +108,7 @@ export const QuestionViewer: FC<{
     currentQuestionIndex: number;
     totalQuestions: number;
     statuses?: ("unanswered" | "answered" | "correct" | "wrong")[];
+    flags?: (boolean | undefined)[];
     onNavigation: (target: "previous" | "next" | number) => void;
   };
   information?: {
@@ -234,7 +235,7 @@ export const QuestionViewer: FC<{
             <>
               <ButtonIcon
                 icon={LogOutIcon}
-                label="Back to search"
+                label={goBack.label ?? "Back to search"}
                 className="max-lg:w-7.75 [&_svg]:-scale-x-100"
                 onClick={goBack.onClick}
               />
@@ -500,11 +501,11 @@ export const QuestionViewer: FC<{
                       <button
                         key={index}
                         type="button"
-                        aria-label={`Question ${index + 1}`}
+                        aria-label={`Question ${index + 1}${navigation.flags?.[index] ? ", flagged" : ""}`}
                         aria-current={index === currentQuestionIndex}
                         className={cn(
                           "flex h-6 cursor-pointer items-center justify-center",
-                          "rounded border p-0 font-mono text-xs tabular-nums",
+                          "relative rounded border p-0 font-mono text-xs tabular-nums",
                           navigation.statuses?.[index] === "correct" &&
                             "border-success bg-success-soft text-ink",
                           navigation.statuses?.[index] === "wrong" &&
@@ -526,6 +527,12 @@ export const QuestionViewer: FC<{
                           navigation.onNavigation(index);
                         }}
                       >
+                        {navigation.flags?.[index] && (
+                          <span
+                            aria-hidden="true"
+                            className="absolute top-1 left-1 size-1.5 rounded-full bg-accent"
+                          />
+                        )}
                         {index + 1}
                       </button>
                     ))}

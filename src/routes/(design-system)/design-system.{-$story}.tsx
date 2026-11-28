@@ -31,7 +31,6 @@ import { BaseTooltip } from "./-stories/base-tooltip";
 import { ContainersApp } from "./-stories/containers-app";
 import { ContainersLandingPage } from "./-stories/containers-landing-page";
 import { ContainersPublic } from "./-stories/containers-public";
-import { ContainersTest } from "./-stories/containers-test";
 import { ElementsChapterSelection } from "./-stories/elements-chapter-selection";
 import { ElementsLearningObjectivesTable } from "./-stories/elements-learning-objectives-table";
 import { ElementsQuestionAnnexViewer } from "./-stories/elements-question-annex-viewer";
@@ -51,7 +50,8 @@ import { OutlinesSvgGraphics } from "./-stories/outlines-svg-graphics";
 import { OutlinesSvgSubject } from "./-stories/outlines-svg-subject";
 import { TestsTestMaker } from "./-stories/tests-test-maker";
 import { TestsTestNotFound } from "./-stories/tests-test-not-found";
-import { TestsTestReview } from "./-stories/tests-test-review";
+import { TestsTestReviewer } from "./-stories/tests-test-reviewer";
+import { TestsTestViewer } from "./-stories/tests-test-viewer";
 import type { FC } from "react";
 
 const GROUPS: {
@@ -287,12 +287,6 @@ const GROUPS: {
         about: "Title hero, explore prompt and full-height sections.",
         Story: ContainersLandingPage,
       },
-      {
-        id: "test",
-        name: "Test",
-        about: "A full-page study or exam session with a fixed header.",
-        Story: ContainersTest,
-      },
     ],
   },
   {
@@ -312,10 +306,16 @@ const GROUPS: {
         Story: TestsTestNotFound,
       },
       {
-        id: "test-review",
-        name: "Test review",
-        about: "The result of a finished test.",
-        Story: TestsTestReview,
+        id: "test-viewer",
+        name: "Test viewer",
+        about: "A study or exam session with question flags and progress.",
+        Story: TestsTestViewer,
+      },
+      {
+        id: "test-reviewer",
+        name: "Test reviewer",
+        about: "The results and question filters of a finished test.",
+        Story: TestsTestReviewer,
       },
     ],
   },
