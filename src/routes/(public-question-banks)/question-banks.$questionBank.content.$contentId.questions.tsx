@@ -1,6 +1,5 @@
 import { createFileRoute, getRouteApi } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
-import { staticFunctionMiddleware } from "@tanstack/start-static-server-functions";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { z } from "zod/mini";
 import { formatQuestionPreviewAsMarkdown } from "../../libs/base/format-values";
@@ -39,7 +38,6 @@ const paramsSchema = z.object({
 });
 
 const getContentQuestions = createServerFn({ method: "GET" })
-  .middleware([staticFunctionMiddleware])
   .validator(paramsSchema)
   .handler(async ({ data }) => {
     const { questionBank, contentId } = data;

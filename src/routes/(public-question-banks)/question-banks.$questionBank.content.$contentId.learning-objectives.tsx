@@ -1,6 +1,5 @@
 import { createFileRoute, getRouteApi } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
-import { staticFunctionMiddleware } from "@tanstack/start-static-server-functions";
 import { useMemo } from "react";
 import { z } from "zod/mini";
 import { questionBankNameSchema } from "../../libs/core/content/question-bank-name";
@@ -22,7 +21,6 @@ const paramsSchema = z.object({
 });
 
 const getContentLearningObjectives = createServerFn({ method: "GET" })
-  .middleware([staticFunctionMiddleware])
   .validator(paramsSchema)
   .handler(async ({ data }) => {
     const { questionBank, contentId } = data;

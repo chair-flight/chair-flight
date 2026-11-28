@@ -6,7 +6,6 @@ import {
   useMatchRoute,
 } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
-import { staticFunctionMiddleware } from "@tanstack/start-static-server-functions";
 import { useEffect } from "react";
 import { z } from "zod/mini";
 import { questionBankNameSchema } from "../../libs/core/content/question-bank-name";
@@ -40,7 +39,6 @@ const paramsSchema = z.object({
 });
 
 const getContentPageData = createServerFn({ method: "GET" })
-  .middleware([staticFunctionMiddleware])
   .validator(paramsSchema)
   .handler(async ({ data }) => {
     const { questionBank, contentId } = data;
